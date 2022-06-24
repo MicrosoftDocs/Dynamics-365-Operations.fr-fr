@@ -1,6 +1,6 @@
 ---
 title: Prix fixe de réception
-description: Cette rubrique explique comment configurer et utiliser des prix fixes de réception dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article explique comment configurer et utiliser des prix fixes de réception dans Microsoft Dynamics 365 Supply Chain Management.
 author: raprofit
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 8e26d84ddc309249d8bd6e54987ad3ae8eed68f0
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2630952f395d1a18202698b4d73b67ef4b760194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907578"
 ---
 # <a name="fixed-receipt-price"></a>Prix fixe de réception
 
 [!include [banner](../includes/banner.md)]
 
-**Prix fixe de réception** est une option que vous pouvez sélectionner sur un groupe de modèles d’articles lorsque vous utilisez un modèle de stock autre que *Coût standard* ou *Moyenne pondérée*. Dans les premières versions de Microsoft Dynamics AX, cette option s’appelait **Coût standard**. Elle a été renommée **Prix fixe de réception** lorsque le nouveau modèle de stock de coût standard a été introduit dans Dynamics AX 2012. Cette rubrique explique comment configurer et utiliser des prix fixes de réception dans Dynamics 365 Supply Chain Management.
+**Prix fixe de réception** est une option que vous pouvez sélectionner sur un groupe de modèles d’articles lorsque vous utilisez un modèle de stock autre que *Coût standard* ou *Moyenne pondérée*. Dans les premières versions de Microsoft Dynamics AX, cette option s’appelait **Coût standard**. Elle a été renommée **Prix fixe de réception** lorsque le nouveau modèle de stock de coût standard a été introduit dans Dynamics AX 2012. Cet article explique comment configurer et utiliser des prix fixes de réception dans Dynamics 365 Supply Chain Management.
 
 ## <a name="about-fixed-receipt-prices"></a>À propos des prix fixes de réception
 

@@ -1,6 +1,6 @@
 ---
 title: Assistant Paramétrage de planification (contient une vidéo)
-description: Cette rubrique décrit comment exécuter l’assistant de configuration de la planification principale pour configurer la planification principale.
+description: Cet article décrit comment exécuter l’assistant de configuration de la planification principale pour configurer la planification principale.
 author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875331"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistant Paramétrage de planification
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des instructions pour l’**Assistant Paramétrage de planification**. Elle explique comment des suggestions de paramètre sont calculées et fournit également des exemples qui indiquent comment les différentes sociétés paramètrent la planification, en fonction de leurs besoins commerciaux.
+Cet article fournit des instructions pour l’**Assistant Paramétrage de planification**. Elle explique comment des suggestions de paramètre sont calculées et fournit également des exemples qui indiquent comment les différentes sociétés paramètrent la planification, en fonction de leurs besoins commerciaux.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 

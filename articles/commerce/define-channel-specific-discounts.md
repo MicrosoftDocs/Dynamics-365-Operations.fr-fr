@@ -1,6 +1,6 @@
 ---
 title: Définir les remises spécifiques à un canal
-description: Les détaillants définissent souvent des remises dans différents canaux. Cette rubrique passe en revue les concepts que vous devez connaître pour créer une remise à un canal spécifique.
+description: Les détaillants définissent souvent des remises dans différents canaux. Cet article passe en revue les concepts que vous devez connaître pour créer une remise à un canal spécifique.
 author: scott-tucker
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 14b6f8f4a7d344111718fad94418bc3dbb5c9b1e113c0fd613350c49a2511d4f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ceb5c8e47288e7ffdd3808cd8d60112f81ce314
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873408"
 ---
 # <a name="define-channel-specific-discounts"></a>Définir les remises spécifiques à un canal
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique passe en revue les concepts que vous devez connaître pour créer une remise à un canal spécifique.
+Cet article passe en revue les concepts que vous devez connaître pour créer une remise à un canal spécifique.
 
 ## <a name="channel-specific-discounts"></a>Remises spécifiques à un canal
 

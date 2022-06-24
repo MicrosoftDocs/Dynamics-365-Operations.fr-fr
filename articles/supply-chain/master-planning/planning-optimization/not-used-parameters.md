@@ -1,6 +1,6 @@
 ---
 title: Paramètres non utilisés par Planning Optimization
-description: Cette rubrique répertorie les paramètres que Planning Optimization ne prend pas en compte actuellement lors de son fonctionnement.
+description: Cet article répertorie les paramètres que le service Optimisation de la planification ne prend pas en compte actuellement lors de son fonctionnement.
 author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3791ac804b78a20d0051881a83cb075e56ec8639
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907346"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Paramètres non utilisés par Planning Optimization
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique répertorie les paramètres que Planning Optimization ne prend pas en compte actuellement lors de son fonctionnement. Le service de planification peut ignorer un paramètre car, par exemple, les fonctionnalités associées ne sont pas encore prises en charge. D’autre part, le paramètre peut être devenu obsolète en raison de changements fonctionnels.
+Cet article répertorie les paramètres que le service Optimisation de la planification ne prend pas en compte actuellement lors de son fonctionnement. Le service de planification peut ignorer un paramètre car, par exemple, les fonctionnalités associées ne sont pas encore prises en charge. D’autre part, le paramètre peut être devenu obsolète en raison de changements fonctionnels.
 
 Les sections suivantes répertorient les paramètres que Planning Optimization n’utilise pas sur des pages spécifiques. Elles expliquent également pourquoi chaque paramètre n’est pas utilisé.
 

@@ -1,6 +1,6 @@
 ---
 title: Paramètres de date et d’heure utilisés par l’optimisation de la planification
-description: Cette rubrique fournit des informations sur les paramètres de date et d’heure que l’optimisation de la planification utilise pendant son fonctionnement.
+description: Cet article fournit des informations sur les paramètres de date et d’heure que l’optimisation de la planification utilise pendant son fonctionnement.
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885897"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Paramètres de date et d’heure utilisés par l’optimisation de la planification
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les paramètres de date et d’heure que l’optimisation de la planification utilise pendant son fonctionnement.
+Cet article fournit des informations sur les paramètres de date et d’heure que l’optimisation de la planification utilise pendant son fonctionnement.
 
 Alors que le moteur de planification principal intégré utilise des dates de transaction dans tous les calculs, l’optimisation de la planification fonctionne avec des valeurs de date et d’heure qui sont converties en dates. Cette différence de comportement peut conduire à des situations dans lesquelles, par exemple, les transactions de prévision créées à minuit le jour de l’exécution de la planification principale ne sont pas incluses, car l’optimisation de la planification considère qu’elles ont été créées avant la date actuelle.
 

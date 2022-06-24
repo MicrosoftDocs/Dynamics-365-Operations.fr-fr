@@ -1,6 +1,6 @@
 ---
 title: Commandes d’entrepôt pour les unités d’échelle Cloud et périphérie
-description: Cette rubrique fournit des informations sur la capacité de commandes d’entrepôt dans le cadre de la charge de travail de l’unité d’échelle d’entrepôt.
+description: Cet article fournit des informations sur la capacité de commandes d’entrepôt dans le cadre de la charge de travail de l’unité d’échelle d’entrepôt.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893524"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Commandes d’entrepôt pour les unités d’échelle Cloud et périphérie
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Toutes les fonctionnalités d’entreprise ne sont pas entièrement prises en charge dans la version préliminaire publique lorsque des charges de travail d’unité d’échelle sont utilisées. Si vous utilisez des unités d’échelle, veillez à n’utiliser que les processus que cette rubrique décrit explicitement comme pris en charge.
+> Toutes les fonctionnalités d’entreprise ne sont pas entièrement prises en charge dans la version préliminaire publique lorsque des charges de travail d’unité d’échelle sont utilisées. Si vous utilisez des unités d’échelle, veillez à n’utiliser que les processus que cet article décrit explicitement comme pris en charge.
 
 ## <a name="what-are-warehouse-orders"></a>Que sont les commandes d’entrepôt ?
 

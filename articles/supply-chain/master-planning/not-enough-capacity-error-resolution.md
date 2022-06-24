@@ -1,6 +1,6 @@
 ---
 title: Correction de l’erreur du moteur de planification « Capacité suffisante introuvable » et de la capacité finie
-description: Cette rubrique fournit des informations sur les raisons de l’impossibilité de programmer l’ordre de fabrication %1 et sur les moyens de résolution du problème. Capacité suffisante introuvable ».
+description: Cet article fournit des informations sur les raisons de l’impossibilité de programmer l’ordre de fabrication %1 et sur les moyens de résolution du problème. Capacité suffisante introuvable ».
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891029"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Correction de l’erreur du moteur de planification « Capacité suffisante introuvable »
 
@@ -26,7 +26,7 @@ Lorsque vous exécutez la planification, vous pouvez recevoir le message d’err
 
 > Impossible de planifier l’ordre de fabrication %1. Capacité suffisante introuvable.
 
-Il existe plusieurs raisons pour lesquelles le moteur de planification peut échouer et émettre ce message d’erreur. Cette rubrique fournit des instructions qui vous aideront à trouver la cause première de l’erreur, puis à l’atténuer.
+Il existe plusieurs raisons pour lesquelles le moteur de planification peut échouer et émettre ce message d’erreur. Cet article fournit des instructions qui vous aideront à trouver la cause première de l’erreur, puis à l’atténuer.
 
 ## <a name="review-the-applicable-resources"></a>Passer en revue les ressources concernées
 

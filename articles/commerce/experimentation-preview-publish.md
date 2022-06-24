@@ -1,30 +1,24 @@
 ---
 title: Afficher un aperçu et publier une expérience
-description: Cette rubrique décrit comment afficher un aperçu et publier une expérience à partir de Dynamics 365 Commerce.
+description: Cet article décrit comment afficher un aperçu et publier une expérience à partir de Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740381"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946131"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Afficher un aperçu et publier une expérience
 
-Cette rubrique décrit comment afficher un aperçu et publier votre expérience dans Dynamics 365 Commerce après avoir [connecté votre expérience et modifié vos variantes](experimentation-connect-edit.md). Le diagramme suivant montre toutes les étapes impliquées dans la configuration et l’exécution d’une expérience sur un site web d’e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d’autres rubriques.
+Cet article décrit comment afficher un aperçu et publier votre expérience dans Dynamics 365 Commerce après avoir [connecté votre expérience et modifié vos variantes](experimentation-connect-edit.md). Le diagramme suivant montre toutes les étapes impliquées dans la configuration et l’exécution d’une expérience sur un site web d’e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d’autres articles.
 
 [ ![Expérimentation parcours utilisateur - Afficher un aperçu et publier.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -51,6 +45,10 @@ Lorsque vous utilisez des groupes de publication avec des expériences, vous dev
 - Les expériences connectées aux pages d’un site en ligne ne sont pas disponibles pour les pages des groupes de publication, et inversement. De même, les pages sur lesquelles des expériences sont exécutées dans un site en ligne ne sont pas disponibles pour d’autres expériences dans des groupes de publication, et inversement.
 - Lorsque vous publiez ou planifiez un groupe de publication, tout le contenu du groupe de publication est publié, qu’il existe ou non une expérience associée au groupe de publication.
 - Étant donné qu’un groupe de publication persiste après sa publication sur un site en ligne, les expériences du groupe de publication persistent également. Par conséquent, vous ne pourrez pas associer d’autres expériences à la même page ou au même fragment. Pour éviter cette limitation, supprimez tous les groupes de publication avec des expériences persistantes. De même, si vous souhaitez supprimer une expérience dans un site en ligne qui existe également dans un groupe de publication, supprimez-la d’abord du groupe de publication.
+
+### <a name="force-variations-for-testing"></a>Variations de force pour les tests
+
+Une fois le test en ligne, vous pouvez ajouter l'ID du test et l'ID de la variante à l'URL de la page par défaut pour forcer une variante à des fins de test ou d'automatisation. Par exemple, si l'URL de la page par défaut est `https://fabrikam.com/modern/homepage`, vous pouvez forcer une variation avec une URL telle que `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464`. Vous pouvez obtenir l'ID du test et l'ID de la variante de votre test à partir de l'URL d'aperçu dans l'expérience **Aperçu** expliquée ci-dessus.
 
 ## <a name="previous-step"></a>Étape précédente
 [Connecter et modifier une expérience](experimentation-connect-edit.md)

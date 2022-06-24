@@ -1,6 +1,6 @@
 ---
 title: Espace de travail de collaboration fournisseur sur téléphone mobile
-description: Cette rubrique fournit des informations sur l’espace de travail mobile Collaboration du fournisseur. Cet espace de travail permet aux fournisseurs d’être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
+description: Cet article fournit des informations sur l’espace de travail mobile Collaboration du fournisseur. Cet espace de travail permet aux fournisseurs d’être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851650"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espace de travail de collaboration fournisseur sur téléphone mobile
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Cette rubrique fournit des informations sur l’espace de travail mobile **Collaboration du fournisseur**. Cet espace de travail permet aux fournisseurs d’être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
+Cet article fournit des informations sur l’espace de travail mobile **Collaboration du fournisseur**. Cet espace de travail permet aux fournisseurs d’être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
 
 Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance et Opérations (Dynamics 365).
 
@@ -97,7 +97,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Updat
 </tr>
 <tr class="even">
 <td>L’utilisateur fournisseur doit avoir accès à l’interface Web de collaboration du fournisseur dans le client Web et paramétrer un utilisateur de collaboration du fournisseur.</td><td>Acheteurs et administrateur système</td>
-<td>Suivez les étapes décrites dans les rubriques suivantes pour paramétrer et utiliser l’interface Web de collaboration du fournisseur.
+<td>Suivez les étapes décrites dans les articles suivants pour paramétrer et utiliser l’interface Web de collaboration du fournisseur.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Utiliser la Collaboration du fournisseur pour travailler avec des fournisseurs externes</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur</a></li>

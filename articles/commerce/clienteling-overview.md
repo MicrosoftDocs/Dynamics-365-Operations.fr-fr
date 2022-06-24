@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la gestion des clients
-description: Cette rubrique fournit une vue d’ensemble des nouvelles fonctionnalités de gestion des clients qui sont disponibles dans l’application.
+description: Cet article fournit une vue d’ensemble des nouvelles fonctionnalités de gestion des clients qui sont disponibles dans l’application.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885609"
 ---
 # <a name="clienteling-overview"></a>Vue d’ensemble de la gestion des clients
 
@@ -81,7 +81,7 @@ Pour activer la fonctionnalité de gestion des clients dans votre environnement,
     - Définissez l’ordre d’affichage pour ces attributs. Cet ordre d’affichage détermine quels attributs doivent être affichés sur la fiche client dans le registre de clients. Un ordre d’affichage 1 est considéré supérieur à un ordre d’affichage 2. Par conséquent, l’attribut qui a un ordre d’affichage 1 sera affiché avant l’attribut avec un ordre d’affichage 2.
 
     > [!NOTE]
-    > Vous pouvez mettre à disposition Customer Insights depuis la même page. Toutefois, un ID d’application Azure et un secret doivent être créés, à des fins d’authentification. (Pour en savoir plus sur les exigences, voir la section [Activer l’intégration de Customer Insights à Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) ultérieurement dans cette rubrique.) Si Customer Insights est activé, et si vous sélectionnez une ou plusieurs mesures qui doivent être affichées sur la fiche client, ces mesures seront affichées tout d’abord. Ensuite, les groupes d’attribut du registre de clients seront affichés, selon l’ordre d’affichage. Par exemple, si vous sélectionnez deux mesures depuis Customer Insights, ces deux mesures et un attribut de registre de clients seront affichés sur la fiche client. (L’attribut du registre de clients qui est affiché sera l’attribut qui a l’ordre d’affichage le plus élevé.)
+    > Vous pouvez mettre à disposition Customer Insights depuis la même page. Toutefois, un ID d’application Azure et un secret doivent être créés, à des fins d’authentification. (Pour en savoir plus sur les exigences, voir la section [Activer l’intégration de Customer Insights à Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) ultérieurement dans cet article.) Si Customer Insights est activé, et si vous sélectionnez une ou plusieurs mesures qui doivent être affichées sur la fiche client, ces mesures seront affichées tout d’abord. Ensuite, les groupes d’attribut du registre de clients seront affichés, selon l’ordre d’affichage. Par exemple, si vous sélectionnez deux mesures depuis Customer Insights, ces deux mesures et un attribut de registre de clients seront affichés sur la fiche client. (L’attribut du registre de clients qui est affiché sera l’attribut qui a l’ordre d’affichage le plus élevé.)
 
 6. Sur la page **Paramètres Commerce**, sous l’onglet **Gestion des clients**, dans le champ **Groupe d’attributs du registre de clients**, sélectionnez le groupe d’attributs que vous venez de créer.
 

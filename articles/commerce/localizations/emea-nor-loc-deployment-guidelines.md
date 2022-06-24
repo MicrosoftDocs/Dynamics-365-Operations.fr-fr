@@ -1,6 +1,6 @@
 ---
 title: Instructions de déploiement de caisses enregistreuses pour la Norvège (héritées)
-description: Cette rubrique est un guide de déploiement qui montre comment activer la localisation Microsoft Dynamics 365 Commerce pour la Norvège.
+description: Cet article est un guide de déploiement qui montre comment activer la localisation Microsoft Dynamics 365 Commerce pour la Norvège.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,27 +9,27 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 019bac01abdc0b2e16718c08953b44fbccef83a3
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894460"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Instructions de déploiement de caisses enregistreuses pour la Norvège (héritées)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique est un guide de déploiement qui montre comment activer la localisation Microsoft Dynamics 365 Commerce pour la Norvège. La localisation consiste en plusieurs extensions des composants Commerce. Par exemple, les extensions vous permettent d’imprimer des champs personnalisés sur les reçus, d’enregistrer des événements d’audit supplémentaires, des transactions de vente et des transactions de paiement dans le point de vente (PDV), de signer numériquement les transactions de vente et d’imprimer des rapports X et Z dans des formats locaux. Pour plus d’informations sur la localisation pour la Norvège, voir [Fonctionnalité de caisse enregistreuse pour la Norvège](./emea-nor-cash-registers.md).
+Cet article est un guide de déploiement qui montre comment activer la localisation Microsoft Dynamics 365 Commerce pour la Norvège. La localisation consiste en plusieurs extensions des composants Commerce. Par exemple, les extensions vous permettent d’imprimer des champs personnalisés sur les reçus, d’enregistrer des événements d’audit supplémentaires, des transactions de vente et des transactions de paiement dans le point de vente (PDV), de signer numériquement les transactions de vente et d’imprimer des rapports X et Z dans des formats locaux. Pour plus d’informations sur la localisation pour la Norvège, voir [Fonctionnalité de caisse enregistreuse pour la Norvège](./emea-nor-cash-registers.md).
 
 Cet exemple fait partie du kit de développement logiciel (SDK) Retail. Pour en savoir plus le Kit de développement logiciel (SDK), voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT), Retail Server et PDV. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT, Retail Server et PDV. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cette rubrique. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Microsoft Visual Studio Online (VSO), où aucun fichier n’a encore été modifié.
+Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT), Retail Server et PDV. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT, Retail Server et PDV. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cet article. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Microsoft Visual Studio Online (VSO), où aucun fichier n’a encore été modifié.
 
 > [!NOTE]
 > Dans Commerce 10.0.8 et versions ultérieures, Retail Server est appelé Commerce Scale Unit. Étant donné que ce sujet s’applique à plusieurs versions précédentes de l’application, *Retail Server* est utilisé tout au long du sujet.
 >
-> Certaines étapes des procédures décrites dans cette rubrique diffèrent selon la version de Commerce que vous utilisez. Pour plus d’informations, voir [Nouveautés ou changements dans Dynamics 365 Retail](../get-started/whats-new.md).
+> Certaines étapes des procédures décrites dans cet article diffèrent selon la version de Commerce que vous utilisez. Pour plus d’informations, voir [Nouveautés ou changements dans Dynamics 365 Retail](../get-started/whats-new.md).
 
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Utilisation des profils de certificat dans les canaux Commerce
 
@@ -1252,7 +1252,7 @@ Pour plus d’informations, voir [Fonctionnalité de caisse enregistreuse pour l
 
 Suivez ces étapes pour créer des packages déployables qui contiennent des composants Commerce et pour appliquer ces packages dans un environnement de production.
 
-1. Complétez les étapes de la section [Composants d’extension du PDV Cloud](#cloud-pos-extension-components) ou [Composants d’extension de PDV moderne](#modern-pos-extension-components) plus haut dans cette rubrique.
+1. Complétez les étapes de la section [Composants d’extension du PDV Cloud](#cloud-pos-extension-components) ou [Composants d’extension de PDV moderne](#modern-pos-extension-components) plus haut dans cet article.
 2. Apportez les modifications suivantes dans les fichiers de configuration du package sous le dossier **RetailSdk\\Assets** :
 
     1. Dans les fichiers de configuration **commerceruntime.ext.config** et **CommerceRuntime.MPOSOffline.Ext.config** ajoutez les lignes suivantes à la section **composition** :

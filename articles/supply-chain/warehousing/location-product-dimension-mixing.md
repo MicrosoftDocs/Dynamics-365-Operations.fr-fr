@@ -1,6 +1,6 @@
 ---
-title: Association de dimensions de produit dans un emplacement
-description: Cette rubrique donne des informations sur l’association de dimensions de produit dans un emplacement. Cette fonctionnalité de profil d’emplacement aide à améliorer la gestion des emplacements lorsque des variantes de produit ou des produits contenant des dimensions sont utilisés, comme dans le secteur de la mode. Elle vous permet de décider si des configurations, couleurs, styles et tailles peuvent être associés pour un profil d’emplacement spécifique, ou si une seule de ces dimensions ou une combinaison d’entre elles peut être placée au même emplacement.
+title: Mélange de dimensions de produit d’emplacement
+description: Cet article donne des informations sur l’association de dimensions de produit dans un emplacement. Cette fonctionnalité de profil d’emplacement aide à améliorer la gestion des emplacements lorsque des variantes de produit ou des produits contenant des dimensions sont utilisés, comme dans le secteur de la mode. Elle vous permet de décider si des configurations, couleurs, styles et tailles peuvent être associés pour un profil d’emplacement spécifique, ou si une seule de ces dimensions ou une combinaison d’entre elles peut être placée au même emplacement.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885723"
 ---
 # <a name="location-product-dimension-mixing"></a>Association de dimensions de produit dans un emplacement
 
@@ -28,7 +28,7 @@ L’association de dimensions de produit dans un emplacement est une fonctionnal
 
 ## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité Association de dimensions de produit dans un emplacement
 
-Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Mélange de dimensions de produit d’emplacement* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Mélange de dimensions de produit d’emplacement* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour utiliser la fonctionnalité décrite dans cet article, la fonctionnalité *Mélange de dimensions de produit d’emplacement* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Mélange de dimensions de produit d’emplacement* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Paramétrage
 
@@ -44,7 +44,7 @@ Chaque emplacement de l’entrepôt doit avoir un profil d’emplacement qui lui
     > [!NOTE]
     > Vous pouvez définir cette option sur *Oui* uniquement si l’option **Autoriser les articles mixtes** est définie sur *Non*.
 
-1. Dans l’organisateur **Association de dimensions de produit autorisée**, définissez l’option **Taille** sur *Oui*. Dans le scénario décrit dans cette rubrique, l’association ne peut être effectuée que pour les produits dont les dimensions **Taille** sont différentes. Cependant, d’autres options sont également disponibles.
+1. Dans l’organisateur **Association de dimensions de produit autorisée**, définissez l’option **Taille** sur *Oui*. Dans le scénario décrit dans cet article, l’association ne peut être effectuée que pour les produits dont les dimensions **Taille** sont différentes. Cependant, d’autres options sont également disponibles.
 1. Sélectionnez **Enregistrer**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Créer un produit générique et des variantes de produit

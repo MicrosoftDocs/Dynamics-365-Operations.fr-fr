@@ -1,6 +1,6 @@
 ---
-title: Présentation des ordres de travail
-description: Cette rubrique donne une vue d’ensemble des ordres de travail dans le module Gestion des actifs.
+title: Vue d’ensemble des ordres de travail
+description: Cet article donne une vue d’ensemble des ordres de travail dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902829"
 ---
 # <a name="introduction-to-work-orders"></a>Vue d’ensemble des ordres de travail
 

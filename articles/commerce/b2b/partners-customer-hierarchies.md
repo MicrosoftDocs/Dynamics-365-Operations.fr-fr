@@ -1,6 +1,6 @@
 ---
 title: Gérer les partenaires commerciaux B2B à l’aide des hiérarchies de clients
-description: Cette rubrique décrit comment utiliser les hiérarchies de clients pour gérer les partenaires commerciaux pour les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment utiliser les hiérarchies de clients pour gérer les partenaires commerciaux pour les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864979"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>Gérer les partenaires commerciaux B2B à l’aide des hiérarchies de clients
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser les hiérarchies de clients pour gérer les partenaires commerciaux pour les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce.
+Cet article décrit comment utiliser les hiérarchies de clients pour gérer les partenaires commerciaux pour les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce.
 
 Dans Commerce Headquarters, une entité *hiérarchie client* est utilisée pour représenter les organisations partenaires commerciales qui utiliseront votre site e-commerce B2B. Avant de pouvoir commencer à utiliser les hiérarchies de clients pour gérer les partenaires commerciaux, vous devez activer les fonctionnalités e-commerce B2B dans Commerce Headquarters, puis définir une souche de numéros pour la hiérarchie des clients.
 

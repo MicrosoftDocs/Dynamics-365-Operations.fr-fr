@@ -1,6 +1,6 @@
 ---
 title: Configuration des appareils mobiles pour le travail d’entrepôt
-description: Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
+description: Cet article décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905571"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
+Cet article décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
 
 > [!NOTE]
-> Cette rubrique s’applique aux fonctionnalités du module Gestion des entrepôts. Il ne s’applique pas aux fonctionnalités du module Gestion du stock. Les options de menu qui s’affichent dans les menus d’un appareil mobile d’entrepôt sont configurées dans la page **Options de menu d’appareil mobile**. Comme les options de menu peuvent être placées dans différents menus, il est facile de configurer les structures de menu de manière à ce que seuls des types de travail spécifiques soient visibles par des utilisateurs spécifiques. Vous pouvez configurer les options de menu pour effectuer les tâches suivantes :
+> Cet article s’applique aux fonctionnalités du module Gestion des entrepôts. Il ne s’applique pas aux fonctionnalités du module Gestion du stock. Les options de menu qui s’affichent dans les menus d’un appareil mobile d’entrepôt sont configurées dans la page **Options de menu d’appareil mobile**. Comme les options de menu peuvent être placées dans différents menus, il est facile de configurer les structures de menu de manière à ce que seuls des types de travail spécifiques soient visibles par des utilisateurs spécifiques. Vous pouvez configurer les options de menu pour effectuer les tâches suivantes :
 
 - Traiter une recherche ou effectuer une activité, telle que l’impression d’une étiquette, la génération de contenants, le démarrage d’un ordre d’exécution ou la recherche rapide d’informations sur les articles dans un emplacement.
 - Créer le travail qui sera effectué via un autre processus. Par exemple, la réception d’un article pour une commande fournisseur peut créer le travail de rangement pour un autre collaborateur.
@@ -38,11 +38,11 @@ Cette rubrique décrit la procédure de configuration des éléments de menu uti
 Pour créer une option de menu pour une activité ou une recherche, définissez le champ **Mode** sur **Indirect**. La liste des options **Code activité** devient alors disponible pour vous permettre de sélectionner le type de recherche ou d’activité auquel l’option de menu s’applique. Pour créer une option de menu pour générer le travail d’entrepôt, définissez le champ **Mode** sur **Travail**. La liste des options **Processus de création de travail** devient alors disponible. Pour créer une option de menu pour traiter le travail d’entrepôt existant, définissez le champ **Mode** sur **Travail**, puis définissez l’option **Utiliser un travail existant** sur **Oui**. 
 
 > [!NOTE]
-> Des champs supplémentaires peuvent être disponibles pour les options de menu selon le mode sélectionné pour l’option de menu, et si l’option de menu est utilisée pour effectuer un travail existant. Pour plus d’informations sur les sélections de champs supplémentaires, voir la section « Options de menu supplémentaires » plus loin dans cette rubrique.
+> Des champs supplémentaires peuvent être disponibles pour les options de menu selon le mode sélectionné pour l’option de menu, et si l’option de menu est utilisée pour effectuer un travail existant. Pour plus d'informations sur les sélections de champs supplémentaires, voir la section « Options de menu supplémentaires » plus loin dans cet article.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurer des options de menu pour les activités et les recherches
 
-Si le champ **Mode** d’une option de menu est défini sur **Indirect**, vous pouvez créer une option de menu pour effectuer une activité ou une recherche générale qui ne crée pas de travail. Il peut s’agir par exemple de la réimpression des étiquettes de contenant ou d’une recherche sur les articles dans un emplacement. Le tableau suivant répertorie les options disponibles.
+Si le champ **Mode** d'une option de menu est défini sur **Indirect**, vous pouvez créer une option de menu pour effectuer une activité ou une recherche générale qui ne crée pas de travail. Il peut s’agir par exemple de la réimpression des étiquettes de contenant ou d’une recherche sur les articles dans un emplacement. Le tableau suivant répertorie les options disponibles.
 
 | Option | Description |
 |---|---|

@@ -1,6 +1,6 @@
 ---
 title: Stratégies de travail
-description: Cette rubrique explique comment paramétrer des politiques de travail.
+description: Cet article explique comment paramétrer des politiques de travail.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855846"
 ---
 # <a name="work-policies"></a>Stratégies de travail
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer le système et l’application mobile Gestion des entrepôts afin qu’ils prennent en charge les stratégies de travail. Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement un stock sans créer de travail de rangement lorsque vous recevez des commandes fournisseur ou de transfert, ou lorsque vous terminez des processus de fabrication. Cette rubrique fournit des informations générales. Pour obtenir des informations détaillées sur la réception des contenants, consultez [Réception du contenant via l’application mobile Gestion des entrepôts](warehousing-mobile-device-app-license-plate-receiving.md).
+Cet article explique comment configurer le système et l’application mobile Gestion des entrepôts afin qu’ils prennent en charge les stratégies de travail. Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement un stock sans créer de travail de rangement lorsque vous recevez des commandes fournisseur ou de transfert, ou lorsque vous terminez des processus de fabrication. Cet article fournit des informations générales. Pour obtenir des informations détaillées sur la réception des contenants, consultez [Réception du contenant via l’application mobile Gestion des entrepôts](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Une stratégie de travail contrôle si le travail d’entrepôt est créé lorsqu’un article manufacturé est déclaré comme terminé ou lorsque les marchandises sont reçues à l’aide de l’application mobile Gestion des entrepôts. Vous configurez chaque stratégie de travail en définissant les conditions dans lesquelles elle s’applique : les types et processus d’ordre de travail, l’emplacement du stock et (éventuellement) les produits. Par exemple, une commande fournisseur pour un produit *A0001* doit être reçue à l’emplacement *RECV* dans l’entrepôt *24*. Plus tard, le produit est consommé dans un autre processus à l’emplacement *RECV*. Dans ce cas, vous pouvez configurer une stratégie de travail pour empêcher la création du travail de rangement lorsqu’un collaborateur signale un produit *A0001* reçu à l’emplacement *RECV*.
 
@@ -35,7 +35,7 @@ Une stratégie de travail contrôle si le travail d’entrepôt est créé lorsq
 
 ## <a name="activate-the-features-in-your-system"></a>Activez les fonctionnalités de votre système
 
-Pour rendre toutes les fonctionnalités décrites dans cette rubrique disponibles dans votre système, activez les deux fonctionnalités suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+Pour rendre toutes les fonctionnalités décrites dans cet article disponibles dans votre système, activez les deux fonctionnalités suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 
 - Amélioration de la réception de contenants
 - Améliorations de la stratégie de travail pour le travail entrant

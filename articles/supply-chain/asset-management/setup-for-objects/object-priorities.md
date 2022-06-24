@@ -1,6 +1,6 @@
 ---
 title: Niveaux de service de l’actif
-description: Cette rubrique explique les niveaux de service de l’actif dans le module Gestion des actifs.
+description: Cet article explique les niveaux de service de l’actif dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908683"
 ---
 # <a name="asset-service-levels"></a>Niveaux de service de l’actif
 
@@ -28,7 +28,7 @@ ms.locfileid: "6723597"
 
  
 
-Cette rubrique explique les niveaux de service de l’actif dans le module Gestion des actifs. Les niveaux de service de l’actif sont associés aux actifs, et sont transférés vers les demandes de maintenance et les ordres de travail. Ils sont utilisés pour calculer la priorité des ordres de travail lors de la planification des ordres de travail. Les niveaux de service de l’actif peuvent être modifiés, si cela est nécessaire.
+Cet article explique les niveaux de service de l’actif dans le module Gestion des actifs. Les niveaux de service de l’actif sont associés aux actifs, et sont transférés vers les demandes de maintenance et les ordres de travail. Ils sont utilisés pour calculer la priorité des ordres de travail lors de la planification des ordres de travail. Les niveaux de service de l’actif peuvent être modifiés, si cela est nécessaire.
 
 Pour plus d’informations sur le paramétrage lié au calcul des scores pour la planification des ordres de travail, voir [Paramètres de gestion des actifs](../setup-for-objects/enterprise-asset-management-parameters.md). Vous devez paramétrer au moins un enregistrement par défaut pour le niveau de service de l’actif. Cet enregistrement par défaut est utilisé si aucune autre correspondance n’est trouvée lors de la planification des ordres de travail.
 

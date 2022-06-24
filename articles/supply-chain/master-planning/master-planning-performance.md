@@ -1,7 +1,7 @@
 ---
 title: Améliorer les performances de planification
-description: Cette rubrique explique les diverses options vous permettant d’améliorer les performances de la planification ou de résoudre les problèmes.
-author: ChristianRytt
+description: Cet article explique les diverses options vous permettant d’améliorer les performances de la planification ou de résoudre les problèmes.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897601"
 ---
 # <a name="improve-master-planning-performance"></a>Améliorer les performances de planification
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique les diverses options vous permettant d’améliorer les performances de la planification ou de résoudre les problèmes. Elle inclut des informations sur les paramètres et sur les configurations et les actions recommandées. Elle contient également un récapitulatif de tous les paramètres importants à prendre en compte lors de la mise en œuvre de planifications à long terme.
+Cet article explique les diverses options vous permettant d’améliorer les performances de la planification ou de résoudre les problèmes. Elle inclut des informations sur les paramètres et sur les configurations et les actions recommandées. Elle contient également un récapitulatif de tous les paramètres importants à prendre en compte lors de la mise en œuvre de planifications à long terme.
 
-Cette rubrique est destinée aux administrateurs système ou aux utilisateurs informaticiens ayant des capacités de résolution de problèmes. Elle est également destinée aux planificateurs de production ou d’approvisionnement, car elle comprend des informations sur les paramètres liés aux exigences de la planification d’entreprise. 
+Cet article est destinée aux administrateurs système ou aux utilisateurs informaticiens ayant des capacités de résolution de problèmes. Elle est également destinée aux planificateurs de production ou d’approvisionnement, car elle comprend des informations sur les paramètres liés aux exigences de la planification d’entreprise. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Paramètres associés aux performances de la planification
 
@@ -151,9 +151,9 @@ Avant le début de l’étape de couverture, il existe une étape de pré-couver
 ## <a name="performance-checklist-summary"></a>Récapitulatif de la liste de contrôle des performances
 
 - **Nombre de threads** – Défini sur une valeur supérieure à **0** (zéro).
-- **Nombre de tâches par paquet de tâches de l’application d’assistance** – Défini sur une valeur supérieure à **0** (zéro). (Utilisez les formules données plus haut dans cette rubrique.)
+- **Nombre de tâches par paquet de tâches de l’application d’assistance** – Défini sur une valeur supérieure à **0** (zéro). (Utilisez les formules données plus haut dans cet article.)
 - **Utilisation du cache** – Défini sur **Maximum** à moins que le système ait peu de mémoire.
-- **Nombre d’ordres par paquet de confirmation** – Défini sur une valeur supérieure à **0** (zéro). (Utilisez la formule donnée plus haut dans cette rubrique.)
+- **Nombre d’ordres par paquet de confirmation** – Défini sur une valeur supérieure à **0** (zéro). (Utilisez la formule donnée plus haut dans cet article.)
 - **Plages de gestion** – Ajustées à votre activité.
 - **Actions et perspectives** – Désactivez les actions et les perspectives si vous ne les utilisez pas.
 - **Une routine lourde à la fois** – N’exécutez pas la planification simultanément avec aucune autre routine lourde.

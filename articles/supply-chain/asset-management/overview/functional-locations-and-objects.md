@@ -1,6 +1,6 @@
 ---
-title: Actifs et postes techniques
-description: Cette rubrique décrit les postes techniques et les actifs dans Gestion des actifs. Gestion des actifs est un module avancé de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management.
+title: Actifs et emplacements fonctionnels
+description: Cet article décrit les postes techniques et les actifs dans Gestion des actifs. Gestion des actifs est un module avancé de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875653"
 ---
-# <a name="functional-locations-and-assets"></a>Actifs et postes techniques
+# <a name="functional-locations-and-assets"></a>Actifs et emplacements fonctionnels
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Cette rubrique décrit les postes techniques et les actifs dans Gestion des actifs. Gestion des actifs est un module avancé de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management.
+Cet article décrit les postes techniques et les actifs dans Gestion des actifs. Gestion des actifs est un module avancé de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Présentation
 
-Gestion des actifs est intégré de façon transparente à plusieurs modules avec d’autres applications Finance and Operations. L’illustration suivante présente les interfaces avec d’autres modules.
+Gestion des actifs est intégré de façon transparente à plusieurs modules avec d'autres applications Finance and Operations. L'illustration suivante présente les interfaces avec d'autres modules.
 
 ![Diagramme affichant comment le module Gestion d’actifs se connecte par interface aux autres modules.](media/01-overview-image.png)
 

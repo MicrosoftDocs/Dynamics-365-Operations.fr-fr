@@ -1,6 +1,6 @@
 ---
 title: Disponibilité du produit
-description: Cette rubrique explique comment vous pouvez utiliser les vérifications de disponibilité pour vous assurer que les données principales requises sont complétées pour un produit avant son utilisation dans les transactions.
+description: Ces articles expliquent comment vous pouvez utiliser les vérifications de disponibilité pour vous assurer que les données principales requises sont complétées pour un produit avant son utilisation dans les transactions.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a8e76d5fc786b6f4cac7cd0430399ca3ad13a7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856220"
 ---
 # <a name="product-readiness"></a>Disponibilité du produit
 
@@ -61,7 +61,7 @@ Si une nouvelle *version* d’ingénierie est créée pour un produit, le systè
 - La version d’ingénierie est définie sur inactive pour empêcher l’utilisation du produit.
 
 > [!NOTE]
-> Vous pouvez également configurer des stratégies de vérification de la disponibilité pour les produits standard (autres que des produits d’ingénierie). Pour plus d’informations, consultez la section [Vérifications de la disponibilité des produits standard](#standard-products) plus loin dans cette rubrique.
+> Vous pouvez également configurer des stratégies de vérification de la disponibilité pour les produits standard (autres que des produits d’ingénierie). Pour plus d’informations, consultez la section [Vérifications de la disponibilité des produits standard](#standard-products) plus loin dans cet article.
 
 ## <a name="view-readiness-checks"></a>Afficher les vérifications de disponibilité
 
@@ -159,7 +159,7 @@ Pour chaque ligne que vous ajoutez, définissez les champs suivants.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Affecter des stratégies de disponibilité aux produits standard et d’ingénierie
 
-Lorsque vous créez un nouveau produit basé sur une catégorie d’ingénierie, vous créez à la fois un *produit lancé* et un *produit partagé* associé. La manière dont les stratégies de préparation sont résolues pour un produit lancé dépend du fait que la fonctionnalité *Vérifications de la préparation des produits* est activée pour votre système (voir la section  [Contrôles de préparation des produits standards](#standard-products) plus loin dans cette rubrique pour plus de détails sur cette fonction et comment l’activer ou la désactiver).
+Lorsque vous créez un nouveau produit basé sur une catégorie d’ingénierie, vous créez à la fois un *produit lancé* et un *produit partagé* associé. La manière dont les stratégies de préparation sont résolues pour un produit lancé dépend du fait que la fonctionnalité *Vérifications de la préparation des produits* est activée pour votre système (voir la section  [Contrôles de préparation des produits standards](#standard-products) plus loin dans cet article pour plus de détails sur cette fonction et comment l’activer ou la désactiver).
 
 - Lorsque la fonctionnalité *Vérifications de la disponibilité du produit* est *désactivée* dans votre système, la stratégie de disponibilité est définie et affichée uniquement sur les enregistrements de [catégorie d’ingénierie](engineering-versions-product-category.md). Pour savoir quelle stratégie s’applique à un produit lancé, le système vérifie le champ **Stratégie de disponibilité du produit** pour la catégorie d’ingénierie correspondante. Vous pouvez modifier la stratégie de disponibilité d’un produit existant en modifiant la catégorie d’ingénierie associée (et non le produit partagé).
 - Lorsque la fonctionnalité *Vérifications de la disponibilité du produit* est *activée*, elle ajoute un champ **Stratégie de disponibilité du produit** à la page **Produit** (où les produits partagés sont configurés) et à la page **Produit lancé** (où la valeur est en lecture seule et extraite du produit partagé associé). Le système recherche la stratégie de disponibilité d’un produit lancé en vérifiant le produit partagé associé. Lorsque vous utilisez une catégorie d’ingénierie pour créer un nouveau produit d’ingénierie, le système crée à la fois un produit partagé et un produit lancé, puis copie tout paramètre **Stratégie de disponibilité du produit** de la catégorie d’ingénierie dans le nouveau produit partagé. Vous pouvez ensuite modifier la stratégie de disponibilité d’un produit existant en modifiant le produit partagé associé (et non la catégorie d’ingénierie lancée).
@@ -188,14 +188,14 @@ Cette fonctionnalité nécessite que les deux fonctionnalités *Gestion des modi
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Créer des stratégies de disponibilité pour les produits standard
 
-Vous créez des stratégies de disponibilité pour les produits standard comme vous le faites pour les produits d’ingénierie. Consultez les informations plus haut dans cette rubrique.
+Vous créez des stratégies de disponibilité pour les produits standard comme vous le faites pour les produits d’ingénierie. Consultez les informations plus haut dans cet article.
 
 ### <a name="assign-readiness-policies-to-standard-products"></a>Affecter des stratégies de disponibilité aux produits standard
 
-Pour affecter une stratégie de disponibilité à un produit standard, ouvrez le produit partagé associé et définissez le champ **Stratégie de disponibilité du produit** sur le nom de la stratégie qui doit s’appliquer. Pour plus d’informations, consultez la section [Affecter des stratégies de disponibilité aux produits standard et d’ingénierie](#assign-policy) plus haut dans cette rubrique.
+Pour affecter une stratégie de disponibilité à un produit standard, ouvrez le produit partagé associé et définissez le champ **Stratégie de disponibilité du produit** sur le nom de la stratégie qui doit s’appliquer. Pour plus d’informations, consultez la section [Affecter des stratégies de disponibilité aux produits standard et d’ingénierie](#assign-policy) plus haut dans cet article.
 
 ### <a name="view-and-process-readiness-checks-on-standard-products"></a>Afficher et traiter les vérifications de disponibilité des produits standard
 
-Lorsque cette fonctionnalité est activée, vous affichez et traitez les vérifications de disponibilité des produits standard comme vous le faites pour les produits d’ingénierie. Consultez les informations plus haut dans cette rubrique.
+Lorsque cette fonctionnalité est activée, vous affichez et traitez les vérifications de disponibilité des produits standard comme vous le faites pour les produits d’ingénierie. Consultez les informations plus haut dans cet article.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

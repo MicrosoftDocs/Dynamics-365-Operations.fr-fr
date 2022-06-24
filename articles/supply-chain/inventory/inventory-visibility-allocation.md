@@ -1,8 +1,8 @@
 ---
-title: Répartition de stock pour Visibilité des stocks
-description: Cette rubrique explique comment configurer et utiliser la fonctionnalité d’allocation de stock, qui vous permet de réserver un stock dédié pour vous assurer que vous pouvez satisfaire vos canaux ou clients les plus rentables.
+title: Allocation de stocks Inventory Visibility
+description: Cet article explique comment configurer et utiliser la fonctionnalité d’allocation de stock, qui vous permet de réserver un stock dédié pour vous assurer que vous pouvez satisfaire vos canaux ou clients les plus rentables.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852503"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Répartition de stock pour Visibilité des stocks
 
@@ -98,7 +98,7 @@ Voici les premières mesures calculées :
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Ajouter d’autres mesures physiques à la mesure calculée disponible pour allocation
 
-Pour utiliser l’allocation, vous devez configurer la mesure calculée disponible pour allocation (`@iv` .`@available_to_allocate`). Par exemple, vous avez la source de données `fno` et la mesure `onordered`, la source de données `pos` et la mesure `inbound`, et vous voulez faire une allocation sur place pour la somme de `fno.onordered` et `pos.inbound`. Dans ce cas, `@iv.@available_to_allocate` doit contenir `pos.inbound` et `fno.onordered` dans la formule. Voici un exemple :
+Pour utiliser l’allocation, vous devez configurer la mesure calculée disponible pour allocation (`@iv.@available_to_allocate`). Par exemple, vous avez la source de données `fno` et la mesure `onordered`, la source de données `pos` et la mesure `inbound`, et vous voulez faire une allocation sur place pour la somme de `fno.onordered` et `pos.inbound`. Dans ce cas, `@iv.@available_to_allocate` doit contenir `pos.inbound` et `fno.onordered` dans la formule. Voici un exemple :
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
 
@@ -110,11 +110,12 @@ Vous définissez les noms de groupe sur la page **Configuration Power App Visibi
 
 Par exemple, si vous utilisez quatre noms de groupe et que vous les définissez sur \[`channel`, `customerGroup`, `region`, `orderType`\], ces noms seront valides pour les demandes liées à l’allocation lorsque vous appelez l’API de mise à jour de la configuration.
 
-### <a name="allcoation-using-tips"></a>Allocation à l’aide de pointes
+### <a name="allocation-using-tips"></a>Allocation à l’aide de pointes
 
-- Pour chaque produit, la fonction de répartition doit utiliser le même niveau de dimension en fonction de la hiérarchie d’index de produits que vous avez définie dans la [configuration de la hiérarchie de l’index des produits](inventory-visibility-configuration.md#index-configuration). Par exemple, la hiérarchie d’index est Site, Emplacement, Couleur, Taille. Si vous allouez une certaine quantité pour un produit au niveau Site, Emplacement, Couleur. La prochaine fois que vous utilisez pour allouer, devrait également au niveau du site, de l’emplacement, de la couleur, si vous utilisez le niveau du site, de l’emplacement, de la couleur, de la taille ou du site, au niveau de l’emplacement, les données ne seront pas cohérentes.
+- Pour chaque produit, la fonction de répartition doit utiliser le même *niveau de dimension* en fonction de la hiérarchie d’index de produits que vous avez définie dans la [configuration de la hiérarchie de l’index des produits](inventory-visibility-configuration.md#index-configuration). Par exemple, supposons que votre hiérarchie d'index est \[`Site`, `Location`, `Color`, `Size`\]. Si vous allouez une certaine quantité pour un produit au niveau de la dimension \[`Site`, `Location`, `Color`\], la prochaine fois que vous souhaitez allouer ce produit, vous devez également allouer au même niveau, \[`Site`, `Location`, `Color`\]. Si vous utilisez le niveau \[`Site`, `Location`, `Color`, `Size`\] ou \[`Site`, `Location`\], les données seront incohérentes.
 - La modification du nom du groupe d’allocation n’aura aucune incidence sur les données enregistrées dans le service.
 - L’attribution doit avoir lieu une fois que le produit a la quantité positive en stock.
+- Pour allouer des produits d'un groupe de *niveau d'attribution* élevé à un sous-groupe, utilisez les API `Reallocate`. Par exemple, vous avez une hiérarchie de groupe d'allocation \[`channel`, `customerGroup`, `region`, `orderType`\], et vous souhaitez allouer un produit du groupe d'allocation \[En ligne, VIP\] au sous-groupe d'affectation \[En ligne, VIP, UE\], utilisez l'API `Reallocate` pour déplacer la quantité. Si vous utilisez l'API `Allocate`, elle allouera la quantité du pool commun virtuel.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a>Utilisation de l’API d’allocation
 
@@ -295,7 +296,7 @@ Maintenant, trois vélos sont vendus et ils sont prélevés sur le pool d’allo
 
 Après cet appel, la quantité allouée pour le produit sera réduite de 3. De plus, la Visibilité des stocks générera un événement de modification disponible où `pos.inbound` = *-3*. Alternativement, vous pouvez conserver la valeur `pos.inbound` telle quelle et consommez simplement la quantité allouée. Cependant, dans ce cas, vous devez soit créer une autre mesure physique pour conserver les quantités consommées, soit utiliser la mesure prédéfinie `@iv.@consumed`.
 
-Dans cette requête, notez que la mesure physique que vous utilisez dans le corps de la requête de calcul doit utiliser le type de modificateur opposé (addition ou soustraction), par rapport au type de modificateur utilisé dans la mesure calculée. Alors dans ce corps de consommation, `iv.inbound` a la valeur `Subtraction` et non pas `Addition`.
+Dans cette requête, notez que la mesure physique que vous utilisez dans le corps de la demande de calcul doit utiliser le type de modificateur opposé (addition ou soustraction), par rapport au type de modificateur utilisé dans la mesure calculée. Alors dans ce corps de consommation, `iv.inbound` a la valeur `Subtraction` et non pas `Addition`.
 
 La source de données `fno` ne peut pas être utilisée dans le corps de consommation car nous avons toujours affirmé que la Visibilité des stocks ne peut modifier aucune donnée pour la source de données `fno`. Le flux de données est unidirectionnel, ce qui signifie que toutes les quantités changent pour la source de données `fno` doit provenir de votre environnement Supply Chain Management.
 

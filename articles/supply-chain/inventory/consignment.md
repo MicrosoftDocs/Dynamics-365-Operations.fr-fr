@@ -1,6 +1,6 @@
 ---
-title: Définir une consignation
-description: Cette rubrique explique comment utiliser les processus de stock de consignation entrant.
+title: Paramétrer la consignation
+description: Cet article explique comment utiliser les processus de stock de consignation entrant.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872034"
 ---
-# <a name="set-up-consignment"></a>Définir une consignation
+# <a name="set-up-consignment"></a>Paramétrer la consignation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment utiliser les processus de stock de consignation entrant.
+Cet article explique comment utiliser les processus de stock de consignation entrant.
 
-Le stock de consignation est le stock qui appartient à un fournisseur, mais stocké à votre site. Lorsque vous êtes prêt à consommer ou à utiliser le stock, vous reprenez la propriété du stock. Cette rubrique contient des informations sur la procédure de réception physique du stock disponible appartenant au fournisseur sans créer de transactions comptables, la procédure de démarrage d’un processus de production où le stock appartenant au fournisseur peut être réservé physiquement et la procédure de modification de la propriété des matières premières afin de pouvoir traiter la consommation dans le cadre du traitement d’un ordre de fabrication. Il existe aussi des informations sur la manière dont les fournisseurs peuvent contrôler la consommation de leur stock à l’aide de l’interface de collaboration fournisseur.
+Le stock de consignation est le stock qui appartient à un fournisseur, mais stocké à votre site. Lorsque vous êtes prêt à consommer ou à utiliser le stock, vous reprenez la propriété du stock. Cet article contient des informations sur la procédure de réception physique du stock disponible appartenant au fournisseur sans créer de transactions comptables, la procédure de démarrage d’un processus de production où le stock appartenant au fournisseur peut être réservé physiquement et la procédure de modification de la propriété des matières premières afin de pouvoir traiter la consommation dans le cadre du traitement d’un ordre de fabrication. Il existe aussi des informations sur la manière dont les fournisseurs peuvent contrôler la consommation de leur stock à l’aide de l’interface de collaboration fournisseur.
 
 ## <a name="overview-of-the-consignment-process"></a>Vue d’ensemble du processus de consignation
 

@@ -1,6 +1,6 @@
 ---
 title: Contraintes d’expression et contraintes de table dans les modèles de configuration de produit
-description: Cette rubrique décrit l’utilisation des contraintes d’expression et de table. Les contraintes permettent de contrôler les valeurs d’attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
+description: Cet article décrit l’utilisation des contraintes d’expression et de table. Les contraintes permettent de contrôler les valeurs d’attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e98e9c6931edbbac49c09d8c2fa4d11d90da5d7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e504f6996b401e72792d910c8df74bb9611c4d60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895552"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d’expression et contraintes de table dans les modèles de configuration de produit
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l’utilisation des contraintes d’expression et de table. Les contraintes permettent de contrôler les valeurs d’attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. 
+Cet article décrit l’utilisation des contraintes d’expression et de table. Les contraintes permettent de contrôler les valeurs d’attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. 
 
 Les contraintes permettent de contrôler les valeurs d’attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
 

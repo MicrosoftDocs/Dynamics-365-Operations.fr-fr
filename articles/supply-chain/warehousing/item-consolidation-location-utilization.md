@@ -1,6 +1,6 @@
 ---
 title: Consolidation des articles - Utilisation de l’emplacement
-description: Cette rubrique fournit des informations sur les fonctionnalités qui permettent aux responsables d’entrepôt d’afficher et de filtrer facilement l’utilisation volumétrique des emplacements dans l’entrepôt. Les responsables peuvent sélectionner des emplacements et créer un travail de mouvement des stocks directement à partir de la page Consolidation des articles afin de regrouper des articles et ainsi mieux utiliser l’espace de l’entrepôt.
+description: Cet article fournit des informations sur les fonctionnalités qui permettent aux responsables d’entrepôt d’afficher et de filtrer facilement l’utilisation volumétrique des emplacements dans l’entrepôt. Les responsables peuvent sélectionner des emplacements et créer un travail de mouvement des stocks directement à partir de la page Consolidation des articles afin de regrouper des articles et ainsi mieux utiliser l’espace de l’entrepôt.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849182"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidation des articles - Utilisation de l’emplacement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les fonctionnalités qui permettent aux responsables d’entrepôt d’afficher et de filtrer facilement l’utilisation volumétrique des emplacements dans l’entrepôt. Les responsables peuvent sélectionner des emplacements et créer un travail de mouvement des stocks directement à partir de la page **Consolidation des articles** afin de regrouper des articles et ainsi mieux utiliser l’espace de l’entrepôt.
+Cet article fournit des informations sur les fonctionnalités qui permettent aux responsables d’entrepôt d’afficher et de filtrer facilement l’utilisation volumétrique des emplacements dans l’entrepôt. Les responsables peuvent sélectionner des emplacements et créer un travail de mouvement des stocks directement à partir de la page **Consolidation des articles** afin de regrouper des articles et ainsi mieux utiliser l’espace de l’entrepôt.
 
 ## <a name="turn-on-the-features"></a>Activer les fonctionnalités
 
-Avant de pouvoir utiliser les fonctionnalités décrites dans cette rubrique, vous devez les activer dans votre système. Les administrateurs peuvent utiliser l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de ces fonctionnalités et les activer si nécessaire. Activez les deux fonctionnalités, dans l’ordre dans lequel elles sont mentionnées. (Les deux fonctionnalités sont destinées au module **Gestion des entrepôts**.)
+Avant de pouvoir utiliser les fonctionnalités décrites dans cet article, vous devez les activer dans votre système. Les administrateurs peuvent utiliser l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de ces fonctionnalités et les activer si nécessaire. Activez les deux fonctionnalités, dans l’ordre dans lequel elles sont mentionnées. (Les deux fonctionnalités sont destinées au module **Gestion des entrepôts**.)
 
 1. Statut de l’emplacement de l’entrepôt
 2. Utilisation de l’emplacement de consolidation des articles
@@ -51,7 +51,7 @@ Ces champs permettent aux responsables d’entrepôt d’avoir une meilleure vue
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Paramétrage de la consolidation des articles et de l’utilisation de l’emplacement
 
-Cette section décrit comment préparer votre système à utiliser la consolidation des articles et l’utilisation de l’emplacement. Les procédures utilisent des exemples de valeurs provenant des données de démonstration standard. Si vous envisagez de suivre l’exemple de scénario fourni plus loin dans cette rubrique, sélectionnez l’entité juridique **USMF** (qui contient les données de démonstration standard) et créez chaque enregistrement décrit dans cette section. Si vous ne prévoyez pas de suivre l’exemple de scénario, les valeurs fournies ici peuvent être considérées comme des exemples des types de paramètres à employer pour utiliser les fonctionnalités.
+Cette section décrit comment préparer votre système à utiliser la consolidation des articles et l’utilisation de l’emplacement. Les procédures utilisent des exemples de valeurs provenant des données de démonstration standard. Si vous envisagez de suivre l’exemple de scénario fourni plus loin dans cet article, sélectionnez l’entité juridique **USMF** (qui contient les données de démonstration standard) et créez chaque enregistrement décrit dans cette section. Si vous ne prévoyez pas de suivre l’exemple de scénario, les valeurs fournies ici peuvent être considérées comme des exemples des types de paramètres à employer pour utiliser les fonctionnalités.
 
 ### <a name="released-product"></a>Produit lancé
 

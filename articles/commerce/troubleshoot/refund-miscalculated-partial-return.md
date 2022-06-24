@@ -1,6 +1,6 @@
 ---
 title: Les frais remboursables sont calculés de manière incorrecte en fonction de la quantité retournée
-description: Cette rubrique fournit des conseils de dépannage qui peuvent aider lorsque les caissiers constatent que les frais remboursables sont incorrects pour la quantité d’articles retournés au point de vente (PDV).
+description: Cet article fournit des conseils de dépannage qui peuvent aider lorsque les caissiers constatent que les frais remboursables sont incorrects pour la quantité d’articles retournés au point de vente (PDV).
 author: gvrmohanreddy
 ms.date: 03/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c8ecaa0cb73d06ac66b57cce815264e841a2259b
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 7a84207f587a826b9acdfd818c64220c5327bde1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8490213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890241"
 ---
 # <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>Les frais remboursables sont calculés de manière incorrecte en fonction de la quantité retournée
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique fournit des conseils de dépannage qui peuvent aider lorsque les caissiers constatent que les frais remboursables sont incorrects pour la quantité d’articles retournés au point de vente (PDV).
+Cet article fournit des conseils de dépannage qui peuvent aider lorsque les caissiers constatent que les frais remboursables sont incorrects pour la quantité d’articles retournés au point de vente (PDV).
 
 ## <a name="description"></a>Description
 

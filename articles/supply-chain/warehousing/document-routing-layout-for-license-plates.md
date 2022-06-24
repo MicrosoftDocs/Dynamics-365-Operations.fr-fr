@@ -1,6 +1,6 @@
 ---
 title: Mise en page d’acheminement de document pour les étiquettes de contenant
-description: Cette rubrique décrit comment utiliser les méthodes de mise en forme pour imprimer les valeurs sur des étiquettes.
+description: Cet article décrit comment utiliser les méthodes de mise en forme pour imprimer les valeurs sur des étiquettes.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847873"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Mise en page d’acheminement de document pour les étiquettes de contenant
 
@@ -53,7 +53,7 @@ Plusieurs outils de génération d’étiquettes largement disponibles peuvent v
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Activez cette fonctionnalité pour votre système
 
-Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Mises en page améliorées des étiquettes de contenant*. Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée.
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cet article, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Mises en page améliorées des étiquettes de contenant*. Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée.
 
 ## <a name="custom-number-formats"></a>Formats de numéro personnalisés
 
@@ -129,7 +129,7 @@ Vous pouvez imprimer à partir d’une méthode d’affichage en utilisant le fo
 $DisplayMethod()$
 ```
 
-Vous pouvez combiner ce format avec d’autres types décrits précédemment dans cette rubrique. Par exemple, vous disposez d’une méthode d’affichage nommée `DisplayListOfItemsNumbers()` et vous souhaitez imprimer le premier numéro d’élément de cette méthode. Dans ce cas, vous pouvez utiliser le code suivant.
+Vous pouvez combiner ce format avec d’autres types décrits précédemment dans cet article. Par exemple, vous disposez d’une méthode d’affichage nommée `DisplayListOfItemsNumbers()` et vous souhaitez imprimer le premier numéro d’élément de cette méthode. Dans ce cas, vous pouvez utiliser le code suivant.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

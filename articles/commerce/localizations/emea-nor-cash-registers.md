@@ -1,6 +1,6 @@
 ---
 title: Fonctionnalité de caisse enregistreuse pour la Norvège
-description: Cette rubrique donne un aperçu de la fonctionnalité de caisse enregistreuse disponible pour la Norvège dans Microsoft Dynamics 365 Commerce, et fournit des instructions pour la configuration de la fonctionnalité.
+description: Cet article donne un aperçu de la fonctionnalité de caisse enregistreuse disponible pour la Norvège dans Microsoft Dynamics 365 Commerce, et fournit des instructions pour la configuration de la fonctionnalité.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906697"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Fonctionnalité de caisse enregistreuse pour la Norvège
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la Norvège dans Dynamics 365 Commerce. Elle fournit également des instructions pour paramétrer la fonctionnalité. Cette fonctionnalité contient les parties suivantes :
+Cet article fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la Norvège dans Dynamics 365 Commerce. Elle fournit également des instructions pour paramétrer la fonctionnalité. Cette fonctionnalité contient les parties suivantes :
 
 - Les fonctionnalités de point de vente (PDV) courantes disponibles pour les clients de tous les pays ou régions. Les exemples incluent une option qui vous permet d’empêcher l’impression d’une copie d’un reçu plusieurs fois.
 - Des fonctionnalités spécifiques pour la Norvège, telles que les signatures numériques pour les transactions de vente.

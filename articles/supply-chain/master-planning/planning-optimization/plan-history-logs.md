@@ -1,8 +1,8 @@
 ---
 title: Afficher l’historique du plan et les journaux de planification
-description: Cette rubrique explique comment afficher l’historique des tâches de planification déclenchées par la fonctionnalité d’Optimisation de la planification.
+description: Cet article explique comment afficher l’historique des tâches de planification déclenchées par la fonctionnalité d’Optimisation de la planification.
 author: t-benebo
-ms.date: 10/30/2019
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863938"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Afficher l’historique du plan et les journaux de planification
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment afficher l’historique des tâches de planification déclenchées par la fonctionnalité d’Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article explique comment afficher l’historique des tâches de planification déclenchées par la fonctionnalité d’Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
 
 Pour afficher l’historique d’un plan, ouvrez le plan en accédant à **Planification** \> **Paramétrage** \> **Plans** \> **Plans généraux** et en sélectionnant **Historique**. L’historique répertorie toutes les tâches du plan sélectionné. La liste inclut les tâches terminées et actives.
 
-L’historique des exécutions de la planification générale de l’optimisation de la planification ne conserve que 60 enregistrements maximum par plan général. Chaque fois que vous exécutez un nouveau calcul de planification générale, le premier enregistrement de l’historique de ce plan est supprimé.
+Le système conserve un maximum de 60 enregistrements d'historique par plan directeur et supprime les enregistrements de plus de 30 jours. Chaque fois que vous exécutez un nouveau calcul de planification générale, le système ajoute un nouvel enregistrement d'historique, puis nettoie les enregistrements les plus anciens si nécessaire.
 
 Outre le fait de voir l’heure de début et le statut des tâches, vous pouvez afficher le journal pour une tâche spécifique. Le journal inclut des informations supplémentaires et des avertissements. Toutes les tâches n’ont pas un journal. Pour afficher le journal pour une tâche, sélectionnez **Journal**. Les entrées de journal ne sont stockées que pendant 30 jours après la date de fin de la tâche, après quoi elles sont automatiquement supprimées.
 

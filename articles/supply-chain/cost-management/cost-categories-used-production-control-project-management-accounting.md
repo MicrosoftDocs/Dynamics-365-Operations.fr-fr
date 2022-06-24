@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854498"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Catégories de coûts utilisées dans Contrôle de la production et dans Gestion et comptabilité de projets
 
@@ -31,7 +31,7 @@ Certains types de travaux de production peuvent s’appliquer aux générations 
 
 Certains types de travaux de production peuvent s’appliquer aux générations d’états et aux estimations de temps du projet. Dans ce cas, une catégorie de coûts est requise à des fins de production et de projet. Si une catégorie de coûts est utilisée dans la production et les projets, des informations supplémentaires relatives aux projets doivent être définies. Par exemple, les coûts horaires associés aux projets peuvent différer de ceux associés à la production. Utilisez la page **Catégorie de coûts** pour définir une catégorie de coût utilisée dans la comptabilité du Contrôle de la production et de la Gestion de projets. 
 
-**Remarque :** Le Contrôle de gestion comprend une page **Catégories de projet** qui n’a aucun rapport avec la fonctionnalité décrite dans cette rubrique. Lorsque vous utilisez une catégorie de coûts dans les projets, la page **Catégories de coûts** présente des onglets supplémentaires qui affichent les informations supplémentaires liées au projet. Ces informations incluent le groupe de catégories, une propriété de ligne et les comptes généraux affectés à la catégorie de coûts.
+**Remarque :** Le Contrôle de gestion comprend une page **Catégories de projet** qui n’a aucun rapport avec la fonctionnalité décrite dans cet article. Lorsque vous utilisez une catégorie de coûts dans les projets, la page **Catégories de coûts** présente des onglets supplémentaires qui affichent les informations supplémentaires liées au projet. Ces informations incluent le groupe de catégories, une propriété de ligne et les comptes généraux affectés à la catégorie de coûts.
 
 -   La catégorie de coûts doit être affectée à un groupe de catégories qui prend en charge un type de transaction **Horaire**.
 -   La propriété de ligne indique les informations par défaut sur la facturation des relevés d’heures pour un projet.

@@ -1,6 +1,6 @@
 ---
 title: Appliquer un style à l’interface d’exécution de l’atelier de production
-description: La rubrique explique comment configurer les contrôles de formulaire afin que les styles d’exécution d’atelier de production par défaut leur soient appliqués.
+description: L'article explique comment configurer les contrôles de formulaire afin que les styles d’exécution d’atelier de production par défaut leur soient appliqués.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859138"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>Appliquer un style à l’interface d’exécution de l’atelier de production
 
 [!include [banner](../includes/banner.md)]
 
-La rubrique explique comment configurer les contrôles de formulaire afin que les styles d’exécution d’atelier de production par défaut leur soient appliqués.
+L'article explique comment configurer les contrôles de formulaire afin que les styles d’exécution d’atelier de production par défaut leur soient appliqués.
 
 ## <a name="forms-and-dialogs"></a>Formulaires et boîtes de dialogue
 
@@ -31,7 +31,7 @@ Les styles peuvent être appliqués à un formulaire ou à une boîte de dialogu
 - Si le formulaire doit ressembler au formulaire de progression du rapport existant, le nom de votre formulaire ou de votre boîte de dialogue doit commencer par `JmgProductionFloorExecutionCustomInputDialog`.
 - Le formulaire ou la boîte de dialogue peut contenir une partie de formulaire détaillée. Pour lui appliquer des styles, le nom de la partie de formulaire de détail doit commencer par `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Si le formulaire ou la boîte de dialogue doit avoir une vue simple, le nom de la vue simple doit commencer par `JmgProductionFloorExecutionCustomDialog`. Des exemples de formulaires qui ont une vue simple incluent le formulaire de démarrage et le formulaire d’activité indirecte.
-- Tous les contrôles de la boîte de dialogue doivent être configurés comme décrit dans cette rubrique.
+- Tous les contrôles de la boîte de dialogue doivent être configurés comme décrit dans cet article.
 
 > [!IMPORTANT]
 > Les fonctionnalités mentionnées dans les deux premiers points de cette liste nécessitent Supply Chain Management version 10.0.19 ou ultérieure.

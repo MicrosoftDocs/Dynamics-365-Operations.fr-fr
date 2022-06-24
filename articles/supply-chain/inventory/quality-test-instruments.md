@@ -1,6 +1,6 @@
 ---
 title: Instruments de test de gestion de la qualité
-description: Cette rubrique décrit comment créer des instruments de test, afin que plusieurs tests puissent être utilisés avec des ordres de qualité dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article décrit comment créer des instruments de test, afin que plusieurs tests puissent être utilisés avec des ordres de qualité dans Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d80a4f784a43e0d83d1f5b42f6740ef6da3add1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 36b712e6a99a0625af28ef121d0c9c39c1e32603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857661"
 ---
 # <a name="quality-management-test-instruments"></a>Instruments de test de gestion de la qualité
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment créer des instruments de test, afin que plusieurs tests puissent être utilisés avec des ordres de qualité dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article décrit comment créer des instruments de test, afin que plusieurs tests puissent être utilisés avec des ordres de qualité dans Microsoft Dynamics 365 Supply Chain Management.
 
 La page **Instruments de test** permet de définir et d'afficher les détails sur les appareils utilisés pour effectuer des tests sur les ordres de qualité. Les instruments de test sont facultatifs. Cependant, ils peuvent aider les responsables qualité à savoir quel appareil ou outil ils doivent utiliser pour effectuer un test spécifique.
 

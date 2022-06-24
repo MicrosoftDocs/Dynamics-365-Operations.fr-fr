@@ -1,6 +1,6 @@
 ---
 title: Actifs et ordres de travail
-description: Cette rubrique décrit les actifs et les ordres de travail dans le module Gestion des actifs.
+description: Cet article décrit les actifs et les ordres de travail dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869689"
 ---
 # <a name="assets-and-work-orders"></a>Actifs et ordres de travail
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718105"
 
  
 
-Cette rubrique décrit les actifs et les ordres de travail dans le module Gestion des actifs. Les actifs et les ordres de travail sont les parties centrales du module Gestion des actifs. Un *actif* est une machine ou une pièce de machine qui nécessite une maintenance et un service continus. Les actifs peuvent être créés dans une structure hiérarchique, et ils peuvent être associés à des postes techniques. Les tâches de maintenance peuvent être planifiées à tous les niveaux de la structure de l’actif.
+Cet article décrit les actifs et les ordres de travail dans le module Gestion des actifs. Les actifs et les ordres de travail sont les parties centrales du module Gestion des actifs. Un *actif* est une machine ou une pièce de machine qui nécessite une maintenance et un service continus. Les actifs peuvent être créés dans une structure hiérarchique, et ils peuvent être associés à des postes techniques. Les tâches de maintenance peuvent être planifiées à tous les niveaux de la structure de l’actif.
 
 Diverses données, telles que les informations sur le produit et la spécification de l’actif, ainsi que les plans de maintenance requis sont paramétrés sur chaque actif. L’illustration suivante donne une vue d’ensemble des données d’actif et de l’affiliation des actifs aux types de tâche. Le texte en rouge est utilisé pour les exemples illustrant l’héritage et les dépendances.
 

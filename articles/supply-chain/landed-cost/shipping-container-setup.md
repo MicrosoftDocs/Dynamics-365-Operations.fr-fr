@@ -1,6 +1,6 @@
 ---
 title: Conteneurs d’expédition
-description: Cette rubrique décrit comment configurer les conteneurs d’expédition pour le module de coût au débarquement.
+description: Cet article décrit comment configurer les conteneurs d’expédition pour le module de coût au débarquement.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860840"
 ---
 # <a name="shipping-container-setup"></a>Configuration du conteneur d’expédition
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment configurer les conteneurs d’expédition pour le module de **coût au débarquement**.
+Cet article décrit comment configurer les conteneurs d’expédition pour le module **Coût au débarquement**.
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>Paramétrer des types de conteneurs d’expédition
 
@@ -53,7 +53,7 @@ Pour travailler avec les conteneurs d’expédition, accédez à **Prix au déba
 | Champ | Description |
 |---|---|
 | Conteneur d’expédition | Entrez un nom/numéro d’identification unique pour le conteneur. |
-| Type de conteneur d’expédition | Sélectionnez le type de conteneur d’expédition. Pour plus d’informations, voir [Paramétrer des types de conteneurs d’expédition](#shipping-container-types) précédemment dans cette rubrique. |
+| Type de conteneur d’expédition | Sélectionnez le type de conteneur d’expédition. Pour plus d’informations, voir [Paramétrer des types de conteneurs d’expédition](#shipping-container-types) précédemment dans cet article. |
 
 > [!NOTE]
 > - La configuration du conteneur d’expédition est facultative. En règle générale, vous ne l’utiliserez que si votre entreprise possède ses propres conteneurs d’expédition ou réutilise souvent les mêmes conteneurs d’expédition.

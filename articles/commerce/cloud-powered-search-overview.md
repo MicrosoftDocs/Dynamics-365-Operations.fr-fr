@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la recherche dans le cloud
-description: Cette rubrique fournit une vue d’ensemble de recherche optimisée par le cloud dans Microsoft Dynamics 365 Commerce.
+description: Cet article fournit une vue d’ensemble de recherche optimisée par le cloud dans Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 02/28/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850354"
 ---
 # <a name="cloud-powered-search-overview"></a>Vue d’ensemble de la recherche dans le cloud
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de recherche optimisée par le cloud dans Microsoft Dynamics 365 Commerce.
+Cet article fournit une vue d’ensemble de recherche optimisée par le cloud dans Microsoft Dynamics 365 Commerce.
 
 La détectabilité du produit garantit que les clients peuvent rapidement et facilement trouver des produits en parcourant les catégories, en les recherchant, et en les filtrant. Les détaillants considèrent la découverte de produits comme un outil principal pour l’interaction client sur tous les canaux optimisés par Cloud Scale Unit (CSU), tels que le commerce électronique et les points de vente (PDV).
 

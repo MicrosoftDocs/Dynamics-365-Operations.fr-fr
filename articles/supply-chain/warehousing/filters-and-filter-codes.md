@@ -1,6 +1,6 @@
 ---
 title: Configurer les filtres de produit pour les transactions en entrepôt
-description: Cette rubrique décrit la configuration des filtres de produit et des codes filtre pour classer les articles en stock par catégorie dans un entrepôt. Vous pouvez également utiliser des filtres pour indiquer quels clients peuvent commander un article particulier et spécifier les articles qui peuvent être achetés par un fournisseur spécifique.
+description: Cet article décrit la configuration des filtres de produit et des codes filtre pour classer les articles en stock par catégorie dans un entrepôt. Vous pouvez également utiliser des filtres pour indiquer quels clients peuvent commander un article particulier et spécifier les articles qui peuvent être achetés par un fournisseur spécifique.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850436"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurer les filtres de produit pour les transactions en entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la configuration des filtres de produit et des codes filtre pour classer les articles en stock par catégorie dans un entrepôt. Vous pouvez également utiliser des filtres pour indiquer quels clients peuvent commander un article particulier et spécifier les articles qui peuvent être achetés par un fournisseur spécifique.
+Cet article décrit la configuration des filtres de produit et des codes filtre pour classer les articles en stock par catégorie dans un entrepôt. Vous pouvez également utiliser des filtres pour indiquer quels clients peuvent commander un article particulier et spécifier les articles qui peuvent être achetés par un fournisseur spécifique.
 
 En outre, vous pouvez paramétrer et utiliser des filtres de produit pour organiser automatiquement les articles en stock dans un entrepôt et combiner les articles filtrés en groupes de filtres. Les filtres peuvent être utilisés pour classer les articles dans des catégories pour les processus de gestion, d’achat et de vente. Vous souhaiterez peut-être regrouper les articles ou les séparer les uns des autres lorsque la manière dont ils sont traités est basée sur des restrictions de poids ou de manipulation. Vous pouvez également spécifier à quels clients ou fournisseurs un article peut être acheté ou vendu.
 
@@ -48,7 +48,7 @@ Les filtres des produits fournissent jusqu’à 10 caractéristiques **Titre du
 
     ![Paramétrage d’un filtre de produit.](media/Product_Filters10.png "Paramétrage d’un filtre de produit")
 
-1. Dans le champ **Description**, entrez un nom pour le code. Par exemple, *Code 2* pourrait représenter des fournisseurs. Vous pouvez ensuite créer un filtre de produit pour un fournisseur ou un groupe de fournisseurs spécifique. Pour plus d’informations, voir la section [Paramétrage de codes filtre fournisseur](#vendor-product-filters) plus loin dans cette rubrique.
+1. Dans le champ **Description**, entrez un nom pour le code. Par exemple, *Code 2* pourrait représenter des fournisseurs. Vous pouvez ensuite créer un filtre de produit pour un fournisseur ou un groupe de fournisseurs spécifique. Pour plus d’informations, voir la section [Paramétrage de codes filtre fournisseur](#vendor-product-filters) plus loin dans cet article.
 
     ![Ensemble de filtres des produits.](media/Product_Filters.png "Ensemble de filtres des produits")
 

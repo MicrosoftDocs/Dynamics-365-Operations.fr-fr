@@ -1,6 +1,6 @@
 ---
 title: Intervalles de services
-description: Cette rubrique fournit une vue d'ensemble de l'utilisation des intervalles d'entretien. L’intervalle d’accords de service indique la fréquence de création des lignes de commande de service pour les lignes d’accord de service lorsque vous créez automatiquement des commandes de service.
+description: Cet article fournit une vue d'ensemble de l'utilisation des intervalles d'entretien. L’intervalle d’accords de service indique la fréquence de création des lignes de commande de service pour les lignes d’accord de service lorsque vous créez automatiquement des commandes de service.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df15340a82bf36f67baa7195e2e318a4216d2c56
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 62708258ac3dca9ac03b44efdc96e3bfd643a255
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675625"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887223"
 ---
 # <a name="service-intervals"></a>Intervalles de services
 
@@ -87,7 +87,7 @@ Comme il n’existe aucun regroupement sur la commande de service (définie par 
 
 Trois lignes de commande de service ont été créées dans le délai spécifié dans la boîte de dialogue **Créer des commandes de service**. Vous pouvez afficher les lignes d’accord de service dans la page **Accords de service** (**volet Actions** \> **onglet Livrer** \>**bouton Afficher**).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Paramétrage des intervalles de services](set-up-service-intervals.md)  
 

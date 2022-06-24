@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b98c37ad7695e81dbbd9558217287c868e052d08415d6d5c5d6055b5f9755eac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: caf27d3a5dddae0be7029834dce692f1fbc2fee7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889340"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Créer des dimensions financières pour les canaux de vente au détail et configurer les valeurs de dimension pour les magasins
 
 [!include [banner](../includes/banner.md)]
 
-Cette procédure vous guide au cours de la création d’une dimension financière de canal Commerce avec des valeurs de dimension et des étapes pour configurer les valeurs de dimension financière dans des magasins. Le sujet n’inclut pas d’autres étapes associées, telles que la création d’ensembles de dimensions et de structures de compte. Cette procédure utilise la société USRT dans les données de démonstration.
+Cette procédure vous guide au cours de la création d’une dimension financière de canal Commerce avec des valeurs de dimension et des étapes pour configurer les valeurs de dimension financière dans des magasins. L'article n’inclut pas d’autres étapes associées, telles que la création d’ensembles de dimensions et de structures de compte. Cette procédure utilise la société USRT dans les données de démonstration.
 
 1. Accédez à Comptabilité > Plan de comptes > Dimensions > Dimensions financières.
 2. Cliquez sur Nouveau.

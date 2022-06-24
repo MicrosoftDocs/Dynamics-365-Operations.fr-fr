@@ -1,6 +1,6 @@
 ---
 title: Appliquer les paramètres Ajouter un produit dans le panier
-description: Cette rubrique couvre les paramètres « Ajouter le produit au panier » et décrit comment les appliquer à Microsoft Dynamics 365 Commerce.
+description: Cet article couvre les paramètres « Ajouter le produit au panier » et décrit comment les appliquer à Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866028"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>Appliquer les paramètres Ajouter un produit dans le panier
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les paramètres **Ajouter le produit au panier** et décrit comment les appliquer à Microsoft Dynamics 365 Commerce.
+Cet article couvre les paramètres **Ajouter le produit au panier** et décrit comment les appliquer à Microsoft Dynamics 365 Commerce.
 
 Différents workflows sont pris en charge lorsqu'un produit est ajouté au panier sur un site d'e-commerce Dynamics 365 Commerce. Par exemple, l'utilisateur du site peut être redirigé vers la page du panier. Alternativement, l'utilisateur peut rester sur la page actuelle mais recevoir une notification qui confirme que le produit a été ajouté au panier.
 

@@ -1,6 +1,6 @@
 ---
 title: Profils de classement
-description: Cette rubrique décrit le paramétrage des données de profils de classement.
+description: Cet article décrit le paramétrage des données de profils de classement.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850465"
 ---
 # <a name="rating-profiles"></a>Profils de classement
 
@@ -56,7 +56,7 @@ Sur la page **Profils de classement**, vous pouvez consulter tous les profils de
 1. Allez dans **Gestion du transport \> Configuration \> Transporteurs \> Transporteurs**.
 1. Sélectionnez un transporteur dans la liste.
 1. Dans l’organisateur **profils de classement**, cliquez sur **Nouveau** pour créer un profil de classement.
-1. Définissez les champs du nouveau profils de classement. Ces champs correspondent aux champs de la page **profils de classement**, comme décrit dans la section précédente de cette rubrique.
+1. Définissez les champs du nouveau profils de classement. Ces champs correspondent aux champs de la page **profils de classement**, comme décrit dans la section précédente de cet article.
 
 > [!NOTE]
 > Les profils créés sur la page **Transporteurs** sont également affichés sur la page **profils de classement**.

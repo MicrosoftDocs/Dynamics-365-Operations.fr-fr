@@ -1,6 +1,6 @@
 ---
 title: Nomenclatures d’actif
-description: Cette rubrique décrit les nomenclatures d’actif dans le module Gestion des actifs.
+description: Cet article décrit les nomenclatures d’actif dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882777"
 ---
 # <a name="asset-boms"></a>Nomenclatures d’actif
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751983"
 
  
 
-Cette rubrique décrit les nomenclatures d’actif dans le module Gestion des actifs. La page **Nomenclature des actifs** affiche la liste de tous les articles (pièces détachées et autres articles) qui sont utilisés dans un actif pendant toute sa durée de vie. Lorsque vous créez un actif, vous devez envisager de paramétrer une nomenclature des actifs dans le cadre de la procédure de paramétrage. Vous pouvez ainsi suivre l’historique des articles de l’actif à partir de la date de création.
+Cet article décrit les nomenclatures d’actif dans le module Gestion des actifs. La page **Nomenclature des actifs** affiche la liste de tous les articles (pièces détachées et autres articles) qui sont utilisés dans un actif pendant toute sa durée de vie. Lorsque vous créez un actif, vous devez envisager de paramétrer une nomenclature des actifs dans le cadre de la procédure de paramétrage. Vous pouvez ainsi suivre l’historique des articles de l’actif à partir de la date de création.
 
 Après avoir terminé une tâche de maintenance et enregistré la consommation d’articles sur un ordre de travail, vous pouvez suivre la consommation des pièces détachées et des autres articles utilisés dans l’actif. Cette fonctionnalité vous permet de conserver un enregistrement exhaustif de la consommation d’articles pour tous vos actifs. Par exemple, vous pouvez utiliser l’enregistrement pour surveiller si une pièce détachée spécifique est souvent remplacée, ou assurer le suivi des pièces détachées ou des autres articles qui sont actuellement utilisés dans un actif.
 

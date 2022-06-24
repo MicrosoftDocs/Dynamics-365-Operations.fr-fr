@@ -1,6 +1,6 @@
 ---
 title: Nouveautés et modifications dans Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.25.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.25.
 author: kamaybac
 ms.date: 03/14/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 27f3233ebb3363abcbfc5b98b3786865fa32366c
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850784"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Nouveautés et modifications dans Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.25. Cette version a un numéro de build de 10.0.1149 et est disponible comme suit :
+Cet article répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.25. Cette version a un numéro de build de 10.0.1149 et est disponible comme suit :
 
 - **Version préliminaire de la version :** février 2022
 - **Disponibilité générale de la version (mise à jour automatique) :** mars 2022
@@ -29,9 +29,9 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Le tableau suivant répertorie les fonctionnalités incluses dans cette version. Il se peut que nous mettions à jour de cette rubrique pour inclure des fonctionnalités qui auront été intégrées à la version après la publication initiale de cette rubrique.
+Le tableau suivant répertorie les fonctionnalités incluses dans cette version. Il se peut que nous mettions à jour de cet article pour inclure des fonctionnalités qui auront été intégrées à la version après la publication initiale de cet article.
 
-| Fonctionnalités | Fonctionnalité | Plus d’informations | Activé par |
+| Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
 | Inventaire&nbsp;et&nbsp;logistique | [Améliorations des matières dangereuses](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Bientôt disponible | Gestion des fonctions :<br>*Améliorations des matières dangereuses* |
 | Inventaire&nbsp;et&nbsp;logistique | [Travail de conditionnement pour les stations de conditionnement](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Bientôt disponible | Gestion des fonctions :<br>*Travail de conditionnement pour les stations de conditionnement* |
@@ -199,12 +199,12 @@ Consultez [Dynamics 365 et les clouds du secteur : plan de la 1e vague de lan
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 
-La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
+L'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
+Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans l'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
 

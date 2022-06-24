@@ -1,6 +1,6 @@
 ---
 title: Planification et calendrier d’agent de maintenance
-description: Cette rubrique décrit le calendrier de l’agent de maintenance en relation avec la planification dans le module Gestion des actifs.
+description: Cet article décrit le calendrier de l’agent de maintenance en relation avec la planification dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ad76850fe055e96f3ed96e8a5d9524c58d8a187a87641a8669288468d542bb1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c34a6638d573b206108d05d9f43d749a0bb44737
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780275"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859457"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Planification et calendrier d’agent de maintenance
 

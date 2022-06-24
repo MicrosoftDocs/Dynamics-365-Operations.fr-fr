@@ -1,6 +1,6 @@
 ---
 title: Liste du stock disponible
-description: Cette rubrique décrit comment utiliser la page Liste disponible pour inspecter les détails du stock disponible. Elle présente quelques-unes des façons dont les différentes options de filtrage et de tri fonctionnent ensemble, et comment ces options peuvent parfois produire des résultats inattendus lorsqu’elles sont combinées.
+description: Cet article décrit comment utiliser la page Liste disponible pour inspecter les détails du stock disponible. Elle présente quelques-unes des façons dont les différentes options de filtrage et de tri fonctionnent ensemble, et comment ces options peuvent parfois produire des résultats inattendus lorsqu’elles sont combinées.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879046"
 ---
 # <a name="inventory-on-hand-list"></a>Liste du stock disponible
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser la page **Liste disponible** pour inspecter les détails du stock disponible. Elle présente quelques-unes des façons dont les différentes options de filtrage et de tri fonctionnent ensemble, et comment ces options peuvent parfois produire des résultats inattendus lorsqu’elles sont combinées.
+Cet article décrit comment utiliser la page **Liste disponible** pour inspecter les détails du stock disponible. Elle présente quelques-unes des façons dont les différentes options de filtrage et de tri fonctionnent ensemble, et comment ces options peuvent parfois produire des résultats inattendus lorsqu’elles sont combinées.
 
 ## <a name="query-your-on-hand-inventory"></a>Rechercher votre stock disponible
 
@@ -35,9 +35,9 @@ La page **Liste disponible** est automatiquement mise à jour lorsque des transa
 Utilisez les outils suivants pour trouver l’ensemble de produits que vous recherchez :
 
 - Dans le volet Actions, sélectionnez [**Dimensions**](#dimensions) pour ouvrir une boîte de dialogue dans laquelle vous pouvez ajouter ou supprimer des colonnes affichées dans la grille **Disponible**.
-- Dans le [volet **Filtres**](#filters-pane), entrez des valeurs pour des champs spécifiques pour afficher uniquement les enregistrements correspondant à ces valeurs. Notez que les filtres que vous définissez ici s’appliquent aux tables source qui peuvent être regroupées par la suite, en fonction des dimensions que vous avez choisi d’afficher. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cette rubrique.
+- Dans le [volet **Filtres**](#filters-pane), entrez des valeurs pour des champs spécifiques pour afficher uniquement les enregistrements correspondant à ces valeurs. Notez que les filtres que vous définissez ici s’appliquent aux tables source qui peuvent être regroupées par la suite, en fonction des dimensions que vous avez choisi d’afficher. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cet article.
 - Dans le volet **Filtres**, sélectionnez **Appliquer** pour générer la liste du stock disponible correspondant dans la grille **Disponible**.
-- Dans la grille **Disponible**, sélectionnez n’importe quel en-tête de colonne pour trier ou filtrer les valeurs de cette colonne. Un filtre rapide en haut de la grille fournit des options de filtrage supplémentaires. Ces filtres s’appliquent aux résultats, et non aux tables source. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cette rubrique.
+- Dans la grille **Disponible**, sélectionnez n’importe quel en-tête de colonne pour trier ou filtrer les valeurs de cette colonne. Un filtre rapide en haut de la grille fournit des options de filtrage supplémentaires. Ces filtres s’appliquent aux résultats, et non aux tables source. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cet article.
 
 Pour chaque article correspondant, la grille **Disponible** fournit les colonnes suivantes d’informations sur le stock.
 
@@ -64,7 +64,7 @@ Utilisez le volet **Filtres** pour filtrer la liste du stock disponible afin de 
 > [!IMPORTANT]
 > La page **Liste disponible** est assemblée à partir d’une table du stock disponible détaillée qui comprend toutes les dimensions disponibles. Cependant, la liste sur cette page est un résumé. Par conséquent, elle peut combiner des lignes de la table source en regroupant les valeurs en fonction des dimensions affichées.
 >
-> Les filtres que vous définissez dans le volet **Filtres** s’appliquent à la table source, et non à la liste regroupée. Ce comportement peut parfois produire des résultats inattendus. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cette rubrique.
+> Les filtres que vous définissez dans le volet **Filtres** s’appliquent à la table source, et non à la liste regroupée. Ce comportement peut parfois produire des résultats inattendus. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cet article.
 > 
 > Cependant, les [filtres disponibles dans la grille](#grid-filters) *s’appliquent* à la liste regroupée. Ces filtres comprennent à la fois le filtre rapide en haut de la grille et le filtre pour chaque en-tête de colonne.
 
@@ -75,7 +75,7 @@ Vous pouvez modifier l’ensemble des filtres disponibles dans le volet **Filtre
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Sélectionner les dimensions à afficher
 
-Les dimensions vous donnent des informations supplémentaires sur chaque article de la liste du stock disponible. Elles vous offrent également d’autres moyens de trier et de filtrer la liste. Les dimensions que vous choisissez d’afficher affectent également la façon dont les lignes sont regroupées sur la page **Liste disponible**. Ce regroupement, à son tour, peut affecter la manière dont les lignes des tables source sont combinées dans les résultats affichés. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cette rubrique.
+Les dimensions vous donnent des informations supplémentaires sur chaque article de la liste du stock disponible. Elles vous offrent également d’autres moyens de trier et de filtrer la liste. Les dimensions que vous choisissez d’afficher affectent également la façon dont les lignes sont regroupées sur la page **Liste disponible**. Ce regroupement, à son tour, peut affecter la manière dont les lignes des tables source sont combinées dans les résultats affichés. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cet article.
 
 Pour personnaliser la sélection des dimensions de stock affichées, procédez comme suit.
 
@@ -89,7 +89,7 @@ Pour personnaliser la sélection des dimensions de stock affichées, procédez c
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtrer la sortie de la liste du stock disponible
 
-Vous pouvez sélectionner n’importe quel en-tête de colonne dans la grille **Disponible** pour trier ou filtrer les valeurs de cette colonne. Un filtre rapide en haut de la grille fournit des options de filtrage supplémentaires. Ces filtres s’appliquent aux résultats, et non aux tables source. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cette rubrique.
+Vous pouvez sélectionner n’importe quel en-tête de colonne dans la grille **Disponible** pour trier ou filtrer les valeurs de cette colonne. Un filtre rapide en haut de la grille fournit des options de filtrage supplémentaires. Ces filtres s’appliquent aux résultats, et non aux tables source. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cet article.
 
 > [!NOTE]
 > Vous ne pouvez pas filtrer et trier toutes les colonnes. La plupart des colonnes de quantité ne comprennent pas de contrôles de tri et de filtrage, car ce sont des champs calculés. La colonne **En commande** est une exception.

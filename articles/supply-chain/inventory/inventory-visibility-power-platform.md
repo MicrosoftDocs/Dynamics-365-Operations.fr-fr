@@ -1,8 +1,8 @@
 ---
 title: Application de visibilité des stocks
-description: Cette rubrique décrit comment utiliser l’application de visibilité des stocks.
+description: Cet article décrit comment utiliser l’application de visibilité des stocks.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895755"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Utiliser l’application Visibilité des stocks
+# <a name="use-the-inventory-visibility-app"></a>Utiliser l’application Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique décrit comment utiliser l’application de visibilité des stocks.
+Cet article décrit comment utiliser l’application de visibilité des stocks.
 
 La visibilité des stocks fournit une application pilotée par modèle pour la visualisation. Cette application contient trois pages : **Configuration**, **Visibilité opérationnelle** et **Récapitulatif des stocks**. Elle présente les fonctionnalités suivantes :
 
@@ -70,7 +70,10 @@ Pour valider une requête de réservation, vous devez saisir une valeur dans le 
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Récapitulatif du stock
 
-**Récapitulatif du stock** est une vue personnalisée de l’entité *Somme de stock disponible*. Elle fournit un récapitulatif du stock pour les produits avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Avant de pouvoir voir les données sur l’onglet **Récapitulatif du stock**, vous devez activer la fonction *OnHandMostSpecificContexteService* sur l’onglet **Gestion des fonctionnalités**.
+**Récapitulatif du stock** est une vue personnalisée de l’entité *Somme de stock disponible*. Elle fournit un récapitulatif du stock pour les produits avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks toutes les 15 minutes. Pour voir les données sur l’onglet **Récapitulatif du stock**, vous devez activer la fonction *OnHandMostSpecificContexteService* sur l’onglet **Gestion des fonctionnalités**, puis sélectionnez **Mettre à jour la configuration**.
+
+> [!NOTE]
+> La fonctionnalité *OnHandMostSpecificBackgroundService* suit uniquement les modifications du produit en stock qui se sont produites après l'activation de la fonctionnalité. Les données des produits qui n'ont pas changé depuis que vous avez activé la fonctionnalité ne seront pas synchronisées du cache du service d'inventaire vers l'environnement Dataverse. Si votre page **Récapitulatif du stock** n'affiche pas toutes les informations disponibles que vous attendez, accédez à **Gestion des stocks > Tâches périodiques > Intégration de la visibilité des stocks**, désactivez le traitement par lots et réactivez-le. Cela fera la poussée initiale, et toutes les données seront synchronisées avec l'entité *Somme d'inventaire disponible* dans les 15 prochaines minutes. Si vous souhaitez utiliser cette fonctionnalité, nous vous recommandons de l'activer avant de créer des modifications en cours et d'activer le traitement par lots **Intégration de la Visibilité des stocks**.
 
 En utilisant le **Filtre avancé** fourni par Dataverse, vous pouvez créer une vue personnelle qui affiche les lignes qui sont importantes pour vous. Les options de filtrage avancées vous permettent de créer un large éventail de vues, des plus simples aux plus complexes. Elles vous permettent également d’ajouter des conditions groupées et imbriquées aux filtres. Pour en savoir plus sur l’utilisation du **Filtre avancé**, voir [Modifier ou créer des vues personnelles à l’aide de filtres de grille avancés](/powerapps/user/grid-filters-advanced).
 

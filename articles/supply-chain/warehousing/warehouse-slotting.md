@@ -1,6 +1,6 @@
 ---
-title: Créneaux de l’entrepôt
-description: Cette rubrique fournit des informations sur les créneaux de l’entrepôt. Les créneaux de l’entrepôt vous permettent de consolider la demande par article et unité de mesure à partir des commandes ayant le statut Commandé, Réservé ou Validé. Ils permettent aux gestionnaires d’entrepôt de planifier intelligemment les emplacements de prélèvement avant de passer des commandes à l’entrepôt et de créer des travaux de prélèvement.
+title: Créneaux de l'entrepôt
+description: Cet article fournit des informations sur les créneaux de l’entrepôt. Les créneaux de l’entrepôt vous permettent de consolider la demande par article et unité de mesure à partir des commandes ayant le statut Commandé, Réservé ou Validé. Ils permettent aux gestionnaires d’entrepôt de planifier intelligemment les emplacements de prélèvement avant de passer des commandes à l’entrepôt et de créer des travaux de prélèvement.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897253"
 ---
 # <a name="warehouse-slotting"></a>Créneaux de l’entrepôt
 
@@ -156,7 +156,7 @@ Pour chaque modèle de commande client que vous créez, procédez comme suit pou
 
     - **Niveau d’unité de mesure :** _EaBoxPl_
 
-        Ce champ définit les unités de mesure de demande valides pour la ligne. (Pour plus d’informations, voir la section [Paramétrer les niveaux d’unités de mesure des créneaux](#unit-tiers) plus haut dans cette rubrique.)
+        Ce champ définit les unités de mesure de demande valides pour la ligne. (Pour plus d’informations, voir la section [Paramétrer les niveaux d’unités de mesure des créneaux](#unit-tiers) plus haut dans cet article.)
 
     - **Attribuer des critères de créneau :** _Tenir compte de la quantité_
 

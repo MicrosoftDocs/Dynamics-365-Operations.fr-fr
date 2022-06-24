@@ -1,6 +1,6 @@
 ---
 title: Ajout d’une adresse à une commande de service
-description: Cette rubrique explique comment ajouter une adresse du client à une commande de service.
+description: Cet article explique comment ajouter une adresse du client à une commande de service.
 author: sorenva
 ms.date: 05/02/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 560d0c58aebe652e668cc0ec3ed05d84f004872e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844733"
 ---
 # <a name="add-an-address-to-a-service-order"></a>Ajout d’une adresse à une commande de service    
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment ajouter une adresse du client à une commande de service. Lorsque vous créez une commande de service, les informations d’adresse sont transférées à partir du projet auquel la commande de service est associée. Toutefois, vous pouvez sélectionner un autre emplacement à partir des adresses qui sont déjà entrées dans Microsoft Dynamics AX pour des clients, des fournisseurs, des sites, des entrepôts, des commandes de service, et des projets.
+Cet article explique comment ajouter une adresse du client à une commande de service. Lorsque vous créez une commande de service, les informations d’adresse sont transférées à partir du projet auquel la commande de service est associée. Toutefois, vous pouvez sélectionner un autre emplacement à partir des adresses qui sont déjà entrées dans Microsoft Dynamics AX pour des clients, des fournisseurs, des sites, des entrepôts, des commandes de service, et des projets.
 
 Vous pouvez aussi créer une nouvelle adresse. Par défaut, la nouvelle adresse est transférée au projet. Toutefois, vous pouvez spécifier que la nouvelle adresse n’est applicable qu’à cette instance de service. Dans ce cas, la nouvelle adresse n’est pas transférée au projet.
 

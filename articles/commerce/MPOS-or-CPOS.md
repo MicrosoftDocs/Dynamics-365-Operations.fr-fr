@@ -1,6 +1,6 @@
 ---
-title: Choisissez entre Store Commerce et PDV cloud
-description: Cette rubrique explique les principales différences entre Store Commerce et PDV cloud, et décrit divers facteurs que les détaillants qui implémentent Dynamics 365 Commerce devraient envisager pour les aider à faire le meilleur choix en fonction de leurs besoins.
+title: Choisir entre Store Commerce et Cloud POS
+description: Cet article explique les principales différences entre Store Commerce et PDV cloud, et décrit divers facteurs que les détaillants qui implémentent Dynamics 365 Commerce devraient envisager pour les aider à faire le meilleur choix en fonction de leurs besoins.
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854004"
 ---
-# <a name="choose-between-store-commerce-and-cloud-pos"></a>Choisissez entre Store Commerce et PDV cloud
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>Choisir entre Store Commerce et Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique les principales différences entre Store Commerce et PDV cloud, et décrit divers facteurs que les détaillants qui implémentent Dynamics 365 Commerce devraient envisager pour les aider à faire le meilleur choix en fonction de leurs besoins. Elle fournit aux responsables de l’implémentation un contexte, des conseils et des instructions supplémentaires sur les facteurs qu’ils doivent prendre en considération quand ils déploient Dynamics 365 Commerce. En passant en revue et en suivant ces instructions dans le cadre du processus de déploiement, les responsables de l’implémentation peuvent éviter les problèmes susceptibles d’affecter la satisfaction ou les performances de l’utilisateur.
+Cet article explique les principales différences entre Store Commerce et PDV cloud, et décrit divers facteurs que les détaillants qui implémentent Dynamics 365 Commerce devraient envisager pour les aider à faire le meilleur choix en fonction de leurs besoins. Elle fournit aux responsables de l’implémentation un contexte, des conseils et des instructions supplémentaires sur les facteurs qu’ils doivent prendre en considération quand ils déploient Dynamics 365 Commerce. En passant en revue et en suivant ces instructions dans le cadre du processus de déploiement, les responsables de l’implémentation peuvent éviter les problèmes susceptibles d’affecter la satisfaction ou les performances de l’utilisateur.
 
 ## <a name="insights"></a>Informations
 
@@ -44,7 +44,7 @@ Commerce prend en charge les options POS suivantes :
 Dans tous les cas, le PDV (Store Commerce et CPOS) partage le même code d’application principal. Ce point est important pour les raisons suivantes :
 
 - L’interface utilisateur est cohérente, quel que soit la plateforme ou le facteur de forme.
-- La plupart des capacités fonctionnelles sont identiques, quel que soit la plateforme ou le facteur de forme. Toutefois, il existe des différences importantes. Ces différences sont décrites dans cette rubrique.
+- La plupart des capacités fonctionnelles sont identiques, quel que soit la plateforme ou le facteur de forme. Toutefois, il existe des différences importantes. Ces différences sont décrites dans cet article.
 - Dans chaque magasin, les écarts de PDV peuvent être combinés et s’exécuter simultanément. Par exemple, pour ses principales caisses enregistreuses, un détaillant peut utiliser Store Commerce sur les ordinateurs exécutant Windows. Toutefois, le détaillant peut remplacer ces caisses enregistreuses par des terminaux basés sur un navigateur ou des appareils mobiles.
 - Les personnalisations et les extensions peuvent facilement être utilisées dans les plateformes et les facteurs de forme. Comme le code d’application principal est partagé, la plupart des personnalisations peuvent être implémentées une fois au lieu de plusieurs fois.
 

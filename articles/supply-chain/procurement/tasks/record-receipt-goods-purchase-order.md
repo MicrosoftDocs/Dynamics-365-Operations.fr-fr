@@ -1,6 +1,6 @@
 ---
 title: Enregistrer la réception de marchandises sur la commande fournisseur
-description: Cette rubrique explique comment enregistrer la réception des marchandises directement sur une commande fournisseur.
+description: Cet article explique comment enregistrer la réception des marchandises directement sur une commande fournisseur.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 856a588f219879c8ac995faa8a2b17e38d78a933
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 22baf6d0f6db04b3c6ce3c09ee8cb286e9a1e590
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675091"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882458"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Enregistrer la réception de marchandises sur la commande fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment enregistrer la réception des marchandises directement sur une commande fournisseur. Il est également possible d’enregistrer l’accusé de réception de marchandises dans l’entrepôt, puis de l’enregistrer ultérieurement dans la commande fournisseur. Cette tâche est généralement effectuée par un agent des achats ou un coordinateur de Comptabilité fournisseur. L’exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF. L’exemple inclut des étapes pour créer une commande fournisseur simple de sorte que vous puissiez suivre la procédure comme un guide de tâche. Si vous suiviez cette procédure sur vos propres données, vous commenceriez par la sous-tâche **Enregistrer la réception de marchandises**.
+Cet article explique comment enregistrer la réception des marchandises directement sur une commande fournisseur. Il est également possible d’enregistrer l’accusé de réception de marchandises dans l’entrepôt, puis de l’enregistrer ultérieurement dans la commande fournisseur. Cette tâche est généralement effectuée par un agent des achats ou un coordinateur de Comptabilité fournisseur. L’exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF. L’exemple inclut des étapes pour créer une commande fournisseur simple de sorte que vous puissiez suivre la procédure comme un guide de tâche. Si vous suiviez cette procédure sur vos propres données, vous commenceriez par la sous-tâche **Enregistrer la réception de marchandises**.
 
 
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>Préparer une nouvelle commande fournisseur pour la réception des marchandises

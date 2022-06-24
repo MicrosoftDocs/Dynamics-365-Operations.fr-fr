@@ -1,6 +1,6 @@
 ---
 title: Consolider les expéditions à l’aide de l’atelier de consolidation des expéditions
-description: Cette rubrique présente un scénario dans lequel plusieurs commandes sont validées dans l’entrepôt puis consolidées en expéditions ultérieurement à l’aide de l’atelier de consolidation des expéditions.
+description: Cet article présente un scénario dans lequel plusieurs commandes sont validées dans l’entrepôt puis consolidées en expéditions ultérieurement à l’aide de l’atelier de consolidation des expéditions.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 43669bc302ac0d5dd9e6f161e17dde1155aae0f6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888323"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolider les expéditions à l’aide de l’atelier de consolidation des expéditions
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente un scénario dans lequel plusieurs commandes sont validées dans l’entrepôt puis consolidées en expéditions ultérieurement à l’aide de l’atelier de consolidation des expéditions.
+Cet article présente un scénario dans lequel plusieurs commandes sont validées dans l’entrepôt puis consolidées en expéditions ultérieurement à l’aide de l’atelier de consolidation des expéditions.
 
 ## <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Le scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
+Le scénario de cet article fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configurer des stratégies de consolidation d’expédition et des filtres de produits
 

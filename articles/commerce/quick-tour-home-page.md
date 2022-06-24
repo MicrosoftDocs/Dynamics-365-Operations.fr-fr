@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la page d’accueil
-description: Cette rubrique offre une vue d’ensemble de la page d’accueil dans Microsoft Dynamics 365 Commerce.
+description: Cet article offre une vue d’ensemble de la page d’accueil dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844670"
 ---
 # <a name="home-page-overview"></a>Vue d’ensemble de la page d’accueil
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique offre une vue d’ensemble de la page d’accueil dans Microsoft Dynamics 365 Commerce.
+Cet article offre une vue d’ensemble de la page d’accueil dans Microsoft Dynamics 365 Commerce.
 
 La page d’accueil est la page par défaut vers laquelle les clients se dirigent lorsqu’ils visitent un site du commerce électronique. En général, cette page présente des produits et des promotions à l’aide d’une combinaison des modules de marketing. La page d’accueil doit être enrichie d’images et de texte permettant de continuer de susciter l’intérêt des clients.
 
@@ -33,7 +33,7 @@ L’illustration suivante montre un exemple de page d’accueil qui a été gén
 
 ![Exemple d’une page d’accueil.](./media/Homepage2.PNG)
 
-Le haut de la page d’accueil comporte en-tête qui affiche toutes les catégories de produits et d’autres pages que le détaillant souhaite que les clients parcourent. Le bas de la page d’accueil comporte un pied de page qui contient des liens rapides vers diverses rubriques qui peuvent intéresser les clients.
+Le haut de la page d’accueil comporte en-tête qui affiche toutes les catégories de produits et d’autres pages que le détaillant souhaite que les clients parcourent. Le bas de la page d’accueil comporte un pied de page qui contient des liens rapides vers divers articles qui peuvent intéresser les clients.
 
 La section principale de la page d’accueil peut mettre en évidence des produits, des catégories ou des promotions à l’aide de différents modules Dynamics 365 Commerce :
 
@@ -49,8 +49,8 @@ La section principale de la page d’accueil peut mettre en évidence des produi
 
     ![Exemples de modules de fonctionnalités.](./media/Feature.PNG)
 
-- **Vignette** : une disposition en vignette d’un module de bloc de contenu permet de présenter plusieurs produits ou une catégorie de produits en associant des images et du texte dans une disposition à plusieurs colonnes. Dans l’illustration d’une page d’accueil qui apparaît plus haut dans cette rubrique, une disposition en vignette est utilisée pour le rendu en 3 colonnes des articles **Achats Femme**, **Achats Homme** et **Achats accessoires**.
-- **Lecteur vidéo** – Un module de lecteur vidéo permet de présenter du contenu vidéo sur la page d’accueil. L’illustration d’une page d’accueil qui apparaît plus haut dans cette rubrique comprend un module de lecteur vidéo.
+- **Vignette** : une disposition en vignette d’un module de bloc de contenu permet de présenter plusieurs produits ou une catégorie de produits en associant des images et du texte dans une disposition à plusieurs colonnes. Dans l’illustration d’une page d’accueil qui apparaît plus haut dans cet article, une disposition en vignette est utilisée pour le rendu en 3 colonnes des articles **Achats Femme**, **Achats Homme** et **Achats accessoires**.
+- **Lecteur vidéo** – Un module de lecteur vidéo permet de présenter du contenu vidéo sur la page d’accueil. L’illustration d’une page d’accueil qui apparaît plus haut dans cet article comprend un module de lecteur vidéo.
 - **Bloc de texte** : un module de bloc enrichi de contenu qui permet de présenter le contenu de texte sur la page d’accueil dans une disposition à une ou plusieurs colonnes.
 - **Recommandations produit** : les modules de recommandations de produits permettent d’afficher les listes telles que **Nouveau**, **Tendance** et **Meilleures ventes** sur la page d’accueil. Ces listes présentent les produits selon les tendances d’achats, puis elles peuvent être algorithmiquement générées ou manuellement éditées. Elles aident les clients à découvrir rapidement les meilleurs produits puis à continuer d’acheter.
 

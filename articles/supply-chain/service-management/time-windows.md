@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857e9e023aa5648a06ae564936f06c491ea7cefc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ccbb9cf71ff1df7aa336deb5bf9d7dacb8004134
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862393"
 ---
 # <a name="time-windows"></a>Fenêtres Délai  
 
@@ -38,7 +38,7 @@ Les fenêtres Délai indiquent l’ampleur du déplacement d’une ligne de comm
 
 Si vous n’indiquez aucune fenêtre Délai pour une ligne d’accord de service, la ligne de commande de service dérivée de l’accord de service doit être exécutée à la date précise planifiée initialement.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Création de fenêtres Délai](create-time-windows.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Comptes d’utilisateur d’appareil mobile
-description: Cette rubrique explique comment configurer et gérer des comptes d’utilisateur qui permettent aux collaborateurs de se connecter et d’utiliser l’application d’entrepôt.
+description: Cet article explique comment configurer et gérer des comptes d’utilisateur qui permettent aux collaborateurs de se connecter et d’utiliser l’application d’entrepôt.
 author: Mirzaab
 ms.date: 09/15/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ffb4a9842f454094b41a1765d1438f6a40ae610b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851302"
 ---
 # <a name="mobile-device-user-accounts"></a>Comptes d’utilisateur d’appareil mobile
 

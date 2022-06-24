@@ -1,6 +1,6 @@
 ---
 title: Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour l’Allemagne (héritées)
-description: Cette rubrique fournit des lignes directrices pour le déploiement de l’exemple d’intégration fiscale pour l’Allemagne à partir du Kit de développement logiciel de vente au détail (SDK) Microsoft Dynamics 365 Commerce.
+description: Cet article fournit des lignes directrices pour le déploiement de l’exemple d’intégration fiscale pour l’Allemagne à partir du Kit de développement logiciel de vente au détail (SDK) Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 9f6ecc715e10538806998459b7fd837648494ad7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845835"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour l’Allemagne (héritées)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des instructions pour le déploiement de l’exemple d’intégration de service d’enregistrement fiscal pour l’Allemagne à partir du Kit de développement logiciel (SDK) Microsoft Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration du service d’enregistrement fiscal pour l’Allemagne](emea-deu-fi-sample.md). 
+Cet article fournit des instructions pour le déploiement de l’exemple d’intégration de service d’enregistrement fiscal pour l’Allemagne à partir du Kit de développement logiciel (SDK) Microsoft Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration du service d’enregistrement fiscal pour l’Allemagne](emea-deu-fi-sample.md). 
 
-L’échantillon d’intégration fiscale pour l’Allemagne fait partie du Kit de développement logiciel (SDK) Retail. Pour en savoir plus sur la manière d’installer et d’utiliser le SDK, voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT) et la station matérielle. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT et station matérielle. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cette rubrique. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Azure DevOps, où aucun fichier n’a encore été modifié.
+L’échantillon d’intégration fiscale pour l’Allemagne fait partie du Kit de développement logiciel (SDK) Retail. Pour en savoir plus sur la manière d’installer et d’utiliser le SDK, voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT) et la station matérielle. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT et station matérielle. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cet article. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Azure DevOps, où aucun fichier n’a encore été modifié.
 
 ## <a name="development-environment"></a>Environnement de développement
 

@@ -1,6 +1,6 @@
 ---
 title: Configurer les magasins en ligne
-description: Cet article fournit des liens vers des rubriques qui vous aident à configurer et à gérer de manière centralisée un magasin en ligne.
+description: Cet article fournit des liens vers des articles qui vous aident à configurer et à gérer de manière centralisée un magasin en ligne.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861877"
 ---
 # <a name="configure-online-stores"></a>Configurer les magasins en ligne
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des liens vers des rubriques qui vous aident à configurer et à gérer de manière centralisée un magasin en ligne.
+Cet article fournit des liens vers des articles qui vous aident à configurer et à gérer de manière centralisée un magasin en ligne.
 
-Les rubriques répertoriées dans l’aide du tableau suivant vous permettent de configurer les composants Commerce et le magasin en ligne dans le client.
+Les articles répertoriés dans l’aide du tableau suivant vous permettent de configurer les composants Commerce et le magasin en ligne dans le client.
 
 ## <a name="configure-an-online-store"></a>Configuration d’un magasin en ligne
 
-| Tâche                                                | Détails                                                                                                                                                                                                                                                                                                                                                   | Rubriques                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Tâche                                                | Détails                                                                                                                                                                                                                                                                                                                                                   | Articles                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurez les composants.                        | Paramétrez et mettez à jour les informations pour les opérations Commerce. Ces informations incluent les magasins, les taxes, les produits, les cartes cadeau, les promotions et les remises.                                                                                                                                                                                                          | [Paramétrage et mise à jour de Retail](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (Contenu TechNet pour Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
 | Configurez une hiérarchie de navigation du canal.    | Créez une hiérarchie des catégories de navigation d’un canal afin de paramétrer une structure de catégories pour les produits que vous proposez via un magasin en ligne. Définissez la hiérarchie de catégories et affectez des produits, des groupes d’attributs de produit et des valeurs d’attribut aux catégories. Affectez ensuite la hiérarchie de catégories à un magasin en ligne.                            | [Paramétrer une hiérarchie des ventes au détail](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (Contenu TechNet pour AX 2012)</br> [Paramétrer des attributs et des types d’attributs](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (Contenu TechNet pour AX 2012)</br> [Paramétrer des groupes d’attributs de vente au détail](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (Contenu TechNet pour AX 2012) |
@@ -41,7 +41,7 @@ Les rubriques répertoriées dans l’aide du tableau suivant vous permettent de
 
 ## <a name="configure-online-store-products"></a>Configuration des produits du magasin en ligne
 
-| Tâche                                 | Détails                                                                                                                                           | Rubriques                                                                                                                                                                                                                                                                            |
+| Tâche                                 | Détails                                                                                                                                           | Articles                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ajouter des assortiments au magasin en ligne. | Ajoutez les assortiments contenant les produits proposés dans un magasin en ligne.                                                                  | [Paramétrage d’un magasin en ligne](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (Contenu TechNet pour AX 2012)                                                                                                                                              |
 | Gérer les catalogues.                     | Utilisez les catalogues de produits pour identifier les produits que vous souhaitez proposer dans vos magasins.                                                              | [Tâches principales : création de catalogues de produits vendus au détail](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (Contenu TechNet pour AX 2012)                                                                                                                           |
@@ -52,7 +52,7 @@ Les rubriques répertoriées dans l’aide du tableau suivant vous permettent de
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Paramétrer un échange de données entre Commerce et le magasin en ligne
 
-| Tâche                                 | Détails                                                                                                                               | Rubriques                                                                                                                                                                                                                                                                                  |
+| Tâche                                 | Détails                                                                                                                               | Articles                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Paramétrer les profils d’intégration de canal. | Les profils permettent aux composants de communiquer entre eux. Paramétrez des profils avant de configurer les paramètres d’échange de données. | [Configurer un profil de service en temps réel](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (Contenu TechNet pour AX 2012)</br> [Configurer un profil de canal](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (Contenu TechNet pour AX 2012) |
 

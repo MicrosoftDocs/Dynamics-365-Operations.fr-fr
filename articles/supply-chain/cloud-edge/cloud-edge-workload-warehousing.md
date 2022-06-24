@@ -1,6 +1,6 @@
 ---
 title: Charges de travail de gestion de l’entreposage pour les unités d’échelle du cloud et d’Edge
-description: Cette rubrique fournit des informations sur la fonctionnalité qui permet aux unités d’échelle d’exécuter des processus sélectionnés à partir de votre charge de travail de gestion d’entrepôt.
+description: Cet article fournit des informations sur la fonctionnalité qui permet aux unités d’échelle d’exécuter des processus sélectionnés à partir de votre charge de travail de gestion d’entrepôt.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893495"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Toutes les fonctionnalités commerciales de gestion d’entrepôt ne sont pas entièrement prises en charge pour les entrepôts exécutant une charge de travail sur une unité d’échelle. Veillez à n’utiliser que les processus que cette rubrique décrit explicitement comme pris en charge.
+> Toutes les fonctionnalités commerciales de gestion d’entrepôt ne sont pas entièrement prises en charge pour les entrepôts exécutant une charge de travail sur une unité d’échelle. Veillez à n’utiliser que les processus que cet article décrit explicitement comme pris en charge.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Exécution d’entrepôt sur des unités d’échelle
 
@@ -184,7 +184,7 @@ Aucun autre type de traitement des documents source ou des tâches d’entrepôt
 >
 > Quelques étapes supplémentaires sont nécessaires pour configurer l’application mobile Warehouse Management afin qu’elle fonctionne avec une unité d’échelle cloud ou périphérique. Pour plus d’informations, voir [Configurer l’application mobile Warehouse Management pour les unités d’échelle périphériques et cloud](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Lorsque vous exécutez une charge de travail sur une unité d’échelle, vous ne pouvez pas exécuter de processus non pris en charge pour l’entrepôt spécifique sur le hub. Les tables indiquées ultérieurement dans cette rubrique documentent les fonctionnalités prises en charge.
+> Lorsque vous exécutez une charge de travail sur une unité d’échelle, vous ne pouvez pas exécuter de processus non pris en charge pour l’entrepôt spécifique sur le hub. Les tables indiquées ultérieurement dans cet article documentent les fonctionnalités prises en charge.
 >
 > Les types de travaux d’entrepôt sélectionnés peuvent être créés à la fois sur le hub et sur les unités d’échelle, mais ne peuvent être gérés que par le hub ou l’unité d’échelle propriétaire (le déploiement qui a créé les données).
 >

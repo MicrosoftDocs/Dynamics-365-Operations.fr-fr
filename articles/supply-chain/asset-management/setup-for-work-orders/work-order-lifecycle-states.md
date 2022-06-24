@@ -1,6 +1,6 @@
 ---
-title: États du cycle de vie d’ordres de travail
-description: Cette rubrique explique les états du cycle de vie d’ordres de travail dans le module Gestion des actifs.
+title: États du cycle de vie de l’ordre de travail
+description: Cet article explique les états du cycle de vie d’ordres de travail dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860868"
 ---
 # <a name="work-order-lifecycle-states"></a>États du cycle de vie d’ordres de travail
 
@@ -69,7 +69,7 @@ La table suivante décrit les options dans les sections **Ordre de travail** et 
 
     Dans l’organisateur **Détails**, le champ **Modèles de cycle de vie** affiche le nombre de modèles de cycle de vie de l’ordre de travail qui utilisent cet état du cycle de vie.
 
-8. Dans l’organisateur **Général**, dans la section **Ordre de travail**, sélectionnez les fonctions qui doivent être disponibles pour cet état du cycle de vie en définissant les options appropriées sur **Oui**. Pour obtenir une description des options, voir le tableau mentionné plus haut dans cette rubrique.
+8. Dans l’organisateur **Général**, dans la section **Ordre de travail**, sélectionnez les fonctions qui doivent être disponibles pour cet état du cycle de vie en définissant les options appropriées sur **Oui**. Pour obtenir une description des options, voir le tableau mentionné plus haut dans cet article.
 9. Dans la section **Projet**, dans le champ **Stade**, sélectionnez le stade de projet qui doit être associé à cet état du cycle de vie.
 10. Dans la section **Projet**, définissez l’option **Clôturer les activités** sur **Oui** si les activités de projet relatives à chaque tâche de l’ordre de travail doivent être automatiquement fermées lorsque l’ordre de travail est dans cet état du cycle de vie.
 
@@ -77,7 +77,7 @@ La table suivante décrit les options dans les sections **Ordre de travail** et 
     > Pour trouver le numéro de l’activité de projet associée à une tâche de l’ordre de travail, sélectionnez **Gestion des actifs** \> **Commun** \> **Ordres de travail** \> **Tous les ordres de travail**, **Ordres de travail actifs** ou **Mes ordres de travail actifs**. Ouvrez l’ordre de travail, puis sélectionnez la tâche de l’ordre de travail. Le numéro d’activité affiché dans le champ **Numéro d’activité** dans la section **Projet** sur l’onglet **Général** de l’organisateur **Détails de ligne**.
 
 11. Dans la section **Prévisions**, définissez **Copier les prévisions en heures**, **Copier les prévisions en articles**, et/ou l’option **Copier les prévisions de dépenses** sur **Oui** si des prévisions de projet de l’ordre de travail sont automatiquement copiées dans les journaux de l’ordre de travail lorsque l’ordre de travail est dans cet état du cycle de vie.
-12. Dans la section **Planifier**, définissez une des options sur **Oui** si le statut du plan pour les tâches de l’ordre de travail est mis à jour lorsque l’ordre de travail est dans cet état du cycle de vie. Pour les descriptions des options **Prêt**, **Début**, **Fin** et **Supprimer les lignes du programme**, voir le tableau ci-dessus dans cette rubrique.
+12. Dans la section **Planifier**, définissez une des options sur **Oui** si le statut du plan pour les tâches de l’ordre de travail est mis à jour lorsque l’ordre de travail est dans cet état du cycle de vie. Pour les descriptions des options **Prêt**, **Début**, **Fin** et **Supprimer les lignes du programme**, voir le tableau ci-dessus dans cet article.
 
     > [!NOTE]
     > Pour afficher les lignes du programme associées aux tâches de l’ordre de travail, sélectionnez **Gestion des actifs** \> **Commun** \> **Ordres de travail** \> **Tous les ordres de travail**, **Ordres de travail actifs** ou **Mes ordres de travail actifs**. Ouvrez l’ordre de travail, sélectionnez la tâche de l’ordre de travail sur l’organisateur **Tâches de l’ordre de travail**, et affichez les informations associées sur l’organisateur **Détails de ligne**. Le champ **Statut** sur l’onglet **Planifier** présente le statut de la tâche de l’ordre de travail. Le champ **Statut** peut être défini sur les valeurs suivantes : **Prévu**, **Prêt**, **Commencé**, **Bloqué** et **Terminé**.

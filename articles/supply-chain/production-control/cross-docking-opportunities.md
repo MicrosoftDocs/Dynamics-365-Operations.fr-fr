@@ -1,6 +1,6 @@
 ---
 title: Cross-docking des ordres de fabrication aux quais d’expédition
-description: Cette rubrique décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d’une ligne de production à un quai de transport sortant.
+description: Cet article décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d’une ligne de production à un quai de transport sortant.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea3ae6cb83d6577ba76d7e2aff9a05973b314cfe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849327"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docking des ordres de fabrication aux quais d’expédition
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d’une ligne de production à un quai de transport sortant.
+Cet article décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d’une ligne de production à un quai de transport sortant.
 
 ## <a name="introduction"></a>Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: Créer un profil de fonctionnalité de vente au détail
-description: Cette rubrique décrit comment créer un profil de fonctionnalité dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment créer un profil de fonctionnalité dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9043486050e230fd9ecdefaaa65427264c8e40f5c3e8602c923bbede595a7243
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2ef6ae6dfd455f8021a0a2620fcacd0b4b7fcac4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900410"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Créer un profil de fonctionnalité de vente au détail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer un profil de fonctionnalité dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment créer un profil de fonctionnalité dans Microsoft Dynamics 365 Commerce.
 
 Le profil de fonctionnalité Commerce fournit divers paramètres utilisés pour les canaux en ligne. Chaque canal doit préciser un profil de fonctionnalité.
 

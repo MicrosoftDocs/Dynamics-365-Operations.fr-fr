@@ -1,6 +1,6 @@
 ---
 title: Catalogues de centre d’appels
-description: Cette rubrique décrit la fonctionnalité spécifique au centre d’appel des catalogues dans Dynamics 365 Commerce.
+description: Cet article décrit la fonctionnalité spécifique au centre d’appel des catalogues dans Dynamics 365 Commerce.
 author: josaw1
 ms.date: 05/15/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11af3c889e7e40e13f4aa8b3db97f544fbd20229
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884054"
 ---
 # <a name="call-center-catalogs"></a>Catalogues de centre d’appels
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité spécifique au centre d’appels associée aux fonctions de catalogue dans Dynamics 365 Commerce.
+Cet article décrit la fonctionnalité spécifique au centre d’appels associée aux fonctions de catalogue dans Dynamics 365 Commerce.
 
 Les fonctions de catalogue disponibles dans Commerce peuvent être utilisées à plusieurs fins. Les fonctions de catalogue ont été initialement créées pour prendre en charge les intégrations de e-Commerce tierces. Le paramétrage du catalogue a permis aux sociétés de créer un regroupement de produits et d’attributs qui pouvaient être publiés en externe pour la consommation par une solution de e-Commerce tierce.
 

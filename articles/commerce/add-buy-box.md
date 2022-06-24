@@ -1,6 +1,6 @@
 ---
-title: Module Zone d’achat
-description: Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+title: Module de zone d’achat
+description: Cet article couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eba86cd0fe2790cabed1f091ddc59002d19ae228
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 5167aac784bb3ab6a63033590178c2eead627b96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863546"
 ---
-# <a name="buy-box-module"></a>Module Zone d’achat
+# <a name="buy-box-module"></a>Module de zone d’achat
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Le terme *zone d’achat* désigne généralement la zone d’une page de détails de produit « au-dessus du volet », et qui héberge toutes les principales informations requises pour effectuer un achat de produit. (Une zone qui est « au-dessus du volet » n’est visible que si la page est d’abord chargée, afin que les utilisateurs n’aient pas à faire défiler l’écran pour la voir.)
 

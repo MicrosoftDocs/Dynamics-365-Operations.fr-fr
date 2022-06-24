@@ -1,6 +1,6 @@
 ---
 title: Module Carrousel
-description: Cette rubrique couvre les modules de carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+description: Cet article couvre les modules de carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 219e497653c6ec5d65cd7c89e2ebb9fc85c2f440
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: b99fea773f18c65b73ea3f519705d3043820cfd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865005"
 ---
 # <a name="carousel-module"></a>Module Carrousel
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules de carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Un module Carrousel sert à mettre des plusieurs articles publicitaires (dont des images enrichies) dans une bannière de carrousel tournante à laquelle les clients peuvent accéder. Par exemple, un détaillant peut utiliser un module Carrousel sur une page d’accueil pour présenter plusieurs nouveaux produits ou promotions.
 

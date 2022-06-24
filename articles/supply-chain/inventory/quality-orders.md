@@ -1,6 +1,6 @@
 ---
 title: Ordres de qualité
-description: Cette rubrique décrit comment créer manuellement ou automatiquement des ordres de qualité et comment les utiliser pour effectuer des inspections et enregistrer les résultats des tests dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article décrit comment créer manuellement ou automatiquement des ordres de qualité et comment les utiliser pour effectuer des inspections et enregistrer les résultats des tests dans Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857777"
 ---
 # <a name="quality-orders"></a>Ordres de qualité
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment créer manuellement ou automatiquement des ordres de qualité et comment les utiliser pour effectuer des inspections et enregistrer les résultats des tests dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article décrit comment créer manuellement ou automatiquement des ordres de qualité et comment les utiliser pour effectuer des inspections et enregistrer les résultats des tests dans Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Ordres de qualité créés automatiquement
 
@@ -39,7 +39,7 @@ Pour créer un ordre de qualité manuellement, procédez comme suit :
 
 1. Allez dans **Gestion des stocks \> Tâches périodiques \> Gestion de la qualité \> Ordres de qualité**.
 1. Sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Ordres de qualité**, dans le champ **Type de référence**, sélectionnez la référence de stock à laquelle votre commande de qualité sera liée. Pour obtenir une description des types de référence pouvant être sélectionnés, reportez-vous à la section [Types de référence d'ordre de qualité](#ref-types) plus loin dans cette rubrique.
+1. Dans la boîte de dialogue **Ordres de qualité**, dans le champ **Type de référence**, sélectionnez la référence de stock à laquelle votre commande de qualité sera liée. Pour obtenir une description des types de référence pouvant être sélectionnés, reportez-vous à la section [Types de référence d'ordre de qualité](#ref-types) plus loin dans cet article.
 
     > [!NOTE]
     > Le stock lié à la référence sélectionnée doit être disponible. Si aucun stock n'est disponible pour la combinaison du type de référence, de la quantité et des dimensions de stock que vous sélectionnez, vous recevrez un message d'erreur.
@@ -88,7 +88,7 @@ Vous pouvez utiliser la page d'ordre de qualité pour créer manuellement un nou
 
 ### <a name="from-the-quality-orders-page"></a>Depuis la page Ordres de qualité
 
-Pour créer manuellement des ordres de qualité et afficher ceux existants, accédez à **Gestion des stocks \> Tâches périodiques \> Gestion de la qualité \> Ordres de qualité**. Les sections restantes de cette rubrique fournissent plus d'informations sur la façon de travailler avec la page **Ordres de qualité**.
+Pour créer manuellement des ordres de qualité et afficher ceux existants, accédez à **Gestion des stocks \> Tâches périodiques \> Gestion de la qualité \> Ordres de qualité**. Les sections restantes de cet article fournissent plus d'informations sur la façon de travailler avec la page **Ordres de qualité**.
 
 ### <a name="from-sales-orders"></a>À partir des commandes client
 

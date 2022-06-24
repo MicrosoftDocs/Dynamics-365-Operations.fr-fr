@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la gestion des stocks
-description: Cette rubrique fournit une vue d’ensemble de la gestion des stocks.
+description: Cet article fournit une vue d’ensemble de la gestion des stocks.
 author: yufeihuang
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dee04677858228b66d64bb0a217206b5557cc30
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5705f11eae145ea262eaf5f7ed30f189d94703b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874012"
 ---
 # <a name="inventory-management-overview"></a>Vue d’ensemble de la gestion des stocks
 

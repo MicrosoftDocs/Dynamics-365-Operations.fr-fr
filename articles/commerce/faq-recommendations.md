@@ -1,6 +1,6 @@
 ---
 title: FAQ sur les recommandations produit
-description: Cette rubrique fournit des informations sur les processus et les outils que vous pouvez utiliser pour résoudre les problèmes liés aux recommandations de produit ou à leurs résultats.
+description: Cet article fournit des informations sur les processus et les outils que vous pouvez utiliser pour résoudre les problèmes liés aux recommandations de produit ou à leurs résultats.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900445"
 ---
 # <a name="product-recommendations-faq"></a>FAQ sur les recommandations produit
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur les processus et les outils que vous pouvez utiliser pour résoudre les problèmes liés aux [recommandations de produit](product-recommendations.md) ou à leurs résultats.
+Cet article fournit des informations sur les processus et les outils que vous pouvez utiliser pour résoudre les problèmes liés aux [recommandations de produit](product-recommendations.md) ou à leurs résultats.
 
 ## <a name="best-practices"></a>Utilisation optimale
 Il est primordial d’utiliser le concept des produits génériques et des variantes. Le regroupement raisonnable des variantes en un produit générique parent aide les algorithmes et le service de liste à créer de meilleurs modèles. En outre, le service peut servir simplement une instance d’un produit au lieu de mettre toutes les variantes étroitement liées dans une liste. Lorsque toutes les variantes étroitement liées sont mises dans une liste, des résultats incorrects ou en double peuvent se produire.

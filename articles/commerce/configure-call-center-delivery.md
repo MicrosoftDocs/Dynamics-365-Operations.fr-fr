@@ -1,6 +1,6 @@
 ---
 title: Configurer les modes de livraison et les frais du centre d’appels
-description: Cette rubrique décrit la procédure de paramétrage des modes de livraison et des frais pour une commande du centre d’appels dans Dynamics 365 Commerce.
+description: Cet article décrit la procédure de paramétrage des modes de livraison et des frais pour une commande du centre d’appels dans Dynamics 365 Commerce.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888296"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurer les modes de livraison et les frais du centre d’appels
 
@@ -35,7 +35,7 @@ Commerce a des fonctionnalités permettant aux utilisateurs de limiter les modes
 
 Avant de spécifier les modes de livraison qui peuvent être utilisés pour les commandes du centre d’appels et de définir les règles et les frais associés, vous devez définir les modes de livraison. Allez dans **Ventes et marketing \> Paramétrage \> Distribution \> Modes de livraison**. Sélectionnez **Nouveau** pour créer un mode de livraison. Sinon, sélectionnez un mode de livraison existant dans la liste, puis sélectionnez **Modifier** pour apporter des modifications.
 
-Dans le champ **Mode de livraison**, vous pouvez saisir une combinaison de caractères alphanumériques, selon les besoins de votre entreprise. Vous pouvez ensuite utiliser le champ **Description** pour fournir un contexte supplémentaire. Les champs **Groupe de frais** et **Expédition** sont facultatifs et sont expliqués en détail plus loin dans cette rubrique.
+Dans le champ **Mode de livraison**, vous pouvez saisir une combinaison de caractères alphanumériques, selon les besoins de votre entreprise. Vous pouvez ensuite utiliser le champ **Description** pour fournir un contexte supplémentaire. Les champs **Groupe de frais** et **Expédition** sont facultatifs et sont expliqués en détail plus loin dans cet article.
 
 Dans l’organisateur **Canaux Commerce**, ajoutez tout canal qui doit être autorisé à utiliser le mode de livraison lorsque des transactions de vente sont créées dans ce canal.
 

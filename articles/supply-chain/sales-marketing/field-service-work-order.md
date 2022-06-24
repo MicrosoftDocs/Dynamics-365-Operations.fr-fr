@@ -1,6 +1,6 @@
 ---
 title: Synchroniser des bons de travail de Field Service sur des commandes client de Supply Chain Management
-description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres de travail de Field Service sur les commandes client de Supply Chain Management.
+description: Cet article présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres de travail de Field Service sur les commandes client de Supply Chain Management.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860520"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Synchroniser des bons de travail de Field Service sur des commandes client de Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061307"
 
 
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres d’exécution dans Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
+Cet article présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres d’exécution dans Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
 
 [![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,9 +165,9 @@ Pour effectuer le suivi des commandes client qui proviennent des ordres de trava
 
 Par défaut, la mise en correspondance sélectionne l’origine des ventes pour le type d’origine des ventes **Intégration de l’ordre d’exécution** pour toutes les commandes client créées à partir des ordres d’exécution. Ceci peut s’avérer utile lorsque vous utilisez la commande client dans Supply Chain Management. Vous devez vous assurer que les commandes client provenant des ordres d’exécution ne sont pas resynchronisées sur Field Service comme ordres d’exécution.
 
-Pour plus d’informations sur la création du paramétrage correct de l’origine des ventes dans Supply Chain Management, voir la section « Conditions préalables et paramétrage de mise en correspondance » de cette rubrique.
+Pour plus d’informations sur la création du paramétrage correct de l’origine des ventes dans Supply Chain Management, voir la section « Conditions préalables et paramétrage de mise en correspondance » de cet article.
 
-### <a name="status"></a>État
+### <a name="status"></a>Statut
 
 Lorsque la commande client provient d’un ordre d’exécution, le champ **Statut de l’ordre d’exécution externe** apparaît sur l’onglet **Paramétrage** dans l’en-tête de la commande client. Ce champ affiche le statut système de l’ordre de travail dans Field Service, afin de suivre le statut de l’ordre de travail synchronisé des commandes client dans Supply Chain Management. Ce champ peut également aider l’utilisateur à déterminer quand la commande client doit être livrée ou facturée.
 

@@ -1,6 +1,6 @@
 ---
 title: Paramétrage du projet de l’ordre de travail
-description: Cette rubrique explique le paramétrage du projet de l’ordre de travail dans le module Gestion des actifs.
+description: Cet article explique le paramétrage du projet de l’ordre de travail dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31d8f42eb5753ea2656d502d2670a6cf7683c0f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874128"
 ---
 # <a name="work-order-project-setup"></a>Paramétrage du projet de l’ordre de travail
 
@@ -80,7 +80,7 @@ Le paramétrage permet l’intégration complète au module **Gestion de projets
 ![Page Configuration de projet d’ordres de travail, Ajouter un ordre de travail.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
-> Chaque fois qu’une ligne d’ordre de travail est créée, le module Gestion des actifs recherche un groupe de projets qui doit être associé au projet de la tâche de l’ordre de travail. La recherche est basée sur le paramétrage décrit dans cette rubrique. Chaque groupe de projets a un type de projet associé. Les groupes de projets dont le projet est de type **Régie** ou **Prix fixe** sont valides uniquement pour les actifs associés à un compte client.
+> Chaque fois qu’une ligne d’ordre de travail est créée, le module Gestion des actifs recherche un groupe de projets qui doit être associé au projet de la tâche de l’ordre de travail. La recherche est basée sur le paramétrage décrit dans cet article. Chaque groupe de projets a un type de projet associé. Les groupes de projets dont le projet est de type **Régie** ou **Prix fixe** sont valides uniquement pour les actifs associés à un compte client.
 >
 > Pour les projets parents et les groupes de projets, quand le système sélectionne le projet ou le groupe de projets de l’ordre de travail disponible, la sélection est basée sur les enregistrements que vous avez créés à l’aide de la procédure précédente. Le module Gestion des actifs parcourt les enregistrements associés au projet de l’ordre de travail pour vérifier une correspondance éventuelle. Il vérifie toujours la combinaison la plus spécifique en premier. En d’autres termes, le projet parent de l’ordre de travail, le module Gestion des actifs recherche d’abord une correspondance éventuelle pour le champ **Actif**. Si aucune correspondance n’est trouvée, il recherche une correspondance pour le champ **Type d’actif**. Si aucune correspondance n’est trouvée, il recherche une correspondance pour le champ **Poste technique**, etc. Comme vous pouvez voir dans la disposition de la page **Paramétrage du projet de l’ordre de travail**, ce comportement signifie que, pour trouver la combinaison la plus spécifique, le module Gestion des actifs recherche une correspondance dans chaque enregistrement en allant de la droite vers la gauche. Si aucune correspondance n’est détectée, l’enregistrement par défaut où seul un ID de projet est sélectionné est utilisé. Le processus pour trouver le groupe de projets associé est similaire. Le module Gestion des actifs vérifie d’abord une correspondance éventuelle pour le champ **Actif**, puis le champ **Type d’actif**, puis le champ **Type d’ordre de travail**. Si aucune correspondance n’est détectée, l’enregistrement par défaut où seul un groupe de projets est sélectionné est utilisé.
 

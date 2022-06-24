@@ -1,6 +1,6 @@
 ---
 title: Options de mise en œuvre d’un réseau de diffusion de contenu
-description: Cette rubrique passe en revue les différentes options d’implémentation d’un réseau de diffusion de contenu (CDN) pouvant être utilisées avec les environnements Microsoft Dynamics 365 Commerce. Ces options incluent des instances Azure Front Door natives fournies par Commerce et des instances Azure Front Door appartenant au client.
+description: Cet article passe en revue les différentes options d’implémentation d’un réseau de diffusion de contenu (CDN) pouvant être utilisées avec les environnements Microsoft Dynamics 365 Commerce. Ces options incluent des instances Azure Front Door natives fournies par Commerce et des instances Azure Front Door appartenant au client.
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884415"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Options de mise en œuvre d’un réseau de diffusion de contenu
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique passe en revue les différentes options d’implémentation d’un réseau de diffusion de contenu (CDN) pouvant être utilisées avec les environnements Microsoft Dynamics 365 Commerce. Ces options incluent des instances Azure Front Door natives fournies par Commerce et des instances Azure Front Door appartenant au client.
+Cet article passe en revue les différentes options d’implémentation d’un réseau de diffusion de contenu (CDN) pouvant être utilisées avec les environnements Microsoft Dynamics 365 Commerce. Ces options incluent des instances Azure Front Door natives fournies par Commerce et des instances Azure Front Door appartenant au client.
 
 Les clients Commerce ont plusieurs options lorsqu’ils doivent choisir quel service CDN utiliser avec leur environnement Commerce. Commerce est lancé avec la prise en charge Azure Front Door de base, qui couvre l’hébergement de base et les exigences de domaine personnalisé. Pour les entreprises qui souhaitent plus de contrôle et des capacités de sécurité plus spécifiques, par exemple un pare-feu d’application web (WAF), la meilleure option peut être d’utiliser une instance Azure Front Door appartenant au client ou un service CDN externe.
 

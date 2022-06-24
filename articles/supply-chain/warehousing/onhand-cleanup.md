@@ -1,6 +1,6 @@
 ---
 title: Tâche de nettoyage des entrées disponibles de la gestion de l’entrepôt
-description: Cette rubrique décrit la tâche de nettoyage des entrées disponibles, qui permet d’améliorer les performances du système en identifiant et en supprimant les enregistrements associés mais inutiles.
+description: Cet article décrit la tâche de nettoyage des entrées disponibles, qui permet d’améliorer les performances du système en identifiant et en supprimant les enregistrements associés mais inutiles.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900504"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Tâche de nettoyage des entrées disponibles de la gestion de l’entrepôt
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103861"
 
 Les performances des requêtes utilisées pour calculer l’inventaire disponible sont affectées par le nombre d’enregistrements dans les tables impliquées. Une façon d’améliorer les performances consiste à réduire le nombre d’enregistrements que la base de données doit prendre en compte.
 
-Cette rubrique décrit la tâche de nettoyage des entrées disponibles, qui supprime les enregistrements inutiles dans les tables InventSum et WHSInventReserve. Ces tables stockent les informations de disponibilité pour les articles activés pour le traitement de gestion d’entrepôt. (Ces éléments sont appelés éléments WHS.) La suppression de ces enregistrements peut améliorer considérablement les performances des calculs de disponibilité.
+Cet article décrit la tâche de nettoyage des entrées disponibles, qui supprime les enregistrements inutiles dans les tables InventSum et WHSInventReserve. Ces tables stockent les informations de disponibilité pour les articles activés pour le traitement de gestion d’entrepôt. (Ces éléments sont appelés éléments WHS.) La suppression de ces enregistrements peut améliorer considérablement les performances des calculs de disponibilité.
 
 ## <a name="what-the-cleanup-job-does"></a>Ce que fait la tâche de nettoyage
 

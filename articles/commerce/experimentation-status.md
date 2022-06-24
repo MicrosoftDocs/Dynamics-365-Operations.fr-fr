@@ -1,6 +1,6 @@
 ---
 title: Examiner l’état d’une expérience
-description: Cette rubrique explique l’état d’une expérience dans le cycle de vie de l’expérimentation dans Dynamics 365 Commerce.
+description: Cet article explique l’état d’une expérience dans le cycle de vie de l’expérimentation dans Dynamics 365 Commerce.
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: af19a1c2e6a3205cd76c9fe998d1c8268f9077661b96c43b9aa9733286bd32d9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 818435a7c901d2a6b876b9c9db27faffc8b322fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877247"
 ---
 # <a name="review-the-status-of-an-experiment"></a>Examiner l’état d’une expérience
 La configuration et l’exécution d’une expérience dans Dynamics 365 Commerce comportent de nombreuses étapes. Pour plus d’informations sur le cycle de vie de l’expérimentation, consultez [Expérimentation dans Dynamics 365 Commerce](experimentation-overview.md).

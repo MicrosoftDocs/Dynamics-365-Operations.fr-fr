@@ -1,6 +1,6 @@
 ---
 title: Lancer les lignes de nomenclature et de formule dans l’entrepôt
-description: Cette rubrique décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l’entrepôt.
+description: Cet article décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l’entrepôt.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53e3a943dbd6cf982101f42ed8f94b7e0f46597c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860607"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l’entrepôt. Lorsque vous lancez une ligne de nomenclature ou de formule dans l’entrepôt, le système détermine d’abord si les matières sont déjà disponibles dans l’emplacement d’entrée en production de l’atelier où les matières sont consommées pour le processus de production.
+Cet article décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l’entrepôt. Lorsque vous lancez une ligne de nomenclature ou de formule dans l’entrepôt, le système détermine d’abord si les matières sont déjà disponibles dans l’emplacement d’entrée en production de l’atelier où les matières sont consommées pour le processus de production.
 
 - Si les matières sont disponibles dans l’emplacement d’entrée en production, elles sont prélevées dans cet emplacement immédiatement après le signal de lancement des matières dans l’entrepôt.
 - Si les matières ne sont pas disponibles dans l’emplacement d’entrée en production, le processus de lancement des matières indique que les matières doivent être déplacées des emplacements de l’entrepôt vers l’emplacement d’entrée en production. Les matières sont déplacées via le travail d’entrepôt pour le prélèvement des matières premières. Par conséquent, les processus d’entrepôt pour le prélèvement des matières premières doivent être configurés. Pour plus d’informations, voir [Vue d’ensemble du réapprovisionnement](../warehousing/replenishment.md) et [Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement](../warehousing/control-warehouse-location-directives.md).

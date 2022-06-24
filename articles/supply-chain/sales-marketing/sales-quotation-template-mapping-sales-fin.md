@@ -1,6 +1,6 @@
 ---
 title: Synchroniser les en-têtes et les lignes de devis de vente directement entre le module Sales et Supply Chain Management
-description: La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
+description: L'article présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 440b0a6fd2d297027cf3cab548c611544450269a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854121"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Synchroniser les en-têtes et les lignes de devis de vente directement entre le module Sales et Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061982"
 
 
 
-La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
+L'article présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Avant d’utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Microsoft Dataverse pour applications](/powerapps/administrator/data-integrator).
@@ -136,7 +136,7 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 ![Mise en correspondance de modèles dans l’intégrateur de données, QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Prospect en disponibilités](prospect-to-cash.md)
 

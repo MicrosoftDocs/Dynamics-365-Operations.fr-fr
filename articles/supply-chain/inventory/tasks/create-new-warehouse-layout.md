@@ -1,6 +1,6 @@
 ---
 title: Créer une structure d’entrepôt
-description: Cette rubrique décrit comment paramétrer les informations pour les emplacements d’un entrepôt.
+description: Cet article décrit comment paramétrer les informations pour les emplacements d’un entrepôt.
 author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 143648e5317e6dce1b1a76a96d6069abe5d0e351
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859312"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Créer une structure d’entrepôt
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer les informations pour les emplacements d’un entrepôt. Cela s’applique uniquement aux entrepôts créés à l’aide de « l’entreposage de base » dans le module Gestion des stocks, pas aux entrepôts créés dans le module Gestion des entrepôts. Vous pouvez utiliser cette procédure dans la société USMF fictive ou utiliser vos propres données.
+Cet article décrit comment paramétrer les informations pour les emplacements d’un entrepôt. Cela s’applique uniquement aux entrepôts créés à l’aide de « l’entreposage de base » dans le module Gestion des stocks, pas aux entrepôts créés dans le module Gestion des entrepôts. Vous pouvez utiliser cette procédure dans la société USMF fictive ou utiliser vos propres données.
 
 
 ## <a name="set-the-default-location-capacity"></a>Définir la capacité d’emplacement par défaut

@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.22 (novembre 2021)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.22.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.22.
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 53f1670454ef505e61e96b16990d913473b46bf4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849501"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.22 (novembre 2021)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.22. Cette version a un numéro de build de 10.0.995 et est disponible comme suit :
+Cet article répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.22. Cette version a un numéro de build de 10.0.995 et est disponible comme suit :
 
 - **Version préliminaire :** septembre 2021
 - **Disponibilité générale de la version (mise à jour automatique) :** octobre 2021
@@ -29,9 +29,9 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Le tableau suivant répertorie les fonctionnalités incluses dans cette version. La colonne *Fonctionnalité* fournit des liens vers le [programme de publication](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), où vous pouvez voir les dates de lancement officiel de chaque fonctionnalité. La colonne *Plus d’informations* fournit plus de détails et/ou de liens vers la documentation connexe. Pour déterminer comment activer une fonctionnalité, voir la colonne *Activé par*. Pour plus d’informations sur la gestion des fonctionnalités, voir [Présentation de la gestion des fonctions](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Il se peut que nous mettions à jour de cette rubrique pour inclure des fonctionnalités qui auront été intégrées à la version après la publication initiale de cette rubrique.
+Le tableau suivant répertorie les fonctionnalités incluses dans cette version. La colonne *Fonctionnalité* fournit des liens vers le [programme de publication](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), où vous pouvez voir les dates de lancement officiel de chaque fonctionnalité. La colonne *Plus d’informations* fournit plus de détails et/ou de liens vers la documentation connexe. Pour déterminer comment activer une fonctionnalité, voir la colonne *Activé par*. Pour plus d’informations sur la gestion des fonctionnalités, voir [Présentation de la gestion des fonctions](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Il se peut que nous mettions à jour de cet article pour inclure des fonctionnalités qui auront été intégrées à la version après la publication initiale de cet article.
 
-| Fonctionnalités | Fonctionnalité | Informations supplémentaires | Activé par |
+| Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
 | Planification | [Prise en charge de l’optimisation de la planification pour l’allocation des ressources en fonction des capacités](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Planification avec sélection des ressources en fonction des capacités](../master-planning/planning-optimization/capability-based-scheduling.md) | Gestion des fonctionnalités (*Planification des capacités infinies pour l’optimisation de la planification*) |
 
@@ -47,9 +47,9 @@ Le tableau suivant répertorie les améliorations de fonctionnalités incluses d
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 
-Nous avons récemment ajouté ou mis à jour de manière significative les rubriques d’aide suivantes. Ces rubriques ne sont pas nécessairement liées aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans la section précédente. Cependant, elles peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
+Nous avons récemment ajouté ou mis à jour de manière significative les articles d'aide suivants. Ces articles ne sont pas nécessairement liés aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans la section précédente. Cependant, elles peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
 
-| Fonctionnalités | Rubriques nouvelles ou mises à jour |
+| Fonctionnalités | Articles nouveaux ou mis à jour |
 |---|---|
 | Gestion des modifications d’ingénierie | La [vue d’ensemble de la gestion des modifications d’ingénierie](../engineering-change-management/product-engineering-overview.md) répertorie désormais toutes les fonctionnalités optionnelles connexes disponibles dans la gestion des fonctionnalités. |
 | Planification générale | [Paramétrage de la prévision de la demande](../master-planning/demand-forecasting-setup.md) |
@@ -58,9 +58,9 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.22 des applications Finance and Operations (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.22 (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
@@ -74,12 +74,12 @@ Consultez [Dynamics 365 et les clouds du secteur : plan de la 2e vague de lan
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 
-La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
+L'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
+Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans l'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
 

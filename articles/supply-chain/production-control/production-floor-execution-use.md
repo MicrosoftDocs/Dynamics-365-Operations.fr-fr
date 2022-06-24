@@ -1,6 +1,6 @@
 ---
-title: Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
-description: Cette rubrique décrit comment utiliser l’interface d’exécution de l’atelier de production du point de vue d’un travailleur.
+title: Comment les collaborateurs utilisent l’interface d’exécution de l’atelier de production
+description: Cet article décrit comment utiliser l’interface d’exécution de l’atelier de production du point de vue d’un travailleur.
 author: johanhoffmann
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860665"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -34,7 +34,7 @@ Une fois l’appareil préparé, la page de connexion apparaît dessus. Cette pa
 
 ![Page de connexion à l’interface d’exécution de l’atelier de production.](media/pfei-sign-in-page.png "Page de connexion à l’interface d’exécution de l’atelier de production")
 
-Les sections restantes de cette rubrique décrivent comment les travailleurs interagissent avec l’interface.
+Les sections restantes de cet article décrivent comment les travailleurs interagissent avec l’interface.
 
 ## <a name="all-jobs-tab"></a>Onglet Toutes les tâches
 

@@ -1,6 +1,6 @@
 ---
 title: Rapprochement du fret dans la gestion du transport
-description: Cette rubrique décrit le processus de rapprochement du fret.
+description: Cet article décrit le processus de rapprochement du fret.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520a0fc78a136b416c943cfb72db1b2be7d2ed0c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ff29de62de12e8ca8bea0f374921a51b5819222e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844221"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Rapprochement du fret dans la gestion du transport
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le processus de rapprochement du fret.
+Cet article décrit le processus de rapprochement du fret.
 
 Le rapprochement du fret peut être effectué manuellement, ou il peut être configuré pour se produire automatiquement. Pour utiliser le rapprochement du fret automatique, vous devez paramétrer les données principales d’audit pour définir des critères qui déterminent les factures de transport qui sont automatiquement mis en correspondance.
 

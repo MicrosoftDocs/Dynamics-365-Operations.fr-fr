@@ -1,6 +1,6 @@
 ---
-title: Contrôle sanitaire des périphériques et services de PDV
-description: Cette rubrique fournit une vue d’ensemble de l’opération de contrôle d’intégrité dans le point de vente (PDV).
+title: Contrôle d’intégrité des périphériques et services de PDV
+description: Cet article fournit une vue d’ensemble de l’opération de contrôle d’intégrité dans le point de vente (PDV).
 author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 44fd4b6246d3d7947527416c2b8b447bd64f179f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863319"
 ---
-# <a name="health-check-for-pos-peripherals-and-services"></a>Contrôle sanitaire des périphériques et services de PDV
+# <a name="health-check-for-pos-peripherals-and-services"></a>Contrôle d’intégrité des périphériques et services de PDV
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit le contrôle d’intégrité dans le point de vente (PDV).
+Cet article décrit le contrôle d’intégrité dans le point de vente (PDV).
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -39,7 +39,7 @@ Les version 10.0.10 et ultérieures de Microsoft Dynamics 365 Commerce incluent 
 | Terme | Description |
 |---|---|
 | Périphériques | Tout appareil que l’application de PDV utilise pour faciliter les transactions et autres opérations dans le magasin. Les exemples incluent les tiroirs-caisses, les lecteurs de codes à barres et les terminaux de paiement. |
-| Service | Dans cette rubrique, un service est une application auxiliaire dont l’application de PDV dépend pour effectuer des transactions et des opérations quotidiennes. Les exemples incluent des applications qui contribuent aux calculs de taxes ou d’expédition. |
+| Service | Dans cet article, un service est une application auxiliaire dont l’application de PDV dépend pour effectuer des transactions et des opérations quotidiennes. Les exemples incluent des applications qui contribuent aux calculs de taxes ou d’expédition. |
 
 ## <a name="health-check-operation"></a>Opération de contrôle d’intégrité
 

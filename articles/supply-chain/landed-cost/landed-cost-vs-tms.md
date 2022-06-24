@@ -1,6 +1,6 @@
 ---
 title: Coût au débarquement et gestion du transport
-description: Microsoft Dynamics 365 Supply Chain Management fournit deux modules différents pour travailler avec le transport, la gestion du transport (TMS) et le coût au débarquement. Cette rubrique résume les fonctionnalités que les deux modules ont en commun et met en évidence les différences entre eux.
+description: Microsoft Dynamics 365 Supply Chain Management fournit deux modules différents pour travailler avec le transport, la gestion du transport (TMS) et le coût au débarquement. Cet article résume les fonctionnalités que les deux modules ont en commun et met en évidence les différences entre eux.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905919"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Coût au débarquement et gestion du transport
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management fournit deux modules différents pour travailler avec le transport : **la gestion du transport (TMS)** et **le coût au débarquement**. Cette rubrique résume les fonctionnalités que les deux modules ont en commun et met en évidence les différences entre eux. Vous pouvez utiliser ces informations pour décider quel module correspond le mieux à vos pratiques commerciales. Vous constaterez peut-être que certaines pratiques commerciales fonctionnent mieux avec TMS, tandis que d’autres fonctionnent mieux avec le Coût au débarquement. Ensuite, en fonction des besoins de votre entreprise, vous pouvez choisir d’utiliser un module exclusivement, ou vous pouvez combiner les deux modules.
+Microsoft Dynamics 365 Supply Chain Management fournit deux modules différents pour travailler avec le transport : **la gestion du transport (TMS)** et **le coût au débarquement**. Cet article résume les fonctionnalités que les deux modules ont en commun et met en évidence les différences entre eux. Vous pouvez utiliser ces informations pour décider quel module correspond le mieux à vos pratiques commerciales. Vous constaterez peut-être que certaines pratiques commerciales fonctionnent mieux avec TMS, tandis que d’autres fonctionnent mieux avec le Coût au débarquement. Ensuite, en fonction des besoins de votre entreprise, vous pouvez choisir d’utiliser un module exclusivement, ou vous pouvez combiner les deux modules.
 
-Cette rubrique n’est pas une revue complète de toutes les fonctionnalités de l’un ou l’autre module. Au lieu de cela, il met en évidence la fonctionnalité disponible en ce qui concerne le transport des marchandises d’un fournisseur à l’entrepôt de votre entreprise, où elles peuvent être consommées.
+Cet article n’est pas une revue complète de toutes les fonctionnalités de l’un ou l’autre module. Au lieu de cela, il met en évidence la fonctionnalité disponible en ce qui concerne le transport des marchandises d’un fournisseur à l’entrepôt de votre entreprise, où elles peuvent être consommées.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Terminologie, données de référence et rapports sur les différences
 

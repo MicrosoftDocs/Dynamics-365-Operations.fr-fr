@@ -1,6 +1,6 @@
 ---
 title: Stratégies de conditionnement en conteneurs
-description: Cette rubrique décrit les différences entre les stratégies d’emballage dans des conteneurs et en donne des exemples.
+description: Cet article décrit les différences entre les stratégies d’emballage dans des conteneurs et en donne des exemples.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862364"
 ---
 # <a name="container-packing-strategies"></a>Stratégies de conditionnement en conteneurs
 
 [!include [banner](../includes/banner.md)]
 
-Une *stratégie de conditionnement en conteneurs* est une stratégie que vous pouvez utiliser pour définir les répartitions entre les conteneurs. Cette rubrique explique les différences entre les stratégies *Conditionner dans tous les conteneurs ouverts* et *Conditionner dans le conteneur en cours uniquement*.
+Une *stratégie de conditionnement en conteneurs* est une stratégie que vous pouvez utiliser pour définir les répartitions entre les conteneurs. Cet article explique les différences entre les stratégies *Conditionner dans tous les conteneurs ouverts* et *Conditionner dans le conteneur en cours uniquement*.
 
 - **Conditionner dans tous les conteneurs ouverts** : le système doit vérifier tous les conteneurs ouverts qui ont déjà été créés pendant le cycle de conteneurisation, pour s’assurer que l’article rentrera dans l’un d’entre eux. Lors de l’emballage, le système vérifie chaque article pour déterminer s’il rentre dans l’un des conteneurs créés précédemment. Si l’article ne rentre dans aucun conteneur existant, le système crée un nouveau conteneur et continue jusqu’à ce qu’il ait fini d’emballer toute la commande.
 

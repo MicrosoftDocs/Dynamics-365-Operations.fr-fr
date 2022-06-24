@@ -1,6 +1,6 @@
 ---
 title: Paramétrer et utiliser les alertes pour fraude dans le centre d’appels
-description: Cette rubrique décrit le paramétrage des règles pour alerter les représentants du service client en cas d’informations potentiellement frauduleuses lorsque des commandes sont traitées. Vous pouvez définir des codes spécifiques qui sont utilisés pour mettre en attente automatiquement ou manuellement des commandes suspectes.
+description: Cet article décrit le paramétrage des règles pour alerter les représentants du service client en cas d’informations potentiellement frauduleuses lorsque des commandes sont traitées. Vous pouvez définir des codes spécifiques qui sont utilisés pour mettre en attente automatiquement ou manuellement des commandes suspectes.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885346"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Paramétrer et utiliser les alertes pour fraude dans le centre d’appels
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment paramétrer des critères et des règles afin de mettre d’éventuelles commandes client frauduleuses en attente pour une révision ultérieure. La fonction de contrôle de fraude est utilisée pour déterminer la validité des informations dans une commande client. Si les informations d’une commande client semblent douteuses, selon les critères et les règles de fraude d’une organisation, la commande peut être mise en attente pour une révision ultérieure. Dans ce cas, la commande ne peut pas être lancée dans l’entrepôt pour traitement jusqu’à ce que la mise en attente ait été supprimée.
+Cet article explique comment paramétrer des critères et des règles afin de mettre d’éventuelles commandes client frauduleuses en attente pour une révision ultérieure. La fonction de contrôle de fraude est utilisée pour déterminer la validité des informations dans une commande client. Si les informations d’une commande client semblent douteuses, selon les critères et les règles de fraude d’une organisation, la commande peut être mise en attente pour une révision ultérieure. Dans ce cas, la commande ne peut pas être lancée dans l’entrepôt pour traitement jusqu’à ce que la mise en attente ait été supprimée.
 
 > [!NOTE]
 > Cette fonctionnalité ne peut être utilisée que pour le traitement des commandes client du canal du centre d’appels Commerce.

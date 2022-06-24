@@ -1,6 +1,6 @@
 ---
-title: Module de piste de navigation
-description: Cette rubrique couvre les modules de piste de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+title: Module de barre de navigation
+description: Cet article couvre les modules de piste de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 5f28fa563398773fb714576c3a80d65aec91cee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862279"
 ---
 # <a name="breadcrumb-module"></a>Module de barre de navigation
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de piste de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules de piste de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Les modules de piste de navigation sont utilisés pour offrir une navigation secondaire sur les pages du site. Ils sont généralement affichés en haut d’une page, sous l’en-tête. Bien que des modules de piste de navigation puissent être ajoutés à n’importe quelle page, ils sont le plus souvent utilisés sur les pages de détails du produit (PDP), pour afficher la hiérarchie de catégories de produits et fournir un moyen rapide de se déplacer sur un site. Un module de piste de navigation peut également être utilisé pour afficher un lien « Retour aux résultats » lorsque les utilisateurs ouvrent une page PDP à partir d’une page de recherche ou de liste. De cette façon, les utilisateurs peuvent retourner rapidement à leur page de liste filtrée pour continuer leurs achats.
 

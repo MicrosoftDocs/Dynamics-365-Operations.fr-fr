@@ -1,6 +1,6 @@
 ---
 title: Expédition de petits colis
-description: Cette rubrique fournit des informations sur la fonctionnalité d’expédition de petits colis (SPS). Cette fonctionnalité permet à Microsoft Dynamics 365 Supply Chain Management d’envoyer des détails sur un conteneur emballé au transporteur, puis de recevoir une étiquette d’expédition, des frais d’expédition et un numéro de suivi de ce transporteur.
+description: Cet article fournit des informations sur la fonctionnalité d’expédition de petits colis (SPS). Cette fonctionnalité permet à Microsoft Dynamics 365 Supply Chain Management d’envoyer des détails sur un conteneur emballé au transporteur, puis de recevoir une étiquette d’expédition, des frais d’expédition et un numéro de suivi de ce transporteur.
 author: Mirzaab
 ms.date: 01/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687614"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855901"
 ---
 # <a name="small-parcel-shipping"></a>Expédition de petits colis
 
@@ -54,7 +54,7 @@ Procédez comme suit pour obtenir le moteur de frais de démonstration.
 
 #### <a name="create-and-deploy-functional-rate-engines"></a>Créer et déployer des moteurs de frais fonctionnels
 
-Pour plus d’informations sur la création et le déploiement de moteurs de frais fonctionnels afin qu’ils puissent être utilisés dans un environnement de production ou de test, consultez les rubriques suivantes :
+Pour plus d’informations sur la création et le déploiement de moteurs de frais fonctionnels afin qu’ils puissent être utilisés dans un environnement de production ou de test, consultez les articles suivants :
 
 - [Créer un moteur de gestion du transport](../transportation/create-new-transportation-management-engine.md)
 - [Paramétrage de moteurs de gestion du transport](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
@@ -77,7 +77,7 @@ Une fois que vous avez créé et déployé un moteur de frais pour SPS, procéde
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-Cet exemple de scénario montre comment configurer et utiliser SPS une fois que vous avez préparé votre système comme décrit plus haut dans cette rubrique. Ce scénario utilise le moteur de frais de démonstration mentionné précédemment.
+Cet exemple de scénario montre comment configurer et utiliser SPS une fois que vous avez préparé votre système comme décrit plus haut dans cet article. Ce scénario utilise le moteur de frais de démonstration mentionné précédemment.
 
 ### <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
@@ -147,7 +147,7 @@ Procédez comme suit pour configurer un compte de service de transporteur.
 
 Procédez comme suit pour définir une stratégie d’emballage de conteneur.
 
-1. Si vous n’avez pas encore configuré de définition d’imprimante ZPL, utilisez l’application Agent d’acheminement de documents pour la configurer. Pour plus d’informations, voir [Vue d’ensemble de l’impression de documents](../../fin-ops-core/dev-itpro/analytics/print-documents.md) et les rubriques connexes.
+1. Si vous n’avez pas encore configuré de définition d’imprimante ZPL, utilisez l’application Agent d’acheminement de documents pour la configurer. Pour plus d’informations, voir [Vue d’ensemble de l’impression de documents](../../fin-ops-core/dev-itpro/analytics/print-documents.md) et les articles connexes.
 1. Accédez à **Gestion des entrepôts \> Configuration \> Conteneurs \> Stratégies d’emballage de conteneur**.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour ajouter une stratégie d’emballage de conteneur.
 1. Dans l’en-tête de la nouvelle stratégie, définissez les valeurs suivantes :

@@ -1,6 +1,6 @@
 ---
-title: Configurer les champs pour l’application mobile Gestion des entrepôts
-description: Cette rubrique décrit comment définir et configurer les noms et les priorités de champ présentés dans l’application mobile Gestion des entrepôts.
+title: Configurer les champs de l’application mobile Warehouse Management
+description: Cet article décrit comment définir et configurer les noms et les priorités de champ présentés dans l’application mobile Gestion des entrepôts.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893234"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurer les champs pour l’application mobile Gestion des entrepôts
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurer les champs de l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment définir et configurer les noms et les priorités de champ présentés dans l’application mobile Gestion des entrepôts.
+Cet article décrit comment définir et configurer les noms et les priorités de champ présentés dans l’application mobile Gestion des entrepôts.
 
 > [!NOTE]
-> Cette rubrique s’applique aux fonctionnalités du module Gestion des entrepôts. Elle ne s’applique pas aux fonctionnalités du module Gestion des stocks. L’application mobile Gestion des entrepôts est une application que vous pouvez utiliser pour effectuer des tâches d’entrepôt. Vous pouvez définir et configurer les noms de champ utilisés dans l’application, et aussi configurer la priorité d’affectation des noms de champ. Cette rubrique explique comment définir et configurer ces noms et priorités de champ de l’application mobile Gestion des entrepôts, et comment les utiliser.
+> Cet article s’applique aux fonctionnalités du module Gestion des entrepôts. Elle ne s’applique pas aux fonctionnalités du module Gestion des stocks. L’application mobile Gestion des entrepôts est une application que vous pouvez utiliser pour effectuer des tâches d’entrepôt. Vous pouvez définir et configurer les noms de champ utilisés dans l’application, et aussi configurer la priorité d’affectation des noms de champ. Cet article explique comment définir et configurer ces noms et priorités de champ de l’application mobile Gestion des entrepôts, et comment les utiliser.
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurer les noms de champ d’application d’entrepôt
 
@@ -135,7 +135,7 @@ Selon la priorité du champ d’application d’entrepôt paramétrée dans le t
 -   Ligne 2 : Description de l’article
 -   Ligne 3 : Taille
 
-Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées sur la page de tâches, mais sur une page de détails. Pour en savoir plus et pour consulter des exemples de l’interface utilisateur, reportez-vous à la publication de blog [Annonce de Finance and Operations - Entreposage](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées sur la page de tâches, mais sur une page de détails. Pour en savoir plus et pour consulter des exemples de l'interface utilisateur, reportez-vous à la publication de blog [Annonce de Finance and Operations - Entreposage](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

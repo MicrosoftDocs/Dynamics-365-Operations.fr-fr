@@ -1,6 +1,6 @@
 ---
-title: Présentation des paiements omnicanaux
-description: Cette rubrique fournit une vue d’ensemble des paiements omnicanaux dans Dynamics 365 Commerce.
+title: Vue d’ensemble des paiements omnicanaux
+description: Cet article fournit une vue d’ensemble des paiements omnicanaux dans Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 09/17/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881707"
 ---
-# <a name="omni-channel-payments-overview"></a>Présentation des paiements omnicanaux
+# <a name="omni-channel-payments-overview"></a>Vue d’ensemble des paiements omnicanaux
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des paiements omnicanaux dans Dynamics 365 Commerce. Elle inclut une liste complète des scénarios, des informations sur la fonctionnalité, du paramétrage, et de la résolution des problèmes pris en charge, et des descriptions de certains problèmes habituels.
+Cet article fournit une vue d’ensemble des paiements omnicanaux dans Dynamics 365 Commerce. Elle inclut une liste complète des scénarios, des informations sur la fonctionnalité, du paramétrage, et de la résolution des problèmes pris en charge, et des descriptions de certains problèmes habituels.
 
 ## <a name="key-terms"></a>Termes clés
 
@@ -45,15 +45,15 @@ Cette rubrique fournit une vue d’ensemble des paiements omnicanaux dans Dynami
 
 En général le terme *paiements omnicanaux* décrit la possibilité de créer une commande dans un canal et de la terminer dans un autre canal. L’élément clé pour prendre en charge le paiement omnicanal consiste à conserver les détails de paiement avec le reste des détails de la commande, puis d’utiliser ces détails de paiement lorsque la commande est rappelée ou traitée dans un autre canal. Un exemple classique est le scénario « Acheter en ligne, prélever en magasin ». Dans ce scénario, les détails de paiement sont ajoutés lorsque la commande est créée en ligne. Ils sont ensuite rappelés au PDV pour facturer la carte de paiement du client au moment du prélèvement. 
 
-Tous les scénarios décrits dans cette rubrique peuvent être mis en œuvre à l’aide du kit de développement logiciel (SDK) de paiement standard qui est fourni avec Commerce. Le [Connecteur de paiement Dynamics 365 pour Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) fournit une mise en œuvre prédéfinie pour chaque scénario décrit ici. 
+Tous les scénarios décrits dans cet article peuvent être mis en œuvre à l’aide du kit de développement logiciel (SDK) de paiement standard qui est fourni avec Commerce. Le [Connecteur de paiement Dynamics 365 pour Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) fournit une mise en œuvre prédéfinie pour chaque scénario décrit ici. 
 
 ### <a name="prerequisites"></a>Conditions préalables
 
-Chaque scénario décrit dans cette rubrique nécessite un connecteur de paiement qui prend en charge les paiements omnicanaux. Le processeur Adyen prédéfini peut également être utilisé, car il prend en charge les scénarios disponibles via le kit de développement logiciel (SDK) de paiements. Pour plus d’informations sur la mise en œuvre des connecteurs de paiement, et sur le Kit de développement logiciel Retail en général, visitez la [page d’accueil Retail pour les professionnels de l’informatique et les développeurs](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
+Chaque scénario décrit dans cet article nécessite un connecteur de paiement qui prend en charge les paiements omnicanaux. Le processeur Adyen prédéfini peut également être utilisé, car il prend en charge les scénarios disponibles via le kit de développement logiciel (SDK) de paiements. Pour plus d’informations sur la mise en œuvre des connecteurs de paiement, et sur le Kit de développement logiciel Retail en général, visitez la [page d’accueil Retail pour les professionnels de l’informatique et les développeurs](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
 
 #### <a name="supported-versions"></a>Versions prises en charge
 
-Les fonctionnalités de paiement omnicanal décrites dans cette rubrique ont été lancés dans le cadre de la version 8.1.3 de Microsoft Dynamics 365 for Retail. 
+Les fonctionnalités de paiement omnicanal décrites dans cet article ont été lancés dans le cadre de la version 8.1.3 de Microsoft Dynamics 365 for Retail. 
 
 #### <a name="card-present-and-card-not-present-connectors"></a>Connecteurs « Carte présente » ou « Carte absente »
 
@@ -66,7 +66,7 @@ Le second ensemble d’API est appelé **iNamedRequestHandler**. Il prend en cha
 Les composants et les étapes de paramétrage suivants sont obligatoires :
 
 - **Intégration du commerce électronique :** une intégration avec Commerce est requise pour prendre en charge les cas où une commande est issue d’une vitrine en ligne. Pour plus d’informations sur le kit de développement logiciel (SDK) de commerce électronique Retail, voir [Kit de développement logiciel (SDK) de la plateforme de commerce électronique](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Dans un environnement de démonstration, la vitrine de référence prend en charge les scénarios de paiement omnicanal. 
-- **Configuration des paiements en ligne :** Le paramétrage du canal en ligne doit inclure un connecteur de paiement qui a été mis à jour pour prendre en charge les paiements omnicanaux. Sinon, le connecteur de paiement prédéfini peut être utilisé. Pour plus d’informations sur la configuration du connecteur de paiement Adyen pour les magasins en ligne, voir [Connecteur de paiement Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Outre les étapes de paramétrage du commerce électronique décrites dans cette rubrique, le paramètre **Autoriser l’enregistrement des informations de paiement dans le commerce électronique** doit être défini sur **True** dans les paramètres du connecteur Adyen. 
+- **Configuration des paiements en ligne :** Le paramétrage du canal en ligne doit inclure un connecteur de paiement qui a été mis à jour pour prendre en charge les paiements omnicanaux. Sinon, le connecteur de paiement prédéfini peut être utilisé. Pour plus d’informations sur la configuration du connecteur de paiement Adyen pour les magasins en ligne, voir [Connecteur de paiement Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Outre les étapes de paramétrage du commerce électronique décrites dans cet article, le paramètre **Autoriser l’enregistrement des informations de paiement dans le commerce électronique** doit être défini sur **True** dans les paramètres du connecteur Adyen. 
 - **Configuration des paiements omnicanaux :** dans le back-office, accédez à **Retail et Commerce \> Paramétrage du siège \> Paramètres \> Paramètres partagés du commerce**. Puis, dans l’onglet **Paiements omnicanaux**, définissez l’option **Utiliser les paiements omnicanaux** sur **Oui**. Dans la version 10.0.12 de Commerce et les versions ultérieures, ce paramètre se trouve dans l’espace de travail **Gestion des fonctionnalités**. Sélectionnez la fonctionnalité **Paiements omnicanaux** et cliquez sur **Activer maintenant**. 
 - **Services de paiement :** Le centre d’appels utilise le connecteur de paiement par défaut sur la page **Services de paiement** pour traiter les paiements. Pour prendre en charge les scénarios tels que « Acheter au centre d’appels, prélever au magasin », ce connecteur de paiement par défaut doit être le connecteur de paiement Adyen ou un connecteur de paiement correspondant aux exigences de mise en œuvre des paiements omnicanaux.
 - **Service TEF :** Les paiements via un terminal de paiement doivent être paramétrés sur l’organisateur **Service TEF** du profil matériel. Le connecteur Adyen prend en charge les scénarios de paiements omnicanaux prédéfinis. D’autres connecteurs de paiement qui prennent en charge l’interface **iNamedRequestHandler** peuvent également être utilisés s’ils prennent en charge les paiements omnicanaux.
@@ -231,7 +231,7 @@ Si la carte utilisée pour créer une commande n’est plus valide, lorsque des 
 
 Lorsqu’une commande comporte plusieurs modes de paiement et que plusieurs lignes sont prélevées, le caissier reçoit d’abord l’invite **Utiliser le mode de paiement disponible**. S’il existe plusieurs cartes, lorsque le caissier sélectionne **Utiliser le mode de paiement disponible**, les lignes de mode de paiement par carte existantes sont capturées jusqu’à ce que le solde soit atteint pour les marchandises en cours de prélèvement. Le caissier n’aura pas la possibilité de sélectionner la carte à utiliser pour les marchandises qui sont prélevées. 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 - [FAQ Paiements](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Connecteur de paiement Dynamics 365 pour Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)

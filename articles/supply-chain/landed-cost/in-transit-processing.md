@@ -1,6 +1,6 @@
 ---
 title: Traitement de marchandises en transit
-description: Cette rubrique décrit l’utilisation des commandes de marchandises en transit. Lorsqu’une commande ou un voyage est configuré pour utiliser le traitement des marchandises en transit, les marchandises peuvent être facturées avant d’avoir été reçues dans l’entrepôt pour consommation.
+description: Cet article décrit l’utilisation des commandes de marchandises en transit. Lorsqu’une commande ou un voyage est configuré pour utiliser le traitement des marchandises en transit, les marchandises peuvent être facturées avant d’avoir été reçues dans l’entrepôt pour consommation.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854382"
 ---
 # <a name="goods-in-transit-processing"></a>Traitement de marchandises en transit
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit l’utilisation des commandes de marchandises en transit. Ce type de commande n’est utilisé que par le module **Prix au débarquement**. Lorsqu’une commande ou un voyage est configuré pour utiliser le traitement des marchandises en transit, vous n’avez pas besoin d’attendre que les marchandises soient reçues en entrepôt pour les facturer. Au lieu de cela, les marchandises sont facturées lorsqu’elles quittent l’entrepôt ou le port d’origine du vendeur, et les coûts financiers sont comptabilisés au début du voyage. Cette fonctionnalité vous permet de prendre correctement possession du stock, car les marchandises deviennent souvent la propriété de votre organisation lorsqu’elles quittent le port d’expédition.
+Cet article décrit l’utilisation des commandes de marchandises en transit. Ce type de commande n’est utilisé que par le module **Prix au débarquement**. Lorsqu’une commande ou un voyage est configuré pour utiliser le traitement des marchandises en transit, vous n’avez pas besoin d’attendre que les marchandises soient reçues en entrepôt pour les facturer. Au lieu de cela, les marchandises sont facturées lorsqu’elles quittent l’entrepôt ou le port d’origine du vendeur, et les coûts financiers sont comptabilisés au début du voyage. Cette fonctionnalité vous permet de prendre correctement possession du stock, car les marchandises deviennent souvent la propriété de votre organisation lorsqu’elles quittent le port d’expédition.
 
 Lorsque des commandes de marchandises en transit sont utilisées, les articles mis à jour financièrement sont reçus dans un entrepôt intermédiaire appelé entrepôt de marchandises en transit. Les marchandises restent ensuite dans cet entrepôt jusqu’à ce qu’elles puissent être reçues à l’entrepôt de destination finale (c’est-à-dire l’entrepôt défini sur la ligne d’achat). Elles ne peuvent pas être supprimées manuellement.
 

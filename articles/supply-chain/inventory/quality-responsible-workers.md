@@ -1,6 +1,6 @@
 ---
-title: Collaborateurs chargés d'approuver les non-conformités
-description: Cette rubrique décrit comment configurer les collaborateurs chargés d'approuver les non-conformités.
+title: Collaborateurs chargés d’approuver les non-conformités
+description: Cet article décrit comment configurer les collaborateurs chargés d'approuver les non-conformités.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fd1c7c86ac8627bd332bc578e98b4d7f091cdc8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a108fc1f8954e32719c93656a64d1d27fda03fb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907404"
 ---
-# <a name="workers-responsible-for-approving-nonconformances"></a>Collaborateurs chargés d'approuver les non-conformités
+# <a name="workers-responsible-for-approving-nonconformances"></a>Collaborateurs chargés d’approuver les non-conformités
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment configurer les collaborateurs chargés d'approuver les non-conformités.
+Cet article décrit comment configurer les collaborateurs chargés d'approuver les non-conformités.
 
 Les non-conformités doivent être approuvées avant que les utilisateurs puissent commencer à saisir des détails tels que des corrections ou des opérations. Avant que les utilisateurs puissent approuver ou rejeter les non-conformités, leur ID utilisateur (enregistrement d'utilisateur) doit être lié à un enregistrement de collaborateur. Vous pouvez éventuellement configurer des collaborateurs responsables de la qualité, puis autoriser un collaborateur à approuver le travail au nom d'un autre collaborateur.
 

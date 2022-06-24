@@ -1,6 +1,6 @@
 ---
 title: Profils de certificat définis par l’utilisateur pour les magasins de vente au détail
-description: Cette rubrique offre une vue d’ensemble de l’utilisation des certificats dans les magasins de détail.
+description: Cet article offre une vue d’ensemble de l’utilisation des certificats dans les magasins de détail.
 author: josaw
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b40c74efa56a6e18af907e000554b9ab269bb31
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873027"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Profils de certificat définis par l’utilisateur pour les magasins de vente au détail
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
-Cette rubrique fournit une vue d’ensemble des profils de certificat disponibles dans Microsoft Dynamics 365 Commerce. Cette fonctionnalité étend la fonctionnalité [Gérer les secrets pour les canaux Retail](../dev-itpro/manage-secrets.md) en ajoutant la prise en charge des certificats locaux.
+Cet article fournit une vue d’ensemble des profils de certificat disponibles dans Microsoft Dynamics 365 Commerce. Cette fonctionnalité étend la fonctionnalité [Gérer les secrets pour les canaux Retail](../dev-itpro/manage-secrets.md) en ajoutant la prise en charge des certificats locaux.
 
 Pendant que le point de vente (PDV) fonctionne en mode hors ligne, il ne peut pas accéder aux certificats stockés dans le coffre de clés. Le certificat local doit être utilisé à la place. Les capacités suivantes sont prises en charge :
 

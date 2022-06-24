@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd8ba10441c1300c913827122c09741c58a42973
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: af1e443078b6a7832388b38f2b99a438af461ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844293"
 ---
 # <a name="work-with-customer-service-overview"></a>Vue d’ensemble de l’utilisation du service client
 
@@ -41,7 +41,7 @@ Le service client inclut les fonctionnalités suivantes :
 
   - des contrats de niveau de service prenant en charge une base de clients différenciée.
 
-Les rubriques de cette section fournissent une vue d’ensemble du processus entreprise Service client et de chaque composant de ce processus. Elles décrivent également les écrans et tâches associés à chaque composant de processus entreprise.
+Les articles de cette section fournissent une vue d’ensemble du processus entreprise Service client et de chaque composant de ce processus. Elles décrivent également les écrans et tâches associés à chaque composant de processus entreprise.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Module Enregistrement pour retrait
-description: Cette rubrique décrit le module Enregistrement pour retrait et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit le module Enregistrement pour retrait et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f6359f41f3b97325db4fda083dc32d39839811297a96a1f2d99a93990c00afae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7002db893da1802063148a9b800ffa92f3e5f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885473"
 ---
 # <a name="check-in-for-pickup-module"></a>Module Enregistrement pour retrait
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit le module Enregistrement pour retrait et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
+Cet article décrit le module Enregistrement pour retrait et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
 
 Le module d’enregistrement pour retrait fournit une page de confirmation aux client qui utilisent les capacités d’enregistrement de Dynamics 365 Commerce pour informer un magasin de leur arrivée. Le module d’enregistrement pour retrait vous permet également de configurer un formulaire qui recueille des informations supplémentaires auprès des clients pour faciliter la livraison de la commande. Ces informations comprennent le numéro de parking du client, ainsi que la marque et le modèle de son véhicule. 
 

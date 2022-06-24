@@ -1,6 +1,6 @@
 ---
 title: Restrictions applicables aux version d’évaluation des coûts standard
-description: Cette rubrique décrit les restrictions qui s’appliquent à une version d’évaluation des coûts standard.
+description: Cet article décrit les restrictions qui s’appliquent à une version d’évaluation des coûts standard.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11bf14b2926fd4ff053697bef8b7dad781948a2c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8c5c00ae8952e2c80d97d039271a6f5c63e9a72f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867983"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restrictions applicables aux version d’évaluation des coûts standard
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les restrictions qui s’appliquent à une version d’évaluation des coûts standard. 
+Cet article décrit les restrictions qui s’appliquent à une version d’évaluation des coûts standard. 
 
 Les restrictions suivantes aident à garantir le respect des principes d’évaluation des coûts standard :
 
@@ -37,9 +37,9 @@ Les restrictions suivantes aident à garantir le respect des principes d’éval
 
 -  Les calculs de nomenclature doivent être effectués en mode d’éclatement à un seul niveau.
 
-Les données de coût de l’article pour les coûts standard peuvent être copiées dans une autre version d’évaluation des coûts qui contient des coûts standard ou des coûts planifiés. Toutefois, les données de coût d’article pour les coûts planifiés ne peuvent pas être copiées dans une version d’évaluation des coûts qui contient des coûts standard, car les restrictions répertoriées précédemment dans cette rubrique ne s’appliquent pas aux coûts planifiés.
+Les données de coût de l’article pour les coûts standard peuvent être copiées dans une autre version d’évaluation des coûts qui contient des coûts standard ou des coûts planifiés. Toutefois, les données de coût d’article pour les coûts planifiés ne peuvent pas être copiées dans une version d’évaluation des coûts qui contient des coûts standard, car les restrictions répertoriées précédemment dans cet article ne s’appliquent pas aux coûts planifiés.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Vue d’ensemble des versions d’évaluation des coûts](costing-versions.md)
 

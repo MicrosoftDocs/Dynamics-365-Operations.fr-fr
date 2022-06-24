@@ -1,6 +1,6 @@
 ---
 title: Importer les APE entrants via l’entité de données V3
-description: Cette rubrique explique comment gérer l’importation des avis préalables d’expédition (ASN) entrants via l’entité de données ASN entrant.
+description: Cet article explique comment gérer l’importation des avis préalables d’expédition (ASN) entrants via l’entité de données ASN entrant.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907114"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importer les APE entrants via l’entité de données V3
 
@@ -26,7 +26,7 @@ Les avis préalables d’expédition (ASN) vous informent des livraisons des fou
 
 Les ASN peuvent aider les employés d’entrepôt à savoir ce qui arrive et quand. Ils peuvent se préparer en conséquence. De plus, les magasiniers peuvent utiliser les ASN pour faire correspondre les détails d’une expédition à la commande client associée qui a été créée précédemment.
 
-Cette rubrique présente une collection de scénarios qui montrent, à travers des exemples, comment utiliser les fichiers ASN.
+Cet article présente une collection de scénarios qui montrent, à travers des exemples, comment utiliser les fichiers ASN.
 
 > [!IMPORTANT]
 > L’importation des *ASN entrants* ne s’applique qu’aux articles activés pour la gestion avancée des entrepôts (WMS). Avant de recevoir un ASN, une commande client doit être enregistrée dans le système par rapport au fournisseur qui envoie cet ASN.

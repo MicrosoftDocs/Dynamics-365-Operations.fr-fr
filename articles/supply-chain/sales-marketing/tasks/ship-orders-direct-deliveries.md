@@ -1,6 +1,6 @@
 ---
 title: Expédier des commandes en tant que livraisons directes
-description: Cette rubrique illustre comment créer une livraison directe pour une commande client.
+description: Cet article illustre comment créer une livraison directe pour une commande client.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875157"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Expédier des commandes en tant que livraisons directes
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique illustre comment créer une livraison directe pour une commande client. Vous utilisez la livraison directe si vous souhaitez expédier des marchandises au client directement à partir de votre fournisseur, plutôt que les expédier à votre propre entrepôt en premier. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Pour exécuter correctement la deuxième sous-tâche « Créer des livraisons directes à partir de la console », assurez-vous que l’article que vous choisissez dans la commande client a un fournisseur par défaut spécifié dans l’onglet rapide Achat du produit générique lancé.
+Cet article illustre comment créer une livraison directe pour une commande client. Vous utilisez la livraison directe si vous souhaitez expédier des marchandises au client directement à partir de votre fournisseur, plutôt que les expédier à votre propre entrepôt en premier. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Pour exécuter correctement la deuxième sous-tâche « Créer des livraisons directes à partir de la console », assurez-vous que l’article que vous choisissez dans la commande client a un fournisseur par défaut spécifié dans l’onglet rapide Achat du produit générique lancé.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Définir une commande individuelle pour la livraison directe
 1. Allez dans **Volet de navigation > Modules > Comptabilité client > Commandes > Toutes les commandes client**.

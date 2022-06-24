@@ -1,6 +1,6 @@
 ---
 title: Configuration des valeurs des paramètres d’évaluation des coûts
-description: Quand vous configurez le module de coût au débarquement, vous pouvez définir plusieurs ensembles de valeurs communes qui seront disponibles quand vous sélectionnez des types spécifiques de valeurs de paramètres d’évaluation des coûts dans d’autres parties de l’application. Cette rubrique explique comment configurer ces ensembles de valeurs.
+description: Quand vous configurez le module de coût au débarquement, vous pouvez définir plusieurs ensembles de valeurs communes qui seront disponibles quand vous sélectionnez des types spécifiques de valeurs de paramètres d’évaluation des coûts dans d’autres parties de l’application. Cet article explique comment configurer ces ensembles de valeurs.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ed20181201a2f3f84c3dc08549f4f107d46a50a2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca3633cd8a3fb053bda597b968003685aa2326ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852329"
 ---
 # <a name="costing-parameter-values-setup"></a>Configuration des valeurs des paramètres d’évaluation des coûts
 
 [!include [banner](../../includes/banner.md)]
 
-Quand vous configurez le module **Prix au débarquement**, vous pouvez définir plusieurs ensembles de valeurs communes et de paramètres associés par valeur. Ces valeurs seront ensuite disponibles quand vous sélectionnez des types spécifiques de valeurs de paramètres d’évaluation des coûts dans d’autres parties de l’application. Cette rubrique explique comment configurer ces ensembles de valeurs.
+Quand vous configurez le module **Prix au débarquement**, vous pouvez définir plusieurs ensembles de valeurs communes et de paramètres associés par valeur. Ces valeurs seront ensuite disponibles quand vous sélectionnez des types spécifiques de valeurs de paramètres d’évaluation des coûts dans d’autres parties de l’application. Cet article explique comment configurer ces ensembles de valeurs.
 
 ## <a name="set-up-cost-type-codes"></a>Configurer des codes de type de coût
 

@@ -1,6 +1,6 @@
 ---
 title: Traiter, examiner et valider les remises
-description: Cette rubrique décrit comment traiter vos accords de gestion des remises, calculer leurs remises, consulter les transactions générées, valider les transactions et consulter les validations.
+description: Cet article décrit comment traiter vos accords de gestion des remises, calculer leurs remises, consulter les transactions générées, valider les transactions et consulter les validations.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901935"
 ---
 # <a name="process-review-and-post-rebates"></a>Traiter, examiner et valider les remises
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment traiter vos accords de gestion des remises, calculer leurs remises, consulter les transactions générées, valider les transactions et consulter les validations.
+Cet article décrit comment traiter vos accords de gestion des remises, calculer leurs remises, consulter les transactions générées, valider les transactions et consulter les validations.
 
 ## <a name="change-the-status-of-a-deal"></a>Modification du statut d’un accord
 
@@ -45,7 +45,7 @@ Accédez à **Gestion des remises \> Tâches périodiques \> Calculer le prix d�
 
 Vous pouvez créer les commandes fournisseur ou les commandes client qui ont des transactions sources avant ou après avoir créé une transaction de gestion des remises applicable.
 
-Vous pouvez paramétrer chaque ligne de transaction pour qu’elle crée automatiquement une provision pour remise en enregistrant la livraison ou la facture pour une commande client ou une commande fournisseur. Définissez le champ **Type de transaction** pour la ligne de transaction sur *Livraison* ou *Facture*, et définissez l’option **Processus à la validation** sur *Oui*. Si le champ **Type de transaction** est défini sur *Commande*, le traitement à la validation est désactivé. Pour les transactions sources qui ont été créées après l’activation d’une transaction, vous pouvez toujours traiter la provision comme décrit dans la section [Traiter les transactions de gestion des remises](#process-deals) plus loin dans cette rubrique.
+Vous pouvez paramétrer chaque ligne de transaction pour qu’elle crée automatiquement une provision pour remise en enregistrant la livraison ou la facture pour une commande client ou une commande fournisseur. Définissez le champ **Type de transaction** pour la ligne de transaction sur *Livraison* ou *Facture*, et définissez l’option **Processus à la validation** sur *Oui*. Si le champ **Type de transaction** est défini sur *Commande*, le traitement à la validation est désactivé. Pour les transactions sources qui ont été créées après l’activation d’une transaction, vous pouvez toujours traiter la provision comme décrit dans la section [Traiter les transactions de gestion des remises](#process-deals) plus loin dans cet article.
 
 ### <a name="enable-price-details"></a>Activer les détails de prix
 

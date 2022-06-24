@@ -1,6 +1,6 @@
 ---
 title: Planification avec accords commerciaux d’achat
-description: Cette rubrique décrit comment l’optimisation de la planification peut trouver le fournisseur et/ou le délai de livraison pour une commande prévisionnelle, en fonction du meilleur prix ou du meilleur délai de livraison trouvé dans les accords commerciaux d’achat.
+description: Cet article décrit comment l’optimisation de la planification peut trouver le fournisseur et/ou le délai de livraison pour une commande prévisionnelle, en fonction du meilleur prix ou du meilleur délai de livraison trouvé dans les accords commerciaux d’achat.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873751"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planification avec accords commerciaux d’achat
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment l’optimisation de la planification peut trouver le fournisseur et/ou le délai de livraison pour une commande prévisionnelle, en fonction du meilleur prix ou du meilleur délai de livraison trouvé parmi tous les accords commerciaux d’achat qui ont été passés pour un produit donné.
+Cet article décrit comment l’optimisation de la planification peut trouver le fournisseur et/ou le délai de livraison pour une commande prévisionnelle, en fonction du meilleur prix ou du meilleur délai de livraison trouvé parmi tous les accords commerciaux d’achat qui ont été passés pour un produit donné.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Activer la fonctionnalité Accords commerciaux d’achat pour l’optimisation de la planification
 

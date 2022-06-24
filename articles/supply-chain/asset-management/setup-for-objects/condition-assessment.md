@@ -1,6 +1,6 @@
 ---
-title: Évaluation de la condition
-description: Cette rubrique explique comment créer un modèle et un enregistrement d’évaluation de condition dans un actif dans Gestion des actifs.
+title: Évaluation des conditions
+description: Cet article explique comment créer un modèle et un enregistrement d’évaluation de condition dans un actif dans Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872092"
 ---
-# <a name="condition-assessment"></a>Évaluation de la condition
+# <a name="condition-assessment"></a>Évaluation des conditions
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Cette rubrique explique comment créer un modèle et un enregistrement d’évaluation de condition dans un actif dans Gestion des actifs. L’évaluation de la condition est effectuée à intervalles réguliers et l’objectif principal est de créer et de gérer des données de condition sur les actifs. Du point de vue de la maintenance préventive, il est important de surveiller les informations clés telles que l’état actuel et la durée de vie restante. En outre, si vous effectuez l’évaluation des conditions à intervalles réguliers, vous pouvez surveiller et comparer les conditions sur les machines dans votre usine.
+Cet article explique comment créer un modèle et un enregistrement d’évaluation de condition dans un actif dans Gestion des actifs. L’évaluation de la condition est effectuée à intervalles réguliers et l’objectif principal est de créer et de gérer des données de condition sur les actifs. Du point de vue de la maintenance préventive, il est important de surveiller les informations clés telles que l’état actuel et la durée de vie restante. En outre, si vous effectuez l’évaluation des conditions à intervalles réguliers, vous pouvez surveiller et comparer les conditions sur les machines dans votre usine.
 
 L’évaluation des conditions peut être utilisée pour mesurer et surveiller de nombreuses conditions sur votre équipement. Exemple : Vous pouvez mesurer les vibrations sur vos machines. Une fois que vous avez enregistré les mesures de vibration dans Gestion des actifs sur différents types d’équipements, vous pouvez rechercher la dernière évaluation enregistrée et afficher les mesures de vibration.
 

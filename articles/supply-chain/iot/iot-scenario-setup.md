@@ -1,6 +1,6 @@
 ---
 title: Configuration d’un scénario pour l’intelligence IoT
-description: Cette rubrique explique comment configurer des scénarios pour l’intelligence IoT dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article explique comment configurer des scénarios pour l’intelligence IoT dans Microsoft Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dddc282ef3e479d524b1dfa0c60091cad1c231e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3172bdb81e00d20c5b1d1f3f8e4299ca69c59434
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889604"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuration d’un scénario pour l’intelligence IoT
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment configurer des scénarios pour l’intelligence IoT dans Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
+Cet article explique comment configurer des scénarios pour l’intelligence IoT dans Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
-Dans cette rubrique, vous allez configurer le scénario **Temps d’arrêt de l’équipement** pour générer une notification dans Supply Chain Management quand une machine tombe en panne. La rubrique montre également comment configurer le scénario **Qualité des produits** afin qu’une notification soit générée si un attribut d’un élément est en dehors d’une plage spécifiée, et comment configurer le scénario **Délais de production** afin qu’une notification soit générée si le débit de production tombe en dessous d’une valeur seuil.
+Dans cet article, vous allez configurer le scénario **Temps d’arrêt de l’équipement** pour générer une notification dans Supply Chain Management quand une machine tombe en panne. L'article montre également comment configurer le scénario **Qualité des produits** afin qu’une notification soit générée si un attribut d’un élément est en dehors d’une plage spécifiée, et comment configurer le scénario **Délais de production** afin qu’une notification soit générée si le débit de production tombe en dessous d’une valeur seuil.
 
 ## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Configurer le scénario Temps d’arrêt de l’équipement dans Supply Chain Management
 

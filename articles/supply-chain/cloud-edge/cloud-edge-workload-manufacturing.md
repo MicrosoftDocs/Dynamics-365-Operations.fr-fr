@@ -1,6 +1,6 @@
 ---
-title: Charges de travail d’exécution de la fabrication pour les unités de mise à l’échelle du cloud et d’Edge
-description: Cette rubrique décrit le fonctionnement des charges de travail d’exécution de la fabrication avec les unités d’échelle cloud et Edge.
+title: Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie
+description: Cet article décrit le fonctionnement des charges de travail d’exécution de la fabrication avec les unités d’échelle cloud et Edge.
 author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c73c2440d8807e965e5d2d89105c2a8a6971c849
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865322"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie
 
@@ -41,7 +41,7 @@ Lors de l’exécution de la fabrication, les unités d’échelle offrent les c
 - Le superviseur de l’atelier peut ajuster le plan opérationnel.
 - Les collaborateurs peuvent accéder aux heures et aux présences pour les points d’entrée et de sortie à la périphérie, afin de garantir un calcul correct de la rémunération des collaborateurs.
 
-Cette rubrique décrit le fonctionnement des charges de travail d’exécution de la fabrication avec les unités d’échelle cloud et Edge.
+Cet article décrit le fonctionnement des charges de travail d’exécution de la fabrication avec les unités d’échelle cloud et Edge.
 
 ## <a name="the-manufacturing-lifecycle"></a>Cycle de vie de fabrication
 

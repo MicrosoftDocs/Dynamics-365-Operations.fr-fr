@@ -1,6 +1,6 @@
 ---
 title: Gérer les changements de formules et de leurs composants
-description: Cette rubrique décrit comment gérer les formules et gérer les changements des données principales de la fabrication de processus.
+description: Cet article décrit comment gérer les formules et gérer les changements des données principales de la fabrication de processus.
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904070"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Gérer les changements de formules et de leurs composants
 
@@ -29,7 +29,7 @@ Si vous utilisez les capacités de fabrication par processus de Microsoft Dynami
 
 ## <a name="turn-this-feature-on-or-off"></a>Activer ou désactiver cette fonctionnalité
 
-La fonctionnalité décrite dans cette rubrique nécessite que les deux fonctionnalités *Gestion des modifications techniques* et *Gérer les modifications apportées aux formules et à leurs ingrédients* soient activées pour votre système. Pour plus d’informations sur l’activation ou la désactivation de ces fonctionnalités, reportez-vous à [Présentation de la gestion des modifications techniques](product-engineering-overview.md).
+La fonctionnalité décrite dans cet article nécessite que les deux fonctionnalités *Gestion des modifications techniques* et *Gérer les modifications apportées aux formules et à leurs ingrédients* soient activées pour votre système. Pour plus d’informations sur l’activation ou la désactivation de ces fonctionnalités, reportez-vous à [Présentation de la gestion des modifications techniques](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Conventions d’affectation de noms de fonctionnalités
 
@@ -46,7 +46,7 @@ La liste suivante résume la manière dont les fonctionnalités de gestion des m
 - **Contrôle de la disponibilité** : utilisez les vérifications du système et le guide de l’utilisateur (questionnaires et listes de contrôle) pour vous assurer que toutes les données requises du produit sont entièrement saisies avant le lancement du produit. Pour plus d’informations, voir [Disponibilité du produit](product-readiness.md).
 - **Fonctionnalité de lancement de produit améliorée** : lancez des versions entièrement définies d’un produit et de sa formule depuis une organisation (entité juridique) vers d’autres entités juridiques. Vous pouvez même décider si les informations sur le produit doivent être révisées ou modifiées avant le lancement. Pour plus d’informations, voir [Lancement de structures de produit](release-product-structure.md).
 
-Notez que la plupart des rubriques liées à la liste précédente fournissent des exemples basés sur les nomenclatures. Cependant, les formules fonctionnent de la même manière. Voici quelques concepts supplémentaires qu’il est utile de connaître lorsque vous utilisez la gestion des changements (ou uniquement la gestion des changements de formules) pour gérer les formules et les nomenclatures :
+Notez que la plupart des articles liés à la liste précédente fournissent des exemples basés sur les nomenclatures. Cependant, les formules fonctionnent de la même manière. Voici quelques concepts supplémentaires qu’il est utile de connaître lorsque vous utilisez la gestion des changements (ou uniquement la gestion des changements de formules) pour gérer les formules et les nomenclatures :
 
 - Pour chaque [catégorie d’ingénierie du produit](engineering-versions-product-category.md), vous pouvez spécifier le type de production (nomenclature, formule ou élément de planification). Vous pouvez également spécifier si la prise en charge du poids variable est nécessaire pour les produits qui utilisent cette catégorie.
 - Les coproduits et les sous-produits ne sont pas des produits d’ingénierie. Par conséquent, ils ne sont pas versionnés. Si vous devez les modifiez, créez simplement un nouveau produit. Cette approche facilite la maintenance.

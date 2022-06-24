@@ -1,6 +1,6 @@
 ---
 title: Mettre au mur - Mettre en magasin
-description: Cette rubrique fournit des informations sur la fonctionnalité Mettre au mur - Mettre en magasin. Cette fonctionnalité vous permet de gérer des scénarios dans lesquels vous devez regrouper un produit dans une zone de préparation à l’emballage, en fonction de critères configurables. Elle accélère le prélèvement car elle permet de sélectionner un seul contenant cible et peut utiliser plus de positions de placement que le prélèvement de groupement.
+description: Cet article fournit des informations sur la fonctionnalité Mettre au mur - Mettre en magasin. Cette fonctionnalité vous permet de gérer des scénarios dans lesquels vous devez regrouper un produit dans une zone de préparation à l’emballage, en fonction de critères configurables. Elle accélère le prélèvement car elle permet de sélectionner un seul contenant cible et peut utiliser plus de positions de placement que le prélèvement de groupement.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909641"
 ---
 # <a name="put-to-wall---put-to-store"></a>Mettre au mur - Mettre en magasin
 

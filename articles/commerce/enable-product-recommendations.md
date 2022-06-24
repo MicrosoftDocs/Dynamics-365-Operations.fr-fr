@@ -1,6 +1,6 @@
 ---
 title: Activer les recommandations produit
-description: Cette rubrique explique comment faire des recommandations de produit basées sur le Machine Learning et l’Intelligence artificielle disponible pour les clients Microsoft Dynamics 365 Commerce.
+description: Cet article explique comment faire des recommandations de produit basées sur le Machine Learning et l’Intelligence artificielle disponible pour les clients Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 08/31/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a7be82b3a40aba621693f080ff41767fdaea474
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892069"
 ---
 # <a name="enable-product-recommendations"></a>Activer les recommandations produit
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment faire des recommandations de produit basées sur le Machine Learning et l’Intelligence artificielle disponible pour les clients Microsoft Dynamics 365 Commerce. Pour en savoir plus sur les listes de recommandation de produit, consultez [Vue d’ensemble des recommandations produit.](product-recommendations.md).
+Cet article explique comment faire des recommandations de produit basées sur le Machine Learning et l’Intelligence artificielle disponible pour les clients Microsoft Dynamics 365 Commerce. Pour en savoir plus sur les listes de recommandation de produit, consultez [Vue d’ensemble des recommandations produit.](product-recommendations.md).
 
 ## <a name="recommendations-pre-check"></a>Recommandations avant contrôle
 

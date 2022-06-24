@@ -1,6 +1,6 @@
 ---
 title: Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce
-description: Cette rubrique fournit des instructions sur la façon de connecter une solution Azure Data Lake Storage Gen 2 à un magasin d'entités d'un environnement Dynamics 365 Commerce. Il s'agit d'une étape obligatoire avant d'activer les recommandations de produits.
+description: Cet article fournit des instructions sur la façon de connecter une solution Azure Data Lake Storage Gen 2 à un magasin d'entités d'un environnement Dynamics 365 Commerce. Il s'agit d'une étape obligatoire avant d'activer les recommandations de produits.
 author: bebeale
 ms.date: 08/31/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 6e0c84dd6b173a111b70a8adb6036be946149f7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885169"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des instructions sur la façon de connecter une solution Azure Data Lake Storage Gen2 à un magasin d'entités d'un environnement Dynamics 365 Commerce. Il s'agit d'une étape obligatoire avant d'activer les recommandations de produits.
+Cet article fournit des instructions sur la façon de connecter une solution Azure Data Lake Storage Gen2 à un magasin d'entités d'un environnement Dynamics 365 Commerce. Il s'agit d'une étape obligatoire avant d'activer les recommandations de produits.
 
 Dans la solution Dynamics 365 Commerce, les données nécessaires au calcul des recommandations, des produits et des transactions sont agrégées dans le magasin d'entités de l'environnement. Pour rendre ces données accessibles à d’autres services Dynamics 365, tels que l’analyse de données, le décisionnel et les recommandations personnalisées, il est nécessaire de connecter l’environnement à une solution appartenant au client Azure Data Lake Storage Gen2.
 

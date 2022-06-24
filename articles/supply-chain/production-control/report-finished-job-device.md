@@ -1,6 +1,6 @@
 ---
 title: Déclarer comme terminé à partir du périphérique de bon de travail
-description: Cette rubrique décrit comment configurer le système afin que les utilisateurs d’un périphérique de bon de travail puissent déclarer les produits finis depuis un ordre de fabrication vers le stock.
+description: Cet article décrit comment configurer le système afin que les utilisateurs d’un périphérique de bon de travail puissent déclarer les produits finis depuis un ordre de fabrication vers le stock.
 author: johanhoffmann
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857371"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Déclarer comme terminé à partir du périphérique de bon de travail
 
 [!include [banner](../includes/banner.md)]
 
-Les collaborateurs utilisent la page **Connaître l’état de progression** sur le périphérique de bon de travail pour signaler les quantités terminées pour une tâche de production. Cette rubrique décrit comment configurer diverses options qui déterminent comment les collaborateurs peuvent signaler comme ayant terminé à l’aide de cette page et ce qui se passe ensuite. Options possibles :
+Les collaborateurs utilisent la page **Connaître l’état de progression** sur le périphérique de bon de travail pour signaler les quantités terminées pour une tâche de production. Cet article décrit comment configurer diverses options qui déterminent comment les collaborateurs peuvent signaler comme ayant terminé à l’aide de cette page et ce qui se passe ensuite. Options possibles :
 
 - Contrôlez si et comment les quantités déclarées comme terminées sont ajoutées au stock.
 - Contrôlez si et comment les numéros de lot sont générés et appliqués lorsque le rapport est terminé.
@@ -219,7 +219,7 @@ Les processus d’entrepôt avancés peuvent utiliser la dimension de contenant 
 Pour utiliser les fonctionnalités décrites dans cette section, vous devez utiliser la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités suivantes (dans cet ordre) :
 
 1. *Contenant pour la déclaration ajouté comme finalisé au périphérique pour bons de travail*<br>Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.
-1. *Activer la génération automatique du numéro de contenant lors de la déclaration de fin dans le périphérique de bon de travail*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.)
+1. *Activer la génération automatique du numéro de contenant au moment de la déclaration de fin dans le périphérique de bon de travail*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.)
 1. *Imprimer une étiquette à partir d’un périphérique de bons de travail*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.)
 
 ### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>Configurer la déclaration de fin à un contenant

@@ -1,6 +1,6 @@
 ---
 title: Créer et mettre à jour des plages horaires pour le ramassage des clients
-description: Cette rubrique décrit comment créer, configurer et mettre à jour les plages horaires pour le ramassage des clients dans le siège Commerce.
+description: Cet article décrit comment créer, configurer et mettre à jour les plages horaires pour le ramassage des clients dans Commerce Headquarters.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882231"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Créer et mettre à jour des plages horaires pour le ramassage des clients
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment créer, configurer et mettre à jour les plages horaires pour le ramassage des clients dans le siège Commerce.
+Cet article décrit comment créer, configurer et mettre à jour les plages horaires pour le ramassage des clients dans Commerce Headquarters.
 
 La fonction de créneau horaire permet aux détaillants de définir un créneau horaire pour les articles pour lesquels le mode de livraison de ramassage client est activé. Les plages horaires permettent aux détaillants de définir les jours et les heures où les commandes peuvent être récupérées dans un magasin. Les détaillants peuvent également définir le nombre de commandes pouvant être retirées pendant une période donnée. De cette manière, les commerçants peuvent limiter le nombre de commandes pouvant être récupérées un jour et à une heure donnés. Le résultat est une expérience de meilleure qualité pour leurs clients.
 

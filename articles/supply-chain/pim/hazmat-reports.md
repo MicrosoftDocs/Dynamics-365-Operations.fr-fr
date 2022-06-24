@@ -1,6 +1,6 @@
 ---
 title: Demandes de renseignements et déclarations de matières dangereuses
-description: Cette rubrique explique comment utiliser les différents états relatifs aux matières dangereuses. Bon nombre de ces états sont nécessaires pour que vous restiez en conformité avec diverses réglementations sur les matières dangereuses pendant le transport et le stockage.
+description: Cet article explique comment utiliser les différents états relatifs aux matières dangereuses. Bon nombre de ces états sont nécessaires pour que vous restiez en conformité avec diverses réglementations sur les matières dangereuses pendant le transport et le stockage.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846038"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Demandes de renseignements et déclarations de matières dangereuses
 
@@ -63,7 +63,7 @@ Pour afficher cette déclaration, accédez à **Gestion des informations sur les
 
 Pour plus d’informations sur la définition des limites de stock sur un produit lancé, voir [Fixer des limites de stocks pour les produits dangereux](hazmat-items.md#stock-limits).
 
-La réglementation utilisée pour les limites de stocks est définie sur la page **Paramètres de gestion des entrepôts**. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**, puis, sur l’onglet **États**, dans **Limite de stocks de matières dangereuses**, spécifiez un code de réglementation. Pour plus d’informations, voir [Paramétrer les états sur les matières dangereuses](#set-up) précédemment dans cette rubrique.
+La réglementation utilisée pour les limites de stocks est définie sur la page **Paramètres de gestion des entrepôts**. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**, puis, sur l’onglet **États**, dans **Limite de stocks de matières dangereuses**, spécifiez un code de réglementation. Pour plus d’informations, voir [Paramétrer les états sur les matières dangereuses](#set-up) précédemment dans cet article.
 
 ## <a name="verified-gross-mass-report"></a>État sur la masse brute vérifiée
 

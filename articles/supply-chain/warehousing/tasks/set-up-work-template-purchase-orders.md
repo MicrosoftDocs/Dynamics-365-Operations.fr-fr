@@ -1,6 +1,6 @@
 ---
 title: Paramétrer un modèle de travail pour les commandes fournisseur
-description: Cette rubrique décrit comment paramétrer un modèle de travail simple à utiliser pour le rangement des articles reçus.
+description: Cet article décrit comment paramétrer un modèle de travail simple à utiliser pour le rangement des articles reçus.
 author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ee6bc896a979c326001e1596e4a463753005fabf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877361"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Paramétrer un modèle de travail pour les commandes fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer un modèle de travail simple à utiliser pour le rangement des articles reçus. Les modèles de travail déterminent l’ensemble des instructions fournies à l’employé de l’entrepôt sur un appareil mobile lorsqu’il déplace des articles à partir de la zone de réception. Vous pouvez utiliser cette procédure avec les données fournies avec la société fictive de démonstration USMF. Avant de lancer ce guide, créez un ID de pool de travail. Dans cet exemple, on utilise un ID de pool de travail appelé Entrant. Cette procédure est destinée au gestionnaire d’entrepôts.
+Cet article décrit comment paramétrer un modèle de travail simple à utiliser pour le rangement des articles reçus. Les modèles de travail déterminent l’ensemble des instructions fournies à l’employé de l’entrepôt sur un appareil mobile lorsqu’il déplace des articles à partir de la zone de réception. Vous pouvez utiliser cette procédure avec les données fournies avec la société fictive de démonstration USMF. Avant de lancer ce guide, créez un ID de pool de travail. Dans cet exemple, on utilise un ID de pool de travail appelé Entrant. Cette procédure est destinée au gestionnaire d’entrepôts.
 
 1. Dans le volet de navigation, accédez à **Volet de navigation > Modules > Gestion des entrepôts > Paramétrage > Travail > Modèles de travail**.
 2. Dans le champ **Type d’ordre de travail**, sélectionnez **Commandes fournisseurs**.

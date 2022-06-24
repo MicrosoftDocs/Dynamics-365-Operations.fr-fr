@@ -1,6 +1,6 @@
 ---
 title: Mises à jour physiques et financières
-description: Cette rubrique fournit une vue d’ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent.
+description: Cet article fournit une vue d’ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent.
 author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc8ffb87f6fcb9836d734dbfb4d962be4fa585a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 345f07e7ba55f567c9956539241c080db958c848
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895842"
 ---
 # <a name="physical-and-financial-updates"></a>Mises à jour physiques et financières
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent. 
+Cet article fournit une vue d’ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent. 
 
 Les transactions de stock peuvent être mises à jour physiquement et financièrement dans Dynamics 365 Supply Chain Management. Certains types de transactions physiques et financières augmentent les quantités en stock, tandis que d’autres les diminuent.
 

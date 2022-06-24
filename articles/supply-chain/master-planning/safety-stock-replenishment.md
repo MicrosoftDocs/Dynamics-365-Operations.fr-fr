@@ -1,6 +1,6 @@
 ---
-title: Traitement du stock de sécurité pour les articles
-description: Cette rubrique décrit le traitement du stock de sécurité et le paramétrage de la quantité de stock de sécurité pour les articles.
+title: Exécution du stock de sécurité pour les articles
+description: Cet article décrit le traitement du stock de sécurité et le paramétrage de la quantité de stock de sécurité pour les articles.
 author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 70461ad1de94c984cb41e6b1d46af9e310a928d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887397"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Traitement du stock de sécurité pour les articles
 
@@ -88,7 +88,7 @@ Si les **Clés minimum** sont utilisées, activez la case à cocher **Périodes 
 Le scénario suivant décrit comment ce paramètre fonctionne et quelles sont les différences entre ses valeurs.
 
 > [!NOTE]
-> Pour toutes les illustrations contenues dans cette rubrique, l’axe X représente le stock, l’axe Y représente les jours, les codes-barres représentent le niveau de stock, les flèches représentent les transactions, telles que les lignes de commande client, les lignes de commande fournisseur ou les ordres prévisionnels.
+> Pour toutes les illustrations contenues dans cet article, l’axe X représente le stock, l’axe Y représente les jours, les codes-barres représentent le niveau de stock, les flèches représentent les transactions, telles que les lignes de commande client, les lignes de commande fournisseur ou les ordres prévisionnels.
 
 [![Scénario courant pour le traitement du stock de sécurité.](media/Scenario1.png)](media/Scenario1.png)
 

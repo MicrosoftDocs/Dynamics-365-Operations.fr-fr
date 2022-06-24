@@ -1,6 +1,6 @@
 ---
 title: Enregistrer des articles pour un article activé pour l’entreposage avancé à l’aide d’un journal des arrivées d’articles
-description: Cette rubrique présente un scénario montrant comment enregistrer des articles à l’aide des journaux d’arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts.
+description: Cet article présente un scénario montrant comment enregistrer des articles à l’aide des journaux d’arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863619"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l’entreposage avancé à l’aide d’un journal des arrivées d’articles
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique présente un scénario montrant comment enregistrer des articles à l’aide des journaux d’arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts. Cette opération est généralement effectuée par la personne qui s’occupe de la réception.
+Cet article présente un scénario montrant comment enregistrer des articles à l’aide des journaux d’arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts. Cette opération est généralement effectuée par la personne qui s’occupe de la réception.
 
 ## <a name="enable-sample-data"></a>Activer les exemples de données
 
-Pour exécuter ce scénario à l’aide des exemples d’enregistrements et des valeurs spécifiés dans cette rubrique, vous devez utiliser un système sur lequel les données de démonstration standard sont installées et vous devez sélectionner l’entité juridique *USMF* avant de commencer.
+Pour exécuter ce scénario à l’aide des exemples d’enregistrements et des valeurs spécifiés dans cet article, vous devez utiliser un système sur lequel les données de démonstration standard sont installées et vous devez sélectionner l’entité juridique *USMF* avant de commencer.
 
 Vous pouvez aussi explorer ce scénario en substituant des valeurs à partir de vos propres données, à condition que vous disposiez des données suivantes :
 

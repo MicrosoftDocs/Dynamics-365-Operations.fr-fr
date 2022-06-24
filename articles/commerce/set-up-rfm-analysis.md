@@ -1,6 +1,6 @@
 ---
 title: Paramétrer l’analyse RFM (récence, fréquence et valeur monétaire)
-description: Cette rubrique décrit comment paramétrer une analyse RFM (récence, fréquence et valeur monétaire) de vos clients.
+description: Cet article décrit comment paramétrer une analyse RFM (récence, fréquence et valeur monétaire) de vos clients.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850169"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Paramétrer l’analyse RFM (récence, fréquence et valeur monétaire)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer une analyse RFM (récence, fréquence et valeur monétaire) de vos clients.
+Cet article décrit comment paramétrer une analyse RFM (récence, fréquence et valeur monétaire) de vos clients.
 
 L’analyse RFM (récence, fréquence et valeur monétaire) est un outil marketing que votre organisation peut utiliser pour évaluer les données générées par les achats client. Après avoir paramétré l’analyse RFM, les clients se voient attribuer un score RFM calculé lorsqu’ils effectuent des achats. Le score RFM peut être une évaluation à trois chiffres ou un nombre entier, selon la façon dont votre organisation a configuré l’analyse RFM. Voici comment l’évaluation fonctionne si votre organisation utilise une évaluation à trois chiffres du score :
 

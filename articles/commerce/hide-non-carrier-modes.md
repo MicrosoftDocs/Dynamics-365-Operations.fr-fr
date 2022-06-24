@@ -1,6 +1,6 @@
 ---
 title: Masquer les modes de livraison hors transporteur dans les options d’expédition dans PDV
-description: Cette rubrique décrit une option de configuration qui peut empêcher les modes de livraison hors transporteur de s’afficher pour la sélection lorsque des ordres d’expédition sont créés dans l’application de point de vente (PDV).
+description: Cet article décrit une option de configuration qui peut empêcher les modes de livraison hors transporteur de s’afficher pour la sélection lorsque des ordres d’expédition sont créés dans l’application de point de vente (PDV).
 author: hhainesms
 ms.date: 10/24/2019
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 4d885aa7ab3b4daaebb1fa8378562d86cc153270ea166b495bf3381fae826773
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 469e6ebb8afed26a6bf25f4c9c3ab8f7f4ac78ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897003"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>Masquer les modes de livraison hors transporteur dans les options d’expédition dans PDV
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit une option de configuration disponible pour l’application de point de vente (PDV). Cette option de configuration modifie le comportement de la sélection d’un mode de livraison lorsque des ordres d’expédition sont créés dans PDV.
+Cet article décrit une option de configuration disponible pour l’application de point de vente (PDV). Cette option de configuration modifie le comportement de la sélection d’un mode de livraison lorsque des ordres d’expédition sont créés dans PDV.
 
 Lorsque les utilisateurs créent des ordres d’expédition client dans PDV, ils peuvent sélectionner un mode de livraison pour l’expédition. Cette fonctionnalité est disponible, que la commande soit expédiée dans son ensemble ou uniquement les lignes sélectionnées.
 

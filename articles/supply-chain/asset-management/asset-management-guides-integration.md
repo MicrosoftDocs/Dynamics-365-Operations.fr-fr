@@ -1,6 +1,6 @@
 ---
 title: Intégration de Dynamics 365 Supply Chain Management (Gestion des actifs) avec Dynamics 365 Guides
-description: Cette rubrique explique comment intégrer le module Gestion des actifs dans Microsoft Dynamics 365 Supply Chain Management avec Dynamics 365 Guides pour bénéficier de guides de réalité mixte dans vos workflows de service et de maintenance au quotidien.
+description: Cet article explique comment intégrer le module Gestion des actifs dans Microsoft Dynamics 365 Supply Chain Management avec Dynamics 365 Guides pour bénéficier de guides de réalité mixte dans vos workflows de service et de maintenance au quotidien.
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875682"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Intégration de Dynamics 365 Supply Chain Management (Gestion des actifs) avec Dynamics 365 Guides
 
@@ -47,7 +47,7 @@ Pour associer un guide, vous utilisez une ligne de liste de contrôle de mainten
 
 Pour associer un guide à un modèle de liste de contrôle de maintenance, suivez cette procédure.
 
-1. Créez un guide en utilisant les applications Dynamics 365 Guides PC et HoloLens. Pour plus d’informations sur le mode de création d’un guide, consultez les rubriques suivantes :
+1. Créez un guide en utilisant les applications Dynamics 365 Guides PC et HoloLens. Pour plus d’informations sur le mode de création d’un guide, consultez les articles suivants :
 
     - [Utiliser l’application PC pour créer un guide](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [Utiliser l’application HoloLens pour placer vos hologrammes](/dynamics365/mixed-reality/guides/hololens-app-overview)

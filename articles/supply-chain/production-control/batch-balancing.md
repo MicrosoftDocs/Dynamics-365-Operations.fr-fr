@@ -1,6 +1,6 @@
 ---
 title: Équilibrage du lot
-description: Cette rubrique décrit le processus d’équilibrage du lot.
+description: Cet article décrit le processus d’équilibrage du lot.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856046"
 ---
 # <a name="batch-balancing"></a>Équilibrage du lot
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la prise en charge du processus d’équilibrage du lot.
+Cet article décrit la prise en charge du processus d’équilibrage du lot.
 
 Pour plus d’informations, visionnez une [vidéo sur l’équilibrage du lot](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
@@ -149,7 +149,7 @@ La quantité équilibrée de la substance de remplissage est calculée comme la 
 Le processus d’équilibrage du lot est exécuté sur la page **Équilibrage du lot**.
 Sélectionnez **Gestion des coûts \> Lots de commandes**, puis, sous l’onglet **Processus**, sélectionnez **Équilibrage du lot**. L’équilibrage du lot est disponible pour les lots de commandes ayant un statut de **Commencé**.
 
-En général, l’équilibrage du lot peut être appliqué aux lots de commandes si la formule contient au moins une ligne de formule dont le **Type de substance** est *Active*. (Pour connaître l’exception à cette règle, voir la section « Lots de commandes ne s’appliquant pas à l’équilibrage du lot » plus loin dans cette rubrique.)
+En général, l’équilibrage du lot peut être appliqué aux lots de commandes si la formule contient au moins une ligne de formule dont le **Type de substance** est *Active*. (Pour connaître l’exception à cette règle, voir la section « Lots de commandes ne s’appliquant pas à l’équilibrage du lot » plus loin dans cet article.)
 
 Le processus d’équilibrage du lot peut être divisé en deux sous-processus :
 

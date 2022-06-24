@@ -1,6 +1,6 @@
 ---
 title: Gestion en entrepôt des chargements entrants pour les commandes fournisseur
-description: Cette rubrique décrit le processus de gestion en entrepôt des chargements entrants pour les commandes fournisseur.
+description: Cet article décrit le processus de gestion en entrepôt des chargements entrants pour les commandes fournisseur.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855930"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le processus de gestion en entrepôt des chargements entrants pour les commandes fournisseur.
+Cet article décrit le processus de gestion en entrepôt des chargements entrants pour les commandes fournisseur.
 
 Pour chaque chargement entrant, votre système doit déjà inclure une commande client associée, et il peut également contenir une spécification de chargement et/ou un plan de transport associé. Pour plus d’informations sur la création et la gestion des chargements entrants, consultez [Processus entreprise : Planifier le transport pour les chargements entrants](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -209,7 +209,7 @@ Le tableau suivant résume les effets du paramètre **Autoriser plusieurs accus�
 | Oui | Pas de mise à jour | _Reçu_, si la quantité de chargement totale enregistrée est égale ou supérieure à la quantité de chargement | |
 | Oui | Pas de mise à jour | _Expédié_ ou _En cours_, si la quantité de chargement totale enregistrée est inférieure à la quantité de chargement | |
 
-Une fois le champ **État du chargement** défini sur _Reçu_, plus aucune validation de réception de produit ne peut être effectuée pour ce chargement. Cependant, le collaborateur peut enregistrer la quantité de commande restante par rapport au chargement reçu dans les conditions suivantes. (Pour plus d’informations, voir la section [Réception excédentaire du chargement](#load-over-receiving) plus haut dans cette rubrique.)
+Une fois le champ **État du chargement** défini sur _Reçu_, plus aucune validation de réception de produit ne peut être effectuée pour ce chargement. Cependant, le collaborateur peut enregistrer la quantité de commande restante par rapport au chargement reçu dans les conditions suivantes. (Pour plus d’informations, voir la section [Réception excédentaire du chargement](#load-over-receiving) plus haut dans cet article.)
 
 - La version de Supply Chain Management est antérieure à la version 10.0.11.
 - La fonctionnalité _Réception excédentaire des quantités de chargement_ est activée, et le champ **Réception excédentaire de quantité en ligne de chargement** sur l’option de menu de l’appareil mobile pour l’action de réception des articles du chargement est défini sur _Autoriser_.

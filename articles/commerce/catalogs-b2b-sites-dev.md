@@ -1,6 +1,6 @@
 ---
-title: Impact d’extensibilité des catalogues Commerce pour les personnalisations B2B
-description: Cette rubrique décrit l’impact sur l’extensibilité de la fonctionnalité Catalogues Commerce pour B2B dans Microsoft Dynamics 365 Commerce.
+title: Impact de l’extensibilité des catalogues Commerce pour les personnalisations B2B
+description: Cet article décrit l’impact sur l’extensibilité de la fonctionnalité Catalogues Commerce pour B2B dans Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849013"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Impact d’extensibilité des catalogues Commerce pour les personnalisations B2B
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Impact de l’extensibilité des catalogues Commerce pour les personnalisations B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Cette rubrique décrit l’impact sur l’extensibilité de la fonctionnalité **Catalogues Commerce pour B2B** dans Microsoft Dynamics 365 Commerce.
+Cet article décrit l’impact sur l’extensibilité de la fonctionnalité **Catalogues Commerce pour B2B** dans Microsoft Dynamics 365 Commerce.
 
 Si vous souhaitez étendre le contexte du catalogue à des scénarios personnalisés, vos personnalisations devront peut-être être mises à jour. Cette mise à jour suit le processus standard que les clients doivent suivre, car leurs personnalisations peuvent ne pas prendre automatiquement en charge les dernières fonctionnalités une fois les mises à niveau effectuées. Si vos personnalisations incluent une nouvelle fonctionnalité ou des corrections de bogues dans leurs expériences, nous vous recommandons de mettre à jour le code de personnalisation en conséquence. Cette mise à jour ressemble aux modifications que Microsoft aurait pu apporter au code principal.
 

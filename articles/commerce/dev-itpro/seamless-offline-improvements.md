@@ -1,6 +1,6 @@
 ---
-title: Basculement transparent en mode hors connexion pour les opérations par carte cadeau et avoir
-description: Cette rubrique fournit une vue d’ensemble des améliorations permettant un basculement transparent en mode hors connexion pour des types de paiement spécifiques.
+title: Basculement hors ligne transparent pour les opérations de cartes cadeaux et d’avoirs
+description: Cet article fournit une vue d’ensemble des améliorations permettant un basculement transparent en mode hors connexion pour des types de paiement spécifiques.
 author: BrianShook
 ms.date: 02/11/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: e0416a61bd5fd3b875b427ad8a6313d0e9936f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869159"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Basculement transparent en mode hors connexion pour les opérations par carte cadeau et avoir
 
 [!include [banner](../includes/banner.md)]
 
-Si un appareil de point de vente (PDV) perd sa connexion à la base de données du canal, la plupart des opérations et transactions du PDV qui étaient en cours peuvent se poursuivre une fois que le caissier reçoit un message d’avertissement concernant la perte de connectivité. Cependant, dans certains cas, les transactions ont des éléments qui dépendent du service en temps réel, et ces éléments ne sont pas pris en charge lorsque le PDV est hors connexion. Cette rubrique décrit certaines fonctionnalités qui aident à réduire l’impact de la perte de connectivité dans ces scénarios.
+Si un appareil de point de vente (PDV) perd sa connexion à la base de données du canal, la plupart des opérations et transactions du PDV qui étaient en cours peuvent se poursuivre une fois que le caissier reçoit un message d’avertissement concernant la perte de connectivité. Cependant, dans certains cas, les transactions ont des éléments qui dépendent du service en temps réel, et ces éléments ne sont pas pris en charge lorsque le PDV est hors connexion. Cet article décrit certaines fonctionnalités qui aident à réduire l’impact de la perte de connectivité dans ces scénarios.
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Exécution de transactions par carte cadeau en mode hors connexion
 
@@ -50,7 +50,7 @@ Pour activer la fonctionnalité permettant de conclure des transactions par avoi
 
 Les paramètres Commerce sont généralement mis en cache. Par conséquent, une fois que la configuration de ce paramètre a été mise à jour et que le programme de distribution est lancé pour synchroniser les modifications avec le canal, les modifications peuvent prendre jusqu’à 24 heures pour prendre effet. Pour que les modifications prennent effet immédiatement, réinitialisez IIS.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 - [Fonctionnalité de point de vente (PDV) en mode hors connexion](../pos-offline-functionality.md)
 - [Opérations du point de vente (PDV), en ligne et hors connexion](../pos-operations.md)

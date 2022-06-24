@@ -1,6 +1,6 @@
 ---
 title: Exemples de scénarios d’inventaire tournant
-description: Cette rubrique fournit une collection de scénarios qui mettent en avant les fonctionnalités d’inventaire tournant de Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article fournit une collection de scénarios qui mettent en avant les fonctionnalités d’inventaire tournant de Microsoft Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899322"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Exemples de scénarios d’inventaire tournant
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une collection de scénarios qui mettent en avant les fonctionnalités d’inventaire tournant de Microsoft Dynamics 365 Supply Chain Management. Elle décrit d’abord les exigences de votre environnement Supply Chain Management existant. Elle explique ensuite comment configurer l’inventaire tournant et décrit tous les stades de celui-ci. Lorsque vous aurez terminé, vous devrez avoir une bonne compréhension de l’inventaire tournant, y compris l’inventaire tournant guidé, l’inventaire tournant à l’aveugle, l’inventaire tournant ponctuel, les seuils d’inventaire tournant et les plans d’inventaire tournant.
+Cet article fournit une collection de scénarios qui mettent en avant les fonctionnalités d’inventaire tournant de Microsoft Dynamics 365 Supply Chain Management. Elle décrit d’abord les exigences de votre environnement Supply Chain Management existant. Elle explique ensuite comment configurer l’inventaire tournant et décrit tous les stades de celui-ci. Lorsque vous aurez terminé, vous devrez avoir une bonne compréhension de l’inventaire tournant, y compris l’inventaire tournant guidé, l’inventaire tournant à l’aveugle, l’inventaire tournant ponctuel, les seuils d’inventaire tournant et les plans d’inventaire tournant.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
 ### <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Chaque scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Supply Chain Management. Pour utiliser les valeurs fournies ici en étudiant les scénarios, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique (société) sur **USMF** avant de commencer.
+Chaque scénario de cet article fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Supply Chain Management. Pour utiliser les valeurs fournies ici en étudiant les scénarios, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique (société) sur **USMF** avant de commencer.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Activer la prise en charge de l’application mobile Warehouse Management
 
@@ -158,7 +158,7 @@ Suivez ces étapes pour créer un travail d’inventaire tournant pour l’empla
 
 Après avoir créé le travail d’inventaire tournant, vous effectuez le travail d’inventaire tournant en comptant les articles dans un emplacement d’entrepôt, puis en saisissant les résultats dans Supply Chain Management. Procédez comme suit pour effectuer le travail d’inventaire tournant dans l’application mobile Warehouse Management.
 
-1. Connectez-vous à l’application mobile Warehouse Management en tant qu’utilisateur de travail que vous avez configuré dans la section [Préparer les données de démonstration pour les scénarios](#prepare-demo-data) plus haut dans cette rubrique. Pour l’exemple de cette rubrique, l’utilisateur est nommé *Julia Funderburk* et configuré pour l’entrepôt *61*. (Les données de démonstration USMF devraient vous permettre de vous connecter en tant que cet utilisateur de travail en entrant *61* comme identifiant d’utilisateur et *1* comme mot de passe.)
+1. Connectez-vous à l’application mobile Warehouse Management en tant qu’utilisateur de travail que vous avez configuré dans la section [Préparer les données de démonstration pour les scénarios](#prepare-demo-data) plus haut dans cet article. Pour l’exemple de cet article, l’utilisateur est nommé *Julia Funderburk* et configuré pour l’entrepôt *61*. (Les données de démonstration USMF devraient vous permettre de vous connecter en tant que cet utilisateur de travail en entrant *61* comme identifiant d’utilisateur et *1* comme mot de passe.)
 1. Dans le menu principal, sélectionnez **Stock**.
 1. Dans le menu **Stock**, sélectionnez **Inventaire tournant guidé**.
 1. Sélectionnez le champ **Qté**, entrez *9* à l’aide du pavé numérique, puis sélectionnez **OK** (le bouton de coche).
@@ -227,7 +227,7 @@ Avant que l’inventaire tournant à l’aveugle puisse se produire, vous devez 
 
 Après avoir créé le travail d’inventaire tournant, procédez comme suit pour effectuer le travail dans l’application mobile Warehouse Management.
 
-1. Connectez-vous à l’application mobile Warehouse Management en tant qu’utilisateur de travail que vous avez configuré dans la section [Préparer les données de démonstration pour les scénarios](#prepare-demo-data) plus haut dans cette rubrique. Pour l’exemple de cette rubrique, l’utilisateur est nommé *Julia Funderburk* et configuré pour l’entrepôt *61*. (Les données de démonstration USMF devraient vous permettre de vous connecter en tant que cet utilisateur de travail en entrant *61* comme identifiant d’utilisateur et *1* comme mot de passe.)
+1. Connectez-vous à l’application mobile Warehouse Management en tant qu’utilisateur de travail que vous avez configuré dans la section [Préparer les données de démonstration pour les scénarios](#prepare-demo-data) plus haut dans cet article. Pour l’exemple de cet article, l’utilisateur est nommé *Julia Funderburk* et configuré pour l’entrepôt *61*. (Les données de démonstration USMF devraient vous permettre de vous connecter en tant que cet utilisateur de travail en entrant *61* comme identifiant d’utilisateur et *1* comme mot de passe.)
 1. Dans le menu principal, sélectionnez **Stock**.
 1. Dans le menu **Stock**, sélectionnez **Inventaire tournant à l’aveugle**.
 1. Sélectionnez le champ **Identifiant de zone**, entrez *BULK06*, puis sélectionnez **OK** (le bouton de coche).
@@ -259,7 +259,7 @@ Le registre de stock disponible indique qu’il y a une quantité disponible de 
 
 Procédez comme suit pour effectuer le travail d’inventaire tournant dans l’application mobile Warehouse Management.
 
-1. Connectez-vous à l’application mobile Warehouse Management en tant qu’utilisateur de travail que vous avez configuré dans la section [Préparer les données de démonstration pour les scénarios](#prepare-demo-data) plus haut dans cette rubrique. Pour l’exemple de cette rubrique, l’utilisateur est nommé *Julia Funderburk* et configuré pour l’entrepôt *61*. (Les données de démonstration USMF devraient vous permettre de vous connecter en tant que cet utilisateur de travail en entrant *61* comme identifiant d’utilisateur et *1* comme mot de passe.)
+1. Connectez-vous à l’application mobile Warehouse Management en tant qu’utilisateur de travail que vous avez configuré dans la section [Préparer les données de démonstration pour les scénarios](#prepare-demo-data) plus haut dans cet article. Pour l’exemple de cet article, l’utilisateur est nommé *Julia Funderburk* et configuré pour l’entrepôt *61*. (Les données de démonstration USMF devraient vous permettre de vous connecter en tant que cet utilisateur de travail en entrant *61* comme identifiant d’utilisateur et *1* comme mot de passe.)
 1. Dans le menu principal, sélectionnez **Stock**.
 1. Dans le menu **Stock**, sélectionnez **Comptage ponctuel**.
 1. Sélectionnez le champ **Emplacement**, entrez *01A02R2S1B*, puis sélectionnez **OK** (le bouton de coche).

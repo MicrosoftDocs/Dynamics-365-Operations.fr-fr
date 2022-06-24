@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la gestion de la qualité et de la non-conformité
-description: Cette rubrique présente les fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management et explique comment elles peuvent contribuer à améliorer la qualité des produits dans votre chaîne d’approvisionnement.
+description: Cet article présente les fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management et explique comment elles peuvent contribuer à améliorer la qualité des produits dans votre chaîne d’approvisionnement.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907491"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Vue d’ensemble de la gestion de la qualité et de la non-conformité
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente les fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management et explique comment elles peuvent contribuer à améliorer la qualité des produits dans votre chaîne d’approvisionnement.
+Cet article présente les fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management et explique comment elles peuvent contribuer à améliorer la qualité des produits dans votre chaîne d’approvisionnement.
 
 L’assurance qualité implique le test des produits et la gestion des matières non conformes. La gestion de la qualité garantit un haut niveau de qualité des produits dans votre chaîne logistique. Ces processus permettent également d’optimiser les processus de la chaîne logistique et d’améliorer la satisfaction client. La gestion de la qualité peut vous aider à gérer les délais de rotation lors de la survenue de produits non conformes, indépendamment du point d’origine de ces produits. Vous pouvez lier les résultats du diagnostic aux tâches de correction. Le système peut programmer des tâches de corriger les problèmes et donc aider à empêcher la répétition de ces problèmes à l’avenir. La gestion de la qualité permet également de suivre les problèmes (notamment les problèmes internes) par type de problème, et vous permet d’identifier des solutions comme étant à court terme ou à long terme. Les statistiques concernant les indicateurs clés de performance (KPI) donnent des indications sur les problèmes de non-conformité qui sont survenus antérieurement et sur les solutions qui ont été appliquées pour les corriger. Vous pouvez utiliser les données historiques pour examiner l’efficacité des mesures de qualité prises antérieurement et déterminer les mesures appropriées à l’avenir.
 

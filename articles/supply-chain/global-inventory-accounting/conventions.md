@@ -1,6 +1,6 @@
 ---
 title: Conventions
-description: Cette rubrique décrit comment configurer des conventions pour établir la manière dont les coûts doivent être comptabilisés dans la comptabilité globale des stocks.
+description: Cet article décrit comment configurer des conventions pour établir la manière dont les coûts doivent être comptabilisés dans la comptabilité globale des stocks.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4919d8fcab76741175bad6ea090eea61d4146fa8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 0055757a0d012896232de58330ee142f702e4ed1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875392"
 ---
 # <a name="conventions"></a>Conventions
 

@@ -1,6 +1,6 @@
 ---
 title: Configurer un environnement d’évaluation Dynamics 365 Commerce
-description: Cette rubrique explique comment configurer un environnement d’évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
+description: Cet article explique comment configurer un environnement d’évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
 author: psimolin
 ms.date: 05/12/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
-ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
+ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8747635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892328"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurer un environnement d’évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment configurer un environnement d’évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
+Cet article explique comment configurer un environnement d’évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
 
-Effectuez les procédures de cette rubrique uniquement une fois que votre environnement d’évaluation Commerce a été mis en service. Pour plus d’informations sur la mise en service de votre environnement d’évaluation Commerce, consultez [Mise en service d’un environnement d’évaluation Commerce](provisioning-guide.md).
+Effectuez les procédures de cet article uniquement une fois que votre environnement d’évaluation Commerce a été mis en service. Pour plus d’informations sur la mise en service de votre environnement d’évaluation Commerce, consultez [Mise en service d’un environnement d’évaluation Commerce](provisioning-guide.md).
 
 Une fois que votre environnement d’évaluation Commerce a été mis en service de bout en bout, des étapes de configuration post-mise en service supplémentaires doivent être effectuées avant que vous puissiez commencer à évaluer l’environnement. Pour effectuer ces étapes, vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS) et Dynamics 365 Commerce.
 

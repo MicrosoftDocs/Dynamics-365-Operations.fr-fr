@@ -1,6 +1,6 @@
 ---
 title: Instructions de déploiement de caisses enregistreuses pour la Norvège
-description: Cette rubrique fournit des conseils sur la façon d’activer la fonctionnalité de caisse enregistreuse pour la localisation de Microsoft Dynamics 365 Commerce pour la Norvège.
+description: Cet article fournit des conseils sur la façon d’activer la fonctionnalité de caisse enregistreuse pour la localisation de Microsoft Dynamics 365 Commerce pour la Norvège.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899065"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Instructions de déploiement de caisses enregistreuses pour la Norvège
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique fournit des conseils sur la façon d’activer la fonctionnalité de caisse enregistreuse pour la localisation de Microsoft Dynamics 365 Commerce pour la Norvège. La localisation consiste en plusieurs extensions des composants. Ces extensions vous permettent d’effectuer des actions comme imprimer des champs personnalisés sur les reçus, enregistrer des événements d’audit supplémentaires, des transactions de vente et des transactions de paiement dans le point de vente, de signer numériquement les transactions de vente et d’imprimer des rapports dans des formats locaux. Pour plus d’informations sur la localisation pour la Norvège, voir [Fonctionnalité de caisse enregistreuse pour la Norvège](./emea-nor-cash-registers.md). Pour plus d’informations sur la configuration de Commerce pour la Norvège, consultez [Configurer Commerce pour la Norvège](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+Cet article fournit des conseils sur la façon d’activer la fonctionnalité de caisse enregistreuse pour la localisation de Microsoft Dynamics 365 Commerce pour la Norvège. La localisation consiste en plusieurs extensions des composants. Ces extensions vous permettent d’effectuer des actions comme imprimer des champs personnalisés sur les reçus, enregistrer des événements d’audit supplémentaires, des transactions de vente et des transactions de paiement dans le point de vente, de signer numériquement les transactions de vente et d’imprimer des rapports dans des formats locaux. Pour plus d’informations sur la localisation pour la Norvège, voir [Fonctionnalité de caisse enregistreuse pour la Norvège](./emea-nor-cash-registers.md). Pour plus d’informations sur la configuration de Commerce pour la Norvège, consultez [Configurer Commerce pour la Norvège](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 > [!WARNING]
 > En raison des limites du [nouveau modèle de package et d’extension indépendant](../dev-itpro/build-pipeline.md), il ne peut actuellement pas être utilisé pour cette fonctionnalité de localisation. Vous devez utiliser la version de l’exemple de signature numérique pour la Norvège dans la version précédente du kit de développement logiciel (SDK) Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations, voir [Directives de déploiement des caisses enregistreuses pour la Norvège (héritage)](./emea-nor-loc-deployment-guidelines.md).

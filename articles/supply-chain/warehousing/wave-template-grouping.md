@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851244"
 ---
 # <a name="wave-template-grouping"></a>Regroupement de modèles de vague
 
@@ -41,7 +41,7 @@ Avant de pouvoir utiliser la fonctionnalité *Regroupement de modèles de vagues
 Pour rendre le regroupement de modèles de vagues disponible, procédez comme suit pour configurer votre [modèle de vague](tasks/configure-wave-processing.md).
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
-1. Dans le volet gauche, sélectionnez le modèle de vague à configurer. Si vous vous apprêtez à exécuter le scénario plus loin dans cette rubrique à l’aide de données de démonstration, sélectionnez le modèle **62 Expédition par défaut**.
+1. Dans le volet gauche, sélectionnez le modèle de vague à configurer. Si vous vous apprêtez à exécuter le scénario plus loin dans cet article à l’aide de données de démonstration, sélectionnez le modèle **62 Expédition par défaut**.
 1. Sélectionnez **Modifier** pour afficher la page en mode d’édition.
 1. Dans l’organisateur **Général**, définissez les valeurs suivantes :
 
@@ -84,7 +84,7 @@ Vous pouvez également utiliser ce scénario comme orientation pour utiliser la 
 
 Ce scénario montre comment utiliser le regroupement de modèles de vagues pour créer automatiquement plusieurs vagues, en fonction de critères de regroupement définis dans un modèle de vague. Dans ce scénario, le modèle de vague est configuré dans le système pour créer une vague par service de transporteur.
 
-Avant de commencer, préparez votre modèle de vague comme décrit dans la section [Définir un modèle de vague pour utiliser le regroupement de modèles de vagues](#set-up-template) plus haut dans cette rubrique. Si vous utiliser des données de démonstration pour ce scénario, veillez à utiliser les valeurs de données de démonstration suggérées dans cette procédure. Cette configuration regroupera vos vagues en fonction du service de transporteur défini pour chaque commande client.
+Avant de commencer, préparez votre modèle de vague comme décrit dans la section [Définir un modèle de vague pour utiliser le regroupement de modèles de vagues](#set-up-template) plus haut dans cet article. Si vous utiliser des données de démonstration pour ce scénario, veillez à utiliser les valeurs de données de démonstration suggérées dans cette procédure. Cette configuration regroupera vos vagues en fonction du service de transporteur défini pour chaque commande client.
 
 #### <a name="create-sales-order-1"></a>Créer une commande client 1
 

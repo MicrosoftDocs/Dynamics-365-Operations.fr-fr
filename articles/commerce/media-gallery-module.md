@@ -1,6 +1,6 @@
 ---
-title: Module Galerie multimédia
-description: Cette rubrique couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+title: Module de galerie multimédia
+description: Cet article couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 73eba2c39f9ebf1e4092545565b8cbf2db75cfb5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881733"
 ---
-# <a name="media-gallery-module"></a>Module Galerie multimédia
+# <a name="media-gallery-module"></a>Module de galerie multimédia
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Les modules Galerie multimédia affichent une ou plusieurs images dans une vue de galerie. Ils prennent en charge les images miniatures, qui peuvent être organisées horizontalement (alignées sous l’image) ou verticalement (sous forme de colonne en regard de l’image). Ils fournissent également des fonctionnalités qui permettent d’effectuer un zoom sur les images (agrandir) ou de les afficher en mode plein écran. Pour être affichée dans un module Galerie multimédia, une image doit être disponible dans la bibliothèque multimédia du générateur de site Commerce. Pour le moment, les modules Galerie multimédia ne prennent en charge que les images.
 

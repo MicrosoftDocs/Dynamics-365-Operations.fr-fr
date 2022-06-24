@@ -1,6 +1,6 @@
 ---
 title: Utiliser des articles en séries dans le PDV
-description: Cette rubrique explique comment gérer les articles en série dans l’application de point de vente (PDV).
+description: Cet article explique comment gérer les articles en série dans l’application de point de vente (PDV).
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880027"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Utiliser des articles en séries dans le PDV
 
 [!include [banner](includes/banner.md)]
 
-De nombreux détaillants vendent des produits qui nécessitent un contrôle en série. Ces produits sont appelés *articles en série*. Certains détaillants peuvent souhaiter conserver des numéros de série en magasin ou dans le stocke de l’entrepôt à des fins de suivi. D’autres détaillants pourraient vouloir capturer des numéros de série pendant le processus de vente, à des fins de service et de garantie. Cette rubrique explique comment vous pouvez gérer les articles en série dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
+De nombreux détaillants vendent des produits qui nécessitent un contrôle en série. Ces produits sont appelés *articles en série*. Certains détaillants peuvent souhaiter conserver des numéros de série en magasin ou dans le stocke de l’entrepôt à des fins de suivi. D’autres détaillants pourraient vouloir capturer des numéros de série pendant le processus de vente, à des fins de service et de garantie. Cet article explique comment vous pouvez gérer les articles en série dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
 
 ## <a name="serial-number-configurations"></a>Configurations des numéros de série
 
@@ -124,7 +124,7 @@ Pour les articles sérialisés vendus pour un retrait ou une expédition future,
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Appliquer les numéros de série lors de l’exécution ou du retrait de la commande client
 
-Lors du traitement des lignes de commande client pour les produits sérialisés à l’aide de l’opération **Exécution des commandes** dans le PDV, le PDV applique la capture du numéro de série avant l’exécution finale. Par conséquent, si un numéro de série n’a pas été fourni lors de la capture initiale de la commande, il doit être capturé lors des processus de retrait, d’emballage ou d’expédition dans le PDV. Une validation est effectuée à chaque étape et l’utilisateur ne sera invité à saisir les données du numéro de série que si elles sont manquantes ou ne sont plus valides. Par exemple, si un utilisateur ignore les étapes de retrait ou d’emballage et lance immédiatement un envoi, et qu’un numéro de série n’a pas été enregistré pour la ligne, le PDV exigera que le numéro de série soit entré avant la fin de l’étape de facturation finale. Lors de la capture du numéro de série lors des opérations de traitement des commandes dans le PDV, toutes les règles mentionnées précédemment dans cette rubrique s’appliquent toujours. Seuls les éléments sérialisés configurés comme **Actif** passent par une validation de stock d’inventaire de numéro de série. Les éléments configurés comme **Actif dans le processus de vente** ne seront pas validés. Si **Stock physique négatif** est autorisé pour les produits **Actif**, tout numéro de série est accepté, quelle que soit la disponibilité des stocks. Pour les articles **Actif** et **Actif dans le processus de vente**, si **Sortie nulle autorisée** est configuré, un utilisateur peut laisser les numéros de série vides s’il le souhaite pendant les étapes de retrait, d’emballage et d’expédition.
+Lors du traitement des lignes de commande client pour les produits sérialisés à l’aide de l’opération **Exécution des commandes** dans le PDV, le PDV applique la capture du numéro de série avant l’exécution finale. Par conséquent, si un numéro de série n’a pas été fourni lors de la capture initiale de la commande, il doit être capturé lors des processus de retrait, d’emballage ou d’expédition dans le PDV. Une validation est effectuée à chaque étape et l’utilisateur ne sera invité à saisir les données du numéro de série que si elles sont manquantes ou ne sont plus valides. Par exemple, si un utilisateur ignore les étapes de retrait ou d’emballage et lance immédiatement un envoi, et qu’un numéro de série n’a pas été enregistré pour la ligne, le PDV exigera que le numéro de série soit entré avant la fin de l’étape de facturation finale. Lors de la capture du numéro de série lors des opérations de traitement des commandes dans le PDV, toutes les règles mentionnées précédemment dans cet article s’appliquent toujours. Seuls les éléments sérialisés configurés comme **Actif** passent par une validation de stock d’inventaire de numéro de série. Les éléments configurés comme **Actif dans le processus de vente** ne seront pas validés. Si **Stock physique négatif** est autorisé pour les produits **Actif**, tout numéro de série est accepté, quelle que soit la disponibilité des stocks. Pour les articles **Actif** et **Actif dans le processus de vente**, si **Sortie nulle autorisée** est configuré, un utilisateur peut laisser les numéros de série vides s’il le souhaite pendant les étapes de retrait, d’emballage et d’expédition.
 
 Les validations des numéros de série se produiront également lorsqu’un utilisateur effectue les opérations de retrait sur les commandes des clients dans le PDV. L’application de PDV ne permet pas de finaliser un retrait de produit sérialisé sauf s’il obtient les validations mentionnées précédemment. Les validations sont toujours basées sur la dimension de suivi du produit et la vente de configurations d’entrepôt. 
 

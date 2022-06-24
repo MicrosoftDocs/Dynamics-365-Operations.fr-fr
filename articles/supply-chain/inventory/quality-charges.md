@@ -1,6 +1,6 @@
 ---
 title: Frais pour les opérations de non-conformité
-description: Cette rubrique décrit comment créer des frais de qualité pouvant être utilisés avec des opérations de non-conformité.
+description: Cet article décrit comment créer des frais de qualité pouvant être utilisés avec des opérations de non-conformité.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850726"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Frais pour les opérations de non-conformité
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment créer des frais de qualité pouvant être utilisés avec des opérations de non-conformité.
+Cet article décrit comment créer des frais de qualité pouvant être utilisés avec des opérations de non-conformité.
 
 La page **Frais de qualité** permet de définir les types de frais qui peuvent être ajoutés aux opérations de non-conformité. Les frais vous permettent de suivre les détails à propos des frais ou des charges que vous devez à un client pour des produits non conformes, ou qu'un fournisseur vous doit pour des produits non conformes que vous avez reçus. Vous pouvez également utiliser des frais pour suivre les coûts nécessaires pour les fournisseurs ou les services externes pour effectuer une opération.
 

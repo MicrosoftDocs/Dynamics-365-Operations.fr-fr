@@ -1,6 +1,6 @@
 ---
 title: Activer les notifications d’enregistrement des clients dans le point de vente (PDV)
-description: Cette rubrique décrit comment activer les notifications d’enregistrement des clients dans le point de vente (PDV) Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment activer les notifications d’enregistrement des clients dans le point de vente (PDV) Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885143"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Activer les notifications d’enregistrement des clients dans le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment activer les notifications d’enregistrement des clients dans le point de vente (PDV) Microsoft Dynamics 365 Commerce.
+Cet article décrit comment activer les notifications d’enregistrement des clients dans le point de vente (PDV) Microsoft Dynamics 365 Commerce.
 
 Dans leurs e-mails « commande prête à être ramassée », les organisations peuvent fournir un lien ou un bouton permettant aux clients d’informer le magasin qu’ils sont sur place et qu’ils attendent que leur colis leur soit apporté. Les clients reçoivent ensuite une confirmation d’enregistrement et le magasin reçoit une notification en tant que tâche dans son application de point de vente. Cette tâche permet à un vendeur de livrer la commande au véhicule du client. Par conséquent, le client n’a pas à entrer dans le magasin.
 
@@ -70,7 +70,7 @@ Pour tester la fonction d’enregistrement des clients, procédez comme suit.
 1. Enregistrez la page, mais ne la publiez-la.
 1. Ajoutez le lien suivant à un modèle d’e-mail invoqué par le type de notification Emballage terminé pour un mode de livraison Retrait. Pour plus d’informations, voir [Créer des modèles d’e-mail pour les événements transactionnels](email-templates-transactions.md).
 
-    - **Pour les environnements de pré-production (UAT) :** Ajoutez l’extrait de code de la section [Configurer le modèle d’email transactionnel](#configure-the-transactional-email-template) plus haut dans cette rubrique.
+    - **Pour les environnements de pré-production (UAT) :** Ajoutez l’extrait de code de la section [Configurer le modèle d’email transactionnel](#configure-the-transactional-email-template) plus haut dans cet article.
     - **Pour les environnements de production :** Ajoutez le code commenté suivant afin que les clients existants ne soient pas affectés.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

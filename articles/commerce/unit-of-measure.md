@@ -1,6 +1,6 @@
 ---
 title: Appliquer les paramètres d’unité de mesure
-description: Cette rubrique couvre les paramètres d’unité de mesure et décrit leur application dans Microsoft Dynamics 365 Commerce.
+description: Cet article couvre les paramètres d’unité de mesure et décrit leur application dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca95bd31af8f244f60f12120bc6df121f48cc7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884813"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Appliquer les paramètres d’unité de mesure
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les paramètres d’unité de mesure et décrit leur application dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les paramètres d’unité de mesure et décrit leur application dans Microsoft Dynamics 365 Commerce.
 
 Un produit peut être vendu en différentes unités, par exemple en « unité », en « paire » et en « douzaine » Au siège de Commerce, l’unité de mesure de vente par produit peut être définie pour un produit et affichée sur un site de commerce électronique. Par exemple, si un détaillant vend un produit à la fois individuellement et par dizaines, les unités de mesure disponibles peuvent être affichées avec d’autres informations sur le produit.
 

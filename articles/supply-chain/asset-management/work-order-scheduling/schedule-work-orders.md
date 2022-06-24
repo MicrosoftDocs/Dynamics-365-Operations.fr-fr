@@ -1,6 +1,6 @@
 ---
 title: Planifier des ordres de travail
-description: Cette rubrique explique comment planifier des ordres de travail dans le module Gestion des actifs.
+description: Cet article explique comment planifier des ordres de travail dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845052"
 ---
 # <a name="schedule-work-orders"></a>Planifier des ordres de travail
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718057"
 
  
 
-Cette rubrique explique comment planifier des ordres de travail dans le module Gestion des actifs. 
+Cet article explique comment planifier des ordres de travail dans le module Gestion des actifs. 
 
 Le nombre d’heures requises pour un ordre de travail est défini par la somme des heures prévues moins les heures validées. Si plus de temps est nécessaire, les prévisions doivent être ajustées en conséquence. Dans **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**, vous pouvez afficher ou modifier des prévisions sur un ordre de travail en sélectionnant l’ordre de travail et en cliquant sur **Prévisions** sur l’onglet **Ordre de travail** . Lorsque les ordres de travail ont été créés et estimés, l’étape suivante d’exécution des ordres de travail consiste à répartir les agents et les outils nécessaires de maintenance.
 

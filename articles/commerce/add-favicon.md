@@ -1,6 +1,6 @@
 ---
 title: Ajouter une icône de favori
-description: Cette rubrique explique comment ajouter une icône de favori à votre site.
+description: Cet article explique comment ajouter une icône de favori à votre site.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855793"
 ---
 # <a name="add-a-favicon"></a>Ajouter une icône de favori
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment ajouter une icône de favori à votre site.
+Cet article explique comment ajouter une icône de favori à votre site.
 
 Une icône de favori est un petit fichier graphique affiché sous un onglet du navigateur web, dans la barre d’adresse, dans l’historique de navigation, et dans les signets ou les favoris, entre autres. Nous vous recommandons d’ajouter une icône de favori à votre site, car elle représente et renforce votre marque, et aide à distinguer votre site d’autres sites que vos clients visitent.
 
-Bien que vous puissiez ajouter plusieurs icônes de favori de différentes tailles et types de fichiers à votre site, cette rubrique explique comment ajouter une icône de favori unique. Toutefois, les mêmes processus et emplacement sont utilisés pour ajouter des une icônes de favori.
+Bien que vous puissiez ajouter plusieurs icônes de favori de différentes tailles et types de fichiers à votre site, cet article explique comment ajouter une icône de favori unique. Toutefois, les mêmes processus et emplacement sont utilisés pour ajouter des une icônes de favori.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Chargement de l’icône de favori dans la collection d’actifs du site
 

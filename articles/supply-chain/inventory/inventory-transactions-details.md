@@ -1,6 +1,6 @@
 ---
 title: Détails des transactions de stock
-description: Cette rubrique fournit une vue d'ensemble de la page Détails des transactions qui affiche les détails d'une transaction de stock sélectionnée.
+description: Cet article fournit une vue d'ensemble de la page Détails des transactions qui affiche les détails d'une transaction de stock sélectionnée.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859385"
 ---
 # <a name="inventory-transaction-details"></a>Détails des transactions de stock
 
@@ -36,8 +36,8 @@ La page **Détails des transactions** est divisée en plusieurs raccourcis. Le t
 
 | Organisateur | Description |
 |---|---|
-| Généralités | Ce raccourci affiche des informations de base sur la transaction de stock sélectionnée. En plus des champs qui apparaissent sur la page **Transactions de stock**, elle inclut les champs supplémentaires décrits plus loin dans cette rubrique. |
-| Mises à jour | Ce raccourci affiche des informations liées aux aspects physiques, financiers et de règlement de la transaction de stock sélectionnée. Selon l'état actuel de la transaction, certains champs peuvent être vides. Cependant, ces champs seront automatiquement définis lorsque les transactions seront comptabilisées. En plus des champs qui apparaissent sur la page **Transactions de stock**, ce raccourci inclut les champs supplémentaires décrits plus loin dans cette rubrique. |
+| Généralités | Ce raccourci affiche des informations de base sur la transaction de stock sélectionnée. En plus des champs qui apparaissent sur la page **Transactions de stock**, elle inclut les champs supplémentaires décrits plus loin dans cet article. |
+| Mises à jour | Ce raccourci affiche des informations liées aux aspects physiques, financiers et de règlement de la transaction de stock sélectionnée. Selon l'état actuel de la transaction, certains champs peuvent être vides. Cependant, ces champs seront automatiquement définis lorsque les transactions seront comptabilisées. En plus des champs qui apparaissent sur la page **Transactions de stock**, ce raccourci inclut les champs supplémentaires décrits plus loin dans cet article. |
 | Validations dans la comptabilité | Ce raccourci affiche le type de validation et le compte général utilisés pour la mise à jour physique, la mise à jour financière, les revenus physiques, les charges physiques, les revenus financiers et les frais financiers liés à la transaction de stock sélectionnée. |
 | Références | Ce raccourci affiche des informations supplémentaires sur la transaction source qui a créé la transaction de stock sélectionnée. Par exemple, ces informations peuvent inclure des détails du bon de commande ou de la commande client. |
 | Informations associées | Ce raccourci affiche des informations supplémentaires sur la transaction de stock sélectionnée. Ces champs peuvent ne pas être définis si vous n'utilisez pas certaines fonctionnalités, telles que les catégories d'approvisionnement ou les projets. |

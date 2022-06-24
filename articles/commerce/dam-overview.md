@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la gestion des actifs numériques
-description: Cette rubrique fournit une vue d’ensemble des pages de gestion des actifs numériques dans le générateur de site Microsoft Dynamics 365 Commerce.
+description: Cet article fournit une vue d’ensemble des pages de gestion des actifs numériques dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 03/03/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73c41d97727c461a959d05e76c27efa49e9b5775
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 8e958715591c404d979d2537531476004dbcdee5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892103"
 ---
 # <a name="digital-asset-management-overview"></a>Vue d’ensemble de la gestion des actifs numériques
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des pages de gestion des actifs numériques dans le générateur de site Microsoft Dynamics 365 Commerce.
+Cet article fournit une vue d’ensemble des pages de gestion des actifs numériques dans le générateur de site Microsoft Dynamics 365 Commerce.
 
 La bibliothèque multimédia du générateur de site Dynamics 365 Commerce propose une riche fonctionnalité de gestion des actifs numériques, notamment la prise en charge des éléments suivants :
 - Données d’image

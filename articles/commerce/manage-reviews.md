@@ -1,6 +1,6 @@
 ---
 title: Gestion des évaluations et avis
-description: Cette rubrique explique comment gérer les classements et les évaluations dans le générateur de site Microsoft Dynamics 365 Commerce.
+description: Cet article explique comment gérer les classements et les évaluations dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881321"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gestion des évaluations et avis
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment gérer les classements et les évaluations dans le générateur de site Microsoft Dynamics 365 Commerce.
+Cet article explique comment gérer les classements et les évaluations dans le générateur de site Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce utilise le service cognitif de Microsoft Azure pour modérer automatiquement du texte d’évaluation en effaçant les mots grossiers. De plus, les modérateurs peuvent utiliser le générateur de site Dynamics 365 Commerce pour implémenter les tâches manuelles suivantes :
 

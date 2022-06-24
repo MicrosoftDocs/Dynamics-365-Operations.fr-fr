@@ -1,6 +1,6 @@
 ---
 title: Version préliminaire de Dynamics 365 Supply Chain Management 10.0.28 (août 2022)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.28.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.28.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 306ff9be80c7a7a947b9132e3c9b4b9ec799b265
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902051"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.28 (août 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version préliminaire 10.0.28. Cette version a un numéro de build de 10.0.1264 et est disponible selon le programme suivant :
+Cet article répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version préliminaire 10.0.28. Cette version a un numéro de build de 10.0.1264 et est disponible selon le programme suivant :
 
 - **Version préliminaire de la version :** mai 2022
 - **Disponibilité générale de la version (mise à jour automatique) :** juillet 2022
@@ -30,15 +30,14 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Le tableau suivant répertorie les fonctionnalités incluses dans cette version. Il se peut que nous mettions à jour de cette rubrique pour inclure des fonctionnalités intégrées à la version après la publication d’origine de cette rubrique.
+Le tableau suivant répertorie les fonctionnalités incluses dans cette version. Il se peut que nous mettions à jour de cet article pour inclure des fonctionnalités intégrées à la version après la publication d’origine de cet article.
 
 | Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
 | Inventaire et logistique | [Entités d’intégration des coûts au débarquement pour les transitaires tiers](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Vue d’ensemble des entités de coût au débarquement](../landed-cost/landed-cost-entities-overview.md) | Activé par défaut |
-| Planification | [Prise en charge de l’optimisation de la planification pour la durée de conservation](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Bientôt disponible <!-- KFM: Vendor is preparing this. Expected May 20. --> | Activé par défaut |
-
-<!-- KFM: Confirm status of this feature:
-| Planning | [Demand Driven Material Requirements Planning (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Coming soon | Feature management:<br>*(Preview) DDMRP for Planning Optimization* | -->
+| Planification | [Planification des besoins en matériaux basée sur la demande (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Bientôt disponible | Gestion des fonctions :<br>*(Version préliminaire) DDMRP pour Optimisation de la planification* |
+| Planification | [Prise en charge de l'optimisation de la planification pour la logique capable-to-promise (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Bientôt disponible | Gestion des fonctions :<br>*(Version préliminaire) CTP pour Optimisation de la planification* |
+| Planification | [Prise en charge de l’optimisation de la planification pour la durée de conservation](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Bientôt disponible | Activé par défaut |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Améliorations de fonctionnalités incluses dans cette version
 
@@ -56,9 +55,9 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 
-Nous avons récemment ajouté ou mis à jour de manière significative les rubriques Aide suivantes. Ces rubriques ne sont pas nécessairement liées aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans les sections précédentes. Cependant, elles peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
+Nous avons récemment ajouté ou mis à jour de manière significative les articles d'aide suivants. Ces articles ne sont pas nécessairement liés aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans les sections précédentes. Cependant, elles peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
 
-| Fonctionnalités | Rubriques nouvelles ou mises à jour |
+| Fonctionnalités | Articles nouveaux ou mis à jour |
 |---|---|
 | Gestion des coûts | [Prix fixe de réception](../cost-management/fixed-receipt-price.md) |
 | Gestion des coûts | [Foire aux questions sur le coût des stocks](../cost-management/inventory-costing-faq.md) |
@@ -69,7 +68,7 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.28 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances and Operations, version 10.0.28 (juin 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.28 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances and Operations, version 10.0.28 (juin 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
@@ -83,12 +82,12 @@ Consultez [Dynamics 365 et les clouds du secteur : plan de la 1e vague de lan
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 
-La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
+L'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
+Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans l'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
 

@@ -1,6 +1,6 @@
 ---
 title: Désactiver la collecte d’événements d’activité Web
-description: Cette rubrique explique comment vous pouvez autoriser les visiteurs de votre site Web à désactiver la collecte d’événements d’activité Web dans Microsoft Dynamics 365 Commerce.
+description: Cet article explique comment vous pouvez autoriser les visiteurs de votre site Web à désactiver la collecte d’événements d’activité Web dans Microsoft Dynamics 365 Commerce.
 author: aamiral
 ms.date: 05/15/2020
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78d3f795820eb36d1a81fb28875456e7471f8971
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878397"
 ---
-# <a name="opt-out-of-web-activity-event-collection"></a>Refuser les événements liés à l’activité sur le Web
+# <a name="opt-out-of-web-activity-event-collection"></a>Désactiver la collecte d’événements d’activité Web
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment vous pouvez laisser les clients désactiver la collecte d’événements d’activité Web dans Microsoft Dynamics 365 Commerce.
+Cet article explique comment vous pouvez laisser les clients désactiver la collecte d’événements d’activité Web dans Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce permet aux administrateurs de site d’analyser l’activité Web des utilisateurs de leurs sites de commerce électronique. De cette façon, ils peuvent mieux comprendre comment leurs sites sont utilisés et les optimiser pour offrir une expérience utilisateur améliorée et répondre aux objectifs commerciaux.
 

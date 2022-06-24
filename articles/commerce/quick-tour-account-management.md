@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des pages de gestion de compte
-description: Cette rubrique fournit une vue d’ensemble des pages de gestion de compte dans Microsoft Dynamics 365 Commerce.
+description: Cet article fournit une vue d’ensemble des pages de gestion de compte dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868881"
 ---
 # <a name="account-management-pages-overview"></a>Vue d’ensemble des pages de gestion de compte
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des pages de gestion de compte dans Microsoft Dynamics 365 Commerce.
+Cet article fournit une vue d’ensemble des pages de gestion de compte dans Microsoft Dynamics 365 Commerce.
 
 Les pages de gestion de compte permettent aux clients d’afficher des informations liées à leur compte et leurs commandes. Les pages de gestion de compte incluent la page de destination de la gestion de compte, et les pages de profil, d’adresses, d’historique de commande, des détails de commande, de points de fidélité, et de liste de souhaits de l’utilisateur.
 

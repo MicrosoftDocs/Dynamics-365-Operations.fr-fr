@@ -1,6 +1,6 @@
 ---
-title: API publiques de visibilité des stocks
-description: Cette rubrique décrit les API publiques fournies par la visibilité des stocks.
+title: API publiques Inventory Visibility
+description: Cet article décrit les API publiques fournies par la visibilité des stocks.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902022"
 ---
-# <a name="inventory-visibility-public-apis"></a>API publiques de visibilité des stocks
+# <a name="inventory-visibility-public-apis"></a>API publiques Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique décrit les API publiques fournies par la visibilité des stocks.
+Cet article décrit les API publiques fournies par la visibilité des stocks.
 
 L’API REST publique du complément de visibilité des stocks présente plusieurs points de terminaison d’intégration spécifiques. Elle prend en charge quatre types d’interactions :
 
@@ -160,7 +160,7 @@ Pour obtenir un jeton de service de sécurité, procédez comme suit.
    ```
 
 > [!IMPORTANT]
-> Lorsque vous utilisez la demande de collecte *Postman* pour appeler les API publiques Inventory Visibility, vous devez ajouter un jeton de support pour chaque demande. Pour trouver votre jeton au porteur, sélectionnez l’onglet **Autorisation** sous l’URL de la demande, sélectionnez le type **Jeton du porteur**, tapez et copiez le jeton d’accès qui a été récupéré à la dernière étape. Dans les sections suivantes de cette rubrique, `$access_token` sera utilisé pour représenter le jeton qui a été récupéré à la dernière étape.
+> Lorsque vous utilisez la demande de collecte *Postman* pour appeler les API publiques Inventory Visibility, vous devez ajouter un jeton de support pour chaque demande. Pour trouver votre jeton au porteur, sélectionnez l’onglet **Autorisation** sous l’URL de la demande, sélectionnez le type **Jeton du porteur**, tapez et copiez le jeton d’accès qui a été récupéré à la dernière étape. Dans les sections suivantes de cet article, `$access_token` sera utilisé pour représenter le jeton qui a été récupéré à la dernière étape.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Créer des événements de modification de stock disponible
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-L’exemple suivant montre un exemple de contenu du corps. Le comportement de cette API diffère du comportement des API décrites dans la section [Créer des événements de modification de stock disponible](#create-onhand-change-event) plus haut dans cette rubrique. Dans cet exemple, la quantité du produit *T-shirt* sera définie sur 1.
+L’exemple suivant montre un exemple de contenu du corps. Le comportement de cette API diffère du comportement des API décrites dans la section [Créer des événements de modification de stock disponible](#create-onhand-change-event) plus haut dans cet article. Dans cet exemple, la quantité du produit *T-shirt* sera définie sur 1.
 
 ```json
 [

@@ -1,6 +1,6 @@
 ---
 title: Plages de gestion de la couverture
-description: Cette rubrique décrit comment configurer des plages de gestion de la couverture lorsque vous utilisez le complément Optimisation de la planification. Une plage de gestion de la couverture indique votre horizon de planification et votre limite.
+description: Cet article décrit comment configurer des plages de gestion de la couverture lorsque vous utilisez le complément Optimisation de la planification. Une plage de gestion de la couverture indique votre horizon de planification et votre limite.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 12deca22fd6ff3cb4556e0525ab831e1aea0ee33
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847931"
 ---
 # <a name="coverage-time-fences"></a>Plages de gestion de la couverture
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment configurer des *plages de gestion de la couverture* lorsque vous utilisez le complément Optimisation de la planification. Les planificateurs peuvent définir l’horizon de planification (la période de couverture en jours) et exclure l’offre et la demande qui se situent au-delà de cet horizon. Par conséquent, les délais de couverture aident à prévenir le « bruit » causé par des suggestions d’approvisionnement auxquelles vous n’avez pas à réagir depuis des mois. Les exemples incluent les prévisions de l’année prochaine et les commandes des clients qui sont passées bien au-delà du délai normal.
+Cet article décrit comment configurer des *plages de gestion de la couverture* lorsque vous utilisez le complément Optimisation de la planification. Les planificateurs peuvent définir l’horizon de planification (la période de couverture en jours) et exclure l’offre et la demande qui se situent au-delà de cet horizon. Par conséquent, les délais de couverture aident à prévenir le « bruit » causé par des suggestions d’approvisionnement auxquelles vous n’avez pas à réagir depuis des mois. Les exemples incluent les prévisions de l’année prochaine et les commandes des clients qui sont passées bien au-delà du délai normal.
 
 Une plage de gestion de la couverture correspond au nombre de jours après la date du jour (ou, plus précisément, la date à laquelle vous effectuez la planification) pendant lesquels l’offre et la demande sont exclues. Pour éviter les retards, vous devez vous assurer que la plage de gestion de la couverture est plus longue que le délai total. La valeur système par défaut est de 100 jours.
 

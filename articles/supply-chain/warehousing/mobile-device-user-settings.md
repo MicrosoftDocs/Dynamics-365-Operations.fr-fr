@@ -1,6 +1,6 @@
 ---
 title: Paramètres utilisateur d’appareil mobile
-description: Cette rubrique explique comment gérer les paramètres utilisateur des appareils mobiles pour les magasiniers.
+description: Cet article explique comment gérer les paramètres utilisateur des appareils mobiles pour les magasiniers.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882342"
 ---
 # <a name="mobile-device-user-settings"></a>Paramètres utilisateur d’appareil mobile
 
@@ -41,7 +41,7 @@ Cette fonctionnalité peut aider les employés à démarrer plus rapidement chaq
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité des paramètres utilisateur de l’appareil mobile
 
-Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Paramètres utilisateur, icônes et titres d’étape pour la nouvelle application d’entrepôt* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer les expéditions sortantes à partir des tâches par lots* dans l’espace de travail [Paramètres utilisateur, icônes et titres des étapes pour la nouvelle application d’entrepôt](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour utiliser la fonctionnalité décrite dans cet article, la fonctionnalité *Paramètres utilisateur, icônes et titres d’étape pour la nouvelle application d’entrepôt* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer les expéditions sortantes à partir des tâches par lots* dans l’espace de travail [Paramètres utilisateur, icônes et titres des étapes pour la nouvelle application d’entrepôt](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Créer et gérer les paramètres utilisateur
 

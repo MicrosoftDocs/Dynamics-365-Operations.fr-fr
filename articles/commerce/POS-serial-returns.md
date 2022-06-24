@@ -1,6 +1,6 @@
 ---
 title: Retour de produits contrôlés par numéro de série dans le PDV
-description: Cette rubrique décrit les fonctionnalités de validation des articles à numéro de série dans le cadre du processus de retour dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
+description: Cet article décrit les fonctionnalités de validation des articles à numéro de série dans le cadre du processus de retour dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860319"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Retour de produits contrôlés par numéro de série dans le PDV
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités de validation des articles à numéro de série dans le cadre du processus de retour dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
+Cet article décrit les fonctionnalités de validation des articles à numéro de série dans le cadre du processus de retour dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Dans les versions 10.0.20 et ultérieures de Commerce, une nouvelle fonctionnalité nommée **Expérience unifiée du traitement des retours dans la PDV** est disponible. Pour utiliser la validation du numéro de série lors du traitement des retours dans le PDV, vous devez activer cette fonctionnalité. Pour plus d’informations sur les autres possibilités de cette fonctionnalité lorsqu’elle est activée, voir [Créer des retours dans le PDV](POS-returns.md).

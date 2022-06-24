@@ -1,6 +1,6 @@
 ---
 title: Enregistrer la consommation
-description: Cette rubrique explique comment enregistrer la consommation dans le module Gestion des actifs.
+description: Cet article explique comment enregistrer la consommation dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886042"
 ---
 # <a name="register-consumption"></a>Enregistrer la consommation
 
@@ -90,7 +90,7 @@ Lorsque vous effectuez des enregistrements de consommation, les dimensions finan
 - *Enregistrements de l’article :* tout d’abord, les dimensions financières de l’en-tête de journal sont ajoutées, le cas échéant. Puis, les dimensions financières du projet de l’ordre de travail associé sont ajoutées. Ensuite, les dimensions financières du site sont ajoutées. Enfin, les dimensions financières de l’article sont ajoutées.
 
 >[!NOTE]
->Pour tous les types d’enregistrement, la combinaison de dimensions financières est ajoutée et les combinaisons non valides sont grisées. Ceci est une configuration standard avec d’autres applications Finance and Operations.
+>Pour tous les types d'enregistrement, la combinaison de dimensions financières est ajoutée et les combinaisons non valides sont grisées. Il s'agit du paramétrage standard avec d'autres applications Finance and Operations.
 
 
 

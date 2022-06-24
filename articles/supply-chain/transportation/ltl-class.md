@@ -1,6 +1,6 @@
 ---
 title: Classes de chargement partiel d'un camion (Less than truckload, LTL)
-description: Cette rubrique explique ce que sont les classes de chargement partiel d'un camion (Less than truckload, LTL) et explique comment les configurer dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article explique ce que sont les classes de chargement partiel d'un camion (Less than truckload, LTL) et explique comment les configurer dans Microsoft Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857197"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>Classes de chargement partiel d'un camion (Less than truckload, LTL)
 
@@ -33,7 +33,7 @@ Cette fonctionnalité vous permet d’utiliser votre système pour effectuer les
 - Déterminer les exigences d'emballage pour chaque classe LTL en vérifiant les normes internationales LTL. De cette façon, vous avez la certitude que vos produits seront bien protégés et expédiés en toute sécurité.
 - Obtenir des estimations d'expédition précises, basées sur la classe de fret LTL pour chaque produit.
 
-Cette rubrique explique comment créer des classes LTL dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article explique comment créer des classes LTL dans Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>Créer une classe LTL
 

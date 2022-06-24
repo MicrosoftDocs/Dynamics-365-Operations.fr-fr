@@ -1,6 +1,6 @@
 ---
 title: Workflows d’accord de gestion des remises
-description: Cette rubrique explique comment configurer un workflow d’accord de gestion des remises pour approuver et activer les accords.
+description: Cet article explique comment configurer un workflow d’accord de gestion des remises pour approuver et activer les accords.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869515"
 ---
 # <a name="rebate-management-deal-workflows"></a>Workflows d’accord de gestion des remises
 
@@ -35,7 +35,7 @@ Les utilisateurs ne peuvent pas approuver manuellement les accords. Le workflow 
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Créer et gérer des workflows d’accord de gestion des remises
 
-Pour utiliser vos workflows d’accord de gestion des remises, accédez à **Gestion des remises \> Paramétrage \> Workflows de gestion des remises**. Là, vous pouvez afficher, créer et mettre à jour les workflows selon vos besoins. Un seul workflow de ce type peut être actif à la fois. Pour plus d’informations sur les workflows, savoir comment utiliser la page **Workflows de gestion des remises** et comment créer des workflows, reportez-vous à la rubrique [Vue d’ensemble du système de workflow](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) et ses rubriques connexes.
+Pour utiliser vos workflows d’accord de gestion des remises, accédez à **Gestion des remises \> Paramétrage \> Workflows de gestion des remises**. Là, vous pouvez afficher, créer et mettre à jour les workflows selon vos besoins. Un seul workflow de ce type peut être actif à la fois. Pour plus d’informations sur les workflows, savoir comment utiliser la page **Workflows de gestion des remises** et comment créer des workflows, reportez-vous à l'article [Vue d’ensemble du système de workflow](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) et ses articles connexes.
 
 ## <a name="use-a-workflow-to-activate-a-deal"></a>Utilisez un workflow pour activer un accord
 

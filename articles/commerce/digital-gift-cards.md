@@ -1,6 +1,6 @@
 ---
 title: Cartes-cadeaux numériques e-commerce
-description: Cette rubrique décrit le fonctionnement des cartes-cadeaux numériques dans la mise en œuvre du e-commerce de Microsoft Dynamics 365 Commerce. Elle fournit également un aperçu des étapes de configuration importantes.
+description: Cet article décrit le fonctionnement des cartes-cadeaux numériques dans la mise en œuvre du e-commerce de Microsoft Dynamics 365 Commerce. Elle fournit également un aperçu des étapes de configuration importantes.
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884902"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Cartes-cadeaux numériques e-commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit le fonctionnement des cartes-cadeaux numériques dans la mise en œuvre du e-commerce de Microsoft Dynamics 365 Commerce. Elle fournit également un aperçu des étapes de configuration importantes.
+Cet article décrit le fonctionnement des cartes-cadeaux numériques dans la mise en œuvre du e-commerce de Microsoft Dynamics 365 Commerce. Elle fournit également un aperçu des étapes de configuration importantes.
 
 Dans Dynamics 365 Commerce, l’achat de cartes-cadeaux numériques suit le même flux que l’achat d’autres produits du système. Aucun module supplémentaire ne doit être configuré. Si plusieurs cartes-cadeaux sont ajoutées au panier, les articles de la carte-cadeau ne sont pas regroupés sur une seule ligne de vente. Ce comportement est requis car chaque ligne de vente est facturée à l’aide d’un numéro de carte-cadeau distinct.
 

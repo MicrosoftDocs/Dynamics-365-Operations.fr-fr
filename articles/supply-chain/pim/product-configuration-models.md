@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9bee2d68a2ed2aa339ddf8232bba4541f4fe52b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871918"
 ---
 # <a name="product-configuration-models-overview"></a>Vue d’ensemble des modèles de configuration de produit
 
@@ -75,7 +75,7 @@ Si le type d’attribut est <strong>Booléen</strong>, <strong>Entier</strong> a
 <td>Contraintes</td>
 <td>Les contraintes décrivent les restrictions de la configuration du modèle de produit. Les contraintes sont utilisées pour vous assurer que seules les valeurs valides sont sélectionnées lorsqu’un produit est configuré. Les contraintes peuvent être des contraintes d’expression ou des contraintes de table :
 <ul>
-<li>Les contraintes d’expression peuvent être utilisées uniquement pour le composant auquel elles sont associées. Les contraintes d&#39;expression pour un composant peuvent référencer des attributs des sous-composants du composant. Le solveur de configuration de produit permet de résoudre les contraintes, vous devez utiliser la syntaxe de solveur lorsque vous entrez les contraintes. Pour plus d’informations, voir le lien de rubrique sur les contraintes d’expression et de table.</li>
+<li>Les contraintes d’expression peuvent être utilisées uniquement pour le composant auquel elles sont associées. Les contraintes d&#39;expression pour un composant peuvent référencer des attributs des sous-composants du composant. Le solveur de configuration de produit permet de résoudre les contraintes, vous devez utiliser la syntaxe de solveur lorsque vous entrez les contraintes. Pour plus d’informations, voir le lien d'article sur les contraintes d’expression et de table.</li>
 <li>Les contraintes de table doivent être définies avant d’être appliquées à un composant dans un modèle de configuration de produit. Les contraintes de table peuvent être définies par l’utilisateur ou le système. Une contrainte de table définie par l’utilisateur est un type de matrice pouvant être utilisé pour décrire l’ensemble des combinaisons pour les valeurs d’attribut définies par les types d’attributs. Par exemple, si des haut-parleurs sont fabriqués, la matrice de la contrainte de table définie par l’utilisateur peut avoir des colonnes pour les finitions et les grilles.</li>
 </ul>
 <strong>Exemple</strong> Les haut-parleurs sont disponibles dans quatre finitions : noir, chêne, bois de rose, et blanc. Les haut-parleurs sont disponibles dans trois couleurs de grilles avant : noir, métal, ou blanc. La finition noire est disponible pour toutes les grilles, mais les autres finitions sont limitées à des grilles spécifiques. Le tableau suivant présente un exemple des informations affichées sous l’onglet <strong>Combinaisons autorisées</strong> sur la page <strong>Modifier une contrainte de table</strong>.

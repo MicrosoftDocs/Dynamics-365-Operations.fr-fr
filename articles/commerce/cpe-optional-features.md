@@ -1,6 +1,6 @@
 ---
-title: Configurer des fonctionnalités facultatives pour un environnement d’évaluation Dynamics 365 Commerce
-description: Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d’évaluation Microsoft Dynamics 365 Commerce.
+title: Configurer des fonctions facultatives pour un environnement d’évaluation Dynamics 365 Commerce
+description: Cet article explique comment configurer des fonctionnalités facultatives pour un environnement d’évaluation Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861912"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurer des fonctionnalités facultatives pour un environnement d’évaluation Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurer des fonctions facultatives pour un environnement d’évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d’évaluation Microsoft Dynamics 365 Commerce.
+Cet article explique comment configurer des fonctionnalités facultatives pour un environnement d’évaluation Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -108,7 +108,7 @@ Vous souhaiterez peut-être personnaliser les modèles d’e-mails afin qu’ils
     - Modèle de commande emballée
     - Modèle de commande à prélever
 
-1. Personnaliser les modèles à l’aide d’un texte ou un éditeur HTML. Voir la liste des [jetons pris en charge](#supported-tokens-in-the-email-template) plus loin dans cette rubrique.
+1. Personnaliser les modèles à l’aide d’un texte ou un éditeur HTML. Voir la liste des [jetons pris en charge](#supported-tokens-in-the-email-template) plus loin dans cet article.
 1. Connectez-vous à Commerce.
 1. Utilisez le menu à gauche pour accéder à **Modules \> Administration de l’organisation \> Paramétrage \> Modèles d’e-mail de l’organisation**.
 1. Développez la liste à gauche pour afficher tous les modèles.

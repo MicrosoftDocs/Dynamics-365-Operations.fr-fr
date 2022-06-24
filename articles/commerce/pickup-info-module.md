@@ -1,6 +1,6 @@
 ---
 title: Module d’information sur le retrait
-description: Cette rubrique couvre le module d’informations de retrait et décrit comment l’ajouter aux pages de paiement dans Microsoft Dynamics 365 Commerce.
+description: Cet article couvre le module d’informations de retrait et décrit comment l’ajouter aux pages de paiement dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892595"
 ---
-# <a name="pickup-information-module"></a>Module Information sur les prélèvements
+# <a name="pickup-information-module"></a>Module d’information sur le retrait
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre le module d’informations de retrait et décrit comment l’ajouter aux pages de paiement dans Microsoft Dynamics 365 Commerce.
+Cet article couvre le module d’informations de retrait et décrit comment l’ajouter aux pages de paiement dans Microsoft Dynamics 365 Commerce.
 
 Le module d’informations de retrait peut être utilisé dans un module de paiement pour afficher les informations de retrait de commande. Les clients peuvent consulter les dates et les plages horaires de retrait disponibles, puis sélectionner une heure appropriée pour récupérer leur commande. Par exemple, un client peut choisir de récupérer une commande à 15 h le 21 mars dans le magasin de San Francisco.
 

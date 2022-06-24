@@ -1,6 +1,6 @@
 ---
 title: Réimpression et annulation d’étiquettes de vague
-description: Cette rubrique explique comment annuler et réimprimer des étiquettes de vague existantes.
+description: Cet article explique comment annuler et réimprimer des étiquettes de vague existantes.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871831"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Réimpression et annulation d’étiquettes de vague
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment gérer les étiquettes générées par le traitement de vague. (Pour une description détaillée et des instructions de configuration, voir [Configurer l’impression des étiquettes de vague](../warehousing/configure-wave-label-printing.md) .)
+Cet article explique comment gérer les étiquettes générées par le traitement de vague. (Pour une description détaillée et des instructions de configuration, voir [Configurer l’impression des étiquettes de vague](../warehousing/configure-wave-label-printing.md) .)
 
 Vous pouvez réimprimer les étiquettes de vague à tout moment. Par exemple, vous pouvez être dans l’obligation d’imprimer une seule étiquette si une étiquette existante a été perdue ou endommagée. Dans un autre cas, un magasinier ou un superviseur peut avoir à réimprimer tout un rouleau d’étiquettes si le nombre et/ou la composition de toute une série d’étiquettes de vague a changé (par exemple, en raison d’une pénurie de stock ou pour d’autres raisons). Souvent, même si seul le nombre de cartons a changé, le rouleau entier doit être réimprimé pour que le nombre total demeure exact dans la section « Carton X sur Y » de chaque étiquette.
 
@@ -32,10 +32,10 @@ La fonction de réimpression des étiquettes de vague prend en charge les foncti
 - Annulation d’étiquettes et réimpression simultanée. (La possibilité d’annuler des étiquettes est intégrée dans les scénarios de prélèvement partiel, par exemple.)
 - Nettoyage de l’historique des étiquettes de vague.
 
-Cette rubrique présente une collection de scénarios qui montrent, à travers des exemples, comment utiliser la fonction de réimpression des étiquettes de vague.
+Cet article présente une collection de scénarios qui montrent, à travers des exemples, comment utiliser la fonction de réimpression des étiquettes de vague.
 
 > [!IMPORTANT]
-> Pour travailler sur les scénarios présentés dans cette rubrique, vous devez d’abord activer et configurer les fonctionnalités d’impression de vague appropriées, comme décrit dans [Configurer l’impression des étiquettes de vague](../warehousing/configure-wave-label-printing.md). Plusieurs des scénarios de cette rubrique nécessitent également que vous travailliez d’abord sur les scénarios de cette rubrique pour générer les exemples de données prérequis.
+> Pour travailler sur les scénarios présentés dans cet article, vous devez d’abord activer et configurer les fonctionnalités d’impression de vague appropriées, comme décrit dans [Configurer l’impression des étiquettes de vague](../warehousing/configure-wave-label-printing.md). Plusieurs des scénarios de cet article nécessitent également que vous travailliez d’abord sur les scénarios de cet article pour générer les exemples de données prérequis.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Scénario 1 : réimprimer des étiquettes à partir du client Web
 

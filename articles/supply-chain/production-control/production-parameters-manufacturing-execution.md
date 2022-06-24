@@ -1,6 +1,6 @@
 ---
 title: Paramètres de production dans Contrôle et suivi de la production
-description: Cette rubrique fournit des informations sur la configuration des paramètres de production dans Contrôle et suivi de la production.
+description: Cet article fournit des informations sur la configuration des paramètres de production dans Contrôle et suivi de la production.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce0dadd353df756a468384e3bf8e68c0ad2033a7042b4986fce41aa0764afdbc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873664"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Paramètres de production dans Contrôle et suivi de la production
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la configuration des paramètres de production dans Contrôle et suivi de la production.
+Cet article fournit des informations sur la configuration des paramètres de production dans Contrôle et suivi de la production.
 
 Le module **Contrôle et suivi de la production** est principalement destiné aux sociétés de fabrication. Il permet d’enregistrer la consommation de temps et d’articles sur des tâches de production ou des projets. Avant de commencer à utiliser le module Contrôle et suivi de la production pour des enregistrements de tâches, vous devez définir différents paramètres de production qui déterminent quand et comment les enregistrements sont validés pendant le processus de production. Les paramètres de production affectent la gestion des stocks, la gestion de la production et le calcul des coûts.
 

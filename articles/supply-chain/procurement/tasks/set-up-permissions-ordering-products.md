@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des autorisations permettant de commander des produits au nom d’un tiers
-description: Cette rubrique explique comment accorder à des collaborateurs l’autorisation de préparer des demandes d’achat au nom d’autres collaborateurs.
+description: Cet article explique comment accorder à des collaborateurs l’autorisation de préparer des demandes d’achat au nom d’autres collaborateurs.
 author: GalynaFedorova
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1313ca01686e55d802716adf335e77ffeb1ece34
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3053f28fdf97637b1da5f644f64676bfd10fb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854208"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Paramétrer des autorisations permettant de commander des produits au nom d’un tiers
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment accorder à des collaborateurs l’autorisation de préparer des demandes d’achat au nom d’autres collaborateurs. En d’autres termes, un « préparateur » de demande d’achat peut créer une demande pour un autre « demandeur ». La procédure montre également comment accorder à un collaborateur une autorisation de commander des articles et des services dans différentes entités juridiques ou unités opérationnelles. Ces tâches sont généralement effectuées par un gestionnaire des achats. Vous pouvez utiliser cette procédure soit dans les données fictives de la société USMF soit dans vos propres données.
+Cet article explique comment accorder à des collaborateurs l’autorisation de préparer des demandes d’achat au nom d’autres collaborateurs. En d’autres termes, un « préparateur » de demande d’achat peut créer une demande pour un autre « demandeur ». La procédure montre également comment accorder à un collaborateur une autorisation de commander des articles et des services dans différentes entités juridiques ou unités opérationnelles. Ces tâches sont généralement effectuées par un gestionnaire des achats. Vous pouvez utiliser cette procédure soit dans les données fictives de la société USMF soit dans vos propres données.
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Accorder des autorisations pour entrer des demandes d’achat au nom d’un autre collaborateur

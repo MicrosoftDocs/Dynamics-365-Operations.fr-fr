@@ -1,6 +1,6 @@
 ---
 title: Configuration des lots plus anciens d’affichage dans l’entrepôt sur un périphérique mobile
-description: Cette rubrique décrit la procédure de paramétrage d’un appareil mobile pour afficher une liste des emplacements avec des lots plus anciens que l’emplacement actuel d’une ligne de travail.
+description: Cet article décrit la procédure de paramétrage d’un appareil mobile pour afficher une liste des emplacements avec des lots plus anciens que l’emplacement actuel d’une ligne de travail.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d23a259f4c16026ee36f73b427f7d2e610a4b8d938c2e21ec9715d8d2b8137b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5788b42483f2c3046b0d20f45115b98d62cce213
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900533"
 ---
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Configuration des lots plus anciens d’affichage dans l’entrepôt sur un périphérique mobile
 

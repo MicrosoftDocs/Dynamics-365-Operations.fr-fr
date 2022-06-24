@@ -1,6 +1,6 @@
 ---
 title: Configurer des mesures pour l’intelligence IoT
-description: Cette rubrique explique comment configurer des mesures pour l’intelligence IoT.
+description: Cet article explique comment configurer des mesures pour l’intelligence IoT.
 author: johanhoffmann
 ms.date: 04/25/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b67292e45746ee45460141b4be32f2f8f14076ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 147df50a9d0baf78f2efc3e57b2cda935e38cee3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882690"
 ---
 # <a name="set-up-metrics-for-iot-intelligence"></a>Configurer des mesures pour l’intelligence IoT
 

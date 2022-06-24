@@ -1,6 +1,6 @@
 ---
 title: Expédier des commandes client sans entreposage
-description: Cette rubrique explique comment mettre une commande client à jour lorsque les produits sont expédiés au client.
+description: Cet article explique comment mettre une commande client à jour lorsque les produits sont expédiés au client.
 author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e21bcdef22caf4f4d97ba7dd36ebf1a6e6e055
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862480"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Expédier des commandes client sans entreposage
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment mettre une commande client à jour lorsque les produits sont expédiés au client. Ce guide s’applique au flux d’exécution non paramétré pour la gestion des entrepôts (ni entreposage de base ou avancé), et donc ne nécessite pas que le prélèvement des produits soit enregistré avant l’expédition. Vous pouvez exécuter cette procédure avec vos propres données ou avec la société fictive de démonstration USMF. Dans les deux cas, avant de commencer cette tâche, créez une commande client pour un produit inventorié avec une quantité supérieure à 1. Pour éviter une erreur de validation, vous devez vérifier que la quantité disponible du produit dans le site et l’entrepôt sélectionnés dans la commande couvre la quantité de la commande.
+Cet article explique comment mettre une commande client à jour lorsque les produits sont expédiés au client. Ce guide s’applique au flux d’exécution non paramétré pour la gestion des entrepôts (ni entreposage de base ou avancé), et donc ne nécessite pas que le prélèvement des produits soit enregistré avant l’expédition. Vous pouvez exécuter cette procédure avec vos propres données ou avec la société fictive de démonstration USMF. Dans les deux cas, avant de commencer cette tâche, créez une commande client pour un produit inventorié avec une quantité supérieure à 1. Pour éviter une erreur de validation, vous devez vérifier que la quantité disponible du produit dans le site et l’entrepôt sélectionnés dans la commande couvre la quantité de la commande.
 
 ## <a name="post-packing-slip-for-an-order"></a>Valider le bon de livraison pour une commande
 1. Dans le volet de navigation, accédez à **Volet de navigation > Modules > Ventes et marketing > Commandes client > Toutes les commandes client**.

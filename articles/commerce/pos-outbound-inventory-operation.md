@@ -1,6 +1,6 @@
 ---
 title: Opération de stock sortant dans le PDV
-description: Cette rubrique décrit les fonctionnalités de l’opération de stock sortant dans le point de vente (PDV).
+description: Cet article décrit les fonctionnalités de l’opération de stock sortant dans le point de vente (PDV).
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850221"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Opération de stock sortant dans le PDV
 
@@ -187,7 +187,7 @@ Une fois le document à l’état **Demandé(e)**, il est prêt pour traitement 
 
 Les ordres de transfert entièrement expédiés sont déplacés vers l’onglet **Terminé(e)** de la liste de documents **Opération sortante**. Ils restent visibles par les utilisateurs dans le magasin ou l’entrepôt sortant, en mode lecture seule, pendant sept jours.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Opération de stock entrant dans le PDV](pos-inbound-inventory-operation.md)
 

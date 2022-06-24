@@ -1,6 +1,6 @@
 ---
-title: Le sous-total du récapitulatif de commande n’inclut pas les taxes sur les frais lors de l’utilisation de modules de récapitulatif de commande personnalisés
-description: Cette rubrique fournit des conseils de dépannage qui peuvent vous aider lorsque vous utilisez des modules de récapitulatif de commande personnalisés et que le sous-total du récapitulatif de commande n’inclut pas les taxes sur les frais dans le scénario "le prix inclut la taxe de vente".
+title: Le sous-total du récapitulatif de la commande n’inclut pas les taxes sur les frais lors de l’utilisation de modules de récapitulatif de commande personnalisés
+description: Cet article fournit des conseils de dépannage qui peuvent vous aider lorsque vous utilisez des modules de récapitulatif de commande personnalisés et que le sous-total du récapitulatif de commande n’inclut pas les taxes sur les frais dans le scénario "le prix inclut la taxe de vente".
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,16 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-04-22
-ms.openlocfilehash: 1a47561a3ac984bc554b5b93546592237c16cf18
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 260dcb6bc1585615195e32adfcd1da6bfbca294e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848835"
 ---
-# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Le sous-total du récapitulatif de commande n’inclut pas les taxes sur les frais lors de l’utilisation de modules de récapitulatif de commande personnalisés
+# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Le sous-total du récapitulatif de la commande n’inclut pas les taxes sur les frais lors de l’utilisation de modules de récapitulatif de commande personnalisés
 
-Cette rubrique fournit des conseils de dépannage qui peuvent vous aider lorsque vous utilisez des modules de récapitulatif de commande personnalisés et que le sous-total du récapitulatif de commande n’inclut pas les taxes sur les frais dans le scénario "le prix inclut la taxe de vente".
+Cet article fournit des conseils de dépannage qui peuvent vous aider lorsque vous utilisez des modules de récapitulatif de commande personnalisés et que le sous-total du récapitulatif de commande n’inclut pas les taxes sur les frais dans le scénario "le prix inclut la taxe de vente".
 
 ## <a name="description"></a>Description
 

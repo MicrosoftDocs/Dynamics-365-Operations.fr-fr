@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 559f4571a60ea8ec048b291e3b6a0a93e8bc9d44
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: cf28619e66fa5d3e86bdbb3838dc7f711916bcec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905600"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Vue d’ensemble de développement et d’établissement d’accords de service
 
@@ -72,7 +72,7 @@ Chaque ligne d’accord de service décrit précisément le contenu de la tâche
 -  si la ligne est interrompue. Dans ce cas, vous ne pouvez pas créer de commande de service pour cette ligne individuelle ;
 -  les paramètres du projet, tels que la catégorie et la propriété de ligne.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Création d’accords de service](create-service-agreements.md)
 

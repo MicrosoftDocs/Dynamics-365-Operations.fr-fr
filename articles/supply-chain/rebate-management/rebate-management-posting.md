@@ -1,6 +1,6 @@
 ---
 title: Configuration de la validation de la gestion des remises
-description: Cette rubrique décrit le paramétrage des profils de validation. Les profils de validation sont utilisés pour déterminer la validation des écritures pour les lignes de calcul de la gestion des remises.
+description: Cet article décrit le paramétrage des profils de validation. Les profils de validation sont utilisés pour déterminer la validation des écritures pour les lignes de calcul de la gestion des remises.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873577"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuration de la validation de la gestion des remises
 
@@ -30,7 +30,7 @@ Cette fonctionnalité fonctionne dans toutes les entreprises (entités juridique
 
 Pour configurer les profils de validation de la gestion des remises pour les clients et les fournisseurs, accédez à **Gestion des remises \> Configuration de la validation de la gestion des remises \> Profils de validation de la gestion des remises**. La page **Profils de validation de la gestion des remises** comprend un volet de liste qui affiche tous vos profils existants. Vous pouvez utiliser les boutons du volet Actions pour ajouter des profils à la liste ou en supprimer.
 
-Les sections restantes de cette rubrique décrivent comment utiliser les champs disponibles lorsque vous créez ou modifiez un profil.
+Les sections restantes de cet article décrivent comment utiliser les champs disponibles lorsque vous créez ou modifiez un profil.
 
 ## <a name="posting-profile-header"></a>En-tête du profil de validation
 

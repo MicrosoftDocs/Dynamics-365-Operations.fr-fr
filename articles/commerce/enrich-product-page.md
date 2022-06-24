@@ -1,6 +1,6 @@
 ---
 title: Enrichir une page de produit
-description: Cette rubrique décrit comment enrichir une page de produit dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment enrichir une page de produit dans Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0c663498a65832c68b80ea7166da34914ceefb8c70d6a598f3fa648b199ef156
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad58f0324c91c7488e5eb823fa3d0e1758ec63fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847624"
 ---
 # <a name="enrich-a-product-page"></a>Enrichir une page de produit
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment enrichir une page de produit dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment enrichir une page de produit dans Microsoft Dynamics 365 Commerce.
 
 Par défaut, votre site utilise une page générique pour afficher les données de produit. Cette page inclut des informations de base sur le produit et les contrôles qui sont requis pour le vendre. Toutefois, vous pouvez compléter les informations provenant de l’unité d’échelle commerciale avec des images ou du texte supplémentaire pour un produit spécifique. Ce processus est identifié comme un enrichissement de la page de produit.
 

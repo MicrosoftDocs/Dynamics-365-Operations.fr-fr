@@ -1,6 +1,6 @@
 ---
 title: Opération de stock entrant dans le PDV
-description: Cette rubrique décrit les fonctionnalités de l’opération de stock entrant dans le point de vente (PDV).
+description: Cet article décrit les fonctionnalités de l’opération de stock entrant dans le point de vente (PDV).
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858880"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -215,7 +215,7 @@ Une fois le brouillon de document envoyé avec succès à Commerce Headquarters,
 
 Une fois le document à l’état **Demandé(e)**, il est visible dans l’onglet **Actif**. Cependant, il ne peut pas encore être reçu par le magasin ou l’entrepôt entrant. Une fois que l’entrepôt sortant a expédié une partie ou la totalité de l’ordre de transfert, le magasin ou l’entrepôt entrant peut valider les accusés de réception dans le PDV. Lorsque la partie sortante traite les documents d’ordre de transfert, leur statut est mis à jour de **Demandé(e)** à **Expédié(e)** ou **Partiellement expédié(e)**. Une fois les documents à l’état **Expédié(e)** ou **Partiellement expédié(e)**, le magasin ou l’entrepôt entrant peut valider les accusés de réception à l’aide du processus de réception de l’opération entrante.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Opération de stock sortant dans le PDV](pos-outbound-inventory-operation.md)
 

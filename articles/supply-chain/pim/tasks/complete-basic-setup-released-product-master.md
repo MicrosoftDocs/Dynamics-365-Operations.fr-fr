@@ -1,6 +1,6 @@
 ---
 title: Finaliser le paramétrage de base d’un produit générique lancé
-description: Cette rubrique indique comment terminer la configuration minimale requise avant que le produit générique puisse être utilisé dans les versions de nomenclature.
+description: Cet article indique comment terminer la configuration minimale requise avant que le produit générique puisse être utilisé dans les versions de nomenclature.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a403600bfdc257587441b5b5a907981d5eebaf58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844850"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Finaliser le paramétrage de base d’un produit générique lancé
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique indique comment terminer la configuration minimale requise avant que le produit générique puisse être utilisé dans les versions de nomenclature.
+Cet article indique comment terminer la configuration minimale requise avant que le produit générique puisse être utilisé dans les versions de nomenclature.
 
 Il s’agit de la troisième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

@@ -1,6 +1,6 @@
 ---
 title: Estimer et gérer les coûts au débarquement
-description: Le système utilise votre configuration de coût automatique pour déterminer une estimation de votre coût au débarquement. Cette rubrique explique comment vous pouvez définir divers scénarios pour fournir une estimation plus précise.
+description: Le système utilise votre configuration de coût automatique pour déterminer une estimation de votre coût au débarquement. Cet article explique comment vous pouvez définir divers scénarios pour fournir une estimation plus précise.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854439"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Estimer et gérer les coûts au débarquement
 
@@ -50,7 +50,7 @@ Le tableau suivant décrit les champs disponibles dans l’en-tête pour chaque 
 
 Utilisez la boîte de dialogue **Prix estimé** pour générer une nouvelle estimation des coûts basée sur un modèle de coût sélectionné, un ensemble d’éléments sélectionné et d’autres détails d’un trajet. Ces paramètres sont ensuite utilisés pour déterminer les coûts au débarquement estimés des marchandises. Ces estimations de coûts sont principalement utilisées pour travailler avec des éléments de coût standard. En ajoutant les coûts au débarquement estimés au coût standard des marchandises en stock, vous devriez constater des transactions d’écart plus petites lorsque les marchandises sont ajoutées à un voyage, car le coût standard reflétera les estimations de ces coûts au débarquement.
 
-Pour ouvrir la boîte de dialogue **Prix estimé**, accédez à **Prix au débarquement \> Tâches périodiques \> Prix estimé**. Ensuite, définissez les champs décrits dans les sous-sections suivantes. Enfin sélectionnez **OK** pour créer l’estimation. La page **Prix estimé** (**Prix au débarquement \> Demandes de renseignements \> Estimations de coût**) apparaît alors et affiche votre nouvelle estimation, comme décrit plus loin dans cette rubrique.
+Pour ouvrir la boîte de dialogue **Prix estimé**, accédez à **Prix au débarquement \> Tâches périodiques \> Prix estimé**. Ensuite, définissez les champs décrits dans les sous-sections suivantes. Enfin sélectionnez **OK** pour créer l’estimation. La page **Prix estimé** (**Prix au débarquement \> Demandes de renseignements \> Estimations de coût**) apparaît alors et affiche votre nouvelle estimation, comme décrit plus loin dans cet article.
 
 ### <a name="settings-on-the-parameters-tab"></a>Paramètres de l’onglet Paramètres
 
@@ -91,7 +91,7 @@ Pour afficher ou régler les détails du volume et/ou du poids d’un article, s
 
 ## <a name="manage-estimated-costs"></a>Gérer les coûts estimés
 
-Pour afficher et modifier les estimations de coût que vous avez créées, accédez à **Prix au débarquement \> Demandes de renseignements \> Estimations de coût**. Sur la page **Estimations de coût**, le volet de liste sur la gauche affiche toutes les estimations de coûts actuelles. Vous pouvez utiliser les boutons du volet Actions pour utiliser une estimation sélectionnée. Notez que vous ne pouvez pas créer une estimation des coûts à partir de la page **Estimations de coût**. Au lieu de cela, utilisez la boite de dialogue **Prix estimé** (**Prix au débarquement \> Tâches périodiques \> Prix estimé**), comme décrit précédemment dans cette rubrique.
+Pour afficher et modifier les estimations de coût que vous avez créées, accédez à **Prix au débarquement \> Demandes de renseignements \> Estimations de coût**. Sur la page **Estimations de coût**, le volet de liste sur la gauche affiche toutes les estimations de coûts actuelles. Vous pouvez utiliser les boutons du volet Actions pour utiliser une estimation sélectionnée. Notez que vous ne pouvez pas créer une estimation des coûts à partir de la page **Estimations de coût**. Au lieu de cela, utilisez la boite de dialogue **Prix estimé** (**Prix au débarquement \> Tâches périodiques \> Prix estimé**), comme décrit précédemment dans cet article.
 
 La page **Estimations de coût** montre comment chaque coût estimé a été calculé. Il montre également le coût au débarquement estimé pour chaque article. Vous pouvez modifier une estimations des coûts en modifiant le prix de revient et/ou la devise associés aux différentes marchandises. Vous pouvez également modifier les coûts de voyage associés au niveau du voyage et au niveau du conteneur. Lorsque vous utilisez cette page pour modifier les coûts, vous êtes invité à recalculer les coûts estimés des articles dans l’estimation de coût. Lorsque vous êtes prêt, vous pouvez utiliser les estimations pour mettre à jour le prix de revient des articles dans le modèle de coût.
 

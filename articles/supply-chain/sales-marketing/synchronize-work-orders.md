@@ -1,6 +1,6 @@
 ---
 title: Synchroniser les ordres de travail avec un projet entre Field Service et Supply Chain Management
-description: Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les ordres d’exécution avec un nombre de projets depuis Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
+description: Cet article présente les modèles et la tâche sous-jacente utilisés pour synchroniser les ordres d’exécution avec un nombre de projets depuis Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a43a7f7e900205bdb23fb9a35ca1518369683a42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860491"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Synchroniser les ordres de travail avec un projet entre Field Service et Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les ordres d’exécution avec un nombre de projets depuis Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
+Cet article présente les modèles et la tâche sous-jacente utilisés pour synchroniser les ordres d’exécution avec un nombre de projets depuis Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
 
 [![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 Le modèle **Ordres de travail avec projet (Field Service vers Supply Chain Management)** utilisé est basé sur le modèle **Ordres de travail (Field Service vers Supply Chain Management)**. Pour en savoir plus, voir [Synchroniser les ordres de travail de Field Service avec les commandes client dans Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
-Cette rubrique décrit uniquement les différences entre les deux modèles :
+Cet article décrit uniquement les différences entre les deux modèles :
 - **Ordres de travail avec Projet (Field Service vers Supply Chain Management)**
 - **Ordres de travail (Field Service vers Supply Chain Management)**
 

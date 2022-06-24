@@ -1,6 +1,6 @@
 ---
-title: Workflows d’approbation du journal de stock
-description: Cette rubrique décrit comment paramétrer et utiliser des workflows d’approbation du journal de stock pour différents types de transactions de stock physique. Les workflows du journal de stock aident à garantir que seuls les journaux de stock approuvés peuvent être validés sur les transactions.
+title: Workflow d’approbation du journal de stock
+description: Cet article décrit comment paramétrer et utiliser des workflows d’approbation du journal de stock pour différents types de transactions de stock physique. Les workflows du journal de stock aident à garantir que seuls les journaux de stock approuvés peuvent être validés sur les transactions.
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873983"
 ---
-# <a name="inventory-journal-approval-workflows"></a>Workflows d’approbation du journal de stock
+# <a name="inventory-journal-approval-workflows"></a>Workflow d’approbation du journal de stock
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer et utiliser des workflows d’approbation du journal de stock pour différents types de transactions de stock physique, tels que les sorties et les réceptions, les mouvements de stock, les nomenclatures et le rapprochement du stock physique. Les workflows du journal de stock aident à garantir que seuls les journaux de stock approuvés peuvent être validés sur les transactions.
+Cet article décrit comment paramétrer et utiliser des workflows d’approbation du journal de stock pour différents types de transactions de stock physique, tels que les sorties et les réceptions, les mouvements de stock, les nomenclatures et le rapprochement du stock physique. Les workflows du journal de stock aident à garantir que seuls les journaux de stock approuvés peuvent être validés sur les transactions.
 
 > [!NOTE]
 > Les workflows d’approbation du journal de stock s’appliquent uniquement aux transactions enregistrées à l’aide du module Gestion des stocks. Ils ne fonctionnent pas avec les journaux de stock déclenchés à partir du module Gestion des entrepôts.

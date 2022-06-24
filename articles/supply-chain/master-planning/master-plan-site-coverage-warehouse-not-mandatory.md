@@ -1,6 +1,6 @@
 ---
 title: Planification pour couverture de site, entrepôt non obligatoire
-description: Cette rubrique décrit comment un article disposant de la dimension du site comme couverture est planifié.
+description: Cet article décrit comment un article disposant de la dimension du site comme couverture est planifié.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bed2d7d9ad7577c78e3cf14f4b759f1d073ac32f
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 327bb259cc108f1fad068c847441229dcaee7ff1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859225"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Planification pour couverture de site, entrepôt non obligatoire
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment un article disposant de la dimension du site comme couverture est planifié.
+Cet article décrit comment un article disposant de la dimension du site comme couverture est planifié.
 
 Ce scénario de planification implique les conditions suivantes :
 

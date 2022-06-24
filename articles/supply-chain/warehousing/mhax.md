@@ -1,6 +1,6 @@
 ---
 title: Interface de l’équipement de manutention du matériel (MHAX)
-description: Cette rubrique décrit comment configurer l’Interface de l’équipement de manutention du matériel (MHAX) afin que vous puissiez vous connecter à des systèmes de manutention physique (MH) externes.
+description: Cet article décrit comment configurer l’Interface de l’équipement de manutention du matériel (MHAX) afin que vous puissiez vous connecter à des systèmes de manutention physique (MH) externes.
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907085"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface de l’équipement de manutention du matériel (MHAX)
 
@@ -88,7 +88,7 @@ Pour créer un abonnement, accédez à **Interface d’équipement de manutentio
 
 Une requête peut être associée à chaque abonnement. Cette requête filtre les lignes de travail et les en-têtes pour limiter davantage le travail qui utilisera l’abonnement pour générer des événements. Pour ajouter une requête à un abonnement, cochez la case **Exécuter la requête** pour l’abonnement concerné sur la page **Abonnements**, puis sélectionnez **Modifier la requête** dans le volet Actions. L’éditeur de requête standard de Supply Chain Management apparaît.
 
-De plus, l’abonnement comprend une *carte d’abonnement* qui mappe les champs de l’en-tête de travail ou de la ligne de travail à tout ou partie des 10 champs de données libres de l’événement sortant, selon les besoins. Pour renvoyer des informations au service MHAX, vous incluez généralement l’ID d’enregistrement de ligne de travail ou *l’ID de paire de lignes de travail*. (L’ID de paire de lignes de travail est une nouvelle propriété qui permet au système d’utiliser une seule commande de retour pour traiter les lignes de prélèvement et de placement.) Les champs restants dépendent du cas d’utilisation. Quelques exemples sont fournis plus loin dans cette rubrique.
+De plus, l’abonnement comprend une *carte d’abonnement* qui mappe les champs de l’en-tête de travail ou de la ligne de travail à tout ou partie des 10 champs de données libres de l’événement sortant, selon les besoins. Pour renvoyer des informations au service MHAX, vous incluez généralement l’ID d’enregistrement de ligne de travail ou *l’ID de paire de lignes de travail*. (L’ID de paire de lignes de travail est une nouvelle propriété qui permet au système d’utiliser une seule commande de retour pour traiter les lignes de prélèvement et de placement.) Les champs restants dépendent du cas d’utilisation. Quelques exemples sont fournis plus loin dans cet article.
 
 Pour configurer une carte d’abonnement, sélectionnez l’abonnement correspondant sur la page **Abonnements**, puis **Carte d’abonnement** dans le volet Actions. Dans la boîte de dialogue **Carte d’abonnement** qui apparaît, vous pouvez affecter une table et un champ pour chaque champ de données disponible selon vos besoins.
 
@@ -161,7 +161,7 @@ Si l’ID de paire de lignes de travail est fourni, toutes les lignes de travail
 
 Choisir des lignes de prélèvement à partir d’emplacements contrôlés par le contenant nécessite que **données03** spécifie le contenant à partir de laquelle vous devez choisir, que les lignes soient marquées par l’ID d’enregistrement de ligne de travail ou l’ID de paire de lignes de travail. Le champ **données04** doit spécifier le contenant cible de la tête de travail pour le prélèvement.
 
-Les lignes de rangement n’acceptent pas plus d’informations. Ils sont exécutés uniquement en fonction de l’emplacement de la ligne de travail actuelle et du contenant cible du travail. Si le rangement doit être effectuée à un emplacement différent, modifiez l’emplacement de la ligne de travail comme décrit dans la section [Ignorer les événements](#override-events) plus loin dans cette rubrique.
+Les lignes de rangement n’acceptent pas plus d’informations. Ils sont exécutés uniquement en fonction de l’emplacement de la ligne de travail actuelle et du contenant cible du travail. Si le rangement doit être effectuée à un emplacement différent, modifiez l’emplacement de la ligne de travail comme décrit dans la section [Ignorer les événements](#override-events) plus loin dans cet article.
 
 Les lignes de travail personnalisées ne nécessitent ni ne prennent en charge aucune information supplémentaire dans l’événement entrant.
 
@@ -220,7 +220,7 @@ Finalement, votre file d’attente entrante commencera à se remplir d’éléme
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Obtenez un aperçu rapide en utilisant le gestionnaire de files d’attente
 
-Pour obtenir un aperçu rapide de toutes les activités liées à vos files d’attente entrantes et sortantes, accédez à **Interface d’équipement de manutention de matériel \> Espaces de travail \> Gestionnaire de file d’attente**. La page **Gestionnaire de file d’attente** fournit un ensemble d’onglets et de vignettes que vous pouvez utiliser pour surveiller et explorer vos files d’attente. Il fournit également des liens utiles vers la plupart des autres pages mentionnées dans cette rubrique.
+Pour obtenir un aperçu rapide de toutes les activités liées à vos files d’attente entrantes et sortantes, accédez à **Interface d’équipement de manutention de matériel \> Espaces de travail \> Gestionnaire de file d’attente**. La page **Gestionnaire de file d’attente** fournit un ensemble d’onglets et de vignettes que vous pouvez utiliser pour surveiller et explorer vos files d’attente. Il fournit également des liens utiles vers la plupart des autres pages mentionnées dans cet article.
 
 ## <a name="connect-to-the-mhax-service"></a>Connecter au service MHAX
 

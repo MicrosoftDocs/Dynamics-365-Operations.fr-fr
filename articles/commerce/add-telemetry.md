@@ -1,6 +1,6 @@
 ---
 title: Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie
-description: Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
+description: Cet article décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
 author: bicyclingfool
 ms.date: 09/29/2020
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 262216ee99d52e3d53f5f5dae663104bb79757c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852839"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
+Cet article décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
 
 Les analyses web sont un outil essentiel lorsque vous souhaitez inclure la manière dont vos clients peuvent interagir avec votre site et prendre des décisions qui aideront à optimiser l’expérience pour la conversion maximale. De nombreux packages d’analyses web sont disponibles pour vous aider à atteindre ces objectifs, comme Google Analytics, Clicky, Moz Analytics, et KISSMetrics. La plupart des packages d’analyses web nécessitent que vous ajoutiez un code du script côté client dans l’élément **\<head\>** du fichier HTML pour toutes les pages du site.
 
 > [!NOTE]
-> Les instructions de cette rubrique s’appliquent également à l’autre fonctionnalité côté client personnalisée que Microsoft Dynamics 365 Commerce n’offre pas en mode natif.
+> Les instructions de cet article s’appliquent également à l’autre fonctionnalité côté client personnalisée que Microsoft Dynamics 365 Commerce n’offre pas en mode natif.
 
 ## <a name="create-a-reusable-fragment-for-your-script-code"></a>Créer un fragment réutilisable pour votre code de script
 

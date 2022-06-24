@@ -1,6 +1,6 @@
 ---
 title: Gestion des tâches dans le PDV
-description: Cette rubrique décrit la gestion des tâches dans l’application PDV de Microsoft Dynamics 365 Commerce.
+description: Cet article décrit la gestion des tâches dans l’application PDV de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e61456b7ae79a2c82c96b5b669e95ad1818f71d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878429"
 ---
 # <a name="task-management-in-pos"></a>Gestion des tâches dans le PDV
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la gestion des tâches dans l’application PDV de Microsoft Dynamics 365 Commerce.
+Cet article décrit la gestion des tâches dans l’application PDV de Microsoft Dynamics 365 Commerce.
 
 L’application PDV de Dynamics 365 Commerce dispose de fonctionnalités de gestion des tâches qui permettent aux responsables de magasin et aux employés de gérer les tâches et de mettre à jour leur statut. Les employés du magasin peuvent accéder aux tâches en sélectionnant la vignette **Tâches** sur la page d’accueil PDV ou en sélectionnant les notifications de tâche. Par défaut, les employés du magasin sont redirigés vers l’onglet **Mes tâches**, où ils peuvent afficher les tâches qui leur sont affectées. Cependant, ils peuvent facilement basculer vers les onglets **Tâches en retard**, **Tâches en cours** et **Listes de tâches**.
 

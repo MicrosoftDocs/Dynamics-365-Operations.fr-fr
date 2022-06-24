@@ -1,6 +1,6 @@
 ---
 title: Télécharger et diffuser des fichiers statiques
-description: Cette rubrique décrit comment charger un fichier statique dans le générateur de site Microsoft Dynamics 365 Commerce et comment créer une URL et un nom de fichier personnalisés pouvant être utilisés pour demander ce fichier.
+description: Cet article décrit comment charger un fichier statique dans le générateur de site Microsoft Dynamics 365 Commerce et comment créer une URL et un nom de fichier personnalisés pouvant être utilisés pour demander ce fichier.
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885320"
 ---
 # <a name="upload-and-serve-static-files"></a>Télécharger et diffuser des fichiers statiques
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment charger un fichier statique dans le générateur de site Microsoft Dynamics 365 Commerce et comment créer une URL et un nom de fichier personnalisés pouvant être utilisés pour demander ce fichier.
+Cet article décrit comment charger un fichier statique dans le générateur de site Microsoft Dynamics 365 Commerce et comment créer une URL et un nom de fichier personnalisés pouvant être utilisés pour demander ce fichier.
 
-Certains connecteurs tiers nécessitent qu’un fichier soit hébergé et diffusé à partir du site d’e-commerce. Ces connecteurs s’attendent à ce que le fichier soit renvoyé par des requêtes adressées à un chemin d’URL de rappel et à un nom de fichier spécifiques. Par conséquent, cette rubrique explique comment charger et diffuser un fichier statique qui a une URL et un nom de fichier définissables par l’utilisateur sur un site d’e-commerce Dynamics 365 Commerce.
+Certains connecteurs tiers nécessitent qu’un fichier soit hébergé et diffusé à partir du site d’e-commerce. Ces connecteurs s’attendent à ce que le fichier soit renvoyé par des requêtes adressées à un chemin d’URL de rappel et à un nom de fichier spécifiques. Par conséquent, cet article explique comment charger et diffuser un fichier statique qui a une URL et un nom de fichier définissables par l’utilisateur sur un site d’e-commerce Dynamics 365 Commerce.
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>Créer une URL de site qui renvoie un fichier statique
 
@@ -86,7 +86,7 @@ Une fois l’URL créée, son chemin ne peut pas être modifié. Si vous devez m
 
 Pour modifier le chemin de l’URL, procédez comme suit.
 
-1. Pour créer une URL et la mapper au fichier existant ou à une autre ressource, suivez les instructions de la section précédente [Créer une URL de site qui renvoie un fichier statique](#create-a-site-url-that-returns-a-static-file) dans cette rubrique.
+1. Pour créer une URL et la mapper au fichier existant ou à une autre ressource, suivez les instructions de la section précédente [Créer une URL de site qui renvoie un fichier statique](#create-a-site-url-that-returns-a-static-file) dans cet article.
 1. Sélectionnez la nouvelle URL, puis sélectionnez **Publier** sur la barre de commandes. La nouvelle URL est publiée.
 1. Pour annuler la publication de l’ancienne URL, sélectionnez-la, puis sélectionnez **Annuler la publication** sur la barre de commandes. Vous pouvez à présent supprimer l’ancienne URL si nécessaire.
 

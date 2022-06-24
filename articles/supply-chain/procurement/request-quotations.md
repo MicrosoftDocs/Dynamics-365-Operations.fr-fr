@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des appels d’offre
-description: Cette rubrique fournit une vue d’ensemble des appels d’offre. Les organisations émettent des appels d’offre lorsqu’elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu’elles doivent acheter.
+description: Cet article fournit une vue d’ensemble des appels d’offre. Les organisations émettent des appels d’offre lorsqu’elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu’elles doivent acheter.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895581"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Vue d’ensemble des appels d’offre
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des appels d’offre. Les organisations émettent des appels d’offre lorsqu’elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu’elles doivent acheter. Dans une demande de devis, vous demandez aux fournisseurs d’indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez.
+Cet article fournit une vue d’ensemble des appels d’offre. Les organisations émettent des appels d’offre lorsqu’elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu’elles doivent acheter. Dans une demande de devis, vous demandez aux fournisseurs d’indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez.
 Vous pouvez également demander aux fournisseurs de spécifier s’il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur.
 
 Le processus d’appel d’offre comprend les tâches suivantes :
@@ -45,7 +45,7 @@ Vous pouvez créer une demande de devis à partir des commandes planifiées, d�
 
 Après avoir préparé la demande de devis et ajouté des fournisseurs, sélectionnez **Envoyer** (**Envoyer et publier** pour le secteur public) sur la demande de devis. Un journal d’appel d’offre est généré pour chaque fournisseur auquel vous envoyez l’appel d’offre. Vous pouvez configurer les options d’impression pour l’action Envoyer afin d’imprimer un état pour chaque fournisseur dans une archive ou pour envoyer un état à l’adresse électronique de chaque fournisseur. En outre, vous pouvez utiliser le journal d’appel d’offre de chaque fournisseur pour générer un état que vous pouvez envoyer ou renvoyer au fournisseur ultérieurement. Vous pouvez également configurer l’action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.
 
-Cette rubrique décrit le processus de gestion des appels d’offre lorsque la collaboration fournisseur n’est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Supply Chain Management. Pour plus d’informations voir [Collaboration fournisseur avec des clients](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
+Cet article décrit le processus de gestion des appels d’offre lorsque la collaboration fournisseur n’est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Supply Chain Management. Pour plus d’informations voir [Collaboration fournisseur avec des clients](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
 Si vous devez modifier un appel d’offre après son envoi, vous pouvez le renvoyer aux fournisseurs lorsque vous avez terminé à l’aide des deux actions de modification : Créer et Finaliser.
 
@@ -59,7 +59,7 @@ Lorsque vous sélectionnez une offre ou plusieurs lignes d’une offre, vous pou
 
 Une demande de devis a deux statuts : le plus élevé et le plus bas, vous pouvez consulter le statut sur la page de liste de **Toutes les demandes de devis**. Le statut le moins élevé correspond au stade le moins avancé de toute ligne de la demande de devis, et le statut le plus élevé au stade le plus avancé. Par exemple, si une demande de devis avec trois lignes est envoyée à deux fournisseurs, il existe deux demandes de devis avec chacune trois lignes. Toutes les lignes sont **Envoyées**. Ensuite, une offre est entrée par l’un des fournisseurs et les lignes de l’appel d’offre reçoivent le statut **Reçues**. Cela signifie que sur les trois lignes de la demande de devis, toutes sont **Envoyées** pour une demande de devis et **Reçues** pour une autre demande de devis. Le statut le moins élevé est alors **Envoyé,** et le statut le plus élevé est **Reçu.**
 
-Ces statuts sont décrits en détail plus loin dans cette rubrique.
+Ces statuts sont décrits en détail plus loin dans cet article.
 
 ## <a name="setting-up-rfq-functionality"></a>Paramétrage de la fonctionnalité de demande de devis
 

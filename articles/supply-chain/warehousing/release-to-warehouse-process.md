@@ -1,6 +1,6 @@
 ---
 title: Lancement vers l’entrepôt
-description: Cette rubrique fournit des détails sur le processus de lancement vers l’entrepôt. Elle décrit les entités qui sont créées lorsque vous lancez une commande vers l’entrepôt et les options que vous pouvez utiliser pour initier le processus.
+description: Cet article fournit des détails sur le processus de lancement vers l’entrepôt. Elle décrit les entités qui sont créées lorsque vous lancez une commande vers l’entrepôt et les options que vous pouvez utiliser pour initier le processus.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893176"
 ---
 # <a name="release-to-warehouse"></a>Lancement vers l’entrepôt
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique fournit des détails sur le processus de lancement vers l’entrepôt. Elle décrit les entités qui sont créées lorsque vous lancez une commande vers l’entrepôt et les options que vous pouvez utiliser pour initier le processus.
+Cet article fournit des détails sur le processus de lancement vers l’entrepôt. Elle décrit les entités qui sont créées lorsque vous lancez une commande vers l’entrepôt et les options que vous pouvez utiliser pour initier le processus.
 
 ## <a name="release-to-warehouse-overview"></a>Présentation du lancement vers l’entrepôt
 
-Le lancement vers l’entrepôt est le processus de préparation du stock pour le traitement de l’expédition. Lorsque vous lancez une commande vers l’entrepôt, le système crée des lignes de chargement et des expéditions. Si le traitement automatique des vagues est configuré, les charges et le travail requis sont également créés. La configuration des entités impliquées dépend des paramètres système. Cette section de la rubrique passe en revue les entités qui sont créées pendant le processus de lancement vers l’entrepôt et les paramètres système qui les définissent.
+Le lancement vers l’entrepôt est le processus de préparation du stock pour le traitement de l’expédition. Lorsque vous lancez une commande vers l’entrepôt, le système crée des lignes de chargement et des expéditions. Si le traitement automatique des vagues est configuré, les charges et le travail requis sont également créés. La configuration des entités impliquées dépend des paramètres système. Cette section de l'article passe en revue les entités qui sont créées pendant le processus de lancement vers l’entrepôt et les paramètres système qui les définissent.
 
 Une *expédition* est un groupe de lignes de commande client ou d’ordre de transfert pour le même client ou la même adresse de livraison.
 
@@ -67,7 +67,7 @@ En conclusion, lorsqu’une commande est lancée vers l’entrepôt, le flux le 
 
 En fonction des paramètres du modèle de vague, des modèles de travail et des directives d’emplacement, certaines étapes de ce flux peuvent devenir manuelles. Le flux général demeure cependant le même.
 
-Plusieurs options s’offrent à vous pour lancer une commande vers l’entrepôt. Vous pouvez effectuer l’opération manuellement ou configurer une tâche de traitement par lots. Les sections restantes de cette rubrique examinent en détail les différentes manières dont vous pouvez effectuer une opération de lancement vers l’entrepôt.
+Plusieurs options s’offrent à vous pour lancer une commande vers l’entrepôt. Vous pouvez effectuer l’opération manuellement ou configurer une tâche de traitement par lots. Les sections restantes de cet article examinent en détail les différentes manières dont vous pouvez effectuer une opération de lancement vers l’entrepôt.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Lancement manuel vers l’entrepôt à partir des pages Commandes client et Ordres de transfert
 

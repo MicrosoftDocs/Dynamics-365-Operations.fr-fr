@@ -1,6 +1,6 @@
 ---
 title: Déployer un nouveau client e-commerce
-description: Cette rubrique décrit la procédure de déploiement d’un nouveau site d’e-commerce Dynamics 365 Commerce à l’aide de Microsoft Dynamics Lifecycle Services (LCS).
+description: Cet article décrit la procédure de déploiement d’un nouveau site d’e-commerce Dynamics 365 Commerce à l’aide de Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aee33a6322ada6de142ecf5b70ba81213ffb085
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884002"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Déployer un nouveau client e-commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la procédure de déploiement d’un nouveau site d’e-commerce Dynamics 365 Commerce à l’aide de Microsoft Dynamics Lifecycle Services (LCS).
+Cet article décrit la procédure de déploiement d’un nouveau site d’e-commerce Dynamics 365 Commerce à l’aide de Microsoft Dynamics Lifecycle Services (LCS).
 
 Microsoft Dynamics Lifecycle Services (LCS) est un espace de travail de collaboration basé sur le cloud que les partenaires et les clients peuvent utiliser pour gérer leurs projets et environnements, afficher les dernières informations sur les produits et les fonctionnalités Microsoft Dynamics, et créer, effectuer le suivi, et consulter les incidents de support. Les fonctionnalités de gestion d’e-commerce sont intégrées à LCS.
 

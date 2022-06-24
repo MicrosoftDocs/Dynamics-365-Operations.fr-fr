@@ -1,6 +1,6 @@
 ---
 title: Périphériques
-description: Cette rubrique explique les concepts relatifs aux périphériques de Commerce.
+description: Cet article explique les concepts relatifs aux périphériques de Commerce.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880079"
 ---
 # <a name="peripherals"></a>Périphériques
 
 [!include[banner](includes/banner.md)]
 
-Cette rubrique explique les concepts relatifs aux périphériques de magasin. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV.
+Cet article explique les concepts relatifs aux périphériques de magasin. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV.
 
 ## <a name="concepts"></a>Concepts
 
@@ -55,7 +55,7 @@ Modern POS pour Android est une version basée sur Android du programme Modern P
 
 ### <a name="pos-peripherals"></a>Périphériques de PDV
 
-Les périphériques de PDV sont des périphériques qui sont explicitement pris en charge pour les fonctions de PDV. Ces périphériques sont généralement divisés en classes spécifiques. Pour plus d’informations sur ces classes, voir la section « Classes de périphérique » dans cette rubrique.
+Les périphériques de PDV sont des périphériques qui sont explicitement pris en charge pour les fonctions de PDV. Ces périphériques sont généralement divisés en classes spécifiques. Pour plus d’informations sur ces classes, voir la section « Classes de périphérique » dans cet article.
 
 ### <a name="hardware-station"></a>Station matérielle
 

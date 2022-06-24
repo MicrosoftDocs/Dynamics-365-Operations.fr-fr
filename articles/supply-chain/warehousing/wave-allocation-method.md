@@ -1,6 +1,6 @@
 ---
 title: Répartition des vagues
-description: Cette rubrique décrit comment configurer l’étape de répartition d’une vague, y compris l’activation du traitement parallèle pour celle-ci.
+description: Cet article décrit comment configurer l’étape de répartition d’une vague, y compris l’activation du traitement parallèle pour celle-ci.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906949"
 ---
 # <a name="wave-allocation"></a>Répartition des vagues
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695533"
 
 Le traitement des vagues peut prendre du temps et la majeure partie du temps de traitement est consacrée à l’étape de répartition et à l’étape de création du travail.
 
-Il est maintenant possible d’exécuter chacune de ces étapes en parallèle, ce qui peut améliorer les performances du traitement des vagues et permettre un plus grand débit de vagues dans le même entrepôt. Cette rubrique explique comment configurer la méthode de répartition des vagues pour qu’elle s’exécute en parallèle. Pour plus d’informations sur la configuration de la création de travaux pour qu’elle s’exécute en parallèle, voir [Planifier la création du travail pendant la vague](configure-wave-schedule-work-creation.md).
+Il est maintenant possible d’exécuter chacune de ces étapes en parallèle, ce qui peut améliorer les performances du traitement des vagues et permettre un plus grand débit de vagues dans le même entrepôt. Cet article explique comment configurer la méthode de répartition des vagues pour qu’elle s’exécute en parallèle. Pour plus d’informations sur la configuration de la création de travaux pour qu’elle s’exécute en parallèle, voir [Planifier la création du travail pendant la vague](configure-wave-schedule-work-creation.md).
 
 Auparavant, il n’était possible d’allouer qu’une seule vague à la fois dans un entrepôt. Cette contrainte a été supprimée et remplacée par une nouvelle contrainte qui verrouille uniquement l’article et les dimensions qui se trouvent au-dessus de l’emplacement dans la hiérarchie de réservation. Les dimensions au-dessus de l’emplacement incluent toujours les dimensions du produit. Par exemple, si un article est configuré à l’aide de la *Couleur*, alors les variantes *Rouge*, *Bleu* et *Jaune* peuvent être chacune traitée en parallèle.
 

@@ -1,6 +1,6 @@
 ---
 title: Paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt
-description: Cette rubrique explique comment paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt.
+description: Cet article explique comment paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt.
 author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571087"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856104"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt. Il existe plusieurs modèles de configuration prédéfinis que vous pouvez utiliser. Pour plus d’informations sur l’utilisation de ces modèles, voir [Modèles de données de configuration](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Cet article explique comment paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt. Il existe plusieurs modèles de configuration prédéfinis que vous pouvez utiliser. Pour plus d’informations sur l’utilisation de ces modèles, voir [Modèles de données de configuration](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Scénarios où les modèles de configuration peuvent être utiles
 
@@ -38,7 +38,7 @@ Les modèles de configuration peuvent être utiles dans de nombreux scénarios. 
 - Vous souhaitez préparer rapidement une démonstration de la fonctionnalité d’entrepôt.
 - Vous souhaitez que les articles et entrepôts existants utilisent la fonctionnalité du module Gestion des entrepôts au lieu de la fonctionnalité du module Gestion des stocks.
 
-Cette rubrique porte sur le premier de ces scénarios. Elle indique comment utiliser un modèle de configuration pour copier un paramétrage de configuration d’un environnement de test vers un environnement de production.
+Cet article porte sur le premier de ces scénarios. Elle indique comment utiliser un modèle de configuration pour copier un paramétrage de configuration d’un environnement de test vers un environnement de production.
 
 ## <a name="copy-a-configuration-setup-from-a-test-environment-to-a-production-environment"></a>Copier un paramétrage de configuration d’un environnement de test vers un environnement de production
 
@@ -90,9 +90,9 @@ Vous pouvez télécharger un fichier zip pour le package de données. Ce fichier
 
 L’option **Afficher le journal des exécutions** fournit des informations détaillées sur chaque entité de données importée. Vous pouvez utiliser la vue des données intermédiaires pour accéder rapidement aux données cibles. Vous pouvez ainsi voir l’apparence des données importées sur les pages associées de l’application. Lorsque vous utilisez les modèles de données par défaut, la séquence d’importation pour chaque entité de données fonctionne de la manière prédéfinie, afin de garantir que toutes les données dépendantes sont importées en premier. Si les entités de données personnalisées font partie du projet, vous devez vérifier que la séquence correcte est définie. Pour plus d’informations, voir [Modèles de données de configuration](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
-Pour en savoir plus sur l’utilisation du modèle d’entrepôt pour copier la configuration d’un entrepôt d’une entreprise à une nouvelle entreprise dans la même instance, consultez cette vidéo de 3 minutes sur YouTube : [Utiliser le modèle d’entrepôt pour copier la configuration dans Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Pour en savoir plus sur l'utilisation du modèle d'entrepôt pour copier la configuration d'un entrepôt d'une entreprise à une nouvelle entreprise dans la même instance, consultez cette vidéo de 3 minutes sur YouTube : [Utiliser le modèle d'entrepôt pour copier la configuration pour Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
-## <a name="related-topic"></a>Rubrique connexe
+## <a name="related-article"></a>Article connexe
 
 [Modèles de données de configuration](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 

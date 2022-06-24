@@ -1,6 +1,6 @@
 ---
 title: Synchroniser la gestion des tâches entre Microsoft Teams et les PDV Dynamics 365 Commerce
-description: Cette rubrique décrit comment synchroniser la gestion des tâches entre Microsoft Teams et les points de vente (PDV) Dynamics 365 Commerce.
+description: Cet article décrit comment synchroniser la gestion des tâches entre Microsoft Teams et les points de vente (PDV) Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b7bb38a415524290d1636eda1f379f3cdcf7e593
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 23da56f4f6aee906aad261939d1c7ef9feac5922
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874867"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Synchroniser la gestion des tâches entre Microsoft Teams et les PDV Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment synchroniser la gestion des tâches entre Microsoft Teams et les points de vente (PDV) Dynamics 365 Commerce.
+Cet article décrit comment synchroniser la gestion des tâches entre Microsoft Teams et les points de vente (PDV) Dynamics 365 Commerce.
 
 L’un des principaux objectifs de l’intégration de Teams est de permettre la synchronisation de la gestion des tâches entre l’application de PDV et Teams. De cette façon, les employés du magasin peuvent utiliser l’application de PDV ou Teams pour gérer les tâches et n’ont pas à changer d’application.
 

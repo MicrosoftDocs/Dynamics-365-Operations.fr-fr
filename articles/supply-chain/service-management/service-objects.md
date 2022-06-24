@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des objets de service
-description: Cette rubrique fournit une vue d’ensemble de l’utilisation des objets de service.
+description: Cet article fournit une vue d’ensemble de l’utilisation des objets de service.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8150a94677fe38f4caa6f3e0b5fb5d1be5972eaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862409"
 ---
 # <a name="service-objects-overview"></a>Vue d’ensemble des objets de service
 
@@ -39,7 +39,7 @@ Les objets de service sont des actifs et des produits d’un client pour lesquel
 
 La société A gère les états financiers de plusieurs petites entreprises. L’un des clients de la société A est l’équipe de football locale, pour laquelle la société A gère la comptabilité hebdomadaire et réalise un audit annuel des comptes du club. Les comptes du club sont paramétrés dans l’écran Objets du service et spécifiés comme objet dans l’accord de service. Il existe deux lignes d’accord de service pour l’objet. La ligne 1 correspond à une comptabilité hebdomadaire et un intervalle hebdomadaire est affecté à la ligne, la ligne 2 correspond à l’audit annuel et un intervalle annuel est affecté à celle-ci.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Créer des objets de service](create-service-objects.md)
 

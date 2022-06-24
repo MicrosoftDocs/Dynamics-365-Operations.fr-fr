@@ -1,6 +1,6 @@
 ---
 title: Paramétrer le prélèvement de groupement
-description: Cette rubrique décrit la procédure de paramétrage du prélèvement de groupement et comment appliquer la confirmation d’article avec le prélèvement de groupement.
+description: Cet article décrit la procédure de paramétrage du prélèvement de groupement et comment appliquer la confirmation d’article avec le prélèvement de groupement.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859dc7e98a3236d2220ac43f9de426bd73679f0756da0aaa14669e563d5bf609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862306"
 ---
 # <a name="set-up-cluster-picking"></a>Paramétrer le prélèvement de groupement
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit comment permettre aux collaborateurs d’utiliser leurs appareils mobiles pour regrouper les travaux de prélèvement en groupements, afin de pouvoir prélever des articles depuis un même emplacement pour plusieurs ordres de fabrication simultanément. On parle alors de *prélèvement de groupement*.
+Cet article décrit comment permettre aux collaborateurs d’utiliser leurs appareils mobiles pour regrouper les travaux de prélèvement en groupements, afin de pouvoir prélever des articles depuis un même emplacement pour plusieurs ordres de fabrication simultanément. On parle alors de *prélèvement de groupement*.
 
 ## <a name="about-cluster-picking"></a>À propos du prélèvement de groupement
 

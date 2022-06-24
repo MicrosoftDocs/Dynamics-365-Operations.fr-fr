@@ -1,6 +1,6 @@
 ---
 title: Paramètres de gestion des remises
-description: Cette rubrique décrit la page des paramètres de gestion des remises. Cette page contient des paramètres qui affectent la validation, les mises à jour de statut, les souches de numéros et d’autres comportements.
+description: Cet article décrit la page des paramètres de gestion des remises. Cette page contient des paramètres qui affectent la validation, les mises à jour de statut, les souches de numéros et d’autres comportements.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895523"
 ---
 # <a name="rebate-management-parameters"></a>Paramètres de gestion des remises
 
@@ -45,7 +45,7 @@ Le tableau suivant décrit les champs disponibles sur l’onglet **Gestion des r
 
 ## <a name="number-sequences-tab"></a>Onglet Souches de numéros
 
-Utilisez l’onglet **Souche de numéros** sur la page **Paramètres de gestion des remises** pour attribuer des codes de souche de numéros aux différentes souches de numéros utilisées par la gestion des remises. Le tableau suivant décrit le but de chacune de ces souches de numéros. Pour plus d’informations sur les souches de numéros, voir [Vue d’ensemble des souches de numéros](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) et ses sujets connexes.
+Utilisez l’onglet **Souche de numéros** sur la page **Paramètres de gestion des remises** pour attribuer des codes de souche de numéros aux différentes souches de numéros utilisées par la gestion des remises. Le tableau suivant décrit le but de chacune de ces souches de numéros. Pour plus d’informations sur les souches de numéros, voir [Vue d’ensemble des souches de numéros](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) et ses articles connexes.
 
 | Référence | Description |
 |---|---|

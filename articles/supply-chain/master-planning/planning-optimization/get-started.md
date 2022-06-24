@@ -1,6 +1,6 @@
 ---
-title: Prise en main de l’Optimisation de la planification
-description: Cette rubrique explique comment utiliser la fonctionnalité d’Optimisation de la planification.
+title: Démarrage de l’optimisation de la planification
+description: Cet article explique comment utiliser la fonctionnalité d’Optimisation de la planification.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
-ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
+ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900968"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -99,7 +99,7 @@ Le statut de connexion indique le statut actuel de la connexion entre Supply Cha
 |---|---|---|
 | Connecté | Une connexion a été établie entre le service d’Optimisation de la planification et Supply Chain Management. | Oui |
 | Activation de la connexion | Une demande pour activer la connexion au service d’Optimisation de la planification est actuellement en cours. | Non |
-| Déconnecté | Il n’existe aucune connexion au service d’Optimisation de la planification. La connexion peut être activée depuis LCS, comme décrit précédemment dans cette rubrique. | Non |
+| Déconnecté | Il n’existe aucune connexion au service d’Optimisation de la planification. La connexion peut être activée depuis LCS, comme décrit précédemment dans cet article. | N° |
 | Désactivation de la connexion | Une demande pour désactiver la connexion au service d’Optimisation de la planification est actuellement en cours. | Non |
 | Récupération du statut | Le système est en attente des informations relatives au statut provenant d’Optimisation de la planification. | Non |
 

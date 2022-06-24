@@ -1,6 +1,6 @@
 ---
 title: Énumérer le stock dans un entrepôt
-description: Cette rubrique décrit le processus de création et de validation d’un journal de comptage du stock en vue de compter un article particulier à un emplacement dans l’entrepôt.
+description: Cet article décrit le processus de création et de validation d’un journal de comptage du stock en vue de compter un article particulier à un emplacement dans l’entrepôt.
 author: yufeihuang
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7dd3788d3cbf80bfba373f5b6ce9d2e0ca0c07
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7c8712b88867dc4be48bbdb4b905993e3ccbc73f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870635"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Énumérer le stock dans un entrepôt
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit le processus de création et de validation d’un journal de comptage du stock en vue de compter un article particulier à un emplacement dans l’entrepôt. Cette procédure s’applique à la fonctionnalité « entreposage de base », disponible dans le module Gestion des stocks, et pas à la fonctionnalité d’entreposage disponible dans le module Gestion des entrepôts. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. Si vous utilisez vos propres données, vérifiez que vous avez des produits et des emplacements configurés, et que vous avez créé un nom de journal de stock pour les journaux de comptage. Le comptage de stock est normalement effectué par un employé de l’entrepôt.
+Cet article décrit le processus de création et de validation d’un journal de comptage du stock en vue de compter un article particulier à un emplacement dans l’entrepôt. Cette procédure s’applique à la fonctionnalité « entreposage de base », disponible dans le module Gestion des stocks, et pas à la fonctionnalité d’entreposage disponible dans le module Gestion des entrepôts. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. Si vous utilisez vos propres données, vérifiez que vous avez des produits et des emplacements configurés, et que vous avez créé un nom de journal de stock pour les journaux de comptage. Le comptage de stock est normalement effectué par un employé de l’entrepôt.
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Créer un journal de comptage du stock

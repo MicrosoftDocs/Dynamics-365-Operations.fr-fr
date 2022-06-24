@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des matières dangereuses
-description: Cette rubrique fournit une vue d’ensemble des fonctionnalités liées à la manipulation et à la documentation sur les matières dangereuses lors de la gestion des informations sur les produits et de la gestion des entrepôts.
+description: Cet article fournit une vue d’ensemble des fonctionnalités liées à la manipulation et à la documentation sur les matières dangereuses lors de la gestion des informations sur les produits et de la gestion des entrepôts.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905803"
 ---
 # <a name="hazardous-materials-overview"></a>Vue d’ensemble des matières dangereuses
 
@@ -50,7 +50,7 @@ Les réglementations communes suivantes ont été référencées lors du dévelo
 
 Chaque ensemble de réglementations fournit des listes normalisées de marchandises dangereuses et des codes de référence. Par conséquent, Supply Chain Management fournit un tableau de référence pour les codes communs sur ces listes. Chaque liste possède également des codes uniques que vous pouvez définir.
 
-Pour plus d’informations sur la configuration des réglementations et des valeurs pour les matières dangereuses et sur l’attribution des valeurs aux produits concernés, consultez les rubriques suivantes :
+Pour plus d’informations sur la configuration des réglementations et des valeurs pour les matières dangereuses et sur l’attribution des valeurs aux produits concernés, consultez les articles suivants :
 
 - [Paramétrer des matières dangereuses](hazmat-setup.md)
 - [Matières dangereuses dans les produits, les commandes, les expéditions et les chargements](hazmat-items.md)

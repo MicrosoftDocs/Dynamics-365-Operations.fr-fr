@@ -1,6 +1,6 @@
 ---
 title: Configurer un site d’e-commerce B2B
-description: Cette rubrique décrit comment configurer un site d’e-commerce interentreprises (B2B) dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment configurer un site d’e-commerce interentreprises (B2B) dans Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881904"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Mettre en place un site e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Les sites de commerce électronique interentreprises (B2B) fournissent des fonctionnalités clés qui optimisent le workflow pour un utilisateur B2B. Cette rubrique décrit comment configurer un site d’e-commerce B2B dans Microsoft Dynamics 365 Commerce. Elle présente les modules et les paramètres de site qui doivent être configurés pour activer des scénarios spécifiques B2B.
+Les sites de commerce électronique interentreprises (B2B) fournissent des fonctionnalités clés qui optimisent le workflow pour un utilisateur B2B. Cet article décrit comment configurer un site d’e-commerce B2B dans Microsoft Dynamics 365 Commerce. Elle présente les modules et les paramètres de site qui doivent être configurés pour activer des scénarios spécifiques B2B.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-- Pour configurer un site de commerce électronique B2B, vous devez activer et configurer des fonctionnalités spécifiques dans Commerce Headquarters, comme décrit dans cette rubrique.
+- Pour configurer un site de commerce électronique B2B, vous devez activer et configurer des fonctionnalités spécifiques dans Commerce Headquarters, comme décrit dans cet article.
 - Les expériences de base, telles que la découverte de produits, les pages de détails sur les produits, le panier et le paiement, sont alimentées par les mêmes modules que ceux utilisés pour les sites de commerce électronique B2C. Les auteurs de sites doivent être familiarisés avec tous les modules pris en charge par Dynamics 365 Commerce. Pour plus d’informations, voir [Vue d’ensemble de la bibliothèque de modules](../starter-kit-overview.md).
-- Cette rubrique suppose que les auteurs de sites comprennent les principes de base du générateur de site Commerce, des modèles, des fragments et des pages, afin qu’ils puissent activer les fonctionnalités B2B pour les sites de commerce électronique.
+- Cet article suppose que les auteurs de sites comprennent les principes de base du générateur de site Commerce, des modèles, des fragments et des pages, afin qu’ils puissent activer les fonctionnalités B2B pour les sites de commerce électronique.
 
 ## <a name="site-level-settings"></a>Paramètres au niveau du site
 

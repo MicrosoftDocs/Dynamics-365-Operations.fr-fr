@@ -1,6 +1,6 @@
 ---
 title: Créer des groupes d’autorisations PDV
-description: Cette rubrique illustre la création d’un groupe d’autorisations du PDV.
+description: Cet article illustre la création d’un groupe d’autorisations du PDV.
 author: scott-tucker
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 009f311dd00f48edb8c0f6622f0a5107881ab2ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905422"
 ---
 # <a name="create-pos-permission-groups"></a>Créer des groupes d’autorisations PDV
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique illustre la création d’un groupe d’autorisations du PDV. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire des opérations Commerce.
+Cet article illustre la création d’un groupe d’autorisations du PDV. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire des opérations Commerce.
 
 1. Dans le volet de navigation, accédez à **Modules > Commerce et vente au détail > Employés > Groupes d’autorisations**.
 2. Sélectionnez **Nouveau**.

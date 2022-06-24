@@ -1,6 +1,6 @@
 ---
 title: Attributs de lot
-description: Cette rubrique fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. La rubrique décrit également les manières d’affecter des attributs de lot et d’y effectuer une recherche lorsque vous réservez des traitements par lots.
+description: Cet article fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. L'article décrit également les manières d’affecter des attributs de lot et d’y effectuer une recherche lorsque vous réservez des traitements par lots.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb971e7468245297f2359317533b123a3a4f83a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e5f5a03df63cf4fa90b5e9e67082a0d60eef9afc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899380"
 ---
 # <a name="batch-attributes"></a>Attributs de lot
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. La rubrique décrit également les manières d’affecter des attributs de lot et d’y effectuer une recherche lorsque vous réservez des traitements par lots.
+Cet article fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. L'article décrit également les manières d’affecter des attributs de lot et d’y effectuer une recherche lorsque vous réservez des traitements par lots.
 
 Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. Les attributs de lot peuvent varier en fonction de plusieurs facteurs, comme les conditions environnementales, la qualité des matières premières utilisées pour produire le lot ou le résultat du produit fini. Le nombre et les types d’attributs de lot utilisés peuvent fortement varier d’un secteur à l’autre. Voici deux exemples d’utilisation d’attributs de lot :
 

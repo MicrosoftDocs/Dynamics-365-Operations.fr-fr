@@ -1,6 +1,6 @@
 ---
 title: Agents et groupes d’agents de maintenance
-description: Cette rubrique décrit les agents et les groupes d’agents de maintenance dans le module Gestion des actifs.
+description: Cet article décrit les agents et les groupes d’agents de maintenance dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860897"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Agents et groupes d’agents de maintenance
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750122"
 
  
 
-Cette rubrique décrit les agents et les groupes d’agents de maintenance dans le module Gestion des actifs. Dans le module Gestion des immobilisations, vous pouvez relier des agents de maintenance aux postes techniques. (Pour plus d’informations sur les postes techniques, voir [Créer des postes techniques](../functional-locations/create-functional-locations.md).) Cette fonctionnalité peut être utile si, par exemple, vous planifiez une tâche de maintenance sur une machine située dans le poste technique 01, et vous voulez que cette tâche soit effectuée par des agents de maintenance du même emplacement.
+Cet article décrit les agents et les groupes d’agents de maintenance dans le module Gestion des actifs. Dans le module Gestion des immobilisations, vous pouvez relier des agents de maintenance aux postes techniques. (Pour plus d’informations sur les postes techniques, voir [Créer des postes techniques](../functional-locations/create-functional-locations.md).) Cette fonctionnalité peut être utile si, par exemple, vous planifiez une tâche de maintenance sur une machine située dans le poste technique 01, et vous voulez que cette tâche soit effectuée par des agents de maintenance du même emplacement.
 
 Vous pouvez également créer des groupes d’agents de maintenance et leur associer des agents de maintenance. Cette fonctionnalité est utile lorsque vous effectuez une planification simple des ordres de travail, et vous souhaitez planifier un groupe d’agents de maintenance sur un ordre de travail. Vous pouvez utiliser des agents de maintenance et des groupes d’agents de maintenance pour paramétrer les agents de maintenance préférés et les agents de maintenance responsables. 
 

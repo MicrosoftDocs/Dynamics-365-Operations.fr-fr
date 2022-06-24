@@ -1,6 +1,6 @@
 ---
 title: Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour l’Autriche (héritées)
-description: Cette rubrique fournit des lignes directrices pour le déploiement de l’exemple d’intégration fiscale pour l’Autriche à partir du Kit de développement logiciel de vente au détail (SDK) Microsoft Dynamics 365 Commerce.
+description: Cet article fournit des lignes directrices pour le déploiement de l’exemple d’intégration fiscale pour l’Autriche à partir du Kit de développement logiciel de vente au détail (SDK) Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 7cb0e7b665add397b12e1a841b6a2e9565528d6d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 94fe6817358ae18126a30794fd52fe5eb01a5265
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885435"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour l’Autriche (héritées)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des instructions pour le déploiement de l’exemple d’intégration de service d’enregistrement fiscal pour l’Autriche à partir du Kit de développement logiciel (SDK) Microsoft Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration du service d’enregistrement fiscal pour l’Autriche](emea-aut-fi-sample.md). 
+Cet article fournit des instructions pour le déploiement de l’exemple d’intégration de service d’enregistrement fiscal pour l’Autriche à partir du Kit de développement logiciel (SDK) Microsoft Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration du service d’enregistrement fiscal pour l’Autriche](emea-aut-fi-sample.md). 
 
-L’échantillon d’intégration fiscale pour l’Autriche fait partie du Kit de développement logiciel (SDK) Retail. Pour en savoir plus sur la manière d’installer et d’utiliser le SDK, voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). L’exemple d’intégration fiscale se compose d’extensions pour Commerce Runtime (CRT), station matérielle et point de vente (PDV). Pour exécuter cet exemple, vous devez modifier et générer les projets CRT, station matérielle et PDV. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cette rubrique. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Azure DevOps, où aucun fichier n’a encore été modifié.
+L’échantillon d’intégration fiscale pour l’Autriche fait partie du Kit de développement logiciel (SDK) Retail. Pour en savoir plus sur la manière d’installer et d’utiliser le SDK, voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). L’exemple d’intégration fiscale se compose d’extensions pour Commerce Runtime (CRT), station matérielle et point de vente (PDV). Pour exécuter cet exemple, vous devez modifier et générer les projets CRT, station matérielle et PDV. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cet article. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Azure DevOps, où aucun fichier n’a encore été modifié.
 
 ## <a name="development-environment"></a>Environnement de développement
 

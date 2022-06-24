@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des pages de détails de produit
-description: Cette rubrique fournit une vue d’ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
+description: Cet article fournit une vue d’ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884283"
 ---
-# <a name="product-details-pages-overview"></a>Vue d’ensemble des pages détaillées du produit
+# <a name="product-details-pages-overview"></a>Vue d’ensemble des pages de détails de produit
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
+Cet article fournit une vue d’ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
 
 Une page de détails de produit fournit des informations détaillées sur un produit, et permet aux clients de sélectionner des options de produit comme une taille, un style, et une couleur. Une page de détails de produit doit présenter toutes les informations sur le produit dont un client a besoin pour effectuer une décision d’achat.
 
@@ -35,7 +35,7 @@ L’illustration suivante présente un exemple de page de détails de produit.
 
 ## <a name="header-and-footer-modules"></a>Modules d’en-tête et de pied de page
 
-Le haut de la page de détails de produit comporte en-tête qui affiche toutes les catégories de produits et d’autres pages que le détaillant souhaite que les clients parcourent. Le bas de la page comporte un pied de page qui contient des liens rapides vers diverses rubriques qui peuvent intéresser les clients.
+Le haut de la page de détails de produit comporte en-tête qui affiche toutes les catégories de produits et d’autres pages que le détaillant souhaite que les clients parcourent. Le bas de la page comporte un pied de page qui contient des liens rapides vers divers articles qui peuvent intéresser les clients.
 
 ## <a name="buy-box-module"></a>Module de zone d’achat
 

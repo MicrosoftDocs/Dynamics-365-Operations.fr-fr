@@ -1,6 +1,6 @@
 ---
 title: Gammes et opérations
-description: Cette rubrique fournit des informations sur les gammes et les opérations.
+description: Cet article fournit des informations sur les gammes et opérations.
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856017"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les gammes et les opérations. Une gamme définit le processus de fabrication d’un produit ou d’une variante de produit. Elle décrit chaque étape (opération) dans le processus de fabrication et l’ordre dans lequel ces étapes doivent être effectuées. Pour chaque étape, la gamme définit également les ressources opérationnelles requises, la durée de configuration et d’exécution requise et la manière dont le coût doit être calculé.
+Cet article fournit des informations sur les gammes et opérations. Une gamme définit le processus de fabrication d’un produit ou d’une variante de produit. Elle décrit chaque étape (opération) dans le processus de fabrication et l’ordre dans lequel ces étapes doivent être effectuées. Pour chaque étape, la gamme définit également les ressources opérationnelles requises, la durée de configuration et d’exécution requise et la manière dont le coût doit être calculé.
 
 ## <a name="overview"></a>Vue d’ensemble
 

@@ -1,6 +1,6 @@
 ---
 title: Enregistreur de tâches et aide pour Retail Modern POS (MPOS) et Cloud POS
-description: Cette rubrique décrit comment utiliser l’enregistreur de tâches dans Retail Modern POS et Cloud POS.
+description: Cet article décrit comment utiliser l’enregistreur de tâches dans Retail Modern POS et Cloud POS.
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847598"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Enregistreur de tâches et aide pour Retail Modern POS (MPOS) et Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment utiliser l’enregistreur de tâches dans Retail Modern POS et Cloud POS.
+Cet article décrit comment utiliser l’enregistreur de tâches dans Retail Modern POS et Cloud POS.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 L’enregistreur de tâches dans Retail Modern POS ou Cloud POS est une nouvelle solution qui met l’accent sur la réactivité élevée. Il fournit une interface de programmation d’applications flexible (API) pour l’extensibilité et l’intégration transparente avec les consommateurs d’enregistrements de processus d’entreprise. En outre, l’intégration de l’enregistreur de tâches avec l’outil Concepteur de processus d’entreprise (BPM) sur Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) a été mise en avant. Par conséquent, les utilisateurs peuvent continuer à produire des diagrammes de processus d’entreprise complets à partir des enregistrements pour analyser et créer leurs applications.
 
@@ -139,7 +139,7 @@ Pour afficher vos propres enregistrements personnalisés de tâche dans le volet
 
 [![Bouton Aide.](./media/help.jpg)](./media/help.jpg)
 
-Lorsque vous cliquez sur un guide de tâche dans les résultats de la recherche, vous pouvez afficher les étapes sous forme de rubrique d’aide et exporter les étapes dans un document Word.
+Lorsque vous cliquez sur un Guide des tâches dans les résultats de la recherche, vous pouvez afficher les étapes sous forme d'article d’aide et exporter les étapes dans un document Word.
 
 > [!NOTE]
 > L’aide de Retail Modern POS et de Cloud POS n’affiche pas les guides de tâches en fonction de l’écran que vous affichez ou de l’opération que vous effectuez. Vous devez taper le nom du processus dans la zone de recherche et cliquer sur **Rechercher**.

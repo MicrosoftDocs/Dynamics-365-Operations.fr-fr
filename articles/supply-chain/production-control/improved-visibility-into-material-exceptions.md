@@ -1,6 +1,6 @@
 ---
 title: Visibilité des exceptions de matières
-description: Cette rubrique décrit comment vous pouvez obtenir une meilleure visibilité des exceptions de matières premières pour les ordres de fabrication et les lots de commandes.
+description: Cet article décrit comment vous pouvez obtenir une meilleure visibilité des exceptions de matières premières pour les ordres de fabrication et les lots de commandes.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d3ea260535e76d7ac3d73d4bca930b7b4b2d22b2b2c076d4d1346785eaed85b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a7877743a9ebd98263bc5614c0015bf33d463832
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863822"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilité des exceptions de matières
 

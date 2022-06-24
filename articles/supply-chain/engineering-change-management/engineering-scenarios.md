@@ -1,6 +1,6 @@
 ---
-title: Présentation de la fonctionnalité de gestion des modifications techniques
-description: Cette rubrique fournit une procédure de bout en bout qui montre comment utiliser la gestion des modifications techniques.
+title: Présentation de la fonction de gestion des modifications d’ingénierie
+description: Cet article fournit une procédure de bout en bout qui montre comment utiliser la gestion des modifications techniques.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889633"
 ---
-# <a name="engineering-change-management-feature-walkthrough"></a>Présentation de la fonctionnalité de gestion des modifications techniques
+# <a name="engineering-change-management-feature-walkthrough"></a>Présentation de la fonction de gestion des modifications d’ingénierie
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une procédure de bout en bout qui montre comment utiliser la gestion des modifications techniques. Elle présente chacun des scénarios les plus importants :
+Cet article fournit une procédure de bout en bout qui montre comment utiliser la gestion des modifications techniques. Elle présente chacun des scénarios les plus importants :
 
 - Configuration des fonctionnalités de base
 - Comment une société d’ingénierie crée un produit d’ingénierie
@@ -35,13 +35,13 @@ Cette rubrique fournit une procédure de bout en bout qui montre comment utilise
 - Comment planifier et mettre en œuvre les modifications demandées en créant un ordre de modification technique
 - Comment lancer un produit qui a été modifié
 
-Tous les exercices de cette rubrique utilisent les exemples de données standard fournis pour Microsoft Dynamics 365 Supply Chain Management. De plus, chaque exercice s’appuie sur l’exercice précédent. Par conséquent, nous vous recommandons de suivre les exercices dans l’ordre, du début à la fin, surtout si vous n’avez jamais utilisé la fonction de gestion des modifications techniques auparavant. De cette façon, vous acquerrez une compréhension complète de la fonctionnalité.
+Tous les exercices de cet article utilisent les exemples de données standard fournis pour Microsoft Dynamics 365 Supply Chain Management. De plus, chaque exercice s’appuie sur l’exercice précédent. Par conséquent, nous vous recommandons de suivre les exercices dans l’ordre, du début à la fin, surtout si vous n’avez jamais utilisé la fonction de gestion des modifications techniques auparavant. De cette façon, vous acquerrez une compréhension complète de la fonctionnalité.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Configurer l’exemple de scénario
 
-Pour suivre l’exemple de scénario fourni dans cette rubrique, vous devez d’abord préparer la fonctionnalité en rendant les données de démonstration disponibles et en ajoutant quelques enregistrements personnalisés.
+Pour suivre l’exemple de scénario fourni dans cet article, vous devez d’abord préparer la fonctionnalité en rendant les données de démonstration disponibles et en ajoutant quelques enregistrements personnalisés.
 
-Avant d’essayer de faire l’un des exercices du reste de cette rubrique, suivez les instructions de toutes les sous-sections suivantes. Ces sous-sections présentent également plusieurs pages de paramètres importants que vous utiliserez lors de la configuration de la gestion des modifications techniques pour votre propre organisation.
+Avant d’essayer de faire l’un des exercices du reste de cet article, suivez les instructions de toutes les sous-sections suivantes. Ces sous-sections présentent également plusieurs pages de paramètres importants que vous utiliserez lors de la configuration de la gestion des modifications techniques pour votre propre organisation.
 
 ### <a name="make-standard-demo-data-available"></a>Rendre les données de démonstration standard disponibles
 

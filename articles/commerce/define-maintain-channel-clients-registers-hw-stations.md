@@ -1,6 +1,6 @@
 ---
 title: Connecter des périphériques au point de vente (POS)
-description: Cette rubrique décrit comment connecter des périphériques à votre Retail POS.
+description: Cet article décrit comment connecter des périphériques à votre Retail POS.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897106"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connecter des périphériques au point de vente (POS)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment connecter des périphériques à votre Retail POS.
+Cet article décrit comment connecter des périphériques à votre Retail POS.
 
 > [!NOTE]
 > Pour obtenir des instructions d’installation spécifiques, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md) et [Configurer, installer et activer Modern POS (MPOS)](retail-modern-pos-device-activation.md).
@@ -157,7 +157,7 @@ Les profils de tickets de caisse sont affectés aux imprimantes via le profil de
 
 #### <a name="hardware-profiles"></a>Profils du matériel
 
-Les profils de matériel sont décrits comme des composant de paramétrage du client plus haut dans cette rubrique. Les profils matériels sont attribués directement au registre de PDV ou à une station matérielle partagée, et sont utilisés pour spécifier les types de périphériques utilisés par un registre de PDV ou une station matérielle spécifique. Les profils de matériel sont également utilisés pour spécifier les paramètres TEF utilisés pour communiquer avec le Kit de développement logiciel de paiement.
+Les profils de matériel sont décrits comme des composant de paramétrage du client plus haut dans cet article. Les profils matériels sont attribués directement au registre de PDV ou à une station matérielle partagée, et sont utilisés pour spécifier les types de périphériques utilisés par un registre de PDV ou une station matérielle spécifique. Les profils de matériel sont également utilisés pour spécifier les paramètres TEF utilisés pour communiquer avec le Kit de développement logiciel de paiement.
 
 #### <a name="visual-profiles"></a>Profils visuels
 

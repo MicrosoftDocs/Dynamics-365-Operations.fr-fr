@@ -1,6 +1,6 @@
 ---
 title: Ajouter des langues à votre site
-description: Cette rubrique explique comment ajouter la prise en charge de langues supplémentaires à un site Microsoft Dynamics 365 Commerce.
+description: Cet article explique comment ajouter la prise en charge de langues supplémentaires à un site Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/12/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 69ee1d744ce26d5040d80e470b18d87bbddbda26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871804"
 ---
 # <a name="add-languages-to-your-site"></a>Ajouter des langues à votre site
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment ajouter la prise en charge de langues supplémentaires à un site Microsoft Dynamics 365 Commerce.
+Cet article explique comment ajouter la prise en charge de langues supplémentaires à un site Microsoft Dynamics 365 Commerce.
 
-Vous pouvez situer votre site web dans n’importe quelle langue que Commerce prend en charge. (La liste des langues prises en charge apparaît plus loin dans cette rubrique.) Pour ajouter une langue à votre site web, vous devez l’ajouter à un magasin en ligne lié à votre site.
+Vous pouvez situer votre site web dans n’importe quelle langue que Commerce prend en charge. (La liste des langues prises en charge apparaît plus loin dans cet article.) Pour ajouter une langue à votre site web, vous devez l’ajouter à un magasin en ligne lié à votre site.
 
 ## <a name="add-a-language-to-an-online-store"></a>Ajouter une langue à un magasin en ligne
 

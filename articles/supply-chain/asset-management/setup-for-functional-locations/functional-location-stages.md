@@ -1,6 +1,6 @@
 ---
-title: États du cycle de vie du poste technique
-description: Cette rubrique décrit le paramétrage des états de poste technique et des modèles de cycle de vie dans la gestion des actifs.
+title: États du cycle de vie des postes techniques
+description: Cet article décrit le paramétrage des états de poste technique et des modèles de cycle de vie dans la gestion des actifs.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934660"
 ---
-# <a name="functional-location-lifecycle-states"></a>États du cycle de vie du poste technique
+# <a name="functional-location-lifecycle-states"></a>États du cycle de vie des postes techniques
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Cette rubrique décrit le paramétrage des états de cycle de vie de poste technique et des modèles de cycle de vie dans la gestion des actifs. Les états de cycle de vie de poste technique définissent les états par lesquels un poste technique peut passer, par exemple, créé, actif, puis terminé. Vous pouvez afficher tous les postes techniques, indépendamment de leur état de cycle de vie, dans la page de liste **Tous les postes techniques**. Vous pouvez modifier l’état d’un poste technique en le sélectionnant dans la page de liste **Tous les postes techniques** et en sélectionnant **Mettre à jour l’état du poste technique**.
+Cet article décrit le paramétrage des états de cycle de vie de poste technique et des modèles de cycle de vie dans la gestion des actifs. Les états de cycle de vie de poste technique définissent les états par lesquels un poste technique peut passer, par exemple, créé, actif, puis terminé. Vous pouvez afficher tous les postes techniques, indépendamment de leur état de cycle de vie, dans la page de liste **Tous les postes techniques**. Vous pouvez modifier l’état d’un poste technique en le sélectionnant dans la page de liste **Tous les postes techniques** et en sélectionnant **Mettre à jour l’état du poste technique**.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>Définir des états du cycle de vie des postes techniques
 
@@ -39,6 +39,7 @@ Cette rubrique décrit le paramétrage des états de cycle de vie de poste techn
 5. Sélectionnez « Oui » sur le bouton de basculement **Création d’actifs** s’il doit être possible de créer automatiquement un actif avec le même nom que le poste technique et de l’installer sur le poste technique dans cet état.  
 >[!NOTE]
 >Ce bouton de basculement est lié au champ **Type d’actif** sur l’organisateur **Général** dans l’écran **Types de postes techniques** (**Gestion des actifs** > **Paramétrage** > **Postes techniques** > **Types de postes techniques**).
+
 6. Sélectionnez « Oui » sur le bouton de basculement **Renommer le poste** s’il doit être possible de modifier le nom du poste technique dans cet état.
 7. Sélectionnez « Oui » sur le bouton de basculement **Nouveaux sous-postes** s’il doit être possible d’ajouter de nouveaux sous-postes au poste technique dans cet état.
 8. Sélectionnez « Oui » sur le bouton de basculement **Installer des actifs** s’il doit être possible d’installer des actifs au poste technique dans cet état.

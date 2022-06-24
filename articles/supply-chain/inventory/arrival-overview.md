@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des arrivées
-description: Cette rubrique fournit des informations sur la fonctionnalité Vue d’ensemble des arrivées. La page Vue d’ensemble des arrivées fait partie de cette fonction et fournit une vue d’ensemble de tous les articles attendus en tant qu’articles entrants.
+description: Cet article fournit des informations sur la fonctionnalité Vue d’ensemble des arrivées. La page Vue d’ensemble des arrivées fait partie de cette fonction et fournit une vue d’ensemble de tous les articles attendus en tant qu’articles entrants.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -18,22 +18,22 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8118db9469c01c43b23c64ee383ac1d383a0ba7a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874070"
 ---
 # <a name="arrival-overview"></a>Vue d’ensemble des arrivées
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la fonctionnalité Vue d’ensemble des arrivées. La page Vue d’ensemble des arrivées fait partie de cette fonction et fournit une vue d’ensemble de tous les articles attendus en tant qu’articles entrants.
+Cet article fournit des informations sur la fonctionnalité Vue d’ensemble des arrivées. La page Vue d’ensemble des arrivées fait partie de cette fonction et fournit une vue d’ensemble de tous les articles attendus en tant qu’articles entrants.
 
-La page **Vue d’ensemble des arrivées** fournit une vue d’ensemble de tous les articles entrants prévus. Elle montre également les arrivées qui peuvent être initialisées en fonction de la vue d’ensemble. Cette rubrique aborde plus en détail le processus de réception.
+La page **Vue d’ensemble des arrivées** fournit une vue d’ensemble de tous les articles entrants prévus. Elle montre également les arrivées qui peuvent être initialisées en fonction de la vue d’ensemble. Cet article aborde plus en détail le processus de réception.
 
-## <a name="business-scenario"></a>Scénario métier
+## <a name="business-scenario"></a>Scénario d’entreprise
 Considérez le scénario suivant dans les processus entrants.
 
 [![Scénario métier.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)

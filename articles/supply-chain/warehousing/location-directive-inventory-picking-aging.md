@@ -1,6 +1,6 @@
 ---
 title: Instruction d’emplacement relatif à l’âge du prélèvement du stock
-description: Cette rubrique explique comment utiliser les stratégies de directive d’emplacement premier entré, premier sorti (FIFO) et dernier entré, premier sorti (LIFO) lors du prélèvement.
+description: Cet article explique comment utiliser les stratégies de directive d’emplacement premier entré, premier sorti (FIFO) et dernier entré, premier sorti (LIFO) lors du prélèvement.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885694"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Instruction d’emplacement relatif à l’âge du prélèvement du stock
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment utiliser les stratégies de directive d’emplacement premier entré, premier sorti (FIFO) et dernier entré, premier sorti (LIFO) lors du prélèvement. Ces stratégies fonctionnent en conjonction avec les dates d’âge qui sont enregistrées pour les emplacements et qui permettent de savoir à quel moment le stock est entré dans l’entrepôt. La fonction *Instruction d’emplacement relatif à l’âge du prélèvement du stock* utilise la date de l’emplacement pour déterminer l’âge. La fonction *Statut de l’emplacement de l’entrepôt* met à jour la date de l’emplacement en fonction de la date provenant du contenant.
+Cet article explique comment utiliser les stratégies de directive d’emplacement premier entré, premier sorti (FIFO) et dernier entré, premier sorti (LIFO) lors du prélèvement. Ces stratégies fonctionnent en conjonction avec les dates d’âge qui sont enregistrées pour les emplacements et qui permettent de savoir à quel moment le stock est entré dans l’entrepôt. La fonction *Instruction d’emplacement relatif à l’âge du prélèvement du stock* utilise la date de l’emplacement pour déterminer l’âge. La fonction *Statut de l’emplacement de l’entrepôt* met à jour la date de l’emplacement en fonction de la date provenant du contenant.
 
 Vous pouvez utiliser les stratégies FIFO et LIFO pour expédier à la fois les articles suivis par lots et les articles non suivis par lots, en fonction de la date à laquelle le stock est entré dans l’entrepôt. Cette fonctionnalité peut être particulièrement utile pour les stocks non suivis par lots, où une date d’expiration n’est pas disponible pour le tri.
 

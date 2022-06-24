@@ -1,6 +1,6 @@
 ---
 title: Planification de la production
-description: Cette rubrique décrit la planification de la production et explique comment modifier les ordres de fabrication prévisionnels à l’aide de l’optimisation de la planification.
+description: Cet article décrit la planification de la production et explique comment modifier les ordres de fabrication prévisionnels à l’aide de l’optimisation de la planification.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873780"
 ---
 # <a name="production-planning"></a>Planification de la production
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469056"
 
 L’optimisation de la planification prend en charge plusieurs scénarios de production. Si vous effectuez une migration depuis le moteur de planification générale intégré existant, il est important de connaître certains changements de comportement.
 
-La vidéo suivante donne une brève introduction à certains des concepts abordés dans cette rubrique : [Dynamics 365 Supply Chain Management : Améliorations de l’optimisation de la planification](https://youtu.be/u1pcmZuZBTw).
+La vidéo suivante donne une brève introduction à certains des concepts abordés dans cet article : [Dynamics 365 Supply Chain Management : Améliorations de l’optimisation de la planification](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Activez cette fonctionnalité pour votre système
 
-Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Ordres de fabrication prévisionnels pour l’optimisation de la planification*.
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cet article, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Ordres de fabrication prévisionnels pour l’optimisation de la planification*.
 
 ## <a name="planned-production-orders"></a>Ordres de fabrication prévisionnels
 
@@ -65,7 +65,7 @@ Si vous souhaitez modifier les informations d’un ordre prévisionnel et voir l
 2. Approuvez l’ordre prévisionnel.
 3. Exécutez la planification générale.
 
-Lorsque vous exécutez la planification générale, vous ne devez pas utiliser de filtres si des ordres de fabrication prévisionnels sont inclus. Pour plus d’informations, voir la section [Filtres](#filters) plus loin dans cette rubrique.
+Lorsque vous exécutez la planification générale, vous ne devez pas utiliser de filtres si des ordres de fabrication prévisionnels sont inclus. Pour plus d’informations, voir la section [Filtres](#filters) plus loin dans cet article.
 
 > [!NOTE]
 > Si la date de livraison de l’ordre prévisionnel est modifiée à une date ultérieure, la demande peut être liée à un nouvel ordre prévisionnel. Ce comportement se produit lorsque la nouvelle date d’approvisionnement provoque un retard pour la demande liée mais, en fonction des paramètres de délai, le retard peut être évité.

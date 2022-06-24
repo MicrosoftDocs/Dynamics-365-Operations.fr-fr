@@ -1,6 +1,6 @@
 ---
 title: Configurer les paiements express pour PayPal
-description: Cette rubrique décrit comment configurer les paiements express pour PayPal afin d'activer des fonctionnalités de paiement plus rapides dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment configurer les paiements express pour PayPal afin d'activer des fonctionnalités de paiement plus rapides dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905280"
 ---
 # <a name="configure-express-payments-for-paypal"></a>Configurer les paiements express pour PayPal
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment configurer les paiements express pour PayPal afin d'activer des fonctionnalités de paiement plus rapides dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment configurer les paiements express pour PayPal afin d'activer des fonctionnalités de paiement plus rapides dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>Termes clés
 
@@ -28,7 +28,7 @@ Cette rubrique décrit comment configurer les paiements express pour PayPal afin
 |---|---|
 | Portefeuille PayPal | L'expérience client et l'intégration prises en charge par le connecteur PayPal. Il est également connu sous le nom de bouton PayPal. |
 | Portefeuille | Un type de paiement qui n'inclut pas les caractéristiques de paiement traditionnelles, telles que la plage de numéros d'identification bancaire (BIN) et la date d'expiration, qui sont utilisées pour différencier les types de cartes de crédit et de débit. |
-| Paiement express | Un module Commerce qui prend en charge un comportement de paiement plus rapide lorsque des méthodes de paiement prises en charge sont utilisées. Cette rubrique couvre l'utilisation du module de paiement express avec PayPal. |
+| Paiement express | Un module Commerce qui prend en charge un comportement de paiement plus rapide lorsque des méthodes de paiement prises en charge sont utilisées. Cet article couvre l'utilisation du module de paiement express avec PayPal. |
 
 Dynamics 365 Commerce offre une intégration prête à l'emploi pour PayPal Wallet. Lorsque Dynamics 365 Payment Connector pour PayPal est configuré, le bouton PayPal apparaît comme mode de paiement sélectionnable lors du paiement de la commande en ligne. Lorsque les utilisateurs sélectionnent PayPal, ils sont invités à effectuer leur paiement directement via PayPal, puis sont renvoyés à la vitrine en ligne pour terminer leur commande. Le paiement du panier PayPal permet aux clients d'utiliser les informations de leur compte de paiement pour pré-remplir le formulaire de paiement, afin qu'ils puissent terminer le processus de paiement plus rapidement.
 

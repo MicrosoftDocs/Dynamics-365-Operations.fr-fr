@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.23 (janvier 2022)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.23.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849472"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.23 (janvier 2022)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.23. Cette version a un numéro de build de 10.0.1037 et est disponible comme suit :
+Cet article répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.23. Cette version a un numéro de build de 10.0.1037 et est disponible comme suit :
 
 - **Version préliminaire de la version :** octobre 2021
 - **Disponibilité générale de la version (mise à jour manuelle) :** décembre 2021
@@ -29,9 +29,9 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Le tableau suivant répertorie les fonctionnalités incluses dans cette version. La colonne *Fonctionnalité* fournit des liens vers le [programme de publication](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), où vous pouvez voir les dates de lancement officiel de chaque fonctionnalité. La colonne *Plus d’informations* fournit plus de détails et/ou de liens vers la documentation connexe. Pour déterminer comment activer une fonctionnalité, voir la colonne *Activé par*. Pour plus d’informations sur la gestion des fonctionnalités, voir [Présentation de la gestion des fonctions](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Il se peut que nous mettions à jour de cette rubrique pour inclure des fonctionnalités qui auront été intégrées à la version après la publication initiale de cette rubrique.
+Le tableau suivant répertorie les fonctionnalités incluses dans cette version. La colonne *Fonctionnalité* fournit des liens vers le [programme de publication](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), où vous pouvez voir les dates de lancement officiel de chaque fonctionnalité. La colonne *Plus d’informations* fournit plus de détails et/ou de liens vers la documentation connexe. Pour déterminer comment activer une fonctionnalité, voir la colonne *Activé par*. Pour plus d’informations sur la gestion des fonctionnalités, voir [Présentation de la gestion des fonctions](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Il se peut que nous mettions à jour de cet article pour inclure des fonctionnalités qui auront été intégrées à la version après la publication initiale de cet article.
 
-| Fonctionnalités | Fonctionnalité | Informations supplémentaires | Activé par |
+| Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
 | Carnet d’adresses global | Définir un état/province par défaut pour chaque pays/région dans la configuration de l’adresse | Vous pouvez maintenant définir un état/province par défaut pour chaque pays/région dans la configuration d’adresse pour le carnet d’adresses global. Lorsqu’un état/province par défaut est défini, ce sera la valeur par défaut saisie dans les champs état/province lorsque vous créez un nouvel enregistrement de comté ou de ville pour ce pays/région. Voir également [Configuration de l’adresse](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | Activé par défaut. |
 | Inventaire&nbsp;et&nbsp;logistique | [Tâches de pause dans l’application mobile Warehouse Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile](../warehousing/warehouse-app-detours.md) | Gestion des fonctionnalités (*Détours de l’application Warehouse Management*) |
@@ -63,9 +63,9 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 
-Nous avons récemment ajouté ou mis à jour de manière significative les rubriques d’aide suivantes. Ces rubriques ne sont pas nécessairement liées aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans la section précédente. Cependant, elles peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
+Nous avons récemment ajouté ou mis à jour de manière significative les articles d'aide suivants. Ces articles ne sont pas nécessairement liés aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans la section précédente. Cependant, elles peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
 
-| Fonctionnalités | Rubriques nouvelles ou mises à jour |
+| Fonctionnalités | Articles nouveaux ou mis à jour |
 |---|---|
 | Gestion des modifications d’ingénierie | Les attributs d’ingénierie et la recherche d’attributs d’ingénierie [Attributs d’ingénierie et recherche d’attributs d’ingénierie](../engineering-change-management/engineering-attributes-and-search.md) décrivent maintenant comment fonctionne l’héritage des attributs d’ingénierie. |
 | Planification générale | [Plan directeur avec prévisions de la demande](../master-planning/planning-optimization/demand-forecast.md) et [Clés de réduction des prévisions](../master-planning/reduction-keys.md) fournissent maintenant plus d’informations sur la façon de travailler avec les clés de réduction. |
@@ -74,9 +74,9 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 | Planification générale | [Programme d’approvisionnement](../master-planning/supply-schedule.md) |
 | Gestion des entrepôts | [Paramètres globaux des appareils mobiles](../warehousing/mobile-device-parameters.md) |
 | Gestion des entrepôts | [Ancrage](../warehousing/anchoring.md) |
-| Ventes et marketing | Le commerce interentreprises est maintenant décrit en détail, en commençant par [Mettre en place des échanges interentreprises](../sales-marketing/intercompany-trade-set-up.md) et ce sont des sujets connexes. |
+| Ventes et marketing | Le commerce interentreprises est maintenant décrit en détail, en commençant par [Mettre en place des échanges interentreprises](../sales-marketing/intercompany-trade-set-up.md) et ce sont des articles connexes. |
 | Ventes et marketing | [Améliorations des performances du nettoyage de l’historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| Gestion des stocks | La documentation sur la visibilité du stock a été étendue et mise à jour, en commençant par [Présentation du complément de visibilité de stock](../inventory/inventory-visibility.md) et ce sont des sujets connexes. |
+| Gestion des stocks | La documentation sur la Visibilité des stocks a été étendue et mise à jour, en commençant par [Présentation du complément de visibilité de stock](../inventory/inventory-visibility.md) et ce sont des articles connexes. |
 | Gestion des entrepôts | [Comptes d’utilisateur d’appareil mobile](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
@@ -97,12 +97,12 @@ Consultez [Dynamics 365 et les clouds du secteur : plan de la 2e vague de lan
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 
-La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
+L'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
+Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans l'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
 

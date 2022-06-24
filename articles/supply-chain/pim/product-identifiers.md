@@ -1,6 +1,6 @@
 ---
 title: Identificateurs du produit
-description: Cette rubrique fournit des informations sur les différents types d’identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit.
+description: Cet article fournit des informations sur les différents types d’identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851708"
 ---
 # <a name="product-identifiers"></a>Identificateurs du produit
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063339"
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les différents types d’identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit.
+Cet article fournit des informations sur les différents types d’identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit.
 
 Lorsque vous travaillez avec des produits dans l’atelier ou dans un entrepôt avec Microsoft Dynamics ERP ou Microsoft Dynamics CRM, vous devez disposer d’une bonne stratégie pour identifier ces produits et variantes de produit.
 
@@ -125,7 +125,7 @@ Malheureusement, il n’existe aucune fonctionnalité standard qui vous permet d
 | Produits V2 | Numéro du produit, nom de recherche du produit, nom du produit, description du produit | Numéro du produit, nom de recherche du produit, nom du produit, description du produit | En fonction des paramètres de l’entité et de la souche de numéros du numéro de produit, le numéro de produit peut être créé automatiquement lors de l’importation. |
 | Variantes de produit | Numéro du produit, nom de recherche du produit, nom du produit, description du produit | Numéro du produit, nom de recherche du produit, nom du produit, description du produit | Selon le modèle de produit, le numéro de produit peut être créé automatiquement lors de l’importation. Toutefois, vous pouvez importer chaque numéro de produit unique, et ce numéro de produit ne doit pas suivre la structure des modèles de nomenclature produit. |
 | Traductions de produit | Nom du produit, description du produit | Nom du produit, description du produit | Cette entité remplace la langue. Lorsque le nom ou la description de la langue principale d’une entité juridique est ignorée, le nom et la description du produit lui-même sont modifiés. |
-| Création de produit lancé V2 | Numéro d’article, numéro de produit, nom de recherche d’article| Numéro d’article, numéro de produit, nom de recherche d’article, nom de recherche de produit, nom du produit | Cette entité peut être un défi lorsque des souches de numéros sont utilisées lors de la création de nouveaux produits lancés. La souche de numéros **Numéro d’article** et la souche de numéros **Numéro de produit** ont une influence. Toutefois, la souche de numéros **Numéro d’article** est par entité juridique, alors que la souche de numéros **Numéro de produit** est globale. Par conséquent, il n’est pas recommandé d’utiliser la souche de numéros **Numéro d’article** lorsque vous déployez de nouveaux produits lancés. Évidemment, lorsque l’entité est utilisée pour lancer un produit existant, le numéro de produit doit être indiqué dans l’entité. Pour plus d’informations, voir la section « Souches de numéros de produit et d’article » dans cette rubrique. |
+| Création de produit lancé V2 | Numéro d’article, numéro de produit, nom de recherche d’article| Numéro d’article, numéro de produit, nom de recherche d’article, nom de recherche de produit, nom du produit | Cette entité peut être un défi lorsque des souches de numéros sont utilisées lors de la création de nouveaux produits lancés. La souche de numéros **Numéro d’article** et la souche de numéros **Numéro de produit** ont une influence. Toutefois, la souche de numéros **Numéro d’article** est par entité juridique, alors que la souche de numéros **Numéro de produit** est globale. Par conséquent, il n’est pas recommandé d’utiliser la souche de numéros **Numéro d’article** lorsque vous déployez de nouveaux produits lancés. Évidemment, lorsque l’entité est utilisée pour lancer un produit existant, le numéro de produit doit être indiqué dans l’entité. Pour plus d’informations, voir la section « Souches de numéros de produit et d’article » dans cet article. |
 | Variantes de produit lancé | Numéro d’article, dimensions de produit, numéro de produit | Numéro du produit, nom de recherche du produit, nom du produit, description du produit, dimensions de produit | Comme l’entité **Variantes de produit**, cette entité peut être utilisée pour créer des produits qui suivent le modèle de nomenclature de produit ou utilisent leurs propres numéros de produit pour la variante. |
 | Description d’article externe pour les clients | Numéro d’article client, nom d’article client, description du client, compte client | Numéro d’article client, nom d’article client, description du client, compte client | Un groupe de clients (par exemple, une association d’acheteurs) peut être agrégé dans un groupe à l’aide de l’entité **Groupes de clients pour les descriptions d’article externes**. |
 | Description d’article externe pour les fournisseurs | Numéro d’article fournisseur, nom d’article fournisseur, description du fournisseur, compte fournisseur | Numéro d’article fournisseur, nom d’article fournisseur, description du fournisseur, compte fournisseur | Un groupe de fournisseurs (par exemple, une association de ventes ou une organisation sectorielle) peut être agrégé dans un groupe à l’aide de l’entité **Groupes de fournisseurs pour les descriptions d’article externes**. |
@@ -184,7 +184,7 @@ Procédez comme suit pour configurer l’environnement.
 
 Vous pouvez désormais utiliser s entités de données **Entité d’identificateur du service de données communes d’entité de produit**, **Codes d’identification d’entité de produit** et **Portée des identificateurs d’entité de produit** pour exporter les identificateurs de tout système cible.
 
-## <a name="related-topic"></a>Rubrique connexe
+## <a name="related-article"></a>Article connexe
 
 [Rechercher des produits et des variantes de produits lors de la saisie de commande](search-products-product-variants.md)
 

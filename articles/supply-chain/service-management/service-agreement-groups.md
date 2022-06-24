@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des accords de service
-description: Cette rubrique fournit une vue d’ensemble de l’utilisation des accords de service.
+description: Cet article fournit une vue d’ensemble de l’utilisation des accords de service.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc0be99cf492d672f9eaecff25c93b700e7ed230
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5566f559da6340a82ca015fb5dee2dae7887202e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862451"
 ---
 # <a name="service-agreements-overview"></a>Vue d’ensemble des accords de service
 
@@ -35,7 +35,7 @@ Dans le champ **Groupe d’accords de service** dans la page **Paramètres de ge
 - Les trois groupes d’accords paramétrés dans votre société sont Or, Argent et Bronze.
 - Un nouveau gestionnaire de compte de service a été employé dans votre société. Le responsable du service est chargé de traiter avec tous les clients du groupe d’accords « Or ». Vous pouvez filtrer les enregistrements d’accord dans le groupe des accords « Or » afin de rechercher tous les accords pour lesquels vous devez spécifier le nouveau gestionnaire de service comme responsable.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Création de groupes d’accords de service](create-service-agreement-groups.md)
 

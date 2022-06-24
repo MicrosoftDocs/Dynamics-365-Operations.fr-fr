@@ -1,6 +1,6 @@
 ---
 title: Synchroniser directement les produits provenant du module Supply Chain Management sur les produits dans Field Service
-description: Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
+description: Cet article présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 09460139ba2ae7c9be78b1441e1d095952b405f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 114550f01f3aed197480fb6830fe913dbfa7b570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860549"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Synchroniser directement les produits provenant du module Supply Chain Management sur les produits dans Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
+Cet article présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 
 Le modèle **Produits Field Service (Supply Chain Management vers Field Service)** utilisé est basé sur le modèle **Produits (Supply Chain Management vers Sales) – Direct** de Prospect en disponibilités. Pour plus d’informations, voir [Produits (entre Supply Chain Management et Sales) - Direct](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
-Cette rubrique décrit les différences entre les modèles **Produits Field Service (Supply Chain Management vers Field Service)** et **Produits (Supply Chain Management vers Sales) – Direct**.
+Cet article décrit les différences entre les modèles **Produits Field Service (Supply Chain Management vers Field Service)** et **Produits (Supply Chain Management vers Sales) – Direct**.
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 

@@ -1,6 +1,6 @@
 ---
 title: Déploiement en masse de composants en libre-service Commerce hérités
-description: Cette rubrique explique comment utiliser l'infrastructure des programmes d'installation de composants en libre-service pour installer et entretenir en mode silencieux des déploiements.
+description: Cet article explique comment utiliser l'infrastructure des programmes d'installation de composants en libre-service pour installer et entretenir en mode silencieux des déploiements.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898577"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Déploiement en masse de composants en libre-service Commerce hérités
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique s'applique à l'infrastructure scellée, aux programmes d'installation de composants qui sont publiés chaque mois, à partir de la version 10.0.18, et qui sont mis à disposition dans la bibliothèque de ressources partagées dans Microsoft Dynamics Lifecycle Services (LCS). Notez que les premières versions de ces nouveaux programmes d'installation sont désignées comme **(Version préliminaire)**. Cependant, le seul but de cette désignation est de différencier les nouveaux programmes d'installation tandis que Microsoft détermine s'il existe des exigences fonctionnelles supplémentaires pour les utiliser. Cela ne signifie pas que les programmes d'installation ne sont pas valides pour la production. Sur la base de la publication de ces nouveaux programmes d'installation, Microsoft prévoit de déconseiller les anciens programmes d'installation (hérités) en octobre 2023 ou vers cette date. 
+Cet article s'applique à l'infrastructure scellée, aux programmes d'installation de composants qui sont publiés chaque mois, à partir de la version 10.0.18, et qui sont mis à disposition dans la bibliothèque de ressources partagées dans Microsoft Dynamics Lifecycle Services (LCS). Notez que les premières versions de ces nouveaux programmes d'installation sont désignées comme **(Version préliminaire)**. Cependant, le seul but de cette désignation est de différencier les nouveaux programmes d'installation tandis que Microsoft détermine s'il existe des exigences fonctionnelles supplémentaires pour les utiliser. Cela ne signifie pas que les programmes d'installation ne sont pas valides pour la production. Sur la base de la publication de ces nouveaux programmes d'installation, Microsoft prévoit de déconseiller les anciens programmes d'installation (hérités) en octobre 2023 ou vers cette date. 
 
-Cette rubrique explique comment utiliser les nouveaux programmes d'installation pour effectuer une installation silencieuse et des mises à jour de maintenance via des arguments de ligne de commande. Ces arguments vous permettent d'effectuer un déploiement de masse de plusieurs manières différentes.
+Cet article explique comment utiliser les nouveaux programmes d'installation pour effectuer une installation silencieuse et des mises à jour de maintenance via des arguments de ligne de commande. Ces arguments vous permettent d'effectuer un déploiement de masse de plusieurs manières différentes.
 
 > [!NOTE]
 > Les nouveaux programmes d'installation scellés en libre-service ne seront pas disponibles au siège et ne peuvent être téléchargés que via LCS.
@@ -108,7 +108,7 @@ La migration des anciens programmes d'installation de composants de structure en
 
 ### <a name="before-you-begin"></a>Avant de commencer
 
-Il est essentiel que vous supprimiez l'ancien composant Modern POS en libre-service. Pour plus d’informations, voir les étapes de migration plus haut dans cette rubrique.
+Il est essentiel que vous supprimiez l'ancien composant Modern POS en libre-service. Pour plus d’informations, voir les étapes de migration plus haut dans cet article.
 
 ### <a name="examples-of-silent-deployment"></a>Exemples de déploiement silencieux
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> Un fichier de configuration n'est pas requis pour Modern POS. Le programme d'installation dispose désormais de paramètres (affichés plus haut dans cette rubrique) pour les différentes valeurs utilisées lors de l'activation de l'appareil.
+> Un fichier de configuration n'est pas requis pour Modern POS. Le programme d'installation dispose désormais de paramètres (affichés plus haut dans cet article) pour les différentes valeurs utilisées lors de l'activation de l'appareil.
 
 La commande suivante spécifie tous les paramètres qui doivent être utilisés lors de l'activation de l'appareil après l'installation de l'application Modern POS. Cet exemple utilise le registre **Houston-3**, qui est une valeur couramment utilisée dans les données de démonstration Dynamics 365 Commerce.
 
@@ -145,7 +145,7 @@ Vous pouvez mélanger et assortir ces concepts pour obtenir les résultats d'ins
 
 ### <a name="before-you-begin"></a>Avant de commencer
 
-Il est essentiel que vous supprimiez l'ancien composant de station matérielle en libre-service. Pour plus d’informations, voir les étapes de migration plus haut dans cette rubrique. Il n'y a plus d'outil d'information sur le compte marchand. Au lieu de cela, les informations de compte marchand sont installées lorsqu'un terminal de PDV est couplé avec la station matérielle. Il est fortement recommandé d'utiliser cette commande lors du premier test ou de l'utilisation du programme d'installation.
+Il est essentiel que vous supprimiez l'ancien composant de station matérielle en libre-service. Pour plus d’informations, voir les étapes de migration plus haut dans cet article. Il n'y a plus d'outil d'information sur le compte marchand. Au lieu de cela, les informations de compte marchand sont installées lorsqu'un terminal de PDV est couplé avec la station matérielle. Il est fortement recommandé d'utiliser cette commande lors du premier test ou de l'utilisation du programme d'installation.
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Un fichier de configuration n'est pas requis pour la station matérielle. Le programme d'installation dispose désormais de paramètres (affichés plus haut dans cette rubrique) pour les différentes valeurs requises.
+> Un fichier de configuration n'est pas requis pour la station matérielle. Le programme d'installation dispose désormais de paramètres (affichés plus haut dans cet article) pour les différentes valeurs requises.
 
 La commande suivante spécifie tous les paramètres requis pour ignorer les vérifications préalables lors d'une installation standard. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Avant de commencer
 
-Il est essentiel que vous supprimiez l'ancien composant CSU en libre-service (auto-hébergé). Pour plus d’informations, voir les étapes de migration plus haut dans cette rubrique.
+Il est essentiel que vous supprimiez l'ancien composant CSU en libre-service (auto-hébergé). Pour plus d’informations, voir les étapes de migration plus haut dans cet article.
 
 ### <a name="examples-of-silent-deployment"></a>Exemples de déploiement silencieux
 

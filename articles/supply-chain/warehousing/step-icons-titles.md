@@ -1,6 +1,6 @@
 ---
 title: Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management
-description: Cette rubrique décrit comment affecter des icônes et des titres d’étape pour les flux de tâches nouveaux ou personnalisés pour l’application mobile Warehouse Management.
+description: Cet article décrit comment affecter des icônes et des titres d’étape pour les flux de tâches nouveaux ou personnalisés pour l’application mobile Warehouse Management.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890594"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment affecter des icônes d’étape et des titres d’étape pour les flux de tâches nouveaux ou personnalisés pour l’application mobile Warehouse Management.
+Cet article décrit comment affecter des icônes d’étape et des titres d’étape pour les flux de tâches nouveaux ou personnalisés pour l’application mobile Warehouse Management.
 
 Les illustrations suivantes montrent comment les icônes et les titres d’étape apparaissent dans l’application mobile Warehouse Management.
 
@@ -29,7 +29,7 @@ Les illustrations suivantes montrent comment les icônes et les titres d’étap
 
 ## <a name="turn-this-feature-on-or-off"></a>Activer ou désactiver cette fonctionnalité
 
-Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Paramètres utilisateur, icônes et titres d’étape pour la nouvelle application d’entrepôt* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer les expéditions sortantes à partir des tâches par lots* dans l’espace de travail [Paramètres utilisateur, icônes et titres des étapes pour la nouvelle application d’entrepôt](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour utiliser la fonctionnalité décrite dans cet article, la fonctionnalité *Paramètres utilisateur, icônes et titres d’étape pour la nouvelle application d’entrepôt* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer les expéditions sortantes à partir des tâches par lots* dans l’espace de travail [Paramètres utilisateur, icônes et titres des étapes pour la nouvelle application d’entrepôt](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>ID, classes et icônes d’étape standard
 
@@ -39,9 +39,9 @@ Chaque étape d’un flux de tâches est identifiée par un ID d’étape, et ch
 
 Le tableau suivant répertorie chaque ID d’étape actuellement disponible et sa classe d’étape correspondante. Le nom de contrôle du champ de saisie principal est utilisé comme ID d’étape.
 
-Pour obtenir un exemple qui montre comment ces ID et classes d’étape sont utilisés, consultez l’implémentation de la méthode `WHSMobileAppStepInfoBuilder.stepId()` dans la section [Exemple : affecter des icônes et des titres d’étape pour un flux personnalisé](#example) plus loin dans cette rubrique.
+Pour obtenir un exemple qui montre comment ces ID et classes d’étape sont utilisés, consultez l’implémentation de la méthode `WHSMobileAppStepInfoBuilder.stepId()` dans la section [Exemple : affecter des icônes et des titres d’étape pour un flux personnalisé](#example) plus loin dans cet article.
 
-| ID d’étape | Classe d’étape |
+| ID étape | Classe d’étape |
 |-|-|
 | BatchDisposition | WHSMobileAppStepBatchDisposition |
 | Transporteur | WHSMobileAppStepCarrier |
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 L’identificateur de l’icône d’étape est stocké dans le membre de la classe `defaultStepIcon`, et le titre de l’étape est stocké dans le membre de la classe `defaultStepTitle`.
 
-Pour affecter une icône d’étape, définissez `defaultStepIcon` sur l’un des ID d’icône répertoriés dans la section [Icônes d’étape disponibles](#step-icons) plus haut dans cette rubrique.
+Pour affecter une icône d’étape, définissez `defaultStepIcon` sur l’un des ID d’icône répertoriés dans la section [Icônes d’étape disponibles](#step-icons) plus haut dans cet article.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Utiliser une icône et un titre d’étape standard ou personnalisé pour la saisie du poids
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Vous créez ensuite une classe d’étape pour l’étape `NewWeight`. Le code doit ressembler au code de l’exemple `ContainerId` présenté plus haut dans cette rubrique.
+Vous créez ensuite une classe d’étape pour l’étape `NewWeight`. Le code doit ressembler au code de l’exemple `ContainerId` présenté plus haut dans cet article.
 
 #### <a name="override-the-stepinfo-method"></a>Remplacer la méthode stepInfo()
 

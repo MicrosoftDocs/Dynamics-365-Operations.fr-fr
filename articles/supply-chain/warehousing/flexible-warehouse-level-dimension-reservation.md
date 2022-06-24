@@ -1,6 +1,6 @@
 ---
-title: Politique de réservation de dimension flexible au niveau de l’entrepôt
-description: Cette rubrique décrit la politique de réservation de stock qui permet aux entreprises qui vendent des produits suivis par lots et exécutent leur logistique en tant qu’opérations activées par WMS de réserver des lots spécifiques pour les commandes client, même si la hiérarchie de réservation associée aux produits interdit la réservation de lots spécifiques.
+title: Stratégie flexible de réservation de dimension au niveau de l’entrepôt
+description: Cet article décrit la politique de réservation de stock qui permet aux entreprises qui vendent des produits suivis par lots et exécutent leur logistique en tant qu’opérations activées par WMS de réserver des lots spécifiques pour les commandes client, même si la hiérarchie de réservation associée aux produits interdit la réservation de lots spécifiques.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885810"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Stratégie flexible de réservation de dimension au niveau de l’entrepôt
 
@@ -28,7 +28,7 @@ Lorsqu’une hiérarchie de réservation de stock de type *Batch-below\[location
 
 De la même manière, des contenants spécifiques ne peuvent pas être réservés pour des produits sur des commandes client lorsque ces produits sont associés à la hiérarchie de réservation par défaut.
 
-Cette rubrique décrit la politique de réservation de stock qui permet à ces entreprises de réserver des lots ou des contenants spécifiques, même lorsque les produits sont associés à une hiérarchie de réservation *Batch-below\[location\]*.
+Cet article décrit la politique de réservation de stock qui permet à ces entreprises de réserver des lots ou des contenants spécifiques, même lorsque les produits sont associés à une hiérarchie de réservation *Batch-below\[location\]*.
 
 ## <a name="inventory-reservation-hierarchy"></a>Hiérarchie de réservation du stock
 

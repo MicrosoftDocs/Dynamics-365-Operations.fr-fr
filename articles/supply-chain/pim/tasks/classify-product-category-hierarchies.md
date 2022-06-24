@@ -1,6 +1,6 @@
 ---
 title: Classer un produit à l’aide des hiérarchies de catégories
-description: Cette rubrique décrit la procédure de classification d’un produit à l’aide des hiérarchies de catégories.
+description: Cet article décrit la procédure de classification d’un produit à l’aide des hiérarchies de catégories.
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857a9e69e63216f22a4e75d9606ef6ceb77f1dbc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29b1d7dc66e50822694a20235be096431e228ce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862625"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Classer un produit à l’aide des hiérarchies de catégories
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit la procédure de classification d’un produit à l’aide des hiérarchies de catégories. Utilisez les hiérarchies de catégories pour classer les produits pour l’exportation, l’approvisionnement, la vente ou d’autres fins. Cette tâche est généralement effectuée par un responsable de produit. L’exemple utilise le numéro de produit M0009 dans les données de démonstration de la société fictive USMF.
+Cet article décrit la procédure de classification d’un produit à l’aide des hiérarchies de catégories. Utilisez les hiérarchies de catégories pour classer les produits pour l’exportation, l’approvisionnement, la vente ou d’autres fins. Cette tâche est généralement effectuée par un responsable de produit. L’exemple utilise le numéro de produit M0009 dans les données de démonstration de la société fictive USMF.
 
 1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
 1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.

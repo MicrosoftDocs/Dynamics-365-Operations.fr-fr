@@ -1,6 +1,6 @@
 ---
 title: Planifier la création de travail pendant la vague
-description: Cette rubrique décrit comment configurer et utiliser la méthode de traitement de vague Planifier la création de travail.
+description: Cet article décrit comment configurer et utiliser la méthode de traitement de vague Planifier la création de travail.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852068"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Planifier la création de travail pendant la vague
 
@@ -30,7 +30,7 @@ Lorsque la fonctionnalité est activée, le travail planifié est automatiquemen
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Activer les fonctionnalités de création de travail planifiée dans la gestion des fonctionnalités
 
-Pour utiliser les fonctionnalités décrites dans cette rubrique, elles doivent être activées pour votre système. Utilisez l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités suivantes dans l’ordre indiqué :
+Pour utiliser les fonctionnalités décrites dans cet article, elles doivent être activées pour votre système. Utilisez l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités suivantes dans l’ordre indiqué :
 
 1. **Blocage des tâches à l’échelle de l’organisation** : Requis pour la configuration manuelle et automatique de la création de travail planifiée. (À partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
 1. **Planifier la création du travail** : Requis pour la configuration manuelle et automatique de la création de travail planifiée.

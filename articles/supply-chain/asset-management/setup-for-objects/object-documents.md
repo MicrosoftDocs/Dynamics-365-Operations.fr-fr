@@ -1,6 +1,6 @@
 ---
 title: Documents d’actif
-description: Cette rubrique explique les documents d’actif dans le module Gestion des actifs.
+description: Cet article explique les documents d’actif dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899467"
 ---
 # <a name="asset-documents"></a>Documents d’actif
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722485"
 
  
 
-Cette rubrique explique les documents d’actif dans le module Gestion des actifs.
+Cet article explique les documents d’actif dans le module Gestion des actifs.
 
 Dans le module Gestion des actifs, vous pouvez paramétrer des documents afin qu’ils soient automatiquement associés aux types de tâche, aux fabricants d’actif, aux types d’actif ou aux actifs, par exemple. Cette fonctionnalité est utile lorsque des versions de document mises à jour sont publiées. Dans ce cas, il vous suffit de placer le document mis à jour dans l’emplacement standard que vous utilisez pour vos documents Supply Chain Management, et de joindre le document à l’enregistrement de document d’actif que vous avez créé. Le document mis à jour est ensuite accessible à partir des éléments de menu **Tous les actifs**, **Actifs actifs**, **Mes actifs actifs**, **Tous les ordres de travail** et **Tâches de l’ordre de travail actif**. Le processus pour joindre des documents à un enregistrement de document d’actif utilise le système de gestion des documents standard.
 

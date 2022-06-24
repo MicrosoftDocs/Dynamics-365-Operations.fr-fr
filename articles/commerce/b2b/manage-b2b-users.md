@@ -1,6 +1,6 @@
 ---
 title: Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
-description: Cette rubrique décrit comment ajouter, supprimer et modifier des utilisateurs de partenaires commerciaux sur les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce et de Commerce Headquarters.
+description: Cet article décrit comment ajouter, supprimer et modifier des utilisateurs de partenaires commerciaux sur les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce et de Commerce Headquarters.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860293"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment ajouter, supprimer et modifier des utilisateurs de partenaires commerciaux sur les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce et de Commerce Headquarters.
+Cet article décrit comment ajouter, supprimer et modifier des utilisateurs de partenaires commerciaux sur les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce et de Commerce Headquarters.
 
 > [!NOTE]
-> - La rubrique [Gérer les partenaires commerciaux B2B à l’aide des hiérarchies de clients](partners-customer-hierarchies.md) est un prérequis pour ce document.
+> - L'article [Gérer les partenaires commerciaux B2B à l’aide des hiérarchies de clients](partners-customer-hierarchies.md) est un prérequis pour ce document.
 > - Assurez-vous d’avoir initialisé l’entité des types de documents dans Commerce headquarters en ouvrant le formulaire **Types de documents** dans **Administration de l’organisation \> Gestion de documents \> Types de documents**.
 
 Les sites Web de commerce électronique B2B exigent que les organisations s’inscrivent pour devenir des partenaires commerciaux. Une fois qu’une organisation a soumis les détails d’inscription à un site e-commerce B2B, la demande d’inscription processuspasse par un processus de qualification. Si l’organisation est qualifiée avec succès, elle est intégrée en tant que partenaire commercial.
@@ -121,7 +121,7 @@ Pour intégrer des partenaires commerciaux et des utilisateurs directement dans 
 
 ## <a name="additional-information"></a>Informations supplémentaires
 
-- Toutes les tâches mentionnées dans cette rubrique peuvent être configurées pour s’exécuter selon une planification dans un format de lot. On s’attend à ce que les partenaires commerciaux configurent les travaux par lots selon les besoins.
+- Toutes les tâches mentionnées dans cet article peuvent être configurées pour s’exécuter selon une planification dans un format de lot. On s’attend à ce que les partenaires commerciaux configurent les travaux par lots selon les besoins.
 - Actuellement, un seul enregistrement utilisateur/client peut être désigné en tant qu’utilisateur administrateur, et ce rôle ne peut être modifié que dans Commerce Headquarters. Il n’y a pas de prise en charge des fonctionnalités en libre service qui permettent aux partenaires commerciaux de désigner plusieurs administrateurs ou de changer d’administrateur à partir de sites Web de commerce électronique B2B.
 - Bien que des limites de dépenses puissent être définies pour les utilisateurs, l’application des limites de dépenses pendant le processus de saisie des commandes n’a pas encore été mise en œuvre.
 - Toute la logique métier et la validation de l’expérience d’un utilisateur sur un site Web de commerce électronique B2B sont basées sur la configuration de l’enregistrement client qui est mappé à l’utilisateur dans Commerce Headquarters.

@@ -1,6 +1,6 @@
 ---
 title: Paramètres de langue et d’utilisateur de l’application Point of sale (POS)
-description: Cette rubrique décrit la modification des paramètres de langue dans Modern POS (MPOS) et Cloud POS.
+description: Cet article décrit la modification des paramètres de langue dans Modern POS (MPOS) et Cloud POS.
 author: jblucher
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15490885b5ce366edbab669893f3c3e36585f308
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863345"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Paramètres de langue et d’utilisateur de l’application Point of sale (POS)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la modification des paramètres de langue dans Modern POS (MPOS) et Cloud POS.
+Cet article décrit la modification des paramètres de langue dans Modern POS (MPOS) et Cloud POS.
 
 ## <a name="overview"></a>Vue d’ensemble
 Modern POS (MPOS) et Cloud POS prennent en charge les environnements dans lesquels les paramètres de langue et les traductions peuvent varier entre le magasin et les paramètres utilisateur. Par exemple, le magasin peut être situé dans une région où l’anglais est la langue la plus parlée par les clients, mais certains collaborateurs préfèrent utiliser l’application avec des traductions françaises.

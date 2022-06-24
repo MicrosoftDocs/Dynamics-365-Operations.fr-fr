@@ -1,6 +1,6 @@
 ---
 title: Commandes des clients en point de vente (PDV)
-description: Cette rubrique fournit des informations sur les commandes client dans le point de vente (PDV). Les commandes client sont également appelées commandes spéciales. La rubrique inclut une discussion sur les paramètres associés et les flux de transaction.
+description: Cet article fournit des informations sur les commandes client dans le point de vente (PDV). Les commandes client sont également appelées commandes spéciales. L'article inclut une discussion sur les paramètres associés et les flux de transaction.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850380"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Commandes des clients en point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur la création et la gestion des commandes client dans l’application de point de vente (PDV). Les commandes client peuvent être utilisées pour capturer les ventes pour lesquelles les acheteurs souhaitent récupérer des produits à une date ultérieure, récupérer des produits à un autre endroit ou se faire expédier des articles. 
+Cet article fournit des informations sur la création et la gestion des commandes client dans l’application de point de vente (PDV). Les commandes client peuvent être utilisées pour capturer les ventes pour lesquelles les acheteurs souhaitent récupérer des produits à une date ultérieure, récupérer des produits à un autre endroit ou se faire expédier des articles. 
 
 Dans le monde de Commerce dans plusieurs canaux, de nombreux détaillants offrent la possibilité que les commandes client ou les commandes spéciales répondent à diverses exigences de produit et de traitement. Voici quelques scénarios classiques :
 

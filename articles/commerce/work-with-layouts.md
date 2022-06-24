@@ -1,6 +1,6 @@
 ---
 title: Utilisation des dispositions prédéfinies
-description: Cette rubrique décrit l’utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit l’utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896832"
 ---
 # <a name="work-with-preset-layouts"></a>Utilisation des dispositions prédéfinies
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit l’utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
+Cet article décrit l’utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
 
-Avant d’exécuter les procédures décrites dans cette rubrique, assurez-vous de lire [Dispositions prédéfinies et personnalisées](templates-layouts-overview.md#preset-and-custom-layouts). Pour obtenir une vue d’ensemble générale, voir [Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md).
+Avant d’exécuter les procédures décrites dans cet article, assurez-vous de lire [Dispositions prédéfinies et personnalisées](templates-layouts-overview.md#preset-and-custom-layouts). Pour obtenir une vue d’ensemble générale, voir [Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md).
 
 ## <a name="create-a-new-preset-layout"></a>Créer une dispositions prédéfinie
 

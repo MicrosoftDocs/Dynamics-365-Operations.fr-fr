@@ -1,6 +1,6 @@
 ---
 title: Modules de collecte de produits
-description: Cette rubrique fournit une vue d’ensemble des modules de collecte de produits dans Microsoft Dynamics 365 Commerce.
+description: Cet article fournit une vue d’ensemble des modules de collecte de produits dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 05/18/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 02a3d6314729f51d6c1dced5037f78d12355c09a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871657"
 ---
 # <a name="product-collection-modules"></a>Modules de collecte de produits
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des modules de collecte de produits dans Microsoft Dynamics 365 Commerce.
+Cet article fournit une vue d’ensemble des modules de collecte de produits dans Microsoft Dynamics 365 Commerce.
 
 La découverte de produit est un outil principal que les détaillants utilisent pour communiquer avec leurs clients sur un site web de commerce électronique. Les modules de collecte de produits aident les détaillants à générer des expériences d’achat attrayantes en fournissant une interface visuelle intuitive pouvant être utilisée pour créer rapidement des collectes de produits.
 

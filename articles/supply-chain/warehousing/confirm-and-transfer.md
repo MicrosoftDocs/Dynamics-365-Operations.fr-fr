@@ -1,6 +1,6 @@
 ---
 title: Confirmer et transférer
-description: Cette rubrique explique comment utiliser la fonctionnalité Confirmer et transférer, qui permet aux utilisateurs d’expédier des chargements hors de l’entrepôt avant de finaliser toutes les tâches associées à ces chargements.
+description: Cet article explique comment utiliser la fonctionnalité Confirmer et transférer, qui permet aux utilisateurs d’expédier des chargements hors de l’entrepôt avant de finaliser toutes les tâches associées à ces chargements.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900562"
 ---
 # <a name="confirm-and-transfer"></a>Confirmer et transférer
 
@@ -55,11 +55,11 @@ Vous ne pouvez fractionner que les chargements qui répondent à l’ensemble de
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Activer ou désactiver la fonction de confirmation et de transfert
 
-Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Confirmer et transférer* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer et transférer* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour utiliser la fonctionnalité décrite dans cet article, la fonctionnalité *Confirmer et transférer* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer et transférer* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-confirm-and-transfer"></a>Configurer la fonctionnalité Confirmer et transférer
 
-Pour utiliser la fonctionnalité *Confirmer et transférer*, vous devez l’activer dans chaque modèle de chargement approprié. En outre, selon vos besoins, vous souhaitez peut-être préparer vos modèles de travail pour prendre en charge la fonctionnalité. Si vous souhaitez exécuter l’exemple de scénario fourni plus loin dans cette rubrique, configurez votre système comme décrit dans cette section. (Ce scénario est basé sur les données de démonstration **USMF**.)
+Pour utiliser la fonctionnalité *Confirmer et transférer*, vous devez l’activer dans chaque modèle de chargement approprié. En outre, selon vos besoins, vous souhaitez peut-être préparer vos modèles de travail pour prendre en charge la fonctionnalité. Si vous souhaitez exécuter l’exemple de scénario fourni plus loin dans cet article, configurez votre système comme décrit dans cette section. (Ce scénario est basé sur les données de démonstration **USMF**.)
 
 ### <a name="prepare-your-load-templates"></a>Préparer vos modèles de chargement
 
@@ -69,9 +69,9 @@ Pour utiliser la fonctionnalité *Confirmer et transférer*, vous devez l’acti
 
 ### <a name="prepare-your-work-templates"></a>Préparer vos modèles de travail
 
-Cette configuration n’est pas requise dans toutes les situations. L’exemple illustré ici garantit que le travail peut être réparti par expédition pour prendre en charge l’exemple de scénario fourni plus loin dans cette rubrique. Il existe également d’autres moyens d’atteindre ce résultat.
+Cette configuration n’est pas requise dans toutes les situations. L’exemple illustré ici garantit que le travail peut être réparti par expédition pour prendre en charge l’exemple de scénario fourni plus loin dans cet article. Il existe également d’autres moyens d’atteindre ce résultat.
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Travail \> Modèles de travail**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Travail \> Modèles de travail**.
 1. Dans la grille de la partie supérieure de la page, sélectionnez un modèle de travail existant où vous souhaitez configurer la fonctionnalité *Confirmer et transférer*. (Si vous utilisez les données de démonstration **USMF**, sélectionnez le modèle de travail **51 Prélever pour échelonner**.) Vous pouvez également créer un nouveau modèle de travail.
 1. Dans le volet Actions, sélectionnez **Modifier la requête** pour ouvrir la boîte de dialogue **Vente**.
 1. Dans la boîte de dialogue **Vente**, sous l’onglet **Tri**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.

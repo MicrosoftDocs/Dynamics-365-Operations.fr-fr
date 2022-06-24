@@ -1,6 +1,6 @@
 ---
-title: Module Lecteur vidéo
-description: Cette rubrique couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+title: Module de lecteur vidéo
+description: Cet article couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7ec2ea0f8360bbf1dffa023e4546e4deadb5ff9
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 20d516c58bf619065d57b27bc5a614eb7bd4cea9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873434"
 ---
-# <a name="video-player-module"></a>Module de lecture vidéo
+# <a name="video-player-module"></a>Module de lecteur vidéo
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Le module de lecteur vidéo permet de prendre en charge la lecture de vidéos. Il peut être ajouté à n’importe quelle page, à condition que le contenu vidéo soit téléchargé et disponible dans le système de gestion de contenu (CMS). Le module lecteur vidéo prend en charge le type de média .mp4.
 

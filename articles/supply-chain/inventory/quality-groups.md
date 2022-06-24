@@ -1,6 +1,6 @@
 ---
 title: Groupes de qualité d'article
-description: Cette rubrique décrit comment utiliser et créer des groupes de qualité d'article pour regrouper logiquement des produits afin qu'ils puissent être affectés à des associations de qualité pour la génération automatique d'ordres de qualité.
+description: Cet article décrit comment utiliser et créer des groupes de qualité d'article pour regrouper logiquement des produits afin qu'ils puissent être affectés à des associations de qualité pour la génération automatique d'ordres de qualité.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7a4932c561c052bec1eb0094a390e315b9b1bb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bf1ce49fa58fd1a8a5aa07636e0b2bd7e2fc10e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875363"
 ---
 # <a name="item-quality-groups"></a>Groupes de qualité d'article
 
 [!include [banner](../includes/banner.md)]
 
-Un groupe de qualité représente des besoins de test communs pour les articles. Cette rubrique décrit comment utiliser et créer des groupes de qualité d'article pour regrouper logiquement des produits afin qu'ils puissent être affectés à des associations de qualité pour la génération automatique d'ordres de qualité.
+Un groupe de qualité représente des besoins de test communs pour les articles. Cet article décrit comment utiliser et créer des groupes de qualité d'article pour regrouper logiquement des produits afin qu'ils puissent être affectés à des associations de qualité pour la génération automatique d'ordres de qualité.
 
 Pour paramétrer, modifier et afficher les articles affectés à un groupe de qualité ou les groupes de qualité affectés à un article, accédez à **Gestion des stocks \> Paramétrage \> Groupes de qualité**. Une fois que vous avez défini les besoins de test sur la page **Groupes de test**, vous pouvez définir les règles de génération automatique des ordres de qualité. Pour simplifier le processus, vous ne devez pas définir de règles pour des articles individuels. Au lieu de cela, vous pouvez définir des règles pour un groupe de qualité sur la page **Associations de qualité**.
 

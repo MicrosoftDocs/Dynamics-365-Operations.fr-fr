@@ -1,6 +1,6 @@
 ---
 title: Créer un catalogue d’approvisionnement
-description: Cette rubrique illustre la création d’un catalogue d’approvisionnement.
+description: Cet article illustre la création d’un catalogue d’approvisionnement.
 author: GalynaFedorova
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e94f2ef23a3c4020f46138a10fcdf84552451515
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8e35e8c5b5c93fa9aac914f04e7ea658748cb052
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869544"
 ---
 # <a name="create-a-procurement-catalog"></a>Créer un catalogue d’approvisionnement
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique illustre la création d’un catalogue d’approvisionnement. Cette tâche est généralement effectuée par un professionnel de l’approvisionnement. Vous apprendrez également comment les employés peuvent utiliser le catalogue quand ils créent une demande. Avant que vous puissiez créer un catalogue, il doit y avoir une hiérarchie des catégories d’approvisionnement dans votre système. La hiérarchie est héritée par le nouveau catalogue, avec tous les produits qui sont dans la hiérarchie. Vous pouvez utiliser ce guide dans les données de démonstration de la société USMF où la hiérarchie des catégories d’approvisionnement est disponible, ainsi que les exemples utilisés dans les étapes de procédure.
+Cet article illustre la création d’un catalogue d’approvisionnement. Cette tâche est généralement effectuée par un professionnel de l’approvisionnement. Vous apprendrez également comment les employés peuvent utiliser le catalogue quand ils créent une demande. Avant que vous puissiez créer un catalogue, il doit y avoir une hiérarchie des catégories d’approvisionnement dans votre système. La hiérarchie est héritée par le nouveau catalogue, avec tous les produits qui sont dans la hiérarchie. Vous pouvez utiliser ce guide dans les données de démonstration de la société USMF où la hiérarchie des catégories d’approvisionnement est disponible, ainsi que les exemples utilisés dans les étapes de procédure.
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Assurez-vous qu’une hiérarchie des catégories d’approvisionnement existe

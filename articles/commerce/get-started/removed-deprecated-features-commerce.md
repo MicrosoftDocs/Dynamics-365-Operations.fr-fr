@@ -1,6 +1,6 @@
 ---
-title: Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
-description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
+title: Fonctions supprimées ou déconseillées dans Dynamics 365 Commerce
+description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
 author: josaw
 ms.date: 04/27/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910522"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
+# <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Commerce
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
+Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.

@@ -1,6 +1,6 @@
 ---
-title: Exemples et logique du rapport de vieillissement des stocks
-description: Cette rubrique présente quelques exemples qui montrent comment interpréter les résultats d’un rapport de vieillissement des stocks.
+title: Exemples et logique Stock - Balance âgée
+description: Cet article présente quelques exemples qui montrent comment interpréter les résultats d’un rapport de vieillissement des stocks.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848018"
 ---
-# <a name="inventory-aging-report-examples-and-logic"></a>Exemples et logique du rapport de vieillissement des stocks
+# <a name="inventory-aging-report-examples-and-logic"></a>Exemples et logique Stock - Balance âgée
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente quelques exemples qui montrent comment interpréter les résultats d’un rapport sur le **vieillissement des stocks**. Ce rapport classe les quantités en stock et les valeurs de stock pour un article ou un groupe d’articles sélectionné dans plusieurs plages de périodes. Cette rubrique montre également la logique interne du rapport.
+Cet article présente quelques exemples qui montrent comment interpréter les résultats d’un rapport de **vieillissement des stocks**. Ce rapport classe les quantités en stock et les valeurs de stock pour un article ou un groupe d’articles sélectionné dans plusieurs plages de périodes. Cet article montre également la logique interne du rapport.
 
-Les exemples de cette rubrique montrent les résultats présentés dans un rapport **Vieillissement des stocks** standard. Cependant, en général, nous vous recommandons d’utiliser la version de ce rapport [Stockage des rapports de vieillissement des stocks](inventory-aging-report-storage.md), en particulier lorsque de nombreux articles et entrepôts doivent être traités. Le stockage des rapports de vieillissement des stocks enregistre chaque rapport que vous générez, affiche les résultats sous forme de page interactive et de graphique et vous permet d’exporter n’importe quel rapport enregistré.
+Les exemples de cet article montrent les résultats présentés dans un rapport **Vieillissement des stocks** standard. Cependant, en général, nous vous recommandons d’utiliser la version de ce rapport [Stockage des rapports de vieillissement des stocks](inventory-aging-report-storage.md), en particulier lorsque de nombreux articles et entrepôts doivent être traités. Le stockage des rapports de vieillissement des stocks enregistre chaque rapport que vous générez, affiche les résultats sous forme de page interactive et de graphique et vous permet d’exporter n’importe quel rapport enregistré.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Exemples de données utilisées
 
-Les exemples de cette rubrique sont basés sur les exemples de données de transaction de stock décrits dans cette section.
+Les exemples de cet article sont basés sur les exemples de données de transaction de stock décrits dans cette section.
 
 ### <a name="storage-dimension-setup"></a>Configuration de la dimension de stockage
 

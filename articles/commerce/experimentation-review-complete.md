@@ -1,30 +1,24 @@
 ---
 title: Promouvoir une variante et terminer une expérience
-description: Cette rubrique décrit comment promouvoir une variante réussie et réaliser une expérience dans Dynamics 365 Commerce.
+description: Cet article décrit comment promouvoir une variante réussie et réaliser une expérience dans Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/07/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e9a978551622bbb14d9213f607d9dfabe42672a
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738744"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942735"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promouvoir une variante et terminer une expérience
 
-Cette rubrique décrit comment promouvoir la variante qui a produit les meilleurs résultats dans votre expérience et comment terminer le test. Le diagramme suivant montre toutes les étapes impliquées dans la configuration et l’exécution d’une expérience sur un site web d’e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d’autres rubriques.
+Cet article décrit comment promouvoir la variante qui a produit les meilleurs résultats dans votre expérience et comment terminer le test. Le diagramme suivant montre toutes les étapes impliquées dans la configuration et l’exécution d’une expérience sur un site web d’e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d’autres articles.
 
 [ ![Expérimentation parcours utilisateur - Examiner et terminer.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
@@ -48,7 +42,7 @@ Pour promouvoir la variante la plus performante, procédez comme suit.
 ## <a name="delete-your-experiment"></a>Supprimer votre expérience
 Bien qu’il ne soit pas nécessaire de supprimer une expérience terminée dans Commerce, vous pouvez choisir de la supprimer pour économiser de l’espace ou nettoyer votre espace de travail. 
 
-Pour supprimer une expérience dans le générateur de site Commerce, procédez comme suit.
+Pour supprimer une expérience terminée dans le générateur de site Commerce, procédez comme suit.
 
 1. Sélectionnez **Expériences** dans le volet de navigation de gauche, puis sélectionnez l’expérience. 
     > [!NOTE]

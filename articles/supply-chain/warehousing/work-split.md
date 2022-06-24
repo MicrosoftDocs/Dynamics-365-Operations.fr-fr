@@ -1,6 +1,6 @@
 ---
 title: Fractionnement du travail
-description: Cette rubrique fournit des informations sur la fonctionnalité de fractionnement du travail. Cette fonctionnalité vous permet de diviser les ordres de travail volumineux en plusieurs ordres de travail plus petits que vous pouvez ensuite affecter à plusieurs magasiniers. De cette manière, le même travail peut être prélevé simultanément par plusieurs magasiniers.
+description: Cet article fournit des informations sur la fonctionnalité de fractionnement du travail. Cette fonctionnalité vous permet de diviser les ordres de travail volumineux en plusieurs ordres de travail plus petits que vous pouvez ensuite affecter à plusieurs magasiniers. De cette manière, le même travail peut être prélevé simultanément par plusieurs magasiniers.
 author: Mirzaab
 ms.date: 10/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b9914958684d552f0b45ddca641238124ade3454
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 83333f4d8c755bc0ca4b2d141a5591ef43501b64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857023"
 ---
 # <a name="work-split"></a>Fractionnement du travail
 

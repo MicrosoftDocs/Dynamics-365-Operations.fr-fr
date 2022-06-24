@@ -1,6 +1,6 @@
 ---
-title: Présentation du site d’e-commerce
-description: Cette rubrique fournit une vue d’ensemble de la prise en charge des sites d’e-commerce dans Microsoft Dynamics 365 Commerce.
+title: Vue d’ensemble du site d’e-commerce
+description: Cet article fournit une vue d’ensemble de la prise en charge des sites d’e-commerce dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899119"
 ---
-# <a name="e-commerce-site-overview"></a>Présentation du site d’e-commerce
+# <a name="e-commerce-site-overview"></a>Vue d’ensemble du site d’e-commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de la prise en charge des sites d’e-commerce dans Microsoft Dynamics 365 Commerce. Il comprend des informations sur la façon dont les boutiques en ligne d’e-commerce sont initialisées et gérées dans Dynamics 365 Commerce. Elle fournit également des liens vers plus d’informations sur les magasins en ligne et des informations sur la paramétrage et de configuration d’un site d’e-commerce. Bien que ce sujet couvre la plupart des bases, il ne couvre pas tout ce qui est nécessaire pour configurer un site d’e-commerce de production. Des sujets plus avancés peuvent être trouvés dans la documentation Dynamics 365 Commerce.
+Cet article fournit une vue d’ensemble de la prise en charge des sites d’e-commerce dans Microsoft Dynamics 365 Commerce. Il comprend des informations sur la façon dont les boutiques en ligne d’e-commerce sont initialisées et gérées dans Dynamics 365 Commerce. Elle fournit également des liens vers plus d’informations sur les magasins en ligne et des informations sur la paramétrage et de configuration d’un site d’e-commerce. Bien que ce sujet couvre la plupart des bases, il ne couvre pas tout ce qui est nécessaire pour configurer un site d’e-commerce de production. Des sujets plus avancés peuvent être trouvés dans la documentation Dynamics 365 Commerce.
 
 ## <a name="online-store-channel"></a>Canal de magasin en ligne
 
@@ -74,16 +74,16 @@ Dynamics 365 Commerce fait appel à Azure Active Directory (Azure AD) entreprise
 
 ## <a name="overview-of-the-default-site-pages"></a>Vue d’ensemble des pages du site par défaut
 
-Les sites **Par défaut** et **fabrikam** incluent des modèles, des fragments et des pages préconfigurés pour vous aider à démarrer. Pour plus d’informations, voir les rubriques suivantes :
+Les sites **Par défaut** et **fabrikam** incluent des modèles, des fragments et des pages préconfigurés pour vous aider à démarrer. Pour plus d’informations, voir l’article suivant :
 
 - [Vue d’ensemble de la page d’accueil](quick-tour-home-page.md)
 - [Vue d’ensemble de la page détaillée du produit](quick-tour-pdp.md)
-- [Vue d’ensemble des pages du panier et du paiement](quick-tour-cart-checkout.md)
+- [Vue d’ensemble des pages de panier et de caisse](quick-tour-cart-checkout.md)
 - [Vue d’ensemble des pages de gestion de compte](quick-tour-account-management.md)
 
 ## <a name="manage-site-settings"></a>Gérer les paramètres de site
 
-Pour plus d’informations sur la gestion des paramètres de votre site, voir les rubriques suivantes :
+Pour plus d’informations sur la gestion des paramètres de votre site, voir les articles suivants :
 
 - [Gestion des utilisateurs et des rôles d’e-commerce](manage-ecommerce-users-roles.md)
 - [Considérations relatives à l’optimisation du référencement d’un site auprès d’un moteur de recherche (SEO) pour le site](search-engine-optimization-considerations.md)
@@ -92,7 +92,7 @@ Pour plus d’informations sur la gestion des paramètres de votre site, voir le
 
 ## <a name="manage-site-content"></a>Gérer le contenu du site
 
-Pour plus d’informations sur la gestion d contenu du site, voir les rubriques suivantes :
+Pour plus d’informations sur la gestion d contenu du site, voir les articles suivants :
 
 - [Glossaire sur le modèle de page](page-elements-overview.md)
 - [États et cycle de vie des documents](document-states-overview.md)

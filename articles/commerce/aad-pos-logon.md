@@ -1,6 +1,6 @@
 ---
 title: Configurer Azure Active Directory pour la connexion au PDV
-description: Cette rubrique explique comment configurer Azure Active Directory comme méthode d’authentification dans le point de vente Microsoft Dynamics 365 Commerce.
+description: Cet article explique comment configurer Azure Active Directory comme méthode d’authentification dans le point de vente Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853926"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Configurer Azure Active Directory pour la connexion au PDV
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment configurer Azure Active Directory (Azure AD) comme méthode d’authentification dans le point de vente (PDV) Microsoft Dynamics 365 Commerce.
+Cet article explique comment configurer Azure Active Directory (Azure AD) comme méthode d’authentification dans le point de vente (PDV) Microsoft Dynamics 365 Commerce.
 
 Les détaillants qui utilisent Dynamics 365 Commerce avec d’autres services cloud Microsoft tels que Microsoft Azure, Microsoft 365 et Microsoft Teams veulent généralement utiliser Azure AD pour une gestion centralisée des informations d’identification des utilisateurs afin d’offrir une expérience de connexion sécurisée et transparente entre les applications. Pou utiliser l’authentification Azure AD dans l’application PDV de Commerce, vous devez d’abord configurer Azure AD comme méthode d’authentification dans Commerce Headquarters.
 

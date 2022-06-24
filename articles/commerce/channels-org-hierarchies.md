@@ -1,6 +1,6 @@
 ---
 title: Configurer des hiérarchies d’organisation
-description: Cette rubrique décrit comment configurer des hiérarchies d’organisation dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment configurer des hiérarchies d’organisation dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01ba05566e966eb62a4df0b7b97ee3a442027936
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847678"
 ---
 # <a name="set-up-organization-hierarchies"></a>Configurer des hiérarchies d’organisation
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment configurer des hiérarchies d’organisation dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment configurer des hiérarchies d’organisation dans Microsoft Dynamics 365 Commerce.
 
 Avant de créer des canaux, vous voudrez vous assurer d’avoir configuré vos hiérarchies d’organisation.
 
@@ -34,7 +34,7 @@ Les hiérarchies d’organisation vous permettent d’afficher et de créer des 
 Vous devez créer des organisations avant de créer une hiérarchie d’organisation. Pour plus d’informations, voir [Créer des entités juridiques](channels-legal-entities.md) ou [Créer des unités opérationnelles](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json).
 
 
-Pour plus d’informations, voir les rubriques suivantes.
+Pour plus d’informations, voir les articles suivants.
 - [Vue d’ensemble des organisations et des hiérarchies d’organisation](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 - [Planifier votre hiérarchie d’organisation](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 - [Créer une hiérarchie d’organisation](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)

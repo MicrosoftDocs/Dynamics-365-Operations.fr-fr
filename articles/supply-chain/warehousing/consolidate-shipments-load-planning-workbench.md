@@ -1,6 +1,6 @@
 ---
 title: Consolider les expéditions en les lançant dans l’entrepôt à partir de l’atelier de planification des chargements
-description: Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
+description: Cet article présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3d74a4171bc8d601d034afb9b7f12634a8f9dbed
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 36a68328ddd1b19e116598fb93ac17405a9c5ed4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888352"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Consolider les expéditions en les lançant dans l’entrepôt à partir de l’atelier de planification des chargements
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
+Cet article présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
 
 ## <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Le scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
+Le scénario de cet article fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configurer des stratégies de consolidation d’expédition et des filtres de produits
 

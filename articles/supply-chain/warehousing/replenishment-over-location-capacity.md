@@ -1,6 +1,6 @@
 ---
-title: Réapprovisionnement sur la capacité de l’emplacement
-description: Cette rubrique fournit des informations sur la fonctionnalité Réapprovisionnement sur la capacité de l’emplacement. Cette fonctionnalité permet de créer tout le travail de réapprovisionnement qui sera nécessaire pour la journée et gère la disponibilité de ce travail de réapprovisionnement pour garantir que le site de prélèvement ne soit pas à court de stock ni ne dépasse la capacité.
+title: Réapprovisionnement selon la capacité de l’emplacement
+description: Cet article fournit des informations sur la fonctionnalité Réapprovisionnement sur la capacité de l’emplacement. Cette fonctionnalité permet de créer tout le travail de réapprovisionnement qui sera nécessaire pour la journée et gère la disponibilité de ce travail de réapprovisionnement pour garantir que le site de prélèvement ne soit pas à court de stock ni ne dépasse la capacité.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899235"
 ---
 # <a name="replenishment-over-location-capacity"></a>Réapprovisionnement sur la capacité de l’emplacement
 
@@ -37,7 +37,7 @@ Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suiva
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurer la fonctionnalité pour l’exemple de scénario
 
-Cette section fournit des instructions et un exemple de la configuration de cette fonctionnalité et prépare des exemples de données pour l’exemple de scénario fourni plus loin dans cette rubrique.
+Cette section fournit des instructions et un exemple de la configuration de cette fonctionnalité et prépare des exemples de données pour l’exemple de scénario fourni plus loin dans cet article.
 
 ### <a name="enable-sample-data"></a>Activer les exemples de données
 
@@ -145,7 +145,7 @@ Les modèles de réapprovisionnement constituent un ensemble de règles contrôl
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-Après avoir mis à disposition tous les exemples de données décrits précédemment et les avoir configurés, vous pouvez suivre ce scénario pour essayer la fonctionnalité *Réapprovisionnement sur la capacité de l’emplacement*. Les valeurs affichées dans ce scénario supposent que vous travaillez avec les données de démonstration standard, que vous avez sélectionné l’entité juridique **USMF** et que vous avez préparé les exemples d’enregistrements décrits plus haut dans cette rubrique. Ce scénario sert également d’exemple pour indiquer comment la fonctionnalité peut être utilisée dans un cadre de production.
+Après avoir mis à disposition tous les exemples de données décrits précédemment et les avoir configurés, vous pouvez suivre ce scénario pour essayer la fonctionnalité *Réapprovisionnement sur la capacité de l’emplacement*. Les valeurs affichées dans ce scénario supposent que vous travaillez avec les données de démonstration standard, que vous avez sélectionné l’entité juridique **USMF** et que vous avez préparé les exemples d’enregistrements décrits plus haut dans cet article. Ce scénario sert également d’exemple pour indiquer comment la fonctionnalité peut être utilisée dans un cadre de production.
 
 ### <a name="create-replenishment-work"></a>Créer un travail de réapprovisionnement
 

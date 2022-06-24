@@ -1,6 +1,6 @@
 ---
-title: Présentation des actifs
-description: Cette rubrique donne une vue d’ensemble des actifs dans Gestion des actifs.
+title: Vue d’ensemble des actifs
+description: Cet article donne une vue d’ensemble des actifs dans Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874186"
 ---
-# <a name="introduction-to-assets"></a>Présentation des actifs
+# <a name="introduction-to-assets"></a>Vue d’ensemble des actifs
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Cette rubrique donne une vue d’ensemble des actifs dans Gestion des actifs. Un *actif* est n’importe quel type d’équipement, comme une machine ou une pièce de machine, qui requiert de la maintenance, de l’entretien ou une réparation.
+Cet article donne une vue d’ensemble des actifs dans Gestion des actifs. Un *actif* est n’importe quel type d’équipement, comme une machine ou une pièce de machine, qui requiert de la maintenance, de l’entretien ou une réparation.
 
-Un actif est automatiquement mis à jour avec des informations associées. Par exemple, ces informations associées peuvent concerner des ordres de travail, nouveaux ou mis à jour. Vous pouvez créer des actifs à l’aide de l’option de menu **Tous les actifs** ou **Actifs en attente**. Cette rubrique explique comment créer des actifs à l’aide de l’option de menu **Tous les actifs**. Pour plus d’informations sur la création d’actifs à l’aide de l’option de menu **Actifs en attente**, voir [Créer des actifs basés sur les commandes fournisseur](../objects/create-objects-based-on-purchase-orders.md).
+Un actif est automatiquement mis à jour avec des informations associées. Par exemple, ces informations associées peuvent concerner des ordres de travail, nouveaux ou mis à jour. Vous pouvez créer des actifs à l’aide de l’option de menu **Tous les actifs** ou **Actifs en attente**. Cet article explique comment créer des actifs à l’aide de l’option de menu **Tous les actifs**. Pour plus d’informations sur la création d’actifs à l’aide de l’option de menu **Actifs en attente**, voir [Créer des actifs basés sur les commandes fournisseur](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Tous les actifs
 

@@ -1,6 +1,6 @@
 ---
 title: Ajouter un logo
-description: Cette rubrique décrit comment ajouter un logo à votre site dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment ajouter un logo à votre site dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 624cd6f7000f5038b9996eb94caf79719d07f99f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871778"
 ---
 # <a name="add-a-logo"></a>Ajouter un logo
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment ajouter un logo à votre site dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment ajouter un logo à votre site dans Microsoft Dynamics 365 Commerce.
 
 Lorsque vous créez votre site, l’une des premières choses que vous ferez probablement est d’ajouter le logo de votre entreprise ou de votre marque à l’en-tête du site. La bibliothèque de modules en ligne Dynamics 365 Commerce fournit un module qui facilite cette tâche.
 
-Vous pouvez ajouter un logo directement à un modèle, une disposition ou une page. De cette façon, vous pouvez facilement changer le logo qui apparaît sur des pages ou des groupes de pages spécifiques. Cependant, cette rubrique couvre le scénario le plus fréquent, où vous ajoutez votre logo à un fragment d’en-tête qui peut être réutilisé sur toutes les pages de votre site.
+Vous pouvez ajouter un logo directement à un modèle, une disposition ou une page. De cette façon, vous pouvez facilement changer le logo qui apparaît sur des pages ou des groupes de pages spécifiques. Cependant, cet article couvre le scénario le plus fréquent, où vous ajoutez votre logo à un fragment d’en-tête qui peut être réutilisé sur toutes les pages de votre site.
 
 ## <a name="prerequisites"></a>Conditions préalables
 

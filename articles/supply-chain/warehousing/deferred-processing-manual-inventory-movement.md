@@ -1,6 +1,6 @@
 ---
 title: Traitement différé du mouvement manuel des stocks
-description: Cette rubrique décrit comment utiliser le traitement différé du mouvement manuel des stocks dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article décrit comment utiliser le traitement différé du mouvement manuel des stocks dans Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863735"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Traitement différé du mouvement manuel des stocks
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser le traitement différé du mouvement manuel des stocks dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article décrit comment utiliser le traitement différé du mouvement manuel des stocks dans Microsoft Dynamics 365 Supply Chain Management.
 
 La fonctionnalité de traitement différé permet aux collaborateurs de l’entrepôt de continuer à effectuer d’autres tâches pendant que l’opération de vente est traitée en arrière-plan. Il est également utile lorsque le serveur peut augmenter de façon ponctuelle ou imprévue le temps de traitement, et que le temps de traitement accru peut affecter la productivité de l’utilisateur. Le type de travail *Mouvement des stocks* a maintenant été ajouté à l’ensemble des types de travail pris en charge par cette fonction.
 

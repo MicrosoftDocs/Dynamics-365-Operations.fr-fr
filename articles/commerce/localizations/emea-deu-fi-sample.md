@@ -1,6 +1,6 @@
 ---
 title: Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne
-description: Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour l’Allemagne dans Microsoft Dynamics 365 Commerce.
+description: Cet article fournit une présentation d’un exemple d’intégration fiscale pour l’Allemagne dans Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867756"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour l’Allemagne dans Microsoft Dynamics 365 Commerce.
+Cet article fournit une présentation d’un exemple d’intégration fiscale pour l’Allemagne dans Microsoft Dynamics 365 Commerce.
 
 Pour répondre aux exigences fiscales locales pour les caisses enregistreuses en Allemagne, la fonctionnalité Microsoft Dynamics 365 Commerce pour l’Allemagne comprend un exemple d’intégration du point de vente (PDV) avec un service d’enregistrement fiscal externe. L’exemple étend la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Elle est basée sur la solution [EFR (Registre fiscal électronique)](https://www.efsta.eu/de/fiskalloesungen/deutschland) de [l’EFSTA](https://www.efsta.eu/de/) et permet la communication avec le service EFR via le protocole HTTPS. Le service EFR doit être hébergé sur Retail Hardware Station ou sur un ordinateur distinct pouvant être connectée à partir de la station matérielle. L’exemple est fourni sous forme de code source et fait partie du kit de développement logiciel (SDK) Retail.
 

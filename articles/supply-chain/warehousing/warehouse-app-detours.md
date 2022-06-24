@@ -1,6 +1,6 @@
 ---
 title: Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile
-description: Cette rubrique explique comment configurer des détours pour les éléments de menu afin que les collaborateurs puissent parquer la tâche en cours, effectuer une autre tâche, puis revenir à la tâche d’origine sans perdre aucune information.
+description: Cet article explique comment configurer des détours pour les éléments de menu afin que les collaborateurs puissent parquer la tâche en cours, effectuer une autre tâche, puis revenir à la tâche d’origine sans perdre aucune information.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863590"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Les fonctionnalités décrites dans cette rubrique s’appliquent uniquement à la nouvelle application mobile Warehouse Management. Elles n’affectent pas l’ancienne application d’entrepôt, qui est désormais obsolète.
+> Les fonctionnalités décrites dans cet article s’appliquent uniquement à la nouvelle application mobile Warehouse Management. Elles n’affectent pas l’ancienne application d’entrepôt, qui est désormais obsolète.
 
-Cette rubrique explique comment configurer des détours pour les éléments de menu afin que les collaborateurs puissent "parquer" la tâche en cours, effectuer une autre tâche, puis revenir à la tâche d’origine sans perdre aucune information.
+Cet article explique comment configurer des détours pour les éléments de menu afin que les collaborateurs puissent "parquer" la tâche en cours, effectuer une autre tâche, puis revenir à la tâche d’origine sans perdre aucune information.
 
 Un détour est une option de menu distinct qui peut être ouvert à partir d’une étape d’une tâche principale. A la fin du détour, le collaborateur est ramené à l’endroit où il a quitté la tâche principale. Lors de la configuration, vous spécifiez l’option de menu qui doit servir de détour. Vous sélectionnez également les valeurs de champ de la tâche principale qui doivent être automatiquement transférées (copiés) au détour et saisies là-bas. Par conséquent, vous devez comprendre à quel endroit du flux de tâches vous souhaitez que le détour soit disponible pour les collaborateurs. Vous devez également vous assurer que les informations qui doivent être copiées dans le détour sont disponibles pour cette étape du flux de tâches.
 
@@ -46,7 +46,7 @@ Avant de pouvoir configurer des détours pour les étapes dans les options de me
     - **Module :** *Gestion des entrepôts*
     - **Nom de la fonctionnalité :** *Détours de l’application Warehouse Management*
 
-    Cette fonctionnalité est la fonctionnalité décrite dans cette rubrique.
+    Cette fonctionnalité est la fonctionnalité décrite dans cet article.
 
 1. Mettez à jour les noms de champ dans l’application mobile Warehouse Management en accédant à **Warehouse Management \> Paramétrage \> Périphérique mobile \> Noms des champs d’application d’entrepôt** et en sélectionnant **Créer une configuration par défaut**. Pour plus d’informations, voir [Configurer les champs pour l’application mobile Gestion des entrepôts](configure-app-field-names-priorities-warehouse.md).
 1. Répétez l’étape précédente pour chaque entité juridique (société) où vous utilisez l’application mobile Warehouse Management.
@@ -57,7 +57,7 @@ Utilisez la procédure suivante pour configurer un détour à partir d’une dé
 
 1. Créez une dérogation spécifique au menu pour le menu et l’étape concernés, comme décrit dans [Personnaliser les titres et les instructions d’étape pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md).
 1. Trouvez la combinaison de valeurs **ID de l’étape** et **Nom de l’option de menu** que vous souhaitez modifier, puis sélectionnez la valeur dans la colonne **ID de l’étape**.
-1. Sur la page qui apparaît, sur le raccourci **Détours disponibles (options de menu)**, vous pouvez spécifier l’option de menu qui doit servir de détour. Vous pouvez également sélectionner les valeurs de champ de la tâche principale qui doivent être automatiquement copiées vers et depuis le détour. Pour des exemples qui montrent comment utiliser ces paramètres, consultez les scénarios plus loin dans cette rubrique.
+1. Sur la page qui apparaît, sur le raccourci **Détours disponibles (options de menu)**, vous pouvez spécifier l’option de menu qui doit servir de détour. Vous pouvez également sélectionner les valeurs de champ de la tâche principale qui doivent être automatiquement copiées vers et depuis le détour. Pour des exemples qui montrent comment utiliser ces paramètres, consultez les scénarios plus loin dans cet article.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Exemple de scénario 1 : Préparation des ventes où une recherche d’emplacement agit comme un détour
 

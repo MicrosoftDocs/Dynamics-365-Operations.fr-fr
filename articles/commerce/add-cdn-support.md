@@ -1,6 +1,6 @@
 ---
 title: Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)
-description: Cette rubrique décrit la procédure d’ajout d’un réseau de diffusion de contenu (CDN) à votre environnement Microsoft Dynamics 365 Commerce.
+description: Cet article décrit la procédure d’ajout d’un réseau de diffusion de contenu (CDN) à votre environnement Microsoft Dynamics 365 Commerce.
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855874"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>Ajouter la prise en charge d’un réseau de distribution de contenu (CDN)
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la procédure d’ajout d’un réseau de diffusion de contenu (CDN) à votre environnement Microsoft Dynamics 365 Commerce.
+Cet article décrit la procédure d’ajout d’un réseau de diffusion de contenu (CDN) à votre environnement Microsoft Dynamics 365 Commerce.
 
 Lorsque vous paramétrez un environnement d’e-commerce dans Dynamics 365 Commerce, vous pouvez le configurer pour travailler avec votre service CDN. 
 
@@ -60,7 +60,7 @@ Le processus de paramétrage de CDN se compose de ces étapes générales :
 
 ### <a name="add-a-front-end-host"></a>Ajoutez un hôte frontal
 
-Tout service CDN peut être utilisé, mais pour l’exemple dans cette rubrique, Azure Front Door Service est utilisé. 
+Tout service CDN peut être utilisé, mais pour l’exemple dans cet article, Azure Front Door Service est utilisé. 
 
 Pour plus d’informations sur la configuration du Azure Front Door Service, voir [Démarrage rapide : Créez une Front Door pour une application web global très disponible](/azure/frontdoor/quickstart-create-front-door).
 
@@ -101,7 +101,7 @@ Pour paramétrer une règle d’acheminement dans Azure Front Door Service, proc
 
 
 > [!WARNING]
-> Si le domaine que vous utilisez est déjà actif et en service, créez un ticket de support à partir de la vignette **Support** dans [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) pour obtenir de l’aide pour vos prochaines étapes. Pour plus d’informations, voir [Obtenir de l’aide sur les applications Finance and Operations ou Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Si le domaine que vous utilisez est déjà actif et en service, créez un ticket de support à partir de la vignette **Support** dans [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) pour obtenir de l’aide pour vos prochaines étapes. Pour plus d'informations, voir [Obtenir de l’aide sur les applications de finances et d’opérations et Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 Si votre domaine est nouveau et n’est pas un domaine actif préexistant, vous pouvez ajouter votre domaine personnalisé à la configuration d’Azure Front Door Service. Cela permet de rediriger le trafic web vers votre site via l’instance d’Azure Front Door. Pour ajouter le domaine personnalisé (par exemple, `www.fabrikam.com`), vous devez configurer un nom canonique (CNAME) pour le domaine.
 

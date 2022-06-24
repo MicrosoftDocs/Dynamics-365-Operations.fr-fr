@@ -1,6 +1,6 @@
 ---
 title: Création de chargement avancée pendant une vague
-description: Cette rubrique donne des informations sur la création de chargement avancée, qui affecte automatiquement des expéditions aux vagues existantes pendant l’exécution de la vague. Par conséquent, vous pouvez créer des chargements significatifs qui représentent des camions sans avoir à utiliser l’atelier de planification des chargements.
+description: Cet article donne des informations sur la création de chargement avancée, qui affecte automatiquement des expéditions aux vagues existantes pendant l’exécution de la vague. Par conséquent, vous pouvez créer des chargements significatifs qui représentent des camions sans avoir à utiliser l’atelier de planification des chargements.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0dafac981bcdec307de6dc202f557e7b8837ae2e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863764"
 ---
 # <a name="advanced-load-building-during-wave"></a>Création de chargement avancée pendant une vague
 
@@ -220,7 +220,7 @@ Vous pouvez définir autant de modèles de création de chargement que vous le s
 
 ## <a name="scenario"></a>Scénario
 
-Ce scénario montre comment les paramètres décrits précédemment dans cette rubrique affectent les opérations d’entrepôt pendant le traitement d’une commande client. Ce scénario utilise les données de démonstration **USMF** ainsi que d’autres valeurs de démonstration fournies dans ces instructions de configuration.
+Ce scénario montre comment les paramètres décrits précédemment dans cet article affectent les opérations d’entrepôt pendant le traitement d’une commande client. Ce scénario utilise les données de démonstration **USMF** ainsi que d’autres valeurs de démonstration fournies dans ces instructions de configuration.
 
 ### <a name="create-sales-orders"></a>Créer des commandes client
 

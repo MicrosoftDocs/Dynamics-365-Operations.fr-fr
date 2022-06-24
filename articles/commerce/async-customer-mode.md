@@ -1,6 +1,6 @@
 ---
 title: Mode de création de client asynchrone
-description: Cette rubrique décrit le mode de création de client asynchrone dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit le mode de création de client asynchrone dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4ca63fe06a804035e976a3432454078c1cca0020
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880138"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Mode de création de client asynchrone
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit le mode de création de client asynchrone dans Microsoft Dynamics 365 Commerce.
+Cet article décrit le mode de création de client asynchrone dans Microsoft Dynamics 365 Commerce.
 
 Dans Commerce, il existe deux modes de création de client : synchrone (ou sync) et asynchrone (ou async). Par défaut, les clients sont créés de manière synchrone. Cela signifie qu’ils sont créés dans Commerce Headquarters en temps réel. Le mode de création client sync est avantageux car les nouveaux clients sont immédiatement consultables sur tous les canaux. Cependant, il présente également un inconvénient. Il génère des appels [Commerce Data Exchange : Service en temps réel](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) vers Commerce Headquarters. Les performances peuvent alors être affectées si de nombreux appels de création de clients simultanés sont effectués.
 

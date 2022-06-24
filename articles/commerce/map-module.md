@@ -1,6 +1,6 @@
 ---
 title: Module Carte
-description: Cette rubrique couvre les modules Carte et décrit comment les configurer dans Microsoft Dynamics 365 Commerce.
+description: Cet article couvre les modules Carte et décrit comment les configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 191d98d039dea6466eeee9a1db0835393be0a9ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894434"
 ---
 # <a name="map-module"></a>Module Carte
 
 [!include [banner](includes/banner.md)]
 
 
-Cette rubrique couvre les modules Carte et décrit comment les configurer dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules Carte et décrit comment les configurer dans Microsoft Dynamics 365 Commerce.
 
 Un module Carte affiche les emplacements des magasins sur une carte interactive affichée à l’aide du [Contrôle web Bing Maps V8](/bingmaps/v8-web-control/). Une clé API Bing Cartes est requise et doit être ajoutée à la page des paramètres partagés dans les sièges Commerce. Les modules Carte fournissent différentes vues, telles que Route, Aérien et Rue, que les utilisateurs peuvent sélectionner pour afficher des emplacements sur la carte. Ils permettent également des interactions telles que le zoom et l’utilisation de l’emplacement de l’utilisateur.
 

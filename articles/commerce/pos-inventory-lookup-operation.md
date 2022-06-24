@@ -1,6 +1,6 @@
 ---
 title: Opération de recherche de stock du PDV
-description: Cette rubrique décrit comment utiliser l’opération de recherche de stocks dans le point de vente (PDV) Dynamics 365 Commerce pour afficher la disponibilité des stocks de produits dans les magasins et entrepôts.
+description: Cet article décrit comment utiliser l’opération de recherche de stocks dans le point de vente (PDV) Dynamics 365 Commerce pour afficher la disponibilité des stocks de produits dans les magasins et entrepôts.
 author: boycezhu
 ms.date: 08/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 01f10c348c61ffbcb30be26a57b3edd436aacc8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850247"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Opération de recherche de stock du PDV
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment utiliser l’opération de recherche de stocks dans le point de vente (PDV) Dynamics 365 Commerce pour afficher la disponibilité des stocks de produits dans les magasins et entrepôts.
+Cet article décrit comment utiliser l’opération de recherche de stocks dans le point de vente (PDV) Dynamics 365 Commerce pour afficher la disponibilité des stocks de produits dans les magasins et entrepôts.
 
 Une vue précise du stock dans une organisation aide les associés du magasin à fournir un service client rapide et efficace. Le moment qui importe est plus celui où un client est prêt à prendre une décision d’achat. Il est important que les caissiers du magasin de vente au détail aient des informations en temps réel sur le stock au bout des doigts, de sorte qu’ils puissent promettre avec certitude la livraison et le prélèvement de produit.
 

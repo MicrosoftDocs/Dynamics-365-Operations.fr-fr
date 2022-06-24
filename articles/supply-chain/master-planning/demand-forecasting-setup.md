@@ -1,6 +1,6 @@
 ---
 title: Paramétrage de la prévision de la demande
-description: Cette rubrique décrit les tâches de paramétrage que vous devez effectuer pour préparer la prévision de la demande.
+description: Cet article décrit les tâches de paramétrage que vous devez effectuer pour préparer la prévision de la demande.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901000"
 ---
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le paramétrage de prévision de la demande.  
+Cet article décrit le paramétrage de prévision de la demande.  
 
 ## <a name="item-allocation-keys"></a>Clés de répartition par article
 
@@ -245,7 +245,7 @@ Utilisez la procédure suivante pour créer un espace de travail Machine Learnin
 1. Renseignez l’Assistant en suivant les instructions à l’écran. Gardez les points suivants à l’esprit lorsque vous travaillez :
 
     - Utilisez les paramètres par défaut à moins que d’autres points de cette liste ne recommandent des paramètres différents.
-    - Assurez-vous de sélectionner la région géographique qui correspond à la région où votre instance de Supply Chain Management est déployée. Sinon, certaines de vos données pourraient se trouver hors des limites de la région. Pour plus d’informations, voir la section [Avis de confidentialité](#privacy) plus loin dans cette rubrique.
+    - Assurez-vous de sélectionner la région géographique qui correspond à la région où votre instance de Supply Chain Management est déployée. Sinon, certaines de vos données pourraient se trouver hors des limites de la région. Pour plus d’informations, voir la section [Avis de confidentialité](#privacy) plus loin dans cet article.
     - Utilisez des ressources dédiées, telles que des groupes de ressources, des comptes de stockage, des registres de conteneurs, des coffres de clés Azure et des ressources réseau.
     - Sur la page **Configurer les paramètres de connexion Azure Machine Learning Service** de l’Assistant, vous devez fournir un nom de compte de stockage. Utilisez un compte dédié à la prévision de la demande. Les données d’entrée et de sortie de prévision de la demande seront stockées dans ce compte de stockage.
 

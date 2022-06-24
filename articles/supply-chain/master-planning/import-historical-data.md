@@ -1,6 +1,6 @@
 ---
 title: Importer les données d’historique pour les prévisions de la demande
-description: Pour obtenir des prévisions de la demande précises, les données de demande d’historique par article ou par clé de répartition par article sont requises. Cette rubrique explique comment utiliser les entités de données pour importer les données de demande d’historique à partir de n’importe quel système, afin de disposer d’un historique plus long des données de prévision de la demande.
+description: Pour obtenir des prévisions de la demande précises, les données de demande d’historique par article ou par clé de répartition par article sont requises. Cet article explique comment utiliser les entités de données pour importer les données de demande d’historique à partir de n’importe quel système, afin de disposer d’un historique plus long des données de prévision de la demande.
 author: t-benebo
 ms.date: 05/10/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c52d27d6e3aa8a20d6cc1dc81e4ade981c6a8091
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e36ea72322c31f7e0ea3377b474cd148d78bdd3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877593"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importer les données d’historique pour les prévisions de la demande
 
@@ -37,7 +37,7 @@ L’espace de travail **Gestion des données** donne une vue d’ensemble de tou
 
 Pour utiliser l’entité de données, vous devez disposer d’un fichier Microsoft Excel ou d’un fichier de valeurs séparées par des virgules (CSV) contenant les données de demande d’historique. L’exemple suivant montre comment importer les données à partir d’un fichier CSV.
 
-Pour plus d’informations sur l’importation de données, notamment le nettoyage des données après une importation, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) et ses rubriques associées.
+Pour plus d’informations sur l’importation de données, notamment le nettoyage des données après une importation, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) et ses articles associés.
 
 Voir aussi [Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md).
 

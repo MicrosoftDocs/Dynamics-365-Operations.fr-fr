@@ -1,6 +1,6 @@
 ---
-title: Créer des postes techniques
-description: Cette rubrique explique comment créer un poste technique dans le module Gestion des actifs.
+title: Créer des emplacements fonctionnels
+description: Cet article explique comment créer un poste technique dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869718"
 ---
-# <a name="create-functional-locations"></a>Créer des postes techniques
+# <a name="create-functional-locations"></a>Créer des emplacements fonctionnels
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Cette rubrique explique comment créer un poste technique dans le module Gestion des actifs.
+Cet article explique comment créer un poste technique dans le module Gestion des actifs.
 
 Lorsque vous créez une structure de poste technique, notez qu’après l’opération, vous ne pourrez pas revenir à l’emplacement d’origine. Cela signifie que vous devez réfléchir soigneusement à la structure de vos postes techniques avant de commencer à les créer dans le module Gestion des actifs. Si vous regrettez un poste technique, vous pouvez le supprimer, à condition qu’il n’ait pas encore été utilisé.
 

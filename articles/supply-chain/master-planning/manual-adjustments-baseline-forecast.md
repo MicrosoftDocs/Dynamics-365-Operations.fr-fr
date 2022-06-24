@@ -1,6 +1,6 @@
 ---
 title: Effectuer des ajustements manuels sur la prévision de base
-description: Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision.
+description: Cet article explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision.
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19b6bf742bb395de41bfbf1e50ca9df68f416367
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e602e6d46f928fd5376a6a6d4f94bb4a726d92b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844965"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision. 
+Cet article explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision. 
 
 Avant d’effectuer des ajustements manuels, il est important que vous compreniez certains concepts dans diverses pages.
 

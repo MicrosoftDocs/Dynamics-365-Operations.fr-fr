@@ -1,6 +1,6 @@
 ---
 title: Planification basée sur la priorité
-description: Cette rubrique décrit la fonctionnalité de planification basée sur la priorité de Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article décrit la fonctionnalité de planification basée sur la priorité de Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873809"
 ---
 # <a name="priority-based-planning"></a>Planification basée sur la priorité
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de planification basée sur la priorité de Microsoft Dynamics 365 Supply Chain Management. La fonctionnalité ajoute la prise en charge de la planification pilotée par la demande, qui est une étape de la Planification des besoins en matières basée sur la demande. La planification basée sur les priorités permet à l’optimisation de la planification de générer des ordres planifiés basés sur les priorités de planification plutôt que sur les dates des besoins.
+Cet article décrit la fonctionnalité de planification basée sur la priorité de Microsoft Dynamics 365 Supply Chain Management. La fonctionnalité ajoute la prise en charge de la planification pilotée par la demande, qui est une étape de la Planification des besoins en matières basée sur la demande. La planification basée sur les priorités permet à l’optimisation de la planification de générer des ordres planifiés basés sur les priorités de planification plutôt que sur les dates des besoins.
 
 La planification basée sur les priorités vous permet de hiérarchiser les ordres de réapprovisionnement pour vous assurer que la demande urgente est prioritaire par rapport à la demande moins importante. Par exemple, un ordre de réapprovisionnement de stock insuffisant sera prioritaire par rapport à un ordre de réapprovisionnement standard. Le système peut diviser automatiquement les commandes plus importantes en commandes plus petites séparées où les lignes de commande sont regroupées par priorité. Il peut alors traiter en premier toutes les commandes prioritaires.
 

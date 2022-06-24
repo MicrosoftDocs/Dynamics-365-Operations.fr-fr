@@ -1,6 +1,6 @@
 ---
 title: Modifier une page de site existante
-description: Cette rubrique décrit comment ajouter une page existante du site dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment ajouter une page existante du site dans Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceffb07afc8287e975f48696a059d3cd4ad20ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848861"
 ---
 # <a name="modify-an-existing-site-page"></a>Modifier une page de site existante
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment ajouter une page existante du site dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment ajouter une page existante du site dans Microsoft Dynamics 365 Commerce.
 
 Si vous devez modifier une page, la première étape consiste à l’ouvrir dans l’éditeur de page. Aller au site qui contient la page, puis, dans la liste des pages, recherchez la page que vous souhaitez. Si vous ne la trouvez pas, vous pouvez utiliser la fonctionnalité de recherche enrichie de l’outil de création. Entrez le nom exact de page, ou tapez les premières lettres suivies d’un astérisque (\*). Une liste filtrée des pages s’affiche. Vous pouvez utiliser cette liste pour rechercher la page de votre choix. Après avoir trouvé la page appropriée, sélectionnez le nom de page pour ouvrir la page dans l’éditeur de page.
 

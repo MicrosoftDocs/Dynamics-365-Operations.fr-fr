@@ -1,6 +1,6 @@
 ---
 title: Entrer et comparer des devis d’appels d’offre et octroyer des contrats
-description: Cette rubrique explique comment entrer des réponses à un appel d’offre, marquer et comparer les offres, puis attribuer le contrat à l’un des fournisseurs.
+description: Cet article explique comment entrer des réponses à un appel d’offre, marquer et comparer les offres, puis attribuer le contrat à l’un des fournisseurs.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893379"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Entrer et comparer des devis d’appels d’offre et octroyer des contrats
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment entrer des réponses à un appel d’offre, marquer et comparer les offres, puis attribuer le contrat à l’un des fournisseurs. Vous pouvez utiliser cette procédure dans les données fictives de la société **USMF**.
+Cet article explique comment entrer des réponses à un appel d’offre, marquer et comparer les offres, puis attribuer le contrat à l’un des fournisseurs. Vous pouvez utiliser cette procédure dans les données fictives de la société **USMF**.
 
 Avant de commencer cette procédure, vous devez avoir un appel d’offre avec deux lignes et qui a été envoyé au moins à deux fournisseurs. Pour créer cet appel d’offre, suivez la procédure [Créer un appel d’offre](create-request-quotation.md). Des critères d’attribution de score doivent également avoir été paramétrés pour pouvoir exécuter cette procédure.
 

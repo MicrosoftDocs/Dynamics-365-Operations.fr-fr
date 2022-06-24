@@ -1,6 +1,6 @@
 ---
 title: Accords de gestion des remises
-description: Cette rubrique décrit comment créer des accords de gestion des remises. Les accords sont utilisés pour contrôler différentes méthodes et bases de calcul des remises et des redevances. Ils comprennent des règles pour les inclusions et les exclusions.
+description: Cet article décrit comment créer des accords de gestion des remises. Les accords sont utilisés pour contrôler différentes méthodes et bases de calcul des remises et des redevances. Ils comprennent des règles pour les inclusions et les exclusions.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851592"
 ---
 # <a name="rebate-management-deals"></a>Accords de gestion des remises
 
 [!include [banner](../includes/banner.md)]
 
-Les accords de gestion des remises sont utilisés pour contrôler différentes méthodes et bases de calcul des remises et des redevances. Ils comprennent des règles pour les inclusions et les exclusions. Il existe trois types d’accords de gestion des remises : les remises client, les redevances client et les remises fournisseur. Les trois types utilisent des paramètres similaires. Cette rubrique met en évidence les différences qui existent.
+Les accords de gestion des remises sont utilisés pour contrôler différentes méthodes et bases de calcul des remises et des redevances. Ils comprennent des règles pour les inclusions et les exclusions. Il existe trois types d’accords de gestion des remises : les remises client, les redevances client et les remises fournisseur. Les trois types utilisent des paramètres similaires. Cet article met en évidence les différences qui existent.
 
 ## <a name="create-a-deal"></a>Créer un accord
 
@@ -118,7 +118,7 @@ L’onglet **Général** du raccourci **Détails de la gestion des remises** vou
 
 | Champ | Description |
 |---|---|
-| Méthode de calcul | Sélectionnez la méthode à utiliser lorsque la ligne d’accord sélectionnée est combinée avec d’autres lignes d’accord (*Par paliers*, *Cumulatif*, *Roulant*, ou *Total*). La valeur de ce champ peut considérablement affecter le résultat de vos calculs de remise. Pour une description complète de chaque méthode et des exemples qui montrent comment elle affecte le calcul de la remise, consultez la section [Méthodes de calcul des lignes d’accord](#calc-methods), plus loin dans cette rubrique. |
+| Méthode de calcul | Sélectionnez la méthode à utiliser lorsque la ligne d’accord sélectionnée est combinée avec d’autres lignes d’accord (*Par paliers*, *Cumulatif*, *Roulant*, ou *Total*). La valeur de ce champ peut considérablement affecter le résultat de vos calculs de remise. Pour une description complète de chaque méthode et des exemples qui montrent comment elle affecte le calcul de la remise, consultez la section [Méthodes de calcul des lignes d’accord](#calc-methods), plus loin dans cet article. |
 | Base | Sélectionnez si la remise est appliquée en fonction de la quantité (c’est-à-dire du nombre total d’unités achetées ou vendues) ou de la valeur (c’est-à-dire du prix total des produits achetés ou vendus). |
 | Type de transaction | <p>Sélectionnez le point du processus où le calcul doit avoir lieu :</p><ul><li>*Commande* : utilisez la quantité ou la valeur commandée comme base de calcul.</li><li>*Livraison* : utilisez la quantité ou la valeur livrée comme base de calcul.</li><li>*Facturation* : utilisez la quantité ou la valeur facturée comme base de calcul.</li></ul> |
 | Unité | Si vous avez sélectionné *Quantité* dans le champ **Base**, sélectionnez l’unité dans laquelle la quantité doit être spécifiée. |

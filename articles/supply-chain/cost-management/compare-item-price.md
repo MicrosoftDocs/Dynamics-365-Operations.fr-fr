@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846211"
 ---
-# <a name="compare-item-prices-storage-report"></a>Rapport Comparer le stockage du prix des articles
+# <a name="compare-item-prices-storage-report"></a>Comparer l’état de stockage des prix des articles
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment exécuter un rapport **Comparer le stockage du prix des articles** et rendre la sortie disponible au format numérique, soit en tant que page interactive dans Dynamics 365 Supply Chain Management ou en tant que document exporté dans l’un des différents formats.
+Cet article explique comment exécuter un rapport **Comparer le stockage du prix des articles** et rendre la sortie disponible au format numérique, soit en tant que page interactive dans Dynamics 365 Supply Chain Management ou en tant que document exporté dans l’un des différents formats.
 
 Lorsque vous affichez le rapport dans votre navigateur, les colonnes et les soldes globaux sont ajustés de façon dynamique, selon la disposition que vous avez configurée. Vous pouvez trier les résultats, les filtrer, explorer les données, etc.
 

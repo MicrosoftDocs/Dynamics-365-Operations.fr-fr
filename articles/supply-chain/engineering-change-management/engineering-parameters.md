@@ -1,6 +1,6 @@
 ---
 title: Paramètres de gestion des modifications d’ingénierie
-description: Cette rubrique explique comment configurer des fonctionnalités de gestion des modifications d’ingénierie pour Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article explique comment configurer des fonctionnalités de gestion des modifications d’ingénierie pour Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ef4113077c538ca1a54009aacbdeaf2ccbd0232
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581006"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875508"
 ---
 # <a name="engineering-change-management-parameters"></a>Paramètres de gestion des modifications d’ingénierie
 
@@ -27,7 +27,7 @@ La page **Paramètres de gestion des modifications techniques** contient les par
 
 ## <a name="open-the-engineering-change-management-parameters-page"></a>Ouvrez la page des paramètres de gestion des modifications d’ingénierie
 
-Pour ouvrir la page **Paramètres de gestion des modifications techniques**, allez à **Gestion du changement d’ingénierie \> Configurer \> Paramètres de gestion des modifications techniques**. Vous pouvez ensuite définir les champs comme décrit dans les sections restantes de cette rubrique.
+Pour ouvrir la page **Paramètres de gestion des modifications techniques**, allez à **Gestion du changement d’ingénierie \> Configurer \> Paramètres de gestion des modifications techniques**. Vous pouvez ensuite définir les champs comme décrit dans les sections restantes de cet article.
 
 ## <a name="release-control-tab"></a>Onglet Contrôle de lancement
 

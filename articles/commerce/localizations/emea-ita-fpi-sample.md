@@ -1,6 +1,6 @@
 ---
 title: Exemple d’intégration de l’imprimante fiscale pour l’Italie
-description: Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour l’Italie dans Microsoft Dynamics 365 Commerce.
+description: Cet article fournit une présentation d’un exemple d’intégration fiscale pour l’Italie dans Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909388"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Exemple d’intégration de l’imprimante fiscale pour l’Italie
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour l’Italie dans Microsoft Dynamics 365 Commerce.
+Cet article fournit une présentation d’un exemple d’intégration fiscale pour l’Italie dans Microsoft Dynamics 365 Commerce.
 
 La fonctionnalité Commerce pour l’Italie comprend un exemple d’intégration du point de vente (PDV) avec une imprimante fiscale. L’échantillon étend la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md) pour qu’elle fonctionne avec les imprimantes [Série Epson FP-90III](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) d’Epson et permet la communication avec une imprimante fiscale en mode serveur Web via le service Web EpsonFPMate à l’aide de l’API Fiscal ePOS-Print. L’exemple prend uniquement en charge le mode Registratore Telematico (RT). L’exemple est fourni sous forme de code source et fait partie du kit de développement logiciel (SDK) Retail.
 

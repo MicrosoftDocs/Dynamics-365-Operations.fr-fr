@@ -1,6 +1,6 @@
 ---
 title: Détecter les paniers abandonnés et envoyer des notifications aux clients
-description: Cette rubrique décrit comment personnaliser l’exemple d’application de connecteur de panier abandonné Microsoft Dynamics 365 Commerce pour détecter les paniers abandonnés et envoyer des notifications par e-mail de rappel aux clients.
+description: Cet article décrit comment personnaliser l’exemple d’application de connecteur de panier abandonné Microsoft Dynamics 365 Commerce pour détecter les paniers abandonnés et envoyer des notifications par e-mail de rappel aux clients.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899208"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Détecter les paniers abandonnés et envoyer des notifications aux clients
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment personnaliser l’exemple d’application de connecteur de panier abandonné Microsoft Dynamics 365 Commerce pour détecter les paniers abandonnés et envoyer des notifications par e-mail de rappel aux clients.
+Cet article décrit comment personnaliser l’exemple d’application de connecteur de panier abandonné Microsoft Dynamics 365 Commerce pour détecter les paniers abandonnés et envoyer des notifications par e-mail de rappel aux clients.
 
 La capacité de récupérer des revenus et de fidéliser les clients grâce aux notifications de panier abandonné est une capacité importante prise en charge par Dynamics 365 Commerce. En personnalisant l’exemple d’application de connecteur de panier abandonné Commerce, les détaillants peuvent accéder aux paniers d’achat sur Retail Server qui n’ont pas été modifiés pendant une plage de temps définie par les détaillants. Ces paniers peuvent ensuite être récupérés, complétés par des données sur les produits et les clients, et transmis à un fournisseur tiers de marketing par e-mail qui peut générer des notifications par e-mail et les envoyer aux clients.
 

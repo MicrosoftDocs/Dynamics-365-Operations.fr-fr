@@ -1,6 +1,6 @@
 ---
 title: Commandes et ordres de retour intersociétés
-description: Cette rubrique décrit les commandes et ordres de retour intersociétés
+description: Cet article décrit les commandes et ordres de retour intersociétés
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1c22c021adce5f892ccb6c2ff8735f9e647e8b81
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 65d0dc6049969ff7d8f84ca4eb3baf486ddad660
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859025"
 ---
 # <a name="intercompany-orders-and-return-orders"></a>Commandes et ordres de retour intersociétés
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit la manière dont les commandes fournisseur intersociétés, les commandes client, les ordres de retour, les contrats d'achat et les contrats de vente sont créés et mis à jour.
+Cet article décrit la manière dont les commandes fournisseur intersociétés, les commandes client, les ordres de retour, les contrats d'achat et les contrats de vente sont créés et mis à jour.
 
 ## <a name="about-intercompany-orders"></a>À propos des commandes intersociétés
 

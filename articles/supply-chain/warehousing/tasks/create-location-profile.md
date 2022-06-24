@@ -1,6 +1,6 @@
 ---
 title: Créer un profil d’emplacement
-description: Cette rubrique explique comment créer un profil d’emplacement dans Dynamics 365 Supply Chain Management.
+description: Cet article explique comment créer un profil d’emplacement dans Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74141cdad6841a602c7fb061e897646fae072a73
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 98537f3ad45d66e348ecd489c60d95ef875e5c07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875041"
 ---
 # <a name="create-a-location-profile"></a>Créer un profil d’emplacement
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment créer un profil d’emplacement dans Dynamics 365 Supply Chain Management. Chaque emplacement de l’entrepôt doit avoir un profil d’emplacement associé qui décrit les propriétés de l’emplacement, par exemple, si l’emplacement autorise les articles mixtes. Dans cette procédure, nous allons créer un profil pour un emplacement qui ne nécessite pas de contrôle de contenant. Nous autoriserons les articles mixtes et les statuts de stock mixtes, ainsi que l’inventaire tournant. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
+Cet article explique comment créer un profil d’emplacement dans Dynamics 365 Supply Chain Management. Chaque emplacement de l’entrepôt doit avoir un profil d’emplacement associé qui décrit les propriétés de l’emplacement, par exemple, si l’emplacement autorise les articles mixtes. Dans cette procédure, nous allons créer un profil pour un emplacement qui ne nécessite pas de contrôle de contenant. Nous autoriserons les articles mixtes et les statuts de stock mixtes, ainsi que l’inventaire tournant. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
 
 
 1. Dans le volet de navigation, accédez à **Modules > Gestion des entrepôts > Paramétrage > Entrepôt > Profils d’emplacement**.

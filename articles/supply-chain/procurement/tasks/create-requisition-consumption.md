@@ -1,6 +1,6 @@
 ---
 title: Créer une demande de consommation
-description: Cette rubrique décrit le processus de création d’une demande.
+description: Cet article décrit le processus de création d’une demande.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888468"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Créer une demande de consommation
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit le processus de création d’une demande. Elle vous indique les différentes manières de rechercher des produits dans votre catalogue d’approvisionnement et comment ajouter un produit qui n’est pas dans votre catalogue. Avant de démarrer cette procédure, vous devez avoir un paramétrage de stratégie d’achat avec Consommation comme type de demande par défaut. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. La procédure peut uniquement être réalisée par un profil utilisateur qui est paramétré en tant que collaborateur. Cette tâche serait normalement réalisée par un employé. Le rôle de sécurité **Employé** vous permettra d’effectuer les tâches, ou si vous utilisez USMF, vous pouvez vous connecter en tant qu’**Alicia**.
+Cet article décrit le processus de création d’une demande. Elle vous indique les différentes manières de rechercher des produits dans votre catalogue d’approvisionnement et comment ajouter un produit qui n’est pas dans votre catalogue. Avant de démarrer cette procédure, vous devez avoir un paramétrage de stratégie d’achat avec Consommation comme type de demande par défaut. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. La procédure peut uniquement être réalisée par un profil utilisateur qui est paramétré en tant que collaborateur. Cette tâche serait normalement réalisée par un employé. Le rôle de sécurité **Employé** vous permettra d’effectuer les tâches, ou si vous utilisez USMF, vous pouvez vous connecter en tant qu’**Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Créer une nouvelle demande

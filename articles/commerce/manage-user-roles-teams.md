@@ -1,6 +1,6 @@
 ---
 title: Gérer les rôles utilisateur dans Microsoft Teams
-description: Cette rubrique décrit comment gérer les rôles utilisateur Microsoft Dynamics 365 Commerce dans Microsoft Teams.
+description: Cet article décrit comment gérer les rôles utilisateur Microsoft Dynamics 365 Commerce dans Microsoft Teams.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3bde573456856b6457740587b7e921408285a762
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 478bdc762bbc808b031b3ec160126deb4627b6e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881269"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>Gérer les rôles utilisateur dans Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment gérer les rôles utilisateur Microsoft Dynamics 365 Commerce dans Microsoft Teams.
+Cet article décrit comment gérer les rôles utilisateur Microsoft Dynamics 365 Commerce dans Microsoft Teams.
 
 Lorsque vous créez une équipe pour chaque magasin ou canal dans Teams, une appartenance à un groupe correspondant à l’équipe est créée (par exemple,`HOUSTON_D365@<YourTenantAzureADDomain>.com`). Tous les employés du magasin appartenant à un groupe d’équipes se voient attribuer l’un des deux rôles d’utilisateur suivants : **Propriétaire** ou **Membre**. Les employés du magasin qui ont le rôle utilisateur **Propriétaire** peuvent effectuer des opérations telles que l’ajout d’un canal privé et l’ajout ou la suppression de membres. En règle générale, les directeurs de magasin ont le rôle utilisateur **Propriétaire**.
 

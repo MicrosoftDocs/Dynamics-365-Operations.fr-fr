@@ -1,6 +1,6 @@
 ---
-title: Intégration de Customer Voice dans les pages de sites e-commerce
-description: Cette rubrique décrit comment intégrer Microsoft Dynamics 365 Customer Voice dans des pages de sites e-commerce Dynamics 365 Commerce.
+title: Intégrer Customer Voice dans les pages du site d’e-commerce
+description: Cet article décrit comment intégrer Microsoft Dynamics 365 Customer Voice dans des pages de sites e-commerce Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850328"
 ---
-# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Intégration de Customer Voice dans les pages de sites e-commerce
+# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Intégrer Customer Voice dans les pages du site d’e-commerce
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment intégrer Microsoft Dynamics 365 Customer Voice dans des pages de sites e-commerce Dynamics 365 Commerce.
+Cet article décrit comment intégrer Microsoft Dynamics 365 Customer Voice dans des pages de sites e-commerce Dynamics 365 Commerce.
 
 Vous pouvez intégrer [Customer Voice](https://dynamics.microsoft.com/customer-voice/overview/) dans votre site e-commerce pour collecter, analyser et suivre les retours clients en temps réel. Pour commencer l’intégration, vous devez créer un compte et sélectionner un modèle de projet Customer Voice pour le type de commentaires que vous souhaitez recueillir.
 
@@ -37,7 +37,7 @@ Pour sélectionner un modèle de projet Customer Voice, procédez comme suit :
 1. Sélectionnez le modèle de projet correspondant au type de commentaire que vous souhaitez recueillir, puis sélectionnez **Suivant**.
 1. Sur l’onglet **Envoyer**, sélectionnez un format incorporé sous **Choisir un format incorporé**. Le champ **Code intégré** indique le code qui doit être intégré dans le générateur de site Commerce.
 
-Les exemples de cette rubrique utilisent le modèle de projet **Enquête périodique auprès des clients** et le format incorporé **Bouton**.
+Les exemples de cet article utilisent le modèle de projet **Enquête périodique auprès des clients** et le format incorporé **Bouton**.
 
 L’exemple d’illustration suivant montre la page du modèle de projet **Enquête périodique auprès des clients**, avec l’option pour le format incorporé **Bouton** sélectionnée et le code incorporé de cette option affiché dans le champ **Code incorporé**. Trois actions distinctes sont nécessaires pour incorporer le code fourni dans les pages de votre site, comme décrit dans les sections suivantes.
 

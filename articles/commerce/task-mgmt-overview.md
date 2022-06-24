@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la gestion des tâches
-description: Cette rubrique donne une vue d’ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
+description: Cet article donne une vue d’ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1a814b76985b9bb7ee47ee287967acbf41ddd0e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900332"
 ---
 # <a name="task-management-overview"></a>Vue d’ensemble de la gestion des tâches
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique donne une vue d’ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
+Cet article donne une vue d’ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
 
 Dans un environnement de vente au détail, il est toujours difficile de s’assurer que les tâches sont effectuées par la bonne personne au bon moment. Les détaillants doivent être en mesure d’informer les employés des tâches à venir et de fournir le contexte connexe, afin que les tâches puissent être effectuées correctement et dans les délais.
 

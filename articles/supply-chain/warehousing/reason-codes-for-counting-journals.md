@@ -1,6 +1,6 @@
 ---
 title: Codes motif d’inventaire de stock
-description: Cette rubrique décrit comment paramétrer et appliquer des codes motif pour les tâches d’inventaire.
+description: Cet article décrit comment paramétrer et appliquer des codes motif pour les tâches d’inventaire.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857110"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Codes motif d’inventaire de stock
 
@@ -42,7 +42,7 @@ Avant de paramétrer le système, nous vous recommandons de définir une straté
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Activer les fonctionnalités de code motif dans votre système
 
-Si vous ne voyez pas toutes les fonctionnalités décrites dans cette rubrique dans votre système, vous devez probablement activer la fonctionnalité *Valider les ajustements en stock à l’aide de codes de motif configurables connectés aux comptes de contrepartie*. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Si vous ne voyez pas toutes les fonctionnalités décrites dans cet article dans votre système, vous devez probablement activer la fonctionnalité *Valider les ajustements en stock à l’aide de codes de motif configurables connectés aux comptes de contrepartie*. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Valider les ajustements en stock à l’aide de codes de motif configurables connectés aux comptes de contrepartie*
@@ -111,7 +111,7 @@ Pour paramétrer des codes de motif d’inventaire, procédez comme suit :
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Paramétrage de groupes de codes motif d’inventaire
 
-*Groupes de codes de motif d’inventaire* peut être utilisé dans le cadre des éléments de menu *Ajustement entrant* et *Ajustement sortant* dans l’application mobile Warehouse Management pour limiter la liste des codes de motif d’inventaire. (Pour plus d’informations sur les groupes de codes de motif d’inventaire, consultez la section [Configurer les éléments de menu de l’appareil mobile pour les ajustements d’entrée et de sortie](#setup-adjustment-in-out) plus loin dans cette rubrique.)
+*Groupes de codes de motif d’inventaire* peut être utilisé dans le cadre des éléments de menu *Ajustement entrant* et *Ajustement sortant* dans l’application mobile Warehouse Management pour limiter la liste des codes de motif d’inventaire. (Pour plus d’informations sur les groupes de codes de motif d’inventaire, consultez la section [Configurer les éléments de menu de l’appareil mobile pour les ajustements d’entrée et de sortie](#setup-adjustment-in-out) plus loin dans cet article.)
 
 1. Aller à **Gestion des stocks** \> **Configurer** \> **Stock** \> **Groupes de codes de motif d’inventaire**.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour ajouter un groupe.
@@ -174,7 +174,7 @@ Pour configurer un élément de menu d’appareil mobile pour un ajustement en e
         - *Masquer* – Ne pas afficher le code motif.
 
     - **Modifier le code motif d’inventaire** – Définissez cette option sur *Oui* pour permettre au collaborateur de modifier le code motif lorsqu’il est affiché sur l’appareil mobile pendant l’inventaire. Réglez-le sur *Non* pour empêcher le collaborateur de modifier le code.
-    - **Groupe de codes de motif d’inventaire** – Sélectionnez un groupe de codes motif si vous souhaitez limiter la liste d’options présentée aux collaborateurs. Pour plus d’informations sur la configuration des groupes de codes de motif, consultez la section [Configurer des groupes de codes de motif d’inventaire](#reason-groups) plus haut dans cette rubrique. 
+    - **Groupe de codes de motif d’inventaire** – Sélectionnez un groupe de codes motif si vous souhaitez limiter la liste d’options présentée aux collaborateurs. Pour plus d’informations sur la configuration des groupes de codes de motif, consultez la section [Configurer des groupes de codes de motif d’inventaire](#reason-groups) plus haut dans cet article. 
 
 > [!NOTE]
 > Lorsque vous affectez un groupe de codes de motif d’inventaire aux éléments de menu *Ajustement en entrée* et *Ajustement en sortie* où l’option **Utiliser le guide de processus** est définie sur *Oui*, vous pouvez obtenir une liste limitée des codes de motif d’inventaire dans le cadre du traitement dans l’application mobile Warehouse Management.

@@ -1,6 +1,6 @@
 ---
 title: Conversion d’unité de mesure selon la variante de produit
-description: Cette rubrique explique comment paramétrer les conversions d’unités de mesure selon les variantes de produit. Elle inclut un exemple de paramétrage.
+description: Cet article explique comment paramétrer les conversions d’unités de mesure selon les variantes de produit. Elle inclut un exemple de paramétrage.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a605e510ac8faa1f92e105c9fcc30222ef78e05e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869631"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversion d’unité de mesure selon la variante de produit
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer les conversions d’unités de mesure pour différentes variantes de produit.
+Cet article explique comment paramétrer les conversions d’unités de mesure pour différentes variantes de produit.
 
 Vous pouvez utiliser les variantes de produit pour créer des variations d’un seul produit au lieu de créer plusieurs produits à mettre à jour. Par exemple, une variante de produit peut être un T-shirt d’une taille et d’une couleur données.
 

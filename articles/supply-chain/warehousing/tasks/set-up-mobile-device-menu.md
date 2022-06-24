@@ -1,6 +1,6 @@
 ---
 title: Configurer une option de menu d’appareil mobile pour terminer le travail du type commande fournisseur
-description: Cette rubrique montre comment configurer une option du menu Appareil mobile.
+description: Cet article montre comment configurer une option du menu Appareil mobile.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882284"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Configurer une option de menu d’appareil mobile pour terminer le travail du type commande fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique montre comment configurer une option du menu Appareil mobile. Dans cet exemple, l’option de menu est utilisée pour effectuer le travail de type commande fournisseur. La classe de travail associée à l’option de menu qui détermine quel travail est valide. Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF. Cette procédure est généralement effectuée par un gestionnaire de l’entrepôt.
+Cet article montre comment configurer une option du menu Appareil mobile. Dans cet exemple, l’option de menu est utilisée pour effectuer le travail de type commande fournisseur. La classe de travail associée à l’option de menu qui détermine quel travail est valide. Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF. Cette procédure est généralement effectuée par un gestionnaire de l’entrepôt.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Créer une option de menu d’appareil mobile

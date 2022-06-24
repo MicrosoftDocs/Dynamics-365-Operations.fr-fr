@@ -1,6 +1,6 @@
 ---
 title: Configurer un canal de centre d’appels
-description: Cette rubrique décrit comment créer un canal de centre d’appels dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment créer un canal de centre d’appels dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 03/13/2020
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 219c84eb9a8c3b53467ed48c13775106c82dac63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864953"
 ---
-# <a name="set-up-a-call-center-channel"></a>Paramétrer un canal de centre d’appels
+# <a name="set-up-a-call-center-channel"></a>Configurer un canal de centre d’appels
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer un canal de centre d’appels dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment créer un canal de centre d’appels dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 
 Dans Dynamics 365 Commerce, un centre d’appels est un type de canal Commerce qui peut être défini dans l’application. La définition d’un canal pour vos entités de centre d’appels permet au système de lier des données spécifiques et des valeurs par défaut de traitement des commandes aux commandes client. Bien qu’une entreprise puisse définir plusieurs canaux de centre d’appels dans Commerce, il est important de noter qu’un utilisateur individuel ne peut pas être lié à un seul canal de centre d’appels. 

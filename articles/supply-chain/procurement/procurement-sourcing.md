@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil Approvisionnements
-description: Cette rubrique fournit une liste des rubriques d’aide et d’autres ressources disponibles pour les approvisionnements.
+description: Cet article fournit une liste des articles d’aide et d’autres ressources disponibles pour les approvisionnements.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673016"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885868"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Page d’accueil Approvisionnements
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une liste des rubriques d’aide et d’autres ressources disponibles pour les approvisionnements.
+Cet article fournit une liste des articles d’aide et d’autres ressources disponibles pour les approvisionnements.
 
 Le module Approvisionnements couvre toutes les étapes : identification d’un besoin de produit et de services, approvisionnement du produit, réception, factures et traitement du paiement des fournisseurs. Les processus d’approvisionnement peuvent être configurés en fonction des besoins spécifiques en définissant des stratégies et des workflows d’achat. Pour obtenir des informations générales, voir [Présentation des approvisionnements](procurement-sourcing-overview.md). Les ressources supplémentaires sont répertoriées ci-dessous.
 

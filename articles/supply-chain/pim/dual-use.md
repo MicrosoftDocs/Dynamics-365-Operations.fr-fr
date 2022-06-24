@@ -1,6 +1,6 @@
 ---
 title: Biens à double usage
-description: Cette rubrique explique comment suivre les produits identifiés comme des biens à double usage, stocker les numéros de certificat pour chaque produit concerné et pays de destination, et imprimer des numéros de certificat valides sur les factures, bons de livraison et/ou commandes client concernés.
+description: Cet article explique comment suivre les produits identifiés comme des biens à double usage, stocker les numéros de certificat pour chaque produit concerné et pays de destination, et imprimer des numéros de certificat valides sur les factures, bons de livraison et/ou commandes client concernés.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878901"
 ---
 # <a name="dual-use-goods"></a>Biens à double usage
 
@@ -42,7 +42,7 @@ Prenons le scénario suivant :
 
 6. La commande comprend le produit X-100, le produit est expédié en France et un certificat français existe pour le produit. Cependant, le certificat a expiré. Par conséquent, le message d’avertissement suivant s’affiche : « Les certificats des produits à double usage pour un ou plusieurs articles à double usage de cette commande client ne sont pas valides. Voulez-vous procéder à la confirmation ? »
 
-Cette rubrique explique comment configurer tous les paramètres requis pour configurer les biens à double usage et prendre en charge ce scénario.
+Cet article explique comment configurer tous les paramètres requis pour configurer les biens à double usage et prendre en charge ce scénario.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Définir les exigences du double usage pour chaque pays concerné
 

@@ -1,6 +1,6 @@
 ---
 title: Installer des actifs à des postes techniques
-description: Cette rubrique explique comment installer des actifs à des postes techniques dans Gestion des actifs.
+description: Cet article explique comment installer des actifs à des postes techniques dans Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894499"
 ---
 # <a name="install-assets-on-functional-locations"></a>Installer des actifs à des postes techniques
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775745"
 
  
 
-Après avoir créé des structures de postes techniques, l’étape suivante consiste à installer des actifs aux postes techniques appropriés. Cette rubrique explique comment installer des actifs à ces postes techniques dans Gestion des actifs. Pour plus d’informations sur la création d’actifs, voir [Introduction aux actifs](../objects/introduction-to-objects.md).
+Après avoir créé des structures de postes techniques, l’étape suivante consiste à installer des actifs aux postes techniques appropriés. Cet article explique comment installer des actifs à ces postes techniques dans Gestion des actifs. Pour plus d’informations sur la création d’actifs, voir [Introduction aux actifs](../objects/introduction-to-objects.md).
 
 Si vous avez créé une structure d’actif, l’ensemble de celle-ci doit être installée à un poste technique. Par conséquent, seuls des actifs parents (actifs supérieurs sans actif parent) peuvent être sélectionnés à un poste technique. Tous les actifs enfants associés (sous-actifs) sont également installés au poste technique. Lorsque vous installez des actifs à un poste technique, les dimensions financières de celui-ci peuvent être automatiquement transférées aux actifs, selon le paramétrage du type de poste technique sélectionné pour celui-ci. Pour plus d’informations sur la configuration des types de postes techniques, voir [Types de poste techniques](../setup-for-functional-locations/functional-location-types.md).
 

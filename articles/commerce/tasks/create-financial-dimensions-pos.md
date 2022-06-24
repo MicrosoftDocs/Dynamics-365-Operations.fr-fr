@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12206661c20c3029ca61c75f728fbd915706477be6f6ebf7abe8366ebda8980b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e85756a2b7cdd3627c7a3fffa8dc97e0db13641a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884788"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>Créer des dimensions financières pour les caisses de PDV et configurer les valeurs de dimension dans les registres
 
 [!include [banner](../includes/banner.md)]
 
-Cette procédure illustre la création des dimensions financières des caisses enregistreuses des points de vente (PDV), et montre comment configurer les valeurs de dimension financière des caisses enregistreuses. Cette procédure n’inclut pas d’autres étapes associées, telles que la création d’ensembles de dimensions et de structures de compte. Ces tâches sont traitées dans d’autres rubriques. La société fictive USRT sert d’exemple dans cet enregistrement.
+Cette procédure illustre la création des dimensions financières des caisses enregistreuses des points de vente (PDV), et montre comment configurer les valeurs de dimension financière des caisses enregistreuses. Cette procédure n’inclut pas d’autres étapes associées, telles que la création d’ensembles de dimensions et de structures de compte. Ces tâches sont traitées dans d’autres articles. La société fictive USRT sert d’exemple dans cet enregistrement.
 
 1. Accédez à Comptabilité > Plan de comptes > Dimensions > Dimensions financières.
 2. Cliquez sur Nouveau.

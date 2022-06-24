@@ -1,6 +1,6 @@
 ---
 title: Créer une URL de page
-description: Cette rubrique présente les concepts et les procédures fondamentaux pour créer une URL de page sur votre site.
+description: Cet article présente les concepts et les procédures fondamentaux pour créer une URL de page sur votre site.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 923723ce6e3f92c5186cd8a562a6e3fee3fdf70dfe8db29c86192cb1db515b1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1798c4812b535ef007cbd5ff310b534e64a2f11e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892302"
 ---
 # <a name="create-a-page-url"></a>Créer une URL de page
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique présente les concepts et les procédures fondamentaux pour créer une URL de page sur votre site.
+Cet article présente les concepts et les procédures fondamentaux pour créer une URL de page sur votre site.
 
 L’URL totale, ou absolue, qui désigne une page sur votre site est constituée de pièces distinctes. Par exemple, l’URL `https://www.contoso.com/en-us/contactus` a les éléments suivants :
 

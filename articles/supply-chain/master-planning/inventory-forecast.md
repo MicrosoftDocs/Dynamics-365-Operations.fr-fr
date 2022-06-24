@@ -1,6 +1,6 @@
 ---
 title: Prévisions du stock
-description: Cette rubrique décrit la fonctionnalité de prévision de l’offre et de la demande utilisable pour créer des prévisions de stock dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article décrit la fonctionnalité de prévision de l’offre et de la demande utilisable pour créer des prévisions de stock dans Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844523"
 ---
 # <a name="inventory-forecasts"></a>Prévisions du stock
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment afficher et créer des prévisions de stock. Vous pouvez créer et afficher des lignes de prévision de l’offre et de la demande pour des articles, des groupes d’articles, des clés de répartition par articles, des comptes clients, des groupes de clients, des comptes fournisseurs et des groupes de fournisseurs.
+Cet article explique comment afficher et créer des prévisions de stock. Vous pouvez créer et afficher des lignes de prévision de l’offre et de la demande pour des articles, des groupes d’articles, des clés de répartition par articles, des comptes clients, des groupes de clients, des comptes fournisseurs et des groupes de fournisseurs.
 
 Pour chaque ligne de prévision, vous pouvez sélectionner le modèle de prévision utilisé. Vous pouvez ensuite spécifier l’article ou le groupe d’articles, ainsi que la quantité ou le montant de la transaction. Vous pouvez également paramétrer un calendrier pour l’attribution de la quantité prévue.
 
@@ -60,7 +60,7 @@ Comme le montre le tableau de l’étape 1, il existe différentes manières d�
     En fonction de votre sélection, la page **Prévision d’approvisionnement** ou **Prévision de la demande** apparaît. Elle affiche toutes les lignes de prévision existantes pour l’enregistrement que vous avez sélectionné avant d’ouvrir la page.
 
 1. Dans le volet Actions, sélectionnez **Nouveau** pour ajouter une ligne de prévision à la grille dans la partie supérieure de la page.
-1. Sur la nouvelle ligne, dans le champ **Modèle**, sélectionnez le modèle de prévision à utiliser. Saisissez ensuite les autres détails requis, tels que l’article, le groupe d’articles, le compte ou le groupe de clients ou de fournisseurs, la quantité d’articles ou le montant total de la transaction. Pour plus de détails sur les champs disponibles sur les pages **Prévision d’approvisionnement** et **Prévision de la demande**, consultez les sections suivantes de cette rubrique.
+1. Sur la nouvelle ligne, dans le champ **Modèle**, sélectionnez le modèle de prévision à utiliser. Saisissez ensuite les autres détails requis, tels que l’article, le groupe d’articles, le compte ou le groupe de clients ou de fournisseurs, la quantité d’articles ou le montant total de la transaction. Pour plus de détails sur les champs disponibles sur les pages **Prévision d’approvisionnement** et **Prévision de la demande**, consultez les sections suivantes de cet article.
 1. Pour répartir la prévision sur la période, sur l’onglet **Aperçu**, sélectionnez **Répartir la prévision** sur la barre d’outils.
 1. Dans la grille **Répartition**, passez en revue la période et les intervalles de temps utilisés pour répartir les quantités de prévision.
 
@@ -68,7 +68,7 @@ Comme le montre le tableau de l’étape 1, il existe différentes manières d�
 
 La prévision d’approvisionnement vous permet de créer un plan pour les articles qui doivent être achetés. Il indique aux commis aux achats et à l’approvisionnement ce qu’ils sont censés commander.
 
-Vous pouvez saisir une prévision d’approvisionnement par article, groupe d’articles, clé de répartition par article, fournisseur et groupe de fournisseurs. Pour plus d’informations sur toutes les manières d’ouvrir la page **Prévisions d’approvisionnement** pour divers entités et enregistrements, voir la section [Afficher et saisir manuellement des lignes de prévision](#manual-entry) plus haut dans cette rubrique.
+Vous pouvez saisir une prévision d’approvisionnement par article, groupe d’articles, clé de répartition par article, fournisseur et groupe de fournisseurs. Pour plus d’informations sur toutes les manières d’ouvrir la page **Prévisions d’approvisionnement** pour divers entités et enregistrements, voir la section [Afficher et saisir manuellement des lignes de prévision](#manual-entry) plus haut dans cet article.
 
 La partie supérieure de la page **Prévision d’approvisionnement** fournit une grille de lignes de prévision d’approvisionnement et un ensemble d’onglets que vous pouvez utiliser pour afficher et définir plus d’informations sur une ligne de prévision sélectionnée. La partie inférieure de la page fournit une grille **Répartition**.
 
@@ -94,9 +94,9 @@ Le tableau suivant décrit les commandes disponibles sur la barre d’outils de 
 
 | Commande | Description |
 |---|---|
-| Répartir la prévision | Si vous utilisez une méthode de répartition, générez les lignes d’échéancier individuelles pour la transaction de prévision. La quantité de la ligne est ensuite répartie par date (selon les intervalles de temps sélectionnés), quantité et montant pour tout l’horizon temporel. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cette rubrique.) |
-| Mise à jour par lot | Ouvrez la page **Modifier les transactions de prévision**. (Voir la section [Mettre à jour en bloc les transactions de prévision](#bulk-update), plus loin dans cette rubrique.) |
-| Prévisions de stock | Ouvrez une vue de la page **Prévision de stock** filtrée pour la combinaison article/modèle sélectionnée. (Voir la section [Prévision de stock](#inventory-forecast) plus loin dans cette rubrique.) |
+| Répartir la prévision | Si vous utilisez une méthode de répartition, générez les lignes d’échéancier individuelles pour la transaction de prévision. La quantité de la ligne est ensuite répartie par date (selon les intervalles de temps sélectionnés), quantité et montant pour tout l’horizon temporel. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cet article.) |
+| Mise à jour par lot | Ouvrez la page **Modifier les transactions de prévision**. (Voir la section [Mettre à jour en bloc les transactions de prévision](#bulk-update), plus loin dans cet article.) |
+| Prévisions de stock | Ouvrez une vue de la page **Prévision de stock** filtrée pour la combinaison article/modèle sélectionnée. (Voir la section [Prévision de stock](#inventory-forecast) plus loin dans cet article.) |
 | Créer une demande d’articles | Ouvrez une boîte de dialogue dans laquelle vous pouvez créer des besoins d’article et des commandes client ou des lignes de journal d’article pour les transactions de prévision liées au projet. Bien que cette commande soit disponible à la fois pour les lignes de prévision d’approvisionnement et les lignes de prévision de la demande, elle ne peut pas être utilisée sur la page **Prévision d’approvisionnement**. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>L’onglet Vue d’ensemble sur la page Prévision d’approvisionnement
@@ -173,7 +173,7 @@ Si vous utilisez une clé de répartition par article ou si vous avez saisi une 
 
 La prévision de la demande vous permet de saisir ou de générer une demande pour un client. Elle aide les commis aux ventes et au marketing à informer les commis à la planification de la demande prévue au cours de la période de prévision à venir.
 
-Vous pouvez saisir une prévision de la demande par article, groupe d’articles, clé de répartition par article, client et groupe de clients. Pour plus d’informations sur toutes les manières d’ouvrir la page **Prévision de la demande** pour divers entités et enregistrements, voir la section [Afficher et saisir manuellement des lignes de prévision](#manual-entry) plus haut dans cette rubrique.
+Vous pouvez saisir une prévision de la demande par article, groupe d’articles, clé de répartition par article, client et groupe de clients. Pour plus d’informations sur toutes les manières d’ouvrir la page **Prévision de la demande** pour divers entités et enregistrements, voir la section [Afficher et saisir manuellement des lignes de prévision](#manual-entry) plus haut dans cet article.
 
 La partie supérieure de la page **Prévision de la demande** fournit une grille de lignes de prévision de la demande et un ensemble d’onglets que vous pouvez utiliser pour afficher et définir plus d’informations sur une ligne de prévision sélectionnée. La partie inférieure de la page fournit une grille **Répartition**.
 
@@ -201,9 +201,9 @@ Le tableau suivant décrit les commandes disponibles sur la barre d’outils de 
 
 | Commande | Description |
 |---|---|
-| Répartir la prévision | Si vous utilisez une méthode de répartition, générez les lignes d’échéancier individuelles pour la transaction de prévision. La quantité de la ligne est ensuite répartie par date (selon les intervalles de temps sélectionnés), quantité et montant pour tout l’horizon temporel. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cette rubrique.)|
-| Mise à jour par lot | Ouvrez la page **Modifier les transactions de prévision**. (Voir la section [Mettre à jour en bloc les transactions de prévision](#bulk-update), plus loin dans cette rubrique.) |
-| Prévisions de stock | Ouvrez une vue de la page **Prévision de stock** filtrée pour la combinaison article/modèle sélectionnée. (Voir la section [Prévision de stock](#inventory-forecast) plus loin dans cette rubrique.) |
+| Répartir la prévision | Si vous utilisez une méthode de répartition, générez les lignes d’échéancier individuelles pour la transaction de prévision. La quantité de la ligne est ensuite répartie par date (selon les intervalles de temps sélectionnés), quantité et montant pour tout l’horizon temporel. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cet article.)|
+| Mise à jour par lot | Ouvrez la page **Modifier les transactions de prévision**. (Voir la section [Mettre à jour en bloc les transactions de prévision](#bulk-update), plus loin dans cet article.) |
+| Prévisions de stock | Ouvrez une vue de la page **Prévision de stock** filtrée pour la combinaison article/modèle sélectionnée. (Voir la section [Prévision de stock](#inventory-forecast) plus loin dans cet article.) |
 | Créer une demande d’articles | Ouvrez une boîte de dialogue dans laquelle vous pouvez créer des besoins d’article et des commandes client ou des lignes de journal d’article pour les transactions de prévision liées au projet. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>L’onglet Vue d’ensemble sur la page Prévision de la demande
@@ -296,7 +296,7 @@ L’onglet **Dimensions de stock** affiche toutes les valeurs de dimension de st
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>La grille Répartition sur la page Prévision de la demande
 
-Si vous utilisez une clé de répartition par article ou si vous avez saisi une prévision d’article pour une ou plusieurs périodes futures, vous pouvez répartir la prévision en sélectionnant **Répartir la prévision** dans la barre d’outils de l’onglet **Vue d’ensemble**. La quantité est ensuite répartie de la manière indiquée par les lignes dans la grille **Répartition**. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cette rubrique.)
+Si vous utilisez une clé de répartition par article ou si vous avez saisi une prévision d’article pour une ou plusieurs périodes futures, vous pouvez répartir la prévision en sélectionnant **Répartir la prévision** dans la barre d’outils de l’onglet **Vue d’ensemble**. La quantité est ensuite répartie de la manière indiquée par les lignes dans la grille **Répartition**. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cet article.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Prévisions de stock
 

@@ -1,6 +1,6 @@
 ---
 title: Vues enregistrées standard pour Supply Chain Management
-description: Cette rubrique décrit les vues enregistrées standard disponibles et explique comment les activer.
+description: Cet article décrit les vues enregistrées standard disponibles et explique comment les activer.
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887556"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Vues enregistrées standard pour Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management comprend plusieurs vues enregistrées que vous pouvez activer et utiliser selon vos besoins. Certaines de ces vues enregistrées standard sont optimisées et nommées pour un rôle ou une tâche spécifique (par exemple, « Contrôle qualité » ou « Réception »). D’autres sont optimisées pour n’inclure que les champs et les paramètres les plus souvent utilisés par les clients selon les statistiques d’utilisation de Microsoft. Ces vues enregistrées sont généralement appelées vues *simplifiées*. Cette rubrique décrit les vues enregistrées standard disponibles et explique comment les activer et les personnaliser.
+Microsoft Dynamics 365 Supply Chain Management comprend plusieurs vues enregistrées que vous pouvez activer et utiliser selon vos besoins. Certaines de ces vues enregistrées standard sont optimisées et nommées pour un rôle ou une tâche spécifique (par exemple, « Contrôle qualité » ou « Réception »). D’autres sont optimisées pour n’inclure que les champs et les paramètres les plus souvent utilisés par les clients selon les statistiques d’utilisation de Microsoft. Ces vues enregistrées sont généralement appelées vues *simplifiées*. Cet article décrit les vues enregistrées standard disponibles et explique comment les activer et les personnaliser.
 
 Pour obtenir des informations complètes sur l’utilisation des vues enregistrées, y compris les vues enregistrées standard, une fois que vous les avez activées, voir [Vues enregistrées](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur la personnalisation et l’attribution d’un nou
 
 Pour utiliser la fonctionnalité de vues enregistrées, que vous utilisiez ou non les vues enregistrées standard, vous devez activer la fonctionnalité *Vues enregistrées* dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (à partir de la version 10.0.21, cette fonctionnalité est activée par défaut).
 
-Les autres sections de cette rubrique fournissent des tableaux qui décrivent les vues enregistrées standard actuellement disponibles pour chaque module pertinent. Chaque tableau affiche le nom de chaque vue enregistrée, la page dans laquelle vous pouvez la trouver et une description de celle-ci. Chaque tableau indique également le nom de la fonctionnalité incluant la vue enregistrée. Pour afficher une vue enregistrée standard dans votre système, vous devez activer la fonctionnalité spécifiée dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). À partir de la version 10.0.25, toutes les vues répertoriées sont activées par défaut.
+Les autres sections de cet article fournissent des tableaux qui décrivent les vues enregistrées standard actuellement disponibles pour chaque module pertinent. Chaque tableau affiche le nom de chaque vue enregistrée, la page dans laquelle vous pouvez la trouver et une description de celle-ci. Chaque tableau indique également le nom de la fonctionnalité incluant la vue enregistrée. Pour afficher une vue enregistrée standard dans votre système, vous devez activer la fonctionnalité spécifiée dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). À partir de la version 10.0.25, toutes les vues répertoriées sont activées par défaut.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Vues enregistrées pour le module Gestion des stocks
 

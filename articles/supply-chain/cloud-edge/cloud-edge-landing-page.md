@@ -1,6 +1,6 @@
 ---
 title: Unités d’échelle dans une topologie hybride distribuée
-description: Cette rubrique fournit des informations sur les unités d’échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d’entrepôt.
+description: Cet article fournit des informations sur les unités d’échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d’entrepôt.
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893669"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unités d’échelle dans une topologie hybride distribuée
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676326"
 > [!IMPORTANT]
 > La fonctionnalité d’unité d’échelle pour Microsoft Dynamics 365 Supply Chain Management est mise à votre disposition selon les conditions qui régissent l’utilisation du service. Pour plus d’informations, consultez les [Informations légales de Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Lorsque vous activez les unités d’échelle cloud et de périphérie, il vous est demandé de confirmer que vous comprenez que certaines données liées à la configuration et au traitement des unités d’échelle cloud et de périphérie peuvent être stockées dans un centre de données situé aux États-Unis. Pour en savoir plus sur le traitement des données pour les unités d’échelle cloud et de périphérie, consultez la section [Traitement des données lors de la gestion des unités d’échelle](#data-processing-management), plus loin dans cette rubrique.
+> Lorsque vous activez les unités d’échelle cloud et de périphérie, il vous est demandé de confirmer que vous comprenez que certaines données liées à la configuration et au traitement des unités d’échelle cloud et de périphérie peuvent être stockées dans un centre de données situé aux États-Unis. Pour en savoir plus sur le traitement des données pour les unités d’échelle cloud et de périphérie, consultez la section [Traitement des données lors de la gestion des unités d’échelle](#data-processing-management), plus loin dans cet article.
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Proposition de valeur de base pour une topologie hybride distribuée
 
@@ -48,7 +48,7 @@ Les unités d’échelle offrent résilience, fiabilité et évolutivité pour l
 
 Une *charge de travail* est un ensemble défini de fonctionnalités d’entreprise qui peut être factorisé et délégué à une unité d’échelle. Bien que la charge de travail pour la gestion de l’entrepôt ait été publiée, la charge de travail pour l’exécution de la fabrication est toujours en version préliminaire.
 
-Vous pouvez configurer un environnement de hub et les unités d’échelle cloud pour des charges de travail sélectionnées à l’aide du [portail de gestionnaire d’unité d’échelle](https://sum.dynamics.com). Vous pouvez également affecter plusieurs charges de travail par unité d’échelle. Pour plus d’informations sur les conditions préalables et les limitations des unités d’échelle cloud dans la version actuelle, consultez la section [Conditions préalables et limitations pour les unités d’échelle cloud](#cloud-scale-unit-prerequisites), plus loin dans cette rubrique.
+Vous pouvez configurer un environnement de hub et les unités d’échelle cloud pour des charges de travail sélectionnées à l’aide du [portail de gestionnaire d’unité d’échelle](https://sum.dynamics.com). Vous pouvez également affecter plusieurs charges de travail par unité d’échelle. Pour plus d’informations sur les conditions préalables et les limitations des unités d’échelle cloud dans la version actuelle, consultez la section [Conditions préalables et limitations pour les unités d’échelle cloud](#cloud-scale-unit-prerequisites), plus loin dans cet article.
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail de gestion d’unité d’échelle dédiées dans une unité d’échelle
 

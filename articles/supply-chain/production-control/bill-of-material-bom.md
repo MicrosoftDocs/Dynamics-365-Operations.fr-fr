@@ -1,6 +1,6 @@
 ---
 title: Nomenclatures et formules
-description: Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit.
+description: Cet article fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 57a30aba3b0a37d939d0747b2dd305a92c82ae23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578006"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887281"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Nomenclatures et formules
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique. 
+Cet article fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique. 
 
 ## <a name="bills-of-materials"></a>Nomenclatures
 

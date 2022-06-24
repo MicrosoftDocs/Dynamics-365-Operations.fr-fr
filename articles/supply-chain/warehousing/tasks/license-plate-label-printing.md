@@ -1,6 +1,6 @@
 ---
 title: Activer l’impression d’étiquette de contenant
-description: Cette rubrique présente comment activer l’impression automatique d’un code conteneur d’expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes.
+description: Cet article présente comment activer l’impression automatique d’un code conteneur d’expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes.
 author: perlynne
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b3895961f1f682a3fd06800a83a497afaf2fa65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dec552cac505b3fdc24dd453dbf723fa1d009ced
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903664"
 ---
 # <a name="enable-license-plate-label-printing"></a>Activer l’impression d’étiquette de contenant
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique présente comment activer l’impression automatique d’un code conteneur d’expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes. Vous pouvez exécuter cette procédure dans les données de démonstration de la société fictive USMF. Si vous l’exécutez à l’aide de vos propres données, vous devez avoir une souche de numéros pour les plaques d’immatriculation. Vous devez paramétrer une imprimante d’étiquettes avant de commencer cette tâche. Accédez à Administration d’organisation > Configuration > Imprimantes réseau. Dans le volet Actions, cliquez sur Options, puis sur le bouton Télécharger le fichier d’installation d’un agent d’acheminement de document. Exécutez le programme d’installation et assurez-vous d’avoir une imprimante réseau définie sur Actif avant de poursuivre la procédure.
+Cet article présente comment activer l’impression automatique d’un code conteneur d’expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes. Vous pouvez exécuter cette procédure dans les données de démonstration de la société fictive USMF. Si vous l’exécutez à l’aide de vos propres données, vous devez avoir une souche de numéros pour les plaques d’immatriculation. Vous devez paramétrer une imprimante d’étiquettes avant de commencer cette tâche. Accédez à Administration d’organisation > Configuration > Imprimantes réseau. Dans le volet Actions, cliquez sur Options, puis sur le bouton Télécharger le fichier d’installation d’un agent d’acheminement de document. Exécutez le programme d’installation et assurez-vous d’avoir une imprimante réseau définie sur Actif avant de poursuivre la procédure.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Paramétrer le préfixe de la société GS1

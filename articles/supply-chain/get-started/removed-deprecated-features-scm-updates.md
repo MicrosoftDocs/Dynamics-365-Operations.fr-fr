@@ -1,6 +1,6 @@
 ---
-title: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
-description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Supply Chain Management.
+title: Fonctions supprimées ou déconseillées dans Dynamics 365 Supply Chain Management
+description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865264"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
+# <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique sera mise à jour à mesure que de nouvelles fonctionnalités supprimées ou obsolètes sont documentées pour Dynamics 365 Supply Chain Management.
+Cet article sera mise à jour à mesure que de nouvelles fonctionnalités supprimées ou obsolètes sont documentées pour Dynamics 365 Supply Chain Management.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.

@@ -1,6 +1,6 @@
 ---
-title: Entités de création de voyage
-description: Cette rubrique fournit des informations sur les entités de données de création de voyage, qui regroupent les entités de données requises pour créer un voyage de travail.
+title: Entités de création de voyages
+description: Cet article fournit des informations sur les entités de données de création de voyage, qui regroupent les entités de données requises pour créer un voyage de travail.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 17f63af3ce1f858ed3e2086fc81c5e17c5e76be0
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: cb2e2f53942015caf9462692515f24deb9689aed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873896"
 ---
 # <a name="voyage-creation-entities"></a>Entités de création de voyage
 

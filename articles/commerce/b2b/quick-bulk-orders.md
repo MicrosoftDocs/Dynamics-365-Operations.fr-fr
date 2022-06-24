@@ -1,6 +1,6 @@
 ---
 title: Passer rapidement des commandes de site Web B2B
-description: Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 Commerce qui permettent aux utilisateurs de sites interentreprises (B2B) de passer rapidement des commandes groupées et répétées.
+description: Cet article décrit les fonctionnalités de Microsoft Dynamics 365 Commerce qui permettent aux utilisateurs de sites interentreprises (B2B) de passer rapidement des commandes groupées et répétées.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881359"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>Passer rapidement des commandes de site Web B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 Commerce qui permettent aux utilisateurs de sites interentreprises (B2B) de passer rapidement des commandes groupées et répétées.
+Cet article décrit les fonctionnalités de Microsoft Dynamics 365 Commerce qui permettent aux utilisateurs de sites interentreprises (B2B) de passer rapidement des commandes groupées et répétées.
 
 Les sites e-commerce B2B Dynamics 365 Commerce permettent aux utilisateurs d’effectuer des opérations standard telles que la découverte de nouveaux produits via la recherche et la navigation, l’affichage des détails du produit, l’ajout d’articles au panier et le paiement. Cependant, alors que les clients des sites business-to-consumer (B2C) commandent généralement des articles en petites quantités et ne les commandent qu’une seule fois, les clients B2B commandent généralement des articles en grande quantité et les recommandent plusieurs fois. Parce que ces clients savent généralement exactement quels articles ils veulent acheter, ils sautent souvent la phase de découverte du produit et passent directement à la commande. Pour répondre aux besoins de ces clients, les sites e-commerce Commerce B2B offrent diverses fonctionnalités qui les aident à passer des commandes rapidement.
 
@@ -65,4 +65,4 @@ L’illustration suivante montre un exemple de l’historique des commandes d’
 
 ![Réorganisation à partir de l’historique des commandes.](../media/Reorder.png)
 
-Cette rubrique a décrit quelques-unes des façons dont les sites Commerce B2B aident les utilisateurs à trouver, commander et réorganiser rapidement les produits qu’ils souhaitent. D’autres fonctionnalités sont en cours de développement pour simplifier davantage le processus de capture des commandes groupées.
+Cet article a décrit quelques-unes des façons dont les sites Commerce B2B aident les utilisateurs à trouver, commander et réorganiser rapidement les produits qu’ils souhaitent. D’autres fonctionnalités sont en cours de développement pour simplifier davantage le processus de capture des commandes groupées.

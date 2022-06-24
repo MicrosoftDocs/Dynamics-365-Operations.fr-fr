@@ -1,6 +1,6 @@
 ---
 title: Différences entre la planification générale intégrée et l’optimisation de la planification
-description: Cette rubrique répertorie les fonctionnalités que l’optimisation de la planification ne prend pas encore en charge et qui ne sont pas répertoriées sur la page d’analyse de concordance pour l’optimisation de la planification.
+description: Cet article répertorie les fonctionnalités que l’optimisation de la planification ne prend pas encore en charge et qui ne sont pas répertoriées sur la page d’analyse de concordance pour l’optimisation de la planification.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897572"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Différences entre la planification générale intégrée et l’optimisation de la planification
 
 [!include [banner](../../includes/banner.md)]
 
-Les résultats de l’optimisation de la planification peuvent différer des résultats du moteur de planification générale intégrée. Ces différences peuvent être dûes à des fonctionnalités en attente. Cette rubrique répertorie les fonctionnalités que l’optimisation de la planification ne prend pas encore en charge et qui ne sont pas répertoriées sur la page **[Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)**.
+Les résultats de l’optimisation de la planification peuvent différer des résultats du moteur de planification générale intégrée. Ces différences peuvent être dûes à des fonctionnalités en attente. Cet article répertorie les fonctionnalités que l’optimisation de la planification ne prend pas encore en charge et qui ne sont pas répertoriées sur la page **[Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)**.
 
 | Fonctionnalité | Comportement actuel dans l’optimisation de la planification |
 |---|---|

@@ -1,6 +1,6 @@
 ---
 title: Définir différentes dimensions pour l’emballage et le stockage
-description: Cette rubrique montre comment spécifier le processus (emballage, stockage ou emballage imbriqué) pour lequel chaque dimension spécifiée est utilisée.
+description: Cet article montre comment spécifier le processus (emballage, stockage ou emballage imbriqué) pour lequel chaque dimension spécifiée est utilisée.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905484"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Définir différentes dimensions pour l’emballage et le stockage
 
@@ -33,7 +33,7 @@ Certains articles sont emballés ou stockés de telle sorte que vous devrez peut
 Les dimensions de *stockage* sont prises en charge même lorsque la fonctionnalité *Dimensions d’emballage du produit* n’est pas activée. Vous configurez ces dimensions dans la page **Dimension physique** de Supply Chain Management. Ces dimensions sont utilisées par tous les processus dans lesquels les dimensions d’emballage et d’emballage imbriqué ne sont pas spécifiées.
 
 Les dimensions d’*emballage* et d’*emballage imbriqué* sont configurées dans la page **Dimensions physiques du produit**, qui est ajoutée lorsque vous activez la fonctionnalité *Dimensions d’emballage du produit*.
-Cette rubrique présente un scénario qui illustre comment utiliser cette fonctionnalité.
+Cet article présente un scénario qui illustre comment utiliser cette fonctionnalité.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Activer la fonctionnalité Dimensions d’emballage du produit
 

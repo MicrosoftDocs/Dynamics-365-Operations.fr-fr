@@ -1,6 +1,6 @@
 ---
-title: Réinitialiser les numéros de ticket de caisse
-description: Cette rubrique décrit comment réinitialiser les numéros de ticket de caisse utilisés pour diverses actions à une date souhaitée (par exemple, l’année fiscale ou l’année civile).
+title: Réinitialiser les numéros d’accusé de réception
+description: Cet article décrit comment réinitialiser les numéros de ticket de caisse utilisés pour diverses actions à une date souhaitée (par exemple, l’année fiscale ou l’année civile).
 author: ShalabhjainMSFT
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dc9f3f977e04866562781d9768141a4a96166f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858854"
 ---
 # <a name="reset-receipt-numbers"></a>Réinitialiser les numéros d’accusé de réception 
 
@@ -30,7 +30,7 @@ ms.locfileid: "6733867"
 > [!NOTE]
 > Nous vous demandons de sélectionner la propriété **Souche indépendante** pour tous les types de reçus dans le profil de fonctionnalité avant d’utiliser cette fonction. En outre, le fuseau horaire du système de l’appareil sur lequel le PDV est utilisé, doit correspondre au fuseau horaire du magasin correspondant. En raison de ces limitations, nous vous recommandons de ne pas utiliser cette fonction en production pendant que nous travaillons à résoudre ces problèmes dans une version ultérieure. 
 
-Les détaillants génèrent des numéros de ticket de caisse pour diverses actions dans le magasin, telles que les transactions au comptant, les transactions de retour, les commandes clients, les devis et les paiements. Bien que les détaillants définissent leurs propres formats de ticket de caisse, certains pays ou régions ont des réglementations qui imposent des restrictions sur ces formats. Par exemple, des réglementations peuvent limiter le nombre de caractères sur le ticket de caisse, exiger des numéros de ticket de caisse qui se suivent, restreindre certains caractères spéciaux ou exiger une réinitialisation des numéros de ticket de caisse au début de l’année. Microsoft Dynamics 365 Commerce rend le processus de gestion des numéros de ticket de caisse très flexible, pour aider les détaillants à répondre aux exigences réglementaires. Cette rubrique explique comment utiliser la fonctionnalité de réinitialisation des numéros de ticket de caisse.
+Les détaillants génèrent des numéros de ticket de caisse pour diverses actions dans le magasin, telles que les transactions au comptant, les transactions de retour, les commandes clients, les devis et les paiements. Bien que les détaillants définissent leurs propres formats de ticket de caisse, certains pays ou régions ont des réglementations qui imposent des restrictions sur ces formats. Par exemple, des réglementations peuvent limiter le nombre de caractères sur le ticket de caisse, exiger des numéros de ticket de caisse qui se suivent, restreindre certains caractères spéciaux ou exiger une réinitialisation des numéros de ticket de caisse au début de l’année. Microsoft Dynamics 365 Commerce rend le processus de gestion des numéros de ticket de caisse très flexible, pour aider les détaillants à répondre aux exigences réglementaires. Cet article explique comment utiliser la fonctionnalité de réinitialisation des numéros de ticket de caisse.
 
 Dans Commerce, les formats de ticket de caisse peuvent être alphanumériques. Vous pouvez y mettre à la fois du contenu statique et dynamique. Le contenu statique comprend des caractères alphabétiques, des chiffres et des caractères spéciaux. Le contenu dynamique comprend un ou plusieurs caractères qui représentent des informations telles que le numéro du magasin, le numéro du terminal, la date, le mois, l’année et les séquences de numéros qui sont automatiquement incrémentées. Les formats sont définis dans la section **Numérotation des tickets de caisse** du profil de fonctionnalité. Le tableau suivant décrit les caractères qui représentent le contenu dynamique.
 

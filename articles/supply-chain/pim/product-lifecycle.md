@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850639"
 ---
 # <a name="product-lifecycle-state-overview"></a>Vue d’ensemble de l’état du cycle de vie des produits
 
@@ -74,7 +74,7 @@ Les états du cycle de vie des produits sont pris en charge par les entités de 
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Rechercher des produits et des variantes de produit obsolètes
 
-Vous pouvez exécuter une analyse de simulation pour rechercher les produits ou les variantes de produit lancés obsolètes et mettre à jour le statut de leur cycle de vie. Pour rechercher des produits obsolètes, voir [Rechercher des variantes de produit obsolètes et affecter un état du cycle de vie des produits](tasks/obsolete-product-variants.md). Cette rubrique décrit comment rechercher des produits ou des variantes de produits lancés obsolètes et comment associer un état du cycle de vie des produits aux produits obsolètes. Il explique également comment afficher les résultats de la simulation et évaluer le nombre de produits et de variantes de produit à associer à un nouvel état du cycle de vie des produits lors de l’exécution de la mise à jour sans simulation.  
+Vous pouvez exécuter une analyse de simulation pour rechercher les produits ou les variantes de produit lancés obsolètes et mettre à jour le statut de leur cycle de vie. Pour rechercher des produits obsolètes, voir [Rechercher des variantes de produit obsolètes et affecter un état du cycle de vie des produits](tasks/obsolete-product-variants.md). Cet article décrit comment rechercher des produits ou des variantes de produits lancés obsolètes et comment associer un état du cycle de vie des produits aux produits obsolètes. Il explique également comment afficher les résultats de la simulation et évaluer le nombre de produits et de variantes de produit à associer à un nouvel état du cycle de vie des produits lors de l’exécution de la mise à jour sans simulation.  
 
 En exécutant l’analyse en mode de simulation, les produits et les variantes de produit identifiés comme obsolètes sont affichés dans un écran spécifique, où ils peuvent facilement être examinés. L’analyse recherche des transactions et des données principales spécifiques pour identifier les produits sans demande dans une période variable et sans données principales pouvant entraîner une demande. Les nouveaux produits lancés dans une période variable peuvent être exclus de l’analyse. Lorsque la simulation de l’analyse renvoie le résultat attendu, l’utilisateur peut exécuter l’analyse et définir un nouvel état du cycle de vie pour tous les produits identifiés comme obsolètes par l’analyse.  
 
@@ -97,7 +97,7 @@ Utilisez les critères suivants pour sélectionner et mettre à jour les produit
 - Aucune ligne de contrat de vente ou d’achat active ou future pour le produit ou la variante de produit.
 - Le produit ou la variante de produit n’est pas utilisé dans une nomenclature associée à une version de nomenclature approuvée non expirée pour un produit ou une variante qui est actif pour la planification.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 - [Créer un état du cycle de vie des produits](tasks/new-product-lifecycle-state.md)
 - [Créer un état du cycle de vie des produits par défaut](tasks/default-product-lifecycle-state.md)

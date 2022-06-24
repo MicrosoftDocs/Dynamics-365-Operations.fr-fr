@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la fidélité
-description: Cette rubrique décrit les fonctionnalités de fidélité dans Dynamics 365 Commerce et les étapes de configuration correspondantes permettant au détaillant de démarrer facilement leurs programmes de fidélité.
+description: Cet article décrit les fonctionnalités de fidélité dans Dynamics 365 Commerce et les étapes de configuration correspondantes permettant au détaillant de démarrer facilement leurs programmes de fidélité.
 author: scott-tucker
 ms.date: 07/21/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 667c30e52bae34f8ddfdc7b74f271d08612ac594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883901"
 ---
 # <a name="loyalty-overview"></a>Vue d’ensemble de la fidélité
 
 [!include [banner](includes/banner.md)]
 
-Les programmes de fidélité peuvent améliorer la fidélisation des clients en les récompensant pour leurs interactions avec la marque du détaillant. Dans Dynamics 365 Commerce, vous pouvez configurer des programmes de fidélité simples ou complexes, qui s’appliquent à toutes vos entités juridiques sur tous les canaux de commerce. Cette rubrique décrit les fonctionnalités de la fidélité dans Commerce et les étapes de configuration correspondantes pour aider le détaillant a mettre rapidement en place ses programmes de fidélité.
+Les programmes de fidélité peuvent améliorer la fidélisation des clients en les récompensant pour leurs interactions avec la marque du détaillant. Dans Dynamics 365 Commerce, vous pouvez configurer des programmes de fidélité simples ou complexes, qui s’appliquent à toutes vos entités juridiques sur tous les canaux de commerce. Cet article décrit les fonctionnalités de la fidélité dans Commerce et les étapes de configuration correspondantes pour aider le détaillant a mettre rapidement en place ses programmes de fidélité.
 
 Vous pouvez paramétrer votre programme de fidélité de manière à ce qu’il inclut les options suivantes.
 

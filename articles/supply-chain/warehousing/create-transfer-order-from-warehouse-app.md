@@ -1,6 +1,6 @@
 ---
-title: Créer des ordres de transfert depuis l’application d’entreposage
-description: Cette rubrique décrit comment créer et traiter des ordres de transfert à partir de l’application mobile Gestion des entrepôts
+title: Créer des ordres de transfert depuis l’application d’entrepôt
+description: Cet article décrit comment créer et traiter des ordres de transfert à partir de l’application mobile Gestion des entrepôts
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877448"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Créer des ordres de transfert depuis l’application d’entrepôt
 

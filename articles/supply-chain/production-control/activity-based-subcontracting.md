@@ -1,6 +1,6 @@
 ---
 title: Sous-traitance basée sur des activités
-description: Cette rubrique décrit, en détail, comment utiliser les activités sous-traitées dans un flux de production pour le lean manufacturing.
+description: Cet article décrit, en détail, comment utiliser les activités sous-traitées dans un flux de production pour le lean manufacturing.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890739"
 ---
 # <a name="activity-based-subcontracting"></a>Sous-traitance basée sur des activités
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit, en détail, comment utiliser les activités sous-traitées dans un flux de production pour le lean manufacturing.
+Cet article décrit, en détail, comment utiliser les activités sous-traitées dans un flux de production pour le lean manufacturing.
 
 Dans Microsoft Dynamics 365 Supply Chain Management, il existe deux approches pour la sous-traitance : ordres de fabrication et production au plus juste. Dans l’approche du lean manufacturing, le travail de sous-traitance est modélisé comme un service associé à une activité de flux de production. Un type spécial de groupe de coûts nommé **Externalisation directe** a été introduit, et les services de sous-traitance ne font plus partie d’une nomenclature. Le contrôle de gestion du travail sous-traité est entièrement intégré dans la solution d’évaluation des coûts pour le lean manufacturing.
 

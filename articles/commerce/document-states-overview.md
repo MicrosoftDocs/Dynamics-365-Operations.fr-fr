@@ -1,6 +1,6 @@
 ---
 title: États et cycle de vie des documents
-description: Cette rubrique décrit les différents états de document des éléments de page dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit les différents états de document des éléments de page dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad8547fe6b36caf75ce78cb09fb2caf901c63afe43fa4755bb9e5c69427829d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04836ecf80fc86ab6abb96e4255779c8c03988d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909456"
 ---
 # <a name="document-states-and-lifecycle"></a>États et cycle de vie des documents
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les différents états de document des éléments de page dans Microsoft Dynamics 365 Commerce.
+Cet article décrit les différents états de document des éléments de page dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="document-state-descriptions"></a>Description de l’état d’un document
 
-La rubrique [Éléments de page](page-elements-overview.md) répertorie les différents types de système de gestion de contenu (CMS). Ces types de documents peuvent avoir plusieurs états dans l’outil de création. Les états de document permettent d’éviter des conflits de données et d’appliquer le contrôle des versions. Ils déterminent qui peut modifier les documents, quand les documents peuvent être modifiés, et quand des modifications peuvent être affichées par d’autres personnes.
+L'article [Éléments de page](page-elements-overview.md) répertorie les différents types de système de gestion de contenu (CMS). Ces types de documents peuvent avoir plusieurs états dans l’outil de création. Les états de document permettent d’éviter des conflits de données et d’appliquer le contrôle des versions. Ils déterminent qui peut modifier les documents, quand les documents peuvent être modifiés, et quand des modifications peuvent être affichées par d’autres personnes.
 
 Le tableau suivant indique les états de document possibles des éléments de page dans Commerce.
 

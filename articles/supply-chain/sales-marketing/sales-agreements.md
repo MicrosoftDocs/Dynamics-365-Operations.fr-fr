@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des contrats de vente
-description: Cette rubrique fournit des informations sur les contrats de vente. Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produit sur une période définie en échange de prix spéciaux et de remises.
+description: Cet article fournit des informations sur les contrats de vente. Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produit sur une période définie en échange de prix spéciaux et de remises.
 author: Henrikan
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3e84b8be597870deea3beaf1bdc4a98021b7f135
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903838"
 ---
 # <a name="sales-agreements-overview"></a>Vue d’ensemble des contrats de vente
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les contrats de vente. Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produit sur une période définie en échange de prix spéciaux et de remises.
+Cet article fournit des informations sur les contrats de vente. Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produit sur une période définie en échange de prix spéciaux et de remises.
 
 Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produits sur une période définie en échange de prix spéciaux, de remises spéciales et d’autres conditions spéciales, telles que des conditions de paiement et de livraison. Les prix et les remises du contrat de vente sont prioritaires sur les autres prix et remises indiqués dans les contrats commerciaux existants.  
 

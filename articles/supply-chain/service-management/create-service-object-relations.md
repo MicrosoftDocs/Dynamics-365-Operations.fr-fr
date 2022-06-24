@@ -1,6 +1,6 @@
 ---
 title: Créer des relations d’objets de service
-description: Cette rubrique explique comment créer des relations d’objet de service pour un accord de service ou une commande de service.
+description: Cet article explique comment créer des relations d’objet de service pour un accord de service ou une commande de service.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4178132b03cd146aacbcbb8bf8e1e774a161726c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890652"
 ---
 # <a name="create-service-object-relations"></a>Créer des relations d’objets de service 
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment créer des relations d’objet de service pour un accord de service ou une commande de service. Lorsque vous créez une relation d’objet de service, vous associez l’objet de service à un accord de service ou à une commande de service. Lorsqu’un client demande un service pour un article qui est un objet de service, vous pouvez sélectionner l’objet de service dans la liste des relations d’objet de service.
+Cet article explique comment créer des relations d’objet de service pour un accord de service ou une commande de service. Lorsque vous créez une relation d’objet de service, vous associez l’objet de service à un accord de service ou à une commande de service. Lorsqu’un client demande un service pour un article qui est un objet de service, vous pouvez sélectionner l’objet de service dans la liste des relations d’objet de service.
 
 ## <a name="create-a-service-object-relation-for-a-service-agreement"></a>Créer une relation d’objet de service pour un accord de service
 

@@ -1,6 +1,6 @@
 ---
 title: Créer une commande fournisseur
-description: Cette rubrique vous indique comment créer une commande fournisseur manuellement.
+description: Cet article vous indique comment créer une commande fournisseur manuellement.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2fd627b9874b3e3f7aad71fb2970ddcc333a608
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856075"
 ---
 # <a name="create-a-purchase-order"></a>Créer une commande fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique vous indique comment créer une commande fournisseur manuellement. Il est plus classique de créer automatiquement les commandes fournisseur suite à l’exécution d’une planification générale, d’une livraison directe ou d’autres processus. Les commandes fournisseur sont généralement créées par un agent des achats. L’exemple indiqué ici peut être utilisé dans les données fictives de la société USMF à l’aide des valeurs suggérées dans les notes pour les différentes étapes.
+Cet article vous indique comment créer une commande fournisseur manuellement. Il est plus classique de créer automatiquement les commandes fournisseur suite à l’exécution d’une planification générale, d’une livraison directe ou d’autres processus. Les commandes fournisseur sont généralement créées par un agent des achats. L’exemple indiqué ici peut être utilisé dans les données fictives de la société USMF à l’aide des valeurs suggérées dans les notes pour les différentes étapes.
 
 
 ## <a name="create-the-purchase-order-header"></a>Créer l’en-tête de commande fournisseur

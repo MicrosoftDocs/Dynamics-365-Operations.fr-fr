@@ -1,6 +1,6 @@
 ---
 title: Gérer les utilisateurs des partenaires commerciaux sur les sites Web B2B à l’aide de Dynamics 365 Sales
-description: Cette rubrique décrit comment utiliser Microsoft Dynamics 365 Sales pour gérer les approbations de partenaires commerciaux pour les sites Web interentreprises (B2B) Dynamics 365 Commerce.
+description: Cet article décrit comment utiliser Microsoft Dynamics 365 Sales pour gérer les approbations de partenaires commerciaux pour les sites Web interentreprises (B2B) Dynamics 365 Commerce.
 author: shajain
 ms.date: 2/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878619"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Gérer les utilisateurs des partenaires commerciaux sur les sites Web B2B à l’aide de Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser Microsoft Dynamics 365 Sales pour gérer les approbations de partenaires commerciaux pour les sites Web interentreprises (B2B) Dynamics 365 Commerce. Les organisations qui ont déjà investi dans la solution Dynamics 365 Sales peuvent utiliser ses concepts de piste et d’opportunité pour le processus d’approbation des partenaires commerciaux e-commerce B2B.
+Cet article décrit comment utiliser Microsoft Dynamics 365 Sales pour gérer les approbations de partenaires commerciaux pour les sites Web interentreprises (B2B) Dynamics 365 Commerce. Les organisations qui ont déjà investi dans la solution Dynamics 365 Sales peuvent utiliser ses concepts de piste et d’opportunité pour le processus d’approbation des partenaires commerciaux e-commerce B2B.
 
 Pour des informations générales sur le processus d’approbation des partenaires commerciaux B2B, voir [Gérer les utilisateurs des partenaires commerciaux sur les sites e-commerce B2B](manage-b2b-users.md).
 

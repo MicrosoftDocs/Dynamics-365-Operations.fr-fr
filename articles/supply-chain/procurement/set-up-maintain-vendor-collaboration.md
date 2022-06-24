@@ -1,6 +1,6 @@
 ---
 title: Paramétrer et mettre à jour la collaboration fournisseur
-description: Cette rubrique explique comment paramétrer la collaboration fournisseur dans Dynamics 365 Supply Chain Management. Il explique également comment provisionner de nouveaux utilisateurs de collaboration de fournisseurs et gérer les rôles de sécurité pour ces utilisateurs.
+description: Cet article explique comment paramétrer la collaboration fournisseur dans Dynamics 365 Supply Chain Management. Il explique également comment provisionner de nouveaux utilisateurs de collaboration de fournisseurs et gérer les rôles de sécurité pour ces utilisateurs.
 author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890826"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Paramétrer et mettre à jour la collaboration fournisseur
 
@@ -28,7 +28,7 @@ ms.locfileid: "8677560"
 
 L'interface de collaboration avec les fournisseurs expose un ensemble limité d'informations sur les bons de commande, les factures et le stock en consignation aux utilisateurs de fournisseurs externes. À partir de cette interface, un fournisseur peut également répondre aux demandes de devis (RFQ) et afficher et modifier les informations de base de l'entreprise.
 
-Cette rubrique explique comment paramétrer la collaboration fournisseur dans Dynamics 365 Supply Chain Management. Il explique également comment configurer un flux de travail pour provisionner de nouveaux utilisateurs de collaboration fournisseur et comment gérer les rôles de sécurité pour ces utilisateurs.
+Cet article explique comment paramétrer la collaboration fournisseur dans Dynamics 365 Supply Chain Management. Il explique également comment configurer un flux de travail pour provisionner de nouveaux utilisateurs de collaboration fournisseur et comment gérer les rôles de sécurité pour ces utilisateurs.
 
 > [!NOTE]
 > Les informations sur la configuration des rôles de sécurité pour la collaboration avec les fournisseurs s'appliquent uniquement à la version actuelle de Finance et Operations. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d'informations sur les autorisations des utilisateurs pour le portail des fournisseurs dans Microsoft Dynamics AX, voir [Sécurité des utilisateurs du portail fournisseur](configure-security-vendor-portal-users.md).
@@ -77,7 +77,7 @@ Le **Rôle du fournisseur (externe)** peut être utilisé pour les fournisseurs 
 
 ## <a name="set-up-security-roles-that-are-used-when-prospective-vendors-are-onboarded"></a>Configurer les rôles de sécurité qui sont utilisés lorsque les fournisseurs potentiels sont intégrés
 
-Pour intégrer des fournisseurs initiés via une demande d'enregistrement de fournisseur potentiel, vous devez configurer un rôle de sécurité externe. Ce rôle sera attribué aux nouveaux utilisateurs au cours du processus d'approvisionnement qui est contrôlé par le flux de travail du type **Workflow de demande des utilisateurs (plateforme)**. Pour plus d'informations, consultez la section [Configurer des workflows pour traiter les demandes des utilisateurs de collaboration avec les fournisseurs](#set-up-workflows-to-process-vendor-collaboration-user-requests) plus loin dans cette rubrique.
+Pour intégrer des fournisseurs initiés via une demande d'enregistrement de fournisseur potentiel, vous devez configurer un rôle de sécurité externe. Ce rôle sera attribué aux nouveaux utilisateurs au cours du processus d'approvisionnement qui est contrôlé par le flux de travail du type **Workflow de demande des utilisateurs (plateforme)**. Pour plus d'informations, consultez la section [Configurer des workflows pour traiter les demandes des utilisateurs de collaboration avec les fournisseurs](#set-up-workflows-to-process-vendor-collaboration-user-requests) plus loin dans cet article.
 
 Pour plus d'informations sur l'intégration de fournisseurs potentiels, consultez [Fournisseurs intégrés](vendor-onboarding.md).
 

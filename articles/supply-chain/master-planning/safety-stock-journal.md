@@ -1,6 +1,6 @@
 ---
 title: Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale pour les articles
-description: Cette rubrique explique comment utiliser le journal du stock de sécurité pour mettre à jour la quantité de stock de sécurité pour les articles en calculant les propositions de couverture minimale en fonction des transactions historiques.
+description: Cet article explique comment utiliser le journal du stock de sécurité pour mettre à jour la quantité de stock de sécurité pour les articles en calculant les propositions de couverture minimale en fonction des transactions historiques.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851767"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale pour les articles
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468536"
 
 Le stock de sécurité est une quantité supplémentaire d’un article détenu en stock pour réduire le risque de rupture de stock de l’article. Le stock de sécurité est utilisé comme tampon dans le cas où des commandes client arrivent mais que le fournisseur ne peut pas respecter la date d’expédition demandée par le client.
 
-Cette rubrique décrit comment utiliser le journal de stock de sécurité pour calculer des propositions de couverture minimale basées sur des transactions historiques et comment mettre à jour la couverture d’article avec ces propositions.
+Cet article décrit comment utiliser le journal de stock de sécurité pour calculer des propositions de couverture minimale basées sur des transactions historiques et comment mettre à jour la couverture d’article avec ces propositions.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Vue d’ensemble de l’utilisation minimale de la couverture
 
@@ -43,7 +43,7 @@ La valeur **Minimum** peut être définie de trois manières :
 
 Les journaux de stock de sécurité sont utilisés pour calculer une quantité minimale proposée en fonction de l’utilisation historique d’un article, soit à des fins min/max, soit à des fins de plan de stock. L’utilisation historique représente toutes les transactions d’émission au cours d’une période spécifiée. Ces transactions de sortie comprennent les transactions de commande client et les ajustements de stock. Les calculs identifient également l’impact de la quantité minimale proposée sur la valeur des stocks et la variation de la valeur des stocks par rapport aux quantités minimales actuelles.
 
-Chaque ligne du journal du stock de sécurité représente un article et ses dimensions de couverture. Ces lignes de journal sont créées et affichées sur les pages **Lignes journal du stock de sécurité** (**Planification \> Planification \> Exécuter \> Calcul du stock de sécurité**). Le processus de gestion d’utilisation des journaux du stock de sécurité pour calculer les quantités minimales proposées est décrit plus loin dans cette rubrique.
+Chaque ligne du journal du stock de sécurité représente un article et ses dimensions de couverture. Ces lignes de journal sont créées et affichées sur les pages **Lignes journal du stock de sécurité** (**Planification \> Planification \> Exécuter \> Calcul du stock de sécurité**). Le processus de gestion d’utilisation des journaux du stock de sécurité pour calculer les quantités minimales proposées est décrit plus loin dans cet article.
 
 Le planificateur utilise un journal du stock de sécurité pour calculer les quantités minimales proposées pour les articles sélectionnés, en fonction de l’utilisation historique au cours des périodes sélectionnées. Les minima proposés peuvent être remplacés manuellement si nécessaire, et vous pouvez examiner l’impact potentiel des minima proposés sur la valeur du stock. Lors de la validation du journal, les quantités minimales associées dans la couverture article sont automatiquement mises à jour.
 
@@ -89,7 +89,7 @@ Suivez ces étapes pour générer automatiquement des lignes de journal.
 
     - **Date de début** – Sélectionnez la date de début de la période pour laquelle les émissions doivent être incluses dans le calcul.
     - **Date de fin** – Sélectionnez la date de fin de la période pour laquelle les émissions doivent être incluses dans ce calcul. Il doit s’écouler au moins deux mois entre les dates de début et de fin.
-    - **Calculer l’écart type** – Définissez cette option sur *Oui* pour calculer l’écart type. Vous devez définir cette option sur *Oui* pour utiliser l’option **Utiliser le niveau de service** lorsque vous calculez la proposition (comme décrit plus loin dans cette rubrique).
+    - **Calculer l’écart type** – Définissez cette option sur *Oui* pour calculer l’écart type. Vous devez définir cette option sur *Oui* pour utiliser l’option **Utiliser le niveau de service** lorsque vous calculez la proposition (comme décrit plus loin dans cet article).
 
 1. Dans le raccourci **Enregistrements à inclure**, vous pouvez configurer des filtres et des contraintes pour définir les articles inclus. (Par exemple, vous pouvez filtrer selon la valeur du **Groupe de couverture**.) Sélectionnez **Filtrer** pour ouvrir une boîte de dialogue d’éditeur de requête standard, dans laquelle vous pouvez définir des critères de sélection, des critères de tri et des jointures. Les champs fonctionnent comme pour d’autres types de requêtes dans Microsoft Dynamics 365 Supply Chain Management.
 1. Dans le raccourci **Exécuter à l’arrière-plan**, sélectionnez la tâche à exécuter en mode de traitement par lots, et/ou configurez un programme récurrent. Les champs fonctionnent comme pour d’autres types de [travaux d’arrière-plan](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) dans Supply Chain Management.
@@ -110,7 +110,7 @@ Cette étape calcule un minimum proposé pour chaque ligne de journal et l’imp
 Les calculs affichés n’affecteront pas les valeurs de quantité minimale réelle pour chaque produit jusqu’à ce que vous sélectionniez **Valider** dans le volet Actions. À ce moment-là, les valeurs **Nouvelle quantité minimale** seront appliquées à chaque produit.
 
 1. Accédez à **Planification \> Planification \> Exécuter \> Calcul du stock de sécurité**.
-1. Ouvrez le journal pour calculer une proposition. Vous pouvez également créer un journal comme décrit précédemment dans cette rubrique.
+1. Ouvrez le journal pour calculer une proposition. Vous pouvez également créer un journal comme décrit précédemment dans cet article.
 1. Sur le raccourci **Lignes du journal**, sélectionnez **Calculer la proposition** dans la barre d’outils. (Vous n’avez pas besoin de sélectionner de lignes.)
 1. Dans la boîte de dialogue **Calculer la proposition pour le niveau de stock minimum**, définissez les champs suivants :
 

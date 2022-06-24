@@ -1,6 +1,6 @@
 ---
 title: Configurer un locataire B2C dans Commerce
-description: Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
+description: Cet article décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853739"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
+Cet article décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
 
 Dynamics 365 Commerce fait appel à Azure AD B2C pour prendre en charge les flux d’informations d’identification et d’authentification des utilisateurs. Un utilisateur peut s’inscrire, se connecter et réinitialiser son mot de passe via ces flux. Azure AD B2C stocke les informations d’authentification sensibles d’un utilisateur, telles que son nom d’utilisateur et son mot de passe. L’enregistrement utilisateur du locataire B2C stocke un enregistrement de compte local B2C ou un enregistrement de fournisseur d’identité sociale B2C. Ces enregistrements B2C seront liés à l’enregistrement client dans l’environnement Commerce.
 

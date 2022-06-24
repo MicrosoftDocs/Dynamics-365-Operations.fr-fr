@@ -1,6 +1,6 @@
 ---
 title: Archiver les mouvements de stock
-description: Cette rubrique décrit comment archiver les données de transaction d’inventaire pour améliorer les performances du système.
+description: Cet article décrit comment archiver les données de transaction d’inventaire pour améliorer les performances du système.
 author: yufeihuang
 ms.date: 05/10/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: c63cdee862e2e22649a3eb58ae37597741770e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874099"
 ---
 # <a name="archive-inventory-transactions"></a>Archiver les mouvements de stock
 
 [!include [banner](../../includes/banner.md)]
 
-Au fil du temps, le tableau des transactions d’inventaire (`InventTrans`) continuera de croître et de consommer plus d’espace de base de données. Par conséquent, les requêtes effectuées sur la table deviendront progressivement plus lentes. Cette rubrique décrit comment utiliser la fonctionnalité *Archivage des transactions d’inventaire* pour archiver les données sur les transactions d’inventaire afin d’améliorer les performances du système.
+Au fil du temps, le tableau des transactions d’inventaire (`InventTrans`) continuera de croître et de consommer plus d’espace de base de données. Par conséquent, les requêtes effectuées sur la table deviendront progressivement plus lentes. Cet article décrit comment utiliser la fonctionnalité *Archivage des transactions d’inventaire* pour archiver les données sur les transactions d’inventaire afin d’améliorer les performances du système.
 
 > [!NOTE]
 > Seules les transactions de stock mises à jour financièrement peuvent être archivées dans une période comptable fermée sélectionnée. Pour être archivées, les mouvements de stock sortants mis à jour financièrement doivent avoir un statut de sortie de *Vendu*, et les transactions d’inventaire entrantes doivent avoir un statut de réception de *Acheté*.
@@ -35,7 +35,7 @@ Si une combinaison de `itemId` et de `inventDimId` ne contient qu’une seule tr
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Activez la fonctionnalité dans votre système
 
-Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Archivage des transactions d’inventaire*. Notez que cette fonctionnalité ne peut pas être désactivée une fois qu'elle a été activée.
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cet article, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Archivage des transactions d’inventaire*. Notez que cette fonctionnalité ne peut pas être désactivée une fois qu'elle a été activée.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Éléments à prendre en compte avant d’archiver les transactions d’inventaire
 

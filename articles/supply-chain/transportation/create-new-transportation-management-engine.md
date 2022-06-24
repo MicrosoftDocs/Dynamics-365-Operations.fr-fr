@@ -1,6 +1,6 @@
 ---
 title: Créer un moteur de gestion du transport
-description: Cette rubrique explique comment créer un nouveau moteur de gestion du transport dans Dynamics 365 Supply Chain Management.
+description: Cet article explique comment créer un nouveau moteur de gestion du transport dans Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857255"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Créer un moteur de gestion du transport
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment créer un nouveau moteur de gestion du transport dans Dynamics 365 Supply Chain Management. 
+Cet article explique comment créer un nouveau moteur de gestion du transport dans Dynamics 365 Supply Chain Management. 
 
 Les moteurs de gestion du transport (TMS) définissent la logique utilisée pour générer et traiter les frais de transport dans Gestion du transport. Supply Chain Management fournit plusieurs types de moteurs différents qui calculent différents paramètres, tels que les tarifs, les temps de transit et le nombre de zones qui seront traversées pendant le transit. Cet article explique comment utiliser l’environnement de développement Microsoft Visual Studio avec les outils de développement Supply Chain Management pour créer et déployer un nouveau moteur TMS, puis comment configurer le moteur dans Operations. Pour plus d’informations sur les moteurs, voir [Moteurs de gestion du transport](transportation-management-engines.md).
 

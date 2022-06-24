@@ -1,6 +1,6 @@
 ---
 title: Configurer l’application mobile Warehouse Management pour les unités d’échelle cloud et périphériques
-description: Cette rubrique explique comment configurer vos applications mobiles Warehouse Management pour les entrepôts desservis par une unité d’échelle cloud ou périphérique.
+description: Cet article explique comment configurer vos applications mobiles Warehouse Management pour les entrepôts desservis par une unité d’échelle cloud ou périphérique.
 author: perlynne
 ms.date: 12/15/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa00b40db2f6246029876964dca9d3229567848
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 86edef2dfa6e9c71c04d50f185148be3a622fea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865236"
 ---
 # <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Configurer l’application mobile Warehouse Management pour les unités d’échelle cloud et périphériques
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer vos applications mobiles Warehouse Management afin qu’elles puissent ere utilisées au sein des entrepôts desservis par une unité d’échelle cloud ou périphérique.
+Cet article explique comment configurer vos applications mobiles Warehouse Management afin qu’elles puissent ere utilisées au sein des entrepôts desservis par une unité d’échelle cloud ou périphérique.
 
 ## <a name="prerequisites"></a>Conditions préalables
 

@@ -1,6 +1,6 @@
 ---
 title: Calculer au prorata les frais d’en-tête par rapport aux lignes de vente correspondantes
-description: Cette rubrique décrit les capacités supplémentaires pour calculer et appliquer des frais automatiques aux commandes du canal de commerce en utilisant la fonctionnalité de frais automatiques avancés.
+description: Cet article décrit les capacités supplémentaires pour calculer et appliquer des frais automatiques aux commandes du canal de commerce en utilisant la fonctionnalité de frais automatiques avancés.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886930"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Calculer au prorata les frais d’en-tête par rapport aux lignes de vente correspondantes
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité visant à regrouper les frais automatiques au niveau de l’en-tête et à les calculer au prorata par rapport aux lignes de commerce. Cette fonctionnalité est disponible pour les transactions créées au point de vente (PDV) dans la version 10.0.1 de Retail et les ventes créées dans un centre d’appels dans la version 10.0.2 de Retail.
+Cet article décrit la fonctionnalité visant à regrouper les frais automatiques au niveau de l’en-tête et à les calculer au prorata par rapport aux lignes de commerce. Cette fonctionnalité est disponible pour les transactions créées au point de vente (PDV) dans la version 10.0.1 de Retail et les ventes créées dans un centre d’appels dans la version 10.0.2 de Retail.
 
 Cette fonctionnalité n’est disponible que si la fonctionnalité [Frais automatiques avancés](/dynamics365/unified-operations/retail/omni-auto-charges) est activée à l’aide de l’option sur la page **Paramètres de commerce**. En outre, le mode de calcul amélioré pour les frais automatiques peut s’appliquer uniquement aux commandes client créées par les canaux de commerce (le PDV, un centre d’appels et la plateforme de commerce électronique Dynamics).
 

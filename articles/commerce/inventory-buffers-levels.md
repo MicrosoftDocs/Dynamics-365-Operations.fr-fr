@@ -1,6 +1,6 @@
 ---
-title: Configurer les marges de stock et les niveaux de stock
-description: Cette rubrique explique comment configurer les marges de stock et les niveaux de stock qui déterminent les messages de disponibilité du stock sur les sites Microsoft Dynamics 365 Commerce.
+title: Configurer des marges de stock et des niveaux de stock
+description: Cet article explique comment configurer les marges de stock et les niveaux de stock qui déterminent les messages de disponibilité du stock sur les sites Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 06/01/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853791"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurer des marges de stock et des niveaux de stock
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment configurer les marges de stock et les niveaux de stock qui déterminent les messages de disponibilité du stock sur les sites Microsoft Dynamics 365 Commerce.
+Cet article explique comment configurer les marges de stock et les niveaux de stock qui déterminent les messages de disponibilité du stock sur les sites Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce Headquarters comporte les données de stock et divers canaux tels que les applications de point de vente (PDV), les vitrines de commerce électronique et d’autres applications personnalisées intégrées qui extraient et reçoivent du stock d’une manière asynchrone. Par conséquent, les valeurs de stock disponibles qui sont obtenues via la page de stock disponible dans Commerce Headquarters, via l’interface utilisateur des PDV et via les API de disponibilité des stocks de commerce électronique ne sont pas toujours précises à 100 % en temps réel.
 

@@ -1,6 +1,6 @@
 ---
-title: Premiers pas avec la comptabilité globale des stocks
-description: Cette rubrique décrit comment démarrer avec la comptabilité globale des stocks.
+title: Démarrage de la comptabilité globale des stocks
+description: Cet article décrit comment démarrer avec la comptabilité globale des stocks.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891087"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Premiers pas avec la comptabilité globale des stocks
 
@@ -38,12 +38,18 @@ Le service de comptabilité globale des stocks est un complément. Pour rendre s
 
 La comptabilité globale des stocks ne prend actuellement pas en charge toutes les fonctionnalités de gestion des coûts intégrées à Supply Chain Management. Par conséquent, il est important d’évaluer si l’ensemble de fonctionnalités actuellement disponible répondra à vos attentes.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Comment obtenir la version préliminaire de la comptabilité globale des stocks
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a>Comment obtenir le complément Comptabilité globale des stocks
 
 > [!IMPORTANT]
 > Pour utiliser la comptabilité globale des stocks, vous devez disposer d’un environnement à haute disponibilité compatible LCS (et non d’un environnement OneBox). De plus, vous devez exécuter Supply Chain Management version 10.0.19 ou ultérieure.
 
-Pour vous inscrire à la version préliminaire publique de la comptabilité globale des stocks, envoyez votre ID d’environnement LCS par e-mail à l’[Équipe Comptabilité globale des stocks](mailto:GlobalInvAccount@microsoft.com). Une fois que vous avez été approuvé pour le programme, l’équipe vous enverra un e-mail de suivi contenant une clé bêta de Comptabilité globale des stocks et vos points de terminaison de service. Après avoir reçu la clé bêta, vous pourrez [installer le complément](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Supply Chain Management version 10.0.19 à 10.0.26
+
+Pour installer Comptabilité globale des stocks pour Supply Chain Management version 10.0.19 à 10.0.26, commencez par [installer le complément](#install). Envoyez ensuite votre ID d'environnement LCS et le nom de votre entreprise par e-mail à l'[Équipe Comptabilité globale des stocks](mailto:GlobalInvAccount@microsoft.com). L’équipe vous enverra un e-mail de suivi contenant vos points de terminaison de service Comptabilité globale des stocks.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management version 10.0.27 et versions ultérieures
+
+Pour installer Comptabilité globale des stocks pour Supply Chain Management versions 10.0.27 et ultérieures, [installez simplement le complément](#install). Pour ces versions de Supply Chain Management, les points de terminaison du service Comptabilité globale des stocks seront configurés automatiquement, vous n'avez donc pas besoin de les rechercher manuellement. Si vous rencontrez des problèmes lors de la configuration du complément, veuillez contacter l'[Équipe Comptabilité globale des stocks](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Gestionnaire de licences
 
@@ -98,12 +104,7 @@ Si la langue par défaut de votre installation Dataverse n’est pas l’anglais
 
 Suivez ces étapes pour installer le complément afin de pouvoir utiliser la comptabilité globale des stocks.
 
-1. [S’inscrire](#sign-up) pour la version préliminaire de Comptabilité globale des stocks.
 1. Connectez-vous à [LCS](https://lcs.dynamics.com/Logon/Index).
-1. Accédez à **Gestion des fonctionnalités d’aperçu**.
-1. Sélectionnez le signe plus (**+**).
-1. Dans le champ **Code**, entrez votre clé bêta du complément Comptabilité globale des stocks. (Vous devriez avoir reçu votre clé bêta par e-mail lors de votre inscription.)
-1. Sélectionnez **Débloquer**.
 1. Ouvrez l’environnement LCS dans lequel vous souhaitez ajouter le service.
 1. Accédez à **Détails complets**.
 1. Accédez à **Intégration Power Platform** et sélectionnez **Installer**.
@@ -124,6 +125,8 @@ Suivez les étapes ci-après pour configurer l’intégration entre Comptabilit�
 1. Sur l’onglet **Tout**, recherchez l’entité nommée *Comptabilité globale des stocks (Version préliminaire)*.
 1. Sélectionnez **Activer maintenant**.
 1. Accédez à **Comptabilité globale des stocks \> Installer \> Paramètres de la comptabilité globale des stocks \> Paramètres d’intégration**.
-1. Dans les champs **Point de terminaison du service de données** et **Point de terminaison de Comptabilité globale des stocks**, saisissez les URL de l’e-mail que l’équipe Comptabilité globale des stocks vous a envoyé lorsque vous vous êtes inscrit à la version préliminaire.
+1. Selon le type d’environnement de Supply Chain Management sur lequel vous travaillez, effectuez l’une des étapes suivantes :
+    - **Supply Chain Management version 10.0.19 à 10.0.26** : Dans les champs **Point de terminaison du service de données** et **Point de terminaison de comptabilité d'inventaire global**, entrez les URL qui vous ont été envoyées par e-mail par l'équipe Comptabilité globale des stocks (voir aussi [Comment obtenir le complément Comptabilité globale des stocks](#sign-up)).
+    - **Supply Chain Management version 10.0.27 et plus récente** : vous n'avez pas besoin d'entrer les points de terminaison, vous pouvez donc ignorer cette étape.
 
 Comptabilité globale des stocks est maintenant prêt à être utilisé.

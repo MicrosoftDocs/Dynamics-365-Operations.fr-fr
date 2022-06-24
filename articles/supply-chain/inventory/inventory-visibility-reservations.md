@@ -1,6 +1,6 @@
 ---
-title: Réservations dans la visibilité des stocks
-description: Cette rubrique explique comment configurer la fonctionnalité de réservation pour créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la visibilité des stocks.
+title: Réservations Inventory Visibility
+description: Cet article explique comment configurer la fonctionnalité de réservation pour créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la visibilité des stocks.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895726"
 ---
-# <a name="inventory-visibility-reservations"></a>Réservations dans la visibilité des stocks
+# <a name="inventory-visibility-reservations"></a>Réservations Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment configurer la fonctionnalité de réservation pour créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la visibilité des stocks.
+Cet article explique comment configurer la fonctionnalité de réservation pour créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la visibilité des stocks.
 
 Les réservations marquent une quantité en stock qui sera utilisée à l’avenir. Lorsque vous créez une réservation, le système empêche d’autres commandes de réserver ou de consommer les marchandises réservées jusqu’à ce que la réservation soit consommée ou annulée. Les réservations sont créées, consommées et annulées à l’aide d’appels d’API au service de visibilité des stocks.
 

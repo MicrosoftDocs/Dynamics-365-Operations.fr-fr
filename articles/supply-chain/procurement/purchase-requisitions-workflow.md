@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849356"
 ---
 # <a name="purchase-requisition-workflow"></a>workflow de demande d’achat
 
@@ -89,7 +89,7 @@ Dans cet exemple, le processus de workflow pour les lignes de demande d’achat 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Configuration d’un workflow pour les demandes d’achat
 Pour acheminer une demande d’achat pour révision, vous devez configurer les processus de workflow de demande d’achat. Ceux-ci contrôlent l’interaction entre l’utilisateur qui a demandé les articles (demandeur) et le réviseur et l’approbateur dans le workflow. L’acheminement de la demande d’achat dépend des conditions spécifiées dans la configuration du workflow. Par exemple, ces conditions déterminent le moment où la demande d’achat doit être transmise, l’utilisateur ou le rôle vers lequel elle doit être transmise et les actions proposées aux utilisateurs.  
 
-Les exemples de cette rubrique décrivent l’acheminement d’une demande d’achat via un workflow en tant que document pris dans son intégralité ou en tant que lignes individuelles de la demande d’achat. Vous pouvez également configurer un workflow pour les demandes d’achat qui reflètent la révision des contrôles internes des demandes d’achat qui est définie pour votre organisation.  
+Les exemples de cet article décrivent l’acheminement d’une demande d’achat via un workflow en tant que document pris dans son intégralité ou en tant que lignes individuelles de la demande d’achat. Vous pouvez également configurer un workflow pour les demandes d’achat qui reflètent la révision des contrôles internes des demandes d’achat qui est définie pour votre organisation.  
 
 Les participants ou les réviseurs auxquels une tâche est affectée dans un workflow peuvent être membres d’un groupe d’utilisateurs spécifique, des utilisateurs avec un rôle de sécurité spécifique, des utilisateurs associés à l’expéditeur dans une hiérarchie managériale, des utilisateurs nommés ou des utilisateurs ayant des responsabilités de dépense spécifiques.
 

@@ -1,6 +1,6 @@
 ---
 title: Approuver les fournisseurs pour des catégories d’approvisionnement spécifiques
-description: Cette rubrique explique comment approuver des fournisseurs pour des catégories d’approvisionnement spécifiques dans Dynamics 365 Supply Chain Management.
+description: Cet article explique comment approuver des fournisseurs pour des catégories d’approvisionnement spécifiques dans Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247833a011704a9e3c83ad4a2b464ee49d6b3f5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bb6861c1cfbc7702fae74b4aa97fe618b50ac0bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903983"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Approuver les fournisseurs pour des catégories d’approvisionnement spécifiques
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment approuver des fournisseurs pour des catégories d’approvisionnement spécifiques dans Dynamics 365 Supply Chain Management. Quand une demande d’achat est créée, il peut y avoir une condition pour choisir un fournisseur agréé ou préféré, selon la façon dont les politiques d’achat sont définies. Cette procédure vous montre comment spécifier qu’un vendeur est agréé ou préféré pour une catégorie spécifique d’approvisionnement. Cette tâche est généralement effectuée par un professionnel de l’approvisionnement. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
+Cet article explique comment approuver des fournisseurs pour des catégories d’approvisionnement spécifiques dans Dynamics 365 Supply Chain Management. Quand une demande d’achat est créée, il peut y avoir une condition pour choisir un fournisseur agréé ou préféré, selon la façon dont les politiques d’achat sont définies. Cette procédure vous montre comment spécifier qu’un vendeur est agréé ou préféré pour une catégorie spécifique d’approvisionnement. Cette tâche est généralement effectuée par un professionnel de l’approvisionnement. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
 
 1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Fournisseurs > Tous les fournisseurs**.
 2. Choisissez le fournisseur que vous voulez définir en tant que fournisseur agréé ou préféré pour une catégorie.

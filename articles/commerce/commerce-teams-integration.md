@@ -1,6 +1,6 @@
 ---
 title: Présentation de l’intégration de Dynamics 365 Commerce et Microsoft Teams
-description: Cette rubrique présente une vue d’ensemble de l’intégration de Microsoft Dynamics 365 Commerce et Microsoft Teams.
+description: Cet article présente une vue d’ensemble de l’intégration de Microsoft Dynamics 365 Commerce et Microsoft Teams.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7786a527a9aca08f5d9326570e8a2dafc5059dc5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b674f40b6bb433bc5e2c9216d649a7f15169442
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887086"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Présentation de l’intégration de Dynamics 365 Commerce et Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique présente une vue d’ensemble de l’intégration de Microsoft Dynamics 365 Commerce et Microsoft Teams.
+Cet article présente une vue d’ensemble de l’intégration de Microsoft Dynamics 365 Commerce et Microsoft Teams.
 
 Dynamics 365 Commerce s’intègre à Teams pour aider les clients et leurs employés à améliorer leur productivité en synchronisant la gestion des tâches entre les deux applications. La gestion transparente des tâches fournie par l’intégration de Commerce et Teams permet aux directeurs de magasin et aux employés de créer des listes de tâches, d’attribuer des tâches à plusieurs magasins et de suivre le statut des tâches dans les différents magasins, à partir de l’une ou l’autre application.
 

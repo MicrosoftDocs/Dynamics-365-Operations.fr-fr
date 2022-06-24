@@ -1,6 +1,6 @@
 ---
 title: Prélèvement excessif pour les commandes client et les ordres de transfert
-description: Cette rubrique explique comment activer le prélèvement excessif pour les commandes client et les ordres de transfert.
+description: Cet article explique comment activer le prélèvement excessif pour les commandes client et les ordres de transfert.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897282"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>Prélèvement excessif pour les commandes client et les ordres de transfert
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente un scénario qui montre comment permettre à un collaborateur spécifique ou à tous les collaborateurs de prélever excessivement. Le processus de prélèvement excessif permet un prélèvement excessif contrôlé pendant le travail de prélèvement.
+Cet article présente un scénario qui montre comment permettre à un collaborateur spécifique ou à tous les collaborateurs de prélever excessivement. Le processus de prélèvement excessif permet un prélèvement excessif contrôlé pendant le travail de prélèvement.
 
 Le prélèvement excessif en entrepôt est un concept simple. Le système permet aux collaborateurs de prélever plus d’articles que ceux spécifiés pour une commande. Cependant, il prend toujours en compte la limite de livraison excessive définie au niveau de la ligne pour l’ordre de transfert ou la commande client. Si cette limite est dépassée, l’application Warehouse Management informe les collaborateurs qu’ils dépassent la limite de livraison excessive.
 
@@ -41,11 +41,11 @@ La fonction de prélèvement excessif peut aider les collaborateurs à économis
 > [!IMPORTANT]
 > La fonction de prélèvement excessif s’applique uniquement à la préparation et au traitement des commandes client et des commandes de transfert. Le réapprovisionnement ne prend pas en charge le prélèvement excessif. Lorsque le travail de réapprovisionnement est exécuté, le système ne permet pas aux utilisateurs de prélever excessivement.
 
-Ce scénario dans cette rubrique présente comment configurer et utiliser la fonctionnalité de prélèvement excessif.
+Ce scénario dans cet article présente comment configurer et utiliser la fonctionnalité de prélèvement excessif.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Conditions préalables du scénario : rendre les données de démonstration disponibles
 
-Le scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur *USMF* avant de commencer.
+Le scénario de cet article fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur *USMF* avant de commencer.
 
 ## <a name="scenario-setup"></a>Configuration d’un scénario
 

@@ -1,6 +1,6 @@
 ---
 title: Module Pied de page
-description: Cette rubrique couvre les modules de pied de page et leur création dans Dynamics 365 Commerce.
+description: Cet article couvre les modules de pied de page et leur création dans Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4e7796d9700eabc923f2bb45187832d5993ae56e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876610"
 ---
 # <a name="footer-module"></a>Module Pied de page  
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de pied de page et décrit leur création dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules de pied de page et décrit leur création dans Microsoft Dynamics 365 Commerce.
 
 Le module de pied de page est un conteneur spécial utilisé pour héberger les modules qui figurent dans le pied de page de la page. Par exemple, il peut inclure des liens vers des pages du site, telles que les pages **Nous contacter** et **Stocker des stratégies**.
 

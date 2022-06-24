@@ -1,6 +1,6 @@
 ---
 title: Terminaux de paiement dédiés et invites pour une imprimante et un tiroir-caisse
-description: Cette rubrique fournit des informations sur la possibilité d’avoir un terminal de paiement dédié et d’inviter l’utilisateur à sélectionner un tiroir-caisse et une imprimante de reçus.
+description: Cet article fournit des informations sur la possibilité d’avoir un terminal de paiement dédié et d’inviter l’utilisateur à sélectionner un tiroir-caisse et une imprimante de reçus.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874919"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminaux de paiement dédiés et invites pour une imprimante et un tiroir-caisse
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur la possibilité d’avoir un terminal de paiement dédié et d’inviter l’utilisateur à sélectionner un tiroir-caisse et une imprimante de reçus.
+Cet article fournit des informations sur la possibilité d’avoir un terminal de paiement dédié et d’inviter l’utilisateur à sélectionner un tiroir-caisse et une imprimante de reçus.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Commerce adopte ces tendances en rendant possible un scé
 
 ## <a name="supported-pos-clients-and-devices"></a>Clients et appareils de PDV pris en charge
 
-La fonctionnalité décrite dans cette rubrique est prise en charge par les clients de PDV Modern POS pour Windows et Modern POS pour Android.
+La fonctionnalité décrite dans cet article est prise en charge par les clients de PDV Modern POS pour Windows et Modern POS pour Android.
 
 Cette fonctionnalité prend en charge les terminaux de paiement et les imprimantes de reçus compatibles réseau. Vous pouvez prendre en charge le tiroir-caisse en connectant celui-ci à l’imprimante de reçus compatible réseau via le port d/k.
 

@@ -1,6 +1,6 @@
 ---
 title: Retours sur ventes
-description: Cette rubrique fournit des informations sur le processus d’ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l’évaluation des coûts et les quantités de stock disponible.
+description: Cet article fournit des informations sur le processus d’ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l’évaluation des coûts et les quantités de stock disponible.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860404"
 ---
 # <a name="sales-returns"></a>Retours sur ventes
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur le processus d’ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l’évaluation des coûts et les quantités de stock disponible.
+Cet article fournit des informations sur le processus d’ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l’évaluation des coûts et les quantités de stock disponible.
 
 Les clients peuvent retourner des articles pour différentes raisons. Par exemple, un article peut être défectueux, ou il peut ne pas répondre aux attentes du client. Le processus de retour démarre lorsqu’un client émet une demande de retour d’un article. Une fois la demande client reçue, un ordre de retour est créé.
 
@@ -84,7 +84,7 @@ Après avoir réalisé l’en-tête de retour, vous pouvez créer des lignes de 
 -   Créez une ligne de retour à l’aide la fonction **Rechercher une commande client**. Il est recommandé d’utiliser cette fonction quand vous créez un ordre de retour. La fonction **Rechercher une commande client** établit une référence entre la ligne de retour et la ligne de commande client facturée, et extrait des détails de ligne tels que le numéro d’article, la quantité, le prix, la remise, et le coût à partir de la ligne de vente. Vous aide de référence garantissent que, lorsque le produit est retourné à la société, elle a la valeur du même coût unitaire qu’elle a été vendu à. La référence valide également que les ordres de retour ne sont pas créés pour une quantité supérieure à la quantité vendue sur la facture.
 
 >[!NOTE] 
->Les lignes de retour faisant référence à une commande client sont traitées comme des corrections, ou des contrepassations de la vente. Pour plus d’informations, voir la section « Valider dans la comptabilité » plus loin dans cette rubrique.
+>Les lignes de retour faisant référence à une commande client sont traitées comme des corrections, ou des contrepassations de la vente. Pour plus d’informations, voir la section « Valider dans la comptabilité » plus loin dans cet article.
 
 ### <a name="charges"></a>Frais
 
@@ -179,7 +179,7 @@ Avant de recevoir physiquement les articles retournés dans le stock en validant
 
 [![Processus d’arrivée.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Le processus présente plusieurs variations qui ne sont pas abordées dans cette rubrique. Voici quelques unes de ces variations.
+Le processus présente plusieurs variations qui ne sont pas abordées dans cet article. Voici quelques unes de ces variations.
 
 -   N’utilisez pas la liste **Vue d’ensemble des arrivées** pour créer un journal des arrivées. Au lieu de cela, créez manuellement le journal des arrivées. Les ordres de retour auront **Commande client** comme référence.
 -   Si vous utilisez la Gestion des entrepôts, générez des transports de palettes. La ligne de retour aura le statut **Arrivée** lors du transport de palette.

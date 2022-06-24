@@ -1,6 +1,6 @@
 ---
 title: Gestion des clients en magasin
-description: Cette rubrique explique comment les détaillants peuvent activer les fonctionnalités de gestion des clients au point de vente (PDV) dans Microsoft Dynamics 365 Commerce.
+description: Cet article explique comment les détaillants peuvent activer les fonctionnalités de gestion des clients au point de vente (PDV) dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863485"
 ---
 # <a name="customer-management-in-stores"></a>Gestion des clients en magasin
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment les détaillants peuvent activer les fonctionnalités de gestion des clients au point de vente (PDV) dans Microsoft Dynamics 365 Commerce.
+Cet article explique comment les détaillants peuvent activer les fonctionnalités de gestion des clients au point de vente (PDV) dans Microsoft Dynamics 365 Commerce.
 
 Il est important que les collaborateurs du magasin puissent créer et modifier les enregistrements des clients au point de vente. De cette manière, ils peuvent capturer toutes les mises à jour des informations sur le client, telles que l’adresse e-mail, le numéro de téléphone et l’adresse. Ces informations sont utiles dans les systèmes en aval tels que le marketing, car l’efficacité de ces systèmes dépend de l’exactitude des données des clients.
 

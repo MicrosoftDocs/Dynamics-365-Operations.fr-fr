@@ -1,6 +1,6 @@
 ---
 title: Activer la gestion de la qualité et de la non-conformité
-description: Cette rubrique fournit une vue d'ensemble du processus de configuration et de paramétrage des fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article fournit une vue d'ensemble du processus de configuration et de paramétrage des fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c2c8b7e9a1a8d7692e1d2215e38de1b0f4d2d82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 66229e3692e87f774c553eae955794330602598c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874041"
 ---
 # <a name="enable-quality-and-nonconformance-management"></a>Activer la gestion de la qualité et de la non-conformité
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble du processus de configuration et de paramétrage des fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article fournit une vue d'ensemble du processus de configuration et de paramétrage des fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="enable-quality-and-nonconformance-management"></a><a name="enable-qm"></a>Activer la gestion de la qualité et de la non-conformité
 

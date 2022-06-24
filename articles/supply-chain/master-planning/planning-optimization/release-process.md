@@ -1,6 +1,6 @@
 ---
 title: Processus de publication de l’optimisation de la planification et historique des versions
-description: Cette rubrique fournit des informations sur le processus de publication et l’historique des versions de l’optimisation de la planification.
+description: Cet article fournit des informations sur le processus de publication et l’historique des versions de l’optimisation de la planification.
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 45a35eb32cb9e51d9f63f6687808fb511f894887
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873722"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processus de publication de l’optimisation de la planification et historique des versions
 

@@ -1,6 +1,6 @@
 ---
-title: Conseils de visibilité des stocks
-description: Cette rubrique fournit quelques conseils que vous devez prendre en compte lorsque vous configurez et utilisez le complément de visibilité des stocks.
+title: Conseils Inventory Visibility
+description: Cet article fournit quelques conseils que vous devez prendre en compte lorsque vous configurez et utilisez le complément de visibilité des stocks.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885955"
 ---
 # <a name="inventory-visibility-tips"></a>Conseils de visibilité des stocks
 
@@ -34,5 +34,6 @@ Voici quelques conseils que vous devez prendre en compte lorsque vous configurez
 - Si vous ajoutez une ou plusieurs nouvelles mesures à votre environnement Supply Chain Management, vous devez également les ajouter dans la visibilité du stock. Cependant, toutes les modifications de quantité pour les nouvelles mesures doivent provenir de votre environnement Supply Chain Management.
 - La [configuration de la partition](inventory-visibility-configuration.md#partition-configuration) se compose de deux dimensions de base (`SiteId` et `LocationId`) qui indiquent comment les données sont distribuées. Les opérations sous la même partition peuvent offrir des performances supérieures à moindre coût. La solution inclut cette configuration de partition par défaut. Par conséquent, *vous n’avez pas à la définir vous-même*. Ne personnalisez pas la configuration de partition par défaut. Si vous la supprimez ou la modifiez, vous risquez de provoquer une erreur inattendue.
 - Les dimensions de base définies dans la configuration de la partition ne doivent pas être définies dans la [configuration de hiérarchie d’index de produits](inventory-visibility-configuration.md#index-configuration).
+- Votre [configuration de hiérarchie d'index de produit](inventory-visibility-configuration.md#index-configuration) doit avoir au moins une hiérarchie d'index (par exemple, contenant la dimension de base `Empty`), sinon les requêtes échoueront avec l'erreur "Aucune hiérarchie d'index n'a été définie".
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

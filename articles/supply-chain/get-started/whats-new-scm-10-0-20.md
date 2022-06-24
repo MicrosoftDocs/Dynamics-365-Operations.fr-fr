@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.20 (août 2021)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.20.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888641"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.20 (août 2021)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.20. Cette version a un numéro de build de 10.0.886 et est disponible comme suit :
+Cet article répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.20. Cette version a un numéro de build de 10.0.886 et est disponible comme suit :
 
 - **Version préliminaire de la version :** mai 2021
 - **Disponibilité générale de la version (mise à jour automatique) :** juillet 2021
@@ -59,21 +59,21 @@ Le tableau suivant répertorie les améliorations de fonctionnalités incluses d
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 
-Nous avons récemment ajouté ou mis à jour de manière significative les rubriques d’aide suivantes. Ils ne sont pas nécessairement liés aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans la section précédente, mais ils peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
+Nous avons récemment ajouté ou mis à jour de manière significative les articles d'aide suivants. Ils ne sont pas nécessairement liés aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans la section précédente, mais ils peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
 
-| Fonctionnalités | Rubriques nouvelles ou mises à jour |
+| Fonctionnalités | Articles nouveaux ou mis à jour |
 |---|---|
 | Gestion des modifications d’ingénierie | [États et transactions du cycle de vie du produit](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| Gestion des stocks | [Complément de visibilité de stock](../inventory/inventory-visibility.md)<br><br>[Vue d’ensemble de la gestion de la qualité et de la non-conformité](../inventory/quality-management-processes.md) (plus toutes les rubriques associées à la gestion de la qualité) |
+| Gestion des stocks | [Complément de visibilité de stock](../inventory/inventory-visibility.md)<br><br>[Vue d’ensemble de la gestion de la qualité et de la non-conformité](../inventory/quality-management-processes.md) (plus tous les articles associés à la gestion de la qualité) |
 | Approvisionnements | [Mettre à jour la certification des fournisseurs](../../finance/public-sector/manage-vendor-certification.md) |
 | Contrôle de la production | [Appliquer un style à l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-styles.md) |
 | Gestion des entrepôts | [Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management](../warehousing/step-icons-titles.md)<br><br>[Traitement différé du mouvement manuel des stocks](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.20 des applications Finance and Operations (juillet 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances and Operations, version 10.0.20 (juillet 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
@@ -87,12 +87,12 @@ Consultez [Dynamics 365 : vague 1 du plan de publication 2021](/dynamics365-r
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 
-La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
+L'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
+Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans l'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
 

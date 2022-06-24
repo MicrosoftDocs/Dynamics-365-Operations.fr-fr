@@ -1,6 +1,6 @@
 ---
 title: Gérer les fichiers robots.txt
-description: Cette rubrique décrit comment gérer les fichiers robots.txt dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment gérer les fichiers robots.txt dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ccb09cfce00ba838cb5358afef9b7acc5c61d8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896977"
 ---
 # <a name="manage-robotstxt-files"></a>Gérer les fichiers robots.txt
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment gérer les fichiers robots.txt dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment gérer les fichiers robots.txt dans Microsoft Dynamics 365 Commerce.
 
 La norme d’exclusion des bots, ou robots.txt, est une norme que les sites web utilisent pour communiquer avec les bots web. Elle indique aux bots web les zones d’un site web qui ne doivent pas être visitées. Les bots sont souvent utilisés par les moteurs de recherche pour indexer les sites web.
 

@@ -1,6 +1,6 @@
 ---
 title: Créer des retours dans le PDV
-description: Cette rubrique décrit comment initier des retours pour des transactions au comptant ou des commandes client dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment initier des retours pour des transactions au comptant ou des commandes client dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856996"
 ---
 # <a name="create-returns-in-pos"></a>Créer des retours dans le PDV
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment initier des retours pour des transactions au comptant ou des commandes client dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
+Cet article décrit comment initier des retours pour des transactions au comptant ou des commandes client dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Dans les versions 10.0.20 et ultérieures de Commerce, une nouvelle fonctionnalité nommée **Expérience unifiée du traitement des retours dans la PDV** est disponible. Cette fonctionnalité fournit un processus de retour plus cohérent et unifié dans le point de vente, quel que soit le type de transaction (transaction au comptant ou commande client) ou le canal d’origine dans lequel la commande a été créée. Nous recommandons à toutes les organisations d’activer cette nouvelle fonctionnalité pour améliorer la fiabilité globale du traitement des retours via le PDV.

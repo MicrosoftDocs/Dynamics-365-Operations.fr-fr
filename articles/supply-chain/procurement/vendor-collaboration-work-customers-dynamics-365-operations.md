@@ -1,6 +1,6 @@
 ---
 title: Collaboration fournisseur avec des clients
-description: Cette rubrique décrit comment utiliser la collaboration fournisseur pour utiliser des CF et surveiller le stock de consignation.
+description: Cet article décrit comment utiliser la collaboration fournisseur pour utiliser des CF et surveiller le stock de consignation.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859167"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaboration fournisseur avec des clients
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser la collaboration fournisseur avec les clients dans Microsoft Dynamics 365 Supply Chain Management. Les fournisseurs peuvent effectuer une série de processus d’entreprise dans les espaces de travail suivants :
+Cet article décrit comment utiliser la collaboration fournisseur avec les clients dans Microsoft Dynamics 365 Supply Chain Management. Les fournisseurs peuvent effectuer une série de processus d’entreprise dans les espaces de travail suivants :
 
 - **Confirmation de la commande fournisseur** – Permet de surveiller les commandes fournisseur et d’y répondre.
 - **Offre du fournisseur** – Permet d’afficher les appels d’offre et d’y répondre en saisissant des offres.
 - **Informations fournisseur** – Permet d’afficher et de mettre à jour les données principales du fournisseur.
-- **Facturation** – Permet d’utiliser les factures. Cette rubrique ne couvre pas l’espace de travail **Facturation**. Pour plus d’informations sur cet espace de travail, voir [Espace de travail de facturation de collaboration fournisseur](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Facturation** – Permet d’utiliser les factures. Cet article ne couvre pas l’espace de travail **Facturation**. Pour plus d’informations sur cet espace de travail, voir [Espace de travail de facturation de collaboration fournisseur](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Les fournisseurs peuvent également surveiller les informations sur le stock de consignation.
 
@@ -47,9 +47,9 @@ Il existe trois listes dans l’espace de travail **Confirmation de commande fou
 
 Les pages suivantes permettent d’utiliser les CF :
 
-- **Commandes fournisseur pour examen** – Cette page contient les mêmes informations que la liste **Commandes fournisseur pour examen** dans l’espace de travail. Consultez la description plus haut dans cette rubrique.
+- **Commandes fournisseur pour examen** – Cette page contient les mêmes informations que la liste **Commandes fournisseur pour examen** dans l’espace de travail. Consultez la description plus haut dans cet article.
 - **Historique des confirmations de commandes fournisseur** – Cette page contient toutes les CF et toutes les versions de CF qui ont été envoyées au fournisseur. Elle contient également les réponses qui ont été retournées par le fournisseur.
-- **Commandes fournisseur confirmées en cours** – Cette page contient les mêmes informations que la liste **Commandes fournisseur confirmées en cours** dans l’espace de travail. Consultez la description plus haut dans cette rubrique.
+- **Commandes fournisseur confirmées en cours** – Cette page contient les mêmes informations que la liste **Commandes fournisseur confirmées en cours** dans l’espace de travail. Consultez la description plus haut dans cet article.
 - **Toutes les commandes fournisseur confirmées** – Cette page contient toutes les CF qui ont été confirmées. Les CF affichés sur cette page comprennent les CF où les produits ou services ont été reçus. Vous pouvez utiliser cette liste pour surveiller les CF pour lesquelles vous pouvez envoyer des factures.
 
 ### <a name="responding-to-pos"></a>Réponse aux CF

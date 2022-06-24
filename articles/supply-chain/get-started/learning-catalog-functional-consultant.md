@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851882"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Catalogue d’apprentissage pour les consultants techniques de Dynamics 365 Supply Chain Management
 
@@ -68,7 +68,7 @@ Pour les consultants techniques, notre recherche d’analyse de tâche a montré
 | [Cours MB-300T01-A : Fonctions courantes de base de Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Ce cours présente les fonctionnalités courantes de base de Microsoft Dynamics 365 for Finance and Operations. | Formation avec animateur ou en ligne ; le coût varie selon la région et le partenaire | 1 jour |
 | [Cours MB-300T02-A : Configuration de base dans Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Ce cours présente les tâches de configuration de base pour Microsoft Dynamics 365 for Finance and Operations. | Formation avec animateur ou en ligne ; le coût varie selon la région et le partenaire | 1 jour |
 | [Cours MB-300T03-A : Migration des données et préparation du basculement sur Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | Ce cours présente la migration des données et la préparation de la mise en service de Microsoft Dynamics 365 for Finance and Operations. | Formation avec animateur ou en ligne ; le coût varie selon la région et le partenaire | 1 jour |
-| [Page d’accueil du cycle de vie de l’implémentation](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Ces rubriques décrivent les programmes, outils et processus disponibles associés au cycle de vie de l’implémentation de votre projet Microsoft Dynamics 365 for Finance and Operations. | Documentation | |
+| [Page d’accueil du cycle de vie de l’implémentation](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Ces articles décrivent les programmes, outils et processus disponibles associés au cycle de vie de l’implémentation de votre projet Microsoft Dynamics 365 for Finance and Operations. | Documentation | |
 
 ## <a name="migration-and-upgrade"></a>Migration et mise à niveau<a name="migration"></a>
 
@@ -105,7 +105,7 @@ Pour les consultants techniques, notre recherche d’analyse de tâche a montré
 | [Application d’entrepôt mobile (VIR816PAL) ](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | Ce forum technique abordera le système Entreposage avancé dans Dynamics 365 for Operations et ce que l’avenir réserve à l’interface mobile d’entreposage avancé. Nous examinerons la nouvelle application mobile qui a été lancée et sa comparaison avec l’ancien WMDP. Nous découvrirons ce qu’il convient pour installer, configurer et utiliser cette application mobile et comment elle peut être utilisée pour tirer parti de vos implémentations. | Enregistrement libre d’une conférence Web | 54 minutes |
 | [Collaboration du fournisseur (DYN327PAL) ](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | Ce forum technique offrira une procédure à suivre quant à la fonctionnalité Collaboration avec le fournisseur, y compris la fonctionnalité Consommation de la réponse du fournisseur incluse dans la version de juillet (printemps). | Enregistrement libre d’une conférence Web | 58 minutes |
 | [Processus de migration de l’entrepôt et de l’article pour utiliser la gestion des entrepôts avancée (DYN316PAL) ](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | Dans ce forum technique, nous vous enseignerons comment migrer la configuration de l’entrepôt existante et les articles avec des transactions en cours vers la gestion des entrepôts avancée, à l’aide de nouvelles fonctionnalités pour modifier le groupe de dimensions de stockage pour les articles et permettre aux entrepôts d’utiliser les processus de gestion avancée des entrepôts. | Enregistrement libre d’une conférence Web | 54 minutes |
-| [Page d’accueil de la gestion de la chaîne d’approvisionnement](/dynamics365/unified-operations/supply-chain/) | Cette rubrique fournit une liste de rubriques d’aide et d’autres ressources pour les fonctionnalités de gestion de la chaîne d’approvisionnement dans Microsoft Dynamics 365 for Finance and Operations. | Documentation | |
+| [Page d’accueil de la gestion de la chaîne d’approvisionnement](/dynamics365/unified-operations/supply-chain/) | Cet article fournit une liste d'articles d’aide et d’autres ressources pour les fonctionnalités de gestion de la chaîne d’approvisionnement dans Microsoft Dynamics 365 for Finance and Operations. | Documentation | |
 | [Réapprovisionnement de la demande pour le prélèvement de matières premières (DYN333PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | Ce forum technique couvrira le prélèvement des matières premières et le réapprovisionnement de la demande pour le prélèvement des matières premières. | Enregistrement libre d’une conférence Web | 38 minutes |
 | [Cours MB-330T01-A : Configuration et utilisation de Supply Chain Management dans Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | Ce cours présente comment configurer et utiliser Supply Chain Management dans Dynamics 365 for Finance and Operations. | Formation avec animateur ou en ligne ; le coût varie selon la région et le partenaire | 2 jours |
 | [Cours MB-330T02-A : Utiliser la gestion de la qualité, les échanges intersociétés et la planification générale dans Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | Ce cours indique comment utiliser la gestion de la qualité, les échanges intersociétés et la planification générale dans Dynamics 365 for Finance and Operations. | Formation avec animateur ou en ligne ; le coût varie selon la région et le partenaire | 1 jour |

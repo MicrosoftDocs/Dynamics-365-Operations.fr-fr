@@ -1,6 +1,6 @@
 ---
-title: Module du sélecteur de magasins
-description: Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+title: Module Sélection de magasin
+description: Cet article couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 05/18/2022
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881681"
 ---
 # <a name="store-selector-module"></a>Module Sélection de magasin
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cet article couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Les clients peuvent utiliser le module de sélection de magasin pour récupérer un produit dans un magasin sélectionné après un achat en ligne. Dans Commerce version 10.0.13, le module de sélection de magasin inclut également des fonctionnalités supplémentaires qui peuvent présenter une page **Rechercher un magasin** qui montre les magasins à proximité.
 
@@ -132,7 +132,7 @@ Pour le mode **Retrait en magasin**, le module ne peut être utilisé que sur le
 - Pour plus d’informations sur l’ajout d’un module de sélecteur de magasins à un module de zone d’achat, consultez [Module de zone d’achat](add-buy-box.md). 
 - Pour plus d’informations sur l’ajout d’un module de sélecteur de magasins à un module de panier, consultez [Module de panier](add-cart-module.md).
 
-Pour configurer le module de sélection de magasin afin d’afficher les magasins disponibles pour une page d’emplacements de magasin, comme dans l’illustration qui apparaît plus haut dans cette rubrique, procédez comme suit.
+Pour configurer le module de sélection de magasin afin d’afficher les magasins disponibles pour une page d’emplacements de magasin, comme dans l’illustration qui apparaît plus haut dans cet article, procédez comme suit.
 
 1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle marketing**, puis cliquez sur **OK**.

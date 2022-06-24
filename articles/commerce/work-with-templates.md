@@ -1,6 +1,6 @@
 ---
 title: Utiliser des modèles
-description: Cette rubrique décrit comment utiliser des modèles dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment utiliser des modèles dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: c234ddb0cdc212bead4f722f7881fbf21d608675
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881577"
 ---
 # <a name="work-with-templates"></a>Utiliser des modèles
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment utiliser des modèles dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment utiliser des modèles dans Microsoft Dynamics 365 Commerce.
 
 Comme discuté dans [Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md), les modèles définissent le jeu d’options disponible pour les auteurs en aval. Les modèles sont utiles l’équipe de création web d’une entreprise pour plusieurs raisons, et les modèles bien structurés peuvent vous aider dans tous les objectifs suivants :
 
@@ -79,7 +79,7 @@ Pour créer un modèle dans le générateur de site, procédez comme suit.
 1. Dans l’arborescence de contour, sélectionnez l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (...), puis le sélectionnez **Ajouter un module**.
 1. Sélectionnez un module de conteneur de page (il ne peut y avoir qu’une option), puis sélectionnez **OK**.
 
-Sous le nouveau module de conteneur de page, un nouvel ensemble d’emplacements (**En-tête**, **Principal**, etc.). Ici, vous pouvez ajouter et configurer les options de module qui seront accessibles des auteurs lorsqu’ils créent des pages de ce modèle. Par défaut, si vous n’ajoutez pas module à un emplacement, tous les types de modules disponibles sont pris en charge pour cet emplacement.
+Sous le nouveau module de conteneur de page, un nouvel ensemble d’emplacements (**En-tête**, **Principal**, etc.). Ici, vous pouvez ajouter et configurer les options de module qui seront accessibles des auteurs lorsqu’ils créent des pages de ce modèle. Par défaut, si vous n'ajoutez pas module à un emplacement, tous les types de modules disponibles sont pris en charge pour cet emplacement.
 
 Le modèle est désormais techniquement valide, et peut être enregistré, archivé et utilisé pour créer des pages. Toutefois, les trois sections suivantes décrivent certains autres paramètres par défaut que vous souhaitez peut-être pour configurer en premier.
 

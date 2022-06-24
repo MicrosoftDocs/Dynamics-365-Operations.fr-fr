@@ -1,6 +1,6 @@
 ---
 title: Créer des politiques d’achat
-description: Cette rubrique vous montre comment créer des stratégies d’achat pour les aligner avec vos processus d’entreprise pour les achats.
+description: Cet article vous montre comment créer des stratégies d’achat pour les aligner avec vos processus d’entreprise pour les achats.
 author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878843"
 ---
 # <a name="create-purchasing-policies"></a>Créer des politiques d’achat
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique vous montre comment créer des stratégies d’achat pour les aligner avec vos processus d’entreprise pour les achats. Avant de pouvoir créer des stratégies d’achat, vous devez définir les paramètres de politique d’achat. Il est possible de créer, de modifier, et de retirer une politique d’achat, mais vous ne pouvez pas supprimer une politique d’achat. Cette procédure est généralement effectuée par un gestionnaire des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
+Cet article vous montre comment créer des stratégies d’achat pour les aligner avec vos processus d’entreprise pour les achats. Avant de pouvoir créer des stratégies d’achat, vous devez définir les paramètres de politique d’achat. Il est possible de créer, de modifier, et de retirer une politique d’achat, mais vous ne pouvez pas supprimer une politique d’achat. Cette procédure est généralement effectuée par un gestionnaire des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 
 
 ## <a name="set-up-policy-parameters"></a>Définition des paramètres de stratégie

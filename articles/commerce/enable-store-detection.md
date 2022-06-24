@@ -1,6 +1,6 @@
 ---
 title: Activation de la détection du magasin selon l’emplacement
-description: Cette rubrique décrit la procédure d’activation de la détection du magasin selon l’emplacement pour votre site Dynamics 365 Commerce.
+description: Cet article décrit la procédure d’activation de la détection du magasin selon l’emplacement pour votre site Dynamics 365 Commerce.
 author: brianshook
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98aa781a42b1c82cc00c8a680007b7200e9c7413fb8e3a67b0c723ff62c1d8e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e0fcea2f53a8e1fea5a411981a317eabe94bddb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892043"
 ---
 # <a name="enable-location-based-store-detection"></a>Activation de la détection du magasin selon l’emplacement
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la procédure d’activation de la détection du magasin selon l’emplacement pour votre site Dynamics 365 Commerce.
+Cet article décrit la procédure d’activation de la détection du magasin selon l’emplacement pour votre site Dynamics 365 Commerce.
 
 La détection du magasin selon l’emplacement dans Commerce vous permet de fournir le contenu approprié de site aux clients, en fonction de leur emplacement. Lorsque la détection du magasin selon l’emplacement est activée, le service d’affichage de Commerce utilise les informations de pays/région de l’adresse IP du navigateur web du client pour diriger le client vers la meilleure configuration géographique de site disponible.
 

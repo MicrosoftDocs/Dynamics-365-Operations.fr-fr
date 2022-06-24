@@ -1,6 +1,6 @@
 ---
 title: Paramètres fournisseur ajoutés pour le coût au débarquement
-description: Cette rubrique décrit les nouveaux champs qui sont ajoutés à la page Fournisseurs existante lorsque vous activez le module Coût au débarquement. Vous utilisez ces champs pour configurer les fournisseurs que vous utiliserez avec les fonctionnalités de coût au débarquement.
+description: Cet article décrit les nouveaux champs qui sont ajoutés à la page Fournisseurs existante lorsque vous activez le module Coût au débarquement. Vous utilisez ces champs pour configurer les fournisseurs que vous utiliserez avec les fonctionnalités de coût au débarquement.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b4e02397f7a4cdeaa21b451268b16e4fbe773612
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 84d1dee0815b036a3d411eabff49d8a08249bed3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882574"
 ---
 # <a name="vendor-settings-added-for-landed-cost"></a>Paramètres fournisseur ajoutés pour le coût au débarquement
 

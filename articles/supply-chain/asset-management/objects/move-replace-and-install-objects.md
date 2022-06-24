@@ -1,6 +1,6 @@
 ---
 title: Déplacer, remplacer et installer des actifs
-description: Cette rubrique explique comment déplacer, remplacer et installer des actifs dans Gestion des actifs.
+description: Cet article explique comment déplacer, remplacer et installer des actifs dans Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872122"
 ---
 # <a name="move-replace-and-install-assets"></a>Déplacer, remplacer et installer des actifs
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769633"
 
  
 
-Cette rubrique explique comment déplacer, remplacer et installer des actifs dans Gestion des actifs. Vous pouvez créer les actifs individuels sans aucun lien avec d’autres actifs, ou créer une structure d’actif incluant un actif parent (actif supérieur) et des actifs enfants associés (sous-actifs). Dans Gestion des actifs, il existe trois approches pour déplacer et modifier l’emplacement d’un actif :
+Cet article explique comment déplacer, remplacer et installer des actifs dans Gestion des actifs. Vous pouvez créer les actifs individuels sans aucun lien avec d’autres actifs, ou créer une structure d’actif incluant un actif parent (actif supérieur) et des actifs enfants associés (sous-actifs). Dans Gestion des actifs, il existe trois approches pour déplacer et modifier l’emplacement d’un actif :
 
 - **Déplacer** - Déplacement d’un actif vers une autre structure d’actif, ou vers un autre emplacement dans la même structure d’actif.
 - **Remplacer** - Suppression temporaire d’un actif d’une structure d’actif afin de pouvoir réparer ou rénover un actif, puis rajout de l’actif rénové à la structure d’actif ultérieurement. Sinon, remplacement définitif d’un actif usagé par un nouvel actif.
@@ -42,7 +42,7 @@ Cette rubrique explique comment déplacer, remplacer et installer des actifs dan
 Utilisez la fonctionnalité **Déplacer l’actif** pour déplacer l’actif vers une autre structure d’actif, ou vers un autre emplacement dans la même structure d’actif. Vous pouvez également déplacer un actif en dehors d’une structure d’actif afin qu’il devienne autonome sans aucune relation de structure.
 
 > [!NOTE]
-> N’utilisez pas cette fonctionnalité si des actifs sont en cours de réparation ou remplacés temporairement. Au lieu de cela, utilisez la fonctionnalité **Remplacer l’actif** décrite plus loin dans cette rubrique.
+> N’utilisez pas cette fonctionnalité si des actifs sont en cours de réparation ou remplacés temporairement. Au lieu de cela, utilisez la fonctionnalité **Remplacer l’actif** décrite plus loin dans cet article.
 
 1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
 2. Dans la liste, sélectionnez l’actif à déplacer. Si l’actif comporte des actifs enfants, vous déplacez également ces actifs.

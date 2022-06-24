@@ -1,6 +1,6 @@
 ---
 title: Gestion des prix de vente dans Retail
-description: Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Dynamics 365 Commerce.
+description: Cet article décrit les concepts de création et de gestion des prix de vente dans Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 07/28/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16c948e6e14309f4e340bf622fac42b14e6ee591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887008"
 ---
-# <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
+# <a name="retail-sales-price-management"></a>Gestion des prix de vente dans Retail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur le processus de création et de gestion des prix de vente dans Dynamics 365 Commerce. Elle se concentre sur les concepts impliqués dans ce processus, et sur les effets des différentes options de configuration sur les prix de vente.
+Cet article fournit des informations sur le processus de création et de gestion des prix de vente dans Dynamics 365 Commerce. Elle se concentre sur les concepts impliqués dans ce processus, et sur les effets des différentes options de configuration sur les prix de vente.
 
 ## <a name="terminology"></a>Terminologie
 
-Les termes suivants sont utilisés dans cette rubrique.
+Les termes suivants sont utilisés dans cet article.
 
 | Terme | Définition, utilisation et notes |
 |---|---|
-| Prix | Montant unitaire auquel un produit se vend à un client de point de vente (PDV) ou sur une commande client. Dans cette rubrique, le terme *prix* désigne toujours le prix de vente, pas le prix de stock, ni le prix de revient. |
+| Prix | Montant unitaire auquel un produit se vend à un client de point de vente (PDV) ou sur une commande client. Dans cet article, le terme *prix* désigne toujours le prix de vente, pas le prix de stock, ni le prix de revient. |
 | Prix de base | Prix défini dans le champ **Prix** d’un produit lancé. |
 | Prix de l’accord commercial | Prix défini pour un produit ou une variante à l’aide d’un accord commercial de type **Prix (ventes)**. |
-| Meilleur prix | Lorsque plusieurs prix ou remises peuvent être appliqués à un produit, plus petit prix et/ou montant de remise le plus élevé produisant le montant net le plus bas possible que le client doit payer. Dans cette rubrique, le concept de meilleur prix est toujours appelé « le meilleur prix ». Ce meilleur prix diffère de la valeur d’énumération **Meilleur prix** avec laquelle il ne doit pas être confondu pour le mode d’accès concurrentiel d’une remise. |
+| Meilleur prix | Lorsque plusieurs prix ou remises peuvent être appliqués à un produit, plus petit prix et/ou montant de remise le plus élevé produisant le montant net le plus bas possible que le client doit payer. Dans cet article, le concept de meilleur prix est toujours appelé « le meilleur prix ». Ce meilleur prix diffère de la valeur d’énumération **Meilleur prix** avec laquelle il ne doit pas être confondu pour le mode d’accès concurrentiel d’une remise. |
 
 ## <a name="price-groups"></a>Groupes de prix
 
@@ -97,7 +97,7 @@ Pour utiliser la priorité de tarification pour les prix, vous devez affecter un
 
 La fonctionnalité de la priorité de la tarification a été introduite pour prendre en charge le scénario où un détaillant souhaite appliquer des prix plus élevés dans un ensemble spécifique de magasins. Par exemple, un détaillant a défini des prix régionaux pour la côte est aux États-Unis mais souhaite que les prix soient plus élevés pour certains produits dans les magasins de New York, car cela coûte plus cher de vendre certains produits dans cette ville et/ou car le marché local soutiendra un prix supérieur.
 
-Comme décrit dans la section « Meilleur prix » de cette rubrique, le moteur de la tarification sélectionne généralement le plus bas de deux prix. Par conséquent, le détaillant est habituellement empêché d’utiliser le plus élevé des deux prix dans un magasin ayant les groupes de prix de la côte est et de New York. Pour résoudre ce problème avant que la fonctionnalité de priorité de tarification soit introduite, le détaillant devait définir des prix pour chaque produit à deux reprises et ne pouvait pas affecter les deux groupes de prix. Sinon, le détaillant devait créer des groupes de prix supplémentaires pour isoler les produits avec des prix plus élevés des produits dont les prix habituels étaient inférieurs.
+Comme décrit dans la section « Meilleur prix » de cet article, le moteur de la tarification sélectionne généralement le plus bas de deux prix. Par conséquent, le détaillant est habituellement empêché d’utiliser le plus élevé des deux prix dans un magasin ayant les groupes de prix de la côte est et de New York. Pour résoudre ce problème avant que la fonctionnalité de priorité de tarification soit introduite, le détaillant devait définir des prix pour chaque produit à deux reprises et ne pouvait pas affecter les deux groupes de prix. Sinon, le détaillant devait créer des groupes de prix supplémentaires pour isoler les produits avec des prix plus élevés des produits dont les prix habituels étaient inférieurs.
 
 Toutefois, la fonctionnalité de priorité de tarification laisse le détaillant créer une priorité de tarification pour les prix de magasin supérieure à la priorité de tarification des prix régionaux. Sinon, le détaillant peut créer une priorité de tarification uniquement pour les prix de magasin et laisser les prix régionaux avec la priorité de tarification par défaut, qui est 0 (zéro). Les deux paramétrages garantissent que les prix de magasin sont toujours utilisés avant les prix régionaux.
 
@@ -151,7 +151,7 @@ Bien que l’unité du prix ne soit pas un scénario courant, le moteur de la ta
 
 Un accord commercial de prix de vente **Table** concerne un seul client qui est défini directement dans l’accord commercial. Ce scénario n’est pas un scénario entreprise-client (B2C) standard. Toutefois, s’il se produit, le moteur de la tarification utilise les accords commerciaux **Table** pour déterminer le prix.
 
-Un accord commercial de prix de vente **Groupe** est le type qui est le plus souvent utilisé. En dehors de Commerce, les accords commerciaux de prix de vente **Groupe** sont pour un groupe de clients spécifique. Toutefois, dans Commerce, le concept de groupe de clients a été étendu pour qu’il corresponde davantage à un groupe de prix plus générique. Un groupe de prix peut être lié à un canal, une affiliation, un programme de fidélité ou un catalogue. Pour plus d’informations sur les groupes de prix, voir la section « Groupes de prix » plus haut dans cette rubrique.
+Un accord commercial de prix de vente **Groupe** est le type qui est le plus souvent utilisé. En dehors de Commerce, les accords commerciaux de prix de vente **Groupe** sont pour un groupe de clients spécifique. Toutefois, dans Commerce, le concept de groupe de clients a été étendu pour qu’il corresponde davantage à un groupe de prix plus générique. Un groupe de prix peut être lié à un canal, une affiliation, un programme de fidélité ou un catalogue. Pour plus d’informations sur les groupes de prix, voir la section « Groupes de prix » plus haut dans cet article.
 
 > [!NOTE]
 > Un prix d’accord commercial est toujours utilisé avant le prix de base.

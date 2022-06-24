@@ -1,6 +1,6 @@
 ---
 title: Configuration des coûts automatiques
-description: Cette rubrique décrit comment configurer des règles de coût pour différents niveaux de voyage entrant. Sur la base de ces règles, le système calcule les coûts et les ajoute automatiquement. Par conséquent, les utilisateurs n’ont pas à ajouter manuellement les coûts.
+description: Cet article décrit comment configurer des règles de coût pour différents niveaux de voyage entrant. Sur la base de ces règles, le système calcule les coûts et les ajoute automatiquement. Par conséquent, les utilisateurs n’ont pas à ajouter manuellement les coûts.
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852387"
 ---
 # <a name="auto-costs-setup"></a>Configuration des coûts automatiques
 
@@ -26,7 +26,7 @@ ms.locfileid: "8695330"
 
 Vous pouvez utiliser la page **Coûts automatiques** pour configurer des règles de coût pour divers domaines de coûts (tels que les voyages, les conteneurs d’expédition, les folios, les commande fournisseur, les articles ou les lignes d’ordre de transfert). En fonction des règles et des champs que les utilisateurs sélectionnent lorsqu’ils créent des enregistrements pour l’un des domaines de coûts, le système calcule les coûts et les ajoute automatiquement. Par conséquent, les utilisateurs n’ont pas à ajouter manuellement les coûts.
 
-Pour utiliser les coûts automatiques, accédez à **Prix au débarquement \> Configuration des coûts \> Coûts automatiques**. Configurez ensuite vos règles de coût automatique comme décrit dans le reste de cette rubrique.
+Pour utiliser les coûts automatiques, accédez à **Prix au débarquement \> Configuration des coûts \> Coûts automatiques**. Configurez ensuite vos règles de coût automatique comme décrit dans le reste de cet article.
 
 ## <a name="work-with-cost-areas"></a>Travailler avec des zones de coûts
 

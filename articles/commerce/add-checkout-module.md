@@ -1,6 +1,6 @@
 ---
-title: Module Paiement
-description: Cette rubrique décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
+title: Module Validation
+description: Cet article décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a30d56d7edf967a3afab7442338dd9f480ef7fd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869026"
 ---
-# <a name="checkout-module"></a>Module Paiement
+# <a name="checkout-module"></a>Module Validation
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
+Cet article décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
 
 Module de validation est un conteneur spécial qui héberge tous les modules requis pour créer une commande. Il présente un flux pas-à-pas qu’un client utilise pour entrer toutes les informations appropriées pour faire un achat. Il capture l’adresse d’expédition, la méthode d’expédition et les informations de facturation. Il fournit également un résumé de commande et d’autres informations liées à une commande client.
 

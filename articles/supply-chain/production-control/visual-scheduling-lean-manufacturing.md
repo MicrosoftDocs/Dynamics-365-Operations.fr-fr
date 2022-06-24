@@ -1,6 +1,6 @@
 ---
 title: Planification visuelle pour Lean manufacturing
-description: Cette rubrique fournit des informations relatives à la carte de programme du kanban, que le gestionnaire de production peut utiliser pour contrôler et optimiser le plan de production pour les tâches de kanban.
+description: Cet article fournit des informations relatives à la carte de programme du kanban, que le gestionnaire de production peut utiliser pour contrôler et optimiser le plan de production pour les tâches de kanban.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875186"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Planification visuelle pour Lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations relatives à la carte de programme du kanban, que le gestionnaire de production peut utiliser pour contrôler et optimiser le plan de production pour les tâches de kanban.
+Cet article fournit des informations relatives à la carte de programme du kanban, que le gestionnaire de production peut utiliser pour contrôler et optimiser le plan de production pour les tâches de kanban.
 
-Cette rubrique fournit des informations relatives à la carte de programme du kanban, que le gestionnaire de production peut utiliser pour contrôler et optimiser le plan de production pour les tâches de kanban.
+Cet article fournit des informations relatives à la carte de programme du kanban, que le gestionnaire de production peut utiliser pour contrôler et optimiser le plan de production pour les tâches de kanban.
 
 La carte de programme du kanban permet au gestionnaire de production de contrôler et d’optimiser le plan de production pour les tâches de kanban. Il assure la transparence du flux des tâches de kanban et fournit au gestionnaire de production un outil qui optimise et ajuste le plan de production pour la cellule de travail du lean manufacturing.
 

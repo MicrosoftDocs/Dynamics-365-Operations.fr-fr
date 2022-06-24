@@ -1,6 +1,6 @@
 ---
-title: Manières d’ajouter du contenu
-description: Cette rubrique fournit une vue d’ensemble et sélectionne des liens indiquant où et comment commencer à gérer le contenu à l’aide de l’ensemble d’outils de création web du générateur de sites Microsoft Dynamics 365 Commerce.
+title: Méthodes d’ajout de contenu
+description: Cet article fournit une vue d’ensemble et sélectionne des liens indiquant où et comment commencer à gérer le contenu à l’aide de l’ensemble d’outils de création web du générateur de sites Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f01de31e4eca1266066b4fcf1c92b429bfc71c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871752"
 ---
-# <a name="ways-to-add-content"></a>Manières d’ajouter du contenu
+# <a name="ways-to-add-content"></a>Méthodes d’ajout de contenu
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble et établit des liens vers la documentation concernant la manière de gérer le contenu à l’aide de l’ensemble d’outils de création web du générateur de sites Microsoft Dynamics 365 Commerce.
+Cet article fournit une vue d’ensemble et établit des liens vers la documentation concernant la manière de gérer le contenu à l’aide de l’ensemble d’outils de création web du générateur de sites Microsoft Dynamics 365 Commerce.
 
 Il existe de nombreuses façons de modifier l’aspect et le contenu du site. Selon le niveau de personnalisation requis, bon nombre de ces modifications peuvent être mises en œuvre par des non-développeurs dans le générateur de site, l’ensemble d’outils de création web inclu avec Dynamics 365 Commerce. Le générateur de site vous permet de créer des modèles, de sélectionner des thèmes ainsi que de choisir et de configurer des modules sans écrire de code. En revanche, des qualifications en développement sont requises pour créer un thème ou module, car le kit de développement logiciel (SDK) de commerce électronique et le workflow de déploiement de Microsoft Dynamics Lifecycle Services doivent être utilisés.
 
-Les sujets suivants sont de bons points de départ pour commencer à comprendre comment ajouter et gérer le contenu du site. La plupart des rubriques répertoriées se concentrent sur les zones de votre site qui ne requièrent pas de développeur. Certains traitent de l’édition du contenu de base, tandis que d’autres se concentrent sur les tâches de l’administrateur du site. Chacune de ces rubriques désignera des tâches spécifiques pouvant nécessiter une tâche de kit de développement logiciel (SDK). Chaque rubrique suppose que vous avez déjà configuré un site et obtenu l’accès à l’ensemble d’outils de création de site pour votre site.
+Les articles suivants sont de bons points de départ pour commencer à comprendre comment ajouter et gérer le contenu du site. La plupart des articles répertoriés se concentrent sur les zones de votre site qui ne requièrent pas de développeur. Certains traitent de l’édition du contenu de base, tandis que d’autres se concentrent sur les tâches de l’administrateur du site. Chacune de ces articles désignera des tâches spécifiques pouvant nécessiter une tâche de kit de développement logiciel (SDK). Chaque article suppose que vous avez déjà configuré un site et obtenu l’accès à l’ensemble d’outils de création de site pour votre site.
 
-Sélectionnez l’une des rubriques suivantes pour commencer.
+Sélectionnez l’un des articles suivants pour commencer.
 
 - Pour vous familiariser avec la terminologie de gestion de contenu utilisée dans le générateur de site et dans cette documentation, consultez [Glossaire sur le modèle de page](page-elements-overview.md).
 - Pour comprendre le fonctionnement des modules dans les workflows de gestion de contenu, consultez [Utiliser des modules](work-with-modules.md).

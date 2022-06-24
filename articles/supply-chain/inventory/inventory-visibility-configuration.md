@@ -1,8 +1,8 @@
 ---
-title: Configurer la visibilité du stock
-description: Cette rubrique décrit comment configurer la visibilité des stocks.
+title: Configurer Inventory Visibility
+description: Cet article décrit comment configurer la visibilité des stocks.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895813"
 ---
-# <a name="configure-inventory-visibility"></a>Configurer la visibilité du stock
+# <a name="configure-inventory-visibility"></a>Configurer Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique décrit comment configurer la visibilité des stocks à l’aide de l’application Visibilité des stocks dans Power Apps.
+Cet article décrit comment configurer la visibilité des stocks à l’aide de l’application Visibilité des stocks dans Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Introduction
 
-Avant de commencer à travailler avec la visibilité des stocks, vous devez effectuer la configuration suivante, comme décrit dans cette rubrique :
+Avant de commencer à travailler avec la visibilité des stocks, vous devez effectuer la configuration suivante, comme décrit dans cet article :
 
 - [Configuration de la source de données](#data-source-configuration)
 - [Configuration de la partition](#partition-configuration)
@@ -41,7 +41,7 @@ Avant de commencer, installez et configurez le complément de visibilité des st
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La page Configuration de l’application Visibilité des stocks
 
-Dans Power Apps, la page **Configuration** de [l’application Visibilité des stocks](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de cette rubrique expliquent comment utiliser chaque partie de la page **Configuration**.
+Dans Power Apps, la page **Configuration** de [l’application Visibilité des stocks](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de cet article expliquent comment utiliser chaque partie de la page **Configuration**.
 
 Une fois la configuration terminée, veillez à sélectionner **Mettre à jour la configuration** dans l’application.
 
@@ -54,6 +54,7 @@ Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnali
 | *OnHandReservation* | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Visibilité des stocks. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Cette fonctionnalité fournit un récapitulatif du stock pour les produits, avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Cette fonctionnalité facultative active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV). Pour plus d’informations, voir [Planning de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md). |
+| *Allocation* | Cette fonctionnalité facultative permet à Inventory Visibility d'avoir la possibilité de protéger les stocks (ringfencing) et de contrôler la survente. Pour plus d’informations, voir [Répartition de stock pour Visibilité des stocks](inventory-visibility-allocation.md). |
 | *Activer les articles d’entrepôt dans Visibilité des stocks* | Cette fonctionnalité facultative permet à la Visibilité des stocks de prendre en charge les articles activés pour les processus d’entrepôt avancés (articles WHS). Pour plus d’informations, voir [Prise en charge de la Visibilité des stocks pour les articles WHS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Rechercher le point de terminaison de service
@@ -320,6 +321,13 @@ Pour paramétrer votre index de hiérarchie des produits, procédez comme suit.
     - **Numéro d’ensemble** : les dimensions appartenant au même groupe (index) seront regroupées et le même numéro d’ensemble leur sera attribué.
     - **Hiérarchie** : la hiérarchie est utilisée pour définir les combinaisons de dimensions prises en charge qui peuvent être interrogées dans un groupe de dimensions (index). Par exemple, si vous configurez un groupe de dimensions ayant une séquence hiérarchique *Style*, *Couleur* et *Taille*, le système prend en charge le résultat de trois groupes de requêtes. Le premier groupe concerne uniquement le style. Le deuxième groupe est une combinaison de style et de couleur. Et le troisième groupe est une combinaison de style, couleur et taille. Les autres combinaisons ne sont pas prises en charge.
 
+> [!TIP]
+> Voici quelques conseils à garder à l'esprit lors de la configuration de votre hiérarchie d'index :
+>
+> - Les dimensions de base définies dans la configuration de la partition ne doivent pas être définies dans les configurations d’index. Si une dimension de base est à nouveau définie dans la configuration de l'index, vous ne pourrez pas interroger par cet index.
+> - Si vous devez interroger uniquement le stock qui est agrégé par toutes les combinaisons de dimensions, vous pouvez configurer un index unique qui contient la dimension de base `Empty`.
+> - Vous devez avoir au moins une hiérarchie d'index (par exemple, contenant la dimension de base `Empty`), sinon les requêtes échoueront avec l'erreur "Aucune hiérarchie d'index n'a été définie".
+
 ### <a name="example"></a>Exemple
 
 Cette section fournit un exemple qui montre comment fonctionne la hiérarchie.
@@ -372,11 +380,6 @@ L’index vous permet d’interroger le stock disponible des manières suivantes
     - T-shirt, Rouge, Petit, Normal, 6
     - T-shirt, Rouge, Grand, Normal, 7
 
-> [!NOTE]
-> Les dimensions de base définies dans la configuration de la partition ne doivent pas être définies dans les configurations d’index.
-> 
-> Si vous devez interroger uniquement le stock qui est agrégé par toutes les combinaisons de dimensions, vous pouvez configurer un index unique qui contient la dimension de base `Empty`.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuration de la réservation (facultatif)
 
 La configuration de la réservation est requise si vous souhaitez utiliser la fonction de réservation provisoire. La configuration se compose de deux parties fondamentales :
@@ -390,7 +393,7 @@ Lorsque vous effectuerez une réservation, vous souhaiterez peut-être savoir si
 
 En configurant le mappage de la mesure physique à la mesure calculée, vous activez le service de visibilité des stocks pour valider automatiquement la disponibilité de la réservation, en fonction de la mesure physique.
 
-Avant de configurer ce mappage, les mesures physiques, les mesures calculées et leurs sources de données doivent être définies dans les onglets **Source de données** et **Mesure calculée** de la page **Configuration** dans Power Apps (comme décrit plus haut dans cette rubrique).
+Avant de configurer ce mappage, les mesures physiques, les mesures calculées et leurs sources de données doivent être définies dans les onglets **Source de données** et **Mesure calculée** de la page **Configuration** dans Power Apps (comme décrit plus haut dans cet article).
 
 Pour définir le mappage de réservation provisoire, procédez comme suit.
 
@@ -508,7 +511,7 @@ Lors de sa phase d’initialisation, la visibilité des stocks définit une conf
 
 Cette section décrit comment la source de données `iv` est configurée.
 
-##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Mesures physiques configurées pour la source de données iv
+##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Mesures physiques configurées pour la source de données "iv"
 
 Les mesures physiques suivantes sont configurées pour la source de données `iv` :
 
@@ -651,11 +654,11 @@ La mesure calculée `InventoryDemand` est configurée pour la source de données
 | Ajout | `iv` | `ReservPhysical` |
 | Ajout | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>Configuration de la source de données fno
+#### <a name="configuration-of-the-fno-data-source"></a>Configuration de la source de données "fno"
 
 Cette section décrit comment la source de données `fno` est configurée.
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>Mappages de dimensions pour la source de données fno
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>Mappages de dimensions pour la source de données "fno"
 
 Les mappages de dimensions répertoriés dans le tableau suivant sont configurés pour la source de données `fno`.
 
@@ -687,7 +690,7 @@ Les mappages de dimensions répertoriés dans le tableau suivant sont configuré
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Mesures physiques configurées pour la source de données fno
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Mesures physiques configurées pour la source de données "fno"
 
 Les mesures physiques suivantes sont configurées pour la source de données `fno` :
 
@@ -699,11 +702,11 @@ Les mesures physiques suivantes sont configurées pour la source de données `fn
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>Configuration de la source de données pos
+#### <a name="configuration-of-the-pos-data-source"></a>Configuration de la source de données "pos"
 
 Cette section décrit comment la source de données `pos` est configurée.
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>Mesures physiques pour la source de données pos
+##### <a name="physical-measures-for-the-pos-data-source"></a>Mesures physiques pour la source de données "pos"
 
 Les mesures physiques suivantes sont configurées pour la source de données `pos` :
 
@@ -720,14 +723,14 @@ La mesure calculée `AvailQuantity` est configurée pour la source de données `
 | Ajout | `pos` | `PosInbound` |
 | Soustraction | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>Configuration de la source de données iom
+#### <a name="configuration-of-the-iom-data-source"></a>Configuration de la source de données "iom"
 
 Les mesures physiques suivantes sont configurées pour la source de données `iom` (intelligent order management) :
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>Configuration de la source de données erp
+#### <a name="configuration-of-the-erp-data-source"></a>Configuration de la source de données "erp"
 
 Les mesures physiques suivantes sont configurées pour la source de données `erp` (enterprise resource planning) :
 

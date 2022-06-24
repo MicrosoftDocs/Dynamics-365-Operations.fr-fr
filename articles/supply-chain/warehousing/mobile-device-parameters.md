@@ -1,6 +1,6 @@
 ---
 title: Paramètres globaux des appareils mobiles
-description: Cette rubrique explique comment configurer les paramètres d’appareil mobile sur la page de paramètres de gestion des entrepôts.
+description: Cet article explique comment configurer les paramètres d’appareil mobile sur la page de paramètres de gestion des entrepôts.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847757"
 ---
 # <a name="global-mobile-device-parameters"></a>Paramètres globaux des appareils mobiles
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer les paramètres globaux de gestion des entrepôts qui affectent la façon dont le système interagit avec les appareils mobiles.
+Cet article explique comment configurer les paramètres globaux de gestion des entrepôts qui affectent la façon dont le système interagit avec les appareils mobiles.
 
 Pour plus d’informations sur la configuration des magasiniers, voir [Gestion des magasiniers](manage-warehouse-workers.md). Pour plus d’informations sur le traitement des contenants sur les appareils mobiles, voir [Réception du contenant via l’application mobile Warehouse Management](warehousing-mobile-device-app-license-plate-receiving.md). Pour plus d’informations sur les processus d’inventaire tournant, voir [Inventaire tournant](cycle-counting.md) et [Exemples de scénarios d’inventaire tournant](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Ouvrir lapage des paramètres de gestion des entrepôts
 
-Pour ouvrir la page **Paramètres de gestion des entrepôts**, accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôt**. Vous pouvez ensuite définir les champs liés au travail sur appareil mobile, comme décrit dans la section suivante de cette rubrique.
+Pour ouvrir la page **Paramètres de gestion des entrepôts**, accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôt**. Vous pouvez ensuite définir les champs liés au travail sur appareil mobile, comme décrit dans la section suivante de cet article.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Raccourci Appareil mobile dans l’onglet Général
 

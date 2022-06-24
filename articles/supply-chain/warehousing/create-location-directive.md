@@ -1,6 +1,6 @@
 ---
 title: Utiliser des instructions d’emplacement
-description: Cette rubrique décrit comment utiliser les instructions d’emplacement. Les instructions d’emplacement sont des règles définies par l’utilisateur qui aident à identifier les emplacements de prélèvement et de rangement pour le mouvement du stock.
+description: Cet article décrit comment utiliser les instructions d’emplacement. Les instructions d’emplacement sont des règles définies par l’utilisateur qui aident à identifier les emplacements de prélèvement et de rangement pour le mouvement du stock.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903693"
 ---
 # <a name="work-with-location-directives"></a>Utiliser des instructions d’emplacement
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103136"
 Les instructions d’emplacement sont des règles qui aident à identifier les emplacements de prélèvement et de rangement pour le mouvement du stock. Par exemple, dans une transaction de commande client, une instruction d’emplacement détermine où les articles seront prélevés, et où les articles prélevés seront rangés. les instructions d’emplacement se composent d’un en-tête et de lignes associées. Ils sont créés pour des *types d’ordre de travail* spécifiques.
 
 > [!NOTE]
-> Cette rubrique s’applique aux fonctionnalités du module **Gestion des entrepôts**. Il ne s’applique pas aux fonctionnalités du module [Gestion des stocks](../inventory/inventory-home-page.md).
+> Cet article s’applique aux fonctionnalités du module **Gestion des entrepôts**. Il ne s’applique pas aux fonctionnalités du module [Gestion des stocks](../inventory/inventory-home-page.md).
 
 Les instructions d’emplacement vous permettent d’effectuer les tâches suivantes :
 
@@ -109,7 +109,7 @@ Le tableau suivant répertorie les champs spécifiques aux types d’ordres de t
 
 Pour ouvrir page **instruction d’emplacement**, accédez à **Gestion des entrepôts \> Paramétrage \> instruction d’emplacement**.
 
-À partir de là, vous pouvez afficher, créer et modifier vos instruction d’emplacement à l’aide des commandes du volet Actions. Consultez les sections restantes de cette rubrique pour savoir comment utiliser tous les champs disponibles sur la page.
+À partir de là, vous pouvez afficher, créer et modifier vos instruction d’emplacement à l’aide des commandes du volet Actions. Consultez les sections restantes de cet article pour savoir comment utiliser tous les champs disponibles sur la page.
 
 ## <a name="action-pane"></a>Volet Actions
 
@@ -162,7 +162,7 @@ Les champs sur le raccourci **instruction d’emplacement** sont spécifiques au
 - **Code disposition applicable** – Spécifiez si le code disposition de l’instruction d’emplacement doit correspondre au code disposition appliqué à la réception d’article ou si l’instruction d’emplacement peut être sélectionnée en fonction de n’importe quel code disposition. Si vous sélectionnez *Correspondance parfaite* et que le champ **Code disposition** est vide, seuls codes disposition vides seront pris en compte pour cette instruction d’emplacement.
 
     > [!NOTE]
-    > Ce champ est disponible uniquement pour les types d’ordres de travail sélectionnés où le réapprovisionnement est autorisé. Pour une liste complète, consultez la section [Champs spécifiques aux types d’ordres de travail](#fields-specific-types) précédente dans cette rubrique.
+    > Ce champ est disponible uniquement pour les types d’ordres de travail sélectionnés où le réapprovisionnement est autorisé. Pour une liste complète, consultez la section [Champs spécifiques aux types d’ordres de travail](#fields-specific-types) précédente dans cet article.
 
 - **Localiser par** – Indiquez si la quantité en stock doit être la quantité totale indiquée sur le contenant ou si elle doit être article par article. Utilisez ce champ pour vous assurer que tout le contenu d’un contenant est placé dans un seul emplacement et que le système ne suggère pas de diviser le contenu en plusieurs emplacements pour **APE** (réception de contenant), le **contenant mixte** de réception, et les processus de réception de **groupement**. (Le processus de réception en **Groupement** exige que la [Fonctionnalité de rangement par groupement](putaway-clusters.md) soit activée.) Le comportement de la requête de directive de rangement, des lignes et des actions d’instruction d’emplacement variera en fonction de la valeur que vous sélectionnez. Le raccourci **Lignes** n’est utilisé que lorsque **Localiser par** est défini sur *Article*.
 
@@ -254,7 +254,7 @@ Après avoir créé des instructions d’emplacement, vous pouvez associer chaqu
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - Vidéo : [Analyse approfondie de la configuration de la gestion des entrepôts](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Rubrique d’aide : [Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement](control-warehouse-location-directives.md)
+- Article d’aide : [Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

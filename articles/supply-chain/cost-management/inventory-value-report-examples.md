@@ -1,6 +1,6 @@
 ---
 title: Exemples et logique de l’état de valeur des stocks
-description: Cette rubrique fournit quelques exemples de résultats qui sont présentés sur chaque type de rapport de valeur de stock. Les rapports sur la valeur du stock fournissent des détails sur les quantités et les montants physiques et financiers de votre stock.
+description: Cet article fournit quelques exemples de résultats qui sont présentés sur chaque type de rapport de valeur de stock. Les rapports sur la valeur du stock fournissent des détails sur les quantités et les montants physiques et financiers de votre stock.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877651"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Exemples et logique de l’état de valeur des stocks
 
 [!include [banner](../includes/banner.md)]
 
-Les rapports sur la valeur du stock fournissent des détails sur les quantités et les montants physiques et financiers de votre stock. Cette rubrique fournit quelques exemples de résultats qui sont présentés sur chaque type de rapport de valeur de stock.
+Les rapports sur la valeur du stock fournissent des détails sur les quantités et les montants physiques et financiers de votre stock. Cet article fournit quelques exemples de résultats qui sont présentés sur chaque type de rapport de valeur de stock.
 
 Pour plus d’informations sur la façon de générer et d’utiliser chaque type de rapport de valeur d’inventaire, voir [Rapports de valeur de stock](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Exemples de données utilisées
 
-Les exemples de cette rubrique sont basés sur les exemples de données de transaction de stock décrits dans cette section.
+Les exemples de cet article sont basés sur les exemples de données de transaction de stock décrits dans cette section.
 
 ### <a name="storage-dimension-setup"></a>Configuration de la dimension de stockage
 
@@ -70,7 +70,7 @@ L’exemple de système comprend une configuration de rapport de valeur de stock
 
 ## <a name="inventory-value-report-example-1"></a>Exemple de l’état de valeur de stock 1
 
-Le tableau et les illustrations suivants montrent les résultats lorsque vous utilisez les exemples de configuration de données et de rapport décrits plus haut dans cette rubrique.
+Le tableau et les illustrations suivants montrent les résultats lorsque vous utilisez les exemples de configuration de données et de rapport décrits plus haut dans cet article.
 
 | Type de ressource | Ressource | Site | Référence | Stock : quantité financière | Stock : montant financier | Stock : quantité physique validée | Stock : montant physique validé | Stock : quantité | Stock : montant | Coût unitaire moyen |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -91,7 +91,7 @@ L’illustration suivante montre le rapport **Stockage du rapport de valeur de s
 
 ## <a name="inventory-value-report-example-2"></a>Exemple de l’état de valeur de stock 2
 
-Le tableau et les illustrations suivants montrent les résultats lorsque vous utilisez les exemples de données décrits plus haut dans cette rubrique, mais que vous modifiez la valeur du champ **Niveau** sur *Transactions* dans la configuration du rapport, et le champ **Date de début** sur *15 mars* lorsque vous exécutez le rapport.
+Le tableau et les illustrations suivants montrent les résultats lorsque vous utilisez les exemples de données décrits plus haut dans cet article, mais que vous modifiez la valeur du champ **Niveau** sur *Transactions* dans la configuration du rapport, et le champ **Date de début** sur *15 mars* lorsque vous exécutez le rapport.
 
 | Type de ressource | Ressource | Site | Date | Nombre | Référence | Stock : quantité financière | Stock : montant financier | Stock : quantité physique validée | Stock : montant physique validé | Stock : quantité | Stock : montant |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ Les sous-sections suivantes présentent les rapports sur la valeur de stock gén
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>Exemple 3 lorsque le niveau Totaux est utilisé
 
-Le tableau suivant montre les résultats lorsque vous utilisez les exemples de configuration de données et de rapport décrits plus haut dans cette rubrique. (Dans cette configuration de rapport, le champ **Niveau** est défini sur *Totaux*.)
+Le tableau suivant montre les résultats lorsque vous utilisez les exemples de configuration de données et de rapport décrits plus haut dans cet article. (Dans cette configuration de rapport, le champ **Niveau** est défini sur *Totaux*.)
 
 | Type de ressource | Ressource | Site | Référence | Stock : quantité financière | Stock : montant financier | Stock : quantité physique validée | Stock : montant physique validé | Stock : quantité | Stock : montant | Coût unitaire moyen |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ Le tableau suivant montre les résultats lorsque vous utilisez les exemples de c
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>Exemple 3 lorsque le niveau Transactions est utilisé
 
-Le tableau suivant montre les résultats lorsque vous utilisez les exemples de données décrits plus haut dans cette rubrique, mais que vous modifiez la valeur du champ **Niveau** sur *Transactions* dans la configuration du rapport.
+Le tableau suivant montre les résultats lorsque vous utilisez les exemples de données décrits plus haut dans cet article, mais que vous modifiez la valeur du champ **Niveau** sur *Transactions* dans la configuration du rapport.
 
 | Type de ressource | Ressource | Site | Date | Nombre | Référence | Stock : quantité financière | Stock : montant financier | Stock : quantité physique validée | Stock : montant physique validé | Stock : quantité | Stock : montant |
 |---|---|---|---|---|---|---|---|---|---|---|---|

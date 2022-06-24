@@ -1,6 +1,6 @@
 ---
 title: Afficher les notifications dans le point de vente (PDV)
-description: Cette rubrique décrit la procédure d’activation des notifications de commande dans le point de vente et l’infrastructure de notifications.
+description: Cet article décrit la procédure d’activation des notifications de commande dans le point de vente et l’infrastructure de notifications.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853978"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Afficher les notifications dans le point de vente (PDV)
 
@@ -65,10 +65,10 @@ Pour les notifications d’exécution des commandes et de rappel de commande, lo
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Activer le contenu en direct sur les boutons du PDV
 
-Les boutons du PDV peuvent désormais afficher un nombre permettant aux travailleurs de déterminer facilement les tâches nécessitant leur attention immédiate. Pour afficher ce nombre sur un bouton du PDV, vous devez exécuter le paramétrage des notifications décrit plus haut dans cette rubrique (autrement dit, vous devez activer les notifications pour une opération, paramétrer un intervalle de notification, puis mettre le groupe d’autorisations du PDV à jour pour le travailleur). En outre, vous devez ouvrir le concepteur de grille de boutons, afficher les propriétés du bouton, puis activer la case à cocher **Activer le contenu en direct**. Dans le champ **Alignement de contenu**, vous pouvez choisir si le nombre doit s’afficher dans le coin supérieur droit du bouton (**Haut-Droite**) ou au centre (**Centré**).
+Les boutons du PDV peuvent désormais afficher un nombre permettant aux travailleurs de déterminer facilement les tâches nécessitant leur attention immédiate. Pour afficher ce nombre sur un bouton du PDV, vous devez exécuter le paramétrage des notifications décrit plus haut dans cet article (autrement dit, vous devez activer les notifications pour une opération, paramétrer un intervalle de notification, puis mettre le groupe d’autorisations du PDV à jour pour le travailleur). En outre, vous devez ouvrir le concepteur de grille de boutons, afficher les propriétés du bouton, puis activer la case à cocher **Activer le contenu en direct**. Dans le champ **Alignement de contenu**, vous pouvez choisir si le nombre doit s’afficher dans le coin supérieur droit du bouton (**Haut-Droite**) ou au centre (**Centré**).
 
 > [!NOTE]
-> Le contenu en direct peut être activé pour les opérations uniquement si la case à cocher **Activer les notifications** a été activée pour elles sur la page **Opérations du PDV**, comme décrit précédemment dans cette rubrique.
+> Le contenu en direct peut être activé pour les opérations uniquement si la case à cocher **Activer les notifications** a été activée pour elles sur la page **Opérations du PDV**, comme décrit précédemment dans cet article.
 
 L’illustration suivante présente les paramètres de contenu en direct dans le concepteur de grille de boutons.
 

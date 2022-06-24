@@ -1,6 +1,6 @@
 ---
 title: Configuration des évaluations et avis
-description: Cette rubrique décrit la procédure de configuration de votre site de commerce électronique pour afficher les classements et les évaluations des clients dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit la procédure de configuration de votre site de commerce électronique pour afficher les classements et les évaluations des clients dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 56325eb0d6298f3b30316e104a4b3913ef860366
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862253"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configuration des évaluations et avis
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la procédure de configuration de votre site de commerce électronique pour afficher les classements et les évaluations des clients dans Microsoft Dynamics 365 Commerce.
+Cet article décrit la procédure de configuration de votre site de commerce électronique pour afficher les classements et les évaluations des clients dans Microsoft Dynamics 365 Commerce.
 
 Les classements et les évaluations des sites web de commerce électronique permettent aux clients d’en savoir plus sur les produits avant de prendre une décision d’achat, en leur affichant ce que d’autres clients pensent de ces produits. Pour les sites web de commerce électronique, les classements et les évaluations sont également un mécanisme de collecte des commentaires des clients sur les produits. 
 

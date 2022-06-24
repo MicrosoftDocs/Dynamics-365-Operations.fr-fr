@@ -1,6 +1,6 @@
 ---
 title: Configurer le bon de travail pour les périphériques
-description: Cette rubrique décrit les différentes options de configuration du périphérique de bon de travail.
+description: Cet article décrit les différentes options de configuration du périphérique de bon de travail.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,29 +13,29 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860723"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurer le bon de travail pour les périphériques
 
 [!include [banner](../includes/banner.md)]
 
-Le périphérique de bon de travail est utilisé par les collaborateurs de l’atelier pour enregistrer leur travail quotidien : heure de début des tâches, commentaires sur les tâches, enregistrement d’activités indirectes et signalement des absences. Ces enregistrements servent de base pour suivre l’avancement et le coût des ordres de fabrication et pour calculer la base de la rémunération des collaborateurs. Cette rubrique décrit les différentes options de configuration des périphériques de bon de travail.
+Le périphérique de bon de travail est utilisé par les collaborateurs de l’atelier pour enregistrer leur travail quotidien : heure de début des tâches, commentaires sur les tâches, enregistrement d’activités indirectes et signalement des absences. Ces enregistrements servent de base pour suivre l’avancement et le coût des ordres de fabrication et pour calculer la base de la rémunération des collaborateurs. Cet article décrit les différentes options de configuration des périphériques de bon de travail.
 
 ## <a name="enable-new-features-in-feature-management"></a>Activer les nouvelles fonctionnalités dans la gestion des fonctionnalités
 
-Quelques-uns des paramètres décrits dans cette rubrique doivent être activés dans votre système avant d’être disponibles. Utilisez la page [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer une ou toutes les fonctionnalités suivantes, si nécessaire.
+Quelques-uns des paramètres décrits dans cet article doivent être activés dans votre système avant d’être disponibles. Utilisez la page [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer une ou toutes les fonctionnalités suivantes, si nécessaire.
 
 ### <a name="generate-license-plate"></a>Générer un contenant
 
 Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (dans l’ordre) :
 
 1. *Contenant pour la déclaration ajouté comme finalisé au périphérique pour bons de travail*<br>Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.
-1. *Activer la génération automatique du numéro de contenant lors de la déclaration de fin dans le périphérique de bon de travail*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.)
+1. *Activer la génération automatique du numéro de contenant au moment de la déclaration de fin dans le périphérique de bon de travail*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.)
 
 ### <a name="print-label"></a>Imprimer l’étiquette
 

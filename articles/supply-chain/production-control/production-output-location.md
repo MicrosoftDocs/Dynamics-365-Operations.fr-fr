@@ -1,6 +1,6 @@
 ---
 title: Emplacement de la sortie de production
-description: Cette rubrique décrit la hiérarchie utilisée pour identifier l’emplacement de sortie de production.
+description: Cet article décrit la hiérarchie utilisée pour identifier l’emplacement de sortie de production.
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893292"
 ---
 # <a name="production-output-location"></a>Emplacement de la sortie de production
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la hiérarchie utilisée pour identifier l’emplacement de sortie de production.
+Cet article décrit la hiérarchie utilisée pour identifier l’emplacement de sortie de production.
 
 L’emplacement de sortie de production est l’emplacement où un produit fini est d’abord stocké après avoir été produit. Généralement, cet emplacement est près du processus de production qui produit le produit fini. L’emplacement de sortie de production est utilisé comme stockage intermédiaire pour le matériel avant qu’il soit déplacé dans la zone d’expédition, à un emplacement de stockage, à un emplacement d’entrée en production pour un processus de production en aval, et ainsi de suite. 
 

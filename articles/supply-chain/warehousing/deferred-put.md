@@ -1,6 +1,6 @@
 ---
 title: Traitement différé du travail d’entrepôt
-description: Cette rubrique décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Dynamics 365 Supply Chain Management.
+description: Cet article décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899293"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Traitement différé du travail d’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Dynamics 365 Supply Chain Management.
+Cet article décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Dynamics 365 Supply Chain Management.
 
 La fonctionnalité de traitement différé permet aux collaborateurs de l’entrepôt de continuer à effectuer d’autres tâches pendant que l’opération de vente est traitée en arrière-plan. Le traitement différé est utile lorsque de nombreuses lignes de travail doivent être traitées et que le collaborateur peut laisser ce travail être traité de manière asynchrone. Il est également utile lorsque le serveur peut augmenter de façon ponctuelle ou imprévue le temps de traitement, et que le temps de traitement accru peut affecter la productivité de l’utilisateur.
 

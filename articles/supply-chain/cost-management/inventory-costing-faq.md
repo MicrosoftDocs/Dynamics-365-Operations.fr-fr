@@ -1,6 +1,6 @@
 ---
 title: FAQ sur l’évaluation des coûts de stock
-description: Cette rubrique répond à des questions fréquentes sur l’évaluation des coûts de stock dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article répond à des questions fréquentes sur l’évaluation des coûts de stock dans Microsoft Dynamics 365 Supply Chain Management.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850842"
 ---
 # <a name="inventory-costing-faq"></a>FAQ sur l’évaluation des coûts de stock
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répond à des questions fréquentes sur l’évaluation des coûts de stock dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article répond à des questions fréquentes sur l’évaluation des coûts de stock dans Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Clôture, ajustements et recalcul du stock
 
@@ -359,7 +359,7 @@ Nous vous recommandons de surveiller et de corriger fréquemment le stock négat
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Dois-je créer un nouvel article si mon stock est devenu négatif et que j’utilise la moyenne mobile ?
 
-Non Si votre organisation permet au stock de devenir physiquement négatif et que vous utilisez la moyenne mobile comme modèle de stock, le système utilisera la séquence de coût de secours qui est attribuée sur la page **Paramètres de gestion des stocks et des entrepôts** pour déterminer comment le coût sera attribué à vos sorties. En général, nous vous recommandons d’éviter de laisser votre stock devenir physiquement négatif. Pour plus d’informations, voir les autres questions dans la section [Stock négatif](#negative-inventory) de cette rubrique.
+Non Si votre organisation permet au stock de devenir physiquement négatif et que vous utilisez la moyenne mobile comme modèle de stock, le système utilisera la séquence de coût de secours qui est attribuée sur la page **Paramètres de gestion des stocks et des entrepôts** pour déterminer comment le coût sera attribué à vos sorties. En général, nous vous recommandons d’éviter de laisser votre stock devenir physiquement négatif. Pour plus d’informations, voir les autres questions dans la section [Stock négatif](#negative-inventory) de cet article.
 
 ## <a name="not-stocked-products"></a>Produits non stockés
 
@@ -433,7 +433,7 @@ S’il existe une différence de prix entre la validation d’une mise à jour p
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Lorsque j’utilise la moyenne mobile, que se passe-t-il s’il y a une sortie avant la réception ?
 
-Généralement, il peut y avoir une sortie avant la réception, soit parce que vous autorisez un stock physique négatif pour le groupe de modèles d’articles, soit parce que la sortie est antidatée. Pour plus d’informations, voir la section [Stock négatif](#negative-inventory) de cette rubrique.
+Généralement, il peut y avoir une sortie avant la réception, soit parce que vous autorisez un stock physique négatif pour le groupe de modèles d’articles, soit parce que la sortie est antidatée. Pour plus d’informations, voir la section [Stock négatif](#negative-inventory) de cet article.
 
 Si vous antidatez des transactions, nous vous recommandons d’examiner attentivement votre processus d’entreprise et vos opérations pour déterminer s’il existe un moyen d’éviter ce scénario. Si vous antidatez une transaction pour un article qui utilise une moyenne mobile, le système affectera la moyenne mobile actuelle à la transaction. Les sorties ultérieures ne sont pas ajustées. Pour plus d’informations sur la moyenne mobile avec des transactions antidatées, voir [Moyenne mobile](moving-average.md).
 

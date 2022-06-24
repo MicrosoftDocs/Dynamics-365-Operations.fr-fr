@@ -1,6 +1,6 @@
 ---
 title: Articles fantômes
-description: Cette rubrique décrit la manière dont le type de ligne Fantôme peut être utilisé pour les lignes d’une nomenclature et d’une formule dans Dynamics 365 Supply Chain Management.
+description: Cet article décrit la manière dont le type de ligne Fantôme peut être utilisé pour les lignes d’une nomenclature et d’une formule dans Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 05/05/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-05-05
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 64139873216decd8ecb2fcaf1f284e726c53c332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893321"
 ---
-# <a name="phantom-items"></a>Articles fantôme
+# <a name="phantom-items"></a>Articles fantômes
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit, en détail, la manière dont le type de ligne Fantôme peut être utilisé pour les lignes d’une nomenclature et d’une formule.
+Cet article décrit, en détail, la manière dont le type de ligne Fantôme peut être utilisé pour les lignes d’une nomenclature et d’une formule.
 
 Dans la figure 1, (a) est la nomenclature du produit H et des pièces F et G, et (b) est la feuille de gamme des produits H et de la pièce F.
 

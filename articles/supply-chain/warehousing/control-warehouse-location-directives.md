@@ -1,6 +1,6 @@
 ---
 title: Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement
-description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d’emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l’entrepôt.
+description: Cet article décrit comment utiliser les modèles de travail et les instructions d’emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l’entrepôt.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877419"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser les modèles de travail et les instructions d’emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l’entrepôt.
+Cet article décrit comment utiliser les modèles de travail et les instructions d’emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l’entrepôt.
 
 Les instructions que les magasiniers reçoivent sur un appareil mobile sont déterminées par les modèles de travail Dynamics 365 Supply Chain Management que vous paramétrez afin de définir les divers processus et tâches d’entrepôt. Les modèles de travail déterminent la manière dont le travail est effectuée pour chaque processus d’entrepôt. En liant une instruction d’emplacement à des modèles de travail, vous pouvez garantir que le travail se produit dans des zones physiques spécifiques des entrepôts.
 
@@ -73,7 +73,7 @@ Les directives de localisation déterminent *où* les articles doivent être cho
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - Vidéo : [Analyse approfondie de la configuration de la gestion des entrepôts](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Rubrique d’aide : [Utiliser des instructions d’emplacement](create-location-directive.md)
+- Article d’aide : [Utiliser des instructions d’emplacement](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Modifier le pool de travail sur le travail
-description: Cette rubrique explique comment utiliser le bouton Modifier le pool de travail pour les éléments de travail afin de modifier le pool de travail du travail existant.
+description: Cet article explique comment utiliser le bouton Modifier le pool de travail pour les éléments de travail afin de modifier le pool de travail du travail existant.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900620"
 ---
 # <a name="change-work-pool-on-work"></a>Modifier le pool de travail sur le travail
 
@@ -34,14 +34,14 @@ Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Configurer la fonctionnalité Modifier le pool de travail sur le travail
 
-Pour utiliser cette fonctionnalité, vous devez avoir configuré des pools de travail. Vous pouvez également configurer vos modèles de travail pour qu’ils attribuent automatiquement un pool. Si vous souhaitez exécuter l’exemple de scénario fourni plus loin dans cette rubrique, configurez votre système comme décrit dans cette section.
+Pour utiliser cette fonctionnalité, vous devez avoir configuré des pools de travail. Vous pouvez également configurer vos modèles de travail pour qu’ils attribuent automatiquement un pool. Si vous souhaitez exécuter l’exemple de scénario fourni plus loin dans cet article, configurez votre système comme décrit dans cette section.
 
 ### <a name="set-up-work-pools"></a>Paramétrer des pools de travail
 
 Les pools de travail vous permettent d’organiser les éléments de travail par type. Pour utiliser la fonctionnalité *Modifier le pool de travail sur le travail*, vous devez avoir au moins deux pools de travail disponibles. Pour afficher et ajouter des pools de travail, procédez comme suit.
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Travail \> Pools de travail**.
-1. Si vous travaillez avec des données de démonstration de la société **USMF** et étudierez l’exemple de scénario fourni plus loin dans cette rubrique, ajoutez deux pools de travail ayant les paramètres suivants :
+1. Si vous travaillez avec des données de démonstration de la société **USMF** et étudierez l’exemple de scénario fourni plus loin dans cet article, ajoutez deux pools de travail ayant les paramètres suivants :
 
     - Pool de travail 1 :
 
@@ -57,9 +57,9 @@ Les pools de travail vous permettent d’organiser les éléments de travail par
 
 ### <a name="set-up-work-templates"></a>Définir des modèles de travail
 
-Pour chacun de vos modèles de travail, vous pouvez définir un pool de travail par défaut, selon vos besoins. Pour chaque modèle pertinent, vous attribuez un pool de travail dans la colonne **ID du pool de travail**. Dans ce cas, tous les éléments de travail générés à l’aide d’un modèle donné héritent automatiquement du pool de travail attribué. Si vous travaillez avec les données de démonstration de la société **USMF** et étudierez l’exemple de scénario fourni plus loin dans cette rubrique, procédez comme suit :
+Pour chacun de vos modèles de travail, vous pouvez définir un pool de travail par défaut, selon vos besoins. Pour chaque modèle pertinent, vous attribuez un pool de travail dans la colonne **ID du pool de travail**. Dans ce cas, tous les éléments de travail générés à l’aide d’un modèle donné héritent automatiquement du pool de travail attribué. Si vous travaillez avec les données de démonstration de la société **USMF** et étudierez l’exemple de scénario fourni plus loin dans cet article, procédez comme suit :
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Travail \> Modèles de travail**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Travail \> Modèles de travail**.
 1. Dans le volet Actions, sélectionnez **Modifier** pour afficher la page en mode d’édition.
 1. Modifiez le modèle en définissant les valeurs suivantes :
 
@@ -70,7 +70,7 @@ Pour chacun de vos modèles de travail, vous pouvez définir un pool de travail 
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-Ce scénario montre comment modifier le flux de traitement d’un élément de travail existant en modifiant son pool de travail. Il utilise les données de démonstration de la société **USMF** et les paramètres suggérés précédemment dans cette rubrique.
+Ce scénario montre comment modifier le flux de traitement d’un élément de travail existant en modifiant son pool de travail. Il utilise les données de démonstration de la société **USMF** et les paramètres suggérés précédemment dans cet article.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Créer une commande client et la lancer dans l’entrepôt
 

@@ -1,6 +1,6 @@
 ---
 title: Exemple d’intégration de l’unité de contrôle pour la Suède
-description: Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour la Suède dans Microsoft Dynamics 365 Commerce.
+description: Cet article fournit une présentation d’un exemple d’intégration fiscale pour la Suède dans Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885400"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Exemple d’intégration de l’unité de contrôle pour la Suède
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour la Suède dans Microsoft Dynamics 365 Commerce.
+Cet article fournit une présentation d’un exemple d’intégration fiscale pour la Suède dans Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Cet exemple de fonctionnalité d’intégration fiscale remplace [l’échantillon précédent pour l’intégration POS avec des unités de contrôle pour la Suède](retail-sdk-control-unit-sample.md). L’échantillon précédent ne tire pas parti du [cadre d’intégration fiscale](./fiscal-integration-for-retail-channel.md) et deviendra obsolète dans les mises à jour ultérieures. Pour plus d’informations sur la migration de l’exemple précédent vers l’exemple qui correspond à Dynamics 365 Commerce version **10.0.22 et versions antérieures**, voir [Migration à partir de l’exemple d’intégration précédent](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample).
@@ -83,7 +83,7 @@ Dans la page **Champs personnalisés**, ajoutez les enregistrements suivants pou
 
 Pour chaque format de ticket de caisse requis, modifiez la valeur du champ **Comportement d’impression** sur **Toujours imprimer**.
 
-Dans le Concepteur de format de ticket de caisse, ajoutez des champs personnalisés suivants dans la section **Pied de page**. Notez que les noms de champs correspondent aux textes en langue étrangère que vous avez définis dans la section précédente de cette rubrique.
+Dans le Concepteur de format de ticket de caisse, ajoutez des champs personnalisés suivants dans la section **Pied de page**. Notez que les noms de champs correspondent aux textes en langue étrangère que vous avez définis dans la section précédente de cet article.
 
 - **Enregistrer le code de contrôle** – Ce champ imprime le code de contrôle.
 - **Enregistrer l’appareil** – Ce champ imprime le numéro de fabrication de l’unité de contrôle.

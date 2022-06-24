@@ -1,6 +1,6 @@
 ---
 title: Matières dangereuses dans les produits, les commandes, les expéditions et les chargements
-description: Cette rubrique explique comment définir les propriétés des matières dangereuses pour les produits lancés, comment fixer des limites de stock aux articles dangereux et comment inclure des matières dangereuses dans une commande client, une expédition ou un chargement.
+description: Cet article explique comment définir les propriétés des matières dangereuses pour les produits lancés, comment fixer des limites de stock aux articles dangereux et comment inclure des matières dangereuses dans une commande client, une expédition ou un chargement.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860694"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Matières dangereuses dans les produits, les commandes, les expéditions et les chargements
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment définir les propriétés des matières dangereuses pour les produits lancés, comment fixer des limites de stock aux articles dangereux et comment inclure des matières dangereuses dans une commande client, une expédition ou un chargement.
+Cet article explique comment définir les propriétés des matières dangereuses pour les produits lancés, comment fixer des limites de stock aux articles dangereux et comment inclure des matières dangereuses dans une commande client, une expédition ou un chargement.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Définir les spécifications de matières dangereuses pour les produits
 
@@ -109,11 +109,11 @@ Voici une clé de la formule :
 - *&lt;ConversionUnité&gt;* est un facteur de conversion pour la conversion entre l’unité utilisée pour la quantité de ligne de charge et l’unité spécifiée pour un produit dans le champ **Unité** sur le raccourci **Gestion des matières**.
 - *&lt;Multiplicateur&gt;* est le multiplicateur spécifié pour un produit dans le champ **Multiplicateur** sur le raccourci **Gestion des matières**.
 
-Ce score est indiqué pour chaque ligne de charge contenant un produit pour lequel ces valeurs sont spécifiées. Pour plus d’informations, consultez les sections [Expéditions contenant des matières dangereuses](#hazmat-shipments) et [Charges contenant des matières dangereuses](#hazmat-loads) plus loin dans cette rubrique.
+Ce score est indiqué pour chaque ligne de charge contenant un produit pour lequel ces valeurs sont spécifiées. Pour plus d’informations, consultez les sections [Expéditions contenant des matières dangereuses](#hazmat-shipments) et [Charges contenant des matières dangereuses](#hazmat-loads) plus loin dans cet article.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Calcul du poids de matières dangereuses
 
-Les charges et les lignes de charge contenant des produits où l’option **Quantité limitée** sur le raccourci **Gestion des matières** est définie sur **Oui** afficheront le poids total des matières dangereuses, comme décrit dans les sections [Expéditions contenant des matières dangereuses](#hazmat-shipments) et [Charges contenant des matières dangereuses](#hazmat-loads) plus loin dans cette rubrique. Le poids des matières dangereuses est calculé à l’aide de la formule suivante :
+Les charges et les lignes de charge contenant des produits où l’option **Quantité limitée** sur le raccourci **Gestion des matières** est définie sur **Oui** afficheront le poids total des matières dangereuses, comme décrit dans les sections [Expéditions contenant des matières dangereuses](#hazmat-shipments) et [Charges contenant des matières dangereuses](#hazmat-loads) plus loin dans cet article. Le poids des matières dangereuses est calculé à l’aide de la formule suivante :
 
 Poids des matières dangereuses = *&lt;QtéLigne&gt;* × *&lt;PoidsProduit&gt;* × *&lt;ConversionUnité&gt;*
 

@@ -1,6 +1,6 @@
 ---
 title: Traitement des remboursements dans les centres d’appels
-description: Cette rubrique explique comment les remboursements sont effectués via les centres d’appels en cas de retour ou d’annulation de commandes ou de lignes de commande.
+description: Cet article explique comment les remboursements sont effectués via les centres d’appels en cas de retour ou d’annulation de commandes ou de lignes de commande.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880112"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Traitement des remboursements dans les centres d’appels
 
-Cette rubrique explique comment les remboursements sont effectués via les centres d’appels en cas de retour ou d’annulation de commandes ou de lignes de commande.
+Cet article explique comment les remboursements sont effectués via les centres d’appels en cas de retour ou d’annulation de commandes ou de lignes de commande.
 
 Un utilisateur qui crée un ordre de retour pour un client en tant qu’utilisateur du centre d’appels dans Microsoft Dynamics 365 Commerce Headquarters doit utiliser la page **Ordre de retour** pour créer l’autorisation initiale de retour marchandises (RMA). La RMA définit les produits que le client souhaite retourner ou échanger, et permet de créer un retour de la commande client ayant un type de commande de **Commande retournée**. Ce retour de commande est utilisé pour suivre l’enregistrement du retour d’inventaire et les notes de crédit ou remboursements de paiement qui sont enregistrés.
 
@@ -92,7 +92,7 @@ L’option **Appliquer le crédit** ne peut être définie sur **Oui** que lorsq
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Remplacements de paiement pour les retours de centre d’appels
 
-Bien que la logique du centre d’appels détermine systématiquement le mode de paiement du remboursement de la manière décrite plus haut dans cette rubrique, les utilisateurs peuvent parfois souhaiter annuler ces paiements. Par exemple, un utilisateur peut modifier ou supprimer des lignes de paiement de remboursement existantes et appliquer de nouvelles lignes de paiement. Les remboursements calculés par le système ne peuvent être modifiés que par les utilisateurs disposant des autorisations de remplacement appropriées. Ces autorisations peuvent être configurées sur la page **Remplacer les autorisations** dans Retail et Commerce. Pour effectuer un remplacement de paiement de remboursement, l’utilisateur doit être lié à un rôle de sécurité où l’option **Autoriser un autre paiement** est définie sur **Oui** sur la page **Remplacer les autorisations**.
+Bien que la logique du centre d’appels détermine systématiquement le mode de paiement du remboursement de la manière décrite plus haut dans cet article, les utilisateurs peuvent parfois souhaiter annuler ces paiements. Par exemple, un utilisateur peut modifier ou supprimer des lignes de paiement de remboursement existantes et appliquer de nouvelles lignes de paiement. Les remboursements calculés par le système ne peuvent être modifiés que par les utilisateurs disposant des autorisations de remplacement appropriées. Ces autorisations peuvent être configurées sur la page **Remplacer les autorisations** dans Retail et Commerce. Pour effectuer un remplacement de paiement de remboursement, l’utilisateur doit être lié à un rôle de sécurité où l’option **Autoriser un autre paiement** est définie sur **Oui** sur la page **Remplacer les autorisations**.
 
 ![Autoriser une autre option de paiement sur la page Remplacer les autorisations.](media/overridepermissions.png)
 

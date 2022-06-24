@@ -1,6 +1,6 @@
 ---
 title: Configurer l’interface d’exécution de l’atelier de production
-description: Cette rubrique décrit comment créer une ou plusieurs configurations pour l’interface d’exécution de l’atelier de production. Quand vous ouvrez l’interface d’exécution de l’atelier de production, elle charge automatiquement une configuration sélectionnée et un filtre de tâches spécifiques au navigateur et à l’appareil. Dans la configuration, vous définissez les stratégies qui doivent être applicables pour une utilisation spécifique.
+description: Cet article décrit comment créer une ou plusieurs configurations pour l’interface d’exécution de l’atelier de production. Quand vous ouvrez l’interface d’exécution de l’atelier de production, elle charge automatiquement une configuration sélectionnée et un filtre de tâches spécifiques au navigateur et à l’appareil. Dans la configuration, vous définissez les stratégies qui doivent être applicables pour une utilisation spécifique.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899409"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -31,15 +31,15 @@ Quand vous ouvrez l’interface d’exécution de l’atelier de production, ell
 - Sur un appareil situé dans le hall de l’entreprise, les employés pointent quand  ils entrent dans le bureau et quand  ils partent pour la journée.
 - Sur un appareil de l’atelier, les opérateurs de machines enregistrent quand  ils démarrent et terminent des tâches. Ils enregistrent également les pauses et les activités indirectes.
 
-Cette rubrique décrit les différentes options de configuration d’une interface d’exécution d’atelier de production pour chaque périphérique utilisé sur votre site.
+Cet article décrit les différentes options de configuration d’une interface d’exécution d’atelier de production pour chaque périphérique utilisé sur votre site.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Activez l’interface d’exécution de l’atelier de production et ses fonctionnalités optionnelles associées
 
-L’interface d’exécution de l’atelier de production elle-même, ainsi que plusieurs des paramètres facultatifs décrits dans cette rubrique, doivent être activés dans votre système avant de pouvoir les utiliser. Utilisez la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer tout ou partie des fonctionnalités décrites dans les sous-sections suivantes, le cas échéant.
+L’interface d’exécution de l’atelier de production elle-même, ainsi que plusieurs des paramètres facultatifs décrits dans cet article, doivent être activés dans votre système avant de pouvoir les utiliser. Utilisez la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer tout ou partie des fonctionnalités décrites dans les sous-sections suivantes, le cas échéant.
 
 ### <a name="the-production-floor-execution-interface"></a>Interface d’exécution de l’atelier de production
 
-Il s’agit de la fonctionnalité principale décrite dans cette rubrique et c’est un prérequis pour toutes les autres fonctionnalités mentionnées dans cette section. Depuis la version 10.0.25 de Supply Chain Management, elle est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Il s’agit de la fonctionnalité principale décrite dans cet article et c’est un prérequis pour toutes les autres fonctionnalités mentionnées dans cette section. Depuis la version 10.0.25 de Supply Chain Management, elle est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="generate-license-plates"></a>Générer des contenants
 
@@ -146,7 +146,7 @@ Cette fonctionnalité ajoute des paramètres pour les fonctionnalités suivantes
 - Activer les ajusteùents de consommation de matières à partir de la boîte de dialogue **Signaler la progression**. (Cette fonctionnalité nécessite également la fonctionnalité *Enregistrer la consommation de matériaux sur l’interface d’exécution de l’atelier de production (non WMS)*.)
 - Activer la recherche par ID de projet.
 
-Les informations sur l’utilisation des paramètres sont fournies plus tard dans cette rubrique.
+Les informations sur l’utilisation des paramètres sont fournies plus tard dans cet article.
 
 Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 

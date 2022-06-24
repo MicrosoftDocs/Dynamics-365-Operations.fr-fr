@@ -1,6 +1,6 @@
 ---
 title: Créer une commande fournisseur avec un plan de livraison
-description: Cette rubrique illustre comment créer un calendrier de livraison pour une commande fournisseur.
+description: Cet article illustre comment créer un calendrier de livraison pour une commande fournisseur.
 author: GalynaFedorova
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1475115b5c1a475f9a56f0f3eb8bb47267d2b91
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e13103f374be838a5ea0fb5e08c449b419905cab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875244"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Créer une commande fournisseur avec un plan de livraison
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique illustre comment créer un calendrier de livraison pour une commande fournisseur. Un plan de livraison est utilisé lorsqu’une quantité sur une commande ou un journal doit être livré dans le cadre de plusieurs expéditions. L’exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF. Cette procédure est généralement effectuée par un agent des achats.
+Cet article illustre comment créer un calendrier de livraison pour une commande fournisseur. Un plan de livraison est utilisé lorsqu’une quantité sur une commande ou un journal doit être livré dans le cadre de plusieurs expéditions. L’exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF. Cette procédure est généralement effectuée par un agent des achats.
 
 ## <a name="create-a-delivery-schedule"></a>Créer un plan de livraison
 1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur**.

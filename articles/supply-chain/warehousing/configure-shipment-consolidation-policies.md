@@ -1,6 +1,6 @@
 ---
 title: Configurer les stratégies de consolidation de l’expédition
-description: Cette rubrique explique comment configurer des stratégies de consolidation de l’expédition par défaut et personnalisées.
+description: Cet article explique comment configurer des stratégies de consolidation de l’expédition par défaut et personnalisées.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845922"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurer les stratégies de consolidation de l’expédition
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672568"
 
 Le processus de consolidation de l’expédition qui utilise des stratégies de consolidation permet une consolidation automatisée des expéditions lors du lancement automatique et manuel dans l’entrepôt. Après avoir activé cette fonctionnalité, vous devez configurer vos stratégies initiales. Si aucune stratégie n’est configurée, chaque ligne de vente générera une expédition distincte contenant une seule ligne de chargement.
 
-Les scénarios présentés dans cette rubrique montrent comment configurer des stratégies de consolidation d’expédition par défaut et personnalisées.
+Les scénarios présentés dans cet article montrent comment configurer des stratégies de consolidation d’expédition par défaut et personnalisées.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Activer la fonctionnalité Stratégie de consolidation de l’expédition
 
 > [!IMPORTANT]
-> Dans le [premier scénario](#scenario-1) décrit dans cette rubrique, vous allez d’abord configurer un entrepôt afin qu’il utilise la fonctionnalité de consolidation de l’expédition antérieure. Vous rendrez ensuite disponibles les stratégies de consolidation de l’expédition. De cette façon, vous pouvez découvrir le fonctionnement du scénario de mise à niveau. Si vous prévoyez d’utiliser un environnement de données de démonstration pour passer par le premier scénario, n’activez pas la fonctionnalité avant de réaliser le scénario.
+> Dans le [premier scénario](#scenario-1) décrit dans cet article, vous allez d’abord configurer un entrepôt afin qu’il utilise la fonctionnalité de consolidation de l’expédition antérieure. Vous rendrez ensuite disponibles les stratégies de consolidation de l’expédition. De cette façon, vous pouvez découvrir le fonctionnement du scénario de mise à niveau. Si vous prévoyez d’utiliser un environnement de données de démonstration pour passer par le premier scénario, n’activez pas la fonctionnalité avant de réaliser le scénario.
 
 Avant de pouvoir utiliser la fonctionnalité *Stratégies de consolidation de l’expédition*, vous devez l’activer dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
@@ -40,7 +40,7 @@ Avant de pouvoir utiliser la fonctionnalité *Stratégies de consolidation de l�
 
 ## <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Chaque scénario de cette rubrique fait référence aux valeurs et aux enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
+Chaque scénario de cet article fait référence aux valeurs et aux enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Scénario 1 : Configurer les stratégies de consolidation des expéditions par défaut
 
@@ -339,7 +339,7 @@ Maintenant que vous avez créé toutes vos stratégies, vous devez établir l’
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Exemples de scénarios d’utilisation des stratégies de consolidation de l’expédition
 
-Les scénarios suivants illustrent la façon dont vous pouvez utiliser les stratégies de consolidation de l’expédition créées lors de la lecture de cette rubrique. Chaque scénario vous guide tout au long du processus de consolidation de l’expédition qui utilise des stratégies de consolidation lors du lancement automatique ou manuel dans l’entrepôt :
+Les scénarios suivants illustrent la façon dont vous pouvez utiliser les stratégies de consolidation de l’expédition créées lors de la lecture de cet article. Chaque scénario vous guide tout au long du processus de consolidation de l’expédition qui utilise des stratégies de consolidation lors du lancement automatique ou manuel dans l’entrepôt :
 
 - Scénario 1 : [Consolider les expéditions lorsqu’elles sont transmises à l’entrepôt à l’aide de la procédure Lancement automatique des commandes client dans l’entrepôt](../warehousing/consolidate-shipments-automatic.md)
 - Scénario 2 : [Consolider les expéditions lorsque la stratégie de consolidation de l’expédition est remplacée à partir de la page Lancement dans l’entrepôt](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

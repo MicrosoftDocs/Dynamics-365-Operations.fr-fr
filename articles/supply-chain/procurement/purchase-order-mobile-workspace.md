@@ -1,6 +1,6 @@
 ---
-title: Espace de travail mobile Approbation des commandes fournisseur
-description: Cette rubrique fournit des informations sur l’espace de travail mobile Approbation des commandes fournisseur, qui permet d’afficher les commandes fournisseur et d’y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur.
+title: Espace de travail mobile d’approbation de commande fournisseur
+description: Cet article fournit des informations sur l’espace de travail mobile Approbation des commandes fournisseur, qui permet d’afficher les commandes fournisseur et d’y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b0bdcb2f6db95ae061e786365d22cdf74643d09e
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863851"
 ---
-# <a name="purchase-order-approval-mobile-workspace"></a>Espace de travail mobile Approbation des commandes fournisseur
+# <a name="purchase-order-approval-mobile-workspace"></a>Espace de travail mobile d’approbation de commande fournisseur
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Cette rubrique fournit des informations sur l’espace de travail mobile **Approbation des commandes fournisseur**. Cet espace de travail permet d’afficher les commandes fournisseur et d’y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur.
+Cet article fournit des informations sur l’espace de travail mobile **Approbation des commandes fournisseur**. Cet espace de travail permet d’afficher les commandes fournisseur et d’y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur.
  
 ## <a name="overview"></a>Vue d’ensemble 
 Les commandes fournisseur qui nécessitent une approbation passent par un workflow d’approbation. Le workflow peut inclure plusieurs étapes qui nécessitent qu’une ou plusieurs personnes effectuent des actions. Par exemple, une personne devra peut-être exécuter une tâche ou approuver la commande fournisseur. 

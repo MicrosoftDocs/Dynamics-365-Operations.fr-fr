@@ -1,6 +1,6 @@
 ---
 title: Personnaliser les titres d’étapes et les instructions pour l’application mobile Warehouse Management
-description: Cette rubrique explique comment créer et afficher des instructions personnalisées pour chaque étape de chaque flux de tâches que vous configurez pour l'application mobile Warehouse Management.
+description: Cet article explique comment créer et afficher des instructions personnalisées pour chaque étape de chaque flux de tâches que vous configurez pour l'application mobile Warehouse Management.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895494"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Personnaliser les titres d’étapes et les instructions pour l’application mobile Warehouse Management
 
 > [!IMPORTANT]
-> Les fonctionnalités décrites dans cette rubrique s'appliquent uniquement à la nouvelle application mobile Warehouse Management. Elles n'affectent pas l'ancienne application d'entrepôt, qui est désormais obsolète.
+> Les fonctionnalités décrites dans cet article s’appliquent uniquement à la nouvelle application mobile Warehouse Management. Elles n'affectent pas l'ancienne application d'entrepôt, qui est désormais obsolète.
 
-Cette rubrique explique comment créer et afficher des instructions personnalisées pour chaque étape de chaque flux de tâches que vous configurez pour l'application mobile Warehouse Management. Lorsque les magasiniers reçoivent des instructions bien écrites, ils peuvent immédiatement commencer à utiliser de nouveaux flux sans avoir besoin de formation préalable. Cette fonctionnalité offre les avantages suivants :
+Cet article explique comment créer et afficher des instructions personnalisées pour chaque étape de chaque flux de tâches que vous configurez pour l'application mobile Warehouse Management. Lorsque les magasiniers reçoivent des instructions bien écrites, ils peuvent immédiatement commencer à utiliser de nouveaux flux sans avoir besoin de formation préalable. Cette fonctionnalité offre les avantages suivants :
 
 - **Améliorer l'efficacité des travailleurs plus rapidement en leur permettant de suivre des instructions simples pour chaque étape de la tâche.** Chaque étape d'un flux fournit des instructions qui permettent aux travailleurs de première ligne de comprendre la tâche.
 - **Fournir des instructions qui correspondent à vos propres processus.** Rédigez vos propres instructions pour qu'elles correspondent aux processus de votre entreprise et de votre entrepôt. Par exemple, vous pouvez adapter la terminologie à votre espace physique et aux abréviations locales.
