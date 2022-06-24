@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des souches de numéros sur une base individuelle
-description: Cette rubrique explique comment paramétrer des souches de numéros sur une base individuelle.
+description: Cet article explique comment paramétrer des souches de numéros sur une base individuelle.
 author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 7be72d348957c5c6494958276b2baa9c67d63c58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904986"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Paramétrer des souches de numéros sur une base individuelle
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer des souches de numéros sur une base individuelle. Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé référence. Avant de pouvoir créer des enregistrements pour une référence, vous devez paramétrer une souche de numéros et l’associer à la référence. Vous pouvez paramétrer toutes les souches de numéros requises à l’aide de l’Assistant **Définir des souches de numéros**, ou vous pouvez créer ou modifier des souches de numéros individuelles à l’aide de la page **Souches de numéros**.
+Cet article explique comment paramétrer des souches de numéros sur une base individuelle. Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé référence. Avant de pouvoir créer des enregistrements pour une référence, vous devez paramétrer une souche de numéros et l’associer à la référence. Vous pouvez paramétrer toutes les souches de numéros requises à l’aide de l’Assistant **Définir des souches de numéros**, ou vous pouvez créer ou modifier des souches de numéros individuelles à l’aide de la page **Souches de numéros**.
 
 1. Allez dans **Volet de navigation > Modules > Administration d’organisation > Souches de numéros > Souches de numéros**.
 2. Sélectionnez **Souche de numéros**.

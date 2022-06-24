@@ -1,6 +1,6 @@
 ---
 title: Droits d’accès pour les contrôleurs d’objet de coût
-description: Cette rubrique fournit des informations sur les droits d’accès pour les contrôleurs d’objet de coût.
+description: Cet article fournit des informations sur les droits d’accès pour les contrôleurs d’objet de coût.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903187"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Droits d’accès pour les contrôleurs d’objet de coût
 
@@ -38,7 +38,7 @@ Il existe quatre rôles uniques dans le contrôle de gestion.
 | Commis contrôleur de gestion   | Operations   |
 | Contrôleur d’objet de coût  | Membres de l’équipe |
 
-Cette rubrique explique comment affecter le rôle **Contrôleur d’objet de coût** à un responsable.
+Cet article explique comment affecter le rôle **Contrôleur d’objet de coût** à un responsable.
 
 Lorsque le rôle **Contrôleur d’objet de coût** est affecté à un responsable, le responsable peut effectuer les tâches suivantes :
 
@@ -95,7 +95,7 @@ Les paramètres de la hiérarchie de la liste d’accès sont utilisés pour con
 
 > [!IMPORTANT]
 > - Avant que la hiérarchie de la liste d’accès puisse affecter des données Power BI, la hiérarchie de la liste d’accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d’informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Cette rubrique affiche les paramétrages qui doivent être effectués pour utiliser l’espace de travail **Contrôle des coûts**.
+> - Cet article affiche les paramétrages qui doivent être effectués pour utiliser l’espace de travail **Contrôle des coûts**.
 
 Ressources supplémentaires
 

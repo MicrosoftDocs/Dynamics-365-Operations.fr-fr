@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des fournisseurs, des clients et des articles pour le commerce intersociétés
-description: Cette rubrique explique comment paramétrer des fournisseurs, des clients et des articles pour le commerce intersociétés
+description: Cet article explique comment paramétrer des fournisseurs, des clients et des articles pour le commerce intersociétés
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3e1eb7b8673f3af682204b65b33a1d8b61742721
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c928435a4e66832b09dbc805664934cfb1236be
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675035"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945753"
 ---
 # <a name="set-up-vendors-customers-and-items-for-intercompany-trade"></a>Paramétrer des fournisseurs, des clients et des articles pour le commerce intersociétés
 
@@ -33,13 +33,14 @@ Pour préparer votre organisation pour le commerce intersociétés, vous devez d
 1. Allez dans **Comptabilité client \> Clients \> Tous les clients**.
 1. Sélectionnez le client à définir comme client intersociétés.
 1. Dans le volet Actions, sous l’onglet **Général**, sélectionnez **Intersociétés**.
-1. Spécifiez les paramètres de paramétrage intersociétés pour le compte client. Ces paramètres incluent le compte et l'entité juridique du fournisseur, les stratégies de commande fournisseur, les stratégies de commande client, la mise en correspondance des valeurs et les stratégies pour les contrats d'achat et les contrats de vente. Vous spécifiez également s'il faut utiliser les valeurs de données de base du compte client ou du compte fournisseur dans l'autre entité juridique.
-1. Sur la page **Clients**, dans le raccourci **Facture et livraison**, sélectionnez la case **Créer des commandes intersociétés**. Pour que les commandes soient livrées directement aux clients, activez la case à cocher **Livraison directe**.
+1. Spécifiez les paramètres de paramétrage intersociétés pour le compte client. Ces paramètres incluent le compte et l'entité juridique du fournisseur, les stratégies de commande fournisseur, les stratégies de commande client, la mise en correspondance des valeurs et les stratégies pour les contrats d'achat et les contrats de vente. Vous spécifiez également s’il faut utiliser les valeurs de données de base du compte client ou du compte fournisseur dans l’autre entité juridique.
+1. Lorsque vous avez terminé de configurer les paramètres intersociétés, fermez la page **Intersociétés** pour revenir aux détails du client sélectionné.
+1. Développez le raccourci **Détails divers** et définissez **Créer des commandes intersociétés** sur *Oui*. Pour que les commandes soient également livrées directement aux clients, définissez **Livraison directe** sur *Oui*.
 
     > [!NOTE]
-    > Si certains articles sont stockés et livrés aux clients par votre organisation, vous risquez de ne pas pouvoir créer de commandes intersociétés automatiquement, même si vous avez l'article en stock. Pour désactiver la génération automatique des commandes pour les articles que vous pouvez parfois avoir en stock, désactivez la case à cocher **Créer des commandes intersociétés**.
+    > Si certains articles sont stockés et livrés aux clients par votre organisation, vous risquez de ne pas pouvoir créer de commandes intersociétés automatiquement, même si vous avez l'article en stock. Pour désactiver la génération automatique des commandes pour les articles que vous pouvez parfois avoir en stock, définissez **Créer des commandes intersociétés** sur *Non*.
 
-1. Si vous voulez autoriser la création indirecte de lignes supplémentaires sur une commande client, activez la case à cocher **Créer des lignes de commande indirecte**. Un utilisateur peut ensuite ajouter des lignes à la commande client originale à partir de la commande client intersociétés.
+1. Si vous voulez autoriser la création indirecte de lignes supplémentaires sur une commande client, définissez **Créer des lignes de commande indirecte** sur *Oui*. Un utilisateur peut ensuite ajouter des lignes à la commande client originale à partir de la commande client intersociétés.
 
 > [!WARNING]
 > Si vous autorisez la création indirecte des lignes de commande, vous autorisez tous les ajouts à la commande client originale à partir de la commande client intersociétés. Chaque ajout est alors traité en direction du client, et ajouté à la commande et à la facture. En outre, chaque document impliqué dans la vente est imprimé et validé automatiquement. Les utilisateurs ne sont pas avertis de l'ajout.

@@ -1,6 +1,6 @@
 ---
 title: Réévaluer une devise pour la comptabilité fournisseur et la comptabilité client
-description: Cette rubrique fournit des informations sur le processus de réévaluation des comptes en devises que vous exécutez pour mettre à jour la valeur des transactions en cours dans Comptabilité fournisseur et Comptabilité client.
+description: Cet article fournit des informations sur le processus de réévaluation des comptes en devises que vous exécutez pour mettre à jour la valeur des transactions en cours dans Comptabilité fournisseur et Comptabilité client.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906382"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Réévaluer une devise pour la comptabilité fournisseur et la comptabilité client
 
 [!include [banner](../includes/banner.md)]
 
-Des fluctuations des taux de change entraînent une variation de la valeur théorique (valeur comptable) des transactions en cours en devises étrangères avec le temps. Cette rubrique fournit des informations sur le processus de réévaluation des comptes en devises que vous exécutez pour mettre à jour la valeur des transactions en cours dans Comptabilité fournisseur et Comptabilité client. 
+Des fluctuations des taux de change entraînent une variation de la valeur théorique (valeur comptable) des transactions en cours en devises étrangères avec le temps. Cet article fournit des informations sur le processus de réévaluation des comptes en devises que vous exécutez pour mettre à jour la valeur des transactions en cours dans Comptabilité fournisseur et Comptabilité client. 
 
 La valeur théorique (valeur comptable) des transactions fournisseur en cours en devises étrangères varie avec le temps en raison des fluctuations des taux de change. Pour mettre à jour la valeur des transactions en cours dans Ventes et Achats, exécutez le processus de réévaluation des comptes en devises. La réévaluation des comptes en devises peut être exécutée à la fois pour les Achats et les Ventes. Le processus utilise un nouveau taux de change pour réévaluer les montants en cours, ou les montants non réglés, à une date particulière. Les différences entre les montants d’origine validés et les montants réévalués entraîneront un profit/une perte non réalisé(e) pour chaque transaction en cours. Les comptabilités auxiliaires Achats et Ventes sont alors mises à jour pour refléter le profit/la perte non réalisé(e), et une écriture comptable est validée dans la comptabilité.
 
@@ -55,7 +55,7 @@ Un enregistrement est conservé chaque fois que vous exécutez la tâche périod
     -   **Validation** – Le profil de validation de la transaction client est utilisé.
     -   **Sélection** – Permet de saisir le profil de validation dans le champ **Profil de validation**.
 -   **Profil de validation** – Si l’option **Sélection** est choisie dans le champ **Origine du profil de validation**, le profil de validation des transactions de réévaluation des comptes en devises est déterminé par le profil de validation de ce champ.
--   **Dimensions financières** – Les dimensions financières validées sur les écritures comptables des transactions de réévaluation des comptes en devises. Les dimensions financières ne sont pas validées par rapport aux règles de la structure de compte. La structure de compte qui était en place au moment où les factures ont été validées peut ne pas être la même que les règles qui étaient en place lorsque la réévaluation a été terminée. Il n'y a pas d'option pour sélectionner des dimensions financières spécifiques dans le processus de réévaluation, de sorte que la validation de la structure du compte est ignorée.  
+-   **Dimensions financières** – Les dimensions financières validées sur les écritures comptables des transactions de réévaluation des comptes en devises. Les dimensions financières ne sont pas validées par rapport aux règles de la structure de compte. La structure de compte qui était en place au moment où les factures ont été validées peut ne pas être la même que les règles qui étaient en place lorsque la réévaluation a été terminée. Il n’y a pas d’option pour sélectionner des dimensions financières spécifiques dans le processus de réévaluation, de sorte que la validation de la structure du compte est ignorée.  
     -   **Aucune** – Aucune dimension financière n’est validée. Si vous avez une dimension financière requise dans votre structure de compte, le processus de réévaluation est toujours exécuté et crée les écritures comptables sans dimension financière. Vous recevrez tout d’abord un message d’avertissement, afin de pouvoir annuler la réévaluation.
     -   **Table** – Les dimensions financières du compte client ou fournisseur sont validées pour les transactions de réévaluation des comptes en devises.
     -   **Validation** – Les dimensions financières de la transaction en cours de réévaluation sont validées pour les transactions de réévaluation des comptes en devises. Par défaut, les dimensions financières du compte général Achats/Ventes de la transaction d’origine sont utilisées pour le compte principal Achats/Ventes de la transaction de réévaluation, et les dimensions financières du compte général Dépense/Actif/Résultat de la transaction d’origine sont utilisées pour le compte principal du profit/perte non réalisé(e) de la transaction de réévaluation.

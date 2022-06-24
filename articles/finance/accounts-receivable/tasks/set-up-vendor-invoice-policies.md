@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des stratégies de facture fournisseur
-description: Cette rubrique explique comment paramétrer des politiques de facturation fournisseur.
+description: Cet article explique comment paramétrer des politiques de facturation fournisseur.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904728"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Paramétrer des stratégies de facture fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer des politiques de facturation fournisseur. Les stratégies de facture fournisseur sont exécutées lorsque vous validez une **facture fournisseur** à l’aide de la page Facture fournisseur et lorsque vous ouvrez la page **Violations de stratégie** de la facture fournisseur. Vous pouvez également configurer le workflow de facture fournisseur de manière à exécuter des stratégies de facture fournisseur chaque fois que vous envoyez une facture dans le workflow. 
+Cet article explique comment paramétrer des politiques de facturation fournisseur. Les stratégies de facture fournisseur sont exécutées lorsque vous validez une **facture fournisseur** à l’aide de la page Facture fournisseur et lorsque vous ouvrez la page **Violations de stratégie** de la facture fournisseur. Vous pouvez également configurer le workflow de facture fournisseur de manière à exécuter des stratégies de facture fournisseur chaque fois que vous envoyez une facture dans le workflow. 
 
 - Les stratégies de facture fournisseur ne s’appliquent pas aux factures créées dans le registre des factures ou dans le journal des factures.  
 - Le contrôle du rapprochement de factures ne fait pas appel aux stratégies de facture fournisseur. Au lieu de cela, il est paramétré sur la page **Paramètres de la comptabilité fournisseur**.  

@@ -1,6 +1,6 @@
 ---
 title: Configurer l’expérience d’aide pour les applications Finances et Opérations
-description: Cette rubrique fournit des informations sur les composants du système d’aide pour certaines applications Microsoft Dynamics 365.
+description: Cet article fournit des informations sur les composants du système d’aide pour certaines applications Microsoft Dynamics 365.
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071006"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900127"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurer l’expérience d’aide pour les applications Finances et Opérations
 
@@ -29,7 +29,7 @@ ms.locfileid: "8071006"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Dans cette rubrique, vous trouverez un aperçu des composants du système d’aide pour des applications Finances et Opérations, telles que Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management Dynamics 365 Commerce et Dynamics 365 Human Resources. Elle explique également comment connecter ces composants et fournit un résumé du processus de création d’une aide personnalisée.
+Dans cet article, vous trouverez un aperçu des composants du système d’aide pour des applications Finances et Opérations, telles que Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management Dynamics 365 Commerce et Dynamics 365 Human Resources. L’article explique également comment connecter ces composants et fournit un résumé du processus de création d’une aide personnalisée.
 
 ## <a name="help-architecture"></a>Architecture de l’aide
 

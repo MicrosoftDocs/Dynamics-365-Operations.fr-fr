@@ -1,6 +1,6 @@
 ---
 title: Lancement automatique de l’expédition pour le cross-docking
-description: Cette rubrique décrit une stratégie de cross-docking qui vous permet de lancer automatiquement un ordre de demande à l’entrepôt lorsque l’ordre de fabrication qui fournit la quantité de la demande est déclaré terminé, de sorte que la quantité soit déplacée directement depuis l’emplacement de sortie de production à l’emplacement sortant.
+description: Cet article décrit une stratégie de cross-docking qui vous permet de lancer automatiquement un ordre de demande à l’entrepôt lorsque l’ordre de fabrication qui fournit la quantité de la demande est déclaré terminé, de sorte que la quantité soit déplacée directement depuis l’emplacement de sortie de production à l’emplacement sortant.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903780"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Lancement automatique de l’expédition pour le cross-docking
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit une stratégie de cross-docking qui vous permet de lancer automatiquement un ordre de demande à l’entrepôt lorsque l’ordre de fabrication qui fournit la quantité de la demande est déclaré terminé. De cette manière, la quantité requise pour l’achèvement de l’ordre de demande est déplacée directement entre l’emplacement de sortie de production et l’emplacement sortant.
+Cet article décrit une stratégie de cross-docking qui vous permet de lancer automatiquement un ordre de demande à l’entrepôt lorsque l’ordre de fabrication qui fournit la quantité de la demande est déclaré terminé. De cette manière, la quantité requise pour l’achèvement de l’ordre de demande est déplacée directement entre l’emplacement de sortie de production et l’emplacement sortant.
 
 Le cross-docking est un flux de gestion de l’entrepôt de gestion dans lequel la quantité requise pour achever un ordre de sortie est dirigée vers la zone du quai de débarquement ou de l’échelonnement de l’ordre de l’emplacement où l’ordre entrant a été reçu. (L’ordre entrant peut être une commande fournisseur, un ordre de transfert, ou un ordre de fabrication.) Bien que la fonctionnalité de cross-docking avancé prenne en charge toutes commandes d’approvisionnement et de demande, ce qui nécessite que la demande sortante soit lancée avant que l’opportunité de cross-docking soit identifiée, la fonctionnalité de lancement d’expédition automatique a les spécifications suivantes :
 

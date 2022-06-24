@@ -1,6 +1,6 @@
 ---
 title: Détails de la paie pour les postes
-description: Cette rubrique fournit des détails et un exemple de requête pour l’entité Détails de la paie pour les postes dans Dynamics 365 Human Resources.
+description: Cet article fournit des détails et un exemple de requête pour l’entité Détails de la paie pour les postes dans Dynamics 365 Human Resources.
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bbb234d2f51391ea65e3d6153d6cee250f3c6dc
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ac36b0386312e1631528b8ab5976db2cb3924caf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904128"
 ---
 # <a name="payroll-position"></a>Poste de paie
 
@@ -27,11 +27,11 @@ ms.locfileid: "8069805"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit l’entité de postes de paie dans Dynamics 365 Human Resources.
+Cet article décrit l’entité de postes de paie dans Dynamics 365 Human Resources.
 
 Nom physique : mshr_payrollpositionentity.
 
-### <a name="description"></a>Description 
+### <a name="description"></a>Description
 
 Cette entité fournit des informations liées au poste pour un employé donné.
 
@@ -52,7 +52,7 @@ Nom physique : mshr_payrollpositionentity.
 
 ## <a name="relations"></a>Relations
 
-| Valeur de propriété  | Entité liée | Propriété de navigation | Type de collection |
+| Valeur de propriété | Entité liée | Propriété de navigation | Type de collection |
 | --- | --- | --- | --- |
 | _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
 | _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | Non applicable |

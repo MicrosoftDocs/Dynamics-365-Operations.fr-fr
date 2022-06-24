@@ -1,6 +1,6 @@
 ---
 title: Utiliser les prédictions de paiement des clients
-description: Cette rubrique décrit les conditions préalables et les étapes générales requises pour utiliser une version d’essai de Informations financières.
+description: Cet article décrit les conditions préalables et les étapes générales requises pour utiliser une version d’essai de Finance Insights.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901400"
 ---
 # <a name="use-customer-payment-predictions"></a>Utiliser les prédictions de paiement des clients
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment utiliser les prédictions de paiement du client. Avant d’utiliser cette fonctionnalité, assurez-vous que vous avez terminé les étapes de configuration correspondantes. Pour plus d’informations, voir [Activer les prédictions de paiement client](enable-cust-paymnt-prediction.md).
+Cet article explique comment utiliser les prédictions de paiement du client. Avant d’utiliser cette fonctionnalité, assurez-vous que vous avez terminé les étapes de configuration correspondantes. Pour plus d’informations, voir [Activer les prédictions de paiement client](enable-cust-paymnt-prediction.md).
 
 Vous pouvez afficher les prévisions de paiement des clients dans l’espace de travail **Gérer le crédit client et les recouvrements** et sur deux nouvelles pages de liste : **Prédictions de paiement par transaction** et **Prédictions de paiement par client**.
 

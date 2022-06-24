@@ -1,8 +1,8 @@
 ---
 title: Déclaration de TVA (Belgique)
-description: Cette rubrique fournit des informations sur la déclaration de TVA pour la Belgique.
+description: Cet article fournit des informations sur la déclaration de TVA pour la Belgique.
 author: anasyash
-ms.date: 05/27/2022
+ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,19 @@ ms.search.region: Belgium
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 051aa0bdfee435a4d8ccdd79f7c62a22c1100ab8
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 5a16493e56c306e1abd3880b73a336da536249ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904308"
 ---
 # <a name="vat-declaration-belgium"></a>Déclaration de TVA (Belgique)
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique décrit comment configurer la déclaration de taxe sur la valeur ajoutée (TVA) pour la Belgique au format XML et comment afficher l’aperçu de la déclaration de TVA et des transactions de vente et d’achat dans Microsoft Excel.
+Cet article décrit comment configurer la déclaration de taxe sur la valeur ajoutée (TVA) pour la Belgique au format XML et comment afficher l’aperçu de la déclaration de TVA et des transactions de vente et d’achat dans Microsoft Excel.
 
 Pour générer automatiquement les rapports, commencez par créer suffisamment de codes de taxe afin de conserver une comptabilité TVA distincte pour chaque case de la déclaration de TVA. De plus, dans les paramètres spécifiques à l’application du format de gestion des états électroniques (ER) pour la déclaration de TVA, vous devez associer des codes de taxe avec le résultat des recherches des cases de déclaration de TVA.
 
@@ -35,7 +35,7 @@ Pour la Belgique, vous devez configurer les éléments suivants :
 - Nature
 - Avances concernant les acquisitions intracommunautaires
 
-Pour plus d’informations sur la configuration des paramètres spécifiques à l’application, consultez la section [Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA](#set-up-application-specific-parameters-for-vat-declaration-fields) plus loin dans cette rubrique.
+Pour plus d’informations sur la configuration des paramètres spécifiques à l’application, consultez la section [Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA](#set-up-application-specific-parameters-for-vat-declaration-fields) plus loin dans cet article.
 
 Dans les tableaux suivants, la colonne « Résultat de la recherche » affiche le résultat de la recherche préconfiguré pour une ligne de déclaration de TVA spécifique dans le format de déclaration de TVA. Utilisez ces informations pour associer correctement les codes de taxe avec le résultat de la recherche, puis avec la ligne de déclaration de TVA.
 
@@ -124,7 +124,7 @@ Vous pouvez utiliser le tableau suivant pour déterminer comment un résultat de
 |--------------|-----|---------------|
 | TVA réelle due pour la période du 1er décembre au 20 décembre dans la déclaration mensuelle, ou pour la période du 1er octobre au 20 décembre dans la déclaration trimestrielle | 91  | Le paramètre d’entrée **91 Montant du dépôt à payer en décembre** dans la boîte de dialogue utilisateur |
 
-### <a name="purchase-reverse-charge-vat"></a>Taxe au preneur Achat
+## <a name="purchase-reverse-charge-vat"></a>Taxe au preneur Achat
 
 Si vous configurez des codes de taxe pour valider la taxe au preneur entrante en utilisant la taxe d’utilisation, associez vos codes de taxe avec le résultat de la recherche **Recherche de champ d’état** qui contient « UseTax » dans le nom.
 
@@ -146,7 +146,7 @@ Dans ce cas, les montants qui utilisent le code taxe **VAT_S_EU** sont repris da
 
 Pour plus d’informations sur la configuration de la taxe au preneur, consultez [Taxes au preneur](emea-reverse-charge.md).
 
-### <a name="credit-notes-and-negative-corrections"></a>Notes de crédit et corrections négatives
+## <a name="credit-notes-and-negative-corrections"></a>Notes de crédit et corrections négatives
 
 En Belgique, les montants des notes de crédit et des corrections négatives sont indiqués dans des cases séparées sur la déclaration de TVA. Par conséquent, dans les tableaux précédents, des résultats de recherche spécifiques pour **Recherche de champ de rapport** sont dédiés aux notes de crédit et aux corrections négatives.
 
@@ -195,7 +195,9 @@ Les exemples suivants montrent à quoi ressemblent ces états pour les exemples 
 | Facture 2       | 1,000.00 | 210.00 | 00h00  | 00h00  |
 | Avoir 2   | \-400.00 | 00h00  | 400,00 | 84.00  |
 
-## <a name="configure-system-parameters"></a>Configuration des paramètres système
+## <a name="set-up-a-vat-declaration-for-belgium"></a>Paramétrer une déclaration de TVA pour la Belgique
+
+### <a name="configure-system-parameters"></a>Configuration des paramètres système
 
 Pour générer une déclaration de TVA, vous devez configurer le numéro fiscal de l’entreprise.
 
@@ -207,8 +209,6 @@ Pour générer une déclaration de TVA, vous devez configurer le numéro fiscal 
 6. Sur l’onglet **Général**, dans le champ **Date d’effet**, entrez la date à laquelle le numéro entre en vigueur.
 
 Pour plus d’informations sur la configuration des catégories d’inscription et des types d’inscription, voir [Identifiants d’enregistrement](emea-registration-ids.md).
-
-## <a name="set-up-a-vat-declaration-for-belgium"></a>Paramétrer une déclaration de TVA pour la Belgique
 
 ### <a name="import-er-configurations"></a>Importer les configurations ER
 
@@ -236,7 +236,7 @@ Suivez ces étapes pour définir quels codes de taxe génèrent quelles cases su
 
     | Champ     | Description   |
     |-----------|---------------|
-    | Résultat de la recherche  | Sélectionnez la valeur du champ d’état. Pour plus d’informations sur les valeurs et leur affectation aux lignes de déclaration de TVA, consultez la section [Vue d’ensemble de la déclaration de TVA](#vat-declaration-overview) plus haut dans cette rubrique.  |
+    | Résultat de la recherche  | Sélectionnez la valeur du champ d’état. Pour plus d’informations sur les valeurs et leur affectation aux lignes de déclaration de TVA, consultez la section [Vue d’ensemble de la déclaration de TVA](#vat-declaration-overview) plus haut dans cet article.  |
     | Code de taxe   | Sélectionnez le code de taxe à associer au champ d’état. Les transactions de taxe validées qui utilisent le code de taxe sélectionné seront collectées dans la case de déclaration appropriée. Nous vous recommandons de séparer les codes de taxe de telle sorte qu’un code de taxe ne génère des montants que dans une seule case de déclaration. |
     | Classifieur de transactions | Sélectionnez un classifieur de transaction. Les classifieurs de transactions suivants sont disponibles : </br> - **Achat** (taxe déductible) </br> - **PurchaseExempt** (achat exonéré de taxe)  </br>- **PurchaseReverseCharge** (taxe déductible provenant d’une taxe au preneur sur achat)  </br> - **Vente** (taxe exigible) </br> -  **SalesExempt** (vente exonérée de taxe) </br>- **SalesReverseCharge** (taxe exigible provenant d’une taxe au preneur sur achat ou vente) </br>- **Utiliser la taxe** (utiliser la taxe) </br> Pour chaque classifieur de transaction, un classifieur pour l’avoir est également disponible. Par exemple, l’un de ces classifieurs est **PurchaseCreditNote** (avoir sur achat). Assurez-vous de créer deux lignes pour chaque code de : une avec la valeur du classifieur de transaction et une avec le classifieur de transaction pour la valeur de l’avoir.  |
 
@@ -432,7 +432,7 @@ Le package de données contient des paramètres de message électronique utilis�
 
 ## <a name="generate-a-vat-declaration-incoming-operations-and-outgoing-operations-from-electronic-messages"></a>Générer une déclaration de TVA, des opérations entrantes et des opérations sortantes à partir de messages électroniques
 
-Lorsque vous utilisez des messages électroniques pour générer l’état, vous pouvez collecter les données fiscales auprès de plusieurs entités juridiques. Pour plus d’informations, consultez la section [Exécuter une déclaration de TVA pour plusieurs entités juridiques](#run-a-vat-declaration-for-multiple-legal-entities) plus loin dans cette rubrique.
+Lorsque vous utilisez des messages électroniques pour générer l’état, vous pouvez collecter les données fiscales auprès de plusieurs entités juridiques. Pour plus d’informations, consultez la section [Exécuter une déclaration de TVA pour plusieurs entités juridiques](#run-a-vat-declaration-for-multiple-legal-entities) plus loin dans cet article.
 
 La procédure suivante s’applique à l’exemple de traitement de message électronique que vous avez importé précédemment à partir de la bibliothèque d’actifs partagés LCS.
 
@@ -444,12 +444,12 @@ La procédure suivante s’applique à l’exemple de traitement de message éle
 > [!NOTE]
 > Les étapes 5 à 7 sont facultatives.
 
-5. Facultatif : Dans le raccourci **Messages**, sélectionnez **Collecter des données**, puis cliquez sur **OK**. Les paiements de taxe qui ont été générés précédemment sont ajoutés au message. Pour plus d’informations, voir la section [Régler et valider la taxe](#settle-and-post-sales-tax) plus haut dans cette rubrique. Si vous ignorez cette étape, vous pouvez toujours générer une déclaration de TVA en utilisant le champ **Version de la déclaration fiscale** dans la boîte de dialogue **Déclaration**.
+5. Facultatif : Dans le raccourci **Messages**, sélectionnez **Collecter des données**, puis cliquez sur **OK**. Les paiements de taxe qui ont été générés précédemment sont ajoutés au message. Pour plus d’informations, voir la section [Régler et valider la taxe](#settle-and-post-sales-tax) plus haut dans cet article. Si vous ignorez cette étape, vous pouvez toujours générer une déclaration de TVA en utilisant le champ **Version de la déclaration fiscale** dans la boîte de dialogue **Déclaration**.
 6. Facultatif : Dans le raccourci **Éléments du message**, passez en revue les paiements de taxe qui sont transférés pour traitement. Par défaut, tous les paiements de taxe de la période sélectionnée qui n’étaient inclus dans aucun autre message du même traitement sont inclus.
 7. Facultatif : Sélectionnez **Document d’origine** pour examiner les paiements de taxe, ou sélectionnez **Supprimer** pour exclure les paiements de taxe du traitement. Si vous ignorez cette étape, vous pouvez toujours générer une déclaration de TVA en utilisant le champ **Version de la déclaration fiscale** dans la boîte de dialogue **Déclaration**.
 8. Dans le raccourci **Messages**, sélectionnez **Mettre à jour le statut**. Dans la boîte de dialogue **Mettre à jour le statut**, sélectionnez **Prêt à générer**, puis cliquez sur **OK**. Vérifiez que l’état du message est modifié en **Prêt à générer**.
 9. Sélectionnez **Générer l’état**. Pour prévisualiser les montants de la déclaration de TVA, dans la boîte de dialogue **Exécuter le traitement**, sélectionnez **Aperçu de l’état**, puis cliquez sur **OK**.
-10. Dans la boîte de dialogue **Paramètres de gestion des états électroniques**, définissez les champs comme décrit dans la section [Aperçu de la déclaration de TVA dans Excel à partir de la tâche périodique État de la taxe pour la période de règlement](#preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task) plus haut dans cette rubrique, puis sélectionnez **OK**.
+10. Dans la boîte de dialogue **Paramètres de gestion des états électroniques**, définissez les champs comme décrit dans la section [Aperçu de la déclaration de TVA dans Excel à partir de la tâche périodique État de la taxe pour la période de règlement](#preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task) plus haut dans cet article, puis sélectionnez **OK**.
 11. Cliquez sur le bouton **Pièces jointes** (le symbole du trombone) dans l’angle supérieur droit de la page, puis sélectionnez **Ouvrir** pour ouvrir le fichier. Vérifiez les montants dans les documents Excel.
 12. Sélectionnez **Générer l’état**.
 13. Pour générer un état au format XML, dans la boîte de dialogue **Exécuter le traitement**, sélectionnez **Générer l’état**, puis cliquez sur **OK**.
@@ -508,7 +508,7 @@ Cette section fournit des recommandations sur la façon de migrer votre configur
 > [!NOTE]
 > Dans les exemples qui suivent, le même code de taxe de vente est utilisé pour différents types de transactions : ventes intérieures, ventes intracommunautaires, achats intérieurs, achats intracommunautaires, etc. Cette approche n’a été utilisée qu’à des fins d’illustration. Pour faciliter le rapprochement de vos taxes, nous vous recommandons de créer autant de codes de taxe de vente que possible, afin que chaque code de taxe de vente puisse identifier de manière unique un type de transaction spécifique. Ensuite, lors d’un audit fiscal, vous pourrez expliquer la source de chaque transaction en fonction du code de taxe et vous n’aurez à utiliser que des états de rapprochement de taxe de vente standard.
 > 
-> De plus, dans les exemples, toutes les transactions de taxe négative sont configurées de manière à être considérées comme des avoirs. Cette approche a aussi été utilisée uniquement à des fins d’illustration. Pour configurer les paramètres corrects, vous devez tenir compte des informations contenues dans la section [Notes de crédit et corrections négatives](#credit-notes-and-negative-corrections-1) plus haut dans cette rubrique.
+> De plus, dans les exemples, toutes les transactions de taxe négative sont configurées de manière à être considérées comme des avoirs. Cette approche a aussi été utilisée uniquement à des fins d’illustration. Pour configurer les paramètres corrects, vous devez tenir compte des informations contenues dans la section [Notes de crédit et corrections négatives](#credit-notes-and-negative-corrections-1) plus haut dans cet article.
 
 Les tableaux de cette section utilisent les abréviations suivantes :
 
@@ -685,7 +685,7 @@ Dans ce cas, les paramètres spécifiques à l’application suivants peuvent ê
 
 ## <a name="examples-of-posting-and-reporting"></a>Exemples de validation et de génération d’états
 
-Les exemples de cette section sont fournis pour la configuration des paramètres spécifiques à l’application pour la section [Biens et services commerciaux à un tarif standard](#commercial-goods-and-services-at-a-standard-rate) plus haut dans cette rubrique.
+Les exemples de cette section sont fournis pour la configuration des paramètres spécifiques à l’application pour la section [Biens et services commerciaux à un tarif standard](#commercial-goods-and-services-at-a-standard-rate) plus haut dans cet article.
 
 ### <a name="example-1-sale-in-belgium"></a>Exemple 1 : Vente en Belgique
 

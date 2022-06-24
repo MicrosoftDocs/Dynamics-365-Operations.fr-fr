@@ -1,6 +1,6 @@
 ---
 title: Générer les états financiers
-description: Cette rubrique fournit des informations sur la génération d’un état financier.
+description: Cet article fournit des informations sur la génération d’un état financier.
 author: jinniew
 ms.date: 02/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898825"
 ---
 # <a name="generate-financial-reports"></a>Générer les états financiers
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la génération d’un état financier.
+Cet article fournit des informations sur la génération d’un état financier.
 
 Pour générer un état, ouvrez la définition d’état, puis dans la barre d’outils, sélectionnez **Générer**. La page **État de la file d’attente d’états** s’ouvre et indique l’emplacement de votre état dans la file d’attente.
 
@@ -34,8 +34,8 @@ Au fur et à mesure que la génération du rapport progresse, les indicateurs d�
 
 | Statut          | Région | Description|
 |-----------------|--------|--------------------|
-| Mise en file d'attente        | Provisoire |La définition du rapport est validée avant que le rapport ne soit placé dans la file d’attente de génération.                    |
-| Mis en file d'attente          | Provisoire | Le rapport entre dans la file d’attente de génération de rapports et attend d’être traité.                      |
+| Mise en file d’attente        | Provisoire |La définition du rapport est validée avant que le rapport ne soit placé dans la file d’attente de génération.                    |
+| Mis en file d’attente          | Provisoire | Le rapport entre dans la file d’attente de génération de rapports et attend d’être traité.                      |
 | Traitement en cours      | Provisoire | Ce statut suit généralement le statut **En file d’attente** et passe généralement à un état **Final** lorsque le traitement est terminé.       |
 | Post-traitement | Provisoire | Ce statut fait suite à le statut **Traitement** et indique que toutes les données du rapport sont collectées, mais que des actions dérivées, telles que le calcul et le cumul, sont en cours d’exécution.            |
 | Annulation en cours      | Provisoire | Le signalement est annulé à la demande de l’utilisateur. Cet état résulte d’une annulation demandée par l’utilisateur pour un rapport à l’état **En file d’attente** ou **Traitement**. Le système tente de placer le rapport à l’état **Annulé**, sauf si le système est trop avancé et doit le finaliser dans un autre état. |

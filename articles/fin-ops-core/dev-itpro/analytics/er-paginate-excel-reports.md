@@ -1,6 +1,6 @@
 ---
 title: Concevoir un format de gestion des états électroniques (ER) pour paginer les documents générés dans Excel
-description: Cette rubrique explique comment concevoir un document volumineux généré par un format de gestion des états électroniques (ER) dans Microsoft Excel.
+description: Cet article explique comment concevoir un document volumineux généré par un format de gestion des états électroniques (ER) dans Microsoft Excel.
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909276"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Concevoir un format de gestion des états électroniques (ER) pour paginer les documents générés dans Excel
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de consultant fonctionnel des états électroniques peut configurer un format [de gestion des états électroniques (ER)](general-electronic-reporting.md) pour générer des documents sortants dans Microsoft Excel et gérer la pagination des documents.
+Cet article explique comment un utilisateur ayant le rôle d’administrateur système ou de consultant fonctionnel des états électroniques peut configurer un format [de gestion des états électroniques (ER)](general-electronic-reporting.md) pour générer des documents sortants dans Microsoft Excel et gérer la pagination des documents.
 
 Dans cet exemple, vous allez modifier le format de gestion des états électroniques (ER) fourni par Microsoft qui est utilisé pour imprimer l’état de contrôle lorsque la déclaration des échanges de biens est [générée](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md). Cet état vous permet d’observer les transactions d’échanges de biens déclarées. Vos modifications vous permettront de gérer la pagination des états de contrôle générés.
 
-Les procédures de cette rubrique peuvent être effectuées dans la compagnie **DEMF**. Aucun codage n’est requis. Avant de commencer, téléchargez et enregistrez les fichiers suivants.
+Les procédures de cet article peuvent être effectuées dans la compagnie **DEMF**. Aucun codage n’est requis. Avant de commencer, téléchargez et enregistrez les fichiers suivants.
 
-| Description        | Nom de fichier |
+| Description       | Nom de fichier |
 |-------------------|-----------| 
 | Modèle d’état 1 | [ERIntrastatReportDemo1.xlsx](https://download.microsoft.com/download/7/2/a/72ae292a-8bb2-4b9d-8397-9764218f6fa8/ERIntrastatReportDemo1%20.xlsx) |
 | Modèle d’état 2 | [ERIntrastatReportDemo2.xlsx](https://download.microsoft.com/download/7/d/1/7d15858d-6260-4afa-9dda-d8b955e59b1a/ERIntrastatReportDemo2.xlsx) |
@@ -165,7 +165,7 @@ Utilisez ensuite le format de gestion des états électroniques (ER) personnalis
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Répéter le remplacement du modèle Excel actuel au format de gestion des états électroniques personnalisé
 
-1. Suivez les étapes de la section [Remplacer le modèle Excel actuel au format de gestion des états électroniques (ER) personnalisé](#replace-template) de cette rubrique. Cependant, à l’étape 7, sélectionnez le fichier **ERIntrastatReportDemo2.xlsx**.
+1. Suivez les étapes de la section [Remplacer le modèle Excel actuel au format de gestion des états électroniques (ER) personnalisé](#replace-template) de cet article. Cependant, à l’étape 7, sélectionnez le fichier **ERIntrastatReportDemo2.xlsx**.
 2. Sur la page **Concepteur de formats**, développez **Déclaration d’échanges de biens**.
 3. Désignez les composants de format [Plage](er-fillable-excel.md#range-component) qui ont été ajoutés au format de gestion des états électroniques (ER) modifiable pour synchroniser la structure avec la structure du modèle Excel appliqué :
 
@@ -406,7 +406,7 @@ Pour modifier la visibilité, mettez à jour la propriété **Activé** des comp
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>Générer un fichier d’état de contrôle de déclaration d’échanges de biens (mis à jour)
 
-1. Veillez à ce que vous disposiez de 24 transactions sur la page **Déclaration d’échanges de biens**. Répétez les étapes de la section [Générer un état de contrôle de la déclaration d’échanges de biens](#generate-intrastat-control-report) de cette rubrique pour générer et examiner l’état de contrôle.
+1. Veillez à ce que vous disposiez de 24 transactions sur la page **Déclaration d’échanges de biens**. Répétez les étapes de la section [Générer un état de contrôle de la déclaration d’échanges de biens](#generate-intrastat-control-report) de cet article pour générer et examiner l’état de contrôle.
 
     Toutes les transactions sont présentées sur la première page. Les totaux et les compteurs de pages sont égaux aux totaux et aux compteurs d’états. La plage d’en-tête de page est masquée sur la première page, car l’en-tête de l’état contient déjà des titres de colonne. L’en-tête et le pied de page sont masqués sur la deuxième page, car cette page ne contient aucune transaction.
 

@@ -1,6 +1,6 @@
 ---
 title: Générer un plan avec contrainte
-description: Cette rubrique indique comment créer un plan qui prend en compte des contraintes en termes de matière et de capacité.
+description: Cet article indique comment créer un plan qui prend en compte des contraintes en termes de matière et de capacité.
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8372f4e35b34ff66ef55c0961b867a1aff7a5e6
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 65884d556724cd6132fe328e95a5bec78885c174
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904012"
 ---
 # <a name="generate-a-constrained-plan"></a>Générer un plan avec contrainte
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique indique comment créer un plan qui prend en compte des contraintes en termes de matière et de capacité. Le plan vérifie que la fabrication ne démarre pas avant que les matières soient disponibles et que des ressources ne soient pas surréservées. 
+Cet article indique comment créer un plan qui prend en compte des contraintes en termes de matière et de capacité. Le plan vérifie que la fabrication ne démarre pas avant que les matières soient disponibles et que des ressources ne soient pas surréservées. 
 
 Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au gestionnaire de production.
 

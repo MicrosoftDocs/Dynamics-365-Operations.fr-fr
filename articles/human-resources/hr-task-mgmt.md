@@ -1,6 +1,6 @@
 ---
 title: Gestion des tâches
-description: Cette rubrique explique la fonctionnalité de gestion des tâches disponible dans Microsoft Dynamics 365 Human Resources.
+description: Cet article explique la fonctionnalité de gestion des tâches disponible dans Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/20/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897862"
 ---
 # <a name="task-management"></a>Gestion des tâches
 
@@ -63,7 +63,7 @@ Sur les trois onglets, les assistants et responsables RH peuvent effectuer les a
 
 > [!NOTE]
 > Par défaut, l’onglet **Intégration** affiche les employés qui ont été embauchés au cours des sept derniers jours. Pour modifier ce paramètre, sur la page **Paramètres des ressources humaines**, sur l’onglet **Général**, dans le champ **Embauches récentes**, définissez un laps de temps. Les informations de la liste **Embauches récentes** peuvent être affichées pour un nombre spécifique de jours, de mois ou d’années. Par exemple, pour afficher la liste des employés qui ont été embauchés au cours des 14 derniers jours, définissez le champ **Période** sur **14** et le champ **Unité** sur **Jours**.
-> Sur la page **Paramètres des ressources humaines**, vous pouvez également mettre à jour la plage de dates pour les listes d’employés sortants et sortants qui sont affichées sur l’onglet **Départ**. Ces paramètres s'appliquent également à l'espace de travail **Gestion du personnel**.
+> Sur la page **Paramètres des ressources humaines**, vous pouvez également mettre à jour la plage de dates pour les listes d’employés sortants et sortants qui sont affichées sur l’onglet **Départ**. Ces paramètres s’appliquent également à l’espace de travail **Gestion du personnel**.
 
 ## <a name="setting-up-tasks"></a>Paramétrage des tâches
 
@@ -186,10 +186,10 @@ Sur la page **Libre-service pour les employés**, un employé peut visualiser to
 
 Les tâches peuvent également être affichées sur le tableau de bord par défaut. Pour afficher les tâches sur le tableau de bord par défaut :
 1. Accédez à **Options utilisateur - Préférences - Gestion des tâches** 
-2. Définissez l'option **Afficher les tâches sur le tableau de bord par défaut** sur **Activé**.  
+2. Définissez l’option **Afficher les tâches sur le tableau de bord par défaut** sur **Activé**.  
 
 >[!Note] 
->La fonction **Gestion des tâches** doit être activée dans **Gestion des fonctionnalités** pour l'option d'affichage dans **Options utilisateur**.
+>La fonction **Gestion des tâches** doit être activée dans **Gestion des fonctionnalités** pour l’option d’affichage dans **Options utilisateur**.
 
 Les tâches peuvent être marquées comme **En cours**, **annulées** ou **terminées**. Si une tâche a été affectée à un groupe, elle sera marquée comme **Terminé** lorsqu’une personne du groupe le termine.
 

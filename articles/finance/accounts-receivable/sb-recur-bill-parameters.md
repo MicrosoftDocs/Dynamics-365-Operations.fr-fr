@@ -1,6 +1,6 @@
 ---
 title: Paramètres de facturation de contrat récurrent
-description: Cette rubrique explique comment configurer les valeurs par défaut pour les échéanciers de facturation créés dans Facturation de contrat récurrent. Il explique également comment créer des groupes d’échéanciers de facturation.
+description: Cet article explique comment configurer les valeurs par défaut pour les échéanciers de facturation créés dans Facturation de contrat récurrent. Il explique également comment créer des groupes d’échéanciers de facturation.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 19fe77ade0523aa7fd6382266457fd739df46d75
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903332"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Paramètres de facturation de contrat récurrent
 
@@ -27,7 +27,7 @@ Utilisez la page **Paramètres de facturation des contrats récurrents** pour co
 
 ## <a name="general-tab"></a>Onglet Général
 
-1. Sur la page **Paramètres de facturation des contrats récurrents**, sur l’onglet **Général**, dans le champ **Groupe d’échéancier de facturation**, sélectionnez un groupe d’échéanciers de facturation. Pour plus d’informations sur la configuration des groupes d’échéanciers de facturation, consultez la section [Groupes d’échéanciers de facturation](#set-up-billing-schedule-groups) plus tard dans cette rubrique.
+1. Sur la page **Paramètres de facturation des contrats récurrents**, sur l’onglet **Général**, dans le champ **Groupe d’échéancier de facturation**, sélectionnez un groupe d’échéanciers de facturation. Pour plus d’informations sur la configuration des groupes d’échéanciers de facturation, consultez la section [Groupes d’échéanciers de facturation](#set-up-billing-schedule-groups) plus tard dans cet article.
 2. Dans le champ **Type de résiliation**, sélectionnez le mode de calcul de la facture finale quand un échéancier de facturation est résilié :
 
     - **Ajuster l’échéancier** – Coupez l’échéanciers de facturation à la date de résiliation, changez le statut de l’échéancier en **Dernière facturation**, et ajustez l’échéancier de report associé en contrepassant le montant qui ne doit plus être reconnu. Si la date de début de facturation est postérieure à la date de fin, les périodes de facturation restantes sont supprimées.

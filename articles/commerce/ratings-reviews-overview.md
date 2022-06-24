@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des évaluations et avis
-description: Cette rubrique couvre les classements et les évaluations dans Microsoft Dynamics 365 Commerce.
+description: Cet article couvre les classements et les évaluations dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/01/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9fff5100dd1bebdd19fb7306980e98ca84027acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898908"
 ---
 # <a name="ratings-and-reviews-overview"></a>Vue d’ensemble des évaluations et avis
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les classements et les évaluations dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les classements et les évaluations dans Microsoft Dynamics 365 Commerce.
 
 Les classements et les évaluations sont cruciaux pour les clients du commerce électronique qui souhaitent savoir comment d’autres clients perçoivent un produit. Ils peuvent également aider les consommateurs à prendre des décisions d’achat. Dans Dynamics 365 Commerce, la solution de classements et d’évaluations permet aux détaillants de capturer des évaluations et des classements du produit par les clients. Les détaillants peuvent ensuite afficher des informations sur les classements et les évaluations moyens sur son site web de commerce électronique.
 

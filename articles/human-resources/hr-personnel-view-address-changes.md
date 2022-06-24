@@ -1,6 +1,6 @@
 ---
 title: Afficher et gérer les changements d’adresse
-description: Cette rubrique explique comment afficher et gérer les modifications d’adresse dans Dynamics 365 Human Resources.
+description: Cet article explique comment afficher et gérer les modifications d’adresse dans Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899583"
 ---
 # <a name="view-and-manage-address-changes"></a>Afficher et gérer les changements d’adresse
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695842"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique explique comment afficher et gérer les changements d’adresse sur la page **Modifier les informations personnelles** (que vous ouvrez dans l’espace de travail **Libre service employé**) ou la page de détails **Collaborateur** dans Dynamics 365 Human Resources.
+Cet article explique comment afficher et gérer les changements d’adresse sur la page **Modifier les informations personnelles** (que vous ouvrez dans l’espace de travail **Libre service employé**) ou la page de détails **Collaborateur** dans Dynamics 365 Human Resources.
 
 De nombreuses organisations souhaitent que les employés gèrent leurs propres données personnelles via une expérience en libre-service. Vous pouvez autoriser les utilisateurs à mettre à jour leur adresse dans l’espace de travail **Libre-service des employés**. Vous pouvez ensuite surveiller ces changements dans l’espace de travail **Gestion du personnel**. Pour utiliser cette fonctionnalité, vous devez spécifier le nombre de jours pendant lesquels vous souhaitez afficher les modifications sur la page **Paramètres des ressources humaines**.
 

@@ -1,6 +1,6 @@
 ---
 title: Types d’élément critique de l’actif
-description: La rubrique explique les types d’élément critique de l’actif dans le module Gestion des actifs.
+description: L'article explique les types d’élément critique de l’actif dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899496"
 ---
 # <a name="asset-criticality-types"></a>Types d’élément critique de l’actif
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776918"
 
  
 
-La rubrique explique les types d’élément critique de l’actif dans le module Gestion des actifs. L’élément critique de l’actif est lié aux actifs et est transféré aux ordres de travail. Il ne peut pas être modifié sur un ordre de travail. L’élément critique de l’actif est utilisé pour calculer l’élément critique de l’ordre de travail lors de la planification des ordres de travail. En d’autres termes, il est utilisé pour calculer dans quelle mesure une tâche de maintenance sur un actif affecte la planification de la production et la productivité dans votre société. Pour plus d’informations sur le paramétrage lié au calcul des scores pour la planification des ordres de travail, voir [Paramètres de gestion des actifs](../setup-for-objects/enterprise-asset-management-parameters.md).
+L'article explique les types d’élément critique de l’actif dans le module Gestion des actifs. L’élément critique de l’actif est lié aux actifs et est transféré aux ordres de travail. Il ne peut pas être modifié sur un ordre de travail. L’élément critique de l’actif est utilisé pour calculer l’élément critique de l’ordre de travail lors de la planification des ordres de travail. En d’autres termes, il est utilisé pour calculer dans quelle mesure une tâche de maintenance sur un actif affecte la planification de la production et la productivité dans votre société. Pour plus d’informations sur le paramétrage lié au calcul des scores pour la planification des ordres de travail, voir [Paramètres de gestion des actifs](../setup-for-objects/enterprise-asset-management-parameters.md).
 
 Pour paramétrer l’élément critique, commencez par créer les types d’élément critique qui doivent être utilisés dans le paramétrage des actifs. Vous paramétrez ensuite les éléments critiques de l’actif.
 

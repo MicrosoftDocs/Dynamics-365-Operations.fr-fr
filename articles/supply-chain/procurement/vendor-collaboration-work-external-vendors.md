@@ -1,6 +1,6 @@
 ---
 title: Collaboration fournisseur avec des fournisseurs externes
-description: Cette rubrique explique comment les agents des achats peuvent collaborer avec des fournisseurs externes pour échanger des informations sur les commandes fournisseur et le stock de consignation.
+description: Cet article explique comment les agents des achats peuvent collaborer avec des fournisseurs externes pour échanger des informations sur les commandes fournisseur et le stock de consignation.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907288"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
 [!include [banner](../includes/banner.md)]
 
-Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n’ont pas l’intégration d’échange de données informatisé (EDI) avec Microsoft Dynamics 365 Supply Chain Management. Il permet aux fournisseurs d’utiliser les commandes fournisseur, les factures, les informations sur le stock de consignation et les appels d’offre. Il leur permet également d’accéder à des parties de leurs données principales. Cette rubrique explique comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l’interface de collaboration fournisseur pour utiliser les CF, les appels d’offre et le stock de consignation. Elle explique également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations visibles par tous les fournisseurs qui répondent à une commande fournisseur.
+Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n’ont pas l’intégration d’échange de données informatisé (EDI) avec Microsoft Dynamics 365 Supply Chain Management. Il permet aux fournisseurs d’utiliser les commandes fournisseur, les factures, les informations sur le stock de consignation et les appels d’offre. Il leur permet également d’accéder à des parties de leurs données principales. Cet article explique comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l’interface de collaboration fournisseur pour utiliser les CF, les appels d’offre et le stock de consignation. Elle explique également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations visibles par tous les fournisseurs qui répondent à une commande fournisseur.
 
 Pour plus d’informations sur ce que les fournisseurs externes peuvent effectuer dans l’interface de collaboration fournisseur, voir [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Les informations sur la collaboration fournisseur contenues dans cette rubrique s’appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d’informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l’aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
+> Les informations sur la collaboration fournisseur contenues dans cet article s’appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d’informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l’aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
 
 Pour plus d’informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d’informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
@@ -112,7 +112,7 @@ La CF envoyée au fournisseur avec le statut <strong>En cours de révision exter
 <li>Remplacez un article.</li>
 </ul>
 Le fournisseur ne peut pas modifier les informations sur les prix et les frais. Toutefois, il peut proposer ces modifications à l’aide de notes.</td>
-<td>La réponse du fournisseur est enregistrée comme <strong>Accepté avec des modifications</strong>, mais le statut de la CF reste <strong>En cours de révision externe</strong>. Les statuts indiquent les types de modifications suggérées par le fournisseur. Pour plus d’informations sur la consommation automatique des modifications, consultez la section &quot;Mettre à jour la CF lorsqu’un fournisseur propose des modifications&quot; plus loin dans cette rubrique. </td>
+<td>La réponse du fournisseur est enregistrée comme <strong>Accepté avec des modifications</strong>, mais le statut de la CF reste <strong>En cours de révision externe</strong>. Les statuts indiquent les types de modifications suggérées par le fournisseur. Pour plus d’informations sur la consommation automatique des modifications, consultez la section &quot;Mettre à jour la CF lorsqu’un fournisseur propose des modifications&quot; plus loin dans cet article. </td>
 </tr>
 </tbody>
 </table>

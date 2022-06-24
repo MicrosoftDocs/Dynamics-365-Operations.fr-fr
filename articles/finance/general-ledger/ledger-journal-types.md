@@ -1,6 +1,6 @@
 ---
 title: Types de journaux comptables
-description: Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers.
+description: Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers.
 author: kweekley
 ms.date: 10/10/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 883c54b84ed31384a28c31c8b814c75d340d020e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901311"
 ---
 # <a name="ledger-journal-types"></a>Types de journaux comptables
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page **Noms de journal** pour paramétrer les journaux que vous pouvez utiliser dans Dynamics 365 Finance.
+Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page **Noms de journal** pour paramétrer les journaux que vous pouvez utiliser dans Dynamics 365 Finance.
 
 | Type de journal                      | Objectif                       | Entrer les transactions sur cette page                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|

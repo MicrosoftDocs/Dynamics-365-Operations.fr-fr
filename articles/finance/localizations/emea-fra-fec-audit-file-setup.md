@@ -1,6 +1,6 @@
 ---
 title: Préparer votre environnement pour générer un FEC
-description: Cette rubrique explique comment préparer votre environnement Microsoft Dynamics 365 Finance pour générer un fichier d'audit Fichier des écritures comptables (FEC).
+description: Cet article explique comment préparer votre environnement Microsoft Dynamics 365 Finance pour générer un fichier d’audit Fichier des écritures comptables (FEC).
 author: liza-golub
 ms.date: 05/03/2021
 ms.topic: article
@@ -10,30 +10,30 @@ audience: Application User
 ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: 65ec533357ca81f88a3d45ecafd39c072851e5e17ab148266f5bb7941a3500cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae7e81a3be0a0d56cf772520f7bc71f3adbee6c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902353"
 ---
 # <a name="prepare-your-environment-to-generate-an-fec"></a>Préparer votre environnement pour générer un FEC
 
-Avant de pouvoir générer un fichier d'audit du Fichier des écritures comptables (FEC), vous devez importer les dernières versions des configurations de reporting électronique (ER) suivantes.
+Avant de pouvoir générer un fichier d’audit du Fichier des écritures comptables (FEC), vous devez importer les dernières versions des configurations de reporting électronique (ER) suivantes.
 
-| Configuration ER         | Type          | Description  |
+| Configuration ER         | Type          | Description |
 |--------------------------|---------------|-------------|
-| Modèle d'exportation des données        | Modèle         | Le modèle de données unifié pour l'exportation de données. |
+| Modèle d’exportation des données        | Modèle         | Le modèle de données unifié pour l’exportation de données. |
 | Cartographie du modèle FEC français | Mappage de modèles | La configuration qui collecte les données de différentes sources de données pour les préparer à la création de rapports FEC. |
-| Fichier d’audit FEC (FR)      | Format        | Le format d'exportation dans la structure FEC. |
+| Fichier d’audit FEC (FR)      | Format        | Le format d’exportation dans la structure FEC. |
 
 > [!NOTE]
 > Une fois que vous importez toutes les configurations ER du tableau précédent importées, sur la page **Configurations**, définissez l’option **Valeur par défaut pour le mappage de modèle** sur **Oui** pour la configuration **Cartographie du modèle FEC français**.
 
-Pour plus d'informations sur le téléchargement des configurations ER à partir du référentiel global Microsoft, consultez [Télécharger les configurations ER à partir du référentiel global](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
+Pour plus d’informations sur le téléchargement des configurations ER à partir du référentiel global Microsoft, consultez [Télécharger les configurations ER à partir du référentiel global](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-À partir de la version 10.0.20, pour utiliser le format **Fichier d'audit FEC (FR)**, vous devez définir le nom de la configuration ER dans un nouveau paramètre de comptabilité. 
+À partir de la version 10.0.20, pour utiliser le format **Fichier d’audit FEC (FR)**, vous devez définir le nom de la configuration ER dans un nouveau paramètre de comptabilité. 
 
 1. Accédez à **Comptabilité** \> **Paramétrage de la comptabilité** \> **Paramètres de comptabilité**.
-2. Dans l'onglet **Registre**, dans le raccourci **Rapports électroniques**, dans la section **Exportation des écritures comptables**, dans le champ **Exportation des écritures comptables**, sélectionnez le format **Fichier d'audit FEC (FR)**.
+2. Dans l’onglet **Registre**, dans le raccourci **Rapports électroniques**, dans la section **Exportation des écritures comptables**, dans le champ **Exportation des écritures comptables**, sélectionnez le format **Fichier d’audit FEC (FR)**.
 3. Enregistrez la nouvelle configuration.

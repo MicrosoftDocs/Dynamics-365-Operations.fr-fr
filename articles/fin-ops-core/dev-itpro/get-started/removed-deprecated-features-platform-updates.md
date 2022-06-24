@@ -1,6 +1,6 @@
 ---
-title: Fonctions de plateforme supprimées ou obsolètes
-description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications de finances et d’opérations.
+title: Fonctions de la plateforme supprimées ou déconseillées
+description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications de finances et d’opérations.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811244"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945802"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de la plateforme supprimées ou déconseillées
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications de finances et d’opérations.
+Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications de finances et d’opérations.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
@@ -40,7 +40,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Nous abandonnons l’application et la plateforme mobiles Finance et Opérations (Dynamics 365) pour les consolider en une plateforme mobile unique, qui est Power Apps. |
-| **Remplacé par une autre fonctionnalité ?**   | Oui, des expériences mobiles sur les données de l’application Finance et Opérations peuvent être créées avec l’intégration de Power Platform. Voir [Créer des expériences mobiles](../power-platform/build-mobile-experiences.md) pour plus de détails. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, des expériences mobiles sur les données de l’application Finance et Opérations peuvent être créées avec l’intégration de Power Platform. Consultez le [billet de blog](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) et [Créer des expériences mobiles](../power-platform/build-mobile-experiences.md) pour plus d’informations. |
 | **Zones de produit affectées**         | applications de finances et d’opérations |
 | **Option de déploiement**              | Tout |
 | **Status**                         | Obsolète. La date de fin du support est prévue pour octobre 2024. |
@@ -208,8 +208,8 @@ Des informations détaillées sur les objets dans les applications Finances et O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Pour prendre en charge les dernières versions de Visual Studio, certaines modifications doivent être apportées aux extensions X++ pour Visual Studio. Ces modifications sont incompatibles avec Visual Studio 2015. |
-| **Remplacé par une autre fonctionnalité ?**   | Visual Studio 2017 remplacera Visual Studio 2015 comme version déployée et requise. |
+| **Motif de l’abandon/de la suppression** | Pour prendre en charge les dernières versions de Visual Studio, certaines modifications doivent être apportées aux extensions X++ pour Visual Studio. Ces modifications sont incompatibles avec Visual Studio 2015. |
+| **Remplacé par une autre fonctionnalité ?**   | Visual Studio 2017 remplacera Visual Studio 2015 comme version déployée et requise. |
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tous |
 | **Statut**                         | Obsolète : après la mise à jour, les outils X++ précédents seront supprimés de Visual Studio 2015, et les outils mis à jour ne seront pas installés sur Visual Studio 2015. Il n’y a aucun impact sur les builds hébergées. Pour les machines virtuelles de build, le pipeline de build (définition de build) doit être mis à jour manuellement pour modifier la dépendance de MSBuild 14.0 (Visual Studio 2015) vers MSBuild 15.0 (Visual Studio 2017) comme décrit dans [Mettre à jour un pipeline hérité dans Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |

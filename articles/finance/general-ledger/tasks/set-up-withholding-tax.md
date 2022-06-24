@@ -1,6 +1,6 @@
 ---
 title: Paramétrer la retenue à la source
-description: Cette rubrique explique comment paramétrer la retenue à la source.
+description: Cet article explique comment paramétrer la retenue à la source.
 author: twheeloc
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3c4992c7ab02793db3650df5624143d0ec090d0
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0cc080df587904568796a9d6794987326be3ad26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907944"
 ---
 # <a name="set-up-withholding-tax"></a>Paramétrer la retenue à la source
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer la retenue à la source. La *retenue à la source* est une taxe sur les fournisseurs qui ne crée pas de transaction de taxe. La retenue à la source calculée sur les paiements des fournisseurs fait partie du passif. Par conséquent, seuls les comptes de passif ou de bilan sont utilisés pour la validation de la retenue à la source. Ce guide de tâche décrit comment paramétrer la retenue à la source.
+Cet article explique comment paramétrer la retenue à la source. La *retenue à la source* est une taxe sur les fournisseurs qui ne crée pas de transaction de taxe. La retenue à la source calculée sur les paiements des fournisseurs fait partie du passif. Par conséquent, seuls les comptes de passif ou de bilan sont utilisés pour la validation de la retenue à la source. Ce guide de tâche décrit comment paramétrer la retenue à la source.
 
 1. Allez dans **Volet de navigation > Modules > Taxes > Taxes indirectes > Retenue à la source > Codes de retenue à la source**.
 2. Sélectionnez **Nouveau**.

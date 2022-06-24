@@ -1,6 +1,6 @@
 ---
-title: Règlements comptables
-description: Cette rubrique explique comment utiliser la page Règlements comptables pour régler des écritures comptables et contrepasser des règlements.
+title: Lettrages comptables
+description: Cet article explique comment utiliser la page Règlements comptables pour régler des écritures comptables et contrepasser des règlements.
 author: kweekley
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e98b012210338e7f18cb874eefbc8a023aa4428b
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902485"
 ---
 # <a name="ledger-settlements"></a>Lettrages comptables
 
@@ -32,7 +32,7 @@ Les transactions réglées peuvent être exclues des demandes de renseignements 
 > Le règlement compare le compte général de la comptabilité client/comptabilité fournisseur à partir de la facture et du paiement. Lorsque le règlement se produit dans les registres auxiliaires Comptabilité fournisseur et Comptabilité client, les écritures comptables correspondantes ne sont pas réglées automatiquement.
 
 ## <a name="ledger-settlement-features"></a>Fonctionnalités du règlement comptable
-Dans Microsoft Dynamics 365 Finance version 10.0.21, l’option **Activer les règlements comptables avancés** a été supprimée de la page **Paramètres de comptabilité**. Le règlement comptable avancé est désormais toujours activé.
+Dans Microsoft Dynamics 365 Finance version 10.0.21, l’option **Activer les règlements comptables avancés** a été supprimée de la page **Paramètres de comptabilité**. Le règlement comptable avancé est désormais toujours activé.
 Dans Finance, version 10.0.25, la fonctionnalité **Reconnaissance entre un règlement comptable et la clôture de fin d’exercice** a été introduite. Cette fonction modifie la fonctionnalité fondamentale du règlement comptable ainsi que la clôture de fin d’exercice comptable. Avant d’activer cette fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**, reportez-vous à la rubrique [Reconnaissance entre un règlement comptable et la clôture de fin d’exercice](awareness-between-ledger-settlement-year-end-close.md).
 
 ## <a name="set-up-ledger-settlement"></a>Paramétrer le règlement comptable

@@ -1,6 +1,6 @@
 ---
 title: Événements d’application d’entrepôt
-description: Cette rubrique décrit le traitement des événements d’application d’entreposage utilisé pour traiter les messages d’événement de l’application d’entreposage dans le cadre d’un traitement par lots.
+description: Cet article décrit le traitement des événements d’application d’entreposage utilisé pour traiter les messages d’événement de l’application d’entreposage dans le cadre d’un traitement par lots.
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905452"
 ---
 # <a name="warehouse-app-event-processing"></a>Traitement des événements de l’application d’entreposage
 

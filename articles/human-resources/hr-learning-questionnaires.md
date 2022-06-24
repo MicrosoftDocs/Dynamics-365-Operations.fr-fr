@@ -1,6 +1,6 @@
 ---
 title: Questionnaires
-description: Cette rubrique fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées.
+description: Cet article fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: efe0ac953e5c1cb04044256e799ecfc07cf3eebe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: de38bcbfc89479d6b643ca5ee256c38c88fa7f69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897891"
 ---
 # <a name="questionnaires"></a>Questionnaires
 
@@ -28,7 +28,7 @@ ms.locfileid: "8690748"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats. 
+Cet article fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats. 
 
 Vous pouvez personnaliser un questionnaire pour l’adapter à vos besoins spécifiques à l’aide des diverses fonctionnalités disponibles dans Microsoft Dynamics 365 Finance. Voici quelques exemples d’utilisation des questionnaires :
 
@@ -40,11 +40,11 @@ Vous pouvez personnaliser un questionnaire pour l’adapter à vos besoins spéc
 
 Le tableau suivant fournit des liens vers des informations décrivant les tâches principales liées aux questionnaires. Cliquez sur les liens pour plus d’informations.
 
-| Rubrique| Description|
+| Article | Description|
 |------|------------|
-| [Concevoir un questionnaire](hr-learning-design-questionnaires.md) | Cette rubrique fournit des informations sur la façon de concevoir un questionnaire. Le processus de création implique de définir des conditions préalables, des réponses et des questions, puis de les combiner en un questionnaire. |
-| [Distribuer et programmer des questionnaires](hr-learning-distribute-questionnaires.md) | Cette rubrique fournit des informations sur la façon de distribuer un questionnaire aux personnes interrogées et sur la manière de remplir les questionnaires. |
-| [Afficher et évaluer les résultats d’un questionnaire](hr-learning-evaluate-questionnaire-results.md) | Cette rubrique fournit des informations sur l’affichage et l’évaluation des résultats à partir des questionnaires remplis. |
+| [Concevoir un questionnaire](hr-learning-design-questionnaires.md) | cet article fournit des informations sur la façon de concevoir un questionnaire. Le processus de création implique de définir des conditions préalables, des réponses et des questions, puis de les combiner en un questionnaire. |
+| [Distribuer et programmer des questionnaires](hr-learning-distribute-questionnaires.md) | Cet article fournit des informations sur la façon de distribuer un questionnaire aux personnes interrogées et sur la manière de remplir les questionnaires. |
+| [Afficher et évaluer les résultats d’un questionnaire](hr-learning-evaluate-questionnaire-results.md) | Cet article fournit des informations sur l’affichage et l’évaluation des résultats à partir des questionnaires remplis. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

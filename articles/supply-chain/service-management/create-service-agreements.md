@@ -1,6 +1,6 @@
 ---
 title: Création d’accords de service
-description: Cette rubrique décrit l’utilisation des fonctionnalités des modules de comptabilité Gestion des services et Gestion de projets pour la création d’accords de service.
+description: Cet article décrit l’utilisation des fonctionnalités des modules de comptabilité Gestion des services et Gestion de projets pour la création d’accords de service.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901761"
 ---
 # <a name="create-service-agreements"></a>Création d’accords de service
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l’utilisation des fonctionnalités des modules de comptabilité Gestion des services et Gestion de projets pour la création d’accords de service.
+Cet article décrit l’utilisation des fonctionnalités des modules de comptabilité Gestion des services et Gestion de projets pour la création d’accords de service.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Création d’un accord de service à partir du module Gestion des services
 
@@ -51,10 +51,10 @@ Cette rubrique décrit l’utilisation des fonctionnalités des modules de compt
 2. Sélectionnez **Tous les projets**.
 3. Sélectionnez le projet dans la liste.
 4. Dans le volet **Actions**, sélectionnez **Gérer**. Dans le groupe d’actions **Nouveau**, sélectionnez **Service** et **Accord de service**.
-5. Suivez les étapes de la section intitulée **Création d’un accord de service** comme décrit précédemment dans cette rubrique pour accéder à la référence du projet.
+5. Suivez les étapes de la section intitulée **Création d’un accord de service** comme décrit précédemment dans cet article pour accéder à la référence du projet.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Vue d’ensemble de développement et d’établissement d’accords de service](service-agreements.md)
 

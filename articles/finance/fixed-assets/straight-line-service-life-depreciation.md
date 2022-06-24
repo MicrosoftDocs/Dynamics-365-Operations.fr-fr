@@ -1,6 +1,6 @@
 ---
 title: Amortissement linéaire sur la durée de vie
-description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement de service linéaire sur la durée de vie restante.
+description: Cet article donne une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896461"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Amortissement linéaire sur la durée de vie
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne une vue d’ensemble de la méthode d’amortissement de service linéaire sur la durée de vie restante.
+Cet article donne une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
 
 Lorsque vous paramétrez un profil d’amortissement des immobilisations et sélectionnez Durée de vie linéaire dans le champ Méthode de la page Profils d’amortissement, l’amortissement des immobilisations affectées à ce profil d’amortissement est basé sur la durée de vie totale de l’immobilisation. Le montant d’amortissement est généralement identique dans chaque période d’amortissement. 
 
@@ -41,7 +41,7 @@ Vous pouvez sélectionner soit Calendrier soit Exercice dans le champ Année d�
 
 Si vous sélectionnez Calendrier, l’exercice supposé s’étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment. 
 
-L’option Calendrier met à jour la base d’amortissement (généralement la valeur comptable nette moins la valeur résiduelle) le premier janvier de chaque année. Dans les exemples plus loin dans cette rubrique, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. 
+L’option Calendrier met à jour la base d’amortissement (généralement la valeur comptable nette moins la valeur résiduelle) le premier janvier de chaque année. Dans les exemples plus loin dans cet article, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. 
 
 Si vous sélectionnez Calendrier, les options suivantes sont disponibles dans le champ Période fréquence qui définit les dates et les montants de validation de régularisation des amortissements au cours de l’année civile :
 - Annuel valide un montant le 31 décembre.

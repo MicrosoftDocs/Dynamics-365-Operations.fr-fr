@@ -1,6 +1,6 @@
 ---
 title: Rechercher des mises à jour réglementaires spécifiques à un pays
-description: Cette rubrique fournit des liens vers des mises à jour réglementaires spécifiques à des pays, prévues et publiées pour Microsoft Dynamics 365 Finance.
+description: Cet article fournit des liens vers des mises à jour réglementaires spécifiques à des pays, prévues et publiées pour Microsoft Dynamics 365 Finance.
 author: AKroshkina
 ms.date: 01/20/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896180"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>Rechercher des mises à jour réglementaires spécifiques à un pays
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des liens vers des mises à jour réglementaires spécifiques à des pays, prévues et publiées pour Microsoft Dynamics 365 Finance. Vous devez vous connecter à Microsoft Dynamics Lifecycle Services (LCS) pour accéder à ces informations.
+Cet article fournit des liens vers des mises à jour réglementaires spécifiques à des pays, prévues et publiées pour Microsoft Dynamics 365 Finance. Vous devez vous connecter à Microsoft Dynamics Lifecycle Services (LCS) pour accéder à ces informations.
 
 | Pays ou région    | Problème dans la recherche d’incidents dans LCS |
 |----------------------|---------------------------|

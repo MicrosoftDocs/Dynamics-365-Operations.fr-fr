@@ -1,6 +1,6 @@
 ---
 title: FR-00003 Codes NAF et numéros Siret
-description: Cette rubrique explique comment créer des codes NAF et comment les entrer pour les entités juridiques, les clients, les fournisseurs, et les prospects.
+description: Cet article explique comment créer des codes NAF et comment les entrer pour les entités juridiques, les clients, les fournisseurs, et les prospects.
 author: EvgenyPopovMBS
 ms.date: 09/10/2021
 ms.topic: business-process
@@ -13,20 +13,20 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76d4ee580b72bd89473d416f597843808ed17dfb
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 1234ebaccb90b764ba9166565760d1e3c8c7c7ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906199"
 ---
 # <a name="fr-00003-naf-codes-and-siret-numbers"></a>FR-00003 Codes NAF et numéros Siret
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment créer des codes NAF et comment les entrer pour les entités juridiques, les clients, les fournisseurs, et les prospects. Vous pouvez utiliser les codes NAF pour identifier le secteur d’activité d’une entreprise. Par exemple, si votre entité juridique fabrique des ordinateurs, son code NAF pourrait être 300C, à savoir le code NAF de fabrication d’ordinateurs et de matériel informatique. Si votre entité juridique est active dans le secteur de la construction, votre code NAF pourra être 452A.
+Cet article explique comment créer des codes NAF et comment les entrer pour les entités juridiques, les clients, les fournisseurs, et les prospects. Vous pouvez utiliser les codes NAF pour identifier le secteur d’activité d’une entreprise. Par exemple, si votre entité juridique fabrique des ordinateurs, son code NAF pourrait être 300C, à savoir le code NAF de fabrication d’ordinateurs et de matériel informatique. Si votre entité juridique est active dans le secteur de la construction, votre code NAF pourra être 452A.
 
-Cette rubrique décrit également comment entrer des numéros de siret pour les clients, les fournisseurs, et les prospects. Le Siret est un nombre à 14 chiffres qui identifie une entreprise, une branche de cette entreprise et une personne associée aux activités de l’entreprise. Ce numéro permet de vérifier qu’une entreprise est correctement enregistrée et autorisée à exercer ce type d’activité.
+Cet article décrit également comment entrer des numéros de siret pour les clients, les fournisseurs, et les prospects. Le Siret est un nombre à 14 chiffres qui identifie une entreprise, une branche de cette entreprise et une personne associée aux activités de l’entreprise. Ce numéro permet de vérifier qu’une entreprise est correctement enregistrée et autorisée à exercer ce type d’activité.
 
 Cette procédure a été créée à l’aide des données fictives de la société FRSI. Cette fonctionnalité est disponible pour les entités juridiques dont l’adresse principale est en France.
 

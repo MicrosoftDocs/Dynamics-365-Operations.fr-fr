@@ -1,6 +1,6 @@
 ---
 title: Importation des paiements client ESR
-description: Cette rubrique fournit des informations sur l’importation de paiements client au format ESR.
+description: Cet article fournit des informations sur l’importation de paiements client au format ESR.
 author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29bac54445ee78d4753b7b77004e21c67ae7d1ba
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 12fbad758215c24f986db2566c7e6495ed6d3460
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904303"
 ---
 # <a name="esr-customer-payments-import"></a>Importation des paiements client ESR
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur l’importation de paiements client au format ESR.
+Cet article fournit des informations sur l’importation de paiements client au format ESR.
 
 ESR est un service de débit électronique qui utilise des bordereaux de paiement pour collecter de l’argent. Il s’agit du système standard de paiement électronique créé par la Poste suisse. Vous pouvez recevoir les fichiers de paiement client au format ESR, qui peuvent inclure les transactions et les frais bancaires. Cette fonctionnalité est destinée aux transactions client importées basées sur les références de paiement initialement générées dans Dynamics 365 Finance et imprimées sur le bordereau de paiement.
 

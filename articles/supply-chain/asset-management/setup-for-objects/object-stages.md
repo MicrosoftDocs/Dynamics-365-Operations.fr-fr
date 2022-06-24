@@ -1,6 +1,6 @@
 ---
 title: États du cycle de vie de l’actif
-description: Cette rubrique explique les états du cycle de vie de l’actif et les modèles de cycle de vie dans le module Gestion des actifs.
+description: Cet article explique les états du cycle de vie de l’actif et les modèles de cycle de vie dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901058"
 ---
 # <a name="asset-lifecycle-states"></a>États du cycle de vie de l’actif
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722461"
 
  
 
-Cette rubrique explique les états du cycle de vie de l’actif et les modèles de cycle de vie dans le module Gestion des actifs. Les états du cycle de vie de l’actif permettent de définir si un actif est actif ou inactif. Par exemple, vous pouvez paramétrer des états du cycle de vie de l’actif, comme **Créé**, **Actif** et **Terminé**.
+Cet article explique les états du cycle de vie de l’actif et les modèles de cycle de vie dans le module Gestion des actifs. Les états du cycle de vie de l’actif permettent de définir si un actif est actif ou inactif. Par exemple, vous pouvez paramétrer des états du cycle de vie de l’actif, comme **Créé**, **Actif** et **Terminé**.
 
 > [!NOTE]
 > - Les états du cycle de vie de la demande sont liés aux états du cycle de vie de l’actif. Ainsi, lorsqu’une demande est remplacée par un nouvel état du cycle de vie de la demande, l’actif joint à la demande est remplacé par un nouvel état du cycle de vie de l’actif. Par exemple, si l’état du cycle de vie d’une demande passe à **Entrant**, l’état du cycle de vie de l’actif joint est remplacé par l’état du cycle de vie sélectionné dans le champ **État du cycle de vie entrant** du raccourci **État du cycle de vie de l’actif** de la page **Modèles d’état du cycle de vie de l’actif**. 

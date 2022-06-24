@@ -1,6 +1,6 @@
 ---
 title: Appliquer les paramètres de stock
-description: Cette rubrique couvre les paramètres de stock et décrit leur application dans Microsoft Dynamics 365 Commerce.
+description: Cet article couvre les paramètres de stock et décrit leur application dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: df1d1283a7692336906550169bc77104a9118779
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909555"
 ---
 # <a name="apply-inventory-settings"></a>Appliquer les paramètres de stock
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les paramètres de stock et décrit leur application dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les paramètres de stock et décrit leur application dans Microsoft Dynamics 365 Commerce.
 
 Les paramètres de stock spécifient si le stock doit être vérifié avant que des produits ne soient ajoutés au panier. Ils définissent également les messages de marchandisage liés au stock, tels que « En stock » et « Plus que quelques-uns ». Ces paramètres garantissent qu’un produit ne peut pas être acheté s’il est en rupture de stock.
 

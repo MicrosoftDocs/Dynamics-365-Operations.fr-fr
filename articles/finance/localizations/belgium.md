@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble spécifique à la Belgique
-description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité spécifique à la Belgique.
+description: Cet article fournit une vue d’ensemble de la fonctionnalité spécifique à la Belgique.
 author: anasyash
 ms.date: 05/27/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: belgium
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8888e2728b8123092355633934983ec1345e78d8
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: f8ee652523822d42d47fffa22760ca2ba3fe56e7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902406"
 ---
 # <a name="belgium-overview"></a>Vue d’ensemble spécifique à la Belgique
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique inclut des informations et des liens vers des ressources qui doivent être prises en compte pour les entités juridiques avec une adresse principale en Belgique.
+Cet article inclut des informations et des liens vers des ressources qui doivent être prises en compte pour les entités juridiques avec une adresse principale en Belgique.
 
 ## <a name="coda-bank-statement"></a>Relevé bancaire Coda
 CODA est un format d’état qui est utilisé dans le système bancaire électronique belge. Pour plus d’informations, voir [Relevé bancaire CODA](emea-bel-coda-bank-statement-import.md).

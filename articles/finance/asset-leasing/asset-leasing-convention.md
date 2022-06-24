@@ -1,6 +1,6 @@
 ---
 title: Conventions de location d’actifs
-description: Cette rubrique décrit les conventions d’actifs loués.
+description: Cet article décrit les conventions d’actifs loués.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898267"
 ---
 # <a name="asset-leasing-conventions"></a>Conventions de location d’actifs
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique décrit les conventions d’actifs loués. Les conventions de location sont utilisées pour déterminer la date de début d’un registre des baux. Si la convention de location est définie sur **Aucun**, la date de début est la même que la date de début du bail (c’est-à-dire la valeur du champ **Date de début du bail**). Si la convention de location est définie sur **Mois complet**, la date de début est le premier jour du mois où tombe la date de début du bail.
+Cet article décrit les conventions d’actifs loués. Les conventions de location sont utilisées pour déterminer la date de début d’un registre des baux. Si la convention de location est définie sur **Aucun**, la date de début est la même que la date de début du bail (c’est-à-dire la valeur du champ **Date de début du bail**). Si la convention de location est définie sur **Mois complet**, la date de début est le premier jour du mois où tombe la date de début du bail.
 
 La date de début détermine la date de début de la période pour les plans d’amortissement du passif et des actifs. Les charges d’intérêts et les charges d’amortissement sont comptabilisées à la date de fin de la période des plans correspondants. La comptabilisation initiale et l’écriture dans le journal d’ajustement sont enregistrées à la date de début.
 

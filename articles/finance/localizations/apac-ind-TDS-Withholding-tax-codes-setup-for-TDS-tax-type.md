@@ -1,6 +1,6 @@
 ---
 title: Paramétrer les codes déclaration de retenue à la source pour le type de taxe TDS
-description: Cette rubrique explique comment configurer des codes taxes pour la fonction Taxe déduite à la source (TDS).
+description: Cet article explique comment configurer des codes taxes pour la fonction Taxe déduite à la source (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ced5902b5a2e822f84a40da8149bc319c94973ba
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: fabe14b74c445434c37cb6ee79597d37affb162d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904381"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>Paramétrer les codes déclaration de retenue à la source pour le type de taxe TDS
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer des codes taxes pour la fonction Taxe déduite à la source (TDS).
+Cet article explique comment configurer des codes taxes pour la fonction Taxe déduite à la source (TDS).
 
 1. Accédez à **Taxe \> Taxes indirectes \> Retenue à la source \> Codes de retenue à la source**.
 
@@ -41,7 +41,7 @@ Cette rubrique explique comment configurer des codes taxes pour la fonction Taxe
     Le champ **Origine** est automatiquement défini sur **Pourcentage du montant brut**, et la valeur ne peut pas être modifiée.
 
     > [!NOTE]
-    > Vous ne pouvez pas définir l'origine sur **Pourcentage du montant net** pour les codes de taxe du type de taxe TDS.
+    > Vous ne pouvez pas définir l’origine sur **Pourcentage du montant net** pour les codes de taxe du type de taxe TDS.
 
 7. Dans le champ **Composant de retenue à la source**, sélectionnez le composant de taxe TDS pour le code de taxe TDS.
 8. Dans le volet Actions, sélectionnez **Valeurs** pour ouvrir la page **Valeurs de retenue à la source**.
@@ -54,6 +54,6 @@ Cette rubrique explique comment configurer des codes taxes pour la fonction Taxe
 11. Fermez la page **Valeurs de retenue à la source** pour revenir à la page **Codes de retenue à la source**.
 
     > [!NOTE]
-    > Le bouton **Limites** de la page **Codes de retenue à la source** n'est pas disponible pour les codes de taxe du type de taxe TDS.
+    > Le bouton **Limites** de la page **Codes de retenue à la source** n’est pas disponible pour les codes de taxe du type de taxe TDS.
 
 12. Fermez la page.

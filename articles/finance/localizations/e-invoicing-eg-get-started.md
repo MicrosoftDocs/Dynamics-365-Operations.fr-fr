@@ -1,6 +1,6 @@
 ---
 title: Facturation électronique pour l’Égypte
-description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Égypte dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
+description: Cet article donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Égypte dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904410"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Facturation électronique pour l’Égypte
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Égypte. Elle vous guide tout au long des étapes de configuration spécifiques au pays dans Regulatory Configuration Service (RCS). Ces étapes complètent les étapes décrites dans [Configurer la facturation électronique](e-invoicing-set-up-overview.md).
+Cet article donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Égypte. Elle vous guide tout au long des étapes de configuration spécifiques au pays dans Regulatory Configuration Service (RCS). Ces étapes complètent les étapes décrites dans [Configurer la facturation électronique](e-invoicing-set-up-overview.md).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant d’effectuer les étapes de cette rubrique, les conditions préalables suivantes doivent être validées :
+Avant d’effectuer les étapes de cet article, les conditions préalables suivantes doivent être validées :
 
 - Familiarisez-vous avec la facturation électronique telle qu’elle est décrite dans [Présentation de la facturation électronique](e-invoicing-service-overview.md).
 - Inscrivez-vous à RCS et configurez la facturation électronique. Pour plus d’informations, voir les rubriques suivantes :

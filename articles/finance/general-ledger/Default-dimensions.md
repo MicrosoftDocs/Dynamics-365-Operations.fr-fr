@@ -1,6 +1,6 @@
 ---
 title: Dimension financières et validation
-description: Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifier la manière dont les différents composants fonctionneront ensemble lorsque vous validez un document ou un journal. Ces composants incluent les structures de compte, des règles avancées, et bilan et des dimensions fixes. Cette rubrique explique ce qu’est chaque composant et comment les composants fonctionnent ensemble.
+description: Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifier la manière dont les différents composants fonctionneront ensemble lorsque vous validez un document ou un journal. Ces composants incluent les structures de compte, des règles avancées, et bilan et des dimensions fixes. Cet article explique ce qu’est chaque composant et comment les composants fonctionnent ensemble.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910111"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimension financières et validation 
 
 [!include [banner](../includes/banner.md)]
 
-Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifier la manière dont les différents composants fonctionneront ensemble lorsque vous validez un document ou un journal. Ces composants incluent les structures de compte, des règles avancées, et bilan et des dimensions fixes. Cette rubrique explique ce qu’est chaque composant et comment les composants fonctionnent ensemble.
+Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifier la manière dont les différents composants fonctionneront ensemble lorsque vous validez un document ou un journal. Ces composants incluent les structures de compte, des règles avancées, et bilan et des dimensions fixes. Cet article explique ce qu’est chaque composant et comment les composants fonctionnent ensemble.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Composants Plan de comptes et Dimension financière
 
@@ -46,7 +46,7 @@ Vous pouvez définir facultativement une dimension financière d’équilibrage.
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Dimensions financières par défaut/fixes sur le compte principal
 
-Les dimensions par défaut provenant de divers endroits, telles que les enregistrements principaux (par exemple, enregistrements client ou fournisseur), les en-têtes de document, et le compte principal. Cette rubrique décrit sur les dimensions par défaut sur le compte principal par entité juridique. Vous pouvez définir si un compte principal a une valeur **Non fixe** ou **Fixe** pour chaque dimension financière utilisée dans toutes les structures de compte pour la comptabilité. Si une dimension financière est **Non fixe**, elle utilise une valeur par défaut, mais cette valeur peut être remplacée. Ceci s’applique à toutes les valeurs par défaut dans le système, même les valeurs par défaut provenant des enregistrements principaux. Si une dimension financière est égale à une valeur **Fixe**, cette valeur est toujours appliquée, même si elle provenait de quelque part comme valeur par défaut ou que l’utilisateur l’a saisie.
+Les dimensions par défaut provenant de divers endroits, telles que les enregistrements principaux (par exemple, enregistrements client ou fournisseur), les en-têtes de document, et le compte principal. Cet article décrit sur les dimensions par défaut sur le compte principal par entité juridique. Vous pouvez définir si un compte principal a une valeur **Non fixe** ou **Fixe** pour chaque dimension financière utilisée dans toutes les structures de compte pour la comptabilité. Si une dimension financière est **Non fixe**, elle utilise une valeur par défaut, mais cette valeur peut être remplacée. Ceci s’applique à toutes les valeurs par défaut dans le système, même les valeurs par défaut provenant des enregistrements principaux. Si une dimension financière est égale à une valeur **Fixe**, cette valeur est toujours appliquée, même si elle provenait de quelque part comme valeur par défaut ou que l’utilisateur l’a saisie.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Ordre dans lequel les dimensions par défaut sont appliquées pendant la validation
 
@@ -89,11 +89,11 @@ Toutefois, si la ligne est validée, la dimension fixe est appliquée, et la lig
 
 Cet exemple utilise le même paramétrage que le premier exemple. Cependant, nous ajoutons un second composant et utilisons la dimension Département en tant que dimension d’équilibrage. Dans l’illustration suivante, **Département** est défini comme dimension financière pour la comptabilité USMF.
 
-[![Illustration montrant le Département comme dimension financière d'équilibrage.](./media/ledger.png)](./media/ledger.png)
+[![Illustration montrant le Département comme dimension financière d’équilibrage.](./media/ledger.png)](./media/ledger.png)
 
 Lorsque le même paramétrage d’en-tête de journal est utilisé, et que la même transaction est validée, la dimension fixe est appliquée en premier. Puis la logique d’équilibrage est appliquée pour garantir que chaque département a une entrée équilibrée. L’illustration suivante présente des pièces comptables incluant l’entrée d’équilibrage après que la dimension fixe a été appliquée.
 
-[![Justificatifs de transaction après l'application de l'entrée d'équilibrage.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Justificatifs de transaction après l’application de l’entrée d’équilibrage.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Exemple 3
 

@@ -1,6 +1,6 @@
 ---
 title: Système d’aide (contient une vidéo)
-description: Cette rubrique offre une vue d’ensemble du système d’aide pour les applications Finances et Opérations.
+description: Cet article offre une vue d’ensemble du système d’aide pour les applications de finances et d’opérations.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898367"
 ---
 # <a name="help-system"></a>Système d’aide
 
@@ -70,7 +70,7 @@ Vous pouvez également vous abonner à un flux RSS par application :
 
 ### <a name="leave-us-feedback"></a>Laissez-nous des commentaires
 
-Si vous avez des commentaires ou des questions sur une rubrique, laissez-nous un commentaire au bas de la page.
+Si vous avez des commentaires ou des questions sur un article, laissez-nous un commentaire au bas de la page.
 
 1. Cliquez sur **Commentaires** pour accéder aux commentaires en bas de la page. Ensuite, sélectionnez soit **Commentaire sur le produit** soit **Connexion pour fournir des commentaires sur la documentation**.
 
@@ -83,7 +83,7 @@ Si vous avez des commentaires ou des questions sur une rubrique, laissez-nous un
 
 ## <a name="contribute-to-the-documentation"></a>Participation à la documentation
 
-Vous pouvez participer à la documentation et y apporter des modifications. Pour commencer, cliquez sur le bouton **Modifier** (crayon) dans une rubrique. La vidéo suivante vous explique comment vous pouvez contribuer à notre documentation.
+Vous pouvez participer à la documentation et y apporter des modifications. Pour commencer, cliquez sur le bouton **Modifier** (crayon) dans un article. La vidéo suivante vous explique comment vous pouvez contribuer à notre documentation.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Pour plus d’informations, consultez le [guide du contributeur](/contribute), q
 
 Un guide de tâche est une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d’une tâche ou d’un processus métier. Vous pouvez lire un guide de tâche à partir du volet **Aide**. Lorsque vous cliquez sur un guide de tâche, le volet **Aide** affiche les instructions pas-à-pas concernant la tâche. Des guides des tâches localisés sont disponibles.
 
-Microsoft a publié des bibliothèques de guides de tâches pour les versions de produits jusqu’à la version de décembre 2017 de Dynamics 365 for Finance and Operations. La section [Accès aux guides de tâche à partir du volet Aide](#accessing-task-guides-from-the-help-pane) de cette rubrique décrit comment trouver les guides de tâche appropriés à votre produit.
+Microsoft a publié des bibliothèques de guides de tâches pour les versions de produits jusqu’à la version de décembre 2017 de Dynamics 365 for Finance and Operations. La section [Accès aux guides de tâche à partir du volet Aide](#accessing-task-guides-from-the-help-pane) de cet article décrit comment trouver les guides de tâche appropriés à votre produit.
 
 ![Vue de lecture du Guide de tâche.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Pour accéder au contenu de l’aide, sélectionnez le bouton **Aide** (**?**), 
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Accès aux rubriques d’aide à partir du volet Aide
 
-À partir du volet **Aide**, vous pouvez accéder aux rubriques qui s’appliquent au client. En ouvrant le volet **Aide** et en cliquant sur l’onglet **Aide**, vous accédez aux rubriques qui s’appliquent à la page sur laquelle vous vous trouvez. Si aucune rubrique n’est trouvée, vous pouvez entrer des mots clés pour affiner votre recherche. Lorsque vous sélectionnez une rubrique dans le volet **Aide**, il s’ouvre sur un nouvel onglet dans votre navigateur.
+À partir du volet **Aide**, vous pouvez accéder aux rubriques qui s’appliquent au client. En ouvrant le volet **Aide** et en cliquant sur l’onglet **Aide**, vous accédez aux rubriques qui s’appliquent à la page sur laquelle vous vous trouvez. Si aucune rubrique n’est trouvée, vous pouvez entrer des mots clés pour affiner votre recherche. Lorsque vous sélectionnez un article dans le volet **Aide**, il s’ouvre sur un nouvel onglet dans votre navigateur.
 
 > [!IMPORTANT]
 > Cette section ne s’applique pas à Dynamics 365 Human Resources. Le système d’aide de Human Resources est automatiquement connecté aux guides de tâche pour le produit. Par ailleurs, vous ne pouvez pas créer de guides de tâche personnalisés pour Human Resources.

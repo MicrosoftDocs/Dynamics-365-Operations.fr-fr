@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources - 23 août 2021
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 23 août 2021.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 23 août 2021.
 author: marcelbf
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 21c3448c373600ffebca82be41fb5849b952dfe1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 91c2cd396ca26cc78c3fd4fab40a29b98a7826c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909728"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-23-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources - 23 août 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Microsoft Dynamics 365 Human Resources.
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Microsoft Dynamics 365 Human Resources.
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -40,17 +40,17 @@ Cette version inclut les nouvelles fonctionnalités et correctifs de bogues suiv
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui auront été intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
 | Numéro du problème | Problème | Description |
 | --- | --- | --- |
-| 594066 | Impossible de supprimer les informations de contact | Lorsque vous choisissez de supprimer un enregistrement d'informations de contact pour un employé, un enregistrement d'informations de contact autre que l'enregistrement sélectionné est supprimé à la place. |
-| 611339 | L'ajout d'une personnalisation fait que le compte bancaire ignore le filtre et récupère le premier enregistrement | L'ajout d'une personnalisation entraîne l'exécution d'une requête de personnalisation par la liste des comptes bancaires après l'exécution de la requête de source de données ; cela entraîne la récupération du premier enregistrement, quel que soit le collaborateur pour lequel les détails sont affichés. |
-| 591806 | Les tâches de date d'échéance d'intégration sont mal calculées | Les dates d'échéance sont calculées de manière incorrecte lorsque les conditions suivantes existent : les listes de contrôle qui sont créées utilisent un calendrier qui utilise une plage de temps étendue (par exemple de 2005 à 2050) et les préférences de l'utilisateur utilisent un fuseau horaire autre que CST (UTC-6). |   
-| 592749 | Le solde des congés est incorrect dans le **Libre service des employés** | Si l'employé a un emploi dans plusieurs entités juridiques et que la vue des congés intersociétés est activée, le solde des congés peut être incorrect. |
-| 603133 | Avertissement inattendu lors d'une demande de congé | Lors de la demande de congé, le fait de renseigner le champ **Demi-journée** avant le champ **Quantité** provoque un avertissement inattendu. |
-| 606546 | Champ de sélection non visible dans Congés approuvés | La case à cocher permettant de sélectionner plusieurs demandes de congé approuvées n'était pas visible. |
-| 597059 | Collaborateur non visible dans le **Calendrier des congés et absences de l'entreprise** | Un collaborateur n'est pas visible dans le **Calendrier des congés et absences de l'entreprise** si la plage de dates appliquée comprend un jour pour lequel une demande de congé lui a été refusée. |
+| 594066 | Impossible de supprimer les informations de contact | Lorsque vous choisissez de supprimer un enregistrement d’informations de contact pour un employé, un enregistrement d’informations de contact autre que l’enregistrement sélectionné est supprimé à la place. |
+| 611339 | L’ajout d’une personnalisation fait que le compte bancaire ignore le filtre et récupère le premier enregistrement | L’ajout d’une personnalisation entraîne l’exécution d’une requête de personnalisation par la liste des comptes bancaires après l’exécution de la requête de source de données ; cela entraîne la récupération du premier enregistrement, quel que soit le collaborateur pour lequel les détails sont affichés. |
+| 591806 | Les tâches de date d’échéance d’intégration sont mal calculées | Les dates d’échéance sont calculées de manière incorrecte lorsque les conditions suivantes existent : les listes de contrôle qui sont créées utilisent un calendrier qui utilise une plage de temps étendue (par exemple de 2005 à 2050) et les préférences de l’utilisateur utilisent un fuseau horaire autre que CST (UTC-6). |   
+| 592749 | Le solde des congés est incorrect dans le **Libre service des employés** | Si l’employé a un emploi dans plusieurs entités juridiques et que la vue des congés intersociétés est activée, le solde des congés peut être incorrect. |
+| 603133 | Avertissement inattendu lors d’une demande de congé | Lors de la demande de congé, le fait de renseigner le champ **Demi-journée** avant le champ **Quantité** provoque un avertissement inattendu. |
+| 606546 | Champ de sélection non visible dans Congés approuvés | La case à cocher permettant de sélectionner plusieurs demandes de congé approuvées n’était pas visible. |
+| 597059 | Collaborateur non visible dans le **Calendrier des congés et absences de l’entreprise** | Un collaborateur n’est pas visible dans le **Calendrier des congés et absences de l’entreprise** si la plage de dates appliquée comprend un jour pour lequel une demande de congé lui a été refusée. |
 
 
 ## <a name="in-preview"></a>En mode aperçu

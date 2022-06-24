@@ -1,6 +1,6 @@
 ---
 title: Utiliser des flux de travail pour gérer les informations relatives aux employés
-description: Cette rubrique explique comment utiliser les workflows pour gérer les informations des employés.
+description: Cet article explique comment utiliser les workflows pour gérer les informations des employés.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908799"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Utiliser des flux de travail pour gérer les informations relatives aux employés
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691524"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d’approbation qui démarre lorsque les employés modifient leur enregistrement.
+Cet article explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d’approbation qui démarre lorsque les employés modifient leur enregistrement.
 
 La capacité de workflow pour les ressources humaines fournit de nombreux workflows pour gérer les activités des ressources humaines. En outre, de nombreuses options sont disponibles pour modifier des workflows spécifiques et les associer à une hiérarchie de génération d’états. Les workflows sont disponibles pour faciliter la gestion des modifications de plusieurs types d’informations des employés. Vous pouvez associer un workflow à un poste. Ensuite, si les employés modifient leur enregistrement d’employé, un workflow nécessitant une approbation démarre que les nouvelles informations soient enregistrées. Les workflows sont prédéfinis pour les types d’informations suivants, afin de vous aider à gérer efficacement les modifications et à tenir à jour les données des employés :
 

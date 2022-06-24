@@ -1,6 +1,6 @@
 ---
-title: FAQ Workflow
-description: Cette rubrique répond à des questions fréquentes sur le système de workflow.
+title: FAQ sur les workflows
+description: Cet article répond à des questions fréquentes sur le système de workflow.
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896577"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -26,7 +26,7 @@ ms.locfileid: "8370878"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Cette rubrique répond à des questions fréquentes sur le système de workflow.
+Cet article répond à des questions fréquentes sur le système de workflow.
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>Pourquoi plusieurs notifications sont-elles reçues lorsqu’un élément de travail est rejeté ?
 Lors du rejet d’un élément de travail, ce dernier est défini comme rejeté. Un autre élément de travail est créé et attribué à l’expéditeur. Autrement dit, une notification est envoyée à l’expéditeur concernant le rejet de l’élément de travail et une notification distincte est envoyée à l’utilisateur assigné au nouvel élément de travail « Modification requise ». 

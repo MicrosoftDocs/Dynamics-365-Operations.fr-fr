@@ -1,6 +1,6 @@
 ---
-title: Paramétrez et exécutez le traitement pour appeler format d'exportation d'ER pour générer un état d'Excel
-description: Cette rubrique fournit un exemple qui montre comment configurer et utiliser des messages électroniques.
+title: Paramétrez et exécutez le traitement pour appeler format d’exportation d’ER pour générer un état d’Excel
+description: Cet article fournit un exemple qui montre comment configurer et utiliser des messages électroniques.
 author: liza-golub
 ms.date: 07/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c2735df09ecf029503ae96a88a523ea40197da8f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9894aabde854189e6fc1b6bb62051747f190e3ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904584"
 ---
-# <a name="set-up-and-run-processing-to-call-a-simple-exporting-er-format-to-generate-an-excel-report"></a>Paramétrez et exécutez le traitement pour appeler format d'exportation d'ER pour générer un état d'Excel
+# <a name="set-up-and-run-processing-to-call-a-simple-exporting-er-format-to-generate-an-excel-report"></a>Paramétrez et exécutez le traitement pour appeler format d’exportation d’ER pour générer un état d’Excel
 
 [!include [banner](../includes/banner.md)]
 
-Après avoir créé votre format d’ER, l’avoir mappé à des sources de données, et l’avoir terminé, vous pouvez l’exécuter à partir de l’espace de travail **Gestion des états électroniques**. Une fois l'état généré, vous pouvez enregistrer localement.
+Après avoir créé votre format d’ER, l’avoir mappé à des sources de données, et l’avoir terminé, vous pouvez l’exécuter à partir de l’espace de travail **Gestion des états électroniques**. Une fois l’état généré, vous pouvez enregistrer localement.
 
 Pour contrôler les aspects suivants du processus de gestion d’états, paramétrez le traitement par messagerie électronique :
 
@@ -33,7 +33,7 @@ Pour contrôler les aspects suivants du processus de gestion d’états, paramé
 - Enregistrez les informations sur le moment de génération de l’état.
 - Enregistrez les états générés pour les périodes précédentes.
 
-L'exemple suivant indique comment paramétrer la messagerie électronique pour générer un état basé sur un format d’exportation ER pour Microsoft Excel. Si vous souhaitez suivre cet exemple, le format d’exportation Excel des états électroniques doit déjà être créé, mappé sur des sources de données, et être terminé. En outre, une souche de numéros doit déjà être paramétrée pour les messages électroniques.
+L’exemple suivant indique comment paramétrer la messagerie électronique pour générer un état basé sur un format d’exportation ER pour Microsoft Excel. Si vous souhaitez suivre cet exemple, le format d’exportation Excel des états électroniques doit déjà être créé, mappé sur des sources de données, et être terminé. En outre, une souche de numéros doit déjà être paramétrée pour les messages électroniques.
 
 Lorsque vous créez le traitement, il est utile de commencer par définir les actions et les statuts de traitement à paramétrer. L’illustration suivante présente à quoi ce traitement ressemble pour cet exemple.
 
@@ -113,9 +113,9 @@ Pour cet exemple, toutes les actions doivent être paramétrées de manière à 
 
     ![Mettre à jour le statut du message](media/update-status.png)
 
-    L'état du message est mis à jour sur **Préparé**.
+    L’état du message est mis à jour sur **Préparé**.
 
-7. Générez l'état en sélectionnant **Générer l'état**.
+7. Générez l’état en sélectionnant **Générer l’état**.
 
     L’état est généré, et le statut du message et le journal des actions sont mis à jour.
 

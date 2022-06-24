@@ -1,6 +1,6 @@
 ---
 title: Créer et affecter des structures de règle avancées
-description: Cette rubrique explique comment créer et affecter une structure de règle avancée à une structure de compte.
+description: Cet article explique comment créer et affecter une structure de règle avancée à une structure de compte.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea0a31eeac9593051916d44113459f4b6ad70a92
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 72688642936f9428c96aebb34bf9f240dd48b46b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896317"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Créer et affecter des structures de règle avancées
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment créer et affecter une structure de règle avancée à une structure de compte. La société fictive USMF sert d’exemple dans ce guide.
+Cet article explique comment créer et affecter une structure de règle avancée à une structure de compte. La société fictive USMF sert d’exemple dans ce guide.
 
 ## <a name="create-an-advanced-rule-structure"></a>Créer une structure de règle avancée
 1. Accédez au **Volet de navigation > Modules > Comptabilité > Plan de comptes > Structures > Structures de règles avancées**.

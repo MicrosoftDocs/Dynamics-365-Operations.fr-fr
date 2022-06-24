@@ -1,6 +1,6 @@
 ---
 title: Disponibilité du stock en double écriture
-description: Cette rubrique fournit des informations sur la consultation de la disponibilité du stock en double écriture.
+description: Cet article fournit des informations sur la consultation de la disponibilité du stock en double écriture.
 author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: efd175dfbe49549561bdb7d697c8bc47016f1d5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908260"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilité du stock en double écriture
 
@@ -60,7 +60,7 @@ Lorsque vous sélectionnez le bouton **Stock disponible** sur la page **Devis**,
 
 Les modèles suivants sont disponibles pour exposer les données de stock disponibles.
 
-Applications de Finance and Operations | Applications Customer Engagement     | Description
+Applications de finances et d'opérations | Applications Customer Engagement     | Description
 ---|---|---
 [Entrées disponibles dans le stock CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
 [Demandes disponibles dans le stock CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |

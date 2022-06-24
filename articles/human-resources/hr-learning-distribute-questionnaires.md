@@ -1,6 +1,6 @@
 ---
-title: Distribuer et planifier des questionnaires
-description: Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront.
+title: Distribuer et programmer des questionnaires
+description: Cet article décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a543d9b85edd493f9b5d5a0449302769c3592f7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 91b2c94c74fd51765a2545424504149fff1f4bfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908859"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Distribuer et planifier des questionnaires
+# <a name="distribute-and-schedule-questionnaires"></a>Distribuer et programmer des questionnaires
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront. 
+Cet article décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront. 
 
 Il existe plusieurs méthodes pour distribuer un questionnaire :
 

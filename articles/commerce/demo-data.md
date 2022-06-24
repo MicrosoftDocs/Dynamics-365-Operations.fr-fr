@@ -1,6 +1,6 @@
 ---
 title: Dispositions de l’écran de données de démonstration dans Modern POS (MPOS) et le PDV Cloud
-description: Cette rubrique fournit des informations sur les mises en page d’écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Dynamics 365 Commerce.
+description: Cet article fournit des informations sur les mises en page d’écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897223"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Dispositions de l’écran de données de démonstration dans Modern POS (MPOS) et le PDV Cloud
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur les mises en page d’écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Dynamics 365 Commerce.
+Cet article fournit des informations sur les mises en page d’écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Les exemple de mises en page d’écran qui sont inclus dans les données de démonstration de Commerce fournissent le contenu qui est optimisé pour différents segments de la vente au détail, rôles de travailleur du magasin et périphériques. Une mise en page unique peut contenir plusieurs tailles de mise en page et des combinaisons de groupes de boutons afin de garantir la couverture à mesure que les travailleurs de magasin passent entre les périphériques et les stations. Cette rubrique décrit les différences entre ces mises en page, les opérations qu’elles fournissent, et les expériences générales qu’elles constituent.
+Les exemple de mises en page d’écran qui sont inclus dans les données de démonstration de Commerce fournissent le contenu qui est optimisé pour différents segments de la vente au détail, rôles de travailleur du magasin et périphériques. Une mise en page unique peut contenir plusieurs tailles de mise en page et des combinaisons de groupes de boutons afin de garantir la couverture à mesure que les travailleurs de magasin passent entre les périphériques et les stations. Cet article décrit les différences entre ces mises en page, les opérations qu’elles fournissent, et les expériences générales qu’elles constituent.
 
 ![Mises en page des données de démonstration entre périphériques.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -52,12 +52,12 @@ Les ID mise en page de l’écran peuvent se composer de 10 caractères au maxi
 | Lettre | Société         |
 |--------|-----------------|
 | A      | Adventure Works |
-| V      | Fabrikam        |
+| F      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>Version de la mise en page
 
-| Numéro de version | Description                                                                                 |
+| Numéro de version | Description                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | La version de base qui prend en charge plusieurs tailles d’écran pour différents périphériques et proportions |
 | 3.1            | La version de base qui dispose du support technique supplémentaire du volet **Produits recommandés**        |

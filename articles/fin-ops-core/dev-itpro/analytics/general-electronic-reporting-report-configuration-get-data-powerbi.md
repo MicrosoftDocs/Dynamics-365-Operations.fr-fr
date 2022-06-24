@@ -1,6 +1,6 @@
 ---
 title: Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
-description: Cette rubrique explique comment vous pouvez utiliser la configuration de gestion des états électroniques (ER) pour organiser le transfert des données entre votre instance et les services Power BI.
+description: Cet article explique comment vous pouvez utiliser la configuration de gestion des états électroniques (ER) pour organiser le transfert des données entre votre instance et les services Power BI.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,31 +14,31 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896732"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment vous pouvez utiliser la configuration de gestion des états électroniques (ER) pour organiser le transfert des données entre votre instance et les services Power BI. En guise d’exemple, cette rubrique utilise les transactions de déclaration d’échanges de biens comme données commerciales qui doivent être transférées. La visualisation de carte Power BI utilise ces données de transaction de déclaration d’échanges de biens pour présenter une vue permettant l’analyse des activités d’importation/d’exportation de la société sur l’état Power BI.
+Cet article explique comment vous pouvez utiliser la configuration de gestion des états électroniques (ER) pour organiser le transfert des données entre votre instance et les services Power BI. En guise d’exemple, cet article utilise les transactions de déclaration d’échanges de biens comme données commerciales qui doivent être transférées. La visualisation de carte Power BI utilise ces données de transaction de déclaration d’échanges de biens pour présenter une vue permettant l’analyse des activités d’importation/d’exportation de la société sur l’état Power BI.
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Microsoft Power BI est un ensemble de services logiciels, d’applications et de connecteurs qui fonctionnent ensemble pour transformer des sources de données externes en analyses logiques, visuellement immersives et interactives. La gestion des états électroniques (ER) permet aux utilisateurs de configurer facilement les sources de données et d’organiser le transfert des données à partir de l’application vers Power BI. Les données sont transférées en tant que fichiers dans le format de feuille de calcul OpenXML (fichier classeur Microsoft Excel). Les fichiers transférés sont stockés sur un serveur Microsoft SharePoint Server qui a été configuré à cette fin. Les fichiers stockés sont utilisés dans Power BI pour générer des états qui incluent des visualisations (tableaux, graphiques, cartes, etc.). Les états Power BI sont partagés avec les utilisateurs Power BI, et ils sont accessibles dans les tableaux de bord Power BI et sur les pages de l’application. Cette rubrique décrit les tâches suivantes :
+Microsoft Power BI est un ensemble de services logiciels, d’applications et de connecteurs qui fonctionnent ensemble pour transformer des sources de données externes en analyses logiques, visuellement immersives et interactives. La gestion des états électroniques (ER) permet aux utilisateurs de configurer facilement les sources de données et d’organiser le transfert des données à partir de l’application vers Power BI. Les données sont transférées en tant que fichiers dans le format de feuille de calcul OpenXML (fichier classeur Microsoft Excel). Les fichiers transférés sont stockés sur un serveur Microsoft SharePoint Server qui a été configuré à cette fin. Les fichiers stockés sont utilisés dans Power BI pour générer des états qui incluent des visualisations (tableaux, graphiques, cartes, etc.). Les états Power BI sont partagés avec les utilisateurs Power BI, et ils sont accessibles dans les tableaux de bord Power BI et sur les pages de l’application. Cet article décrit les tâches suivantes :
 
-- Configurez Microsoft Dynamics 365 Finance.
+- Configurer Microsoft Dynamics 365 Finance.
 - Préparez votre configuration du format de gestion des états électroniques pour obtenir des données de l’application Finance.
 - Configurez l’environnement ER pour transférer des données vers Power BI.
 - Utilisez les données transférées pour créer un état Power BI.
 - Rendez l’état Power BI accessible dans Finance.
 
 ## <a name="prerequisites"></a>Conditions préalables
-Pour exécuter l’exemple décrit dans cette rubrique, vous devez disposer de l’accès suivant :
+Pour exécuter l’exemple décrit dans cet article, vous devez disposer de l’accès suivant :
 
 - L’accès pour l’un des rôles suivants :
 

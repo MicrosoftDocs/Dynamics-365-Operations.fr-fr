@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble du module Gestion de document commercial
-description: Cette rubrique fournit des informations sur l’utilisation de la fonctionnalité Gestion de document commercial de la structure de gestion des états électroniques (ER).
+description: Cet article fournit des informations sur l’utilisation de la fonctionnalité Gestion de document commercial de la structure de gestion des états électroniques (ER).
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903615"
 ---
 # <a name="business-document-management-overview"></a>Vue d’ensemble du module Gestion de document commercial
 
@@ -50,7 +50,7 @@ Pour une liste complète de tous les états prévus pour le lancement d’octobr
 
 D’autres états seront disponibles dans les prochaines versions. Des notifications spécifiques sur les états supplémentaires seront envoyées séparément. Pour savoir comment consulter la liste des états actuellement disponibles, consultez la section [Liste des configurations de gestion des états électroniques qui ont été publiées dans Finance pour prendre en charge les documents commerciaux configurables](#list-of-configurations-cbd) ci-après.
 
-Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cette rubrique.
+Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cet article.
 
 ## <a name="configure-er-parameters"></a>Configurer les paramètres ER
 
@@ -231,7 +231,7 @@ Les utilisateurs professionnels peuvent accéder aux modèles de document commer
 - Les utilisateurs ayant le rôle d’**Administrateur système**.
 - Les utilisateurs affectés à n’importe quel rôle qui est configuré pour exécuter la fonction, **Modèles du module Gestion de document commercial** (nom d’AOA **ERBDManageTemplates**).
 
-La procédure suivante permet de modifier des modèles de facture financière dans l’espace de travail du module Gestion de document commercial. Avant de pouvoir exécuter cette procédure, vous devez avoir effectué toutes les procédures précédentes dans cette rubrique.
+La procédure suivante permet de modifier des modèles de facture financière dans l’espace de travail du module Gestion de document commercial. Avant de pouvoir exécuter cette procédure, vous devez avoir effectué toutes les procédures précédentes dans cet article.
 
 1. Connectez-vous en tant qu’utilisateur avec accès à l’espace de travail de gestion des documents commerciaux.
 2. Ouvrez l’espace de travail du module Gestion de document commercial.

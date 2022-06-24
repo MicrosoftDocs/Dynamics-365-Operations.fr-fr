@@ -1,6 +1,6 @@
 ---
 title: Enregistrer l’amortissement des droits d’utilisation de l’actif (version préliminaire)
-description: Cette rubrique explique comment créer l’écriture de journal pour l’amortissement requis pour les contrats de location comptabilisés dans le bilan d’une organisation.
+description: Cet article explique comment créer l’écriture de journal pour l’amortissement requis pour les contrats de location comptabilisés dans le bilan d’une organisation.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903274"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Enregistrer l’amortissement des droits d’utilisation de l’actif (version préliminaire)
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727704"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Pour les contrats de location comptabilisés au bilan d’une organisation, le droit d’utilisation de l’actif est amorti sur une base mensuelle. Cette rubrique explique comment créer l’écriture de journal pour l’amortissement. L’amortissement débite le compte général des dépenses et crédite le compte général des amortissements cumulés, en fonction de la configuration de votre profil comptable et du type de bail. Ces entrées peuvent être créées pour chaque bail ou pour plusieurs baux à l’aide de la fonctionnalité de journal par lots.
+Pour les contrats de location comptabilisés au bilan d’une organisation, le droit d’utilisation de l’actif est amorti sur une base mensuelle. Cet article explique comment créer l’écriture de journal pour l’amortissement. L’amortissement débite le compte général des dépenses et crédite le compte général des amortissements cumulés, en fonction de la configuration de votre profil comptable et du type de bail. Ces entrées peuvent être créées pour chaque bail ou pour plusieurs baux à l’aide de la fonctionnalité de journal par lots.
 
 ## <a name="asset-depreciation-schedule"></a>Tableau de dépréciation des actifs
 
 1. Sur la page **Résumé du bail**, sélectionnez un bail. Puis sélectionnez **Registres \> Plan d’amortissement des actifs** pour ouvrir la page **Plan d’amortissement des actifs**.
 
-    L’écriture de journal des dépenses d’amortissement du droit d’utilisation de l’actif est basée sur le montant de la colonne **Frais d’amortissement**. Pour un exemple des directives relatives à la conformité aux normes comptables, consultez la section [Calcul des dépenses d’amortissement du droit d’utilisation de l’actif pour les contrats de location-financement](#calculation-of-rou-asset-amortization-expense-for-finance-leases) plus loin dans cette rubrique.
+    L’écriture de journal des dépenses d’amortissement du droit d’utilisation de l’actif est basée sur le montant de la colonne **Frais d’amortissement**. Pour un exemple des directives relatives à la conformité aux normes comptables, consultez la section [Calcul des dépenses d’amortissement du droit d’utilisation de l’actif pour les contrats de location-financement](#calculation-of-rou-asset-amortization-expense-for-finance-leases) plus loin dans cet article.
     
 2. Sélectionnez la période d’amortissement, puis sélectionnez **Créer un journal**. Vous recevez un message indiquant que le journal qui sera utilisé pour enregistrer l’amortissement a été créé.
 3. Sélectionnez **Journaux \> Journaux de location d’actifs** pour ouvrir la page **Journal de location d’actifs**, où vous pouvez afficher l’écriture de journal des dépenses d’amortissement qui a été créée.

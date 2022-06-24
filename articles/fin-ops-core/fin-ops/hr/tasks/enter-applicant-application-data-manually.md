@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d59b5a2c99813fee2e12e30e8694edf6da7391d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909247"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Entrer le candidat et les données de la candidature manuellement
 
 > [!NOTE]
-> La fonctionnalité de recrutement dans cette rubrique sera appelée Projets de recrutement et se concentre sur les candidats, les candidatures et les projets de recrutement.  
+> La fonctionnalité de recrutement dans cet article sera appelée Projets de recrutement et se concentre sur les candidats, les candidatures et les projets de recrutement.  
 
 
 Cette procédure permet d’indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature. Vous pouvez entrer et tenir à jour des informations personnelles, les dates et heures d’entretien, les références, les compétences et les demandes de logement des candidats. Vous pouvez également mettre à jour le statut des candidatures d’emploi et créer des lettres ou des messages électroniques pour communiquer avec des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d’adresses global. Les données fictives utilisées pour créer cette procédure correspondent à la société **USMF**.

@@ -1,6 +1,6 @@
 ---
 title: Résultats des modèles Machine Learning
-description: Cette rubrique traite des matrices de confusion, des problèmes de classification et de la précision des modèles de Machine Learning (ML). Le but est d’améliorer votre compréhension de la précision des résultats de prédiction ML.
+description: Cet article traite des matrices de confusion, des problèmes de classification et de la précision des modèles de Machine Learning (ML). Le but est d’améliorer votre compréhension de la précision des résultats de prédiction ML.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910169"
 ---
 # <a name="results-of-machine-learning-models"></a>Résultats des modèles Machine Learning
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique traite des matrices de confusion, des problèmes de classification et de la précision des modèles de Machine Learning (ML). Le but est d’améliorer votre compréhension de la précision des résultats de prédiction ML. Le public cible comprend des ingénieurs, des analystes et des gestionnaires qui souhaitent développer leurs connaissances et leurs compétences en science des données.
+Cet article traite des matrices de confusion, des problèmes de classification et de la précision des modèles de Machine Learning (ML). Le but est d’améliorer votre compréhension de la précision des résultats de prédiction ML. Le public cible comprend des ingénieurs, des analystes et des gestionnaires qui souhaitent développer leurs connaissances et leurs compétences en science des données.
 
 ## <a name="confusion-matrix"></a>Matrice de confusion
 Une fois qu’un problème de ML supervisé est formé sur un jeu de données historiques, il est testé à l’aide de données qui ne sont pas conservées dans le processus de formation. De cette manière, vous pouvez comparer les prédictions du modèle formé avec les valeurs réelles. La matrice de confusion fournit un moyen d’évaluer le succès d’un problème de classification et où il fait des erreurs (c’est-à-dire où il devient "confus").
@@ -73,7 +73,7 @@ La précision est un outil important pour communiquer avec des spécialistes du 
 
 Pour le scénario de prédiction de paiement, vous pouvez définir une cible pour le modèle ML qui inclut des facteurs dans différents comportements de paiement. L’objectif est que le modèle s’améliore sur une estimation naïve en réduisant le nombre de réponses incorrectes d’au moins 50 pour cent. En d’autres termes, vous voulez une précision cible qui divise la différence entre la précision d’une estimation naïve et 100 %.
 
-Le tableau suivant résume ce principe pour les matrices de confusion de cette rubrique.
+Le tableau suivant résume ce principe pour les matrices de confusion de cet article.
 
 | Modèle   | Supposition naïve | Cible | Précision du modèle | L’objectif est-il atteint ?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
@@ -82,7 +82,7 @@ Le tableau suivant résume ce principe pour les matrices de confusion de cette r
 
 ## <a name="classification-f1-accuracy"></a>Précision de classification F1
 
-La considération finale dans cette rubrique est une mesure plus avancée des performances de classification ML, connue sous le nom de précision F1.
+La considération finale dans cet article est une mesure plus avancée des performances de classification ML, connue sous le nom de précision F1.
 
 Avant que la précision F1 ne puisse être définie, deux mesures supplémentaires doivent être introduites : la précision et le rappel. La précision indique combien du nombre total de prédictions spécifiées comme positives sont correctement affectées. Cette métrique est également connue sous le nom de valeur prédictive positive. Le rappel est le nombre total de cas positifs réels qui ont été correctement prédits. Cette métrique est également connue sous le nom de sensibilité.
 
@@ -97,7 +97,7 @@ La mesure F1 combine précision et rappel. Le résultat est la moyenne harmoniqu
 
 - F1 = 2 × (Précision × Rappel) ÷ (Précision + Rappel)
 
-Regardons un exemple concret. Plus tôt dans ce sujet, il y avait un exemple de modèle qui prédisait si un animal était un chien ou un chat. L’illustration est répétée ici.
+Regardons un exemple concret. Plus tôt dans cet article, il y avait un exemple de modèle qui prédisait si un animal était un chien ou un chat. L’illustration est répétée ici.
 
 [![Exemple de prédiction d’espèce (périodique).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Comme vous pouvez le voir, la valeur F1 se situe entre les valeurs de précision
 
 Bien que la précision F1 ne soit pas aussi facile à comprendre, elle ajoute de la nuance au nombre de précision de base. Cela peut également aider avec des jeux de données déséquilibrés, comme le montre la discussion suivante.
 
-La section [Précision du modèle](#model-accuracy) de cette rubrique a comparé les deux matrices de confusion suivantes. Même si le premier modèle était moins précis, il a été considéré comme un modèle plus utile car il montrait plus d’amélioration que l’estimation par défaut d’un paiement à temps.
+La section [Précision du modèle](#model-accuracy) de cet article a comparé les deux matrices de confusion suivantes. Même si le premier modèle était moins précis, il a été considéré comme un modèle plus utile car il montrait plus d’amélioration que l’estimation par défaut d’un paiement à temps.
 
 ![Exemple de prédiction de paiement contre réel.](media/payment-prediction-matrix.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Créer des modèles d’e-mail pour les événements transactionnels
-description: Cette rubrique décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910548"
 ---
-# <a name="create-email-templates-for-transactional-events"></a>Créer des modèles de messages électroniques pour les événements transactionnels
+# <a name="create-email-templates-for-transactional-events"></a>Créer des modèles d’e-mail pour les événements transactionnels
 
 [!include [banner](includes/banner.md)]
 
 
-Cette rubrique décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
 
-Dynamics 365 Commerce fournit une solution prête à l’emploi pour l’envoi d’e-mails qui alertent les clients sur des événements transactionnels. Par exemple, des e-mails peuvent être envoyés lorsqu’une commande est passée, est prête à être récupérée ou a été expédiée. Cette rubrique décrit les étapes de création, de téléchargement et de configuration des modèles d’e-mail utilisés pour envoyer des e-mails transactionnels.
+Dynamics 365 Commerce fournit une solution prête à l’emploi pour l’envoi d’e-mails qui alertent les clients sur des événements transactionnels. Par exemple, des e-mails peuvent être envoyés lorsqu’une commande est passée, est prête à être récupérée ou a été expédiée. Cet article décrit les étapes de création, de téléchargement et de configuration des modèles d’e-mail utilisés pour envoyer des e-mails transactionnels.
 
 ## <a name="notification-types"></a>Types de notification
 

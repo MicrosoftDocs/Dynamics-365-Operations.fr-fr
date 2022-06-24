@@ -1,6 +1,6 @@
 ---
 title: Présentation des demandes d’achat
-description: Cette rubrique décrit le workflow de demande d’achat et les différents statuts d’une demande d’achat.
+description: Cet article décrit le workflow de demande d'achat et les différents statuts qu'une demande d'achat peut avoir.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6524229800233d1bfdf54a11afc122990eed9d3
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a7430e18779dc2c37f74e6d25c95836f4fbc435d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905745"
 ---
 # <a name="purchase-requisition-overview"></a>Présentation des demandes d’achat
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le workflow de demande d’achat et les différents statuts d’une demande d’achat.
+Cet article décrit le workflow de demande d'achat et les différents statuts qu'une demande d'achat peut avoir.
 
 En fonction du paramétrage de votre organisation, vous pouvez créer des demandes d’achat pour les produits utilisés par votre organisation. Une demande d’achat est un document interne qui autorise le département Achats à acheter des articles ou des services.  
 

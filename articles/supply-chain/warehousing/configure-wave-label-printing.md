@@ -1,6 +1,6 @@
 ---
-title: Impression d’étiquettes de la vague
-description: Cette rubrique décrit l’impression d’étiquettes de vague et explique comment la configurer.
+title: Impression d’étiquettes de vague
+description: Cet article décrit l’impression d’étiquettes de vague et explique comment la configurer.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901819"
 ---
 # <a name="wave-label-printing"></a>Impression d’étiquettes de la vague
 
@@ -49,7 +49,7 @@ L’impression d’étiquettes de vague offre les améliorations suivantes :
 Ces améliorations rendent plus efficace l’étiquetage des cartons avant la palettisation. Elles profitent particulièrement aux entreprises qui livrent à de grands distributeurs qui confirment automatiquement la réception des commandes en scannant chaque carton séparément.
 
 > [!NOTE]
-> Vous pouvez implémenter les scénarios de configuration décrits dans cette rubrique séparément ou en combinaison, selon les besoins de votre entreprise. Vous pouvez concevoir plusieurs modèles d’étiquettes de vague qui fonctionnent en séquence (comme illustré dans le scénario 3). Par exemple, vous pouvez utiliser le scénario 1 pour imprimer des étiquettes de carton et le scénario 2 pour imprimer des étiquettes de palette (si les palettes en stock varient en taille et en composition).
+> Vous pouvez implémenter les scénarios de configuration décrits dans cet article séparément ou en combinaison, selon les besoins de votre entreprise. Vous pouvez concevoir plusieurs modèles d’étiquettes de vague qui fonctionnent en séquence (comme illustré dans le scénario 3). Par exemple, vous pouvez utiliser le scénario 1 pour imprimer des étiquettes de carton et le scénario 2 pour imprimer des étiquettes de palette (si les palettes en stock varient en taille et en composition).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Activer la fonctionnalité d’impression d’étiquette de vague
 

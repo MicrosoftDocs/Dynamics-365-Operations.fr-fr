@@ -1,6 +1,6 @@
 ---
-title: Automatisation du processus de recouvrement
-description: Cette rubrique décrit le processus de configuration des stratégies de processus de recouvrement qui identifient automatiquement les factures client qui nécessitent un rappel par e-mail, une activité de recouvrement ou une lettre de recouvrement à envoyer au client.
+title: Automatisation du processus de recouvrements
+description: Cet article décrit le processus de configuration des stratégies de processus de recouvrement qui identifient automatiquement les factures client qui nécessitent un rappel par e-mail, une activité de recouvrement ou une lettre de recouvrement à envoyer au client.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486867"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946176"
 ---
 # <a name="collections-process-automation"></a>Automatisation du processus de recouvrements
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le processus de configuration des stratégies de processus de recouvrement qui identifient automatiquement les factures client qui nécessitent un rappel par e-mail, une activité de recouvrement (comme un appel téléphonique) ou une lettre de recouvrement à envoyer au client. 
+Cet article décrit le processus de configuration des stratégies de processus de recouvrement qui identifient automatiquement les factures client qui nécessitent un rappel par e-mail, une activité de recouvrement (comme un appel téléphonique) ou une lettre de recouvrement à envoyer au client. 
 
 Les organisations passent souvent beaucoup de temps à effectuer des recherches dans des états de solde chronologiques, des comptes client et des factures ouvertes pour savoir quels clients doivent être contactés au sujet d’une facture ouverte ou d’un solde de compte. Cette recherche réduit le temps passé par un agent de recouvrement à communiquer avec les clients pour recouvrer les soldes en souffrance ou résoudre les litiges relatifs aux factures. L’automatisation du processus de recouvrement vous permet de définir une approche stratégique de votre processus de recouvrement. Cela vous aide à appliquer les activités de recouvrement de manière cohérente en fournissant des rappels par e-mail personnalisés ou un processus programmé pour l’envoi de lettres de recouvrement. 
 

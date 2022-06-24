@@ -1,6 +1,6 @@
 ---
 title: Prise en charge de la double devise pour la taxe
-description: Cette rubrique explique comment étendre la fonctionnalité comptable Double devise dans le domaine fiscal, ainsi que l’impact sur le calcul de la taxe et la validation
+description: Cet article explique comment étendre la fonctionnalité comptable Double devise dans le domaine fiscal, ainsi que l’impact sur le calcul de la taxe et la validation
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909038"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Prise en charge de la double devise pour la taxe
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment étendre la fonctionnalité comptable Double devise pour les taxes, ainsi que l’impact sur les calculs de la taxe, la validation et les règlements.
+Cet article explique comment étendre la fonctionnalité comptable Double devise pour les taxes, ainsi que l’impact sur les calculs de la taxe, la validation et les règlements.
 
 La fonctionnalité Double devise pour Dynamics 365 Finance a été introduite dans la version 8.1 (octobre 2018). Elle modifie la façon dont les écritures comptables dans la devise de déclaration sont calculées.
 
@@ -89,7 +89,7 @@ Cette fonctionnalité ne s’appliquera qu’aux nouvelles transactions. Pour la
 
 Pour éviter le scénario précédent, nous vous recommandons de modifier cette valeur de paramètre dans une nouvelle période de règlement de la taxe qui ne contient aucune transaction de taxe non réglée. Pour modifier cette valeur au cours d’une période de règlement de la taxe, exécutez le programme « Régler et valider la taxe » pour la période de règlement de la taxe actuelle avant de modifier cette valeur de paramètre.
 
-Cette fonctionnalité ajoutera des écritures comptables qui clarifient les gains et les pertes des changes. Les écritures seront créées dans les comptes de profits et pertes d’ajustement de devise réalisés lorsque la réévaluation est effectuée pendant le règlement de la taxe. Pour plus d’informations, consultez la section [Équilibrage automatique du règlement de la taxe dans la devise de déclaration](#tax-settlement-auto-balance-in-reporting-currency) plus loin dans cette rubrique.
+Cette fonctionnalité ajoutera des écritures comptables qui clarifient les gains et les pertes des changes. Les écritures seront créées dans les comptes de profits et pertes d’ajustement de devise réalisés lorsque la réévaluation est effectuée pendant le règlement de la taxe. Pour plus d’informations, consultez la section [Équilibrage automatique du règlement de la taxe dans la devise de déclaration](#tax-settlement-auto-balance-in-reporting-currency) plus loin dans cet article.
 
 > [!NOTE]
 > Lors du règlement, les informations des dimensions financières sont extraites des comptes de taxe, qui sont des comptes de bilan, et saisies dans les comptes de profits et pertes d’ajustement de devise, qui sont des comptes de relevé de profits et pertes. Étant donné que les restrictions sur la valeur des dimensions financières diffèrent entre les comptes de bilan et les comptes de relevé de profits et pertes, une erreur peut se produire pendant le processus Régler et valider la taxe. Pour éviter de devoir modifier les structures du compte, vous pouvez activer la fonctionnalité « Renseigner les dimensions financières des comptes de profits/pertes d’ajustement de devise réalisés pour le règlement de la taxe ». Cette fonctionnalité forcera la dérivation des dimensions financières vers les comptes de profits/pertes d’ajustement de devise. 

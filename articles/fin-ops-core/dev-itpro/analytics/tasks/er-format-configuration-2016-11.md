@@ -1,6 +1,6 @@
 ---
 title: ER Créer une configuration de format (novembre 2016)
-description: Cette rubrique explique comment créer une configuration de format pour la gestion des états électroniques
+description: Cet article explique comment créer une configuration de format pour la gestion des états électroniques
 author: NickSelin
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902652"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Créer une configuration de format (novembre 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER). Cette configuration de formats définira le format des documents électroniques utilisés pour traiter les paiements. Dans cet exemple, vous allez créer une configuration de format pour la société témoin, Litware, Inc. Pour effectuer ces étapes, vous devez d’abord accomplir celles de la procédure « Mettre en relation le modèle aux sources de données sélectionnées ».
+Cet article explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER). Cette configuration de formats définira le format des documents électroniques utilisés pour traiter les paiements. Dans cet exemple, vous allez créer une configuration de format pour la société témoin, Litware, Inc. Pour effectuer ces étapes, vous devez d’abord accomplir celles de la procédure « Mettre en relation le modèle aux sources de données sélectionnées ».
 
 
 ## <a name="create-a-new-format-configuration"></a>Créer une configuration de format

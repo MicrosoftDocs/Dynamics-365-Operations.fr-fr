@@ -1,6 +1,6 @@
 ---
 title: Adresse du collaborateur avec paie
-description: Cette rubrique fournit des détails et un exemple de requête pour l’entité Adresse du collaborateur avec paie dans Dynamics 365 Human Resources.
+description: Cet article fournit des détails et un exemple de requête pour l’entité Adresse du collaborateur avec paie dans Dynamics 365 Human Resources.
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70e42cbf657a28327699d927731edd36de7c4a64
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 683994b24113b8c2017f1bb3c1055e7e0f0eb75e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901116"
 ---
 # <a name="payroll-worker-address"></a>Adresse du collaborateur avec paie
 
@@ -27,11 +27,11 @@ ms.locfileid: "8069755"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit l’entité de l’adresse du collaborateur de la paie pour Dynamics 365 Human Resources.
+Cet article décrit l’entité de l’adresse du collaborateur de la paie pour Dynamics 365 Human Resources.
 
 Nom physique : mshr_payrollworkeraddressentity.
 
-### <a name="description"></a>Description 
+### <a name="description"></a>Description
 
 Cette entité fournit le lieu de résidence de la paie et le lieu de travail de la paie pour un employé donné.
 
@@ -56,7 +56,7 @@ Cette entité fournit le lieu de résidence de la paie et le lieu de travail de 
 
 ## <a name="relations"></a>Relations
 
-| Valeur de propriété  | Entité liée | Propriété de navigation | Type de collection |
+| Valeur de propriété | Entité liée | Propriété de navigation | Type de collection |
 | --- | --- | --- | --- |
 | _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 

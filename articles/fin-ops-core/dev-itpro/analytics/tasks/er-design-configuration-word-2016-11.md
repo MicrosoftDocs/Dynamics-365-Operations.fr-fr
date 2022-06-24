@@ -1,6 +1,6 @@
 ---
-title: Réutiliser les configurations ER avec des modèles Excel pour générer des rapports au format Word
-description: Cette rubrique décrit comment les formats d’état conçus pour générer des états sous forme de classeurs Excel peuvent être configurés pour générer des états sous forme de documents Word.
+title: Réutiliser les configurations ER avec des modèles Excel pour générer des états au format Word
+description: Cet article décrit comment les formats d’état conçus pour générer des états sous forme de classeurs Excel peuvent être configurés pour générer des états sous forme de documents Word.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910384"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Réutiliser les configurations ER avec des modèles Excel pour générer des rapports au format Word
 
@@ -43,7 +43,7 @@ Ces procédures concernent une fonctionnalité qui a été ajoutée dans Dynamic
 
 ## <a name="select-the-existing-er-report-configuration"></a>Sélectionnez la configuration d’états électroniques existante
 
-1. Dans Dynamics 365 Finance, accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+1. Dans Dynamics 365 Finance, allez dans **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 2. Assurez-vous que le fournisseur de la configuration **Litware, Inc.** est sélectionné comme **Actif**. Si ce n’est pas le cas, suivez les étapes du guide de tâche [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
 3. Sélectionnez **Configurations des états**. Vous réutiliserez la configuration pour la gestion des états électroniques existante conçue pour générer la sortie d’état au format OPENXML.
 4. Sur la page **Configurations**, dans l’arborescence de configuration du volet gauche, développez **Modèle de paiement**, puis sélectionnez **Exemple d’état sur les feuilles de calcul**.

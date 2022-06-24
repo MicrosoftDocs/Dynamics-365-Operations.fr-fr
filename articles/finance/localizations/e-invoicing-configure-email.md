@@ -1,6 +1,6 @@
 ---
 title: Configurer un canal de messagerie
-description: Cette rubrique explique comment configurer un canal de messagerie pour recevoir des factures électroniques.
+description: Cet article explique comment configurer un canal de messagerie pour recevoir des factures électroniques.
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6a5896a033212cf0f29f686eec0ab6fb3bc1d2a6
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 9227b032ffe896ad6a67962e5047fd797a883ae1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902383"
 ---
 # <a name="configure-an-email-channel"></a>Configurer un canal de messagerie
 
@@ -53,7 +53,7 @@ Si la fonctionnalité de facturation électronique que vous avez créée importe
     | Filtre De          | Entrez une chaîne pour filtrer par adresse d’expéditeur. Seuls les e-mails dont l’adresse de l’expéditeur correspond au filtre seront traités. Ce champ est facultatif. Pour spécifier plusieurs adresses d’expéditeur, utilisez des points-virgules (;) comme séparateurs. |
     | Filtre Objet       | Entrez une chaîne pour filtrer par objet. Seuls les e-mails dont l’objet correspond au filtre seront traités. Ce champ est facultatif. Un simple masque tel que **\*smth\*.ext** est pris en charge, où chaque astérisque (\*) représente zéro ou plusieurs occurrences de n’importe quel caractère. |
     | Filtre de date          | Spécifiez une date pour définir l’âge maximum, en jours, des messages qui sont traités. Ce champ est facultatif. La valeur par défaut est de 30 jours. |
-    | Mode de traitement      | <p>Sélectionnez l’une des options suivantes pour spécifier si toutes les pièces jointes d’un e-mail peuvent être traitées ensemble ou si chaque pièce jointe doit être traitée séparément :</p><ul><li><b>Par pièce jointe</b> –  Un nouveau document électronique sera créé pour chaque pièce jointe dans le courrier électronique. Par exemple, si un e-mail comprend plusieurs fichiers contenant des données de facturation électronique, chaque fichier sera considéré comme une nouvelle facture électronique dans le système.</li><li><b>Par e-mail</b> –  Une pièce jointe sera considérée comme une pièce jointe de base et une facture électronique sera créée dans le système. D’autres pièces jointes peuvent être utilisées comme fichiers de support.</li></ul> |
+    | Mode de traitement      | <p>Sélectionnez l’une des options suivantes pour spécifier si toutes les pièces jointes d’un e-mail peuvent être traitées ensemble ou si chaque pièce jointe doit être traitée séparément :</p><ul><li><b>Par pièce jointe</b> – Un nouveau document électronique sera créé pour chaque pièce jointe dans le courrier électronique. Par exemple, si un e-mail comprend plusieurs fichiers contenant des données de facturation électronique, chaque fichier sera considéré comme une nouvelle facture électronique dans le système.</li><li><b>Par e-mail</b> – Une pièce jointe sera considérée comme une pièce jointe de base et une facture électronique sera créée dans le système. D’autres pièces jointes peuvent être utilisées comme fichiers de support.</li></ul> |
 
 9. Dans la section **Filtre des pièces jointes**, ajoutez les informations de filtrage de fichier. Seules les pièces jointes qui satisfont au filtre défini seront traitées. Par exemple, **\*.xml** filtrera les pièces jointes qui ont l’extension de nom de fichier .xml. Le nom de la pièce jointe est utilisé dans Dynamics 365 Finance ou Dynamics 365 Supply Chain Management lors de la configuration.
 

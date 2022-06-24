@@ -1,6 +1,6 @@
 ---
 title: Réévaluer les paiements de location liés à un taux d’indexation
-description: Cette rubrique décrit l’ajustement effectué pour louer le passif d’un droit d’utilisation de l’actif lorsque les paiements de location variables changent en raison d’une modification du taux d’indexation.
+description: Cet article décrit l’ajustement effectué pour louer le passif d’un droit d’utilisation de l’actif lorsque les paiements de location variables changent en raison d’une modification du taux d’indexation.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903245"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Réévaluer les paiements de location liés à un taux d’indexation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l’ajustement effectué sur le passif locatif d’un droit d’utilisation de l’actif lorsque les paiements de location variables changent en raison d’une modification du taux d’indexation. Le passif locatif et le droit d’utilisation de l’actif seront ajustés pour tenir compte des nouveaux montants du paiement. Selon la codification des normes comptables 842 (ASC 842), qui est la norme des principes comptables généralement reconnus aux États-Unis (US GAAP), seuls les paiements variables changent lorsque les paiements augmentent ou diminuent en raison d’un changement du taux d’indexation, sauf s’il y a modifications supplémentaires des flux de trésorerie. Ces modifications supplémentaires peuvent inclure une modification des conditions de location liée aux taux d’intérêt. Pour plus d’informations, voir ASC 842-10-55-225 et le paragraphe 42 (b) de la norme internationale d’information financière 16 (IFRS 16).
+Cet article décrit l’ajustement effectué pour louer le passif d’un droit d’utilisation de l’actif lorsque les paiements de location variables changent en raison d’une modification du taux d’indexation. Le passif locatif et le droit d’utilisation de l’actif seront ajustés pour tenir compte des nouveaux montants du paiement. Selon la codification des normes comptables 842 (ASC 842), qui est la norme des principes comptables généralement reconnus aux États-Unis (US GAAP), seuls les paiements variables changent lorsque les paiements augmentent ou diminuent en raison d’un changement du taux d’indexation, sauf s’il y a modifications supplémentaires des flux de trésorerie. Ces modifications supplémentaires peuvent inclure une modification des conditions de location liée aux taux d’intérêt. Pour plus d’informations, voir ASC 842-10-55-225 et le paragraphe 42 (b) de la norme internationale d’information financière 16 (IFRS 16).
 
 ## <a name="adjust-lease-payments"></a>Ajuster des paiements de location
 

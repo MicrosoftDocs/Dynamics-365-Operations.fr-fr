@@ -1,6 +1,6 @@
 ---
 title: Calendriers fiscaux, exercices et périodes
-description: Cette rubrique présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
+description: Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1583df4650d0b36ecc2cb0d3e2d3a410aa807ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909096"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendriers fiscaux, exercices et périodes
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
+Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
 
 Les calendriers fiscaux fournissent la structure de base de l’activité financière d’une organisation. Chaque calendrier fiscal inclut un ou plusieurs exercices constitués de plusieurs périodes. Les calendriers fiscaux peuvent être basés sur une année civile allant du 1er janvier au 31 décembre, ou sur les dates que vous sélectionnez. Par exemple, certaines organisations choisissent un calendrier fiscal qui commence le 1er juillet de l’année et se termine le 30 juin de l’année suivante. 
 

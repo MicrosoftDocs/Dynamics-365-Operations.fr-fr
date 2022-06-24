@@ -1,6 +1,6 @@
 ---
 title: Recherche étendue de format d’état électronique (ER)
-description: Cette rubrique décrit comment une référence de format ER peut être configurée dans la recherche de format ER lorsque le format requis est stocké dans le référentiel global.
+description: Cet article décrit comment une référence de format ER peut être configurée dans la recherche de format ER lorsque le format requis est stocké dans le référentiel global.
 author: NickSelin
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901646"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Autoriser les utilisateurs à configurer une référence de format ER en demandant un format à partir du référentiel global
 
@@ -50,11 +50,11 @@ Similairement à l’organisateur **Sélectionner la configuration du format**, 
 
 Lorsque vous sélectionnez un format ER sur l’organisateur **Importer depuis le référentiel global**, la [configuration](general-electronic-reporting.md#Configuration) du format ER sélectionné est importée du GR vers l’instance Finance actuelle.
 
-[![Page des paramètres du commerce extérieur, note d'opération de traitement.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Page des paramètres du commerce extérieur, note d’opération de traitement.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Ensuite, si l’importation se termine avec succès, la référence au format ER importé est stockée dans ce champ de recherche. Lorsque vous accédez au GR pour la première fois, vous devez suivre le lien fourni pour vous inscrire au [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) qui est utilisé pour gérer l’accès au stockage GR.
 
-[![Page des paramètres du commerce extérieur, Lien pour s'inscrire au RCS.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Page des paramètres du commerce extérieur, Lien pour s’inscrire au RCS.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Par défaut, l’organisateur **Importer depuis le référentiel global** présente la liste des formats ER depuis le stockage temporaire qui est automatiquement créé en fonction du contenu GR pour des améliorations de performances. Cela se produit lorsque l’organisateur **Importer depuis le référentiel global** est ouvert la première fois, ce qui peut prendre plusieurs secondes.
 

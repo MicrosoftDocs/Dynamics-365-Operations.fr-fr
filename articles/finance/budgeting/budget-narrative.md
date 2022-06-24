@@ -1,6 +1,6 @@
 ---
 title: Descriptif du plan budgétaire
-description: Cette rubrique explique comment inclure une description et un récapitulatif des recettes dans un plan budgétaire.
+description: Cet article explique comment inclure une description et un récapitulatif des recettes dans un plan budgétaire.
 author: v-kiarnd
 ms.date: 06/29/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 85fde8289fc22ededa429b1a93117074d66955c2e8767990930bcc4efffd98ee
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b557257c1a05fc924179a2d19b6ae0f766e3dcee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898225"
 ---
 # <a name="budget-plan-narrative"></a>Descriptif du plan budgétaire
 
@@ -28,7 +28,7 @@ ms.locfileid: "6772866"
 
 Lorsque vous prévoyez de valider des livres ou des documents budgétaires, il est parfois nécessaire d’inclure une description et/ou un résumé des revenus dans un plan budgétaire. Ces informations peuvent inclure une description du plan budgétaire ou une liste d’hypothèses, de mesures de performance, d’informations sur les revenus ou de modifications proposées des services qui ont conduit à des montants sur des lignes budgétaires spécifiques. Cette fonctionnalité vous permettra d’utiliser un éditeur HTML pour contrôler les planificateurs budgétaires afin de documenter les considérations liées à la création du plan.
 
-Vous pouvez utiliser le contrôle pour écrire un nouveau contenu ou coller du contenu qui a été écrit et formaté dans un autre éditeur de texte, tel que Microsoft Word. La zone narrative vous permet également de modifier les polices et la mise en forme du texte. Des fonctionnalités supplémentaires, telles qu'un correcteur orthographique, peuvent être activées.
+Vous pouvez utiliser le contrôle pour écrire un nouveau contenu ou coller du contenu qui a été écrit et formaté dans un autre éditeur de texte, tel que Microsoft Word. La zone narrative vous permet également de modifier les polices et la mise en forme du texte. Des fonctionnalités supplémentaires, telles qu’un correcteur orthographique, peuvent être activées.
  
 Le contenu ajouté à ces deux sections peut être imprimé séparément dans un rapport descriptif du plan budgétaire.
  
@@ -60,10 +60,10 @@ Suivez ces étapes pour permettre la copie de la description du plan budgétaire
 
     - **Générer un plan budgétaire à partir d’un plan budgétaire :**
 
-        - Accédez à **Budgétisation \> Périodique \> Générer un plan budgétaire à partir d'un plan budgétaire**.
+        - Accédez à **Budgétisation \> Périodique \> Générer un plan budgétaire à partir d’un plan budgétaire**.
 
         La page inclut les nouveaux indicateurs. Cependant, les indicateurs ne sont disponibles que lorsque le champ **Action** est défini sur **Créer un plan budgétaire**.
 
-4. Sélectionnez les champs descriptifs à copier dans le nouveau plan. Vous pouvez effectuer cette étape à partir de la page **Plans budgétaires** ou de la page **Générer un plan budgétaire à partir d'un plan budgétaire**.
+4. Sélectionnez les champs descriptifs à copier dans le nouveau plan. Vous pouvez effectuer cette étape à partir de la page **Plans budgétaires** ou de la page **Générer un plan budgétaire à partir d’un plan budgétaire**.
 
 Une fois le plan budgétaire copié, les champs descriptifs du plan budgétaire sélectionné seront copiés dans le nouveau plan.

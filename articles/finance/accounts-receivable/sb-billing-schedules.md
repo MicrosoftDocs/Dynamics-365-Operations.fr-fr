@@ -1,6 +1,6 @@
 ---
 title: Créer des échéanciers de facturation
-description: Cette rubrique explique comment créer, supprimer et modifier des calendriers de facturation.
+description: Cet article explique comment créer, supprimer et modifier des calendriers de facturation.
 author: JodiChristiansen
 ms.date: 02/09/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1248799f92dc6cbce8528a53cc8a3012d2a67b3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903390"
 ---
 # <a name="create-billing-schedules"></a>Créer des échéanciers de facturation
 
@@ -83,7 +83,7 @@ Pour supprimer un élément d’un calendrier de facturation, procédez comme su
 2. Sur la raccourci **Lignes d’échéancier de facturation**, sélectionnez la ligne à supprimer, puis sélectionnez **Supprimer**.
 3. Cliquez sur **Enregistrer**.
 
-Le reste de cette rubrique décrit les actions et les détails disponibles pour les lignes du raccourci **Lignes d’échéancier de facturation**.
+Le reste de cet article décrit les actions et les détails disponibles pour les lignes du raccourci **Lignes d’échéancier de facturation**.
 
 ## <a name="billing-schedule-line-actions"></a>Actions sur les échéances de facturation
 

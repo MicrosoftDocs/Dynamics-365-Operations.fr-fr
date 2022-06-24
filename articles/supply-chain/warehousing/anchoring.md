@@ -1,6 +1,6 @@
 ---
 title: Ancrage
-description: Cette rubrique explique comment activer et utiliser l’ancrage.
+description: Cet article explique comment activer et utiliser l’ancrage.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903809"
 ---
 # <a name="anchoring"></a>Ancrage
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des détails sur le processus d’ancrage. Elle décrit la configuration requise et la logique qui est exécutée lorsqu’un magasinier modifie soit l’emplacement intermédiaire, soit l’emplacement de chargement.
+Cet article fournit des détails sur le processus d’ancrage. Elle décrit la configuration requise et la logique qui est exécutée lorsqu’un magasinier modifie soit l’emplacement intermédiaire, soit l’emplacement de chargement.
 
 La fonction d’ancrage vous permet de remplacer l’emplacement de préparation ou de chargement. Toutes les mises ouvertes sont ensuite dirigées vers le nouvel emplacement intermédiaire ou de chargement que vous spécifiez.
 
@@ -36,11 +36,11 @@ Vous configurez l’ancrage pour les éléments de menu de l’appareil mobile �
 > [!IMPORTANT]
 > L’emplacement des mises ouvertes suivantes est modifié uniquement sur les lignes de travail générées à partir de la même ligne de modèle de travail. En d’autres termes, le système ancre les lignes de placement qui proviennent de la même ligne de modèle de travail.
 
-Cette rubrique fournit un scénario qui montre comment fonctionne l’ancrage. Au cours du scénario, vous allez créer des ensembles de commandes client et lancer chaque ensemble dans l’entrepôt. Vous remplacerez ensuite l’emplacement intermédiaire suggéré et vérifierez que tout le travail de rangement restant est dirigé vers le nouvel emplacement.
+Cet article fournit un scénario qui montre comment fonctionne l’ancrage. Au cours du scénario, vous allez créer des ensembles de commandes client et lancer chaque ensemble dans l’entrepôt. Vous remplacerez ensuite l’emplacement intermédiaire suggéré et vérifierez que tout le travail de rangement restant est dirigé vers le nouvel emplacement.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Conditions préalables du scénario : rendre les données de démonstration disponibles
 
-Le scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur *USMF* avant de commencer.
+Le scénario de cet article fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur *USMF* avant de commencer.
 
 ## <a name="scenario-setup"></a>Configuration d’un scénario
 

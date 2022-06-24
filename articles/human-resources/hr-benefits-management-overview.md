@@ -1,6 +1,6 @@
 ---
-title: Vue d’ensemble de la gestion des avantages
-description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de gestion des avantages dans Dynamics 365 Human Resources.
+title: Vue d’ensemble de la gestion des avantages sociaux
+description: Cet article fournit une vue d’ensemble de la fonctionnalité de gestion des avantages dans Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901145"
 ---
 # <a name="benefits-management-overview"></a>Vue d’ensemble de la gestion des avantages
 
@@ -44,7 +44,7 @@ Si vous souhaitez accéder aux données de démonstration, vous devrez redéploy
 
 ## <a name="enable-benefits-management"></a>Activation de la gestion des avantages sociaux
 
-Cette rubrique décrit comment activer les fonctionnalités dans Human Resources. Il explique également les fonctionnalités existantes dans Human Resources qui sont remplacées par la Gestion des avantages et les fonctionnalités qui sont désactivées après l’activation de la Gestion des avantages.
+Cet article décrit comment activer les fonctionnalités dans Human Resources. Il explique également les fonctionnalités existantes dans Human Resources qui sont remplacées par la Gestion des avantages et les fonctionnalités qui sont désactivées après l’activation de la Gestion des avantages.
 
 > [!IMPORTANT]
 > Après avoir activé la gestion des avantages sociaux dans un environnement de type **Production**, vous ne pouvez pas le désactiver. Nous vous recommandons d’activer et de tester la gestion des avantages dans un environnement de type **Bac à sable** avant de l’activer dans un environnement de type **Production**. Il existe des différences importantes entre l’ancienne fonctionnalité Avantage et la nouvelle fonctionnalité de gestion des avantages qui nécessitent une configuration supplémentaire et doivent être testées avant d’être mises en production.

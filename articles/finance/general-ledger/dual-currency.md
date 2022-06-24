@@ -1,6 +1,6 @@
 ---
 title: Devise double
-description: Cette rubrique fournit des informations sur la devise double, où la devise de déclaration est utilisée comme deuxième devise comptable pour Microsoft Dynamics 365 Finance.
+description: Cet article fournit des informations sur la devise double, où la devise de déclaration est utilisée comme deuxième devise comptable pour Microsoft Dynamics 365 Finance.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906353"
 ---
 # <a name="dual-currency"></a>Devise double
 
@@ -36,7 +36,7 @@ En outre, plusieurs modules ont été améliorés pour effectuer le suivi, gén�
 - Immobilisations 
 - Consolidations
 
-Après une mise à niveau, vous devez effectuer des étapes spécifiques pour les modules Gestion de la trésorerie et de la banque et Immobilisations. Par conséquent, assurez-vous de lire et de comprendre les sections appropriées de cette rubrique soigneusement.
+Après une mise à niveau, vous devez effectuer des étapes spécifiques pour les modules Gestion de la trésorerie et de la banque et Immobilisations. Par conséquent, assurez-vous de lire et de comprendre les sections appropriées de cet article soigneusement.
 
 ## <a name="posting-process"></a>Processus de validation
 
@@ -93,7 +93,7 @@ Les modifications supplémentaires suivantes ont été apportées dans le module
 - Un type de taux de change distinct pour la devise de déclaration peut être défini dans la comptabilité. Si une organisation ne souhaite pas utiliser un type de taux de change différent, vous pouvez laisser le champ du type de taux de change vide pour la devise de déclaration. Sinon, vous pouvez sélectionner le même type de taux de change utilisé pour la devise comptable. Si vous ne renseignez pas ce champ, le système utilise le type de taux de change pour la devise comptable.
 - Un nouveau journal, le Journal des ajustements de la devise de déclaration, permet d’effectuer des ajustements à valider dans les comptes généraux de la devise de déclaration uniquement. Ce journal permet de valider uniquement dans les comptes généraux. Il ne prend pas en charge les opérations intersociétés, et la devise doit être la devise de déclaration de l’entité juridique dans laquelle le journal est validé. Lorsque le journal est validé, les montants en devise de la transaction et en devise comptable sont de 0 (zéro), et le montant en devise de la déclaration est validé avec le montant entré sur la transaction. Comme la manière dont la devise de déclaration est utilisée dans les modules **Comptabilité fournisseur**, **Comptabilité client** et **Immobilisations** a été modifiée, ce journal peut être utilisé pour les ajustements après une mise à niveau. Pour consulter des exemples d’utilisation de ce journal, reportez-vous aux sections relatives à ces modules.
 - Le processus de répartition par période a été mis à jour afin qu’il répartisse les montants dans les devises de transaction, comptables et de déclaration. Précédemment, les montants étaient répartis dans les devises de transaction et comptables, puis le montant en devise comptable était converti dans la devise de déclaration. Ce comportement pouvait entraîner la présence d’un solde dans le compte général dans la devise de déclaration. Désormais, lorsque les montants sont calculés et utilisés dans l’écriture comptable, aucune conversion ne se produit.
-- Le processus de réévaluation des comptes en devises réévaluait déjà les montants dans la devise de déclaration. Toutefois, le montant en devise de la déclaration est désormais calculé via le montant en devise de la transaction, comme décrit dans la section [Processus de validation](#posting-process) plus haut dans cette rubrique.
+- Le processus de réévaluation des comptes en devises réévaluait déjà les montants dans la devise de déclaration. Toutefois, le montant en devise de la déclaration est désormais calculé via le montant en devise de la transaction, comme décrit dans la section [Processus de validation](#posting-process) plus haut dans cet article.
 - De nombreux états et requêtes dans la comptabilité disposaient déjà de la devise de déclaration, mais pas tous. Par exemple, la page de liste **Balance comptable**. Cette page de liste inclut désormais des colonnes pour la devise comptable et la devise de déclaration. Notez que les colonnes pour la devise de déclaration sont masquées si la devise comptable et la devise de déclaration sont identiques, ou si aucune devise de déclaration n’a été définie dans la comptabilité.
 
 ### <a name="financial-reporting"></a>États financiers

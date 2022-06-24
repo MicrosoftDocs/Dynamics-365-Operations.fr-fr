@@ -1,6 +1,6 @@
 ---
 title: Configurer les paramètres pour l’automatisation du processus de recouvrement
-description: Cette rubrique décrit les paramètres qui affectent les processus de recouvrement automatisés et fournit des conseils pour les définir afin que le processus automatisé reflète vos intentions et vos attentes.
+description: Cet article décrit les paramètres qui affectent les processus de recouvrement automatisés et fournit des conseils pour les définir afin que le processus automatisé reflète vos intentions et vos attentes.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900040"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Configurer les paramètres pour l’automatisation du processus de recouvrement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les paramètres qui affectent les processus de recouvrement automatisés et fournit des conseils pour les définir afin que le processus automatisé reflète vos intentions et vos attentes. Pour plus d’informations sur l’automatisation des processus de recouvrement, voir [Automatisation du processus de recouvrement](collections-process-automate.md).
+Cet article décrit les paramètres qui affectent les processus de recouvrement automatisés et fournit des conseils pour les définir afin que le processus automatisé reflète vos intentions et vos attentes. Pour plus d’informations sur l’automatisation des processus de recouvrement, voir [Automatisation du processus de recouvrement](collections-process-automate.md).
 
 ## <a name="general"></a>Générale
 Entrez un numéro dans le **Pourcentage de clients par tâche de traitement par lots** pour déterminer le nombre de tâches de traitement par lots par processus d’automatisation. Définissez **Valider automatiquement les lettres de relance** sur **Oui** de sorte que le type d’action de lettre de relance publiera la lettre lors de l’automatisation. Définissez **Créer des activités pour les automatisations** sur **Oui** pour créer et fermer des activités pour les types d’action sans activité pour afficher toutes les étapes automatisées effectuées sur un compte. Définissez le nombre de jours pendant lesquels l’historique de recouvrement est enregistré dans les **Jours pour conserver l’automatisation des processus de recouvrement**. Lorsqu’une facture atteint la dernière étape du processus de recouvrement, elle ne sera pas utilisée pour créer de futurs types d’action d’automatisation de processus si l’option **Exclure la facture après l’activation de la dernière étape du processus** est définie sur **Oui**. La facture la plus ancienne suivante détermine l’étape d’automatisation du processus suivante pour garantir la poursuite des actions d’automatisation du processus de recouvrement. 

@@ -1,6 +1,6 @@
 ---
 title: Nouveautés et modifications dans Dynamics 365 Human Resources, 5 avril 2021
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 5 avril 2021.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 5 avril 2021.
 author: marcelbf
 ms.date: 04/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1b8074877b8d2b2c05596406cbf2d98febd2e8cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899525"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Nouveautés et modifications dans Dynamics 365 Human Resources, 5 avril 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources.
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Dynamics 365 Human Resources.
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -48,15 +48,15 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème | Sortie |  Description |
+| Numéro du problème | Problème |  Description |
 | --- | --- | --- |
 | 550852 | Le bouton **Approbation** ne se valide pas avec les champs obligatoires définis sur le formulaire **Révision**. | Lorsque vous définissez un champ du formulaire **Révision** comme obligatoire et publiez les modifications pour le rôle Responsable, le formulaire ne se valide pas comme prévu. |
-| 559564 | Les actions historiques des collaborateurs pour la modification de la rémunération fixe génèrent une erreur pour les utilisateurs dont le contrat a pris fin. | L'action de collaborateur de la rémunération d'un collaborateur qui a quitté l'entreprise génère une erreur. Après le terme du contrat d'un employé, l'action de collaborateur de promotion avant la fin de contrat génère une erreur. |
-| 560074 | Le menu déroulant des catégories d'emploi ne filtre pas le **Type de collaborateur** et affiche les catégories pour les employés et les sous-traitants. | Sur le formulaire **Employé**, le menu déroulant **Catégorie d'emploi** doit afficher les catégories d'employés ou de prestataires, en fonction du type de collaborateur de l'employé. |
-| 567388 | Certaines informations relatives aux employés nouvellement créés ne sont pas synchronisées immédiatement avec la table **cdm_worker** dans Dataverse. | Lors de la création d'un nouvel enregistrement d'employé, le nouvel enregistrement doit se synchroniser avec la table **cdm_worker** dans Dataverse, mais toutes les propriétés ne sont pas incluses dans l'enregistrement Dataverse. |
-| 563837 | Des fonctionnalités qui ne sont pas disponibles dans Human Resources s'affichent. | Plusieurs fonctionnalités qui ne s'appliquent pas à Human Resources s'affichent dans la Gestion des fonctionnalités. Ces fonctionnalités sont désormais supprimées de la liste des fonctionnalités disponibles à activer dans Human Resources. |
+| 559564 | Les actions historiques des collaborateurs pour la modification de la rémunération fixe génèrent une erreur pour les utilisateurs dont le contrat a pris fin. | L’action de collaborateur de la rémunération d’un collaborateur qui a quitté l’entreprise génère une erreur. Après le terme du contrat d’un employé, l’action de collaborateur de promotion avant la fin de contrat génère une erreur. |
+| 560074 | Le menu déroulant des catégories d’emploi ne filtre pas le **Type de collaborateur** et affiche les catégories pour les employés et les sous-traitants. | Sur le formulaire **Employé**, le menu déroulant **Catégorie d’emploi** doit afficher les catégories d’employés ou de prestataires, en fonction du type de collaborateur de l’employé. |
+| 567388 | Certaines informations relatives aux employés nouvellement créés ne sont pas synchronisées immédiatement avec la table **cdm_worker** dans Dataverse. | Lors de la création d’un nouvel enregistrement d’employé, le nouvel enregistrement doit se synchroniser avec la table **cdm_worker** dans Dataverse, mais toutes les propriétés ne sont pas incluses dans l’enregistrement Dataverse. |
+| 563837 | Des fonctionnalités qui ne sont pas disponibles dans Human Resources s’affichent. | Plusieurs fonctionnalités qui ne s’appliquent pas à Human Resources s’affichent dans la Gestion des fonctionnalités. Ces fonctionnalités sont désormais supprimées de la liste des fonctionnalités disponibles à activer dans Human Resources. |
 
 ## <a name="in-preview"></a>En mode aperçu
 

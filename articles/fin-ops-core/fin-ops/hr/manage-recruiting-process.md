@@ -1,6 +1,6 @@
 ---
-title: Gestion des processus de recrutement
-description: Cette rubrique décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d’un processus de recrutement.
+title: Gestion de processus de recrutement
+description: Cet article décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d’un processus de recrutement.
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910317"
 ---
 # <a name="manage-recruiting-processes"></a>Gestion des processus de recrutement
 
 > [!IMPORTANT]
-> La fonctionnalité de recrutement dans cette rubrique sera appelée Projets de recrutement et se concentre sur les candidats, les candidatures et les projets de recrutement. 
+> La fonctionnalité de recrutement dans cet article sera appelée Projets de recrutement et se concentre sur les candidats, les candidatures et les projets de recrutement. 
 
 
-Cette rubrique décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d’un processus de recrutement, notamment les moyens pour annoncer les postes vacants et recruter des candidats, en suivant les informations propres aux candidats et aux candidatures, en interviewant les candidats et en sélectionnant un ou plusieurs candidats pour pourvoir les postes vacants au sein de votre organisation.
+Cet article décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d’un processus de recrutement, notamment les moyens pour annoncer les postes vacants et recruter des candidats, en suivant les informations propres aux candidats et aux candidatures, en interviewant les candidats et en sélectionnant un ou plusieurs candidats pour pourvoir les postes vacants au sein de votre organisation.
 
 ## <a name="overview"></a>Vue d’ensemble
 

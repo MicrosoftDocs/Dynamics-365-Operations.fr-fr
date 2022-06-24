@@ -1,6 +1,6 @@
 ---
 title: FAQ sur la Facturation électronique
-description: Cette rubrique fournit des informations sur les questions fréquemment posées concernant la Facturation électronique.
+description: Cet article fournit des informations sur les questions fréquemment posées concernant la Facturation électronique.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904352"
 ---
 # <a name="electronic-invoicing-faq"></a>FAQ sur la facturation électronique
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des réponses aux questions fréquemment posées sur la Facturation électronique. La Facturation électronique étend les capacités de facturation électronique qui existent dans Dynamics 365 Finance, Dynamics 365 Supply Chain Management et Dynamics 365 Project Operations. 
+Cet article fournit des réponses aux questions fréquemment posées sur la Facturation électronique. La Facturation électronique étend les capacités de facturation électronique qui existent dans Dynamics 365 Finance, Dynamics 365 Supply Chain Management et Dynamics 365 Project Operations. 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>Qu’est-ce qui est important dans la facturation électronique et pourquoi est-ce important pour mon organisation ?
 
@@ -92,48 +92,48 @@ Ceci peut être obtenu par la configuration. Pour tester la soumission des factu
 
 Oui. Pour plus d’informations sur la disponibilité des fonctionnalités de Facturation électronique et les formats qu’elles prennent en charge, voir [Disponibilité des fonctionnalités de facturation électronique](e-invoicing-configuration-rcs.md#availability-of-electronic-invoicing-features).
 
-## <a name="does-the-electronic-invoicing-service-allow-a-legal-entity-in-finance-or-supply-chain-management-that-is-configured-for-a-specific-country-to-consume-electronic-invoicing-features-from-different-countryregions"></a>Le service Facturation électronique permet-il à une entité juridique de Finance ou de Supply Chain Management qui est configurée pour un pays spécifique d'utiliser les fonctionnalités de facturation électronique de différents pays/régions ?
+## <a name="does-the-electronic-invoicing-service-allow-a-legal-entity-in-finance-or-supply-chain-management-that-is-configured-for-a-specific-country-to-consume-electronic-invoicing-features-from-different-countryregions"></a>Le service Facturation électronique permet-il à une entité juridique de Finance ou de Supply Chain Management qui est configurée pour un pays spécifique d’utiliser les fonctionnalités de facturation électronique de différents pays/régions ?
 
-Oui. Les fonctionnalités de facturation électronique peuvent être utilisées pour traiter les soumissions de documents commerciaux indépendamment du pays de l'entité juridique, si ce qui suit est vrai :
+Oui. Les fonctionnalités de facturation électronique peuvent être utilisées pour traiter les soumissions de documents commerciaux indépendamment du pays de l’entité juridique, si ce qui suit est vrai :
 
    - Le document commercial généré utilise le mappage de modèle de document approprié.
-   - Il existe une correspondance entre le document commercial et les règles d'applicabilité configurées dans la fonction de facturation électronique.
+   - Il existe une correspondance entre le document commercial et les règles d’applicabilité configurées dans la fonction de facturation électronique.
 
 ## <a name="does-the-electronic-invoicing-service-use-the-same-configuration-and-design-experience-provided-by-the-electronic-reporting-module-in-finance-and-supply-chain-management"></a>Le service de facturation électronique offre-t-il la même expérience de configuration et de conception que celle fournie par le module de reporting électronique de Finance et Supply Chain Management ? 
 
 Oui. Les mêmes outils de conception que ceux utilisés dans le module de reporting électronique (ER) de Finance et Supply Chain Management sont utilisés pour créer et configurer le mappage de modèles de données et les configurations de format de fichier. Ces outils de conception sont également utilisés dans Regulatory Configuration Services (RCS) pour créer et configurer le mappage du modèle de données et les configurations de format de fichier qui sont utilisées dans la configuration des fonctionnalités de facturation électronique.
 
-## <a name="can-the-applicability-rules-be-extended-and-configured-so-that-they-arent-tied-to-any-specific-parameter-such-as-a-legal-entity"></a>Les règles d'applicabilité peuvent-elles être étendues et configurées de manière à ne pas être liées à un paramètre spécifique, tel qu'une entité juridique ?
+## <a name="can-the-applicability-rules-be-extended-and-configured-so-that-they-arent-tied-to-any-specific-parameter-such-as-a-legal-entity"></a>Les règles d’applicabilité peuvent-elles être étendues et configurées de manière à ne pas être liées à un paramètre spécifique, tel qu’une entité juridique ?
 
-Oui. Les règles d'applicabilité sont entièrement configurables. Vous pouvez ajouter ou supprimer des clauses, créer des opérations logiques et regrouper et dissocier des clauses. Pour plus d’informations, voir [Règles d'applicabilité](e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json#applicability-rules).
+Oui. Les règles d’applicabilité sont entièrement configurables. Vous pouvez ajouter ou supprimer des clauses, créer des opérations logiques et regrouper et dissocier des clauses. Pour plus d’informations, voir [Règles d’applicabilité](e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json#applicability-rules).
 
-## <a name="does-the-electronic-invoicing-service-support-adding-other-er-format-configurations-to-generate-other-types-of-documents-does-it-support-sending-the-documents-electronically-to-customers-such-as-a-delivery-note"></a>Le service de facturation électronique prend-il en charge l'ajout d'autres configurations de format ER pour générer d'autres types de documents ? Prend-il en charge l'envoi électronique des documents aux clients, comme une note de livraison ?
+## <a name="does-the-electronic-invoicing-service-support-adding-other-er-format-configurations-to-generate-other-types-of-documents-does-it-support-sending-the-documents-electronically-to-customers-such-as-a-delivery-note"></a>Le service de facturation électronique prend-il en charge l’ajout d’autres configurations de format ER pour générer d’autres types de documents ? Prend-il en charge l’envoi électronique des documents aux clients, comme une note de livraison ?
 
-Vous pouvez utiliser d'autres configurations de format ER pour produire les fichiers de sortie souhaités. Cependant, la configuration du format ER doit être dérivée du même mappage de modèle de facture ER qui est configuré dans Finance ou Supply Chain Management pour générer des documents commerciaux. L'envoi du fichier de sortie directement au client en tant que transaction EDI n'est pas pris en charge par la facturation électronique.
+Vous pouvez utiliser d’autres configurations de format ER pour produire les fichiers de sortie souhaités. Cependant, la configuration du format ER doit être dérivée du même mappage de modèle de facture ER qui est configuré dans Finance ou Supply Chain Management pour générer des documents commerciaux. L’envoi du fichier de sortie directement au client en tant que transaction EDI n’est pas pris en charge par la facturation électronique.
 
-## <a name="does-the-electronic-invoicing-service-support-exchanging-electronic-invoices-with-customers-does-it-support-configuring-different-invoice-formats-for-the-same-invoice"></a>Le service de facturation électronique prend-il en charge l'échange de factures électroniques avec les clients ? Prend-il en charge la configuration de différents formats de facture pour la même facture ?
+## <a name="does-the-electronic-invoicing-service-support-exchanging-electronic-invoices-with-customers-does-it-support-configuring-different-invoice-formats-for-the-same-invoice"></a>Le service de facturation électronique prend-il en charge l’échange de factures électroniques avec les clients ? Prend-il en charge la configuration de différents formats de facture pour la même facture ?
 
-La capacité de recevoir et d'importer les factures électroniques des fournisseurs fait partie de la feuille de route, mais l'envoi automatique des factures électroniques aux clients n'est actuellement pas pris en charge.
+La capacité de recevoir et d’importer les factures électroniques des fournisseurs fait partie de la feuille de route, mais l’envoi automatique des factures électroniques aux clients n’est actuellement pas pris en charge.
 
 ## <a name="does-the-electronic-invoicing-service-extend-to-support-exchanging-edi-messages-with-other-companies"></a>Le service de facturation électronique s’étend-il à la prise en charge de l’échange de messages EDI avec d’autres entreprises ?
 
-L'objectif du service de facturation électronique est d'échanger des types de messages de facturation électronique en fonction des exigences de conformité réglementaire. La réception et l'importation des factures électroniques des fournisseurs font partie de la feuille de route, mais l'envoi de fichiers de factures électroniques aux clients n'est actuellement pas pris en charge immédiatement, sauf dans les scénarios où l'envoi de la facture électronique au client est une exigence réglementaire.
+L’objectif du service de facturation électronique est d’échanger des types de messages de facturation électronique en fonction des exigences de conformité réglementaire. La réception et l’importation des factures électroniques des fournisseurs font partie de la feuille de route, mais l’envoi de fichiers de factures électroniques aux clients n’est actuellement pas pris en charge immédiatement, sauf dans les scénarios où l’envoi de la facture électronique au client est une exigence réglementaire.
 
-## <a name="does-the-electronic-invoicing-service-support-importing-or-merging-customizations-made-in-the-er-format-configurations-from-the-legacy-electronic-invoicing-feature"></a>Le service de facturation électronique prend-il en charge l'importation ou la fusion des personnalisations effectuées dans les configurations au format ER à partir de l'ancienne fonctionnalité de facturation électronique ?
+## <a name="does-the-electronic-invoicing-service-support-importing-or-merging-customizations-made-in-the-er-format-configurations-from-the-legacy-electronic-invoicing-feature"></a>Le service de facturation électronique prend-il en charge l’importation ou la fusion des personnalisations effectuées dans les configurations au format ER à partir de l’ancienne fonctionnalité de facturation électronique ?
 
 Vous pouvez réutiliser les configurations de format ER dans le service de facturation électronique. Cependant, la configuration du format ER doit être dérivée du même mappage de modèle de facture ER que la fonction de facture électronique utilise et qui est configuré dans Finance ou Supply Chain Management pour générer des documents commerciaux.
 
-## <a name="does-the-electronic-invoicing-service-support-issuing-electronic-invoices-from-custom-made-tables-if-so-how-do-you-create-the-er-data-model-configurations-for-these-new-tables-and-entities"></a>Le service de facturation électronique prend-il en charge l'émission de factures électroniques à partir de tables personnalisées ? Si tel est le cas, comment créer les configurations de modèle de données ER pour ces nouvelles tables et entités ?
+## <a name="does-the-electronic-invoicing-service-support-issuing-electronic-invoices-from-custom-made-tables-if-so-how-do-you-create-the-er-data-model-configurations-for-these-new-tables-and-entities"></a>Le service de facturation électronique prend-il en charge l’émission de factures électroniques à partir de tables personnalisées ? Si tel est le cas, comment créer les configurations de modèle de données ER pour ces nouvelles tables et entités ?
 
-Oui. Cependant, cela nécessite la personnalisation du mappage du modèle de facture et l'ajout des références nécessaires aux tables personnalisées ou, en fonction de la complexité, la création d'un nouveau mappage de modèle de facture.
+Oui. Cependant, cela nécessite la personnalisation du mappage du modèle de facture et l’ajout des références nécessaires aux tables personnalisées ou, en fonction de la complexité, la création d’un nouveau mappage de modèle de facture.
 
 ## <a name="does-the-electronic-invoicing-service-support-different-web-service-endpoints"></a>Le service de facturation électronique prend-il en charge différents points de terminaison de service Web ?
 
-La facturation électronique prend en charge différents points de terminaison de service Web. Vous pouvez utiliser l'intégration configurable avec les services Web REST ou un certain nombre d'intégrations de services Web paramétrées spécifiques au pays. Différents points de terminaison peuvent être configurés pour les mêmes services Web et API en utilisant différentes versions de configurations. Pour plus d’informations, consultez la section [Liste des paramètres par action](e-invoicing-setup.md#list-of-parameters-by-action).
+La facturation électronique prend en charge différents points de terminaison de service Web. Vous pouvez utiliser l’intégration configurable avec les services Web REST ou un certain nombre d’intégrations de services Web paramétrées spécifiques au pays. Différents points de terminaison peuvent être configurés pour les mêmes services Web et API en utilisant différentes versions de configurations. Pour plus d’informations, consultez la section [Liste des paramètres par action](e-invoicing-setup.md#list-of-parameters-by-action).
 
 ## <a name="is-electronic-invoicing-integrated-with-the-various-invoice-operators-apis-from-the-nordic-countries-or-should-that-be-handled-on-a-case-by-case-basis"></a>La facturation électronique est-elle intégrée aux API des différents opérateurs de facturation des pays nordiques, ou devrait-elle être traitée au cas par cas ?
 
-Microsoft étend en permanence la couverture fonctionnelle pour fournir des intégrations prêtes à l'emploi en utilisant les fonctionnalités de facturation électronique. Pour plus d'informations sur les formats et les intégrations pris en charge, voir [Disponibilité des fonctionnalités de facturation électronique](e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json#availability-of-electronic-invoicing-features).
+Microsoft étend en permanence la couverture fonctionnelle pour fournir des intégrations prêtes à l’emploi en utilisant les fonctionnalités de facturation électronique. Pour plus d’informations sur les formats et les intégrations pris en charge, voir [Disponibilité des fonctionnalités de facturation électronique](e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json#availability-of-electronic-invoicing-features).
 
 > [!NOTE] 
 > Si vous ne trouvez pas la réponse que vous recherchez, envoyez votre question par e-mail à l’équipe de développement produit à l’adresse <D365EInvoicePreview@microsoft.com>. Nous vous contacterons, ou améliorerons la couverture de cette FAQ.

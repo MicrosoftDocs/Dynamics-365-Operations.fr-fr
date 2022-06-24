@@ -1,6 +1,6 @@
 ---
 title: Prévision des flux de trésorerie
-description: Cette rubrique fournit une vue d’ensemble du processus de prévisions des flux de trésorerie. Elle décrit également comment les prévisions des flux de trésorerie sont intégrées avec d’autres modules dans le système.
+description: Cet article fournit une vue d’ensemble du processus de prévisions des flux de trésorerie. Elle décrit également comment les prévisions des flux de trésorerie sont intégrées avec d’autres modules dans le système.
 author: panolte
 ms.date: 02/16/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4979a57c966f25dba62a944a4e44086e5f6aed28
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c811afb0129b25a257bdc3519c511d70ecb44714
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904670"
 ---
 # <a name="cash-flow-forecasting"></a>Prévision des flux de trésorerie
 
@@ -110,7 +110,7 @@ Pour plus d’informations sur la configuration des compteurs, voir [Données ex
 
 Dans la version 10.0.17, une nouvelle fonctionnalité permet l’intégration avec la Gestion et comptabilité des projet et la Prévision des flux de trésorerie. Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonctionnalité **Prévision des flux de trésorerie de projet** pour inclure les coûts et recettes prévus dans les prévisions de flux de trésorerie. Sur l’onglet **Gestion et comptabilité des projets** de la page **Configuration des prévisions de flux de trésorerie**, sélectionnez les types de projet et les types de transaction à inclure dans la prévision des flux de trésorerie. Sélectionnez ensuite le modèle de prévision du projet. Un sous-modèle de type réduction est le plus approprié. Les comptes de liquidité saisis dans la configuration de la comptabilité client sont utilisés comme comptes de liquidité par défaut. Par conséquent, vous n’êtes pas obligé de saisir des comptes de liquidité par défaut lorsque vous configurez la prévision des flux de trésorerie. Un modèle de budget peut également être utilisé, mais un seul type peut être sélectionné sur la page **Configuration des prévisions de flux de trésorerie** pour la Gestion et comptabilité des projets. Un modèle de prévision offre la plus grande flexibilité lorsque la Gestion et comptabilité des projets ou Project Operations sont utilisés.
 
-Une fois la fonctionnalité Prévision des flux de trésorerie de projet activée, la prévision de flux de trésorerie peut être affichée pour chaque projet sur la page **Tous les projets**. Dans le volet Actions, sous l’onglet **Planifier**, dans le groupe **Prévision**, sélectionnez **Prévisions de flux de trésorerie**. Dans les espaces de travail **Vue d’ensemble des disponibilités** (voir la section [Génération d’états](#reporting) plus loin dans cette rubrique), le type de transaction de la Prévision de projet affiche les entrées (recettes de la prévision de projet) et les sorties (coûts de la prévision de projet). Les montants ne peuvent être inclus que si le champ **Stade du projet** dans les espaces de travail **Vue d’ensemble des disponibilités** est défini sur **En cours**.
+Une fois la fonctionnalité Prévision des flux de trésorerie de projet activée, la prévision de flux de trésorerie peut être affichée pour chaque projet sur la page **Tous les projets**. Dans le volet Actions, sous l’onglet **Planifier**, dans le groupe **Prévision**, sélectionnez **Prévisions de flux de trésorerie**. Dans les espaces de travail **Vue d’ensemble des disponibilités** (voir la section [Génération d’états](#reporting) plus loin dans cet article), le type de transaction de la Prévision de projet affiche les entrées (recettes de la prévision de projet) et les sorties (coûts de la prévision de projet). Les montants ne peuvent être inclus que si le champ **Stade du projet** dans les espaces de travail **Vue d’ensemble des disponibilités** est défini sur **En cours**.
 
 Les transactions du projet sont toujours incluses dans les prévisions de flux de trésorerie de plusieurs manières, indépendamment du fait que la fonctionnalité **Prévision des flux de trésorerie de projet** est activée. Les factures de projet validées sont incluses dans la prévision dans le cadre des transactions client en cours. Les commandes client et fournisseur créées pour un projet sont incluses dans la prévision comme les commandes en cours après leur saisie dans le système. Vous pouvez également transférer des prévisions de projet vers un modèle de budget comptable. Ce modèle de budget comptable est ensuite inclus dans les prévisions des flux de trésorerie dans les écritures de registre budgétaires. Si vous avez activé la fonctionnalité **Prévision des flux de trésorerie de projet**, ne transférez pas les prévisions de projet vers un modèle de budget comptable, car cette action entraînera le comptage des prévisions de projet deux fois.
 

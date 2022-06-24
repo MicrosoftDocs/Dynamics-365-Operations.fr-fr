@@ -1,6 +1,6 @@
 ---
 title: Retenue à la source dans les transactions de vente
-description: Cette rubrique répertorie les étapes permettant d’éviter le calcul de la retenue à la source pour les clients sélectionnés. Pour les clients qui spécifient une retenue à la source dans leurs paiements, vous pouvez affecter le groupe de retenue à la source par défaut.
+description: Cet article répertorie les étapes permettant d’éviter le calcul de la retenue à la source pour les clients sélectionnés. Pour les clients qui spécifient une retenue à la source dans leurs paiements, vous pouvez affecter le groupe de retenue à la source par défaut.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 72d659004a1f61b63d6a782ba6b45bb99030bae9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 75a7fc62c1d493007f3aa88a723465828c557df7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910082"
 ---
 # <a name="withholding-tax-in-sales-transactions"></a>Retenue à la source dans les transactions de vente
 
-Cette rubrique répertorie les étapes permettant d’éviter le calcul de la retenue à la source pour les clients sélectionnés. Pour les clients qui spécifient une retenue à la source dans leurs paiements, vous pouvez affecter le **Groupe de retenue à la source** sur la page **Clients**. 
+Cet article répertorie les étapes permettant d’éviter le calcul de la retenue à la source pour les clients sélectionnés. Pour les clients qui spécifient une retenue à la source dans leurs paiements, vous pouvez affecter le **Groupe de retenue à la source** sur la page **Clients**. 
 
 1. Allez dans **Volet de navigation > Modules > Comptabilité client > Clients > Tous les clients**.
 

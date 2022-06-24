@@ -1,6 +1,6 @@
 ---
-title: Réception du contenant via l’application mobile Gestion des entrepôts
-description: Cette rubrique explique comment configurer l’application mobile Gestion des entrepôts pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
+title: Réception du contenant avec l’application mobile Warehouse Management
+description: Cet article explique comment configurer l’application mobile Gestion des entrepôts pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906998"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Réception du contenant via l’application mobile Gestion des entrepôts
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Réception du contenant avec l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer l’application mobile Gestion des entrepôts pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
+Cet article explique comment configurer l’application mobile Gestion des entrepôts pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
 
 Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement la réception du stock entrant lié à un avis préalable d’expédition (APE). Le système crée automatiquement un APE lorsque des processus de gestion d’entrepôt sont utilisés pour expédier un ordre de transfert. Pour le processus de commande fournisseur, un APE peut être enregistré manuellement ou il peut être automatiquement importé à l’aide d’un processus d’entité de données APE entrant.
 

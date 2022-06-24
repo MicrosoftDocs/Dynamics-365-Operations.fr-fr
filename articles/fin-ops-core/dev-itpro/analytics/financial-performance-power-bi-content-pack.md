@@ -1,6 +1,6 @@
 ---
 title: Solution PowerBI.com Performances financières
-description: Cette rubrique décrit la solution PowerBI.com Performances financières.
+description: Cet article décrit la solution PowerBI.com Performances financières.
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910413"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solution PowerBI.com Performances financières
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767801"
 > [!NOTE]
 > Cette solution PowerBI.com a été abandonnée tel que renseigné dans [Fonctionnalités supprimées ou abandonnées pour Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Cette rubrique décrit la solution PowerBI.com **Performances financières**. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer la solution.
+Cet article décrit la solution PowerBI.com **Performances financières**. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer la solution.
 
 ## <a name="main-account-setup"></a>Paramétrage des comptes principaux
 Comme les organisations souhaitent que les passifs et les montants du produit apparaissent comme des montants positifs dans les états, le paramétrage des comptes principaux est important. Pour faire apparaître ces comptes principaux comme montants positifs, le type de compte principal doit être défini sur **Passif** ou **Produit**. Lorsque ces types de comptes sont utilisés, la génération d’états via Power BI contrepasse les signes et affiche les montants comme positifs.

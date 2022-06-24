@@ -1,6 +1,6 @@
 ---
 title: Résoudre les problèmes de synchronisation en direct
-description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
+description: Cet article fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
 author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896703"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Résoudre les problèmes de synchronisation en direct
 
@@ -22,14 +22,14 @@ ms.locfileid: "8062361"
 
 
 
-Cette rubrique fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finances et Opérations et Microsoft Dataverse. Notamment elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
+Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Microsoft Dataverse. Notamment elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
 
 > [!IMPORTANT]
-> Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’administrateur du client Azure Active Directory (Azure AD). Chaque section explique si un rôle ou des informations d’identification spécifiques sont requis.
+> Certains des problèmes abordés dans cet article peuvent exiger le rôle d’administrateur système ou les identifiants d’administrateur du client Azure Active Directory (Azure AD). Chaque section explique si un rôle ou des informations d’identification spécifiques sont requis.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>La synchronisation en direct affiche une erreur lorsque vous créez une ligne
 
-Vous pouvez recevoir le message d’erreur suivant lorsque vous créez une ligne dans une application Finances et Opérations :
+Vous pouvez recevoir le message d’erreur suivant lorsque vous créez une ligne dans une application de finances et d’opérations :
 
 *\[{\\« Erreur\\ » :{\\« Code\\ » :\\« 0x80072560\\ »,\\« message\\ » :\\« L’utilisateur n’est pas un membre de l’organisation.\\ »}}\], Le serveur distant a renvoyé une erreur : (403) Forbidden."}}".*
 
@@ -39,11 +39,11 @@ Pour résoudre le problème, suivez les étapes dans [Configuration requise et c
 
 **Rôle requis pour résoudre le problème :** Administrateur système
 
-Vous pouvez recevoir le message d’erreur suivant lorsque vous essayer d’enregistrer les données de la table dans une application Finances et Opérations :
+Vous pouvez recevoir le message d’erreur suivant lorsque vous essayer d’enregistrer les données de la table dans une application de finances et d’opérations :
 
 *Impossible d’enregistrer les modifications dans la base de données. L’unité de travail ne peut pas valider la transaction. Impossible d’écrire des données sur les UM de l’entité. Échec de l’écriture dans UnitOfMeasureEntity avec le message d’erreur Impossible de synchroniser avec les UM de l’entité.*
 
-Pour résoudre le problème, vous devez vous assurer que les données de référence préalables existent dans l’application Finances et Opérations et Dataverse. Par exemple, si un enregistrement client appartient à un groupe de clients spécifique, assurez-vous que le groupe de clients existe dans Dataverse.
+Pour résoudre le problème, vous devez vous assurer que les données de référence préalables existent dans l’application de finances et d’opérations et Dataverse. Par exemple, si un enregistrement client appartient à un groupe de clients spécifique, assurez-vous que le groupe de clients existe dans Dataverse.
 
 Si les données existent aux deux endroits, et si vous avez confirmé que le problème n’est pas lié aux données, procédez comme suit.
 
@@ -51,15 +51,15 @@ Si les données existent aux deux endroits, et si vous avez confirmé que le pro
 2. Sélectionnez et supprimez les enregistrements qui présentent des problèmes dans le mappage et le projet à double écriture. Il y aura deux enregistrements pour chaque mappage à double écriture.
 3. Publiez les modifications à l’aide du complément Excel. Cette étape est importante car elle supprime les enregistrements de l’entité et des tables sous-jacentes.
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gérer les erreurs de privilège de lecture ou d’écriture lorsque vous créez des données dans une application Finances et Opérations
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gérer les erreurs de privilège de lecture ou d’écriture lorsque vous créez des données dans une application de finances et d’opérations
 
-Vous pouvez recevoir le message d’erreur « Bad Request » lorsque vous créez des données dans une application Finances et Opérations.
+Vous pouvez recevoir le message d’erreur « Bad Request » lorsque vous créez des données dans une application de finances et d’opérations.
 
 ![Exemple de message d’erreur « Bad Request ».](media/error_record_id_source.png)
 
 Pour résoudre le problème, vous devez activer le privilège manquant en attribuant le rôle de sécurité correct à l’équipe des unités commerciales Dynamics 365 Sales ou Dynamics 365 Customer Service mappées.
 
-1. Dans l’application Finances et Opérations, recherchez l’unité commerciale mappée dans le jeu de connexions d’intégration de données.
+1. Dans l’application de finances et d’opérations, recherchez l’unité commerciale mappée dans le jeu de connexions d’intégration de données.
 
     ![Cartographie de l’organisation.](media/mapped_business_unit.png)
 
@@ -77,7 +77,7 @@ Pour résoudre le problème, vous devez activer le privilège manquant en attrib
 
 **Rôle requis pour résoudre le problème :** Administrateur système
 
-Vous pouvez recevoir le message d’erreur suivant lorsque vous créez des données dans une application Finances et Opérations :
+Vous pouvez recevoir le message d’erreur suivant lorsque vous créez des données dans une application de finances et d’opérations :
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Impossible de générer la charge utile pour vérifier CustCustomerV3Entity** », « logDateTime » : « 2019-08-27T18:51:52.5843124Z », « verboseError » : « Échec de la création de la charge utile avec l’erreur URI non valide : l’URI est vide. »}\], « isErrorCountUpdated » : true}*
 
@@ -85,14 +85,14 @@ Voici à quoi ressemble le message d’erreur dans l’application d’engagemen
 
 > Une erreur inattendue s’est produite dans le code ISV. (ErrorType = ClientError) Exception inattendue depuis le plug-in (Execute) : Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: échec du traitement du compte de l’entité – (Échec de la tentative de connexion, car la partie connectée n’a pas répondu correctement après un temps donné, ou la connexion établie a échoué en raison de l’absence de réponse de l’hôte connecté.
 
-Cette erreur se produit si l’environnement Dataverse est mal réinitialisé lorsque vous essayez de créer des données dans l’application Finances et Opérations.
+Cette erreur se produit si l’environnement Dataverse est mal réinitialisé lorsque vous essayez de créer des données dans l’application de finances et d’opérations.
 
 > [!IMPORTANT]
 > Si vous avez reconnecté les environnements, vous devez arrêter tous les mappages d’entité avant de poursuivre les étapes d’atténuation.
 
-Pour résoudre le problème, vous devez suivre les étapes à la fois dans Dataverse et dans l’application Finances et Opérations.
+Pour résoudre le problème, vous devez suivre les étapes à la fois dans Dataverse et dans l’application de finances et d’opérations.
 
-1. Dans l’application Finances et Opérations, procédez comme suit :
+1. Dans l’application de finances et d’opérations, procédez comme suit :
 
     1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finances et Opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
     2. Sélectionnez et supprimez les enregistrements qui présentent des problèmes dans le mappage et le projet à double écriture. Il y aura deux enregistrements pour chaque mappage à double écriture.
@@ -108,7 +108,7 @@ Pour résoudre le problème, vous devez suivre les étapes à la fois dans Datav
     5. Sélectionnez **Résultats** pour voir les configurations.
     6. Supprimez toutes les instances.
 
-3. Dans l’application Finances et Opérations, procédez comme suit :
+3. Dans l’application de finances et d’opérations, procédez comme suit :
 
     1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finances et Opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
     2. Sélectionnez et supprimez les enregistrements qui présentent des problèmes dans le mappage et le projet à double écriture. Il y aura deux enregistrements pour chaque mappage à double écriture.
@@ -250,17 +250,17 @@ Pour régler le problème, procédez comme suit.
 5. Arrêtez tous les mappages à double écriture créés sur l’entité **smmContactPersonCDSV2Entity**.
 6. Démarrez le mappage. Vous devriez voir la nouvelle table (**LogisticsPostalAddress** dans cet exemple) que vous avez commencé à suivre en utilisant la colonne **RefTableName** pour la ligne où la valeur **refentityname** est égale à **smmContactPersonCDSV2Entity** dans la table **BusinessEventsDefinition**.
 
-## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Erreur lorsque vous créez un enregistrement où plusieurs enregistrements sont envoyés d’une application Finances et Opérations à Dataverse dans le même lot
+## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Erreur lorsque vous créez un enregistrement où plusieurs enregistrements sont envoyés d’une application de finances et d’opérations à Dataverse dans le même lot
 
-Pour toute transaction, une application Finances et Opérations crée des données dans un lot et les envoie sous forme de lot à Dataverse. Si deux enregistrements sont créés dans le cadre de la même transaction et qu’ils se font référence l’un à l’autre, vous pouvez recevoir un message d’erreur qui ressemble à l’exemple suivant dans l’application Finances et Opérations :
+Pour toute transaction, une application de finances et d’opérations crée des données dans un lot et les envoie sous forme de lot à Dataverse. Si deux enregistrements sont créés dans le cadre de la même transaction et qu’ils se font référence l’un à l’autre, vous pouvez recevoir un message d’erreur qui ressemble à l’exemple suivant dans l’application de finances et d’opérations :
 
 *Impossible d’écrire des données dans l’entité aaa_fundingsources. Impossible de rechercher ebecsfs_contracts avec des valeurs {PC00...}. Impossible de rechercher aaa_fundingsources avec des valeurs {PC00...}. Échec des écritures dans aaa_fundingsources avec un message d’erreur Message d’exception : le serveur distant a renvoyé une erreur : (400) Bad Request.*
 
-Pour résoudre le problème, créez des relations d’entité dans l’application Finances et Opérations pour indiquer que les deux entités sont liées l’une à l’autre et que les enregistrements liés sont traités dans la même transaction.
+Pour résoudre le problème, créez des relations d’entité dans l’application de finances et d’opérations pour indiquer que les deux entités sont liées l’une à l’autre et que les enregistrements liés sont traités dans la même transaction.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Activer la journalisation détaillée des messages d’erreur
 
-Dans une application Finances et Opérations, vous pouvez rencontrer des erreurs liées à l’environnement Dataverse. Le message d’erreur peut ne pas contenir le texte intégral du message, ou d’autres données pertinentes. Pour obtenir plus d’informations, vous pouvez activer la journalisation détaillée en définissant l’indicateur **IsDebugMode** qui est présent sur l’entité **DualWriteProjectConfigurationEntity** dans toutes les configurations de projet des applications Finances et Opérations.
+Dans une application de finances et d’opérations, vous pouvez rencontrer des erreurs liées à l’environnement Dataverse. Le message d’erreur peut ne pas contenir le texte intégral du message, ou d’autres données pertinentes. Pour obtenir plus d’informations, vous pouvez activer la journalisation détaillée en définissant l’indicateur **IsDebugMode** qui est présent sur l’entité **DualWriteProjectConfigurationEntity** dans toutes les configurations de projet des applications Finances et Opérations.
 
 1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finances et Opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
 2. Définissez l’indicateur **IsDebugMode** sur **Oui** dans le projet.
@@ -300,7 +300,7 @@ Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez de crée
 
 *Impossible de mettre à jour le type de partie de « DirOrganization » à « DirPerson » ; il convient plutôt d’effectuer une suppression de la partie existante suivie d’une insertion avec le nouveau type.*
 
-Dans Dataverse, il existe une souche de numéros sur la table **msdyn_party**. Lorsqu’un compte est créé dans Dataverse, une nouvelle partie est créée (par exemple **Partie-001** du type **Organisation**). Ces données sont envoyées à l’application Finances et Opérations. Si l’environnement Dataverse est réinitialisé, ou si l’environnement Finances et Opérations est lié à un autre environnement Dataverse, puis qu’un nouvel enregistrement de contact est créé dans Dataverse, une nouvelle valeur de partie commençant par **Partie-001** est créé. Cette fois, l’enregistrement de partie créé sera **Partie-001** du type **Personne**. Lorsque ces données sont synchronisées, les applications Finances et Opérations affichent le message d’erreur précédent, parce que l’enregistrement de partie **Partie-001** du type **Organisation** existe déjà.
+Dans Dataverse, il existe une souche de numéros sur la table **msdyn_party**. Lorsqu’un compte est créé dans Dataverse, une nouvelle partie est créée (par exemple **Partie-001** du type **Organisation**). Ces données sont envoyées à l’application de finances et d’opérations. Si l’environnement Dataverse est réinitialisé, ou si l’environnement de finances et d’opérations est lié à un autre environnement Dataverse, puis qu’un nouvel enregistrement de contact est créé dans Dataverse, une nouvelle valeur de partie commençant par **Partie-001** est créé. Cette fois, l’enregistrement de partie créé sera **Partie-001** du type **Personne**. Lorsque ces données sont synchronisées, les applications Finances et Opérations affichent le message d’erreur précédent, parce que l’enregistrement de partie **Partie-001** du type **Organisation** existe déjà.
 
 Pour résoudre le problème, modifiez la souche de numéros automatique pour le champ **msdyn_partynumber** de la table **msdyn_party** dans Dataverse en une autre séquence de numéros automatique.
 

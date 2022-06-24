@@ -1,6 +1,6 @@
 ---
 title: Afficher les états financiers
-description: Cette rubrique décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 Finance. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu'ils incluent.
+description: Cet article décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 Finance. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 author: kweekley
 ms.date: 03/25/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fec130ce7b05a8e0b8182a63679cf7b20983f1d0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907890"
 ---
 # <a name="view-financial-reports"></a>Afficher les états financiers
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment afficher et explorer des états financiers. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
+Cet article décrit comment afficher et explorer des états financiers. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 
 ## <a name="financial-reporting-overview"></a>Présentation des états financiers
 

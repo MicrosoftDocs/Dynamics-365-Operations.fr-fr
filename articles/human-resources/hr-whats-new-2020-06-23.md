@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (25 juin 2020)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 23 juin 2020.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 23 juin 2020.
 author: andreabichsel
 ms.date: 06/25/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1a5be61325a919762d690f2483c37b9eec020d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7fe8b685a2b492fe5ad23b410f6a99d81991e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904099"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (23 juin 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8689829"
 
 
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3347. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
+Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3347. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
 
 ## <a name="when-an-enrollment-is-expired-for-a-terminated-employee-the-leave-type-balance-and-amount-are-all-cleared-in-the-leave-enrollment-form-444867"></a>Lorsqu’une inscription a expiré pour un employé dont le contrat est terminé, le type de départ, le solde et le montant sont tous effacés dans le formulaire Inscription au départ (444867)
 

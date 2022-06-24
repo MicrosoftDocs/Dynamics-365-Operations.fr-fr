@@ -1,6 +1,6 @@
 ---
 title: Configurer les règles de correspondance de rapprochement bancaire
-description: Cette rubrique explique comment paramétrer des règles de correspondance de rapprochement et des ensembles de règles de correspondance de rapprochement pour faciliter le processus de rapprochement bancaire. Les règles de correspondance de rapprochement sont un ensemble de critères utilisés pour filtrer les lignes de relevé bancaire et les lignes de document bancaire lors du processus de rapprochement.
+description: Cet article explique comment paramétrer des règles de correspondance de rapprochement et des ensembles de règles de correspondance de rapprochement pour faciliter le processus de rapprochement bancaire. Les règles de correspondance de rapprochement sont un ensemble de critères utilisés pour filtrer les lignes de relevé bancaire et les lignes de document bancaire lors du processus de rapprochement.
 author: panolte
 ms.date: 08/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 218b07908fe88937d3f495ded356fe4a3606110b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: baea7ea7ec98c905e9ae896a8cf1e4ac54fb4a9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899927"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Configurer les règles de correspondance de rapprochement bancaire
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer des règles de correspondance de rapprochement et des ensembles de règles de correspondance de rapprochement pour faciliter le processus de rapprochement bancaire. Les règles de correspondance de rapprochement sont un ensemble de critères utilisés pour filtrer les lignes de relevé bancaire et les lignes de document bancaire lors du processus de rapprochement.
+Cet article explique comment paramétrer des règles de correspondance de rapprochement et des ensembles de règles de correspondance de rapprochement pour faciliter le processus de rapprochement bancaire. Les règles de correspondance de rapprochement sont un ensemble de critères utilisés pour filtrer les lignes de relevé bancaire et les lignes de document bancaire lors du processus de rapprochement.
 
 Vous pouvez paramétrer des règles de correspondance de rapprochement et des ensembles de règles de correspondance de rapprochement pour aider le processus de rapprochement bancaire. Une règle de correspondance de rapprochement est un ensemble de critères utilisés pour filtrer les lignes de relevé bancaire et les lignes de document bancaire Dynamics 365 Finance lors du processus de rapprochement. La page **Règles de correspondance de rapprochement** permet de paramétrer les règles de correspondance de rapprochement. Vous pouvez paramétrer plusieurs règles de correspondance, puis créer un ensemble de règles de correspondance de rapprochement dans la page **Ensembles de règles de correspondance de rapprochement**. 
 
@@ -44,7 +44,7 @@ Par défaut, les règles de mise en correspondance correspondent au premier docu
 |--------|---------------|----------------------------------------------------------|
 | **Faire correspondre au document bancaire**       | Permet de créer des critères afin de spécifier comment les documents bancaires et les lignes de relevé bancaire sont mis en correspondance lorsque la règle de rapprochement est exécutée à partir de la page **Feuille de calcul de rapprochement bancaire**. Les lignes de transaction sont sélectionnées en fonction des critères supplémentaires paramétrés dans les organisateurs.                                | **Étape 1 : définir la règle de correspondance** : sélectionnez des critères pour spécifier les relevés bancaires qui doivent être mis en correspondance avec les transactions bancaires Finance. **Étape 2 (facultatif) : sélectionner les lignes de relevés pour exécuter les règles de correspondance sur cette base :** Appliquer un filtre sur les lignes de relevé pour exécuter les règles.                                                                                                                                                                                                                                                                                                               |
 | **Effacer les lignes de relevés de contrepassation** | Permet de créer des critères pour spécifier comment les lignes de relevé de contrepassation doivent être supprimées de la page **Feuille de calcul de rapprochement bancaire** lorsque la règle de rapprochement est exécutée. Cette option est utilisée lorsqu’une erreur bancaire survient et que deux lignes de relevé bancaire sont répertoriées dans le relevé bancaire importé et que ces lignes doivent être rapprochées. | **Étape 1** :**rechercher les lignes de relevés de contrepassation** Permet d’ajouter des critères de sélection pour sélectionner des lignes de relevé bancaire de contrepassation. Par exemple, pour sélectionner uniquement des chèques, sélectionnez **Code de transaction en banque** dans le champ Champ, sélectionnez le signe plus (+) dans le champ **Opérateur**, puis entrez **Chèques** dans le champ de valeur. **Étape 2 : rechercher les lignes de relevés d’origine** : Vous pouvez ajouter des critères de sélection pour faire correspondre les lignes de document bancaire aux lignes de relevé bancaire. **Étape 3 : rechercher les transactions bancaires Finance** : Vous pouvez ajouter des critères de sélection pour faire correspondre les transactions Finance aux lignes de relevé bancaire. |
-| **Marquer les nouvelles transactions**          | Permet de créer des critères pour spécifier comment les nouvelles transactions doivent être marquées sur la page **Feuille de calcul de rapprochement bancaire** lorsque la règle de rapprochement est exécutée.                                                                                                                                                                 | **Étape 1 : rechercher les lignes de relevé** : permet d'ajouter des champs de sélection pour spécifier les lignes de relevé bancaire qui doivent être sélectionnées dans la page **Feuille de calcul de rapprochement bancaire**. **Étape 2 : rechercher Finance and Operations** : vous pouvez ajouter des critères de sélection pour rechercher des lignes de document bancaire. Si aucun document bancaire n’est trouvé, une ligne de relevé est marquée comme nouvelle transaction.                                                                                                                                                                                                                                             |
+| **Marquer les nouvelles transactions**          | Permet de créer des critères pour spécifier comment les nouvelles transactions doivent être marquées sur la page **Feuille de calcul de rapprochement bancaire** lorsque la règle de rapprochement est exécutée.                                                                                                                                                                 | **Étape 1 : rechercher les lignes de relevé** : permet d’ajouter des champs de sélection pour spécifier les lignes de relevé bancaire qui doivent être sélectionnées dans la page **Feuille de calcul de rapprochement bancaire**. **Étape 2 : rechercher Finance et Opérations** : vous pouvez ajouter des critères de sélection pour rechercher des lignes de document bancaire. Si aucun document bancaire n’est trouvé, une ligne de relevé est marquée comme nouvelle transaction.                                                                                                                                                                                                                                             |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

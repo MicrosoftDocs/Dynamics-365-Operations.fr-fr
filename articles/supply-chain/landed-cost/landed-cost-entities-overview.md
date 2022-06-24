@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des entités de coût au débarquement
-description: Cette rubrique fournit une vue d’ensemble des entités de données pour le coût au débarquement qui permettent aux sources de données externes de créer des trajets et des coûts, et de mettre à jour les enregistrements de suivi des conteneurs.
+description: Cet article fournit une vue d’ensemble des entités de données pour le coût au débarquement qui permettent aux sources de données externes de créer des trajets et des coûts, et de mettre à jour les enregistrements de suivi des conteneurs.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 3edef76ebb84031e5ce906fbf35d2d331781a534
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 34721421d4bf0f052d1bce2cc822dcb2a408170f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906006"
 ---
 # <a name="landed-cost-entities-overview"></a>Vue d’ensemble des entités de coût au débarquement
 

@@ -1,6 +1,6 @@
 ---
 title: Paramétrer les codes déclaration de retenue à la source pour le type de taxe TDS
-description: Les codes déclaration de retenue à la source sont utilisés pour générer les déclarations des formulaires 26Q et 27Q pour l'impôt retenu à la source (TDS). Cette rubrique explique comment configurer les étapes des codes de déclaration de retenue à la source afin de pouvoir configurer les codes de déclaration TDS.
+description: Les codes déclaration de retenue à la source sont utilisés pour générer les déclarations des formulaires 26Q et 27Q pour l’impôt retenu à la source (TDS). Cet article explique comment configurer les étapes des codes de déclaration de retenue à la source afin de pouvoir configurer les codes de déclaration TDS.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 769159fc10c3edfba8c2f626e7bff702e3e5cd7f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: bdd2e89d29807dc31d8f2d4684ee413470b1dbde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907796"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Paramétrer les codes déclaration de retenue à la source pour le type de taxe TDS
 
 [!include [banner](../includes/banner.md)]
 
-Les codes déclaration de retenue à la source sont utilisés pour générer les déclarations des formulaires 26Q et 27Q pour l'impôt retenu à la source (TDS). Cette rubrique explique comment configurer les étapes des codes de déclaration de retenue à la source afin de pouvoir configurer les codes de déclaration TDS.
+Les codes déclaration de retenue à la source sont utilisés pour générer les déclarations des formulaires 26Q et 27Q pour l’impôt retenu à la source (TDS). Cet article explique comment configurer les étapes des codes de déclaration de retenue à la source afin de pouvoir configurer les codes de déclaration TDS.
 
 1. Accédez à **Taxe \> Configuration \> Retenue à la source \> Codes déclaration de retenue à la source**.
 

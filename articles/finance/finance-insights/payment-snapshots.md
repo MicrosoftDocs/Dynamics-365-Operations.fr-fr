@@ -1,6 +1,6 @@
 ---
-title: Présentation des instantanés
-description: Cette rubrique décrit la fonction d’instantanés, qui vous permet d’enregistrer une prévision de flux de trésorerie pour une analyse ou une comparaison avec les chiffres réels ultérieurement. Lorsque vous générez une prévision de flux de trésorerie, vous pouvez enregistrer cette prévision sous la forme d’un "instantané". Vous pouvez ensuite utiliser ces instantanés pour modifier les comptes inclus dans la prévision, ou comparer la prévision dans l’instantané aux chiffres réels.
+title: Vue d’ensemble des instantanés
+description: Cet article décrit la fonction d’instantanés, qui vous permet d’enregistrer une prévision de flux de trésorerie pour une analyse ou une comparaison avec les chiffres réels ultérieurement. Lorsque vous générez une prévision de flux de trésorerie, vous pouvez enregistrer cette prévision sous la forme d’un "instantané". Vous pouvez ensuite utiliser ces instantanés pour modifier les comptes inclus dans la prévision, ou comparer la prévision dans l’instantané aux chiffres réels.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f84afddb26136797a7d35faf52325702b8e41a45
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 64f8aa3e932b4f8b6fdc5b239929216a11bfb377
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896490"
 ---
 # <a name="snapshots-overview"></a>Présentation des instantanés
 

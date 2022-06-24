@@ -1,6 +1,6 @@
 ---
 title: Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un journal d’approbation
-description: Cette rubrique explique comment utiliser le registre des factures pour créer des factures et utiliser le journal d’approbation pour mettre à jour les comptes de dépenses.
+description: Cet article explique comment utiliser le registre des factures pour créer des factures et utiliser le journal d’approbation pour mettre à jour les comptes de dépenses.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: afe1471949bbf892f4e28ed3bea830ee491a517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909212"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un journal d’approbation
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment utiliser le registre des factures pour créer des factures et utiliser le journal d’approbation pour mettre à jour les comptes de dépenses.
+Cet article explique comment utiliser le registre des factures pour créer des factures et utiliser le journal d’approbation pour mettre à jour les comptes de dépenses.
 
 ## <a name="create-and-post-and-invoice"></a>Créer et valider une facture
 1. Dans le volet de navigation, accédez à **Modules > Comptabilité fournisseur > Factures > Registre des factures**.

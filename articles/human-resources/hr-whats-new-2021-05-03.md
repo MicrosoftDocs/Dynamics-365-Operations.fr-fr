@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources, 3 mai 2021
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 3 mai 2021.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 3 mai 2021.
 author: marcelbf
 ms.date: 05/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01babeae8ccb5af5e414cb78734ce05adf670277
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902858"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources, 3 mai 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources.
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Dynamics 365 Human Resources.
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -41,19 +41,19 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 
 | Fonctionnalité | Programme de lancement | Documentation |
 | --- | --- | --- |
-| Ajoutez une barre d'informations lorsque des événements de la vie sont créés. | - | Lorsque vous créez un événement personnel, la barre d'informations affiche un message indiquant le type d'événement personnel créé.
+| Ajoutez une barre d’informations lorsque des événements de la vie sont créés. | - | Lorsque vous créez un événement personnel, la barre d’informations affiche un message indiquant le type d’événement personnel créé.
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème | Sortie |  Description |
+| Numéro du problème | Problème |  Description |
 | --- | --- | --- |
-| 559312 |  Le niveau n'est pas affiché lors de la création d'un plan de rémunération fixe pour un employé. |  En cas de non-concordance de fuseau horaire entre le fuseau horaire de l'utilisateur et le fuseau horaire de l'entreprise, le niveau de rémunération du travail ne pouvait pas être lu. La requête a été mise à jour pour être extraite en fonction de l'heure UTC. |
-| 573676  | Impossible d'ajouter une nouvelle période dans l'écran **Plan d'avantages**. | Mise à jour du formulaire afin que le bouton **Nouveau** soit activé sous le raccourci **Période** dans l'onglet **Plans d'avantages**. |
+| 559312 |  Le niveau n’est pas affiché lors de la création d’un plan de rémunération fixe pour un employé. |  En cas de non-concordance de fuseau horaire entre le fuseau horaire de l’utilisateur et le fuseau horaire de l’entreprise, le niveau de rémunération du travail ne pouvait pas être lu. La requête a été mise à jour pour être extraite en fonction de l’heure UTC. |
+| 573676  | Impossible d’ajouter une nouvelle période dans l’écran **Plan d’avantages**. | Mise à jour du formulaire afin que le bouton **Nouveau** soit activé sous le raccourci **Période** dans l’onglet **Plans d’avantages**. |
 
 ## <a name="in-preview"></a>En mode aperçu
 
@@ -62,8 +62,8 @@ Les nouvelles fonctions suivantes sont en version préliminaire. Pour plus d’i
 | Fonctionnalité | Programme de lancement | Documentation |
 | --- | --- | --- |
 | Espace de travail de gestion des avantages | [Espace de travail de gestion des avantages (version préliminaire)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Espace de travail de gestion des avantages](hr-benefits-management-workspace.md) |
-| Améliorations de l'expérience du flux de travail sur les congés et les absences | [Améliorations de l'expérience du flux de travail sur les congés et les absences](https://go.microsoft.com/fwlink/?linkid=2147528) | [Demander un congé](hr-employee-self-service-request-time-off.md)|
-| Activer l'intégration simplifiée de la paie (API d'intégration de la paie) | [Activer l'intégration simplifiée avec des prestataires de paie](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [API d’intégration de la paie](hr-admin-integration-payroll-api-introduction.md)|
+| Améliorations de l’expérience du flux de travail sur les congés et les absences | [Améliorations de l’expérience du flux de travail sur les congés et les absences](https://go.microsoft.com/fwlink/?linkid=2147528) | [Demander un congé](hr-employee-self-service-request-time-off.md)|
+| Activer l’intégration simplifiée de la paie (API d’intégration de la paie) | [Activer l’intégration simplifiée avec des prestataires de paie](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [API d’intégration de la paie](hr-admin-integration-payroll-api-introduction.md)|
 | Audit des transactions de régularisation de congés | - | [Audit des transactions de régularisation de congés](hr-leave-and-absence-accrue.md)|
 
 ## <a name="coming-soon"></a>Bientôt disponible

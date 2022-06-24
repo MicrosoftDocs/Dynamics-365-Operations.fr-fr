@@ -1,6 +1,6 @@
 ---
 title: Factures QR pour la Suisse
-description: Cette rubrique offre des informations sur la façon de générer des factures QR (bons de livraison QR) et de traiter les factures QR entrantes.
+description: Cet article offre des informations sur la façon de générer des factures QR (bons de livraison QR) et de traiter les factures QR entrantes.
 author: anasyash
 ms.date: 03/25/2020
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7fa109dbdd70fc60742c99cb8045d6a85c0c59cf
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 5c968146b2d60ba3f21ff93dca6aa6b5f0dea319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906268"
 ---
 # <a name="swiss-qr-bills"></a>Factures QR pour la Suisse
 
 [!include [banner](../includes/banner.md)]
 
 
-À partir de juillet 2020, les factures QR (bons de livraison QR) devront être traitées et émises en plus des factures. Cette rubrique explique comment générer les factures QR et traiter les factures QR entrantes dans Microsoft Dynamics 365 Finance.
+À partir de juillet 2020, les factures QR (bons de livraison QR) devront être traitées et émises en plus des factures. Cet article explique comment générer les factures QR et traiter les factures QR entrantes dans Microsoft Dynamics 365 Finance.
 
 Pour rendre la fonctionnalité Facture QR disponible, vous devez activer les fonctionnalités suivantes dans le module **Gestion des fonctionnalités** :
 

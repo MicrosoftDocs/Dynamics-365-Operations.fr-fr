@@ -1,6 +1,6 @@
 ---
 title: Actifs à plusieurs niveaux
-description: Cette rubrique explique comment créer et supprimer des actifs à plusieurs niveaux.
+description: Cet article explique comment créer et supprimer des actifs à plusieurs niveaux.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908770"
 ---
 # <a name="multi-level-assets"></a>Actifs à plusieurs niveaux
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769609"
 
  
 
-Cette rubrique explique comment créer et supprimer des actifs à plusieurs niveaux. Vous pouvez créer des actifs et des sous-actifs associés dans une structure arborescente hiérarchique. De cette manière, vous pouvez afficher les relations et les dépendances entre les actifs. Les tâches de maintenance peuvent être associées à tous les niveaux de la structure arborescente. Des statistiques peuvent également être créées à un niveau particulier ou en tant que somme de tous les sous-niveaux.
+Cet article explique comment créer et supprimer des actifs à plusieurs niveaux. Vous pouvez créer des actifs et des sous-actifs associés dans une structure arborescente hiérarchique. De cette manière, vous pouvez afficher les relations et les dépendances entre les actifs. Les tâches de maintenance peuvent être associées à tous les niveaux de la structure arborescente. Des statistiques peuvent également être créées à un niveau particulier ou en tant que somme de tous les sous-niveaux.
 
 Sur la page de liste **Tous les actifs** (**Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les actifs**), la colonne **Actif** répertorie les actifs dans l’ordre hiérarchique. La colonne **Parent** affiche le parent associé. En outre, si les actifs et les sous-actifs ont déjà été créés, la section **Arborescence d’actifs** du volet **Informations associées** affiche les actifs sous forme de structure arborescente.
 

@@ -1,6 +1,6 @@
 ---
-title: Catalogue d’apprentissage pour les développeurs de Dynamics 365 Finance
-description: Découvrez toutes les options d’apprentissage pour les développeurs de Dynamics 365 Finance.
+title: Catalogue d’apprentissage pour les développeurs Dynamics 365 Finance
+description: Découvrez toutes les options d’apprentissage pour les développeurs Dynamics 365 Finance.
 author: margoc
 ms.topic: article
 ms.date: 07/27/2020
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 866db1307484fd35949e87d02ca17ef0555bb654
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 729fc6a1172d651a24cc0a3bff765b09263e3cd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903097"
 ---
-# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Catalogue d’apprentissage pour les développeurs de Dynamics 365 Finance
+# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Catalogue d’apprentissage pour les développeurs Dynamics 365 Finance
 
 
 
@@ -70,7 +70,7 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 | Contenu | Description | Format | Length |
 |---------|-------------|--------|--------|
-| [Mise à niveau de Dynamics AX’ 2012 vers les applications Finances et Opérations](/learn/paths/upgrade-ax-2012-finance-operations/) | Découvrez les éléments les plus importants et les bonnes pratiques pour réussir la mise à niveau de votre solution Dynamics AX 2012 vers les applications Finances et Opérations. Depuis les premières étapes de découverte des principales différences architecturales, la prise en main du processus de mise à niveau et des outils de mise à niveau du code et des données, jusqu’aux meilleurs méthodes de repenser vos intégrations, vos analyses et vos générations d’états en fonction des dernières fonctionnalités. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 7 heures |
+| [Mise à niveau de Dynamics AX’ 2012 vers les applications de finances et d’opérations](/learn/paths/upgrade-ax-2012-finance-operations/) | Découvrez les éléments les plus importants et les bonnes pratiques pour réussir la mise à niveau de votre solution Dynamics AX 2012 vers les applications de finances et d’opérations. Depuis les premières étapes de découverte des principales différences architecturales, la prise en main du processus de mise à niveau et des outils de mise à niveau du code et des données, jusqu’aux meilleurs méthodes de repenser vos intégrations, vos analyses et vos générations d’états en fonction des dernières fonctionnalités. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 7 heures |
 | [Finances et Opérations : Mise à niveau depuis 7.x vers 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Veuillez nous rejoindre à l’occasion de notre prochain forum technique pendant lequel nous aborderons le processus de mise à niveau 7.X vers 8.X. Nous aborderons différents scénarios et diverses étapes pour exécuter la mise à niveau du code et la mise à niveau des données. Nous couvrirons également les scénarios de demande d’extensibilité et la manière de les aborder, le cas échéant. Partie 1 sur 2. | Enregistrement libre d’une conférence Web | 61 minutes |
 | [Mise à niveau de AX2012 vers Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Ce forum technique offrira une vue d’ensemble de la manière de mettre à niveau le code et les données depuis Dynamics AX 2012 vers Dynamics 365 for Operations. | Enregistrement libre d’une conférence Web | 45 minutes |
 | [Outils de migration AX2009 vers Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | Cette session couvrira les outils disponibles pour vous aider avec la migration de AX2009 vers D365 for Operations. | Enregistrement libre d’une conférence Web | 55 minutes |

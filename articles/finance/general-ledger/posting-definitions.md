@@ -1,6 +1,6 @@
 ---
 title: Définitions de validation
-description: Cette rubrique fournit des informations sur les définitions de validation, et comment les définir et les lier. Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables.
+description: Cet article fournit des informations sur les définitions de validation, et comment les définir et les lier. Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables.
 author: kweekley
 ms.date: 09/03/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 056300768aa0bc5e1981e1d43de03fabba21a5fa
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f60506e039623ae7a97f6b4e835f751da15ac0c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898147"
 ---
 # <a name="posting-definitions"></a>Définitions de validation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les définitions de validation, et comment les définir et les lier.
+Cet article fournit des informations sur les définitions de validation, et comment les définir et les lier.
 Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables. Vous pouvez afficher les documents et les types de validation pris en charge dans la page **Définitions de validation de transaction**. 
 
 Pour commencer à utiliser les définitions de validation, sélectionnez l’option **Utiliser les définitions de validation** dans la page **Paramètres de comptabilité**. Même si vous utilisez les définitions de validation, vous devez toujours définir les profils de validation des entrées d’origine et des types et documents de validation non pris en charge. 

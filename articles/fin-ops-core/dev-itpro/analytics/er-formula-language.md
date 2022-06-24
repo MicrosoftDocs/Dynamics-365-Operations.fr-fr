@@ -1,6 +1,6 @@
 ---
 title: Langage de formule dans la gestion des états électroniques
-description: Cette rubrique fournit des informations sur l’utilisation du langage de formule dans les États électroniques (ER).
+description: Cet article fournit des informations sur l’utilisation du langage de formule dans les États électroniques (ER).
 author: NickSelin
 ms.date: 05/04/2020
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ef0b9e411fabca1427b985eb51640bfd2a0d59318a456cb5b1ecdea1445fab5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86dcbee30ec4c260f7c035f92e343e4b2389f8db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905226"
 ---
 # <a name="electronic-reporting-formula-language"></a>Langage de formule dans la gestion des états électroniques
 
@@ -112,15 +112,15 @@ Lorsqu’une expression fait référence à une source de données structurée, 
 
 Si le chemin d’une source de données structurée commence par un signe arobase (@), il s’agit d’un chemin relatif. Le signe arobase est affiché à la place de la partie restante du chemin absolu de l’arborescence hiérarchique utilisée. L’illustration suivante présente un exemple. Ici, le chemin absolu `Ledger.'accountingCurrency()'` indique que la valeur de la devise comptable de la source de données **Comptabilité** est entrée dans le champ **AccountingCurrency** du modèle de données.
 
-![Exemple de chemin d'accès absolu sur la page du concepteur de mappage de modèles ER.](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Exemple de chemin d’accès absolu sur la page du concepteur de mappage de modèles ER.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 L’exemple de l’illustration suivante montre comment un chemin relatif est utilisé. Le chemin relatif `@.AccountNum` indique que le champ **AccountNum** de la source de données **Déclaration d’échanges de biens** (qui apparaît un niveau au-dessus du champ **AccountNum** dans l’arborescence hiérarchique du modèle de données) est utilisé pour saisir le numéro de compte client ou fournisseur dans le champ **AccountNum** du modèle de données.
 
-![Exemple de chemin d'accès relatif sur la page du concepteur de mappage de modèles ER.](./media/ER-FormulaLanguage-RelativePath1.png)
+![Exemple de chemin d’accès relatif sur la page du concepteur de mappage de modèles ER.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 La partie restante du chemin absolu est également indiquée dans l’[Éditeur de formule ER](general-electronic-reporting-formula-designer.md).
 
-![Partie restante du chemin d'accès absolu sur la page du concepteur de formule ER.](./media/ER-FormulaLanguage-RelativePath2.png)
+![Partie restante du chemin d’accès absolu sur la page du concepteur de formule ER.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Pour plus d’informations, consultez [Utiliser un chemin d’accès relatif dans les liaisons de données des modèles et des formats ER](relative-path-data-bindings-er-models-format.md).
 

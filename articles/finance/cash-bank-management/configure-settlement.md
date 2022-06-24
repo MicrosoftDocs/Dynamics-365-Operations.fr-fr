@@ -1,6 +1,6 @@
 ---
 title: Configurer un règlement
-description: La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cette rubrique décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client.
+description: La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cet article décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client.
 author: kweekley
 ms.date: 05/16/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 14ed2999a9ad8ffc64815ca3f8b1556aad27ae48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910198"
 ---
 # <a name="configure-settlement"></a>Configurer un règlement
 
 [!include [banner](../includes/banner.md)]
 
-La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cette rubrique décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client. 
+La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cet article décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client. 
 
 Les paramètres suivants affectent la manière dont les règlements sont traités dans Microsoft Dynamics 365 Finance. Le règlement est le processus qui consiste à régler une facture à l’aide d’un paiement ou d’un avoir. Ces paramètres sont situés dans la zone **Règlement** des pages **Paramètres de la comptabilité client** et **Paramètres de la comptabilité fournisseur**.
 

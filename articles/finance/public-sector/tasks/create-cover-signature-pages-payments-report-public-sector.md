@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendCoverPageLayout
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e27f05f1a4c50f32bc5997fdc7cc845e5d8f8a3
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 7c1a808a745bb218cdab01cd1123a64d3ebf8487
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119455"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946230"
 ---
 # <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a>Créer une couverture et des pages de signature pour un état de paiement pour le secteur public
 

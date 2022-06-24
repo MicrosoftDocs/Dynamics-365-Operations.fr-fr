@@ -1,6 +1,6 @@
 ---
 title: Inverser le statut d’ordre de fabrication
-description: Cette rubrique décrit la procédure pour contrepasser le statut de l’ordre de fabrication.
+description: Cet article décrit la procédure pour contrepasser le statut de l’ordre de fabrication.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903954"
 ---
 # <a name="reverse-the-production-order-status"></a>Inverser le statut d’ordre de fabrication
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure pour contrepasser le statut de l’ordre de fabrication. 
+Cet article décrit la procédure pour contrepasser le statut de l’ordre de fabrication. 
 
 Le fait d’inverser le statut d’un ordre de fabrication ramène l’ordre et toutes les opérations associées aux gammes à une étape précédente du cycle de vie de la production. Par exemple, un ordre de fabrication a le statut **Prévu**, et vous rétablissez son statut sur **Créé**. Dans ce cas, le système doit d’abord définir le statut sur **Estimé**, qui est le statut qui vient juste avant le statut **Prévu**. Il peut ensuite modifier le statut pour le définir sur le statut souhaité, **Créé**. **Remarque :** si votre ordre a atteint le statut **Déclaration de fin**, il est toujours possible de rétablir un statut antérieur. Cependant, vous devez réexécuter une estimation et un ordonnancement ou une planification des tâches ou les deux types de planification pour mettre à jour les informations relatives à l’ordre. Cette étape est nécessaire, car les réservations de la consommation d’articles restants et de la consommation des ressources opérationnelles doivent également être redéfinies. Le reste de cet article décrit ce qui se produit lorsque vous contrepassez le statut d’un ordre de fabrication comme suit :
 

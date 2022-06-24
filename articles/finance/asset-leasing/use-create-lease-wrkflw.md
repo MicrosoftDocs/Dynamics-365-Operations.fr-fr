@@ -1,6 +1,6 @@
 ---
 title: Utiliser les workflows d’approbation de bail
-description: Cette rubrique explique comment utiliser les workflows pour approuver les baux d’actifs et comment suivre l’état et l’historique des workflows.
+description: Cet article explique comment utiliser les workflows pour approuver les baux d’actifs et comment suivre l’état et l’historique des workflows.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906440"
 ---
 # <a name="use-lease-approval-workflows"></a>Utiliser les workflows d’approbation de bail
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment utiliser les workflows pour approuver les baux d’actifs et comment suivre l’état et l’historique des workflows. Les workflows contribuent à assurer la cohérence de la gestion des approbations de bail en fournissant un ensemble standard d’étapes d’approbation et en affectant des utilisateurs spécifiques qui approuvent chaque étape du processus. Un approbateur peut approuver un bail, le rejeter, demander une modification ou l’affecter à un autre utilisateur pour approbation. Les workflows peuvent également apporter plus de visibilité sur le processus d’approbation en vous permettant de suivre leur statut et leur historique. En outre, vous pouvez afficher une liste de travail centralisée qui répertorie les tâches et les approbations affectées à des approbateurs spécifiques.
+Cet article explique comment utiliser les workflows pour approuver les baux d’actifs et comment suivre l’état et l’historique des workflows. Les workflows contribuent à assurer la cohérence de la gestion des approbations de bail en fournissant un ensemble standard d’étapes d’approbation et en affectant des utilisateurs spécifiques qui approuvent chaque étape du processus. Un approbateur peut approuver un bail, le rejeter, demander une modification ou l’affecter à un autre utilisateur pour approbation. Les workflows peuvent également apporter plus de visibilité sur le processus d’approbation en vous permettant de suivre leur statut et leur historique. En outre, vous pouvez afficher une liste de travail centralisée qui répertorie les tâches et les approbations affectées à des approbateurs spécifiques.
 
 Avant d’utiliser cette procédure, assurez-vous qu’au moins un workflow d’approbation de bail a été créé. Si aucun workflow n’existe, créez-en. Pour plus d’informations sur la configuration d’un workflows, voir [Configurer des workflows d’approbation de bail](set-up-lease-wrkflw.md).
 

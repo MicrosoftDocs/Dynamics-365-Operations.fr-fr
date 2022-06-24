@@ -1,6 +1,6 @@
 ---
 title: Mises à jour réglementaires
-description: Cette rubrique fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 Finance.
+description: Cet article fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 Finance.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904279"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les mises à jour réglementaires prévues et publiées dans les régions prenant en charge Dynamics 365 Finance. Les calendriers de livraison sont susceptibles de changer et les fonctionnalités prévues pourraient être différentes ou ne pas être lancées. Pour plus d’informations, voir [Stratégie Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Cet article répertorie les mises à jour réglementaires prévues et publiées dans les régions prenant en charge Dynamics 365 Finance. Les calendriers de livraison sont susceptibles de changer et les fonctionnalités prévues pourraient être différentes ou ne pas être lancées. Pour plus d’informations, voir [Stratégie Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les [programmes de publication de Dynamics 365 et Power Platform](/business-applications-release-notes/index).
 

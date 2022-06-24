@@ -1,6 +1,6 @@
 ---
-title: Gérer le cycle de vie de la configuration des états électroniques (ER)
-description: Cette rubrique décrit comment gérer le cycle de vie des configurations d’états électroniques (ER) pour Dynamics 365 Finance.
+title: Gérer le cycle de vie de la configuration des états électroniques
+description: Cet article décrit comment gérer le cycle de vie des configurations d’états électroniques (ER) pour Dynamics 365 Finance.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906795"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gérer le cycle de vie de la configuration des états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment gérer le cycle de vie des configurations d’états électroniques (ER) pour Dynamics 365 Finance.
+Cet article décrit comment gérer le cycle de vie des configurations d’états électroniques (ER) pour Dynamics 365 Finance.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 La génération d’états électronique (ER) est un moteur qui prend en charge les documents électroniques exigés par les règlements et spécifiques aux pays. En général, l’ER suppose une capacité à effectuer les tâches suivantes pour un document électronique unique. Pour plus de détails, voir [Vue d’ensemble des États électroniques](general-electronic-reporting.md).
 
@@ -73,7 +73,7 @@ Les rôles suivants et les activités liées sont associés au cycle de vie de l
 | Commis au paiement de la comptabilité fournisseur            | Utilisez des artefacts ER dans un processus d’entreprise spécifique.                | Par exemple, un rôle de **Commis au paiement de la comptabilité fournisseur** qui autorise des messages de paiement électronique à générer pour le traitement des factures, selon le format ER configuré pour un mode de paiement spécifique. |
 
 ## <a name="er-configuration-development-lifecycle"></a>Cycle de vie de développement de la configuration ER
-Pour les raisons suivantes associées à ER, nous recommandons que vous conceviez des configurations ER dans l’environnement de développement en tant qu’instance distincte de Finance and Operations :
+Pour les raisons suivantes associées à ER, nous recommandons que vous conceviez des configurations ER dans l’environnement de développement en tant qu’instance distincte de Finance and Operations :
 
 - Les utilisateurs, qu’ils soient dans des rôles de **Développeur d’états électroniques** ou de **Consultant fonctionnel des états électroniques**, peuvent modifier des configurations et les exécuter à des fins de test. Ce scénario peut provoquer des appels de méthodes de classes et de tables qui sont potentiellement néfastes pour les données commerciales et les performances de l’instance.
 - Les appels de méthodes de classes et de tables en tant que sources de données ER des configurations ER ne sont pas limités par les points d’entrée, ni par le contenu d’entreprise consigné. Par conséquent, les utilisateurs dans les rôles de **Développeur d’états électroniques** ou de **Consultant fonctionnel des états électroniques** peuvent accéder aux données commerciales importantes.

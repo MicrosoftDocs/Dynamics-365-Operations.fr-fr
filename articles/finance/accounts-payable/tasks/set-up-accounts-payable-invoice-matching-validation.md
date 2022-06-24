@@ -1,6 +1,6 @@
 ---
-title: Configurer la validation du rapprochement de factures de la comptabilité fournisseur
-description: Cette rubrique fournit des informations sur le paramétrage de la validation du rapprochement de factures de la comptabilité fournisseur.
+title: Paramétrer la validation du rapprochement de factures dans la comptabilité fournisseur
+description: Cet article fournit des informations sur le paramétrage de la validation du rapprochement de factures de la comptabilité fournisseur.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904957"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurer la validation du rapprochement de factures de la comptabilité fournisseur
 
@@ -44,7 +44,7 @@ Il existe quatre types de validation du rapprochement.
 5. Activez ou désactivez la case à cocher **Mettre en correspondance les totaux de la facture** pour rapprocher les totaux réels de la facture avec ceux prévus.
     * Sélectionnez si une icône doit être affichée quand un écart pour le rapprochement de factures dépasse la tolérance. Vous pouvez sélectionner d’afficher l’icône quand un écart positif dépasse la tolérance, ou quand un écart positif OU négatif dépasse la tolérance.  
     * Par exemple, la tolérance est de 5 % et le montant total de la facture sur la commande fournisseur est 100,00. Par conséquent, une icône de correspondance des prix s’affiche si le montant total de la facture dépasse 105,00. Si vous sélectionnez **Si supérieur ou inférieur à la tolérance**, l’icône s’affiche également si le montant de la facture est inférieur à 95,00.  
-6. Dans le champ **Pourcentage de tolérance des totaux de facture**, entrez l’écart de pourcentage acceptable. Cette valeur est la valeur par défaut de la société. Cette valeur peut être remplacée pour des fournisseurs spécifiques, à l’aide de la page **Tolérances des totaux de facture**. Pour plus d’informations sur le remplacement du pourcentage de tolérance des totaux de facture pour un fournisseur spécifique, voir la section « Paramétrer la tolérance de rapprochement des totaux de facture pour les fournisseurs » plus loin dans cette rubrique.
+6. Dans le champ **Pourcentage de tolérance des totaux de facture**, entrez l’écart de pourcentage acceptable. Cette valeur est la valeur par défaut de la société. Cette valeur peut être remplacée pour des fournisseurs spécifiques, à l’aide de la page **Tolérances des totaux de facture**. Pour plus d’informations sur le remplacement du pourcentage de tolérance des totaux de facture pour un fournisseur spécifique, voir la section « Paramétrer la tolérance de rapprochement des totaux de facture pour les fournisseurs » plus loin dans cet article.
 7. Définissez **Prix et correspondance de quantité**.
 8. Le champ **Stratégie de rapprochement des lignes** permet de sélectionner une valeur à utiliser comme stratégie par défaut pour l’entité juridique avec laquelle vous travaillez. **Non obligatoire** signifie qu’il n’y a pas de vérification entre les prix indiqués dans les lignes de facture pour le prix d’une commande fournisseur ou les quantités facturées et les quantités indiquées sur le bon de livraison. **Rapprochement à deux facteurs** signifie que la vérification des lignes de facture est requise mais que seule la commande fournisseur et les documents de facturation du fournisseur sont impliqués dans la vérification. L’accusé de réception de marchandises n’est pas factorisé dans les validations de rapprochement. **Rapprochement à trois facteurs** signifie que le prix unitaire net de la facture sera comparé au prix unitaire net de la commande fournisseur et la quantité de l’accusé de réception de marchandises rapprochée sera comparée à la quantité de la facture.
 9. Pour autoriser l’application d’un autre niveau de correspondance sur un article, un fournisseur, une combinaison de fournisseur et d’article ou une ligne de commande fournisseur, sélectionnez une valeur dans le champ **Autoriser le remplacement de la stratégie de rapprochement**. La stratégie de rapprochement de ligne pour les fournisseurs peut être remplacée pour un fournisseur, un article ou une combinaison de fournisseurs et d’articles dans la page **Stratégie de rapprochement**.

@@ -1,8 +1,8 @@
 ---
 title: États de rapprochement pour la Belgique
-description: Cette rubrique décrit les états standard que Microsoft Dynamics 365 Finance fournit pour l’analyse de la déclaration de taxe INTERVAT et de rapprochement.
+description: Cet article décrit les états standard que Microsoft Dynamics 365 Finance fournit pour l’analyse de la déclaration de taxe INTERVAT et de rapprochement.
 author: anasyash
-ms.date: 07/27/2020
+ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,27 +11,30 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 273103
 ms.search.region: Belgium
-ms.author: roschlom
+ms.author: anasyash
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: f585d959b96640df384624edd4109aec8e9d4f0f9d8c314faa19be8c5e0b508b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee09b25924732871ff931498a897e7161c5f519b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907705"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>États de rapprochement pour la Belgique
 
 [!include [banner](../includes/banner.md)]
 
+> [!NOTE]
+> Cette fonctionnalité a été remplacée par la fonctionnalité de déclaration de TVA. Pour plus d’informations, voir [Déclaration de TVA (Belgique)](emea-bel-vat-declaration-belgium.md).
+
 Dynamics 365 Finance a évolué en applications spécialement conçues pour vous aider à gérer des fonctions commerciales spécifiques. Pour plus d’informations sur ces modifications, voir [Guide de gestion des licences Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-Cette rubrique décrit les états standard fournis pour l’analyse de la déclaration de taxe INTERVAT et de rapprochement.
+Cet article décrit les états standard fournis pour l’analyse de la déclaration de taxe INTERVAT et de rapprochement.
 
-Selon les entrées de taxe pour les périodes sélectionnées, la déclaration périodique belge de taxe sur la valeur ajoutée (TVA) combine des montants de taxe dans des zones (codes déclaration de taxe) en triant, en fractionnant et en totalisant les informations de manières spécifiques. Par conséquent, des états de contrôle sont requis, de sorte que les montants de la déclaration de TVA puissent être vérifiés en détail. Le reste de cette rubrique décrit les états qui incluent les détails des données dans la déclaration de TVA.
+Selon les entrées de taxe pour les périodes sélectionnées, la déclaration périodique belge de taxe sur la valeur ajoutée (TVA) combine des montants de taxe dans des zones (codes déclaration de taxe) en triant, en fractionnant et en totalisant les informations de manières spécifiques. Par conséquent, des états de contrôle sont requis, de sorte que les montants de la déclaration de TVA puissent être vérifiés en détail. Le reste de cet article décrit les états qui incluent les détails des données dans la déclaration de TVA.
 
-Les captures d’écran présentées dans cette rubrique montrent des données basées sur des transactions provenant d’un exemple de la rubrique, [Déclaration de taxe INTERVAT](emea-bel-intervat-tax-declaration.md).
+Les captures d’écran présentées dans cet article montrent des données basées sur des transactions provenant d’un exemple de l’article, [Déclaration de taxe INTERVAT](emea-bel-intervat-tax-declaration.md).
 
 
 ## <a name="sales-tax-correction"></a>Corrections de taxe

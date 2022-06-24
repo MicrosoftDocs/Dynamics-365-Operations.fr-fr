@@ -1,30 +1,30 @@
 ---
 title: Restreindre la modification des répartitions comptables dans les factures
-description: Cette rubrique explique comment exiger que les dimensions financières d’une commande fournisseur (CF) correspondent aux dimensions de la facture fournisseur correspondante.
+description: Cet article explique comment exiger que les dimensions financières d’une commande fournisseur (CF) correspondent aux dimensions de la facture fournisseur correspondante.
 author: v-kiarnd
 ms.date: 10/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0a6a03ae28e9b2f5b66b18948caeb0ba70dd68c4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d5e9138dbf92435f9b3a62721ab4d3761b74e5a
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687457"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946204"
 ---
 # <a name="restrict-editing-of-accounting-distributions-on-invoices"></a>Restreindre la modification des répartitions comptables dans les factures
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique explique comment exiger que les dimensions financières d’une commande fournisseur (CF) correspondent aux dimensions de la facture fournisseur correspondante. Vous pouvez configurer des dimensions financières spécifiques qui doivent correspondre entre une CF et une facture créée à partir de celui-ci. Par exemple, vous pouvez exiger que toutes les dimensions financières correspondent entre les CF et les factures. Sur les factures associées à une CF, vous ne pouvez pas modifier les comptes généraux sur les lignes de détail de la facture afin qu’ils diffèrent des comptes qui ont été saisis sur les lignes de CF.
+Cet article explique comment exiger que les dimensions financières d’une commande fournisseur (CF) correspondent aux dimensions de la facture fournisseur correspondante. Vous pouvez configurer des dimensions financières spécifiques qui doivent correspondre entre une CF et une facture créée à partir de celui-ci. Par exemple, vous pouvez exiger que toutes les dimensions financières correspondent entre les CF et les factures. Sur les factures associées à une CF, vous ne pouvez pas modifier les comptes généraux sur les lignes de détail de la facture afin qu’ils diffèrent des comptes qui ont été saisis sur les lignes de CF.
 
 ## <a name="set-up-locked-financial-dimensions"></a>Paramétrer des dimensions financières verrouillées
 

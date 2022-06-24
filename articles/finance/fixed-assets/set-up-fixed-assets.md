@@ -1,6 +1,6 @@
 ---
 title: Paramétrage d’immobilisations
-description: Cette rubrique fournit une vue d’ensemble du paramétrage du module Immobilisations.
+description: Cet article fournit une vue d’ensemble du paramétrage du module Immobilisations.
 author: moaamer
 ms.date: 06/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 164f19d4b346a51d4f5d43064cb33bf0c01378dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3baa842dadddd0f763f803528d322b9561b3141e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910140"
 ---
 # <a name="set-up-fixed-assets"></a>Paramétrage d’immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble du paramétrage du module **Immobilisations**. 
+Cet article fournit une vue d’ensemble du paramétrage du module **Immobilisations**. 
 
 Les paramètres contrôlent le comportement général dans les Immobilisations. Les groupes d’immobilisations vous permettent de regrouper vos immobilisations et de spécifier des attributs par défaut pour chaque immobilisation attribuée à un groupe. Les registres sont affectés aux groupes d’immobilisations. Les registres effectuent le suivi de la valeur financière d’une immobilisation dans le temps à l’aide de la configuration d’amortissement qui est définie dans le profil d’amortissement.
 

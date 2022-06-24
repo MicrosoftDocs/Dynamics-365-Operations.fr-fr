@@ -1,6 +1,6 @@
 ---
 title: Spécifier des emplacements de stockage personnalisé pour les documents générés
-description: Cette rubrique explique comment étendre la liste des emplacements de stockage pour les documents qui sont générés aux formats des états électroniques.
+description: Cet article explique comment étendre la liste des emplacements de stockage pour les documents qui sont générés aux formats des états électroniques.
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898854"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Spécifier des emplacements de stockage personnalisé pour les documents générés
 
 [!include[banner](../includes/banner.md)]
 
-L’API de la structure des états électroniques permet d’étendre la liste des emplacements de stockage pour les documents générés aux formats des états électroniques. Cette rubrique explique comment ajouter un emplacement de stockage personnalisé pour les documents générés en déléguant la tâche de création de destinations ER à la fabrique de destination par défaut, puis en implémentant une classe personnalisée ayant sa propre logique de destination.
+L’API de la structure des états électroniques permet d’étendre la liste des emplacements de stockage pour les documents générés aux formats des états électroniques. Cet article explique comment ajouter un emplacement de stockage personnalisé pour les documents générés en déléguant la tâche de création de destinations ER à la fabrique de destination par défaut, puis en implémentant une classe personnalisée ayant sa propre logique de destination.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -35,7 +35,7 @@ Déployez une topologie prenant en charge l’élaboration continue. Pour plus d
 
 Vous devez également avoir accès à l’environnement de développement pour cette topologie.
 
-Toutes les tâches de cette rubrique peuvent être effectuées dans l’entreprise **USMF**.
+Toutes les tâches de cet article peuvent être effectuées dans l’entreprise **USMF**.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>Importer le format ER de reprise des immobilisations
 

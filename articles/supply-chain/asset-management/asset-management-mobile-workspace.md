@@ -1,6 +1,6 @@
 ---
 title: Utiliser l’espace de travail mobile pour la gestion des actifs
-description: Cette rubrique fournit des informations sur l’espace de travail mobile Gestion des actifs.
+description: Cet article fournit des informations sur l’espace de travail mobile Gestion des actifs.
 author: johanhoffmann
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d7e68cbe1132547fea5c72458a93b1a449a67c86
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902138"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Utiliser l’espace de travail mobile pour la gestion des actifs
 
 [!include [banner](../../includes/banner.md)]
 [!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Cette rubrique fournit des informations sur l’espace de travail mobile **Gestion des actifs**. Cet espace de travail permet aux utilisateurs de voir et de créer des demandes de maintenance et des ordres de travail. Les utilisateurs peuvent également afficher les tâches de l’ordre de travail attribuées dans un calendrier ou dans une vue de liste. Les actifs et les postes techniques peuvent également être affichés et recherchés.
+Cet article fournit des informations sur l’espace de travail mobile **Gestion des actifs**. Cet espace de travail permet aux utilisateurs de voir et de créer des demandes de maintenance et des ordres de travail. Les utilisateurs peuvent également afficher les tâches de l’ordre de travail attribuées dans un calendrier ou dans une vue de liste. Les actifs et les postes techniques peuvent également être affichés et recherchés.
 
 ## <a name="overview"></a>Présentation
 

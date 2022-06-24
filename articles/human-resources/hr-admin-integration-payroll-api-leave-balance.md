@@ -1,6 +1,6 @@
 ---
 title: Solde des congés
-description: Cette rubrique fournit des détails et un exemple de requête pour l’entité de solde des congés dans Dynamics 365 Human Resources.
+description: Cet article fournit des détails et un exemple de requête pour l’entité de solde des congés dans Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d26d9624ae8d99b208f77d12137262983499c51
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4792c316b8b7af3e86b097029eb281af4a10d113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899699"
 ---
 # <a name="leave-balance"></a>Solde des congés
 
@@ -27,9 +27,9 @@ ms.locfileid: "8064814"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit l’entité de solde des congés pour Dynamics 365 Human Resources.
+Cet article décrit l’entité de solde des congés pour Dynamics 365 Human Resources.
 
-### <a name="description"></a>Description 
+### <a name="description"></a>Description
 
 Cette entité fournit le solde des congés par type de congé pour un employé donné.
 
@@ -37,7 +37,7 @@ Nom physique : mshr_essleavebalanceentities.
 
 ## <a name="properties"></a>Propriétés
 
-| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description  |
+| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
 | **Numéro personnel**</br>mshr_personnelnumber</br>*Chaîne* | Lecture seule | Numéro personnel unique du collaborateur. |
 | **Solde actuel**</br>mshr_balanceavailable</br>*Décimal* | Lecture seule | Solde actuel de l’employé. |

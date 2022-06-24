@@ -1,8 +1,8 @@
 ---
 title: Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
-description: Cette rubrique offre des informations concernant l’utilisation du type Champ calculé pour les sources de données de gestion des états électroniques.
+description: Cet article offre des informations concernant l’utilisation du type Champ calculé pour les sources de données de gestion des états électroniques.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934702"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment vous pouvez concevoir une source de données de gestion des états électroniques à l’aide du type **Champ Calculé**. Cette source de données peut contenir une expression de gestion des états électroniques qui, une fois exécutée, peut être contrôlée par les valeurs des arguments de paramètre qui sont configurés dans une liaison qui appelle cette source de données. En configurant les appels paramétrés d’une telle source de données, vous pouvez réutiliser une seule source de données dans de nombreuses liaisons, ce qui réduit le nombre total de sources de données qui doivent être configurées dans les mappages de modèle de gestion des états électroniques ou de formats de gestion des états électroniques. Cela simplifie également le composant de gestion des états électroniques configuré, ce qui réduit les coûts de maintenance et le coût d’utilisation par d’autres consommateurs.
+Cet article explique comment vous pouvez concevoir une source de données de gestion des états électroniques à l’aide du type **Champ Calculé**. Cette source de données peut contenir une expression de gestion des états électroniques qui, une fois exécutée, peut être contrôlée par les valeurs des arguments de paramètre qui sont configurés dans une liaison qui appelle cette source de données. En configurant les appels paramétrés d’une telle source de données, vous pouvez réutiliser une seule source de données dans de nombreuses liaisons, ce qui réduit le nombre total de sources de données qui doivent être configurées dans les mappages de modèle de gestion des états électroniques ou de formats de gestion des états électroniques. Cela simplifie également le composant de gestion des états électroniques configuré, ce qui réduit les coûts de maintenance et le coût d’utilisation par d’autres consommateurs.
 
 ## <a name="prerequisites"></a>Conditions préalables
-Pour exécuter les exemples décrits dans cette rubrique, vous devez disposer de l’accès suivant :
+Pour exécuter les exemples décrits dans cet article, vous devez disposer de l’accès suivant :
 
 - Accès à l’un de ces rôles :
 
@@ -36,9 +36,9 @@ Pour exécuter les exemples décrits dans cette rubrique, vous devez disposer de
     - Consultant fonctionnel des états électroniques
     - Administrateur système
 
-- Accès aux Regulatory Configuration Services (RCS) qui ont été mis en service pour le même locataire que Finance and Operations, pour un des rôles suivants :
+- Accès aux Regulatory Configuration Service (RCS) qui ont été mis en service pour le même locataire que Finance and Operations, pour un des rôles suivants :
 
-    - Développeur de gestion des états électroniques
+    - Développeur d’états électroniques
     - Consultant fonctionnel des états électroniques
     - Administrateur système
 
@@ -46,10 +46,10 @@ Vous devez également télécharger et localement enregistrer les fichiers suiva
 
 | **Contenu**                           | **Nom de fichier**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Exemple de configuration de modèle de données ER    | [Model to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| Exemple de configuration de métadonnées ER      | [Metadata to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| Exemple de configuration de mappage de modèles ER | [Mapping to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Exemple de configuration de format ER        | [Format to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Exemple de configuration de modèle de données ER    | [Model to learn parameterized calls.version.1.xml](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| Exemple de configuration de métadonnées ER      | [Metadata to learn parameterized calls.version.1.xml](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Exemple de configuration de mappage de modèles ER | [Mapping to learn parameterized calls.version.1.1.xml](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Exemple de configuration de format ER        | [Format to learn parameterized calls.version.1.1.xml](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Connexion à votre instance RCS
 Dans cet exemple, vous allez créer une configuration pour l’exemple de société, Litware, Inc. Tout d’abord, dans RCS, vous devez suivre les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md) :
@@ -306,7 +306,7 @@ Lorsqu’un champ calculé paramétré renvoie un enregistrement, vous devez pre
 Vous pouvez exécuter les formats de gestion des états électroniques d’origine et améliorés pour veiller à ce que les champs calculés paramétrés configurés fonctionnent correctement.
 
 ### <a name="import-er-configurations"></a>Importer les configurations ER
-Vous pouvez importer des configurations révisées depuis RCS à l’aide du référentiel de gestion des états électroniques de type **RCS**. Si vous avez déjà effectué la procédure de la rubrique [Importer les configurations des états électroniques (ER) des services de configuration réglementaires (RCS)](rcs-download-configurations.md), utilisez le référentiel de gestion des états électroniques configurés pour importer les configurations abordées précédemment dans cette rubrique dans votre environnement. Sinon, procédez comme suit :
+Vous pouvez importer des configurations révisées depuis RCS à l’aide du référentiel de gestion des états électroniques de type **RCS**. Si vous avez déjà effectué la procédure de l’article [Importer les configurations des états électroniques (ER) des Regulatory Configuration Services (RCS)](rcs-download-configurations.md), utilisez le référentiel de gestion des états électroniques configurés pour importer les configurations abordées précédemment dans cet article dans votre environnement. Sinon, procédez comme suit :
 
 1. Sélectionnez la société **DEMF** et sur le tableau de bord par défaut, sélectionnez **Gestion des états électroniques**.
 2. Sélectionnez **Configurations des états**.

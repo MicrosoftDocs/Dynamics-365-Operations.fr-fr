@@ -1,6 +1,6 @@
 ---
 title: Appliquer automatiquement les acomptes aux factures fournisseur
-description: Cette rubrique décrit la possibilité d’appliquer automatiquement des acomptes aux factures fournisseur.
+description: Cet article décrit la possibilité d’appliquer automatiquement des acomptes aux factures fournisseur.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900069"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Appliquer automatiquement aux factures fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la possibilité d’appliquer automatiquement des acomptes aux factures fournisseur. Un acompte peut être créé pour une commande fournisseur dans le cadre d’un contrat d’achat. Une fois la facture fournisseur reçue, l’acompte peut être utilisé pour régler la comptabilité fournisseur à partir de la facture fournisseur. La nouvelle fonctionnalité permet au système d’utiliser automatiquement les numéros de commande fournisseur sur une facture fournisseur pour rechercher les acomptes correspondants lorsque la facture fournisseur est importée.
+Cet article décrit la possibilité d’appliquer automatiquement des acomptes aux factures fournisseur. Un acompte peut être créé pour une commande fournisseur dans le cadre d’un contrat d’achat. Une fois la facture fournisseur reçue, l’acompte peut être utilisé pour régler la comptabilité fournisseur à partir de la facture fournisseur. La nouvelle fonctionnalité permet au système d’utiliser automatiquement les numéros de commande fournisseur sur une facture fournisseur pour rechercher les acomptes correspondants lorsque la facture fournisseur est importée.
 
 Si des acomptes sont trouvés et peuvent être appliqués, des lignes sont ajoutées aux lignes de facture existantes afin d’appliquer les acomptes. Les lignes d’acompte ne sont jamais prises en compte lors du processus de rapprochement de factures.
 

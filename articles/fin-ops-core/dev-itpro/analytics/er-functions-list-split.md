@@ -1,6 +1,6 @@
 ---
 title: Fonction SPLIT ER
-description: Cette rubrique fournit des informations sur l’utilisation de la fonction SPLIT États électroniques (ER).
+description: Cet article fournit des informations sur l’utilisation de la fonction SPLIT États électroniques (ER).
 author: NickSelin
 ms.date: 04/01/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a42b0c7cfa2a8d3dcb7448224c9e88a48276f7d8cdbcce484383a778b8275a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2acd93b645121b577d516d3ce29a3d05069b8de9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906827"
 ---
 # <a name="split-er-function"></a>Fonction SPLIT ER
 
@@ -81,11 +81,11 @@ Si l’argument `input` est vide, une nouvelle liste vide est retournée. Si l�
 
 ## <a name="example-3"></a>Exemple 3
 
-Vous pouvez utiliser la fonction [INDEX](er-functions-list-index.md) pour accéder aux éléments individuels de la chaîne d'entrée spécifiée. Si vous entrez la source de données **MyList** du type **Champ calculé** et configurez pour elle l'expression `SPLIT("abc", 1)`, l'expression `INDEX(MyList,2).Value` renvoie le texte **« b »**.
+Vous pouvez utiliser la fonction [INDEX](er-functions-list-index.md) pour accéder aux éléments individuels de la chaîne d’entrée spécifiée. Si vous entrez la source de données **MyList** du type **Champ calculé** et configurez pour elle l’expression `SPLIT("abc", 1)`, l’expression `INDEX(MyList,2).Value` renvoie le texte **« b »**.
 
 ## <a name="example-4"></a>Exemple 4
 
-La fonction [ENUMERATE](er-functions-list-enumerate.md) permet également d'accéder aux éléments individuels de la chaîne d'entrée spécifiée. Si vous entrez d'abord la source de données **MyList** du type **Champ calculé** et configurez pour elle l'expression `SPLIT("abc", 1)`, puis entrez la source de données **EnumeratedList** du type **Champ calculé** et configurez pour elle l'expression `ENUMERATE(MyList)`, l'expression `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` renvoie le texte **« b »**.
+La fonction [ENUMERATE](er-functions-list-enumerate.md) permet également d’accéder aux éléments individuels de la chaîne d’entrée spécifiée. Si vous entrez d’abord la source de données **MyList** du type **Champ calculé** et configurez pour elle l’expression `SPLIT("abc", 1)`, puis entrez la source de données **EnumeratedList** du type **Champ calculé** et configurez pour elle l’expression `ENUMERATE(MyList)`, l’expression `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` renvoie le texte **« b »**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

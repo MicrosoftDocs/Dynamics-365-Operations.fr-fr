@@ -1,6 +1,6 @@
 ---
 title: Paramètres d’intégration de la paie
-description: Cette rubrique décrit les paramètres d’intégration de la paie de Dynamics 365 Human Resources.
+description: Cet article décrit les paramètres d’intégration de la paie de Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-17
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37d4dc52e7fe5ddd95f43d98267db819a275bd92
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7d784909fc8c5fa05557566b62b19802cd2acece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896095"
 ---
 # <a name="payroll-integration-parameters"></a>Paramètres d’intégration de la paie
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069855"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Avant d’utiliser l’intégration de la paie Dynamics 365 Human Resources, vous devez définir les paramètres décrits dans cette rubrique.
+Avant d’utiliser l’intégration de la paie Dynamics 365 Human Resources, vous devez définir les paramètres décrits dans cet article.
 
 ## <a name="enable-payroll-address"></a>Activer l’adresse de paie
 
@@ -40,7 +40,7 @@ Pour exposer l’ID du type d’identification dans l’[entité d’employé de
 1. Dans l’espace de travail **Gestion de la rémunération**, sous les liens, sélectionnez **Paramètres de ressources humaines**. 
 2. Dans l’onglet **Intégration de la paie**, spécifiez la valeur des champs suivants.
 
-| Champ | Description  |
+| Champ | Description |
 | --- | --- |
 | Utiliser les types d’identification dans le traitement de la paie | Lorsque cette option est sélectionnée, l’ID de type sélectionné sera exposé dans l’entité de l’employé de la paie. |
 | Type d’identification | Le type d’identification à exposer dans le champ **mshr_payrollemployeeentityid** de l’[entité d’employé de la paie](hr-admin-integration-payroll-api-payroll-employee.md). |

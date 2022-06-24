@@ -1,6 +1,6 @@
 ---
 title: Liste des fonctions ER dans la catégorie d’enregistrement
-description: Cette rubrique fournit des informations sur les fonction d’enregistrement prises en charge dans les États électroniques (ER).
+description: Cet article fournit des informations sur les fonction d’enregistrement prises en charge dans les États électroniques (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2612222ce21e382dae13ee65fb9b9a1d9852e99ddd176bee9fcc3067f72e57db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b84931cb575b40da449b0562977b9bfa6373999
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906603"
 ---
 # <a name="list-of-er-functions-in-the-record-category"></a>Liste des fonctions ER dans la catégorie d’enregistrement
 
 [!include [banner](../includes/banner.md)]
 
-Les fonctions d’enregistrement des états électroniques (ER) peuvent être utilisées pour extraire des informations et effectuer des opérations sur les sources de données du type de données *Conteneur (enregistrement)*. Cette rubrique fournit un résumé de ces fonctions.
+Les fonctions d’enregistrement des états électroniques (ER) peuvent être utilisées pour extraire des informations et effectuer des opérations sur les sources de données du type de données *Conteneur (enregistrement)*. Cet article fournit un résumé de ces fonctions.
 
 ## <a name="list-of-supported-functions"></a>Liste des fonctions prises en charge
 

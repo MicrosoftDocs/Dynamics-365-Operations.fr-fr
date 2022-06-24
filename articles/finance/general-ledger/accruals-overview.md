@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des régularisations
-description: Cette rubrique décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions.
+description: Cet article décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 2e10842929ba58b845a1df949ecb7c776ae077e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904699"
 ---
 # <a name="accruals-overview"></a>Vue d’ensemble des régularisations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions.
+Cet article décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions.
 
 Les régularisations sont utilisées dans la comptabilité d’exercice pour suivre le produit identifié dans la période à laquelle il a été acquis, et non lorsque le paiement est reçu, et pour suivre les dépenses (coûts) identifiées lorsqu’ils surviennent, et non lors du paiement.
 

@@ -1,6 +1,6 @@
 ---
 title: Paramétrage des descriptions par défaut pour la validation automatique
-description: Cette rubrique explique comment vous pouvez paramétrer le texte par défaut utilisé pour décrire les écritures comptables validées automatiquement dans la comptabilité. Vous pouvez paramétrer le texte de description par défaut à l’aide de texte libre ou de variables fixes.
+description: Cet article explique comment vous pouvez paramétrer le texte par défaut utilisé pour décrire les écritures comptables validées automatiquement dans la comptabilité. Vous pouvez paramétrer le texte de description par défaut à l’aide de texte libre ou de variables fixes.
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904497"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Paramétrage des descriptions par défaut pour la validation automatique
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment vous pouvez paramétrer le texte par défaut utilisé pour décrire les écritures comptables validées automatiquement dans la comptabilité. Vous pouvez paramétrer le texte de description par défaut à l’aide de texte libre ou de variables fixes.
+Cet article explique comment vous pouvez paramétrer le texte par défaut utilisé pour décrire les écritures comptables validées automatiquement dans la comptabilité. Vous pouvez paramétrer le texte de description par défaut à l’aide de texte libre ou de variables fixes.
 
 > [!NOTE]
-> Pour certains types de transactions dans certains pays/régions, vous pouvez également inclure du texte provenant de champs de la base de données associés à ces types de transactions. Pour obtenir une liste des types de transaction, et les pays et régions, voir la section [(Facultatif) Ajout d’un autre libellé aux descriptions par défaut](#optional-add-other-text-to-default-descriptions) plus loin dans cette rubrique.
+> Pour certains types de transactions dans certains pays/régions, vous pouvez également inclure du texte provenant de champs de la base de données associés à ces types de transactions. Pour obtenir une liste des types de transaction, et les pays et régions, voir la section [(Facultatif) Ajout d’un autre libellé aux descriptions par défaut](#optional-add-other-text-to-default-descriptions) plus loin dans cet article.
 
 ## <a name="set-up-default-descriptions"></a>Paramétrage des descriptions par défaut
 
@@ -78,7 +78,7 @@ Cette option est disponible pour les pays et régions suivants :
 
 ### <a name="add-text-to-default-descriptions"></a>Ajout d’un autre libellé aux descriptions par défaut
 
-Après avoir suivi les étapes de la section [Paramétrage des descriptions par défaut](#set-up-default-descriptions), précédemment dans cette rubrique, procédez comme suit pour ajouter un autre libellé aux descriptions par défaut.
+Après avoir suivi les étapes de la section [Paramétrage des descriptions par défaut](#set-up-default-descriptions), précédemment dans cet article, procédez comme suit pour ajouter un autre libellé aux descriptions par défaut.
 
 1. Dans l’organisateur **Paramètres**, sélectionnez **Ajouter**.
 2. Dans le champ **Table de référence**, sélectionnez la table de base de données à partir de laquelle ajouter des données de paramétrage à la description.

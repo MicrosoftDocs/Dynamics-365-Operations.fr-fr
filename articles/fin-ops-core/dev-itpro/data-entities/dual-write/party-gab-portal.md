@@ -1,6 +1,6 @@
 ---
 title: Utilisation des portails Microsoft Power Apps avec le modèle de données de partie
-description: Cette rubrique décrit les modifications apportées aux rôles web des portails Microsoft Power Apps en raison du modèle de données de partie en double écriture.
+description: Cet article décrit les modifications apportées aux rôles web des portails Microsoft Power Apps en raison du modèle de données de partie en double écriture.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898944"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Utilisation des portails Microsoft Power Apps avec le modèle de données de partie
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060918"
 
 La solution d’orchestration de l’application de double écriture, version 2.0.999.0 et versions ultérieures, inclut des modifications du modèle de données pour le carnet d’adresses global et de partie pour les tables Compte et Contact. Les modifications autorisent les relations plusieurs-à-plusieurs qui prennent en charge des scénarios d’entreprise avancés. Ces modifications ne sont pas prises en charge par les rôles web du portail, notamment du portail client, qui sont livrés prêts à l’emploi ou qui existaient dans votre environnement avant l’installation de la double écriture. Pour que les rôles web fonctionnent comme prévu, vous devez créer de nouveaux rôles web à l’aide du nouveau modèle de données. 
 
-En résumé, la façon dont les tables interagissent a changé, mais les autorisations de table dans le portail client n’ont pas changé. Cette rubrique explique comment créer de nouveaux rôles web qui fonctionnent avec le nouveau modèle de données avancé.
+En résumé, la façon dont les tables interagissent a changé, mais les autorisations de table dans le portail client n’ont pas changé. Cet article explique comment créer de nouveaux rôles web qui fonctionnent avec le nouveau modèle de données avancé.
 
 Ce schéma montre la relation de table **sans** le modèle de données du carnet d’adresses global et de partie :
 

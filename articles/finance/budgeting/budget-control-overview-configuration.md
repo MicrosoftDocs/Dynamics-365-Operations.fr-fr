@@ -1,6 +1,6 @@
 ---
-title: Vue d’ensemble des contrôles budgétaires
-description: Cette rubrique présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d’optimiser la gestion des ressources financières de votre organisation.
+title: Vue d’ensemble du contrôle budgétaire
+description: Cet article présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d’optimiser la gestion des ressources financières de votre organisation.
 author: panolte
 ms.date: 03/28/2022
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27eb31919937e7f43a785616b547e3d6952eaaf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898296"
 ---
-# <a name="budget-control-overview"></a>Vue d’ensemble des contrôles budgétaires
+# <a name="budget-control-overview"></a>Vue d’ensemble du contrôle budgétaire
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d’optimiser la gestion des ressources financières de votre organisation.
+Cet article présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d’optimiser la gestion des ressources financières de votre organisation.
 
 Le contrôle budgétaire prend en charge la gestion des ressources financières d’une organisation via le plan de comptes, les workflows, les groupes d’utilisateurs, les documents sources et les journaux, le calcul des fonds disponibles configurable, les cycles budgétaires et les seuils. Quand les contrôles sont en place, une organisation peut planifier, mesurer, gérer et prévoir ses ressources financières au cours de son exercice. 
 
@@ -121,7 +121,7 @@ Une fois le contrôle budgétaire configuré, vous pouvez l’activer dans l’o
 De plus, notez que les transactions, notamment les entrées de registre budgétaires, validées avant l’activation du contrôle budgétaire ne sont pas prises en compte dans le contrôle budgétaire. Par conséquent, il est recommandé de désactiver le contrôle budgétaire uniquement au début du nouveau cycle budgétaire. Vérifiez que les entrées de registre budgétaires contenant les soldes budgétaires de départ pour le contrôle budgétaire obtiennent des soldes mis à jour uniquement après l’activation du contrôle budgétaire. Tout document en cours (par exemple, une commande fournisseur) sera examiné pour connaître les fonds budgétaires disponibles et obtiendra une réservation budgétaire pour le contrôle budgétaire, quand l’utilisateur déclenche manuellement une vérification du contrôle budgétaire dans le document.
 
 ## <a name="using-budget-control"></a>Utilisation du contrôle budgétaire
-Une fois le contrôle budgétaire activé, vous recevrez des messages d’avertissement et d’erreur de contrôle budgétaire dans les documents et journaux configurés pour le contrôle budgétaire. N’oubliez pas, vous pouvez configurer le contrôle budgétaire afin que les utilisateurs soient prévenus quand  ils dépassent les fonds budgétaires, mais puissent toujours confirmer ou valider des transactions. Vous pouvez afficher les détails des contrôles budgétaires qui ont échoué sur la page **Erreurs ou avertissements du contrôle budgétaire**.
+Une fois le contrôle budgétaire activé, vous recevrez des messages d’avertissement et d’erreur de contrôle budgétaire dans les documents et journaux configurés pour le contrôle budgétaire. N’oubliez pas, vous pouvez configurer le contrôle budgétaire afin que les utilisateurs soient prévenus quand ils dépassent les fonds budgétaires, mais puissent toujours confirmer ou valider des transactions. Vous pouvez afficher les détails des contrôles budgétaires qui ont échoué sur la page **Erreurs ou avertissements du contrôle budgétaire**.
 
 Depuis cette page, les utilisateurs peuvent explorer la page **Statistiques du contrôle budgétaire par période** pour découvrir les détails concernant la disponibilité budgétaire et les réservations pour une combinaison de dimensions de contrôle budgétaire sélectionnée. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire** pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
 

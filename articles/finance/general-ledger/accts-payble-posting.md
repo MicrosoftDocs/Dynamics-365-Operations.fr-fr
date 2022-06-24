@@ -1,6 +1,6 @@
 ---
 title: Validations dans la comptabilité fournisseur
-description: Cette rubrique explique comment les validations sont configurées dans la Comptabilité fournisseur et fournit des exemples de configurations de validation.
+description: Cet article explique comment les validations sont configurées dans la Comptabilité fournisseur et fournit des exemples de configurations de validation.
 author: rachel-profitt
 ms.date: 01/19/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb3ebad31c9f41e405b9fc31a0f71df05fa1cc60
-ms.sourcegitcommit: 10b85a09e8a550155a69aa2a8877a7c88b887242
+ms.openlocfilehash: 5b3593e01ed4d0a88b5816803f1d67fa7ed5e0f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8014469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908007"
 ---
 # <a name="accounts-payable-posting"></a>Validation dans la comptabilité fournisseur
 
@@ -89,7 +89,7 @@ Vous pouvez créer des codes frais pour les ventes et les achats. Lorsque vous c
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
 | Achat - Frais divers | Laissez le champ vide. | Non applicable | Article | Débit | N° | **Exemple de frais d’achat pour un article :** </p><ul><li>Champ **Type de débit** = **Article**</li><li>  Champ **Type de crédit** = **Client/Fournisseur**.</li><li> La validation d’article utilise le compte principal du profil de validation de stock. |
 | Commande, frais de transport | 600120 | Fret entrant | Recettes | Débit | N° | **Exemple de fret payé à un fournisseur :** </p><ul><li>Champ **Type de débit** = **Compte général**</li><li> Champ **Type de crédit** = **Client/Fournisseur** |
-| Rabais\* | 503160 | Remise fournisseur (COGS)| Dépenses | Crédit | N° | **Exemple de remise fournisseur :**</p><ul><li>Champ **Type de débit** = **Client/Fournisseur**</li><li>Champ **Type de crébit** = **Compte général** |
+| Rabais\* | 503160 | Remise fournisseur (COGS)| Dépenses | Crédit | N° | **Exemple de remise fournisseur :**</p><ul><li>Champ **Type de débit** = **Client/Fournisseur**</li><li>Champ **Type de crédit** = **Compte général** |
 
 \*Pour l’exemple de remise, la validation est utilisée uniquement lorsqu’un code frais est ajouté à un en-tête ou une ligne de commande fournisseur. La fonctionnalité de remise avancée disponible dans Microsoft Dynamics 365 Supply Chain Management offre plus de contrôle et d’automatisation des remises. Pour plus d’informations, voir [Remises fournisseur](../../supply-chain//procurement/vendor-rebates.md).
 

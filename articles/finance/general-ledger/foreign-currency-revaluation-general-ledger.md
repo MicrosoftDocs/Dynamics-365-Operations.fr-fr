@@ -1,6 +1,6 @@
 ---
-title: Réévaluation des comptes en devises pour la comptabilité
-description: 'Cette rubrique fournit une vue d’ensemble des fonctionnalités du processus de réévaluation des comptes en devises de la comptabilité : paramétrage, exécution du processus, calcul du processus, et contrepassation des transactions de réévaluation, si nécessaire.'
+title: Réévaluation des comptes en devises dans la Comptabilité
+description: 'Cet article fournit une vue d’ensemble des fonctionnalités du processus de réévaluation des comptes en devises de la comptabilité : paramétrage, exécution du processus, calcul du processus, et contrepassation des transactions de réévaluation, si nécessaire.'
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904526"
 ---
-# <a name="foreign-currency-revaluation-for-general-ledger"></a>Réévaluation des comptes en devises pour la comptabilité
+# <a name="foreign-currency-revaluation-for-general-ledger"></a>Réévaluation des comptes en devises dans la Comptabilité
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des fonctionnalités du processus de réévaluation des comptes en devises de la comptabilité : paramétrage, exécution du processus, calcul du processus, et contrepassation des transactions de réévaluation, si nécessaire. 
+Cet article fournit une vue d’ensemble des fonctionnalités du processus de réévaluation des comptes en devises de la comptabilité : paramétrage, exécution du processus, calcul du processus, et contrepassation des transactions de réévaluation, si nécessaire. 
 
 Dans le cadre d’une fin de période, les conventions comptables nécessitent que les soldes de compte général dans des devises étrangères soient réévalués à l’aide des différents types de taux de change (actuel, historique, moyen, et ainsi de suite.). Par exemple, une convention comptable nécessite que les actifs et passifs soient réévalués au taux de change actuel, les immobilisations, au taux de change historique, et les comptes de résultat, à la moyenne mensuelle. La réévaluation des comptes en devises dans la comptabilité peut être utilisée pour réévaluer le bilan et les comptes de résultat. 
 

@@ -1,6 +1,6 @@
 ---
 title: Ajuster les baux
-description: La rubrique explique comment ajuster un bail. Un ajustement peut être nécessaire si les conditions du bail sont modifiées, si le bail est prolongé ou si d’autres circonstances changent.
+description: L’article explique comment ajuster un bail. Un ajustement peut être nécessaire si les conditions du bail sont modifiées, si le bail est prolongé ou si d’autres circonstances changent.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898325"
 ---
 # <a name="adjust-leases"></a>Ajuster les baux
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-La rubrique explique comment ajuster un bail. Un ajustement peut être nécessaire si les conditions du bail sont modifiées, si le bail est prolongé ou si d’autres circonstances changent. La location d’actifs est conforme aux directives fournies par l’article 842 sur la codification des normes comptables (ASC 842) et la norme internationale en matière de génération des états financiers 16 (IFRS 16) concernant les modifications des baux. ASC 842-20-15-1 définit une modification de bail comme toute modification des termes et conditions d’un contrat qui entraîne une modification de la portée ou de la prise en compte d’un bail. Le paragraphe 39 d’IFRS 16 indique qu’un locataire doit réévaluer le passif locatif afin qu’il reflète les modifications des paiements de location.
+L’article explique comment ajuster un bail. Un ajustement peut être nécessaire si les conditions du bail sont modifiées, si le bail est prolongé ou si d’autres circonstances changent. La location d’actifs est conforme aux directives fournies par l’article 842 sur la codification des normes comptables (ASC 842) et la norme internationale en matière de génération des états financiers 16 (IFRS 16) concernant les modifications des baux. ASC 842-20-15-1 définit une modification de bail comme toute modification des termes et conditions d’un contrat qui entraîne une modification de la portée ou de la prise en compte d’un bail. Le paragraphe 39 d’IFRS 16 indique qu’un locataire doit réévaluer le passif locatif afin qu’il reflète les modifications des paiements de location.
 
 Pour les organisations qui respectent l’ASC 842 ou l’IFRS 16, un bail est réévalué pour refléter une modification de la valeur actuelle des paiements minimaux de location minimums à venir (PVFMLP). Si la PVFMLP augmente, l’écriture de journal créée est un débit au compte de droit d’utilisation de l’actif et un crédit au compte de passif locatif pour la différence entre la nouvelle PVFMLP et la précédente PVFMLP. Si la PVFMLP diminue, l’écriture de journal est un débit au compte de passif locatif et un crédit au compte de droit d’utilisation de l’actif pour la différence.
 

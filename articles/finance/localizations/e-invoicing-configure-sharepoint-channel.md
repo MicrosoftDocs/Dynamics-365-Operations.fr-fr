@@ -1,6 +1,6 @@
 ---
 title: Configurer un canal SharePoint
-description: Cette rubrique explique comment configurer un canal Microsoft SharePoint pour recevoir des factures électroniques entrantes.
+description: Cet article explique comment configurer un canal Microsoft SharePoint pour recevoir des factures électroniques entrantes.
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ea3e14ed00b0661d3923c1839135378a8a550499
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 89538adde4d14212fb0deccad05f828d146f16db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910039"
 ---
 # <a name="configure-a-sharepoint-channel"></a>Configurer un canal SharePoint
 
@@ -34,9 +34,9 @@ Vous pouvez ensuite utiliser le canal SharePoint pour importer des factures de f
 
 1. Sur votre site SharePoint, créez les dossiers suivants :
 
-    - **Dossier principal** –  Le dossier à partir duquel le service traitera les fichiers.
-    - **Dossier d’archives** –  Le dossier dans lequel les fichiers traités seront stockés.
-    - **Dossier d’erreur** –  Le dossier dans lequel le système déplacera les fichiers si le traitement échoue.
+    - **Dossier principal** – Le dossier à partir duquel le service traitera les fichiers.
+    - **Dossier d’archives** – Le dossier dans lequel les fichiers traités seront stockés.
+    - **Dossier d’erreur** – Le dossier dans lequel le système déplacera les fichiers si le traitement échoue.
 
 2. Dans Regulatory Configuration Service (RCS), sélectionnez la fonctionnalité de facturation électronique que vous avez créée. Assurez-vous de sélectionner la version dont le statut est défini sur **Brouillon**.
 3. Dans l’onglet **Configurations**, sélectionnez **Ajouter**.

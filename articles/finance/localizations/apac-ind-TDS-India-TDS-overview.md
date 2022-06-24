@@ -1,6 +1,6 @@
 ---
 title: Aperçu de l’impôt indien déduit à la source (TDS)
-description: Cette rubrique fournit des informations détaillées sur l’impôt indien déduit à la source (TDS). La documentation TDS couvre la fonctionnalité de cette capacité.
+description: Cet article fournit des informations détaillées sur l’impôt indien déduit à la source (TDS). La documentation TDS couvre la fonctionnalité de cette capacité.
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896281"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>Aperçu de l’impôt indien déduit à la source (TDS)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations détaillées sur l’impôt indien déduit à la source (TDS).
+Cet article fournit des informations détaillées sur l’impôt indien déduit à la source (TDS).
 
 La documentation TDS couvre la fonctionnalité de cette capacité. Il explique également comment effectuer la configuration de base pour TDS, calculer TDS sur les transactions, terminer le processus de règlement TDS, enregistrer les numéros de certificat TDS et générer des requêtes TDS, des relevés TDS et des certificats TDS. La documentation comprend les rubriques suivantes :
 

@@ -1,6 +1,6 @@
 ---
 title: Fonds dans le secteur public
-description: Cette rubrique explique comment les entités du secteur public peuvent se servir des fonds pour attester de leur responsabilité financière. Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives.
+description: Cet article explique comment les entités du secteur public peuvent se servir des fonds pour attester de leur responsabilité financière. Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives.
 author: v-kiarnd
 ms.date: 08/07/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f5b9bd2ac42b257ffe2c1cf7a00af4f13a356e9
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4623e751cc4b72937a93b3e11dadd53551a5d432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897943"
 ---
 # <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
 

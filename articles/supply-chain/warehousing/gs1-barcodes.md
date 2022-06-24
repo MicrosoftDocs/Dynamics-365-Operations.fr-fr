@@ -1,6 +1,6 @@
 ---
 title: Codes-barres GS1
-description: Cette rubrique décrit comment configurer les codes-barres GS1 et les codes QR afin que les étiquettes puissent être scannées dans un entrepôt.
+description: Cet article décrit comment configurer les codes-barres GS1 et les codes QR afin que les étiquettes puissent être scannées dans un entrepôt.
 author: Mirzaab
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907143"
 ---
 # <a name="gs1-bar-codes"></a>Codes-barres GS1
 
@@ -30,11 +30,11 @@ La prise en charge du format GS1 dans Supply Chain Management simplifie considé
 
 Les responsables logistiques doivent configurer la liste requise d’identificateurs d’application et associer chacun d’eux aux éléments de menu appropriés de l’appareil mobile. Les identificateurs d’application peuvent ensuite être utilisés dans les entrepôts en tant que paramètre global à des fins de déplacement et d’emballage. Par conséquent, toutes les étiquettes d’expédition prendront une forme unifiée.
 
-Sauf indication contraire, cette rubrique utilise le terme *code-barres* pour faire référence à la fois aux codes-barres linéaires (1D) et aux codes-barres 2D.
+Sauf indication contraire, cet article utilise le terme *code-barres* pour faire référence à la fois aux codes-barres linéaires (1D) et aux codes-barres 2D.
 
 ## <a name="the-gs1-bar-code-format"></a>Le format de code à barres GS1
 
-Les Spécifications générales GS1 spécifient quelles symbologies peuvent être utilisées pour les codes à barres GS1 et comment encoder les données dans le code à barres. Cette section fournit une brève introduction au sujet. Pour tous les détails, consultez les [Spécifications générales GS1](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) qui sont publiées par GS1. Le document des spécifications GS1 est régulièrement mis à jour et les informations qu’il fournit sont à jour avec la version 22.0 des spécifications générales de GS1.
+Les Spécifications générales GS1 spécifient quelles symbologies peuvent être utilisées pour les codes à barres GS1 et comment encoder les données dans le code à barres. Cette section fournit une brève introduction à l'article. Pour tous les détails, consultez les [Spécifications générales GS1](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) qui sont publiées par GS1. Le document des spécifications GS1 est régulièrement mis à jour et les informations qu’il fournit sont à jour avec la version 22.0 des spécifications générales de GS1.
 
 Les codes-barres GS1 utilisent les symbologies suivantes :
 

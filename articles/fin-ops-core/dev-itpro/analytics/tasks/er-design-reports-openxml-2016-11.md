@@ -1,6 +1,6 @@
 ---
 title: ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
-description: Cette rubrique décrit comment créer une nouvelle configuration de gestion des états électroniques contenant un modèle de génération de documents électroniques au format OPENXML.
+description: Cet article décrit comment créer une nouvelle configuration de gestion des états électroniques contenant un modèle de génération de documents électroniques au format OPENXML.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b2325a5389e0bfe1efff17e5cd117ad8dbcd65d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908411"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML. Cette configuration sera utilisée pour traiter les paiements fournisseur.
+Cet article explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML. Cette configuration sera utilisée pour traiter les paiements fournisseur.
 
 Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans la société GBSI.
 

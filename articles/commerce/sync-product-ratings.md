@@ -1,6 +1,6 @@
 ---
 title: Synchronisation des évaluations de produit dans Dynamics 365 Commerce
-description: Cette rubrique décrit comment synchroniser les classements de produit dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment synchroniser les classements de produit dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909333"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Synchronisation des évaluations de produit dans Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment synchroniser les classements de produit dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment synchroniser les classements de produit dans Microsoft Dynamics 365 Commerce.
 
 Pour consommer des classements de produit dans les omnicanaux, par exemple au point de vente (PDV) et dans les centres d’appels, les classements de produit du service de classements et d’évaluations doivent être importés dans la base de données du canal de commerce. Lorsque les classements de produit sont disponibles dans les omnicanaux, ils peuvent aider les clients indirectement lors de leurs interactions avec des vendeurs.
 
-Cette rubrique décrit les tâches suivantes :
+Cet article décrit les tâches suivantes :
 
 1. Configurez **Synchronisation les classements de produits** comme un traitement par lots pour synchroniser les classements de produits à partir de **Service de classements et d’évaluations**.
 1. Vérifiez que le traitement par lots de la synchronisation de classement de produit a abouti.

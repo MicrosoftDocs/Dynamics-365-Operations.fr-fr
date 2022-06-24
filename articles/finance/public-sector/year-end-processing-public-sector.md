@@ -1,6 +1,6 @@
 ---
-title: Traitement de fin d’exercice (Secteur public)
-description: Cette rubrique fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
+title: Traitement de fin d’exercice dans le secteur public
+description: Cet article fournit des informations sur le processus de fin d’exercice pour les organisations du secteur public.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,28 +8,28 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchYearEndClose
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 19601
 ms.assetid: ba9a7abc-bd18-47c2-b745-96cdcec8ac98
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac994392fccf6db475b3bb3811573ac529bbc12
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 719a786bb11f57d559b3e79cfbe8b384ce837fd2
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817681"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946296"
 ---
 # <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d’exercice (Secteur public)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
+Cet article fournit des informations sur le processus de fin d’exercice pour les organisations du secteur public.
 
-Cette rubrique décrit la fonctionnalité de fin d’exercice disponible pour le secteur public. À la fin d’un exercice, vous devez générer des transactions de clôture et préparer vos comptes pour l’exercice suivant.  Les clients du secteur public ont les fonctionnalités suivantes :
+Cet article décrit la fonctionnalité de fin d’exercice disponible pour le secteur public. À la fin d’un exercice, vous devez générer des transactions de clôture et préparer vos comptes pour l’exercice suivant.  Les clients du secteur public ont les fonctionnalités suivantes :
 
 -   Sélectionner des comptes par fonds pour la clôture de fin d’exercice.
 -   Fermer les fonds à différents comptes. Par exemple, vous pouvez clôturer les comptes de gestion associés aux fonds gouvernementaux pour financer les soldes. Vous pouvez également clôturer les comptes de gestion associés aux fonds propriétaires aux bénéfices non répartis.

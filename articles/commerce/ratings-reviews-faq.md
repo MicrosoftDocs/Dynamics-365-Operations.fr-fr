@@ -1,6 +1,6 @@
 ---
 title: FAQ sur les évaluations et avis
-description: Cette rubrique fournit des réponses aux questions fréquemment posées sur la solution d’évaluations et d’avis de Microsoft Dynamics 365 Commerce.
+description: Cet article fournit des réponses aux questions fréquemment posées sur la solution d’évaluations et d’avis de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 09/02/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f8d79697aaf17e2860d2c47e7d1bf6b4352f0089
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3aef1135aa03d221e403fe1b5f7dce08bc9885d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909526"
 ---
 # <a name="ratings-and-reviews-faq"></a>FAQ sur les évaluations et avis
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des réponses aux questions fréquemment posées sur la solution d’évaluations et d’avis de Microsoft Dynamics 365 Commerce.
+Cet article fournit des réponses aux questions fréquemment posées sur la solution d’évaluations et d’avis de Microsoft Dynamics 365 Commerce.
 
 ### <a name="how-do-i-hide-the-ratings-refiner-that-appears-on-search-results-and-category-pages-if-my-e-commerce-site-doesnt-use-the-ratings-and-reviews-solution"></a>Comment masquer l’affinement des notes qui apparaît sur les pages de résultats de recherche et de catégories si mon site de commerce électronique n’utilise pas la solution d’évaluations et d’avis ?
 

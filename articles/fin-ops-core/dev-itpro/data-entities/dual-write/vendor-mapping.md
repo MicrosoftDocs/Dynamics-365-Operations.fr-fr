@@ -1,6 +1,6 @@
 ---
 title: Données principales fournisseur intégrées
-description: Cette rubrique décrit l’intégration des données fournisseur entre les applications Finances et Opérations et Dataverse.
+description: Cet article décrit l’intégration des données fournisseur entre les applications Finances et Opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905313"
 ---
 # <a name="integrated-vendor-master"></a>Données principales fournisseur intégrées
 

@@ -1,6 +1,6 @@
 ---
 title: Utiliser les configurations des fonctionnalités
-description: Cette rubrique explique comment paramétrer les fonctionnalités de facturation électronique.
+description: Cet article explique comment paramétrer les fonctionnalités de facturation électronique.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41ffc9c7009291a55392e50c5e490d3288d122bc
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 23466a53bb8ba597503aaa12d41395fc82b9f14e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904323"
 ---
 # <a name="work-with-feature-setups"></a>Utiliser les configurations des fonctionnalités
 
@@ -40,14 +40,14 @@ Vous pouvez créer autant d’éléments de configuration de fonctionnalités qu
 4. Dans l’onglet **Configurations**, sélectionnez **Ajouter**.
 5. Dans la boîte de dialogue déroulante **Créer une configuration de fonctionnalité**, dans le groupe de champs **Nouveau**, sélectionnez les options suivantes :
  
-    - **Configuration personnalisée** –  Créez une configuration de fonctionnalités avec des canaux vides, une liste de pipeline de traitement vide, une section vide pour les règles d’applicabilité et un ensemble de variables par défaut, en fonction du type de configuration.
-    - **Depuis la configuration des fonctionnalités** –  Créez une copie d’une autre configuration de fonctionnalité dans le cadre de la fonctionnalité de facturation électronique actuelle.
+    - **Configuration personnalisée** – Créez une configuration de fonctionnalités avec des canaux vides, une liste de pipeline de traitement vide, une section vide pour les règles d’applicabilité et un ensemble de variables par défaut, en fonction du type de configuration.
+    - **Depuis la configuration des fonctionnalités** – Créez une copie d’une autre configuration de fonctionnalité dans le cadre de la fonctionnalité de facturation électronique actuelle.
 
 6. Si vous avez sélectionné l’option **Configuration personnalisée** à la dernière étape, entrez un nom et une description de l’élément de configuration de la fonction, puis, dans le groupe de champs **Type de configuration**, sélectionnez l’une des options suivantes :
 
-    - **Pipeline de traitement** –  Sélectionnez cette option pour générer et traiter les documents électroniques sortants. Pour ce type de configuration, le système crée une liste de pipeline de traitement vide, une section vide pour les règles d’applicabilité et un ensemble de variables par défaut. Vous ne pourrez pas travailler avec les canaux pour les documents électroniques entrants.
-    - **Canal de données** –  Sélectionnez cette option pour configurer le processus de réception des documents électroniques entrants à partir de l’un des canaux définis et de les transmettre directement à Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management sans actions supplémentaires. Pour ce type de configuration, le système crée une liste prédéfinie de paramètres pour les canau de données, une section vide pour les règles d’applicabilité et un ensemble de variables par défaut. Vous ne pourrez pas ajouter d’actions dans le pipeline de traitement.
-    - **Canal de données et pipeline de traitement** –  Ce type de configuration ressemble au type de configuration **Canal de données**. Toutefois, avant qu’un document électronique entrant ne soit transmis à Finance ou Supply Chain Management, vous pouvez configurer des actions supplémentaires dans le pipeline de traitement.
+    - **Pipeline de traitement** – Sélectionnez cette option pour générer et traiter les documents électroniques sortants. Pour ce type de configuration, le système crée une liste de pipeline de traitement vide, une section vide pour les règles d’applicabilité et un ensemble de variables par défaut. Vous ne pourrez pas travailler avec les canaux pour les documents électroniques entrants.
+    - **Canal de données** – Sélectionnez cette option pour configurer le processus de réception des documents électroniques entrants à partir de l’un des canaux définis et de les transmettre directement à Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management sans actions supplémentaires. Pour ce type de configuration, le système crée une liste prédéfinie de paramètres pour les canau de données, une section vide pour les règles d’applicabilité et un ensemble de variables par défaut. Vous ne pourrez pas ajouter d’actions dans le pipeline de traitement.
+    - **Canal de données et pipeline de traitement** – Ce type de configuration ressemble au type de configuration **Canal de données**. Toutefois, avant qu’un document électronique entrant ne soit transmis à Finance ou Supply Chain Management, vous pouvez configurer des actions supplémentaires dans le pipeline de traitement.
 
 7. Si vous avez sélectionné l’option **Canal de données** ou **Canal de données et pipeline de traitement** à la dernière étape, dans le champ **Sélectionner le canal de données**, vous devez sélectionner le canal à intégrer.
 8. Cliquez sur **Créer**.
@@ -66,9 +66,9 @@ Pour configurer un canal de données, entrez le nom du canal. Définissez ensuit
 
 Sur l’onglet **Filtre des pièces jointes**, vous devez définir un ensemble de filtres pour obtenir des fichiers spécifiques du canal. Vous pouvez créer plusieurs lignes si vous pensez que les fichiers auront des extensions de nom de fichier différentes ou si les fichiers doivent être traités différemment en fonction du nom de fichier. Voici les principaux paramètres :
 
-- **Nom** –  Saisissez le nom du fichier auquel le système se référera lors du traitement. Dans les applications Finance et Supply Chain Management, vous pourrez voir les fichiers dans le journal de soumission.
-- **Filtre** –  Définissez le filtre pour sélectionner les fichiers.
-- **Optionnel** –  Si cette case est décochée, le fichier est requis. Dans ce cas, le système affichera un message d’erreur si les chaînes ne contiennent pas de fichiers correspondant au filtre. Ce paramètre est applicable aux e-mails.
+- **Nom** – Saisissez le nom du fichier auquel le système se référera lors du traitement. Dans les applications Finance et Supply Chain Management, vous pourrez voir les fichiers dans le journal de soumission.
+- **Filtre** – Définissez le filtre pour sélectionner les fichiers.
+- **Optionnel** – Si cette case est décochée, le fichier est requis. Dans ce cas, le système affichera un message d’erreur si les chaînes ne contiennent pas de fichiers correspondant au filtre. Ce paramètre est applicable aux e-mails.
 
 Si le canal est une boîte aux lettres et qu’un e-mail entrant contient plusieurs pièces jointes, vous pouvez configurer des règles pour définir la façon dont le service doit gérer les pièces jointes. Le service peut considérer chaque pièce jointe comme une facture électronique distincte, ou il peut traiter une pièce jointe comme une facture principale et toutes les autres pièces jointes comme des ajouts.
 
@@ -83,13 +83,13 @@ L’ordre des actions est important. Vous pouvez ajuster l’ordre avec les bout
 Chaque action a un ensemble de paramètres que vous pouvez configurer ou ajuster. L’ensemble spécifique de paramètres dépend du type d’action.
 
 - **Action** – Permet de sélectionner le type de l’action.
-- **Nom d’action** –  Entrez le nom de l’action. Ce nom apparaîtra dans les journaux de soumission et dans les messages des applications Finance et Supply Chain Management.
-- **Description** –  Fournissez plus de détails sur le but de l’action dans le processus.
-- **Activer la nouvelle tentative** –  Si vous cochez cette case, vous pouvez sélectionner une action dans le champ **Réessayer l’action** et configurez des paramètres supplémentaires sur l’onglet **Paramètres de nouvelle tentative**.
+- **Nom d’action** – Entrez le nom de l’action. Ce nom apparaîtra dans les journaux de soumission et dans les messages des applications Finance et Supply Chain Management.
+- **Description** – Fournissez plus de détails sur le but de l’action dans le processus.
+- **Activer la nouvelle tentative** – Si vous cochez cette case, vous pouvez sélectionner une action dans le champ **Réessayer l’action** et configurez des paramètres supplémentaires sur l’onglet **Paramètres de nouvelle tentative**.
 
     La fonctionnalité de nouvelle tentative vous permet de configurer le comportement du service si une action spécifique ne peut pas être exécutée. Par exemple, si le service Web externe auquel vous essayez de vous connecter ne répond pas, vous pouvez spécifier combien de fois le système doit retenter la connexion, à quel intervalle et à partir de quelle action dans le pipeline de traitement.
 
-- **Exporter les résultats** –  Vous pouvez cocher cette case pour *une* action dans le pipeline de traitement. Le fichier électronique que l’action produit dans l’application Finance ou Supply Chain Management peut ensuite être exporté depuis la page **Journal de soumission des documents électroniques**.
+- **Exporter les résultats** – Vous pouvez cocher cette case pour *une* action dans le pipeline de traitement. Le fichier électronique que l’action produit dans l’application Finance ou Supply Chain Management peut ensuite être exporté depuis la page **Journal de soumission des documents électroniques**.
 
 ### <a name="applicability-rules"></a>Règles d’applicabilité
 
@@ -132,7 +132,7 @@ Les types de variables suivants sont disponibles :
 L’option **Désactiver la réduction des données d’entreprise** est utilisée pour optimiser la structure de la charge utile des données commerciales provenant de l’application Finance ou Supply Chain Management lors de la soumission de documents électroniques. L’optimisation permet de réduire les données qui entrent dans le service de facturation électronique pour une transformation ultérieure dans le fichier électronique requis. La valeur par défaut est **Non**.
 
 - **Oui** –  Finance ou Supply Chain Management enverra un fichier JSON de la structure **Modèle de facture** ou **Modèle fiscal** (pour le Brésil) définie dans le module **Gestion des états électroniques**. Tous les éléments du modèle sont remplis de données commerciales côté application, quelle que soit la structure finale du fichier électronique. Les modèles contiennent généralement plus de données métier que la structure du fichier cible n’en requiert, et la génération de ces données dans l’application peut nécessiter plus de temps. Une valeur **Oui** pour cette option est requise dans les rares cas où vous souhaitez générer différents fichiers de sortie dans une fonction de facturation électronique et une configuration de fonction. Une valeur **Oui** est utile lorsque vous dépannez vos scénarios, la structure des fichiers électroniques et l’exhaustivité des données commerciales.
-- **Non** –  Finance ou Supply Chain Management effectuera le premier appel au service sans aucune donnée commerciale. Le but de cet appel est d’obtenir des informations sur la configuration de la gestion des états électroniques (ER) qui seront utilisés pour la transformation des fichiers électroniques dans le pipeline de traitement. Ces informations sont renvoyées à l’application, qui les utilise pour déterminer le sous-ensemble de données métier à inclure dans le fichier JSON de la structure **Modèle de facture** ou **Modèle fiscal** (pour le Brésil). Une valeur **Non** pour cette option permet de réduire le volume de données commerciales que l’application soumet au service, car l’application ne peut soumettre que les données commerciales requises pour générer avec succès un fichier électronique.
+- **Non** – Finance ou Supply Chain Management effectuera le premier appel au service sans aucune donnée commerciale. Le but de cet appel est d’obtenir des informations sur la configuration de la gestion des états électroniques (ER) qui seront utilisés pour la transformation des fichiers électroniques dans le pipeline de traitement. Ces informations sont renvoyées à l’application, qui les utilise pour déterminer le sous-ensemble de données métier à inclure dans le fichier JSON de la structure **Modèle de facture** ou **Modèle fiscal** (pour le Brésil). Une valeur **Non** pour cette option permet de réduire le volume de données commerciales que l’application soumet au service, car l’application ne peut soumettre que les données commerciales requises pour générer avec succès un fichier électronique.
 
 ### <a name="validate-a-feature-setup"></a>Valider un paramétrage de la fonctionnalité
 

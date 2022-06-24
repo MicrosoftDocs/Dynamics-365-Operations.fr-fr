@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa58a7b072b75fe5a58f6d04bd6426f2958f1f8
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901282"
 ---
-# <a name="ledger-allocation-rules"></a>Règles d'affectation comptable
+# <a name="ledger-allocation-rules"></a>Règles d’affectation comptable
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
+Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
 
 Les règles de répartition comptable permettent de calculer et de générer automatiquement les journaux de répartition et les écritures de compte pour la répartition des soldes comptables ou des montants fixes. Les modes de répartition peuvent être variables ou fixes. Les modes de répartition suivants peuvent être utilisés pour les règles de répartition comptable :
 

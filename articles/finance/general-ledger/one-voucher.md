@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896403"
 ---
 # <a name="one-voucher"></a>N° document
 
@@ -37,7 +37,7 @@ La fonctionnalité existante pour les journaux financiers (le journal des opéra
     [![Ligne unique.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > La définition de N° document n’inclut **pas** les cas où les noms de journaux paramétrés comme **Un N° document uniquement**, mais que l’utilisateur entre ensuite un N° document qui inclut uniquement des types de comptes généraux. Dans cette rubrique, un N° document signifie un justificatif unique contenant plusieurs fournisseurs, clients, banques, immobilisations, ou projets.
+    > La définition de N° document n’inclut **pas** les cas où les noms de journaux paramétrés comme **Un N° document uniquement**, mais que l’utilisateur entre ensuite un N° document qui inclut uniquement des types de comptes généraux. Dans cet article, un N° document signifie un justificatif unique contenant plusieurs fournisseurs, clients, banques, immobilisations, ou projets.
 
 - Entrez un N° document multiligne lorsqu’il n’existe pas de compte de contrepartie.
 
@@ -63,16 +63,16 @@ Vous générez ensuite l’état **Dépenses par fournisseur** dans l’espace d
 
 En raison des problèmes qui peuvent survenir lorsque la fonctionnalité N° document est utilisée, cette fonctionnalité sera au final obsolète. Toutefois, comme il existe des écarts fonctionnels qui dépendent de cette fonctionnalité, elle ne deviendra pas obsolète d’un seul coup. Au lieu de cela, le calendrier suivant sera utilisé :
 
-- **Version du printemps 2018** – Cette fonctionnalité a été désactivée par défaut via le paramètre **Autoriser plusieurs transactions dans un justificatif** sous l’onglet **Général** de la page **Paramètres de comptabilité**. Toutefois, vous pouvez réactiver la fonctionnalité si votre organisation a un scénario qui s’inscrit dans l’un des écarts de scénario fonctionnels répertoriés plus loin dans cette rubrique.
+- **Version du printemps 2018** – Cette fonctionnalité a été désactivée par défaut via le paramètre **Autoriser plusieurs transactions dans un justificatif** sous l’onglet **Général** de la page **Paramètres de comptabilité**. Toutefois, vous pouvez réactiver la fonctionnalité si votre organisation a un scénario qui s’inscrit dans l’un des écarts de scénario fonctionnels répertoriés plus loin dans cet article.
 
-    - Si votre scénario commercial ne nécessite pas N° document, nous vous recommandons de laisser la fonctionnalité désactivée. Si vous utilisez cette fonctionnalité même si une autre solution existe, Microsoft ne corrigera pas les « bogues » dans les zones identifiées plus loin dans cette rubrique.
+    - Si votre scénario commercial ne nécessite pas N° document, nous vous recommandons de laisser la fonctionnalité désactivée. Si vous utilisez cette fonctionnalité même si une autre solution existe, Microsoft ne corrigera pas les « bogues » dans les zones identifiées plus loin dans cet article.
     - Nous vous recommandons d’arrêter d’utiliser la fonctionnalité N° document pour les intégrations dans , sauf si elle est requise pour l’un des écarts fonctionnels.
 
 - **Versions ultérieures** – Certaines de ces exigences métier peuvent être remplies uniquement à l’aide de la fonctionnalité N° document. Microsoft doit s’assurer que toutes les exigences métier identifiées peuvent toujours être satisfaites dans le système une fois la fonctionnalité obsolète. Par conséquent, de nouvelles fonctionnalités devront probablement être ajoutées pour combler les lacunes fonctionnelles. Microsoft ne peut pas fournir de solution spécifique, car chaque lacune de fonctionnalités est différente et doit être évaluée en fonction des exigences de l’entreprise. Certaines lacunes fonctionnelles seront probablement remplacées par des fonctionnalités qui permettent de répondre à des exigences métier spécifiques. Cependant, d’autres lacunes peuvent être comblées en continuant à autoriser la saisie dans un journal, comme lorsque la fonctionnalité N° document est utilisée, mais en améliorant le système pour suivre plus de détails si nécessaire.
 
 Une fois que toutes les lacunes fonctionnelles sont comblées, Microsoft indiquera que la fonctionnalité est obsolète. Cependant, la suppression ne sera effective qu’au bout d’au moins un an après ce message. Bien que Microsoft ne puisse pas fournir une estimation du moment où la fonctionnalité N° document sera obsolète, il faudra probablement au moins deux ans avant que cela ne se produise. La politique de Microsoft est de laisser au moins 12 mois entre l’annonce de l’obsolescence de la fonctionnalité et la dépréciation réelle, afin que les clients et les éditeurs de logiciels indépendants (ISV) aient le temps de réagir au changement. Par exemple, une organisation peut devoir mettre ses processus d’entreprise, entités, et intégrations à jour.
 
-La dépréciation de la fonctionnalité N° document est un changement important qui sera largement diffusé. Dans le cadre de cette communication, Microsoft mettra à jour cette rubrique, publiera un billet de blog sur le site Microsoft Dynamics 365 Finance, mettra à jour la rubrique « Fonctionnalités supprimées ou obsolètes », indiquera la modification lors des conférences Microsoft appropriées, etc.
+La dépréciation de la fonctionnalité N° document est un changement important qui sera largement diffusé. Dans le cadre de cette communication, Microsoft mettra à jour cet article, publiera un billet de blog sur le site Microsoft Dynamics 365 Finance, mettra à jour l’article « Fonctionnalités supprimées ou obsolètes », indiquera la modification lors des conférences Microsoft appropriées, etc.
 
 ## <a name="why-use-one-voucher"></a>Pourquoi utiliser la fonctionnalité N° document ?
 
@@ -116,7 +116,7 @@ Dans ce scénario, les clients indiqués dans le N° document unique sont les m�
 Si la tâche périodique Remboursement est exécutée dans le module Comptabilité client, elle crée une transaction pour déplacer le solde d’un client à un fournisseur. Pour ce scénario, N° document doit être utilisé pour rembourser le client.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Maintenance des immobilisations : rattraper l’amortissement, fractionner l’immobilisation, calculer l’amortissement sur la cession
-Avec la version 10.0.21 et les versions ultérieures, les transactions d'immobilisations pour l'amortissement de rattrapage, le fractionnement d'un actif et le calcul de l'amortissement pour la cession d'un actif seront créées à l'aide de différents numéros de justificatif.
+Avec la version 10.0.21 et les versions ultérieures, les transactions d’immobilisations pour l’amortissement de rattrapage, le fractionnement d’un actif et le calcul de l’amortissement pour la cession d’un actif seront créées à l’aide de différents numéros de justificatif.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a>Lettres de change et billets à ordre
 Les lettres de change et les billets à ordre nécessitent qu’un N° document soit utilisé, car les transactions déplacent le solde client ou fournisseur d’un compte général Comptabilité client/Comptabilité fournisseur à un autre, selon l’état du paiement.

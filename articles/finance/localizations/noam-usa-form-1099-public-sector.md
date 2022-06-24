@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0510ab84b2b44dcadfbcaee25a3cd43e29ef44d582e0dc0e8281d993e4808c07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 329d5722d750afde2f18e410f7f8c3ffe7554578
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897979"
 ---
 # <a name="form-1099-in-the-public-sector"></a>Écran 1099 dans le secteur public
 
@@ -29,7 +29,7 @@ ms.locfileid: "6729533"
 
 Cet article donne des conseils et des informations sur la manière de configurer la fonctionnalité du formulaire 1099 de déclaration d’honoraires pour la comptabilité fournisseur dans le secteur public.
 
-Le formulaire 1099 de déclaration d’honoraires est requis si vous entretenez des relations commerciales avec des fournisseurs américains assujettis à la taxe sur les honoraires. Cette rubrique décrit la fonctionnalité 1099 de déclaration d’honoraires disponible pour le secteur public. Il est également recommandé d’analyser les modifications apportées à la règle d’administration fiscale pour l’exercice applicable avant de paramétrer et de compléter les relevés 1099 de déclaration des honoraires. Si vous entretenez des relations commerciales avec des fournisseurs américains assujettis à la taxe sur les honoraires, vous devez effectuer le suivi du montant réglé à chaque fournisseur et le déclarer à l’administration fiscale des États-Unis à la fin de l’année civile. Les fournisseurs sont généralement des organisations qui fournissent des services à votre organisation. Les fournisseurs peuvent également être des personnes bien distinctes des employés. Vous devez également envoyer un relevé 1099 d’honoraires à chaque fournisseur avec lequel vous entretenez des relations commerciales. Celui-ci l’informe du montant déclaré à l’administration fiscale. Les organisations du secteur public juridique ayant une adresse principale aux États-Unis peuvent envoyer le formulaire 1099 G ou S de déclaration d’honoraires à l’administration fiscale. Le formulaire 1099 G de déclaration de l’impôt sur le revenu est utilisé pour signaler les revenus provenant du gouvernement, comme les remboursements fiscaux locaux ou nationaux, les indemnités-chômage et les subventions. Le formulaire 1099 S de déclaration des revenus est utilisé pour déclarer les revenus issus de certaines taxes foncières. Généralement, dans Dynamics 365 Finance, les procédures de paramétrage 1099 doivent être effectuées une seule fois. Toutefois, vous pouvez utiliser ces informations ultérieurement si vous souhaitez modifier ou afficher des entrées existantes.
+Le formulaire 1099 de déclaration d’honoraires est requis si vous entretenez des relations commerciales avec des fournisseurs américains assujettis à la taxe sur les honoraires. Cet article décrit la fonctionnalité 1099 de déclaration d’honoraires disponible pour le secteur public. Il est également recommandé d’analyser les modifications apportées à la règle d’administration fiscale pour l’exercice applicable avant de paramétrer et de compléter les relevés 1099 de déclaration des honoraires. Si vous entretenez des relations commerciales avec des fournisseurs américains assujettis à la taxe sur les honoraires, vous devez effectuer le suivi du montant réglé à chaque fournisseur et le déclarer à l’administration fiscale des États-Unis à la fin de l’année civile. Les fournisseurs sont généralement des organisations qui fournissent des services à votre organisation. Les fournisseurs peuvent également être des personnes bien distinctes des employés. Vous devez également envoyer un relevé 1099 d’honoraires à chaque fournisseur avec lequel vous entretenez des relations commerciales. Celui-ci l’informe du montant déclaré à l’administration fiscale. Les organisations du secteur public juridique ayant une adresse principale aux États-Unis peuvent envoyer le formulaire 1099 G ou S de déclaration d’honoraires à l’administration fiscale. Le formulaire 1099 G de déclaration de l’impôt sur le revenu est utilisé pour signaler les revenus provenant du gouvernement, comme les remboursements fiscaux locaux ou nationaux, les indemnités-chômage et les subventions. Le formulaire 1099 S de déclaration des revenus est utilisé pour déclarer les revenus issus de certaines taxes foncières. Généralement, dans Dynamics 365 Finance, les procédures de paramétrage 1099 doivent être effectuées une seule fois. Toutefois, vous pouvez utiliser ces informations ultérieurement si vous souhaitez modifier ou afficher des entrées existantes.
 
 ## <a name="tips"></a>Conseils
 -   Sur de nombreuses pages, vous observerez que le champ **Produit brut S-2** ne s’affiche pas. Ce champ ne s’affiche pas si le montant est identique à celui figurant dans le champ **Déclaration d’honoraires locale réglée**.

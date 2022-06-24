@@ -1,6 +1,6 @@
 ---
 title: Déclaration de retenue à la source pour l’Égypte
-description: Cette rubrique explique comment configurer et générer les déclarations de retenue à la source pour l’Égypte.
+description: Cet article explique comment configurer et générer les déclarations de retenue à la source pour l’Égypte.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907685"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Déclaration de retenue à la source pour l’Égypte (EG-00005)
 
 [!include[banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
 
-## <a name="overview"></a>Vue d’ensemble
-Cette rubrique explique comment configurer et générer la déclaration de retenue à la source et les formulaires 41 et 11 de déclaration de retenue à la source pour les entités juridiques en Égypte 
+## <a name="overview"></a>Présentation
+Cet article explique comment configurer et générer la déclaration de retenue à la source et les formulaires 41 et 11 de déclaration de retenue à la source pour les entités juridiques en Égypte 
 
 Toutes les entités égyptiennes doivent préparer le formulaire 41 qui récapitule toutes les taxes retenues des fournisseurs et des prestataires de services locaux. En plus du formulaire 41, le formulaire 11 doit être généré pour détailler toutes les retenues des fournisseurs étrangers. 
 
@@ -58,7 +58,7 @@ Pour plus d’informations sur la manière d’importer des configurations de ge
 
 La mise en œuvre des formulaires de déclaration de WHT pour l’Égypte est basée sur des configurations de gestion des états électroniques (ER). Pour plus d’informations sur les fonctionnalités et les concepts de la gestion des états, voir [Gestion des états électroniques](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Pour les environnements de production et de test d’acceptation par l’utilisateur (UAT), suivez les instructions de la rubrique [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Pour les environnements de production et de test d’acceptation par l’utilisateur (UAT), suivez les instructions de l’article [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Pour générer les déclarations de retenue dans une entité juridique égyptienne, vous devez télécharger les configurations suivantes :
 

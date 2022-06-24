@@ -1,6 +1,6 @@
 ---
 title: Accéder aux métadonnées d’application à l’aide des applications connectées
-description: Les étapes de cette rubrique expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques à l’aide des métadonnées.
+description: Les étapes de cet article expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques à l’aide des métadonnées.
 author: NickSelin
 ms.date: 06/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d99ca41a9a24ef8ac0fe31e703cad79d41216fa726fa1d354ac19db90706954
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 330683da986a551a9694833655122768d30499b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906766"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Accéder aux métadonnées d’application à l’aide des applications connectées
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une mise en correspondance de modèle de génération d’états électronique (ER) en utilisant les métadonnées de Finance and Operations. Les métadonnées d’application ne sons accessibles en ligne qu’à l’aide de l’application RCS connectée. L’exemple de mise en correspondance de modèle ER est configuré pour accéder à des transactions de commerce extérieur. Pour effectuer ces étapes, dans RCS vous devez commencer par effectuer les étapes de cette rubrique, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Si vous n’avez pas réalisé les étapes de la rubrique [Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques](access-application-metadata-er-configuration.md), téléchargez les [Exemples de génération d’états électroniques](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) et enregistrez les configurations ER suivantes : Foreign trade metadata.xml ; Foreign trade model.xml ; Foreign trade mapping.xml ; puis exécutez les étapes de la procédure.
+Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une mise en correspondance de modèle de génération d’états électronique (ER) en utilisant les métadonnées dans Finance and Operations. Les métadonnées d’application ne sons accessibles en ligne qu’à l’aide de l’application RCS connectée. L’exemple de mise en correspondance de modèle ER est configuré pour accéder à des transactions de commerce extérieur. Pour effectuer ces étapes, dans RCS vous devez commencer par effectuer les étapes de cet article, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Si vous n’avez pas réalisé les étapes de l’article [Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques](access-application-metadata-er-configuration.md), téléchargez les [Exemples de génération d’états électroniques](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) et enregistrez les configurations ER suivantes : Foreign trade metadata.xml ; Foreign trade model.xml ; Foreign trade mapping.xml ; puis exécutez les étapes de la procédure.
 
 ## <a name="prerequisites"></a>Conditions préalables
 1. Accédez à **Tous les espaces de travail** > **États électroniques**. 

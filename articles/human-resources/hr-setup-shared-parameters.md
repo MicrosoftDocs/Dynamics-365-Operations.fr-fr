@@ -1,6 +1,6 @@
 ---
 title: Configuration des paramètres partagés
-description: Cette rubrique explique comment définir des paramètres de Ressources humaines communs à des entités juridiques.
+description: Cet article explique comment définir des paramètres de Ressources humaines communs à des entités juridiques.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c0d8dbca302d90cc402feb4715a6fcc2b935d8b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906180"
 ---
 # <a name="configure-shared-parameters"></a>Configuration des paramètres partagés
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vous devez définir des paramètres partagés pour les enregistrements communs à des sociétés, tels que les enregistrements **Poste**. Cette rubrique explique comment définir des paramètres de Ressources humaines communs à des entités juridiques.
+Vous devez définir des paramètres partagés pour les enregistrements communs à des sociétés, tels que les enregistrements **Poste**. Cet article explique comment définir des paramètres de Ressources humaines communs à des entités juridiques.
 
 Certains types d’enregistrements, tels que les enregistrements **Poste**, sont partagés entre des sociétés. Pour ces enregistrements, vous devez définir des paramètres partagés. Par exemple, la page **Paramètres partagés de ressources humaines** permet de définir les paramètres de ressources humaines dans les entités juridiques. 
 

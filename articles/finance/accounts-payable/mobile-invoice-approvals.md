@@ -1,42 +1,42 @@
 ---
 title: Approbations de factures par téléphone portable
-description: Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d’utilisation.
+description: Cet article est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d’utilisation.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737353"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946272"
 ---
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
 [!include [banner](../includes/banner.md)]
 
-Les fonctionnalités mobiles permettent aux entreprises de créer des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d’étendre les capacités comme ils le désirent. Le moyen le plus efficace d’apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d’utilisation. Cette rubrique doit vous aider à créer d’autres variations de scénarios et peut également être appliquée à d’autres scénarios non liés aux factures fournisseur.
+Les fonctionnalités mobiles permettent aux entreprises de créer des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d’étendre les capacités comme ils le désirent. Le moyen le plus efficace d’apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cet article est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d’utilisation. Cet article doit vous aider à créer d’autres variations de scénarios et peut également être appliquée à d’autres scénarios non liés aux factures fournisseur.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-| Logiciel requis                                                                                            | Description                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Logiciel requis                                                                                            | Description                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Pré-lecture manuel mobile                                                                                |[Plateforme mobile](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Un environnement avec version 1611 et Platform update 3 (novembre 2016)                   |
 | Installez le correctif KB 3204341.                                                                              | L’enregistreur de tâches peut enregistrer de manière erronée deux commandes Fermer pour les boîtes de dialogue déroulantes, incluses dans Platform Update 3 (mise à jour novembre 2016). |
 | Installez le correctif KB 3207800.                                                                              | Ce correctif permet d’afficher les pièces jointes sur le client mobile, ce qui est inclus dans Platform Update 3 (mise à jour de novembre 2016).           |
 | Installez le correctif KB 3208224.                                                                              | Le code d’application pour la demande d’approbation de facture fournisseur mobile est inclus dans la version 7.0.1 (mai 2016).                          |
-| Périphérique Android ou iOS ou Windows doté de l’application mobile installée. | Recherche de l’application dans le magasin d’application adéquat.                                                                                                                     |
+| Périphérique Android ou iOS ou Windows doté de l’application mobile installée. | Recherche de l’application dans le magasin d’application adéquat.                            |
 
 ## <a name="introduction"></a>Introduction
 Les approbations mobiles pour les factures fournisseur requièrent les trois correctifs mentionnés dans la section « Conditions préalables ». Ces correctifs ne présentent pas un espace de travail pour les approbations des factures. Pour savoir ce qu’est un espace de travail dans le contexte mobile, lisez le manuel mobile qui est mentionné dans la section « Conditions préalables ». L’espace de travail des approbations de facture doit être conçu. 
@@ -51,11 +51,11 @@ Chaque organisation orchestre et définit son processus métier pour les facture
     -   Les factures ont-elles également les répartitions comptables dans l’en-tête de facture ? Dans ce cas, ces répartitions comptables doivent-elles être disponibles dans le périphérique ?
 
     > [!NOTE]
-    > Cette rubrique n’explique pas comment modifier les répartitions comptables, car cette fonctionnalité n’est actuellement pas prise en charge pour les scénarios mobiles.
+    > Cet article n’explique pas comment modifier les répartitions comptables, car cette fonctionnalité n’est actuellement pas prise en charge pour les scénarios mobiles.
 
 -   Les utilisateurs souhaiteront-ils afficher les pièces jointes pour la facture sur le périphérique ?
 
-La conception de l’expérience mobile pour les approbations des factures peut varier, selon les réponses à ces questions. Le but est d’optimiser l’expérience utilisateur pour le processus métier sur la fonction mobile dans une organisation. Dans le reste de cette rubrique, nous regarderons deux variations de scénario basées sur les réponses aux questions précédentes. 
+La conception de l’expérience mobile pour les approbations des factures peut varier, selon les réponses à ces questions. Le but est d’optimiser l’expérience utilisateur pour le processus métier sur la fonction mobile dans une organisation. Dans le reste de cet article, nous regarderons deux variations de scénario basées sur les réponses aux questions précédentes. 
 
 En général, lorsque vous travaillez avec le Concepteur mobile, veillez à « publier » les modifications pour empêcher la perte des mises à jour.
 

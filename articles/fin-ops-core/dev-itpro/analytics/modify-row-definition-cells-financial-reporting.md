@@ -1,6 +1,6 @@
 ---
 title: Modifier les cellules de définition de ligne
-description: Cette rubrique décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
+description: Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
 author: ShylaThompson
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b06c59e3ec35d0eea7fc4b81af540e0bcca144fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905110"
 ---
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
+Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Spécifier un code de ligne dans une définition de ligne
 

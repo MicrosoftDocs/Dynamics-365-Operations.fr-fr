@@ -1,6 +1,6 @@
 ---
 title: Définir les conditions de paiement fournisseur
-description: Cette rubrique explique comment paramétrer des conditions de paiement pour les factures fournisseur.
+description: Cet article explique comment paramétrer des conditions de paiement pour les factures fournisseur.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a676856ed43bf1b78684eac0682e0fdef9c84083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906469"
 ---
 # <a name="define-vendor-payment-terms"></a>Définir les conditions de paiement fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer des conditions de paiement pour les factures fournisseur. La société fictive USMF est citée en exemple dans cette tâche.
+Cet article explique comment paramétrer des conditions de paiement pour les factures fournisseur. La société fictive USMF est citée en exemple dans cette tâche.
 
 1. Accédez à **Volet de navigation > Modules > Comptabilité fournisseur > Paramétrage des paiements > Conditions de paiement**.
 2. Sélectionnez **Nouveau**. La page **Conditions de paiement** est utilisée pour définir la manière dont la date d’échéance est calculée. Elle ne permet pas de définir la manière dont la date d’escompte de règlement est calculée.  
