@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources 22 octobre 2020
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 22 octobre 2020.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 22 octobre 2020.
 author: jcart1106
 ms.date: 10/22/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862799"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 22 octobre 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8063516"
 
 
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
 Pour plus d’informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de la 2e vague de lancement Dynamics 365 Human Resources 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -50,9 +50,9 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème| Sortie  | Description|
+| Numéro du problème| Problème  | Description|
 | --- | --- | --- |
 | 437922 | L’importation d’heures FMLA à l’aide de l’entité DMF entraîne une erreur de lecture seule. | L’utilisation de l’entité Heures FMLA pour importer les heures associées à un cas FMLA a échoué. Nous avons ajouté une logique pour nous assurer que les heures importées ne dépassent pas les heures restantes pour le cas. |
 | 512019 | Montant de **Dernier report** incorrect. | Sur la page **Congés**, la modification de la **Date de référence** au premier jour de la prochaine période fiscale a affiché un montant de **Dernier report** incorrect pour le type **Congé annuel**. Il affiche maintenant le montant correct. |

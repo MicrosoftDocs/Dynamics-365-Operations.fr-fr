@@ -1,6 +1,6 @@
 ---
 title: Vues enregistrées
-description: Cette rubrique décrit l’utilisation des fonctionnalités de vues enregistrées.
+description: Cet article décrit l’utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845411"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -196,7 +196,7 @@ Pour obtenir la liste de toutes les vues publiées pour la page, l’ensemble d�
 
 ## <a name="managing-views-globally"></a>Gestion globale des vues
 
-Bien que certaines fonctionnalités de gestion soient présentées sur chaque page, comme indiqué dans cette rubrique, les **administrateurs système** et les **administrateurs de vues enregistrées** peuvent gérer les vues de manière plus globale pour le système via la page **Personnalisation**. En particulier, cette page comporte les sections et fonctionnalités suivantes : 
+Bien que certaines fonctionnalités de gestion soient présentées sur chaque page, comme indiqué dans cet article, les **administrateurs système** et les **administrateurs de vues enregistrées** peuvent gérer les vues de manière plus globale pour le système via la page **Personnalisation**. En particulier, cette page comporte les sections et fonctionnalités suivantes : 
 
 - **Vues publiées** – Cette section répertorie toutes les vues qui ont été publiées pour votre organisation. À partir de là, vous pouvez republier une vue après avoir ajusté les rôles de sécurité ou les entités juridiques ciblées par la vue. Vous pouvez également publier, supprimer ou annuler la publication des vues. Vous pouvez utiliser l’action **Enregistrer comme personnel** pour créer une copie personnelle d’une vue, afin de pouvoir la mettre à jour ou mieux comprendre son contenu. 
 - **Vues non publiées** – Cette section répertorie toutes les vues d’organisation de votre système qui ne sont pas actuellement publiées. Ces vues entrent le plus souvent dans le système via la fonction d’importation. Vous pouvez publier, exporter ou supprimer ces vues. L’action **Publication rapide** ajoutée dans la version 10.0.12 permet de publier plusieurs vues de cette section en une seule action, en utilisant le rôle de sécurité et les configurations d’entité juridique existants. Vous pouvez utiliser l’action **Enregistrer comme personnel** pour créer des copies personnelles de ces vues, afin de pouvoir mieux comprendre leur contenu.
@@ -251,7 +251,7 @@ Pour les pages ayant de grands sélecteurs de vue (les personnalisations et les 
 
 Si vous publiez une vue sur une entité juridique spécifique, mais que vous ne publiez pas cette vue comme vue par défaut, le comportement suivant se produit :
 
-- Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l’utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique. Ce comportement se produit car les utilisateurs obtiennent leur propre copie personnelle de la vue publiée quand  elle est chargée, et les vues personnelles sont globales.
+- Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l’utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique. Ce comportement se produit car les utilisateurs obtiennent leur propre copie personnelle de la vue publiée quand elle est chargée, et les vues personnelles sont globales.
 - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n’affiche que la vue pour les entités juridiques spécifiées. Ce comportement se produit car la fonctionnalité permet aux vues (y compris les vues personnelles) d’être liées à des entités juridiques spécifiques.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Expérience produit unifiée
-description: Cette rubrique décrit l’intégration des données de produit entre les applications Finances et Opérations et Dataverse.
+title: Expérience produit uniformisée
+description: Cet article décrit l’intégration des données de produit entre les applications Finances et Opérations et Dataverse.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884996"
 ---
 # <a name="unified-product-experience"></a>Expérience produit unifiée
 
@@ -126,9 +126,9 @@ Applications de Finances et Opérations | Applications Customer Engagement |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Paramètres de commande par défaut et paramètres de commande par défaut spécifiques au produit
 
-Les paramètres de commande par défaut définissent le site et l’entrepôt d’où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l’indicateur de fin, et la méthode de promesse de commande. Ces informations seront disponibles dans Dataverse à l’aide des paramètres de commande par défaut et de l’entité des paramètres de commande par défaut spécifiques au produit. Pour en savoir plus sur la fonctionnalité, voir la [Rubrique Paramètres de commande par défaut](../../../../supply-chain/production-control/default-order-settings.md).
+Les paramètres de commande par défaut définissent le site et l’entrepôt d’où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l’indicateur de fin, et la méthode de promesse de commande. Ces informations seront disponibles dans Dataverse à l’aide des paramètres de commande par défaut et de l’entité des paramètres de commande par défaut spécifiques au produit. Pour en savoir plus sur la fonctionnalité, consultez [l’article Paramètres de commande par défaut](../../../../supply-chain/production-control/default-order-settings.md).
 
-Applications de Finances et Opérations | Applications Customer Engagement |
+Applications de finances et d’opérations | Applications Customer Engagement |
 ---|---
 [Paramètres de commande par défaut](mapping-reference.md#172) | msdyn_productdefaultordersettings |
 [Paramètres de commande par défaut du produit V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |

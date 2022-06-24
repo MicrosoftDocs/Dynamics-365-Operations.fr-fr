@@ -1,6 +1,6 @@
 ---
 title: Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
-description: Cette rubrique explique comment vous pouvez configurer des formats de gestion des états électroniques pour utiliser les paramètres propres à une entité juridique.
+description: Cet article explique comment vous pouvez configurer des formats de gestion des états électroniques pour utiliser les paramètres propres à une entité juridique.
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858826"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
 
@@ -37,13 +37,13 @@ La fonctionnalité des paramètres propres à l’application de gestion des ét
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Pour exécuter les exemples de cette rubrique, vous devez avoir accès à l’instance de Regulatory Configuration Service (RCS) qui a été mise en service pour le même locataire que Finance and Operations, pour un des rôles suivants :
+Pour exécuter les exemples de cet article, vous devez avoir accès à l’instance de Regulatory Configuration Services (RCS) qui a été mise en service pour le même locataire que Finance and Operations, pour un des rôles suivants :
 
 - Développeur d’états électroniques
 - Consultant fonctionnel des états électroniques
 - Administrateur système
 
-Nous vous recommandons d’effectuer les étapes de la rubrique [Prendre en charge les appels paramétrés des sources de données des états électroniques de type de CHAMP CALCULÉ](er-calculated-field-type.md). Si vous avez déjà procédé comme suit, vous pouvez ignorer les étapes suivantes de la section **Importer les configurations de gestion des états électroniques dans RCS**.
+Nous vous recommandons d’effectuer les étapes de l’article [Prendre en charge les appels paramétrés des sources de données des états électroniques de type de CHAMP CALCULÉ](er-calculated-field-type.md). Si vous avez déjà procédé comme suit, vous pouvez ignorer les étapes suivantes de la section **Importer les configurations de gestion des états électroniques dans RCS**.
 
 ## <a name="import-er-configurations-into-rcs"></a>Importer les configurations de gestion des états électroniques dans RCS
 
@@ -58,7 +58,7 @@ Téléchargez et stockez localement les configurations ER suivantes.
 
 Ensuite, connectez-vous à votre instance RCS.
 
-Dans cet exemple, vous créerez une configuration pour la société fictive, Litware, Inc. Avant de pouvoir réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md) dans RCS.
+Dans cet exemple, vous créerez une configuration pour la société fictive, Litware, Inc. Avant de pouvoir réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure de l’article [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md) dans RCS.
 
 1.  Dans le tableau de bord par défaut, sélectionnez **Gestion des états électroniques**.
 2.  Sélectionnez **Configurations des états**.
@@ -300,7 +300,7 @@ Répétez les étapes de cette section pour les articles parents du format **For
 -   Mise en correspondance pour apprendre les appels paramétrés.xml
 -   Modèle pour apprendre les appels paramétrés.xml
 
-Pour savoir comment utiliser le format de gestion des états électroniques **Format pour apprendre comment rechercher les données LE** configuré pour paramétrer les ensembles de codes taxe selon l’entité juridique pour filtrer les transactions en fonction des différents niveaux d’imposition, procédez comme suit dans la rubrique [Configurer les paramètres d’un format de gestion des états électroniques par entité juridique](er-app-specific-parameters-set-up.md).
+Pour savoir comment utiliser le format de gestion des états électroniques **Format pour apprendre comment rechercher les données LE** configuré pour paramétrer les ensembles de codes taxe selon l’entité juridique pour filtrer les transactions en fonction des différents niveaux d’imposition, procédez comme suit dans l’article [Configurer les paramètres d’un format de gestion des états électroniques par entité juridique](er-app-specific-parameters-set-up.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

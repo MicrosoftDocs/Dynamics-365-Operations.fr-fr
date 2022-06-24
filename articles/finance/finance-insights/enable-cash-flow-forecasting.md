@@ -1,6 +1,6 @@
 ---
 title: Activer la prévision des flux de trésorerie
-description: Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Informations financières.
+description: Cet article explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859873"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Activer la prévision des flux de trésorerie
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Finance Insights.
+Cet article explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Finance Insights.
 
 > [!NOTE]
 > Pour utiliser les prévisions de paiement dans le flux de trésorerie, vous devez configurer la fonction de prévision de paiement client comme décrit dans [Activer les prédictions de paiement des clients](enable-cust-paymnt-prediction.md).
@@ -44,7 +44,7 @@ Cette rubrique explique comment activer la fonctionnalité de prévisions de flu
     >
     > Pour plus d’informations sur la configuration des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](../cash-bank-management/cash-flow-forecasting.md).
 
-3. Aller à **Gestion de la trésorerie et de la banque \> Configurer \> Informations financières (version préliminaire) \> Prévisions de flux de trésorerie (version préliminaire)** et suivez ces étapes :
+3. Aller à **Gestion de la trésorerie et de la banque \> Configurer \> Finance Insights (version préliminaire) \> Prévisions de flux de trésorerie (version préliminaire)** et suivez ces étapes :
 
     1. Sur l’onglet **Prévisions de trésorerie**, sélectionnez **Activer la fonctionnalité**.
     2. Sélectionner **Créer un modèle de prédiction**.

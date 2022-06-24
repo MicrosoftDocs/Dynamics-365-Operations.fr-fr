@@ -1,6 +1,6 @@
 ---
-title: Vue d’ensemble des états électroniques (ER)
-description: Cette rubrique fournit une vue d’ensemble de l’outil de gestion des états électroniques. Elle décrit les concepts clés, les scénarios pris en charge et les formats qui font partie de la solution.
+title: Vue d’ensemble des états électroniques
+description: Cet article fournit une vue d’ensemble de l’outil de gestion des états électroniques. Elle décrit les concepts clés, les scénarios pris en charge et les formats qui font partie de la solution.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869255"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d’ensemble des états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de l’outil de gestion des états électroniques (ER). Il comporte des informations sur les concepts essentiels, les scénarios pris en charge par l’ER et une liste des formats conçus et lancés dans le cadre de la solution.
+Cet article fournit une vue d’ensemble de l’outil de gestion des états électroniques (ER). Il comporte des informations sur les concepts essentiels, les scénarios pris en charge par l’ER et une liste des formats conçus et lancés dans le cadre de la solution.
 
 ER est un outil configurable qui vous aide à créer et à gérer des rapports et des paiements électroniques réglementaires. Il repose sur les trois concepts suivants :
 

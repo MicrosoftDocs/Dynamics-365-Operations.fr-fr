@@ -1,6 +1,6 @@
 ---
 title: Différer l’exécution des éléments de séquence aux formats ER
-description: Cette rubrique explique comment reporter l’exécution d’un élément de séquence au format d’état électronique (ER).
+description: Cet article explique comment reporter l’exécution d’un élément de séquence au format d’état électronique (ER).
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880229"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Différer l’exécution des éléments de séquence aux formats ER
 
@@ -32,9 +32,9 @@ Vous pouvez utiliser le concepteur des opérations du cadre [États électroniqu
 
 En activant l’option <a name="DeferredSequenceExecution"></a>**Exécution différée** pour un élément de format de séquence au format configuré, vous pouvez différer (reporter) l’exécution de cet élément. Dans ce cas, l’élément n’est pas exécuté tant que tous les autres éléments de son parent n’ont pas été exécutés.
 
-Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cette rubrique.
+Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cet article.
 
-## <a name="limitations"></a>Limites
+## <a name="limitations"></a>Limitations
 
 L’option **Exécution différée** est prise en charge uniquement pour les éléments de séquence configurés pour un format ER utilisé pour générer des documents **sortants** au format texte.
 
@@ -53,7 +53,7 @@ Pour terminer cet exemple, vous devez avoir accès à la société **USMF** pour
 - Consultant fonctionnel des états électroniques
 - Administrateur système
 
-Si vous n’avez pas encore terminé l’exemple dans la rubrique [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md#Example), téléchargez les [configurations ](general-electronic-reporting.md#Configuration)suivantes de l’exemple de solution ER.
+Si vous n’avez pas encore terminé l’exemple dans l’article [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md#Example), téléchargez les [configurations ](general-electronic-reporting.md#Configuration)suivantes de l’exemple de solution ER.
 
 | Description du contenu            | Nom de fichier |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ Avant de commencer, vous devez également télécharger et enregistrer la config
 ### <a name="activate-a-configurations-provider"></a>Activer un fournisseur de configurations
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le [fournisseur de configuration](general-electronic-reporting.md#Provider) pour l’exemple de société Litware, Inc. (`http://www.litware.com`) est répertorié, et qu’il est marqué comme actif. Si ce fournisseur de configuration n’est pas répertorié ou s’il n’est pas marqué comme actif, suivez les étapes de la rubrique [Créer un fournisseur de configuration et le marquer comme actif](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le [fournisseur de configuration](general-electronic-reporting.md#Provider) pour l’exemple de société Litware, Inc. (`http://www.litware.com`) est répertorié, et qu’il est marqué comme actif. Si ce fournisseur de configuration n’est pas répertorié ou s’il n’est pas marqué comme actif, suivez les étapes de l’article [Créer un fournisseur de configuration et le marquer comme actif](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Exemple de société Litware, Inc. sur la page Configurations de localisation.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 
@@ -224,7 +224,7 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 3. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 4. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé pour la somme dans l'en-tête de l’état.](./media/ER-DeferredSequence-Run3.png)
+    ![Fichier téléchargé pour la somme dans l’en-tête de l’état.](./media/ER-DeferredSequence-Run3.png)
 
     Notez que la somme des valeurs de taxe sur la ligne récapitulative 2 est désormais égale à 0 (zéro), car cette somme est désormais calculée en fonction de la sortie générée. Lorsque la ligne 2 est générée, la sortie générée ne contient pas encore de lignes contenant les détails de transaction. Vous pouvez configurer ce format pour différer l’exécution de l’élément de séquence **Rapport \\Lignes \\Récapitulatif** jusqu’à ce que l’élément de séquence **Rapport \\Lignes \\Enregistrement** ait été exécuté pour toutes les transactions fiscales.
 

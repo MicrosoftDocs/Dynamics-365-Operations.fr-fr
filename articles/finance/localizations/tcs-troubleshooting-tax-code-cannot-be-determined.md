@@ -1,6 +1,6 @@
 ---
-title: Le code fiscal ne peut pas être déterminé
-description: Cette rubrique explique comment résoudre l’erreur « Le code fiscal ne peut pas être déterminé » dans le service de calcul des taxes.
+title: Le code taxe ne peut pas être déterminé
+description: Cet article explique comment résoudre l’erreur « Le code fiscal ne peut pas être déterminé » dans le service de calcul des taxes.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 3c0914f0013ad2de61cd5a59e3092fef149742e4
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6a74724de38cf362900277ab9addc8e6894f7689
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877857"
 ---
-# <a name="tax-code-cannot-be-determined"></a>Le code fiscal ne peut pas être déterminé
+# <a name="tax-code-cannot-be-determined"></a>Le code taxe ne peut pas être déterminé
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique la procédure de résolution si vous recevez l’erreur « Le code fiscal ne peut pas être déterminé » dans le service de calcul des taxes.
+Cet article explique la procédure de résolution si vous recevez l’erreur « Le code fiscal ne peut pas être déterminé » dans le service de calcul des taxes.
 
 ## <a name="symptom"></a>Problème
 
@@ -121,7 +121,7 @@ Pour résoudre des problèmes, procédez comme suit.
 
 ## <a name="mitigation"></a>Atténuation
 
-1. Passez par chaque étape de la section [Résoudre des problèmes](#troubleshoot) de cette rubrique et corrigez la configuration si nécessaire. Si le groupe de taxe et le groupe de taxe de l’article n’ont pas été déterminés correctement, voir [Aucun résultat correspondant n’a été trouvé](tcs-troubleshooting-no-matching-result.md).
+1. Passez par chaque étape de la section [Résoudre des problèmes](#troubleshoot) de cet article et corrigez la configuration si nécessaire. Si le groupe de taxe et le groupe de taxe de l’article n’ont pas été déterminés correctement, voir [Aucun résultat correspondant n’a été trouvé](tcs-troubleshooting-no-matching-result.md).
 2. S’il n’y a pas d’intersection pour le groupe de taxes et le groupe de taxes de l’article, créez une version de fonctionnalité dans RCS et corrigez la configuration.
 
     - Allez à **Fonctionnalités fiscales** \> **Codes fiscaux et groupes** > **Groupe de taxe d’article**.

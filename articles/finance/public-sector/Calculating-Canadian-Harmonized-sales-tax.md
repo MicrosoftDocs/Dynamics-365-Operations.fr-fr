@@ -1,6 +1,6 @@
 ---
 title: Taxe de vente harmonisée canadienne
-description: Cette rubrique donne des informations sur la fonctionnalité de prise en charge de la taxe de vente harmonisée pour le secteur public.
+description: Cet article donne des informations sur la fonctionnalité de prise en charge de la taxe de vente harmonisée pour le secteur public.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.industry: public sector
 ms.author: twheeloc
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a6b3937641d8794de15073763911337c3f18b9b6
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 61b519ac2575853b8fb0a65c308e09c81e8051f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856447"
 ---
 # <a name="calculating-canadian-harmonized-sales-tax"></a>Calcul de la taxe de vente harmonisée canadienne
 

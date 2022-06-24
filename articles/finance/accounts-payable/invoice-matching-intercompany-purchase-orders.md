@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879738"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Rapprochement de factures et commandes fournisseur intersociétés
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109966"
 
 L’entité juridique acheteuse impliquée dans une transaction commerciale intersociétés peut être paramétrée pour utiliser le rapprochement de factures d’Achats. Lorsque le champ **Valider la facture avec les non-correspondances** dans la page **Paramètres de la comptabilité fournisseur** est défini sur **Demander une approbation**, le contrôle du rapprochement de factures est exécuté. Dans ce cas, les conditions de validation pour le commerce intersociétés et le rapprochement de factures d’Achats doivent être remplies pour que les factures fournisseur intersociétés puissent être validées.
 
-Les exemples de cette rubrique utilisent le paramétrage de commerce intersociétés suivant :
+Les exemples de cet article utilisent le paramétrage de commerce intersociétés suivant :
 -   Fabrikam Purchase est l’entité juridique acheteuse.
 -   Fabrikam Sales est l’entité juridique vendeuse.
 -   Le client 4020 existe dans Fabrikam Sales.

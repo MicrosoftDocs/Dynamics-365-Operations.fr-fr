@@ -1,6 +1,6 @@
 ---
 title: Résoudre les problèmes lors de la synchronisation initiale
-description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes susceptibles de survenir pendant la synchronisation initiale.
+description: Cet article fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes susceptibles de survenir pendant la synchronisation initiale.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892355"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Résoudre les problèmes lors de la synchronisation initiale
 
@@ -22,12 +22,12 @@ ms.locfileid: "8063056"
 
 
 
-Cette rubrique fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finances et Opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes susceptibles de survenir pendant la synchronisation initiale.
+Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes susceptibles de survenir pendant la synchronisation initiale.
 
 > [!IMPORTANT]
-> Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
+> Certains des problèmes abordés dans cet article peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Vérifier les erreurs de synchronisation initiales dans une application Finances et Opérations
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Vérifier les erreurs de synchronisation initiales dans une application de finances et d’opérations
 
 Après avoir activé les modèles de mappage, le statut des cartes doit être **En cours d’exécution**. Si le statut est défini sur **Pas en cours d’exécution**, des erreurs se sont produites lors de la synchronisation initiale. Pour afficher les erreurs, sélectionnez l’onglet **Détails de la synchronisation initiale** sur la page **Double écriture**.
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 Si cette erreur se produit régulièrement et si vous ne pouvez pas terminer la synchronisation initiale, procédez comme suit pour résoudre le problème.
 
-1. Connectez-vous à la machine virtuelle pour l’application Finances et Opérations.
+1. Connectez-vous à la machine virtuelle pour l’application de finances et d’opérations.
 2. Ouvrez Microsoft Management Console.
 3. Dans le volet **Services**, assurez-vous que le service de structure d’exportation et d’importation des données Microsoft Dynamics 365 est en cours d’exécution. Redémarrez-le s’il a été arrêté, car la synchronisation initiale l’exige.
 
@@ -75,7 +75,7 @@ Vous pouvez recevoir le message d’erreur suivant pendant la synchronisation in
 
 Pour régler le problème, procédez comme suit.
 
-1. Connectez-vous à l’application Finances et Opérations.
+1. Connectez-vous à l’application de finances et d’opérations.
 2. Sur la page **Applications Azure Active Directory**, supprimez le client **DtAppID**, puis ajoutez-le à nouveau.
 
 ![Client DtAppID dans la liste des applications Azure AD.](media/aad_applications.png)
@@ -102,7 +102,7 @@ Voici quelques exemples :
 
 Si des ligne de la table fournisseur ont des valeurs dans les colonnes **PrimaryContactPersonId** et **InvoiceVendorAccountNumber**, suivez les étapes de la section ci-dessous pour effectuer la synchronisation initiale.
 
-1. Dans l’application Finances et Opérations, supprimez les colonnes **PrimaryContactPersonId** et **InvoiceVendorAccountNumber** du mappage et enregistrez le mappage.
+1. Dans l’application de finances et d’opérations, supprimez les colonnes **PrimaryContactPersonId** et **InvoiceVendorAccountNumber** du mappage et enregistrez le mappage.
 
     1. Dans la page de mappage en double écriture pour **Fournisseurs V2 (fournisseurs\_msdyn)**, dans l’onglet **Mappages de tables** dans le filtre, sélectionnez **Finances et Opérations apps.Vendors V2**. Dans le filtre de droite, sélectionnez **Ventes.Fournisseur**.
     2. Recherchez **primarycontactperson** pour trouver la colonne source **PrimaryContactPersonId**.
@@ -149,7 +149,7 @@ Voici quelques exemples :
 
 Si des lignes de la table client ont des valeurs dans les colonnes **ContactPersonID** et **InvoiceAccount**, suivez les étapes de la section ci-dessous pour effectuer la synchronisation initiale. Vous pouvez utiliser cette approche pour toutes les tables prêtes à l’emploi telles que **Comptes** et **Contacts**.
 
-1. Dans l’application Finances et Opérations, supprimez les colonnes **ContactPersonID** et **InvoiceAccount** du mappage **Clients V3 (comptes)** et enregistrez le mappage.
+1. Dans l’application de finances et d’opérations, supprimez les colonnes **ContactPersonID** et **InvoiceAccount** du mappage **Clients V3 (comptes)** et enregistrez le mappage.
 
     1. Dans la page de mappage en double écriture pour **Clients V3 (comptes)**, dans l’onglet **Mappages de tables**, sous le filtre de gauche, sélectionnez **Finances et Opérations app.Customers V3**. ns le filtre de droite, sélectionnez **Dataverse.Compte**.
     2. Recherchez **contactperson** pour trouver la colonne source **ContactPersonID**.
@@ -182,16 +182,16 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
     > Il y a deux cartes qui portent le même nom. Veillez à sélectionner le mappage ayant la description suivante dans l’onglet **Détails** : **Modèle à double écriture pour la synchronisation entre FO.CDS Fournisseur Contacts V2 et CDS.Contacts. Nécessite un nouveau package \[Dynamics365SupplyChainExtended\].**
 
 5. Ajoutez les colonnes **InvoiceAccount** et **ContactPersonId** de nouveau dans le mappage **Clients V3 (Comptes)**, puis enregistrez le mappage. Les deux colonnes **InvoiceAccount** et **ContactPersonId** font maintenant partie à nouveau du mode de synchronisation en direct. À l’étape suivante, vous effectuerez la synchronisation initiale de ces colonnes.
-6. Exécutez à nouveau la synchronisation initiale pour le mappage **Clients V3 (Comptes)**. Le suivi des modifications étant désactivés, les données de **InvoiceAccount** et **ContactPersonId** seront synchronisées à partir de l’application Finances et Opérations avec Dataverse.
-7. Pour synchroniser les données pour **InvoiceAccount** et **ContactPersonId** depuis Dataverse vers l’application Finances et Opérations, vous utilisez un projet d’intégration de données.
+6. Exécutez à nouveau la synchronisation initiale pour le mappage **Clients V3 (Comptes)**. Le suivi des modifications étant désactivés, les données de **InvoiceAccount** et **ContactPersonId** seront synchronisées à partir de l’application de finances et d’opérations avec Dataverse.
+7. Pour synchroniser les données pour **InvoiceAccount** et **ContactPersonId** depuis Dataverse vers l’application de finances et d’opérations, vous utilisez un projet d’intégration de données.
 
-    1. Dans Power Apps, créez un projet d’intégration de données entre **Sales.Account** et les tables **Finances et Opérations apps.Customers V3**. La direction des données doit aller de Dataverse vers l’application Finances et Opérations. Comme **InvoiceAccount** est un nouvel attribut en double écriture, vous pourrez souhaiter ignorer la synchronisation initiale pour cet attribut. Pour plus d’informations, voir [Intégration des données dans Dataverse](/power-platform/admin/data-integrator).
+    1. Dans Power Apps, créez un projet d’intégration de données entre **Sales.Account** et les tables **Finances et Opérations apps.Customers V3**. La direction des données doit aller de Dataverse vers l’application de finances et d’opérations. Comme **InvoiceAccount** est un nouvel attribut en double écriture, vous pourrez souhaiter ignorer la synchronisation initiale pour cet attribut. Pour plus d’informations, voir [Intégration des données dans Dataverse](/power-platform/admin/data-integrator).
 
         L’illustration suivante montre un projet qui met à jour **CustomerAccount** et **ContactPersonId**.
 
         ![Projet d’intégration de données pour mettre à jour CustomerAccount et ContactPersonId.](media/cust_selfref6.png)
 
-    2. Ajoutez les critères de l’entreprise dans le filtre du côté Dataverse, car seules les lignes correspondant aux critères de filtrage seront mis à jour dans l’application Finances et Opérations. Pour ajouter un filtre, sélectionnez le bouton de filtre. Ensuite, dans la boîte de dialogue **Modifier la requête**, vous pouvez ajouter une requête de filtre telle que **\_msdyn\_company\_value eq ’\<guid\>’**.
+    2. Ajoutez les critères de l’entreprise dans le filtre du côté Dataverse, car seules les lignes correspondant aux critères de filtrage seront mis à jour dans l’application de finances et d’opérations. Pour ajouter un filtre, sélectionnez le bouton de filtre. Ensuite, dans la boîte de dialogue **Modifier la requête**, vous pouvez ajouter une requête de filtre telle que **\_msdyn\_company\_value eq ’\<guid\>’**.
 
         > [REMARQUE] Si le bouton de filtre n’est pas présent, créez un ticket de support pour demander à l’équipe d’intégration de données d’activer la fonction de filtrage sur votre locataire.
 
@@ -201,7 +201,7 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
 
     La synchronisation initiale des lignes est maintenant terminée.
 
-8. Dans l’application Finances et Opérations, réactivez le suivi des modifications pour la table **Clients V3**.
+8. Dans l’application de finances et d’opérations, réactivez le suivi des modifications pour la table **Clients V3**.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Échecs de synchronisation initiale sur les cartes avec plus de 10 champs de recherche
 

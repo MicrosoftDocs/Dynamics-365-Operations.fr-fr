@@ -1,6 +1,6 @@
 ---
 title: Automatiser les tests avec la gestion des états électroniques
-description: Cette rubrique explique comment utiliser la fonctionnalité de base de la structure de génération d’états électroniques (ER) pour automatiser le test de certaines fonctionnalités.
+description: Cet article explique comment utiliser la fonctionnalité de base de la structure de génération d’états électroniques (ER) pour automatiser le test de certaines fonctionnalités.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892767"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatiser les tests avec la gestion des états électroniques
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique explique comment utiliser la structure de génération d’états électroniques (ER) pour automatiser le test de certaines fonctionnalités. L’exemple de cette rubrique montre comment automatiser le test du traitement des paiements fournisseur.
+Cet article explique comment utiliser la structure de génération d’états électroniques (ER) pour automatiser le test de certaines fonctionnalités. L’exemple de cet article montre comment automatiser le test du traitement des paiements fournisseur.
 
 L’application utilise la structure ER pour générer les fichiers de paiement et les documents associés lors du traitement des paiements fournisseur. La structure ER se compose d’un modèle de données, de mises en correspondance de modèle et de composants de format qui prennent en charge le traitement des paiements pour différents types de paiements et la génération des documents dans différents formats. Ces composants peuvent être téléchargés à partir de Microsoft Dynamics Lifecycle Services (LCS) et importés dans l’instance.
 
@@ -54,15 +54,15 @@ Les utilisateurs expérimentés peuvent exécuter des tests d’acceptation par 
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les conditions requises suivantes :
+Avant de pouvoir réaliser les tâches de cet article, vous devez remplir les conditions requises suivantes :
 
 - Déployez une topologie qui prend en charge l’automatisation des tests. Vous devez avoir accès à l’instance de cette topologie pour le rôle **Administrateur système**. Cette topologie doit contenir les données de démonstration qui seront utilisées dans cet exemple. Pour plus d’informations, voir [Déployer et utiliser un environnement qui prend en charge l’élaboration continue et l’automatisation des tests](../perf-test/continuous-build-test-automation.md).
-- Pour exécuter automatiquement les tests d’acceptation par les utilisateurs et d’intégration, vous devez installer RSAT dans la topologie que vous utilisez et le configurer de la manière appropriée. Pour plus d’informations sur l’installation et la configuration de RSAT pour qu’il fonctionne avec les applications Finance and Operations et Azure DevOps, voir [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prêtez attention aux conditions préalables à l’utilisation de l’outil. L’illustration suivante montre un exemple des paramètres RSAT. Le rectangle bleu entoure les paramètres qui spécifient l’accès à Azure DevOps. Le rectangle vert entoure les paramètres qui spécifient l’accès à l’instance.
+- Pour exécuter automatiquement les tests d’acceptation par les utilisateurs et d’intégration, vous devez installer RSAT dans la topologie que vous utilisez et le configurer de la manière appropriée. Pour plus d’informations sur l’installation et la configuration de RSAT pour qu’il fonctionne avec les applications de finances et d’opérations et Azure DevOps, voir [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prêtez attention aux conditions préalables à l’utilisation de l’outil. L’illustration suivante montre un exemple des paramètres RSAT. Le rectangle bleu entoure les paramètres qui spécifient l’accès à Azure DevOps. Le rectangle vert entoure les paramètres qui spécifient l’accès à l’instance.
 
     ![Paramètres RSAT.](media/GER-Configure.png "Capture d’écran de la boîte de dialogue Paramètres RSAT")
 
 - Pour organiser des scénarios de test en suites afin de garantir l’ordre correct d’exécution, de manière à pouvoir collecter les journaux des exécutions de test aux fins d’autres génération d’états et d’examen, vous devez accéder à Azure DevOps à partir de la topologie déployée.
-- Pour réaliser l’exemple de cette rubrique, nous vous recommandons de télécharger [Utilisation de la génération d’états électroniques pour les tests RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Ce fichier zip contient les guides de tâche suivants :
+- Pour réaliser l’exemple de cet article, nous vous recommandons de télécharger [Utilisation de la génération d’états électroniques pour les tests RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Ce fichier zip contient les guides de tâche suivants :
 
     | Contenu                                           | Nom et emplacement du fichier |
     |---------------------------------------------------|------------------------|

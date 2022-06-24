@@ -1,6 +1,6 @@
 ---
 title: Directives de déploiement pour l’échantillon d’intégration d’imprimante fiscale l’Italie (héritées)
-description: Cette rubrique fournit des lignes directrices pour le déploiement de l’exemple d’intégration de l’imprimante fiscale pour l’Italie à partir du Kit de développement logiciel de vente au détail (SDK) Microsoft Dynamics 365 Commerce.
+description: Cet article fournit des lignes directrices pour le déploiement de l’exemple d’intégration de l’imprimante fiscale pour l’Italie à partir du Kit de développement logiciel de vente au détail (SDK) Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 617e97272fb4bd7cea0958958ae99648bb847b56
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848896"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Directives de déploiement pour l’échantillon d’intégration d’imprimante fiscale l’Italie (héritées)
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique fournit des instructions pour le déploiement de l’exemple d’intégration d’imprimante fiscale pour l’Italie à partir du Kit de développement logiciel (SDK) Microsoft Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration d’imprimante fiscale pour l’Italie](emea-ita-fpi-sample.md). 
+Cet article fournit des instructions pour le déploiement de l’exemple d’intégration d’imprimante fiscale pour l’Italie à partir du Kit de développement logiciel (SDK) Microsoft Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration d’imprimante fiscale pour l’Italie](emea-ita-fpi-sample.md). 
 
-L’échantillon d’intégration fiscale pour l’Italie fait partie du Kit de développement logiciel (SDK) Retail. Pour en savoir plus sur la manière d’installer et d’utiliser le SDK, voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT) et la station matérielle. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT et station matérielle. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cette rubrique. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Azure DevOps, où aucun fichier n’a encore été modifié.
+L’échantillon d’intégration fiscale pour l’Italie fait partie du Kit de développement logiciel (SDK) Retail. Pour en savoir plus sur la manière d’installer et d’utiliser le SDK, voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT) et la station matérielle. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT et station matérielle. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cet article. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Azure DevOps, où aucun fichier n’a encore été modifié.
 
 ## <a name="development-environment"></a>Environnement de développement
 
@@ -86,7 +86,7 @@ Les composants d’extension de station matérielle sont inclus dans le Kit de d
 
 Pour créer des packages déployables qui contiennent des composants Commerce et pour appliquer ces packages dans un environnement de production, procédez comme suit.
 
-1. Suivez les étapes décrites dans la section [Environnement de développement](#development-environment) plus haut dans cette rubrique.
+1. Suivez les étapes décrites dans la section [Environnement de développement](#development-environment) plus haut dans cet article.
 2. Apportez les modifications suivantes dans les fichiers de configuration du package sous le dossier **RetailSdk\\Assets** :
 
     1. Dans les fichiers de configuration **commerceruntime.ext.config** et **CommerceRuntime.MPOSOffline.Ext.config** ajoutez la ligne suivante à la section **composition**.

@@ -1,6 +1,6 @@
 ---
 title: Résolution générale des problèmes
-description: Cette rubrique fournit des informations générales sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse.
+description: Cet article fournit des informations générales sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853653"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -22,10 +22,10 @@ ms.locfileid: "8614093"
 
 
 
-Cette rubrique fournit des informations générales sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse.
+Cet article fournit des informations générales sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse.
 
 > [!IMPORTANT]
-> Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
+> Certains des problèmes abordés dans cet article peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Activer et afficher le journal de suivi des plug-ins dans Dataverse pour afficher les détails de l’erreur
 

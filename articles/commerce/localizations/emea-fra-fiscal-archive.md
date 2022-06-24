@@ -1,6 +1,6 @@
 ---
 title: Archives fiscales pour la France
-description: Cette rubrique fournit des informations sur les archives fiscales et l’outil de vérification de l’intégrité des archives fiscales qui sont disponibles dans la localisation de Microsoft Dynamics 365 Commerce pour la France.
+description: Cet article fournit des informations sur les archives fiscales et l’outil de vérification de l’intégrité des archives fiscales qui sont disponibles dans la localisation de Microsoft Dynamics 365 Commerce pour la France.
 author: EvgenyPopovMBS
 manager: annbe
 ms.date: 05/17/2022
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-2-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea09f1a3a167847b8ec23383fd7049cd22f48174
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 8aacb21788d85d256c64e64117af112a16085445
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885420"
 ---
 # <a name="fiscal-archive-for-france"></a>Archives fiscales pour la France
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les archives fiscales et l’outil de vérification de l’intégrité des archives fiscales qui sont disponibles dans la localisation de Microsoft Dynamics 365 Commerce pour la France. L’archive fiscale fait partie de la [fonctionnalité de caisse enregistreuse pour la France](./emea-fra-cash-registers.md).
+Cet article fournit des informations sur les archives fiscales et l’outil de vérification de l’intégrité des archives fiscales qui sont disponibles dans la localisation de Microsoft Dynamics 365 Commerce pour la France. L’archive fiscale fait partie de la [fonctionnalité de caisse enregistreuse pour la France](./emea-fra-cash-registers.md).
 
 Une archive fiscale est un fichier XML qui contient les données de vente d’un magasin et d’une période fiscale. Elle comprend les totaux de la période clôturée, et des données détaillées sur les transactions de vente et les événements.
 

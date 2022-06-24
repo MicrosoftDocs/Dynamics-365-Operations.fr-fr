@@ -1,6 +1,6 @@
 ---
 title: Paramétrer une option de menu d’appareil mobile pour enregistrer les articles reçus
-description: Cette rubrique consiste à réaliser le paramétrage d’une option de menu d’appareil mobile.
+description: Cet article consiste à réaliser le paramétrage d’une option de menu d’appareil mobile.
 author: Mirzaab
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b59a78ef98215bec7610fe17ed56e6fc287004c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882313"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Paramétrer une option de menu d’appareil mobile pour enregistrer les articles reçus
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique consiste à réaliser le paramétrage d’une option de menu d’appareil mobile. Cette option de menu est utilisée pour l’enregistrement de la réception des articles commandés via des commandes fournisseur. 
+Cet article consiste à réaliser le paramétrage d’une option de menu d’appareil mobile. Cette option de menu est utilisée pour l’enregistrement de la réception des articles commandés via des commandes fournisseur. 
 
 Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF. Cette procédure est destinée au gestionnaire d’entrepôts.
 

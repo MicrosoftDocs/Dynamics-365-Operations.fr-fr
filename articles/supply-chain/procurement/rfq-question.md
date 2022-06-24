@@ -14,12 +14,12 @@ ms.search.industry: public sector
 ms.author: gfedorova
 ms.search.validFrom: 2020-1-22
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 00801d406beb844bb693e8c148f721aec2a000a5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ad8a99547e3822fa6042283741f8fb8c76f495ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889504"
 ---
 # <a name="responding-to-vendor-questions-on-request-for-quotations"></a>Réponse aux questions des fournisseurs sur les appels d’offre
 
@@ -41,7 +41,7 @@ Les utilisateurs peuvent publier plusieurs fois les réponses aux questions des 
 1. Accédez à **Approvisionnements \> Paramétrage \> Paramètres d’approvisionnements**.
 1. Ouvrez l’onglet **Appel d’offres**.
 1. Définissez les options suivantes selon vos besoins :
-    - **Autoriser les questions des fournisseurs** : Active ou désactive les questions des fournisseurs pour les appels d’offre. Vous devez définir ceci sur *Oui* pour utiliser les fonctionnalités décrites dans cette rubrique.
+    - **Autoriser les questions des fournisseurs** : Active ou désactive les questions des fournisseurs pour les appels d’offre. Vous devez définir ceci sur *Oui* pour utiliser les fonctionnalités décrites dans cet article.
     - **Réponse directe par défaut** : Lorsque vous répondez à une question, vous pouvez choisir de répondre à tous les fournisseurs qui ont reçu l’appel d’offre ou de ne répondre qu’au fournisseur spécifique qui a soumis la question. Vous pouvez faire choisir cette option à chaque fois que vous répondez, mais ce paramètre contrôle la valeur par défaut. Si vous répondez généralement à tous les fournisseurs, définissez cette option sur *Non*. Si vous répondez généralement à un fournisseur, définissez cette option sur *Oui*.
 
 ## <a name="setting-up-for-vendor-questions"></a>Configuration pour les questions des fournisseurs

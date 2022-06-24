@@ -1,6 +1,6 @@
 ---
 title: Publier des lignes de journal et les documents d’Excel
-description: Cette rubrique explique comment entrer et publier des lignes de journaux d’opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez.
+description: Cet article explique comment entrer et publier des lignes de journaux d’opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af478f9dba8dc17791e15017be2720c2aa21a2f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ccb3e7a420f7f048ba93b6fadf5491e312e7ce33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872468"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Publier des lignes de journal et les documents d’Excel
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment entrer et publier des lignes de journaux d’opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez.
+Cet article explique comment entrer et publier des lignes de journaux d’opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez.
 
 Les utilisateurs peuvent entrer et publier des lignes pour les journaux financiers provenant de Microsoft Excel. Une fois qu’un utilisateur crée un journal, le bouton **Ouvrir les lignes dans Excel** indique les modèles disponibles. Les modèles sont conçus pour prendre en charge des scénarios spécifiques, mais toutes les combinaisons de type de compte ne sont pas prises en charge dans le journal. Le tableau suivant indique les modèles disponibles et les types de comptes pris en charge.
 

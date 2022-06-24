@@ -1,6 +1,6 @@
 ---
 title: Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
-description: Cette rubrique décrit comment configurer les valeurs des dimensions du produit comme échantillons dans Microsoft Dynamics 365 Commerce Headquarters.
+description: Cet article décrit comment configurer les valeurs des dimensions du produit comme échantillons dans Microsoft Dynamics 365 Commerce Headquarters.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892650"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment configurer les valeurs des dimensions du produit comme échantillons dans Microsoft Dynamics 365 Commerce Headquarters. Pour plus d’informations sur les dimensions du produit, consultez [Dimensions du produit](../../supply-chain/pim/product-dimensions.md).
+Cet article décrit comment configurer les valeurs des dimensions du produit comme échantillons dans Microsoft Dynamics 365 Commerce Headquarters. Pour plus d’informations sur les dimensions du produit, consultez [Dimensions du produit](../../supply-chain/pim/product-dimensions.md).
 
 Dynamics 365 Commerce prend en charge l’utilisation de dimensions de taille, de style et de couleur pour représenter les variantes du produit. Les dimensions du produit ont des noms conviviaux qui sont affichés sur les pages de détails du produit (PDP) pour permettre la sélection des variantes du produit. Parmi les exemples de noms conviviaux, on peut citer « Petit », « Moyen » et « Grand » pour les tailles et « Noir » et « Marron » pour les couleurs. Cependant, si un produit prend en charge de nombreuses variations, plusieurs sélections sont nécessaires pour afficher l’image de chaque variante du produit. Par conséquent, il peut être lent et fastidieux pour les clients de parcourir et de sélectionner les variantes du produit.
 

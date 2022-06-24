@@ -1,6 +1,6 @@
 ---
 title: Clôture de la comptabilité en fin de période
-description: Cette rubrique décrit les tâches qui sont généralement effectuées lors de l’exécution d’une clôture de période pour la comptabilité.
+description: Cet article décrit les tâches qui sont généralement effectuées lors de l’exécution d’une clôture de période pour la comptabilité.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878039"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Clôture de la comptabilité en fin de période
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les tâches qui sont généralement effectuées lors de l’exécution d’une clôture de période pour la comptabilité. 
+Cet article décrit les tâches qui sont généralement effectuées lors de l’exécution d’une clôture de période pour la comptabilité. 
 
 Dans la comptabilité, vous pouvez exécuter les procédures de clôture pour une période ou année. Les procédures de clôture préparent le système pour une nouvelle période. Pour préparer une nouvelle année, vous devez exécuter le processus de clôture de fin d’exercice. Chaque organisation a différents processus et étapes qu’elle effectue pour la fin d’une période. Voici quelques étapes facultatives pour les fins de période :
 

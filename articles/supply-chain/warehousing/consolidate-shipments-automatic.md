@@ -1,6 +1,6 @@
 ---
 title: Consolider les expéditions lancées dans l’entrepôt à l’aide du lancement automatique de commandes client
-description: Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans la même procédure périodique de lancement dans l’entrepôt automatisée.
+description: Cet article présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans la même procédure périodique de lancement dans l’entrepôt automatisée.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 74d4d9d8429095c3fac80db58f14ac2ef0776798
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 36eb5e788d0473e2fec2214e9aa7e245304347e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875070"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Consolider les expéditions lancées dans l’entrepôt à l’aide du lancement automatique de commandes client
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans la même procédure périodique de lancement dans l’entrepôt automatisée. Les commandes seront automatiquement regroupées en expéditions, en fonction de règles définies comme stratégies de consolidation.
+Cet article présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans la même procédure périodique de lancement dans l’entrepôt automatisée. Les commandes seront automatiquement regroupées en expéditions, en fonction de règles définies comme stratégies de consolidation.
 
 Au cours du scénario, vous allez créer des ensembles de commandes client et lancer chaque ensemble dans l’entrepôt. Vous passerez ensuite en revue les envois créés ou mis à jour pendant la consolidation des expéditions, en fonction des stratégies configurées.
 
 ## <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Le scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
+Le scénario de cet article fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configurer des stratégies de consolidation d’expédition et des filtres de produits
 

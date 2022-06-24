@@ -1,6 +1,6 @@
 ---
-title: Calculer la date de livraison pour une ligne, en fonction du délai
-description: Cette rubrique décrit comment calculer une date de livraison pour une ligne, en fonction du délai du fournisseur et du calendrier des jours ouvrables de votre organisation.
+title: Calculer la date de livraison d’une ligne, en fonction du délai de livraison
+description: Cet article décrit comment calculer une date de livraison pour une ligne, en fonction du délai du fournisseur et du calendrier des jours ouvrables de votre organisation.
 author: velofog
 ms.date: 09/03/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f78909f926b8b7f2996a1cd137c3039bca14d579e829df9646fd1150b076f328
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cfd110b69006b182e3f2a55581e9381a89b587e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893921"
 ---
-# <a name="calculate-the-delivery-date-for-a-line-based-on-the-lead-time"></a>Calculer la date de livraison pour une ligne, en fonction du délai
+# <a name="calculate-the-delivery-date-for-a-line-based-on-the-lead-time"></a>Calculer la date de livraison d’une ligne, en fonction du délai de livraison
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment calculer une date de livraison pour une ligne, en fonction du délai du fournisseur et du calendrier des jours ouvrables de votre organisation, tels qu’ils sont spécifiés dans l’onglet **Devis** de la page **Réponse à l’appel d’offre**. Les fournisseurs peuvent spécifier un délai pour chaque ligne. Ensuite, lorsqu’une commande fournisseur est confirmée, une date de livraison pour une ligne est calculée à partir de la date de confirmation, en fonction du délai et du calendrier des jours ouvrables. Si aucun délai n’est spécifié, la date de confirmation est utilisée comme date de livraison, sauf si la date de livraison est automatiquement calculée.
+Cet article décrit comment calculer une date de livraison pour une ligne, en fonction du délai du fournisseur et du calendrier des jours ouvrables de votre organisation, tels qu’ils sont spécifiés dans l’onglet **Devis** de la page **Réponse à l’appel d’offre**. Les fournisseurs peuvent spécifier un délai pour chaque ligne. Ensuite, lorsqu’une commande fournisseur est confirmée, une date de livraison pour une ligne est calculée à partir de la date de confirmation, en fonction du délai et du calendrier des jours ouvrables. Si aucun délai n’est spécifié, la date de confirmation est utilisée comme date de livraison, sauf si la date de livraison est automatiquement calculée.
 
 Les détails du délai pour une ligne sont disponibles sur les pages suivantes : **Réponse à l’appel d’offre**, **Demandes d’achat**, **Contrats d’achat** et **Commande fournisseur**.
 

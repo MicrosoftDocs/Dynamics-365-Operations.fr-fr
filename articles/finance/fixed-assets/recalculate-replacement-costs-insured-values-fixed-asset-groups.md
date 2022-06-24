@@ -1,6 +1,6 @@
 ---
-title: Nouveau calcul des coûts de remplacement et des valeurs assurées pour des groupes d’immobilisations
-description: Cette rubrique décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
+title: Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d’immobilisations
+description: Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e01e0241117dc69cafb67aeb3f1d10249fe143a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3b461438ca3fef36e69100379e84f4c0d402e53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853465"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Nouveau calcul des coûts de remplacement et des valeurs assurées pour des groupes d’immobilisations
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d’immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
+Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
 
 Il est possible que vous soyez régulièrement averti que le coût de remplacement ou d’assurance des immobilisations spécifiques a été modifié. Par exemple, votre gestionnaire peut vous indiquer que l’inflation a été de 3 pour cent l’année passée et que vous devez augmenter le coût de remplacement de toutes les immobilisations de 3 pour cent. 
 

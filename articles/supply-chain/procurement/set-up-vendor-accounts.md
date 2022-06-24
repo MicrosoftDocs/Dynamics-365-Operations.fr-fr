@@ -1,6 +1,6 @@
 ---
 title: Paramétrer les comptes fournisseur
-description: Cette rubrique décrit les types d’informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
+description: Cet article décrit les types d’informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875273"
 ---
 # <a name="set-up-vendor-accounts"></a>Paramétrer les comptes fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les types d’informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
+Cet article décrit les types d’informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
 
 Lorsque vous créez un compte fournisseur, vous devez entrer des informations concernant le fournisseur. Ces informations permettent d’entrer automatiquement les données dans des documents et de suivre les activités qui impliquent le fournisseur. Par exemple, vous pouvez configurer les informations suivantes pour un fournisseur :
 

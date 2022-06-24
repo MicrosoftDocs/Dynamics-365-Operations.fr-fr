@@ -1,6 +1,6 @@
 ---
 title: Jours négatifs et jours négatifs dynamiques
-description: Cette rubrique fournit des informations sur les jours négatifs et les jours négatifs dynamiques, et la manière de les mettre à profit pour votre activité.
+description: Cet article fournit des informations sur les jours négatifs et les jours négatifs dynamiques, et la manière de les mettre à profit pour votre activité.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846125"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Jours négatifs et jours négatifs dynamiques
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les jours négatifs et les jours négatifs dynamiques, et la manière de les mettre à profit pour votre activité. La *plage de gestion des jours négatifs* représente le nombre de jours que vous pouvez attendre avant de commander un nouveau réapprovisionnement, si vous avez un stock négatif.
+Cet article fournit des informations sur les jours négatifs et les jours négatifs dynamiques, et la manière de les mettre à profit pour votre activité. La *plage de gestion des jours négatifs* représente le nombre de jours que vous pouvez attendre avant de commander un nouveau réapprovisionnement, si vous avez un stock négatif.
 
-Les informations suivantes sont indiquées dans cette rubrique :
+Les informations suivantes sont indiquées dans cet article :
 
 - La manière de créer les ordres prévisionnels.
 - La corrélation entre la plage de gestion des jours négatifs et le délai d’exécution l’article
 - La procédure de calcul de la plage de gestion des jours négatifs dynamiques, et la prise en compte du délai d’exécution de l’article dans le calcul
 - La manière d’interpréter les [suggestions d’amélioration du délai d’exécution pour la planification des besoins matériels (planfication, MRP)](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx) qui sont associées aux jours négatifs
 
-Cette rubrique utilise trois scénarios hypothétiques pour vous aider à comprendre ces informations. La différence entre ces scénarios est le moment où vous recevez la demande : avant, pendant ou après le délai d’exécution de l’article.
+Cet article utilise trois scénarios hypothétiques pour vous aider à comprendre ces informations. La différence entre ces scénarios est le moment où vous recevez la demande : avant, pendant ou après le délai d’exécution de l’article.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>Scénario 1 : vous recevez la demande avant le délai d’exécution de l’article
 
@@ -93,7 +93,7 @@ La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Cas E : utiliser des jours négatifs supérieurs au délai d’exécution de l’article et la plage de gestion des jours négatifs dynamiques
 
-Si vous définissez les jours négatifs à un nombre supérieur au délai d’exécution de l’article, et si vous utilisez également la plage de gestion des jours négatifs dynamiques, celle-ci est 6 + 6 + 0 = 12 jours. Cette approche peut produire une plage de gestion très longue dans laquelle la MRP doit rechercher les résultats. Pour plus d’informations sur la manière dont le cas E est lié à une situation où vous attribuez aux jours négatifs une longue plage de gestion, voir la section [Conclusion](#conclusion) de cette rubrique.
+Si vous définissez les jours négatifs à un nombre supérieur au délai d’exécution de l’article, et si vous utilisez également la plage de gestion des jours négatifs dynamiques, celle-ci est 6 + 6 + 0 = 12 jours. Cette approche peut produire une plage de gestion très longue dans laquelle la MRP doit rechercher les résultats. Pour plus d’informations sur la manière dont le cas E est lié à une situation où vous attribuez aux jours négatifs une longue plage de gestion, voir la section [Conclusion](#conclusion) de cet article.
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>Scénario 2 : vous recevez la demande pendant le délai d’exécution de l’article
 
@@ -142,7 +142,7 @@ Si vous définissez les jours négatifs sur **0** (zéro) et utilisez seulement 
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Cas E : utiliser des jours négatifs supérieurs au délai d’exécution de l’article et la plage de gestion des jours négatifs dynamiques
 
-Si vous définissez les jours négatifs à un nombre supérieur au délai d’exécution de l’article, et si vous utilisez également la plage de gestion des jours négatifs dynamiques, celle-ci est 6 + 6 - 4 = 8 jours. Cette approche peut produire une plage de gestion très longue dans laquelle la MRP doit rechercher les résultats. Pour plus d’informations sur la manière dont le cas E est lié à une situation où vous attribuez aux jours négatifs une longue plage de gestion, voir la section [Conclusion](#conclusion) de cette rubrique.
+Si vous définissez les jours négatifs à un nombre supérieur au délai d’exécution de l’article, et si vous utilisez également la plage de gestion des jours négatifs dynamiques, celle-ci est 6 + 6 - 4 = 8 jours. Cette approche peut produire une plage de gestion très longue dans laquelle la MRP doit rechercher les résultats. Pour plus d’informations sur la manière dont le cas E est lié à une situation où vous attribuez aux jours négatifs une longue plage de gestion, voir la section [Conclusion](#conclusion) de cet article.
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>Scénario 3 : vous recevez la demande après le délai d’exécution de l’article
 
@@ -204,7 +204,7 @@ Ce cas est identique au cas E des scénarios 1 et 2. Il a fondamentalement le
 
 ## <a name="conclusion"></a>Conclusion
 
-Comme le montrent les trois scénarios de cette rubrique, il est conseillé de définir les jours négatifs à un nombre qui est supérieur au délai d’exécution des articles dans le groupe de couverture. Il est également judicieux d’utiliser uniquement des jours négatifs dynamiques, et de définir les jours négatifs au nombre de jours que vous souhaitez attendre avant de commander un nouveau réapprovisionnement si vous avez un stock négatif (autrement dit, le nombre de jours dont vous souhaitez repousser la demande). En outre, les articles du même groupe de couverture doivent avoir des délais d’exécution similaires.
+Comme le montrent les trois scénarios de cet article, il est conseillé de définir les jours négatifs à un nombre qui est supérieur au délai d’exécution des articles dans le groupe de couverture. Il est également judicieux d’utiliser uniquement des jours négatifs dynamiques, et de définir les jours négatifs au nombre de jours que vous souhaitez attendre avant de commander un nouveau réapprovisionnement si vous avez un stock négatif (autrement dit, le nombre de jours dont vous souhaitez repousser la demande). En outre, les articles du même groupe de couverture doivent avoir des délais d’exécution similaires.
 
 Si vous avez défini les jours négatifs sur **0** (zéro) et n’utilisez pas de jours négatifs dynamiques, la MRP crée toujours un nouvel ordre prévisionnel pour honorer la demande. Dans ce cas, il est important que vous utilisiez les messages d’action pour vous assurer de ne pas empiler de stock.
 

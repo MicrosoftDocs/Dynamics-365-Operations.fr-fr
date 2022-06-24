@@ -1,6 +1,6 @@
 ---
 title: Définir la dépendance des configurations ER sur d’autres composants
-description: Cette rubrique décrit comment concevoir une configuration de gestion des états électroniques et spécifier sa dépendance à d’autres composants logiciels.
+description: Cet article décrit comment concevoir une configuration de gestion des états électroniques et spécifier sa dépendance à d’autres composants logiciels.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883566"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Définir la dépendance des configurations ER sur d’autres composants
 
@@ -46,7 +46,7 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
 7. Sélectionnez Microsoft Dynamics 365 for Operations (1611).
 8. Dans le champ Version, tapez « [7.1.1541.3036,8) ».
     * [7.1.1541.3036,8)  
-    * Les dépendances entrées sont évaluées lorsque cette configuration est téléchargée à partir d’un référentiel ER. Cette version de configuration est téléchargée à partir du référentiel ER lorsque la version 1 de la configuration « Exemple de modèle de données » est déjà en place ou téléchargée à l’avance. Si elle est téléchargée à l’avance, elle doit être exécutée dans Finance and Operations, dont la version doit être 7.1.1541.3036 ou ultérieure, mais ne doit pas dépasser la version principale 8.   
+    * Les dépendances entrées sont évaluées lorsque cette configuration est téléchargée à partir d’un référentiel ER. Cette version de configuration est téléchargée à partir du référentiel ER lorsque la version 1 de la configuration « Exemple de modèle de données » est déjà en place ou téléchargée à l’avance. Si elle est téléchargée à l’avance, elle doit être exécutée dans l'application de finances et d’opérations, dont la version doit être 7.1.1541.3036 ou ultérieure, mais ne doit pas dépasser la version principale 8.   
 9. Cliquez sur Enregistrer.
 10. Fermez la page.
 11. Cliquez sur Modifier le statut.
@@ -136,7 +136,7 @@ Nous supprimerons les configurations créées du système et les téléchargeron
 25. Accédez à Administration d’organisation > États électroniques > Configurations.
 26. Dans l’arborescence, développez « Exemple de modèle de données ».
     * Notez que la configuration de mise en correspondance de modèle « Exemple de mise en correspondance » a été téléchargée avec la configuration de modèle de données sélectionnée. Les deux fichiers sont téléchargés ensemble, car la configuration « Exemple de mise en correspondance » a été définie comme implémentant le modèle de données sélectionné et qu’elle s’applique à l’application. La configuration « Exemple de mise en correspondance (autre) » n’a pas été téléchargée, car la condition pour la version d’application requise n’est pas remplie.   
-    * Si vous vous connectez à Finance and Operations, enregistrez le même fournisseur, accédez au même projet LCS et téléchargez la même configuration de modèle de données, la configuration « Exemple de mise en correspondance (autre) » sera téléchargée, tandis que la configuration « Exemple de mise en correspondance » sera ignorée.  
+    * Si vous vous connectez à l'application de finances et d’opérations, enregistrez le même fournisseur, accédez au même projet LCS et téléchargez la même configuration de modèle de données, la configuration « Exemple de mise en correspondance (autre) » sera téléchargée, tandis que la configuration « Exemple de mise en correspondance » sera ignorée.  
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

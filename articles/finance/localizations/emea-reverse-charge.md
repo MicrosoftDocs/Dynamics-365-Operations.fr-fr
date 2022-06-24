@@ -1,6 +1,6 @@
 ---
 title: Mécanisme de Taxe au preneur pour le régime TVA/TPS
-description: Cette rubrique explique comment paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour les pays européens, l’Arabie saoudite et Singapour.
+description: Cet article explique comment paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour les pays européens, l’Arabie saoudite et Singapour.
 author: epodkolz
 ms.date: 10/05/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 4176f8e853b7d7c2acc1044cab33371202f10c4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861260"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mécanisme de Taxe au preneur pour le régime TVA/TPS
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit une approche générique pour configurer la fonctionnalité de Taxe au preneur pour les pays/régions qui adoptent les régimes de TVA ou de TPS.
+Cet article décrit une approche générique pour configurer la fonctionnalité de Taxe au preneur pour les pays/régions qui adoptent les régimes de TVA ou de TPS.
                                                                                  
 La disponibilité de la fonctionnalité dans le pays/la région est gérée par les fonctionnalités suivantes dans l’espace de travail **Gestion des fonctionnalités**.
 
@@ -33,7 +33,7 @@ La disponibilité de la fonctionnalité dans le pays/la région est gérée par 
 | Taxe au preneur pour d’autres pays            | Bahreïn  </br>Koweït  </br>Oman  </br>Qatar                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Activer le mécanisme de la taxe au preneur pour le modèle TVA/TPS | Tous les autres pays/régions sauf :  </br>Brésil  </br>Inde  </br>Russie                                                                                                                                                                                                                                                                                                                                                                                         |
  
- Pour plus d’informations, consultez la section [Activer le mécanisme de Taxe au preneur pour la fonction de régime TVA/TPS](#enable-reverse-charge) plus loin dans cette rubrique.
+ Pour plus d’informations, consultez la section [Activer le mécanisme de Taxe au preneur pour la fonction de régime TVA/TPS](#enable-reverse-charge) plus loin dans cet article.
 
 La taxe au preneur est un schéma de taxe qui déplace la responsabilité comptable et la déclaration de TVA du vendeur vers l’acheteur des marchandises et/ou des services. Par conséquent, les destinataires des marchandises et/ou des services signalent la TVA d’aval (rôle de vendeur) et la TVA d’amont (rôle d’acheteur) sur leur déclaration de TVA.
 

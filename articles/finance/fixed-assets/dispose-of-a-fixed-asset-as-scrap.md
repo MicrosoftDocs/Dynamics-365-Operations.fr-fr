@@ -1,6 +1,6 @@
 ---
 title: Céder une immobilisation comme mise au rebut
-description: La rubrique décrit le processus afin d’éliminer les transactions pour une immobilisation qui a été cédée comme mise au rebut.
+description: L’article décrit le processus afin d’éliminer les transactions pour une immobilisation qui a été cédée comme mise au rebut.
 author: moaamer
 ms.date: 08/14/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: c30837da84bff67bbab80ff5116135e2533a867d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 6564314c70de1880e437c3c493689f12d96d91ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855431"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Céder une immobilisation comme mise au rebut
 
 [!include [banner](../includes/banner.md)]
 
-La rubrique décrit le processus afin d’éliminer les transactions pour une immobilisation qui a été cédée comme mise au rebut. Les types de transaction pouvant être éliminés incluent des transactions d’acquisition et d’amortissement cumulé d’un actif et toute autre transaction d’immobilisation. L’élimination de ces transactions a un impact sur les comptes de bilan, comme l’ajustement d’acquisition, l’ajustement d’amortissement, la réévaluation, la description, et les comptes de revalorisation et de dévalorisation.
+L’article décrit le processus afin d’éliminer les transactions pour une immobilisation qui a été cédée comme mise au rebut. Les types de transaction pouvant être éliminés incluent des transactions d’acquisition et d’amortissement cumulé d’un actif et toute autre transaction d’immobilisation. L’élimination de ces transactions a un impact sur les comptes de bilan, comme l’ajustement d’acquisition, l’ajustement d’amortissement, la réévaluation, la description, et les comptes de revalorisation et de dévalorisation.
 
 | Transaction                                         | Débit (Dr.) | Crédit (Cr.) |
 |-----------------------------------------------------|-------------|--------------|

@@ -1,6 +1,6 @@
 ---
 title: Liste des fonctions ER dans la catégorie logique
-description: Cette rubrique fournit des informations sur les fonctions logiques prises en charge dans les États électroniques (ER).
+description: Cet article fournit des informations sur les fonctions logiques prises en charge dans les États électroniques (ER).
 author: NickSelin
 ms.date: 02/11/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43cbecf80ff70dac058977932c3a0bb03662cd98a88c68407051bdc584609d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2361fa0df3fe60813e75c772134299ad948f3582
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888189"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Liste des fonctions ER dans la catégorie logique
 
 [!include [banner](../includes/banner.md)]
 
-Les fonctions logiques d’états électronique (ER) peuvent être utilisées pour utiliser des valeurs logiques afin d’effectuer plusieurs comparaisons en une seule expression ou de tester plusieurs conditions. Cette rubrique fournit un résumé de ces fonctions.
+Les fonctions logiques d’états électronique (ER) peuvent être utilisées pour utiliser des valeurs logiques afin d’effectuer plusieurs comparaisons en une seule expression ou de tester plusieurs conditions. Cet article fournit un résumé de ces fonctions.
 
 ## <a name="list-of-supported-functions"></a>Liste des fonctions prises en charge
 

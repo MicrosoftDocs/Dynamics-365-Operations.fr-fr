@@ -1,6 +1,6 @@
 ---
 title: Personnaliser les configurations ER pour générer un document électronique
-description: Cette rubrique explique comment personnaliser les configurations de gestion des états électroniques (ER) fournies par Microsoft qui permettent de générer un document électronique personnalisé.
+description: Cet article explique comment personnaliser les configurations de gestion des états électroniques (ER) fournies par Microsoft qui permettent de générer un document électronique personnalisé.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854696"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personnaliser les configurations ER pour générer un document électronique
 
@@ -30,11 +30,11 @@ ms.locfileid: "8661656"
 
 La [structure de gestion des états électroniques (ER)](general-electronic-reporting.md) vous permet de télécharger les [configurations](general-electronic-reporting.md#Configuration) ER que Microsoft fournit dans votre instance Microsoft Dynamics 365 Finance. De cette manière, les configurations fournies par Microsoft peuvent servir de solution ER utilisée pour générer des factures clients électroniques (factures électroniques). Vous pouvez utiliser cette solution ER pour configurer votre solution ER personnalisée afin d’accéder à vos champs de base de données personnalisés et de générer des factures électroniques conformes à vos exigences spécifiques, sans avoir à modifier le code source.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
-Pour l’exemple de cette rubrique, vous devez spécifier un code d’identification fiscale fédérale comme nouvel attribut personnalisé de chaque client que vous facturez électroniquement. Par conséquent, vous devez personnaliser la structure de la facture actuellement utilisée, en ajoutant un nouvel élément qui doit être rempli avec le code taxe dans chaque facture électronique qui est générée.
+Pour l’exemple de cet article, vous devez spécifier un code d’identification fiscale fédérale comme nouvel attribut personnalisé de chaque client que vous facturez électroniquement. Par conséquent, vous devez personnaliser la structure de la facture actuellement utilisée, en ajoutant un nouvel élément qui doit être rempli avec le code taxe dans chaque facture électronique qui est générée.
 
-Les procédures de cette rubrique expliquent comment un utilisateur doté du rôle Administrateur système, Développeur d’états électroniques ou Consultant fonctionnel ER peut effectuer les tâches suivantes dans votre instance de Finance :
+Les procédures de cet article expliquent comment un utilisateur doté du rôle Administrateur système, Développeur d’états électroniques ou Consultant fonctionnel ER peut effectuer les tâches suivantes dans votre instance de Finance :
 
 - [Configurer l’ensemble minimal de paramètres ER requis pour commencer à utiliser la structure ER](#ConfigureER).
 - [Importez les versions initiales des configurations ER standard fournies pour générer des factures électroniques](#ImportERConfigurations1).

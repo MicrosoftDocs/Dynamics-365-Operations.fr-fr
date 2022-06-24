@@ -1,6 +1,6 @@
 ---
 title: Correction d’une facture financière
-description: Cette rubrique explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
+description: Cet article explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 9fccd6dbb33efd1556c56a6d92ad191ecfd317fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878187"
 ---
 # <a name="correct-a-free-text-invoice"></a>Correction d’une facture financière
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
+Cet article explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
 
 Pour corriger une facture financière qui a déjà été validée, ouvrez la facture financière validée. Sur la page **Facture**, sélectionnez **Annuler**, puis **Corriger la facture**. Sélectionnez un code motif, ajoutez des commentaires, puis sélectionnez la date de la nouvelle facture corrigée. Vous pouvez modifier la facture corrigée, puis la valider. 
 
@@ -44,7 +44,7 @@ Vous pouvez identifier les factures d’annulation et les factures corrigées de
 -   L’en-tête de la facture financière affiche le statut **Facture d’annulation ’\[numéro de facture\]’** ou **Facture corrigée ’\[numéro de facture\]’**.
 
 > [!NOTE]
-> Cette fonctionnalité est uniquement disponible si la clé de configuration **Correction de la facture financière** est sélectionnée. Pour plus d’informations sur l’activation des clés de configuration, reportez-vous à la section Activer (ou désactiver) les clés de configuration dans la rubrique [Mode de maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
+> Cette fonctionnalité est uniquement disponible si la clé de configuration **Correction de la facture financière** est sélectionnée. Pour plus d’informations sur l’activation des clés de configuration, reportez-vous à la section Activer (ou désactiver) les clés de configuration dans l’article [Mode de maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
 
 
 

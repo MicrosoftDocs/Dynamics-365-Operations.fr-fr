@@ -1,6 +1,6 @@
 ---
 title: ER Utiliser les dimensions financières comme source de données (Partie 3 – Créer l’état)
-description: Cette rubrique décrit comment configurer un modèle de gestion des états électroniques pour utiliser les dimensions financières comme source de données pour les rapports de gestion des états électroniques. (Partie 3)
+description: Cet article décrit comment configurer un modèle de gestion des états électroniques pour utiliser les dimensions financières comme source de données pour les rapports de gestion des états électroniques. (Partie 3)
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 82ed6ae71a3da0350c74ee98e60161cfb7d0f658
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886760"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Utiliser les dimensions financières comme source de données (Partie 3 – Créer l’état)
 
@@ -96,7 +96,7 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 
 ## <a name="map-report-elements-to-data-sources"></a>Mettre en correspondance les éléments d’état avec les sources de données
 1. Cliquez sur l’onglet Mise en relation.
-2. Dans l'arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données ».
+2. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données ».
 3. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements ».
 4. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements\Transaction : Liste d’enregistrements ».
 5. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements\Transaction : Liste d’enregistrements\Données de dimensions : Liste d’enregistrements ».

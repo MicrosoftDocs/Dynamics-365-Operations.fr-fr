@@ -1,6 +1,6 @@
 ---
 title: Importation de N° document à l’aide de l’entité de journal des opérations diverses
-description: Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l’entité de Journal des opérations diverses.
+description: Cet article fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l’entité de Journal des opérations diverses.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867609"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importation de N° document à l’aide de l’entité de journal des opérations diverses
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065068"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l’entité de Journal des opérations diverses.
+Cet article fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l’entité de Journal des opérations diverses.
 
 Vous pouvez utiliser l’entité du journal des opérations diverses pour importer uniquement les N° document ayant pour type de compte de contrepartie **Comptabilité**, **Client**, **Fournisseur** ou **Banque**. Le document peut être entré comme une ligne, à l’aide à la fois des champs **Compte** et **Compte de contrepartie**, ou comme un N° de document multiligne, où seul le champ **Compte** est utilisé (et le champ **Compte de contrepartie** est laissé vierge sur chaque ligne). L’entité de journal des opérations diverses ne prend pas en charge tous les types de compte. Au lieu de cela, les autres entités existent pour les scénarios où les différentes combinaisons de types de comptes sont requises. Par exemple, pour importer une transaction de projet, utilisez l’entité de journal Dépenses de projet. Chaque entité est conçue pour prendre en charge des scénarios spécifiques. Cela signifie que des champs supplémentaires peuvent être disponibles dans les entités pour ces scénarios. Cependant, des champs supplémentaires peuvent ne pas être disponibles dans les entités pour différents scénarios.
 

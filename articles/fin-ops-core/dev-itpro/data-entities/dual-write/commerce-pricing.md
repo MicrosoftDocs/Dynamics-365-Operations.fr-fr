@@ -1,6 +1,6 @@
 ---
 title: Utilisez le moteur de tarification Dynamics 365 Commerce avec Dynamics 365 Sales
-description: Cette rubrique décrit comment utiliser le moteur de tarification dans Microsoft Dynamics 365 Commerce pour créer des devis de vente dans Dynamics 365 Sales.
+description: Cet article décrit comment utiliser le moteur de tarification dans Microsoft Dynamics 365 Commerce pour créer des devis de vente dans Dynamics 365 Sales.
 author: ShalabhjainMSFT
 ms.date: 11/19/2020
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: global
 ms.author: shajain
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 11a164ec15c8b7a69172a153b961011a8b324712
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881392"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Utilisez le moteur de tarification Dynamics 365 Commerce avec Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser le moteur de tarification dans Microsoft Dynamics 365 Commerce pour créer des devis de vente dans Dynamics 365 Sales.
+Cet article décrit comment utiliser le moteur de tarification dans Microsoft Dynamics 365 Commerce pour créer des devis de vente dans Dynamics 365 Sales.
 
 Le moteur de tarification Dynamics 365 Commerce prend en charge la plupart des scénarios de tarification d’entreprise à consommateur (B2C), tels que la tarification au niveau du magasin, la tarification basée sur l’affiliation et la fidélité, les remises mix-and-match, les remises sur quantité et les remises sur seuil. Le moteur de tarification utilise des règles complexes pour déterminer le meilleur prix pour une offre ou une commande donnée.
 

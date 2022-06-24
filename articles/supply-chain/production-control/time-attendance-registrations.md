@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de l’enregistrement de pointage
-description: 'Les collaborateurs qualifiés pour l’enregistrement des heures peuvent entrer plusieurs types d’enregistrements d’heures : par exemple, le pointage à l’arrivée, le pointage à la sortie, l’enregistrement des activités indirectes et l’enregistrement des absences. Cette rubrique décrit les enregistrements, leur calcul, leur approbation, et l’utilisation du workflow pour ajouter la structure et l’approbation automatisée au processus d’approbation des feuilles de temps.'
+description: 'Les collaborateurs qualifiés pour l’enregistrement des heures peuvent entrer plusieurs types d’enregistrements d’heures : par exemple, le pointage à l’arrivée, le pointage à la sortie, l’enregistrement des activités indirectes et l’enregistrement des absences. Cet article décrit les enregistrements, leur calcul, leur approbation, et l’utilisation du workflow pour ajouter la structure et l’approbation automatisée au processus d’approbation des feuilles de temps.'
 author: johanhoffmann
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af257427661cb9a0d976800b657d3eb4afe7feca
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f648663d81cd37a1df7794ee9d5ad6598fb16594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875215"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Vue d’ensemble de l’enregistrement de pointage
 
 [!include [banner](../includes/banner.md)]
 
-Les collaborateurs qualifiés pour l’enregistrement des heures peuvent entrer plusieurs types d’enregistrements d’heures : par exemple, le pointage à l’arrivée, le pointage à la sortie, l’enregistrement des activités indirectes et l’enregistrement des absences. Cette rubrique décrit les enregistrements, leur calcul, leur approbation, et l’utilisation du workflow pour ajouter la structure et l’approbation automatisée au processus d’approbation des feuilles de temps.
+Les collaborateurs qualifiés pour l’enregistrement des heures peuvent entrer plusieurs types d’enregistrements d’heures : par exemple, le pointage à l’arrivée, le pointage à la sortie, l’enregistrement des activités indirectes et l’enregistrement des absences. Cet article décrit les enregistrements, leur calcul, leur approbation, et l’utilisation du workflow pour ajouter la structure et l’approbation automatisée au processus d’approbation des feuilles de temps.
 
 ## <a name="registrations"></a>Enregistrements
 

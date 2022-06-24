@@ -1,6 +1,6 @@
 ---
 title: Importer des données d’une filiale à partir de fichiers
-description: Cette rubrique explique comment préparer les données de systèmes externes afin qu’elles puissent être importées dans Microsoft Dynamics 365 Finance.
+description: Cet article explique comment préparer les données de systèmes externes afin qu’elles puissent être importées dans Microsoft Dynamics 365 Finance.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846768"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importer des données d’une filiale à partir de fichiers
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment préparer les données de systèmes externes afin qu’elles puissent être importées dans Microsoft Dynamics 365 Finance. Vous devez utiliser la page **Consolider avec l’importation** (**Consolidations \> Consolider avec l’importation**) pour préparer le transfert de données d’une filiale à partir de systèmes externes.
+Cet article explique comment préparer les données de systèmes externes afin qu’elles puissent être importées dans Microsoft Dynamics 365 Finance. Vous devez utiliser la page **Consolider avec l’importation** (**Consolidations \> Consolider avec l’importation**) pour préparer le transfert de données d’une filiale à partir de systèmes externes.
 
 1. Créez l’entité juridique de succursale pour la consolidation. Pour plus d’informations sur la création d’entités juridiques, consultez [Créer une entité juridique](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Pour plus d’informations, voir [Préparer une entité juridique en vue de son utilisation dans le processus de consolidation](prepare-company-for-consolidation.md) et [Paramétrer une entité juridique filiale pour la consolidation](set-up-subsidiary-company-for-consolidation.md).
 

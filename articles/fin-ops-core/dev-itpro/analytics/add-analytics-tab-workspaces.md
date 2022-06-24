@@ -1,6 +1,6 @@
 ---
 title: Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded
-description: Cette rubrique explique comment inclure un état Power BI sous l’onglet Analyses d’un espace de travail.
+description: Cet article explique comment inclure un état Power BI sous l’onglet Analyses d’un espace de travail.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884547"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded
 
@@ -27,7 +27,7 @@ ms.locfileid: "6760150"
 > Cette fonction est prise en charge dans Finance and Operations (version 7.2 et ultérieure).
 
 ## <a name="introduction"></a>Introduction
-Cette rubrique explique comment inclure un état Microsoft Power BI sous l’onglet **Analyses** d’un espace de travail. Pour l’exemple qui est indiqué ici, nous étendrons l’espace de travail **Gestion des réservations** dans l’application Gestion de flotte pour inclure un espace de travail analytique sur un onglet **Analyses**.
+Cet article explique comment inclure un état Microsoft Power BI sous l’onglet **Analyses** d’un espace de travail. Pour l’exemple qui est indiqué ici, nous étendrons l’espace de travail **Gestion des réservations** dans l’application Gestion de flotte pour inclure un espace de travail analytique sur un onglet **Analyses**.
 
 ## <a name="prerequisites"></a>Conditions préalables
 + Accédez à un environnement de développeur qui exécute la plateforme mise à jour 8 ou ultérieure.

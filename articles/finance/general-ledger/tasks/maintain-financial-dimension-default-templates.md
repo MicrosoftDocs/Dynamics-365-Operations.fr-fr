@@ -1,6 +1,6 @@
 ---
 title: Tenir à jour les modèles par défaut de dimension financière
-description: Cette rubrique indique comment paramétrer les modèles de dimension financière par défaut.
+description: Cet article indique comment paramétrer les modèles de dimension financière par défaut.
 author: aprilolson
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08e795b44e552dbf049b460811a66741d9b6b96f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 846347f3a0b5257e88e06ad593ba49160de9458a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872410"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Tenir à jour les modèles par défaut de dimension financière
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique indique comment paramétrer les modèles de dimension financière par défaut. Les modèles peuvent être utilisés pour répartir rapidement les montants sur les documents source.
+Cet article indique comment paramétrer les modèles de dimension financière par défaut. Les modèles peuvent être utilisés pour répartir rapidement les montants sur les documents source.
 
 1. Dans le volet de navigation, accédez à **Modules > Comptabilité > Plan de comptes > Dimensions > Modèles par défaut des dimensions financières**.
 2. Sélectionnez **Nouveau**.

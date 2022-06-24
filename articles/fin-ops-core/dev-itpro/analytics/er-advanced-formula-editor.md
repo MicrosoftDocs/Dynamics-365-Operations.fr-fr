@@ -1,6 +1,6 @@
 ---
 title: Éditeur de formule avancé d’états électroniques
-description: Cette rubrique décrit comment l’éditeur de formule avancé peut être utilisé pour configurer des expressions dans les composants de format et de mappage de modèles ER (états électroniques).
+description: Cet article décrit comment l’éditeur de formule avancé peut être utilisé pour configurer des expressions dans les composants de format et de mappage de modèles ER (états électroniques).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f54ab248e38d87b0a9fb7a73143f56fa704a3f67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869097"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Éditeur de formule avancé d’états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-En plus de l’[éditeur de formule ](general-electronic-reporting-formula-designer.md) d’[états électroniques](general-electronic-reporting.md), vous pouvez utiliser l’éditeur avancé de formule d’états électroniques pour améliorer l’expérience de configuration des expressions d’états électroniques (ER). L’éditeur avancé est basé sur un navigateur et alimenté par l’[éditeur Monaco](https://microsoft.github.io/monaco-editor). Les fonctionnalités de l’éditeur avancé les plus couramment utilisées sont décrites dans cette rubrique :
+En plus de l’[éditeur de formule ](general-electronic-reporting-formula-designer.md) d’[états électroniques](general-electronic-reporting.md), vous pouvez utiliser l’éditeur avancé de formule d’états électroniques pour améliorer l’expérience de configuration des expressions d’états électroniques (ER). L’éditeur avancé est basé sur un navigateur et alimenté par l’[éditeur Monaco](https://microsoft.github.io/monaco-editor). Les fonctionnalités de l’éditeur avancé les plus couramment utilisées sont décrites dans cet article :
 
 - [Mise en forme automatique du code](#Autoformatting)
 - [IntelliSense](#IntelliSense)
@@ -39,7 +39,7 @@ En plus de l’[éditeur de formule ](general-electronic-reporting-formula-desig
 
 ## <a name=""></a><a name="ActivateAdvEditor">Activer l’éditeur de formule avancé</a>
 
-Procédez comme suit pour commencer à utiliser l’éditeur de formule avancé dans votre instance de Microsoft Dynamics 365 Finance.
+Procédez comme suit pour commencer à utiliser l’éditeur de formule avancé dans votre instance de Microsoft Dynamics 365 Finance.
 
 1.  Accédez à **Administration d’organisation** \> **États électroniques** \> **Configurations**.
 2.  Dans la page **Configurations**, dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
@@ -50,7 +50,7 @@ Procédez comme suit pour commencer à utiliser l’éditeur de formule avancé 
 > [!NOTE]
 > N’oubliez pas que ce paramètre est spécifique à l’utilisateur et à l’entreprise.
 
-À partir de Microsoft Dynamics 365 Finance version 10.0.19, vous pouvez contrôler quel éditeur de formule ER est proposé par défaut. Effectuez les étapes suivantes pour activer l’éditeur de formule avancé pour tous les utilisateurs et sociétés de l’instance Finance actuelle.
+À partir de Microsoft Dynamics 365 Finance version 10.0.19, vous pouvez contrôler quel éditeur de formule ER est proposé par défaut. Effectuez les étapes suivantes pour activer l’éditeur de formule avancé pour tous les utilisateurs et sociétés de l’instance Finance actuelle.
 
 1.  Ouvrez l’espace de travail **Gestion des fonctionnalités**.
 2.  Recherchez et sélectionnez la fonctionnalité **Définir l’éditeur de formule ER avancé comme éditeur par défaut pour tous les utilisateurs** dans la liste, puis sélectionnez **Activer maintenant**.

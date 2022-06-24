@@ -1,6 +1,6 @@
 ---
 title: Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
-description: Cette rubrique explique comment concevoir une solution de gestion des états électroniques (ER) pour imprimer un rapport personnalisé.
+description: Cet article explique comment concevoir une solution de gestion des états électroniques (ER) pour imprimer un rapport personnalisé.
 author: NickSelin
 ms.date: 08/10/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847486"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 

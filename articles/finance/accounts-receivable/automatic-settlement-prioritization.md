@@ -1,6 +1,6 @@
 ---
 title: Règlement automatique et attribution de priorités
-description: Cette rubrique décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
+description: Cet article décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855518"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Règlement automatique et attribution de priorités
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
+Cet article décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
 
 Vous avez deux options lorsque vous réglez des paiements avec des factures et d’autres transactions. Vous pouvez sélectionner manuellement les transactions à régler ou le système peut sélectionner les transactions automatiquement à l’aide de la fonctionnalité de règlement automatique. Vous pouvez également personnaliser la manière dont les règlements automatiques sont traités à l’aide de l’option **Classer le règlement par ordre de priorité**. Toutes ces options font partie des paramètres de règlement définis dans la page **Paramètres de la comptabilité client**. La manière dont les transactions sont réglées automatiquement peut varier, en fonction de la méthode que vous utilisez pour le règlement automatique. Les méthodes disponibles sont les suivantes :
 

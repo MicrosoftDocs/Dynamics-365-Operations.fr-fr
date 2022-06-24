@@ -1,6 +1,6 @@
 ---
 title: Générer des prévisions de base statistiques
-description: Cette rubrique fournit des informations sur les paramètres et les filtres utilisés dans le calcul de prévision de la demande.
+description: Cet article fournit des informations sur les paramètres et les filtres utilisés dans le calcul de prévision de la demande.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844936"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Générer des prévisions de base statistiques
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les paramètres et les filtres utilisés dans le calcul de prévision de la demande. 
+Cet article fournit des informations sur les paramètres et les filtres utilisés dans le calcul de prévision de la demande. 
 
 Lorsque vous créez une prévision de base, vous devez d’abord spécifier les paramètres et les filtres utilisés dans le calcul. Par exemple, vous pouvez créer une prévision de base qui estime la demande selon les données de transaction de l’année précédente pour une société spécifique, pour le mois à provenir, et pour un groupe d’articles sélectionné. 
 

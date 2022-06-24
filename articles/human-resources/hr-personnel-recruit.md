@@ -1,6 +1,6 @@
 ---
 title: Recruter des candidats à un poste
-description: Cette rubrique décrit comment recruter des candidats dans Dynamics 365 Human Resources.
+description: Cet article explique comment recruter des candidats dans Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879248"
 ---
 # <a name="recruit-job-candidates"></a>Recruter des candidats à un poste
 
@@ -41,17 +41,18 @@ Si vous n’utilisez pas d’application de recrutement distincte, vous pouvez �
 >
 > Vous pouvez également trouver des applications d’intégration de recrutement sur [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Activer les demandes de recrutement sur l'infrastructure fusionnée
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Activer les demandes de recrutement sur l’infrastructure fusionnée
 
-Si vous souhaitez soumettre des demandes de recrutement dans le recrutement RH, vous devez d'abord activer les fonctionnalités **Expérience utilisateur RH** et **Gestion du processus de recrutement**.
+Si vous souhaitez soumettre des demandes de recrutement dans le recrutement RH, vous devez d’abord activer les fonctionnalités **Expérience utilisateur RH** et **Gestion du processus de recrutement**.
 
 Une fois les fonctionnalités activées, sélectionnez la fonctionnalité en procédant comme suit : 
 1. Accédez à **Ressources humaines** > **Paramétrage** > **Paramètres des ressources humaines**.
-2. Dans l'onglet  **Recrutement** , définissez le champ **Recrutement désactivé** sur **Non**.
-3. Dans la liste déroulante **Expérience de recrutement** , sélectionnez **Recrutement RH**.   
+2. Dans l’onglet  **Recrutement** , définissez le champ **Recrutement activé** sur **Oui**.
+3. Dans la liste déroulante **Expérience de recrutement** , sélectionnez **Recrutement RH**.  
+4. Cliquez sur **Enregistrer**. 
 
 > [!Note] 
-> Une fois que **Recrutement RH** est sélectionné, **Projets de recrutement** (hérité) sera en lecture seule. 
+> Une fois que **Recrutement RH** est sélectionné, **Projets de recrutement** (hérité) ne sera pas disponible. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>Ajouter un emplacement de demande de recrutement

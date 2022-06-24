@@ -1,6 +1,6 @@
 ---
-title: Réévaluation des comptes en devises/bancaires
-description: Cette rubrique fournit une vue d’ensemble du processus de réévaluation des comptes en devises bancaires. Elle inclut des informations sur le paramétrage, l’exécution du processus, les calculs pour le processus, et la contrepassation des transactions de réévaluation.
+title: Réévaluation des comptes en devises bancaires
+description: Cet article fournit une vue d’ensemble du processus de réévaluation des comptes en devises bancaires. Elle inclut des informations sur le paramétrage, l’exécution du processus, les calculs pour le processus, et la contrepassation des transactions de réévaluation.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863099"
 ---
-# <a name="bank-foreign-currency-revaluation"></a>Réévaluation des comptes en devises/bancaires
+# <a name="bank-foreign-currency-revaluation"></a>Réévaluation des comptes en devises bancaires
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique fournit une vue d’ensemble du processus de réévaluation des comptes en devises bancaires. Elle explique comment paramétrer et exécuter le processus, et fournit des informations sur les calculs pour le processus. Elle décrit également comment contrepasser les transactions de réévaluation, si la contrepassation est requise.
+Cet article fournit une vue d’ensemble du processus de réévaluation des comptes en devises bancaires. Elle explique comment paramétrer et exécuter le processus, et fournit des informations sur les calculs pour le processus. Elle décrit également comment contrepasser les transactions de réévaluation, si la contrepassation est requise.
 
 Dans le cadre d’une fin de période, les conventions comptables nécessitent que les soldes de compte bancaire dans des devises étrangères soient réévalués à l’aide des différents types de taux de change (actuel, historique, moyen, et ainsi de suite.). La fonction de réévaluation des comptes en devises bancaires peut être utilisée pour réévaluer un ou plusieurs comptes bancaires. Cette fonction est également une fonction globale. Par conséquent, depuis une seule page, vous pouvez réévaluer les comptes bancaires sur toutes les entités juridiques auxquelles vous avez accès.
 

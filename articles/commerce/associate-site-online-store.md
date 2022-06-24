@@ -1,6 +1,6 @@
 ---
 title: Associer un site Dynamics 365 Commerce avec un canal en ligne
-description: Cette rubrique explique comment lier votre site Microsoft Dynamics 365 Commerce à un ou plusieurs magasins en ligne.
+description: Cet article explique comment lier votre site Microsoft Dynamics 365 Commerce à un ou plusieurs magasins en ligne.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878671"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Associer un site Dynamics 365 Commerce avec un canal en ligne
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment lier votre site Microsoft Dynamics 365 Commerce à un ou plusieurs magasins en ligne. 
+Cet article explique comment lier votre site Microsoft Dynamics 365 Commerce à un ou plusieurs magasins en ligne. 
 
 Après avoir mis en service votre environnement d’e-commerce Dynamics 365 Commerce via le portail Microsoft Dynamics Lifecycle Services (LCS), vous êtes prêt à créer votre premier site web d’e-commerce. Lors de la création initiale de site, vous associez le site à un magasin en ligne qui a été précédemment créé. Cette étape lie le site à un canal en ligne qui permet au site d’afficher la hiérarchie de navigation, les produits, les catégories, les prix, les options d’expédition, et tout ce que vous avez défini dans le magasin en ligne.
 

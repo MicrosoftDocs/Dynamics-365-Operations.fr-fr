@@ -1,6 +1,6 @@
 ---
 title: Résoudre les problèmes de configuration de Finance Insights
-description: Cette rubrique répertorie les problèmes qui peuvent survenir lorsque vous utilisez les fonctionnalités de Finance Insights. Il explique également comment résoudre ces problèmes.
+description: Cet article répertorie les problèmes qui peuvent survenir lorsque vous utilisez les fonctionnalités de Finance Insights. Il explique également comment résoudre ces problèmes.
 author: panolte
 ms.date: 02/11/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846913"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Résoudre les problèmes de configuration de Finance Insights
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les problèmes qui peuvent survenir lorsque vous utilisez les fonctionnalités de Finance Insights. Il explique également comment résoudre ces problèmes.
+Cet article répertorie les problèmes qui peuvent survenir lorsque vous utilisez les fonctionnalités de Finance Insights. Il explique également comment résoudre ces problèmes.
 
 ## <a name="symptom-why-cant-i-map-the-customer-payment-insights-data-integration-template-destination-column"></a>Symptôme : Pourquoi ne puis-je pas mapper la colonne de destination du modèle d’intégration de données de paiement avec les informations de paiement du client ?
 
@@ -121,4 +121,4 @@ La fonctionnalité **Proposition de budget** nécessite un minimum de trois ann�
 
 ### <a name="resolution"></a>Résolution
 
-L’environnement a atteint la limite de table maximale de Data Lake Services. Pour plus d’informations sur la limite, consultez la section **Activer les modifications de données en temps quasi réel** de la rubrique [Présentation de l’exportation vers Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).
+L’environnement a atteint la limite de table maximale de Data Lake Services. Pour plus d’informations sur la limite, consultez la section **Activer les modifications de données en temps quasi réel** de l’article [Présentation de l’exportation vers Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).

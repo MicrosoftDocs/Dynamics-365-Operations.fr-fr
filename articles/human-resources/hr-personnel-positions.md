@@ -1,6 +1,6 @@
 ---
 title: Postes
-description: Cette rubrique décrit les éléments conceptuels qu’un poste peut inclure. Elle fournit également des exemples qui montrent comment vous pouvez utiliser ces éléments dans votre organisation.
+description: Cet article décrit les éléments conceptuels qu’un poste peut inclure. Elle fournit également des exemples qui montrent comment vous pouvez utiliser ces éléments dans votre organisation.
 author: twheeloc
 ms.date: 06/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.custom: 269054
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb7582165f49c40d294acd3cf804fe89782936c4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c97a96e27188d12b9c5e626613e18d54d6632c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888728"
 ---
 # <a name="positions"></a>Postes
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689436"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les éléments conceptuels qu’un poste peut inclure. Elle fournit également des exemples qui montrent comment vous pouvez utiliser ces éléments dans votre organisation.
+Cet article décrit les éléments conceptuels qu’un poste peut inclure. Elle fournit également des exemples qui montrent comment vous pouvez utiliser ces éléments dans votre organisation.
 
 Avant de pouvoir créer un poste, une tâche doit être configurée. Certains détails de poste, tels que la région de rémunération, l’affectation de l’employé, la durée du poste et la relation hiérarchique, sont en vigueur à la date.
 

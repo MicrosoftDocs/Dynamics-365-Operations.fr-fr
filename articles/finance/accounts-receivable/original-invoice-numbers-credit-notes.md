@@ -1,6 +1,6 @@
 ---
 title: Références aux factures d’origine dans les notes de crédit
-description: Cette rubrique explique comment configurer et imprimer les numéros de facture d’origine dans les notes de crédit associées.
+description: Cet article explique comment configurer et imprimer les numéros de facture d’origine dans les notes de crédit associées.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861529"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Références aux factures d’origine dans les notes de crédit
 
 [!include [banner](../includes/banner.md)]
 
 
-Dans certains pays et certaines régions, il existe une obligation légale selon laquelle les notes de crédit imprimées incluent des références aux factures originales. Cette rubrique explique comment configurer et imprimer les numéros de facture d’origine dans les notes de crédit associées.
+Dans certains pays et certaines régions, il existe une obligation légale selon laquelle les notes de crédit imprimées incluent des références aux factures originales. Cet article explique comment configurer et imprimer les numéros de facture d’origine dans les notes de crédit associées.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
 - Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonction **Mise en page de la facturation de crédit aux états des facture client et de projet**. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Les formats imprimables des documents requis doivent être configurés dans Gestion de l’impression.
 
-La fonctionnalité décrite dans cette rubrique s’applique aux documents suivants :
+La fonctionnalité décrite dans cet article s’applique aux documents suivants :
 
 **Comptabilité client**
 

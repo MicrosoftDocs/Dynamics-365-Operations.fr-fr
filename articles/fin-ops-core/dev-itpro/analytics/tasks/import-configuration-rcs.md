@@ -1,6 +1,6 @@
 ---
 title: (Gestion des états électroniques) Importer les configurations depuis RCS
-description: Cette rubrique fournit des informations sur la manière dont un utilisateur peut importer une nouvelle version d’une configuration ER à partir de RCS.
+description: Cet article fournit des informations sur la manière dont un utilisateur peut importer une nouvelle version d’une configuration ER à partir de RCS.
 author: NickSelin
 ms.date: 07/03/2019
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5674c418baaac7817c27780e2f0137ce6e7137eb3f1665f768ad843cc5b3114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5317b1f7c8c0af6cd5c839e065c590c4474c84de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850141"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(Gestion des états électroniques) Importer les configurations depuis RCS
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut importer une nouvelle version d’une configuration pour la génération d’états électroniques (ER) à partir de Microsoft Regulatory Configuration Services (RCS). Dans cet exemple, vous sélectionnerez la version de la configuration ER qui a été configurée dans une instance RCS et l’importerez dans l’instance actuelle pour la société fictive Litware, Inc. Ces étapes peuvent être réalisées dans n’importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cette rubrique, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Pour effectuer ces étapes, vous devez également avoir accès à une instance RCS contenant au moins une configuration ER ayant le statut **Terminé** ou **Partagé**.
+Les étapes suivantes expliquent comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut importer une nouvelle version d’une configuration pour la génération d’états électroniques (ER) à partir de Microsoft Regulatory Configuration Services (RCS). Dans cet exemple, vous sélectionnerez la version de la configuration ER qui a été configurée dans une instance RCS et l’importerez dans l’instance actuelle pour la société fictive Litware, Inc. Ces étapes peuvent être réalisées dans n’importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cet article [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Pour effectuer ces étapes, vous devez également avoir accès à une instance RCS contenant au moins une configuration ER ayant le statut **Terminé** ou **Partagé**.
 
 1. Accédez à **Administration d’organisation** > **Espaces de travail** > **États électroniques**. 
-2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s’affiche pas, effectuez les étapes de la rubrique [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). 
+2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s’affiche pas, effectuez les étapes de l’article [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). 
 3. Si vous n’avez pas d’environnement RCS configuré dans votre société, cliquez sur le lien externe **Regulatory services – Configuration** et suivez les instructions pour mettre en service un environnement RCS. 
 4. Cliquez sur **Paramètres de la gestion des états électroniques**. 
 5. Cliquez sur l’onglet **RCS**. 

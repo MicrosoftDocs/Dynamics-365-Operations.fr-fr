@@ -1,6 +1,6 @@
 ---
 title: Paramétrage de la gestion du crédit
-description: Cette rubrique décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise.
+description: Cet article décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise.
 author: JodiChristiansen
 ms.date: 12/10/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 2ac5e0ba8c9279fc5f04a80d4444b11850e72d3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876352"
 ---
 # <a name="credit-management-parameters-setup"></a>Paramétrage de la gestion du crédit
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise. Pour utiliser les fonctions de gestion des crédits, configurez les paramètres sur la page **Paramètres de crédits et recouvrements** (**Crédits et recouvrements \> Paramétrer \> Paramètres de crédits et recouvrements**).
+Cet article décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise. Pour utiliser les fonctions de gestion des crédits, configurez les paramètres sur la page **Paramètres de crédits et recouvrements** (**Crédits et recouvrements \> Paramétrer \> Paramètres de crédits et recouvrements**).
 
 ## <a name="credit-parameters"></a>Paramètres de crédit
 

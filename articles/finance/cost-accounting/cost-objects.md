@@ -1,6 +1,6 @@
 ---
 title: Dimensions d’objets de coût
-description: Lorsque vous analysez les coûts, vous utilisez des dimensions d’élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d’objet de coût pour déterminer où vous devez affecter des coûts. Cette rubrique fournit des informations sur les dimensions d’objet de coût.
+description: Lorsque vous analysez les coûts, vous utilisez des dimensions d’élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d’objet de coût pour déterminer où vous devez affecter des coûts. Cet article fournit des informations sur les dimensions d’objet de coût.
 author: AndersGirke
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf9ebda3ab362112c9354595b7d554355b30f118
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3ee481b9dafe202e0a850a31b6ab036d52a20547
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874636"
 ---
 # <a name="cost-object-dimensions"></a>Dimensions d’objets de coût
 
 [!include [banner](../includes/banner.md)]
 
-Lorsque vous analysez les coûts, vous utilisez des dimensions d’élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d’objet de coût pour déterminer où vous devez affecter des coûts. Cette rubrique fournit des informations sur les dimensions d’objet de coût.
+Lorsque vous analysez les coûts, vous utilisez des dimensions d’élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d’objet de coût pour déterminer où vous devez affecter des coûts. Cet article fournit des informations sur les dimensions d’objet de coût.
 
 Un objet de coût peut être n’importe quel type d’objet que vous voulez estimer, affecter des coûts, ou mesurer directement. Les objets de coût comprennent les produits, les projets, les ressources, les services, les centres de coût, et les zones géographiques. La gestion utilise les objets de coût pour mesurer les coûts, mais aussi pour réaliser l’analyse de rentabilité.
 

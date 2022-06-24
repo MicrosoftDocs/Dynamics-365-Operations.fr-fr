@@ -1,6 +1,6 @@
 ---
 title: Proposition de résiliation de bail
-description: Cette rubrique explique comment proposer la résiliation d’un bail.
+description: Cet article explique comment proposer la résiliation d’un bail.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879651"
 ---
 # <a name="propose-a-lease-for-termination"></a>Proposer la résiliation d’un bail
 
 [!include [banner](../includes/banner.md)]
 
-Si un bail est résilié prématurément, le leasing d’actifs peut enregistrer une écriture de journal de résiliation pour radier le passif de location, l’actif de droit d’utilisation (ROU) et l’amortissement cumulé, et comptabiliser un gain ou une perte. Le processus de résiliation anticipée met fin à un bail et aux registres associés. Il ne met pas fin aux registres des baux individuels. Cette rubrique décrit la fonctionnalité qui vous permet de proposer un bail pour résiliation et de traiter l’écriture de journal de résiliation de bail.
+Si un bail est résilié prématurément, le leasing d’actifs peut enregistrer une écriture de journal de résiliation pour radier le passif de location, l’actif de droit d’utilisation (ROU) et l’amortissement cumulé, et comptabiliser un gain ou une perte. Le processus de résiliation anticipée met fin à un bail et aux registres associés. Il ne met pas fin aux registres des baux individuels. Cet article décrit la fonctionnalité qui vous permet de proposer un bail pour résiliation et de traiter l’écriture de journal de résiliation de bail.
 
 Si un bail n’est pas classé comme un contrat de location avec traitement de loyer différé et n’est pas associé à une immobilisation, le leasing d’actifs produit l’écriture de journal de résiliation suivante.
 
@@ -121,7 +121,7 @@ Les tableaux suivants présentent les valeurs définies sur les onglets **Géné
 
 ### <a name="steps-for-terminating-the-lease"></a>Étapes de résiliation du bail
 
-1. Après avoir créé le contrat de location comme décrit précédemment dans cette rubrique, accédez au registre de location et confirmez l’échéancier de paiement. Enregistrez ensuite l’écriture de journal de reconnaissance initiale. Le droit d’utilisation de l’actif initial est de 71 235,81 $ et le passif de location doit être 70 235,81 $. Pour cet exemple, le contrat de location a été classé comme contrat de location simple conformément à l’Article 842 sur la codification des normes comptables (ASC 842).
+1. Après avoir créé le contrat de location comme décrit précédemment dans cet article, accédez au registre de location et confirmez l’échéancier de paiement. Enregistrez ensuite l’écriture de journal de reconnaissance initiale. Le droit d’utilisation de l’actif initial est de 71 235,81 $ et le passif de location doit être 70 235,81 $. Pour cet exemple, le contrat de location a été classé comme contrat de location simple conformément à l’Article 842 sur la codification des normes comptables (ASC 842).
 2. Exécutez le processus de journal par lots trois fois pour simuler l’écoulement de trois ans pour les paiements de location, les frais d’intérêts et les dépenses d’amortissement.
 3. Une fois que vous avez terminé d’exécuter les trois traitements par lots, revenez au registre de location et ouvrez les tableaux de transactions de passif et d’actif pour afficher la valeur comptable actuelle du droit d’utilisation de l’actif et du passif locatif. Après trois ans, la valeur du passif devrait être d’environ -53 893,00 $, et la valeur de l’actif devrait être d’environ 54 593,00 $.
 

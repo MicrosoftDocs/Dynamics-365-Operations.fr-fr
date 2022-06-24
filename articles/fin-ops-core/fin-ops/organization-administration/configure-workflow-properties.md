@@ -1,6 +1,6 @@
 ---
 title: Configuration des propriétés de workflow
-description: Cette rubrique explique comment configurer les différentes propriétés d’un workflow.
+description: Cet article explique comment configurer les différentes propriétés d’un workflow.
 author: ChrisGarty
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ec604ed9614b80b3b24c670911b4ea480d6131e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876439"
 ---
 # <a name="configure-workflow-properties"></a>Configuration des propriétés de workflow
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069246"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Cette rubrique explique comment configurer les différentes propriétés d’un workflow.
+Cet article explique comment configurer les différentes propriétés d’un workflow.
 
 Pour configurer les propriétés d’un workflow, ouvrez ce dernier dans l’éditeur de workflow. Cliquez sur le canevas de l’éditeur de workflow, puis sur **Propriétés** pour ouvrir la page **Propriétés**. Vous pouvez ensuite suivre les procédures suivantes permettant de configurer les différentes propriétés du workflow.
 

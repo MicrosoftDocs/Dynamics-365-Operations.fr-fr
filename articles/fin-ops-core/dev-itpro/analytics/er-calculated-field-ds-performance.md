@@ -1,6 +1,6 @@
 ---
 title: Améliorer les performances des solutions ER en ajoutant des sources de données CHAMP CALCULÉ paramétrées
-description: Cette rubrique explique comment vous pouvez contribuer à améliorer les performances des solutions de génération d’états électroniques (ER) en ajoutant des sources de données CHAMP CALCULÉ paramétrées.
+description: Cet article explique comment vous pouvez contribuer à améliorer les performances des solutions de génération d’états électroniques (ER) en ajoutant des sources de données CHAMP CALCULÉ paramétrées.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850112"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Améliorer les performances des solutions ER en ajoutant des sources de données CHAMP CALCULÉ paramétrées
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment prendre des [suivis de performances](trace-execution-er-troubleshoot-perf.md) formats de [génération d’états électroniques (ER)](general-electronic-reporting.md) exécutés, puis utiliser les informations de ces suivis pour améliorer les performances en configurant un une source de données **Champ calculé** paramétré.
+Cet article explique comment prendre des [suivis de performances](trace-execution-er-troubleshoot-perf.md) formats de [génération d’états électroniques (ER)](general-electronic-reporting.md) exécutés, puis utiliser les informations de ces suivis pour améliorer les performances en configurant un une source de données **Champ calculé** paramétré.
 
 Dans le cadre du processus de concevoir des configurations de gestion des états électroniques (ER) pour générer des documents commerciaux, vous définissez la méthode utilisée pour extraire des données de l’application et pour les entrer dans la sortie générée. En concevant une source de données ER paramétrée du type **Champ calculé**, vous pouvez réduire le nombre d’appels à la base de données et réduire considérablement le temps et les coûts impliqués dans la collecte des détails de l’exécution du format ER.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-- Pour terminer les exemples de cette rubrique, vous devez avoir accès aux [rôles](../sysadmin/tasks/assign-users-security-roles.md) suivants :
+- Pour terminer les exemples de cet article, vous devez avoir accès aux [rôles](../sysadmin/tasks/assign-users-security-roles.md) suivants :
 
-    - Développeur de gestion des états électroniques
+    - Développeur d’états électroniques
     - Consultant fonctionnel de gestion des états électroniques
     - Administrateur système
 
 - La société doit être paramétrée sur **DEMF**.
-- Suivez les étapes de l’[Annexe 1](#appendix1) de cette rubrique pour télécharger les composants de l’exemple de solution Microsoft ER requis pour exécuter les exemples de cette rubrique.
-- Suivez les étapes de l’[Annexe 2](#appendix2) de cette rubrique pour configurer l’ensemble minimal de paramètres ER requis pour utiliser la structure ER afin d’améliorer les performances de l’exemple de solution Microsoft ER.
+- Suivez les étapes de l’[Annexe 1](#appendix1) de cet article pour télécharger les composants de l’exemple de solution Microsoft ER requis pour exécuter les exemples de cet article.
+- Suivez les étapes de l’[Annexe 2](#appendix2) de cet article pour configurer l’ensemble minimal de paramètres ER requis pour utiliser la structure ER afin d’améliorer les performances de l’exemple de solution Microsoft ER.
 
 ## <a name="import-the-sample-er-solution"></a>Importer l’exemple de solution ER
 
@@ -48,7 +48,7 @@ Imaginons que vous devez créer une solution ER pour générer un nouvel état q
 La première étape consiste à importer l’exemple de solution ER pour générer un état de transactions fournisseur.
 
 1. Connectez-vous à l’instance de Microsoft Dynamics 365 Finance mise en service dans votre société.
-2. Dans cette rubrique, vous créerez et modifierez les configurations pour la société fictive, **Litware, Inc**. Veillez à ce que ce fournisseur de configuration ait été ajouté à votre instance de Finance et soit marqué comme actif. Pour plus d’informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Dans cet article, vous créerez et modifierez les configurations pour la société fictive, **Litware, Inc**. Veillez à ce que ce fournisseur de configuration ait été ajouté à votre instance de Finance et soit marqué comme actif. Pour plus d’informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Dans l’espace de travail **Génération des états électronique**, sélectionnez la vignette **Configurations des états**.
 4. Dans la page **Configurations**, importez les configurations ER que vous avez téléchargées comme condition préalable dans Finance, dans l’ordre suivant : modèle de données, mise en correspondance modèles, format. Pour chaque configuration, procédez comme suit :
 
@@ -220,7 +220,7 @@ Suivez ces étapes pour utiliser la mise en cache et une source de données du t
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Exécuter la solution ER modifiée pour suivre l’exécution
 
-Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cette rubrique pour générer un nouveau suivi des performances.
+Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cet article pour générer un nouveau suivi des performances.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Utilisez le suivi des performances pour analyser les ajustements de la mise en correspondance de modèles 
 

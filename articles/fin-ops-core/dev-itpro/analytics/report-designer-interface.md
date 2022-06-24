@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 60b96f4d116d7f8f14226bd792c36c487cc0035763afdff6bbe22fe6e0104e77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2af539e9201456c46d1dd5fef5f31f9c4f225cdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844587"
 ---
 # <a name="report-designer-interface"></a>Interface du Concepteur de rapports
 
@@ -159,7 +159,7 @@ Le menu **Aide** est à la disposition de tous les utilisateurs et comprend les 
 
 | Commande | Description                                                              |
 |---------|--------------------------------------------------------------------------|
-| ?    | Permet d’ouvrir la page des rubriques d’aide pour la génération d’états financiers. |
+| Aide    | Permet d’ouvrir la page des articles d’aide pour la génération d’états financiers. |
 |         |                                                                          |
 
 ## <a name="report-designer-toolbar-buttons"></a>Boutons de la barre d’outils du Concepteur de rapports
@@ -169,7 +169,7 @@ Les tableaux suivants décrivent les boutons de la barre d’outils que vous pou
 
 La barre d’outils standard fournit l’accès rapide aux commandes des menus Fichier et Édition. Cette barre d’outils inclut les boutons suivants :
 
-| Bouton                                                                                       | Description  |
+| Bouton                                                                                       | Description |
 |----------------------------------------------------------------------------------------------|-------------|
 | [![Bouton Nouveau.](./media/rowc130389.png)](./media/rowc130389.png)                              | Permet de créer une définition de rapport, de ligne, de colonne ou d’organigramme d’entreprise vide. |
 | [![Bouton Ouvrir.](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Permet d’ouvrir une définition de ligne, de colonne, d’organigramme d’entreprise ou de rapport existante. |
@@ -194,7 +194,7 @@ La barre d’outils standard fournit l’accès rapide aux commandes des menus F
 
 La barre d’outils de mise en forme fournit un accès facile aux commandes de style. Cette barre d’outils inclut les boutons suivants :
 
-| Bouton                                                                                                       | Description                                              |
+| Bouton                                                                                                       | Description                                             |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [![Bouton Style de police.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Permet d’appliquer le style de police sélectionné au texte actif.      |
 | [![Bouton Police.](./media/fonttype.png)](./media/fonttype.png)                                                 | Permet d’appliquer la police sélectionnée au texte actif.              |
@@ -211,7 +211,7 @@ La barre d’outils de mise en forme fournit un accès facile aux commandes de s
 
 La barre d’outils du générateur d’états fournit l’accès rapide aux commandes de navigation dans le générateur d’états. Cette barre d’outils inclut les boutons suivants :
 
-| Bouton                                                                                              | Description  |
+| Bouton                                                                                              | Description |
 |-----------------------------------------------------------------------------------------------------|-------------|
 | [![Bouton Définition de rapport.](./media/reportc130389.png)](./media/reportc130389.png)                 | Permet d’afficher la définition de rapport répertoriée sur le menu **Fenêtre**. |
 | [![Bouton Définition de ligne.](./media/rowc130389.png)](./media/rowc130389.png)                          | Permet d’afficher la définition de ligne affectée à la définition de rapport active. |

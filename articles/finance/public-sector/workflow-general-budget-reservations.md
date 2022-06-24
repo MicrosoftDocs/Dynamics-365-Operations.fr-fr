@@ -1,6 +1,6 @@
 ---
 title: Paramétrer les réservations budgétaires générales et les envoyer à un workflow
-description: Cette rubrique explique la procédure de paramétrage des réservations budgétaires générales et comment les envoyer à un workflow pour le secteur public.
+description: Cet article explique la procédure de paramétrage des réservations budgétaires générales et comment les envoyer à un workflow pour le secteur public.
 author: AlexRenney
 ms.date: 04/24/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 933d75513b87a2d41d3450b15b06835c3f42bb60
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 552109e086401bff3afc7c7fa6983ffbce86dd26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849666"
 ---
 # <a name="set-up-general-budget-reservations-and-submit-them-to-a-workflow"></a>Paramétrer les réservations budgétaires générales et les envoyer à un workflow
 
@@ -27,7 +27,7 @@ ms.locfileid: "8722197"
 
 Lorsqu’une réservation budgétaire générale est paramétrée pour utiliser un workflow, le document doit d’abord être envoyé et approuvé via le système de workflow. Une fois le workflow terminé et la réservation approuvée, vous pouvez toujours modifier le document. Même si l’option de validation du document est disponible, aucun autre contrôle ni champ de la page n’est disponible sauf si vous sélectionnez l’option permettant de modifier le document. Notez que si vous modifiez une réservation approuvée, son statut de workflow est réinitialisé sur **Brouillon**, et l’option de valider le document n’est plus disponible. Toutefois, les autres contrôles et champs sur la page sont disponibles. Après avoir modifié une réservation, vous devez la renvoyer au système de workflow pour approbation.
 
-L’illustration suivante indique comment paramétrer un workflow pour des réservations budgétaires générales. Chaque étape numérotée correspond à une section de cette rubrique.
+L’illustration suivante indique comment paramétrer un workflow pour des réservations budgétaires générales. Chaque étape numérotée correspond à une section de cet article.
 
 ![Paramétrage d’un workflow de réservation budgétaire générale.](media/gbr-workflow-process.jpg "Paramétrage d’un workflow de réservation budgétaire générale")
 

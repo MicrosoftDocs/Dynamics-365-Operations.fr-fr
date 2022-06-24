@@ -1,6 +1,6 @@
 ---
 title: Synchroniser le paramétrage des taxes entre le service de calcul de la taxe et Dynamics 365 Finance
-description: Cette rubrique explique comment synchroniser les données principales de configuration des taxes du service de calcul des taxes avec Microsoft Dynamics 365 Finance.
+description: Cet article explique comment synchroniser les données principales de configuration des taxes du service de calcul des taxes avec Microsoft Dynamics 365 Finance.
 author: wangchen
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a9c11a6f5946d56b9e58a02c37f18adec155661
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b017a19834998e1c493b0a38c1b50accd8c7e630
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853155"
 ---
 # <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Synchroniser le paramétrage des taxes entre le service de calcul de la taxe et Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment synchroniser les données principales de configuration des taxes du service de calcul des taxes avec Microsoft Dynamics 365 Finance.
+Cet article explique comment synchroniser les données principales de configuration des taxes du service de calcul des taxes avec Microsoft Dynamics 365 Finance.
 
 Après avoir accompli les étapes de configuration requises dans [Mise en route du calcul de la taxe](global-get-started-with-tax-calculation-service.md), les données de configuration des taxes suivantes sont automatiquement synchronisées entre le service de calcul des taxes et Finance.
 

@@ -1,6 +1,6 @@
 ---
 title: Hiérarchies financières dérivées dans le secteur public
-description: Cette rubrique décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public.
+description: Cet article décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc00b2147bb606b6f2efd22cb0b59fe3a2669d54
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 95660051cadc4a4dedc13d1380b55209fd8d6a25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891455"
 ---
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a>Hiérarchies financières dérivées dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public. 
+Cet article décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public. 
 
 Pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental, les organisations du secteur public peuvent utiliser des hiérarchies financières dérivées afin de recueillir et d’analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. 
 

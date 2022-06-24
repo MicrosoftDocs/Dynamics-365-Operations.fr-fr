@@ -1,6 +1,6 @@
 ---
 title: Comptes pour transactions automatiques
-description: Cette rubrique explique comment les comptes pour les transactions automatiques sont utilisés pour la validation via Microsoft Dynamics 365, et fournit des exemples de comptes importants pour les transactions automatiques.
+description: Cet article explique comment les comptes pour les transactions automatiques sont utilisés pour la validation via Microsoft Dynamics 365, et fournit des exemples de comptes importants pour les transactions automatiques.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 275c74d673d1ba2468e23c5fa443c9272d13a184
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 74e72840fea1f5d89c908b00e2cf572bce6befbe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880757"
 ---
 # <a name="accounts-for-automatic-transactions"></a>Comptes pour transactions automatiques
 

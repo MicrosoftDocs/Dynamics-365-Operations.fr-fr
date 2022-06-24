@@ -1,6 +1,6 @@
 ---
 title: Migrer les données de prospect en disponibilités de l’intégrateur de données vers la double écriture
-description: Cette rubrique décrit comment migrer les données de prospect en disponibilités de l’intégrateur de données vers la double écriture.
+description: Cet article décrit comment migrer les données de prospect en disponibilités de l’intégrateur de données vers la double écriture.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894264"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrer les données de prospect en disponibilités de l’intégrateur de données vers la double écriture
 
 [!include [banner](../../includes/banner.md)]
 
-La solution Prospect en disponibilités disponible pour l’intégrateur de données n’est pas compatible avec la double écriture. La raison n’est autre que l’index msdynce_AccountNumber sur la table de compte fournie dans le cadre de la solution Prospect en disponibilités. Si cet index existe, vous ne pouvez pas créer le même numéro de compte client dans deux entités juridiques différentes. Vous pouvez soit choisir de repartir à neuf avec la double écriture en migrant les données Prospect en disponibilités de l’Intégrateur de données vers la double écriture, soit installer la dernière version « dormante » de la solution Prospect en disponibilités. Cette rubrique couvre les deux approches.
+La solution Prospect en disponibilités disponible pour l’intégrateur de données n’est pas compatible avec la double écriture. La raison n’est autre que l’index msdynce_AccountNumber sur la table de compte fournie dans le cadre de la solution Prospect en disponibilités. Si cet index existe, vous ne pouvez pas créer le même numéro de compte client dans deux entités juridiques différentes. Vous pouvez soit choisir de repartir à neuf avec la double écriture en migrant les données Prospect en disponibilités de l’Intégrateur de données vers la double écriture, soit installer la dernière version « dormante » de la solution Prospect en disponibilités. Cet article couvre les deux approches.
 
 ## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Installer la dernière version « dormante » de la solution Prospect en disponibilités de l’intégrateur de données
 
@@ -50,7 +50,7 @@ Pour migrer vos données de prospect en disponibilités de l’intégrateur de d
 5. Créez une connexion de double écriture entre l’application Finances et Opérations et l’application Customer Engagement pour une ou plusieurs entités juridiques.
 6. Activez les mappages de table de double écriture et exécutez la synchronisation initiale pour les données de référence requises. (Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).) Les exemples de données requises comprennent les groupes de clients, les conditions de paiement et les échéanciers de paiement. N’activez pas les mappages de double écriture pour les tables qui nécessitent une initialisation, telles que les tables de compte, devis, ligne de devis, commande et ligne de commande.
 7. Dans l’application Customer Engagement, accédez à **Paramètres avancés \> Paramètres système \> Gestion des données \> Règles de détection des doublons** et désactivez toutes les règles.
-8. Initialisez les tables répertoriées à l’étape 2. Pour obtenir des instructions, consultez les autres sections de cette rubrique.
+8. Initialisez les tables répertoriées à l’étape 2. Pour obtenir des instructions, consultez les autres sections de cet article.
 9. Ouvrez l’application Finances et Opérations et activez les mappages de table, telles que les mappages de table de compte, devis, ligne de devis, commande et ligne de commande. Exécutez ensuite la synchronisation initiale. (Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).) Ce processus synchronisera les informations supplémentaires de l’application Finances et Opérations, telles que le statut de traitement, les adresses d’expédition et de facturation, les sites et les entrepôts.
 
 ## <a name="account-table"></a>Table Compte
@@ -98,7 +98,7 @@ Comme les données de la table **Produits** sont conçues pour circuler dans un 
 
 ## <a name="quote-and-quote-product-tables"></a>Table Devis et Produit de devis
 
-Pour la table **Devis**, suivez les instructions de la section [Table Commande](#order-table) plus haut dans cette rubrique. Pour la table **Produit de devis**, suivez les instructions de la section [Table Produits de commande](#order-products-table) plus haut dans cette rubrique.
+Pour la table **Devis**, suivez les instructions de la section [Table Commande](#order-table) plus haut dans cet article. Pour la table **Produit de devis**, suivez les instructions de la section [Table Produits de commande](#order-products-table) plus haut dans cette rubrique.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

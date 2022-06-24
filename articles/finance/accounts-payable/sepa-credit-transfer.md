@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des virements SEPA
-description: Cette rubrique fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs.
+description: Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871447"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Vue d’ensemble des virements SEPA
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d’une société ou d’une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement.
+Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d’une société ou d’une personne à une société ou une autre personne. Cet article explique également comment paramétrer et transmettre un fichier de paiement par virement.
 
 ## <a name="what-is-a-credit-transfer-message"></a>Qu’est-ce qu’un message de virement ?
 Le message de virement est une demande qu’une partie initiatrice (votre société) envoie pour déplacer des fonds depuis son propre compte vers celui d’un créditeur. Il existe de nombreuses implémentations des messages de virement, spécifiques à chaque banque et à chaque pays ou région. Certains d’entre elles sont utilisés au sein d’une pays ou d’une région, et d’autres sont en passe de devenir la norme. Une norme bien établie au niveau mondial est la norme ISO 20022 et ses messages d’initiation, tels que le Virement. L’illustration suivante présente les relations et la couverture des messages de virement sélectionnés. 
@@ -50,10 +50,10 @@ L’EPC, qui est constitué de banques européennes, développe les infrastructu
 Le virement SEPA est un paiement d’une société ou d’une personne à une société ou une autre personne. Les paiements doivent être en euro, et doivent inclure le numéro de compte international (IBAN) et le code d’identificateur de la banque (BIC, Bank Identifier Code) pour les deux parties. (Le code BIC est également appelé SWIFT Society for Worldwide Interbank Financial Telecommunication \[SWIFT\].) En outre, les coûts des transactions doivent être partagés entre les deux parties. Les virements bancaires qui surviennent entre les pièces doivent utiliser des fichiers XML conformes aux normes de traitement des paiements ISO 20022 et au format XML, tels qu’ils sont spécifiés par le CEP.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Comment est implémenté un virement ?
-Le format de virement pour les pays européens est implémenté à l'aide de la fonctionnalité Génération d'états électroniques (ER) et de modes de paiement dans Microsoft Dynamics 365 Finance. Quelques formats de virement utilisés dans d’autres régions utilisent toujours l’ancienne structure de paiement. Parmi de nombreux autres formats, il existe douze formats de virement ISO 20022 disponibles. Ces formats d’exportation sont conformes à la norme SEPA ISO 20022 XML. Ils sont utilisés pour générer des transferts de paiement non en euros pour les pays ou régions où ils sont utilisés et des paiements en euros comme spécifié dans la version 8.2 du Règlement des schémas de virement SEPA publié par l’EPC. Avant de pouvoir implémenter les virements, vous devez contacter votre banque pour obtenir le logiciel requis afin de télécharger les fichiers d’opérations bancaires électroniques. Vous l’utiliserez pour transférer les fichiers XML contenant les ordres de paiement à votre banque.
+Le format de virement pour les pays européens est implémenté à l’aide de la fonctionnalité Génération d’états électroniques (ER) et de modes de paiement dans Microsoft Dynamics 365 Finance. Quelques formats de virement utilisés dans d’autres régions utilisent toujours l’ancienne structure de paiement. Parmi de nombreux autres formats, il existe douze formats de virement ISO 20022 disponibles. Ces formats d’exportation sont conformes à la norme SEPA ISO 20022 XML. Ils sont utilisés pour générer des transferts de paiement non en euros pour les pays ou régions où ils sont utilisés et des paiements en euros comme spécifié dans la version 8.2 du Règlement des schémas de virement SEPA publié par l’EPC. Avant de pouvoir implémenter les virements, vous devez contacter votre banque pour obtenir le logiciel requis afin de télécharger les fichiers d’opérations bancaires électroniques. Vous l’utiliserez pour transférer les fichiers XML contenant les ordres de paiement à votre banque.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Quels formats de transfert de crédit sont actuellement pris en charge ?
-Vous devez toujours aller dans la bibliothèque d’actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d’actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
+Vous devez toujours aller dans la bibliothèque d’actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d’actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers l’article qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
 
 ## <a name="what-do-i-have-to-set-up"></a>Que dois-je paramétrer ?
 -   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d’instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

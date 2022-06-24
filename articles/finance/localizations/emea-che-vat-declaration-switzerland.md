@@ -1,6 +1,6 @@
 ---
 title: Déclaration TVA (Suisse)
-description: Cette rubrique fournit des informations sur la configuration et la génération d’une déclaration de TVA pour la Suisse.
+description: Cet article fournit des informations sur la configuration et la génération d’une déclaration de TVA pour la Suisse.
 author: anasyash
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e0734ee6f20949c788cc33761bf45e7effb412ff
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 4d2cd47fe59aad9c54dd5d519defa604037b566f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865510"
 ---
 # <a name="vat-declaration-switzerland"></a>Déclaration TVA (Suisse)
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
-Cette rubrique décrit comment configurer et générer une déclaration de taxe sur la valeur ajoutée (TVA) pour la Suisse au format XML officiel (norme eCH-0217 eMWST). Elle décrit également comment prévisualiser la déclaration de TVA dans Microsoft Excel.
+Cet article décrit comment configurer et générer une déclaration de taxe sur la valeur ajoutée (TVA) pour la Suisse au format XML officiel (norme eCH-0217 eMWST). Elle décrit également comment prévisualiser la déclaration de TVA dans Microsoft Excel.
 
 Pour générer automatiquement l’état, vous devez d’abord créer suffisamment de codes de taxe afin de conserver une comptabilité TVA distincte pour chaque case de la déclaration de TVA. De plus, dans les paramètres spécifiques à l’application du format de gestion des états électroniques (ER) pour la déclaration de TVA, vous devez associer des codes de taxe avec le résultat des recherches des cases de déclaration de TVA.
 
-Pour la Suisse, vous devez configurer trois recherches : **Recherche de chiffre d’affaires**, **Recherche de champ d’état** et **Autre recherche de flux de trésorerie**. Pour plus d’informations sur la configuration des paramètres spécifiques à l’application, consultez la section [Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA](#set-up-application-specific-parameters-for-vat-declaration-fields) plus loin dans cette rubrique.
+Pour la Suisse, vous devez configurer trois recherches : **Recherche de chiffre d’affaires**, **Recherche de champ d’état** et **Autre recherche de flux de trésorerie**. Pour plus d’informations sur la configuration des paramètres spécifiques à l’application, consultez la section [Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA](#set-up-application-specific-parameters-for-vat-declaration-fields) plus loin dans cet article.
 
 Dans les tableaux suivants, la colonne « Résultat de la recherche » affiche le résultat de la recherche préconfiguré pour une ligne de déclaration de TVA spécifique dans le format de déclaration de TVA. Utilisez ces informations pour associer correctement les codes de taxe avec le résultat de la recherche, puis avec la ligne de déclaration de TVA.
 
@@ -154,8 +154,8 @@ Suivez ces étapes pour définir quels codes de taxe génèrent quelles cases da
 
    | Champ                  | Description                                                                                                                                                                                                                                                                                                         |
    |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | Résultat de la recherche          | Sélectionnez la valeur du chiffre d’affaires. Pour plus d’informations sur les valeurs de chiffre d’affaires et leur affectation aux lignes de déclaration de TVA, consultez la section [Vue d’ensemble de la déclaration de TVA](#vat-declaration-overview) plus haut dans cette rubrique.                                                                                         |
-   | Code taxe               | Permet de sélectionner le code de taxe à associer à l’opération. Les transactions de taxe validées qui utilisent le code de taxe sélectionné seront collectées dans la case de déclaration appropriée. Nous vous recommandons de séparer les codes de taxe de telle sorte qu’un code de taxe ne génère des montants que dans une seule case de déclaration.   |
+   | Résultat de la recherche          | Sélectionnez la valeur du chiffre d’affaires. Pour plus d’informations sur les valeurs de chiffre d’affaires et leur affectation aux lignes de déclaration de TVA, consultez la section [Vue d’ensemble de la déclaration de TVA](#vat-declaration-overview) plus haut dans cet article.                                                                                         |
+   | Code de taxe               | Permet de sélectionner le code de taxe à associer à l’opération. Les transactions de taxe validées qui utilisent le code de taxe sélectionné seront collectées dans la case de déclaration appropriée. Nous vous recommandons de séparer les codes de taxe de telle sorte qu’un code de taxe ne génère des montants que dans une seule case de déclaration.   |
    | Classifieur de transactions | Si vous avez créé suffisamment de codes de taxe pour déterminer une case de déclaration, sélectionnez **\*Non vide\***. Si vous n’avez pas créé suffisamment de codes de taxe pour qu’un code de taxe ne génère des montants que dans une seule case de déclaration, configurez un classifieur de transaction. Les classifieurs de transactions suivants sont disponibles : <br>- **Achats**<br>- **PurchaseExempt** (achat exonéré de taxe) <br>- **PurchaseReverseCharge** (taxe déductible provenant d’une taxe au preneur sur achat) <br>- **Vente** <br>- **SalesExempt** (vente exonérée de taxe) <br>- **SalesReverseCharge** (taxe exigible provenant d’une taxe au preneur sur achat ou vente) <br>- **Taxe d’utilisation** <br> Pour chaque classifieur de transaction, un classifieur pour l’avoir est également disponible. Par exemple, l’un de ces classifieurs est **PurchaseCreditNote** (avoir sur achat).|
 
 
@@ -263,14 +263,14 @@ Le package de données contient des paramètres de message électronique utilis�
 
 1. Accédez à **Taxe** > **Recherches et états** > **Taxe (recherches)** > **Paiements de la taxe**, puis sélectionnez une ligne de paiement de taxe.
 2. Sélectionnez **Imprimer un état**.
-3. Dans la boîte de dialogue **Paramètres d’état électronique**, définissez les champs comme expliqué précédemment dans cette rubrique. Vérifiez ensuite le fichier Excel généré pour la ligne de paiement de taxe sélectionnée.
+3. Dans la boîte de dialogue **Paramètres d’état électronique**, définissez les champs comme expliqué précédemment dans cet article. Vérifiez ensuite le fichier Excel généré pour la ligne de paiement de taxe sélectionnée.
 
    > [!NOTE]
    > L’état est généré uniquement pour la ligne sélectionnée du paiement de taxe. Si vous devez générer, par exemple, une déclaration rectificative contenant toutes les corrections pour la période, ou une déclaration de remplacement qui contient les données d’origine et toutes les corrections, utilisez la tâche périodique **État de la taxe pour la période de règlement**.
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Générer une déclaration de TVA à partir de messages électroniques
 
-Lorsque vous utilisez des messages électroniques pour générer l’état, vous pouvez collecter les données fiscales auprès de plusieurs entités juridiques. Pour plus d’informations, consultez la section [Exécuter une déclaration de TVA pour plusieurs entités juridiques](#run-a-vat-declaration-for-multiple-legal-entities) plus loin dans cette rubrique.
+Lorsque vous utilisez des messages électroniques pour générer l’état, vous pouvez collecter les données fiscales auprès de plusieurs entités juridiques. Pour plus d’informations, consultez la section [Exécuter une déclaration de TVA pour plusieurs entités juridiques](#run-a-vat-declaration-for-multiple-legal-entities) plus loin dans cet article.
 
 La procédure suivante s’applique à l’exemple de traitement de message électronique que vous avez importé précédemment à partir de la bibliothèque d’actifs partagés LCS.
 
@@ -282,7 +282,7 @@ La procédure suivante s’applique à l’exemple de traitement de message éle
    > [!NOTE]
    >  Les étapes 5 à 7 sont facultatives.
 
-5. Facultatif : Dans le raccourci **Messages**, sélectionnez **Collecter des données**, puis cliquez sur **OK**. Les paiements de taxe qui ont été générés précédemment sont ajoutés au message. Pour plus d’informations, voir la section [Régler et valider la taxe](#settle-and-post-sales-tax) plus haut dans cette rubrique. Si vous ignorez cette étape, vous pouvez toujours générer une déclaration de TVA en utilisant le champ **Version de la déclaration fiscale** dans la boîte de dialogue **Déclaration**.
+5. Facultatif : Dans le raccourci **Messages**, sélectionnez **Collecter des données**, puis cliquez sur **OK**. Les paiements de taxe qui ont été générés précédemment sont ajoutés au message. Pour plus d’informations, voir la section [Régler et valider la taxe](#settle-and-post-sales-tax) plus haut dans cet article. Si vous ignorez cette étape, vous pouvez toujours générer une déclaration de TVA en utilisant le champ **Version de la déclaration fiscale** dans la boîte de dialogue **Déclaration**.
 6. Facultatif : Dans le raccourci **Éléments du message**, passez en revue les paiements de taxe qui sont transférés pour traitement. Par défaut, tous les paiements de taxe de la période sélectionnée qui n’étaient inclus dans aucun autre message du même traitement sont inclus.
 7. Facultatif : Sélectionnez **Document d’origine** pour examiner les paiements de taxe, ou sélectionnez **Supprimer** pour exclure les paiements de taxe du traitement. Si vous ignorez cette étape, vous pouvez toujours générer une déclaration de TVA en utilisant le champ **Version de la déclaration fiscale** dans la boîte de dialogue **Déclaration**.
 8. Dans le raccourci **Messages**, sélectionnez **Mettre à jour le statut**. Dans la boîte de dialogue **Mettre à jour le statut**, sélectionnez **Prêt à générer**, puis cliquez sur **OK**. Vérifiez que l’état du message est modifié en **Prêt à générer**.

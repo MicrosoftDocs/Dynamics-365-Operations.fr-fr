@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848192"
 ---
 # <a name="performance-management"></a>Gestion des performances
 
@@ -56,7 +56,7 @@ Vous pouvez également associer le journal des performances à un site Web exter
 
 ### <a name="send-feedback"></a>Envoyer des commentaires
 
-Le journal des performances contient une fonctionnalité supplémentaire appelée **Envoyer des commentaires**. Lorsque vous cliquez sur **Envoyer des commentaires**, vous pouvez sélectionner un employé et lui transmettre des commentaires par courrier électronique. Le message est envoyé à l'employé concerné par le commentaire<!--note from editor: Suggested-->, le responsable de cet employé, l'employé qui envoie les commentaires et le responsable de cet employé. Une entrée est créée dans le journal des performances pour chaque personne qui reçoit le message de commentaires.
+Le journal des performances contient une fonctionnalité supplémentaire appelée **Envoyer des commentaires**. Lorsque vous cliquez sur **Envoyer des commentaires**, vous pouvez sélectionner un employé et lui transmettre des commentaires par courrier électronique. Le message est envoyé à l’employé concerné par le commentaire<!--note from editor: Suggested-->, le responsable de cet employé, l’employé qui envoie les commentaires et le responsable de cet employé. Une entrée est créée dans le journal des performances pour chaque personne qui reçoit le message de commentaires.
 
 ## <a name="goals"></a>Objectifs
 
@@ -71,7 +71,7 @@ Un objectif de base doit inclure les informations suivantes :
 
 Vous pouvez également spécifier une catégorie d’objectif pour vous aider à planifier vos objectifs. Les responsables verront également le nom de la personne à qui l’objectif est affecté. 
 
-Si vous avez des instructions plus détaillées pour un objectif, vous pouvez créer des rubriques. Ces rubriques comprennent un titre et une description. Vous pouvez inclure autant de rubriques que vous souhaitez pour garantir que les détails de l’objectif sont clairs pour l’employé et le responsable. L'employé et le responsable peuvent également entrer des commentaires sur la progression des objectifs. 
+Si vous avez des instructions plus détaillées pour un objectif, vous pouvez créer des rubriques. Ces rubriques comprennent un titre et une description. Vous pouvez inclure autant de rubriques que vous souhaitez pour garantir que les détails de l’objectif sont clairs pour l’employé et le responsable. L’employé et le responsable peuvent également entrer des commentaires sur la progression des objectifs. 
 
 Les objectifs incluent souvent des résultats mesurables. Vous pouvez ajouter des mesures pour suivre les résultats cibles de l’objectif et les résultats réels. Si la mesure est un objectif ambitieux, vous pouvez la marquer à l’aide de l’option **Objectif ambitieux**. 
 
@@ -79,11 +79,11 @@ Votre journal des performances contient<!--note from editor: Suggested.--> les a
 
 Si vous souhaitez joindre un document à l’objectif (un certificat d’achèvement, par exemple) vous pouvez le joindre dans la section **Documents joints** de la page **Objectifs de performances**. Une visionneuse de documents est fournie pour vous permettre de consulter rapidement le contenu des documents associés. 
 
-Vous pouvez créer un modèle à partir d’un objectif, puis l’utiliser pour créer de nouveaux objectifs. Lorsque vous créez un modèle à partir d’un objectif, la description, les rubriques, et les mesures cibles sont enregistrées. Toutefois, toutes les mesures, dates de fin, et commentaires de rubrique actuels sont supprimés.
+Vous pouvez créer un modèle à partir d’un objectif, puis l’utiliser pour créer de nouveaux objectifs. Lorsque vous créez un modèle à partir d’un objectif, la description, les rubriques, et les mesures cibles sont enregistrées. Toutefois, toutes les mesures, dates de fin, et commentaires d’article actuels sont supprimés.
 
-## <a name="performance-reviews"></a>Entretiens d’évaluation des performances
+## <a name="performance-reviews"></a>Entretiens de performance
 
-Les entretiens d’évaluation des performances étaient auparavant appelées discussions. Ils sont désormais assez flexibles pour prendre en charge la rétroaction continue et les révisions plus formelles. Vous pouvez rapidement créer de petites réunions pour deux personnes<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> Ou vous pouvez créer une évaluation plus complexe qui correspond au processus d'évaluation de votre entreprise. 
+Les entretiens d’évaluation des performances étaient auparavant appelées discussions. Ils sont désormais assez flexibles pour prendre en charge la rétroaction continue et les révisions plus formelles. Vous pouvez rapidement créer de petites réunions pour deux personnes<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> Ou vous pouvez créer une évaluation plus complexe qui correspond au processus d’évaluation de votre entreprise. 
 
 Une réunion de type individuel est une simple révision qui nécessite un nom court, une description détaillée du contenu de la réunion, la date de celle-ci ainsi que la période à évaluer. Les responsables voient également le nom de la personne pour qui la révision est créée. 
 
@@ -104,7 +104,7 @@ Vous pouvez inclure plusieurs types d’informations dans les entretiens d’év
 
 ### <a name="review-detail"></a>Détails de la révision
 
-Vous pouvez insérer vos objectifs dans les détails de l'examen et les commenter. Vous pouvez également paramétrer des compétences et formuler des commentaires.<!--note from editor: Suggested, in the spirit of using the fewest words to say the same thing.-->
+Vous pouvez insérer vos objectifs dans les détails de l’examen et les commenter. Vous pouvez également paramétrer des compétences et formuler des commentaires.<!--note from editor: Suggested, in the spirit of using the fewest words to say the same thing.-->
 
 ### <a name="measurements"></a>Mesures
 
@@ -132,7 +132,7 @@ Vous pouvez utiliser le workflow d’évaluation des collaborateurs pour contrô
 
 1.  Lorsque la révision est créée, elle est définie sur le statut **Non commencé**. La révision peut être modifiée par n’importe qui.
 
-2.  Après l'employé sélectionne **Commencer la révision**, la révision est définie sur le statut **En cours**. L’employé commence ensuite à ajouter du contenu. À ce stade, le responsable ne peut plus afficher le document de révision.
+2.  Après l’employé sélectionne **Commencer la révision**, la révision est définie sur le statut **En cours**. L’employé commence ensuite à ajouter du contenu. À ce stade, le responsable ne peut plus afficher le document de révision.
 
 3.  L’employé remplace le statut par **Prêt pour la révision**.
 

@@ -1,6 +1,6 @@
 ---
 title: Module Panier
-description: Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+description: Cet article couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 962710f7b65c8d26b301b5034a89fc25476b6e0f
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: c4023857f13830449eaa19f8513799ece97729d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866054"
 ---
 # <a name="cart-module"></a>Module Panier
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Un module de panier affiche les articles qui ont été ajoutés au panier avant que le client ne passe à la caisse. Le module montre également un résumé de la commande et permet au client d’appliquer ou de supprimer des codes promotionnels.
 

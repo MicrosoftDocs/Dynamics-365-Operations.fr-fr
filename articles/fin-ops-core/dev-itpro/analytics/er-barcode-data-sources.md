@@ -1,6 +1,6 @@
 ---
 title: Utiliser des sources de données de codes-barres pour générer des images de codes-barres
-description: Cette rubrique explique comment utiliser des sources de données de codes-barres pour générer des images de codes-barres.
+description: Cet article explique comment utiliser des sources de données de codes-barres pour générer des images de codes-barres.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880310"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utiliser des sources de données de codes-barres pour générer des images de codes-barres
 
@@ -77,7 +77,7 @@ Lorsque vous configurez une source de données **Code-barres**, vous pouvez déf
 >
 > Lorsque vous liez une source de données **Code-barres** à un élément de cellule dans un format, et l’élément de cellule représente un contrôle de contenu Word ou une image Excel, la source de données est présentée dans cette liaison comme une fonction qui a un seul paramètre du type **Chaîne**. Vous devez utiliser ce paramètre pour spécifier le texte qui doit être transformé en une image de code-barres et lu lorsqu’un code-barres généré est numérisé.
 
-Pour en savoir plus sur cette fonctionnalité, exécutez les exemples décrits dans cette rubrique.
+Pour en savoir plus sur cette fonctionnalité, exécutez les exemples décrits dans cet article.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Exemple : Générer un chèque de paiement contenant un code-barres qui code le montant à payer
 
@@ -112,7 +112,7 @@ Pour terminer cet exemple, vous devez avoir accès à la société USMF pour l�
 - Consultant fonctionnel des états électroniques
 - Administrateur système
 
-Si vous n’avez pas encore terminé l’exemple dans la rubrique [Intégrer des images et des formes dans les documents que vous générez à l’aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md), téléchargez les configurations suivantes de l’exemple de solution ER.
+Si vous n’avez pas encore terminé l’exemple dans l’article [Intégrer des images et des formes dans les documents que vous générez à l’aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md), téléchargez les configurations suivantes de l’exemple de solution ER.
 
 | Description du contenu         | Nom de fichier                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ En outre, téléchargez le fichier Excel suivant qui contient le modèle modifi�
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Activer un fournisseur de configuration
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le [fournisseur de configuration](general-electronic-reporting.md#Provider) pour l’exemple de société **Litware, Inc.** est répertorié, et qu’il est marqué comme actif. S’il n’est pas répertorié ou s’il n’est pas marqué comme actif, suivez les étapes de la rubrique [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le [fournisseur de configuration](general-electronic-reporting.md#Provider) pour l’exemple de société **Litware, Inc.** est répertorié, et qu’il est marqué comme actif. S’il n’est pas répertorié ou s’il n’est pas marqué comme actif, suivez les étapes de l’article [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Rendre l’exemple de société actif sur la page Configurations de localisation.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ La version provisoire du format sélectionné est marquée comme disponible pour
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Convertir le chèque généré en PDF.
 
-Comme décrit dans la rubrique [Générer des formulaires FTI imprimables](er-generate-printable-fti-forms.md#finland), vous pouvez utiliser une police spéciale pour produire des codes-barres dans un document généré. Dans ce cas, des transformations supplémentaires du document généré peuvent dépendre de la disponibilité de cette police dans l’environnement de transformation. Par exemple, si vous essayez de convertir un document au format PDF ou de le prévisualiser dans un environnement où la police est manquante, les codes-barres ne s’afficheront pas correctement.
+Comme décrit dans l’article [Générer des formulaires FTI imprimables](er-generate-printable-fti-forms.md#finland), vous pouvez utiliser une police spéciale pour produire des codes-barres dans un document généré. Dans ce cas, des transformations supplémentaires du document généré peuvent dépendre de la disponibilité de cette police dans l’environnement de transformation. Par exemple, si vous essayez de convertir un document au format PDF ou de le prévisualiser dans un environnement où la police est manquante, les codes-barres ne s’afficheront pas correctement.
 
 Cependant, lorsque vous utilisez la source de données **Code-barres** pour produire des codes-barres, le rendu de ces codes-barres ne dépend d’aucune police. Par conséquent, vous pouvez facilement convertir les documents contenant les codes-barres au format PDF. L’illustration suivante montre l’aperçu d’un chèque de paiement généré qui a été [converti](electronic-reporting-destinations.md#OutputConversionToPDF) en PDF, basé sur le paramètre de l’ER configuré [destination](electronic-reporting-destinations.md).
 

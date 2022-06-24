@@ -1,6 +1,6 @@
 ---
 title: Concevoir des expressions de génération d’états électroniques pour appeler les méthodes de classe d’application
-description: Cette rubrique décrit la procédure de réutilisation de la logique d’application existante dans les configurations d’états électroniques en appelant les méthodes requises des classes d’application des expressions ER.
+description: Cet article décrit la procédure de réutilisation de la logique d’application existante dans les configurations d’états électroniques en appelant les méthodes requises des classes d’application des expressions ER.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: business-process
@@ -12,32 +12,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883623"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Concevoir des expressions de génération d’états électroniques pour appeler les méthodes de classe d’application
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit la réutilisation de la logique d’application existante dans les configurations [d’états électroniques](../general-electronic-reporting.md) en appelant les méthodes requises des classes d’application des expressions ER. Les valeurs des arguments pour les classes d’appel peuvent être définies dynamiquement au moment de l’exécution. Par exemple, les valeurs peuvent être basées sur des informations contenues dans le document d’analyse, pour garantir son exactitude.
+Cet article décrit la réutilisation de la logique d’application existante dans les configurations [d’états électroniques](../general-electronic-reporting.md) en appelant les méthodes requises des classes d’application des expressions ER. Les valeurs des arguments pour les classes d’appel peuvent être définies dynamiquement au moment de l’exécution. Par exemple, les valeurs peuvent être basées sur des informations contenues dans le document d’analyse, pour garantir son exactitude.
 
-Dans le cadre de cette rubrique, vous allez concevoir un processus qui analyse des relevés bancaires entrants pour une mise à jour des données d’application. Vous recevrez les relevés bancaires entrants sous forme de fichiers texte (.txt) contenant les codes de numéro de compte bancaire international (IBAN). Dans le cadre du processus d’importation des relevés bancaires, vous devez valider l’exactitude du code IBAN à l’aide de la logique qui est déjà disponible.
+Dans le cadre de cet article, vous allez concevoir un processus qui analyse des relevés bancaires entrants pour une mise à jour des données d’application. Vous recevrez les relevés bancaires entrants sous forme de fichiers texte (.txt) contenant les codes de numéro de compte bancaire international (IBAN). Dans le cadre du processus d’importation des relevés bancaires, vous devez valider l’exactitude du code IBAN à l’aide de la logique qui est déjà disponible.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Les procédures de cette rubrique sont destinées aux utilisateurs auxquels le rôle **Administrateur système** ou **Développeur d’états électroniques** a été affecté.
+Les procédures de cet article sont destinées aux utilisateurs auxquels le rôle **Administrateur système** ou **Développeur d’états électroniques** a été affecté.
 
 Ces procédures peuvent être effectuées à l’aide d’un ensemble de données quelconque.
 
 Pour les effectuer, vous devez également télécharger et enregistrer localement le fichier suivant : [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
 
-Dans cette rubrique, vous créerez les configurations ER requises pour la société fictive, Litware, Inc. Par conséquent, avant d’effectuer les procédures décrites dans cette rubrique, vous devez effectuer les étapes suivantes.
+Dans cet article, vous allez créer les configurations ER requises pour la société fictive, Litware, Inc. Par conséquent, avant d’effectuer les procédures décrites dans cet article, vous devez effectuer les étapes suivantes.
 
-1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **Gestion des états électroniques**.
 2. Dans la page **Configurations de localisation**, vérifiez que le fournisseur de configuration pour l’exemple de société **Litware, Inc.** est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d’abord effectuer les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="import-a-new-er-model-configuration"></a>Importer une nouvelle configuration du modèle ER

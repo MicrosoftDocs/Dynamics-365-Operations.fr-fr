@@ -1,6 +1,6 @@
 ---
 title: Classifications de facturation et codes facturation dans le secteur public
-description: Cette rubrique explique comment les organisations du secteur public peuvent utiliser les classifications de facturation et les codes de facturation pour gérer les factures financières.
+description: Cet article explique comment les organisations du secteur public peuvent utiliser les classifications de facturation et les codes de facturation pour gérer les factures financières.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f7d152535fe0153d67082b1f54dade5339e3c3c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: ee43ffb7bc65762c15ad4dec8a2e195160d5f817
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859651"
 ---
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a>Classifications de facturation et codes facturation dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment les organisations du secteur public peuvent utiliser les classifications de facturation et les codes de facturation pour gérer les factures financières. 
+Cet article explique comment les organisations du secteur public peuvent utiliser les classifications de facturation et les codes de facturation pour gérer les factures financières. 
 
 ## <a name="billing-classifications"></a>Classifications de facturation
 

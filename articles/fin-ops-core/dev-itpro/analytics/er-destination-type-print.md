@@ -1,6 +1,6 @@
 ---
 title: Type de destination pour l’impression d’états électroniques
-description: Cette rubrique explique comment configurer une destination d’imprimante pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
+description: Cet article explique comment configurer une destination d’imprimante pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826455d0901a45ef26755fd323ee2a2737b5eec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845568"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destination d’imprimante
 
@@ -50,7 +50,7 @@ Dans les versions de Finance avant la version 10.0.18, la destination de l’**
 Cependant, à partir de la version 10.0.18, vous pouvez configurer la destination **Imprimante** pour l’élément de format **Common File**. Cet élément de format est principalement utilisé pour générer une sortie au format TXT ou XML. Vous pouvez configurer un format ER qui contient l’élément de format **Common File** comme élément de format racine et l’élément de format **Contenu binaire** comme le seul élément imbriqué sous celui-ci. Dans ce cas, l’élément de format **Common File** produira une sortie dans le format spécifié par la liaison que vous configurez pour l’élément de format **Contenu binaire**. Par exemple, vous pouvez configurer cette liaison pour [remplir](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format) cet élément avec le contenu d’une pièce jointe [Gestion de documents](../../fin-ops/organization-administration/configure-document-management.md) au format PDF ou Office (Excel ou Word). Vous pouvez imprimer la sortie en utilisant la destination **Imprimante** configurée. 
 
 > [!NOTE]
-> Lorsque vous sélectionnez l’élément de format **Common\\File** pour configurer la destination **Imprimante**, il n’existe aucun moyen de garantir, au moment de la conception, que l’élément sélectionné produira une sortie au format PDF ou une sortie pouvant être convertie au format PDF. Par conséquent, vous recevez le message d’avertissement suivant : « Veuillez veiller à ce que la sortie qui st générée par le composant de format sélectionné puisse être convertie au format PDF. Sinon, décochez l’option « Convertir en PDF ». Vous devez prendre des mesures pour éviter les problèmes d’exécution lorsqu’une sortie non PDF ou non convertible en PDF est fournie pour l’impression au moment de l’exécution. Si vous prévoyez de recevoir une sortie au format Office (Excel ou Word), l’option **Convertir en PDF** doit être sélectionnée.
+> Lorsque vous sélectionnez l’élément de format **Common\\File** pour configurer la destination **Imprimante**, il n’existe aucun moyen de garantir, au moment de la conception, que l’élément sélectionné produira une sortie au format PDF ou une sortie pouvant être convertie au format PDF. Par conséquent, vous recevez le message d’avertissement suivant : « Veuillez veiller à ce que la sortie qui est générée par le composant de format sélectionné puisse être convertie au format PDF. Sinon, décochez l’option « Convertir en PDF ». Vous devez prendre des mesures pour éviter les problèmes d’exécution lorsqu’une sortie non PDF ou non convertible en PDF est fournie pour l’impression au moment de l’exécution. Si vous prévoyez de recevoir une sortie au format Office (Excel ou Word), l’option **Convertir en PDF** doit être sélectionnée.
 >
 > Dans la version 10.0.26 et ultérieures, pour utiliser l’option **Convertir en PDF**, vous devez sélectionner **PDF** pour le paramètre **Type d’acheminement de document** de la destination **Imprimante** configurée.
 

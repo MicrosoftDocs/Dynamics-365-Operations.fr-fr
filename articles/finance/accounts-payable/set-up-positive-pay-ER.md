@@ -1,6 +1,6 @@
 ---
 title: Configurer et générer des fichiers de paie positifs à l’aide d’états électroniques
-description: Cette rubrique décrit comment paramétrer le paiement positif à l’aide d’états électroniques.
+description: Cet article décrit comment paramétrer le paiement positif à l’aide d’états électroniques.
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878216"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Configurer des fichiers de paie positifs à l’aide d’états électroniques
 
-Cette rubrique décrit comment paramétrer le paiement positif et générer des fichiers à l’aide de la notification électronique.
+Cet article décrit comment paramétrer le paiement positif et générer des fichiers à l’aide de la notification électronique.
 
 > [!NOTE] 
 > Avant d’utiliser la fonction **Générer un fichier de paiement positif bancaire**, vous devrez d’abord actualiser la liste des entités.

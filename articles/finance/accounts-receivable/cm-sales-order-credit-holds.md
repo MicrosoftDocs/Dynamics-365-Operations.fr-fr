@@ -1,6 +1,6 @@
 ---
 title: Blocages de crédit pour les commandes client
-description: Cette rubrique décrit le paramétrage des règles utilisées pour placer une commande client en attente de crédit.
+description: Cet article décrit le paramétrage des règles utilisées pour placer une commande client en attente de crédit.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856826"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Blocages de crédit pour les commandes client
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique décrit le paramétrage des règles utilisées pour placer une commande client en attente de crédit. Les règles de blocage de la gestion des crédits peuvent s’appliquer à un client individuel ou à un groupe de clients. Les règles de blocage définissent les réponses aux circonstances suivantes :
+Cet article décrit le paramétrage des règles utilisées pour placer une commande client en attente de crédit. Les règles de blocage de la gestion des crédits peuvent s’appliquer à un client individuel ou à un groupe de clients. Les règles de blocage définissent les réponses aux circonstances suivantes :
 
 1. Nombre de jours de retard
 2. Statuts des comptes
@@ -44,8 +44,8 @@ Lorsqu’un client initie une transaction de vente, les informations sur la comm
 
 À partir de la version 10.0.21, les règles de blocage dans la gestion des crédits ont été repensées de la manière suivante, pour offrir plus de flexibilité :
 
-- Les demandes d'extensibilité ont été activées, afin que vous puissiez créer vos propres règles de blocage.
-- La case à cocher **Lancer la commande client** est désormais disponible pour toutes les règles de blocage. Auparavant, elle n'était disponible que pour la règle de blocage des commandes client. Lorsque cette case est cochée, la règle d'exclusion libère la commande client sans tenir compte des autres règles pouvant bloquer les commandes client. Cette case à cocher n'est disponible que pour le type de règle **Exclusion**.
+- Les demandes d’extensibilité ont été activées, afin que vous puissiez créer vos propres règles de blocage.
+- La case à cocher **Lancer la commande client** est désormais disponible pour toutes les règles de blocage. Auparavant, elle n’était disponible que pour la règle de blocage des commandes client. Lorsque cette case est cochée, la règle d’exclusion libère la commande client sans tenir compte des autres règles pouvant bloquer les commandes client. Cette case à cocher n’est disponible que pour le type de règle **Exclusion**.
 
 ### <a name="days-overdue"></a>Jours de retard
 
@@ -108,7 +108,7 @@ Ouvrez l’onglet **Montant en retard** si la règle de blocage s’applique au
    - Sélectionnez **Blocage** pour créer une règle qui bloque une commande. 
    - Sélectionnez **Exclusion** pour créer une règle qui exclura une autre règle du blocage d’une commande. 
 5. Entrez la valeur **Montant en retard** pour la règle de blocage sélectionnée avant qu’une commande ne soit placée en attente de gestion des crédits pour examen. 
-6. Sélectionnez le **Type de valeur** qui définit le type de valeur qui sera utilisé pour tester également combien de la limite de crédit a été utilisée. Les règles de blocage et les règles d'exclusion autorisent un pourcentage uniquement pour **Montant en souffrance**. Le seuil se rapporte à la limite de crédit.
+6. Sélectionnez le **Type de valeur** qui définit le type de valeur qui sera utilisé pour tester également combien de la limite de crédit a été utilisée. Les règles de blocage et les règles d’exclusion autorisent un pourcentage uniquement pour **Montant en souffrance**. Le seuil se rapporte à la limite de crédit.
 7. Entrez la valeur **Seuil de limite de crédit** de la règle sélectionnée avant qu’un client ne soit mis en attente pour la gestion du crédit. Il peut s’agir d’un montant ou d’un pourcentage basé sur le type de valeur sélectionné dans le type de valeur.
 8. La règle vérifie que le **Montant en retard** est dépassé et le **Seuil de limite de crédit** est dépassé. 
 

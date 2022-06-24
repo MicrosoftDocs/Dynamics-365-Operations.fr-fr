@@ -1,6 +1,6 @@
 ---
 title: Guides de tâches nouveaux ou mis à jour (novembre 2016)
-description: Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
+description: Cet article répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3836456f8d4ba8aba95e90563f8bdb27fc547e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886583"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Guides de tâches nouveaux ou mis à jour (novembre 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
+Cet article répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
 
-La bibliothèque unifiée APQC (novembre 2016 – toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platform update 3, Microsoft Dynamics AX Platform update 2, la mise à jour 2 de l’application Dynamics AX mai 2016 et la version de février 2016 de Microsoft Dynamics AX . Pour plus d’informations sur ces versions, voir [page d’accueil Nouveautés ou changements dans Finance and Operations](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Système d’aide](help-overview.md).
+La bibliothèque unifiée APQC (novembre 2016 – toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platform update 3, Microsoft Dynamics AX Platform update 2, la mise à jour 2 de l’application Dynamics AX mai 2016 et la version de février 2016 de Microsoft Dynamics AX . Pour plus d’informations sur ces versions, voir [Nouveautés ou modifications de la page d’accueil Finance et Opérations](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Système d’aide](help-overview.md).
 
 > [!NOTE]
 > Un astérisque (\*) en regard du titre d’une ligne de Concepteur de processus d’entreprise indique que le guide de tâche de ce processus a été créé pour la mise à jour de novembre 2016 de Dynamics 365 for Operations et qu’il n’est pas pris en charge dans les versions antérieures de Microsoft Dynamics AX.

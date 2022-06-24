@@ -1,6 +1,6 @@
 ---
 title: Dimensions financières et comptes principaux dans des langues qui se lisent de droite à gauche
-description: Cette rubrique décrit certaines des décisions que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux.
+description: Cet article décrit certaines des décisions que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux.
 author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5de2e0e6e56651487ebd36e3594eb378ce6154ea
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b1e2c0ef5cd405232332847078c70af42f056e17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866758"
 ---
-# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Dimensions financières et comptes principaux dans des langues s’écrivant de droite à gauche
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Dimensions financières et comptes principaux dans des langues qui se lisent de droite à gauche
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit certaines des décisions d’implémentation que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux.
+Cet article décrit certaines des décisions d’implémentation que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux.
 
 Les dimensions financières et les comptes principaux sont des composants clés de la phase de planification pour une implémentation. Une fois les dimensions financières et les comptes principaux créés dans le système, ils sont utilisés sur les pages **Configurer des structures de compte**, **Structures de règle avancées** et **Configuration de dimension financière pour l’intégration d’applications**. L’ordre qui est défini sur ces pages est utilisé dans le système pour la saisie de données et la consommation. À certains endroits du système, les dimensions financières et les comptes principaux apparaissent dans des champs distincts. À d’autres endroits, tels que les journaux, les dimensions financières et les comptes principaux apparaissent sous forme de chaîne simple.
 

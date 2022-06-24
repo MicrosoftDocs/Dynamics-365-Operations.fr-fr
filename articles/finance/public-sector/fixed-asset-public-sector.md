@@ -1,6 +1,6 @@
 ---
 title: Immobilisations dans le secteur public
-description: Cette rubrique décrit la fonctionnalité des immobilisations disponible pour les entités du secteur public.
+description: Cet article décrit la fonctionnalité des immobilisations disponible pour les entités du secteur public.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89638318f8331650bb83d02f24c8448c622ecce3
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: fbda7bcbc9da828101c9b8de77e55caaa8cb621c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888839"
 ---
 # <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité des immobilisations disponible pour les entités du secteur public. 
+Cet article décrit la fonctionnalité des immobilisations disponible pour les entités du secteur public. 
 
 ## <a name="what-do-i-need-to-know-about-disposing-of-fixed-assets"></a>Que dois-je savoir à propos de la cession des immobilisations ?
 

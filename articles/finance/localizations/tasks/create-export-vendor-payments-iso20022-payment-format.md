@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7bd5308e7589cb280244ea85e184422cbe2aa09f1cb548a81445defbd082e42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac84055586eff678ea489b35198b1c2dfab13658
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856465"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment créer des lignes de paiement dans le journal des paiements fournisseur et générer un fichier de paiement fournisseur à l’aide de l’exemple de virement ISO2022.
+Cet article explique comment créer des lignes de paiement dans le journal des paiements fournisseur et générer un fichier de paiement fournisseur à l’aide de l’exemple de virement ISO2022.
 
 Il s’agit de la cinquième des cinq procédures illustrant le processus de paiement fournisseur à l’aide des configurations de génération d’états électroniques. Utilisez les données fictives de DEMF pour réaliser cet exemple.
 

@@ -1,6 +1,6 @@
 ---
 title: Importer des versions mises à jour des configurations de gestion des états électroniques
-description: Cette rubrique explique comment importer des versions mises à jour des configurations de gestion des états électroniques depuis le référentiel global du service de configuration.
+description: Cet article explique comment importer des versions mises à jour des configurations de gestion des états électroniques depuis le référentiel global du service de configuration.
 author: NickSelin
 ms.date: 06/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847544"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importer des versions mises à jour des configurations de gestion des états électroniques
 
@@ -28,7 +28,7 @@ ms.locfileid: "6734886"
 
 Les [référentiels](general-electronic-reporting.md#Repository) de gestion des états électroniques sont utilisés pour partager des [configurations de gestion des états électroniques](general-electronic-reporting.md#Configuration). Vous pouvez [importer](download-electronic-reporting-configuration-lcs.md) des configurations de gestion des états électroniques depuis différents référentiels vers votre instance de Microsoft Dynamics 365 Finance. Lorsque vous importez des configurations de gestion des états électroniques, les [fournisseurs de configuration](general-electronic-reporting.md#Provider) peuvent publier de nouveaux référentiels de [versions](general-electronic-reporting.md#component-versioning) afin de pouvoir les partager.
 
-Cette rubrique explique comment importer des versions mises à jour des configurations de gestion des états électroniques depuis le référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, service de configuration](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Cet article explique comment importer des versions mises à jour des configurations de gestion des états électroniques depuis le référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, service de configuration](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Consulter les versions mises à jour disponibles
 

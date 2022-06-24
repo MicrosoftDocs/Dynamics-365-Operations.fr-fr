@@ -1,6 +1,6 @@
 ---
-title: Plan de comptes
-description: Cette rubrique fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
+title: Planifier votre plan comptable
+description: Cet article fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
 author: aprilolson
 ms.date: 04/02/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722462"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853346"
 ---
-# <a name="plan-your-chart-of-accounts"></a>Plan de comptes
+# <a name="plan-your-chart-of-accounts"></a>Planifier votre plan comptable
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
+Cet article fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
 
 Pour suivre et tenir à jour les informations financières dans une organisation, vous pouvez paramétrer un plan de comptes. Un plan de comptes est un ensemble de comptes qui définit une structure financière. Pour effectuer un suivi approfondi des transactions dans ces comptes, vous pouvez ajouter des segments. Ces segments sont appelés des dimensions financières. Par exemple, un compte de dépenses peut inclure les dimensions financières nommées Département, Centre de coûts et Objectif. Des règles définies par l’utilisateur déterminent l’association des dimensions financières aux comptes principaux et aux autres dimensions financières, ainsi que les modalités de saisie des transactions. Ces règles définies par l’utilisateur sont désignées comme des structures de compte et des règles avancées.
 

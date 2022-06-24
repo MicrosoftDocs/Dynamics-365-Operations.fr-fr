@@ -1,6 +1,6 @@
 ---
 title: Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances
-description: Cette rubrique fournit des informations sur l’utilisation de la fonctionnalité de suivi des performances dans la gestion des états électroniques (ER) pour résoudre les problèmes de performances.
+description: Cet article fournit des informations sur l’utilisation de la fonctionnalité de suivi des performances dans la gestion des états électroniques (ER) pour résoudre les problèmes de performances.
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851949"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Suivez l’exécution des formats d’ER pour résoudre les problèmes de performances
 
@@ -98,7 +98,7 @@ Supposons que vous avez commencé à créer une solution ER pour générer un no
 
 Supposons que vous avez terminé de configurer la première version de la solution ER. Vous souhaitez à présent la tester dans l’instance et analyser les performances d’exécution.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importer une configuration ER depuis RCS dans Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importer une configuration ER de RCS dans Finance et Opérations
 
 1. Connectez-vous à votre instance d’application.
 2. Pour ce didacticiel, vous importez des configurations de votre instance de RCS (dans laquelle vous concevez vos composants ER) vers l’instance (dans laquelle vous les utilisez et enfin vous les testez). Par conséquent, vous devez vous assurer que les artefacts requis ont été préparés. Pour plus d’instructions, voir la procédure [Importer les configurations des états électroniques (ER) depuis Regulatory Configuration Service (RCS)](rcs-download-configurations.md).
@@ -305,27 +305,27 @@ Il peut également être utile de réduire le nombre d’appels effectués à la
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Importez la configuration de la mise en correspondance de modèles ER modifiée du RCS vers l’application.
 
-Répétez les étapes de la section [Importer une configuration ER de RCS dans Finance and Operations](#import-configuration) plus haut dans cette rubrique pour importer la version 1.2 de la configuration **Mise en correspondance de suivi des performances**.
+Répétez les étapes de la section [Importer une configuration ER de RCS dans Finance et Opérations](#import-configuration) plus haut dans cet article pour importer la version 1.2 de la configuration **Mise en correspondance de suivi des performances**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Exécuter la solution ER modifiée pour suivre l’exécution
 
 ### <a name="run-the-er-format"></a>Exécuter le format ER
 
-Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cette rubrique pour générer un nouveau suivi des performances.
+Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cet article pour générer un nouveau suivi des performances.
 
 ## <a name="work-with-the-execution-trace"></a>Travailler avec suivi d’exécution
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Exporter le suivi généré depuis l’application
 
-Répétez les étapes de la section [Exporter le suivi généré dans l’application](#export-trace) plus haut dans cette rubrique pour enregistrer un nouveau suivi des performances localement.
+Répétez les étapes de la section [Exporter le suivi généré dans l’application](#export-trace) plus haut dans cet article pour enregistrer un nouveau suivi des performances localement.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>Importer le suivi généré dans RCS
 
-Répétez les étapes de la section [Importer le suivi généré dans RCS](#import-trace) plus haut dans cette rubrique pour importer le nouveau suivi des performances dans RCS.
+Répétez les étapes de la section [Importer le suivi généré dans RCS](#import-trace) plus haut dans cet article pour importer le nouveau suivi des performances dans RCS.
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Utiliser le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle
 
-Répétez les étapes de la section [Utiliser le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle](#use-trace) plus haut dans cette rubrique pour analyser le dernier suivi des performances.
+Répétez les étapes de la section [Utiliser le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle](#use-trace) plus haut dans cet article pour analyser le dernier suivi des performances.
 
 Notez que les ajustements effectués à la mise en correspondance de modèles ont éliminé les requêtes en double de la base de données. Le nombre d’appels aux tables de base de données et aux sources de données pour cette mise en correspondance de modèles a également été réduit. Par conséquent, les performances de l’ensemble de la solution ER ont été améliorées.
 
@@ -343,7 +343,7 @@ Outre RCS, certaines versions peuvent offrir des fonctionnalités pour une expé
 
 ![Activer l’option Activer le mode de configuration sur la page des paramètres de gestion des états électroniques.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
-Si vous utilisez une de ces versions de Finance and Operations, vous pouvez analyser les détails des suivis des performances générés directement dans l’application. Vous ne devez pas les exporter depuis l’application et les importer dans RCS.
+Si vous utilisez une de ces versions de Finance et Opérations, vous pouvez analyser les détails des suivis des performances générés directement dans l’application. Vous ne devez pas les exporter depuis l’application et les importer dans RCS.
 
 ## <a name="review-the-execution-trace-by-using-external-tools"></a>Examiner le suivi d’exécution à l’aide d’outils externes
 
@@ -355,7 +355,7 @@ Si vous utilisez une de ces versions de Finance and Operations, vous pouvez anal
 
 ### <a name="run-the-er-format"></a>Exécuter le format ER
 
-Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cette rubrique pour générer un nouveau suivi des performances.
+Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cet article pour générer un nouveau suivi des performances.
 
 Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier contient le suivi des performances dans le format PerfView. Vous pouvez ensuite utiliser l’outil d’analyse des performances PerfView pour analyser les détails de l’exécution de format ER.
 
@@ -379,7 +379,7 @@ En raison des améliorations apportées à la structure ER, le suivi des perform
 
 ### <a name="run-the-er-format"></a>Exécuter le format ER
 
-Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cette rubrique pour générer un nouveau suivi des performances.
+Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cet article pour générer un nouveau suivi des performances.
 
 Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier contient le suivi des performances dans le format PerfView. Vous pouvez ensuite utiliser l’outil d’analyse des performances PerfView pour analyser les détails de l’exécution de format ER. Ce suivi comprend désormais les détails de l’accès à la base de données SQL lors de l’exécution du format ER.
 

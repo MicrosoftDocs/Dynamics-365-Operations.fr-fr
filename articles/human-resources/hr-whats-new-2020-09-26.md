@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources 26 septembre 2020
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 26 septembre 2020.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 26 septembre 2020.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874244"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 26 septembre 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061382"
 
 
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
 Pour plus d’informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de la 2e vague de lancement Dynamics 365 Human Resources 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -46,9 +46,9 @@ La fonctionnalité suivante est généralement disponible avec cette version :
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il peut y avoir des mises à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il peut y avoir des mises à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème | Sortie | Description |
+| Numéro du problème | Problème | Description |
 | --- | --- | --- |
 | 469495 | Mettre à jour la grille et la boîte de dialogue des dimensions financières par défaut | La grille et la boîte de dialogue des dimensions financières sont mises à jour dans Human Resources. |
 | 474887 | L’élément de travail de demande de congé ouvre un lien incorrect dans une décision manuelle | Lorsqu’une configuration de workflow contient une décision manuelle, accéder à la demande de congé depuis **Éléments de travail qui me sont affectés** ouvre le mauvais lien, affichant soit un formulaire vierge, soit une demande de congé créée par l’utilisateur actuel au lieu de celle qui lui est affectée pour la décision manuelle. |

@@ -1,6 +1,6 @@
 ---
 title: Modifier l’ordre de tri pour les entités de promotion des ventes
-description: Cette rubrique explique les concepts relatifs aux contrôle de l’ordre d’affichage pour différentes entités associées à un événement de promotion des ventes dans Dynamics 365 Commerce.
+description: Cet article explique les concepts relatifs aux contrôle de l’ordre d’affichage pour différentes entités associées à un événement de promotion des ventes dans Dynamics 365 Commerce.
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847652"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Modifier l’ordre de tri pour les entités de promotion des ventes
 
@@ -29,7 +29,7 @@ ms.locfileid: "7779540"
 
 Les détaillants considèrent que la découverte d’un produit est l’outil principal pour l’interaction de clients entre les canaux. Différentes fonctionnalités peuvent aider les clients à découvrir facilement des produits. Ils peuvent par exemple parcourir des catégories, faire des recherches, et filtrer.
 
-Cette rubrique explique les concepts relatifs aux contrôle de l’ordre d’affichage pour différentes entités associées à un événement de promotion des ventes. Elle décrit également comment modifier l’ordre de tri.
+Cet article explique les concepts relatifs aux contrôle de l’ordre d’affichage pour différentes entités associées à un événement de promotion des ventes. Elle décrit également comment modifier l’ordre de tri.
 
 ## <a name="overview"></a>Présentation
 

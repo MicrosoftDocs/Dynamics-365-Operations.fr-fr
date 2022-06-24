@@ -1,6 +1,6 @@
 ---
 title: Ajout d’informations sur la gestion du crédit pour des clients
-description: Cette rubrique explique comment ajouter des informations de gestion de crédit pour un client.
+description: Cet article explique comment ajouter des informations de gestion de crédit pour un client.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 5cdbae5e1fae8cb1922e165d30dd555a4ef375d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861587"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Ajout d’informations sur la gestion du crédit pour des clients
 

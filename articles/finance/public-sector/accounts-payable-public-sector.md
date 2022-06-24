@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la comptabilité fournisseur (Secteur public)
-description: Cette rubrique explique la fonctionnalité Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 Finance. Ma
+description: Cet article explique la fonctionnalité Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 Finance. Ma
 author: v-kiarnd
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ddd7fed6177038860c861d4cd90e278d33fccfd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 8b82d7b36ec361a8bbaded9e3b1fbdce970d1d35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853135"
 ---
 # <a name="accounts-payable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité fournisseur (Secteur public)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité Secteur public dans le secteur public qui est intégrée à Dynamics 365 Finance. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les pages de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur. 
+Cet article décrit la fonctionnalité Secteur public dans le secteur public qui est intégrée à Dynamics 365 Finance. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les pages de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur. 
 
 ## <a name="what-are-the-prerequisites-for-setting-up-accounts-payable-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la comptabilité fournisseur dans le secteur public ?
 

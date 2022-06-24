@@ -1,6 +1,6 @@
 ---
 title: ID enregistrement
-description: Cette rubrique fournit des informations sur le paramétrage et l’utilisation des ID d’enregistrement.
+description: Cet article fournit des informations sur le paramétrage et l’utilisation des ID d’enregistrement.
 author: ShylaThompson
 ms.date: 11/08/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 379cf78ece388f738fad8121d5b0adb4434d7905
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883073"
 ---
 # <a name="registration-ids"></a>ID enregistrement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur le paramétrage et l’utilisation des ID d’enregistrement.
+Cet article fournit des informations sur le paramétrage et l’utilisation des ID d’enregistrement.
 
-De nombreux pays et régions ont différentes réglementations et exigences pour l’enregistrement des numéros ou ID d’enregistrement. Cette rubrique donne une vue d’ensemble des paramètres requis et du traitement des types d’enregistrement pris en charge pour les parties dans différents pays/régions européens. Tous les pays/régions ont leurs exigences de prise en charge des différentes fonctionnalités spécifiques au pays relatives aux numéros d’enregistrement fournis par les différents bureaux publics. Parmi les exemples de numéros d’enregistrement, on peut citer le numéro de sécurité sociale (SSN), le numéro d’identification de taxe (TIN) et l’identification de TVA européenne (ID de TVA européen). Cette fonctionnalité fournit un cadre unifié pour tous les pays de toutes les régions en tenant compte des exigences spécifiques au pays de certains pays européens. Les sections suivantes décrivent le flux global d’informations utilisé pour le paramétrage et le traitement des ID d’enregistrement.
+De nombreux pays et régions ont différentes réglementations et exigences pour l’enregistrement des numéros ou ID d’enregistrement. Cet article donne une vue d’ensemble des paramètres requis et du traitement des types d’enregistrement pris en charge pour les parties dans différents pays/régions européens. Tous les pays/régions ont leurs exigences de prise en charge des différentes fonctionnalités spécifiques au pays relatives aux numéros d’enregistrement fournis par les différents bureaux publics. Parmi les exemples de numéros d’enregistrement, on peut citer le numéro de sécurité sociale (SSN), le numéro d’identification de taxe (TIN) et l’identification de TVA européenne (ID de TVA européen). Cette fonctionnalité fournit un cadre unifié pour tous les pays de toutes les régions en tenant compte des exigences spécifiques au pays de certains pays européens. Les sections suivantes décrivent le flux global d’informations utilisé pour le paramétrage et le traitement des ID d’enregistrement.
 
 ## <a name="registration-type-creation"></a>Création d’un type d’enregistrement
 Avant de pouvoir entrer des ID d’enregistrement, vous devez paramétrer des types d’enregistrement pour les différents types de numéros d’enregistrement auxquels chaque partie est soumise. Accédez à **Administration d’organisation** &gt; **Carnet d’adresses global** &gt; **Types d’enregistrements** &gt; **Types d’enregistrements** pour créer et gérer les types d’enregistrement pour les fournisseurs, les clients, les collaborateurs et les entités juridiques dans différents pays/régions.
@@ -51,7 +51,7 @@ Une catégorie d’enregistrement est un identificateur d’enregistrement de pa
 |-----------------------|----------------|
 | Type d’enregistrement     | Type d’enregistrement dans un pays/région particulier.|
 | Limité à         | Le type de restriction s’applique au type d’enregistrement de taxe : Aucun, Personne, Organisation.|
-| Catégorie d’enregistrement | Identificateur d’enregistrement unique approuvé pour être utilisé dans le pays. La liste complète des catégories prises en charge apparaît plus loin dans cette rubrique. |
+| Catégorie d’enregistrement | Identificateur d’enregistrement unique approuvé pour être utilisé dans le pays. La liste complète des catégories prises en charge apparaît plus loin dans cet article. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Entrer les ID d’enregistrement pour les enregistrements de carnet d’adresses global
 
@@ -76,7 +76,7 @@ Le Carnet d’adresses global (GAB) contient les informations d’adresse consol
 La recherche d’enregistrements de partie basée sur un ID d’enregistrement est disponible dans les écrans associés à la partie, à l’entité juridique, au fournisseur, au client et au collaborateur. Cliquez sur **Recherche d’ID d’enregistrement** pour ouvrir la page **Critères de recherche d’ID d’enregistrement**. Spécifiez les critères de recherche et cliquez sur **Rechercher**. Le système affiche les enregistrements sélectionnés dans le carnet d’adresses global et les types associés d’enregistrement de partie.
 
 ## <a name="supported-registration-categories"></a>Catégories d’enregistrement prises en charge
-Le tableau suivant répertorie les types d’enregistrements pris en charge. Si vous connaissez les champs Microsoft Dynamics AX 2012 pour les ID d’enregistrement, ce tableau met également en correspondance ces champs avec les catégories d’enregistrement de Dynamics 365 Finance.
+Le tableau suivant répertorie les types d’enregistrements pris en charge. Si vous connaissez les champs Microsoft Dynamics AX 2012 pour les ID d’enregistrement, ce tableau met également en correspondance ces champs avec les catégories d’enregistrement de Dynamics 365 Finance.
 
 | Catégorie d’enregistrement de Finance         |Pays/région  | Terme/champ Dynamics AX 2012|
 |---------------------------------------------------------------|---------------------|---------------------------------|

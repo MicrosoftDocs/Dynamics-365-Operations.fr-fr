@@ -1,6 +1,6 @@
 ---
 title: Consolider les expéditions lorsque la stratégie de consolidation des expéditions est remplacée
-description: Cette rubrique présente un scénario dans lequel une ou plusieurs lignes de vente doivent être validées manuellement dans l’entrepôt à partir de la page Lancement dans l’entrepôt et la stratégie de consolidation des expéditions définie par le système doit être remplacée avant la libération.
+description: Cet article présente un scénario dans lequel une ou plusieurs lignes de vente doivent être validées manuellement dans l’entrepôt à partir de la page Lancement dans l’entrepôt et la stratégie de consolidation des expéditions définie par le système doit être remplacée avant la libération.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8b1c8ac41fe0941c9bbfce20ce593eafe5699ef1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878698"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Consolider les expéditions lorsque la stratégie de consolidation des expéditions est remplacée
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente un scénario dans lequel une ou plusieurs lignes de vente doivent être validées manuellement dans l’entrepôt à partir de la page **Lancement dans l’entrepôt** et la stratégie de consolidation des expéditions définie par le système doit être remplacée avant la libération. Un remplacement de la stratégie de consolidation des expéditions peut être nécessaire si, par exemple, une commande qui n’est généralement pas consolidée avec des expéditions en cours doit être consolidée avec des expéditions en cours.
+Cet article présente un scénario dans lequel une ou plusieurs lignes de vente doivent être validées manuellement dans l’entrepôt à partir de la page **Lancement dans l’entrepôt** et la stratégie de consolidation des expéditions définie par le système doit être remplacée avant la libération. Un remplacement de la stratégie de consolidation des expéditions peut être nécessaire si, par exemple, une commande qui n’est généralement pas consolidée avec des expéditions en cours doit être consolidée avec des expéditions en cours.
 
 Au cours du scénario, vous allez créer un ensemble de commandes client, puis remplacer la stratégie de consolidation des expéditions par défaut avant de lancer les commandes dans l’entrepôt.
 
 ## <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Le scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
+Le scénario de cet article fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configurer des stratégies de consolidation d’expédition et des filtres de produits
 

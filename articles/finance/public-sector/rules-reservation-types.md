@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des règles de réservation budgétaire générale et des types de réservation
-description: Cette rubrique explique la procédure de paramétrage et de modification des règles de réservation budgétaire générale et des types de réservations pour le secteur public.
+description: Cet article explique la procédure de paramétrage et de modification des règles de réservation budgétaire générale et des types de réservations pour le secteur public.
 author: AlexRenney
 ms.date: 04/25/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7451403e957980e2a160741e11a439bb50ef6133
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 70682f69c3adf633f1eeed5d6756573303eb6180
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879388"
 ---
 # <a name="set-up-general-budget-reservation-rules-and-reservation-types"></a>Paramétrer des règles de réservation budgétaire générale et des types de réservation
 
@@ -30,7 +30,7 @@ Les entités du secteur public utilisent souvent des réservations budgétaires 
 > [!NOTE]
 > Si votre organisation réside en France, vous utilisez des engagements à la place des réservations budgétaires générales.
 
-L’illustration suivante indique comment paramétrer le système pour utiliser des réservations budgétaires générales. Chaque étape numérotée correspond à une section de cette rubrique.
+L’illustration suivante indique comment paramétrer le système pour utiliser des réservations budgétaires générales. Chaque étape numérotée correspond à une section de cet article.
 
 ![Paramétrage de la réservation budgétaire générale.](media/gbr-rules-reservations-process.jpg "Paramétrage de la réservation budgétaire générale")
 

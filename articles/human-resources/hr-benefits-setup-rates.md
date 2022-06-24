@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868157"
 ---
 # <a name="configure-rates"></a>Configurer les taux
 
@@ -47,7 +47,7 @@ Utilisez les taux pour déterminer combien les employés et les employeurs paien
    | **Date d’effet** | Date à laquelle ce taux devient effectif. La valeur par défaut est la date système actuelle. Cette date doit coïncider ou être antérieure à votre période d’avantage. Une bonne pratique consiste à fixer cette date à la date du régime d’avantages. |
    | **Expiration** | Date de fin du taux. 31/12/2154 (qui représente jamais) est la valeur par défaut. |
    | **Utiliser les niveaux** |  Utilisez ce champ si vous avez une logique qui doit être utilisée pour déterminer un taux. Par exemple, si un taux doit augmenter en fonction de l’âge, sélectionnez une valeur ici. Sélectionnez **Niveau unique** pour un taux d’avantage à un niveau ou **Deux niveaux** pour un taux d’avantage à deux niveaux. Un exemple de double niveau est un niveau basé sur le sexe et l’âge. Après avoir sélectionné une valeur, sélectionnez **Actions**, puis sélectionnez **Taux de niveau**. Si vous avez un taux forfaitaire qui ne change pas, laissez ce champ vide. |
-   | **Fréquence de paiement** | Précisez la fréquence à laquelle le taux de prime des prestations doit être payé au prestataire. Les tarifs que vous saisissez sur la page, décrits plus loin dans cette rubrique, seront basés sur la fréquence de paiement que vous spécifiez ici. Par exemple, si vous saisissez **Mensuel** dans ce champ, et que vous saisissez un taux d’employé de **100 EUR**, cela suppose que l’avantage coûtera à l’employé 100 EUR par mois. Cependant, un employé peut être payé deux fois par mois, en fonction de la fréquence de paiement des avantages définie dans son enregistrement. Dans ce cas, lorsque l’employé se connecte au **Libre service des employés**, le montant qu’il paiera sera de 50 EUR, car le taux affiché par le **Libre service des employés** est basé sur la fréquence de paiement de l’employé. |
+   | **Fréquence de paiement** | Précisez la fréquence à laquelle le taux de prime des prestations doit être payé au prestataire. Les tarifs que vous saisissez sur la page, décrits plus loin dans cet article, seront basés sur la fréquence de paiement que vous spécifiez ici. Par exemple, si vous saisissez **Mensuel** dans ce champ, et que vous saisissez un taux d’employé de **100 EUR**, cela suppose que l’avantage coûtera à l’employé 100 EUR par mois. Cependant, un employé peut être payé deux fois par mois, en fonction de la fréquence de paiement des avantages définie dans son enregistrement. Dans ce cas, lorsque l’employé se connecte au **Libre service des employés**, le montant qu’il paiera sera de 50 EUR, car le taux affiché par le **Libre service des employés** est basé sur la fréquence de paiement de l’employé. |
    | **Arrondi du taux de la fréquence de rémunération** | Les méthodes pour arrondir le taux sont : Standard, Tronqué, Normal, Inférieur et Arrondi vers le haut. </br></br><ul><li>**Standard** : Toujours arrondir vers le haut. Par exemple, 10,611 sera arrondi à 10,62. -10,231 sera arrondi à -10,23. </li><li>**Tronqué** : Toujours arrondir vers le bas. Par exemple, 10,619 sera arrondi à 10,61. -10,231 sera arrondi à -10,24. </li><li>**Normal** : les valeurs décimales se terminant par 5 ou un chiffre supérieur seront arrondies en s’éloignant de zéro. Les valeurs décimales se terminant par 4 ou un chiffre inférieur seront arrondies vers zéro. Par exemple, 10,615 sera arrondi à 10,62. -10,235 sera arrondi à -10,24. 10,614 sera arrondi à 10,61. -10,234 sera arrondi à -10,23. </li><li>**Vers le bas** : Arrondir vers zéro. Par exemple, 10,619 sera arrondi à 10,61. -10,231 sera arrondi à -10,23. </li><li>**Arrondir vers le haut** : Arrondir en s’éloignant de zéro. Par exemple, 10,619 sera arrondi à 10,62. -10,231 sera arrondi à -10,24. |
    | **Montant de l’employé non fumeur** | Le montant que le fournisseur d’avantages facture pour un employé non-fumeur. Il s’agit du montant que l’employeur verse au fournisseur d’avantage et il doit être basé sur la fréquence de paiement pour la configuration du taux. |
    | **Montant de l’employeur non fumeur** | Le montant que le fournisseur d’avantages facture pour un employé non-fumeur. Il s’agit du montant que l’employeur verse au prestataire de l’avantage et il doit être basé sur la fréquence de paiement pour la configuration du taux. |

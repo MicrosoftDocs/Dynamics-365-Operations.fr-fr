@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des catégories de compte principal
-description: Cette rubrique explique comment paramétrer les catégories de compte principales dans Dynamics 365 Finance.
+description: Cet article explique comment paramétrer les catégories de compte principales dans Dynamics 365 Finance.
 author: aprilolson
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb41f1b7200363f8846c406d5c20338f6ea242bd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c48011c9988bdca694851476540db574efef7909
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879561"
 ---
 # <a name="set-up-main-account-categories"></a>Paramétrer des catégories de compte principal
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer les catégories de compte principales. Les catégories de compte principal sont utilisées pour les états par défaut dans les états financiers et dans Power BI. Les catégories de compte principal créées par défaut peuvent être renommées mais pas supprimées. Des catégories de compte supplémentaires peuvent être créées et utilisées à des fins de génération d’états et d’analyse. Cette rubrique utilise la société fictive USMF.
+Cet article explique comment paramétrer les catégories de compte principales. Les catégories de compte principal sont utilisées pour les états par défaut dans les états financiers et dans Power BI. Les catégories de compte principal créées par défaut peuvent être renommées mais pas supprimées. Des catégories de compte supplémentaires peuvent être créées et utilisées à des fins de génération d’états et d’analyse. La société fictive USMF sert d’exemple dans cet article.
 
 ## <a name="create-a-main-account-category"></a>Créer une catégorie de compte principal
 1. Dans le volet de navigation, accédez à **Modules > Comptabilité > Plan de comptes > Comptes > Catégories de compte principales**.

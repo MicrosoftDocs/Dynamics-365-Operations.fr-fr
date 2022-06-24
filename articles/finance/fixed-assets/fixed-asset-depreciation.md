@@ -1,6 +1,6 @@
 ---
 title: Amortissement des immobilisations
-description: Cette rubrique fournit une vue d’ensemble de l’amortissement dans Immobilisations.
+description: Cet article fournit une vue d’ensemble de l’amortissement dans Immobilisations.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b4fedee481b4066c81671cf1fca3781c8c75aaeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874521"
 ---
 # <a name="fixed-asset-depreciation"></a>Amortissement des immobilisations
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de l’amortissement dans Immobilisations.
+Cet article fournit une vue d’ensemble de l’amortissement dans Immobilisations.
 
 L’amortissement est une transaction périodique qui réduit généralement la valeur des immobilisations dans le bilan et est facturé comme une dépense dans le compte de résultat. Par conséquent, un compte principal est généralement utilisé pour créditer l’amortissement périodique dans le bilan. Un compte de contrepartie est un compte dans la partie résultat du plan de comptes.
 
-À partir de la version 10.0.24, l'option de configuration du registre des immobilisations **Calculer l'amortissement positif** de la page **Registres** permet à l'amortissement de débiter une immobilisation acquise avec une valeur comptable négative (crédit).
+À partir de la version 10.0.24, l’option de configuration du registre des immobilisations **Calculer l’amortissement positif** de la page **Registres** permet à l’amortissement de débiter une immobilisation acquise avec une valeur comptable négative (crédit).
 
 ## <a name="depreciation-adjustment"></a>Ajustement de l’amortissement
 En règle générale, seule la correction d’une transaction d’amortissement déjà validée peut être validée en tant qu’ajustement d’amortissement. Par conséquent, le compte principal et le compte de contrepartie sont paramétrés de la même manière que les comptes d’amortissement. Un ajustement de l’amortissement peut correspondre à un montant positif ou négatif mais la fonctionnalité du compte principal (en tant que compte de bilan) et de la fonctionnalité du compte de contrepartie (généralement en tant que compte de résultat) reste la même.

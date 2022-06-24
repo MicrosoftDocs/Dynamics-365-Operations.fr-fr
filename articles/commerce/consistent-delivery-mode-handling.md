@@ -1,6 +1,6 @@
 ---
 title: Activer la gestion cohérente du mode de livraison dans les canaux de commerce électronique
-description: Cette rubrique décrit comment activer la gestion cohérente du mode de livraison pour résoudre les problèmes éventuels liés aux flux de frais dans les canaux de commerce électronique Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment activer la gestion cohérente du mode de livraison pour résoudre les problèmes éventuels liés aux flux de frais dans les canaux de commerce électronique Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885583"
 ---
 # <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Activer la gestion cohérente du mode de livraison dans les canaux de commerce électronique 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment activer la gestion cohérente du mode de livraison pour résoudre les problèmes éventuels liés aux flux de frais dans les canaux de commerce électronique Microsoft Dynamics 365 Commerce.
+Cet article décrit comment activer la gestion cohérente du mode de livraison pour résoudre les problèmes éventuels liés aux flux de frais dans les canaux de commerce électronique Microsoft Dynamics 365 Commerce.
 
 Dans Dynamics 365 Commerce, les frais non calculés au prorata au niveau de l’en-tête ne sont pas appliqués par défaut dans les canaux de commerce électronique. Ce comportement peut entraîner l’un ou l’autre des problèmes suivants dans les canaux de commerce électronique :
 

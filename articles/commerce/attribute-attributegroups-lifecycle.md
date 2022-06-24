@@ -1,6 +1,6 @@
 ---
 title: Gérer des attributs et des groupes d’attributs
-description: Cette rubrique décrit comment utiliser les attributs pour décrire un produit et ses caractéristiques par le biais de champs définis par l’utilisateur.
+description: Cet article décrit comment utiliser les attributs pour décrire un produit et ses caractéristiques par le biais de champs définis par l’utilisateur.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876662"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gérer des attributs et des groupes d’attributs
 
@@ -85,7 +85,7 @@ Les attributs sont basés sur les *types d’attributs*. Le type d’attribut id
 
 *Métadonnées d’attribut* vous permet de sélectionner des options afin de spécifier la manière dont les attributs de chaque produit doivent se comporter. Par exemple, vous pouvez spécifier si les attributs sont obligatoires, s’ils peuvent être utilisés pour les recherches, et s’ils peuvent être utilisés comme filtre.
 
-Pour les produits, les paramètres de métadonnées d’attribut peuvent être remplacés au niveau du canal. Cette capacité sera traitée plus loin dans cette rubrique.
+Pour les produits, les paramètres de métadonnées d’attribut peuvent être remplacés au niveau du canal. Cette capacité sera traitée plus loin dans cet article.
 
 Comme vous pouvez le remarquer, la page **Attributs** contient des options liées aux métadonnées d’attribut. Sous **Métadonnées d’attribut du PDV**, une option nommée **Peut être affiné** affecte le comportement des valeurs d’attribut du point de vente (PDV) ou la façon dont le système gère ces valeurs d’attribut. Seuls les attributs pour lesquels vous pouvez définir l’option **Peut être affiné** sur **Oui** s’affichent à des fins d’affinement ou de filtrage des produits dans le PDV.
 

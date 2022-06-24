@@ -1,6 +1,6 @@
 ---
 title: Stratégies de droit aux avantages
-description: Cette rubrique fournit des informations sur les stratégies de droit aux avantages, qui définissent qui peut prétendre à des avantages spécifiques.
+description: Cet article fournit des informations sur les stratégies de droit aux avantages, qui définissent qui peut prétendre à des avantages spécifiques.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e36235e089fef70bc0d33815cd855628836f58db
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f0b373679690715ddbc518e4df79b81dbb000059
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877772"
 ---
 # <a name="benefit-eligibility-policies"></a>Stratégies de droit aux avantages
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689548"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique fournit des informations sur les stratégies de droit aux avantages, qui définissent qui peut prétendre à des avantages spécifiques.
+Cet article fournit des informations sur les stratégies de droit aux avantages, qui définissent qui peut prétendre à des avantages spécifiques.
 
 Lorsque vous créez des avantages, vous décidez quels avantages sont accessibles pour des employés donnés. Le tableau suivant indique les exemples des avantages que vous pouvez rendre disponibles à des employés spécifiques.
 

@@ -1,6 +1,6 @@
 ---
 title: Authentification de serveur à serveur pour l’API d’intégration ATS
-description: Cette rubrique décrit comment configurer l’authentification de serveur à serveur pour les intégrations par rapport à l’API d’intégration du système de suivi des candidats (ATS) Dynamics 365 Human Resources.
+description: Cet article décrit comment configurer l’authentification de serveur à serveur pour les intégrations par rapport à l’API d’intégration du système de suivi des candidats (ATS) Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743539"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879364"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Authentification de serveur à serveur pour l’API d’intégration ATS
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743539"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit comment configurer l’authentification de serveur à serveur pour les intégrations d’applications par rapport à l’API d’intégration du système de suivi des candidats (ATS) Dynamics 365 Human Resources. Il y a quelques couches de sécurité qui doivent être gérées pour que le principal du service puisse accéder à la table virtuelle Microsoft Dataverse et aux données associées. L’utilisateur doit avoir accès à la table virtuelle Dataverse dans Microsoft Power Platform et accès aux données dans Dynamics 365 Human Resources.
+Cet article décrit comment configurer l’authentification de serveur à serveur pour les intégrations d’applications par rapport à l’API d’intégration du système de suivi des candidats (ATS) Dynamics 365 Human Resources. Il y a quelques couches de sécurité qui doivent être gérées pour que le principal du service puisse accéder à la table virtuelle Microsoft Dataverse et aux données associées. L’utilisateur doit avoir accès à la table virtuelle Dataverse dans Microsoft Power Platform et accès aux données dans Dynamics 365 Human Resources.
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>Activer l’accès aux tables virtuelles Dataverse dans Power Platform
 

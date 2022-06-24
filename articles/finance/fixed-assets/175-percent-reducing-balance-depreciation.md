@@ -1,6 +1,6 @@
 ---
 title: Amortissement dégressif de 175 %
-description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
+description: Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
 author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9424741fa50034a97e9971dcd2d7416968c964
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 68c10a1fe221731f7304fc0da92ed314b66dc13f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870189"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 175 %
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
+Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
 
 Si vous définissez un profil d’amortissement d’immobilisation, puis sélectionnez **Amortissement dégressif de 175 %** dans le champ **Méthode** de la page **Profils d’amortissement**, les immobilisations qui sont affectées à ce profil d’amortissement sont amorties par le même pourcentage pour chaque période d’amortissement. 
 
@@ -41,7 +41,7 @@ Votre sélection détermine les options disponibles dans le champ **Fréquence**
 
 Vous pouvez décider de conserver la valeur par défaut du champ **Année d’amortissement**, **Calendrier**. 
 
-L’option **Calendrier** met à jour la base d’amortissement le 1er janvier de chaque année. Généralement, la base d’amortissement est la valeur nette moins la valeur de mise au rebut. Dans les exemples plus loin dans cette rubrique, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. 
+L’option **Calendrier** met à jour la base d’amortissement le 1er janvier de chaque année. Généralement, la base d’amortissement est la valeur nette moins la valeur de mise au rebut. Dans les exemples plus loin dans cet article, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. 
 
 Si vous sélectionnez **Calendrier** comme année d’amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
 

@@ -1,6 +1,6 @@
 ---
 title: Nomenclature de numéros et de noms de variante de produit
-description: Cette rubrique décrit la procédure de paramétrage d’une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe.
+description: Cet article décrit la procédure de paramétrage d’une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b437279c275244e96692c1a629e891973d30d48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850610"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclature de numéros et de noms de variante de produit
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure de paramétrage d’une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe. La nouvelle nomenclature a un format ciblé qui inclut le numéro du produit générique, les dimensions du produit actif et les séparateurs de texte de votre choix. Vous pouvez également créer une nomenclature pour les noms de produit. Enfin, vous pouvez créer une nomenclature afin d’identifier les configurations créées par le configurateur de produit basé sur les contraintes. Ces nomenclatures peuvent contenir des attributs de votre choix.
+Cet article décrit la procédure de paramétrage d’une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe. La nouvelle nomenclature a un format ciblé qui inclut le numéro du produit générique, les dimensions du produit actif et les séparateurs de texte de votre choix. Vous pouvez également créer une nomenclature pour les noms de produit. Enfin, vous pouvez créer une nomenclature afin d’identifier les configurations créées par le configurateur de produit basé sur les contraintes. Ces nomenclatures peuvent contenir des attributs de votre choix.
 
 Les nouvelles nomenclatures des numéros et des noms de variante de produit vous permettent d’inclure des segments dans les identificateurs des variantes de produit. Ces segments peuvent inclure le numéro et le nom du produit générique, les ID et noms de dimension de produit, les souches de numéros, les constantes de texte et les attributs. Cette fonctionnalité vous permet de rechercher rapidement une variante de produit spécifique lorsque vous créez une commande client ou fournisseur. Vous créez des nomenclatures pour les numéros et les noms de variante de produit à l’aide de la page **Nomenclature de produit**. Pour ouvrir cette page, cliquez sur **Gestion des informations sur les produits** &gt; **Paramétrage**.
 

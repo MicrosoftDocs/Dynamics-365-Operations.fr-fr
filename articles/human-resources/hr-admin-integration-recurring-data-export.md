@@ -1,6 +1,6 @@
 ---
 title: Créer une application d’exportation de données récurrentes
-description: Cette rubrique décrit comment créer une application logique Microsoft Azure qui exporte des données de Microsoft Dynamics 365 Human Resources sur un calendrier récurrent.
+description: Cet article décrit comment créer une application logique Microsoft Azure qui exporte des données de Microsoft Dynamics 365 Human Resources sur un calendrier récurrent.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875827"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Créer une application d’exportation de données récurrentes
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688769"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit comment créer une application logique Microsoft Azure qui exporte des données de Microsoft Dynamics 365 Human Resources sur un calendrier récurrent. Le didacticiel tire parti de l’interface de programmation d’application (API) du package DMF Human Resources pour exporter les données. Une fois les données exportées, l’application logique enregistre le package de données exporté dans un dossier Microsoft OneDrive for Business.
+Cet article décrit comment créer une application logique Microsoft Azure qui exporte des données de Microsoft Dynamics 365 Human Resources sur un calendrier récurrent. Le didacticiel tire parti de l’interface de programmation d’application (API) du package DMF Human Resources pour exporter les données. Une fois les données exportées, l’application logique enregistre le package de données exporté dans un dossier Microsoft OneDrive for Business.
 
 ## <a name="business-scenario"></a>Scénario d’entreprise
 

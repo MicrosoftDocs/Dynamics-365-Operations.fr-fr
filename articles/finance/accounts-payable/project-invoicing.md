@@ -1,6 +1,6 @@
 ---
 title: Facturation de projet
-description: Cette rubrique fournit une vue d’ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs.
+description: Cet article fournit une vue d’ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs.
 author: TaylorVH
 ms.date: 07/10/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: bdb5c9162ab85632c8780a737df0998e4cd34f0c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4af44127d80c943ed9cebeac21d7e9c8372910f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861674"
 ---
 # <a name="project-invoicing"></a>Facturation de projet
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs.
+Cet article fournit une vue d’ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs.
 
 Le type de projet détermine la procédure de facturation applicable. Seuls les deux types de projet externes (en régie et à prix fixe), sont facturables. Les projets en régie et les projets à prix fixe sont toujours liés à un contrat de projet.
 

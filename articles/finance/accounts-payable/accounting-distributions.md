@@ -1,6 +1,6 @@
 ---
 title: Répartitions comptables
-description: Cette rubrique fournit des informations sur les répartitions comptables et décrit les options de traitement disponibles.
+description: Cet article fournit des informations sur les répartitions comptables et décrit les options de traitement disponibles.
 author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8178836318600fd6e702d097062d30b91e6c1a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894198"
 ---
 # <a name="accounting-distributions"></a>Répartitions comptables
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les répartitions comptables et décrit les options disponibles pour les traiter. Les répartitions comptables sont utilisées pour répartir les montants en devises d’un document source dans des comptes généraux spécifiques. 
+Cet article fournit des informations sur les répartitions comptables et décrit les options disponibles pour les traiter. Les répartitions comptables sont utilisées pour répartir les montants en devises d’un document source dans des comptes généraux spécifiques. 
 
 Les répartitions comptables sont une capacité à l’échelle du programme utilisée et étendue par chaque document source, tel qu’une commande fournisseur, une facture fournisseur, un état de dépenses et une facture financière. Par défaut, une répartition comptable par défaut est générée pour chaque ligne de document source et de montant en devises, et est conditionnellement activée pour la modification. 
 

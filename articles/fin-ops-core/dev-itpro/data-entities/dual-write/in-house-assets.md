@@ -1,6 +1,6 @@
 ---
 title: Actifs internes pour la maintenance
-description: Cette rubrique décrit comment vous pouvez utiliser Microsoft Dynamics 365 Field Service pour gérer à la fois les actifs des clients et les actifs internes.
+description: Cet article décrit comment vous pouvez utiliser Microsoft Dynamics 365 Field Service pour gérer à la fois les actifs des clients et les actifs internes.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 8048a99951eea3fbae34e56c1b444c75ad3d199d
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c946af11737a77c4dadd824893e6cc1e4c77b587
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858620"
 ---
 # <a name="in-house-assets-for-servicing"></a>Actifs internes pour la maintenance
 
@@ -28,7 +28,7 @@ Pour plus d’informations, voir [Intégrer Dynamics 365 Field Service et Supply
 
 Les actifs internes incluent un ensemble de mappages de tables de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-| Applications de Finance and Operations | Applications Customer Engagement | Description |
+| Applications de finances et d'opérations | Applications Customer Engagement | Description |
 |-----------------------------|-----------------------------------|-------------|
 [Gestion des actifs Actifs Modèles de cycle de vie](mapping-reference.md#119) | msdyn_assetlifecyclemodels | |
 [Gestion des actifs Actifs Statuts du cycle de vie](mapping-reference.md#120) | msdyn_assetlifecyclestates | |

@@ -1,6 +1,6 @@
 ---
 title: Réviser les informations de recouvrement
-description: Cette rubrique explique comment réviser les informations de recouvrement et utiliser diverses options relatives au paramétrage et aux transactions de recouvrement.
+description: Cet article explique comment réviser les informations de recouvrement et utiliser diverses options relatives au paramétrage et aux transactions de recouvrement.
 author: ShivamPandey-msft
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d0cb09eb6ac455d72e9dd051065625475581416
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6a6916690b9571fcfe103506960032e19fe724df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876209"
 ---
 # <a name="review-collections-information"></a>Réviser les informations de recouvrement
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment réviser les informations de recouvrement et utiliser diverses options relatives au paramétrage et aux transactions de recouvrement. La société fictive USMF sert d’exemple dans cette procédure.
+Cet article explique comment réviser les informations de recouvrement et utiliser diverses options relatives au paramétrage et aux transactions de recouvrement. La société fictive USMF sert d’exemple dans cette procédure.
 
 ## <a name="create-customer-pools"></a>Créer des regroupements de clients
 1. Dans le volet de navigation, accédez à **Modules > Crédit et recouvrements > Paramétrage > Regroupements de clients**.

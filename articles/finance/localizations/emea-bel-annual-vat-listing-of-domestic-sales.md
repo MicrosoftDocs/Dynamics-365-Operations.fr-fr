@@ -1,6 +1,6 @@
 ---
 title: Liste annuelle de TVA des ventes intérieures
-description: Cette rubrique fournit des informations sur la liste TVA annuelle belge des ventes intérieures ou l’état du chiffre d’affaires des factures.
+description: Cet article fournit des informations sur la liste TVA annuelle belge des ventes intérieures ou l’état du chiffre d’affaires des factures.
 author: andosip
 ms.date: 09/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Belgium
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea209f5a2d5db9cecff392b77818be2cf6f888b
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 33e4040cd7f11289909807b8caff6022f60c65d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894000"
 ---
 # <a name="annual-vat-listing-of-domestic-sales"></a>Liste annuelle de TVA des ventes intérieures
 
@@ -110,7 +110,7 @@ Vous devez créer deux types d’enregistrement pour les sociétés : un pour l
 1. Accédez à **Taxe** > **Recherche et états** > **États de taxe** > **État du chiffre d’affaires des factures – Belgique**.
 2. Dans la boîte de dialogue **État du chiffre d’affaires des factures**, définissez les champs suivants :
 
-    | Champ                                 | Description                                                                                                            |
+    | Champ                                 | Description                                                                                                           |
     |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
     | Date de début                             | Permet de sélectionner la date de début de l’état.                                                                                  |
     | Au                               | Permet de sélectionner la date de fin de l’état.                                                                                    |
@@ -223,7 +223,7 @@ Vous devez créer deux types d’enregistrement pour les sociétés : un pour l
     3. Dans la section **Gestion des états électroniques**, dans le champ **Mise en correspondance des formats**, sélectionnez **État sur le chiffre d’affaires des factures (BE)**.
     4. Cliquez sur **OK** et examinez le fichier pour l’état. Le tableau suivant indique les valeurs dans l’exemple d’état.
 
-        | Nom du champ                     | Valeur                                 |
+        | Nom du champ                     | Valeur                                |
         |--------------------------------|--------------------------------------|
         | ClientListingsNbr              | 1                                    |
         | ClientListing VATAmountSum     | 19                                   |

@@ -1,6 +1,6 @@
 ---
 title: Informations de paiement du client (Aperçu)
-description: Cette rubrique décrit la fonctionnalité d’informations de paiement qui vous aident à mieux comprendre les pratiques de paiement typiques d’un client individuel. La fonctionnalité peut vous aider à identifier les circonstances qui justifient de démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement.
+description: Cet article décrit la fonctionnalité d’informations de paiement qui vous aident à mieux comprendre les pratiques de paiement typiques d’un client individuel. La fonctionnalité peut vous aider à identifier les circonstances qui justifient de démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 59613e41eed95c248595be006f13fb2f32854728
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 54655d2b1cfb4b11f32842d4c3cff2f4d8e97ef5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856797"
 ---
 # <a name="customer-payment-insights-preview"></a>Informations de paiement du client (Aperçu)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique décrit la fonctionnalité d’informations de paiement qui vous aident à mieux comprendre les pratiques de paiement typiques d’un client individuel. La fonctionnalité peut vous aider à identifier les circonstances qui justifient de démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement. 
+Cet article décrit la fonctionnalité d’informations de paiement qui vous aident à mieux comprendre les pratiques de paiement typiques d’un client individuel. La fonctionnalité peut vous aider à identifier les circonstances qui justifient de démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement. 
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -69,7 +69,7 @@ Envoyer un e-mail à [Informations de paiement du client (version préliminaire)
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
-Les version préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas incluses dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisées pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
+Les version préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance et Opérations, (2) ne sont pas incluses dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisées pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
 
 
 

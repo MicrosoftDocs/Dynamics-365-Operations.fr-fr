@@ -1,6 +1,6 @@
 ---
 title: Description du service pour les applications de finances et d’opérations
-description: Cette rubrique fournit la description du service pour les applications de finances et d’opérations.
+description: Cet article fournit la description du service pour les applications de finances et d’opérations.
 author: tomhig
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
-ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
+ms.openlocfilehash: 756895ab0ccdbd2bc42f0a750ad9895ee7b284a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8758767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847158"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Description du service pour les applications de finances et d’opérations
 
@@ -381,7 +381,7 @@ Le partenaire que le client choisit pour personnaliser, configurer, mettre en œ
 
 ### <a name="incident"></a>Incident
 
-Un problème que les clients rencontrent quand  ils utilisent le service de finances et d’opérations, et qu’ils soumettent un ticket via LCS.
+Un problème que les clients rencontrent quand ils utilisent le service de finances et d’opérations, et qu’ils soumettent un ticket via LCS.
 
 ### <a name="microsoft-customer-support-services-css"></a>Services de support client Microsoft (CSS)
 

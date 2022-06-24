@@ -1,6 +1,6 @@
 ---
 title: Classement des travaux dirigés par le système
-description: Cette rubrique fournit des informations sur le classement des travaux dirigés par le système. Cette fonctionnalité vous permet de trier et de filtrer les ordres de travail que le système présente aux utilisateurs pour exécution. Elle est utile dans les scénarios où des critères supplémentaires sont nécessaires pour piloter le processus de prélèvement de l’entrepôt.
+description: Cet article fournit des informations sur le classement des travaux dirigés par le système. Cette fonctionnalité vous permet de trier et de filtrer les ordres de travail que le système présente aux utilisateurs pour exécution. Elle est utile dans les scénarios où des critères supplémentaires sont nécessaires pour piloter le processus de prélèvement de l’entrepôt.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849124"
 ---
 # <a name="system-directed-work-sequencing"></a>Classement des travaux dirigés par le système
 
@@ -44,7 +44,7 @@ Avant de pouvoir utiliser le classement des travaux dirigés par le système, la
 
 ### <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Pour utiliser le scénario à l’aide des valeurs présentées dans cette rubrique, vous devez utiliser un système sous lequel les données de démonstration standard sont installées. De plus, vous devez sélectionner l’entité juridique **USMF**. Le scénario utilise l’entrepôt *51* à partir des données de démonstration.
+Pour utiliser le scénario à l’aide des valeurs présentées dans cet article, vous devez utiliser un système sous lequel les données de démonstration standard sont installées. De plus, vous devez sélectionner l’entité juridique **USMF**. Le scénario utilise l’entrepôt *51* à partir des données de démonstration.
 
 > [!IMPORTANT]
 > Avant de lancer les commandes à l’entrepôt, assurez-vous que les emplacements de prélèvement disposent d’un stock suffisant pour tous les articles des commandes.

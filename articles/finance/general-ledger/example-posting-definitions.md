@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722547"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865770"
 ---
 # <a name="posting-definition-examples"></a>Exemples de définitions de validation
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722547"
 
 Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.
 
-Avant de lire cette rubrique, vous devez être familiarisé avec les définitions de validation et de validation de transaction. Pour plus d’informations, voir [Définitions de validation](posting-definitions.md). Les exemples suivants peuvent être configurés dans la page **Définitions de validation**. Chaque exemple contient les sections suivantes :
+Avant de lire cet article, vous devez être familiarisé avec les définitions de validation et de validation de transaction. Pour plus d’informations, voir [Définitions de validation](posting-definitions.md). Les exemples suivants peuvent être configurés dans la page **Définitions de validation**. Chaque exemple contient les sections suivantes :
 
 -   Définition de validation – Critères de rapprochement
 -   Définition de validation – Entrées générées

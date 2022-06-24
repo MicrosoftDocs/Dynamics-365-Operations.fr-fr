@@ -1,6 +1,6 @@
 ---
 title: Affecter des souches de N°
-description: Cette rubrique explique comment créer des souches de N° pour les ID de bail. Il explique également comment créer des ID uniques qui sont utilisés dans le processus de réévaluation de l’indice.
+description: Cet article explique comment créer des souches de N° pour les ID de bail. Il explique également comment créer des ID uniques qui sont utilisés dans le processus de réévaluation de l’indice.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 71a6f27b4067eadb3d17b6fc14de366fcc441230
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ee7547f9a46034238f2bd6c668c124852b3e0714
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845314"
 ---
 # <a name="assign-number-sequences"></a>Affecter des souches de N°
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment créer des souches de N° pour les ID de bail. Il explique également comment créer des ID uniques qui sont utilisés dans le processus de réévaluation de l’indice.
+Cet article explique comment créer des souches de N° pour les ID de bail. Il explique également comment créer des ID uniques qui sont utilisés dans le processus de réévaluation de l’indice.
 
 1. Accédez à **Location d’actifs \> Configuration \> Paramètres de location d’actif**.
 2. Sélectionnez l’onglet latéral **Souches de N°**.

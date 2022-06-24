@@ -1,6 +1,6 @@
 ---
-title: Options de calcul montant entier et intervalle pour les codes taxe
-description: Cette rubrique décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
+title: Options de calcul Montant entier et Intervalle pour les codes taxe
+description: Cet article décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874459"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Options de calcul montant entier et intervalle pour les codes taxe
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Options de calcul Montant entier et Intervalle pour les codes taxe
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les options du champ **Mode de calcul** sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
+Cet article décrit les options du champ **Mode de calcul** sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
 
 Vous pouvez paramétrer un code taxe à calculer en fonction d’un montant entier ou d’un intervalle. Dans la page **Codes taxe**, utilisez le champ **Mode de calcul** du raccourci **Calcul** pour sélectionner le mode de calcul du code taxe.
 - Montant entier – Le taux de taxe est appliqué au montant imposable entier.

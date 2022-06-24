@@ -1,6 +1,6 @@
 ---
 title: Modèles de planification budgétaire pour Excel
-description: Cette rubrique décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires.
+description: Cet article décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872497"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modèles de planification budgétaire pour Excel
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires.
+Cet article décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires.
 
-Cette rubrique explique comment créer des modèles Excel qui seront utilisés avec les plans budgétaires à l’aide de l’ensemble de données de démonstration standard et de la connexion utilisateur Administrateur. Pour plus d’informations sur la planification budgétaire, voir [Vue d’ensemble de la planification budgétaire](budget-planning-overview-configuration.md). Vous pouvez également suivre le didacticiel [Planification budgétaire](budget-plan.md) pour connaître les principes de configuration et d’utilisation du module de base.
+Cet article explique comment créer des modèles Excel qui seront utilisés avec les plans budgétaires à l’aide de l’ensemble de données de démonstration standard et de la connexion utilisateur Administrateur. Pour plus d’informations sur la planification budgétaire, voir [Vue d’ensemble de la planification budgétaire](budget-planning-overview-configuration.md). Vous pouvez également suivre le didacticiel [Planification budgétaire](budget-plan.md) pour connaître les principes de configuration et d’utilisation du module de base.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Générer une feuille de calcul à l’aide de la mise en page des documents du plan budgétaire
 
-Les documents du plan budgétaire peuvent être affichés et modifiés à l’aide d’une ou de plusieurs mises en page. Chaque mise en page peut être associée à un modèle de document de plan budgétaire pour afficher et modifier les données du plan budgétaire dans une feuille de calcul Excel. Dans cette rubrique, un modèle de document de plan budgétaire sera généré à l’aide d’une configuration de mise en page existante. 
+Les documents du plan budgétaire peuvent être affichés et modifiés à l’aide d’une ou de plusieurs mises en page. Chaque mise en page peut être associée à un modèle de document de plan budgétaire pour afficher et modifier les données du plan budgétaire dans une feuille de calcul Excel. Dans cet article, un modèle de document de plan budgétaire sera généré à l’aide d’une configuration de mise en page existante. 
 
 1. Ouvrez la liste **Plans budgétaires** (**Budgétisation** &gt; **Plans budgétaires**). 
 2. Cliquez sur **Nouveau** pour créer un document de plan budgétaire. 
@@ -55,7 +55,7 @@ Vous pouvez examiner la configuration de la mise en page et l’ajuster si néce
 Le modèle Excel contiendra tous les éléments de la mise en page du document de plan budgétaire, avec la colonne **Disponible dans la feuille de calcul** définie sur Vrai. Les éléments ne peuvent pas se chevaucher dans le modèle Excel. Par exemple, si la mise en page contient les colonnes Demande T1, Demande T2, Demande T3 et Demande T4, et une colonne Demande totale qui représente la somme des 4 colonnes trimestrielles, seules les colonnes trimestrielles ou la colonne de total peuvent être utilisées dans le modèle Excel. Le fichier Excel ne peut pas mettre à jour les colonnes qui se chevauchent pendant la mise à jour, car les données de la table peuvent devenir obsolètes et inexactes.
 
 > [!NOTE] 
-> Pour éviter les problèmes potentiels d'affichage et de modification des données du plan budgétaire à l'aide d'Excel, le même utilisateur doit être connecté dans Microsoft Dynamics 365 Finance et le connecteur de données du complément Office Microsoft Dynamics.
+> Pour éviter les problèmes potentiels d’affichage et de modification des données du plan budgétaire à l’aide d’Excel, le même utilisateur doit être connecté dans Microsoft Dynamics 365 Finance et le connecteur de données du complément Office Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Ajouter un en-tête au modèle de document de plan budgétaire
 Pour ajouter des informations d’en-tête, sélectionnez la ligne supérieure dans le fichier Excel et insérez des lignes vides. Cliquez sur **Créer** dans le **Connecteur de données** pour ajouter des champs d’en-tête au fichier Excel.

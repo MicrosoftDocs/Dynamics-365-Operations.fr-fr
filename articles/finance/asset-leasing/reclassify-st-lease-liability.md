@@ -1,6 +1,6 @@
 ---
 title: Reclasser la partie à court terme d’un passif locatif
-description: Cette rubrique explique comment créer une entrée de journal mensuelle pour reclasser une partie du passif locatif comme à court terme.
+description: Cet article explique comment créer une entrée de journal mensuelle pour reclasser une partie du passif locatif comme à court terme.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3a71b809b4bb16c2b918b7acd4fbb8bc49278ff6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7c7c3f86aa5d24e9aeed89526a4b7317699e9a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886340"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Reclasser la partie à court terme du passif locatif
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment créer une entrée de journal mensuelle pour reclasser une partie du passif locatif comme à court terme. Lorsque la planification sélectionnée dans le traitement par lots est **Reclassement du passif locatif à court terme**, une entrée de journal est créée. Cette entrée est utilisée pour enregistrer la partie courante du passif locatif le dernier jour du mois. Dans le même temps, une écriture de contrepassation est validée à partir du premier jour du mois suivant.
+Cet article explique comment créer une entrée de journal mensuelle pour reclasser une partie du passif locatif comme à court terme. Lorsque la planification sélectionnée dans le traitement par lots est **Reclassement du passif locatif à court terme**, une entrée de journal est créée. Cette entrée est utilisée pour enregistrer la partie courante du passif locatif le dernier jour du mois. Dans le même temps, une écriture de contrepassation est validée à partir du premier jour du mois suivant.
 
 La partie à court terme du passif locatif est présentée dans le tableau d’amortissement du passif. Lorsque l’entrée de journal est validée, la colonne **Journal de reclassement du passif créé** devient disponible et l’ID du journal est également renseignée dans le programme.
 

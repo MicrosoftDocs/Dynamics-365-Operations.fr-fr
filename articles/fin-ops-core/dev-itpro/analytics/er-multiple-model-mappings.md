@@ -1,6 +1,6 @@
 ---
 title: Gérer plusieurs mises en correspondance dérivées pour une seule racine de modèle
-description: Cette rubrique explique comment gérer plusieurs mises en correspondance dérivées configurées pour une seule racine de modèle.
+description: Cet article explique comment gérer plusieurs mises en correspondance dérivées configurées pour une seule racine de modèle.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892477"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gérer plusieurs mises en correspondance dérivées pour une seule racine de modèle
 
@@ -32,9 +32,9 @@ Les composants de mise en correspondance de modèle de gestion des états élect
 
 De nombreux fournisseurs de configuration peuvent proposer des configurations de mappage de modèle de gestion des états électroniques pour le même modèle de données de gestion des états électroniques. Ces configurations de mise en correspondance de modèle peuvent contenir des composants de mise en correspondance pour différentes définitions de racine. Vous pouvez utiliser un mappage de modèle pour une définition racine offerte par un [fournisseur](general-electronic-reporting.md#Provider) et utiliser un mappage de modèle pour une autre définition de racine proposée par un autre fournisseur.
 
-Les procédures de cette rubrique expliquent comment gérer plusieurs configurations de mise en correspondance de modèle de gestion des états électroniques d’un modèle de données de gestion des états électroniques lorsqu’elles contiennent différents composants de mise en correspondance de modèle configurés pour la même définition de racine. 
+Les procédures de cet article expliquent comment gérer plusieurs configurations de mise en correspondance de modèle de gestion des états électroniques d’un modèle de données de gestion des états électroniques lorsqu’elles contiennent différents composants de mise en correspondance de modèle configurés pour la même définition de racine. 
 
-Pour exécuter les procédures dans cette rubrique, vous devez être affecté au rôle Administrateur système ou Développeur d’états électroniques.
+Pour exécuter les procédures dans cet article, vous devez être affecté au rôle Administrateur système ou Développeur d’états électroniques.
 
 Toutes les procédures suivantes peuvent être effectuées dans la société USMF. Aucun codage n’est requis.
 

@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des règlements
-description: Cette rubrique fournit des informations générales sur le processus de règlement. Elle décrit les types de transaction pouvant être réglés, ainsi que le calendrier et le processus de règlement. Elle décrit également les résultats du processus de règlement.
+description: Cet article fournit des informations générales sur le processus de règlement. Elle décrit les types de transaction pouvant être réglés, ainsi que le calendrier et le processus de règlement. Elle décrit également les résultats du processus de règlement.
 author: panolte
 ms.date: 07/30/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1992019570129461f3ecdd5479a87bafd8aeacb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887946"
 ---
 # <a name="settlement-overview"></a>Vue d’ensemble des règlements
 
@@ -30,7 +30,7 @@ ms.locfileid: "8724895"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Cette rubrique fournit des informations générales sur le processus de règlement. Elle décrit les types de transaction pouvant être réglés, ainsi que le calendrier et le processus de règlement. Elle décrit également les résultats du processus de règlement.
+Cet article fournit des informations générales sur le processus de règlement. Elle décrit les types de transaction pouvant être réglés, ainsi que le calendrier et le processus de règlement. Elle décrit également les résultats du processus de règlement.
 
 Lors d’un règlement, les transactions dans un document sont appliquées aux transactions dans un autre document pour augmenter ou diminuer le solde de chaque document. Par exemple, un paiement peut être appliqué à une facture. Différents types de transaction peuvent être réglés, à différents moments et par différentes méthodes. Le processus de règlement peut également générer de nouvelles transactions.
 

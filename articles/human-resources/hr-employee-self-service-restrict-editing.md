@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877683"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Restreindre la modification des informations personnelles
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695870"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-Cette rubrique décrit comment empêcher les employés de modifier les détails de contact dans Dynamics 365 Human Resources. Vous souhaiterez peut-être empêcher les employés de modifier certaines informations de contact, telles que leur adresse professionnelle ou leur adresse e-mail.
+Cet article décrit comment empêcher les employés de modifier les détails de contact dans Dynamics 365 Human Resources. Vous souhaiterez peut-être empêcher les employés de modifier certaines informations de contact, telles que leur adresse professionnelle ou leur adresse e-mail.
 
 > [!NOTE]
 > Pour utiliser cette fonctionnalité, vous devez d’abord activer **(Aperçu) Empêchez les employés d’ajouter ou de modifier des adresses et des informations de contact à des fins spécifiques** dans la gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités en version préliminaire, consultez [Gérer les fonctionnalités](hr-admin-manage-features.md).<br><br>![Activer la fonctionnalité d’aperçu.](./media/hr-employee-self-service-restrict-enable.png)

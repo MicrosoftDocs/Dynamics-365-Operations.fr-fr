@@ -1,6 +1,6 @@
 ---
 title: Options de transactions d’immobilisations
-description: Cette rubrique décrit les différentes méthodes disponibles pour créer des transactions d’immobilisation.
+description: Cet article décrit les différentes méthodes disponibles pour créer des transactions d’immobilisation.
 author: moaamer
 ms.date: 08/10/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 507e263e7267fe96cdf9ed78a84924839c2de982
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 402679b6f1003f14f7e277a326784edaaea719d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883356"
 ---
 # <a name="fixed-asset-transaction-options"></a>Options de transactions d’immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les différentes méthodes disponibles pour créer des transactions d’immobilisation.
+Cet article décrit les différentes méthodes disponibles pour créer des transactions d’immobilisation.
 
 Vous pouvez paramétrer le module Immobilisations pour qu’il s’intègre avec les modules Comptabilité, Achats, Ventes et Approvisionnements. Vous pouvez également transférer des articles du module Gestion des stocks dans le module Immobilisations si vous souhaitez utiliser ces articles en interne.
 
@@ -69,7 +69,7 @@ Le système empêche de comptabiliser deux fois l’amortissement sur la même 
 
 ### <a name="transactions-that-require-a-different-voucher-number"></a>Transactions qui nécessitent un N° document différent
 
-Les transactions d'immobilisations suivantes utiliseront des N° documents différents :
+Les transactions d’immobilisations suivantes utiliseront des N° documents différents :
 
 - Une acquisition supplémentaire est effectuée sur une immobilisation et l’amortissement de « rattrapage » est calculé.
 - Une immobilisation est fractionnée.

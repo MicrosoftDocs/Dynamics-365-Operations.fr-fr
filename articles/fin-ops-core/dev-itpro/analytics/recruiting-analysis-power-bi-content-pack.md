@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI Recrutement
-description: Cette rubrique décrit le contenu Power BI Recrutement.
+description: Cet article décrit le contenu Power BI Recrutement.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3240b92993986b32a739b7a6e5c7f7c2df3ed71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890094"
 ---
 # <a name="recruiting-power-bi-content"></a>Contenu Power BI Recrutement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Microsoft Power BI **Recrutement**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cet article décrit le contenu **Recrutement** de Microsoft Power BI. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Le contenu Power BI **Recrutement** s’affiche dans l’espace de travail **Gestion des recrutements**.

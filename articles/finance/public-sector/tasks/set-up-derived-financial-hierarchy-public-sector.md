@@ -1,6 +1,6 @@
 ---
 title: Paramétrer une hiérarchie financière dérivée dans le secteur public
-description: Cette rubrique fournit des informations sur l’utilisation des hiérarchies financières dérivées à utiliser avec des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques.
+description: Cet article fournit des informations sur l’utilisation des hiérarchies financières dérivées à utiliser avec des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques.
 author: twheeloc
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee9559b9fedb7945b8489de79c2553b69c238c0b
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 231866d727eae9d1f949d0dd5919644dffdea83b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883029"
 ---
 # <a name="set-up-a-derived-financial-hierarchy-in-the-public-sector"></a>Paramétrer une hiérarchie financière dérivée dans le secteur public
 

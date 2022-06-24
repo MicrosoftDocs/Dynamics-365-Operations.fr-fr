@@ -1,6 +1,6 @@
 ---
 title: Historique des événements d’un actif
-description: Cette rubrique explique comment accéder à l’historique des événements d’un actif dans le module Gestion des actifs.
+description: Cet article explique comment accéder à l’historique des événements d’un actif dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670fa5800efad99d913e96dee8c6883f150b86d2227143dbdf392c7b380e89a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63045cf2fc493144897b8a857f615105f6d7b50f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865293"
 ---
 # <a name="asset-event-history"></a>Historique des événements d’un actif
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750170"
 
  
 
-Cette rubrique explique comment accéder à l’historique des événements d’un actif dans le module Gestion des actifs. La page **Historique des événements de l’actif** affiche l’historique des enregistrements qui a été créé pendant la durée de vie d’un actif. Vous pouvez accéder à cette page à partir des éléments de menu **Tous les actifs**, **Actifs actifs** et **Mes actifs actifs**. Sélectionnez un actif, puis sélectionnez **Historique des événements**.
+Cet article explique comment accéder à l’historique des événements d’un actif dans le module Gestion des actifs. La page **Historique des événements de l’actif** affiche l’historique des enregistrements qui a été créé pendant la durée de vie d’un actif. Vous pouvez accéder à cette page à partir des éléments de menu **Tous les actifs**, **Actifs actifs** et **Mes actifs actifs**. Sélectionnez un actif, puis sélectionnez **Historique des événements**.
 
 Dans le raccourci **Détails** de la page **Historique des événements de l’actif**, vous pouvez effectuer une recherche sur toutes les informations disponibles. Par exemple, vous pouvez utiliser l’historique des événements de l’actif pour trouver les informations suivantes :
 

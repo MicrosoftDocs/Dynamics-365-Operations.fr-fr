@@ -1,6 +1,6 @@
 ---
 title: États et transactions du cycle de vie du produit
-description: Cette rubrique explique comment contrôler les transactions autorisées pour chaque état du cycle de vie au fur et à mesure qu’un produit d’ingénierie parcourt son cycle de vie.
+description: Cet article explique comment contrôler les transactions autorisées pour chaque état du cycle de vie au fur et à mesure qu’un produit d’ingénierie parcourt son cycle de vie.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867954"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>États et transactions du cycle de vie du produit
 
@@ -37,7 +37,7 @@ Pour utiliser les états de cycle de vie des produits, accédez à **Gestion du 
 - Pour supprimer un état du cycle de vie existante, sélectionnez-le dans le volet de liste, puis sélectionnez **Supprimer** sur le volet Actions.
 
 > [!NOTE]
-> Les produits d’ingénierie utilisent les mêmes états de cycle de vie que les produits standard (non d’ingénierie). Vous pouvez également ouvrir la page **État du cycle de vie du produit** décrite dans cette rubrique en accédant à **Gestion des informations produit \> Configurer \> État du cycle de vie du produit**. Pour plus d’informations sur les états du cycle de vie des produits, pour les produits d’ingénierie et les produits standard, voir [Présentation de l’état du cycle de vie du produit](../pim/product-lifecycle.md).
+> Les produits d’ingénierie utilisent les mêmes états de cycle de vie que les produits standard (non d’ingénierie). Vous pouvez également ouvrir la page **État du cycle de vie du produit** décrite dans cet article en accédant à **Gestion des informations produit \> Configurer \> État du cycle de vie du produit**. Pour plus d’informations sur les états du cycle de vie des produits, pour les produits d’ingénierie et les produits standard, voir [Présentation de l’état du cycle de vie du produit](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>En-tête
 

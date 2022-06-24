@@ -1,6 +1,6 @@
 ---
 title: Paramétrer et générer des fichiers de paiement positif
-description: Cette rubrique décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif.
+description: Cet article décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif.
 author: panolte
 ms.date: 03/06/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: eb5a9595ea1a93a9b15348eb1b291d744f660d40
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6b3cff1029b02aaabef2ea9795ab9912f20f1129
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871418"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Paramétrer et générer des fichiers de paiement positif
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif. 
+Cet article décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif. 
 
 Paramétrez le paiement positif pour générer la liste électronique de chèques qui est fournie à la banque. Puis, lorsque le chèque est présenté à la banque, la banque le compare avec la liste des chèques. Si le chèque correspond à un chèque de la liste, la banque le compense. Si le chèque ne correspond pas à un chèque dans la liste, la banque le conserve pour examen.
 

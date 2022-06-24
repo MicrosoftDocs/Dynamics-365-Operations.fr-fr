@@ -1,6 +1,6 @@
 ---
 title: Cartes d’achat
-description: Cette rubrique explique comment configurer et suivre les transactions de carte d’achat.
+description: Cet article explique comment configurer et suivre les transactions de carte d’achat.
 author: velofog
 ms.date: 09/03/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: public sector
 ms.author: kfend
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: a5619b90193819a64bb88e883fd8e4460e1b0f64
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: abf5b7e35e278dc80e9eb936c720740450ba7935
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848389"
 ---
 # <a name="purchasing-cards"></a>Cartes d’achat
 

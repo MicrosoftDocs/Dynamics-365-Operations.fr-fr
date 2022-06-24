@@ -1,6 +1,6 @@
 ---
-title: Amortissement dégressif
-description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif.
+title: Effectuer un amortissement dégressif
+description: Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif.
 author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a81a8f926c30ac26d10c8763f43f39504249616f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 52bf9d4e9cbc9cabda5d5ab17c1a00ecea0d0348
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883269"
 ---
-# <a name="reduce-balance-depreciation"></a>Amortissement dégressif
+# <a name="reduce-balance-depreciation"></a>Effectuer un amortissement dégressif
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif.
+Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif.
 
 Si vous définissez un profil d’amortissement d’immobilisation, puis sélectionnez Dégressif dans le champ **Méthode** de la page **Profils d’amortissement**, les immobilisations auxquelles ce profil d’amortissement a été affecté sont amorties par le même pourcentage pour chaque période d’amortissement.
 
@@ -41,7 +41,7 @@ Vous pouvez sélectionner soit **Calendrier** soit **Exercice** dans le champ **
 
 ### <a name="calendar"></a>Calendrier
 
-L’**option Calendrier** met à jour la base d’amortissement (généralement la valeur comptable nette moins la valeur de mise au rebut) le premier janvier de chaque année. Dans l’exemple d’amortissement dégressif donné plus loin dans cette rubrique, la base d’amortissement est le numérateur de la première expression des calculs de la colonne de calcul. 
+L’**option Calendrier** met à jour la base d’amortissement (généralement la valeur comptable nette moins la valeur de mise au rebut) le premier janvier de chaque année. Dans l’exemple d’amortissement dégressif donné plus loin dans cet article, la base d’amortissement est le numérateur de la première expression des calculs de la colonne de calcul. 
 
 Si vous sélectionnez **Calendrier**, les options suivantes sont disponibles dans le champ **Fréquence de période** qui définit les dates et les montants de validation de régularisation des amortissements au cours de l’année civile :
 

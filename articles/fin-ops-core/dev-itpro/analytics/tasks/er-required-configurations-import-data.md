@@ -1,6 +1,6 @@
 ---
 title: ER Créer des configurations pour importer des données d’un fichier externe
-description: Cette rubrique décrit comment créer des configurations d’états électroniques pour importer des données dans l’application Microsoft Dynamics 365 Finance, à partir d’un fichier externe.
+description: Cet article décrit comment créer des configurations d’états électroniques pour importer des données dans l’application Microsoft Dynamics 365 Finance, à partir d’un fichier externe.
 author: NickSelin
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa1dc55e8cdee7d61e5ababe92e8a9234788664f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865891"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Créer des configurations pour importer des données d’un fichier externe
 
@@ -241,7 +241,7 @@ Exécutez cette mise en correspondance de formats à des fins de test. Utilisez 
 19. Fermez la page.
 20. Cliquez sur Modifier.
 
-    Si vous avez installé le correctif « Support 4012871 de mises en correspondance des modèles GER dans des configurations séparées avec la possibilité de spécifier différents types de conditions préalables afin de les déployer dans différentes versions de Dynamics 365 Finance » ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), exécutez l’étape suivante « Activer l’indicateur "Valeur par défaut de la mise en correspondance des modèles" pour la configuration de format entrée ». Sinon, passez à l’étape suivante.  
+    Si vous avez installé le correctif « Support 4012871 de mises en correspondance des modèles GER dans des configurations séparées avec la possibilité de spécifier différents types de conditions préalables afin de les déployer dans différentes versions de Dynamics 365 Finance ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), exécutez l’étape suivante « Activer l’indicateur "Valeur par défaut de la mise en correspondance des modèles" pour la configuration de format entrée ». Sinon, passez à l’étape suivante.  
 
 21. Sélectionnez Oui dans le champ Valeur par défaut de la mise en correspondance des modèles.
 22. Dans l’arborescence, sélectionnez « Modèles de paiements de déclaration des honoraires »

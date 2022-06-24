@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (14 mai 2020)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 14 mai 2020.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 14 mai 2020.
 author: andreabichsel
 ms.date: 05/14/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 891301a979fd6823528d9b6034066a038ba17315
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 308dd4fc75ab656359e80b518cec00fc74d42ea6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852941"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (14 mai 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8692056"
 
 
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3244. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support Lifecycle Services (LCS) pour référence.
+Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3244. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support Lifecycle Services (LCS) pour référence.
 
 ## <a name="platform-changes"></a>Modifications de plateforme
 

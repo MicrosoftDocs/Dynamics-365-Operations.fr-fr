@@ -1,6 +1,6 @@
 ---
 title: Configuration de l’intégration avec Finance
-description: Cette rubrique décrit l’intégration entre les applications Dynamics 365 Human Resources et Dynamics 365 Finance.
+description: Cet article décrit l’intégration entre les applications Dynamics 365 Human Resources et Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8be7cbf92c11036d334516116f0895c426380954
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875856"
 ---
 # <a name="configure-integration-with-finance"></a>Configuration de l’intégration avec Finance
 
@@ -30,7 +30,7 @@ ms.locfileid: "8687530"
 
 
 
-Pour intégrer Dynamics 365 Human Resources avec Dynamics 365 Finance, vous pouvez utiliser le modèle Ressources humaines dans le modèle Finance au sein de l'[Intégrateur de données](/powerapps/administrator/data-integrator). Le modèle Human Resources à Finance active le flux de données pour les emplois, les postes et les collaborateurs. Le modèle permet aux données de passer de Human Resources à Finance, mais ne permet pas aux données de passer de Finance à Human Resources.
+Pour intégrer Dynamics 365 Human Resources avec Dynamics 365 Finance, vous pouvez utiliser le modèle Ressources humaines dans le modèle Finance au sein de l’[Intégrateur de données](/powerapps/administrator/data-integrator). Le modèle Human Resources à Finance active le flux de données pour les emplois, les postes et les collaborateurs. Le modèle permet aux données de passer de Human Resources à Finance, mais ne permet pas aux données de passer de Finance à Human Resources.
 
 ![Flux d’intégration de Human Resources à Finance.](./media/hr-admin-integration-finance-flow.png)
 

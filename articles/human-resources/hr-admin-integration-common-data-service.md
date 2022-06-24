@@ -1,6 +1,6 @@
 ---
 title: Configurer l’intégration de Dataverse
-description: Cette rubrique décrit l’intégration entre les applications Microsoft Dataverse et Dynamics 365 Human Resources.
+description: Cet article décrit l’intégration entre les applications Microsoft Dataverse et Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3fc3536880ac4334154638e44f2feca8cd5860d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fdc8d15138904336ce7e7b85fe286c815f0743f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869921"
 ---
 # <a name="configure-dataverse-integration"></a>Configurer l’intégration de Dataverse
 

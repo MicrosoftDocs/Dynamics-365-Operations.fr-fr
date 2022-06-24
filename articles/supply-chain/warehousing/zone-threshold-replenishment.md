@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893118"
 ---
 # <a name="zone-threshold-replenishment"></a>Réapprovisionnement du seuil de zone
 
@@ -45,7 +45,7 @@ Avant de pouvoir utiliser la fonctionnalité *Réapprovisionnement du seuil de z
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Configurer le réapprovisionnement basé sur une zone
 
-Pour configurer le réapprovisionnement basé sur une zone, vous devez configurer plusieurs parties du système. Cette section présente les différents paramètres et fournit des valeurs de données de démonstration que vous pouvez entrer si vous souhaitez exécuter le scénario à la fin de cette rubrique.
+Pour configurer le réapprovisionnement basé sur une zone, vous devez configurer plusieurs parties du système. Cette section présente les différents paramètres et fournit des valeurs de données de démonstration que vous pouvez entrer si vous souhaitez exécuter le scénario à la fin de cet article.
 
 ### <a name="set-up-directive-codes"></a>Paramétrer des codes directifs
 
@@ -57,7 +57,7 @@ Pour afficher ou modifier vos codes directifs, accédez à **Gestion des entrep�
 
 #### <a name="prepare-demo-data-directive-codes"></a>Préparer des codes directifs de données de démonstration
 
-Cet exemple montre comment préparer un code directif. Si vous prévoyez d’exécuter le scénario à la fin de cette rubrique, utilisez les valeurs de données de démonstration fournies ici. Sinon, utilisez vos propres valeurs.
+Cet exemple montre comment préparer un code directif. Si vous prévoyez d’exécuter le scénario à la fin de cet article, utilisez les valeurs de données de démonstration fournies ici. Sinon, utilisez vos propres valeurs.
 
 1. Sélectionnez l’entité juridique **USMF** pour travailler avec les données de démonstration.
 1. Allez dans **Gestion des entrepôts \> Configuration \> Codes de directives**.
@@ -79,7 +79,7 @@ Un modèle de réapprovisionnement est un ensemble de règles contrôlant quand 
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Préparer un modèle de réapprovisionnement des données de démonstration
 
-Cet exemple montre comment préparer un modèle de réapprovisionnement. Si vous prévoyez d’exécuter le scénario à la fin de cette rubrique, utilisez les valeurs de données de démonstration fournies ici. Sinon, utilisez vos propres valeurs.
+Cet exemple montre comment préparer un modèle de réapprovisionnement. Si vous prévoyez d’exécuter le scénario à la fin de cet article, utilisez les valeurs de données de démonstration fournies ici. Sinon, utilisez vos propres valeurs.
 
 1. Sélectionnez l’entité juridique **USMF** pour travailler avec les données de démonstration.
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Réapprovisionnement \> Modèles de réapprovisionnement**.
@@ -144,7 +144,7 @@ Pour des exemples qui montrent comment utiliser les paramètres pour créer les 
 
 #### <a name="prepare-demo-data-location-directives"></a>Préparer des directives d’emplacement de données de démonstration
 
-Pour préparer des données de démonstration afin qu’elles puissent être utilisées dans le scénario à la fin de cette rubrique, vous devez créer deux directives d’emplacement : une pour le prélèvement et l’autre pour le rangement.
+Pour préparer des données de démonstration afin qu’elles puissent être utilisées dans le scénario à la fin de cet article, vous devez créer deux directives d’emplacement : une pour le prélèvement et l’autre pour le rangement.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Créer une directive de prélèvement de réapprovisionnement
 
@@ -258,7 +258,7 @@ Cette section fournit un exemple de scénario qui montre comment utiliser la fon
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Préparer les exemples de données requis pour l’exemple de scénario
 
-Avant de commencer à travailler sur le scénario, vous devez activer des exemples de données et configurer la fonctionnalité comme décrit dans cette section et dans les sections précédentes de cette rubrique.
+Avant de commencer à travailler sur le scénario, vous devez activer des exemples de données et configurer la fonctionnalité comme décrit dans cette section et dans les sections précédentes de cet article.
 
 #### <a name="use-the-usmf-legal-entity"></a>Utiliser l’entité juridique USMF
 
@@ -266,7 +266,7 @@ Pour utiliser le scénario à l’aide des exemples d’enregistrements et de va
 
 #### <a name="prepare-additional-sample-data"></a>Préparer des exemples de données supplémentaires
 
-Après avoir sélectionné l’entité juridique **USMF**, ajoutez les données d’échantillon supplémentaires requises, comme décrit dans la section [Configurer le réapprovisionnement basé sur une zone](#setup) plus haut dans cette rubrique.
+Après avoir sélectionné l’entité juridique **USMF**, ajoutez les données d’échantillon supplémentaires requises, comme décrit dans la section [Configurer le réapprovisionnement basé sur une zone](#setup) plus haut dans cet article.
 
 #### <a name="check-your-on-hand-inventory"></a>Vérifier votre stock disponible
 

@@ -1,6 +1,6 @@
 ---
 title: Fonctionnalité d’intervalle composé
-description: Cette rubrique fournit des informations qui vous aideront à choisir parmi les intervalles composés mensuels, trimestriels, semestriels et annuels.
+description: Cet article fournit des informations qui vous aideront à choisir parmi les intervalles composés mensuels, trimestriels, semestriels et annuels.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886412"
 ---
 # <a name="compounding-interval-functionality"></a>Fonctionnalité d’intervalle composé
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique fournit des informations qui vous aideront à choisir parmi les intervalles composés mensuels, trimestriels, semestriels et annuels. La fonctionnalité d’intervalle composé est utilisée pour déterminer le nombre de périodes de composition par an dans l’échéancier de paiement d’un bail. Chacun des quatre exemples de cette rubrique montre à quoi ressemblera l’échéancier de paiement d’un bail pour un intervalle différent.
+Cet article fournit des informations qui vous aideront à choisir parmi les intervalles composés mensuels, trimestriels, semestriels et annuels. La fonctionnalité d’intervalle composé est utilisée pour déterminer le nombre de périodes de composition par an dans l’échéancier de paiement d’un bail. Chacun des quatre exemples de cet article montre à quoi ressemblera l’échéancier de paiement d’un bail pour un intervalle différent.
 
 Vous ne pouvez pas sélectionner un intervalle composé moins fréquent que la fréquence de paiement du bail. Par exemple, un intervalle composé trimestriel ne peut pas être utilisé avec une fréquence de paiement mensuelle, et un intervalle composé annuel ne peut pas être utilisé avec une fréquence de paiement semestrielle. Si vous essayez de sélectionner un intervalle composé moins fréquent que la fréquence de paiement du bail, vous recevez un message d’erreur.
 
 > [!NOTE]
-> Dans les quatre exemples de cette rubrique, l’intervalle composé correspond à la fréquence de paiement.
+> Dans les quatre exemples de cet article, l’intervalle composé correspond à la fréquence de paiement.
 
 ## <a name="examples"></a>Exemples
 

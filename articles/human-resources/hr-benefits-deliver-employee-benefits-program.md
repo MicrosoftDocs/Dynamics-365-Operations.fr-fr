@@ -1,6 +1,6 @@
 ---
 title: Communiquer le programme d’avantages des employés
-description: Cette rubrique explique comment créer des détails des avantages qui seront utilisés lors de la création d’un nouvel avantage.
+description: Cet article explique comment créer des détails des avantages qui seront utilisés lors de la création d’un nouvel avantage.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: c2ca6712346295454fd0d516816c596d4b010abb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cc063c42ba0b627eb4711b44533c745925d718af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877828"
 ---
 # <a name="deliver-employee-benefits-program"></a>Communiquer le programme d’avantages des employés
 
@@ -26,7 +26,7 @@ ms.locfileid: "8688286"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique explique comment créer des détails des avantages qui seront utilisés lors de la création d’un nouvel avantage. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à un gestionnaire de rémunération et avantages.
+Cet article explique comment créer des détails des avantages qui seront utilisés lors de la création d’un nouvel avantage. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à un gestionnaire de rémunération et avantages.
 
 
 ## <a name="create-benefit-elements"></a>Créer des détails des avantages

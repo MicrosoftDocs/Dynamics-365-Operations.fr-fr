@@ -1,6 +1,6 @@
 ---
 title: Traiter les répartitions
-description: Cette rubrique fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 Finance, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l’objet approprié dans la comptabilité.
+description: Cet article fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 Finance, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l’objet approprié dans la comptabilité.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d300654269ef0ad52140f160f918707397c843ad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 0629b32d39f4d74ec37eebe92b92e0b186b5fce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877981"
 ---
 # <a name="process-allocations"></a>Traiter les répartitions
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les répartitions, les options pour les traiter, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l’objet approprié dans la comptabilité.
+Cet article fournit des informations sur les répartitions, les options pour les traiter, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l’objet approprié dans la comptabilité.
 
 Les fonctionnalités suivantes prennent en charge le processus suivant :
 

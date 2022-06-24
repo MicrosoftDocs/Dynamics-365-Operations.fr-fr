@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI de gestion des dépenses
-description: Cette rubrique décrit les données incluses dans le pack de contenu Power BI Gestion des dépenses.
+description: Cet article décrit les données incluses dans le pack de contenu Power BI Gestion des dépenses.
 author: panolte
 ms.date: 03/18/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78ae444c1c9803ed3708d71da7a359667df0252f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878311"
 ---
 # <a name="expense-management-power-bi-content"></a>Contenu Power BI de gestion des dépenses
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les données incluses dans le contenu Power BI Gestion des dépenses. 
+Cet article décrit les données incluses dans le contenu Power BI Gestion des dépenses. 
 
 ## <a name="overview"></a>Présentation
 Deux packs de contenu Power BI sont disponibles pour être utilisés avec la Gestion des dépenses dans la version 8.1 et versions ultérieures. 
@@ -56,7 +56,7 @@ Le contenu comprend un ensemble de pages d’état. Chaque page contient un ense
 |-------------|-------------------------------------------|
 | Mes dépenses | Montant du kilométrage                         |
 |             | États des dépenses en cours                |
-|             | N° des dépenses non soumises               |
+|             | Non des dépenses non soumises               |
 |             | Dépenses personnelles à payer              |
 |             | Montant non soumis                        |
 |             | Montant soumis                          |
@@ -64,7 +64,7 @@ Le contenu comprend un ensemble de pages d’état. Chaque page contient un ense
 |             | États des dépenses avec les montants et le statut   |
 |             | États des dépenses soumises mais non approuvées  |
 |             | Dépenses par type de coût                     |
-|             | Dépenses par marchand                      |
+|             | Dépenses par prestataire                      |
 |             | Dépenses par dépenses traitées            |
 |             | Dépenses par projet                       |
 |             | Montant total des transactions au fil du temps        |
@@ -83,7 +83,7 @@ Le contenu comprend un ensemble de pages d’état. Chaque page contient un ense
 |                     | Montant total des dépenses                    |
 |                     | Synthèses de l’état des dépenses                |
 |                     | Dépenses par type de coût                   |
-|                     | Dépenses par marchand                    |
+|                     | Dépenses par prestataire                    |
 |                     | Dépenses par employé                   |
 |                     | Dépenses par projet                     |
 | Comparaison des employés | Montants des dépenses                         |

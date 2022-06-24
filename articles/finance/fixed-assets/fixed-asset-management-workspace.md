@@ -1,6 +1,6 @@
 ---
 title: Espace de travail Gestion des immobilisations
-description: Cette rubrique fournit des informations sur l’espace de travail Gestion des immobilisations. Cet espace de travail affiche les informations liées aux immobilisations entrées dans le système. Il inclut une vue Synthèse et une vue Analyses.
+description: Cet article fournit des informations sur l’espace de travail Gestion des immobilisations. Cet espace de travail affiche les informations liées aux immobilisations entrées dans le système. Il inclut une vue Synthèse et une vue Analyses.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 37f9f6be2fa3594b96313f4f72b96b52ca798c6a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 95b45a91cd201a6d3a4817c315053e98a7693e05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894053"
 ---
 # <a name="fixed-asset-management-workspace"></a>Espace de travail Gestion des immobilisations
 

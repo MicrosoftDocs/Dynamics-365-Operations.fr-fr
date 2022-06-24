@@ -1,6 +1,6 @@
 ---
-title: Valider les arrivées et les expéditions dans le cadre de la déclaration d’échanges de biens
-description: Cette rubrique offre un exemple présentant comment valider les arrivées et les expéditions pour la déclaration d’échanges de biens.
+title: Valider les arrivées et les répartitions dans le cadre de la déclaration d’échanges de biens
+description: Cet article offre un exemple présentant comment valider les arrivées et les expéditions pour la déclaration d’échanges de biens.
 author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aef20f0261e103be7fe231a7efb39751ab4d1151
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862962"
 ---
-# <a name="post-arrivals-and-dispatches-for-intrastat"></a>Valider les arrivées et les expéditions dans le cadre de la déclaration d’échanges de biens
+# <a name="post-arrivals-and-dispatches-for-intrastat"></a>Valider les arrivées et les répartitions dans le cadre de la déclaration d’échanges de biens
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique offre un exemple présentant comment valider les arrivées et les expéditions pour la déclaration d’échanges de biens. L’exemple utilise l’entité juridique **ITCO**.
+Cet article offre un exemple présentant comment valider les arrivées et les expéditions pour la déclaration d’échanges de biens. L’exemple utilise l’entité juridique **ITCO**.
 
 ## <a name="setup"></a>Paramétrage
 
@@ -28,7 +28,7 @@ Cette rubrique offre un exemple présentant comment valider les arrivées et les
 
     - Modèle de déclaration d’échanges de biens
     - État de déclaration d’échanges de biens
-    - Déclaration d'échanges de biens (IT)
+    - Déclaration d’échanges de biens (IT)
 
     Pour plus d’informations, voir [Télécharger les configurations des états électroniques (ER) à partir du référentiel global de Configuration Service](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
@@ -76,14 +76,14 @@ Cette rubrique offre un exemple présentant comment valider les arrivées et les
     9. Dans le raccourci **Valeur statistique**, définissez l’option **Imprimer et exporter des données statistiques** sur **Oui**.
     10. Sur l’onglet **Propriétés de pays/régions**, vérifiez que les lignes suivantes existent.
 
-        | **Partie/Pays/Région** | **Code déclaration d'échanges de biens** | **Devise** | **Type de pays/région** |
+        | **Partie/Pays/Région** | **Code déclaration d’échanges de biens** | **Devise** | **Type de pays/région** |
         |--------------------------|--------------------|--------------|-------------------------|
         | ITA                      | IT                 | EUR          | Local                |
         | SMR                      | SM                 | EUR          | Local spécial        |
 
     11. Dans la barre d’outils, sélectionnez **Nouveau** pour créer la ligne suivante.
 
-        | **Partie/Pays/Région** | **Code déclaration d'échanges de biens** | **Devise** | **Type de pays/région** |
+        | **Partie/Pays/Région** | **Code déclaration d’échanges de biens** | **Devise** | **Type de pays/région** |
         |--------------------------|--------------------|--------------|-------------------------|
         | DNK                      | DK                 | DKK          | UE                      |
 
@@ -373,7 +373,7 @@ Cette partie de l’exemple montre comment utiliser une commande client pour ach
 
 18. Créez une déclaration d’échanges de biens pour les expéditions.
 
-    1. Accédez à **Taxes** &gt; **Déclarations** &gt; **Commerce extérieur** &gt; **Déclaration d'échanges de biens**.
+    1. Accédez à **Taxes** &gt; **Déclarations** &gt; **Commerce extérieur** &gt; **Déclaration d’échanges de biens**.
     2. Dans le volet Actions, sélectionnez **Résultat** &gt; **Rapport**.
     3. Dans la boîte de dialogue **État de déclaration d’échanges de biens**, dans la section **Date**, dans le champ **Date de début**, sélectionnez **07/01/2021**.
     4. Dans le champ **Date de fin**, sélectionnez **31/07/2021**.

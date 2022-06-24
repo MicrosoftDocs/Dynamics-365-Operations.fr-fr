@@ -1,6 +1,6 @@
 ---
 title: Intégration de la gestion des actifs avec des immobilisations
-description: Cette rubrique explique comment intégrer les modules Gestion d’actifs et Immobilisations, afin de pouvoir lier des immobilisations à des actifs de maintenance.
+description: Cet article explique comment intégrer les modules Gestion d’actifs et Immobilisations, afin de pouvoir lier des immobilisations à des actifs de maintenance.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874215"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Intégration de la gestion des actifs avec des immobilisations
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567581"
 En intégrant les modules **Gestion d’actifs** et **Immobilisations**, afin de pouvoir lier des immobilisations à des actifs de maintenance. Les utilisateurs d’immobilisations peuvent ensuite créer un actif de maintenance à partir d’un actif fixe, nouveau ou existant, et les utilisateurs de la gestion d’actifs peuvent associer un actif de maintenance à un actif fixe existant. Cette fonctionnalité permet également aux utilisateurs des immobilisations de visualiser facilement les coûts qui ont été enregistrés à partir des ordres de travail pour les actifs de maintenance associés.
 
 > [!NOTE]
-> Dans cette rubrique, *actifs de maintenance* se réfère aux actifs du module **Gestion d’actifs**, et *Immobilisations* se réfère aux actifs du module **Immobilisations**.
+> Dans cet article, *actifs de maintenance* se réfère aux actifs du module **Gestion d’actifs**, et *Immobilisations* se réfère aux actifs du module **Immobilisations**.
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Définir un emplacement par défaut pour les nouveaux actifs de maintenance créés à partir d’immobilisations (facultatif)
 

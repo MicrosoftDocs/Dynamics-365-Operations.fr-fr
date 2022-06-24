@@ -1,6 +1,6 @@
 ---
 title: Allocation des revenus
-description: Cette rubrique explique comment utiliser la répartition de produits dans la facturation des abonnements.
+description: Cet article explique comment utiliser la répartition de produits dans la facturation des abonnements.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 09d3e9295f1fb753156aa603b00372316173721e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 18739e0871592bc9eefcdf00f67dd4dd18f5d6f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864366"
 ---
 # <a name="revenue-allocation"></a>Allocation des revenus
 
-Cette rubrique explique comment configurer les paramètres de répartition de produits dans l’échéancier de facturation. Vous pouvez configurer ou modifier la répartition des produits quand vous créez l’échéancier de facturation. Quand vous ouvrez la page **Répartition des revenus** pour un échéancier de facturation actif ou terminé, les champs sont en lecture seule.
+Cet article explique comment configurer les paramètres de répartition de produits dans l’échéancier de facturation. Vous pouvez configurer ou modifier la répartition des produits quand vous créez l’échéancier de facturation. Quand vous ouvrez la page **Répartition des revenus** pour un échéancier de facturation actif ou terminé, les champs sont en lecture seule.
 
 ## <a name="specify-the-revenue-allocation-for-a-billing-schedule"></a>Spécifier la répartition des revenus pour un échéancier de facturation
 

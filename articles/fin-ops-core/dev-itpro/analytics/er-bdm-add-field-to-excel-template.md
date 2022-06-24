@@ -1,6 +1,6 @@
 ---
 title: Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
-description: Cette rubrique fournit des informations sur l’ajout de nouveaux champs à un modèle de document commercial dans Microsoft Excel à l’aide de la fonction de gestion de documents commerciaux.
+description: Cet article fournit des informations sur l’ajout de nouveaux champs à un modèle de document commercial dans Microsoft Excel à l’aide de la fonction de gestion de documents commerciaux.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869400"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767240"
 
 Vous pouvez ajouter de nouveaux champs à un modèle utilisé pour générer des documents commerciaux dans le format Microsoft Excel. Ces champs peuvent être ajoutés comme espaces réservés qui sont utilisés pour compléter les documents générés avec les informations requises depuis l’application. Pour chaque champ que vous ajoutez, vous pouvez également préciser un lien vers les sources de données afin de préciser quelles données d’application seront saisies dans le champ lorsque le modèle est utilisé pour générer des documents commerciaux.
 
-Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cette rubrique. Cet exemple présente comment mettre à jour un modèle pour compléter les champs dans les formulaires de facture financière qui sont générés.
+Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cet article. Cet exemple présente comment mettre à jour un modèle pour compléter les champs dans les formulaires de facture financière qui sont générés.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Configurer le module Gestion de document commercial pour modifier les modèles
 
 Comme le module Gestion de document commercial repose sur la structure [Vue d’ensemble de la gestion des états électroniques](general-electronic-reporting.md), vous devez configurer les paramètres des états électroniques et du module Gestion de document commercial avant de pouvoir commencer à utiliser ce dernier.
 
 1.  Connectez-vous à l’instance de Microsoft Dynamics 365 Finance en tant qu’administrateur système.
-2.  Suivez les étapes suivantes de l’exemple de la rubrique [Vue d’ensemble du module Gestion de document commercial](er-business-document-management.md) :
+2.  Suivez les étapes suivantes de l’exemple de l’article [Vue d’ensemble du module Gestion de document commercial](er-business-document-management.md) :
 
     1.  Configurez les paramètres de gestion des états électroniques.
     2.  Activez le module Gestion de document commercial.
@@ -64,7 +64,7 @@ Pour plus d’informations sur la manière d’importer des configurations de ge
 5.  Dans le champ **Titre**, entrez **Facture financière (Excel) Contoso** comme titre du nouveau modèle.
 6.  Cliquez sur **OK** pour confirmer le début du processus de modification.
 
-La page Éditeur de modèle BDM s’affiche. Vous pouvez utiliser Microsoft 365 pour modifier le modèle sélectionné en ligne dans le contrôle incorporé.
+La page Éditeur de modèle BDM s’affiche. Vous pouvez utiliser Microsoft 365 pour modifier le modèle sélectionné en ligne dans le contrôle intégré.
 
 ![Page Éditeur de modèle BDM.](./media/BDM-AddFldExcel-EditableTemplate.png)
 

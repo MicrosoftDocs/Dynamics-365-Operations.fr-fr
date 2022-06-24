@@ -1,6 +1,6 @@
 ---
 title: Hiérarchie des dimensions
-description: Cette rubrique fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d’entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.
+description: Cet article fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d’entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 60585690a2cf5962d4ad562c3a01b675a0588263
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848633"
 ---
 # <a name="dimension-hierarchy"></a>Hiérarchie des dimensions
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d’entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.  
+Cet article fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d’entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.  
 
 ## <a name="overview"></a>Vue d’ensemble
 

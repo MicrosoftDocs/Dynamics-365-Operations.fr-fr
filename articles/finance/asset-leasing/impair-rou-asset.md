@@ -1,6 +1,6 @@
 ---
 title: Déprécier un droit d’utilisation des actifs
-description: Cette rubrique décrit la fonctionnalité qui enregistre une dépréciation et ajuste le plan d’amortissement des immobilisations d’un contrat de location simple 842 (ASC 842) de codification des normes comptables.
+description: Cet article décrit la fonctionnalité qui enregistre une dépréciation et ajuste le plan d’amortissement des immobilisations d’un contrat de location simple 842 (ASC 842) de codification des normes comptables.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894111"
 ---
 # <a name="impair-right-of-use-assets"></a>Déprécier un droit d’utilisation des actifs
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Si la valeur comptable d’un droit d’utilisation d’actif (ROU) n’est pas recouvrable, vous devrez peut-être tester si l’actif s’est déprécié. Si vous déterminez que l’immobilisation est dépréciée, la location d’actifs peut enregistrer la dépréciation et ajuster le plan d’amortissement en conséquence. Cette rubrique décrit la fonctionnalité qui enregistre la dépréciation et ajuste le plan d’amortissement des locations simples d’une codification des normes comptables 842 (ASC 842). La même méthode s’applique également aux contrats de location selon la norme internationale d’information financière 16 (IFRS 16).
+Si la valeur comptable d’un droit d’utilisation d’actif (ROU) n’est pas recouvrable, vous devrez peut-être tester si l’actif s’est déprécié. Si vous déterminez que l’immobilisation est dépréciée, la location d’actifs peut enregistrer la dépréciation et ajuster le plan d’amortissement en conséquence. Cet article décrit la fonctionnalité qui enregistre la dépréciation et ajuste le plan d’amortissement des locations simples d’une codification des normes comptables 842 (ASC 842). La même méthode s’applique également aux contrats de location selon la norme internationale d’information financière 16 (IFRS 16).
 
 Le solde du droit d’utilisation de l’actif sera amorti selon la méthode linéaire pour le nombre de périodes restantes, que le contrat de location ait été qualifié de contrat de location-financement selon IFRS 16 ou de contrat de location simple selon ASC 842.
 
@@ -83,7 +83,7 @@ Les tableaux suivants présentent les valeurs définies sur les onglets **Géné
 
 ### <a name="steps"></a>Étapes
 
-1. Après avoir créé le contrat de location comme décrit précédemment dans cette rubrique, accédez au registre de location et confirmez l’échéancier de paiement. Enregistrez ensuite l’écriture de journal de reconnaissance initiale. Le droit d’utilisation de l’actif initial et le passif de location doivent être 70 235,81. Pour cet exemple, le contrat de location a été classé comme contrat de location simple sous ASC 842.
+1. Après avoir créé le contrat de location comme décrit précédemment dans cet article, accédez au registre de location et confirmez l’échéancier de paiement. Enregistrez ensuite l’écriture de journal de reconnaissance initiale. Le droit d’utilisation de l’actif initial et le passif de location doivent être 70 235,81. Pour cet exemple, le contrat de location a été classé comme contrat de location simple sous ASC 842.
 2. Exécutez le processus de journal par lots trois fois pour simuler l’écoulement de trois ans pour les paiements de location, les frais d’intérêts et les dépenses d’amortissement.
 3. Une fois que vous avez terminé d’exécuter les trois traitements par lots, revenez au registre de location et ouvrez les tableaux de transactions de passif et d’actif pour afficher la valeur comptable actuelle du droit d’utilisation de l’actif et du passif locatif. Après trois ans, la valeur du passif devrait être d’environ -53 893,00 $, et la valeur de l’actif devrait être d’environ 53 893,00 $. 
 

@@ -1,6 +1,6 @@
 ---
-title: Ajuster un format de gestion des états électroniques pour générer un document électronique personnalisé
-description: Cette rubrique explique comment ajuster un format de gestion des états électroniques fourni par Microsoft afin de générer un document électronique personnalisé.
+title: Ajuster un format d’état électronique pour générer un document électronique personnalisé
+description: Cet article explique comment ajuster un format de gestion des états électroniques fourni par Microsoft afin de générer un document électronique personnalisé.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886789"
 ---
-# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajuster un format de gestion des états électroniques pour générer un document électronique personnalisé
+# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajuster un format d’état électronique pour générer un document électronique personnalisé
 
 [!include[banner](../includes/banner.md)]
 
-Les procédures de cette rubrique expliquent comment un utilisateur doté du rôle Administrateur système ou Consultant fonctionnel de gestion des états électroniques peut effectuer les tâches suivantes :
+Les procédures de cet article expliquent comment un utilisateur doté du rôle Administrateur système ou Consultant fonctionnel de gestion des états électroniques peut effectuer les tâches suivantes :
 
 - Configurer les paramètres de la [structure de gestion des états électroniques](general-electronic-reporting.md).
 - Importer les configurations de gestion des états électroniques fournies par Microsoft et utilisées pour générer un fichier de paiement lorsqu’un [paiement fournisseur](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) est traité.
@@ -135,7 +135,7 @@ Pour plus d’informations sur les fournisseurs de configuration de gestion des 
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>Importer les configurations de gestion des états électroniques standard
 
-Pour ajouter les configurations de gestion des états électroniques standard à votre instance actuelle de Microsoft Dynamics 365 Finance, vous devez les importer depuis le [référentiel](general-electronic-reporting.md#Repository) de gestion des états électroniques qui a été configuré pour cette instance.
+Pour ajouter les configurations ER standard à votre instance actuelle de Microsoft Dynamics 365 Finance, vous devez les importer depuis le [référentiel](general-electronic-reporting.md#Repository) ER qui a été configuré pour cette instance.
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 2. Sur la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**, puis sélectionnez **Référentiels** pour afficher la liste des référentiels du fournisseur Microsoft.
@@ -160,7 +160,7 @@ Pour ajouter les configurations de gestion des états électroniques standard à
     - **Mise en correspondance des modèles de paiement 1611** – Cette configuration contient le composant de gestion des états électroniques Mise en correspondance des modèles qui décrit comment le modèle de données est rempli avec les données d’application au moment de l’exécution.
     - **BACS (UK)** – Cette configuration contient les composants de gestion des états électroniques Format et Mise en correspondance des formats. Le composant Format spécifie la présentation de l’état. Le composant Mise en correspondance des formats contient la source de données du modèle et spécifie comment la présentation de l’état est remplie en utilisant cette source de données au moment de l’exécution.
 
-![Page de configurations avec les configurations ER spécifiées disponibles dans l'arborescence.](./media/er-quick-start2-imported-solution1.png)
+![Page de configurations avec les configurations ER spécifiées disponibles dans l’arborescence.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Préparer un paiement fournisseur pour traitement
 
@@ -222,7 +222,7 @@ Vous devez configurer le mode de paiement électronique afin qu’il utilise la 
 4. Dans l’organisateur **Formats de fichier**, définissez l’option **Format d’exportation électronique général** sur **Oui**.
 5. Dans le champ **Exporter la configuration du format**, sélectionnez la configuration de format **BACS (UK)**.
 
-    ![Modes de paiement - page fournisseurs pour configurer un mode de paiement électronique afin de traiter les paiements des fournisseurs à l'aide d'un format standard.](./media/er-quick-start2-method-of-payment1.png)
+    ![Modes de paiement - page fournisseurs pour configurer un mode de paiement électronique afin de traiter les paiements des fournisseurs à l’aide d’un format standard.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -349,7 +349,7 @@ Vous devez configurer le mode de paiement électronique afin que votre format de
 4. Dans l’organisateur **Format de fichier**, définissez l’option **Format d’exportation électronique général** sur **Oui**.
 5. Dans le champ **Exporter la configuration du format**, sélectionnez la configuration de format **BACS (UK custom)**.
 
-    ![Modes de paiement - page fournisseurs pour configurer un mode de paiement électronique afin de traiter les paiements des fournisseurs à l'aide d'un format personnalisé.](./media/er-quick-start2-method-of-payment2.png)
+    ![Modes de paiement - page fournisseurs pour configurer un mode de paiement électronique afin de traiter les paiements des fournisseurs à l’aide d’un format personnalisé.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -507,7 +507,7 @@ Pour commencer à utiliser la nouvelle fonctionnalité de la version 3.3 du for
 
         Notez que la ligne de paiement du fichier généré commence par le code SWIFT qui a été entré pour le compte bancaire d’un vendeur dont le paiement a été traité.
 
-        ![Fichier de paiement au format TXT utilisé pour traiter le paiement du fournisseur à l'aide d'un format ER redéfini.](./media/er-quick-start2-payment-file3.png)
+        ![Fichier de paiement au format TXT utilisé pour traiter le paiement du fournisseur à l’aide d’un format ER redéfini.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Ressources supplémentaires
 

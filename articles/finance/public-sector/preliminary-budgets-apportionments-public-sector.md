@@ -1,6 +1,6 @@
 ---
 title: Budgets préliminaires et répartitions dans le secteur public
-description: Cette rubrique couvre la création d’un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire.
+description: Cet article couvre la création d’un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Public sector
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e849075d045225d48413aadf5010e66f83d2f95c
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: e271bbd5f8f5c1407d55fda8afb02ac2547701ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868235"
 ---
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a>Budgets préliminaires et répartitions dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique couvre la création d’un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire. 
+Cet article couvre la création d’un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire. 
 
-Les sections suivantes de cette rubrique décrivent les fonctionnalités de budgétisation disponibles pour le secteur public.  Avant de lire cette rubrique, vous devez également lire [Budgétisation dans le secteur public](budgeting-public-sector.md).
+Les sections suivantes de cet article décrivent les fonctionnalités de budgétisation disponibles pour le secteur public.  Avant de lire cet article, vous devez également lire [Budgétisation dans le secteur public](budgeting-public-sector.md).
 
 -   Paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions – Vous pouvez définir un ou plusieurs codes budget pour le type de budget Répartition et configurer le contrôle budgétaire pour les répartitions.
 -   Paramétrage de la budgétisation et du contrôle budgétaire pour un budget préliminaire – Vous pouvez définir des codes budget pour le type de budget Préliminaire et configurer le contrôle budgétaire pour les budgets préliminaires.
@@ -61,7 +61,7 @@ Dans la section **Fonds budgétaires disponibles**, lorsque vous sélectionnez l
 
 Dans la section **Documents et journaux**, lorsque vous sélectionnez **Demandes d’achat**, notez que les options pour les commandes fournisseur et les factures fournisseur sont automatiquement sélectionnées. 
 
-Après avoir défini des codes budget pour la budgétisation de base et configuré le contrôle budgétaire pour les répartitions, vous pouvez créer des écritures de registre budgétaires pour les types de budget d’origine et de répartition. Pour plus d’informations, voir « Comment créer et afficher un budget préliminaire ? » plus loin dans cette rubrique.
+Après avoir défini des codes budget pour la budgétisation de base et configuré le contrôle budgétaire pour les répartitions, vous pouvez créer des écritures de registre budgétaires pour les types de budget d’origine et de répartition. Pour plus d’informations, voir « Comment créer et afficher un budget préliminaire ? » plus loin dans cet article.
 
 ### <a name="tips"></a>Conseils
 

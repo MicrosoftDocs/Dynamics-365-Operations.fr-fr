@@ -1,6 +1,6 @@
 ---
 title: Générer des rapports sur la Loi sur les soins abordables dans l’espace de travail Gestion des avantages
-description: Cette rubrique décrit comment Gestion des avantages effectue le suivi des informations qui sont déclarées sur le formulaire 1095-B et le formulaire 1095-C pour le mandat de l’employeur de la Loi sur les soins abordables (ACA).
+description: Cet article décrit comment Gestion des avantages effectue le suivi des informations qui sont déclarées sur le formulaire 1095-B et le formulaire 1095-C pour le mandat de l’employeur de la Loi sur les soins abordables (ACA).
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 118dace557c7c8a8d101e2f2ad1d94fb14547c1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d51e16345ab18904ebe55c1ec802446fc89d46d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889720"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Générer des rapports ACA dans Gestion des avantages
 
@@ -58,7 +58,7 @@ Les groupes de couverture de soins abordables vous aident à gérer ces informat
 
 3. Définisse les champs suivants.
 
-    | Champ | Description  |
+    | Champ | Description |
     |---|---|
     | Nom | Entrez un nom pour le groupe. |
     | Description | Permet d’entrer une description du groupe. |

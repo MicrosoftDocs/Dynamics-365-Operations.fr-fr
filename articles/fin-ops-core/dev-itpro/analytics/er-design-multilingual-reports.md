@@ -1,8 +1,8 @@
 ---
 title: Concevoir des états multilingues dans les états électroniques
-description: Cette rubrique explique comment utiliser les étiquettes d’états électroniques (ER) pour concevoir et générer des états multilingues.
+description: Cet article explique comment utiliser les étiquettes d’états électroniques (ER) pour concevoir et générer des états multilingues.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845742"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Concevoir des états multilingues dans les états électroniques
 
@@ -142,6 +142,9 @@ Si vous configurez un format ER de cette manière, l’état est généré à l�
 
 Si une étiquette référencée n’a pas de traduction pour la langue du contexte d’exécution de format, le texte de l’étiquette dans la langue EN-US est utilisé à la place.
 
+> [!TIP]
+> Vous pouvez utiliser les composants **DOSSIER** et des types distincts de composants **FICHIER** au format ER modifiable pour spécifier comment un fichier sortant est généré. Pour nommer un fichier généré, configurez l’[expression](er-formula-language.md) ER pour le paramètre **Nom de fichier** du composant. Vous pouvez utiliser des étiquettes dans l’expression configurée. Comme le paramètre **Nom de fichier** est indépendant de la langue par défaut, le texte de toutes les étiquettes auxquelles vous faites référence dans cette expression est affiché dans la langue EN-US par défaut lors de l’exécution. Cependant, dans la version 10.0.28 et ultérieure, vous pouvez activer la fonctionnalité **Appliquer le paramètre « Préférence de langue » à l’expression « Nom de fichier »**. L’expression **Nom de fichier** prend alors le paramètre **Préférences linguistiques** en compte lors de son calcul.
+
 ## <a name="language"></a>Langue
 
 ER prend en charge différentes façons de spécifier une langue pour un état généré. Dans le champ **Préférences linguistiques** sur l’onglet **Format**, vous pouvez sélectionner les valeurs suivantes :
@@ -198,7 +201,7 @@ La configuration d’un composant ER se fait dans la version préliminaire de la
 
 ![Page Configurations ER permettant d’accéder à la version de la configuration à l’état Brouillon.](./media/er-multilingual-labels-configurations.png)
 
-Comme décrit précédemment dans cette rubrique, vous pouvez ajouter des étiquettes ER requises à un composant ER modifiable. De cette façon, vous pouvez spécifier le texte des étiquettes ER dans la langue EN-US. Vous pouvez ensuite exporter les étiquettes du composant ER à l’aide de la fonction ER intégrée. Sélectionnez la version provisoire d’une configuration ER contenant le composant ER modifiable, puis sélectionnez **Échange \> Exporter des étiquettes**.
+Comme décrit précédemment dans cet article, vous pouvez ajouter des étiquettes ER requises à un composant ER modifiable. De cette façon, vous pouvez spécifier le texte des étiquettes ER dans la langue EN-US. Vous pouvez ensuite exporter les étiquettes du composant ER à l’aide de la fonction ER intégrée. Sélectionnez la version provisoire d’une configuration ER contenant le composant ER modifiable, puis sélectionnez **Échange \> Exporter des étiquettes**.
 
 ![Page Configurations ER permettant d’exporter des étiquettes ER depuis la version de configuration sélectionnée.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ Le contrôle de version ER contrôle l’attribution d’étiquette à n’impor
 
 La fonction ER [LISTOFFIELDS](er-functions-list-listoffields.md) intégré peut accéder aux étiquettes ER qui ont été configurées pour certains éléments des composants ER.
 
-Comme décrit précédemment dans cette rubrique, les attributs **Étiquette** et **Description** de la valeur d’énumération ER de chaque [modèle](#LinkModelEnum) ou [format](#LinkFormatEnum) peuvent être liés à une étiquette ER accessible dans le composant ER approprié. Vous pouvez configurer une expression ER où vous appelez la fonction **LISTOFFIELDS** en utilisant l’énumération ER comme argument. Cette expression renvoie une liste qui contient un enregistrement pour chaque valeur d’une énumération ER définie comme argument de cette fonction. Chaque enregistrement contient la valeur d’une étiquette ER liée à une valeur d’énumération ER :
+Comme décrit précédemment dans cet article, les attributs **Étiquette** et **Description** de la valeur d’énumération ER de chaque [modèle](#LinkModelEnum) ou [format](#LinkFormatEnum) peuvent être liés à une étiquette ER accessible dans le composant ER approprié. Vous pouvez configurer une expression ER où vous appelez la fonction **LISTOFFIELDS** en utilisant l’énumération ER comme argument. Cette expression renvoie une liste qui contient un enregistrement pour chaque valeur d’une énumération ER définie comme argument de cette fonction. Chaque enregistrement contient la valeur d’une étiquette ER liée à une valeur d’énumération ER :
 
 - La valeur d’une étiquette ER liée aux attributs **Étiquette** est stockée dans le champ **Étiquette** de l’enregistrement renvoyé.
 - La valeur d’une étiquette ER liée aux attributs **Description** est stockée dans le champ **Description** de l’enregistrement renvoyé.

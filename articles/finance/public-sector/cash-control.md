@@ -1,6 +1,6 @@
 ---
-title: Savoir utiliser les limites de contrôle de disponibilités
-description: Cette rubrique explique comment utiliser le contrôle de disponibilités pour définir des limites de transaction lorsqu’il n’y a aucun solde de disponibilités ou qu’une transaction fait chuter le solde des disponibilités sous un montant prédéfini.
+title: Utiliser les limites de contrôle de disponibilités
+description: Cet article explique comment utiliser le contrôle de disponibilités pour définir des limites de transaction lorsqu’il n’y a aucun solde de disponibilités ou qu’une transaction fait chuter le solde des disponibilités sous un montant prédéfini.
 author: v-kiarnd
 ms.date: 09/21/2020
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 28f7eea32a558cd4f8bb099841663c56989063a9
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 01f60fd7877665842a7dc3d64a07600b0fd64a1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861207"
 ---
-# <a name="use-cash-control-limits"></a>Savoir utiliser les limites de contrôle de disponibilités
+# <a name="use-cash-control-limits"></a>Utiliser les limites de contrôle de disponibilités
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment utiliser le contrôle de disponibilités pour définir des limites de transaction lorsqu’il n’y a aucun solde de disponibilités ou qu’une transaction fait chuter le solde des disponibilités sous un montant prédéfini.
+Cet article explique comment utiliser le contrôle de disponibilités pour définir des limites de transaction lorsqu’il n’y a aucun solde de disponibilités ou qu’une transaction fait chuter le solde des disponibilités sous un montant prédéfini.
 
 Le contrôle de disponibilités permet de définir une limite (seuil) pour empêcher de valider des transactions si aucun solde de disponibilités n’est disponible, ou si une transaction fait chuter le solde sous un montant défini. Le compte défini dans la définition de validation utilisée est évalué lorsque des transactions sont créées, modifiées et validées. Si aucune entrée n’est générée, le compte correspondant est utilisé. Si la validation de la transaction fait chuter le solde du compte de disponibilités associé sous la limite définie, un message d’erreur s’affiche et vous devez modifier le compte pour continuer. .
 

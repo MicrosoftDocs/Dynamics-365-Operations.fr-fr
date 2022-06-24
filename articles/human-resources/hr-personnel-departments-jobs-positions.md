@@ -1,6 +1,6 @@
 ---
 title: Organisation du personnel à l’aide des départements, tâches et postes
-description: Cette rubrique décrit des informations conceptuelles sur les services, les tâches et les postes qui sont des éléments d’organisation tenus à jour au sein des Ressources humaines.
+description: Cet article décrit des informations conceptuelles sur les services, les tâches et les postes qui sont des éléments d’organisation tenus à jour au sein des Ressources humaines.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874273"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organisation du personnel à l’aide des départements, tâches et postes
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694821"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Les départements, les tâches et les postes sont des éléments d’organisation qui sont tenus à jour au sein des Ressources humaines. Cette rubrique décrit des informations conceptuelles sur ces éléments. 
+Les départements, les tâches et les postes sont des éléments d’organisation qui sont tenus à jour au sein des Ressources humaines. Cet article décrit des informations conceptuelles sur ces éléments. 
 
 L’exemple suivant est utilisé pour illustrer les concepts décrits dans cet article.
 

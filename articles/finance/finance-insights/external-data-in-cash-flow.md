@@ -1,6 +1,6 @@
 ---
 title: Données externes dans les prévisions de flux de trésorerie
-description: Cette rubrique décrit les étapes de configuration à effectuer pour que des données externes puissent être saisies ou importées dans les prévisions de flux de trésorerie.
+description: Cet article décrit les étapes de configuration à effectuer pour que des données externes puissent être saisies ou importées dans les prévisions de flux de trésorerie.
 author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f7fac80b7ad0fde273fbd33aa5df146e569be46e
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f0cb05770dc2fbd4e13af261b5f0a0e117a2f6d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846942"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>Données externes dans les prévisions de flux de trésorerie
 
 [!include [banner](../includes/banner.md)]
 
-Les données externes peuvent être saisies ou importées dans les prévisions de trésorerie. Cette rubrique décrit les étapes de configuration spécifiques à l’utilisation de données externes et permettant d’inclure les données externes dans une prévision de flux de trésorerie.
+Les données externes peuvent être saisies ou importées dans les prévisions de trésorerie. Cet article décrit les étapes de configuration spécifiques à l’utilisation de données externes et permettant d’inclure les données externes dans une prévision de flux de trésorerie.
 
 ## <a name="external-data-setup"></a>Configuration des données externes
 

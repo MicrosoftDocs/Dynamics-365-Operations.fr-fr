@@ -1,6 +1,6 @@
 ---
 title: Amortissement linéaire sur la durée de vie restante
-description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
+description: Cet article propose une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853436"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Amortissement linéaire sur la durée de vie restante
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
+Cet article propose une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
 
 Lorsque vous définissez un profil d’amortissement de l’immobilisation et sélectionnez **Durée de vie linéaire restante** dans le champ **Méthode** sur la page **Profils d’amortissement**, l’amortissement des immobilisations affectées au profil d’amortissement est basé sur la durée de vie restante de l’immobilisation. Le montant d’amortissement est généralement identique dans chaque période d’amortissement. Pour paramétrer l’amortissement linéaire restant, vous devez également sélectionner les options dans les champs  **Année d’amortissement** et **Fréquence** sur la page **Profils d’amortissement**. Les options disponibles dans le champ **Fréquence** varient en fonction de la valeur sélectionnée dans le champ **Année d’amortissement**.
 
@@ -35,7 +35,7 @@ Vous pouvez sélectionner soit **Calendrier** soit **Exercice** dans le champ **
 
 ### <a name="calendar"></a>Calendrier
 
-Si vous sélectionnez **Calendrier** dans le champ **_Année d’amortissement_*_, l’exercice supposé s’étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment. L’option _* Calendrier** met à jour la base d’amortissement le 1er janvier de chaque année. Généralement, la base d’amortissement est la valeur nette moins la valeur résiduelle. Dans l’exemple plus loin dans cette rubrique, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. Si vous sélectionnez **Calendrier** comme année d’amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
+Si vous sélectionnez **Calendrier** dans le champ **_Année d’amortissement_*_, l’exercice supposé s’étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment. L’option _* Calendrier** met à jour la base d’amortissement le 1er janvier de chaque année. Généralement, la base d’amortissement est la valeur nette moins la valeur résiduelle. Dans l’exemple plus loin dans cet article, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. Si vous sélectionnez **Calendrier** comme année d’amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
 
 - **Annuel** valide un montant le 31 décembre.
 - **Mensuel** valide un montant mensuel à la fin de chaque mois du calendrier.

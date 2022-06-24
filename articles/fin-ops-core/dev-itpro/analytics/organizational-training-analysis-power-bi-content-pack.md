@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI Formation dans l’organisation
-description: Cette rubrique décrit le contenu Power BI Finance and Operations – Formation dans l’organisation.
+description: Cet article décrit le contenu Power BI Formation dans l’organisation dans Finance et Opérations.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba332fc0c241969cbe0c25e7985101a2bbe12be4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892419"
 ---
 # <a name="organizational-training-power-bi-content"></a>Contenu Power BI Formation dans l’organisation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Power BI Finance and Operations – Formation dans l’organisation.
+Cet article décrit le contenu Power BI Formation dans l’organisation dans Finance et Opérations.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>États inclus dans le pack de contenu
 Après avoir connecté le pack de contenu à vos données, les données de votre organisation s’affichent dans les états. Si vous n’avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d’apprentissage guidé pour Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.

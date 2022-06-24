@@ -1,6 +1,6 @@
 ---
 title: Importer les données depuis les fichiers sélectionnés manuellement en mode de traitement par lots
-description: Cette rubrique explique comment importer des données à partir de fichiers sélectionnés manuellement en mode de traitement par lots.
+description: Cet article explique comment importer des données à partir de fichiers sélectionnés manuellement en mode de traitement par lots.
 author: NickSelin
 ms.date: 01/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: Release 10.0.25
-ms.openlocfilehash: 8615b5a0623fd696c64f4ec03e481a2bcb16c0ac
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 2dec838439876fd8e57ea4a7078d97267e5ea1a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890181"
 ---
 # <a name="import-data-from-manually-selected-files-in-batch-mode"></a>Importer les données depuis les fichiers sélectionnés manuellement en mode de traitement par lots
 
@@ -31,11 +31,11 @@ Pour utiliser la structure [Gestion des états électroniques (ER)](general-elec
 
 La nouvelle fonctionnalité ER qui prend en charge de l’importation des données en mode de traitement par lots permet à ce processus d’être configuré en mode sans assistance. Vous pouvez utiliser les configurations ER pour effectuer l’importation de données en planifiant une nouvelle tâche par lots à partir de l’interface utilisateur (IU) ER.
 
-Cette rubrique explique comment exécuter l’importation des données à partir d’un fichier sélectionné manuellement en mode de traitement par lots. Les exemples utilisent les transactions fournisseur comme données commerciales. Ces étapes peuvent être effectuées dans la société fictive **USMF**. Aucun codage n’est requis.
+Cet article explique comment exécuter l’importation des données à partir d’un fichier sélectionné manuellement en mode de traitement par lots. Les exemples utilisent les transactions fournisseur comme données commerciales. Ces étapes peuvent être effectuées dans la société fictive **USMF**. Aucun codage n’est requis.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Pour exécuter les exemples décrits dans cette rubrique, vous devez disposer de l’accès suivant :
+Pour exécuter les exemples décrits dans cet article, vous devez disposer de l’accès suivant :
 
 - Un des rôles suivants :
 

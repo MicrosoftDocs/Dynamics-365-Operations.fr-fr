@@ -1,6 +1,6 @@
 ---
 title: Conditions de répartition
-description: Cette rubrique fournit des informations sur l’utilisation des conditions de répartition sur un compte principal.
+description: Cet article fournit des informations sur l’utilisation des conditions de répartition sur un compte principal.
 author: rachel-profitt
 ms.date: 06/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab3f797505e2c3d7521d3af5c231f5985e6efaa5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d62c0cc79c9d61e0ebb1c2c62a345ad47412d0d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859825"
 ---
 # <a name="allocation-terms"></a>Conditions de répartition
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur l’utilisation des conditions de répartition sur un compte principal. Les conditions de répartition permettent de répartir des montants entre plusieurs combinaisons de comptes généraux. Elles aident à garantir que les dépenses ou les revenus sont imputés à l’objet approprié dans la comptabilité.
+Cet article fournit des informations sur l’utilisation des conditions de répartition sur un compte principal. Les conditions de répartition permettent de répartir des montants entre plusieurs combinaisons de comptes généraux. Elles aident à garantir que les dépenses ou les revenus sont imputés à l’objet approprié dans la comptabilité.
 
 Chaque condition de répartition que vous créez sur un compte principal définit le pourcentage d’un N° document à répartir à partir d’un compte principal à source unique et d’une combinaison de dimensions financières. En outre, vous définissez le compte principal de destination et les dimensions financières sur lesquels le montant va être réparti. 
 

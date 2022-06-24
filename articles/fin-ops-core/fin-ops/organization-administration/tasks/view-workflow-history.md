@@ -1,6 +1,6 @@
 ---
-title: Afficher l’historique du flux de travail
-description: Cette rubrique décrit les étapes pour afficher le statut d’un document qui a été envoyé au système de workflow pour traitement et approbation.
+title: Afficher l’historique du workflow
+description: Cet article décrit les étapes pour afficher le statut d’un document qui a été envoyé au système de workflow pour traitement et approbation.
 author: jasongre
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8a5810eaed5d2ff6cb5c98e1b21c098c70f24485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868577"
 ---
-# <a name="view-workflow-history"></a>Afficher l’historique du flux de travail
+# <a name="view-workflow-history"></a>Afficher l’historique du workflow
 
 [!include [banner](../../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-Cette rubrique décrit les étapes pour afficher le statut d’un document qui a été envoyé au système de workflow pour traitement et approbation. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Cet article décrit les étapes pour afficher le statut d’un document qui a été envoyé au système de workflow pour traitement et approbation. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 1. Allez dans **Volet de navigation > Modules > Commun > Recherches > Workflow > Historique du workflow**.
     - Cet écran permet d’afficher le statut d’un document envoyé au système de workflow pour traitement et approbation.  

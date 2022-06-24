@@ -1,6 +1,6 @@
 ---
 title: Définitions de validation dans le secteur public
-description: Cette rubrique fournit des exemples de définitions de validation dans le secteur public à utiliser pour créer les lignes du journal de comptabilité auxiliaire pour les transactions d’origine correspondant aux critères sélectionnés.
+description: Cet article fournit des exemples de définitions de validation dans le secteur public à utiliser pour créer les lignes du journal de comptabilité auxiliaire pour les transactions d’origine correspondant aux critères sélectionnés.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Public sector
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22eb5befe46a4b4117b5d0a18dd2a8a0a112f82d
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 76f66b6c9adfcdf04a774a21cc3579d35ab4272c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888835"
 ---
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des exemples de définitions de validation dans le secteur public à utiliser pour créer les lignes du journal de comptabilité auxiliaire pour les transactions d’origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d’exercice de comptabilité et des fonds propriétaires.
+Cet article fournit des exemples de définitions de validation dans le secteur public à utiliser pour créer les lignes du journal de comptabilité auxiliaire pour les transactions d’origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d’exercice de comptabilité et des fonds propriétaires.
 
-Cet article décrit la fonctionnalité de définitions de validation pour le secteur public. Avant de lire cette rubrique, vous devez être familiarisé avec les définitions de validation.
+Cet article décrit la fonctionnalité de définitions de validation pour le secteur public. Avant de lire cet article, vous devez être familiarisé avec les définitions de validation.
 
 ## <a name="how-do-i-use-these-examples-of-public-sector-posting-definitions"></a>Comment utiliser ces exemples de définitions de validation pour le secteur public ?
 Vous pouvez paramétrer les exemples de cet article sur la page **Définitions de validation**. Chaque exemple contient les sections suivantes :

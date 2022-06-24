@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la France
-description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 Finance pour la France.
+description: Cet article fournit des liens vers des ressources de documentation Microsoft Dynamics 365 Finance pour la France.
 author: kfend
 ms.date: 03/04/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: France
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 455fa8e5ba44f4fc477db7c98340d01f04ae884d
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: d76c8d035e36cea70d9a14232c951ddff945f48c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883057"
 ---
 # <a name="france-overview"></a>Vue d’ensemble de la France
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer les entités juridiques dont l’adresse principale est en France. 
+Cet article inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer les entités juridiques dont l’adresse principale est en France. 
 
 - Secteur public
   - [Comptabilité secteur public](emea-fra-public-sector-accounting.md)

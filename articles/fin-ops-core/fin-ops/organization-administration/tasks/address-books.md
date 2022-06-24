@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 666ecc5b4e0df9ed518e8e9dabc1babd442508bc
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 34851d17e08c56d2972b5fed558ae1fc19fd5ede
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880988"
 ---
 # <a name="configure-address-books"></a>Configurer les carnets d’adresses
 
 [!include [banner](../../includes/banner.md)]
 
-Utilisez cette procédure et les décisions que vous avez prises dans la rubrique Planification et configuration du carnet d’adresses global et les autres rubriques du carnet d’adresses pour paramétrer des carnets d’adresses supplémentaires pour votre organisation.
+Utilisez cette procédure et les décisions que vous avez prises dans l’article Planification et configuration du carnet d’adresses global et les autres articles du carnet d’adresses pour paramétrer des carnets d’adresses supplémentaires pour votre organisation.
 
 Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
 

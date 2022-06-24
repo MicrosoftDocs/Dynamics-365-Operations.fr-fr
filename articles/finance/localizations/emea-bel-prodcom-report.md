@@ -1,6 +1,6 @@
 ---
 title: Paramétrer et tenir à jour PRODCOM
-description: Cette rubrique décrit comment paramétrer et tenir à jour PRODCOM dans Microsoft Dynamics 365 Finance.
+description: Cet article décrit comment paramétrer et tenir à jour PRODCOM dans Microsoft Dynamics 365 Finance.
 author: EvgenyPopovMBS
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c90879fed62316142bc51196479c8014cd5ad608ba0346c9a325434deaefd6d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83d5d813d3195ecf53e0e4a57feaa42bf2bec57f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883095"
 ---
 # <a name="set-up-and-maintain-prodcom"></a>Paramétrer et tenir à jour PRODCOM
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer et tenir à jour PRODCOM. Les fabricants de produits industriels sont tenus de faire état des quantités et de la valeur des produits vendus, ainsi que de données relatives à l’emploi au Nationaal Instituut voor de Statistiek (NIS), en réponse à l’enquête PRODCOM régulièrement mise en place. La plupart des fabricants soumettent chaque mois un état PRODCOM détaillé au NIS, à l’aide de l’un des six formats d’état standard. Le NIS détermine la présentation d’état à utiliser, selon la nature des matériaux produits. L’état PRODCOM affiche les statistiques de production pour les produits industriels fabriqués par des sociétés de production implantées en Belgique. Cet état est généralement utilisé par les chefs comptables et les comptables.
+Cet article décrit comment paramétrer et tenir à jour PRODCOM. Les fabricants de produits industriels sont tenus de faire état des quantités et de la valeur des produits vendus, ainsi que de données relatives à l’emploi au Nationaal Instituut voor de Statistiek (NIS), en réponse à l’enquête PRODCOM régulièrement mise en place. La plupart des fabricants soumettent chaque mois un état PRODCOM détaillé au NIS, à l’aide de l’un des six formats d’état standard. Le NIS détermine la présentation d’état à utiliser, selon la nature des matériaux produits. L’état PRODCOM affiche les statistiques de production pour les produits industriels fabriqués par des sociétés de production implantées en Belgique. Cet état est généralement utilisé par les chefs comptables et les comptables.
 
 ## <a name="set-up-prodcom-reporting"></a>Paramétrage des états PRODCOM
 

@@ -1,6 +1,6 @@
 ---
 title: Factures d’acompte et acomptes
-description: Cette rubrique décrit et compare les deux méthodes que les organisations peuvent utiliser pour les paiements en avance (acomptes).
+description: Cet article décrit et compare les deux méthodes que les organisations peuvent utiliser pour les paiements en avance (acomptes).
 author: abruer
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f05f1d8d2a1fb454f3f227d2cc8138f2b779ff87
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895194"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Factures d’acompte et acomptes
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit et compare les deux méthodes que les organisations peuvent utiliser pour les paiements en avance (acomptes). Une méthode crée une facture d’acompte qui est associée à une commande fournisseur. L’autre méthode crée des N° document du journal des acomptes en créant des entrées de journal et en les marquant comme des N° document du journal des acomptes.
+Cet article décrit et compare les deux méthodes que les organisations peuvent utiliser pour les paiements en avance (acomptes). Une méthode crée une facture d’acompte qui est associée à une commande fournisseur. L’autre méthode crée des N° document du journal des acomptes en créant des entrées de journal et en les marquant comme des N° document du journal des acomptes.
 
 Les organisations peuvent verser des acomptes (paiements en avance) aux fournisseurs pour des biens ou services avant que ceux-ci ne soient livrés. Deux méthodes permettent de verser des acomptes aux fournisseurs. Pour minimiser les risques, vous pouvez suivre les acomptes en définissant l’acompte sur une commande fournisseur. Pour cette méthode, vous devez créer une facture d’acompte associée à une commande fournisseur. Cette méthode est appelée facturation d’acompte. Les organisations qui ne souhaitent pas suivre les acomptes aussi étroitement ou qui ne reçoivent pas une facture d’acompte de leur fournisseur peuvent utiliser les N° documents du journal des acomptes au lieu de la méthode de facturation d’acompte. Vous pouvez créer des N° documents du journal des acomptes en créant des entrées de journal et en les marquant comme N° documents du journal des acomptes. Pour cette méthode, vous ne pouvez pas suivre les acomptes versés à un fournisseur, ni les commandes fournisseur concernées. Toutefois, vous pouvez marquer un acompte validé pour règlement pour une commande fournisseur.
 

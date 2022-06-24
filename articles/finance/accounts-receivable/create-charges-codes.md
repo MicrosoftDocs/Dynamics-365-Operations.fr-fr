@@ -1,6 +1,6 @@
 ---
 title: Création de codes frais
-description: Cette rubrique explique comment configurer les codes de frais pour la comptabilité fournisseur et la comptabilité client.
+description: Cet article explique comment configurer les codes de frais pour la comptabilité fournisseur et la comptabilité client.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866081"
 ---
 # <a name="create-charges-codes"></a>Création de codes frais
 
-Cette rubrique explique comment configurer les codes de frais pour la comptabilité fournisseur et la comptabilité client. Si votre organisation exige que les montants des ventes ou des achats soient suivis en plus des éléments de ligne sur une commande client ou une commande fournisseur, vous pouvez utiliser des codes de frais à cette fin. Par exemple, vous pouvez payer les frais de transport et d’assurance sur une commande fournisseur, puis ces montants sont détaillés séparément dans la commande fournisseur. Dans ce cas, vous pouvez spécifier si les montants sont validés dans les comptes de dépenses ou s’ils sont ajoutés au coût des articles.
+Cet article explique comment configurer les codes de frais pour la comptabilité fournisseur et la comptabilité client. Si votre organisation exige que les montants des ventes ou des achats soient suivis en plus des éléments de ligne sur une commande client ou une commande fournisseur, vous pouvez utiliser des codes de frais à cette fin. Par exemple, vous pouvez payer les frais de transport et d’assurance sur une commande fournisseur, puis ces montants sont détaillés séparément dans la commande fournisseur. Dans ce cas, vous pouvez spécifier si les montants sont validés dans les comptes de dépenses ou s’ils sont ajoutés au coût des articles.
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>Paramétrage de codes frais pour la comptabilité client
 

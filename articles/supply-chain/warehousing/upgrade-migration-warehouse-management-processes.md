@@ -1,6 +1,6 @@
 ---
 title: Mise à niveau de la gestion des entrepôts depuis Microsoft Dynamics AX 2012 vers Supply Chain Management
-description: Cette rubrique fournit une vue d’ensemble des options de migration de produits et des stocks.
+description: Cet article fournit une vue d’ensemble des options de migration de produits et des stocks.
 author: perlynne
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857081"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Mise à niveau de la gestion des entrepôts depuis Microsoft Dynamics AX 2012 vers Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble du processus de mise à niveau depuis Microsoft Dynamics AX 2012 R3, en exécutant le module WMSII, vers Supply Chain Management.
+Cet article fournit une vue d’ensemble du processus de mise à niveau depuis Microsoft Dynamics AX 2012 R3, en exécutant le module WMSII, vers Supply Chain Management.
 
 Supply Chain Management ne prend plus en charge le module **WMSII** hérité de Microsoft Dynamics AX 2012. À la place, vous pouvez utiliser le module **Gestion des entrepôts**. Dans le module WMSII, les dimensions de stock Emplacement et ID palette peuvent être sélectionnées pour le stock financier. Cependant, la dimension de stock ID palette ne peut pas être utilisée pour le stock financier dans Supply Chain Management.
 

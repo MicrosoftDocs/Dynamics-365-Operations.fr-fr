@@ -1,6 +1,6 @@
 ---
 title: Modèles de jalon
-description: Cette rubrique explique comment configurer la fonctionnalité de facturation jalonnée dans la facturation des abonnements.
+description: Cet article explique comment configurer la fonctionnalité de facturation jalonnée dans la facturation des abonnements.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3c2cf751e4998c73bc3816e5b81e8d5963c8e53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856768"
 ---
 # <a name="milestone-billing"></a>Facturation jalonnée
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment définir des modèles pour la fonctionnalité de facturation jalonnée dans la facturation des abonnements. Pour chaque ligne du modèle de jalonnement, vous pouvez définir le pourcentage ou le montant de la répartition. Vous pouvez ensuite affecter le modèle de jalonnement aux éléments de l’échéancier de facturation qui utilisent la fonctionnalité de facturation jalonnée.
+Cet article explique comment définir des modèles pour la fonctionnalité de facturation jalonnée dans la facturation des abonnements. Pour chaque ligne du modèle de jalonnement, vous pouvez définir le pourcentage ou le montant de la répartition. Vous pouvez ensuite affecter le modèle de jalonnement aux éléments de l’échéancier de facturation qui utilisent la fonctionnalité de facturation jalonnée.
 
 ## <a name="add-a-template"></a>Ajouter un modèle
 

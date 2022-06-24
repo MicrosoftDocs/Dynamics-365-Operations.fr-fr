@@ -1,6 +1,6 @@
 ---
 title: Inspectez le composant ER configuré pour éviter les problèmes d’exécution
-description: Cette rubrique explique comment inspecter les composants de rapports électroniques (ER) configurés pour éviter que des problèmes d’exécution ne se produisent.
+description: Cet article explique comment inspecter les composants de rapports électroniques (ER) configurés pour éviter que des problèmes d’exécution ne se produisent.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864834"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 
@@ -80,7 +80,7 @@ ER utilise les catégories suivantes pour regrouper les inspections des contrôl
 
 ## <a name="list-of-inspections"></a>Liste des inspections
 
-Le tableau suivant offre une vue d’ensemble des inspections fournies par ER. Pour plus d’informations sur ces inspections, utilisez les liens de la première colonne pour accéder aux sections pertinentes de cette rubrique. Ces sections expliquent les types de composants pour lesquels ER fournit des inspections et comment vous pouvez reconfigurer les composants ER pour éviter les problèmes.
+Le tableau suivant offre une vue d’ensemble des inspections fournies par ER. Pour plus d’informations sur ces inspections, utilisez les liens de la première colonne pour accéder aux sections pertinentes de cet article. Ces sections expliquent les types de composants pour lesquels ER fournit des inspections et comment vous pouvez reconfigurer les composants ER pour éviter les problèmes.
 
 <table>
 <thead>

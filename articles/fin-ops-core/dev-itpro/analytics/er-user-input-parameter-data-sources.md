@@ -1,6 +1,6 @@
 ---
 title: Utilisation des sources de données USER INPUT PARAMETER pour spécifier les paramètres d’un état
-description: Cette rubrique explique comment utiliser les sources de données USER INPUT PARAMETER pour spécifier les paramètres des états que vous générez.
+description: Cet article explique comment utiliser les sources de données USER INPUT PARAMETER pour spécifier les paramètres des états que vous générez.
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872970"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>Utilisation des sources de données USER INPUT PARAMETER pour spécifier les paramètres d’un état
 
 [!include[banner](../includes/banner.md)]
 
-Lorsque vous concevez des composants de [gestion des états électroniques](general-electronic-reporting.md) (ER) [mise en correspondance des modèles](er-overview-components.md#model-mapping-component) et [format](er-overview-components.md#format-component) ER, vous pouvez utiliser les sources de données de type *USER INPUT PARAMETER* pour obtenir les valeurs requises qui peuvent être spécifiées dans les champs de saisie de données de la boîte de dialogue lors de l’exécution, avant le début de l’exécution d’un format ER. Cette rubrique décrit les sources de données *USER INPUT PARAMETER* actuellement prises en charge.
+Lorsque vous concevez des composants de [gestion des états électroniques](general-electronic-reporting.md) (ER) [mise en correspondance des modèles](er-overview-components.md#model-mapping-component) et [format](er-overview-components.md#format-component) ER, vous pouvez utiliser les sources de données de type *USER INPUT PARAMETER* pour obtenir les valeurs requises qui peuvent être spécifiées dans les champs de saisie de données de la boîte de dialogue lors de l’exécution, avant le début de l’exécution d’un format ER. Cet article décrit les sources de données *USER INPUT PARAMETER* actuellement prises en charge.
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a>Propriétés obligatoires
 

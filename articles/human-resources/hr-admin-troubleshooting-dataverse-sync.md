@@ -1,6 +1,6 @@
 ---
 title: Réinitialiser la synchronisation de Dataverse
-description: Cette rubrique explique comment résoudre les enregistrements qui ne se synchronisent pas correctement entre Microsoft Dynamics 365 Human Resources et la solution Human capital management (HCM) Common dans Microsoft Dataverse.
+description: Cet article explique comment résoudre les enregistrements qui ne se synchronisent pas correctement entre Microsoft Dynamics 365 Human Resources et la solution Human capital management (HCM) Common dans Microsoft Dataverse.
 author: jaredha
 ms.date: 09/27/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-27
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 8bfcd51b023c02590919155abbb836326408d298
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b69390538fa28e18e5abf8aef548d67b6afb8496
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895987"
 ---
 # <a name="reset-dataverse-synchronization"></a>Réinitialiser la synchronisation de Dataverse
 

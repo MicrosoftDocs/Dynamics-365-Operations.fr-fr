@@ -1,6 +1,6 @@
 ---
 title: Configurer les paramètres de Human Resources
-description: Cette rubrique décrit comment définir les paramètres spécifiques à la société dans Dynamics 365 Human Resources.
+description: Cet article décrit comment définir les paramètres RH spécifiques à la société dans Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1fc8ba3f69f216d66850485b6ba33cd324a57156
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856278"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurer les paramètres de Human Resources
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Les réglages de certains paramètres des Ressources humaines sont partagés entre des sociétés, alors que les réglages d’autres paramètres sont spécifiques à la société. Cette rubrique décrit comment définir les paramètres Human Resources spécifiques à la société.
+Les réglages de certains paramètres des Ressources humaines sont partagés entre des sociétés, alors que les réglages d’autres paramètres sont spécifiques à la société. Cet article décrit comment définir les paramètres Human Resources spécifiques à la société.
 
 Deux pages permettent de définir les paramètres de Human Resources. Pour les paramètres communs à des sociétés, vous utilisez la page **Paramètres partagés de ressources humaines**. Pour les paramètres qui sont spécifiques à une société (en d’autres termes, les paramètres s’appliquent à une seule société), vous utilisez la page **Paramètres de ressources humaines**.
 

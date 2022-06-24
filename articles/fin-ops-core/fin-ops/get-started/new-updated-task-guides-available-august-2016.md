@@ -1,6 +1,6 @@
 ---
 title: Guides de tâches nouveaux ou mis à jour (août 2016)
-description: Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (août 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
+description: Cet article répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (août 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: be2dbf8307baa37549e2e81ec05f067ab82bfda8e77cace6a4f4731a84f2776d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16777901e66aeac93c8e0bbd2ee024a033fe5b52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886548"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Guides de tâches nouveaux ou mis à jour (août 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (août 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
+Cet article répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (août 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guides de tâches dans la bibliothèque unifiée APQC (août 2016 – toutes les langues) pour Microsoft Dynamics AX
 
-La bibliothèque unifiée APQC (août 2016 – toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour 2 de Microsoft Dynamics AX Platform, la mise à jour 2016 de l’application Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Pour plus d’informations sur ces versions, voir [page d’accueil Nouveautés ou changements dans Finance and Operations](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Système d’aide](help-overview.md).
+La bibliothèque unifiée APQC (août 2016 – toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour 2 de Microsoft Dynamics AX Platform, la mise à jour 2016 de l’application Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Pour plus d’informations sur ces versions, voir [Nouveautés ou modifications de la page d’accueil Finance et Opérations](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Système d’aide](help-overview.md).
 
 ### <a name="data-access"></a>Accès aux données
 

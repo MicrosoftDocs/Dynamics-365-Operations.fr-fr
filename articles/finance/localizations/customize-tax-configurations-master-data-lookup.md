@@ -1,6 +1,6 @@
 ---
 title: Personnaliser les configurations fiscales pour la recherche de données principales
-description: Cette rubrique explique comment personnaliser les configurations fiscales pour étendre la fonctionnalité de recherche de données principales.
+description: Cet article explique comment personnaliser les configurations fiscales pour étendre la fonctionnalité de recherche de données principales.
 author: kai-cloud
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69541316ad4c6c4bb404ea142844ce596b5502b9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 31c15c47fa1dc6861ff555a991d5f9233b7df35e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845182"
 ---
 # <a name="customize-tax-configurations-for-master-data-lookup"></a>Personnaliser les configurations fiscales pour la recherche de données principales
 
 [!include [banner](../includes/banner.md)]
 
-Suivez les étapes de cette rubrique pour personnaliser les configurations fiscales pour étendre la fonctionnalité de recherche de données principales.
+Suivez les étapes de cet article pour personnaliser les configurations fiscales pour étendre la fonctionnalité de recherche de données principales.
 
 ## <a name="import-a-tax-configuration-provided-by-microsoft"></a>Importer une configuration fiscale fournie par Microsoft
 

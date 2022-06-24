@@ -1,6 +1,6 @@
 ---
 title: Configuration requise
-description: Cette rubrique répertorie la configuration système requise pour Microsoft Dynamics 365 Human Resources.
+description: Cet article répertorie la configuration système requise pour Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e88006ebf174f1a416fa6d8572d439a0395f0e44
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b07d14dfe0e6b53c9489c284520a24b97d9887fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879335"
 ---
 # <a name="system-requirements"></a>Configuration requise
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique répertorie la configuration système requise pour Microsoft Dynamics 365 Human Resources. Elle décrit également les pays et régions où Human Resources est disponible, et fournit des informations sur les langues et la localisation des données pour Human Resources.
+Cet article répertorie la configuration système requise pour Microsoft Dynamics 365 Human Resources. Elle décrit également les pays et régions où Human Resources est disponible, et fournit des informations sur les langues et la localisation des données pour Human Resources.
 
 ## <a name="supported-web-browsers"></a>Navigateurs Web pris en charge
 

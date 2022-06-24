@@ -1,6 +1,6 @@
 ---
 title: Réservations budgétaires générales
-description: Cette rubrique fournit des informations sur les réservations budgétaires générales pour le secteur public.
+description: Cet article fournit des informations sur les réservations budgétaires générales pour le secteur public.
 author: TaylorVH
 ms.date: 08/29/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 571970bda6d90852754bdf5e5b495014b3942fbc
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: bcdd7352f5eacf4579fc4f80d8b8377d64f0d0bf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883037"
 ---
 # <a name="general-budget-reservations"></a>Réservations budgétaires générales
 
@@ -45,9 +45,9 @@ Dans la réservation budgétaire générale, vous pouvez également afficher les
 > [!NOTE]
 > Les comptes généraux utilisés sur les réservations budgétaires générales doivent être inclus dans le contrôle budgétaire. Si ces comptes ne sont pas inclus dans le contrôle budgétaire, ce qui suit se produira. 
 >- La réservation budgétaire générale et ses documents de consommation ne seront ni grevés ni pré-grevés. 
->- Les opérations de report ne créeront pas d'écritures dans le registre budgétaire. 
->- L'annulation et la finalisation des réservations budgétaires générales ne réduiront pas le report de budget.
->- Les comptes généraux ne seront pas inclus dans l'analyse budgétaire ni les études statistiques du contrôle budgétaire.
+>- Les opérations de report ne créeront pas d’écritures dans le registre budgétaire. 
+>- L’annulation et la finalisation des réservations budgétaires générales ne réduiront pas le report de budget.
+>- Les comptes généraux ne seront pas inclus dans l’analyse budgétaire ni les études statistiques du contrôle budgétaire.
 
 Si vous utilisez la comptabilité de projet, vous pouvez activer le suivi des coûts engagés pour les réservations budgétaires générales.
 

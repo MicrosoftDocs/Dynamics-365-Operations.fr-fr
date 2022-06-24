@@ -1,6 +1,6 @@
 ---
 title: Créer des actifs basés sur les commandes fournisseur
-description: Cette rubrique explique comment créer une liste d’éléments d’actifs pouvant servir de base à la création d’actifs pour les travaux de maintenance dans le module Gestion des actifs.
+description: Cet article explique comment créer une liste d’éléments d’actifs pouvant servir de base à la création d’actifs pour les travaux de maintenance dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893698"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Créer des actifs basés sur les commandes fournisseur
 
@@ -28,7 +28,7 @@ ms.locfileid: "6754105"
 
  
 
-Cette rubrique explique comment créer une liste d’éléments d’actifs pouvant servir de base à la création d’actifs pour les travaux de maintenance dans le module Gestion des actifs. En fonction des actifs, vous pouvez afficher une liste des lignes de commande créées sur ces articles. Le but de cette fonctionnalité est de créer facilement un actif dans le module Gestion des actifs basé sur une commande fournisseur.
+Cet article explique comment créer une liste d’éléments d’actifs pouvant servir de base à la création d’actifs pour les travaux de maintenance dans le module Gestion des actifs. En fonction des actifs, vous pouvez afficher une liste des lignes de commande créées sur ces articles. Le but de cette fonctionnalité est de créer facilement un actif dans le module Gestion des actifs basé sur une commande fournisseur.
 
 Premièrement, vous définissez les articles à utiliser pour créer les actifs d’une commande fournisseur dans **Articles d’actifs**. Après avoir créé une ligne de commande fournisseur, créez les actifs dans **Actifs en attente**. Il est possible de déterminer à quel stade de la commande fournisseur l’actif doit être créé.
 

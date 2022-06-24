@@ -1,6 +1,6 @@
 ---
-title: Améliorer le suivi des résultats des rapports électroniques générés pour les comparer aux valeurs de référence
-description: Cette rubrique décrit les améliorations apportées à la fonctionnalité de référence pour la gestion des états électroniques dans Microsoft Dynamics 365 for Finance and Operations version 10.0.3 (juin 2019).
+title: Améliorer le suivi des résultats des états électroniques générés pour les comparer aux valeurs de référence
+description: Cet article décrit les améliorations apportées à la fonctionnalité de référence pour la gestion des états électroniques dans Microsoft Dynamics 365 for Finance and Operations version 10.0.3 (juin 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847399"
 ---
-# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Améliorer le suivi des résultats des rapports électroniques générés pour les comparer aux valeurs de référence
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Améliorer le suivi des résultats des états électroniques générés pour les comparer aux valeurs de référence
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit le premier ensemble d’améliorations apportées à la fonction de référence de la structure de génération d’états électroniques (ER). Ces améliorations sont disponibles dans Microsoft Dynamics 365 for Finance and Operations 10.0.3 (juin 2019) et les versions ultérieures.
+Cet article décrit le premier ensemble d’améliorations apportées à la fonction de référence de la structure de génération d’états électroniques (ER). Ces améliorations sont disponibles dans Microsoft Dynamics 365 for Finance and Operations 10.0.3 (juin 2019) et les versions ultérieures.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatisation du paramétrage des règles de référence
 
-La rubrique [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md) explique comment configurer la structure ER pour collecter les informations sur les exécutions de format ER et évaluer les résultats de ces exécutions. L’exemple de cette rubrique présente les étapes à accomplir.
+L’article [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md) explique comment configurer la structure ER pour collecter les informations sur les exécutions de format ER et évaluer les résultats de ces exécutions. L’exemple de cet article présente les étapes à accomplir.
 
 En voici quelques-unes :
 
@@ -45,7 +45,7 @@ En voici quelques-unes :
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Exemple : Automatisation du paramétrage des règles de référence
 
-Pour accomplir les étapes de cet exemple, vous devez d’abord réaliser les étapes de la rubrique [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md), jusqu’à la section « Ajouter une nouvelle référence à un format ER défini ».
+Pour accomplir les étapes de cet exemple, vous devez d’abord réaliser les étapes de l’article [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md), jusqu’à la section « Ajouter une nouvelle référence à un format ER défini ».
 
 ### <a name="review-added-baseline"></a>Examiner la référence ajoutée
 
@@ -80,7 +80,7 @@ La référence a été ajoutée pour le format **Format pour l’apprentissage d
 
 ### <a name="run-the-format"></a>Exécuter le format
 
-Vous êtes maintenant prêt à accomplir les étapes restantes de l’exemple de la rubrique [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md), en commençant par la section « Exécuter le format ER défini et examiner le fichier journal pour analyser les résultats ».
+Vous êtes maintenant prêt à accomplir les étapes restantes de l’exemple de l’article [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md), en commençant par la section « Exécuter le format ER défini et examiner le fichier journal pour analyser les résultats ».
 
 > [!NOTE]
 > Lorsque vous supprimez la règle de référence automatiquement ajoutée dans l’organisateur **Références**, la pièce jointe référencée n’est pas automatiquement supprimée.
@@ -91,7 +91,7 @@ Lorsqu’un format ER a été conçu pour contenir des informations qui changent
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Exemple : Configurer la référence de sorte qu’elle ignore les éléments qui changent en permanence de la sortie ER.
 
-Pour accomplir les étapes de cet exemple, vous devez d’abord réaliser les étapes de la rubrique [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md).
+Pour accomplir les étapes de cet exemple, vous devez d’abord réaliser les étapes de l’article [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md).
 
 ### <a name="modify-a-configured-er-format"></a>Modifier un format ER configuré
 
@@ -142,7 +142,7 @@ Le composant du format ER sélectionné a été ajouté à la liste des composan
 
 ### <a name="make-a-new-baseline-rule"></a>Établir une nouvelle règle de référence
 
-Suivez les étapes de la section « Exemple :Automatisation du paramétrage des règles de référence » plus haut dans cette rubrique. Une notification vous indique que le fichier de sortie a été généré à l’aide des paramètres de référence, et qu’un remplacement forcé des liaisons du format a eu lieu.
+Suivez les étapes de la section « Exemple :Automatisation du paramétrage des règles de référence » plus haut dans cet article. Une notification vous indique que le fichier de sortie a été généré à l’aide des paramètres de référence, et qu’un remplacement forcé des liaisons du format a eu lieu.
 
 ![Notification sur la page Configurations.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Capture d’écran de la notification sur la page Configurations")
 

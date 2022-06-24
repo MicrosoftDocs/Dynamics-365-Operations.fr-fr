@@ -1,6 +1,6 @@
 ---
 title: Tenir à jour les réservations budgétaires générales
-description: Cette rubrique fournit la procédure pour utiliser des réservations budgétaires générales pour le secteur public dans Microsoft Dynamics 365 Finance.
+description: Cet article fournit la procédure pour utiliser des réservations budgétaires générales pour le secteur public dans Microsoft Dynamics 365 Finance.
 author: AlexRenney
 ms.date: 04/25/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3d40750aaae1cfeb029723385f24efea81b1bae4
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f9802a366588bffcff8efd57c6bcbdb03f47f2cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862877"
 ---
 # <a name="maintain-general-budget-reservations"></a>Tenir à jour les réservations budgétaires générales
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment effectuer des tâches courantes pour les réservations budgétaires générales.
+Cet article explique comment effectuer des tâches courantes pour les réservations budgétaires générales.
 
 ## <a name="create-and-encumber-a-general-budget-reservation"></a>Créer et engager une réservation budgétaire générale
 

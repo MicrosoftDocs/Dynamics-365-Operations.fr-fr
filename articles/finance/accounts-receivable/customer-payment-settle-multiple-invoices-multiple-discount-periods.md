@@ -1,6 +1,6 @@
 ---
 title: Utiliser un paiement pour régler les factures qui couvrent plusieurs périodes de remise
-description: Cette rubrique montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué.
+description: Cet article montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué.
 author: ShivamPandey-msft
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5187835da33d729e50aad9c813d8753d240fb81
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872642"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Utiliser un paiement pour régler les factures qui couvrent plusieurs périodes de remise
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué.
+Cet article montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué.
 
 Fabrikam vend des marchandises au client 4032. Fabrikam offre un escompte de règlement de 1 % si la facture est payée sous 14 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement se trouvent dans la page **Paramètres de la comptabilité client**.
 
@@ -74,7 +74,7 @@ Le client 4032 peut effectuer un payement partiel, de la moitié de chaque factu
 | Activé                 | Standard            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1 000,00                             |                                       | USD      | 495,00           |
 | Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1 000,00                             |                                       | USD      | 490,00           |
 
-Arnie peut également saisir manuellement le montant du paiement de 1 485,00 avant l'ouverture de la page **Régler les transactions**. Si Arnie saisit manuellement le montant du paiement, puis marque les trois transactions, mais n’ajuste pas la valeur du champ **Montant à régler** pour chaque transaction, Arnie reçoit le message suivant lorsque la page se ferme :
+Arnie peut également saisir manuellement le montant du paiement de 1 485,00 avant l’ouverture de la page **Régler les transactions**. Si Arnie saisit manuellement le montant du paiement, puis marque les trois transactions, mais n’ajuste pas la valeur du champ **Montant à régler** pour chaque transaction, Arnie reçoit le message suivant lorsque la page se ferme :
 
 > Le montant total des transactions marquées est différent du montant du journal. Modifier le montant du journal ?
 

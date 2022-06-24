@@ -1,6 +1,6 @@
 ---
 title: Générer des écrans FTI imprimables
-description: Cette rubrique explique comment utiliser la structure de gestion des états électroniques pour générer des écrans de facture financière imprimables (FTI) en tant que documents Microsoft Office.
+description: Cet article explique comment utiliser la structure de gestion des états électroniques pour générer des écrans de facture financière imprimables (FTI) en tant que documents Microsoft Office.
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868827"
 ---
 # <a name="generate-printable-fti-forms"></a>Générer des écrans FTI imprimables
 
 [!include[banner](../includes/banner.md)]
 
-La structure de gestion des états électroniques vous permet de générer des écrans de facture financière imprimables (FTI) en tant que documents Microsoft Office. Cette rubrique fournit des informations sur la procédure pour générer vos propres configurations ainsi que des détails sur les modèles de configuration disponibles.
+La structure de gestion des états électroniques vous permet de générer des écrans de facture financière imprimables (FTI) en tant que documents Microsoft Office. Cet article fournit des informations sur la procédure pour générer vos propres configurations ainsi que des détails sur les modèles de configuration disponibles.
 
 ## <a name="overview"></a>Vue d’ensemble
 
 Outre la capacité existante de générer des écrans FTI imprimables à l’aide de SSRS (Microsoft SQL Server Reporting Services), vous pouvez désormais utiliser la structure de gestion des états électroniques. Vous pouvez gérer des écrans FTI imprimables dans Microsoft Office Excel et Word. Vous pouvez également modifier la mise en page, le flux de données, et la mise en forme pour satisfaire à des exigences spécifiques sans effectuer de modifications de code.
 
 > [!NOTE]
-> Si vous souhaitez démarrer par une vue d’ensemble des configurations de gestion d’états électroniques pour cet exemple de solution d’écrans FTI imprimable, vous pouvez accéder directement à la section **Télécharger des exemple de configurations de gestion d’états électroniques pour générer des écrans FTI imprimables** plus loin dans cette rubrique.
+> Si vous souhaitez démarrer par une vue d’ensemble des configurations de gestion d’états électroniques pour cet exemple de solution d’écrans FTI imprimable, vous pouvez accéder directement à la section **Télécharger des exemple de configurations de gestion d’états électroniques pour générer des écrans FTI imprimables** plus loin dans cet article.
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>Créer des configurations personnalisées pour les écrans FTI imprimables
 Dans le cadre de votre solution personnalisée pour écrans FTI imprimables, vous devez créer un ensemble de configurations de gestion des états électroniques.
@@ -108,7 +108,7 @@ Vous pouvez également générer des écrans FTI lorsque vous validez une FTI, e
 La structure de gestion des états électroniques prend en charge actuellement les destinations suivantes pour les documents générés :
 
 - **Fichier téléchargé** – Les écrans générés sont proposés en tant que téléchargements que vous pouvez enregistrer à l’aide du navigateur.
-- **Écran** – Microsoft 365 Excel est utilisé pour afficher un aperçu des écrans FTI générés au format Excel.
+- **Écran** – Microsoft 365 Excel est utilisé pour afficher un aperçu des écrans FTI générés au format Excel.
 - **Dossier SharePoint** – Les écrans générés sont stockés selon les paramètres de la structure de gestion des documents.
 - **Archives d’application** – Les écrans générés sont stockés en tant que pièces jointes des enregistrements de journal d’exécution dans le stockage Microsoft Azure.
 - **E-mail** – Les écrans générés sont envoyés en tant que pièces jointes.
@@ -221,7 +221,7 @@ L’expression **Emailing.TxtToUse.Body** de l’exemple de format est configur�
 ![E-mail.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

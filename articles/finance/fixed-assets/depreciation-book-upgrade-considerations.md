@@ -1,6 +1,6 @@
 ---
-title: Vue d’ensemble de la mise à niveau des registres des amortissements
-description: Cette rubrique décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements.
+title: Vue d’ensemble de la mise à niveau du registre des amortissements
+description: Cet article décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b43c499928988e98cae63b85f528b8a71e042cc7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 784ec32ae886ef7ea9342b085f893eeeec761961
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855489"
 ---
-# <a name="depreciation-book-upgrade-overview"></a>Vue d’ensemble de la mise à niveau des registres des amortissements
+# <a name="depreciation-book-upgrade-overview"></a>Vue d’ensemble de la mise à niveau du registre des amortissements
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements. La fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre. La fonctionnalité de registre vous permet d’utiliser un seul ensemble de pages, de demandes et de rapports pour tous les processus d’immobilisations de votre organisation. Cette rubrique fournit des éléments à prendre en compte avant de procéder à la mise à niveau. 
+Cet article décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements. La fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre. La fonctionnalité de registre vous permet d’utiliser un seul ensemble de pages, de demandes et de rapports pour tous les processus d’immobilisations de votre organisation. Cet article fournit des éléments à prendre en compte avant de procéder à la mise à niveau. 
 
 La procédure de mise à niveau déplacera votre paramétrage actuel et toutes les transactions existantes dans la structure du nouveau registre. Les modèles de valeur restent telles qu’elles sont, comme registre qui valide dans la comptabilité. Les registres d’amortissements seront déplacés vers un registre dont l’option Valider dans la comptabilité est définie sur Non. Les noms des journaux du registre des amortissements seront transférés vers un nom de journal de comptabilité dont la couche de validation est définie sur Aucune. Les transactions du registre des amortissements seront déplacées vers les transactions d’immobilisation.
 

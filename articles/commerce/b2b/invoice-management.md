@@ -1,6 +1,6 @@
 ---
 title: Gestion des factures pour les sites e-commerce B2B
-description: Cette rubrique décrit les fonctionnalités de gestion des factures des sites e-commerce interentreprises (B2B)Microsoft Dynamics 365 Commerce.
+description: Cet article décrit les fonctionnalités de gestion des factures des sites e-commerce interentreprises (B2B)Microsoft Dynamics 365 Commerce.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 60cb0c8aaede4a0eaeed80cf5ebe41068da57836
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fa6b81187481a6b7f47ea02291e5a581052d6c7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854924"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>Gestion des factures pour les sites e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités de gestion des factures des sites e-commerce interentreprises (B2B)Microsoft Dynamics 365 Commerce.
+Cet article décrit les fonctionnalités de gestion des factures des sites e-commerce interentreprises (B2B)Microsoft Dynamics 365 Commerce.
 
 C’est une pratique courante pour les entreprises qui gèrent des transactions B2B d’accepter des commandes à crédit client, puis d’envoyer une facture aux clients après avoir exécuté la commande. Les conditions de paiement sont définies pour les clients, et il peut y avoir des remises pour inciter les clients à payer à temps ou avant l’heure. Pour aider à augmenter la probabilité que les paiements soient reçus à temps, les sites e-commerce B2B permettent aux clients de consulter toutes leurs factures. Le client peut facilement filtrer les factures pour afficher les factures payées, impayées et partiellement payées avec les dates d’échéance.
 

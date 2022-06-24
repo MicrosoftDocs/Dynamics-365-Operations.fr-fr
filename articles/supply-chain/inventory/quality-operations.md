@@ -1,6 +1,6 @@
 ---
 title: Opérations pour les non-conformités
-description: Cette rubrique décrit comment créer et utiliser des opérations pour les non-conformités.
+description: Cet article décrit comment créer et utiliser des opérations pour les non-conformités.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2e63156dd2b230da7f1ea89e2c2006c1b4f3eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847989"
 ---
 # <a name="operations-for-nonconformances"></a>Opérations pour les non-conformités
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment créer et utiliser des opérations pour les non-conformités.
+Cet article décrit comment créer et utiliser des opérations pour les non-conformités.
 
 Vous pouvez utiliser la page **Opérations** pour définir les classifications des tâches pouvant être exécutées pour une non-conformité approuvée. Lorsque vous affectez une opération associée à une non-conformité, vous pouvez fournir des informations détaillées, notamment sur la matière, les heures travaillées et les charges associées requises pour l’exécution de l’opération. Le système utilise ces informations pour calculer le coût estimé de l’opération. Les informations détaillées et les coûts estimés sont fournis à titre de référence. Les opérations associées pour la qualité diffèrent des opérations pouvant être définies pour une gamme de production.
 

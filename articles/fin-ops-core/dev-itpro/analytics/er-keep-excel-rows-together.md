@@ -1,6 +1,6 @@
 ---
 title: Concevoir un format ER pour conserver les lignes ensemble sur la même page Excel
-description: Cette rubrique explique comment concevoir un format de gestion des états électroniques (ER) qui conserve les lignes ensemble sur la même page Microsoft Excel.
+description: Cet article explique comment concevoir un format de gestion des états électroniques (ER) qui conserve les lignes ensemble sur la même page Microsoft Excel.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854667"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Concevoir un format ER pour conserver les lignes ensemble sur la même page Excel
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de consultant fonctionnel des états électroniques peut configurer un [format de gestion des états électroniques ](general-electronic-reporting.md) [(ER)](er-overview-components.md#format-component) qui génère des documents sortants dans Microsoft Excel et gérer la pagination des documents de telle sorte que les lignes créées sont conservées sur la même page.
+Cet article explique comment un utilisateur ayant le rôle d’administrateur système ou de consultant fonctionnel des états électroniques peut configurer un [format de gestion des états électroniques ](general-electronic-reporting.md) [(ER)](er-overview-components.md#format-component) qui génère des documents sortants dans Microsoft Excel et gérer la pagination des documents de telle sorte que les lignes créées sont conservées sur la même page.
 
 Dans cet exemple, vous allez modifier le format ER fourni par Microsoft qui est utilisé pour imprimer des factures financières dans Excel. Vos modifications vous permettront de gérer la pagination d’un état de facture financière généré afin que toutes les lignes d’une même ligne de facture soient conservées sur la même page lorsque cela est possible.
 
-Les procédures de cette rubrique peuvent être effectuées dans la compagnie **USMF**. Aucun codage n’est requis.
+Les procédures de cet article peuvent être effectuées dans la compagnie **USMF**. Aucun codage n’est requis.
 
 Dans cet exemple, vous créerez les [configurations](general-electronic-reporting.md#Configuration) ER requises pour la société fictive, **Litware, Inc**. Veillez à ce que le fournisseur de configuration pour l’exemple de société **Litware, Inc.** (`http://www.litware.com`) soit répertorié pour la structure ER et qu’il soit marqué comme **actif**. Si ce fournisseur de configuration n’est pas répertorié ou s’il n’est pas marqué comme **actif**, suivez les étapes de la rubrique [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -73,7 +73,7 @@ Suivez les étapes dans [Configurer une destination de format pour l’aperçu �
 
     ![Examen de la pagination de la facture financière générée dans l’application de bureau Excel.](./media/er-keep-excel-rows-together-invoice1.gif)
 
-Les procédures restantes de cette rubrique montrent comment ajuster le format ER standard pour améliorer l’apparence et la lisibilité du rapport de facture en conservant tout le contenu d’une seule ligne de facture sur la même page.
+Les procédures restantes de cet article montrent comment ajuster le format ER standard pour améliorer l’apparence et la lisibilité du rapport de facture en conservant tout le contenu d’une seule ligne de facture sur la même page.
 
 ## <a name="create-a-custom-format"></a>Créer un format personnalisé
 

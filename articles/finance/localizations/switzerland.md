@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la Suisse
-description: Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse.
+description: Cet article fournit des liens vers des ressources de documentation pour la Suisse.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Switzerland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61d319a953c400b9d3011b57ce2aaae0293663de
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4ba005496abc6739eea834229729a12bb439e011
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872346"
 ---
 # <a name="switzerland-overview"></a>Vue d’ensemble de la Suisse
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse. 
+Cet article fournit des liens vers des ressources de documentation pour la Suisse. 
 
 - [Importation des paiements client ESR](emea-che-esr-customer-payments-import.md)
 - [Factures QR pour la Suisse](emea-che-swiss-qr-bills.md)

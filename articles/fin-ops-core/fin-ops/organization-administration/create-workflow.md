@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de création des workflows
-description: Cette rubrique illustre la création d’un workflow.
+description: Cet article illustre la création d’un workflow.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864484"
 ---
 # <a name="create-workflows-overview"></a>Vue d’ensemble de création des workflows
 
@@ -31,7 +31,7 @@ ms.locfileid: "8067956"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Cette rubrique illustre la création d’un workflow.
+Cet article illustre la création d’un workflow.
 
 ## <a name="open-the-workflow-editor"></a>Ouverture de l’éditeur de workflow
 
@@ -56,7 +56,7 @@ Suivez la procédure suivante pour configurer les propriétés du workflow.
 
 1. Cliquez sur le canevas pour être sûr qu’aucun élément de workflow n’est sélectionné.
 2. Cliquez sur **Propriétés** pour ouvrir la page **Propriétés** du workflow.
-3. Suivez les procédures de la rubrique [Configurer les propriétés d’un workflow](configure-workflow-properties.md).
+3. Suivez les procédures de l’article [Configurer les propriétés d’un workflow](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Configuration des éléments du workflow
 

@@ -1,6 +1,6 @@
 ---
 title: Créer un paiement de retenue à la source
-description: La procédure de la tâche de paiement de retenue à la source permet de régler les soldes de retenue à la source de la Comptabilité fournisseur dans les comptes de retenue à la source et de les compenser dans le compte de retenue à la source pour une période donnée. Cette rubrique répertorie les étapes de configuration d’un paiement de retenue à la source.
+description: La procédure de la tâche de paiement de retenue à la source permet de régler les soldes de retenue à la source de la Comptabilité fournisseur dans les comptes de retenue à la source et de les compenser dans le compte de retenue à la source pour une période donnée. Cet article répertorie les étapes de configuration d’un paiement de retenue à la source.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 2b374d7aeab4d066b0894dde8f542c2f807d1ef9
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 3d3619137ccb909eed31af3793c6cf2773cc9886
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855402"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Créer un paiement de retenue à la source
 
-La procédure de la tâche de paiement de retenue à la source permet de régler les soldes de retenue à la source de la Comptabilité fournisseur dans les comptes de retenue à la source et de les compenser dans le compte de retenue à la source pour une période donnée. Cette rubrique répertorie les étapes de configuration d’un paiement de retenue à la source.
+La procédure de la tâche de paiement de retenue à la source permet de régler les soldes de retenue à la source de la Comptabilité fournisseur dans les comptes de retenue à la source et de les compenser dans le compte de retenue à la source pour une période donnée. Cet article répertorie les étapes de configuration d’un paiement de retenue à la source.
 
 > [!NOTE] 
 > La compensation de la retenue à la source (de la Comptabilité client) n’est pas prise en compte lors du calcul d’un paiement de retenue à la source.

@@ -1,6 +1,6 @@
 ---
 title: Configurer les destinations pour la gestion des états électroniques dépendant de l’action
-description: Cette rubrique explique comment configurer des destinations dépendant d’une action pour un format de gestion des états électroniques configuré pour générer des documents sortants.
+description: Cet article explique comment configurer des destinations dépendant d’une action pour un format de gestion des états électroniques configuré pour générer des documents sortants.
 author: NickSelin
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876832"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurer les destinations pour la gestion des états électroniques dépendant de l’action
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323977"
 
 Vous pouvez configurer les [destinations](electronic-reporting-destinations.md) pour chaque composant (dossier ou fichier) au format de [gestion des états électroniques](general-electronic-reporting.md) [configuré](general-electronic-reporting.md#Configuration) pour générer un document sortant. Les utilisateurs qui exécutent un format pour la gestion des états électroniques de ce type, et qui ont les droits d’accès appropriés, peuvent également changer les paramètres de destination configurés au moment de l’exécution.
 
-Dans Microsoft Dynamics 365 Finance **version 10.0.17 et ultérieure**, un format de gestion des états électroniques peut être exécuté en [approvisionnant](er-apis-app10-0-17.md) un code d’action que l’utilisateur exécute en exécutant ce format de gestion des états électroniques. Par exemple, dans le module **Comptabilité client**, dans les paramètres de gestion de l’impression, vous pouvez sélectionner un format de gestion des états électroniques qui génère un document commercial spécifique, comme une facture financière. Vous pouvez ensuite sélectionner **Afficher** pour prévisualiser la facture ou **Imprimer** pour l’envoyer à une imprimante. Si une action utilisateur est transmise pour le format de gestion des états électroniques en cours d’exécution au moment de l’exécution, vous pouvez configurer différentes destinations de gestion des états électroniques pour différentes actions utilisateur. Cette rubrique explique comment configurer les destinations de gestion des états électroniques pour ce type de format de gestion des états électroniques.
+Dans Microsoft Dynamics 365 Finance **version 10.0.17 et ultérieure**, un format de gestion des états électroniques peut être exécuté en [approvisionnant](er-apis-app10-0-17.md) un code d’action que l’utilisateur exécute en exécutant ce format de gestion des états électroniques. Par exemple, dans le module **Comptabilité client**, dans les paramètres de gestion de l’impression, vous pouvez sélectionner un format de gestion des états électroniques qui génère un document commercial spécifique, comme une facture financière. Vous pouvez ensuite sélectionner **Afficher** pour prévisualiser la facture ou **Imprimer** pour l’envoyer à une imprimante. Si une action utilisateur est transmise pour le format de gestion des états électroniques en cours d’exécution au moment de l’exécution, vous pouvez configurer différentes destinations de gestion des états électroniques pour différentes actions utilisateur. Cet article explique comment configurer les destinations de gestion des états électroniques pour ce type de format de gestion des états électroniques.
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Rendre les destinations pour la gestion des états électroniques dépendant de l’action disponibles
 
@@ -82,7 +82,7 @@ L’illustration suivante montre comment vous pouvez réaliser cette configurati
 
 Lorsqu’un format de gestion des états électroniques est exécuté, si les actions utilisateur ont été configurées par des utilisateurs disposant des [autorisations](electronic-reporting-destinations.md#security-considerations) pour modifier les paramètres de destination configurés au moment de l’exécution, une boîte de dialogue apparaît, offrant la possibilité de modifier les paramètres de destination configurés. Cette boîte de dialogue est facultative et son apparence dépend de la manière dont l’appel lancé par l’infrastructure de gestion des états électroniques pour exécuter un format de gestion des états électroniques a été implémenté. Si cette boîte de dialogue apparaît, les destinations de gestion des états électroniques qu’elle contient seront activées en fonction de l’action utilisateur fournie.
 
-L’illustration suivante montre un exemple de **Destinations au format de gestion des états électroniques** qui apparaît lorsqu’une facture financière est [ publiée](../../../finance/accounts-receivable/create-free-text-invoice-new.md) et le format de gestion des états électroniques **Facture financière (Excel)** est exécuté pour générer ce document, si l’action **Imprimante** a été provisionnée et les destinations de gestion des états électroniques ont été configurées pour ce format, comme indiqué plus haut dans cette rubrique.
+L’illustration suivante montre un exemple de **Destinations au format de gestion des états électroniques** qui apparaît lorsqu’une facture financière est [ publiée](../../../finance/accounts-receivable/create-free-text-invoice-new.md) et le format de gestion des états électroniques **Facture financière (Excel)** est exécuté pour générer ce document, si l’action **Imprimante** a été provisionnée et les destinations de gestion des états électroniques ont été configurées pour ce format, comme indiqué plus haut dans cet article.
 
 ![Boîte de dialogue qui donne la possibilité de modifier les destinations de gestion des états électroniques initialement configurées pour le format de gestion des états électroniques en cours d’exécution.](./media/er-destination-action-dependent-02.gif)
 

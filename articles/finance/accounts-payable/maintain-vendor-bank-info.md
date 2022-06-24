@@ -1,6 +1,6 @@
 ---
 title: Tenir à jour les informations bancaires pour un compte fournisseur
-description: Les fournisseurs peuvent utiliser la fonctionnalité Collaboration du fournisseur pour gérer leurs informations de compte bancaire. Cette rubrique explique comment ajouter et gérer les informations bancaires des fournisseurs avec lesquels vous faites affaire.
+description: Les fournisseurs peuvent utiliser la fonctionnalité Collaboration du fournisseur pour gérer leurs informations de compte bancaire. Cet article explique comment ajouter et gérer les informations bancaires des fournisseurs avec lesquels vous faites affaire.
 author: v-kiarnd
 ms.date: 04/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2011-01-14
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 624035874842fd1fd6b540bf0408d54bc1d068f2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 83be2ac95d07ba494e08c07606cdbe36eba9f99b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890008"
 ---
 # <a name="maintain-vendor-bank-account-information"></a>Tenir à jour les informations bancaires pour un compte fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Les fournisseurs peuvent utiliser la fonctionnalité Collaboration du fournisseur pour gérer leurs informations de compte bancaire. Cette rubrique explique comment ajouter et gérer les informations bancaires des fournisseurs avec lesquels vous faites affaire.
+Les fournisseurs peuvent utiliser la fonctionnalité Collaboration du fournisseur pour gérer leurs informations de compte bancaire. Cet article explique comment ajouter et gérer les informations bancaires des fournisseurs avec lesquels vous faites affaire.
 
 Une fois que vous avez donné accès aux fournisseurs, ils peuvent ajouter des informations pour les nouveaux comptes bancaires. Vous pouvez ensuite consulter ces informations et terminer le processus de pré-note afin que les nouveaux comptes soient utilisés pour les paiements à ces fournisseurs.
 

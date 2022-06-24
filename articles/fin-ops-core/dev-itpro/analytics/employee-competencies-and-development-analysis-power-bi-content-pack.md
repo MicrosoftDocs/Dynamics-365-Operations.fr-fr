@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI Compétences et développement des employés
-description: Cette rubrique décrit le contenu Power BI Compétences et développement des employés.
+description: Cet article décrit le contenu Power BI Compétences et développement des employés.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 572f6bcfa202995d90080e1a31476122f7ec23d71214d5ff0dd44ed919859c57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8fee4d98a3e20fa268d6c3539db09e09a7861a2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851014"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Contenu Power BI Compétences et développement des employés
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Power BI Compétences et développement des employés. 
+Cet article décrit le contenu Power BI Compétences et développement des employés. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>États inclus dans le pack de contenu
 Après avoir connecté le pack de contenu à vos données, les données de votre organisation s’affichent dans les états. Si vous n’avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d’apprentissage guidé pour Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.

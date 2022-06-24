@@ -1,6 +1,6 @@
 ---
 title: Exécuter des scripts X++ personnalisés sans aucun temps d’arrêt
-description: Cette rubrique décrit comment télécharger et exécuter des packages déployables contenant des scripts X++ personnalisés sans avoir à interrompre votre système.
+description: Cet article décrit comment télécharger et exécuter des packages déployables contenant des scripts X++ personnalisés sans avoir à interrompre votre système.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867327"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Exécuter des scripts X++ personnalisés sans aucun temps d’arrêt
 
@@ -122,7 +122,7 @@ Utilisez la procédure suivante pour importer et exécuter un script.
 
 1. Dans votre application Finances et Opérations, accédez à **Administration du système \> Tâches périodiques \> Base de données \> Scripts personnalisés**.
 1. Sélectionnez **Charger**.
-1. Sélectionnez le package déployable que vous avez créé comme décrit précédemment dans cette rubrique. Vous serez invité à spécifier l’objectif du script.
+1. Sélectionnez le package déployable que vous avez créé comme décrit précédemment dans cet article. Vous serez invité à spécifier l’objectif du script.
 1. Le script doit maintenant être approuvé par un utilisateur autre que celui qui l’a importé. L’approbateur doit suivre la procédure ci-après :
 
     1. Accédez à **Administration du système \> Périodique \> Base de données \> Scripts personnalisés**.

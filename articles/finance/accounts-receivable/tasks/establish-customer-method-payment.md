@@ -1,6 +1,6 @@
 ---
 title: Établir le mode de paiement client
-description: Cette rubrique explique comment créer un mode de paiement pour les paiements client.
+description: Cet article explique comment créer un mode de paiement pour les paiements client.
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861500"
 ---
 # <a name="establish-customer-method-of-payment"></a>Établir le mode de paiement client
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment créer un mode de paiement pour les paiements client. La société fictive USMF est citée en exemple dans cette tâche.
+Cet article explique comment créer un mode de paiement pour les paiements client. La société fictive USMF est citée en exemple dans cette tâche.
 
 1. Dans le volet de navigation, allez dans  **Modules > Comptabilité client > Paramétrage des paiements > Modes de paiement**.
 2. Sélectionnez **Nouveau**.

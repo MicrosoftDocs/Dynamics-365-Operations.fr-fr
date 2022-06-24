@@ -1,6 +1,6 @@
 ---
 title: Préparer les métadonnées d’application à utiliser dans RCS
-description: Cette rubrique décrit comment créer une nouvelle configuration de rapports contenant les métadonnées de l’application.
+description: Cet article décrit comment créer une nouvelle configuration de rapports contenant les métadonnées de l’application.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b5e7f69653381e16b4a8a8def56845a41bb14b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868795"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Préparer les métadonnées d’application à utiliser dans RCS
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d’états électroniques peut créer une nouvelle configuration de génération d’états électroniques (ER) contenant les métadonnées de l’application pour concevoir les configurations de mise en correspondance de modèle ER dans le service RCS (Regulatory Configuration Service). Cette configuration sera utilisée pour concevoir un exemple de configuration de mise en correspondance de modèle ER pour accéder à des transactions de commerce extérieur. Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n’importe quelle société. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cette rubrique, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
+Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d’états électroniques peut créer une nouvelle configuration de génération d’états électroniques (ER) contenant les métadonnées de l’application pour concevoir les configurations de mise en correspondance de modèle ER dans le service RCS (Regulatory Configuration Service). Cette configuration sera utilisée pour concevoir un exemple de configuration de mise en correspondance de modèle ER pour accéder à des transactions de commerce extérieur. Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n’importe quelle société. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cet article [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="prerequisites"></a>Conditions préalables
 1.    Accédez à **Administration d’organisation** > **Espaces de travail** > **États électroniques**. 
 2.    Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s’affiche pas, effectuez les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). 
 3.    Cliquez sur **Configuration des métadonnées**. 
-4.    Supposons que nous utilisons RCS pour créer une solution ER pour une application Finance and Operations générera des documents électroniques contenant les informations du commerce extérieur. Pour spécifier la mise en correspondance entre le modèle de données ER et les sources de données nécessaires, nous devons avoir accès dans RCS aux métadonnées de l’application Finance and Operations. Par conséquent, dans le cadre de la conception de la solution ER, nous devons paramétrer une nouvelle configuration de métadonnées ER contenant toutes les métadonnées actuellement requises pour générer des les états électroniques pour le domaine d’activité sélectionné. 
+4.    Supposons que nous utilisons RCS pour créer une solution ER pour une application Finance et Opérations générera des documents électroniques contenant les informations du commerce extérieur. Pour spécifier la mise en correspondance entre le modèle de données ER et les sources de données nécessaires, nous devons avoir accès dans RCS aux métadonnées de l’application Finance et Opérations. Par conséquent, dans le cadre de la conception de la solution ER, nous devons paramétrer une nouvelle configuration de métadonnées ER contenant toutes les métadonnées actuellement requises pour générer des les états électroniques pour le domaine d’activité sélectionné. 
 
 ## <a name="add-metadata-configuration"></a>Ajouter une configuration des métadonnées 
 1.    Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue. 

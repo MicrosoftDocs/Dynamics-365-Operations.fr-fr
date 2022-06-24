@@ -1,6 +1,6 @@
 ---
 title: Activer un calcul de taxe différé sur les journaux
-description: Cette rubrique explique comment activer la fonctionnalité Différer un calcul de taxe pour améliorer les performances du calcul de taxe lorsque le volume de lignes de journal est très important.
+description: Cet article explique comment activer la fonctionnalité Différer un calcul de taxe pour améliorer les performances du calcul de taxe lorsque le volume de lignes de journal est très important.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887917"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Activer un calcul de taxe différé sur les journaux
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment différer le calcul de la taxe sur les journaux. Cette capacité aide à améliorer les performances des calculs de taxe lorsqu’il existe plusieurs lignes de journal.
+Cet article explique comment différer le calcul de la taxe sur les journaux. Cette capacité aide à améliorer les performances des calculs de taxe lorsqu’il existe plusieurs lignes de journal.
 
-Par défaut, les montants de taxe sur les lignes de journal sont calculés lorsque des champs liés aux taxes sont mis à jour. Ces champs comprennent les champs de groupes de taxes et les groupes de taxes d’articles. Toute mise à jour d’une ligne de journal provoque le recalcul des montants de taxe pour toutes les lignes de journal. Bien que ce comportement permette à l’utilisateur de voir les montants de taxe calculés en temps réel, cela peut également affecter les performances si le nombre de lignes de journal est très importante.
+Par défaut, les montants de taxe sur les lignes de journal sont calculés lorsque des champs liés aux taxes sont mis à jour. Ces champs comprennent les champs de groupes de taxes et les groupes de taxes d’articles. Toute mise à jour d’une ligne de journal provoque le recalcul des montants de taxe pour toutes les lignes de journal. Bien que ce comportement permette à l’utilisateur de voir les montants de taxe calculés en temps réel, cela peut également affecter les performances si le nombre de lignes de journal est très important.
 
 La fonction Calcul de taxe différé permet de retarder le calcul de taxe sur les journaux et donc de corriger les problèmes de performances. Lorsque cette fonction est activée, les montants des taxes sont calculés uniquement lorsqu’un utilisateur sélectionne **Taxe** ou valide le journal.
 

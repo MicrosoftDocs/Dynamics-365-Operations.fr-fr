@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846953"
 ---
 # <a name="cash-discounts"></a>Escomptes de règlement
 
@@ -30,7 +30,7 @@ Les escomptes de règlement sont paramétrés et partagés pour la Comptabilité
 
 ## <a name="cash-discounts"></a>Escomptes de règlement
 
-Les escomptes de règlement à la fois pour les clients ou les fournisseurs peuvent être créés dans la page Escomptes de règlement. À l’aide du champ Code remise suivant, vous pouvez également définir une série d’escomptes de règlement qui se succèdent au fur et à mesure que les dates des escomptes de règlement précédentes expirent. Pour plus d’informations, voir la section « Exemple : série d’escomptes de règlement » plus loin dans cette rubrique. Si la facture, la transaction créditrice (paiement ou avoir), voire les deux, utilisent une devise autre que la devise comptable de l’entité juridique, l’escompte de règlement est calculé en fonction de la date du paiement ou de l’avoir. Si la facture et le document de crédit sont indiqués dans des entités juridiques différentes, et si les devises comptables des entités juridiques diffèrent, le taux de change est tiré de l’entité juridique de la facture, à la date du document de crédit. Pour plus d’informations, voir la section « Exemple : taux de change des escomptes de règlement » plus loin dans cette rubrique.
+Les escomptes de règlement à la fois pour les clients ou les fournisseurs peuvent être créés dans la page Escomptes de règlement. À l’aide du champ Code remise suivant, vous pouvez également définir une série d’escomptes de règlement qui se succèdent au fur et à mesure que les dates des escomptes de règlement précédentes expirent. Pour plus d’informations, voir la section « Exemple : série d’escomptes de règlement » plus loin dans cet article. Si la facture, la transaction créditrice (paiement ou avoir), voire les deux, utilisent une devise autre que la devise comptable de l’entité juridique, l’escompte de règlement est calculé en fonction de la date du paiement ou de l’avoir. Si la facture et le document de crédit sont indiqués dans des entités juridiques différentes, et si les devises comptables des entités juridiques diffèrent, le taux de change est tiré de l’entité juridique de la facture, à la date du document de crédit. Pour plus d’informations, voir la section « Exemple : taux de change des escomptes de règlement » plus loin dans cet article.
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Commande par défaut du compte principal d’escompte de règlement
 

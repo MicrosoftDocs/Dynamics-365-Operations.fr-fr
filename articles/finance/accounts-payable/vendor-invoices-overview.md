@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des factures fournisseur
-description: Cette rubrique fournit des informations générales sur les factures fournisseur.
+description: Cet article fournit des informations générales sur les factures fournisseur.
 author: abruer
 ms.date: 02/25/2022
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894169"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d’ensemble des factures fournisseur
 
@@ -30,7 +30,7 @@ ms.locfileid: "8358422"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Cette rubrique fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques.
+Cet article fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques.
 
 ## <a name="vendor-invoices"></a>Factures fournisseur
 

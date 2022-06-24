@@ -1,6 +1,6 @@
 ---
 title: Fonctions VALUEINLARGE ER
-description: Cette rubrique fournit des informations sur l’utilisation de la fonction VALUEINLARGE États électroniques (ER).
+description: Cet article fournit des informations sur l’utilisation de la fonction VALUEINLARGE États électroniques (ER).
 author: NickSelin
 ms.date: 08/17/2020
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 57b2246631b31cce10d086da29e76b729059a64aa6a3c2d8cf864dd70085dbfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 977c1cd7dac75781677461b288bc8e5e79d13e6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888143"
 ---
 # <a name="valueinlarge-er-function"></a>Fonctions VALUEINLARGE ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `VALUEINLARGE` détermine si l’entrée spécifiée de type *Int64* ou *Entier* correspond à une valeur quelconque d’un article donné dans la liste spécifiée. La fonction renvoie une *Booléenne* de **TRUE** si l’entrée spécifiée correspond au résultat de l’exécution de l’expression spécifiée pour au moins un enregistrement de la liste spécifiée. Sinon, elle renvoie une valeur *Booléenne* de **FALSE**. Pour comprendre la différence avec la fonction `VALUEIN`, voir la section [Note d’utilisation](#usage_note) plus loin dans cette rubrique.
+La fonction `VALUEINLARGE` détermine si l’entrée spécifiée de type *Int64* ou *Entier* correspond à une valeur quelconque d’un article donné dans la liste spécifiée. La fonction renvoie une *Booléenne* de **TRUE** si l’entrée spécifiée correspond au résultat de l’exécution de l’expression spécifiée pour au moins un enregistrement de la liste spécifiée. Sinon, elle renvoie une valeur *Booléenne* de **FALSE**. Pour comprendre la différence avec la fonction `VALUEIN`, voir la section [Note d’utilisation](#usage_note) plus loin dans cet article.
 
 ## <a name="syntax"></a>Syntaxe
 

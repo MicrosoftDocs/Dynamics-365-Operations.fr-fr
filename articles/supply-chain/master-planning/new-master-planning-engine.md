@@ -1,6 +1,6 @@
 ---
 title: Migration vers l’Optimisation de la planification pour la planification
-description: Cette rubrique fournit des informations sur le nouveau moteur de planification, l’Optimisation de la planification et sur la migration à partir du moteur existant.
+description: Cet article fournit des informations sur le nouveau moteur de planification, l’Optimisation de la planification et sur la migration à partir du moteur existant.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846096"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migration vers l’Optimisation de la planification pour la planification
 
 [!include [banner](../includes/banner.md)]
 
-Il est prévu que le moteur de planification intégré devienne obsolète (déconseillé). Il est remplacé par le complément Optimisation de la planification pour Microsoft Dynamics 365 Supply Chain Management. Cette rubrique fournit des informations sur l’impact sur les déploiements nouveaux et existants. Il comprend des informations sur les actions requises.
+Il est prévu que le moteur de planification intégré devienne obsolète (déconseillé). Il est remplacé par le complément Optimisation de la planification pour Microsoft Dynamics 365 Supply Chain Management. Cet article fournit des informations sur l’impact sur les déploiements nouveaux et existants. Il comprend des informations sur les actions requises.
 
 L’Optimisation de la planification permet le calcul de planification en dehors de Supply Chain Management et sa base de données Azure SQL. Les avantages associés à la fonctionnalité Optimisation de la planification incluent des performances améliorées et un impact minimisé sur la base de données SQL pendant l’exécution de la planification. Du fait que des exécutions rapides de la planification peuvent être effectuées même pendant les heures de bureau, les planificateurs peuvent réagir immédiatement aux modifications de la demande ou des paramètres.
 
@@ -63,7 +63,7 @@ Actuellement, les exceptions pour la migration vers l’optimisation de la plani
 
 Une fois que les fonctionnalités requises seront disponibles, Microsoft fournira une période de grâce jusqu’à l’expiration de l’exception. L’administrateur de l’environnement sera informé lorsque les fonctionnalités requises seront disponibles et que la période de grâce aura commencé.
 
-L’organigramme suivant résume les informations fournies dans cette rubrique afin que vous puissiez savoir rapidement si vous devez demander une exception. Si vous devez demander une exception, veuillez remplir et soumettre le [Questionnaire pour la migration vers l’optimisation de la planification et les exceptions](https://go.microsoft.com/fwlink/?linkid=2144962). Le groupe de produits est responsable de l’évaluation et de l’approbation de chaque demande d’exception. Veuillez donc soumettre votre demande directement au groupe de produits en utilisant le lien fourni et ne créez pas de ticket d’assistance pour celui-ci. Si votre demande est rejetée, veuillez ne pas créer de ticket de support car le support Microsoft n’est pas en mesure de réévaluer ou d’accorder des exceptions.
+L’organigramme suivant résume les informations fournies dans cet article afin que vous puissiez savoir rapidement si vous devez demander une exception. Si vous devez demander une exception, veuillez remplir et soumettre le [Questionnaire pour la migration vers l’optimisation de la planification et les exceptions](https://go.microsoft.com/fwlink/?linkid=2144962). Le groupe de produits est responsable de l’évaluation et de l’approbation de chaque demande d’exception. Veuillez donc soumettre votre demande directement au groupe de produits en utilisant le lien fourni et ne créez pas de ticket d’assistance pour celui-ci. Si votre demande est rejetée, veuillez ne pas créer de ticket de support car le support Microsoft n’est pas en mesure de réévaluer ou d’accorder des exceptions.
 
 ![Organigramme des exceptions.](media/exception-diagram.png "Organigramme des exceptions")
 

@@ -1,6 +1,6 @@
 ---
 title: Configurer l’importation avancée des rapprochements bancaires à l’aide de la génération d’états électroniques
-description: Cette rubrique explique comment utiliser la gestion des états électroniques pour configurer le processus d’importation de rapprochement bancaire.
+description: Cet article explique comment utiliser la gestion des états électroniques pour configurer le processus d’importation de rapprochement bancaire.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889118"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Configurer l’importation avancée des rapprochements bancaires à l’aide de la génération d’états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-La fonctionnalité de rapprochement bancaire avancé permet d’importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cette rubrique explique comment configurer la fonctionnalité d’importation de vos relevés bancaires. Le paramétrage de l’importation de relevé bancaire varie selon le format de votre relevé bancaire électronique. Microsoft Dynamics 365 Finance prend en charge trois formats de relevés bancaires : ISO20022, MT940 et BAI2. 
+La fonctionnalité de rapprochement bancaire avancé permet d’importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires. Le paramétrage de l’importation de relevé bancaire varie selon le format de votre relevé bancaire électronique. Microsoft Dynamics 365 Finance prend en charge trois formats de relevés bancaires : ISO20022, MT940 et BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Paramétrer la configurations de la gestion des états électroniques
 

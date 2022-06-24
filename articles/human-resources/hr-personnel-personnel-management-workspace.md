@@ -1,6 +1,6 @@
 ---
 title: Espace de travail Gestion du personnel
-description: Cette rubrique décrit les éléments conceptuels de l’espace de travail Gestion du personnel.
+description: Cet article décrit les éléments conceptuels de l’espace de travail Gestion du personnel.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fc424905bc9311662859b900636a68de2f7ee3cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888757"
 ---
 # <a name="personnel-management-workspace"></a>Espace de travail Gestion du personnel
 
@@ -29,7 +29,7 @@ ms.locfileid: "8689464"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-L’espace de travail **Gestion du personnel** comprend une grande quantité de contenu. Il contient les mouvements de personnel, suit les changements d’employés, les postes ouverts, les changements d’adresse, les enregistrements qui expirent et les analyses, et fournit des liens vers des informations spécifiques. Cette rubrique fournit des informations détaillées sur chaque partie de l’espace de travail.
+L’espace de travail **Gestion du personnel** comprend une grande quantité de contenu. Il contient les mouvements de personnel, suit les changements d’employés, les postes ouverts, les changements d’adresse, les enregistrements qui expirent et les analyses, et fournit des liens vers des informations spécifiques. Cet article fournit des informations détaillées sur chaque partie de l’espace de travail.
 
 ## <a name="activity-tab"></a>Onglet Activité
 

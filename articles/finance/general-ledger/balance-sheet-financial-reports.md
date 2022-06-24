@@ -1,6 +1,6 @@
 ---
 title: États financiers du bilan
-description: Cette rubrique décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états.
+description: Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états.
 author: jcart1106
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 276e877db42361282ad2bf4a01dd971ec02e2af7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880728"
 ---
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états. 
+Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états. 
 
 ## <a name="default-balance-sheet-reports"></a>États du bilan par défaut
 

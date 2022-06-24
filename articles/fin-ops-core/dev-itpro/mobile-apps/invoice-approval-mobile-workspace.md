@@ -1,6 +1,6 @@
 ---
 title: Espace de travail mobile Approbations de factures
-description: Cette rubrique fournit des informations sur l’espace de travail mobile Approbations de factures.
+description: Cet article fournit des informations sur l’espace de travail mobile Approbations de factures.
 author: abruer
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,21 +12,21 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868667"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Espace de travail mobile Approbations de factures
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Cette rubrique fournit des informations sur l’espace de travail mobile **Approbations de factures**. Cet espace de travail fournit une liste de factures qui vous ont été affectées dans le processus de workflow d’en-tête de facture fournisseur. 
+Cet article fournit des informations sur l’espace de travail mobile **Approbations de factures**. Cet espace de travail fournit une liste de factures qui vous ont été affectées dans le processus de workflow d’en-tête de facture fournisseur. 
 
-Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance and Operations.
+Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance et Opérations.
 
 ## <a name="overview"></a>Présentation
 
@@ -61,7 +61,7 @@ Avant d’utiliser cet espace de travail mobile, les conditions requises suivant
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Télécharger et installer l’application mobile Finance and Operations :
+Télécharger et installer l’application mobile Finance et Opérations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

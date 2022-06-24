@@ -1,6 +1,6 @@
 ---
 title: Paramétrer un canal de vente au détail
-description: Cette rubrique décrit comment créer un canal de vente au détail dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment créer un canal de vente au détail dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: eccbbff33ddf967b000940a8ea9910c34232431f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847730"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurer un canal de vente au détail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer un canal de vente au détail dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment créer un canal de vente au détail dans Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce prend en charge plusieurs canaux de vente au détail. Ces canaux de vente au détail comprennent les magasins en ligne, les centres d’appels et les magasins de vente au détail (également appelés magasins traditionnels). Chaque canal de magasin de vente au détail peut proposer son propre mode de paiement, ses propres groupes de prix, ses propres caisses enregistreuses de PDV, ses propres comptes de revenus et de dépenses et son propre personnel. Vous devez paramétrer tous ces éléments avant de pouvoir créer un canal de magasin de vente au détail. 
 

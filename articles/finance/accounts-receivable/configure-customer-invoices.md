@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876323"
 ---
 # <a name="create-a-customer-invoice"></a>Création d’une facture client
 
@@ -33,18 +33,15 @@ Une **facture financière** n’est pas liée à une commande client. Elle conti
 Pour plus d’informations, voir :
 
 [Créer des factures financières](../accounts-receivable/create-free-text-invoice-new.md)
-
 [Créer un modèle de facture financière](../accounts-receivable/create-free-text-invoice-template-new.md)
-
-[Affecter un modèle de facture financière à un client](tasks/assign-free-text-invoice-template-customer.md)
-
-[Générer et valider les factures financières récurrentes](tasks/post-recurring-free-text-invoices.md)
+[Attribuer un modèle de facture financière à un client](tasks/assign-free-text-invoice-template-customer.md)
+[Générer et publier des factures textuelles récurrentes](tasks/post-recurring-free-text-invoices.md)
 
 
 Une **facture proforma** est une facture préparée comme une estimation des montants de facture réels avant la validation de la facture. Vous pouvez imprimer une **facture proforma** pour une facture client associée à une commande client ou pour une facture financière. 
 
 >[!NOTE]
-> En cas d'interruption du système pendant le processus de facturation pro forma des ventes, une facture pro forma peut être orpheline. Une facture pro forma orpheline peut être supprimée en exécutant la tâche périodique **Supprimer manuellement les factures proforma**. Accédez à **Ventes et marketing > Tâches périodiques > Nettoyer > Supprimer manuellement les factures proforma**.
+> En cas d’interruption du système pendant le processus de facturation pro forma des ventes, une facture pro forma peut être orpheline. Une facture pro forma orpheline peut être supprimée en exécutant la tâche périodique **Supprimer manuellement les factures proforma**. Accédez à **Ventes et marketing > Tâches périodiques > Nettoyer > Supprimer manuellement les factures proforma**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Utilisation d’entités de données de facture client de commande client
 Vous pouvez utiliser des entités de données pour importer et exporter des informations sur une facture client pour une commande client. Il existe différentes entités pour les informations sur l’en-tête de facture client et les lignes de facture client.
@@ -87,12 +84,12 @@ Utilisez ce processus lorsqu’une ou plusieurs commandes client sont prêtes à
 Vous pouvez sélectionner plusieurs factures dans la page de liste **Commande client**, puis utiliser **Générer des factures** pour les consolider. Sur la page **Validation de la facture**, vous pouvez modifier le paramètre **Commande de synthèse** pour récapituler par numéro de commande (lorsqu’il existe plusieurs bons de livraison pour une commande client unique) ou par compte de facturation (lorsqu’il existe plusieurs commandes client pour un compte de facturation unique). Utilisez le bouton **Réorganiser** pour consolider des commandes client dans des factures uniques, en fonction des paramètres **Commande de synthèse**.
 
 ## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Fractionner les factures des commandes clients par site et informations de livraison
-Vous pouvez paramétrer le fractionnement des factures clients des commandes clients par site ou par adresse de livraison sur l'onglet **Mise à jour sommaire** de la page **Paramètres des comptes clients**. 
- - Sélectionnez l'option **Fractionner en fonction du site de facturation** pour créer une facture par site lors de la validation. 
- - Sélectionnez l'option **Fractionner en fonction des informations de livraison de la facture** pour créer une facture par adresse de livraison de ligne de commande client lors de la validation. 
+Vous pouvez paramétrer le fractionnement des factures clients des commandes clients par site ou par adresse de livraison sur l’onglet **Mise à jour sommaire** de la page **Paramètres des comptes clients**. 
+ - Sélectionnez l’option **Fractionner en fonction du site de facturation** pour créer une facture par site lors de la validation. 
+ - Sélectionnez l’option **Fractionner en fonction des informations de livraison de la facture** pour créer une facture par adresse de livraison de ligne de commande client lors de la validation. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Valider sur le compte Produit pour les lignes de commande client sans prix
-Vous aurez la possibilité de mettre à jour le compte **Revenu** en **Comptabilité** pour les lignes de commande client sans prix. Pour configurer ou afficher ces informations, accédez au paramètre **Valider sur le compte Produit pour les lignes de facture de commande client sans prix** sur l’onglet **Comptabilité et taxe** de la page **Paramètres de la comptabilité client**. (**Comptabilité client > Comptabilité client > Paramètres de la comptabilité client**). Sélectionnez **Oui** pour mettre à jour le compte **Revenu** pour les lignes de facture de commande client qui n’ont pas de prix. Un compte de produit est défini sur la page du paramètre **Validation de l’inventaire**, sur l’onglet de définition du compte **Commande client**. Si cette option n’est pas sélectionnée, les lignes qui n’ont pas d’informations sur les prix ne seront pas validées vers le compte **Revenu**.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Valider sur le compte Produit pour les lignes de commande client sans prix et de coût nul
+Vous aurez la possibilité de mettre à jour le compte **Revenu** en **Comptabilité** pour les lignes de commande client sans prix et de coût nul. Pour configurer ou afficher ces informations, accédez au paramètre **Valider sur le compte Produit pour les lignes de facture de commande client sans prix et de coût nul** sur l’onglet **Comptabilité et taxe** de la page **Paramètres de la comptabilité client**. (**Comptabilité client > Comptabilité client > Paramètres de la comptabilité client**). Sélectionnez **Oui** pour mettre à jour le compte **Revenu** pour les lignes de facture de commande client qui n’ont pas de prix et de coût nul. Si cette option est sélectionnée, le justificatif contiendra 0,00 entrées pour les types de validations **Client - Solde** et **Produit**. Un compte de produit est défini sur la page du paramètre **Validation de l’inventaire**, sur l’onglet de définition du compte **Commande client**. Si cette option n’est pas sélectionnée, les lignes qui n’ont pas d’informations sur les prix et les coûts ne seront pas validées vers le compte **Revenu**. Au lieu de cela, le justificatif contiendra une entrée de 0,00 pour le type de validation **Client – Solde**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Paramètres supplémentaires qui modifient le comportement de validation
 Les champs suivants modifient le comportement du processus de validation.

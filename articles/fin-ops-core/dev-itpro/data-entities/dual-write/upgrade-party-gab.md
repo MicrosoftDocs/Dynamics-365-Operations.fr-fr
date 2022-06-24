@@ -1,6 +1,6 @@
 ---
 title: Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
-description: Cette rubrique décrit comment mettre à niveau les données à double écriture en modèle de carnet d’adresses global et de partie.
+description: Cet article décrit comment mettre à niveau les données à double écriture en modèle de carnet d’adresses global et de partie.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895274"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
 
@@ -40,7 +40,7 @@ Les trois modèles Data Factory suivants sont fournis. Ils facilitent le rapproc
 | ImportFONewPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale** dans l’application Finances et Opérations. |
 | ImportFONewElectronicAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse électronique** dans l’application Finances et Opérations. |
 
-Cette rubrique comment utiliser les modèles Data Factory et mettre à niveau vos données. Si vous n’avez aucune personnalisation, vous pouvez utiliser les modèles tels quels. Toutefois, si vous avez des personnalisations pour les données de **Compte**, **Contact** et **Fournisseur**, vous devez modifier les modèles comme décrit dans cette rubrique.
+Cet article comment utiliser les modèles Data Factory et mettre à niveau vos données. Si vous n’avez aucune personnalisation, vous pouvez utiliser les modèles tels quels. Toutefois, si vous avez des personnalisations pour les données de **Compte**, **Contact** et **Fournisseur**, vous devez modifier les modèles comme décrit dans cet article.
 
 > [!IMPORTANT]
 > Des instructions spéciales s’appliquent si vous exécutez les modèles d’adresse postale et d’adresse électronique de partie. Vous devez d’abord exécuter le modèle Partie, puis le modèle d’adresse postale Partie, puis le modèle d’adresse électronique Partie. Chaque modèle est conçu pour être importé dans une fabrique de données distincte.

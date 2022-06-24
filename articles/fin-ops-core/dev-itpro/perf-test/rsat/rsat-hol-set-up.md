@@ -1,6 +1,6 @@
 ---
 title: Didacticiel pour la configuration et l’installation de Regression Suite Automation Tool
-description: Cette rubrique est un didacticiel qui indique comment configurer et installer l’outil Regression Suite Automation Tool (RSAT).
+description: Cet article est un didacticiel qui indique comment configurer et installer l’outil Regression Suite Automation Tool (RSAT).
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858588"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Didacticiel pour la configuration et l’installation de Regression Suite Automation Tool
 
-Cette rubrique est un didacticiel qui vous aide à paramétrer et faire vos premiers pas avec RSAT et les outils qui y sont associés.
+Cet article est un didacticiel qui vous aide à paramétrer et faire vos premiers pas avec RSAT et les outils qui y sont associés.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -111,7 +111,7 @@ Dans ce didacticiel, vous allez utiliser le Concepteur de processus d’entrepri
 
 ## <a name="configure-the-lcs-project"></a>Configurer le projet LCS
 
-Vous devez disposer d’un projet LCS (Lifecycle Services) pour votre bibliothèque de tests principale. Le Concepteur de processus d’entreprise (BPM) est utilisé comme bibliothèque principale pour les scénarios de test. BPM permet de gérer et répartir les bibliothèques de test sur plusieurs projets LCS. Par exemple, un partenaire Microsoft ou un éditeur de logiciels indépendant (ISV) créateur de bibliothèques de tests publiera des scénarios de tests sous la forme de bibliothèque BPM. Dans BPM, les scénarios de test sont organisés par processus métier. BPM ne définit pas l’ordre d’exécution ou la fréquence de vos tests. Ces détails sont gérés dans Azure DevOps, comme décrit plus loin dans cette rubrique.  
+Vous devez disposer d’un projet LCS (Lifecycle Services) pour votre bibliothèque de tests principale. Le Concepteur de processus d’entreprise (BPM) est utilisé comme bibliothèque principale pour les scénarios de test. BPM permet de gérer et répartir les bibliothèques de test sur plusieurs projets LCS. Par exemple, un partenaire Microsoft ou un éditeur de logiciels indépendant (ISV) créateur de bibliothèques de tests publiera des scénarios de tests sous la forme de bibliothèque BPM. Dans BPM, les scénarios de test sont organisés par processus métier. BPM ne définit pas l’ordre d’exécution ou la fréquence de vos tests. Ces détails sont gérés dans Azure DevOps, comme décrit plus loin dans cet article.  
 
 Pour votre projet LCS, vous pouvez utiliser un projet d’implémentation existant d’un client ou d’un partenaire.
 

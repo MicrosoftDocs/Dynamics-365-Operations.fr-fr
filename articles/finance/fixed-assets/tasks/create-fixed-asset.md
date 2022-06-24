@@ -1,6 +1,6 @@
 ---
-title: Créer une immobilisation
-description: Cette rubrique explique comment créer un nouvel enregistrement d’immobilisation à partir de la page de liste des immobilisations.
+title: Création d’une immobilisation
+description: Cet article explique comment créer un nouvel enregistrement d’immobilisation à partir de la page de liste des immobilisations.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868487"
 ---
-# <a name="create-a-fixed-asset"></a>Créer une immobilisation
+# <a name="create-a-fixed-asset"></a>Création d’une immobilisation
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment créer un nouvel enregistrement d’immobilisation à partir de la page de liste **Immobilisations**.
+Cet article explique comment créer un nouvel enregistrement d’immobilisation à partir de la page de liste des **immobilisations**.
 
 Le système attribue le numéro d’actif en fonction de la séquence de numéros affectée au groupe d’immobilisations. Si vous utilisez le modèle d’immobilisation pour importer des actifs via le complément Microsoft Excel, ou si vous utilisez une autre tâche d’importation, le système crée automatiquement des enregistrements d’immobilisation et incrémente le numéro d’actif.
 

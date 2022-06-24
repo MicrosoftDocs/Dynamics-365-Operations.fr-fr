@@ -1,6 +1,6 @@
 ---
 title: Configurer et exécuter les renseignements sur l’emplacement des disponibilités
-description: Cette rubrique fournit des informations sur les renseignements sur l’emplacement des disponibilités. Ces renseignements vous permettent de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre.
+description: Cet article fournit des informations sur les renseignements sur l’emplacement des disponibilités. Ces renseignements vous permettent de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre.
 author: velofog
 ms.date: 10/07/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: public sector
 ms.author: twheeloc
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 1ed160444647f9d82f2ead51a3e2401d468f6861
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6598143bade9996ffc9c606aeca2feaff01a8d61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849699"
 ---
 # <a name="set-up-and-run-the-cash-position-inquiry"></a>Configurer et exécuter les renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique fournit des informations sur les renseignements sur l’**emplacement des disponibilités**. Ces renseignements vous permettent de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre. Ils montrent les éléments suivants :
+Cet article fournit des informations sur les renseignements sur l’**emplacement des disponibilités**. Ces renseignements vous permettent de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre. Ils montrent les éléments suivants :
 
 - Le solde des disponibilités d’ouverture
 - L’effet de l’ajout de rentrées de fonds

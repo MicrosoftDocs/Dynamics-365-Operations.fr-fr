@@ -1,6 +1,6 @@
 ---
 title: Type de congé
-description: Cette rubrique fournit des détails et un exemple de requête pour l’entité de type de congé dans Dynamics 365 Human Resources.
+description: Cet article fournit des détails et un exemple de requête pour l’entité de type de congé dans Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dced58e6e9f6c20578e4582e4cf39162622713e7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6e7905989df92e943b86f86194c87dcb2a7b1446
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893784"
 ---
 # <a name="leave-type"></a>Type de congé
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069905"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit l’entité de type de congé pour Dynamics 365 Human Resources.
+Cet article décrit l’entité de type de congé pour Dynamics 365 Human Resources.
 
-### <a name="description"></a>Description 
+### <a name="description"></a>Description
 
 Cette entité fournit des informations pour un type de congé donné.
 
@@ -37,7 +37,7 @@ Nom physique : mshr_essleavetypeentity.
 
 ## <a name="properties"></a>Propriétés
 
-| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description  |
+| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
 | **ID type de congé**</br>mshr_leavetypeid</br>*Chaîne* | Lecture seule | ID de type de congé. |
 | **Description**</br>mshr_description</br>*Chaîne* | Lecture seule | Description du type de congé. |

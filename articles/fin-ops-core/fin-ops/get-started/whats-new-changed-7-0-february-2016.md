@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861703"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
@@ -320,7 +320,7 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d’évaluation d
 <td>Accès à l’aide procédurale guidée (guides des tâches) et aux rubriques conceptuelles en cliquant sur <strong>Aide</strong>.</td>
 <td>Le système d’aide AX 2012 pointe vers les rubriques HTML qui sont enregistrées sur un serveur Web local. Les partenaires et clients peuvent créer leur propre Aide.</td>
 <td>Le système d’aide de la version actuelle de Dynamics AX affiche les guides de tâches qui sont enregistrés dans le BPM Microsoft Dynamics Lifecycle Services (LCS). Le système d’aide affiche également des rubriques à partir du site de documentation Microsoft. Pour en savoir plus, voir <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Système d’aide</a> et <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nouveaux guides de tâches (février 2016)</a>.</td>
-<td>Un guide de tâche fournit une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d’une tâche ou d’un processus métier. Vous pouvez télécharger et personnaliser les guides de tâches fournis par Microsoft. La rubrique explique un moyen plus rapide et plus souple de créer, de fournir et mettre à jour la documentation du produit. Par conséquent, il aide à garantir que vous avez accès aux dernières informations techniques.</td>
+<td>Un guide de tâche fournit une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d’une tâche ou d’un processus métier. Vous pouvez télécharger et personnaliser les guides de tâches fournis par Microsoft. Cet article explique un moyen plus rapide et plus souple de créer, de fournir et mettre à jour la documentation du produit. Par conséquent, il aide à garantir que vous avez accès aux dernières informations techniques.</td>
 </tr>
 </tbody>
 </table>
@@ -631,15 +631,15 @@ L’espace de travail <strong>Gestion du catalogue</strong> active les fonctionn
 <li>Faire le nécessaire pour exécuter une tâche ou fournir des informations pour effectuer la tâche.</li>
 <li>Suivre le statut des périphériques, puis valider et télécharger directement l’installation du programme Retail Modern POS (MPOS) dans les magasins.</li>
 <li>Accéder à toutes les pages associées.</li>
-</ul>L’espace de travail 
-<strong>Gestion du magasin de vente au détail</strong> permet d’effectuer les tâches suivantes :
+</ul>
+<strong>L'espace de travail Gestion du magasin de vente au détail</strong> permet d’effectuer les tâches suivantes :
 <ul>
 <li>Gérer les collaborateurs et les autorisations de point de vente (PDV) associées.</li>
 <li>Suivre le statut de l’équipe de travail pour un magasin ou un groupe de magasins donnés.</li>
 <li>Valider et télécharger directement l’installation du programme MPOS dans les magasins.</li>
 <li>Imprimer des états et accéder aux pages associées.</li>
-</ul>L’espace de travail 
-<strong>Finances du magasin de vente au détail</strong> permet d’effectuer les tâches suivantes :
+</ul>
+<strong>L'espace de travail Finances du magasin de vente au détail</strong> permet d’effectuer les tâches suivantes :
 <ul>
 <li>Créer, calculer et valider des relevés pour un canal donné.</li>
 <li>Programmer les traitements par lots pour mettre à jour le stock, puis calculer et valider les instructions.</li>
@@ -1024,11 +1024,11 @@ Aucune nouvelle fonctionnalité n’a été ajoutée :
 
 | Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
-| Possibilité de télécharger, d’installer et de configurer le portail des appareils mobiles d’entrepôt. | Vous pouvez télécharger, installer et configurer le portail lors du processus d’installation de Microsoft Dynamics AX, via un paramétrage standard. Il est conçu pour le déploiement et la configuration autonomes sur site. | Vous pouvez télécharger un installateur autonome via une option de menu dans le module gestion des entrepôts. Il est conçu pour le déploiement et la configuration autonomes sur site. | Lorsque vous configurez l'utilisation de la fonctionnalité de périphérique mobile, vous devez installer et configurer le portail des appareils mobiles d'entrepôt localement et obtenir une connexion à Dynamics AX dans le cloud. |
+| Possibilité de télécharger, d’installer et de configurer le portail des appareils mobiles d’entrepôt. | Vous pouvez télécharger, installer et configurer le portail lors du processus d’installation de Microsoft Dynamics AX, via un paramétrage standard. Il est conçu pour le déploiement et la configuration autonomes sur site. | Vous pouvez télécharger un installateur autonome via une option de menu dans le module gestion des entrepôts. Il est conçu pour le déploiement et la configuration autonomes sur site. | Lorsque vous configurez l’utilisation de la fonctionnalité de périphérique mobile, vous devez installer et configurer le portail des appareils mobiles d’entrepôt localement et obtenir une connexion à Dynamics AX dans le cloud. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Nouveautés ou modifications de la page d'accueil Finance and Operations](whats-new-changed.md)
+[Nouveautés ou modifications de la page d’accueil Finance et Opérations](whats-new-changed.md)
 
 [Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)
 

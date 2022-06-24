@@ -1,6 +1,6 @@
 ---
 title: Activer les recommandations « acheter des descriptions similaires »
-description: Cette rubrique décrit comment activer la fonctionnalité de recommandations de produits « acheter des descriptions similaires » dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment activer la fonctionnalité de recommandations de produits « acheter des descriptions similaires » dans Microsoft Dynamics 365 Commerce.
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852006"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Activer les recommandations « acheter des descriptions similaires »
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment activer la fonctionnalité de recommandations de produits « acheter des descriptions similaires » dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment activer la fonctionnalité de recommandations de produits « acheter des descriptions similaires » dans Microsoft Dynamics 365 Commerce.
 
 La fonctionnalité de recommandations « Acheter des description similaires » dans Dynamics 365 Commerce utilise l’intelligence artificielle et le Machine Learning (IA-ML) pour recommander des produits dont les descriptions correspondent à ce que recherchent les clients. En mettant à disposition des recommandations de type « acheter des descriptions similaires » pour tous les canaux de vente au détail dans Commerce, les détaillants peuvent aider leurs clients à trouver facilement ce qu’ils veulent.
 

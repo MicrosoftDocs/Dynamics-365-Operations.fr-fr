@@ -1,6 +1,6 @@
 ---
 title: Paramétrage de lettres de change
-description: Cette rubrique décrit la procédure de paramétrage des lettres de change.
+description: Cet article décrit la procédure de paramétrage des lettres de change.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874723"
 ---
 # <a name="set-up-bills-of-exchange"></a>Paramétrage de lettres de change
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure de paramétrage des lettres de change.
+Cet article décrit la procédure de paramétrage des lettres de change.
 
 Une lettre de change est un ordre écrit ou électronique d’un client spécifiant qu’un tiers, généralement une banque, doit payer un montant défini à la société. Lorsque vous utilisez une lettre de change pour payer une facture de commande client ou une facture financière, vous créditez le compte client. Ce crédit est sécurisé par la lettre de change jusqu’à ce que le client paie cette dernière à la banque. En général, vous réglez la facture avec une lettre de change à la date d’échéance. Lorsque vous recevez une notification de la banque vous informant que la lettre de change a été honorée, vous pouvez la clôturer. Vous pouvez créer une lettre de change via votre banque à l’un des moments suivants :
 

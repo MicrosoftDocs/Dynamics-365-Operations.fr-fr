@@ -1,6 +1,6 @@
 ---
-title: États de location d’actifs
-description: Cette rubrique répertorie et décrit brièvement les états disponibles dans la location d’actifs.
+title: États de leasing d’actifs
+description: Cet article répertorie et décrit brièvement les états disponibles dans la location d’actifs.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856710"
 ---
-# <a name="asset-leasing-reports"></a>États de location d’actifs
+# <a name="asset-leasing-reports"></a>États de leasing d’actifs
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie et décrit brièvement les états disponibles dans la location d’actifs. La plupart des états s’affichent en exécutant ces étapes ou des étapes très similaires, comme indiqué). 
+Cet article répertorie et décrit brièvement les états disponibles dans la location d’actifs. La plupart des états s’affichent en exécutant ces étapes ou des étapes très similaires, comme indiqué). 
 
 - Pour afficher la plupart des états de location d’actifs, accédez à **Location d’actifs > Recherches et états > États de bail**, puis sélectionnez un état à afficher. Pour les états qui nécessitent un autre chemin de sélection, les étapes d’ouverture de l’état sont incluses dans la description de cet état. 
 - Lorsque vous sélectionnez un état à imprimer, une page de paramètres s’ouvre et vous permet de filtrer les informations incluses dans l’état. Saisissez les critères de filtre, puis sélectionnez **OK** pour générer l’état. L’état généré affiche les informations comprises dans les filtres que vous avez spécifiés.

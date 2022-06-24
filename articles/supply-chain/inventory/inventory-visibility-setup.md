@@ -1,8 +1,8 @@
 ---
 title: Installer le complément de visibilité de stock
-description: Cette rubrique décrit comment installer le module complémentaire de visibilité des stocks pour Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article décrit comment installer le module complémentaire de visibilité des stocks pour Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895697"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>Installer et configurer la visibilité des stocks
+# <a name="install-and-set-up-inventory-visibility"></a>Installer et configurer Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
+Cet article décrit comment installer le module complémentaire de visibilité des stocks pour Microsoft Dynamics 365 Supply Chain Management.
 
-Cette rubrique décrit comment installer le module complémentaire de visibilité des stocks pour Microsoft Dynamics 365 Supply Chain Management.
+Vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour installer le module complémentaire de visibilité des stocks. LCS est un portail de collaboration qui fournit un environnement et un ensemble de services régulièrement mis à jour qui vous aident à gérer le cycle de vie des applications de vos applications Finances et Opérations. Pour plus d’informations, voir [Ressources Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-Vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour installer le module complémentaire de visibilité des stocks. LCS est un portail de collaboration qui fournit un environnement et un ensemble de services régulièrement mis à jour qui vous aident à gérer le cycle de vie des applications de vos applications Finances et Opérations.
-
-Pour plus d’informations, voir [Ressources Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> Nous vous recommandons de rejoindre le groupe d’utilisateurs du complément de visibilité du stock, où vous pouvez trouver des guides utiles, obtenir nos dernières mises à jour et poster toutes les questions que vous pourriez avoir sur l’utilisation de la visibilité du stock. Pour vous inscrire, envoyez un e-mail à l’équipe produit de Visibilité du stock à l’adresse [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) et incluez votre ID d’environnement Supply Chain Management.
 
 ## <a name="inventory-visibility-prerequisites"></a>Conditions préalables pour la visibilité des stocks
 
@@ -44,6 +44,9 @@ Si vous avez des questions sur ces conditions préalables, contactez l’équipe
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Installer le complément de visibilité de stock
 
 Avant d’installer le module complémentaire, enregistrez une application et ajoutez une clé secrète client à Azure Active Directory (Azure AD) sous votre abonnement Azure. Pour les instructions, voir [Enregistrer une application](/azure/active-directory/develop/quickstart-register-app) et [Ajouter une clé secrète client](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Assurez-vous de noter des valeurs des **ID de l’application (client)** , **Clé secrète client**, et **ID du locataire**, car vous en aurez besoin plus tard.
+
+> [!IMPORTANT]
+> Si vous avez plusieurs environnements LCS, créez une application Azure AD différente de ces derniers. Si vous utilisez le même ID d’application et le même ID de locataire pour installer le complément de visibilité des stocks pour différents environnements, un problème de jeton se produira pour les environnements plus anciens. En tant que résultat, seule la dernière installation est valide.
 
 Après avoir enregistré une application et ajouté un clé secrète client à Azure AD, suivez ces étapes pour installer le module complémentaire de visibilité des stocks.
 
@@ -72,11 +75,18 @@ Après avoir enregistré une application et ajouté un clé secrète client à A
 1. Sélectionnez **Installer**. Le statut du complément s’affiche comme **Installation en cours**. Lorsque l’installation est terminée, actualisez la page. Le statut devrait changer pour **Installé**.
 1. Dans Dataverse, sélectionnez la section **Applications** dans la navigation de gauche et vérifiez que **Visibilité de l’inventaire** Power Apps est installé avec succès. Si la section **Apps** n’existe pas, contactez l’équipe produit de la visibilité des stocks à [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) pour obtenir les fichiers requis suivants.
 
-> [!TIP]
-> Nous vous recommandons de rejoindre le groupe d’utilisateurs du complément de visibilité du stock, où vous pouvez trouver des guides utiles, obtenir nos dernières mises à jour et poster toutes les questions que vous pourriez avoir sur l’utilisation de la visibilité du stock. Pour vous inscrire, envoyez un e-mail à l’équipe produit de Visibilité du stock à l’adresse [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) et incluez votre ID d’environnement Supply Chain Management.
-
-> [!IMPORTANT]
-> Si vous avez plusieurs environnements LCS, créez une application Azure AD différente pour chaque environnement. Si vous utilisez le même ID d’application et le même ID de locataire pour installer le complément de visibilité des stocks pour différents environnements, un problème de jeton se produira pour les environnements plus anciens. Seul le dernier installé sera valide.
+> [!NOTE]
+> Si l'installation à partir de la page LCS prend plus d'une heure, votre compte d'utilisateur n'a probablement pas l'autorisation d'installer des solutions dans l'environnement Dataverse. Procédez comme suit pour résoudre le problème :
+>
+> 1. Annulez le processus d'installation du complément de visibilité des stocks à partir de la page LCS.
+> 1. Connectez-vous au [centre d'administration Microsoft 365](https://admin.microsoft.com) et assurez-vous que le compte d'utilisateur que vous souhaitez utiliser pour installer le complément dispose de la licence "Plan Dynamics 365 Unified Operations" qui lui est attribuée. Attribuez la licence si nécessaire.
+> 1. Connectez-vous au [centre d'administration Power Platform](https://admin.powerplatform.microsoft.com) à l'aide du compte utilisateur correspondant. Ensuite installez le complément Visibilité des stocks en procédant comme suit :
+>     1. Sélectionnez l'environnement où vous souhaitez installer le complément.
+>     1. Sélectionnez **Applications Dynamics 365**.
+>     1. Sélectionnez **Installer l'application**.
+>     1. Sélectionnez **Visibilité des stocks**
+>
+> 1. Une fois l'installation terminée, revenez à la page LCS et réessayez de réinstaller le complément **Visibilité des stocks**.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Désinstaller le complément de visibilité des stocks
 

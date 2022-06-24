@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil Administration d’organisation
-description: Cette rubrique redirige vers des ressources utiles pour exploiter dans votre organisation.
+description: Cet article redirige vers des ressources utiles pour exploiter dans votre organisation.
 author: sericks007
 ms.date: 08/18/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04d188b0bf7d7fc7064467e1e05199d0eb90b4d0276a3c0c01ad8f9be78e76e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d4320fb22f0354b33b44e731d22f3f763789ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882047"
 ---
 # <a name="organization-administration-home-page"></a>Page d’accueil Administration d’organisation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique aborde le contenu qui aidera les utilisateurs expérimentés et les administrateurs à configurer le système pour qu’il fonctionne sans heurts et efficacement pour votre organisation et votre activité.
+Cet article aborde le contenu qui aidera les utilisateurs expérimentés et les administrateurs à configurer le système pour qu’il fonctionne sans heurts et efficacement pour votre organisation et votre activité.
 
 La plupart du contenu répertorié ici s’applique aux fonctions du module **Administration de l’organisation**. Cependant, plusieurs tâches, telles que la création et l’utilisation d’un modèle d’enregistrement, peuvent être effectuées dans n’importe quel module pour aider votre organisation à fonctionner plus efficacement.
 

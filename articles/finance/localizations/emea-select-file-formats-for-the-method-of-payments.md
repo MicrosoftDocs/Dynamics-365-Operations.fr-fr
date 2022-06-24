@@ -1,6 +1,6 @@
 ---
 title: Formats de fichier des modes de paiement
-description: Cette rubrique décrit les deux méthodes d’obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement.
+description: Cet article décrit les deux méthodes d’obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement.
 author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ca396424256660f251d6889afffb3e90bb76fd54
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: c99413c361397c6818be580deb45ba85620ed5db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871078"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Formats de fichier des modes de paiement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les deux méthodes d’obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement.
+Cet article décrit les deux méthodes d’obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement.
 
 Deux méthodes peuvent être utilisées pour obtenir les formats de fichier à utiliser avec les modes de paiement, les formats de fichier de génération d’états électroniques ou les formats de fichier X++. Lorsque vous paramétrez un mode de paiement pour un client ou un fournisseur, vous indiquez les formats de fichier et les normes qui doivent être utilisés pour les paiements et le mode de traitement des paiements. Vous pouvez choisir parmi les types de format suivants :
 

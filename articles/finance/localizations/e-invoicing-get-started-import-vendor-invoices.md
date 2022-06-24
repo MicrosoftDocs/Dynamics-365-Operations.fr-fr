@@ -1,6 +1,6 @@
 ---
 title: Utiliser le service de facturation électronique pour importer des factures fournisseur
-description: Cette rubrique fournit des informations sur la façon d’importer des factures fournisseur à l’aide du service de facturation électronique.
+description: Cet article fournit des informations sur la façon d’importer des factures fournisseur à l’aide du service de facturation électronique.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865582"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Utiliser le service de facturation électronique pour importer des factures fournisseur
 
@@ -30,7 +30,7 @@ ms.locfileid: "7983821"
 
 [!include [banner](../includes/preview-banner.md)]
 
-Cette rubrique donne des informations qui vous aideront à démarrer avec l’importation de factures fournisseur en utilisant le service de facturation électronique. Elle vous guide à travers les étapes de configuration que vous devez suivre dans Regulatory Configuration Services (RCS), Dynamics 365 Finance et Dynamics 365 Supply Chain Management pour recevoir les factures fournisseur électroniques envoyées par les fournisseurs.
+Cet article donne des informations qui vous aideront à démarrer avec l’importation de factures fournisseur en utilisant le service de facturation électronique. Il vous guide à travers les étapes de configuration que vous devez suivre dans Regulatory Configuration Services (RCS), Dynamics 365 Finance et Dynamics 365 Supply Chain Management pour recevoir les factures fournisseur électroniques envoyées par les fournisseurs.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Paramétrer l’importation des factures fournisseur dans RCS
 Pour paramétrer l’importation de factures fournisseur dans RCS, procédez comme suit :

@@ -1,6 +1,6 @@
 ---
 title: Comptes de validation de cession d’immobilisations
-description: Cette rubrique explique comment paramétrer les comptes de validation de la comptabilité afin de céder des immobilisations.
+description: Cet article explique comment paramétrer les comptes de validation de la comptabilité afin de céder des immobilisations.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8501bbb0fc47fb52e100d9086054db4831dae178
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1272cdb16396d24b5495f023e7b9fe3dee341507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871331"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Comptes de validation de cession d’immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer les comptes de validation de la comptabilité lorsque vous cédez des immobilisations.
+Cet article explique comment paramétrer les comptes de validation de la comptabilité lorsque vous cédez des immobilisations.
 
 Pour configurer les comptes de validation de la comptabilité à utiliser lors de la cession d’une immobilisation, sélectionnez **Cession – Vente** et **Cession - Mise au rebut** dans le raccourci **Comptes généraux** de la page **Profils de validation d’immobilisation**.
 

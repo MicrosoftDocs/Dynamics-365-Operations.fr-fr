@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources 6 septembre 2021
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 6 septembre 2021.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 6 septembre 2021.
 author: marcelbf
 ms.date: 09/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872150"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 6 septembre 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Microsoft Dynamics 365 Human Resources.
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Microsoft Dynamics 365 Human Resources.
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -50,9 +50,9 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui auront été intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème | Problème | Description  |
+| Numéro du problème | Problème | Description |
 |---|---|---|
 | 610128 | Erreur lors de la publication des données lors de l’utilisation de l’entité HcmDiscussionOverallCommentEntity | Lorsque les données sont publiées à partir d’un classeur Excel vers l’entité HcmDiscussionOverralCommentEntity, l’erreur suivante se produit : « Impossible de localiser l’enregistrement de source de données de type HcmTopicOverrall ». |
 | 589073 | L’état EEO-1 compte les valeurs « Non spécifiques » et les valeurs vides pour le champ **Genre** comme valeur « Féminin ». | Si **Masculin** n’est pas spécifié pour le champ **Genre**, l’état EEO-1 génère une valeur par défaut de type **Féminin**. |

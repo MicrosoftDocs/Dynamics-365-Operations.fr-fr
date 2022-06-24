@@ -1,8 +1,8 @@
 ---
 title: Personnaliser l’expérience de l’utilisateur
-description: Cette rubrique explique comment vous pouvez personnaliser l’application.
+description: Cet article explique comment vous pouvez personnaliser l’application.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845440"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l’expérience de l’utilisateur
 
@@ -28,7 +28,7 @@ ms.locfileid: "8602987"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Cette rubrique explique comment personnaliser l’application et couvre les sujets suivants : 
+Cet article explique comment personnaliser l’application et couvre les sujets suivants : 
 
 - **Options à l’échelle du système** – Ces options de personnalisation sont paramétrer sur une page de configuration et sont disponibles pour tous les utilisateurs. Le thème de couleur et le fuseau horaire sont des exemples. 
 - **Accès de personnalisation restreint** – À ce niveau d’accès, les actions des utilisateurs associées à l’utilisation typique de la page sont automatiquement enregistrées par l’application et restaurées la prochaine fois que vous visitez la page. Par exemple, l’application stocke la largeur des colonnes de la grille si vous les ajustez, et de l’état développé ou réduit des raccourcis. 
@@ -58,7 +58,7 @@ Voici une liste des actions qui relèvent d’une utilisation de page typique et
 
 - **Largeurs des colonnes de la grille** : réglez la largeur d’une colonne dans une grille en sélectionnant la barre de dimensionnement située à gauche ou à droite de l’en-tête de la colonne, et en la faisant glisser vers la gauche ou vers la droite jusqu’à atteindre la largeur souhaitée. L’application enregistre la largeur définie pour une colonne. Ensuite, la prochaine fois que vous ouvrez cette page, la colonne sera redimensionnée selon cette largeur.
 - **Pied de page de la grille et totaux des colonne** – *(Uniquement disponible si la nouvelle commande de grille est activée)* Vous pouvez décider si un total doit s’afficher en bas des colonnes numériques dans une grille et si le pied de page de la grille doit être visible. L’application ces préférences et les applique à la prochaine ouverture de la page. Pour plus d’informations, voir [Capacités de grille](grid-capabilities.md). 
-- **Raccourcis** – Certaines pages ont des sections extensibles appelées *Raccourcis*. L’application enregistre les informations sur les raccourcis que vous avez développés ou réduits. La prochaine fois que vous ouvrez la page, les mêmes raccourcis sont développés ou réduits, selon votre dernière interaction avec la page. Dans certains cas, vous pouvez améliorer les performances du système en réduisant un raccourci, car l’application n’a pas besoin de récupérer les informations des raccourcis jusqu’à ce qu’ils soient développés. Comme expliqué plus loin dans cette rubrique, vous pouvez également modifier l’ordre des raccourcis sur une page.
+- **Raccourcis** – Certaines pages ont des sections extensibles appelées *Raccourcis*. L’application enregistre les informations sur les raccourcis que vous avez développés ou réduits. La prochaine fois que vous ouvrez la page, les mêmes raccourcis sont développés ou réduits, selon votre dernière interaction avec la page. Dans certains cas, vous pouvez améliorer les performances du système en réduisant un raccourci, car l’application n’a pas besoin de récupérer les informations des raccourcis jusqu’à ce qu’ils soient développés. Comme expliqué plus loin dans cet article, vous pouvez également modifier l’ordre des raccourcis sur une page.
 - **Récapitulatifs** – Certaines pages ont un volet **Informations associées** qui affiche des informations en lecture seule associées à l’objet actuel de la page. Chaque section du volet **Informations associées** est appelée un *Récapitulatif*. Vous pouvez développer ou réduire le volet **Informations associées**, et vous pouvez également développer ou réduire des récapitulatifs individuels. L’application stocke ces préférences. La prochaine fois que vous ouvrez la page, le volet **Informations associées** et les récapitulatifs individuels sont développés ou réduits, selon votre dernière interaction avec la page. Dans certains cas, vous pouvez améliorer les performances du système en réduisant un volet **Informations associées** ou un Récapitulatif, car l’application n’a pas besoin de récupérer les informations des Récapitulatifs jusqu’à ce qu’ils soient développés.
 - **Volets Actions** – Un *volet Actions* s’affiche en haut de la plupart des pages. Il contient des boutons pour la plupart des actions que vous pouvez exécuter sur la page actuelle. Ces boutons sont souvent organisés dans des onglets. Vous pouvez *épingler* l’ensemble du volet Actions ouvert, ou vous pouvez le faire réduire par défaut. La prochaine fois que vous ouvrez la page, le volet Actions est ouvert ou réduit, selon votre dernière interaction avec la page. Si vous avez épinglé le volet Actions ouvert, le dernier onglet que vous avez utilisé sera affiché.
 - **Filtres rapides** – Un *Filtre rapide* s’affiche au-dessus de la plupart des grilles. Il vous permet de filtrer la grille, selon la seule colonne sélectionnée. L’application enregistre la colonne correspondant au filtre. La prochaine fois que vous ouvrirez la page, la grille utilisera cette même colonne pour le filtrage par défaut. Toutefois, vous pouvez toujours sélectionner une colonne différente selon laquelle filtrer la grille.
@@ -173,14 +173,14 @@ Depuis la version 10.0.26, la fonctionnalité **Autoriser les utilisateurs à s
 
 ### <a name="personalizing-your-dashboard"></a>Personnalisation de votre tableau de bord
 
-Le tableau de bord est souvent la première page que vous voyez lorsque vous ouvrez l’application. Il peut être personnalisé comme n’importe quelle autre page du système, en utilisant les mêmes mécanismes que ceux décrits plus haut dans cette rubrique. 
+Le tableau de bord est souvent la première page que vous voyez lorsque vous ouvrez l’application. Il peut être personnalisé comme n’importe quelle autre page du système, en utilisant les mêmes mécanismes que ceux décrits plus haut dans cet article. 
 
 > [!WARNING]
 > Actuellement, lorsque vous masquez du contenu sur le tableau de bord, il est important de cibler directement une vignette, pas l’espace qui l’entoure. Si vous masquez le groupe à l’aide d’une vignette, des résultats inattendus peuvent survenir si d’autres vignettes sont ajoutées ultérieurement ou si le système est basculé dans une langue différente.
 
 Une fonctionnalité de personnalisation unique disponible sur le tableau de bord est la possibilité d’ajouter des vignettes. 
 
-- Si la fonctionnalité **Applications pleine page** est désactivée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter un espace de travail**. Une nouvelle vignette d’espace de travail est créée en bas du tableau de bord. Vous pouvez renommer cette nouvelle vignette d’espace de travail comme vous le souhaitez. Vous pouvez également ajouter des listes, des vignettes et des liens à l’espace de travail, comme décrit dans la section [Ajout de listes, de vignettes ou de liens vers un espace de travail](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
+- Si la fonctionnalité **Applications pleine page** est désactivée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter un espace de travail**. Une nouvelle vignette d’espace de travail est créée en bas du tableau de bord. Vous pouvez renommer cette nouvelle vignette d’espace de travail comme vous le souhaitez. Vous pouvez également ajouter des listes, des vignettes et des liens à l’espace de travail, comme décrit dans la section [Ajout de listes, de vignettes ou de liens vers un espace de travail](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) de cet article.
 - Si la fonctionnalité **Applications pleine page** est activée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter une application**. Dans la boîte de dialogue, indiquez si vous souhaitez ajouter une vignette pour un nouvel espace de travail ou une vignette dont le contenu est Power Apps ou un site web. Suivez ensuite les étapes pour configurer l’option que vous avez sélectionnée. Une nouvelle vignette est créée en bas du tableau de bord. Pour plus d’informations sur l’ajout, la modification, la suppression et le partage de ces applications intégrées, consultez [Intégrer des applications de canevas à partir de Power Apps](embed-power-apps.md) et [Intégrer des applications tierces](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Partage des personnalisations
@@ -236,7 +236,7 @@ Une autre façon de partager des personnalisations consiste à exporter et à im
 
 #### <a name="export"></a>Exporter
 
-En général, vous pouvez exporter l’une de vos propres vues ou personnalisations en ouvrant la page appropriée, en ouvrant la barre d’outils **Personnalisation**, puis en sélectionnant **Exporter**. Pour plus d’informations sur la barre d’outils, consultez la section précédente [Barre d’outils de personnalisation](#personalization-toolbar) dans cette rubrique. Sinon, si les [vues enregistrées](saved-views.md) sont activés, vous pouvez aller dans **Paramètres \> Options utilisateur \> Personnalisation** pour afficher la liste de toutes vos personnalisations dans le système. À partir de là, vous pouvez sélectionner les vues ou les personnalisations à exporter, puis sélectionner **Exporter**.
+En général, vous pouvez exporter l’une de vos propres vues ou personnalisations en ouvrant la page appropriée, en ouvrant la barre d’outils **Personnalisation**, puis en sélectionnant **Exporter**. Pour plus d’informations sur la barre d’outils, consultez la section précédente [Barre d’outils de personnalisation](#personalization-toolbar) dans cet article. Sinon, si les [vues enregistrées](saved-views.md) sont activés, vous pouvez aller dans **Paramètres \> Options utilisateur \> Personnalisation** pour afficher la liste de toutes vos personnalisations dans le système. À partir de là, vous pouvez sélectionner les vues ou les personnalisations à exporter, puis sélectionner **Exporter**.
 
 En outre, les administrateurs peuvent exporter les personnalisations d’autres utilisateurs en suivant ces étapes.
 
@@ -277,7 +277,7 @@ Si les vues enregistrées ne sont pas activées, procédez comme suit :
 
 La page **Personnalisation** est le nœud central de la gestion des personnalisations au niveau de l’organisation. Le contenu et les fonctionnalités de cette page varient selon que la fonctionnalité **Vues enregistrées** a été activée.
 
-Pour les clients qui ont activé la fonctionnalité **Vues enregistrées**, consultez la section « Gestion globale des vues » dans la rubrique [Vues enregistrées](saved-views.md).
+Pour les clients qui ont activé la fonctionnalité **Vues enregistrées**, consultez la section « Gestion globale des vues » dans l’article [Vues enregistrées](saved-views.md).
 
 Pour les clients n’ayant pas encore activé la fonctionnalité [Vues enregistrées](saved-views.md), cette page contient quatre onglets :
 
@@ -285,6 +285,9 @@ Pour les clients n’ayant pas encore activé la fonctionnalité [Vues enregistr
 - **Effacer** – Vous pouvez effacer toutes les personnalisations d’une page ou d’un espace de travail pour un ou plusieurs utilisateurs. Sélectionnez d’abord une page ou un espace de travail pour afficher la liste des utilisateurs qui l’ont personnalisé. Ensuite, sélectionnez les utilisateurs dont les personnalisations pour cette page ou cet espace de travail doivent être effacées. Enfin, sélectionnez **Effacer**. Toutes les personnalisations que les utilisateurs sélectionnés ont appliquées à la page ou à l’espace de travail sélectionné(e) sont supprimées. Cette action ne peut pas être annulée. Toutefois, si une personnalisation a été enregistrée pour la page ou l’espace de travail, cette personnalisation peut être réimportée.
 - **Utilisateurs** : sélectionnez un utilisateur pour afficher une liste des pages personnalisées par celui-ci. Vous pouvez ensuite activer ou désactiver la possibilité que l’utilisateur sélectionné utilise les personnalisations pour des pages spécifiques ou pour l’ensemble du système. Vous pouvez également importer, exporter ou effacer une personnalisation pour l’utilisateur. En outre, vous pouvez réinitialiser les légendes de fonction pour l’utilisateur. Dans ce cas, si l’utilisateur a ignoré précédemment des fenêtres contextuelles qui introduisaient de nouvelles fonctionnalités, elles s’affichent de nouveau la prochaine fois que l’utilisateur rencontre ces fonctionnalités.
 - **Système** : vous pouvez désactiver temporairement la personnalisation de l’ensemble des utilisateurs du système. Dans ce cas, toutes les personnalisations sont supprimées pour tous les utilisateurs, et toutes les pages sont rétablies à leur état par défaut. Si vous réactivez la personnalisation ultérieurement, toutes les personnalisations sont réappliquées. Vous pouvez également supprimer définitivement toutes les personnalisations pour l’ensemble des utilisateurs du système. Les personnalisations qui ont été supprimées ne peuvent être restaurées. Par conséquent, avant d’effectuer cette tâche, veillez à exporter les personnalisations que vous souhaitez utiliser ultérieurement.
+
+### <a name="service-updates-and-personalization"></a>Mises à jour et personnalisation du service
+Les données de personnalisation n’ont pas besoin d’être effacées ou réinitialisées lors du passage à une nouvelle version du produit. Les personnalisations et les données des vues enregistrées continueront de fonctionner d’une mise à jour à l’autre. Les exceptions incluent les modifications apportées au formulaire lui-même qui invalident une personnalisation (telle qu’un contrôle supprimé) ou les modifications apportées à la requête de base du formulaire qui modifient sa sous-arborescence de source de données qui ont pour conséquence qu’elle ne corresponde plus à la sous-arborescence de source de données associée à la requête de vue.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personnalisation des dimensions de stock
 

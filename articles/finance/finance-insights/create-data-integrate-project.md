@@ -1,6 +1,6 @@
 ---
 title: Créer un projet d’intégration de données
-description: Cette rubrique explique comment créer un projet d’intégration de données.
+description: Cet article explique comment créer un projet d’intégration de données.
 author: ShivamPandey-msft
 ms.date: 05/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4ff4f88c6c5d55d853aebd7d437bfb107292fb2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876238"
 ---
 # <a name="create-a-data-integration-project"></a>Créer un projet d’intégration de données
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment créer un projet d’intégration de données.
+Cet article explique comment créer un projet d’intégration de données.
 
 1. Connectez-vous à Microsoft Dynamics 365 Finance.
 2. Accédez à **Espaces de travail \> Gestion des données** et sélectionnez **Entités de données**. Attendez que toutes les entités de données aient été actualisées avant de passer à l’étape suivante.
@@ -55,14 +55,14 @@ Cette rubrique explique comment créer un projet d’intégration de données.
 
 5. Ouvrez les [environnements Power Apps](https://admin.powerapps.com/environments) et suivez ces étapes :  
 
-    1. Créez un seul projet d'intégration de données pour chacun des modèles suivants à l'aide de l'ensemble de connexion que vous venez de créer :
+    1. Créez un seul projet d’intégration de données pour chacun des modèles suivants à l’aide de l’ensemble de connexion que vous venez de créer :
 
         - Résultats des informations de paiement du client (CDS vers Fin and Ops 10.0.17+)
         - Résultats des séries chronologiques de flux de trésorerie (CDS à Fin et Ops)
         - Résultats des séries chronologiques de budget (CDS à Fin et Ops)
 
       > [!NOTE]
-      > La création de plusieurs projets d'intégration de données pour chaque modèle peut provoquer des erreurs qui bloqueront les mises à jour.
+      > La création de plusieurs projets d’intégration de données pour chaque modèle peut provoquer des erreurs qui bloqueront les mises à jour.
 
     2. Définissez la planification appropriée pour chaque projet.
 

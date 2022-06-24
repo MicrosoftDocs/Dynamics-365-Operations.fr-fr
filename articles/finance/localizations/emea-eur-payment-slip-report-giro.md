@@ -1,6 +1,6 @@
 ---
 title: État du bordereau de paiement pour l’Europe
-description: Cette rubrique fournit des informations sur les états de bordereau de paiement pour l’Europe.
+description: Cet article fournit des informations sur les états de bordereau de paiement pour l’Europe.
 author: EvgenyPopovMBS
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 114d872ea939999afb6d3652f8cd6db34d0d99e1c303d6770d8613647a04f0c2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9225e946fc3dd61eb0347a8f50561180f94ae589
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889803"
 ---
 # <a name="payment-slip-report-for-europe"></a>État du bordereau de paiement pour l’Europe
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les états de bordereau de paiement pour l’Europe.
+Cet article fournit des informations sur les états de bordereau de paiement pour l’Europe.
 
 La fonctionnalité pour les états de bordereau de paiement est disponible pour les entités juridiques dont l’adresse principale est située au Danemark, en Belgique, en Norvège, en Suisse ou en Finlande. Les entreprises associent souvent les bordereaux de paiement imprimés aux factures pour fournir une référence de paiement pour la validation et le règlement. Les bordereaux de paiement peuvent être utilisés pour les factures de projet ou de service, les lettres de relance, les notes d’intérêt et les relevés de compte, en plus des factures client et des factures financières.
 

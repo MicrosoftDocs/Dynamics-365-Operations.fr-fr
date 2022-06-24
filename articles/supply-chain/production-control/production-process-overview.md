@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble du processus de fabrication
-description: Cette rubrique donne une vue d’ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière.
+description: Cet article donne une vue d’ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière.
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852213"
 ---
 # <a name="production-process-overview"></a>Vue d’ensemble du processus de fabrication
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne une vue d’ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière.
+Cet article donne une vue d’ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière.
 
 La production de produits, un processus également appelé cycle de vie de la production, suit des étapes spécifiques nécessaires pour terminer la fabrication d’un article. Le cycle de vie commence avec la création de l’ordre de fabrication, du lot de commandes, ou du kanban. Il commence par la création de l’ordre de fabrication et se termine par un produit fini, fabriqué et prêt pour le client ou une autre phase de production. Chaque étape du cycle de vie requiert différents types d’informations pour l’exécution du processus. Lorsque chaque étape est terminée, l’ordre de fabrication, le lot de commandes ou le kanban l’indique en modifiant son statut de production. Les différents types de produits requièrent différents processus de fabrication.
 

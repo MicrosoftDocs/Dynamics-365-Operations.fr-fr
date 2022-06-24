@@ -1,6 +1,6 @@
 ---
-title: Ajouter des champs de données dans l’intégration fiscale à l’aide d’extensions
-description: Cette rubrique explique comment utiliser les extensions X++ pour ajouter des champs de données à l’intégration fiscale.
+title: Ajouter des champs de données dans l’intégration de la taxe à l’aide d’extensions
+description: Cet article explique comment utiliser les extensions X++ pour ajouter des champs de données à l’intégration fiscale.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695386"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871047"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Ajouter des champs de données dans l’intégration fiscale à l’aide d’une extension
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment utiliser les extensions X++ pour ajouter des champs de données à l’intégration fiscale. Ces champs peuvent être étendus au modèle de données fiscales du service de taxe et être utilisés pour déterminer les codes taxe. Pour plus d’informations, consultez [Ajouter des champs de données dans les configurations de taxe](tax-service-add-data-fields-tax-configurations.md).
+Cet article explique comment utiliser les extensions X++ pour ajouter des champs de données à l’intégration fiscale. Ces champs peuvent être étendus au modèle de données fiscales du service de taxe et être utilisés pour déterminer les codes taxe. Pour plus d’informations, consultez [Ajouter des champs de données dans les configurations de taxe](tax-service-add-data-fields-tax-configurations.md).
 
 ## <a name="data-model"></a>Modèle de données
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 Dans ce code, `_destination` est l’objet wrapper utilisé pour générer la requête, et `_source` est l’objet `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> Définissez le nom du champ utilisé dans la requête sous la forme **private const str**. La chaîne doit être exactement la même que le nom du nœud (par l’étiquette) ajouté dans la rubrique, [Ajouter des champs de données dans les configurations fiscales](tax-service-add-data-fields-tax-configurations.md).
+> Définissez le nom du champ utilisé dans la requête sous la forme **private const str**. La chaîne doit être exactement la même que le nom du nœud (par l’étiquette) ajouté dans l’article, [Ajouter des champs de données dans les configurations fiscales](tax-service-add-data-fields-tax-configurations.md).
 > 
 > Définissez le champ dans la méthode **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** en utilisant la méthode **SetField**. Le type de données du deuxième paramètre doit être **string**. Si le type de données n’est pas **string**, convertissez-le en chaîne.
 > Si le type de données est **type d’énumération** X++, nous vous recommandons d’utiliser la méthode **enum2Symbol** pour convertir la valeur enum en une chaîne. La valeur enum ajoutée dans la configuration des taxes doit être exactement la même que le nom de l’énumération. Voici une liste des différences entre la valeur enum, l’étiquette et le nom.

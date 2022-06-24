@@ -1,6 +1,6 @@
 ---
-title: Rendre unique le délimiteur du plan de comptes
-description: Cette rubrique explique comment vous ne pouvez pas avoir le même séparateur pour le plan de comptes et les valeurs de dimension. Vous devez modifier les valeurs de délimiteur après la mise à niveau.
+title: Rendre unique le délimiteur du plan comptable
+description: Cet article explique que vous ne pouvez pas avoir le même séparateur pour le plan de comptes et les valeurs de dimension. Vous devez modifier les valeurs de délimiteur après la mise à niveau.
 author: panolte
 ms.date: 04/13/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6081a62077f1fc6b6920991ed6faae667c25a47c
-ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
+ms.openlocfilehash: aa0092f65461b6ebeea6649f48c0cf1c07cc936d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8573616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866252"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Rendre unique le délimiteur du plan de comptes
 

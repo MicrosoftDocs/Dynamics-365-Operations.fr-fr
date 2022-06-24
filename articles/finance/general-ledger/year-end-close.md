@@ -1,6 +1,6 @@
 ---
 title: Clôture de fin d’exercice
-description: Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d’exercice dans la comptabilité.
+description: Cet article décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d’exercice dans la comptabilité.
 author: kweekley
 ms.date: 12/06/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883211"
 ---
 # <a name="year-end-close"></a>Clôture de fin d’exercice
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d’exercice dans la comptabilité.
+Cet article décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d’exercice dans la comptabilité.
 
 À la fin d’un exercice, vous devez exécuter le processus de clôture de fin d’exercice pour transférer les soldes d’ouverture vers la nouvelle année. La plupart des organisations exécutent le processus de clôture de fin d’exercice plusieurs fois. La première exécution déplace les soldes dans le nouvel exercice comptable. Le processus peut être réexécuté autant que nécessaire pour déplacer les soldes des entrées d’ajustement vers le nouvel exercice.
 

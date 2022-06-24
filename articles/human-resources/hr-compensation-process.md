@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 228c891e8c29cf4309856b90139d0b88805a9812
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886158"
 ---
 # <a name="process-compensation"></a>Traiter la rémunération
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693862"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Le traitement de la rémunération vous permet de calculer les nouveaux montants de rémunération de vos employés en fonction des augmentations pour mérite, des cibles d’augmentation au mérite et des performances. Cette rubrique couvre le flux de base du traitement de la rémunération pour les régimes de rémunération fixe sans tenir compte des performances d’un employé.
+Le traitement de la rémunération vous permet de calculer les nouveaux montants de rémunération de vos employés en fonction des augmentations pour mérite, des cibles d’augmentation au mérite et des performances. Cet article couvre le flux de base du traitement de la rémunération pour les régimes de rémunération fixe sans tenir compte des performances d’un employé.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Organiser les nouveaux montants et budgets de rémunération
 Pour attribuer à vos employés une augmentation pour mérite, vous devez paramétrer un budget d’augmentation fixe pour chacun de vos services : **Gestion des rémunérations** > **Liens** > **Cibles d’augmentation au mérite**. (Sinon, vous pouvez ouvrir cette page via le département : **Organisation** > **Départements**.) Vous pouvez mieux spécifier si les employés d’un certain syndicat ou site doivent obtenir un pourcentage d’augmentation différent. Les champs **Budget** et **Devise** sont donnés à titre indicatif et peuvent servir à noter un montant en devise pour le budget.
@@ -41,7 +41,7 @@ L’événement de processus **Moment donné** est uniquement utilisée pour tra
 
 Une fois que les paramètres de l’événement des traitements de données ont été enregistrés, vous pouvez cliquer sur le bouton **Paramétrage** pour indiquer les régimes à inclure lorsque ce processus est exécuté et les actions de rémunération fixe à effectuer pour chaque régime.
 
-Cliquez sur le bouton **Ajouter** sous l’onglet **Régimes** pour ajouter un régime de rémunération à l’événement de processus. Les colonnes **Utiliser un autre chiffre**, **Facteur de chiffre** et **Description du chiffre** sont utilisées uniquement pour les régimes de rémunération variable et ne doivent pas être inclus dans cette rubrique.
+Cliquez sur le bouton **Ajouter** sous l’onglet **Régimes** pour ajouter un régime de rémunération à l’événement de processus. Les colonnes **Utiliser un autre chiffre**, **Facteur de chiffre** et **Description du chiffre** sont utilisées uniquement pour les régimes de rémunération variable et ne doivent pas être inclus dans cet article.
 
 Sauvegardez l’enregistrement, puis cliquez sur le bouton **Ajouter** sous l’onglet **Actions** pour ajouter des actions de rémunération fixe du régime sélectionné. Utilisez l’option **Activer les recommandations** pour entrer un montant différent de l’augmentation indicative calculée pour l’action. Pour calculer une action basée sur le résultat de l’action précédente pour lier plusieurs actions de compensation, cochez la case **Utiliser le résultat précédent**. Les actions de rémunération fixe sont des types de logique de rémunération auxquels vous pouvez donner des noms descriptifs. Pour les régimes **Niveau** et **Structure**, vous ne pouvez ajouter que les actions de rémunération fixe qui sont des types suivants :
 

@@ -1,6 +1,6 @@
 ---
 title: Résoudre les problèmes liés à la double écriture dans les applications Finance et Opérations
-description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module Double écriture dans les applications Finance et Opérations.
+description: Cet article fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module Double écriture dans les applications Finance et Opérations.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864570"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Résoudre les problèmes liés à la double écriture dans les applications Finance et Opérations
 
@@ -22,10 +22,10 @@ ms.locfileid: "8613880"
 
 
 
-Cette rubrique fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module **Double écriture** dans les applications Finance et Opérations.
+Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module **Double écriture** dans les applications Finance et Opérations.
 
 > [!IMPORTANT]
-> Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
+> Certains des problèmes abordés dans cet article peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Vous ne pouvez pas charger le module Double écriture dans une application Finance et Opérations
 

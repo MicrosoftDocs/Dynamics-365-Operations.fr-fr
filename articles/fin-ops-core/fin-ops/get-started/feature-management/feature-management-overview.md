@@ -1,6 +1,6 @@
 ---
-title: Vue d’ensemble de la gestion des fonctionnalités
-description: Cette rubrique décrit la Gestion des fonctionnalités et son utilisation.
+title: Vue d’ensemble de la gestion des fonctions
+description: Cet article décrit la Gestion des fonctionnalités et son utilisation.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,14 +15,14 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850049"
 ---
-# <a name="feature-management-overview"></a>Vue d’ensemble de la gestion des fonctionnalités
+# <a name="feature-management-overview"></a>Vue d’ensemble de la gestion des fonctions
 
 [!include [banner](../../includes/banner.md)]
 
@@ -41,7 +41,7 @@ La liste des fonctionnalités inclut les informations suivantes :
 - **Statut** – Un symbole indique si une fonctionnalité est activée (coche), est désactivée (vide), est planifiée pour être activée (horloge), ou est obligatoire (verrou), nécessite votre attention avant d’être activée (symbole d’avertissement) ou ne peut pas être activée (X). Le paramètre affiché est utilisé pour toutes les entités juridiques. Notez que même si une fonctionnalité a été activée, elle est toujours contrôlée par la sécurité. Par conséquent, la fonctionnalité est disponible uniquement aux utilisateurs qui ont accès à celle-ci selon leur rôle de sécurité. Elle n’est également disponible que dans les entités juridiques auxquelles l’utilisateur a accès.
 - **Activer la date** – Date à laquelle la fonctionnalité a été activée ou est planifiée pour être activée.
 - **Fonctionnalité ajoutée** – Date à laquelle la fonctionnalité a été ajoutée à votre environnement. Cette date est entrée automatiquement lorsque vous mettez votre environnement à jour lors des cycles de version mensuels.
-- **État de la fonctionnalité** – État actuel du cycle de vie de la fonctionnalité : **Évaluation**, **Lancé** (affiché comme vide), **Activé par défaut** et **Obligatoire**. Les états sont traités plus en détail plus loin dans cette rubrique. 
+- **État de la fonctionnalité** – État actuel du cycle de vie de la fonctionnalité : **Évaluation**, **Lancé** (affiché comme vide), **Activé par défaut** et **Obligatoire**. Les états sont traités plus en détail plus loin dans cet article. 
 - **Module** – Module affecté par la nouvelle fonctionnalité.
 
 > [!NOTE]
@@ -72,7 +72,7 @@ La colonne **État des fonctionnalités** pour ces fonctionnalités est vide. Le
 
 ### <a name="on-by-default-features-optional"></a>Fonctionnalités activées par défaut (facultatif)
 
-Les fonctionnalités mises à jour sur **Activé par défaut** sont activées par défaut, mais elles peuvent être désactivées. Une fois que les fonctionnalités qui peuvent être désactivées ont été associées à l’état **Lancé** pendant au moins six mois, elles doivent passer à cet état dans la prochaine version majeure. Les fonctionnalités qui passent à **Activé par défaut** doivent être répertoriées dans la rubrique [Nouveautés](../whats-new-changed.md) pour la version. La mise à jour est initiée par l’équipe produit propriétaire.
+Les fonctionnalités mises à jour sur **Activé par défaut** sont activées par défaut, mais elles peuvent être désactivées. Une fois que les fonctionnalités qui peuvent être désactivées ont été associées à l’état **Lancé** pendant au moins six mois, elles doivent passer à cet état dans la prochaine version majeure. Les fonctionnalités qui passent à **Activé par défaut** doivent être répertoriées dans l’article [Nouveautés](../whats-new-changed.md) pour la version. La mise à jour est initiée par l’équipe produit propriétaire.
 
 > [!NOTE]
 > Étant donné que ces fonctionnalités seront activées automatiquement, il est important que vous déterminiez si votre organisation est prête à utiliser ces fonctionnalités ou si plus de temps est nécessaire. Si plus de temps est requis, il peut être nécessaire de désactiver temporairement ces fonctionnalités. Notez que la transition d’une fonctionnalité vers **Activé par défaut** est généralement effectuée dans la version majeure avant que la fonctionnalité ne soit ciblée pour devenir **Obligatoire**. À ce stade, vous n’aurez pas la possibilité de désactiver la fonctionnalité. 

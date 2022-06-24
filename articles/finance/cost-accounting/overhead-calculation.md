@@ -1,6 +1,6 @@
 ---
 title: Calcul des frais généraux
-description: Cette rubrique décrit les processus habituels pour calculer et affecter des frais généraux.
+description: Cet article décrit les processus habituels pour calculer et affecter des frais généraux.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881989"
 ---
 # <a name="overhead-calculation"></a>Calcul des frais généraux
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les processus habituels pour calculer et affecter des frais généraux.
+Cet article décrit les processus habituels pour calculer et affecter des frais généraux.
 
 ## <a name="term-definition"></a>Définition des termes
 
@@ -1333,10 +1333,10 @@ Dans la comptabilité financière, un coût de 10 000,00 pour l’électricité
 10001 Électricité | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
 Non classifié | 0,00 |  |  |  |  |  |  |  |  |  |
 Coût fixe | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Coût variable | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+Coût variable | 000 | 0,00 | 0.00 | 0.00 | 0.00 | 30.00 | 10.00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> Cette rubrique explique comment un élément de coût principal, 10001 Électricité, alimente les objets de coût. Par conséquent, ce coût de frais généraux est affecté au plus bas niveau dans l’organisation. Autrement dit, les objets de coût de plus bas niveau supportent le coût. Pour obtenir un flux visuel du coût entre les objets de coût, vous pouvez utiliser les règles de stratégie de repositionnement des coûts de visualiser le flux de coûts. Pour plus d’informations, voir [Stratégie de repositionnement des coûts et calcul des frais généraux](cost-rollup.md)..
+> Cet article explique comment un élément de coût principal, 10001 Électricité, alimente les objets de coût. Par conséquent, ce coût de frais généraux est affecté au plus bas niveau dans l’organisation. Autrement dit, les objets de coût de plus bas niveau supportent le coût. Pour obtenir un flux visuel du coût entre les objets de coût, vous pouvez utiliser les règles de stratégie de repositionnement des coûts de visualiser le flux de coûts. Pour plus d’informations, voir [Stratégie de repositionnement des coûts et calcul des frais généraux](cost-rollup.md)..
 
 
 

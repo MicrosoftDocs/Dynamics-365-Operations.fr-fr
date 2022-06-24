@@ -1,6 +1,6 @@
 ---
 title: Modèle de données de calcul des taxes
-description: Cette rubrique fournit des informations sur le modèle de données fiscales et sur la manière dont les valeurs de champ de chaque modèle de données sont déterminées par le contexte des transactions de calcul de taxes.
+description: Cet article fournit des informations sur le modèle de données fiscales et sur la manière dont les valeurs de champ de chaque modèle de données sont déterminées par le contexte des transactions de calcul de taxes.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694254"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859693"
 ---
 # <a name="tax-calculation-data-model"></a>Modèle de données de calcul des taxes
 
-Cette rubrique fournit des informations sur les valeurs de champ du modèle de données fiscales sont déterminées dans le cadre des transactions de calcul de taxes.
+Cet article fournit des informations sur les valeurs de champ du modèle de données fiscales sont déterminées dans le cadre des transactions de calcul de taxes.
 
 Le *modèle de données fiscales* est composé de champs requis pour le calcul des taxes. Microsoft fournit le *modèle de données de calcul de taxes*, qui comprend les champs d’en-tête et les champs de ligne des documents de transaction dans les applications de finances et d’opérations. Les champs définis dans le modèle de données de calcul de taxes sont les colonnes disponibles des tables de règles d’applicabilité dans la configuration de la fonctionnalité de calcul de taxes.
 
@@ -99,7 +99,7 @@ Trente-deux modèles de données peuvent être inclus en tant que champs sur l�
 | Province/État de destination de l’expédition          | <ul><li>**Commande client :**<ol><li>En-tête &gt; Adresse de livraison &gt; État</li></ol></li><li>**Commande fournisseur :**<ol><li>En-tête &gt; Adresse de livraison &gt; État</li></ol></li><li>**Ordre de transfert – Expédition :**<ol><li>En-tête &gt; À l’entrepôt &gt; Adresse principale &gt; État</li><li>En-tête &gt; Au site &gt; Adresse principale &gt; État</li></ol></li><li>**Ordre de transfert - Réception :**<ol><li>En-tête &gt; À l’entrepôt &gt; Adresse principale &gt; État</li><li>En-tête &gt; Au site &gt; Adresse principale &gt; État</li></ol></li><li>**Appel d’offre :**<ol><li>En-tête &gt; Adresse de livraison &gt; État</li></ol></li><li>**Devis de vente :**<ol><li>En-tête &gt; Adresse de livraison &gt; État</li></ol></li><li>**Facture financière :**<ol><li>En-tête &gt; Compte client &gt; Adresse de livraison par défaut &gt; État</li><li>En-tête &gt; Compte client &gt; Adresse principale &gt; État</li></ol></li><li>**Journal (client) :**<ol><li>Compte client &gt; Adresse de livraison par défaut &gt; État</li><li>Compte client &gt; Adresse principale &gt; État</li></ol></li><li>**Journal (fournisseur) :**<ol><li>Entité juridique &gt; Adresse de livraison par défaut &gt; État</li><li>Entité juridique &gt; Adresse principale &gt; État</li></ol></li></ul> |
 | Code postal d’expédition                 | <ul><li>**Commande client :**<ol><li>En-tête &gt; Adresse de livraison &gt; Code postal</li></ol></li><li>**Commande fournisseur :**<ol><li>En-tête &gt; Adresse de livraison &gt; Code postal</li></ol></li><li>**Ordre de transfert – Expédition :**<ol><li>En-tête &gt; À l’entrepôt &gt; Adresse principale &gt; Code postal</li><li>En-tête &gt; Au site &gt; Adresse principale &gt; Code postal</li></ol></li><li>**Ordre de transfert - Réception :**<ol><li>En-tête &gt; À l’entrepôt &gt; Adresse principale &gt; Code postal</li><li>En-tête &gt; Au site &gt; Adresse principale &gt; Code postal</li></ol></li><li>**Appel d’offre :**<ol><li>En-tête &gt; Adresse de livraison &gt; Code postal</li></ol></li><li>**Devis de vente :**<ol><li>En-tête &gt; Adresse de livraison &gt; Code postal</li></ol></li><li>**Facture financière :**<ol><li>En-tête &gt; Compte client &gt; Adresse de livraison par défaut &gt; Code postal</li><li>En-tête &gt; Compte client &gt; Adresse principale &gt; Code postal</li></ol></li><li>**Journal (client) :**<ol><li>Compte client &gt; Adresse de livraison par défaut &gt; Code postal</li><li>Compte client &gt; Adresse principale &gt; Code postal</li></ol></li><li>**Journal (fournisseur) :**<ol><li>Entité juridique &gt; Adresse de livraison par défaut &gt; Code postal</li><li>Entité juridique &gt; Adresse principale &gt; Code postal</li></ol></li></ul> |
 | Site                             | <ul><li>**Commande client :** site</li><li>**Commande fournisseur :** site</li><li>**Ordre de transfert - Expédition :** site de l’entrepôt d’origine</li><li>**Ordre de transfert - Réception :** site de l’entrepôt de destination</li><li>**Appel d’offre :** site</li><li>**Devis de vente :** site</li></ul> |
-| Direction fiscale                    | <ul><li>**Commande client :** sortie</li><li>**Commande fournisseur :** entrée</li><li>**Ordre de transfert - Expédition :** sortie</li><li>**Ordre de transfert - Réception :** entrée</li><li>**Demande d’achat :** entrée</li><li>**Appel d’offre :** entrée</li><li>**Devis de vente :** sortie</li><li>**Facture financière :** Sortie</li></ul> |
+| Direction fiscale                    | <ul><li>**Commande client :** sortie</li><li>**Commande fournisseur :** entrée</li><li>**Ordre de transfert - Expédition :** sortie</li><li>**Ordre de transfert - Réception :** entrée</li><li>**Demande d’achat :** entrée</li><li>**Appel d’offre :** entrée</li><li>**Devis de vente :** sortie</li><li>**Facture financière :** Sortie</li><li>**Journal :** Sortie</li></ul> |
 | Compte fournisseur                   | <ul><li>**Commande fournisseur :** compte fournisseur</li><li>**Journal (fournisseur) :** Compte fournisseur</li></ul> |
 | Compte de facturation fournisseur           | <ul><li>**Commande fournisseur :** compte de facturation</li><li>**Journal (fournisseur) :**<ol><li>Maître fournisseur  &gt; Compte de facturation</li><li>Compte fournisseur</li></ol></li></ul> |
 | Entrepôt                        | <ul><li>**Commande client :** entrepôt</li><li>**Commande fournisseur :** entrepôt</li><li>**Ordre de transfert - Expédition :** entrepôt d’origine</li><li>**Ordre de transfert - Réception :** entrepôt de destination</li><li>**Appel d’offre :** entrepôt</li><li>**Devis de vente :** entrepôt</li></ul> |

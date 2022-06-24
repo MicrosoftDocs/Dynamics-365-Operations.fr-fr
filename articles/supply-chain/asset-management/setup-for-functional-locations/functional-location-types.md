@@ -1,6 +1,6 @@
 ---
-title: Types de postes techniques
-description: Cette rubrique décrit comment créer des types de postes techniques dans Gestion des actifs.
+title: Types de poste technique
+description: Cet article décrit comment créer des types de postes techniques dans Gestion des actifs.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879219"
 ---
-# <a name="functional-location-types"></a>Types de postes techniques
+# <a name="functional-location-types"></a>Types de poste technique
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Cette rubrique décrit comment créer des types de postes techniques dans Gestion des actifs. Les types de postes techniques permettent de gérer les besoins des postes techniques, notamment la manière dont les actifs sont installées à un poste technique. Vous pouvez paramétrer les types d’actifs, les plans de maintenance, les attributs de poste technique et la configuration requise de l’attribut d’actif à utiliser à un poste technique utilisant le type de poste technique spécifique. Lorsque vous créez un poste technique, le type de poste technique est obligatoire.
+Cet article décrit comment créer des types de postes techniques dans Gestion des actifs. Les types de postes techniques permettent de gérer les besoins des postes techniques, notamment la manière dont les actifs sont installées à un poste technique. Vous pouvez paramétrer les types d’actifs, les plans de maintenance, les attributs de poste technique et la configuration requise de l’attribut d’actif à utiliser à un poste technique utilisant le type de poste technique spécifique. Lorsque vous créez un poste technique, le type de poste technique est obligatoire.
 
 >[!NOTE] 
 >Pour utiliser des postes techniques, vous devez créer un poste technique par défaut à utiliser uniquement à des fins de création d’actifs. Pour ce poste technique par défaut, vous devez créer un type de poste technique par défaut qui est réellement simple et autorise l’installation de plusieurs actifs au poste technique par défaut. Voir [Créer des postes techniques](../functional-locations/create-functional-locations.md) pour plus d’informations sur la configuration de postes techniques.

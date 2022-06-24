@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9d937211c049b2ec4ac06ac6eddce7fd9bcb5b0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f4f06b7916fb2eeed802b2dce95edfce448dcd97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880843"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements.
+Cet article décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements.
 
-La fonctionnalité de registre vous permet d’utiliser un seul ensemble de pages, de demandes et de rapports pour tous les processus d’immobilisations de votre organisation. Les tableaux de cette rubrique décrivent la fonctionnalité précédente des registres d’amortissement et des modèles de valeur, ainsi que la fonctionnalité actuelle pour les registres.
+La fonctionnalité de registre vous permet d’utiliser un seul ensemble de pages, de demandes et de rapports pour tous les processus d’immobilisations de votre organisation. Les tableaux de cet article décrivent la fonctionnalité précédente des registres d’amortissement et des modèles de valeur, ainsi que la fonctionnalité actuelle pour les registres.
 
 ## <a name="setup"></a>Paramétrage
 Par défaut, les registres valident la comptabilité et la comptabilité auxiliaire d’immobilisation. Les registres ont une nouvelle option **Valider dans la comptabilité** qui permet de désactiver la validation dans la Comptabilité et la validation uniquement dans la Comptabilité auxiliaire d’immobilisation. Cette fonctionnalité est semblable au comportement de validation précédent pour les registres des amortissements. Le paramétrage des noms de journaux dispose d’une couche de validation qui est nommée Aucune. Cette couche de validation a été ajoutée spécifiquement pour les transactions d’immobilisation. Pour valider des transactions pour les registres qui ne valident pas dans la Comptabilité, vous devez utiliser un nom de journal dont la couche de validation est définie sur **Aucune**.

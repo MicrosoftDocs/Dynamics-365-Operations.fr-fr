@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (6 octobre 2020)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 6 octobre 2020.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 6 octobre 2020.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887716"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (6 octobre 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062977"
 
 
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
 Pour plus d’informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de la 2e vague de lancement Dynamics 365 Human Resources 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -48,9 +48,9 @@ La fonctionnalité suivante est mise à la disposition générale avec cette ver
 Les correctifs de bogues suivants sont compris dans cette version.
 
 >[!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il peut y avoir des mises à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il peut y avoir des mises à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème | Sortie | Description |
+| Numéro du problème | Problème | Description |
 | --- | --- | --- |
 | 448806 | **Type d’identification par défaut** s’exporte comme **RecID** dans les paramètres HCM | Cette modification de l’entité des paramètres Human Resources ajoute une colonne supplémentaire qui affiche le **Type d’identification par défaut**. |
 | 492923 | Les enregistrements de tâches ne sont pas enregistrés dans Lifecycle Services (LCS) | Les enregistrements de tâches peuvent maintenant être enregistrés dans LCS. |

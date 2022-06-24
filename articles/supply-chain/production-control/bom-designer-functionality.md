@@ -1,6 +1,6 @@
 ---
-title: Fonctionnalités du concepteur de nomenclatures
-description: Cette rubrique décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures.
+title: Fonctions du concepteur de nomenclatures
+description: Cet article décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c068e7f5f4f36663766e21e14cf8e75cf1442f50
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fda2b1d835afdcf06a50528748861fecc6792f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844205"
 ---
-# <a name="bom-designer-functionality"></a>Fonctionnalités du concepteur de nomenclatures
+# <a name="bom-designer-functionality"></a>Fonctions du concepteur de nomenclatures
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures. Vous pouvez cliquer sur Paramétrage pour sélectionner différentes configurations et spécifier les informations qui s’affichent dans les lignes de l’arborescence.
+Cet article décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures. Vous pouvez cliquer sur Paramétrage pour sélectionner différentes configurations et spécifier les informations qui s’affichent dans les lignes de l’arborescence.
 
 Lorsque vous ouvrez la page **Concepteur de nomenclatures** depuis la page **Produits lancés**, celle-ci affiche la hiérarchie des nomenclatures actives et approuvées pour l’article sélectionné, le site de commande par défaut de l’article et la date réelle.  
 

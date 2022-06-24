@@ -1,6 +1,6 @@
 ---
 title: Stockage des données âgées du client
-description: Cette rubrique décrit le processus d’utilisation du stockage externe pour les données d’ancienneté du client. Vous pouvez exécuter le processus de stockage des données d’ancienneté du client pour rendre la sortie disponible pour l’exportation vers un système externe.
+description: Cet article décrit le processus d’utilisation du stockage externe pour les données d’ancienneté du client. Vous pouvez exécuter le processus de stockage des données d’ancienneté du client pour rendre la sortie disponible pour l’exportation vers un système externe.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894140"
 ---
 # <a name="customer-aging-data-storage"></a>Stockage des données âgées du client
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le processus d’utilisation du stockage externe pour les données d’ancienneté du client. Dans Microsoft Dynamics 365 Finance, vous pouvez exécuter le processus de **stockage des données d’ancienneté du client** pour rendre la sortie disponible pour l’exportation vers un système externe. Lorsque vous exécutez le processus, les options de rapport d’ancienneté disponibles dans le système sont aussi disponibles pour les systèmes externes. Les détails sont toujours inclus dans les données exportées.
+Cet article décrit le processus d’utilisation du stockage externe pour les données d’ancienneté du client. Dans Microsoft Dynamics 365 Finance, vous pouvez exécuter le processus de **stockage des données d’ancienneté du client** pour rendre la sortie disponible pour l’exportation vers un système externe. Lorsque vous exécutez le processus, les options de rapport d’ancienneté disponibles dans le système sont aussi disponibles pour les systèmes externes. Les détails sont toujours inclus dans les données exportées.
 
 Il peut être utile de mettre les données d’ancienneté du client à la disposition d’un système externe à des fins de stockage dans les cas où la sortie contient de nombreux clients et/ou de nombreuses transactions. En cas d’expiration de la **Balance âgée des clients** en raison d’un trop grand nombre de données à imprimer, cette fonctionnalité offre un autre moyen d’obtenir les mêmes données.
 

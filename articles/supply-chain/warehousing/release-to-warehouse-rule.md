@@ -1,6 +1,6 @@
 ---
-title: Règle de lancement dans l’entrepôt
-description: Cette rubrique fournit des informations sur la fonctionnalité de règle de libération dans l’entrepôt, qui offre de la flexibilité lors de la libération dans l’entrepôt. Elle ajoute une option de configuration qui contrôle si le système autorise la libération des lignes de commande partiellement réservées.
+title: Règle de mise en production dans l’entrepôt
+description: Cet article fournit des informations sur la fonctionnalité de règle de libération dans l’entrepôt, qui offre de la flexibilité lors de la libération dans l’entrepôt. Elle ajoute une option de configuration qui contrôle si le système autorise la libération des lignes de commande partiellement réservées.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895465"
 ---
 # <a name="release-to-warehouse-rule"></a>Règle de lancement dans l’entrepôt
 
@@ -78,7 +78,7 @@ Vous pouvez également utiliser ces scénarios comme orientation pour utiliser l
 Ce scénario montre comment la fonctionnalité fonctionne pour les entrepôts définis sur **Exiger une réservation complète**.
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Entrepôt \> Emplacements fixes**.
-1. Pour l’entrepôt _62_, définissez le champ **Conditions requises pour la réservation de stock** sur **Exiger une réservation complète**, comme décrit dans la section [Définir la règle de libération dans l’entrepôt pour chaque entrepôt](#set-option-warehouse) plus haut dans cette rubrique.
+1. Pour l’entrepôt _62_, définissez le champ **Conditions requises pour la réservation de stock** sur **Exiger une réservation complète**, comme décrit dans la section [Définir la règle de libération dans l’entrepôt pour chaque entrepôt](#set-option-warehouse) plus haut dans cet article.
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Sélectionnez **Nouveau** pour créer une commande client.
 1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
@@ -112,7 +112,7 @@ Ce scénario montre comment la fonctionnalité fonctionne pour les entrepôts d�
 Ce scénario montre comment la fonctionnalité fonctionne pour les entrepôts définis sur **Autoriser la libération partielle**.
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Entrepôt \> Emplacements fixes**.
-1. Pour l’entrepôt _62_, définissez le champ **Conditions requises pour la réservation de stock** sur **Autoriser la libération partielle**, comme décrit dans la section [Définir la règle de libération dans l’entrepôt pour chaque entrepôt](#set-option-warehouse) plus haut dans cette rubrique.
+1. Pour l’entrepôt _62_, définissez le champ **Conditions requises pour la réservation de stock** sur **Autoriser la libération partielle**, comme décrit dans la section [Définir la règle de libération dans l’entrepôt pour chaque entrepôt](#set-option-warehouse) plus haut dans cet article.
 1. Comme vous l’avez fait dans le [scénario précédent](#scenario1), aller à **Ventes et marketing \> Commandes client \> Toutes les commandes client** et créez une commande client pour le compte client _US-004_ de l’entrepôt _62_. Ajoutez les deux lignes de commande suivantes :
 
     - **Ligne 1 :** Définissez le champ **Numéro d’article** sur _A0001_ et le champ **Quantité** sur _2_, et le champ **Unité** sur _Pcs_.

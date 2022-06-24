@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil de la fonctionnalité de budgétisation
-description: Cette rubrique fournit une vue d’ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d’états dans Microsoft Dynamics 365 Finance.
+description: Cet article fournit une vue d’ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d’états dans Microsoft Dynamics 365 Finance.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e5ef283991cb7ccb990d7d687ab3964040d03ba
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864395"
 ---
 # <a name="budgeting-home-page"></a>Page d’accueil de la fonctionnalité de budgétisation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d’états. 
+Cet article fournit une vue d’ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d’états. 
 
 ## <a name="components-of-budgeting-functionality"></a>Composants de la fonctionnalité de budgétisation
 

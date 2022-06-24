@@ -1,6 +1,6 @@
 ---
 title: Créer un groupe de variantes
-description: Cette rubrique décrit comment créer un groupe de variantes de taille, de style ou de couleur pour un produit dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit comment créer un groupe de variantes de taille, de style ou de couleur pour un produit dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a46dc9fd5cdb848818964e771d373924b217147a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874959"
 ---
 # <a name="create-a-variant-group"></a>Créer un groupe de variantes
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer un groupe de variantes de taille, de style ou de couleur pour un produit dans Microsoft Dynamics 365 Commerce.
+Cet article décrit comment créer un groupe de variantes de taille, de style ou de couleur pour un produit dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d’ensemble
 
 Dynamics 365 Commerce prend en charge plusieurs variantes pour les produits. Il est idéal de configurer des groupes de variantes pour différentes catégories de produits. Par exemple, un groupe de tailles peut être créé pour les t-shirts de tailles XS, S, M, L et XL, ou un groupe de couleurs peut être créé pour inclure toutes les couleurs disponibles d’un produit. Les groupes de variantes doivent être ajoutés avant l’ajout de produits.
 
-Dans cette rubrique, un groupe de tailles sera créé et configuré. Des procédures similaires peuvent être utilisées pour ajouter et configurer des groupes de styles et des groupes de couleurs.
+Dans cet article, un groupe de tailles sera créé et configuré. Des procédures similaires peuvent être utilisées pour ajouter et configurer des groupes de styles et des groupes de couleurs.
 
 ## <a name="create-a-size-group"></a>Créer un groupe de tailles
 

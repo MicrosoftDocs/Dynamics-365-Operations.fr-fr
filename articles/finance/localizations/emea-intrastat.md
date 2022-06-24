@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de déclaration d’échanges de biens
-description: Cette rubrique fournit des informations sur la génération d’états de déclaration d’échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l’Union européenne (UE).
+description: Cet article fournit des informations sur la génération d’états de déclaration d’échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l’Union européenne (UE).
 author: EvgenyPopovMBS
 ms.date: 01/13/2021
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97c2b4068f3b8d38281e637ec80f04b19d19be61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894778"
 ---
 # <a name="intrastat-overview"></a>Vue d’ensemble de déclaration d’échanges de biens
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la génération d’états de déclaration d’échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l’Union européenne (UE). Cette rubrique fournit également une vue d’ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises.
+Cet article fournit des informations sur la génération d’états de déclaration d’échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l’Union européenne (UE). Cet article fournit également une vue d’ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises.
 
 Intrastat est le système de collecte d’informations et de génération de statistiques sur le commerce de marchandises entre les pays/régions de l’Union européenne (UE). Une génération d’états Intrastat est requise chaque fois qu’un produit franchit la frontière d’un autre pays/région de l’Union Européenne. Dans plusieurs pays/régions, la génération d’états Intrastat s’applique également aux services. Les éléments obligatoires et facultatifs peuvent être collectés dans la génération d’états Intrastat. Les éléments suivants sont obligatoires : le numéro de taxe sur la valeur ajoutée (TVA) de la partie responsable de fournir les informations, la période de référence, le flux (arrivée ou expédition), le code marchandise à huit chiffres, l’état membre partenaire (état membre de provenance à l’arrivée et état membre de destination à l’expédition), la valeur des marchandises, la quantité des marchandises (masse nette et unité supplémentaire) et la nature de la transaction. Les pays/régions peuvent également recueillir des éléments facultatifs sous diverses conditions. Certains éléments facultatifs sont le pays/la région d’origine, les conditions de livraison, le mode de transport, un code marchandise plus détaillé que CN8, la région d’origine à l’expédition et la région de destination à l’arrivée, la procédure statistique, la valeur statistique, une description des marchandises, et le port/aéroport de chargement/déchargement.
 
@@ -152,7 +152,7 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 
 ### <a name="transaction-codes-and-miscellaneous-charges"></a><a name= "transaction-codes-and-miscellaneous-charges"></a>Codes de transaction et frais divers
 
-Cette rubrique présente un scénario dans lequel une société en Allemagne doit acheter des marchandises à une société en Italie. Pour effectuer cet achat, la société allemande doit configurer de nouveaux codes de transaction et configurer des règles de calcul pour le montant de la facture et le montant statistique pour ces codes de transaction. De plus, lorsque l’entreprise crée une facture, elle doit spécifier les frais divers et leurs pourcentages. Ces valeurs seront prises en compte lors du calcul de la valeur statistique.
+Cet article présente un scénario dans lequel une société en Allemagne doit acheter des marchandises à une société en Italie. Pour effectuer cet achat, la société allemande doit configurer de nouveaux codes de transaction et configurer des règles de calcul pour le montant de la facture et le montant statistique pour ces codes de transaction. De plus, lorsque l’entreprise crée une facture, elle doit spécifier les frais divers et leurs pourcentages. Ces valeurs seront prises en compte lors du calcul de la valeur statistique.
 
 Ce scénario utilise l’entité juridique **DEMF**.
 

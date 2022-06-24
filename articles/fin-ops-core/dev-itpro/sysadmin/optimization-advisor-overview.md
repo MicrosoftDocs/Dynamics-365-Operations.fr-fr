@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble du conseiller en optimisation
-description: Cette rubrique décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Finance and Operations.
+description: Cet article décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Finance et Opérations.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865859"
 ---
 # <a name="optimization-advisor-overview"></a>Vue d’ensemble du conseiller en optimisation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Finance and Operations.
+Cet article décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Finance et Opérations.
 
 ## <a name="overview"></a>Présentation
 

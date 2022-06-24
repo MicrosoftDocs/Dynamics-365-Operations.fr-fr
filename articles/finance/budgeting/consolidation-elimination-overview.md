@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la consolidation et de l’élimination
-description: Cette rubrique fournit des informations générales sur le processus de consolidation et d’élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment.
+description: Cet article fournit des informations générales sur le processus de consolidation et d’élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871389"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Vue d’ensemble de la consolidation et de l’élimination
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations générales sur le processus de consolidation et d’élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment.
+Cet article fournit des informations générales sur le processus de consolidation et d’élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment.
 
 Lorsque vous consolidez des données, les résultats financiers de plusieurs filiales sont combinés à ceux d’une seule société consolidée. Les filiales peuvent utiliser différentes versions ou différents systèmes, qu’elles ne possèdent peut-être pas entièrement, et peuvent utiliser des devises différentes. Il existe plusieurs options pour consolider les données :
 

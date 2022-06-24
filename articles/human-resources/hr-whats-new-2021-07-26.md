@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (26 juillet 2021)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 26 juillet 2021.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 26 juillet 2021.
 author: marcelbf
 ms.date: 07/12/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-26
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e124655ca96e34e53723ea2608227661034d58b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6c7211135733f45a9841ae5a80607b01999d7c69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870927"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-26-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (26 juillet 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources.
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Dynamics 365 Human Resources.
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème | Problème |  Description  |
+| Numéro du problème | Problème |  Description |
 | --- | --- | --- |
 | 600422 | Échec de la validation de l’adresse de paie pour Prêt à payer. | La validation a été mise à jour pour n’exiger qu’une seule adresse de type « Lieu de résidence de la paie » et une seule adresse de type « Lieu de travail de la paie ». |
 | 601226 | Problème d’intégration des données : le projet d’exportation d’intégration de la paie n’inclut pas l’option de transmission de type push complète | L’intégration de la paie à Ceridian DayForce effectuait une transmission de type push incrémentielle et non de type push complète. Ceridian requiert toujours une actualisation complète. Ce problème est désormais résolu, les entités du projet d’exportation de données ne basculeront plus vers une transmission de type push incrémentielle. |

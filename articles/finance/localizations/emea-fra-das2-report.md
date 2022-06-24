@@ -1,6 +1,6 @@
 ---
 title: État DAS-2
-description: Cette rubrique décrit le processus de génération du fichier d’audit standard pour la France (FEC) dans Microsoft Dynamics 365 Finance.
+description: Cet article décrit le processus de génération du fichier d’audit standard pour la France (FEC) dans Microsoft Dynamics 365 Finance.
 author: sndray
 ms.date: 12/20/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7c7b8b01a9d74ed6c9a53ee78cc303e0359c41c
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: ed883cf63f930e5193e52a1ab18350c7648740e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853176"
 ---
 # <a name="das-2-report"></a>État DAS-2
 

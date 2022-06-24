@@ -1,6 +1,6 @@
 ---
 title: Type de destination pour l’envoi d’états électroniques par e-mail
-description: Cette rubrique explique comment configurer une destination d’e-mail pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
+description: Cet article explique comment configurer une destination d’e-mail pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324006"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845655"
 ---
 # <a name="email-er-destination-type"></a>Type de destination pour l’envoi d’états électroniques par e-mail
 
@@ -49,26 +49,26 @@ Pour envoyer un ou plusieurs fichiers de sortie par e-mail, procédez comme suit
 1. Sur la page **Destination de la gestion des états électroniques**, dans le raccourci **Destination du fichier**, sélectionnez un composant ou un groupe de composants dans la grille.
 2. Sélectionnez **Paramètres**, puis, dans la boîte de dialogue **Paramètres de destination**, dans l’onglet **E-mail**, définissez l’option **Activé** sur **Oui**.
 
-[![Définition de l’option Activé sur Oui pour une destination d'e-mail.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![Définition de l’option Activé sur Oui pour une destination d’e-mail.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="configure-an-email-destination"></a>Configurer une destination d’e-mail
 
-### <a name="email-content"></a>Contenu de l'e-mail
+### <a name="email-content"></a>Contenu de l’e-mail
 
-Vous pouvez modifier l'objet et le corps du message électronique.
+Vous pouvez modifier l’objet et le corps du message électronique.
 
-Dans le champ **Objet**, saisissez le texte de l'objet de l'e-mail qui doit apparaître dans le champ objet d'un message électronique généré lors de l'exécution. Dans le champ **Corps**, saisissez le texte du corps de l'e-mail qui doit apparaître dans le champ corps d'un message électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de gestion des états électroniques pour créer dynamiquement le texte du courrier électronique lors de l'exécution. La formule configurée doit renvoyer une valeur de type [Chaîne](er-formula-supported-data-types-primitive.md#string).
+Dans le champ **Objet**, saisissez le texte de l’objet de l’e-mail qui doit apparaître dans le champ objet d’un message électronique généré lors de l’exécution. Dans le champ **Corps**, saisissez le texte du corps de l’e-mail qui doit apparaître dans le champ corps d’un message électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de gestion des états électroniques pour créer dynamiquement le texte du courrier électronique lors de l’exécution. La formule configurée doit renvoyer une valeur de type [Chaîne](er-formula-supported-data-types-primitive.md#string).
 
 Le corps de votre email est composé au format TEXTE ou HTML, selon le client de messagerie. Vous pouvez utiliser n’importe quelle mise en page, style et image de marque pris en charge par le format HTML et les feuilles de style en cascade en ligne (CSS).
 
 > [!NOTE]
 > Les clients de messagerie imposent des restrictions de mise en page et de style qui pourraient nécessiter des ajustements du HTML et du CSS que vous utilisez pour le corps du message. Nous vous recommandons de vous familiariser avec les meilleures pratiques de création de code HTML que les clients de messagerie les plus populaires prendront en charge.
 >
-> Utilisez le codage correct pour implémenter un retour chariot, en fonction de la mise en forme du corps. Pour plus d'informations, voir la définition du type de données [Chaîne](er-formula-supported-data-types-primitive.md#string).
+> Utilisez le codage correct pour implémenter un retour chariot, en fonction de la mise en forme du corps. Pour plus d’informations, voir la définition du type de données [Chaîne](er-formula-supported-data-types-primitive.md#string).
 
 ### <a name="email-addresses"></a>Adresses e-mail
 
-Vous pouvez spécifier l’expéditeur et les destinataires de l’e-mail. Par défaut, l'e-mail est envoyé au nom de l’utilisateur actuel. Pour spécifier un autre expéditeur d’e-mail, vous devez configurer le champ **De**.
+Vous pouvez spécifier l’expéditeur et les destinataires de l’e-mail. Par défaut, l’e-mail est envoyé au nom de l’utilisateur actuel. Pour spécifier un autre expéditeur d’e-mail, vous devez configurer le champ **De**.
 
 > [!NOTE]
 > Lorsqu’une destination de courrier électronique est configurée, le champ **De** n’est visible que pour les utilisateurs qui ont le privilège de sécurité `ERFormatDestinationSenderEmailConfigure` **Configurer l’adresse e-mail de l’expéditeur pour les destinations au format ER**.
@@ -89,7 +89,7 @@ Si vous sélectionnez **Modifier** à côté du champ **De**, **À** ou **Cc** d
 
 [![Sélection du type d’adresse e-mail.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
-### <a name="print-management-email"></a>E-mail de gestion de l'impression
+### <a name="print-management-email"></a>E-mail de gestion de l’impression
 
 Si vous sélectionnez **E-mail de gestion de l’impression** comme type d’adresse e-mail, vous pouvez saisir des adresses e-mail fixes dans la boîte de dialogue **E-mail de**, **E-mail à** ou **Copie de l’e-mail** en définissant les champs suivants :
 
@@ -162,13 +162,13 @@ L’illustration suivante montre la structure d’un format ER qui a été confi
 
 [![Structure d’un format ER qui génère des documents sortants.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-L’illustration suivante montre le processus, comme décrit dans cette rubrique, de regroupement de composants individuels et d’activation de la destination de l’**E-mail** du nouveau groupe, afin qu’une note de lettre de recouvrement soit envoyée avec les factures client appropriées sous forme de pièces jointes à un e-mail.
+L’illustration suivante montre le processus, comme décrit dans cet article, de regroupement de composants individuels et d’activation de la destination de l’**E-mail** du nouveau groupe, afin qu’une note de lettre de recouvrement soit envoyée avec les factures client appropriées sous forme de pièces jointes à un e-mail.
 
 [![Regrouper des composants individuels et activer la destination de l’e-mail.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+- [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Concepteur de formule dans les états électroniques (ER)](general-electronic-reporting-formula-designer.md)
 

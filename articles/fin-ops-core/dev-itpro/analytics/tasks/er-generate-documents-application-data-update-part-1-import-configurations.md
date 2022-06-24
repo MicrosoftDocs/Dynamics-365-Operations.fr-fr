@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884139"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Importer des configurations pour générer des documents avec des données d’application
 
@@ -25,7 +25,7 @@ ms.locfileid: "6727483"
 
 Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Créer un fournisseur de configuration et le marquer comme actif ».
 
-Les étapes de cette procédure expliquent comment créer des configurations ER pour générer un document électronique. Dans cette procédure, vous importerez les configurations ER requises qui ont été créées pour la société fictive, Litware, Inc., puis les utiliserez pour générer des documents électroniques. Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d’états électroniques a été affecté. Ces étapes peuvent être effectuées à l’aide de l’ensemble de données DEMF. Avant de commencer, téléchargez et enregistrez les fichiers répertoriés dans la rubrique d’aide, « Générer des documents électroniques et mettre à jour les données d’application à l’aide de l’outil de gestion des états électroniques » (generate-electronic-documents-update-application-data/). Les fichiers sont Déclaration d’échanges de biens (modèle).xml, Déclaration d’échanges de biens (mise en correspondance).xml et Déclaration d’échanges de biens (format).xml.
+Les étapes de cette procédure expliquent comment créer des configurations ER pour générer un document électronique. Dans cette procédure, vous importerez les configurations ER requises qui ont été créées pour la société fictive, Litware, Inc., puis les utiliserez pour générer des documents électroniques. Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d’états électroniques a été affecté. Ces étapes peuvent être effectuées à l’aide de l’ensemble de données DEMF. Avant de commencer, téléchargez et enregistrez les fichiers répertoriés dans l’article d’aide, « Générer des documents électroniques et mettre à jour les données d’application à l’aide de l’outil de gestion des états électroniques » (generate-electronic-documents-update-application-data/). Les fichiers sont Déclaration d’échanges de biens (modèle).xml, Déclaration d’échanges de biens (mise en correspondance).xml et Déclaration d’échanges de biens (format).xml.
 
 1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme actif. Si ce fournisseur de configuration ne s’affiche pas, effectuez les étapes de la procédure, Créer un fournisseur de configuration et le marquer comme actif.  

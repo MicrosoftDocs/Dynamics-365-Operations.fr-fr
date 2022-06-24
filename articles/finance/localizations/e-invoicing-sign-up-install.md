@@ -1,6 +1,6 @@
 ---
 title: S’inscrire et installer le service de facturation électronique
-description: Cette rubrique fournit des informations sur la façon de s’inscrire et d’installer le service de facturation électronique.
+description: Cet article fournit des informations sur la façon de s’inscrire et d’installer le service de facturation électronique.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ab16652e4a50dd71a5d0b2b49b4dd79e327f7a8
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865524"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>S’inscrire et installer le service de facturation électronique
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la façon de s’inscrire et d’installer le service de facturation électronique. Il y a quatre étapes à ce processus. Les étapes 1 à 3 sont obligatoires et l’étape 4 est facultative.
+Cet article fournit des informations sur la façon de s’inscrire et d’installer le service de facturation électronique. Il y a quatre étapes à ce processus. Les étapes 1 à 3 sont obligatoires et l’étape 4 est facultative.
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>Étape 1 : S’inscrire à Regulatory Configuration Service
 
 Regulatory Configuration Service (RCS) offre la configuration et l’expérience de design utilisée pour configurer le module complémentaire de facturation électronique. Des ressources telles que des environnements et des fonctionnalités de facturation électronique sont créées, gérées et hébergées dans RCS. Lorsque les ressources sont prêtes, elles sont publiées dans le service de Facturation électronique.
 
-Pour plus d’informations sur RCS, voir [Regulatory Configuration Services (RCS) –  Fonctionnalités de globalisation](rcs-globalization-feature.md).
+Pour plus d’informations sur RCS, voir [Regulatory Configuration Services (RCS) – Fonctionnalités de globalisation](rcs-globalization-feature.md).
 
 Pour s’inscrire à RCS, accédez à la page [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/).
 

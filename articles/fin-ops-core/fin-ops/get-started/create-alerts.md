@@ -1,6 +1,6 @@
 ---
 title: Créer des règles d’alerte
-description: Cette rubrique fournit des informations sur les alertes et explique comment créer une règle d’alerte.
+description: Cet article fournit des informations sur les alertes et explique comment créer une règle d’alerte.
 author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853615"
 ---
 # <a name="create-alert-rules"></a>Créer des règles d’alerte
 
@@ -75,7 +75,7 @@ Dans l’organisateur **Alertez-moi avec** de la boîte de dialogue **Créer une
 
 ## <a name="alerts-as-business-events"></a>Alertes en tant qu’événements commerciaux
 
-Vous pouvez envoyer des alertes en externe à l’aide de la structure des événements commerciaux. Lors de la création d’une alerte, définissez **À l’échelle de l’organisation** sur **Non** et définissez **Envoyer en externe** sur **Oui**. Une fois que l’alerte déclenche l’événement commercial, vous pouvez déclencher un flux intégré dans Power Automate en utilisant le déclencheur **Quand un événement commercial se produit** sur le connecteur Finance and Operations, ou envoyer explicitement l’événement à un point de terminaison d’événements commerciaux via le **Catalogue des événements commerciaux**.
+Vous pouvez envoyer des alertes en externe à l’aide de la structure des événements commerciaux. Lors de la création d’une alerte, définissez **À l’échelle de l’organisation** sur **Non** et définissez **Envoyer en externe** sur **Oui**. Une fois que l’alerte déclenche l’événement commercial, vous pouvez déclencher un flux intégré dans Power Automate en utilisant le déclencheur **Quand un événement commercial se produit** sur le connecteur de finances et d’opérations ou envoyer explicitement l’événement à un point de terminaison d’événements commerciaux via le **Catalogue des événements commerciaux**.
 
 ## <a name="create-an-alert-rule"></a>Créer une règle d’alerte
 

@@ -1,6 +1,6 @@
 ---
 title: Programme d’approvisionnement
-description: Cette rubrique fournit des informations sur la page Programme d’approvisionnement et ses fonctionnalités.
+description: Cet article fournit des informations sur la page Programme d’approvisionnement et ses fonctionnalités.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851737"
 ---
 # <a name="supply-schedule"></a>Programme d’approvisionnement
 
@@ -28,7 +28,7 @@ La page **Programme d’approvisionnement** affiche un aperçu complet de l’of
 
 Vous pouvez ouvrir la page **Programme d’approvisionnement** de l’une des manières suivantes :
 
-- Accédez à **Planification \> Planification \> Programme d’approvisionnement**. Dans la boîte de dialogue **Modifier le filtre**, spécifiez le plan et le produit que vous recherchez en entrant des valeurs de filtre dans les champs fournis. (Dans le reste de cette rubrique, la collection de valeurs de filtre que vous entrez est appelée « le filtre » ou « le filtre actuel ».) Lorsque vous avez terminé, sélectionnez **OK**.
+- Accédez à **Planification \> Planification \> Programme d’approvisionnement**. Dans la boîte de dialogue **Modifier le filtre**, spécifiez le plan et le produit que vous recherchez en entrant des valeurs de filtre dans les champs fournis. (Dans le reste de cet article, la collection de valeurs de filtre que vous entrez est appelée « le filtre » ou « le filtre actuel ».) Lorsque vous avez terminé, sélectionnez **OK**.
 - Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**. Sélectionnez ou ouvrez un produit. Ensuite, dans le volet Actions, sous l’onglet **Plan**, dans le groupe **Vue**, sélectionnez **Programme d’approvisionnement**.
 - Accédez à **Planification \> Installer \> Prévision de la demande \> Clés de répartition par article**. Sélectionnez une clé de répartition par article qui est utilisée comme famille de produits. Puis, dans le volet Actions, sélectionnez **Programme d’approvisionnement**.
 - Accédez à **Planification \> Planification \> Ordres prévisionnels**. Sélectionnez ou ouvrez un ordre prévisionnel. Ensuite, dans le volet Actions, sous l’onglet **Vue**, dans le groupe **Vue**, sélectionnez **Programme d’approvisionnement**.

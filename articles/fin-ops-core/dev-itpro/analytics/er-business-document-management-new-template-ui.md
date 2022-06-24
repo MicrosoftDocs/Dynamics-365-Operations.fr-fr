@@ -1,6 +1,6 @@
 ---
 title: Interface utilisateur de style Microsoft Office dans la gestion des documents commerciaux (contient une vidéo)
-description: Cette rubrique explique comment utiliser la nouvelle interface utilisateur dans la fonctionnalité de gestion des documents commerciaux de l’infrastructure de gestion des états électroniques (ER).
+description: Cet article explique comment utiliser la nouvelle interface utilisateur dans la fonctionnalité de gestion des documents commerciaux de l’infrastructure de gestion des états électroniques (ER).
 author: v-anamir
 ms.date: 01/05/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892223"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Interface utilisateur de style Microsoft Office dans la gestion des documents commerciaux
 
@@ -28,11 +28,11 @@ ms.locfileid: "8074739"
 
 La gestion de document commercial permet aux utilisateurs d’entreprise de modifier des modèles de documents commerciaux à l’aide d’un service Microsoft Office 365 ou de l’application de bureau Microsoft Office appropriée. Les modifications peuvent inclure des modifications de conception ou de nouveaux déploiements, ou les utilisateurs peuvent ajouter des espaces réservés pour inclure des données supplémentaires sans avoir à modifier le code source. Pour plus d’informations sur l’utilisation de la gestion des documents commerciaux, consultez [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md).
 
-La nouvelle interface utilisateur (UI) est plus claire et plus confortable à utiliser. La zone **Document commercial** affiche uniquement les modèles appartenant au [fournisseur](tasks/er-configuration-provider-mark-it-active-2016-11.md) [ actif](general-electronic-reporting.md#Provider) actuel et situé dans l’instance actuelle de Dynamics 365 Finance. Dans l’interface utilisateur précédente, l’onglet **Modèle** répertoriait tous les modèles disponibles pour tout fournisseur. Elle présentait également tous les modèles créés et modifiés par tous les utilisateurs ayant le même rôle.
+La nouvelle interface utilisateur (UI) est plus claire et plus confortable à utiliser. La zone **Document commercial** affiche uniquement les modèles appartenant au [fournisseur](tasks/er-configuration-provider-mark-it-active-2016-11.md) [actif](general-electronic-reporting.md#Provider) actuel et situé dans l’instance actuelle de Dynamics 365 Finance. Dans l’interface utilisateur précédente, l’onglet **Modèle** répertoriait tous les modèles disponibles pour tout fournisseur. Elle présentait également tous les modèles créés et modifiés par tous les utilisateurs ayant le même rôle.
 
 Vous pouvez utiliser le bouton **Nouveau document** dans l’espace de travail **Gestion des documents commerciaux** pour créer et modifier un modèle dans une [configuration](general-electronic-reporting.md#Configuration) du format de [gestion des états électroniques](general-electronic-reporting.md) fournie par un autre fournisseur et située dans l’instance Finance actuelle ou pour importer un nouveau modèle depuis un classeur Excel. De plus, dans la version 10.0.25 et les versions ultérieures, vous pouvez utiliser le bouton **Nouveau document** pour créer et modifier un modèle dans une configuration au format de gestion des états électroniques stockée dans le [référentiel mondial](general-electronic-reporting.md#Repository).
 
-Dans les exemples de cette rubrique, le fournisseur actif est Contoso et vous l’utilisez pour créer un modèle basé sur un modèle fourni par Microsoft. Vous pouvez également créer un modèle en chargeant votre propre modèle au format Excel.
+Dans les exemples de cet article, le fournisseur actif est Contoso et vous l’utilisez pour créer un modèle basé sur un modèle fourni par Microsoft. Vous pouvez également créer un modèle en chargeant votre propre modèle au format Excel.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 

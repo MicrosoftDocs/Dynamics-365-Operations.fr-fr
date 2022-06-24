@@ -1,6 +1,6 @@
 ---
 title: Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un registre de factures
-description: Cette rubrique décrit comment utiliser le registre des factures pour créer des factures.
+description: Cet article décrit comment utiliser le registre des factures pour créer des factures.
 author: abruer
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf781089469f87dc0a98279003c94fd1e8bf9dbe
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: fc3f1107a9564120aae77a75e6232879bf3c51af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858423"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un registre de factures
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser le registre des factures pour créer des factures. Utilisez ensuite le regroupement de factures pour mettre en correspondance la facture avec une commande fournisseur et finalisez la dépense dans la page de facture fournisseur.
+Cet article décrit comment utiliser le registre des factures pour créer des factures. Utilisez ensuite le regroupement de factures pour mettre en correspondance la facture avec une commande fournisseur et finalisez la dépense dans la page de facture fournisseur.
 
 
 ## <a name="create-a-purchase-order"></a>Créer une commande fournisseur

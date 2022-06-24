@@ -1,6 +1,6 @@
 ---
 title: Validation de la commande fournisseur
-description: Cette rubrique décrit l’onglet Bon de commande de la page Profils de validation de stock.
+description: Cet article décrit l’onglet Bon de commande de la page Profils de validation de stock.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 4b36ab9da22da7d4f3e62bd2d2aba2a2ec80e60f
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8803000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849929"
 ---
 # <a name="purchase-order-posting"></a>Validation de la commande fournisseur
 
@@ -125,7 +125,7 @@ Les demandes d’achat et les confirmations de commande fournisseur peuvent éga
 
 ## <a name="procurement-category-posting"></a>Validation de catégorie d’approvisionnement
 
-Au lieu de configurer la validation de stock pour tous les articles, un groupe d’articles ou un seul article, vous pouvez configurer des catégories et contrôler la validation de la comptabilité par catégories d’approvisionnement. Pour plus d’informations sur la configuration des catégories et leur affectation aux produits, consultez [Exemple de configuration de profil de validation](#sample-posting-profile-configuration) plus haut dans cette rubrique.
+Au lieu de configurer la validation de stock pour tous les articles, un groupe d’articles ou un seul article, vous pouvez configurer des catégories et contrôler la validation de la comptabilité par catégories d’approvisionnement. Pour plus d’informations sur la configuration des catégories et leur affectation aux produits, consultez [Exemple de configuration de profil de validation](#sample-posting-profile-configuration) plus haut dans cet article.
 
 Lorsque vous utilisez des catégories avec des bons de commande ou des factures fournisseur, la hiérarchie des catégories doit être affectée au type **Hiérarchie des catégories d’approvisionnement** sur la page **Attributions de rôles dans la hiérarchie des catégories**.
 

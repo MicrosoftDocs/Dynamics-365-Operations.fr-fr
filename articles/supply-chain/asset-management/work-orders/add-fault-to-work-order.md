@@ -1,6 +1,6 @@
 ---
-title: Ajouter une défaillance à un bon de travail
-description: Cette rubrique décrit comment ajouter des enregistrements de défaillance aux ordres de travail dans le module Gestion des actifs.
+title: Ajoutez une erreur à l’ordre de travail
+description: Cet article décrit comment ajouter des enregistrements de défaillance aux ordres de travail dans le module Gestion des actifs.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857893"
 ---
 # <a name="add-fault-to-work-order"></a>Ajoutez une erreur à l’ordre de travail
 

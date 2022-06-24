@@ -1,6 +1,6 @@
 ---
-title: Suivre les résultats de rapport généré et les comparer avec des valeurs de base
-description: Cette rubrique explique comment comparer les résultats des états ER générés avec des valeurs d’état de référence.
+title: Suivre les résultats de l’état généré et les comparer aux valeurs de base
+description: Cet article explique comment comparer les résultats des états ER générés avec des valeurs d’état de référence.
 author: NickSelin
 ms.date: 06/17/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 168060f6dee7420a496e06cc3a85f5b10239c2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847370"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Suivre les résultats de rapport généré et les comparer avec des valeurs de base
 
@@ -128,7 +128,7 @@ Pour cet exemple, vous allez créer un format ER simple pour générer des docum
     2. Dans le champ **Nom**, entrez **Identifiant**.
     3. Cliquez sur **OK**.
 
-    ![Page du concepteur de format, attribut XML sélectionné dans l'arborescence.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Capture d’écran de la page Concepteur de format")
+    ![Page du concepteur de format, attribut XML sélectionné dans l’arborescence.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Capture d’écran de la page Concepteur de format")
 
 9. Dans l’onglet **Mise en correspondance**, sélectionnez **Supprimer**.
 10. Sélectionnez **Ajoutez racine**.
@@ -212,7 +212,7 @@ La base de référence est ajoutée au format **Format pour l’apprentissage de
 5. Cliquez sur **OK**.
 6. Accédez à **Administration d’organisation** \> **États électroniques** \> **Journaux de débogage des configurations**.
 
-    ![Page des journaux d'exécution de rapports électroniques, avec des lignes de base égales.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Capture d’écran de la page Journaux d’exécution de la gestion des états électroniques")
+    ![Page des journaux d’exécution de rapports électroniques, avec des lignes de base égales.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Capture d’écran de la page Journaux d’exécution de la gestion des états électroniques")
 
     > [!NOTE]
     > Le journal d’exécution contient des informations sur le résultat de la comparaison du fichier généré avec la base de référence configurée. Dans cet exemple, le journal indique que le fichier généré et la base de référence sont égaux.
@@ -228,7 +228,7 @@ La base de référence est ajoutée au format **Format pour l’apprentissage de
 5. Cliquez sur **OK**.
 6. Accédez à **Administration d’organisation** \> **États électroniques** \> **Journaux de débogage des configurations**.
 
-    ![Page des journaux d'exécution de rapports électroniques, avec des lignes de base différentes.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Capture d’écran de la page Journaux d’exécution de la gestion des états électroniques")
+    ![Page des journaux d’exécution de rapports électroniques, avec des lignes de base différentes.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Capture d’écran de la page Journaux d’exécution de la gestion des états électroniques")
 
     > [!NOTE]
     > Le journal d’exécution contient des informations sur le résultat de la comparaison du fichier généré avec la base de référence configurée. Dans cet exemple, le journal indique que le fichier généré et la base de référence sont différents.

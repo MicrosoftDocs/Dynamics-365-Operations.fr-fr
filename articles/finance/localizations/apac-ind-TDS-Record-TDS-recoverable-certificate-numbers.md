@@ -1,6 +1,6 @@
 ---
 title: Enregistrer les numéros de certificat récupérables
-description: Cette rubrique explique comment utiliser la page Certificats récupérables pour enregistrer les numéros de certificat et les dates des certificats TDS (Tax Deduced at Source) reçus pour un fournisseur, un client ou un compte général spécifique.
+description: Cet article explique comment utiliser la page Certificats récupérables pour enregistrer les numéros de certificat et les dates des certificats TDS (Tax Deduced at Source) reçus pour un fournisseur, un client ou un compte général spécifique.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 513412e292167795fad9d80b68e6e5e14dbd13c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853254"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Enregistrer les numéros de certificat récupérables
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment utiliser la page **Certificats récupérables** pour enregistrer les numéros de certificat et les dates des certificats TDS (Tax Deduced at Source) reçus pour un fournisseur, un client ou un compte général spécifique. Pour mettre à jour les numéros et dates de certificat TDS enregistrés pour les transactions TDS sur cette page, utilisez la page **Mettre à jour le certificat** (**Comptabilité \> Périodique \> Retenue à la source \> Mettre à jour le certificat**). Une fois la mise à jour des numéros de certificat TDS terminée, fermez-les.
+Cet article explique comment utiliser la page **Certificats récupérables** pour enregistrer les numéros de certificat et les dates des certificats TDS (Tax Deduced at Source) reçus pour un fournisseur, un client ou un compte général spécifique. Pour mettre à jour les numéros et dates de certificat TDS enregistrés pour les transactions TDS sur cette page, utilisez la page **Mettre à jour le certificat** (**Comptabilité \> Périodique \> Retenue à la source \> Mettre à jour le certificat**). Une fois la mise à jour des numéros de certificat TDS terminée, fermez-les.
 
 Suivez ces étapes pour enregistrer les numéros et les dates des certificats TDS.
 
@@ -41,7 +41,7 @@ Suivez ces étapes pour enregistrer les numéros et les dates des certificats TD
 6. Dans le champ **Compte**, sélectionnez le numéro de compte fournisseur, compte client ou compte général, selon le type de compte que vous avez sélectionné. Le champ **Nom** affiche le nom du fournisseur, du client ou du compte général.
 7. Dans le champ **Montant du certificat**, entrez le montant du certificat TDS.
 8. Dans le champ **Date**, saisissez la date du certificat pour le numéro de certificat.
-9. Sélectionnez **Demandes de renseignements** pour ouvrir la page **Transactions de certificat**, dans laquelle vous pouvez afficher les transactions TDS pour lesquelles le numéro et la date du certificat TDS sont mis à jour. Ces informations peuvent être mises à jour sur la page **Mettre à jour le certificat** (**Impôt \> Déclarations \> Retenue d'impôt \> Mettre à jour le certificat**).
+9. Sélectionnez **Demandes de renseignements** pour ouvrir la page **Transactions de certificat**, dans laquelle vous pouvez afficher les transactions TDS pour lesquelles le numéro et la date du certificat TDS sont mis à jour. Ces informations peuvent être mises à jour sur la page **Mettre à jour le certificat** (**Impôt \> Déclarations \> Retenue d’impôt \> Mettre à jour le certificat**).
 
     La page **Mettre à jour le certificat** affiche les informations suivantes pour chaque transaction TDS :
 

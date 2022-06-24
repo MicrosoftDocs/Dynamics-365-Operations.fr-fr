@@ -1,6 +1,6 @@
 ---
 title: Fonctionnalité de caisse enregistreuse pour la France
-description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
+description: Cet article fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
 manager: annbe
 ms.date: 05/17/2022
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 9436e1fe120eafe62bdd1e9b9df654fc0abd4e6f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 6656194f84a95fb8163b6793b453ead10a7f959e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885423"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France dans Microsoft Dynamics 365 Commerce. Elle fournit également des instructions pour paramétrer la fonctionnalité.
+Cet article fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France dans Microsoft Dynamics 365 Commerce. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 
 La fonctionnalité de caisse enregistreuse pour la France est constituée des éléments suivants :
 

@@ -1,6 +1,6 @@
 ---
 title: Contrepasser la validation du journal
-description: Cette rubrique décrit les fonctionnalités qui vous permettent de contrepasser les documents provenant de la liste de transaction de documents ou provenant des journaux financiers.
+description: Cet article décrit les fonctionnalités qui vous permettent de contrepasser les documents provenant de la liste de transaction de documents ou provenant des journaux financiers.
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868400"
 ---
 # <a name="reverse-journal-posting"></a>Contrepasser la validation du journal
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités Microsoft Dynamics 365 Finance qui vous permettent de contrepasser un journal entier, ou de contrepasser un ou plusieurs documents provenant de la liste de transactions de documents, peu importe leur origine. 
+Cet article décrit les fonctionnalités Microsoft Dynamics 365 Finance qui vous permettent de contrepasser un journal entier, ou de contrepasser un ou plusieurs documents provenant de la liste de transactions de documents, peu importe leur origine. 
 
-Avant de pouvoir utiliser une des fonctionnalités décrites dans cette rubrique, vous devez l’activer dans votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+Avant de pouvoir utiliser une des fonctionnalités décrites dans cet article, vous devez l’activer dans votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
  - Module : Comptabilité
  - Nom de la fonctionnalité : **Contrepassation en masse pour plusieurs documents**
 
@@ -69,7 +69,7 @@ Si le document contient plus de 100 lignes document, le processus de contrepass
 
 Si le nombre de lignes de documents est inférieur ou égal à cent, le processus de contrepassation s’exécute immédiatement. Les résultats seront affichés dans une boîte de dialogue qui indique tout document qui n’a pas pu être contrepassé et la raison de cet échec. Sélectionnez **OK** pour fermer la boîte de dialogue.
 
-Les transactions peuvent être contrepassées que si elles sont conformes aux règles métier pour les contrepasser. Les paiements fournisseur ne peuvent pas être contrepassés en utilisant une capacité décrite dans cette rubrique. Les paiements fournisseur doivent être contrepassés en suivant les étapes indiquées dans [Contrepasser un paiement fournisseur](../accounts-payable/reverse-vendor-payment.md).
+Les transactions peuvent être contrepassées que si elles sont conformes aux règles métier pour les contrepasser. Les paiements fournisseur ne peuvent pas être contrepassés en utilisant une capacité décrite dans cet article. Les paiements fournisseur doivent être contrepassés en suivant les étapes indiquées dans [Contrepasser un paiement fournisseur](../accounts-payable/reverse-vendor-payment.md).
 
 
 

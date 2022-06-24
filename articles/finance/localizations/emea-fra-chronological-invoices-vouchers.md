@@ -1,6 +1,6 @@
 ---
 title: Facture et n° de justificatif chronologiques
-description: Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client.
+description: Cet article explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client.
 author: ShylaThompson
 ms.date: 01/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b408d9b6810c71fcddf25cba4513e2dfc81e63b621684f8397d58255a579935c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 87bb6fdca9cdc2814c17ceb2a0f207d6572d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846509"
 ---
 # <a name="chronological-invoice-and-voucher-numbers"></a>Facture et n° de justificatif chronologiques
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client.  
+Cet article explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client.  
 
 Dans certains pays, il est obligatoire que toutes les factures et les documents associés émis soient numérotés dans l’ordre chronologique. La chronologie doit être prise en charge par les périodes fiscales. Tous les numéros qui appartiennent à des périodes antérieures doivent être inférieurs aux numéros qui appartiennent aux périodes ultérieures. Dans une période fiscale, l’ordre chronologique n’est pas obligatoire, mais il ne doit y avoir aucun écart dans la numérotation. Pour répondre à cette exigence, la numérotation chronologique dans le module Comptabilité client affecte les documents suivants :
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881960"
 ---
 # <a name="finance-insights-home-page"></a>Page d’accueil de Finance Insights
 
@@ -35,7 +35,7 @@ Finance Insights fournit des solutions configurables et extensibles pour vous ai
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Cette section répertorie les conditions requises pour utiliser Informations financières. Dans la mesure du possible, des liens vers des sources d’informations supplémentaires sont fournis.
+Cette section répertorie les conditions requises pour utiliser Finance Insights. Dans la mesure du possible, des liens vers des sources d’informations supplémentaires sont fournis.
 
 ### <a name="system-requirements"></a>Configuration requise
 
@@ -43,7 +43,7 @@ Un environnement de niveau 2 (multi-box) est requis pour la version préliminair
 
 ### <a name="version-requirements"></a>Exigences relatives à la version
 
-Cette rubrique s’applique à Microsoft Dynamics 365 Finance version 10.0.21 et versions ultérieures.
+Cet article s’applique à Microsoft Dynamics 365 Finance version 10.0.21 et versions ultérieures.
 
 ### <a name="license-requirements"></a>Conditions préalables requises pour les licences
 
@@ -53,15 +53,15 @@ Finance Insights utilise les crédits AI Builder pour créer des prévisions fi
 
 Au moins un an de factures client est nécessaire pour entraîner correctement le modèle Machine Learning utilisé pour la fonction de prédiction de paiement client. Trois ans de données historiques sont recommandés pour les prévisions de trésorerie. Trois ans de budget historique et/ou de chiffres réels sont recommandés pour des propositions de budget intelligentes.
 
-## <a name="configure-finance-insights"></a>Configurer Informations financières
+## <a name="configure-finance-insights"></a>Configurer Finance Insights
 
 Vous devez effectuer les étapes de configuration avant de pouvoir utiliser Finance Insights. Pour plus d’informations sur la configuration de Finance Insights, voir [Configuration de Finance Insights](configure-for-fin-insites.md).
 
 ## <a name="create-a-data-integrator-project"></a>Créer un projet d’intégrateur de données
 
-Vous devrez créer un projet d’intégrateur de données afin que les données générées par le modèle Machine Learning puissent circuler Dynamics 365 Finance. Pour connaître les étapes de création de ce projet, voir [Créer un projet d’intégrateur de données](create-data-integrate-project.md).
+Vous devrez créer un projet d’intégrateur de données afin que les données générées par le modèle Machine Learning puissent circuler dans Dynamics 365 Finance. Pour connaître les étapes de création de ce projet, voir [Créer un projet d’intégrateur de données](create-data-integrate-project.md).
 
-## <a name="enable-finance-insights-capabilities"></a>Activer les fonctionnalités de Informations financières
+## <a name="enable-finance-insights-capabilities"></a>Activer les fonctionnalités de Finance Insights
 
 Lorsque vous avez terminé les étapes de configuration et configuré les données de démonstration, vous devez activer et configurer chaque fonctionnalité que vous prévoyez d’utiliser : prévisions de paiement client, prévision de flux de trésorerie et propositions de budget.
 
@@ -77,7 +77,7 @@ Pour activer les prévisions de flux de trésorerie, vous devez suivre un ensemb
 
 La fonctionnalité de propositions de budget utilise un modèle Machine Learning avec les données historiques de votre organisation pour générer une proposition de budget. La proposition générée peut vous aider à démarrer un processus de budgétisation qui est plus efficace et efficient qu’un processus manuel. Pour connaître les étapes spécifiques permettant d’activer cette fonctionnalité, voir [Activer les propositions de budget](enable-budget-proposal.md). 
 
-## <a name="using-finance-insights-features"></a>Utilisation des fonctionnalités de Informations financières
+## <a name="using-finance-insights-features"></a>Utilisation des fonctionnalités de Finance Insights
 
 ### <a name="using-customer-payment-predictions"></a>Utilisation des prédictions de paiement des clients
 

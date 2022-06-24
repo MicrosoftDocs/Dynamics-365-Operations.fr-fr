@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des fournisseurs pour l’état 1099
-description: Cette rubrique explique comment configurer les enregistrements de fournisseur afin qu’une zone 1099 soit associée à un compte principal.
+description: Cet article explique comment configurer les enregistrements de fournisseur afin qu’une zone 1099 soit associée à un compte principal.
 author: v-kiarnd
 ms.date: 09/11/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 777983c7699a8a7e2c07297d767bed63f37103e1464b19b9afbbee16787a2c53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96281720ed1f53dc61d69eafa24096b6629d9479
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868247"
 ---
 # <a name="set-up-vendors-for-1099-reporting"></a>Paramétrer des fournisseurs pour l’état 1099
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer les enregistrements de fournisseur afin qu’une zone 1099 soit associée à un compte principal. Il est préférable de terminer ces étapes de configuration avant de valider les transactions du fournisseur. Pour plus d’informations, voir [Génération d’état de fin d’exercice 1099](noam-usa-year-end-1099-reporting.md).
+Cet article explique comment configurer les enregistrements de fournisseur afin qu’une zone 1099 soit associée à un compte principal. Il est préférable de terminer ces étapes de configuration avant de valider les transactions du fournisseur. Pour plus d’informations, voir [Génération d’état de fin d’exercice 1099](noam-usa-year-end-1099-reporting.md).
 
 > [!NOTE]
 > Il est recommandé d’analyser les modifications apportées à la règle d’administration fiscale pour l’exercice applicable avant de paramétrer et de compléter les relevés 1099.

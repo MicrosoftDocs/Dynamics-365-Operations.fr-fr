@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de consolidations financières et conversion de devises
-description: Cette rubrique décrit les consolidations financières et la conversion de devises dans le module Comptabilité.
+description: Cet article décrit les consolidations financières et la conversion de devises dans le module Comptabilité.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846855"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Vue d’ensemble de consolidations financières et conversion de devises
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l’approche utilisée par Microsoft Dynamics 365 Finance et l’outil États financiers pour les consolidations. Elle décrit les scénarios impliquant la génération d’états pour plusieurs sociétés, l’agrégation, l’élimination et la participation minoritaire. Elle explique également comment gérer des cas particuliers, comme les scénarios où des entités juridiques ont différentes périodes fiscales ou différents plans de comptes.
+Cet article décrit l’approche utilisée par Microsoft Dynamics 365 Finance et l’outil États financiers pour les consolidations. Elle décrit les scénarios impliquant la génération d’états pour plusieurs sociétés, l’agrégation, l’élimination et la participation minoritaire. Elle explique également comment gérer des cas particuliers, comme les scénarios où des entités juridiques ont différentes périodes fiscales ou différents plans de comptes.
 
-Cette rubrique s’adresse aux utilisateurs et aux consultants fonctionnels, et elle suppose que les lecteurs ont une connaissance générale de Finance et de l’outil États financiers. Le paramétrage de base n’est pas abordé.
+Cet article s’adresse aux utilisateurs et aux consultants fonctionnels, et elle suppose que les lecteurs ont une connaissance générale de Finance et de l’outil États financiers. Le paramétrage de base n’est pas abordé.
 
 > [!NOTE]
-> Le terme *entité juridique* est utilisée dans Finance, et le terme *société* est utilisée dans l’outil États financiers. Ces deux termes sont utilisés dans cette rubrique. Toutefois, pour les besoins de cette rubrique, leurs significations sont identiques.
+> Le terme *entité juridique* est utilisée dans Finance, et le terme *société* est utilisée dans l’outil États financiers. Ces deux termes sont utilisés dans cet article. Toutefois, pour les besoins de cet article, leurs significations sont identiques.
 
-## <a name="audience"></a>Public
-Cette rubrique s’adresse aux utilisateurs chargés des finances et de la comptabilité et aux consultants en application qui souhaitent utiliser Finance and Reporting et l’outil États financiers pour consolider les données de plusieurs sociétés et dans plusieurs devises.
+## <a name="audience"></a>Audience
+Cet article s’adresse aux utilisateurs chargés des finances et de la comptabilité et aux consultants en application qui souhaitent utiliser Finance and Reporting et l’outil États financiers pour consolider les données de plusieurs sociétés et dans plusieurs devises.
 
 ## <a name="approach"></a>Approche
 Finance utilise une entité juridique distincte pour traiter une consolidation. Il prend en charge la consolidation d’une seule instance mais fournit une option permettant de regrouper les données d’autres sources. Le processus de consolidation doit être exécuté chaque fois que des modifications sont apportées aux entités juridiques source.

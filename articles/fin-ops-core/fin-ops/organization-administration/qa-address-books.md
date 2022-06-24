@@ -1,6 +1,6 @@
 ---
 title: FAQ relatif aux carnets d’adresses
-description: Cette rubrique donne des réponses aux questions fréquentes relatives aux carnets d’adresses.
+description: Cet article donne des réponses aux questions fréquentes relatives aux carnets d’adresses.
 author: msftbrking
 ms.date: 02/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 0b7262bc0be5330ac239fbceff96108477e2a796
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881020"
 ---
 # <a name="address-books-faq"></a>FAQ sur les carnets d’adresses
 
@@ -68,10 +68,10 @@ Vous pouvez paramétrer des traductions des informations d’adresse afin que le
 
 ## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Après avoir importé des adresses, pourquoi ne puis-je pas modifier les enregistrements ?
 
-Lorsque vous importez des adresses, il existe un champ nommé **IsLocationOwner**. Ce champ indique si la partie associée à l'emplacement (adresse) est le propriétaire de l'adresse. Si la partie est le propriétaire de l’adresse, l’adresse peut être modifiée lorsque vous y utilisez la partie dans le carnet d’adresses global ou à partir de la page d’enregistrement principal (tel que client, fournisseur ou collaborateur). Si la partie n'est pas le propriétaire de l'adresse, l'enregistrement ne peut pas être modifié. 
+Lorsque vous importez des adresses, il existe un champ nommé **IsLocationOwner**. Ce champ indique si la partie associée à l’emplacement (adresse) est le propriétaire de l’adresse. Si la partie est le propriétaire de l’adresse, l’adresse peut être modifiée lorsque vous y utilisez la partie dans le carnet d’adresses global ou à partir de la page d’enregistrement principal (tel que client, fournisseur ou collaborateur). Si la partie n’est pas le propriétaire de l’adresse, l’enregistrement ne peut pas être modifié. 
 
-Lors de l’importation d’adresses, le champ **IsLocationOwner** doit être défini sur **Oui** si vous souhaitez que l’adresse soit modifiable à l’aide de la partie associée. Si ce champ est importé de manière incorrecte, le propriétaire de l'emplacement peut être mis à jour dans le carnet d'adresses global.
+Lors de l’importation d’adresses, le champ **IsLocationOwner** doit être défini sur **Oui** si vous souhaitez que l’adresse soit modifiable à l’aide de la partie associée. Si ce champ est importé de manière incorrecte, le propriétaire de l’emplacement peut être mis à jour dans le carnet d’adresses global.
 
-Pour plus d'informations sur la façon de modifier le propriétaire de l'emplacement d'une adresse importée, consultez [Gérer les propriétaires des emplacements](./global-address-book-location-owner.md).
+Pour plus d’informations sur la façon de modifier le propriétaire de l’emplacement d’une adresse importée, consultez [Gérer les propriétaires des emplacements](./global-address-book-location-owner.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

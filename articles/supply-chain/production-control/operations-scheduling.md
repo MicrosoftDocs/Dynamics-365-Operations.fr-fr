@@ -1,6 +1,6 @@
 ---
 title: Ordonnancement
-description: Cette rubrique fournit des informations sur l’ordonnancement. Vous pouvez utiliser l’ordonnancement pour fournir une estimation globale du processus de production dans le temps.
+description: Cet article fournit des informations sur les opérations d'ordonnancement. Vous pouvez utiliser l’ordonnancement pour fournir une estimation globale du processus de production dans le temps.
 author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7b9ae31b288831d2f3b85bf1996206221e0bdbbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871889"
 ---
 # <a name="operations-scheduling"></a>Ordonnancement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur l’ordonnancement. Vous pouvez utiliser l’ordonnancement pour fournir une estimation globale du processus de production dans le temps.
+Cet article fournit des informations sur les opérations d'ordonnancement. Vous pouvez utiliser l’ordonnancement pour fournir une estimation globale du processus de production dans le temps.
 
 Vous pouvez planifier la production au niveau des opérations et des tâches. Contrairement à la planification de tâche, la planification d’opérations n’éclate pas les opérations de la gamme de production en tâches. Si vous souhaitez inclure davantage de détails dans la planification, tels que des informations sur la capacité actuelle, vous pouvez exécuter la planification des tâches après avoir exécuté l’ordonnancement. Vous pouvez également exécuter uniquement une planification de tâches. La planification des tâches concerne généralement la planification de tâches individuelles dans l’atelier et se déroule normalement immédiatement ou à court terme.
 

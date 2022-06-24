@@ -1,6 +1,6 @@
 ---
 title: Concevoir un format ER pour générer un rapport au format Excel avec des images incorporées aux en-têtes ou pieds de page
-description: Cette rubrique explique comment utiliser les états électroniques (ER) pour générer des documents commerciaux contenant des images et des formes incorporées aux en-têtes ou pieds de page.
+description: Cet article explique comment utiliser les états électroniques (ER) pour générer des documents commerciaux contenant des images et des formes incorporées aux en-têtes ou pieds de page.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,33 +15,33 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854841"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Concevoir un format ER pour générer un rapport au format Excel avec des images incorporées aux en-têtes ou pieds de page
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique explique comment un utilisateur doté du rôle Administrateur système ou Consultant fonctionnel de gestion des états électroniques peut effectuer les tâches suivantes :
+Cet article explique comment un utilisateur doté du rôle Administrateur système ou Consultant fonctionnel de gestion des états électroniques peut effectuer les tâches suivantes :
 
 - Configurer les paramètres de la structure de [gestion des états électroniques (ER)](general-electronic-reporting.md).
-- Importer des [configurations ER](general-electronic-reporting.md#Configuration) qui sont [fournies](general-electronic-reporting.md#Provider) par Microsoft et utilisées pour générer des [factures financières](../../../finance/accounts-receivable/create-free-text-invoice-new.md), sur la base d'un [modèle](er-fillable-excel.md#excel-file-component) au format Microsoft Excel.
+- Importer des [configurations ER](general-electronic-reporting.md#Configuration) qui sont [fournies](general-electronic-reporting.md#Provider) par Microsoft et utilisées pour générer des [factures financières](../../../finance/accounts-receivable/create-free-text-invoice-new.md), sur la base d’un [modèle](er-fillable-excel.md#excel-file-component) au format Microsoft Excel.
 - Créer une version [personnalisée (dérivée)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) d’une configuration du format de gestion des états électroniques standard fournie par Microsoft.
-- Modifiez la configuration du format ER personnalisé afin qu'elle génère un rapport de facture financière comportant une image du logo de la compagnie dans le pied de page.
+- Modifiez la configuration du format ER personnalisé afin qu’elle génère un rapport de facture financière comportant une image du logo de la compagnie dans le pied de page.
 
-Les procédures de cette rubrique peuvent être effectuées dans la compagnie **USMF**. Aucun codage n’est requis. Avant de commencer, téléchargez et enregistrez le fichier suivant.
+Les procédures de cet article peuvent être effectuées dans la compagnie **USMF**. Aucun codage n’est requis. Avant de commencer, téléchargez et enregistrez le fichier suivant.
 
-| Description         | Nom de fichier |
+| Description        | Nom de fichier |
 |--------------------|-----------|
-| Image du logo de l'entreprise | [Logo de société au format .png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png) |
+| Image du logo de l’entreprise | [Logo de société au format .png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png) |
 
 ## <a name="content"></a>Contenu
 
-- [Configurer l'entité juridique](#ConfigureLegalEntity)
+- [Configurer l’entité juridique](#ConfigureLegalEntity)
 - [Configurer la structure de gestion des états électroniques](#ConfigureFramework)
 
     - [Configurer les paramètres de gestion des états électroniques](#ConfigureParameters)
@@ -58,7 +58,7 @@ Les procédures de cette rubrique peuvent être effectuées dans la compagnie **
 
 - [Imprimer une facture financière en utilisant le format ER standard](#PrintInvoice1)
 
-    - [Paramétrer la gestion de l'impression](#ConfigurePrintManagement1)
+    - [Paramétrer la gestion de l’impression](#ConfigurePrintManagement1)
     - [Imprimer une facture financière](#ProcessInvoice1)
 
 - [Personnaliser le format de gestion des états électroniques standard](#CustomizeProvidedFormat)
@@ -69,15 +69,15 @@ Les procédures de cette rubrique peuvent être effectuées dans la compagnie **
 
 - [Imprimer une facture financière en utilisant le format ER personnalisé](#PrintInvoice2)
 
-    - [Paramétrer la gestion de l'impression](#ConfigurePrintManagement2)
+    - [Paramétrer la gestion de l’impression](#ConfigurePrintManagement2)
     - [Imprimer une facture financière](#ProcessInvoice2)
 
 - [Ressources supplémentaires](#References)
 
-## <a name="configure-the-legal-entity"></a><a id="ConfigureLegalEntity"></a>Configurer l'entité juridique
+## <a name="configure-the-legal-entity"></a><a id="ConfigureLegalEntity"></a>Configurer l’entité juridique
 
 1. Allez dans **Administration d’organisation** \> **Organisations** \> **Entités juridiques**.
-2. Sur la page **Entités juridiques**, sur le raccourci **Signaler l'image du logo de la compagnie**, sélectionnez **Changer**.
+2. Sur la page **Entités juridiques**, sur le raccourci **Signaler l’image du logo de la compagnie**, sélectionnez **Changer**.
 3. Dans la boîte de dialogue **Sélectionnez le fichier image à charger**, sélectionnez **Parcourir**, puis le fichier **Logo de la compagnie.png** que vous avez téléchargé précédemment.
 4. Sélectionnez **Enregistrer**, puis fermez la page **Entités juridiques**.
 
@@ -132,7 +132,7 @@ Pour plus d’informations sur les fournisseurs de configuration de gestion des 
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>Importer les configurations de gestion des états électroniques standard
 
-Pour ajouter les configurations de gestion des états électroniques standard à votre instance actuelle de Dynamics 365 Finance, vous devez les importer depuis le [référentiel](general-electronic-reporting.md#Repository) de gestion des états électroniques qui a été configuré pour cette instance.
+Pour ajouter les configurations ER standard à votre instance actuelle de Dynamics 365 Finance, vous devez les importer depuis le [référentiel](general-electronic-reporting.md#Repository) ER qui a été configuré pour cette instance.
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 2. Sur la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**, puis sélectionnez **Référentiels** pour afficher la liste des référentiels du fournisseur **Microsoft**.
@@ -161,15 +161,15 @@ Pour ajouter les configurations de gestion des états électroniques standard à
 
 ## <a name="print-a-free-text-invoice-by-using-the-standard-er-format"></a><a id="PrintInvoice1"></a>Imprimer une facture financière en utilisant le format ER standard
 
-### <a name="set-up-print-management"></a><a id="ConfigurePrintManagement1"></a>Paramétrer la gestion de l'impression
+### <a name="set-up-print-management"></a><a id="ConfigurePrintManagement1"></a>Paramétrer la gestion de l’impression
 
 1. Allez dans **Comptabilité client** \> **Factures** \> **Toutes factures financières**.
-2. Sur la page **Facture financière**, sélectionnez la facture **FTI-00000002**, puis, dans le volet Action, sous l’onglet **Facture**, dans le groupe **Gestion de l'impression**, sélectionnez **Gestion de l'impression**.
-3. Sur la page **Configuration de la gestion de l'impression**, dans l'arborescence de gauche, développez **Module - Comptabilité client\> Documents \> Facture financière**, puis sélectionnez l'élément **\<Default\> d'origine**.
+2. Sur la page **Facture financière**, sélectionnez la facture **FTI-00000002**, puis, dans le volet Action, sous l’onglet **Facture**, dans le groupe **Gestion de l’impression**, sélectionnez **Gestion de l’impression**.
+3. Sur la page **Configuration de la gestion de l’impression**, dans l’arborescence de gauche, développez **Module - Comptabilité client\> Documents \> Facture financière**, puis sélectionnez l’élément **\<Default\> d’origine**.
 4. Dans le champ **Format d’état**, sélectionnez **Facture financière (Excel)**.
 5. Sélectionnez la touche **Échap** pour quitter la page **Paramétrage de la gestion de l’impression** et revenir à la page **Facture financière**.
 
-![Paramètres de gestion de l'impression pour une facture financière au format ER standard sur la page Paramétrage de la gestion de l’impression.](./media/er-embed-images-header-footer-excel-reports-print-management.png)
+![Paramètres de gestion de l’impression pour une facture financière au format ER standard sur la page Paramétrage de la gestion de l’impression.](./media/er-embed-images-header-footer-excel-reports-print-management.png)
 
 ### <a name="print-a-free-text-invoice"></a><a id="ProcessInvoice1"></a>Imprimer une facture financière
 
@@ -181,7 +181,7 @@ Pour ajouter les configurations de gestion des états électroniques standard à
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>Personnaliser le format de gestion des états électroniques standard
 
-Pour l'exemple de cette section, vous pouvez utiliser les configurations ER fournies par Microsoft pour générer une facture financière au format Excel. Cependant, vous devez ajouter une personnalisation pour mettre une image de logo de compagnie dans le pied de page des factures générées.
+Pour l’exemple de cette section, vous pouvez utiliser les configurations ER fournies par Microsoft pour générer une facture financière au format Excel. Cependant, vous devez ajouter une personnalisation pour mettre une image de logo de compagnie dans le pied de page des factures générées.
 
 Dans ce cas, en tant que représentant de Litware, Inc., vous devez créer (dériver) une nouvelle configuration du format de gestion des états électroniques basée sur la configuration fournie par Microsoft **Facture financière (Excel)**.
 
@@ -194,7 +194,7 @@ Dans ce cas, en tant que représentant de Litware, Inc., vous devez créer (dér
 5. Dans le champ **Nom**, entrez **Facture financière (Excel) personnalisée**.
 6. Sélectionnez **Créer une configuration**.
 
-![Création d'une configuration pour un format de paiement personnalisé dans la boîte de dialogue déroulante Créer une configuration.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
+![Création d’une configuration pour un format de paiement personnalisé dans la boîte de dialogue déroulante Créer une configuration.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
 La version 240.112.1 de la configuration du format ER **Facture financière (Excel) personnalisée** est créée. Cette version présente le [statut](general-electronic-reporting.md#component-versioning) **Brouillon** et peut être modifiée. Le contenu actuel de votre format de gestion des états électroniques personnalisé correspond au contenu du format fourni par Microsoft.
 
@@ -202,7 +202,7 @@ La version 240.112.1 de la configuration du format ER **Facture financière (Ex
 
 ### <a name="edit-the-custom-format"></a><a id="ConfigureDerivedFormat"></a>Modifier le format personnalisé
 
-Configurez votre format personnalisé afin qu'une image du logo de la compagnie soit placée dans le pied de page de chaque page de l’état.
+Configurez votre format personnalisé afin qu’une image du logo de la compagnie soit placée dans le pied de page de chaque page de l’état.
 
 1. Accédez à **Administration d’organisation** \> **États électroniques** \> **Configurations**.
 2. Sur la page **Configurations**, dans l’arborescence de configuration du volet gauche, développez **Modèle de paiement**, puis sélectionnez **Facture financière (Excel) personnalisée**.
@@ -220,25 +220,25 @@ Configurez votre format personnalisé afin qu'une image du logo de la compagnie 
     ![Élément de pied de page dans le concepteur d’opérations de gestion des états électroniques.](./media/er-embed-images-header-footer-excel-reports-derived-format0.png)
 
     > [!NOTE]
-    > Chaque pied de page d'une facture générée contient des informations sur le numéro de page actuel et le nombre total de pages dans l’état. Comme vous pouvez le voir, l'élément **Facture financière \\ Facture \\ Pied de page** ne contient aucun élément enfant. Par conséquent, le modèle Excel utilisé est configuré pour afficher les détails de la pagination au centre du pied de page de chaque état.
+    > Chaque pied de page d’une facture générée contient des informations sur le numéro de page actuel et le nombre total de pages dans l’état. Comme vous pouvez le voir, l’élément **Facture financière \\ Facture \\ Pied de page** ne contient aucun élément enfant. Par conséquent, le modèle Excel utilisé est configuré pour afficher les détails de la pagination au centre du pied de page de chaque état.
 
 8. Sélectionnez **Ajouter**, puis sélectionnez le type **Excel \\ Image** de l’élément de format que vous ajoutez :
 
     1. Dans le champ **Alignement**, sélectionnez **Droite**.
-    2. Dans le champ **Mettre à l'échelle la hauteur**, sélectionnez **Relatif**.
+    2. Dans le champ **Mettre à l’échelle la hauteur**, sélectionnez **Relatif**.
     3. Dans le champ **Échelle en pourcentage**, entrez **70**.
     4. Cliquez sur **OK**.
 
         > [!NOTE]
-        > L'élément **Excel \\ Image** est utilisé pour ajouter une image de logo de compagnie et l'aligner sur le côté droit du pied de page.
+        > L’élément **Excel \\ Image** est utilisé pour ajouter une image de logo de compagnie et l’aligner sur le côté droit du pied de page.
 
-    ![Propriétés de l'élément Image dans la boîte de dialogue Propriétés du composant.](./media/er-embed-images-header-footer-excel-reports-derived-format1.png)
+    ![Propriétés de l’élément Image dans la boîte de dialogue Propriétés du composant.](./media/er-embed-images-header-footer-excel-reports-derived-format1.png)
 
-9. Dans l'arborescence de la structure des formats à gauche, sélectionnez l’élément **Image** que vous venez d'ajouter, puis, sous l’onglet **Mappage**, développez source de données **modèle**.
-10. Développez **model.Payment** \> **model.InvoiceBase \> model.InvoiceBase.CompanyInfo**, puis sélectionnez le champ de source de données **model.InvoiceBase.CompanyInfo.Logo**. Le champ de source de données du type [Conteneur](er-formula-supported-data-types-composite.md#container) expose l'image du logo de la compagnie en tant que contenu multimédia.
-11. Sélectionnez **Lier**. L'élément de format **Image** est maintenant lié au champ de source de données **model.InvoiceBase.CompanyInfo.Logo**. Par conséquent, lors de l'exécution, une image du logo de la compagnie sera placée dans le pied de page des factures générées.
+9. Dans l’arborescence de la structure des formats à gauche, sélectionnez l’élément **Image** que vous venez d’ajouter, puis, sous l’onglet **Mappage**, développez source de données **modèle**.
+10. Développez **model.Payment** \> **model.InvoiceBase \> model.InvoiceBase.CompanyInfo**, puis sélectionnez le champ de source de données **model.InvoiceBase.CompanyInfo.Logo**. Le champ de source de données du type [Conteneur](er-formula-supported-data-types-composite.md#container) expose l’image du logo de la compagnie en tant que contenu multimédia.
+11. Sélectionnez **Lier**. L’élément de format **Image** est maintenant lié au champ de source de données **model.InvoiceBase.CompanyInfo.Logo**. Par conséquent, lors de l’exécution, une image du logo de la compagnie sera placée dans le pied de page des factures générées.
 
-    ![L'élément de format Image lié au champ de source de données model.InvoiceBase.CompanyInfo.Logo dans le concepteur d’opérations de gestion des états électroniques.](./media/er-embed-images-header-footer-excel-reports-derived-format2.png)
+    ![L’élément de format Image lié au champ de source de données model.InvoiceBase.CompanyInfo.Logo dans le concepteur d’opérations de gestion des états électroniques.](./media/er-embed-images-header-footer-excel-reports-derived-format2.png)
 
 12. Sélectionnez **Enregistrer**, puis fermez la page **Concepteur**.
 
@@ -258,11 +258,11 @@ Pour utiliser la version provisoire d’un format de gestion des états électro
 
 ## <a name="print-a-free-text-invoice-by-using-the-custom-er-format"></a><a id="PrintInvoice2"></a>Imprimer une facture financière en utilisant le format ER personnalisé
 
-### <a name="set-up-print-management"></a><a id="ConfigurePrintManagement2"></a>Paramétrer la gestion de l'impression
+### <a name="set-up-print-management"></a><a id="ConfigurePrintManagement2"></a>Paramétrer la gestion de l’impression
 
 1. Allez dans **Comptabilité client** \> **Factures** \> **Toutes factures financières**.
-2. Sur la page **Facture financière**, sélectionnez la facture **FTI-00000002**, puis, dans le volet Action, sous l’onglet **Facture**, dans le groupe **Gestion de l'impression**, sélectionnez **Gestion de l'impression**.
-3. Sur la page **Configuration de la gestion de l'impression**, dans l'arborescence de gauche, développez **Module - Comptabilité client** \> **Documents** \> **Facture financière**, puis sélectionnez l'élément **\<Default\>** **d'origine**.
+2. Sur la page **Facture financière**, sélectionnez la facture **FTI-00000002**, puis, dans le volet Action, sous l’onglet **Facture**, dans le groupe **Gestion de l’impression**, sélectionnez **Gestion de l’impression**.
+3. Sur la page **Configuration de la gestion de l’impression**, dans l’arborescence de gauche, développez **Module - Comptabilité client** \> **Documents** \> **Facture financière**, puis sélectionnez l’élément **\<Default\>** **d’origine**.
 4. Dans le champ **Format d’état**, sélectionnez **Facture financière (Excel) personnalisée**.
 5. Sélectionnez **Échap** pour quitter la page **Paramétrage de la gestion de l’impression** et revenir à la page **Facture financière**.
 

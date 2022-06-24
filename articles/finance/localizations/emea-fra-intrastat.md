@@ -1,6 +1,6 @@
 ---
-title: Déclaration d’échanges de biens française
-description: Cette rubrique contient des informations sur la Déclaration d’échanges de biens en France.
+title: Déclaration d’échanges de biens (France)
+description: Cet article contient des informations sur la Déclaration d’échanges de biens en France.
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887851"
 ---
 # <a name="french-intrastat"></a>Déclaration d’échanges de biens française
 
@@ -97,7 +97,7 @@ La table indique également le niveau d’état du champ. Le champ peut être **
     3. Dans le raccourci **Hiérarchie des codes marchandise**, dans le champ **Hiérarchie des catégories**, sélectionnez **Déclaration d’échanges de biens**.
     4. Dans le raccourci **Général**, dans le champ **Code transaction**, sélectionnez le code qui est utilisé pour les transferts de marchandises.
     5. Dans le champ **Avoir**, sélectionnez le code qui est utilisé pour les retours de marchandises.
-    6. Dans le champ **Niveau d’obligation pour l’exportation**, entrez le niveau de détail de la déclaration d’exportation. Le niveau que vous sélectionnez affecte les lignes qui sont affichées sur la déclaration. Pour plus d’informations, voir les tables au début de la rubrique.
+    6. Dans le champ **Niveau d’obligation pour l’exportation**, entrez le niveau de détail de la déclaration d’exportation. Le niveau que vous sélectionnez affecte les lignes qui sont affichées sur la déclaration. Pour plus d’informations, voir les tables au début de cet article.
 
 3. Accédez à **Administration d’organisation** > **Organisations** > **Entités juridiques**, sélectionnez votre entreprise puis procédez comme suit :
 

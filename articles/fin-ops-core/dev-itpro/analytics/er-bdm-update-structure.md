@@ -1,6 +1,6 @@
 ---
 title: Mettre à jour la structure d’un modèle de document commercial
-description: Cette rubrique explique comment mettre à jour la structure d’un modèle de document commercial à l’aide de la fonctionnalité de gestion des documents commerciaux.
+description: Cet article explique comment mettre à jour la structure d’un modèle de document commercial à l’aide de la fonctionnalité de gestion des documents commerciaux.
 author: NickSelin
 ms.date: 11/19/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2adecba4e988bfe04de2c181501b6c3ef8491dcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880281"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Mettre à jour la structure d’un modèle de document commercial 
 
@@ -101,7 +101,7 @@ Suivez les procédures suivantes dans [Vue d’ensemble de la gestion des docume
 
 ## <a name="related-links"></a>Liens connexes
 
-[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 
 [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md)
 

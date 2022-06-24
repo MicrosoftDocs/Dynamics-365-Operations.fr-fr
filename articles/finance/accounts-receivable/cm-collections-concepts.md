@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858522"
 ---
 # <a name="collections-management-key-concepts"></a>Concepts clés de la gestion des recouvrements
 
@@ -34,7 +34,7 @@ Avant de commencer à paramétrer ou utiliser des recouvrements, vous devez comp
 - Des transactions d’annulation peuvent être créées en une seule étape.
 - Les paiements de fonds insuffisants peuvent être traités en une seule étape.
 
-Cette rubrique décrit chaque concept.
+Cet article décrit chaque concept.
 
 ## <a name="customer-aging-snapshots"></a>Instantanés de balance âgée des clients
 
@@ -86,7 +86,7 @@ Le volet Actions inclut des boutons qui affichent les informations relatives au 
 
 Vous pouvez exonérer, rétablir ou contrepasser l’intégralité des notes d’intérêt, ou les frais et les intérêts de transaction faisant partie des notes d’intérêt. Pour ce faire, accédez à l’onglet **Recouvrement** du volet Actions dans la page de liste **Tous les clients**, sélectionnez **Note d’intérêt**, **Intérêt de la transaction** ou **Frais**.
 
-Ces ajustements affectent uniquement les notes d’intérêt, et les intérêts et les commissions qu’elles incluent. Pour savoir comment annuler tous les frais qu’un client doit, consultez la section [Création de transactions d’annulation](#creating-write-off-transactions) de cette rubrique.
+Ces ajustements affectent uniquement les notes d’intérêt, et les intérêts et les commissions qu’elles incluent. Pour savoir comment annuler tous les frais qu’un client doit, consultez la section [Création de transactions d’annulation](#creating-write-off-transactions) de cet article.
 
 Pour plus d’informations, voir Créer un code intérêt avec une plage et Traiter les intérêts.
 

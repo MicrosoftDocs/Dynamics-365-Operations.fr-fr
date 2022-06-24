@@ -1,6 +1,6 @@
 ---
 title: Modéliser le cycle de vie de gestion
-description: Cette rubrique décrit les moyens de gérer les modèles d’apprentissage automatique de votre organisation afin d’optimiser les prédictions qu’ils génèrent.
+description: Cet article décrit les moyens de gérer les modèles d’apprentissage automatique de votre organisation afin d’optimiser les prédictions qu’ils génèrent.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a7b57bc0322e0f9a78dddfb924e379ac05ffca32
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 526916929e4bc079f9cea82d8ea9f80813e89b83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880872"
 ---
 # <a name="model-management-lifecycle"></a>Modéliser le cycle de vie de gestion
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les moyens de gérer les modèles d’apprentissage automatique de votre organisation afin d’optimiser les prédictions qu’ils génèrent.
+Cet article décrit les moyens de gérer les modèles d’apprentissage automatique de votre organisation afin d’optimiser les prédictions qu’ils génèrent.
 
 Nous vous recommandons de former le modèle d’IA dans un environnement sandbox, puis d’utiliser des solutions gérées pour le déployer dans un environnement de production. Cette approche permet de garantir que les contrôles appropriés sont en place pour gérer le cycle de vie du modèle.
 

@@ -1,6 +1,6 @@
 ---
 title: Stratégie de repositionnement des coûts et calcul des frais généraux
-description: Cette rubrique fournit des informations sur la façon de déterminer le niveau correct d’éléments de coût secondaires et de créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l’organisation et à la traçabilité des coûts.
+description: Cet article fournit des informations sur la façon de déterminer le niveau correct d’éléments de coût secondaires et de créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l’organisation et à la traçabilité des coûts.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874607"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stratégie de repositionnement des coûts et calcul des frais généraux 
 
@@ -33,7 +33,7 @@ Le contrôle de gestion vous permet de mieux comprendre comment le flux des coû
 -   Le volume des écritures de coût généré par le calcul des frais généraux peut être très élevé.
 -   Il est impossible de suivre le flux des coûts entre les objets de coût.
 
-Pour éviter ces implications, le contrôle de gestion vous permet de configurer la répartition des coûts pour obtenir une adéquation dans les exigences hiérarchiques de votre organisation. Cette rubrique montre comment déterminer le niveau correct d’éléments de coût secondaires et comment créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l’organisation et à la traçabilité des coûts.
+Pour éviter ces implications, le contrôle de gestion vous permet de configurer la répartition des coûts pour obtenir une adéquation dans les exigences hiérarchiques de votre organisation. Cet article montre comment déterminer le niveau correct d’éléments de coût secondaires et comment créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l’organisation et à la traçabilité des coûts.
 
 > [!NOTE]
 > Vous pouvez modifier les configurations en fonction de l’évolution des exigences hiérarchiques.
@@ -46,7 +46,7 @@ Imaginez qu’une organisation a la structure suivante avec 4 centres de coût.
 
 **Dimension d’objet de coût**
 
-| Centres de coût | Description           |
+| Centres de coût | Description          |
 |--------------|-----------|
 | CC001        | HR        |
 | CC002        | Finances   |

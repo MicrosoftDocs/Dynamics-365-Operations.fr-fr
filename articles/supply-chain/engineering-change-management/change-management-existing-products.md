@@ -1,6 +1,6 @@
 ---
 title: Activer la gestion des changements sur les produits existants
-description: Cette rubrique explique comment activer la gestion des modifications pour les produits existants. Il décrit également les cas où votre capacité à activer la gestion des changements est limitée.
+description: Cet article explique comment activer la gestion des modifications pour les produits existants. Il décrit également les cas où votre capacité à activer la gestion des changements est limitée.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893466"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Activer la gestion des changements sur les produits existants
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment activer la gestion des modifications pour les produits existants. Il décrit également les cas où votre capacité à activer la gestion des changements est limitée.
+Cet article explique comment activer la gestion des modifications pour les produits existants. Il décrit également les cas où votre capacité à activer la gestion des changements est limitée.
 
 Lorsque vous activez la gestion des modifications pour un produit existant, vous pouvez créer des versions de ce produit et suivre les modifications qui lui sont apportées tout au long de sa vie. Par conséquent, vous pouvez suivre ces modifications à l’aide des demandes de modification. Pour activer la gestion des modifications, vous devez convertir les produits concernés en *articles d’ingénierie* (également appelés produits d’ingénierie). Les produits d’ingénierie sont des produits versionnés et gérés via la gestion des changements. Un assistant est fourni pour vous guider tout au long du processus de conversion.
 
 ## <a name="turn-this-feature-on-or-off"></a>Activer ou désactiver cette fonctionnalité
 
-La fonctionnalité décrite dans cette rubrique nécessite que les deux fonctionnalités *Gestion des modifications techniques* et *Activer la gestion des changements sur les produits existants* soient activées pour votre système. Pour plus d’informations sur l’activation ou la désactivation de ces fonctionnalités, reportez-vous à [Présentation de la gestion des modifications techniques](product-engineering-overview.md).
+La fonctionnalité décrite dans cet article nécessite que les deux fonctionnalités *Gestion des modifications techniques* et *Activer la gestion des changements sur les produits existants* soient activées pour votre système. Pour plus d’informations sur l’activation ou la désactivation de ces fonctionnalités, reportez-vous à [Présentation de la gestion des modifications techniques](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restrictions et limitations
 
@@ -38,7 +38,7 @@ Tous les types de produits ne peuvent pas être convertis en tous les autres typ
 - Lorsque vous convertissez un produit en produit d’ingénierie, il reste un *produit*. Cela ne devient pas un *produit générique*.
 - Lorsque vous convertissez une base de données produit qui a un ensemble spécifique de dimensions, ces dimensions sont conservées après la modification. Par exemple, si vous convertissez un produit générique qui a la dimension de taille, il conservera la dimension de taille.
 
-Par conséquent, si vous avez un produit distinct, vous pouvez le modifier uniquement en un produit d’ingénierie qui ne suit pas la dimension de produit dans les transactions (c’est-à-dire que la dimension de version n’est pas utilisée). Pour plus d’informations sur ces problèmes, voir les section restantes de cette rubrique.
+Par conséquent, si vous avez un produit distinct, vous pouvez le modifier uniquement en un produit d’ingénierie qui ne suit pas la dimension de produit dans les transactions (c’est-à-dire que la dimension de version n’est pas utilisée). Pour plus d’informations sur ces problèmes, voir les section restantes de cet article.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Préparez la conversion en créant toutes les catégories de produits d’ingénierie requises
 
@@ -81,7 +81,7 @@ Suivez ces étapes pour exécuter l’assistant **Convertir en produit d’ingé
 
     - **Numéro de produit** – numéro de produit.
     - **Nom du produit** – Nom du produit.
-    - **Catégorie d’ingénierie** – Sélectionnez la catégorie de produit d’ingénierie à laquelle le produit doit appartenir après sa conversion. Une catégorie appropriée doit déjà exister pour chaque produit, comme expliqué dans la section précédente de cette rubrique. Vous devez attribuer une catégorie à chaque produit.
+    - **Catégorie d’ingénierie** – Sélectionnez la catégorie de produit d’ingénierie à laquelle le produit doit appartenir après sa conversion. Une catégorie appropriée doit déjà exister pour chaque produit, comme expliqué dans la section précédente de cet article. Vous devez attribuer une catégorie à chaque produit.
     - **Version** – Saisissez la version du produit à attribuer au produit une fois celui-ci converti. Par exemple, vous pouvez sélectionner un nombre qui correspond à la souche de numéros que votre catégorie utilise déjà. Chaque version d’ingénierie stocke les données d’ingénierie spécifiques à cette version. Pour plus d’informations, voir [Versions d’ingénierie et catégories de produits d’ingénierie](engineering-versions-product-category.md).
     - **État du cycle de vie du produit** – Sélectionnez l’état du cycle de vie du produit dans lequel le produit doit se trouver après sa conversion. L’état du cycle de vie du produit vous permet de contrôler les transactions autorisées pour une version d’ingénierie donnée. Pour plus d’informations, voir [États du cycle de vie du produit et transactions](product-lifecycle-state-transactions.md).
     - **A une nomenclature** – Une case cochée indique que le produit a une nomenclature. Le paramétrage de cette case à cocher peut vous aider à décider comment définir la case **La nomenclature actuelle fera partie du produit d’ingénierie**.

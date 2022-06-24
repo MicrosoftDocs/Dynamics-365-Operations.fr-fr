@@ -1,6 +1,6 @@
 ---
 title: Liste des fonctions ER dans la catégorie spécifique au domaine d’affaires
-description: Cette rubrique fournit des informations sur les fonction spécifiques à un domaine d’affaires prises en charge dans les États électroniques (ER).
+description: Cet article fournit des informations sur les fonction spécifiques à un domaine d’affaires prises en charge dans les États électroniques (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8f0812e4262a264ffc89b72e0f4fc8c55d6c6822095f550c8f05296bb057a38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9df826dcc0b672977d4d8af1feb985ab9a0ab7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879947"
 ---
 # <a name="list-of-er-functions-in-the-business-domainspecific-category"></a>Liste des fonctions ER dans la catégorie spécifique au domaine d’affaires
 
 [!include [banner](../includes/banner.md)]
 
-Les fonctions spécifiques au domaine d’états électroniques (ER) peuvent être utilisées pour effectuer des calculs et des demandes d’accès aux données spécifiques à la mise en œuvre de Microsoft Dynamics 365 Finance. Cette rubrique fournit un résumé de ces fonctions.
+Les fonctions spécifiques au domaine d’états électroniques (ER) peuvent être utilisées pour effectuer des calculs et des demandes d’accès aux données spécifiques à la mise en œuvre de Microsoft Dynamics 365 Finance. Cet article fournit un résumé de ces fonctions.
 
 ## <a name="list-of-supported-functions"></a>Liste des fonctions prises en charge
 

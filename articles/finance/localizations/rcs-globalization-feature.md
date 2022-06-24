@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Services (RCS) – Fonctions de globalisation
-description: Cette rubrique explique comment utiliser Microsoft Regulatory Configuration Services (RCS) et le référentiel global pour créer et utiliser des fonctions de globalisation.
+description: Cet article explique comment utiliser Microsoft Regulatory Configuration Services (RCS) et le référentiel global pour créer et utiliser des fonctions de globalisation.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888892"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) – Fonctions de globalisation
 
@@ -40,9 +40,9 @@ Avant de terminer les procédures, vous devez effectuer les étapes liées aux t
 - Accéder à une instance RCS.
 - Créer et activer un fournisseur de configuration. Pour plus d’informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Dans votre instance d’applications Finance and Operations, procédez comme suit.
+Dans votre instance d’application Finances et Opérations, procédez comme suit.
 
-1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **Gestion des états électroniques**.
 2. Si vous n’avez pas d’environnement RCS configuré dans votre société, sélectionnez **Regulatory services – Configuration** et suivez les instructions pour en mettre un en service.
 
 > [!NOTE]
@@ -64,7 +64,7 @@ Pour utiliser une fonctionnalité de globalisation, vous devez d’abord l’imp
 
 ## <a name="access-globalization-features"></a>Accéder aux fonctionnalités de globalisation
 
-1. Assurez-vous que la fonctionnalité **Fonctionnalités de globalisation** est activée dans la gestion des fonctionnalités, comme décrit précédemment dans cette rubrique.
+1. Assurez-vous que la fonctionnalité **Fonctionnalités de globalisation** est activée dans la gestion des fonctionnalités, comme décrit précédemment dans cet article.
 2. Ouvrez le nouvel espace de travail **Fonctionnalités de globalisation**, puis, sous **Fonctionnalités**, sélectionnez la vignette **Facturation électronique**.
 
     ![Espace de travail Fonctionnalités globales.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ Les actions suivantes sont disponibles pour les configurations :
 - **Afficher** – Permet d’afficher les configurations de fonctionnalités sous-jacentes qui ne nécessitent aucune mise à jour.
 - **Modifier** – Permet de créer une version provisoire d’une configuration sélectionnée afin de pouvoir modifier le format ou le mappage de format dans le Concepteur de format.
 - **Supprimer** – Permet de supprimer une configuration sélectionnée de la fonctionnalité.
-- **Redéfinir** – Permet de redéfinir la fonctionnalité. Pour plus d’informations, voir la section [Redéfinir les fonctionnalités de globalisation dérivées](#rebase) située plus loin dans cette rubrique.
+- **Redéfinir** – Permet de redéfinir la fonctionnalité. Pour plus d’informations, voir la section [Redéfinir les fonctionnalités de globalisation dérivées](#rebase) située plus loin dans cet article.
 
 ### <a name="setups"></a>Paramétrages
 
@@ -182,7 +182,7 @@ Les actions suivantes sont disponibles pour les paramétrages de fonctionnalité
 
 Les actions suivantes sont disponibles pour les environnements :
 
-- **Activer** – Pour une version de fonctionnalité sélectionnée, sélectionnez un environnement publié et sélectionnez une **Date d’effet** à compter de laquelle elle devrait être disponible. Pour plus d’informations, voir la section [Configurer des environnements pour l’activation](#configureenvironment) située plus loin dans cette rubrique.
+- **Activer** – Pour une version de fonctionnalité sélectionnée, sélectionnez un environnement publié et sélectionnez une **Date d’effet** à compter de laquelle elle devrait être disponible. Pour plus d’informations, voir la section [Configurer des environnements pour l’activation](#configureenvironment) située plus loin dans cet article.
 - **Annuler** – Permet de supprimer un environnement pour un paramétrage de fonctionnalité.
 
 ### <a name="organizations"></a>Organisations

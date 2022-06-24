@@ -1,6 +1,6 @@
 ---
 title: Générer des tableaux d’analyse consolidés
-description: Cette rubrique décrit les différents scénarios où vous pouvez générer des tableaux d’analyse consolidés.
+description: Cet article décrit les différents scénarios où vous pouvez générer des tableaux d’analyse consolidés.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846797"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Générer des tableaux d’analyse consolidés
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les différents scénarios où vous pouvez générer des tableaux d’analyse consolidés.
+Cet article décrit les différents scénarios où vous pouvez générer des tableaux d’analyse consolidés.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Consolidations sur un seul niveau et plusieurs niveaux dans les entités juridiques
 La méthode de consolidation la plus simple à l’aide de l’outil États financiers consiste à utiliser des organigrammes d’entreprise pour regrouper les données de sociétés ayant les mêmes plans de comptes et périodes fiscales. Voici les principales étapes de la consolidation à l’aide d’un organigramme d’entreprise.
@@ -153,7 +153,7 @@ L’illustration suivante présente les options de la définition d’état qui 
 ![Options de la définition d’état – Numéro de la période.](./media/options-report-definition-period-number.png "Options de la définition d’état – Numéro de la période")
 
 ## <a name="business-unit-consolidations"></a>Consolidations d’unité commerciale
-Cette rubrique porte sur l’utilisation des définitions d’organigramme d’entreprise et des hiérarchies d’organisation dans l’outil États financiers à des fins de consolidation. Vous pouvez également utiliser l’organigramme d’entreprise pour créer des états de consolidation d’unité commerciale, tels que des états sur les ventes ou les opérations dans le monde entier. Ces états sont une exigence courante. Pour les créer, sélectionnez une société et une dimension pour chaque unité que vous souhaitez consolider. Par exemple, dans l’illustration suivante, le cumul des unités commerciales est obtenu en répétant chaque société dans la colonne **Société** (colonne A) et en identifiant un groupe de valeurs de dimension de département par société dans la colonne **Dimensions** (colonne D).
+Cet article porte sur l’utilisation des définitions d’organigramme d’entreprise et des hiérarchies d’organisation dans l’outil États financiers à des fins de consolidation. Vous pouvez également utiliser l’organigramme d’entreprise pour créer des états de consolidation d’unité commerciale, tels que des états sur les ventes ou les opérations dans le monde entier. Ces états sont une exigence courante. Pour les créer, sélectionnez une société et une dimension pour chaque unité que vous souhaitez consolider. Par exemple, dans l’illustration suivante, le cumul des unités commerciales est obtenu en répétant chaque société dans la colonne **Société** (colonne A) et en identifiant un groupe de valeurs de dimension de département par société dans la colonne **Dimensions** (colonne D).
 
 ![États de consolidations d’unité commerciale.](./media/business-unit-consolidation-reports.png "États de consolidations d’unité commerciale")
 
@@ -218,7 +218,7 @@ Pour obtenir des montants correctement convertis lorsque des devises sont utilis
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-Pour plus d’informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Vue d’ensemble des consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
+Pour plus d’informations sur la consolidation et les conversions de devises, consultez l’article parent de cet article [Vue d’ensemble des consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
 
 Pour plus d’informations sur la saisie des détails des consolidations en ligne, voir [Consolidations financières en ligne](./consolidate-online.md).
 

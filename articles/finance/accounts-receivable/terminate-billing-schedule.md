@@ -1,6 +1,6 @@
 ---
-title: Résilier des calendriers de facturation
-description: Cette rubrique explique comment résilier les calendriers de facturation et les lignes de calendrier de facturation dans la facturation d’abonnement.
+title: Résiliation des échéanciers de facturation
+description: Cet article explique comment résilier les calendriers de facturation et les lignes de calendrier de facturation dans la facturation d’abonnement.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e823ce950d6a4687dc7cda14e06bffdbb4f37f7e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4fce23f3cf35ef8c388ce13fc422f268a2bd8e32
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872555"
 ---
-# <a name="terminate-billing-schedules"></a>Résilier des calendriers de facturation
+# <a name="terminate-billing-schedules"></a>Résiliation des échéanciers de facturation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment résilier les calendriers de facturation et les lignes de calendrier de facturation dans la facturation d’abonnement. Lorsque vous résiliez un calendrier de facturation, celui-ci doit avoir le statut **Actif**. Il ne peut pas avoir un statut **En attente**. De même, lorsque vous résiliez une ligne calendrier de facturation, elle doit avoir le statut **Actif**. La section d’en-tête de l’échéancier de facturation n’est pas affectée lorsque vous résiliez une ligne d’échéancier de facturation.
+Cet article explique comment résilier les calendriers de facturation et les lignes de calendrier de facturation dans la facturation d’abonnement. Lorsque vous résiliez un calendrier de facturation, celui-ci doit avoir le statut **Actif**. Il ne peut pas avoir un statut **En attente**. De même, lorsque vous résiliez une ligne calendrier de facturation, elle doit avoir le statut **Actif**. La section d’en-tête de l’échéancier de facturation n’est pas affectée lorsque vous résiliez une ligne d’échéancier de facturation.
 
 Pour résilier un échéancier de facturation ou une ligne d’échéancier de facturation, accédez à l’un des emplacements suivants :
 

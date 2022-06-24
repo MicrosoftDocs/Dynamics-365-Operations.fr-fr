@@ -1,6 +1,6 @@
 ---
 title: Résoudre les problèmes lors de la configuration initiale
-description: Cette rubrique fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
+description: Cet article fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882082"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Résoudre les problèmes lors de la configuration initiale
 
@@ -22,12 +22,12 @@ ms.locfileid: "8061465"
 
 
 
-Cette rubrique fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finances et Opérations et Dataverse. Notamment elle fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
+Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse. Notamment elle fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
 
 > [!IMPORTANT]
-> Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
+> Certains des problèmes abordés dans cet article peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Vous ne pouvez pas lier une application Finances et Opérations à Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Vous ne pouvez pas lier une application de finances et d’opérations à Dataverse
 
 **Rôle requis pour configurer la double écriture :** Administrateur système dans les applications Finances et Opérations et Dataverse.
 
@@ -77,7 +77,7 @@ Cette erreur se produit lorsque l’étape de consentement de l’application n�
 > [!NOTE]
 > Si cela ne fonctionne pas, lancez l’URL en mode privé de Microsoft Edge ou en mode navigation privée de Chrome.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>L’environnement Finances et Opérations n’est pas détectable
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>L’environnement de finances et d’opérations n’est pas détectable
 
 Vous pouvez recevoir le message d’erreur suivant :
 

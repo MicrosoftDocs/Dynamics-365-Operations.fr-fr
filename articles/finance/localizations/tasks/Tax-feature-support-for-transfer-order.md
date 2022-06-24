@@ -1,6 +1,6 @@
 ---
 title: Prise en charge de la fonction de taxe pour les ordres de transfert
-description: Cette rubrique explique la prise en charge de la nouvelle fonctionnalité de taxe pour les ordres de transfert à l’aide du service de calcul des taxes.
+description: Cet article explique la prise en charge de la nouvelle fonctionnalité de taxe pour les ordres de transfert à l’aide du service de calcul des taxes.
 author: Kai-Cloud
 ms.date: 10/13/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869979"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Prise en charge de la fonction de taxe pour les ordres de transfert
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique fournit des informations sur le calcul des taxes et l’intégration de la validation dans les ordres de transfert. Cette fonctionnalité vous permet de configurer le calcul et la validation des taxes dans les ordres de transfert pour les transferts de stock. En vertu de la réglementation de l’Union européenne (UE) sur la taxe sur la valeur ajoutée (TVA), les transferts de stock sont considérés comme des livraisons intracommunautaires et des acquisitions intracommunautaires.
+Cet article fournit des informations sur le calcul des taxes et l’intégration de la validation dans les ordres de transfert. Cette fonctionnalité vous permet de configurer le calcul et la validation des taxes dans les ordres de transfert pour les transferts de stock. En vertu de la réglementation de l’Union européenne (UE) sur la taxe sur la valeur ajoutée (TVA), les transferts de stock sont considérés comme des livraisons intracommunautaires et des acquisitions intracommunautaires.
 
 Pour configurer et utiliser cette fonctionnalité, vous devez effectuer trois étapes principales :
 
@@ -49,7 +49,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         3. Sélectionnez **Enregistrer**.
         4. Sélectionnez **Ajouter** dans la table **Taux**.
         5. Définissez **Est exonéré** sur **Oui** dans la section **Général**.
-        6. Dans le champ **Code d'exonération**, entrez **EC**.
+        6. Dans le champ **Code d’exonération**, entrez **EC**.
 
     - Lorsqu’un ordre de transfert est reçu dans un entrepôt de Belgique, le mécanisme de taxe au preneur est appliqué en utilisant les codes taxe **BE-RC-21** et **BE-RC+21**.
         
@@ -77,11 +77,11 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
     4. Dans la colonne **Groupe de taxes**, entrez **AR-EU**, puis sélectionnez le code fiscal **NL-Exempt**.
     5. Sélectionnez **Ajouter** pour ajouter un groupe de taxes.
     6. Dans la colonne **Groupe de taxes**, entrez **RC-TVA**, puis sélectionnez les codes fiscaux **BE-RC-21** et **BE-RC+21**.
-4. Définissez le groupe de taxe d'article.
-    1. Sélectionnez **Gérer les colonnes**, puis sélectionnez le champ de ligne **Groupe de taxes d'article**.
+4. Définissez le groupe de taxe d’article.
+    1. Sélectionnez **Gérer les colonnes**, puis sélectionnez le champ de ligne **Groupe de taxes d’article**.
     2. Sélectionnez **->**, puis sélectionnez **OK**.
-    3. Sélectionnez **Ajouter** pour ajouter un groupe de taxes d'article.
-    4. Entrez **FULL** dans la colonne **Groupe de taxes d'article**. Sélectionnez les codes fiscaux **BE-RC-21**, **BE-RC+21** et **NL-Exempt**.
+    3. Sélectionnez **Ajouter** pour ajouter un groupe de taxes d’article.
+    4. Entrez **FULL** dans la colonne **Groupe de taxes d’article**. Sélectionnez les codes fiscaux **BE-RC-21**, **BE-RC+21** et **NL-Exempt**.
 5. Définissez l’applicabilité du groupe de taxes.
 
     1. Sélectionnez **Gérer les colonnes**, puis sélectionnez les colonnes à utiliser pour créer le tableau d’applicabilité.
@@ -108,15 +108,15 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         5. Dans le champ **Direction de taxe**, sélectionnez **Entrée** pour rendre la règle applicable à la réception des ordres de transfert.
         6. Dans le champ **Groupe de taxes**, sélectionnez **RC-TVA**.
 
-6. Définissez l’applicabilité du groupe de taxes d'article.
+6. Définissez l’applicabilité du groupe de taxes d’article.
 
     1. Sélectionnez **Gérer les colonnes**, puis sélectionnez les colonnes à utiliser pour créer le tableau d’applicabilité.
-    2. Ajoutez des règles d’applicabilité. Ne laissez pas le champ **Groupe de taxes d'article** vide.
+    2. Ajoutez des règles d’applicabilité. Ne laissez pas le champ **Groupe de taxes d’article** vide.
         
         Ajoutez une nouvelle règle pour l’expédition des ordres de transfert et reçus.
         1. Dans la table **Règles d’applicabilité**, sélectionnez **Ajouter**.
         2. Dans le champ **Processus d’entreprise**, sélectionnez **Stock** pour rendre la règle applicable à un ordre de transfert.
-        3. Dans le champ **Groupe de taxes d'article**, sélectionnez **FULL**.
+        3. Dans le champ **Groupe de taxes d’article**, sélectionnez **FULL**.
 7. Complétez et publiez la nouvelle version de la fonctionnalité de taxe.
 
 

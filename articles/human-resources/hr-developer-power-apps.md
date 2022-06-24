@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4036378ca70089a9978a9bf5fb48c058a2064cdc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5fe8ecd368bc63eed43c86053084ca67ef9beac6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859515"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Extension avec Power Apps et Power Automate
 
@@ -33,7 +33,7 @@ ms.locfileid: "8689492"
 Cet article décrit quelques exemples de scénarios d’extensibilité pour Microsoft Dynamics 365 Human Resources utilisant Microsoft Power Apps et Microsoft Power Automate. Vous pouvez importer le module de solution associé à chaque exemple dans l’environnement de Power Apps. Vous pouvez ensuite utiliser les modules comme orientation ou comme point de départ pour implémenter les scénarios qui s’appliquent à votre organisation.
 
 > [!IMPORTANT]
-> Pour utiliser les modèles et les applications décrits dans cette rubrique « en l’état », veillez à les tester pour vous assurer qu’ils couvrent tous les scénarios spécifiques à votre implémentation.
+> Pour utiliser les modèles et les applications décrits dans cet article « en l’état », veillez à les tester pour vous assurer qu’ils couvrent tous les scénarios spécifiques à votre implémentation.
 
 ## <a name="prerequisites"></a>Conditions préalables
 

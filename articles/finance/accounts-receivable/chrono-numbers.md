@@ -1,6 +1,6 @@
 ---
 title: Numérotation chronologique des documents et des justificatifs
-description: Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les documents applicables et les justificatifs associés.
+description: Cet article explique comment paramétrer et utiliser des numéros chronologiques pour les documents applicables et les justificatifs associés.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876381"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numérotation chronologique des documents et des justificatifs
 
 [!include [banner](../includes/banner.md)]
 
 
-Dans certains pays, il est obligatoire de numéroter les documents et les justificatifs associés dans l’ordre chronologique. La chronologie doit être prise en charge par périodes. Tous les numéros qui appartiennent à des périodes antérieures doivent être inférieurs aux numéros qui appartiennent aux périodes ultérieures. Pour répondre à cette exigence, une fonctionnalité de numérotation chronologique a été implémentée. Cette rubrique explique comment configurer et utiliser des numéros chronologiques pour les documents applicables et les justificatifs associés.
+Dans certains pays, il est obligatoire de numéroter les documents et les justificatifs associés dans l’ordre chronologique. La chronologie doit être prise en charge par périodes. Tous les numéros qui appartiennent à des périodes antérieures doivent être inférieurs aux numéros qui appartiennent aux périodes ultérieures. Pour répondre à cette exigence, une fonctionnalité de numérotation chronologique a été implémentée. Cet article explique comment configurer et utiliser des numéros chronologiques pour les documents applicables et les justificatifs associés.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -86,9 +86,9 @@ Pour configurer la chronologie des groupes de souches de numéros, accédez à *
 
 ![Paramétrage des numéros chronologiques.](media/chrono-num-sequence-group-period.jpg)
 
-| Champ            | Description                                                                                                                                                                                                                                                                                                                                                                                    |
+| Champ            | Description                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Date d'effet  | La date de début de l’applicabilité du groupe de souches de numéros. |
+| Date d’effet  | La date de début de l’applicabilité du groupe de souches de numéros. |
 | Expiration      | La date de fin de l’applicabilité du groupe de souches de numéros. Si aucune date de fin n’est appliquée, sélectionnez **Jamais**. |
 | Groupe souche de numéros | Groupe de souches de numéros qui sera utilisé pour générer des numéros de document pendant la période. |
 | Groupe de souches de numéros d’origine | Ce code de groupe de souches de numéros est utilisé pour un filtrage supplémentaire si les documents ont déjà un groupe de souches de numéros *permanent* attribué. Une valeur vide est considérée comme une valeur spécifique. Si vous devez ignorer un groupe attribué au préalable, utilisez l’option **Par défaut** pour ce paramétrage. |

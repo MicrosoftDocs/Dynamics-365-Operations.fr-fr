@@ -1,6 +1,6 @@
 ---
-title: Gérer les demandes de congé dans Teams
-description: Cette rubrique montre comment demander des congés dans l’application Dynamics 365 Human Resources de Microsoft Teams.
+title: Gérer les demandes de congés dans Teams
+description: Cet article montre comment demander des congés dans l’application Dynamics 365 Human Resources de Microsoft Teams.
 author: twheeloc
 ms.date: 12/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3ba1ecc97183c147b46ea2396df78fcdce07c27e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4843e5bc0cc97f47e212c0cb4a6ddc4a2032f306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858125"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congés dans Teams
 
@@ -185,7 +185,7 @@ Dans Human Resources, sélectionnez **Réglages** puis **Options utilisateur**. 
 
 ![Options utilisateur Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
-Si vous rencontrez toujours des problèmes de traduction, faites-le nous savoir. Pour plus d'informations, voir [Obtenir de l’aide sur les applications de finances et d’opérations et Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Si vous rencontrez toujours des problèmes de traduction, faites-le nous savoir. Pour plus d’informations, voir [Obtenir de l’aide sur les applications de finances et d’opérations et Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erreur lors de l’approbation des demandes de congé dans l’application Human Resources dans Teams
 

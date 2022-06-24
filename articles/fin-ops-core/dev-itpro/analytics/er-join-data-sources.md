@@ -1,6 +1,6 @@
 ---
 title: Utilisation des sources de données JOIN dans des mises en correspondance de modèle ER pour obtenir des données de plusieurs tables d’application
-description: Cette rubrique explique comment utiliser les sources de données de type JOIN dans la gestion des états électroniques (ER).
+description: Cet article explique comment utiliser les sources de données de type JOIN dans la gestion des états électroniques (ER).
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845516"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Utilisation des sources de données JOIN pour obtenir des données de plusieurs tables d’application dans des mises en correspondance de modèle de gestion des états électroniques (ER)
 
@@ -40,15 +40,15 @@ Dans la source de données **Jointure** configurée, lorsque toutes les sources 
 > [!NOTE]
 > L’utilisation de la fonction **VALUEIN** dans des expressions ER qui indiquent les conditions pour joindre les enregistrements dans les sources de données de type Join n’est pas prise en charge encore. Visitez la page [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md) pour plus d’informations sur cette fonction.
 
-Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cette rubrique.
+Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cet article.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Exemple : Utilisation de sources de données JOIN dans des mises en correspondance de modèle ER
 
-La procédure suivante décrit comment l’administrateur système ou le développeur de gestion des états électroniques peut configurer une mise en correspondance de modèle de gestion d’états électroniques (ER) pour obtenir des données de plusieurs tables d’application simultanément à l’aide de sources de données de type **Join** pour améliorer les performances d’accès de données. Ces étapes peuvent être effectuées pour n’importe quelle société Dynamics 365 Finance ou Regulatory Configuration Service (RCS).
+La procédure suivante décrit comment l’administrateur système ou le développeur de gestion des états électroniques peut configurer une mise en correspondance de modèle de gestion d’états électroniques (ER) pour obtenir des données de plusieurs tables d’application simultanément à l’aide de sources de données de type **Join** pour améliorer les performances d’accès de données. Ces étapes peuvent être effectuées pour n’importe quelle société Dynamics 365 Finance ou Regulatory Configuration Services (RCS).
 
 ### <a name="prerequisites"></a>Conditions préalables
 
-Pour terminer les exemples de cette rubrique, vous devez avoir accès à l’un des éléments suivants en fonction du service utilisé pour effectuer cette procédure :
+Pour terminer les exemples de cet article, vous devez avoir accès à l’un des éléments suivants en fonction du service utilisé pour effectuer cette procédure :
 
 **Accès à Finance pour un des rôles suivants :**
 
@@ -210,7 +210,7 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 11. Cliquez sur **OK**.
 12. Vérifiez les fichiers générés.
 
-    ![Fichier généré par les paramètres de rapport électronique n'utilisant pas la source de données JOIN.](./media/GER-JoinDS-Set1Run.PNG)
+    ![Fichier généré par les paramètres de rapport électronique n’utilisant pas la source de données JOIN.](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>Analyser le suivi de l’exécution du format ER
 
@@ -224,7 +224,7 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
     - **ERSolutionTable** a été appelé autant de fois que vous avez d’enregistrements de version de configuration dans la table **ERSolutionVersionTable**, tandis que le nombre de ce type d’appels peut être réduit parfois pour l’amélioration des performances.
     - **ERVendorTable** a été appelé deux fois pour chaque enregistrement de version de configuration détecté dans la table **ERSolutionVersionTable**, tandis que le nombre de ce type d’appels peut être réduit également.
 
-    ![Statistiques d'exécution sur la page du concepteur de mappage de modèles ER.](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Statistiques d’exécution sur la page du concepteur de mappage de modèles ER.](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Fermez la page.
 
@@ -236,7 +236,7 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 4. Cliquez sur **OK**.
 5. Vérifiez les fichiers générés.
 
-    ![Fichier généré par les paramètres d'état électronique à l'aide de la source de données JOIN.](./media/GER-JoinDS-Set2Run.PNG)
+    ![Fichier généré par les paramètres d’état électronique à l’aide de la source de données JOIN.](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analyser le suivi de l’exécution du format ER
 
@@ -253,11 +253,11 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 
     - La base de données d’application a été appelée une fois pour calculer le nombre de versions de configuration utilisant des jointures ayant été configurées dans la source de données **Détails**.
 
-    ![Page du concepteur de mappage de modèle ER affichant les appels à la base de données d'application.](./media/GER-JoinDS-Set2Run3.PNG)
+    ![Page du concepteur de mappage de modèle ER affichant les appels à la base de données d’application.](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Limitations
 
-Comme vous pouvez le voir dans l’exemple de cette rubrique, la source de données **JOIN** peut être construite à partir de plusieurs sources de données qui décrivent les ensembles de données individuels des enregistrements qui doivent finalement être joints. Vous pouvez configurer ces sources de données à l’aide de la fonction de l’ER intégré [FILTER](er-functions-list-filter.md). Lorsque vous configurez la source de données afin qu’elle soit appelée au-delà de la source de données **JOIN**, vous pouvez utiliser des plages de sociétés dans le cadre de la condition de sélection des données. La mise en œuvre initiale de la source de données **JOIN** ne prend pas en charge les sources de données de ce type. Par exemple, lorsque vous appelez une source de données basée sur un [FILTRE](er-functions-list-filter.md) dans le cadre de l’exécution d’une source de données **JOIN**, si la source de données appelée contient des plages de sociétés dans le cadre de la condition de sélection des données, une exception se produit.
+Comme vous pouvez le voir dans l’exemple de cet article, la source de données **JOIN** peut être construite à partir de plusieurs sources de données qui décrivent les ensembles de données individuels des enregistrements qui doivent finalement être joints. Vous pouvez configurer ces sources de données à l’aide de la fonction de l’ER intégré [FILTER](er-functions-list-filter.md). Lorsque vous configurez la source de données afin qu’elle soit appelée au-delà de la source de données **JOIN**, vous pouvez utiliser des plages de sociétés dans le cadre de la condition de sélection des données. La mise en œuvre initiale de la source de données **JOIN** ne prend pas en charge les sources de données de ce type. Par exemple, lorsque vous appelez une source de données basée sur un [FILTRE](er-functions-list-filter.md) dans le cadre de l’exécution d’une source de données **JOIN**, si la source de données appelée contient des plages de sociétés dans le cadre de la condition de sélection des données, une exception se produit.
 
 Dans Microsoft Dynamics 365 Finance version 10.0.12 (août 2020), vous pouvez utiliser des plages de sociétés dans le cadre de la condition de sélection des données dans les sources de données basées sur le [FILTRE](er-functions-list-filter.md) qui sont appelées dans le cadre de l’exécution d’une source de données **JOIN**. En raison des limites de l’application configuratrice [query](../dev-ref/xpp-library-objects.md#query-object-model), les gammes d’entreprise ne sont prises en charge que pour la première source de données **JOIN**.
 

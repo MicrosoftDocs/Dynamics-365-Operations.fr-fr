@@ -1,6 +1,6 @@
 ---
-title: Syntaxe de requête et de filtrage avancée
-description: Cette rubrique décrit les options de filtrage et de requête pour la boîte de dialogue Filtre/tri avancé et l’opérateur de correspondances dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
+title: Syntaxe de requête et de filtrage avancé
+description: Cet article décrit les options de filtrage et de requête pour la boîte de dialogue Filtre/tri avancé et l’opérateur de correspondances dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
 author: jasongre
 ms.date: 03/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856916"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancée
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070007"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l’opérateur de **correspondances** dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
+Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l’opérateur de **correspondances** dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
 
 ## <a name="advanced-query-syntax"></a>Syntaxe de requête avancée
 

@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources 5 octobre 2021
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 5 octobre 2021.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 5 octobre 2021.
 author: marcelbf
 ms.date: 10/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cc8cd8616f1b82258fccbb2b41d5e72a90aaed63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845110"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 5 octobre 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Microsoft Dynamics 365 Human Resources.
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Microsoft Dynamics 365 Human Resources.
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -49,14 +49,14 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui auront été intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
 | Numéro du problème | Problème | Description |
 |---|---|---|
-| 598896 | Le montant de l'employé ne s'affiche qu'une fois que l'employé a terminé l'inscription | Sur la page **Libre-service pour les employés**, le montant de l'employé pour l'avantage n'était pas affiché. Le montant de l'employé s'affiche désormais sur la page **Libre-service des avantages**.  |
-| 613440 | Impossible d'exporter les données de **Gestion de données** | Lors de l'exportation des données d'un projet dans **Gestion de données**, l'exportation échoue de manière inattendue. |
+| 598896 | Le montant de l’employé ne s’affiche qu’une fois que l’employé a terminé l’inscription | Sur la page **Libre-service pour les employés**, le montant de l’employé pour l’avantage n’était pas affiché. Le montant de l’employé s’affiche désormais sur la page **Libre-service des avantages**.  |
+| 613440 | Impossible d’exporter les données de **Gestion de données** | Lors de l’exportation des données d’un projet dans **Gestion de données**, l’exportation échoue de manière inattendue. |
 | 618327 | Les périodes fermées et futures sont affichées dans la page **Paramètres de rapports** du relevé des avantages. | Lors de la navigation vers le **Relevé des avantages** dans **Espace collaborateur**, la page **Paramètres du rapport** affiche les raccourcis **Enregistrements à inclure** et **Exécuter en arrière-plan**. Ces sections ont été supprimées.|
-| 618326 | Une page **Paramètres du rapport** inappropriée s'affiche dans **Espace collaborateur** pour le relevé des avantages.| Lors de la navigation vers la page de destination **Rapport concernant les relevés d'avantages**, l'utilisateur pouvait sélectionner des périodes de régimes d'avantages sociaux qui sont clôturées ou à date future, ce qui entraîne une page blanche. Seule la période actuelle du régime d'avantages sociaux doit s'afficher dans la liste. |
+| 618326 | Une page **Paramètres du rapport** inappropriée s’affiche dans **Espace collaborateur** pour le relevé des avantages.| Lors de la navigation vers la page de destination **Rapport concernant les relevés d’avantages**, l’utilisateur pouvait sélectionner des périodes de régimes d’avantages sociaux qui sont clôturées ou à date future, ce qui entraîne une page blanche. Seule la période actuelle du régime d’avantages sociaux doit s’afficher dans la liste. |
 
 ## <a name="in-preview"></a>En mode aperçu
 
@@ -72,7 +72,7 @@ Les nouvelles fonctions suivantes sont en version préliminaire. Pour plus d’i
 
 | Problème | Description |
 |---|---|
-|Erreur lors de l'envoi du rapport par e-mail à l'aide de la **destination du rapport GER** | Le relevé d'avantages peut être configuré pour utiliser les paramètres de courrier électronique dans la page **Destinations du rapport GER**. Lors de la configuration et de l'impression du rapport, l'utilisateur recevra une erreur de formatage et le relevé de prestations ne sera pas envoyé.|
+|Erreur lors de l’envoi du rapport par e-mail à l’aide de la **destination du rapport GER** | Le relevé d’avantages peut être configuré pour utiliser les paramètres de courrier électronique dans la page **Destinations du rapport GER**. Lors de la configuration et de l’impression du rapport, l’utilisateur recevra une erreur de formatage et le relevé de prestations ne sera pas envoyé.|
 
 ## <a name="feature-management-changes"></a>Changements de la gestion des fonctionnalités
 

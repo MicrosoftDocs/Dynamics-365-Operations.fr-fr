@@ -1,6 +1,6 @@
 ---
 title: Mettre en place l’intégration directe de FatturaPA italienne avec SDI
-description: Cette rubrique fournit des informations qui vous aideront à démarrer avec la facturation électronique pour l’Italie et à configurer l’intégration directe de FatturaPA italien avec le système Exchange (SDI).
+description: Cet article fournit des informations qui vous aideront à démarrer avec la facturation électronique pour l’Italie et à configurer l’intégration directe de FatturaPA italien avec le système Exchange (SDI).
 author: abaryshnikov
 ms.date: 01/15/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853190"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Mettre en place l’intégration directe de FatturaPA italienne avec SDI
 
@@ -24,23 +24,23 @@ ms.locfileid: "7984801"
 > [!IMPORTANT]
 > La Facturation électronique pour l’Italie peut ne pas prendre actuellement en charge toutes les fonctions disponibles pour les factures électroniques dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 
-Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Italie dans Finance et Supply Chain Management. Elle vous guide tout au long des étapes de configuration spécifiques au pays/région dans Regulatory Configuration Services (RCS). Ces étapes complètent les étapes décrites dans [Démarrer la facturation électronique](e-invoicing-get-started.md).
+Cet article donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Italie dans Finance et Supply Chain Management. Elle vous guide tout au long des étapes de configuration spécifiques au pays/région dans Regulatory Configuration Services (RCS). Ces étapes complètent les étapes décrites dans [Démarrer la facturation électronique](e-invoicing-get-started.md).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant d’effectuer les étapes décrites dans cette rubrique, les conditions préalables suivantes doivent être respectées :
+Avant d’effectuer les étapes décrites dans cet article, les conditions préalables suivantes doivent être respectées :
 
 - Effectuez les étapes de [Démarrer l’administration du service de Facturation électronique](e-invoicing-get-started.md).
-- Importer la fonctionnalité de facturation électronique **FatturaPA italienne (IT)** dans RCS à partir du référentiel mondial. Pour plus d’informations, consultez la section [Importer une fonctionnalité de facturation électronique depuis le fournisseur de configuration Microsoft](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) de la rubrique "Commencer avec la facturation électronique" mentionnée précédemment.
-- Ajoutez des liens à partir des certificats requis vers l’environnement de service. Les certificats requis incluent le certificat de signature numérique, le certificat de l’autorité de certification (CA) et le certificat des clients. Pour plus d’informations, voir la section [Créer un secret de certificat numérique](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret), de la rubrique "Prise en main de l’administration du service de Facturation électronique".
+- Importer la fonctionnalité de facturation électronique **FatturaPA italienne (IT)** dans RCS à partir du référentiel mondial. Pour plus d’informations, consultez la section [Importer une fonctionnalité de facturation électronique depuis le fournisseur de configuration Microsoft](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) de l’article "Commencer avec la facturation électronique" mentionnée précédemment.
+- Ajoutez des liens à partir des certificats requis vers l’environnement de service. Les certificats requis incluent le certificat de signature numérique, le certificat de l’autorité de certification (CA) et le certificat des clients. Pour plus d’informations, voir la section [Créer un secret de certificat numérique](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret), de l’article « Prise en main de l’administration du service de Facturation électronique ».
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>Configuration spécifique au pays pour la fonctionnalité de Facturation électronique FatturaPA (IT) italienne
 
 Effectuez les procédures suivantes avant de déployer la configuration de l’application sur votre application Finance ou Supply Chain Management connectée.
 
-Cette section complète la section [Configuration du paramétrage de l’application spécifique au pays](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) de la rubrique "Mise en route de la Facturation électronique".
+Cette section complète la section [Configuration du paramétrage de l’application spécifique au pays](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) de l’article « Mise en route de la Facturation électronique ».
 
-### <a name="create-a-new-feature"></a>Créer une fonctionnalité
+### <a name="create-a-new-feature"></a>Créer une nouvelle fonctionnalité
 
 1. Connectez-vous à RCS.
 2. Dans l’espace de travail **Déclaration électronique**, dans la section **Fournisseurs de configuration**, marquez le fournisseur de configuration de votre entreprise comme actif.
@@ -87,8 +87,8 @@ Cette section complète la section [Configuration du paramétrage de l’applica
 
 ### <a name="deploy-the-feature"></a>Déployer la fonctionnalité
 
-1. Terminez, publiez et déployez la fonctionnalité dans l’environnement de service. Pour plus d’informations, consultez la section [Déployer la fonctionnalité de facturation électronique dans l’environnement de service](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) de la rubrique "Commencer avec la facturation électronique" mentionnée précédemment.
-2. Déployez la fonctionnalité sur l’application connectée. Pour plus d’informations, consultez la section [Déployer la fonctionnalité de facturation électronique dans l’application connectée](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) de la rubrique "Commencer avec la facturation électronique" mentionnée précédemment.
+1. Terminez, publiez et déployez la fonctionnalité dans l’environnement de service. Pour plus d’informations, consultez la section [Déployer la fonctionnalité de facturation électronique dans l’environnement de service](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) de l’article « Commencer avec la facturation électronique » mentionnée précédemment.
+2. Déployez la fonctionnalité sur l’application connectée. Pour plus d’informations, consultez la section [Déployer la fonctionnalité de facturation électronique dans l’application connectée](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) de l’article « Commencer avec la facturation électronique » mentionnée précédemment.
 
 ### <a name="set-up-finance"></a>Configurer Finance
 

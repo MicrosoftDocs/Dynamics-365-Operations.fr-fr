@@ -1,6 +1,6 @@
 ---
-title: Télécharger les configurations des états électroniques à partir de Lifecycle Services
-description: Cette rubrique explique comment télécharger des configurations d’états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
+title: Télécharger les configurations d’états électroniques à partir de Lifecycle Services
+description: Cet article explique comment télécharger des configurations d’états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 ms.date: 08/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ea603d01d05e98ac69d5a0d12802b5f23ee34793bf4c9b4f885f0e4303f77d2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ba720f997981e85ea08d532f23341a838533ac4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885292"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Télécharger les configurations d’états électroniques à partir de Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment télécharger la dernière version de [Configurations de la génération d’états électroniques (ER)](general-electronic-reporting.md#Configuration) de la [Bibliothèque de ressources partagée](../lifecycle-services/asset-library.md) dans Microsoft Dynamics Lifecycle Services (LCS).
+Cet article explique comment télécharger la dernière version de [Configurations de la génération d’états électroniques (ER)](general-electronic-reporting.md#Configuration) de la [Bibliothèque de ressources partagée](../lifecycle-services/asset-library.md) dans Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!IMPORTANT]
 > L’utilisation de LCS comme référentiel de stockage pour les configurations ER est en cours [d’abandon](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Pour plus d’informations, voir [Regulatory Configuration Service (RCS) – Abandon du stockage Lifecycle Services (LCS)](../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -70,7 +70,7 @@ Cette rubrique explique comment télécharger la dernière version de [Configura
     [![Page du référentiel de configuration.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
-> Selon les paramètres d’états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d’incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d’utiliser la version de configuration importée. Pour plus d’informations, voir la liste des rubriques associées pour cette rubrique.
+> Selon les paramètres d’états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d’incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d’utiliser la version de configuration importée. Pour plus d’informations, voir la liste des rubriques associées pour cet article.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

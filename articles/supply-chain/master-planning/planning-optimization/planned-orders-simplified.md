@@ -1,6 +1,6 @@
 ---
 title: Ordres planifiés simplifiés
-description: Cette rubrique décrit comment afficher, gérer et confirmer les ordres planifiés à l’aide de la page Ordres planifiés simplifiés.
+description: Cet article décrit comment afficher, gérer et confirmer les ordres planifiés à l’aide de la page Ordres planifiés simplifiés.
 author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b039aa5481b835d3523b86c4ea88afff6a96ba8b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5f207fa1edb11d05910e22732cf54e100e4e3489
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887368"
 ---
 # <a name="planned-orders-simplified"></a>Ordres planifiés simplifiés
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment afficher, gérer et confirmer les ordres planifiés à l’aide de la page **Ordres planifiés simplifiés**.
+Cet article décrit comment afficher, gérer et confirmer les ordres planifiés à l’aide de la page **Ordres planifiés simplifiés**.
 
 La page **Ordres planifiés simplifiés** est une version simplifiée de la page **Ordres planifiés**. Elle offre moins d’options, mais est plus rapide à utiliser lorsque tout ce que vous avez à faire consiste à examiner, approuver et confirmer vos ordres planifiés.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Activez cette fonctionnalité pour votre système
 
-Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Ordres planifiés simplifiés*.
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cet article, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Ordres planifiés simplifiés*.
 
 ## <a name="view-manage-and-firm-planned-orders"></a>Afficher, gérer et confirmer les ordres prévisionnels
 

@@ -1,6 +1,6 @@
 ---
 title: Règles d’élimination
-description: Cette rubrique fournit des informations sur les règles d’élimination et les différentes options permettant de générer un état sur les éliminations.
+description: Cet article fournit des informations sur les règles d’élimination et les différentes options permettant de générer un état sur les éliminations.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864308"
 ---
 # <a name="elimination-rules"></a>Règles d’élimination
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les règles d’élimination et les différentes options permettant de générer un état sur les éliminations.
+Cet article fournit des informations sur les règles d’élimination et les différentes options permettant de générer un état sur les éliminations.
 
 Les transactions d’élimination sont nécessaires lorsqu’une entité juridique parente fait des affaires avec une ou plusieurs entités juridiques filiales et utilise la génération d’états financiers consolidés. Les tableaux d’analyse consolidés doivent inclure uniquement les transactions qui surviennent entre l’organisation consolidée et tout autre entité extérieure. Par conséquent, les transactions entre les entités juridiques faisant partie d’une même organisation doivent être supprimées ou éliminées de la comptabilité, afin qu’elles ne figurent pas dans les états financiers. Il existe plusieurs manières de générer un état sur les éliminations :
 
@@ -34,7 +34,7 @@ Les transactions d’élimination sont nécessaires lorsqu’une entité juridiq
 -   La génération d’états financiers peut être utilisée pour afficher les comptes et les dimensions d’élimination sur une ligne ou une colonne spécifique.
 -   Une entité juridique distincte peut être utilisée pour valider les entrées de transaction manuelles pour suivre les éliminations.
 
-Cette rubrique est consacrée aux règles d’élimination traitées dans une société de consolidation ou d’élimination. Vous pouvez paramétrer des règles d’élimination pour créer des transactions d’élimination au sein d’une entité juridique spécifiée comme entité juridique cible des éliminations. Cette entité juridique de destination est appelée entité juridique d’élimination. Les journaux d’élimination peuvent être générés au cours du processus de consolidation ou à l’aide d’une proposition de journal d’élimination. Avant de paramétrer des règles d’élimination, vous devez vous familiariser avec les termes suivants :
+Cet article est consacré aux règles d’élimination traitées dans une société de consolidation ou d’élimination. Vous pouvez paramétrer des règles d’élimination pour créer des transactions d’élimination au sein d’une entité juridique spécifiée comme entité juridique cible des éliminations. Cette entité juridique de destination est appelée entité juridique d’élimination. Les journaux d’élimination peuvent être générés au cours du processus de consolidation ou à l’aide d’une proposition de journal d’élimination. Avant de paramétrer des règles d’élimination, vous devez vous familiariser avec les termes suivants :
 
 -   **Entité juridique source** – Entité juridique dans laquelle les montants qui sont éliminés ont été validés.
 -   **Entité juridique cible** – Entité juridique au sein de laquelle les règles d’élimination sont validées.

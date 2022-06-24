@@ -1,6 +1,6 @@
 ---
 title: Migration de type de données de devise pour la double écriture
-description: Cette rubrique décrit comment modifier le nombre de décimales prises en charge par la double écriture pour la devise.
+description: Cet article décrit comment modifier le nombre de décimales prises en charge par la double écriture pour la devise.
 author: RamaKrishnamoorthy
 ms.date: 12/08/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855585"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migration de type de données de devise pour la double écriture
 
@@ -29,7 +29,7 @@ Le processus de modification du nombre de décimales comporte deux étapes :
 1. Demander la migration à partir de Microsoft.
 2. Modifier le nombre d’emplacements des décimales dans Dataverse.
 
-L’application Finances et Opérations et Dataverse doivent prendre en charge le même nombre de décimales dans les valeurs monétaires. Sinon, une perte de données peut se produire lorsque ces informations sont synchronisées entre les applications. Le processus de migration reconfigure la façon dont les devises et les taux de change sont stockés, mais il ne modifie aucune donnée. Une fois la migration terminée, le nombre de décimales pour les codes de devise et la tarification peut être augmenté, et les données que les utilisateurs saisissent et consultent peuvent avoir une précision décimale plus élevée.
+L’application de finances et d’opérations et Dataverse doivent prendre en charge le même nombre de décimales dans les valeurs monétaires. Sinon, une perte de données peut se produire lorsque ces informations sont synchronisées entre les applications. Le processus de migration reconfigure la façon dont les devises et les taux de change sont stockés, mais il ne modifie aucune donnée. Une fois la migration terminée, le nombre de décimales pour les codes de devise et la tarification peut être augmenté, et les données que les utilisateurs saisissent et consultent peuvent avoir une précision décimale plus élevée.
 
 La migration est facultative. Si vous pouvez bénéficier de la prise en charge de davantage de décimales, nous vous recommandons d’envisager la migration. Les organisations qui ne nécessitent pas de valeurs comportant plus de quatre décimales n’ont pas à migrer.
 
@@ -37,7 +37,7 @@ La migration est facultative. Si vous pouvez bénéficier de la prise en charge 
 
 Le stockage des colonnes de devises existantes dans Dataverse ne peut pas prendre en charge plus de quatre décimales. Par conséquent, pendant le processus de migration, les valeurs monétaires sont copiées dans de nouvelles colonnes internes de la base de données. Ce processus se produit en continu jusqu’à ce que toutes les données aient été migrées. En interne, à la fin de la migration, les nouveaux types de stockage remplacent les anciens types de stockage, mais les valeurs des données restent inchangées. Les colonnes monétaires peuvent alors prendre en charge jusqu’à 10 décimales. Pendant le processus de migration, Dataverse peut continuer à être utilisé sans interruption.
 
-Dans le même temps, les taux de change sont modifiés de sorte qu’ils prennent en charge jusqu’à 12 décimales au lieu de la limite actuelle de 10. Cette modification est nécessaire pour que le nombre de décimales soit le même dans l’application Finances et Opérations et Dataverse.
+Dans le même temps, les taux de change sont modifiés de sorte qu’ils prennent en charge jusqu’à 12 décimales au lieu de la limite actuelle de 10. Cette modification est nécessaire pour que le nombre de décimales soit le même dans l’application de finances et d’opérations et Dataverse.
 
 La migration ne modifie aucune donnée. Une fois les colonnes de devise et de taux de change converties, les administrateurs peuvent configurer le système pour utiliser jusqu’à 10 décimales pour les colonnes de devise en spécifiant le nombre de décimales pour chaque devise de transaction et pour la tarification.
 

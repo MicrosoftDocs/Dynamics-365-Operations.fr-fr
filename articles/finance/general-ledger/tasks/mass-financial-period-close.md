@@ -1,6 +1,6 @@
 ---
 title: Secteur de clôture de période comptable
-description: Cette rubrique indique comment mettre une période en attente ou clôturer définitivement une période ou plusieurs entités juridiques simultanément.
+description: Cet article indique comment mettre une période en attente ou clôturer définitivement une période ou plusieurs entités juridiques simultanément.
 author: aprilolson
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0acaad0d6e89fe7c81537e554b36ffb210e5abad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872439"
 ---
 # <a name="mass-financial-period-close"></a>Secteur de clôture de période comptable
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique indique comment mettre une période en attente ou clôturer définitivement une période ou plusieurs entités juridiques simultanément. En outre, la tâche indique comment limiter la validation de groupe d’utilisateurs à des modules spécifiques.
+Cet article indique comment mettre une période en attente ou clôturer définitivement une période ou plusieurs entités juridiques simultanément. En outre, la tâche indique comment limiter la validation de groupe d’utilisateurs à des modules spécifiques.
 
 1. Dans le volet de navigation, accédez à **Comptabilité > Clôture de période > Calendriers de comptabilité**. Notez que la liste des entités juridiques affichées dépend du calendrier fiscal sélectionné dans la page. Seules les entités juridiques qui utilisent le calendrier fiscal sélectionné sont affichées.
 2. Sélectionnez **Modifier**.

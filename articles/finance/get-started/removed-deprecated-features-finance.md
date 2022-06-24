@@ -1,6 +1,6 @@
 ---
-title: Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
-description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Finance.
+title: Fonctions supprimées ou déconseillées dans Dynamics 365 Finance
+description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Finance.
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846652"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Finance.
+Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Finance.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
@@ -128,8 +128,8 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Remplacé par le nouveau référentiel global RCS (Regulatory Configuration Service) |
-| **Remplacé par une autre fonctionnalité ?**   | Oui |
-| **Zones de produit affectées**         | Dynamics 365 Finance, produits Supply Chain Management et Project Operations|
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées**         | Produits Dynamics 365 Finance, Supply Chain Management et Project Operations|
 | **Option de déploiement**              | Tous |
 | **État**                         | Obsolète : à partir du 1er avril 2022, nous prévoyons de ne plus prendre en charge le référentiel Lifecycle Services (LCS) Microsoft Dynamics comme option de stockage pour les configurations de gestion des états électroniques. Les nouvelles configurations ER Microsoft seront publiées pour téléchargement exclusivement à partir du référentiel global. Le référentiel global est accessible à partir des produits Dynamics 365 et RCS. Pour plus d’informations, consultez [Importer des configurations ER depuis RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) et [Regulatory Configuration Service (RCS) – Abandon du stockage Lifecycle Services (LCS)](../localizations/rcs-lcs-repo-dep-faq.md). |
 

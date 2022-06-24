@@ -1,6 +1,6 @@
 ---
 title: Commandes prévisionnelles confirmées
-description: Cette rubrique explique comment confirmer des commandes prévisionnelles. Lorsque des commandes prévisionnelles sont confirmées, elles deviennent des commandes fournisseur, des ordres de transfert ou des ordres de fabrication réels.
+description: Cet article explique comment confirmer des commandes prévisionnelles. Lorsque des commandes prévisionnelles sont confirmées, elles deviennent des commandes fournisseur, des ordres de transfert ou des ordres de fabrication réels.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857516"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -29,11 +29,11 @@ Il existe trois méthodes pour confirmer les commandes prévisionnelles :
 - **Confirmation automatique** – Définissez une plage horaire de confirmation par défaut pour les groupes de couverture, les éléments individuels et les combinaisons d’éléments et de plans directeurs. Ensuite, pendant les cycles de planification générale, les commandes prévisionnelles seront automatiquement confirmées si la date de commande se situe dans la plage de temps spécifiée pour la confirmation.
 - **Confirmation basée sur les requêtes** – Définissez une requête pour sélectionner les commandes prévisionnelles en fonction de leurs propriétés. Vous pouvez configurer un traitement par lots pour exécuter la requête et confirmer les commandes correspondantes selon un calendrier régulier.
 
-Cette rubrique décrit chaque méthode en détail.
+Cet article décrit chaque méthode en détail.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Activer les fonctionnalités décrites dans cette rubrique
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Activer les fonctionnalités décrites dans cet article
 
-La plupart des fonctionnalités de commandes prévisionnelles sont disponibles dans toutes les installations standard de Microsoft Dynamics 365 Supply Chain Management qui utilisent l’optimisation de la planification. Cependant, certaines des fonctionnalités décrites dans cette rubrique doivent être activées dans la gestion des fonctionnalités avant de pouvoir être utilisées.
+La plupart des fonctionnalités de commandes prévisionnelles sont disponibles dans toutes les installations standard de Microsoft Dynamics 365 Supply Chain Management qui utilisent l’optimisation de la planification. Cependant, certaines des fonctionnalités décrites dans cet article doivent être activées dans la gestion des fonctionnalités avant de pouvoir être utilisées.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activer ou désactiver la confirmation de la mise en parallèle des commandes prévisionnelles
 
@@ -97,7 +97,7 @@ La confirmation automatique vous permet de confirmer des commandes prévisionnel
 > Les commandes dérivées (c’est-à-dire les commandes d’achat de sous-traitance) confirmées afficheront un statut *En cours de révision* si le suivi des modifications de dossier est activé.
 
 > [!IMPORTANT]
-> Avant que la fonctionnalité décrite dans cette section puisse être utilisée avec Optimisation de la planification, la fonctionnalité [*Confirmation automatique de l’Optimisation de la planification*](#enable-features) doit être activée dans votre système, comme décrit au début de cette rubrique. La confirmation automatique peut toujours être utilisée avec le moteur de planification principal intégré.
+> Avant que la fonctionnalité décrite dans cette section puisse être utilisée avec Optimisation de la planification, la fonctionnalité [*Confirmation automatique de l’Optimisation de la planification*](#enable-features) doit être activée dans votre système, comme décrit au début de cet article. La confirmation automatique peut toujours être utilisée avec le moteur de planification principal intégré.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmation automatique avec l’option Optimisation de la planification par rapport au moteur de planification intégré
 
@@ -130,7 +130,7 @@ Une confirmation basée une requête vous permet de planifier une confirmation e
 Vous pouvez combiner la confirmation automatique avec celle basée sur une requête. Par exemple, une tâche de confirmation basée sur une requête a une plage de temps plus longue que celle d’une configuration de couverture de confirmation automatique correspondante. Par conséquent, la tâche de confirmation basée sur une requête traitera ses commandes prévisionnelles avant que la confirmation automatique ne soit déclenchée. Vous pouvez profiter de ce comportement pour planifier des commandes pour des fournisseurs spécifiques différemment des commandes pour des produits similaires d’autres fournisseurs.
 
 > [!IMPORTANT]
-> Avant que la fonctionnalité décrite dans cette section puisse être utilisée, la fonctionnalité [*Confirmation des commandes prévisionnelles avec filtrage*](#enable-features) doit être activée dans votre système, comme décrit au début de cette rubrique.
+> Avant que la fonctionnalité décrite dans cette section puisse être utilisée, la fonctionnalité [*Confirmation des commandes prévisionnelles avec filtrage*](#enable-features) doit être activée dans votre système, comme décrit au début de cet article.
 
 Pour confirmer une commande prévisionnelle à l’aide du processus de confirmation basé sur une requête, procédez comme suit :
 

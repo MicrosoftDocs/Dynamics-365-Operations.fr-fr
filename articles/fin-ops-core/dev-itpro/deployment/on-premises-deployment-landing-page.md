@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil de déploiement local
-description: Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site.
+description: Cet article fournit des informations et des liens vers du contenu sur les déploiements sur site.
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867410"
 ---
 # <a name="on-premises-deployment-home-page"></a>Page d’accueil de déploiement local
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d’un déploiement dans le cloud. Cette rubrique fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
+Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d’un déploiement dans le cloud. Cet article fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
 
 ## <a name="get-started"></a>Mise en route
 - [Vue d’ensemble de déploiement local](on-premises-overview.md)

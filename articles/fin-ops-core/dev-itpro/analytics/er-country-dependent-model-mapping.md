@@ -1,6 +1,6 @@
 ---
 title: Configurer les mises en correspondance de modèle de gestion des états électroniques selon le contexte du pays
-description: Cette rubrique explique comment vous pouvez configurer les mises en correspondance de modèle de gestion des états électroniques de telle sorte qu’elles dépendent du contexte du pays/de la région de l’entité juridique qui contrôle leur utilisation.
+description: Cet article explique comment vous pouvez configurer les mises en correspondance de modèle de gestion des états électroniques de telle sorte qu’elles dépendent du contexte du pays/de la région de l’entité juridique qui contrôle leur utilisation.
 author: NickSelin
 ms.date: 11/11/2019
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883873"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurer les mises en correspondance de modèle de gestion des états électroniques selon le contexte du pays
 
 [!include[banner](../includes/banner.md)]
 
-Vous pouvez configurer les mises en correspondance du modèle de gestion des états électroniques de telle sorte qu’elles implémentent un modèle de données de gestion des états électroniques, mais qu’elles soient spécifiques à Dynamics 365 Finance. Cette rubrique explique comment concevoir plusieurs mises en correspondance de modèle de gestion des états électroniques pour contrôler comment elles sont utilisées par les formats de gestion des états électroniques correspondants qui sont exécutés par des sociétés avec différents contextes de pays/région.
+Vous pouvez configurer les mises en correspondance du modèle de gestion des états électroniques de telle sorte qu’elles implémentent un modèle de données de gestion des états électroniques, mais qu’elles soient spécifiques à Dynamics 365 Finance. Cet article explique comment concevoir plusieurs mises en correspondance de modèle de gestion des états électroniques pour contrôler comment elles sont utilisées par les formats de gestion des états électroniques correspondants qui sont exécutés par des sociétés avec différents contextes de pays/région.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Pour exécuter les exemples décrits dans cette rubrique, vous devez disposer de l’accès suivant :
+Pour exécuter les exemples décrits dans cet article, vous devez disposer de l’accès suivant :
 
 - Accès à Finance pour un des rôles suivants :
     - Développeur d’états électroniques
@@ -39,14 +39,14 @@ Pour exécuter les exemples décrits dans cette rubrique, vous devez disposer de
 
 - Accès à l’instance de Regulatory Configuration Service (RCS) qui a été mise en service pour le même locataire que Finance, pour un des rôles suivants :
     - Développeur d’états électroniques
-    - Consultant fonctionnel des états électroniques
+    - Consultant fonctionnel de gestion des états électroniques
     - Administrateur système
 
-Certaines étapes de cette rubrique requièrent l’exécution d’un format de gestion des états électroniques. Dans certains cas, l’exécution d’un format de gestion des états électroniques est concerné par le contexte du pays/de la région de la société à laquelle vous êtes actuellement connecté. Vous pouvez exécuter un format de gestion des états électroniques dans l’instance RCS actuelle si la société qui a le contexte de pays/région requis est disponible dans RCS. Sinon, vous devez télécharger une version terminée de la mise en correspondance du modèle de gestion des états électroniques et des configurations du format de gestion des états électroniques qui utilisent le modèle de données des états électroniques dans votre instance Finance, puis exécutez le format de gestion des états électroniques dans cette instance Finance. Pour plus d’informations sur l’importation des configurations résidant dans RCS dans une instance Finance, voir [Importer les configurations depuis RCS](rcs-download-configurations.md).
+Certaines étapes de cet article requièrent l’exécution d’un format de gestion des états électroniques. Dans certains cas, l’exécution d’un format de gestion des états électroniques est concerné par le contexte du pays/de la région de la société à laquelle vous êtes actuellement connecté. Vous pouvez exécuter un format de gestion des états électroniques dans l’instance RCS actuelle si la société qui a le contexte de pays/région requis est disponible dans RCS. Sinon, vous devez télécharger une version terminée de la mise en correspondance du modèle de gestion des états électroniques et des configurations du format de gestion des états électroniques qui utilisent le modèle de données des états électroniques dans votre instance Finance, puis exécutez le format de gestion des états électroniques dans cette instance Finance. Pour plus d’informations sur l’importation des configurations résidant dans RCS dans une instance Finance, voir [Importer les configurations depuis RCS](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Cas de mise en correspondance d’un seul modèle
 
-Suivez les étapes de l’[Annexe 1](#appendix1) de cette rubrique pour concevoir les composants de gestion des états électroniques requis. Vous avez désormais la configuration de mise en correspondance de modèle **Mise en correspondance (Général)** qui contient la mise en correspondance du modèle pour la définition **Point d’entrée 1**.
+Suivez les étapes de l’[Annexe 1](#appendix1) de cet article pour concevoir les composants de gestion des états électroniques requis. Vous avez désormais la configuration de mise en correspondance de modèle **Mise en correspondance (Général)** qui contient la mise en correspondance du modèle pour la définition **Point d’entrée 1**.
 
 ![Page des configurations ER, Format pour apprendre la configuration des mappages.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Sachez que le navigateur Internet propose de télécharger le fichier texte qui 
 
 ## <a name="multiple-shared-model-mappings-case"></a>Cas de plusieurs mises en correspondance de modèle partagé
 
-Suivez les étapes de l’[Annexe 2](#appendix2) de cette rubrique pour concevoir les composants de gestion des états électroniques requis. Vous avez désormais les configurations de mise en correspondance de modèle **Mise en correspondance (Général)** et **Mise en correspondance (Général) personnalisée** qui contient la mise en correspondance du modèle pour la définition **Point d’entrée 1**.
+Suivez les étapes de l’[Annexe 2](#appendix2) de cet article pour concevoir les composants de gestion des états électroniques requis. Vous avez désormais les configurations de mise en correspondance de modèle **Mise en correspondance (Général)** et **Mise en correspondance (Général) personnalisée** qui contient la mise en correspondance du modèle pour la définition **Point d’entrée 1**.
 
 ![Page des configurations ER, Mappage de la configuration personnalisée générale.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -71,7 +71,7 @@ Suivez les étapes de l’[Annexe 2](#appendix2) de cette rubrique pour concevo
 
 Notez que l’exécution du format de gestion des états électroniques sélectionné est un échec. Un message d’erreur vous informe que plus d’une mise en correspondance de modèle existe pour le modèle **Modèle pour apprendre les mises en correspondances** et la définition **Point d’entrée 1** dans les configurations de mise en correspondance de modèle **Mise en correspondance (Général)** et **Mise en correspondance (Général) personnalisée**. Le message vous recommande également de sélectionner une de ces configurations en tant que configuration par défaut.
 
-![Page de configuration ER avec message d'erreur.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![Page de configuration ER avec message d’erreur.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Définir une configuration de mise en correspondance par défaut
 
@@ -97,7 +97,7 @@ Notez que l’exécution du format de gestion des états électroniques sélecti
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Cas de plusieurs mises en correspondance de modèle mixte
 
-Suivez les étapes de l’[Annexe 3](#appendix3) de cette rubrique pour concevoir les composants de gestion des états électroniques requis. Vous avez désormais les configurations de **Mise en correspondance (Général)**, **Mise en correspondance (Général) personnalisée** et **Mise en correspondance de modèle (FR)** qui contiennent la mise en correspondance du modèle pour la définition **Point d’entrée 1**.
+Suivez les étapes de l’[Annexe 3](#appendix3) de cet article pour concevoir les composants de gestion des états électroniques requis. Vous avez désormais les configurations de **Mise en correspondance (Général)**, **Mise en correspondance (Général) personnalisée** et **Mise en correspondance de modèle (FR)** qui contiennent la mise en correspondance du modèle pour la définition **Point d’entrée 1**.
 
 Notez que la version 1 de la configuration de mise en correspondance du modèle **Mise en correspondance (FR)** est configurée pour qu’elle s’applique uniquement aux formats de gestion des états électroniques du modèle **Modèle pour apprendre les mises en correspondance** qui sont exécutés dans les sociétés Finance dont le contexte de pays/région est le français.
 
@@ -138,10 +138,10 @@ Notez que l’exécution du format de gestion des états électroniques sélecti
 
 Comme vous l’avez vu, la sélection d’une mise en correspondance de modèle pour l’exécution d’un format de gestion d’états électroniques fonctionne comme suit :
 
-- La définition de mise en correspondance de modèle qu’un format de gestion des états électroniques utilise est spécifiée (**Point d’entrée 1** dans les exemples de cette rubrique).
-- Toutes les configurations de mise en correspondance, contenant une mise en correspondance avec la définition spécifiée, et qui satisfont à toutes les restrictions de contexte de pays/région qui sont configurées, peuvent éventuellement être utilisées pour exécuter le format de gestion des états électroniques (**Mise en correspondance (Général)**, **Mise en correspondance (Général) personnalisée** et **Mise en correspondance (FR)** dans les exemples de cette rubrique).
-- Toute mise en correspondance de modèle par défaut ayant des restrictions de contexte de pays/région a la priorité la plus élevée en termes de sélection (**Mise en correspondance (FR)** dans les exemples de cette rubrique).
-- Toute mise en correspondance de modèle par défaut sans restrictions de contexte de pays/région a la prochaine priorité la plus élevée en termes de sélection (**Mise en correspondance (Général) personnalisée** dans les exemples de cette rubrique).
+- La définition de mise en correspondance de modèle qu’un format de gestion des états électroniques utilise est spécifiée (**Point d’entrée 1** dans les exemples de cet article).
+- Toutes les configurations de mise en correspondance, contenant une mise en correspondance avec la définition spécifiée, et qui satisfont à toutes les restrictions de contexte de pays/région qui sont configurées, peuvent éventuellement être utilisées pour exécuter le format de gestion des états électroniques (**Mise en correspondance (Général)**, **Mise en correspondance (Général) personnalisée** et **Mise en correspondance (FR)** dans les exemples de cet article).
+- Toute mise en correspondance de modèle par défaut ayant des restrictions de contexte de pays/région a la priorité la plus élevée en termes de sélection (**Mise en correspondance (FR)** dans les exemples de cet article).
+- Toute mise en correspondance de modèle par défaut sans restrictions de contexte de pays/région a la prochaine priorité la plus élevée en termes de sélection (**Mise en correspondance (Général) personnalisée** dans les exemples de cet article).
 - Toute mise en correspondance de modèle avec des restrictions de contexte pays/région a la priorité la plus élevée pour la sélection d’une mise en correspondance de modèle sans restrictions de contexte pays/région.
 
 Le tableau suivant offre des informations sur les résultats de la sélection de mise en correspondance de modèle pour tous les cas possibles de paramètres de mise en correspondance de modèle :
@@ -276,7 +276,7 @@ Notez que la version temporaire 1 de cette configuration de gestion des états �
 5.  Sélectionnez **Enregistrer**.
 6.  Fermez la page **Concepteur de formule**.
 
-    ![Page du concepteur de mappage de modèle ER, définition du point d'entrée 1.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![Page du concepteur de mappage de modèle ER, définition du point d’entrée 1.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Sélectionnez **Enregistrer**.
 8.  Fermez la page **Concepteur de mise en correspondance des modèles**.
@@ -289,12 +289,12 @@ Notez que la version temporaire 1 de cette configuration de gestion des états �
 15. Sélectionnez **Enregistrer**.
 16. Fermez la page **Concepteur de formule**.
 
-    ![Page du concepteur de mappage de modèle ER, définition du point d'entrée 2.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![Page du concepteur de mappage de modèle ER, définition du point d’entrée 2.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Sélectionnez **Enregistrer**.
 18. Fermez la page **Concepteur de mise en correspondance des modèles**.
 
-    ![Page de mappages de modèles ER avec définitions de points d'entrée.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![Page de mappages de modèles ER avec définitions de points d’entrée.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Fermez la page **Mises en correspondance des modèles**.
 

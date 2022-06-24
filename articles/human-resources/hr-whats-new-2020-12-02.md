@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources 2 décembre 2020
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 2 décembre 2020.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 2 décembre 2020.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848105"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 2 décembre 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources.
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Dynamics 365 Human Resources.
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -52,9 +52,9 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème | Sortie | Description |
+| Numéro du problème | Problème | Description |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult doit inclure la date-heure qui a été utilisée dans le traitement. | Le résultat du traitement BenefitEligibity inclut désormais l’horodatage du dernier traitement, qui manquait auparavant. |
 | 526903 | L’inscription aux prestations échoue pour les régimes avec personnes à charge lorsque **Désignés à sélection automatique** est activé dans **Paramètres partagés des ressources humaines**. | Correction du problème où l’inscription aux prestations échouait pour les personnes à charge lorsque **Désignés à sélection automatique** l’option a été activée pour les personnes désignées par défaut. |

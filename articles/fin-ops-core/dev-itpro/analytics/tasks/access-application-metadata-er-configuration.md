@@ -1,6 +1,6 @@
 ---
 title: Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques
-description: La rubrique décrit comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques à l’aide des métadonnées.
+description: L’article décrit comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques à l’aide des métadonnées.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76e31e08cafb06cb2e8508c29f6e03d2559ebeb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883652"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une mise en correspondance de modèle de génération d’états électronique (ER) en utilisant les métadonnées de l’application. Les métadonnées d’application sont accessibles à l’aide d’une configuration de métadonnées ER contenant un échantillon de métadonnées pour accéder aux transactions de commerce extérieur. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cette rubrique dans RCS, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Ensuite, suivez les étapes de la rubrique [Préparer les métadonnées d’application à utiliser dans RCS](prepare-application-metadata-rcs.md).
+Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une mise en correspondance de modèle de génération d’états électronique (ER) en utilisant les métadonnées de l’application. Les métadonnées d’application sont accessibles à l’aide d’une configuration de métadonnées ER contenant un échantillon de métadonnées pour accéder aux transactions de commerce extérieur. Pour effectuer ces étapes, vous devez commencer par effectuer celles de cet article dans RCS, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Ensuite, suivez les étapes de l’article [Préparer les métadonnées d’application à utiliser dans RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Conditions préalables
 1. Accédez à **Tous les espaces de travail** > **États électroniques**. 

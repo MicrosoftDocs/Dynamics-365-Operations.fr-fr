@@ -1,6 +1,6 @@
 ---
 title: Utiliser la fonctionnalité de messages électroniques
-description: Cette rubrique fournit des informations générales sur l'utilisation de la configuration de la fonctionnalité Messages électroniques (ME).
+description: Cet article fournit des informations générales sur l’utilisation de la configuration de la fonctionnalité Messages électroniques (ME).
 author: liza-golub
 ms.date: 07/07/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a65971fa1da60b00bb525d450c0eb59aee57116e
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b61c119a06e1a7281d3adb67e043d2f7002cbea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880699"
 ---
 # <a name="work-with-the-electronic-messages-functionality"></a>Utiliser la fonctionnalité de messages électroniques
 
@@ -42,7 +42,7 @@ L’organisateur **Messages** affiche les messages électroniques du traitement 
 
 L’organisateur **Journal des actions** présente des informations sur toutes les actions exécutées pour le message sélectionné. Si une action a causé une erreur, les informations relatives à l’erreur sont jointes à la ligne associée dans la grille. Pour vérifier les informations sur l’erreur, sélectionnez la ligne dans la grille, puis sélectionnez le bouton **Pièce jointe** (symbole de trombone) dans le coin supérieur droit de la page.
 
-L’organisateur **Champs supplémentaires du message** affiche tous les champs supplémentaires définis pour les messages dans le paramétrage du traitement. L'organisateur comprend également les valeurs de ces champs supplémentaires.
+L’organisateur **Champs supplémentaires du message** affiche tous les champs supplémentaires définis pour les messages dans le paramétrage du traitement. L’organisateur comprend également les valeurs de ces champs supplémentaires.
 
 L’organisateur **Éléments du message** affiche tous les éléments du message liés au message sélectionné. Selon le statut du message sélectionné, vous pouvez exécuter certaines actions en sélectionnant les boutons au-dessus de la grille :
 
@@ -58,7 +58,7 @@ La page **Pièces jointes** affiche toutes les pièces jointes associées au mes
 
 ![Bouton Ouvrir](media/open-button.png)
 
-Vous pouvez consulter les pièces jointes associées à une action spécifique qui a été précédemment exécutée pour un message. Sur la page **Messages électroniques**, sur l'organisateur **Messages**, sélectionnez le message. Sur l'organisateur **Journal des actions**, sélectionnez l'action, puis sélectionnez le bouton **Pièce jointe** (symbole de trombone) dans le coin supérieur droit de la page.
+Vous pouvez consulter les pièces jointes associées à une action spécifique qui a été précédemment exécutée pour un message. Sur la page **Messages électroniques**, sur l’organisateur **Messages**, sélectionnez le message. Sur l’organisateur **Journal des actions**, sélectionnez l’action, puis sélectionnez le bouton **Pièce jointe** (symbole de trombone) dans le coin supérieur droit de la page.
 
 Vous pouvez exécuter l’ensemble du traitement ou seulement une action spécifique en sélectionnant **Exécuter le traitement** sur le volet Action.
 
@@ -93,7 +93,7 @@ Le tableau suivant décrit les champs de la page **Éléments du message**.
 <td>Type de l’élément du message. Plusieurs types d’éléments de messages peuvent être paramétrés pour le même traitement (par exemple, <b>Factures entrantes</b> et <b>Factures sortantes</b>). Ce champ peut être défini automatiquement uniquement si une facture est ajoutée à la table Éléments du message.</td>
 </tr>
 <tr>
-<td>Statut de l'élément de message</td>
+<td>Statut de l’élément de message</td>
 <td><p>Statut actuel de l’élément du message. Les statuts disponibles varient, en fonction du type de l’élément du message. Voici quelques exemples :</p>
 <ul>
 <li><b>Renseigné</b> : Un enregistrement a été ajouté à la table Éléments du message.</li>
@@ -116,7 +116,7 @@ Le tableau suivant décrit les champs de la page **Éléments du message**.
 <td>Numéro de compte d’un client ou d’un fournisseur, ou autre valeur de champ, selon le champ défini dans l’action Renseigner les enregistrements. Ce champ peut être défini automatiquement uniquement si une facture est ajoutée à la table Éléments du message.</td>
 </tr>
 <tr>
-<td>Message </td>
+<td>Message</td>
 <td>Numéro du message. Ce numéro est affecté automatiquement, selon la souche de numéros <b>Message</b> définie sur la page <b>Paramètres de comptabilité</b>.</td>
 </tr>
 <tr>
@@ -138,7 +138,7 @@ Sur le volet Actions, sélectionnez **Exécuter le traitement** pour exécuter l
 
 ### <a name="generate-report"></a>Générer un rapport
 
-Dans le volet Actions, sélectionnez **Générer l'état**. Ce bouton est associé aux actions du type **Exportation pour la gestion des états électroniques**.
+Dans le volet Actions, sélectionnez **Générer l’état**. Ce bouton est associé aux actions du type **Exportation pour la gestion des états électroniques**.
 
 ### <a name="update-status"></a>Mise à jour du statut
 
@@ -152,6 +152,6 @@ Vous pouvez également réviser les fichiers associés à un élément de messag
 
 La page **Pièces jointes** affiche les pièces jointes associées au message. Pour afficher un fichier, sélectionnez-le dans la liste à gauche, puis sélectionnez **Ouvrir** sur le volet Actions.
 
-### <a name="original-document"></a>Document d'origine
+### <a name="original-document"></a>Document d’origine
 
 Sur le volet Actions, sélectionnez **Document d’origine** pour ouvrir le document d’origine de l’élément du message sélectionné.

@@ -1,6 +1,6 @@
 ---
 title: Incorporer des applications tierces
-description: Cette rubrique explique comment incorporer des applications tierces pour augmenter la fonctionnalité du produit.
+description: Cet article explique comment incorporer des applications tierces pour augmenter la fonctionnalité du produit.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868606"
 ---
 # <a name="embed-third-party-apps"></a>Incorporer des applications tierces
 
 [!include [banner](../includes/banner.md)]
 
-De nombreux clients utilisent une gamme d’applications pour gérer leur entreprise. Certaines de ces applications sont des applications Web tierces qui fonctionnent conjointement aux applications Finance and Operations. Pour offrir une expérience utilisateur plus transparente, vous pouvez utiliser la fonctionnalité **Applications pleine page** pour intégrer ces applications tierces directement dans vos applications Finance and Operations (à condition que les applications tierces soient configurées pour être incorporées). De cette manière, les utilisateurs peuvent accéder aux sites Web et aux applications dont ils ont besoin sans avoir à changer d’onglet ou de fenêtre.
+De nombreux clients utilisent une gamme d’applications pour gérer leur entreprise. Certaines de ces applications sont des applications Web tierces qui fonctionnent conjointement aux applications de finances et d’opérations. Pour offrir une expérience utilisateur plus transparente, vous pouvez utiliser la fonctionnalité **Applications pleine page** pour intégrer ces applications tierces directement dans vos applications de finances et d’opérations (à condition que les applications tierces soient configurées pour être incorporées). De cette manière, les utilisateurs peuvent accéder aux sites Web et aux applications dont ils ont besoin sans avoir à changer d’onglet ou de fenêtre.
 
-Avant de pouvoir intégrer des applications tierces dans le produit, vous devez activer la fonctionnalité **Applications pleine page** dans la gestion des fonctionnalités. Vous pouvez ensuite utiliser l’une des méthodes suivantes pour intégrer une application ou un site Web tiers. Ces méthodes sont analogues aux méthodes utilisées pour incorporer des applications de canevas à partir de Microsoft Power Apps dans les applications Finance and Operations.
+Avant de pouvoir intégrer des applications tierces dans le produit, vous devez activer la fonctionnalité **Applications pleine page** dans la gestion des fonctionnalités. Vous pouvez ensuite utiliser l’une des méthodes suivantes pour intégrer une application ou un site Web tiers. Ces méthodes sont analogues aux méthodes utilisées pour incorporer des applications de canevas à partir de Microsoft Power Apps dans les applications de finances et d’opérations.
 
 - Incorporez l’application ou le site Web sur une page existante en tant que nouvelle page d’onglet (section d’onglet pivotant, de raccourci, de panneau ou d’espace de travail).
 - Créez une nouvelle expérience pleine page pour l’application ou le site Web à partir du tableau de bord.
@@ -53,14 +53,14 @@ Utilisez cette procédure si vous souhaitez ajouter une page existante au systè
     > - L’application ou le site Web doit être configuré pour être intégré.
 
 6. Sélectionnez **Enregistrer** pour intégrer l’application sur la page. L’application est ajoutée en tant que dernier onglet ou section dans le groupe.
-7. Confirmez que l’application s’affiche comme prévu. Si l’application n’est pas rendue, consultez la section [Dépannage](#troubleshooting) plus loin dans cette rubrique.
+7. Confirmez que l’application s’affiche comme prévu. Si l’application n’est pas rendue, consultez la section [Dépannage](#troubleshooting) plus loin dans cet article.
 8. Ouvrez le sélecteur de vue et sélectionnez soit **Enregistrer** (si l’application doit être associée à la vue actuelle) ou **Enregistrer sous** (pour enregistrer l’application dans une vue différente).
 
     Si la page n’a pas de sélecteur d’affichage (par exemple, si la page est une boîte de dialogue ou un espace de travail), vous pouvez ignorer cette étape.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Intégrer un site Web en tant qu’expérience pleine page à partir du tableau de bord
 
-Utilisez cette procédure si l’application que vous souhaitez intégrer n’est pas liée à une page existante, ou si vous souhaitez simplement une expérience pleine page pour l’application dans l’application Finance and Operations.
+Utilisez cette procédure si l’application que vous souhaitez intégrer n’est pas liée à une page existante, ou si vous souhaitez simplement une expérience pleine page pour l’application dans l’application de finances et d’opérations.
 
 1. Ouvrez le tableau de bord.
 2. Sélectionnez et maintenez sélectionnée (ou cliquez avec le bouton droit) le tableau de bord, sélectionnez **Personnaliser**, puis sélectionnez **Ajouter une page**.
@@ -75,7 +75,7 @@ Utilisez cette procédure si l’application que vous souhaitez intégrer n’es
     > - L’application ou le site Web doit être configuré pour être intégré.
 
 5. Sélectionnez **Sauvegarder** pour ajouter l’application au tableau de bord en tant que nouvelle mosaïque.
-6. Sélectionnez la nouvelle mosaïque sur le tableau de bord et confirmez que l’application apparaît comme prévu. Si l’application n’est pas rendue, consultez la section [Résolution des problèmes](#troubleshooting) ultérieurement dans cette rubrique.
+6. Sélectionnez la nouvelle mosaïque sur le tableau de bord et confirmez que l’application apparaît comme prévu. Si l’application n’est pas rendue, consultez la section [Résolution des problèmes](#troubleshooting) ultérieurement dans cet article.
 
 ## <a name="sharing-embedded-apps"></a>Partage d’applications incorporées
 
@@ -89,7 +89,7 @@ Après avoir intégré une application à l’aide de l’une des méthodes déc
 
 ## <a name="viewing-embedded-apps"></a>Affichage d’applications incorporées
 
-Pour afficher une application canevas incorporée sur une page dans les applications Finance and Operations, ouvrez la page contenant l’application incorporée. N’oubliez pas que, sur certaines pages, les applications incorporées sont accessibles à l’aide du bouton **Power Apps** sur le volet Actions standard. Elles peuvent également apparaître directement sur la page en tant que nouvel onglet, raccourci ou panneau, ou en tant que nouvelle section dans un espace de travail.
+Pour afficher une application canevas incorporée sur une page dans les applications de finances et d’opérations, ouvrez la page contenant l’application incorporée. N’oubliez pas que, sur certaines pages, les applications incorporées sont accessibles à l’aide du bouton **Power Apps** sur le volet Actions standard. Elles peuvent également apparaître directement sur la page en tant que nouvel onglet, raccourci ou panneau, ou en tant que nouvelle section dans un espace de travail.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Modifier ou supprimer des applications incorporées
 
@@ -126,6 +126,6 @@ Si un site Web n’est pas rendu correctement après avoir été intégré dans 
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Développeur] Modélisation d’un site Web sur un formulaire
 
-Bien que cette rubrique traite de l’intégration d’applications ou de sites Web tiers via la personnalisation, les développeurs peuvent également les intégrer dans un formulaire à l’aide de l’expérience de développement Visual Studio. Ajoutez simplement un contrôle **Site WebHostControl** au formulaire. Les propriétés de métadonnées disponibles pour le contrôle offrent les mêmes fonctionnalités que l’expérience de personnalisation.
+Bien que cet article traite de l’intégration d’applications ou de sites Web tiers via la personnalisation, les développeurs peuvent également les intégrer dans un formulaire à l’aide de l’expérience de développement Visual Studio. Ajoutez simplement un contrôle **Site WebHostControl** au formulaire. Les propriétés de métadonnées disponibles pour le contrôle offrent les mêmes fonctionnalités que l’expérience de personnalisation.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

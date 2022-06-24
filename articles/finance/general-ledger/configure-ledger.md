@@ -1,6 +1,6 @@
 ---
 title: Configurer les registres
-description: Cette rubrique fournit des informations sur la configuration des registres pour chaque entité juridique. Elle comprend des informations sur la manière de sélectionner les devises, les calendriers fiscaux, le plan comptable et les structures de compte à utiliser avec chaque entité juridique.
+description: Cet article fournit des informations sur la configuration des registres pour chaque entité juridique. Elle comprend des informations sur la manière de sélectionner les devises, les calendriers fiscaux, le plan comptable et les structures de compte à utiliser avec chaque entité juridique.
 author: kweekley
 ms.date: 09/24/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864337"
 ---
 # <a name="configure-ledgers"></a>Configurer les registres
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la configuration des registres pour chaque entité juridique. Elle comprend des informations sur la manière de sélectionner les devises, les calendriers fiscaux, le plan comptable et les structures de compte à utiliser avec chaque entité juridique.
+Cet article fournit des informations sur la configuration des registres pour chaque entité juridique. Elle comprend des informations sur la manière de sélectionner les devises, les calendriers fiscaux, le plan comptable et les structures de compte à utiliser avec chaque entité juridique.
 
 ## <a name="selecting-the-chart-of-accounts"></a>Sélection du plan de comptes
 

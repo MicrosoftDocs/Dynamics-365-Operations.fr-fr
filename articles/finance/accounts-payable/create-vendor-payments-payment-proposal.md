@@ -1,6 +1,6 @@
 ---
 title: Création de paiements fournisseur via une proposition de paiement
-description: Cette rubrique fournit une vue d’ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées.
+description: Cet article fournit une vue d’ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées.
 author: abruer
 ms.date: 04/04/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845372"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Création de paiements fournisseur via une proposition de paiement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées. Les propositions de paiement sont souvent utilisées pour créer des paiements fournisseurs car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour le paiement, en fonction de critères tels que la date d’échéance et l’escompte de règlement. 
+Cet article fournit une vue d’ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées. Les propositions de paiement sont souvent utilisées pour créer des paiements fournisseurs car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour le paiement, en fonction de critères tels que la date d’échéance et l’escompte de règlement. 
 
 Les organisations utilisent souvent des propositions de paiement pour créer des paiements fournisseurs, car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour paiement, en fonction de la date d’échéance, de l’escompte de règlement et de tout autre critère. 
 

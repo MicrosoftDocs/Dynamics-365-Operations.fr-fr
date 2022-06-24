@@ -1,6 +1,6 @@
 ---
 title: Identifier et résoudre les conflits de répartition des tâches
-description: Cette rubrique explique comment identifier et résoudre les conflits de répartition des tâches.
+description: Cet article explique comment identifier et résoudre les conflits de répartition des tâches.
 author: peakerbl
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd36db5df2b6871d410bb1feaae825909ec9b3ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883475"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Identifier et résoudre les conflits de répartition des tâches
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment identifier et résoudre les conflits de répartition des tâches. Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs. Ce concept est appelé répartition des tâches. Lorsque la définition d’un rôle de sécurité ou les affectations de rôle d’un utilisateur violent les règles, le conflit est consigné. Tous les conflits doivent être résolus par l’administrateur. Procédez comme suit pour identifier et résoudre les conflits.
+Cet article explique comment identifier et résoudre les conflits de répartition des tâches. Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs. Ce concept est appelé répartition des tâches. Lorsque la définition d’un rôle de sécurité ou les affectations de rôle d’un utilisateur violent les règles, le conflit est consigné. Tous les conflits doivent être résolus par l’administrateur. Procédez comme suit pour identifier et résoudre les conflits.
 
 Une fois qu’une règle a été ajoutée, vérifiez que tous les rôles existants sont conformes. 
 

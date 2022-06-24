@@ -1,6 +1,6 @@
 ---
 title: Traiter les modifications de taux
-description: Cette rubrique explique comment traiter les modifications de taux d’avantages dans Microsoft Dynamics 365 Human Resources.
+description: Cet article explique comment traiter les modifications de taux d’avantages dans Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1eea61df6dd5fbe0b52a21944deba69928b5125
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 09714c70cb00b1a1b5dbd4613bbd70ff11d35cb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882951"
 ---
 # <a name="process-rate-changes"></a>Traiter les modifications de taux
 
@@ -28,7 +28,7 @@ ms.locfileid: "8696124"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique explique comment traiter les modifications de taux d’avantages dans Microsoft Dynamics 365 Human Resources lorsque des paramètres de règles d’éligibilité ont changé dans un plan d’avantages nouveau ou existant. Si une nouvelle règle d’éligibilité est créée et affectée au plan, le système réexécute l’admissibilité des collaborateurs pour vérifier s’ils sont toujours éligibles au plan en fonction des nouvelles options d’éligibilité. 
+Cet article explique comment traiter les modifications de taux d’avantages dans Microsoft Dynamics 365 Human Resources lorsque des paramètres de règles d’éligibilité ont changé dans un plan d’avantages nouveau ou existant. Si une nouvelle règle d’éligibilité est créée et affectée au plan, le système réexécute l’admissibilité des collaborateurs pour vérifier s’ils sont toujours éligibles au plan en fonction des nouvelles options d’éligibilité. 
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Traitement**, sélectionnez **Traitement d’un changement de taux**.
 

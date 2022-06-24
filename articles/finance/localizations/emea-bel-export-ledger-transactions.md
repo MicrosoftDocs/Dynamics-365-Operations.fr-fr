@@ -1,6 +1,6 @@
 ---
 title: Exporter les écritures comptables
-description: Cette rubrique donne des informations sur l’exportation des soldes de compte général dans un fichier texte brut (ASCII) au format CED pour la Belgique.
+description: Cet article donne des informations sur l’exportation des soldes de compte général dans un fichier texte brut (ASCII) au format CED pour la Belgique.
 author: anasyash
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 93c4dcb0288423d6787a07db3cf41a2670c88458f06eba5bf39b03a26c1bd1af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 305194701bb1eb96e1f63aabc42c32a216bb2647
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889815"
 ---
 # <a name="export-ledger-transactions"></a>Exporter les écritures comptables
 
 [!include [banner](../includes/banner.md)]
 
-La fonctionnalité décrite dans cette rubrique permet d’exporter le solde total de chaque compte général pour une période spécifique dans un fichier texte brut (ASCII) au format CED. Vous pouvez ensuite importer le fichier généré dans un logiciel tiers pour créer un état comptable en fonction des exigences spécifiques au pays/à la région.
+La fonctionnalité décrite dans cet article permet d’exporter le solde total de chaque compte général pour une période spécifique dans un fichier texte brut (ASCII) au format CED. Vous pouvez ensuite importer le fichier généré dans un logiciel tiers pour créer un état comptable en fonction des exigences spécifiques au pays/à la région.
 
 Cette fonctionnalité est disponible pour les entités juridiques dont l’adresse principale est en Belgique.
 

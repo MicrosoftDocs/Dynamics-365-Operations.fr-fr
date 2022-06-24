@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 75019f3f9bcd081f32d06971b11429bcdd794240
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847097"
 ---
 # <a name="view-and-export-field-descriptions"></a>Afficher et exporter les descriptions de champ
 
@@ -91,11 +91,11 @@ Cette section fournit des informations pour vous aider à résoudre les problèm
 
 ### <a name="i-cant-find-a-field-description"></a>Je ne trouve pas de description du champ
 
-Nous en sommes en train d’ajouter des descriptions pour les champs plus complexes. Si vous avez besoin d’aide pour un champ spécifique, merci de nous le faire savoir en ajoutant un commentaire à cette rubrique.
+Nous en sommes en train d’ajouter des descriptions pour les champs plus complexes. Si vous avez besoin d’aide pour un champ spécifique, merci de nous le faire savoir en ajoutant un commentaire à cet article.
 
 ### <a name="the-field-description-isnt-helpful"></a>La description du champ n’est pas utile
 
-Merci de nous le faire savoir en ajoutant un commentaire à cette rubrique. Si vous le pouvez, décrivez les informations supplémentaires dont vous avez besoin.
+Merci de nous le faire savoir en ajoutant un commentaire à cet article. Si vous le pouvez, décrivez les informations supplémentaires dont vous avez besoin.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Impossible de trouver un champ sur la page Descriptions de champ
 

@@ -1,6 +1,6 @@
 ---
-title: Déclaration d’échanges de biens italienne
-description: Cette rubrique contient des informations sur la Déclaration d’échanges de biens en Italie.
+title: Déclaration d’échanges de biens (italien)
+description: Cet article contient des informations sur la Déclaration d’échanges de biens en Italie.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874361"
 ---
 # <a name="italian-intrastat"></a>Déclaration d’échanges de biens italienne
 
@@ -639,7 +639,7 @@ Suivez ces étapes pour configurer les options spécifiques à l’Italie afin d
 
     - **Avoir** : sélectionnez le code transaction pour le retour des marchandises.
     - **Période de déclaration des ventes** : sélectionnez la période de déclaration pour la déclaration d’exportation : **Mois** ou **Trimestre**. Les déclarations trimestrielles sont exportées au format simplifié.
-    - **Période de déclaration des achats** : sélectionnez la période de déclaration pour la déclaration d'importation : **Mois** ou **Trimestre**. Les déclarations trimestrielles sont exportées au format simplifié.
+    - **Période de déclaration des achats** : sélectionnez la période de déclaration pour la déclaration d’importation : **Mois** ou **Trimestre**. Les déclarations trimestrielles sont exportées au format simplifié.
 
 4. Dans le raccourci **Génération d’états électroniques**, définissez les champs suivants :
 
@@ -650,7 +650,7 @@ Suivez ces étapes pour configurer les options spécifiques à l’Italie afin d
 6. Dans le raccourci **Valeur statistique**, définissez l’option **Imprimer et exporter des données statistiques** sur **Oui** si nécessaire. Ce paramètre active le transfert de la section statistique. La section statistique comprend des données sur les poids, les unités supplémentaires, les valeurs statistiques, les conditions de livraison, les plans de livraison, les modes de transport et les régions d’origine.
 
     > [!NOTE]
-    > Pour une déclaration trimestrielle, la déclaration d’échanges de biens n’inclura pas la partie statistique, ni les informations sur les conditions de livraison et les modes de transport. Pour plus d’informations, voir le tableau de la section [Vue d’ensemble](#overview) de cette rubrique.
+    > Pour une déclaration trimestrielle, la déclaration d’échanges de biens n’inclura pas la partie statistique, ni les informations sur les conditions de livraison et les modes de transport. Pour plus d’informations, voir le tableau de la section [Vue d’ensemble](#overview) de cet article.
 
 7. Sur l’onglet **Propriétés de pays/région**, répertoriez tous les pays ou régions avec lesquels votre organisation fait affaire. Pour chaque pays ou région, définissez les champs suivants :
 
@@ -736,7 +736,7 @@ Vous pouvez également saisir manuellement des transactions en sélectionnant **
 
 Pour chaque transaction, vous pouvez définir plusieurs paramètres spécifiques à l’Italie sur l’onglet **Général**. Le tableau suivant fournit plus d’informations sur les champs.
 
-| Champ | Description  |
+| Champ | Description |
 |-------|-------------|
 | Type d’article | Ce champ peut être défini sur **Marchandises** ou **Services**.<br> Pour qu’une transaction soit considérée comme un service, votre ligne de facture doit être configurée de l’une des manières suivantes :<br>- Ne comporte pas de code marchandise.<br>- Comporte un code marchandise à six chiffres  |
 | Département d’origine | Département d’origine du produit ou du service. Cette valeur est spécifiée sur la page **Produits lancés**. |

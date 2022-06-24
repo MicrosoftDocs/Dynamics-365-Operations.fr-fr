@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870809"
 ---
 # <a name="asset-management-parameters"></a>Paramètres de gestion des actifs
 
 [!include [banner](../../includes/banner.md)]
 
-Dans la gestion des actifs, des paramètres concernant les actifs, les ordres de travail, et la planification des ordres de travail doivent être configurés. Cette rubrique explique comment les paramétrer. Sélectionnez **Gestion des actifs** > **Paramétrage** > **Paramètres de gestion des actifs** pour ouvrir la page.
+Dans la gestion des actifs, des paramètres concernant les actifs, les ordres de travail, et la planification des ordres de travail doivent être configurés. Cet article explique comment les paramétrer. Sélectionnez **Gestion des actifs** > **Paramétrage** > **Paramètres de gestion des actifs** pour ouvrir la page.
 
 > [!NOTE]
 > Si vous souhaitez configurer un système incluant des données de démonstration pour tester les fonctionnalités de gestion des actifs, consultez [Déployer un environnement de démonstration](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) pour obtenir des instructions.

@@ -1,6 +1,6 @@
 ---
-title: Paramétrer des frais de paiement pour les paiements à l'administration TDS
-description: Cette rubrique explique comment configurer les frais de paiement qui sont facturés pour les paiements d'autorisation de retenue de la taxe à la source (TDS).
+title: Paramétrer des frais de paiement pour les paiements à l’administration TDS
+description: Cet article explique comment configurer les frais de paiement qui sont facturés pour les paiements d’autorisation de retenue de la taxe à la source (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 290606201eff7aee985983603e7895a8a59233ac
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 598d4c07d9f96fb5ae58c3929bab353a6d57615f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845217"
 ---
-# <a name="set-up-payment-fees-for-tds-authority-payments"></a>Paramétrer des frais de paiement pour les paiements à l'administration TDS
+# <a name="set-up-payment-fees-for-tds-authority-payments"></a>Paramétrer des frais de paiement pour les paiements à l’administration TDS
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer les frais de paiement qui sont facturés pour les paiements d'autorisation de retenue de la taxe à la source (TDS).
+Cet article explique comment configurer les frais de paiement qui sont facturés pour les paiements d’autorisation de retenue de la taxe à la source (TDS).
 
 1. Accédez à **Comptabilité fournisseur \> Paramétrage des paiements \> Frais de paiement**.
 
@@ -36,8 +36,8 @@ Cette rubrique explique comment configurer les frais de paiement qui sont factur
 3. Dans le champ **Type de frais**, sélectionnez le type de frais de paiement :
 
     - **None**
-    - **Intérêt** - Des intérêts sont facturés sur les paiements en retard qui sont effectués au fournisseur de l'autorité TDS.
-    - **Autres** - D'autres frais sont facturés sur les paiements en retard qui sont effectués au fournisseur de l'autorité TDS.
+    - **Intérêt** - Des intérêts sont facturés sur les paiements en retard qui sont effectués au fournisseur de l’autorité TDS.
+    - **Autres** - D’autres frais sont facturés sur les paiements en retard qui sont effectués au fournisseur de l’autorité TDS.
 
     Si vous sélectionnez **Intérêt** ou **Autres**, le champ **Frais** est automatiquement défini sur **Registre**.
 
@@ -47,7 +47,7 @@ Cette rubrique explique comment configurer les frais de paiement qui sont factur
 
     [![Page Paramétrage des frais de paiement.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
-7. Dans l'onglet **Aperçu**, dans le champ **Groupements**, spécifiez les banques pour lesquelles vous configurez les frais de paiement :
+7. Dans l’onglet **Aperçu**, dans le champ **Groupements**, spécifiez les banques pour lesquelles vous configurez les frais de paiement :
 
     - **Tableau** - Les frais sont valables pour un compte bancaire spécifique.
     - **Groupe** - Les frais sont valables pour un groupe bancaire spécifique.
@@ -61,7 +61,7 @@ Cette rubrique explique comment configurer les frais de paiement qui sont factur
 13. Dans le champ **Pourcentage/montant**, sélectionnez la méthode de calcul. Les options sont **Montant**, **Pourcentage** et **Intervalle**.
 14. Dans le champ **Montant des frais**, indiquez le montant des frais en pourcentage du paiement ou en montant pour un paiement.
 15. Dans le champ **Devise des frais**, spécifiez le code devise pour les frais.
-16. Sélectionnez l'onglet **Général** pour afficher ou modifier les détails du compte bancaire sélectionné.
+16. Sélectionnez l’onglet **Général** pour afficher ou modifier les détails du compte bancaire sélectionné.
 
     [![Onglet Général.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
@@ -70,12 +70,12 @@ Cette rubrique explique comment configurer les frais de paiement qui sont factur
 18. Dans les champs **Date de début** et **Date de fin**, définissez une plage de dates pour le calcul des frais.
 19. Dans le champ **Frais minimum**, indiquez le montant des frais en pourcentage du paiement ou en montant pour un paiement.
 20. Dans le champ **Groupe de taxe de vente**, sélectionnez le groupe de taxe de vente à utiliser pour calculer la taxe de vente pour le montant des frais.
-21. Dans le champ **Groupe de taxe de vente**, sélectionnez le groupe de taxe d'article à utiliser pour calculer la taxe de vente des articles pour le montant des frais.
+21. Dans le champ **Groupe de taxe de vente**, sélectionnez le groupe de taxe d’article à utiliser pour calculer la taxe de vente des articles pour le montant des frais.
 22. Sélectionnez l’onglet **Intervalle**. 
 
     [![Onglet Intervalle.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
-23. Dans le champ **Jours**, entrez le nombre de jours qui séparent la date de validation (date d'escompte) du paiement et la date d'échéance du billet à ordre.
+23. Dans le champ **Jours**, entrez le nombre de jours qui séparent la date de validation (date d’escompte) du paiement et la date d’échéance du billet à ordre.
 24. Dans le champ **Pourcentage/Montant**, indiquez si la spécification est un pourcentage ou un montant défini.
 25. Dans le champ **Montant des frais**, saisissez le montant des frais en pourcentage du paiement ou en montant pour un paiement.
 26. Fermez la page **Configuration des frais de paiement**.

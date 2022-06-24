@@ -1,6 +1,6 @@
 ---
 title: Importer une configuration à partir de Lifecycle Services
-description: Cette rubrique décrit comment importer une nouvelle version d’une configuration pour la gestion des états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
+description: Cet article décrit comment importer une nouvelle version d’une configuration pour la gestion des états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886670"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importer une configuration à partir de Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut importer une nouvelle version d’une configuration pour la [génération d’états électroniques (ER)](../general-electronic-reporting.md#Configuration) à partir de la [bibliothèque d’actifs au niveau du projet](../../lifecycle-services/asset-library.md) dans Microsoft Dynamics Lifecycle Services (LCS).
+Cet article explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut importer une nouvelle version d’une configuration pour la [génération d’états électroniques (ER)](../general-electronic-reporting.md#Configuration) à partir de la [bibliothèque d’actifs au niveau du projet](../../lifecycle-services/asset-library.md) dans Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!IMPORTANT]
 > L’utilisation de LCS comme référentiel de stockage pour les configurations ER est en cours [d’abandon](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Pour plus d’informations, voir [Regulatory Configuration Service (RCS) – Abandon du stockage Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -36,8 +36,8 @@ Dans cet exemple, vous allez sélectionner la version souhaitée de la configura
     - Développeur de gestion des états électroniques
     - Administrateur système
 
-2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-3. Sélectionner **Configurations**.
+2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **Gestion des états électroniques**.
+3. Sélectionnez **Configurations**.
 
 <a name="accessconditions"></a>
 > [!NOTE]
@@ -49,7 +49,7 @@ Dans cet exemple, vous allez sélectionner la version souhaitée de la configura
 
 1. Sur la page **Configurations**, dans l’arborescence de configuration, sélectionnez **Exemple de configuration de modèle**.
 
-    Vous avez créé la première version d’un exemple de configuration de modèle de données et l’avez publiée dans LCS après avoir exécuté les étapes [Charger une configuration dans Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). Dans cette procédure, vous supprimerez cette version de la configuration ER. Vous importerez ensuite cette version de LCS plus loin dans cette rubrique.
+    Vous avez créé la première version d’un exemple de configuration de modèle de données et l’avez publiée dans LCS après avoir exécuté les étapes [Charger une configuration dans Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). Dans cette procédure, vous supprimerez cette version de la configuration ER. Vous importerez ensuite cette version de LCS plus loin dans cet article.
 
 2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 

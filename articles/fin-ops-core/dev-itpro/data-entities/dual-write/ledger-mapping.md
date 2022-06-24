@@ -1,6 +1,6 @@
 ---
 title: Comptabilité intégrée
-description: Cette rubrique décrit l’intégration des données de comptabilité entre Finances et Opérations et d’autres applications Dynamics 365 avec Dataverse.
+description: Cet article décrit l’intégration des données de comptabilité entre Finances et Opérations et d’autres applications Dynamics 365 avec Dataverse.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847187"
 ---
 # <a name="integrated-ledger"></a>Comptabilité intégrée
 
@@ -22,7 +22,7 @@ ms.locfileid: "8063645"
 
 
 
-Dans une application d’entreprise, les données de comptabilité définissent la configuration de base pour le mode de fonctionnement d’une entreprise. Par exemple, les données de comptabilité décrivent l’exercice que suit la société, les devises qu’elle traite et les comptes qu’elle utilise. Cette rubrique décrit l’intégration de ces données financières de base.
+Dans une application d’entreprise, les données de comptabilité définissent la configuration de base pour le mode de fonctionnement d’une entreprise. Par exemple, les données de comptabilité décrivent l’exercice que suit la société, les devises qu’elle traite et les comptes qu’elle utilise. Cet article décrit l’intégration de ces données financières de base.
 
 ## <a name="templates"></a>Modèles
 

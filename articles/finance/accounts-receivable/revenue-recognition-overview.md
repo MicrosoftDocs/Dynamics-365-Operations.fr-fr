@@ -1,6 +1,6 @@
 ---
 title: Présentation de la prise en compte de revenu (contient une vidéo)
-description: Cette rubrique fournit des informations sur la fonctionnalité de prise en compte de revenu. Elle offre un cadre flexible qui vous permet de définir des règles spécifiques pour identifier le prix et l’échéancier de produit pour les commandes comportant plusieurs éléments.
+description: Cet article fournit des informations sur la fonctionnalité de prise en compte de revenu. Elle offre un cadre flexible qui vous permet de définir des règles spécifiques pour identifier le prix et l’échéancier de produit pour les commandes comportant plusieurs éléments.
 author: kweekley
 ms.date: 03/15/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: acb3575d9b6371bb4a6924be1e6e2ee86b976e7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888033"
 ---
 # <a name="revenue-recognition-overview"></a>Vue d’ensemble de la fonctionnalité de prise en compte de revenu
 
@@ -35,7 +35,7 @@ En général le processus de prise en compte de revenu peut être utilisé pour 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-La vidéo [Utilisation de la constatation du produit dans Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (affichée ci-dessus) est incluse dans la [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Utilisation de la constatation du produit dans Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (affichée ci-dessus) est incluse dans la [liste de lecture Finance et Opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 La fonctionnalité de constatation du produit offre un cadre flexible qui vous permet de définir des règles spécifiques pour identifier le prix et l’échéancier de produit.
 

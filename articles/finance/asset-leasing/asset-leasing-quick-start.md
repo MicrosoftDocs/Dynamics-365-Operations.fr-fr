@@ -1,6 +1,6 @@
 ---
-title: Démarrer la location d’actifs
-description: Cette rubrique décrit la fonctionnalité de location d’actifs, et décrit les étapes de création d’un bail d’immobilisation et l’affichage des informations relatives à ces baux.
+title: Démarrage avec le leasing d’actifs
+description: Cet article décrit la fonctionnalité de location d’actifs, et décrit les étapes de création d’un bail d’immobilisation et l’affichage des informations relatives à ces baux.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895136"
 ---
-# <a name="asset-leasing-get-started"></a>Démarrer la location d’actifs
+# <a name="asset-leasing-get-started"></a>Démarrage avec le leasing d’actifs
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de location d’actifs, et décrit les étapes de création d’un bail d’immobilisation et l’affichage des informations relatives à ces baux. La rubrique définit également la terminologie utilisée dans l’interface utilisateur et la documentation. La location d’actifs est une fonctionnalité avancée de gestion, de suivi et d’automatisation des transactions financières pour les actifs loués dans Microsoft Dynamics 365 Finance. La fonctionnalité de location d’actifs est conforme aux normes comptables internationales (IFRS 16) et aux normes US GAAP (ASC 842). La fonctionnalité de location d’actifs capture et traite les informations sur les baux et contribue à générer les écritures de journal tout au long du cycle de vie du bail, de la comptabilisation initiale aux écritures de journal mensuelles jusqu’à la dépréciation et la résiliation du bail. La fonctionnalité de location d’actifs s’intègre parfaitement aux autres composants de Dynamics 365 Finance, notamment les immobilisations, les comptes fournisseurs et la comptabilité.
+Cet article décrit la fonctionnalité de location d’actifs, et décrit les étapes de création d’un bail d’immobilisation et l’affichage des informations relatives à ces baux. L’article définit également la terminologie utilisée dans l’interface utilisateur et la documentation. La location d’actifs est une fonctionnalité avancée de gestion, de suivi et d’automatisation des transactions financières pour les actifs loués dans Microsoft Dynamics 365 Finance. La fonctionnalité de location d’actifs est conforme aux normes comptables internationales (IFRS 16) et aux normes US GAAP (ASC 842). La fonctionnalité de location d’actifs capture et traite les informations sur les baux et contribue à générer les écritures de journal tout au long du cycle de vie du bail, de la comptabilisation initiale aux écritures de journal mensuelles jusqu’à la dépréciation et la résiliation du bail. La fonctionnalité de location d’actifs s’intègre parfaitement aux autres composants de Dynamics 365 Finance, notamment les immobilisations, les comptes fournisseurs et la comptabilité.
 
 Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, recherchez et sélectionnez la fonction intitulée **Location d’actifs**, puis sélectionnez le bouton **Activer maintenant**.
 

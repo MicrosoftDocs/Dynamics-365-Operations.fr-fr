@@ -1,6 +1,6 @@
 ---
 title: Fonctions d’accessibilité
-description: Cette rubrique décrit les fonctionnalités conçues pour aider les utilisateurs souffrant de divers handicaps.
+description: Cet article décrit les fonctionnalités conçues pour aider les utilisateurs souffrant de divers handicaps.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881049"
 ---
 # <a name="accessibility-features"></a>Fonctions d’accessibilité
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071056"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Cette rubrique décrit les fonctionnalités conçues pour aider les utilisateurs souffrant de divers handicaps à utiliser cette application. Par exemple, il existe des fonctionnalités pour les personnes qui utilisent des technologies d’assistance visuelle telles que Microsoft Windows Narrator.
+Cet article décrit les fonctionnalités conçues pour aider les utilisateurs souffrant de divers handicaps à utiliser cette application. Par exemple, il existe des fonctionnalités pour les personnes qui utilisent des technologies d’assistance visuelle telles que Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator et accès par clavier uniquement
 
@@ -49,7 +49,7 @@ Pour plus d’informations, voir [Recherche lors de la navigation](navigation-se
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Recherche d’actions pour les utilisateurs qui utilisent le clavier uniquement ou pour la saisie de données
 
-Chaque action disponible sur une page est accessible à partir d’un clavier, via la séquence de tabulations. Les informations sur la séquence de tabulations sont fournies plus loin dans cette rubrique. Pour exécuter des actions plus directement, vous pouvez utiliser la fonctionnalité de recherche d’actions.
+Chaque action disponible sur une page est accessible à partir d’un clavier, via la séquence de tabulations. Les informations sur la séquence de tabulations sont fournies plus loin dans cet article. Pour exécuter des actions plus directement, vous pouvez utiliser la fonctionnalité de recherche d’actions.
 
 ### <a name="example"></a>Exemple
 

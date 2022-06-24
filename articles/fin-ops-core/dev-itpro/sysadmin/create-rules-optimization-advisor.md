@@ -1,6 +1,6 @@
 ---
 title: Créer des règles pour le Conseiller en optimisation
-description: Cette rubrique décrit comment ajouter de nouvelles règles au Conseiller en optimisation.
+description: Cet article décrit comment ajouter de nouvelles règles au Conseiller en optimisation.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850903"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Créer des règles pour le Conseiller en optimisation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment créer des règles pour le **Conseiller en optimisation**. Par exemple, vous pouvez créer une règle qui identifie les dossiers d’appels d’offre qui ont un titre vide. L’attribution de titres aux dossiers facilite leur identification et leur recherche. Tout en étant relativement simple, cet exemple montre ce qu’il est possible de réaliser avec les règles d’optimisation. 
+Cet article explique comment créer des règles pour le **Conseiller en optimisation**. Par exemple, vous pouvez créer une règle qui identifie les dossiers d’appels d’offre qui ont un titre vide. L’attribution de titres aux dossiers facilite leur identification et leur recherche. Tout en étant relativement simple, cet exemple montre ce qu’il est possible de réaliser avec les règles d’optimisation. 
 
 Une *règle* est une vérification des données d’application. Si la condition évaluée par la règle est remplie, les opportunités d’optimisation des processus ou d’amélioration des données sont créées. Les opportunités peuvent être mises en œuvre et, éventuellement, l’impact des actions peut être mesuré. 
 

@@ -1,6 +1,6 @@
 ---
 title: Dimensions financières
-description: Cette rubrique décrit les différents types de dimensions financières et leur configuration.
+description: Cet article décrit les différents types de dimensions financières et leur configuration.
 author: aprilolson
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1360139a06909c1df922570f6e577d1d310b1c48
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849987"
 ---
 # <a name="financial-dimensions"></a>Dimensions financières
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique les différents types de dimensions financières et leur configuration.
+Cet article explique les différents types de dimensions financières et leur configuration.
 
 La page **Dimensions financières** permet de créer les dimensions financières à utiliser en tant que segments de compte pour les plans de comptes partagés. Il existe deux types de dimensions financières : les dimensions personnalisées et les dimensions soutenues par une entité. Les dimensions personnalisées sont partagées dans les entités juridiques et les valeurs sont saisies et mises à jour par les utilisateurs. Pour les dimensions soutenues par une entité, les valeurs sont définies ailleurs dans le système, par exemple dans les entités Clients ou Magasins. Certaines dimensions soutenues par l’entité sont partagées au sein des entités juridiques, tandis que d’autres dimensions soutenues par l’entité sont spécifiques à la société.
 
@@ -120,7 +120,7 @@ Les dimensions dérivées avec ce paramètre ne remplacent pas automatiquement l
 
 ### <a name="preventing-changes-with-derived-dimensions"></a>Empêcher des modifications avec des dimensions dérivées
  
-Quand vous utilisez **Ajouter un segment** sur **Page de dimensions dérivées** pour ajouter un segment comme dimension dérivée, une option est fournie au bas de la page **Ajouter un segment** vous permettant d’empêcher que des modifications soient apportées à cette dimension quand  elle est dérivée sur une page. Le paramètre par défaut est désactivé afin de ne pas empêcher les valeurs de dimension dérivées d’être modifiées. Modifiez le paramètre sur **Oui** si vous voulez empêcher la dimension d’être modifiée après avoir été dérivée. Par exemple, si la valeur de la dimension Département est dérivée de la valeur de la dimension Centre de coût, la valeur Département ne peut pas être modifiée si le paramètre **Empêcher les modifications** est **Oui**. 
+Quand vous utilisez **Ajouter un segment** sur **Page de dimensions dérivées** pour ajouter un segment comme dimension dérivée, une option est fournie au bas de la page **Ajouter un segment** vous permettant d’empêcher que des modifications soient apportées à cette dimension quand elle est dérivée sur une page. Le paramètre par défaut est désactivé afin de ne pas empêcher les valeurs de dimension dérivées d’être modifiées. Modifiez le paramètre sur **Oui** si vous voulez empêcher la dimension d’être modifiée après avoir été dérivée. Par exemple, si la valeur de la dimension Département est dérivée de la valeur de la dimension Centre de coût, la valeur Département ne peut pas être modifiée si le paramètre **Empêcher les modifications** est **Oui**. 
  
 Le paramètre n’empêche pas les modifications si la valeur de dimension est valide mais qu’elle n’est pas répertoriée dans la liste de dimensions dérivées. Par exemple, si le département 20 est dérivé du centre de coût 10 et que vous entrez le centre de coût 10, vous ne pourrez pas modifier le département 20. Toutefois, si vous entrez le centre de coût 20 et qu’il n’est pas dans la liste des dimensions dérivées pour le centre de coût, vous pouvez modifier la valeur Département. 
  

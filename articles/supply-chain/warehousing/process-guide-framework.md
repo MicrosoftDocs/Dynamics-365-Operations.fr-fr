@@ -1,6 +1,6 @@
 ---
 title: Structure du guide de traitement
-description: Cette rubrique fournit des informations sur le framework de guide de processus pour les développeurs qui étendent nos processus mobiles d'entrepôt dans X++.
+description: Cet article fournit des informations sur le framework de guide de processus pour les développeurs qui étendent nos processus mobiles d'entrepôt dans X++.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860433"
 ---
 # <a name="process-guide-framework"></a>Structure du guide de traitement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur le framework de guide de processus pour les développeurs qui étendent les processus mobiles d'entrepôt dans X++. Les processus mobiles de l'entrepôt sont extensibles car les processus sont divisés en petites étapes. La logique métier et la création de l'interface utilisateur de chaque étape ont été extraites en classes individuelles, ce qui permet une extensibilité.
+Cet article fournit des informations sur le framework de guide de processus pour les développeurs qui étendent les processus mobiles d'entrepôt dans X++. Les processus mobiles de l'entrepôt sont extensibles car les processus sont divisés en petites étapes. La logique métier et la création de l'interface utilisateur de chaque étape ont été extraites en classes individuelles, ce qui permet une extensibilité.
 
 ## <a name="overview-of-the-existing-design"></a>Aperçu de la conception existante
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> Vous pouvez trouver le même code source pour les méthodes X++ dans cette rubrique en utilisant l'Explorateur d'applications. Filtrez sur le nom de la classe, puis cliquez avec le bouton droit sur le nom de la classe et sélectionnez **Voir le code**.
+> Vous pouvez trouver le même code source pour les méthodes X++ dans cet article en utilisant l'Explorateur d'applications. Filtrez sur le nom de la classe, puis cliquez avec le bouton droit sur le nom de la classe et sélectionnez **Voir le code**.
 
 ### <a name="step-3-start-the-production-order"></a>Étape 3 : Démarrer l'ordre de fabrication
 
@@ -570,7 +570,7 @@ Pour résumer tout ce qui a été expliqué dans ce sujet, voici un résumé com
         ```
 
         > [!NOTE]
-        > La méthode **generateItemInfoForProdId()** utilisée pour générer les étiquettes d'informations sur les articles est exclue de cette rubrique. Cette méthode interroge quelques tables pour obtenir l'ID, la description et les dimensions de l'article. Si vous voulez mieux comprendre **generateItemInfoForProdId()**, regardez le code source.
+        > La méthode **generateItemInfoForProdId()** utilisée pour générer les étiquettes d'informations sur les articles est exclue de cet article. Cette méthode interroge quelques tables pour obtenir l'ID, la description et les dimensions de l'article. Si vous voulez mieux comprendre **generateItemInfoForProdId()**, regardez le code source.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 

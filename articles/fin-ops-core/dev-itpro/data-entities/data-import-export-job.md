@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860162"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644457"
 Pour créer et gérer des tâches d’importation et d’exportation de données, vous utilisez l’espace de travail **Gestion des données**. Par défaut, le processus d’importation et d’exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
 
 > [!NOTE]
-> La présente rubrique suppose que vous êtes familiarisé avec les [entités de données](data-entities.md).
+> Cet article suppose que vous êtes familiarisé avec les [entités de données](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Processus d’importation et d’exportation de données
 Voici les étapes pour importer ou exporter des données.
@@ -48,7 +48,7 @@ Voici les étapes pour importer ou exporter des données.
 5. Vérifiez que la tâche a été exécutée comme prévu en examinant l’historique des tâches.
 6. Nettoyez les tables intermédiaires.
 
-Les autres sections de cette rubrique fournissent plus de détails sur chaque étape du processus.
+Les autres sections de cet article fournissent plus de détails sur chaque étape du processus.
 
 > [!NOTE]
 > Afin d’actualiser l’écran Importation/exportation de données pour afficher la dernière progression, utilisez l’icône d’actualisation d’écran. L’actualisation au niveau du navigateur n’est pas recommandée car elle interrompt les tâches d’importation/d’exportation qui ne sont pas exécutées par lots.

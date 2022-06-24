@@ -1,6 +1,6 @@
 ---
 title: Planifier le carnet d’adresses global et d’autres carnets d’adresses
-description: Cette rubrique décrit les considérations et les décisions que vous devez prendre pendant le processus de planification.
+description: Cet article décrit les considérations et les décisions que vous devez prendre pendant le processus de planification.
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863157"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Planifier le carnet d’adresses global et d’autres carnets d’adresses
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d’adresses global et des carnets d’adresses supplémentaires. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d’autres zones du produit, telles que la hiérarchie d’organisation.
+Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d’adresses global et des carnets d’adresses supplémentaires. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d’autres zones du produit, telles que la hiérarchie d’organisation.
 
 ## <a name="global-address-book"></a>Carnet d’adresses global
 

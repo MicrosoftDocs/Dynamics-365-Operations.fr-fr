@@ -1,6 +1,6 @@
 ---
 title: Planification avec prévisions de la demande
-description: Cette rubrique explique comment inclure des prévisions de demande lors de la planification avec l’Optimisation de la planification.
+description: Cet article explique comment inclure des prévisions de demande lors de la planification avec l’Optimisation de la planification.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878988"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planification avec prévisions de la demande
 
@@ -42,7 +42,7 @@ Pour configurer un plan directeur afin qu’il inclue une prévision de la deman
 
     - **Modèle de prévision** – Sélectionnez le modèle de prévision à appliquer. Ce modèle sera pris en compte lorsqu’une proposition d’approvisionnement est générée pour le plan directeur actuel.
     - **Inclure la prévision de la demande** – Définissez cette option sur *Oui* pour inclure la prévision de la demande dans le plan général actuel. Si vous le définissez sur *Non*, les transactions de prévision de la demande ne seront pas incluses dans le plan directeur.
-    - **Méthode utilisée pour réduire les besoins prévisionnels** – Sélectionnez la méthode à utiliser pour réduire les besoins prévisionnels. Pour plus d’informations, voir la section [Clés de réduction des prévisions](#reduction-keys) située plus loin dans cette rubrique.
+    - **Méthode utilisée pour réduire les besoins prévisionnels** – Sélectionnez la méthode à utiliser pour réduire les besoins prévisionnels. Pour plus d’informations, voir la section [Clés de réduction des prévisions](#reduction-keys) située plus loin dans cet article.
 
 1. Sur le raccourci **Plage de temps en jours**, vous pouvez définir les champs suivants pour spécifier la période pendant laquelle la prévision de la demande est incluse :
 
@@ -61,7 +61,7 @@ Pour configurer un groupe de couverture afin qu’il inclue une prévision de la
 1. Dans l’organisateur **Autres**, définissez les champs suivants :
 
     - **Période du plan de prévision** – Saisissez le nombre de jours (à partir de la date d’aujourd’hui) pendant lesquels la prévision de la demande doit être appliquée. Cette valeur peut être remplacée en utilisant l’option **Plan prévisionnel** sur le plan directeur, comme décrit dans la section précédente.
-    - **Clé de réduction** – Sélectionnez la clé de réduction à appliquer. Pour plus d’informations, consultez les sections [Créer et configurer une clé de réduction des prévisions](#create-reduction-key) et [Utiliser une clé de réduction](#use-reduction-key) plus loin dans cette rubrique.
+    - **Clé de réduction** – Sélectionnez la clé de réduction à appliquer. Pour plus d’informations, consultez les sections [Créer et configurer une clé de réduction des prévisions](#create-reduction-key) et [Utiliser une clé de réduction](#use-reduction-key) plus loin dans cet article.
     - **Réduire les prévisions de** – Pour les plans directeurs où le champ **Méthode utilisée pour réduire les besoins de prévision** est défini sur *Transactions – clé de réduction* ou *Transactions – période dynamique*, spécifiez les transactions qui devraient réduire la prévision. Vous devez sélectionner l’une des valeurs suivantes :
 
         - **Toutes transactions** – Toutes les transactions doivent réduire les prévisions.

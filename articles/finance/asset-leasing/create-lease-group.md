@@ -1,6 +1,6 @@
 ---
 title: Créer un groupe de baux
-description: Cette rubrique explique comment paramétrer des groupes de baux. Les groupes de baux sont obligatoires pour créer de baux.
+description: Cet article explique comment paramétrer des groupes de baux. Les groupes de baux sont obligatoires pour créer de baux.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 49a905e9f27f01898628e88c7af781aed1f25ec7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: cd1a6f61346233bf205657917c65fccd82167f7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895020"
 ---
 # <a name="create-a-lease-group"></a>Créer un groupe de baux
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer des groupes de baux. Les groupes de baux sont obligatoires pour créer de baux. Les registres de baux sont associés à chaque groupe de baux. Les registres de baux déterminent les registres par défaut qui doivent être créés pour chaque bail. Vous pouvez affecter des comptes spécifiques à un groupe de baux sur la page **Paramètres d’affichage du bail**.
+Cet article explique comment paramétrer des groupes de baux. Les groupes de baux sont obligatoires pour créer de baux. Les registres de baux sont associés à chaque groupe de baux. Les registres de baux déterminent les registres par défaut qui doivent être créés pour chaque bail. Vous pouvez affecter des comptes spécifiques à un groupe de baux sur la page **Paramètres d’affichage du bail**.
 
 ## <a name="create-a-lease-book-and-add-a-lease-group"></a>Créer un registre de baux et ajouter un groupe de baux
 

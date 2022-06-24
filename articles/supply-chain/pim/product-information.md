@@ -1,6 +1,6 @@
 ---
-title: Présentation des informations sur les produits
-description: Cette rubrique fournit des informations sur la gestion des informations sur les produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d’un produit, pour s’adapter aux processus d’entreprise.
+title: Vue d’ensemble des informations sur le produit
+description: Cet article fournit des informations sur la gestion des informations relatives aux produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d’un produit, pour s’adapter aux processus d’entreprise.
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
@@ -15,20 +15,20 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fa06e718d2acc44cfced7db842814c48fb210d1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867867"
 ---
-# <a name="product-information-overview"></a>Présentation des informations sur les produits
+# <a name="product-information-overview"></a>Vue d’ensemble des informations sur le produit
 
 [!include [banner](../includes/banner.md)]
 
 
 
-Cette rubrique fournit des informations sur la gestion des informations sur les produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d’un produit, pour s’adapter aux processus d’entreprise. 
+Cet article fournit des informations sur la gestion des informations relatives aux produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d’un produit, pour s’adapter aux processus d’entreprise. 
 
 Les informations sur les produits sont la base de la chaîne d’approvisionnement et des applications de commerce dans tous les secteurs d’activité. Elles font référence aux processus et aux technologies qui ont pour but de gérer des informations sur les produits de manière centralisée (par exemple, entre plusieurs chaînes d’approvisionnement). Il est primordial que les définitions, la documentation, les attributs et les identificateurs de produits partagés soient utilisés. Dans les différents modules d’une solution commerciale, les informations et la configuration spécifiques à un produit sont requises pour gérer des processus d’entreprise liés aux produits, gammes de produits, ou catégories de produits spécifiques.
 

@@ -1,6 +1,6 @@
 ---
 title: Déclaration de TVA pour l’Europe
-description: Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
+description: Cet article fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
 author: ShylaThompson
 ms.date: 03/24/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: e25b01133bfaa84186faf82c80f24a119b40ac2e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856539"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l’Europe
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
+Cet article fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
 
-Cette rubrique fournit une approche générique du paramétrage et de la génération de la déclaration de TVA. Cette approche est commune pour les utilisateurs dans les entités juridiques des pays/régions suivants :
+Cet article fournit une approche générique du paramétrage et de la génération de la déclaration de TVA. Cette approche est commune pour les utilisateurs dans les entités juridiques des pays/régions suivants :
 
 -   Autriche
 -   Belgique
@@ -41,7 +41,7 @@ Cette rubrique fournit une approche générique du paramétrage et de la génér
 -   Suède
 
 > [!IMPORTANT]
-> Les fonctionnalités décrites dans cette rubrique pour l’Autriche, la République tchèque, l’Allemagne, les Pays-Bas et la Suède sont obsolètes. Pour plus d’informations, voir [Fonctions supprimées et obsolètes](../get-started/removed-deprecated-features-finance.md).
+> Les fonctionnalités décrites dans cet article pour l’Autriche, la République tchèque, l’Allemagne, les Pays-Bas et la Suède sont obsolètes. Pour plus d’informations, voir [Fonctions supprimées et obsolètes](../get-started/removed-deprecated-features-finance.md).
 > Utilisez les liens du tableau suivant pour en savoir plus sur le nouveau design des déclarations de TVA dans les pays correspondants.
 > 
 >
@@ -60,7 +60,7 @@ Cette rubrique fournit une approche générique du paramétrage et de la génér
 > | Royaume-Uni             | [Préparer l’intégration avec MRD pour la TVA](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>Vue d’ensemble de la déclaration de TVA
-La déclaration de TVA est basée sur les montants des transactions de taxe. Le processus de génération d’une déclaration de TVA fait partie du processus de paiement de la taxe, qui est implémenté via la fonction Régler et valider la taxe. Cette fonction calcule la taxe due pour une période donnée. Le calcul du règlement inclut la taxe validée pour la période de règlement sélectionnée pour les transactions de taxe. Le processus de calcul des données d’une déclaration de TVA est basé sur la relation entre les codes taxe et les codes déclaration de taxe, où les codes déclaration de taxe correspondent aux zones de déclaration de TVA (ou balises en XML). Pour chaque code taxe, des codes déclaration de taxe doivent être définis pour chaque type de transaction, par exemple les ventes imposables, les achats imposables, les importations imposables. Ces types de transactions sont décrits dans la section Codes taxe pour la déclaration de TVA plus loin dans cette rubrique.
+La déclaration de TVA est basée sur les montants des transactions de taxe. Le processus de génération d’une déclaration de TVA fait partie du processus de paiement de la taxe, qui est implémenté via la fonction Régler et valider la taxe. Cette fonction calcule la taxe due pour une période donnée. Le calcul du règlement inclut la taxe validée pour la période de règlement sélectionnée pour les transactions de taxe. Le processus de calcul des données d’une déclaration de TVA est basé sur la relation entre les codes taxe et les codes déclaration de taxe, où les codes déclaration de taxe correspondent aux zones de déclaration de TVA (ou balises en XML). Pour chaque code taxe, des codes déclaration de taxe doivent être définis pour chaque type de transaction, par exemple les ventes imposables, les achats imposables, les importations imposables. Ces types de transactions sont décrits dans la section Codes taxe pour la déclaration de TVA plus loin dans cet article.
 
 Pour chaque code déclaration de taxe, une présentation d’état spécifique doit être déterminée. Les codes taxe sont également liés à une administration fiscale spécifique via des périodes de règlement de la taxe. Pour chaque administration fiscale, une présentation d’état doit être déterminée. Ainsi, seuls les codes déclaration de taxe avec la même présentation d’état paramétrée pour une administration fiscale dans les périodes de règlement de la taxe pour le code taxe peuvent être sélectionnés dans le paramétrage d’état du code taxe. Une transaction de taxe générée lors de la validation d’une commande ou d’un journal, contient un code taxe, une source de taxe, une direction de taxe et des montants de transaction (montant de base de la taxe et montant de la taxe dans la devise comptable, la devise de taxe et la devise de la transaction). Selon la combinaison d’attributs de transaction de taxe, les montants des transactions composent les montants totaux pour les codes déclaration de taxe spécifiés pour les codes taxe. La relation des données est illustrée dans le graphique ci-dessous :
 

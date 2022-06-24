@@ -1,6 +1,6 @@
 ---
 title: Conventions d’amortissement des immobilisations
-description: Cette rubrique décrit les conventions d’amortissement des immobilisations.
+description: Cet article décrit les conventions d’amortissement des immobilisations.
 author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e151d20fbfb9aa8fca9afc5be4f112b3de13cc7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 6d791461a344611437e77514e47dd5dd9b7ddb10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858389"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Conventions d’amortissement des immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les conventions d’amortissement des immobilisations. Les conventions d’amortissement sont utilisées pour déterminer quand et comment l’amortissement est calculé pour l’année où l’immobilisation est acquise et l’année où l’immobilisation est cédée.
+Cet article décrit les conventions d’amortissement des immobilisations. Les conventions d’amortissement sont utilisées pour déterminer quand et comment l’amortissement est calculé pour l’année où l’immobilisation est acquise et l’année où l’immobilisation est cédée.
 
 Les conventions d’amortissement peuvent être affectées au paramétrage pour un registre de groupe d’immobilisations. Pour afficher ou affecter la convention d’amortissement, dans la zone de paramétrage des immobilisations, sélectionnez **Groupes d’immobilisations**. Sélectionnez le bouton **Registres**. Dans ce cas, les conventions d’amortissement affectées sont utilisées comme valeurs par défaut lorsque les registres d’immobilisations sont créés. Les conventions d’amortissement peuvent également être définies sur un registre d’immobilisations individuel. Pour ce faire, sélectionnez **Registres** dans la zone de paramétrage des immobilisations, puis sélectionnez le bouton **Groupes d’immobilisations**.
 

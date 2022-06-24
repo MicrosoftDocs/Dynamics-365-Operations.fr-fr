@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des prérequis pour les coûts standard
-description: Cette rubrique décrit les étapes essentielles de l’utilisation des coûts standard.
+description: Cet article décrit les étapes essentielles de l’utilisation des coûts standard.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895784"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Vue d’ensemble des prérequis pour les coûts standard
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les étapes essentielles de l’utilisation des coûts standard. Les étapes suivantes dépendent des opérations de la société. Par exemple, les étapes diffèrent pour un environnement hors fabrication, un environnement de fabrication qui n’utilise pas de gammes et un environnement de fabrication qui utilise des gammes. 
+Cet article décrit les étapes essentielles de l’utilisation des coûts standard. Les étapes suivantes dépendent des opérations de la société. Par exemple, les étapes diffèrent pour un environnement hors fabrication, un environnement de fabrication qui n’utilise pas de gammes et un environnement de fabrication qui utilise des gammes. 
 
 Pour paramétrer les coûts standard, procédez comme suit :
 
@@ -65,7 +65,7 @@ La page **Paramétrage de la version d’évaluation des coûts** permet de cré
 Les clients qui souhaitent modifier leurs articles existants pour passer à un modèle de stock de coûts standard doivent utiliser la page **Conversions de coût standard**.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Vue d’ensemble de la conversion du coût standard](standard-cost-conversion-overview.md)
 

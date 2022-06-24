@@ -1,6 +1,6 @@
 ---
 title: Ajouter des dimensions financières à l’espace de travail CFO
-description: Cette rubrique explique comment ajouter des dimensions financières à l’espace de travail CFO, afin qu’elles puissent être utilisées pour les états comptables et budgétaires.
+description: Cet article explique comment ajouter des dimensions financières à l’espace de travail CFO, afin qu’elles puissent être utilisées pour les états comptables et budgétaires.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fb558fbe25bd8977b712101df15cce7a76556dda
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ea453eed826dec2e97371ec559e91b94933bdce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853378"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Ajouter des dimensions financières à l’espace de travail CFO
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment ajouter des dimensions financières à l’espace de travail Directeur financier, afin qu’elles puissent être utilisées pour les états comptables et budgétaires. L’espace de travail CFO contient un onglet **Vue d’ensemble** et un onglet **Rapport financier**. Les états de ces deux onglets sont soutenus par deux mesures : LedgerActivityMeasure et BudgetActivityMeasure. Là, il existe une relation entre ces deux mesures et l’entité DimensionCombinationEntity. Par conséquent, vous pouvez sélectionner des dimensions.
+Cet article explique comment ajouter des dimensions financières à l’espace de travail Directeur financier, afin qu’elles puissent être utilisées pour les états comptables et budgétaires. L’espace de travail CFO contient un onglet **Vue d’ensemble** et un onglet **Rapport financier**. Les états de ces deux onglets sont soutenus par deux mesures : LedgerActivityMeasure et BudgetActivityMeasure. Là, il existe une relation entre ces deux mesures et l’entité DimensionCombinationEntity. Par conséquent, vous pouvez sélectionner des dimensions.
 
 1. Dans Finance, sur la page **Magasin des entités**, mettez à jour les mesures **LedgerActivityMeasure** et **BudgetActivityMeasure**.
 2. Dans Microsoft Visual Studio, ouvrez l’Explorateur d’application et recherchez **LedgerCFO**.

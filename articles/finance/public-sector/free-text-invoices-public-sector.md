@@ -1,6 +1,6 @@
 ---
 title: Factures financières dans le secteur public
-description: Cette rubrique décrit la fonctionnalité de facture financière disponible pour les entités du secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
+description: Cet article décrit la fonctionnalité de facture financière disponible pour les entités du secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a3d644328bc7156bfecfde714b2ce502e448853
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f17633a355dc46b64b49d710961be89ea4e78dbe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862881"
 ---
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de facture financière disponible pour les entités du secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
+Cet article décrit la fonctionnalité de facture financière disponible pour les entités du secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
 
 ## <a name="do-i-have-to-select-a-billing-classification-for-every-free-text-invoice"></a>Dois-je sélectionner une classification de facturation pour chaque facture financière ?
 

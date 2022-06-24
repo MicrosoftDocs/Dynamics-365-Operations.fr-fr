@@ -1,6 +1,6 @@
 ---
 title: Remises fournisseur
-description: Cette rubrique fournit une vue d’ensemble des tâches les plus courantes que vous souhaitez peut-être effectuer lorsque vous utilisez des remises fournisseur. Les remises fournisseur aident au mieux les sociétés à gérer leurs programmes de remise fournisseur en automatisant les tâches nécessaires afin d’administrer, de suivre et de réclamer les remises dues.
+description: Cet article fournit une vue d’ensemble des tâches les plus courantes que vous souhaitez peut-être effectuer lorsque vous utilisez des remises fournisseur. Les remises fournisseur aident au mieux les sociétés à gérer leurs programmes de remise fournisseur en automatisant les tâches nécessaires afin d’administrer, de suivre et de réclamer les remises dues.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890797"
 ---
 # <a name="vendor-rebates"></a>Remises fournisseur
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672960"
 
 Les remises fournisseur aident au mieux les sociétés à gérer leurs programmes de remise fournisseur en automatisant les tâches nécessaires afin d’administrer, de suivre et de réclamer les remises dues.
 
-Cette rubrique fournit une vue d’ensemble des tâches les plus courantes que vous souhaitez peut-être effectuer lorsque vous utilisez des remises fournisseur. La vue d’ensemble couvre les tâches suivantes :
+Cet article fournit une vue d’ensemble des tâches les plus courantes que vous souhaitez peut-être effectuer lorsque vous utilisez des remises fournisseur. La vue d’ensemble couvre les tâches suivantes :
 
 - Détails de révision d’un accord de remise.
 - Identifier les commandes concernées par les remises et générer des réclamations de remise.
@@ -34,7 +34,7 @@ Cette rubrique fournit une vue d’ensemble des tâches les plus courantes que v
 
 ## <a name="audience-and-purpose"></a>Public et objectif
 
-Les informations de cette rubrique sont destinées aux décideurs dans les entreprises, notamment au niveau des postes de responsable des achats, de directeur financier et de responsable comptable, avec les responsabilités suivantes :
+Les informations de ce document sont destinées aux décideurs dans les entreprises, notamment au niveau des postes de responsable des achats, de directeur financier et de responsable comptable, avec les responsabilités suivantes :
 
 - Négocier le prix fournisseur, la remise et les accords de remise.
 - Gérer le personnel qui traite les réclamations de remise et collecte les paiements.

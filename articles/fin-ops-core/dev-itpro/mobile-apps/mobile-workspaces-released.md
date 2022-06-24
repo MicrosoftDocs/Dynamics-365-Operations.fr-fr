@@ -1,6 +1,6 @@
 ---
 title: Espaces de travail mobiles disponibles
-description: Cette rubrique répertorie les espaces de travail mobiles disponibles.
+description: Cet article répertorie les espaces de travail mobiles disponibles.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4398bd8cf944ef11a0463d937aeaa3b5cc109142
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811002"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868638"
 ---
 # <a name="available-mobile-workspaces"></a>Espaces de travail mobiles disponibles
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Cette rubrique liste les espaces de travail mobiles qui peuvent être utilisés avec l’application mobile Finance et Opérations (Dynamics 365). Le tableau ci-dessous indique le plan de dépréciation pour chacun de ces espaces de travail mobiles en fonction du fait qu’une expérience de remplacement est prévue ou non.  
+Cet article liste les espaces de travail mobiles qui peuvent être utilisés avec l’application mobile Finance et Opérations (Dynamics 365). Le tableau ci-dessous indique le plan de dépréciation pour chacun de ces espaces de travail mobiles en fonction du fait qu’une expérience de remplacement est prévue ou non.  
 
 
 | Espace de travail mobile     | Description   | Plan de dépréciation   |

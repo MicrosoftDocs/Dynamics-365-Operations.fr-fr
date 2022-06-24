@@ -1,6 +1,6 @@
 ---
 title: Créer des recommandations avec des données de démonstration
-description: Cette rubrique fournit des instructions sur la manière d’optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l’aide de données de démonstration personnalisables et pré-renseignées.
+description: Ce document fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1a9592ee5cae88c6277115ed495b15ec09945e56cad0634fd246b6ee7e5dd048
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874893"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Créer des recommandations avec des données de démonstration
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des instructions sur la manière d’optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l’aide de données de démonstration personnalisables et pré-renseignées.
+Ce document fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 
 Les recommandations de produit omnicanal offrent un ensemble de listes de produits générées de manière programmée ou traitées de manière éditoriale. Ces listes peuvent être utilisées dans différents scénarios, selon les besoins de l’entreprise. Pour en savoir plus sur les listes de recommandation de produit, consultez [Vue d’ensemble des recommandations produit.](product-recommendations.md).
 

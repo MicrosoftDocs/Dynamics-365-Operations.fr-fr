@@ -1,6 +1,6 @@
 ---
 title: Hiérarchie d’organisation dans Dataverse
-description: Cette rubrique décrit l’intégration des données organisationnelles entre les applications Finances et Opérations et Dataverse.
+description: Cet article décrit l’intégration des données organisationnelles entre les applications Finances et Opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884730"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hiérarchie d’organisation dans Dataverse
 
@@ -22,7 +22,7 @@ ms.locfileid: "8358362"
 
 
 
-Comme Dynamics 365 Finance est un système financier, l’*organisation* est un concept de base, et le système commence par la configuration d’une hiérarchie d’organisation. Les opérations financières et commerciales peuvent ensuite être suivies au niveau de l’organisation et également à tous les niveaux de la hiérarchie d’organisation.
+Comme Dynamics 365 Finance est un système financier, *l’organisation* est un concept de base, et le système commence par la configuration d’une hiérarchie d’organisation. Les opérations financières et commerciales peuvent ensuite être suivies au niveau de l’organisation et également à tous les niveaux de la hiérarchie d’organisation.
 
 Bien que Dataverse ne dispose pas du concept de hiérarchie d’organisation, il dispose de certains concepts flous, tels que le total du produit des ventes. Dans le cadre de l’intégration de Dataverse, la structure de données de la hiérarchie d’organisation est ajoutée à Dataverse.
 

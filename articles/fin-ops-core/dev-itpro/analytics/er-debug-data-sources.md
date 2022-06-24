@@ -1,6 +1,6 @@
 ---
 title: Déboguer les sources de données d’un format ER exécuté pour analyser le flux de données et la transformation
-description: Cette rubrique explique comment vous pouvez déboguer les sources de données d’un format ER exécuté pour mieux comprendre le flux de données et la transformation configurés.
+description: Cet article explique comment vous pouvez déboguer les sources de données d’un format ER exécuté pour mieux comprendre le flux de données et la transformation configurés.
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884226"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Déboguer les sources de données d’un format ER exécuté pour analyser le flux de données et la transformation
 
@@ -34,7 +34,7 @@ Parfois, les données de la sortie générée sont différentes des mêmes donn�
 
 Pour activer la fonction de débogage de la source de données, définissez l’option **Activer le débogage des données lors de l’exécution du format** sur **Oui** dans les paramètres utilisateur ER. Vous pouvez ensuite démarrer le débogage de la source de données pendant que vous exécutez un format ER pour générer des documents sortants. Vous pouvez également utiliser l’option **Démarrer le débogage** pour lancer le débogage de la source de données pour un format ER configuré dans le [ER Operation designer](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document).
 
-Cette rubrique fournit des instructions pour lancer le débogage de la source de données pour les formats ER exécutés. Il explique comment les informations peuvent vous aider à comprendre le flux de données et les transformations de données. Les exemples de cette rubrique utilisent le processus technique pour le traitement des paiements fournisseur.
+Cet article fournit des instructions pour lancer le débogage de la source de données pour les formats ER exécutés. Il explique comment les informations peuvent vous aider à comprendre le flux de données et les transformations de données. Les exemples de cet article utilisent le processus technique pour le traitement des paiements fournisseur.
 
 ## <a name="limitations"></a>Limitations
 
@@ -49,20 +49,20 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-- Pour terminer les exemples de cette rubrique, vous devez avoir accès aux [rôles](../sysadmin/tasks/assign-users-security-roles.md) suivants :
+- Pour terminer les exemples de cet article, vous devez avoir accès aux [rôles](../sysadmin/tasks/assign-users-security-roles.md) suivants :
 
-    - Développeur de gestion des états électroniques
+    - Développeur d’états électroniques
     - Consultant fonctionnel de gestion des états électroniques
     - Administrateur système
 
 - La société doit être paramétrée sur **DEMF**.
 
-- Suivez les étapes de l’[Annexe 1](#appendix1) de cette rubrique pour télécharger les composants de la solution Microsoft ER requis pour traiter les paiements des fournisseurs.
-- Suivez les étapes de l’[Annexe 2](#appendix2) de cette rubrique pour préparer la comptabilité fournisseur pour le traitement des paiements des fournisseurs à l’aide de la solution ER que vous téléchargerez.
+- Suivez les étapes de l’[Annexe 1](#appendix1) de cet article pour télécharger les composants de la solution Microsoft ER requis pour traiter les paiements des fournisseurs.
+- Suivez les étapes de l’[Annexe 2](#appendix2) de cet article pour préparer la comptabilité fournisseur pour le traitement des paiements des fournisseurs à l’aide de la solution ER que vous téléchargerez.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Traiter un paiement fournisseur pour obtenir un fichier de paiement
 
-1. Suivez les étapes de l’[Annexe 3](#appendix3) de cette rubrique pour traiter les paiements des fournisseurs.
+1. Suivez les étapes de l’[Annexe 3](#appendix3) de cet article pour traiter les paiements des fournisseurs.
 
     ![Traitement des paiements fournisseur en cours.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Traiter un paiement fournisseur pour le débogage
 
-1. Suivez les étapes de l’[Annexe 3](#appendix3) de cette rubrique pour traiter les paiements des fournisseurs.
+1. Suivez les étapes de l’[Annexe 3](#appendix3) de cet article pour traiter les paiements des fournisseurs.
 2. Dans la boîte de message, sélectionnez **Oui** pour confirmer que vous souhaitez interrompre le traitement des paiements fournisseur et démarrer le débogage de la source de données à la place sur la page **Déboguer les sources de données**.
 
     ![Boîte de message de confirmation.](./media/er-data-debugger-start-debugging.png)

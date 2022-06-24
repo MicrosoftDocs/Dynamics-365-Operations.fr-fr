@@ -1,6 +1,6 @@
 ---
 title: Déclaration de TVA pour l’Égypte
-description: Cette rubrique explique comment configurer et générer le formulaire de déclaration de TVA pour l’Égypte.
+description: Cet article explique comment configurer et générer le formulaire de déclaration de TVA pour l’Égypte.
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870033"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Déclaration de TVA pour l’Égypte (EG-00002)
 
@@ -26,7 +26,7 @@ ms.locfileid: "7403946"
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer et générer le formulaire de déclaration de TVA et les registres de ventes et d’achat pour les entités juridiques en Égypte.
+Cet article explique comment configurer et générer le formulaire de déclaration de TVA et les registres de ventes et d’achat pour les entités juridiques en Égypte.
 
 Le formulaire de déclaration de TVA pour l’Égypte est le document officiel qui résume le montant total de la TVA d’aval dû, le montant total de la TVA d’amont récupérable et le montant du passif de la TVA associé. Le formulaire est utilisé pour tous les types de contribuables et doit être rempli manuellement via le portail de l’administration fiscale. Le formulaire de déclaration de TVA est communément appelé transmission de déclaration de TVA.
 

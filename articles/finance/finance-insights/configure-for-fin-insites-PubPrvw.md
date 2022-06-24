@@ -1,6 +1,6 @@
 ---
 title: Configuration pour Finance Insights – versions 10.0.20 et ultérieures
-description: Cette rubrique explique comment configurer votre système pour utiliser les fonctionnalités disponibles dans Finance insights pour la version 10.0.20 et les versions ultérieures.
+description: Cet article explique comment configurer votre système pour utiliser les fonctionnalités disponibles dans Finance Insights pour la version 10.0.20 et les versions ultérieures.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868516"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuration pour Finance Insights – versions 10.0.20 et ultérieures
 
@@ -29,10 +29,10 @@ ms.locfileid: "8711602"
 
 
 
-Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique comment configurer Dynamics 365 Finance version 10.0.20 pour que votre système puisse utiliser les fonctionnalités disponibles dans Finance Insights.
+Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cet article explique comment configurer Dynamics 365 Finance version 10.0.20 pour que votre système puisse utiliser les fonctionnalités disponibles dans Finance Insights.
 
 > [!NOTE]
-> Les étapes de configuration décrites dans cette rubrique s’appliquent uniquement à Finance, version 10.0.20 et versions ultérieures. Pour configurer Informations financières version 10.0.19 et versions ultérieures, voir [Configuration de Informations financières – versions jusqu’à 10.0.19](configure-for-fin-insites.md).
+> Les étapes de configuration décrites dans cet article s’appliquent uniquement à Finance, version 10.0.20 et versions ultérieures. Pour configurer Finance Insights version 10.0.19 et versions ultérieures, voir [Configuration de Finance insights – versions jusqu’à 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Déploiement de Finance
 
@@ -40,11 +40,11 @@ Procédez comme suit pour déployer les environnements.
 
 1. Dans Microsoft Dynamics Lifecycle Services (LCS), créez ou mettez à jour un environnement Finance. L’environnement nécessite la version 10.0.20 ou ultérieure des applications de finances et d’opérations.
 2. L’environnement doit être un environnement haute disponibilité (HA) dans Sandbox. (Ce type d’environnement est également appelé environnement de niveau 2.) Pour plus d’informations, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Si vous configurez Informations financières dans un environnement bac à sable, vous devrez peut-être copier les données de production dans cet environnement pour que les prédictions fonctionnent. Le modèle de prédiction utilise plusieurs années de données pour créer les prédictions. Les données de démonstration de Contoso ne contiennent pas suffisamment de données historiques pour entraîner comme il se doit le modèle de prédiction. 
+3. Si vous configurez Finance Insights dans un environnement bac à sable, vous devrez peut-être copier les données de production dans cet environnement pour que les prédictions fonctionnent. Le modèle de prédiction utilise plusieurs années de données pour créer les prédictions. Les données de démonstration de Contoso ne contiennent pas suffisamment de données historiques pour entraîner comme il se doit le modèle de prédiction. 
 
 ## <a name="configure-dataverse"></a>Configurer Dataverse
 
-Procédez comme suit pour configurer Dataverse pour Informations financières.
+Procédez comme suit pour configurer Dataverse pour Finance Insights.
 
 1. Dans LCS, ouvrez la page d’environnement et vérifiez que la section **Intégration Power Platform** est déjà configurée.
 
@@ -55,11 +55,11 @@ Procédez comme suit pour configurer Dataverse pour Informations financières.
         2. Si l’environnement Dataverse est correctement configuré, le nom de l’environnement Dataverse lié à l’environnement Finance devrait figurer dans la liste.
 
         > [!NOTE]
-        > Après avoir terminé la configuration de l’environnement, **ne sélectionnez pas** **Lien vers CDS for Apps**. Ce bouton n’est pas requis pour Informations financières. Si vous le sélectionnez, vous ne pourrez pas configurer les compléments d’environnement requis dans LCS.
+        > Après avoir terminé la configuration de l’environnement, **ne sélectionnez pas** **Lien vers CDS for Apps**. Ce bouton n’est pas requis pour Finance Insights. Si vous le sélectionnez, vous ne pourrez pas configurer les compléments d’environnement requis dans LCS.
 
 ## <a name="configure-azure"></a>Configurer Azure
 
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Utiliser Azure Cloud Shell pour configurer les ressources Data Lake de Informations financières
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Utiliser Azure Cloud Shell pour configurer les ressources Data Lake de Finance Insights
 
 # <a name="use-a-windows-powershell-script"></a>[Utiliser un script de configuration Windows PowerShell](#tab/use-a-powershell-script)
 
@@ -736,12 +736,12 @@ Suivez ces étapes pour utiliser LCS pour ajouter le complément Exporter vers 
 
 Le complément sera installé dans quelques minutes.
 
-## <a name="configure-the-finance-insights-add-in"></a>Configurer le complément Informations financières
+## <a name="configure-the-finance-insights-add-in"></a>Configurer le complément Finance Insights
 
 > [!NOTE]
 > Si vous avez déjà installé le complément Obtenir des informations, désinstallez-le avant de réaliser la procédure suivante.
 
-Suivez ces étapes pour installer le complément Informations financières.
+Suivez ces étapes pour installer le complément Finance Insights.
 
 1. Connectez-vous à LCS, puis, sous le nom de l’environnement sur le côté droit de la page, sélectionnez **Tous les détails**.
 2. Dans la section **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.

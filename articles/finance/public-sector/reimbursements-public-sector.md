@@ -1,6 +1,6 @@
 ---
 title: Remboursements dans le secteur public
-description: Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public.
+description: Cet article répond aux questions courantes associées aux remboursements dans le secteur public.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Public sector
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93c14ea9f4516cb601bfca56591f3a9837ffcd2f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: aaed0dd40b86e209e9e2ee8c368efe88eb1160c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846432"
 ---
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public. 
+Cet article répond aux questions courantes associées aux remboursements dans le secteur public. 
 
 ## <a name="what-happens-if-i-create-a-separate-reimbursement-transaction-for-each-billing-classification"></a>Que se passe-t-il si je crée une transaction de remboursement distincte pour chaque classification de facturation ?
 

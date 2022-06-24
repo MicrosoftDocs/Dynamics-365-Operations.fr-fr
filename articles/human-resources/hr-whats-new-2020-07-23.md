@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (23 juillet 2020)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 23 juillet 2020.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 23 juillet 2020.
 author: andreabichsel
 ms.date: 07/23/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: baf92234bc63449435324cc2d199a0529e53857a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 775508e6ea477b14165dd9d03fafa315a7794528
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893727"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (23 juillet 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8692028"
 
 
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3416. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
+Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3416. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>La suppression des dimensions financières d’un poste ne fonctionne pas comme prévu (445476)
 

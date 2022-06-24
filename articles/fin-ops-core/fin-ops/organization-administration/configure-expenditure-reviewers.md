@@ -1,6 +1,6 @@
 ---
 title: Configurer les réviseurs de dépenses
-description: Cette rubrique explique comment utiliser les réviseurs de dépenses pour sélectionner dynamiquement l’utilisateur auquel une tâche de flux de travail, une approbation ou une décision manuelle est affectée.
+description: Cet article explique comment utiliser les réviseurs de dépenses pour sélectionner dynamiquement l’utilisateur auquel une tâche de flux de travail, une approbation ou une décision manuelle est affectée.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863221"
 ---
 # <a name="configure-expenditure-reviewers"></a>Configurer les réviseurs de dépenses
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ Lorsque le bon de commande est créé, le champ **Projet** doit être spécifié
 
 ## <a name="set-up-expenditure-reviewers"></a>Paramétrage de réviseurs de dépenses
 
-Cet exemple montre comment configurer un réviseur de dépenses de demandes d’achat. Pour configurer d’autres types de réviseurs de dépenses, remplacez le chemin de navigation à l’étape 1 par le chemin approprié du tableau de la section [Types d’examinateurs des dépenses](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) un peu plus haut dans ce sujet.
+Cet exemple montre comment configurer un réviseur de dépenses de demandes d’achat. Pour configurer d’autres types de réviseurs de dépenses, remplacez le chemin de navigation à l’étape 1 par le chemin approprié du tableau de la section [Types d’examinateurs des dépenses](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) un peu plus haut dans cet article.
 
 1. Accédez à **Approvisionnements \> Installer \> Stratégies \> Réviseurs de dépenses des demandes d’achat**.
 2. Sur la page **Réviseurs des dépenses de demande d’achat**, sélectionnez **Nouveau**.

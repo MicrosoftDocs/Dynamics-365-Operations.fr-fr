@@ -1,6 +1,6 @@
 ---
 title: Retenue à la source globale
-description: Cette rubrique fournit des informations sur la fonctionnalité de retenue à la source globale et sur la manière de la configurer. La fonctionnalité de retenue à la source globale est améliorée pour les transactions fournisseur et client, de sorte que la retenue à la source est calculée au niveau de l’article.
+description: Cet article fournit des informations sur la fonctionnalité de retenue à la source globale et sur la manière de la configurer. La fonctionnalité de retenue à la source globale est améliorée pour les transactions fournisseur et client, de sorte que la retenue à la source est calculée au niveau de l’article.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 9cb02ba77fa33c839bc2a74811131973d1e5877f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 49d5048b9df30e94d959cf9f22b8ae837b74abdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846826"
 ---
 # <a name="global-withholding-tax"></a>Retenue à la source globale
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la fonctionnalité de retenue à la source globale et explique comment la configurer. Cette nouvelle fonctionnalité est disponible dans la version 10.0.17 et ultérieures.
+Cet article fournit des informations sur la fonctionnalité de retenue à la source globale et explique comment la configurer. Cette nouvelle fonctionnalité est disponible dans la version 10.0.17 et ultérieures.
 
 La fonctionnalité de retenue à la source globale est améliorée pour les transactions fournisseur et client, de sorte que la retenue à la source est calculée au niveau de l’article. Le solde du compte de retenue à la source provenant des transactions d’achat peut être réglé en exécutant la tâche de paiement de la retenue à la source sur le compte de règlement de la retenue à la source.
 

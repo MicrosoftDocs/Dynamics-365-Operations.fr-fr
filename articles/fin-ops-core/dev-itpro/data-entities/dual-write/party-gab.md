@@ -1,6 +1,6 @@
 ---
-title: Carnet d’adresses global et de la partie
-description: Cette rubrique décrit la fonctionnalité de carnet d’adresses global et de la partie de la double écriture.
+title: Partie et carnet d’adresses global
+description: Cet article décrit la fonctionnalité de carnet d’adresses global et de la partie de la double écriture.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892191"
 ---
 # <a name="party-and-global-address-book"></a>Partie et carnet d’adresses global
 
@@ -148,7 +148,7 @@ Au cours du processus de qualification des prospects, vous pouvez fournir un num
 
 1. Ouvrez votre environnement d’application d’engagement client.
 
-2. Installez toutes les solutions prérequises, comme décrit dans [Package d'orchestration d'applications à double écriture séparée](separated-solutions.md).
+2. Installez toutes les solutions prérequises, comme décrit dans [Package d’orchestration d’applications à double écriture séparée](separated-solutions.md).
 
 3. Installez la [solution d’orchestration de l’application de double écriture](https://aka.ms/dual-write-gab).
 
@@ -252,7 +252,7 @@ Au cours du processus de qualification des prospects, vous pouvez fournir un num
     [En-tête de devis de vente CDS](mapping-reference.md#215) | devis
     [En-têtes de commande client CDS](mapping-reference.md#217) | salesorders
     [En-têtes de facture client V2](mapping-reference.md#118) | factures
-    [Rôle d'adresse CDS](mapping-reference.md#301) | msdyn_addressroles
+    [Rôle d’adresse CDS](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > Le mappage `CDS Contacts V2 (contacts)` est celui que vous aviez interrompu à l’étape 1. Lorsque vous essayez d’exécuter d’autres mappages, ces 2 mappages peuvent apparaître dans la liste des personnes à charge. N’exécutez pas ces mappages.
@@ -292,12 +292,12 @@ Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction av
 | [En-têtes de facture client V2](mapping-reference.md#118) | factures |
 | [Salutations](mapping-reference.md#228) | msdyn\_salutations |
 | [Fournisseurs V2](mapping-reference.md#202) | msdyn\_vendors |
-| [Rôle d'adresse CDS](mapping-reference.md#301) |msdyn\_addressroles|
+| [Rôle d’adresse CDS](mapping-reference.md#301) |msdyn\_addressroles|
 
 Pour plus d’informations, voir [Référence de mappage en double écriture](mapping-reference.md).
 
-## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Rôles d'adresse sous forme de liste déroulante à sélection multiple
-Une adresse postale ou une adresse électronique peut servir à plusieurs fins. Par exemple, une adresse postale peut servir à la fois d'adresse de facturation et d'adresse de livraison. Dans ces cas, un utilisateur peut sélectionner à la fois **Facturer** et **Livraison** dans la liste déroulante, comme indiqué dans l'illustration suivante. 
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Rôles d’adresse sous forme de liste déroulante à sélection multiple
+Une adresse postale ou une adresse électronique peut servir à plusieurs fins. Par exemple, une adresse postale peut servir à la fois d’adresse de facturation et d’adresse de livraison. Dans ces cas, un utilisateur peut sélectionner à la fois **Facturer** et **Livraison** dans la liste déroulante, comme indiqué dans l’illustration suivante. 
 
 ![Liste déroulante Objectif/Rôle.](media/purpose.png)
 

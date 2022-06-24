@@ -1,6 +1,6 @@
 ---
 title: Créer une feuille de chargement
-description: Cette rubrique décrit la procédure de création d’une feuille de chargement lors de l’utilisation des processus de gestion des entrepôts.
+description: Cet article décrit la procédure de création d’une feuille de chargement lors de l’utilisation des processus de gestion des entrepôts.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2051583ae1606c9e4c099c2029807ca04d9d076
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34e84fee13dcff574f1700ba2b8f577f4c401cbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885781"
 ---
 # <a name="create-a-bill-of-lading"></a>Créer une feuille de chargement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure de création d’une feuille de chargement lors de l’utilisation des processus de gestion des entrepôts.  
+Cet article décrit la procédure de création d’une feuille de chargement lors de l’utilisation des processus de gestion des entrepôts.  
 
 Une feuille de chargement est un document juridique entre la société qui expédie les articles et le transporteur. Le document accompagne les articles expédiés, et sert de preuve d’expédition lorsque les articles sont livrés à la destination. Si vous utilisez la gestion des entrepôts, il existe deux manières de générer une feuille de chargement :
 

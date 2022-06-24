@@ -1,6 +1,6 @@
 ---
 title: Relevé bancaire CODA
-description: Cette rubrique contient des informations sur CODA, qui est un format d’état utilisé par le système d’opérations bancaires électroniques belge.
+description: Cet article contient des informations sur CODA, qui est un format d’état utilisé par le système d’opérations bancaires électroniques belge.
 author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97e7f8ac575decf2be019435de897e2ee893ebef
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: c09afd371936f72d4a65d504db7b4cc4645f27c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859722"
 ---
 # <a name="coda-bank-statement"></a>Relevé bancaire CODA
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique contient des informations sur CODA, qui est un format d’état utilisé par le système d’opérations bancaires électroniques belge. 
+Cet article contient des informations sur CODA, qui est un format d’état utilisé par le système d’opérations bancaires électroniques belge. 
 
 Pour les importations de relevés bancaires belges, vous utiliserez le format de fichier CODA. Cette fonctionnalité permet de vérifier les soldes d’ouverture et de clôture d’un compte bancaire de société, et de rapprocher des transactions importées basées sur des règles de rapprochement.
 

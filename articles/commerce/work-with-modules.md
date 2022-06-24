@@ -1,6 +1,6 @@
 ---
 title: Utiliser des modules
-description: Cette rubrique décrit quand et comment utiliser des modules dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit quand et comment utiliser des modules dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860190"
 ---
 # <a name="work-with-modules"></a>Utiliser des modules
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit quand et comment utiliser des modules dans Microsoft Dynamics 365 Commerce.
+Cet article décrit quand et comment utiliser des modules dans Microsoft Dynamics 365 Commerce.
 
 Les modules sont des blocs élémentaires logiques qui constituent la structure de la page, et ils ont différentes fins et étendues. Certains modules sont des conteneurs de haut niveau, et leur seul objectif est de garder à jour et d’organiser les autres modules (modules enfants). D’autres modules, tels qu’un module de placement d’une image simple, à un objet très spécifique. D’autres modules, tels qu’un module de carrousel, se situe entre ces deux catégories.
 
@@ -151,7 +151,7 @@ Pour configurer un module de conteneur sur une page, procédez comme suit.
 
 1. Sélectionnez un module de conteneur sur la page (par exemple, un module de carrousel ou de conteneur fluide).
 1. Dans le volet de propriétés de droite, développez les contrôles imbriqués en sélectionnant les en-têtes, puis définissez toutes les valeurs requises de contrôle.
-1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension en regard du nom du conteneur ou des emplacements à l’intérieur du conteneur, puis sélectionnez **Ajouter un module**. Ajoutez ensuite les modules enfants au conteneur sélectionné. Pour plus d’informations, voir la section [Utiliser les modules](#add-a-module) plus haut dans cette rubrique.
+1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension en regard du nom du conteneur ou des emplacements à l’intérieur du conteneur, puis sélectionnez **Ajouter un module**. Ajoutez ensuite les modules enfants au conteneur sélectionné. Pour plus d’informations, voir la section [Utiliser les modules](#add-a-module) plus haut dans cet article.
 1. Si plusieurs modules enfants existent en tant que jumeaux dans un conteneur parent, vous pouvez changer l’ordre d’affichage du conteneur parent. Sélectionnez le bouton représentant des points de suspension d’un module, puis utilisez les boutons de flèche vers le bas ou vers le haut.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

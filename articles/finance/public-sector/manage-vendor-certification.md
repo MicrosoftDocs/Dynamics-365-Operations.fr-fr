@@ -1,6 +1,6 @@
 ---
 title: Mettre à jour la certification des fournisseurs
-description: Cette rubrique décrit les étapes que les fournisseurs peuvent suivre pour maintenir leurs certifications à jour à l’aide de l’espace de travail Collaboration du fournisseur.
+description: Cet article décrit les étapes que les fournisseurs peuvent suivre pour maintenir leurs certifications à jour à l’aide de l’espace de travail Collaboration du fournisseur.
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891435"
 ---
 # <a name="maintain-vendor-certification"></a>Mettre à jour la certification des fournisseurs
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les étapes que vos fournisseurs peuvent suivre pour maintenir leurs certifications à jour à l’aide de l’espace de travail **Collaboration du fournisseur**. Parmi les exemples de certifications on trouve une entreprise Woman Business Enterprise (WBE) ou une entreprise de leadership dans la conception énergétique et environnementale (LEED). Les fournisseurs devront saisir les informations de certification dans l’espace de travail **Informations fournisseur**. Ils devront ensuite sélectionner **Plus de détails**, puis **Certifications**.
+Cet article décrit les étapes que vos fournisseurs peuvent suivre pour maintenir leurs certifications à jour à l’aide de l’espace de travail **Collaboration du fournisseur**. Parmi les exemples de certifications on trouve une entreprise Woman Business Enterprise (WBE) ou une entreprise de leadership dans la conception énergétique et environnementale (LEED). Les fournisseurs devront saisir les informations de certification dans l’espace de travail **Informations fournisseur**. Ils devront ensuite sélectionner **Plus de détails**, puis **Certifications**.
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>Activer la fonctionnalité de certification des fournisseurs
 

@@ -1,6 +1,6 @@
 ---
 title: Liste des fonctions ER dans la catégorie de date et d’heure
-description: Cette rubrique fournit des informations sur les fonctions de date et d’heure prises en charge dans les États électroniques (ER).
+description: Cet article fournit des informations sur les fonctions de date et d’heure prises en charge dans les États électroniques (ER).
 author: NickSelin
 ms.date: 09/09/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: e6e15d143bad016883f03ecf0125ce9429215a71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880237"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Liste des fonctions ER dans la catégorie de date et d’heure
 
 [!include [banner](../includes/banner.md)]
 
-Les fonctions de date et d’heure d’états électroniques (ER) peuvent être utilisées pour extraire des informations des valeurs de date et d’heure et pour effectuer des opérations sur celles-ci. Cette rubrique fournit un résumé de ces fonctions.
+Les fonctions de date et d’heure d’états électroniques (ER) peuvent être utilisées pour extraire des informations des valeurs de date et d’heure et pour effectuer des opérations sur celles-ci. Cet article fournit un résumé de ces fonctions.
 
 ## <a name="list-of-supported-functions"></a>Liste des fonctions prises en charge
 
@@ -46,7 +46,7 @@ Les fonctions de date et d’heure d’états électroniques (ER) peuvent être 
 | [SessionNow](er-functions-datetime-sessionnow.md) | Cette fonction renvoie une valeur *DateTime* qui représente la date et l’heure actuelles de la session de l’application. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Cette fonction renvoie une valeur *Date* qui représente la date actuelle de la session de l’application. |
 | [Aujourd’hui](er-functions-datetime-today.md) | Cette fonction renvoie une valeur *Date* qui représente la date actuelle du serveur d’applications. |
-| [WeekNum](er-functions-datetime-weeknum.md) | Cette fonction renvoie une valeur *Entier* qui représente la semaine de l'année. |
+| [WeekNum](er-functions-datetime-weeknum.md) | Cette fonction renvoie une valeur *Entier* qui représente la semaine de l’année. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

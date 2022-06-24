@@ -1,6 +1,6 @@
 ---
-title: Fonctions supprimées ou obsolètes dans les versions précédentes
-description: Cette rubrique décrit les fonctionnalités qui ont été supprimées ou dont la suppression de Dynamics 365 for Finance and Operations était planifiée et les versions précédentes.
+title: Fonctions supprimées ou déconseillées dans les versions précédentes
+description: Cet article décrit les fonctionnalités qui ont été supprimées ou dont la suppression de Dynamics 365 for Finance and Operations était planifiée et les versions précédentes.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866183"
 ---
-# <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctionnalités supprimées ou obsolètes dans les versions précédentes
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctions supprimées ou déconseillées dans les versions précédentes
 
 [!include [banner](../includes/banner.md)]
 
 
 
 > [!IMPORTANT]
-> Cette rubrique n’est plus mise à jour. Pour afficher une liste actuelle des fonctionnalités qui ont été supprimées des applications Finances et Opérations ou qui sont obsolètes, recherchez le contenu **« Fonctionnalités supprimées ou obsolètes »** qui est lié à l’application que vous utilisez.
+> Cet article n’est plus mise à jour. Pour afficher une liste actuelle des fonctionnalités qui ont été supprimées des applications Finances et Opérations ou qui sont obsolètes, recherchez le contenu **« Fonctionnalités supprimées ou obsolètes »** qui est lié à l’application que vous utilisez.
 
-Cette rubrique décrit les fonctionnalités qui ont été supprimées de Dynamics 365 for Finance and Operations ou qui sont obsolètes ainsi que les versions précédentes de ce produit.
+Cet article décrit les fonctionnalités qui ont été supprimées de Dynamics 365 for Finance and Operations ou qui sont obsolètes ainsi que les versions précédentes de ce produit.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.

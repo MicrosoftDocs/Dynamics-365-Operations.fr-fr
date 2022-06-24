@@ -1,6 +1,6 @@
 ---
 title: Créer des évaluations des performances
-description: Cette rubrique explique comment créer une évaluation des performances et décrit l’objet de chaque section de l’évaluation.
+description: Cet article explique comment créer une évaluation des performances et décrit l’objet de chaque section de l’évaluation.
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67a001926c0d5021d952f9b678ec128c68511a8f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ae2de087f4e345ba826ddbe8a65f917476bd6894
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872179"
 ---
 # <a name="create-performance-reviews"></a>Créer des évaluations des performances
 
@@ -27,7 +27,7 @@ ms.locfileid: "8696038"
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-Cette rubrique explique comment créer une évaluation des performances et décrit l’objet de chaque section de l’évaluation. Cette procédure a été créée à l’aide de la société fictive USMF.
+Cet article explique comment créer une évaluation des performances et décrit l’objet de chaque section de l’évaluation. Cette procédure a été créée à l’aide de la société fictive USMF.
 
 1. Sur la page d’accueil, sélectionnez l’espace de travail **Libre service employé**.
 2. Cliquez sur **Nouvelle révision** pour créer une révision.

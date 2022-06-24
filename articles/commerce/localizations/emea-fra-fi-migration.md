@@ -1,6 +1,6 @@
 ---
 title: Effectuer une migration depuis l’ancienne fonctionnalité Commerce pour la France
-description: Cette rubrique explique comment effectuer la migration depuis la solution de signature numérique héritée dans la localisation de Microsoft Dynamics 365 Commerce pour la France vers la solution basée sur le cadre d’intégration fiscale du Commerce.
+description: Cet article explique comment effectuer la migration depuis la solution de signature numérique héritée dans la localisation de Microsoft Dynamics 365 Commerce pour la France vers la solution basée sur le cadre d’intégration fiscale du Commerce.
 author: EvgenyPopovMBS
 manager: annbe
 ms.date: 08/10/2021
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9555834462da494311b44ac51d976fbd7a6e3b1e
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 9eb586791d0b205738291dbae3ef6b44c9a57371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878472"
 ---
 # <a name="migrate-from-legacy-commerce-functionality-for-france"></a>Effectuer une migration depuis l’ancienne fonctionnalité Commerce pour la France
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment effectuer la migration depuis la [solution de signature numérique héritée](emea-fra-deployment.md) dans la localisation de Microsoft Dynamics 365 Commerce pour la France vers la solution basée sur le [cadre d’intégration fiscale du Commerce](emea-fra-fi-deployment.md).
+Cet article explique comment effectuer la migration depuis la [solution de signature numérique héritée](emea-fra-deployment.md) dans la localisation de Microsoft Dynamics 365 Commerce pour la France vers la solution basée sur le [cadre d’intégration fiscale du Commerce](emea-fra-fi-deployment.md).
 
 Si vous utilisez la [solution de signature numérique héritée pour la France](emea-fra-deployment.md), vous devez effectuer la migration vers la [solution d’intégration fiscale actuelle de Commerce](./emea-fra-fi-deployment.md) pour tenir compte des changements et recevoir les mises à jour en temps voulu pour les fonctionnalités propres à la France. Aucune modification majeure n’est requise dans la logique d’extension que vous avez créée. Cependant, étant donné que cette mise à jour est une mise à jour majeure, certaines de vos personnalisations cesseront de fonctionner à moins que des modifications ne soient apportées de votre côté. Par conséquent, vous devez planifier, préparer et terminer l’adoption de votre environnement.
 
@@ -49,7 +49,7 @@ Procédez comme suit pour effectuer ce processus de migration :
 1. Redémarrez le PDV.
 
 > [!NOTE]
-> Selon le type d’environnement, vous pouvez trouver plus de détails techniques sur le processus de migration dans la section [Migration dans un environnement de développement](#migration-in-a-development-environment) de cette rubrique ou la section [Migration dans un environnement de production](#migration-in-a-production-environment).
+> Selon le type d’environnement, vous pouvez trouver plus de détails techniques sur le processus de migration dans la section [Migration dans un environnement de développement](#migration-in-a-development-environment) ou la section [Migration dans un environnement de production](#migration-in-a-production-environment) de cet article.
 
 ## <a name="configure-fiscal-integration"></a>Configurer l’intégration fiscale
 
@@ -62,7 +62,7 @@ Pour configurer la fonctionnalité d’intégration fiscale pour la France, suiv
 
 Vous devez ajuster les formats de tickets de caisse afin qu’ils utilisent des champs personnalisés mis à jour. Pour des informations à jour sur les champs personnalisés pour la France, voir [Configurer des champs personnalisés afin qu’ils puissent être utilisés dans des formats de tickets de caisse pour les tickets de caisse de vente](./emea-fra-cash-registers.md#configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts).
 
-## <a name="enable-fiscal-integration"></a>Activer l'intégration fiscale
+## <a name="enable-fiscal-integration"></a>Activer l’intégration fiscale
 
 Lorsque vous êtes prêt à activer la fonctionnalité d’intégration fiscale dans Commerce Headquarters, procédez comme suit.
 

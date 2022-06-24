@@ -1,6 +1,6 @@
 ---
 title: Associer des immobilisations à des baux
-description: La rubrique explique comment associer une immobilisation existante à un nouveau bail.
+description: L’article explique comment associer une immobilisation existante à un nouveau bail.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0ae7a850ceb13cb41ee5adc406e71105cdad4fe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5cc341008d25da544ec35d5660b5ff0b38f2287b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895107"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Associer des immobilisations à des baux
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-La rubrique explique comment associer une immobilisation existante à un nouveau bail. Lorsque vous associez une immobilisation à un bail, la valeur du droit d’utilisation de l’actif lors de la comptabilisation initiale sera le coût d’acquisition de l’immobilisation.
+L’article explique comment associer une immobilisation existante à un nouveau bail. Lorsque vous associez une immobilisation à un bail, la valeur du droit d’utilisation de l’actif lors de la comptabilisation initiale sera le coût d’acquisition de l’immobilisation.
 
 Avant de pouvoir associer une immobilisation à un bail, vous devez créer un enregistrement pour l’immobilisation dans Immobilisations. Puis, sur la page **Récapitulatif du bail**, vous devez créer un bail et lier l’actif à ce bail.
 

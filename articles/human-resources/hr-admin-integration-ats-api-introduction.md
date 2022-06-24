@@ -1,6 +1,6 @@
 ---
 title: Introduction à l’API d’intégration du système de suivi des candidats
-description: Cette rubrique décrit l’API d’intégration du système de suivi des candidats Dynamics 365 Human Resources.
+description: Cet article décrit l’API d’intégration du système de suivi des candidats Dynamics 365 Human Resources.
 author: andreabichsel
 ms.date: 02/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e16c781a6e51c57db8ae76dcfe0d28ec709428eb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6037d09fdc484753c7e90a896ce383bd71391356
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894699"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Introduction à l’API d’intégration du système de suivi des candidats
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069930"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit l’API d’intégration du système de suivi des candidats Dynamics 365 Human Resources. Cette API a pour but de permettre des intégrations rationalisées entre Dynamics 365 Human Resources et les ATS partenaires.
+Cet article décrit l’API d’intégration du système de suivi des candidats Dynamics 365 Human Resources. Cette API a pour but de permettre des intégrations rationalisées entre Dynamics 365 Human Resources et les ATS partenaires.
 
 ![Flux d’intégration ATS.](media/hr-admin-integration-ats-api-introduction-flow.png)
 

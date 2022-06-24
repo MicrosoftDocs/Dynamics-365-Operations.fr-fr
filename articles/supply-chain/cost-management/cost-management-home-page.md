@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891145"
 ---
 # <a name="cost-management-home-page"></a>Page d’accueil Gestion des coûts
 
@@ -53,7 +53,7 @@ Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.
 
 #### <a name="white-paper"></a>Livre blanc
 
-Le [Calcul de nomenclature à l’aide d’une feuille de coûts](https://www.microsoft.com/download/details.aspx?id=101937) décrit comment définir une feuille de coûts comprenant le matériel et la fabrication, et comment le programme affecte les résultats de calcul de nomenclature. Pour mieux expliquer les rubriques, des scénarios concrets et des données qui démontrent l’effet des différents paramètres et configurations sont fournis.
+Le [Calcul de nomenclature à l’aide d’une feuille de coûts](https://www.microsoft.com/download/details.aspx?id=101937) décrit comment définir une feuille de coûts comprenant le matériel et la fabrication, et comment le programme affecte les résultats de calcul de nomenclature. Pour mieux expliquer les articles, des scénarios concrets et des données qui démontrent l’effet des différents paramètres et configurations sont fournis.
 
 #### <a name="blogs"></a>Blogs
 

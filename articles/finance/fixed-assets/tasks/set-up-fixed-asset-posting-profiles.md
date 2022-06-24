@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2964be0b02d6a5553bad9a1b3788a5f1efb208ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: be8001428cf2df111458fddd0ecbcdae0daf9b25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863070"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Paramétrage de profils de validation d’immobilisation
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure montre comment configurer les profils de comptabilisation des immobilisations. Les exemples donnés dans la rubrique concernent un profil de validation de base, même s’il faut créer des profils de validation pour les besoins spécifiques de vos plans de comptes et de vos états financiers.
+Cette procédure montre comment configurer les profils de comptabilisation des immobilisations. Les exemples donnés dans l’article concernent un profil de validation de base, même s’il faut créer des profils de validation pour les besoins spécifiques de vos plans de comptes et de vos états financiers.
 
 1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Paramétrage > Profils de validation d’immobilisation**.
 2. Cliquez sur **Nouveau**.

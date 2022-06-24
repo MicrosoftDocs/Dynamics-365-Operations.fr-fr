@@ -1,6 +1,6 @@
 ---
 title: Confirmer les échéanciers de paiement par lots de la location d’actifs
-description: Cette rubrique explique comment confirmer plusieurs échéanciers de paiement par lot.
+description: Cet article explique comment confirmer plusieurs échéanciers de paiement par lot.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c19ac162c5e4c62c2440a0f16111c8cd69748e92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd75e22f6407d6bc25a78c1dfeacf70022238e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895049"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>Confirmer les échéanciers de paiement par lots de la location d’actifs
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment confirmer plusieurs échéanciers de paiement par lot. Les échéanciers de paiement sont confirmés sur une base de location-à-location, soit par le biais du processus de confirmation par lot. Une écriture de journal ne peut être validée que pour une location dont l’échéancier de paiement est confirmé. La confirmation de l’échéancier de paiement sert d’approbation finale des informations financières de la location. Toutes les modifications futures des informations financières relatives à la location, telles que les paiements et la durée du bail, constituent un ajustement de la location et doivent être traitées de cette manière.
+Cet article explique comment confirmer plusieurs échéanciers de paiement par lot. Les échéanciers de paiement sont confirmés sur une base de location-à-location, soit par le biais du processus de confirmation par lot. Une écriture de journal ne peut être validée que pour une location dont l’échéancier de paiement est confirmé. La confirmation de l’échéancier de paiement sert d’approbation finale des informations financières de la location. Toutes les modifications futures des informations financières relatives à la location, telles que les paiements et la durée du bail, constituent un ajustement de la location et doivent être traitées de cette manière.
 
 Pour confirmer plusieurs échéanciers de paiement, procédez comme suit.
 

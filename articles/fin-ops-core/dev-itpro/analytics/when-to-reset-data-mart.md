@@ -1,6 +1,6 @@
 ---
 title: FAQ sur les réinitialisations du mini-data warehouse
-description: Cette rubrique fournit des réponses à quelques-unes des questions fréquemment posées sur les réinitialisations du mini-data warehouse.
+description: Cet article fournit des réponses à quelques-unes des questions fréquemment posées sur les réinitialisations du mini-data warehouse.
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892390"
 ---
 # <a name="data-mart-resets-faq"></a>FAQ sur les réinitialisations du mini-data warehouse
 
-Cette rubrique fournit des réponses à quelques-unes des questions fréquemment posées sur les réinitialisations du mini-data warehouse. Une réinitialisation du mini-data warehouse peut être un processus chronophage et, selon les circonstances, peut ne pas être la solution requise. Par conséquent, cette rubrique inclut des informations sur les circonstances dans lesquelles une réinitialisation du mini-data warehouse peut être utile, ainsi que sur les circonstances dans lesquelles il est peu probable qu’elle soit utile.
+Cet article fournit des réponses à quelques-unes des questions fréquemment posées sur les réinitialisations du mini-data warehouse. Une réinitialisation du mini-data warehouse peut être un processus chronophage et, selon les circonstances, peut ne pas être la solution requise. Par conséquent, cet article inclut des informations sur les circonstances dans lesquelles une réinitialisation du mini-data warehouse peut être utile, ainsi que sur les circonstances dans lesquelles il est peu probable qu’elle soit utile.
 
 ## <a name="what-is-a-data-mart-reset"></a>Qu’est-ce que la réinitialisation d’un mini-data warehouse ?
 

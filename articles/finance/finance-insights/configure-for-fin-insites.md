@@ -1,6 +1,6 @@
 ---
 title: Configuration de Finance Insights
-description: Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières.
+description: Cet article explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Finance Insights.
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861414"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuration de Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières. Pour mener à bien les procédures de cette rubrique, vous devez disposer d’un accès Administrateur système et Personnalisateur de système dans le [Centre d’administration de Power Portal](https://admin.powerplatform.microsoft.com/), un accès administrateur système à Dynamics 365 Finance, et un accès pour créer des environnements dans Microsoft Dynamics Lifecycle Services (LCS).
+Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cet article explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Finance Insights. Pour mener à bien les procédures de cet article, vous devez disposer d’un accès Administrateur système et Personnalisateur de système dans le [Centre d’administration de Power Portal](https://admin.powerplatform.microsoft.com/), un accès administrateur système à Dynamics 365 Finance, et un accès pour créer des environnements dans Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!NOTE]
 > Les procédures suivantes de configuration de Finance Insights sont valables pour les versions de Dynamics 365 Finance, version 10.0.21 et versions ultérieures.
@@ -60,7 +60,7 @@ Les applications Azure AD suivantes sont enregistrées dans Azure AD.
     
 ## <a name="configure-dataverse"></a>Configurer Dataverse
 
-Procédez comme suit pour configurer Dataverse pour Informations financières.
+Procédez comme suit pour configurer Dataverse pour Finance Insights.
 
 - Dans LCS, ouvrez la page d’environnement et vérifiez que la section **Intégration Power Platform** est déjà configurée.
 
@@ -72,14 +72,14 @@ Procédez comme suit pour configurer Dataverse pour Informations financières.
 
         Pour accéder au site d’administration Microsoft Power Platform, allez sur <https://admin.powerplatform.microsoft.com/environments>.
 
-## <a name="configure-the-finance-insights-add-in"></a>Configurer le complément Informations financières
+## <a name="configure-the-finance-insights-add-in"></a>Configurer le complément Finance Insights
 
 Si vous avez déjà installé le complément Finance Insights, désinstallez-le avant de réaliser la procédure suivante.
 
 > [!NOTE]
 > Si vous avez déjà installé le complément Data Lake dans LCS, Finance Insights l’utilisera pour enregistrer les données requises pour les prédictions. Si vous n’avez pas encore installé le complément Data Lake dans LCS, le complément Finance Insights créera un lac de données géré pour vous.
 
-Suivez ces étapes pour installer le complément Informations financières.
+Suivez ces étapes pour installer le complément Finance Insights.
 
 1. Connectez-vous à LCS, puis, sous le nom de l’environnement sur le côté droit de la page, sélectionnez **Tous les détails**.
 2. Dans la section **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.

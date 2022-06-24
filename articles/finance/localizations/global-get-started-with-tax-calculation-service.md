@@ -1,6 +1,6 @@
 ---
-title: Mise en route du calcul de la taxe
-description: Cette rubrique explique comment paramétrer le calcul des taxes.
+title: Démarrage du calcul de la taxe
+description: Cet article explique comment paramétrer le calcul des taxes.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855281"
 ---
-# <a name="get-started-with-tax-calculation"></a>Mise en route du calcul de la taxe
+# <a name="get-started-with-tax-calculation"></a>Démarrage du calcul de la taxe
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la prise en main du calcul des taxes. Les sections de cette rubrique vous guident tout au travers des étapes de conception et de configuration de haut niveau dans Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance et Dynamics 365 Supply Chain Management. 
+Cet article fournit des informations sur la prise en main du calcul des taxes. Les sections de cet article vous guident tout au travers des étapes de conception et de configuration de haut niveau dans Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance et Dynamics 365 Supply Chain Management. 
 
 La configuration se compose de trois étapes principales.
 
@@ -77,11 +77,11 @@ Une fois ces étapes terminées, les configurations suivantes sont automatiqueme
 - Groupes de taxe
 - Groupes de taxe d’article
 
-Les autres sections de cette rubrique fournissent plus de détails sur ces étapes de configuration.
+Les autres sections de cet article fournissent plus de détails sur ces étapes de configuration.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant de pouvoir effectuer les étapes restantes de cette rubrique, les conditions préalables suivantes doivent être remplies :<!--TO HERE-->
+Avant de pouvoir effectuer les étapes restantes de cet article, les conditions préalables suivantes doivent être remplies :<!--TO HERE-->
 
 - Vous devez avoir accès à votre compte LCS et disposer d’un projet LCS déployé ayant un environnement de niveau 2 ou supérieur qui exécute Dynamics 365 version 10.0.21 ou ultérieure.
 - Vous devez créer un environnement RCS pour votre organisation et vous devez avoir accès à votre compte. Pour plus d’informations sur la création d’un environnement RCS, consultez [Présentation de Regulatory Configuration Service](rcs-overview.md).
@@ -212,7 +212,7 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     | Vente            | BEL       | FRA     | BEL_UE       |
     
     > [!NOTE]
-    > Si le groupe de taxe de vente par défaut sur vos lignes de document imposables est correct, laissez cette matrice vide. Pour plus d’informations, voir la section [Conception du runtime](#runtime) plus haut dans cette rubrique.
+    > Si le groupe de taxe de vente par défaut sur vos lignes de document imposables est correct, laissez cette matrice vide. Pour plus d’informations, voir la section [Conception du runtime](#runtime) plus haut dans cet article.
 
 22. Sur l’onglet **Applicabilité des groupes de taxe d’article**, sélectionnez les colonnes requises pour déterminer le code de taxe correct, puis sélectionnez **Ajouter**. Saisissez ou sélectionnez des valeurs pour chaque colonne. Le champ **Groupe de taxe d’article** sera la sortie de cette matrice. Si cet onglet n’est pas configuré, le groupe de taxe d’article sur la ligne de transaction sera utilisé.
 
@@ -224,7 +224,7 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     | D0003     | Réduction        |
 
     > [!NOTE]
-    > Si le groupe de taxe de vente de l'article par défaut sur vos lignes de document imposables est correct, laissez cette matrice vide. Pour plus d’informations, voir la section [Conception du runtime](#runtime) plus haut dans cette rubrique.
+    > Si le groupe de taxe de vente de l’article par défaut sur vos lignes de document imposables est correct, laissez cette matrice vide. Pour plus d’informations, voir la section [Conception du runtime](#runtime) plus haut dans cet article.
 
     Pour plus d’informations sur la façon dont les codes taxe sont déterminés dans le calcul de la TVA, voir [Logique de détermination du groupe de taxe et du groupe de taxe d’article](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ La configuration dans cette section est effectuée par entité juridique. Vous d
 2. Dans l’onglet **Général**, définissez les champs suivantes :
 
     - **Activer le service de calcul des taxes** : cochez cette case pour activer le calcul des taxes pour l’entité juridique. S’il n’est pas activé pour l’entité juridique actuelle, l’entité juridique continuera à utiliser le moteur de taxe existant pour déterminer et calculer la taxe.
-    - **Configuration des fonctionnalités** : sélectionnez une configuration et une version de la fonctionnalité de taxe publiée pour l’entité juridique. Pour plus d’informations sur la configuration et l’exécution d’une fonctionnalité de taxe publiée, consultez la section précédente de cette rubrique.
+    - **Configuration des fonctionnalités** : sélectionnez une configuration et une version de la fonctionnalité de taxe publiée pour l’entité juridique. Pour plus d’informations sur la configuration et l’exécution d’une fonctionnalité de taxe publiée, consultez la section précédente de cet article.
     - **Processus d’entreprise** : sélectionnez les processus d’entreprise à activer.
 
 3. Sur l’onglet **Calcul**, définissez la règle d’arrondi attendue pour l’entité juridique. Pour plus d’informations sur la logique d’arrondi, voir [Règles d’arrondi du calcul des taxes](https://go.microsoft.com/fwlink/?linkid=2166988).

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889426"
 ---
 # <a name="location-license-plate-positioning"></a>Positionnement des contenants dans un emplacement
 
@@ -28,11 +28,11 @@ Le positionnement des contenants dans un emplacement vous permet de voir où se 
 
 La fonctionnalité ajoute un numéro de souche à chaque contenant placé dans un emplacement de stockage. Ce numéro de souche permet de classer les contenants dans l’emplacement de stockage. Par conséquent, la fonctionnalité prend en charge de manière intelligente les scénarios où les clients utilisent un système de rayonnage par gravité et doivent savoir, à des fins de prélèvement, quel contenant est orienté vers l’avant.
 
-Cette rubrique présente un scénario qui montre comment configurer et utiliser la fonctionnalité.
+Cet article présente un scénario qui montre comment configurer et utiliser la fonctionnalité.
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité Positionnement des contenants dans un emplacement
 
-Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Positionnement des contenants d’emplacement* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Positionnement des contenants d’emplacement* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour utiliser la fonctionnalité décrite dans cet article, la fonctionnalité *Positionnement des contenants d’emplacement* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Positionnement des contenants d’emplacement* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
@@ -42,7 +42,7 @@ Pour exécuter ce scénario en utilisant les valeurs suggérées ici, vous devez
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Configurer la fonctionnalité pour ce scénario
 
-Exécutez les procédures suivantes pour configurer la fonctionnalité *Positionnement des contenants dans un emplacement* pour le scénario présenté dans cette rubrique.
+Exécutez les procédures suivantes pour configurer la fonctionnalité *Positionnement des contenants dans un emplacement* pour le scénario présenté dans cet article.
 
 #### <a name="location-profiles"></a>Profils d’emplacement
 

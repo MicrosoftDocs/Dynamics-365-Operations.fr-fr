@@ -1,6 +1,6 @@
 ---
 title: Paramétrage de la comptabilité intersociétés
-description: Cette rubrique décrit la procédure de paramétrage de la comptabilité intersociétés afin de pouvoir utiliser les journaux intersociétés pour les répartitions comptables et les journaux financiers, tels que les journaux, les journaux de factures fournisseurs, et les journaux des paiements d’opérations diverses.
+description: Cet article décrit la procédure de paramétrage de la comptabilité intersociétés afin de pouvoir utiliser les journaux intersociétés pour les répartitions comptables et les journaux financiers, tels que les journaux, les journaux de factures fournisseurs, et les journaux des paiements d’opérations diverses.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c9914d9fff3407d8d469fe2ed27a9bfd6b26a50
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720363"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871215"
 ---
 # <a name="intercompany-accounting-setup"></a>Paramétrage de la comptabilité intersociétés
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure de paramétrage de la comptabilité intersociétés afin de pouvoir utiliser les journaux intersociétés pour les répartitions comptables et les journaux financiers, tels que les journaux, les journaux de factures fournisseurs, et les journaux des paiements d’opérations diverses.
+Cet article décrit la procédure de paramétrage de la comptabilité intersociétés afin de pouvoir utiliser les journaux intersociétés pour les répartitions comptables et les journaux financiers, tels que les journaux, les journaux de factures fournisseurs, et les journaux des paiements d’opérations diverses.
 
 Les journaux intersociétés peuvent être créés dans divers scénarios, par exemple pour les journaux d’opérations diverses, journaux des factures fournisseur, les répartitions comptables et les paiements centralisés. Pour activer ces scénarios, vous devez paramétrer la comptabilité intersociétés.
 

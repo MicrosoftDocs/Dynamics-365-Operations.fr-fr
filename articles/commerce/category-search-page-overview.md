@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la page d’arrivée de catégories et de la page des résultats de la recherche par défaut
-description: Cette rubrique fournit une vue d’ensemble de la page d’arrivée de catégories et la page des résultats de la recherche par défaut dans Dynamics 365 Commerce.
+description: Cet article fournit une vue d’ensemble de la page d’arrivée de catégories et la page des résultats de la recherche par défaut dans Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881850"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Vue d’ensemble de la page d’arrivée de catégories et de la page des résultats de la recherche par défaut
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de la page d’arrivée de catégories et la page des résultats de la recherche par défaut dans Microsoft Dynamics 365 Commerce e-Commerce.
+Cet article fournit une vue d’ensemble de la page d’arrivée de catégories et la page des résultats de la recherche par défaut dans Microsoft Dynamics 365 Commerce e-Commerce.
 
 ## <a name="default-category-landing-page"></a>Page d’arrivée de catégorie par défaut
 
@@ -32,7 +32,7 @@ La page par défaut d’atterrissage de catégorie est la page vers laquelle les
 
 ![Page d’arrivée de catégorie par défaut.](./media/SimpleCategoryLandingDressCategory.png)
 
-En haut de la page se trouve un en-tête qui affiche toutes les catégories de produits et d’autres pages que le responsable de la promotion des ventes a classés par catégorie. La configuration est effectuée dans le cadre de la configuration de la hiérarchie de navigation du canal. Au bas de la page se trouve un pied de page qui inclut des liens rapides vers diverses rubriques qui peuvent intéresser un client.
+En haut de la page se trouve un en-tête qui affiche toutes les catégories de produits et d’autres pages que le responsable de la promotion des ventes a classés par catégorie. La configuration est effectuée dans le cadre de la configuration de la hiérarchie de navigation du canal. Au bas de la page se trouve un pied de page qui inclut des liens rapides vers divers articles qui peuvent intéresser un client.
 
 Les composants suivants sont essentiels pour une catégorie :
 

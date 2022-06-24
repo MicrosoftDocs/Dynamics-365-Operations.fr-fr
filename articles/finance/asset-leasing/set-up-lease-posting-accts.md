@@ -1,6 +1,6 @@
 ---
 title: Configurer des comptes de validation de baux
-description: Cette rubrique répertorie les comptes de validation requis pour les transactions de location d’actifs et explique comment définir des comptes de validation sur la page Paramètres de validation de location.
+description: Cet article répertorie les comptes de validation requis pour les transactions de location d’actifs et explique comment définir des comptes de validation sur la page Paramètres de validation de location.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859912"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Configurer des comptes de validation de baux
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les comptes de validation requis pour les transactions de location d’actifs et explique comment définir des comptes de validation sur la page **Paramètres de validation de location**.
+Cet article répertorie les comptes de validation requis pour les transactions de location d’actifs et explique comment définir des comptes de validation sur la page **Paramètres de validation de location**.
 
 Pour vous conformer à l’article 842 sur la codification des normes comptables (ASC 842) et la norme internationale en matière de génération des états financiers 16 (IFRS 16), vous devrez peut-être créer des comptes dans votre plan comptable. Cependant, tous les comptes que vous créez pour vous conformer aux normes ASC et IFRS ne sont pas des comptes d’immobilisations. En vertu de l’ASC 842, un droit d’utilisation de l’actif est comptabilisé à la fois pour les contrats de location-financement et de location simple. Ces contrats de location sont séparés des immobilisations. (Vous pouvez toujours gérer un droit d’utilisation de l’actif en utilisant des immobilisations.)
 

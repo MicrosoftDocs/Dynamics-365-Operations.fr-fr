@@ -1,6 +1,6 @@
 ---
 title: Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées
-description: Cette rubrique décrit comment créer des configurations pour générer des documents électroniques aux formats Excel et Word contenant des images intégrées.
+description: Cet article décrit comment créer des configurations pour générer des documents électroniques aux formats Excel et Word contenant des images intégrées.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a514c5b616d761ef3eb6347e67e645b23eaa1794911775835e77cded4500ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255b9a4e5276a9a80a4fbc15076f78a25c918e80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886641"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées
 
@@ -29,10 +29,10 @@ Pour réaliser les étapes de cette procédure, commencez par effectuer la proc�
 |------------------------------------------------------|-----------------------------|
 | Configuration de modèle de données ER                          | [Modèle pour les chèques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)       |
 | Configuration de format ER                              | [Format d’impression des chèques.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
-| Image du logo de l'entreprise                                   | [Logo de société au format .png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
+| Image du logo de l’entreprise                                   | [Logo de société au format .png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
 | Image de signature                                      | [Image de signature au format .png](https://download.microsoft.com/download/5/0/9/509151b3-06fc-4870-9408-7c9a43b72771/Signatureimage.png)         |
 | Image de signature alternative                          | [Signature image 2.png](https://download.microsoft.com/download/3/0/0/30045bf1-0ff6-4215-9162-b77c2f5dcc7c/Signatureimage2.png)       |
-| Modèle Microsoft Word pour l'impression des chèques de paiement  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
+| Modèle Microsoft Word pour l’impression des chèques de paiement  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
 
 ## <a name="verify-prerequisites"></a>Vérification des conditions requises  
  1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.  

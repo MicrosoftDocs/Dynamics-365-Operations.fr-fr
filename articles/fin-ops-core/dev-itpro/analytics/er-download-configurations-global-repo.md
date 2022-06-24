@@ -1,6 +1,6 @@
 ---
 title: Télécharger les configurations ER depuis le référentiel global du service de configuration
-description: Cette rubrique explique comment télécharger des configurations de gestion des états électroniques (ER) à partir du référentiel global du service de configuration.
+description: Cet article explique comment télécharger des configurations de gestion des états électroniques (ER) à partir du référentiel global du service de configuration.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891902"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Télécharger les configurations ER depuis le référentiel global du service de configuration
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment télécharger des [configurations de gestion des états électroniques (ER)](general-electronic-reporting.md#Configuration) à partir du référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, service de configuration](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Cet article explique comment télécharger des [configurations de gestion des états électroniques (ER)](general-electronic-reporting.md#Configuration) à partir du référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, service de configuration](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Ouvrir le référentiel de configurations
 
-1. Connectez-vous à l’application Dynamics 365 Finance en utilisant l’un des rôles suivants :
+1. Se connecter à l’application Dynamics 365 Finance application en utilisant l’un des rôles suivants :
 
-    - Développeur de gestion des états électroniques
+    - Développeur d’états électroniques
     - Consultant fonctionnel des états électroniques
     - Administrateur système
 
@@ -80,7 +80,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
     ![Page Référentiel de configuration, raccourci Versions, bouton Importer.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> Selon les paramètres d’états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d’incohérences qui sont détectés. Avant de pouvoir utiliser la version de configuration importée, vous devez résoudre les problèmes. Pour plus d’informations, voir la liste des ressources associées pour cette rubrique.
+> Selon les paramètres d’états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d’incohérences qui sont détectés. Avant de pouvoir utiliser la version de configuration importée, vous devez résoudre les problèmes. Pour plus d’informations, voir la liste des ressources associées pour cet article.
 
 > [!NOTE]
 > Les configurations de gestion des états électroniques peuvent être configurées comme dépendantes d’autres configurations. Par conséquent, d’autres configurations peuvent être automatiquement importées avec une configuration sélectionnée. Pour plus d’informations sur les dépendances des configurations, voir [Définir la dépendance des configurations ER à d’autres composants](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

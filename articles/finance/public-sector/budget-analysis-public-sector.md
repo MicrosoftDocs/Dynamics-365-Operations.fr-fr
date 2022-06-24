@@ -1,6 +1,6 @@
 ---
 title: Analyse budgétaire dans le secteur public
-description: Cette rubrique décrit l’utilisation de la page d’analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d’analyse de budget et la page de statistiques de contrôle budgétaire.
+description: Cet article décrit l’utilisation de la page d’analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d’analyse de budget et la page de statistiques de contrôle budgétaire.
 author: v-kiarnd
 ms.date: 01/28/2022
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Public sector
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d102ba9ee809541db1bd7dd255591c24279406e
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 11606a25a2ea1e8b97536c266968dfe93501e296
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853124"
 ---
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l’utilisation de la page d’analyse de budget pour afficher les produits et les dépenses publiés par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d’analyse de budget et la page de statistiques de contrôle budgétaire. 
+Cet article décrit l’utilisation de la page d’analyse de budget pour afficher les produits et les dépenses publiés par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d’analyse de budget et la page de statistiques de contrôle budgétaire. 
 
-Cette rubrique décrit la fonctionnalité d’analyse budgétaire pour le secteur public. 
+Cet article décrit la fonctionnalité d’analyse budgétaire pour le secteur public. 
 
-Avant de lire cette rubrique, vous devez également lire [Vue d’ensemble de budgétisation dans le secteur public](budgeting-public-sector.md). 
+Avant de lire cet article, vous devez également lire [Vue d’ensemble de budgétisation dans le secteur public](budgeting-public-sector.md). 
 
 Il est possible que vous deviez paramétrer les fonctionnalités de budgétisation suivantes pour le secteur public : La page **Analyse budgétaire** permet d’afficher les produits et les dépenses publiés par dimension financière, à l’aide d’une combinaison de données comptables et de contrôle budgétaire. Vous pouvez afficher les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables. 
 

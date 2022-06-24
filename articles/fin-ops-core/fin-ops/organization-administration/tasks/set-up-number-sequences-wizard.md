@@ -1,6 +1,6 @@
 ---
 title: Configurer les souches de numéros à l’aide d’un assistant
-description: Cette rubrique explique comment définir toutes les souches de numéros requises en même temps à l’aide d’un Assistant.
+description: Cet article explique comment définir toutes les souches de numéros requises en même temps à l’aide d’un Assistant.
 author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: cae739aad1166eee1abebe3c0adc7939bca55bc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847061"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Configurer les souches de numéros à l’aide d’un assistant
 
 [!include [banner](../../includes/banner.md)]
 
-Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé référence. Avant de pouvoir créer des enregistrements pour une référence, vous devez paramétrer une souche de numéros et l’associer à la référence. Cette rubrique explique comment définir toutes les souches de numéros requises en même temps à l’aide d’un Assistant. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé référence. Avant de pouvoir créer des enregistrements pour une référence, vous devez paramétrer une souche de numéros et l’associer à la référence. Cet article explique comment définir toutes les souches de numéros requises en même temps à l’aide d’un Assistant. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 1. Accédez à **Navigation > Modules > Administration d’organisation > Souches de numéros > Souches de numéros**.
 2. Sélectionnez **Générer**.

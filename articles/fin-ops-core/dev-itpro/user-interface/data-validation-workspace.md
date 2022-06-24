@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860037"
 ---
 # <a name="data-validation-checklist-workspace"></a>Espace de travail Liste de contrôle de validation des données
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070825"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Cette rubrique fournit une vue d’ensemble de l’espace de travail **Liste de contrôle de contrôle des données** et de la configuration associée.
+Cet article fournit une vue d’ensemble de l’espace de travail **Liste de contrôle de contrôle des données** et de la configuration associée.
 
 L’espace de travail **Liste de contrôle de contrôle des données** vous permet de suivre les processus de validation des données pour les sociétés, les secteurs et les individus. La liste de contrôle peut être utilisée lors d’une implémentation, après une mise à niveau ou après une migration. Selon votre affichage de l’espace de travail **Liste de contrôle de contrôle des données**, vous verrez l’ensemble des tâches et statuts d’un projet de contrôle des données, ou seulement les tâches qui vous sont affectées.
 

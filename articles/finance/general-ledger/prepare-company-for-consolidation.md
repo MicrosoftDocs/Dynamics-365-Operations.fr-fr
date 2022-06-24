@@ -1,6 +1,6 @@
 ---
 title: Préparer une entité juridique pour le processus de consolidation
-description: Lors d’une consolidation, vous devez regrouper les transactions de plusieurs ensembles de comptes d’entités juridiques dans un seul ensemble. Cette rubrique explique comment préparer une entité juridique pour une consolidation.
+description: Lors d’une consolidation, vous devez regrouper les transactions de plusieurs ensembles de comptes d’entités juridiques dans un seul ensemble. Cet article explique comment préparer une entité juridique pour une consolidation.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894024"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Préparer une entité juridique pour le processus de consolidation
 
 [!include [banner](../includes/banner.md)]
 
-Lors d’une consolidation, vous devez regrouper les transactions de plusieurs ensembles de comptes d’entités juridiques dans un seul ensemble. Cette rubrique explique comment préparer une entité juridique pour une consolidation.
+Lors d’une consolidation, vous devez regrouper les transactions de plusieurs ensembles de comptes d’entités juridiques dans un seul ensemble. Cet article explique comment préparer une entité juridique pour une consolidation.
 
 > [!NOTE]
 > Nous vous recommandons d’utiliser Management Reporter pour Microsoft Dynamics 365 Finance pour combiner les résultats financiers de plusieurs entités juridiques dans un format consolidé. Management Reporter vous permet de créer des rapports financiers consolidés pour toutes les entités juridiques, d’utiliser Excel pour importer des données de consolidation à partir d’autres sources et de convertir des montants dans n’importe quelles devises de déclaration sans avoir à exécuter le processus de consolidation dans Dynamics 365 Finance.

@@ -1,8 +1,8 @@
 ---
 title: Déclaration de taxe INTERVAT
-description: Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
+description: Cet article fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
 author: anasyash
-ms.date: 05/02/2022
+ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,22 @@ ms.search.region: Belgium
 ms.author: anasyash
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 68f65b759c6004700a3a5216e92af6b8e4dbf516
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 68c7fc39b462c5ec4171d160bd7c0b05227b5d24
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883102"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
 [!include [banner](../includes/banner.md)]
+> [!NOTE]
+> Cette fonctionnalité a été remplacée par la fonctionnalité de déclaration de TVA. Pour plus d’informations, voir [Déclaration de TVA (Belgique)](emea-bel-vat-declaration-belgium.md).
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
-Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique.
+Cet article fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique.
 
 Vous pouvez créer la déclaration de taxe INTERVAT sous la forme d’un fichier XML. Vous pouvez également prévisualiser les montants de la déclaration de taxe sur la valeur ajoutée (TVA) dans un format imprimable.
 
@@ -90,7 +92,7 @@ Les conditions préalables suivantes doivent être configurées avant de commenc
 
 Si la case à cocher **Correction de taxe** est activée pour un code déclaration de taxe, ce code est disponible à la sélection dans la page **Zones de déclaration de taxe supplémentaires**.
 
-Des exemples de code déclaration de taxe sont fournis dans la section [Paramétrer des codes déclaration de taxe](#set-up-sales-tax-reporting-codes) plus loin dans cette rubrique.
+Des exemples de code déclaration de taxe sont fournis dans la section [Paramétrer des codes déclaration de taxe](#set-up-sales-tax-reporting-codes) plus loin dans cet article.
 
 ### <a name="sales-tax-codes"></a>Codes taxe
 
@@ -642,7 +644,7 @@ Suivez ces étapes pour entrer les montants de correction manuelle.
 > [!NOTE]
 > Les codes de déclaration composés qui sont utilisés pour les avoirs, comme le code **8185**, ne sont pas disponibles à la sélection. Il en va de même pour les codes **71**, **72** et **91**. Les codes **71** et **72** sont calculés automatiquement lorsque la déclaration de taxe belge est exécutée. Le code **91** est entré d’une autre manière (voir la description du champ **Décaissement** ci-dessus).
 >
-> Si une période fiscale est mise à jour, un N° de justificatif et une date s’affichent. (Pour plus d’informations, consultez la description de la case à cocher **Mettre à jour** dans la section [Générer une déclaration de taxe INTERVAT](#generate-an-intervat-tax-declaration) plus loin dans cette rubrique.) La période comportant un justificatif et une date est une période de TVA clôturée pour la Belgique. Par conséquent, toutes les valeurs de l’onglet **Général** de la page **Corrections de taxe** sont en lecture seule. Lorsque de nouvelles transactions avec taxes sont entrées pour la période de TVA clôturée, les taxes sont transférées vers la prochaine période fiscale ouverte disponible.
+> Si une période fiscale est mise à jour, un N° de justificatif et une date s’affichent. (Pour plus d’informations, consultez la description de la case à cocher **Mettre à jour** dans la section [Générer une déclaration de taxe INTERVAT](#generate-an-intervat-tax-declaration) plus loin dans cet article.) La période comportant un justificatif et une date est une période de TVA clôturée pour la Belgique. Par conséquent, toutes les valeurs de l’onglet **Général** de la page **Corrections de taxe** sont en lecture seule. Lorsque de nouvelles transactions avec taxes sont entrées pour la période de TVA clôturée, les taxes sont transférées vers la prochaine période fiscale ouverte disponible.
 
 
 ## <a name="generate-an-intervat-tax-declaration"></a>Générer une déclaration de taxe INTERVAT
@@ -673,12 +675,12 @@ Vous pouvez également clôturer la période fiscale en générant un paiement d
 | **Champ**                        | **Description**                                                                                                                                                                                                                                                                           |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nom de la société                     | Nom de la société.                                                                                                                                                                                                                                                                         |
-| Numéro de taxe                 | Numéro d’identification fiscale transféré à partir du paramètre que vous avez défini dans la section [Conditions préalables](#prerequisites) plus haut dans cette rubrique.                                                                                                                                   |
+| Numéro de taxe                 | Numéro d’identification fiscale transféré à partir du paramètre que vous avez défini dans la section [Conditions préalables](#prerequisites) plus haut dans cet article.                                                                                                                                   |
 | Numéro de l’entreprise                | Numéro d’entreprise transféré à partir du paramètre que vous avez défini dans la section [Conditions préalables](#prerequisites).                                                                                                                                                               |
 | Téléphone, E-mail                 | Informations sur le contact transférées à partir du paramètre que vous avez défini dans la section [Conditions préalables](#prerequisites).                                                                                                                                                                 |
 | Demande de remboursement        | Cochez cette case pour demander un remboursement de la taxe.                                                                                                                                                                                                                                  |
 | Demande de formulaires de paiement        | Cochez cette case pour demander des pages de paiement pour les déclarations de taxe INTERVAT.                                                                                                                                                                                                         |
-| Liste annuelle nulle               | Une case cochée indique que cette déclaration est une déclaration vide. La valeur est transférée à partir de la page **Zones de déclaration de taxe supplémentaires** décrite dans la section [Zones de déclaration de taxe supplémentaires](#additional-sales-tax-report-boxes) plus haut dans cette rubrique |
+| Liste annuelle nulle               | Une case cochée indique que cette déclaration est une déclaration vide. La valeur est transférée à partir de la page **Zones de déclaration de taxe supplémentaires** décrite dans la section [Zones de déclaration de taxe supplémentaires](#additional-sales-tax-report-boxes) plus haut dans cet article |
 | Remplacement de la déclaration de TVA         | Numéro d’identification de la déclaration, pour remplacer ce que vous avez défini dans la boîte de dialogue **INTERVAT : Déclaration de taxe belge** décrite plus haut dans cette section.                                                                                                          |
 | Section **Pourcentages au prorata** | Vérifiez les montants des champs **Pourcentage au prorata**, **B1**, **B2**, **B3**, **B4** et **B5** que vous avez définis sur la page **Zones de déclaration de taxe supplémentaires** décrite dans la section [Zones de déclaration de taxe supplémentaires](#additional-sales-tax-report-boxes).         |
 

@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil Application mobile
-description: Cette rubrique décrit l’application mobile Finance et Opérations (Dynamics 365) et fournit des liens vers des ressources qui peuvent vous aider à l’implémentation de votre organisation.
+description: Cet article décrit l’application mobile Finance et Opérations (Dynamics 365) et fournit des liens vers des ressources qui peuvent vous aider à l’implémentation de votre organisation.
 author: ChrisGarty
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868757"
 ---
 # <a name="mobile-app-home-page"></a>Page d’accueil Application mobile
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Cette rubrique décrit l’application mobile **Finance et Opérations (Dynamics 365)** et fournit des liens vers des ressources qui peuvent vous aider à l’implémentation de votre organisation.
+Cet article décrit l’application mobile **Finance et Opérations (Dynamics 365)** et fournit des liens vers des ressources qui peuvent vous aider à l’implémentation de votre organisation.
 
 ## <a name="overview"></a>Présentation
 
@@ -132,8 +132,8 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 <td>Utilisateur</td>
 <td>Téléchargez et installez l’application mobile.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Application Finance and Operations pour Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Application Finance and Operations pour iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Application Finance et Opérations pour Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Application Finance et Opérations pour iOS</a><BR/>
 (Windows Phone non pris en charge)
 </td>
 </tr>

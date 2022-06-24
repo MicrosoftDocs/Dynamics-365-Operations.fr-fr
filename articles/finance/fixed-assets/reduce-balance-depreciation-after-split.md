@@ -1,6 +1,6 @@
 ---
 title: Réduire l’amortissement après un fractionnement
-description: Cette rubrique décrit la méthode utilisée dans Immobilisations pour calculer l’amortissement après le fractionnement d’une immobilisation à l’aide de la méthode de réduction du solde.
+description: Cet article décrit la méthode utilisée dans Immobilisations pour calculer l’amortissement après le fractionnement d’une immobilisation à l’aide de la méthode de réduction du solde.
 author: moaamer
 ms.date: 11/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 539967a9a73da91f6b49c1bb89f404267ae0a804
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883298"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Réduire l’amortissement après un fractionnement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la méthode utilisée dans Immobilisations pour calculer l’amortissement après le fractionnement d’un actif en un autre à l’aide de la méthode de réduction du solde. L’année d’amortissement configurée dans le registre d’immobilisations est l’exercice comptable. Pour plus d’informations, consultez [Réduire l’amortissement du solde](reduce-balance-depreciation.md) et [Fractionner une immobilisation](tasks/split-fixed-asset.md).
+Cet article décrit la méthode utilisée dans Immobilisations pour calculer l’amortissement après le fractionnement d’un actif en un autre à l’aide de la méthode de réduction du solde. L’année d’amortissement configurée dans le registre d’immobilisations est l’exercice comptable. Pour plus d’informations, consultez [Réduire l’amortissement du solde](reduce-balance-depreciation.md) et [Fractionner une immobilisation](tasks/split-fixed-asset.md).
 
 Si vous scindez une immobilisation au cours d’une période fiscale postérieure à la période d’acquisition de l’immobilisation, l’amortissement réduit du solde tiendra compte de la valeur nette (VN) de l’actif pour l’année précédente. Il tiendra également compte des transactions d’acquisition et de correction d’amortissement générées à partir de la transaction qui a fractionné l’actif. Ce comportement suppose que l’actif a été acquis au cours d’un exercice et fractionné au cours d’un exercice ultérieur. Le montant qui doit être amorti pour l’actif d’origine après le fractionnement reflète la VN de l’actif avant le fractionnement de l’actif et la transaction d’acquisition et d’ajustement de l’amortissement qui a été comptabilisée pour le fractionnement.
 

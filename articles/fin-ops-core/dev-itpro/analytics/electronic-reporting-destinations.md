@@ -1,6 +1,6 @@
 ---
 title: Destinations pour la gestion des états électroniques
-description: Cette rubrique fournit des informations sur la gestion des destinations pour la gestion des états électroniques, les types de destinations prises en charge et les considérations de sécurité.
+description: Cet article fournit des informations sur la gestion des destinations pour la gestion des états électroniques, les types de destinations prises en charge et les considérations de sécurité.
 author: nselin
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851075"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez configurer une destination pour chaque configuration de génération d’états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cette rubrique explique la gestion des destinations des ER, les types de destinations pris en charge et des considérations sur la sécurité.
+Vous pouvez configurer une destination pour chaque configuration de génération d’états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cet article explique la gestion des destinations des états électroniques, les types de destinations pris en charge et des considérations sur la sécurité.
 
 Les configurations de format des ER contiennent généralement au moins un composant de sortie : un fichier. En règle générale, les configurations contiennent plusieurs composants de sortie de fichiers de différents types (par exemple, XML, TXT, XLSX, DOCX ou PDF) qui sont regroupés dans un dossier unique ou dans plusieurs dossiers. La gestion des destinations des états électroniques vous permet de préconfigurer ce qui se produit lors de l’exécution de chaque composant. Par défaut, lorsqu’une configuration est exécutée, une boîte de dialogue s’affiche pour vous permettre d’enregistrer ou d’ouvrir le fichier. Le même comportement se produit également lorsque vous importez une configuration ER et que vous ne lui configurez pas de destinations spécifiques. Après la création d’une destination pour un composant de sortie principal, cette destination remplace le comportement par défaut et le dossier ou le fichier est envoyé en fonction des paramètres de la destination.
 

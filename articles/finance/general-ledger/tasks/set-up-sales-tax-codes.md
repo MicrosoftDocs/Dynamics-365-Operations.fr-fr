@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des codes taxe
-description: Cette rubrique explique comment paramétrer des codes taxe dans Dynamics 365 Finance.
+description: Cet article explique comment paramétrer des codes taxe dans Dynamics 365 Finance.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b12133583f40cc17cb85f6dbd86697592af25caf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858466"
 ---
 # <a name="set-up-sales-tax-codes"></a>Paramétrer des codes taxe
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer des codes taxe. Les codes taxe sont créés pour chaque taxe indirecte ou responsabilité que l’entité juridique est obligée de calculer, de collecter et de payer à l’administration fiscale.
+Cet article explique comment paramétrer des codes taxe. Les codes taxe sont créés pour chaque taxe indirecte ou responsabilité que l’entité juridique est obligée de calculer, de collecter et de payer à l’administration fiscale.
 
 La société fictive USMF est citée en exemple dans cette tâche.
 
@@ -45,7 +45,7 @@ La société fictive USMF est citée en exemple dans cette tâche.
 12. Fermez la page.
 13. Cliquez sur **Enregistrer**.
 
-Depuis Microsoft Microsoft Dynamics 365 Finance version 10.0.22, si vous utilisez le [Service fiscal](../../localizations/global-tax-calcuation-service-overview.md), et que la fonction [**Prise en charge de plusieurs numéros d'immatriculation à la TVA**](../../localizations/emea-multiple-vat-registration-numbers.md) est activée dans l'espace de travail **Gestion des fonctionnalités**, vous pouvez utiliser le champ **Type de taxe** pour spécifier le type de code TVA. Les valeurs disponibles sont les suivantes :
+Depuis Microsoft Microsoft Dynamics 365 Finance version 10.0.22, si vous utilisez le [Service fiscal](../../localizations/global-tax-calcuation-service-overview.md), et que la fonction [**Prise en charge de plusieurs numéros d’immatriculation à la TVA**](../../localizations/emea-multiple-vat-registration-numbers.md) est activée dans l’espace de travail **Gestion des fonctionnalités**, vous pouvez utiliser le champ **Type de taxe** pour spécifier le type de code TVA. Les valeurs disponibles sont les suivantes :
 
 - TVA standard
 - TVA réduite

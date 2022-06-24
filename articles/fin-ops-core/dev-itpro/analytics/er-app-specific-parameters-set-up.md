@@ -1,6 +1,6 @@
 ---
 title: Définir les paramètres d’un format de gestion des états électroniques par entité juridique
-description: Cette rubrique explique comment vous pouvez définir les paramètres d’un format gestion des états électroniques par entité juridique.
+description: Cet article explique comment vous pouvez définir les paramètres d’un format gestion des états électroniques par entité juridique.
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890210"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Définir les paramètres d’un format de gestion des états électroniques par entité juridique
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644497"
 
 Pour effectuer cette procédure, vous devez suivre les étapes de [Configurer les formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique](er-app-specific-parameters-configure-format.md).
 
-Pour terminer les exemples de cette rubrique, vous devez avoir accès à Microsoft Dynamics 365 Finance pour un des rôles suivants :
+Pour terminer les exemples de cet article, vous devez avoir accès à Microsoft Dynamics 365 Finance pour un des rôles suivants :
 
 - Développeur d’états électroniques
 - Consultant fonctionnel de gestion des états électroniques
@@ -221,7 +221,7 @@ Les paramètres spécifiques à l’application d’un format de gestion des ét
 
 Vous pouvez également utiliser cette approche d’importation-exportation pour transférer les paramètres spécifiques à l’application associés à la gestion des états électroniques qui étaient configurés dans une instance de Finance vers une autre instance de Finance.
 
-Si vous configurez des paramètres spécifiques à l’application pour une version d’un format de gestion des états électroniques, puis importez une version ultérieure du même format dans l’instance Finance actuelle, les paramètres spécifiques à l’application existants ne seront pas appliqués à la version importée, sauf si vous utilisez la fonctionnalité **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique**. Pour plus d’informations, voir la section [Réutiliser les paramètres existants](#reuse-existing-parameters) plus loin dans cette rubrique.
+Si vous configurez des paramètres spécifiques à l’application pour une version d’un format de gestion des états électroniques, puis importez une version ultérieure du même format dans l’instance Finance actuelle, les paramètres spécifiques à l’application existants ne seront pas appliqués à la version importée, sauf si vous utilisez la fonctionnalité **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique**. Pour plus d’informations, voir la section [Réutiliser les paramètres existants](#reuse-existing-parameters) plus loin dans cet article.
 
 Quand vous sélectionnez un fichier pour importation, la structure des paramètres spécifiques à l’application de ce fichier est comparée à la structure des sources de données correspondantes du type **Recherche** dans le format de gestion des états électroniques sélectionné pour importation. Par défaut, l’importation est terminée uniquement si la structure de chaque paramètre spécifique à l’application correspond à la structure de la source de données correspondante dans le format de gestion des états électroniques sélectionné pour importation. Si les structures ne correspondent pas, un message d’avertissement vous informe que l’importation ne peut pas être finalisée. Si vous forcez l’importation, les paramètres spécifiques à l’application existants pour le format de gestion des états électroniques sélectionné seront effacés et vous devrez les configurer à partir de zéro.
 

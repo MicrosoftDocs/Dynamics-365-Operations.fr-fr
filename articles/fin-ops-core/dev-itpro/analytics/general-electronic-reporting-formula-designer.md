@@ -1,6 +1,6 @@
 ---
 title: Concepteur de formule dans les états électroniques (ER)
-description: Cette rubrique fournit des informations sur l’utilisation du concepteur de formule dans les États électroniques (ER).
+description: Cet article fournit des informations sur l’utilisation du concepteur de formule dans les États électroniques (ER).
 author: NickSelin
 ms.date: 04/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 6b03613cb40c5ca718f45e69740d29059fcfb70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894293"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l’utilisation du concepteur de formule dans la génération d’états électroniques. Lorsque vous créez un format pour un document électronique spécifique dans ER, vous pouvez utiliser des formules pour transformer les données afin qu’elles répondent aux exigences d’exécution et de mise en forme du document. Ces formules sont semblables aux formules dans Microsoft Excel. Plusieurs types de fonctions sont pris en charge dans les formules : texte, date et heure, mathématique, logique, informations, et des formules de conversion du type de données ainsi que d’autres fonctions spécifiques au métier.
+Cet article décrit l’utilisation du concepteur de formule dans la génération d’états électroniques. Lorsque vous créez un format pour un document électronique spécifique dans ER, vous pouvez utiliser des formules pour transformer les données afin qu’elles répondent aux exigences d’exécution et de mise en forme du document. Ces formules sont semblables aux formules dans Microsoft Excel. Plusieurs types de fonctions sont pris en charge dans les formules : texte, date et heure, mathématique, logique, informations, et des formules de conversion du type de données ainsi que d’autres fonctions spécifiques au métier.
 
 ## <a name="formula-designer-overview"></a>Vue d’ensemble du concepteur de formule
 

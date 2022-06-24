@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la comptabilité client (Secteur public)
-description: Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
+description: Cet article décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
 author: v-kiarnd
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 111156841b9bcb09a3f2328d21faaf3f66a8e6e7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 70a5c8dba1ceba888c6d46ea524c732a67043188
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879392"
 ---
 # <a name="accounts-receivable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité client (Secteur public)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
+Cet article décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
 
 ## <a name="how-do-i-set-accounts-receivable-parameters-for-the-public-sector"></a>Comment définir les paramètres de comptabilité client pour le secteur public ?
 

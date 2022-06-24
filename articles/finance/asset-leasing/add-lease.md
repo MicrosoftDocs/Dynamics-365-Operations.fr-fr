@@ -1,6 +1,6 @@
 ---
 title: Ajouter ou copier des baux (version préliminaire)
-description: Cette rubrique décrit comment créer un bail en saisissant des informations pour celui-ci dans Location d’actifs ou en copiant les informations depuis un bail existant.
+description: Cet article décrit comment créer un bail en saisissant des informations pour celui-ci dans Location d’actifs ou en copiant les informations depuis un bail existant.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880930"
 ---
 # <a name="add-or-copy-leases-preview"></a>Ajouter ou copier des baux (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment créer un bail de A à Z dans Location d’actifs et comment créer un bail en copiant un bail existant. Le processus de création d’un bail de A à Z implique de saisir les informations pour le nouveau bail et de créer un échéancier de bail. Après la configuration d’au moins un bail, vous pourriez trouver plus simple de copier les informations à partir d’un bail existant et de modifier ces informations comme l’exige la création d’un nouveau bail.
+Cet article explique comment créer un bail de A à Z dans Location d’actifs et comment créer un bail en copiant un bail existant. Le processus de création d’un bail de A à Z implique de saisir les informations pour le nouveau bail et de créer un échéancier de bail. Après la configuration d’au moins un bail, vous pourriez trouver plus simple de copier les informations à partir d’un bail existant et de modifier ces informations comme l’exige la création d’un nouveau bail.
 
 ## <a name="create-a-lease"></a>Créer un bail
 

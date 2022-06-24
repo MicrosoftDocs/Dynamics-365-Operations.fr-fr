@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil de la location d’actifs
-description: Cette rubrique fournit une vue d’ensemble de la documentation sur la location d’actifs et des liens vers des rubriques spécifiques.
+description: Cet article fournit une vue d’ensemble de la documentation sur la location d’actifs et des liens vers des rubriques spécifiques.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889147"
 ---
 # <a name="asset-leasing-home-page"></a>Page d’accueil de la location d’actifs
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les rubriques d’aide disponibles pour la location d’actifs et inclut des liens vers des rubriques spécifiques. 
+Cet article répertorie les rubriques d’aide disponibles pour la location d’actifs et inclut des liens vers des rubriques spécifiques. 
 
 La location d’actifs est une fonctionnalité avancée de gestion, de suivi et d’automatisation des transactions financières pour les actifs loués dans Microsoft Dynamics 365 Finance. La fonctionnalité de location d’actifs est conforme aux normes comptables internationales (IFRS 16) et aux normes US GAAP (ASC 842). La fonctionnalité de location d’actifs capture et traite les informations sur les baux et contribue à générer les écritures de journal tout au long du cycle de vie du bail, de la comptabilisation initiale aux écritures de journal mensuelles jusqu’à la dépréciation et la résiliation du bail.
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, recherchez et sélectionnez la fonction intitulée **Location d'actifs**, puis sélectionnez le bouton **Activer maintenant**.
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, recherchez et sélectionnez la fonction intitulée **Location d’actifs**, puis sélectionnez le bouton **Activer maintenant**.
 
 ## <a name="asset-leasing-topics"></a>Rubriques sur la location d’actifs
-La rubrique suivante est disponible pour vous aider à configurer et à utiliser la location d’actifs. 
+L’article suivant est disponible pour vous aider à configurer et à utiliser la location d’actifs. 
 
- - [Démarrer avec la location d’actifs](asset-leasing-quick-start.md) : cette rubrique décrit les fonctionnalités générales de la location d’actifs et répertorie et définit les conditions utilisées dans le logiciel et dans la documentation.
+ - [Démarrer avec la location d’actifs](asset-leasing-quick-start.md) : cet article décrit les fonctionnalités générales de la location d’actifs et répertorie et définit les conditions utilisées dans le logiciel et dans la documentation.
  
  ### <a name="set-up-asset-leasing"></a>Paramétrer la location d’actifs
  Ce groupe de rubriques peut vous aider à configurer la location d’actifs d’une manière optimale pour la situation commerciale de votre organisation.  
@@ -77,7 +77,7 @@ Ce groupe de rubriques décrit le processus d’ajout de baux, de création de f
  - [Gérer le bail via la structure d’importation de bail](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Génération d’états de location d’actifs
-Cette rubrique décrit les états disponibles pour les locations d’actifs. 
+Cet article décrit les états disponibles pour les locations d’actifs. 
 
  - [États de location d’actifs](asset-leasing-rprts.md)
  
@@ -90,7 +90,7 @@ Accédez aux [Programmes de publication de Microsoft Dynamics 365](/dynamics365/
 
 ### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d'autres informations sur le blog de [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)et le blog de [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Vous trouverez des avis, des actualités et d’autres informations sur le blog de [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)et le blog de [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Le [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de Dynamics 365.
 

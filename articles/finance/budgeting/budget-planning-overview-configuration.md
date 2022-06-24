@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la planification de budget
-description: Cette rubrique décrit la planification budgétaire. Elle rubrique contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer les processus de planification budgétaire.
+description: Cet article décrit la planification budgétaire. Elle rubrique contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer les processus de planification budgétaire.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853552"
 ---
 # <a name="budget-planning-overview"></a>Vue d’ensemble de la planification de budget
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la planification budgétaire. Elle rubrique contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer les processus de planification budgétaire.
+Cet article décrit la planification budgétaire. Elle rubrique contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer les processus de planification budgétaire.
 
 ## <a name="overview-of-budget-planning"></a>Vue d’ensemble de la planification budgétaire
 
@@ -87,11 +87,11 @@ La planification du budget peut suivre l’un des deux modèles de sécurité po
 
 Les workflows de planification budgétaire sont utilisés avec les workflows de budgétisation pour gérer la création et l’évolution des plans budgétaires.
 
-Un workflow de planification budgétaire est composé d’un ensemble ordonné de stades par lesquels un plan budgétaire passe. Chaque workflow de planification budgétaire est associé à un workflow de budgétisation. Les workflows de budgétisation sont l'un des types de workflows utilisés dans Dynamics 365 Finance. Ils acheminent les plans budgétaires, ainsi que les feuilles de calcul, justifications et pièces jointes, au sein de votre organisation pour qu’ils soient révisés et approuvés.
+Un workflow de planification budgétaire est composé d’un ensemble ordonné de stades par lesquels un plan budgétaire passe. Chaque workflow de planification budgétaire est associé à un workflow de budgétisation. Les workflows de budgétisation sont l’un des types de workflows utilisés dans Dynamics 365 Finance. Ils acheminent les plans budgétaires, ainsi que les feuilles de calcul, justifications et pièces jointes, au sein de votre organisation pour qu’ils soient révisés et approuvés.
 
 Vous créez le workflow de planification budgétaire dans la section **Stades de workflow** de la page **Configuration de la planification budgétaire**. Là, vous pouvez sélectionner les stades et le workflow de budgétisation qui sera utilisé, puis configurer également les paramètres supplémentaires.
 
-Il est judicieux de créer un workflow de planification budgétaire pour chaque niveau d’une hiérarchie de budgétisation. Vous affectez un workflow de budgétisation qui contient les éléments qui correspondent aux stades du workflow de planification budgétaire. Dans l’exemple de schéma donné précédemment, un workflow de planification budgétaire sera créé pour les départements Ventes et un autre sera créé pour les sièges. Un workflow de budgétisation fait progresser les plans budgétaires d’un stade à un autre.
+Il est judicieux de créer un workflow de planification budgétaire pour chaque niveau d’une hiérarchie de budgétisation. Vous affectez un workflow de budgétisation qui contient les éléments qui correspondent aux stades du workflow de planification budgétaire. Dans l’exemple de schéma donné précédemment dans cet article, un workflow de planification budgétaire sera créé pour les départements Ventes et un autre sera créé pour les sièges. Un workflow de budgétisation fait progresser les plans budgétaires d’un stade à un autre.
 
 Vous créez un workflow de budgétisation pour la planification budgétaire dans la page **Workflows de budgétisation**. Le processus est semblable au processus de création d’autres workflows. L’illustration suivante présente un exemple de workflow pour le siège.
 
@@ -141,7 +141,7 @@ Les répartitions de stades sont utilisées pour répartir automatiquement des l
 
 Lorsque vous paramétrez une répartition de stades, vous associez le workflow et le stade de planification budgétaire au programme de répartition. Le workflow de planification budgétaire doit être associé à un workflow de budgétisation utilisant la tâche de workflow automatique **Répartition de stade de planification budgétaire**. Lorsque le workflow atteint le stade spécifié, la répartition s’effectue automatiquement. Cette tâche automatique peut servir à créer des lignes de plan budgétaire dans un nouveau scénario.
 
-Dans l’exemple de schéma donné précédemment, une répartition est exécutée pour transférer les montants d’un plan budgétaire et de scénarios du stade « Référence » du siège vers un autre plan budgétaire et d’autres scénarios du stade « Estimation » du département Ventes. L’illustration suivante montre la section appropriée de l’exemple de schéma.
+Dans l’exemple de schéma donné précédemment dans cet article, une répartition est exécutée pour transférer les montants d’un plan budgétaire et de scénarios du stade « Référence » du siège vers un autre plan budgétaire et d’autres scénarios du stade « Estimation » du département Ventes. L’illustration suivante montre la section appropriée de l’exemple de schéma.
 
 [![Répartitions de stade.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

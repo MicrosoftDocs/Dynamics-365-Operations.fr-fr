@@ -1,6 +1,6 @@
 ---
 title: Concevoir des configurations pour la gestion des états électroniques pour supprimer les caractères de nomenclature dans les fichiers générés
-description: Cette rubrique explique comment configurer un format de gestion des états électroniques pour générer des rapports qui suppriment les caractères de marque d’ordre d’octet (BOM).
+description: Cet article explique comment configurer un format de gestion des états électroniques pour générer des rapports qui suppriment les caractères de marque d’ordre d’octet (BOM).
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: d54ed105e4ff44ac2c48e2d1a4b8e12fbf6f9591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847428"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Concevoir des configurations pour la gestion des états électroniques pour supprimer les caractères de nomenclature dans les fichiers générés
 
@@ -38,7 +38,7 @@ Si vous spécifiez **UTF-8**, **UTF-16** ou **UTF-32** comme encodage, l’optio
 
 ![Définition de l’option Supprimer les caractères de marque d’ordre d’octet sur la page Concepteur de format.](./media/er-suppress-bom-characters-image2.gif)
 
-Pour examiner la fonctionnalité au moment de l’exécution, suivez la procédure appropriée. Par exemple, suivez les étapes de la rubrique [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md). Une fois que vous avez terminé les étapes de la section [Modifier le format pour que le calcul soit basé sur la sortie générée](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) de cette rubrique, suivez ces étapes supplémentaires.
+Pour examiner la fonctionnalité au moment de l’exécution, suivez la procédure appropriée. Par exemple, suivez les étapes de l’article [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md). Une fois que vous avez terminé les étapes de la section [Modifier le format pour que le calcul soit basé sur la sortie générée](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) de cet article, suivez ces étapes supplémentaires.
 
 1. Spécifiez le codage UTF :
 
@@ -48,12 +48,12 @@ Pour examiner la fonctionnalité au moment de l’exécution, suivez la procédu
 2. Générez un fichier XML qui comprend un caractère de marque d’ordre d’octet :
 
     1. définissez l’option **Supprimer les caractères de marque d’ordre d’octet** sur **Non** pour inclure des caractères de marque d’ordre d’octet dans les fichiers XML générés.
-    2. Suivez les étapes de la section [Différer l’exécution de l’élément XML récapitulatif pour que le total calculé soit utilisé](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) de la rubrique [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md) et enregistrez le fichier généré sous **SampleXmlReport.xml**.
+    2. Suivez les étapes de la section [Différer l’exécution de l’élément XML récapitulatif pour que le total calculé soit utilisé](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) de l’article [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md) et enregistrez le fichier généré sous **SampleXmlReport.xml**.
 
 3. Générez un fichier XML qui ne comprend pas un caractère de marque d’ordre d’octet :
 
     1. définissez l’option **Supprimer les caractères de marque d’ordre d’octet** sur **Oui** pour supprimer des caractères de marque d’ordre d’octet dans les fichiers XML générés.
-    2. Suivez les étapes de la section [Différer l’exécution de l’élément XML récapitulatif pour que le total calculé soit utilisé](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) de la rubrique [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md) et enregistrez le fichier généré sous **SampleXmlReport (1).xml**.
+    2. Suivez les étapes de la section [Différer l’exécution de l’élément XML récapitulatif pour que le total calculé soit utilisé](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) de l’article [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md) et enregistrez le fichier généré sous **SampleXmlReport (1).xml**.
 
 4. Dans un utilitaire de comparaison de fichiers, comparez les fichiers générés.
 

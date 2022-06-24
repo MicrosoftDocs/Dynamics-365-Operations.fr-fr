@@ -1,6 +1,6 @@
 ---
 title: Planification intersociétés
-description: Cette rubrique décrit la planification intersociétés et explique comment configurer la planification intersociétés avec l’Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article décrit la planification intersociétés et explique comment configurer la planification intersociétés avec l’Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: de9f9679bfaf9491c6b69c11448306627c8a42f9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850668"
 ---
 # <a name="intercompany-planning"></a>Planification intersociétés
 
@@ -29,9 +29,9 @@ ms.locfileid: "8468494"
 
 Pour certaines organisations, les opérations logistiques dépendent d’autres entités juridiques (entreprises) de l’organisation. Ces opérations sont gérées en utilisant les ventes et les achats intersociétés, car chaque entité juridique dispose d’un plan comptable distinct.
 
-Cette rubrique décrit la planification intersociétés et explique comment configurer la planification intersociétés avec l’Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article décrit la planification intersociétés et explique comment configurer la planification intersociétés avec l’Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
 
-Cette rubrique utilise les termes intersociétés importants suivants :
+Cet article utilise les termes intersociétés importants suivants :
 
 - **En amont** – Une référence relative dans une entreprise ou une chaîne d’approvisionnement. Elle indique un mouvement dans la direction du fournisseur de matière première.
 - **En aval** – Une référence relative dans une entreprise ou une chaîne d’approvisionnement. Elle indique un mouvement dans la direction du client.

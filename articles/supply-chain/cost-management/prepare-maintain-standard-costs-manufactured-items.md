@@ -1,6 +1,6 @@
 ---
 title: Préparation de la mise à jour des coûts standard pour les articles fabriqués
-description: Cette rubrique décrit les étapes de préparation de la mise à jour des coûts pour les articles fabriqués.
+description: Cet article décrit les étapes de préparation de la mise à jour des coûts pour les articles fabriqués.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d42f61bcd44e89f0563c8f7450a1cdd6fd0e3ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 423da8022faf8066c5aa524c49c5071d0871de04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886013"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Préparation de la mise à jour des coûts standard pour les articles fabriqués
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les étapes de préparation de la mise à jour des coûts pour les articles fabriqués. Les étapes pour les articles fabriqués diffèrent légèrement des étapes pour les articles achetés.
+Cet article décrit les étapes de préparation de la mise à jour des coûts pour les articles fabriqués. Les étapes pour les articles fabriqués diffèrent légèrement des étapes pour les articles achetés.
 
 Les stratégies appliquées aux articles fabriqués peuvent affecter les calculs de coûts pour les articles fabriqués parents. Pour préparer la mise à jour des coûts pour les articles fabriqués, procédez comme suit :
 
@@ -63,7 +63,7 @@ Les stratégies appliquées aux articles fabriqués peuvent affecter les calculs
 
 Si vous souhaitez utiliser les informations de gamme à des fins d’évaluation des coûts, des étapes de préparation supplémentaires sont nécessaires. Par exemple, les catégories de coûts qui sont affectées aux opérations de gamme doivent être correctes et complétées.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 [Amortissement des coûts constants pour un article fabriqué](amortize-constant-costs-manufactured-item.md)
 

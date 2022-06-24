@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources 8 mars 2021
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 8 mars 2021.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 8 mars 2021.
 author: marcelbf
 ms.date: 03/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b1e616f9bc72ab1f30f69671c673241096f3276
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9280e85f9701573717c4115b4d752ed11be4862e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868052"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 8 mars 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources.
+Cet article décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou sont annoncées dans Dynamics 365 Human Resources.
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 Les correctifs de bogues suivants sont compris dans cette version.
 
 > [!NOTE]
-> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
+> Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cet article pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cet article.
 
-| Numéro du problème | Sortie |  Description |
+| Numéro du problème | Problème |  Description |
 | --- | --- | --- |
 | 486611 | Le congé est indiqué sur le calendrier des congés lorsque **Désactiver les congés sur tous les calendriers** est autorisé | Si **Désactiver les congés sur tous les calendriers** est activée, les informations de congé ne s’affichent plus lorsque la fonction d’améliorations du calendrier des congés et absences est activée.|
 | 508972 | Entité de transaction bancaire de congés et d’absences dont la validation de l’inscription n’est pas valide | Lorsque vous utilisez l’entité Transaction bancaire de congés et d’absences, les employés non inscrits à un plan ne peuvent plus être importés. |

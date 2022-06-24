@@ -1,6 +1,6 @@
 ---
 title: Écritures comptables avancées dans le secteur public
-description: Cette rubrique explique comment les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables.
+description: Cet article explique comment les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72959a232833552e0c9a6c4529c86fe7a66dcc90
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 8b88efca3f29c22b86d925fb76cd869ed7d75c61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871034"
 ---
 # <a name="advanced-ledger-entries-in-the-public-sector"></a>Écritures comptables avancées dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié.
+Cet article explique comment les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié.
 
 ## <a name="how-do-i-set-up-advanced-ledger-entries"></a>Comment paramétrer des écritures comptables avancées ?
 

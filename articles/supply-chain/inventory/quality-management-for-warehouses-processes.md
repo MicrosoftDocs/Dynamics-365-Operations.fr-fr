@@ -1,6 +1,6 @@
 ---
 title: Gestion de la qualité pour les processus d’entrepôt
-description: Cette rubrique fournit des informations sur la gestion de la qualité pour les processus d’entrepôt. Cette fonctionnalité étend les capacités de gestion de la qualité et permet aux utilisateurs d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée.
+description: Cet article fournit des informations sur la gestion de la qualité pour les processus d’entrepôt. Cette fonctionnalité étend les capacités de gestion de la qualité et permet aux utilisateurs d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857835"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestion de la qualité pour les processus d’entrepôt
 

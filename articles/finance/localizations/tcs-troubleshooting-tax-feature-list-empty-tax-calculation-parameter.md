@@ -1,6 +1,6 @@
 ---
 title: Liste des fonctionnalités de taxe vide dans les paramètres de calcul de la taxe
-description: Cette rubrique explique comment résoudre un problème où la liste des fonctionnalités de taxe sur la page Paramètres de calcul des taxes est vide.
+description: Cet article explique comment résoudre un problème où la liste des fonctionnalités de taxe sur la page Paramètres de calcul des taxes est vide.
 author: wangchen
 ms.date: 03/04/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 0d9286ec313a270da86181ff80ddfd690a757c9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869950"
 ---
 # <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Liste des fonctionnalités de taxe vide dans les paramètres de calcul de la taxe
 
@@ -46,7 +46,7 @@ Pour trouver l’ID client pour votre environnement Finances, suivez les mêmes 
 
 ## <a name="resolution"></a>Résolution
 
-Si les ID des deux locataires diffèrent, vous rencontrez le problème décrit dans cette rubrique. S’ils sont identiques, vous rencontrez un problème sans rapport. Dans ce cas, nous vous recommandons de contacter le support Microsoft.
+Si les ID des deux locataires diffèrent, vous rencontrez le problème décrit dans cet article. S’ils sont identiques, vous rencontrez un problème sans rapport. Dans ce cas, nous vous recommandons de contacter le support Microsoft.
 
 ### <a name="solution-1"></a>Solution 1
 

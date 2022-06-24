@@ -1,6 +1,6 @@
 ---
 title: Prospect en disponibilités en double écriture
-description: Cette rubrique fournit des informations sur le prospect en disponibilités en double écriture.
+description: Cet article fournit des informations sur le prospect en disponibilités en double écriture.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860107"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -29,7 +29,7 @@ Dans les interfaces de l’application, vous pouvez accéder en temps réel aux 
 Pour plus d’informations sur l’intégration des clients et des contacts, voir [Données principales client intégrées](customer-mapping.md). Pour plus d’informations sur l’intégration de produit, voir [Expérience produit uniformisée](product-mapping.md).
 
 > [!NOTE]
-> Dans Dynamics 365 Sales, le prospect et le client font référence à un enregistrement dans la table **Compte** où la colonne **RelationshipType** est définie sur **Prospect** ou sur **Client**. Si votre logique métier inclut un processus de qualification **Compte** où l’enregistrement **Compte** est créé et qualifié d’abord en tant que prospect, puis en tant que client, cet enregistrement se synchronise avec l’application Finance and Operations uniquement lorsqu’il s’agit d’un client (`RelationshipType=Customer`). Si vous voulez que la ligne **Compte** se synchronise en tant que prospect, vous avez alors besoin d’une carte personnalisée pour intégrer les données du prospect.
+> Dans Dynamics 365 Sales, le prospect et le client font référence à un enregistrement dans la table **Compte** où la colonne **RelationshipType** est définie sur **Prospect** ou sur **Client**. Si votre logique métier inclut un processus de qualification **Compte** où l’enregistrement **Compte** est créé et qualifié d’abord en tant que prospect, puis en tant que client, cet enregistrement se synchronise avec l’application de finances et d’opérations uniquement lorsqu’il s’agit d’un client (`RelationshipType=Customer`). Si vous voulez que la ligne **Compte** se synchronise en tant que prospect, vous avez alors besoin d’une carte personnalisée pour intégrer les données du prospect.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
@@ -111,7 +111,7 @@ Les factures sont créées dans Supply Chain Management et synchronisées vers S
 
 Prospect en disponibilité comprend un ensemble de mappages de tables de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-| Applications Finance and Operations | Applications Customer Engagement | Description |
+| applications de finances et d’opérations | Applications Customer Engagement | Description |
 |-----------------------------|-----------------------------------|-------------|
 [Tous les produits](mapping-reference.md#138) | msdyn_globalproducts | |
 [Clients V3](mapping-reference.md#101) | comptes | |
@@ -122,7 +122,7 @@ Prospect en disponibilité comprend un ensemble de mappages de tables de base qu
 [En-tête de devis de vente CDS](mapping-reference.md#215) | devis | |
 [Lignes de devis de vente CDS](mapping-reference.md#214) | quotedetails | |
 [Produits lancés V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[En-têtes de facture client V2](mapping-reference.md#118) | factures | La table En-têtes de facture de vente V2 de l’application Finance and Operations contient des factures pour les commandes client et des factures en texte libre. Un filtre est appliqué dans Dataverse pour la double écriture qui filtrera tous les documents de facture financière. |
+[En-têtes de facture client V2](mapping-reference.md#118) | factures | La table En-têtes de facture de vente V2 de l’application de finances et d’opérations contient des factures pour les commandes client et des factures en texte libre. Un filtre est appliqué dans Dataverse pour la double écriture qui filtrera tous les documents de facture financière. |
 [Lignes de facture client V2](mapping-reference.md#117) | invoicedetails | |
 [Codes d’origine des commandes client](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

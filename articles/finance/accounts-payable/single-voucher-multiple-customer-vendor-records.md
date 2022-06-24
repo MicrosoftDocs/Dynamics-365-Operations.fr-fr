@@ -1,6 +1,6 @@
 ---
 title: N° de document unique avec plusieurs enregstrements client ou fournisseur
-description: Cette rubrique fournit une vue d’ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 Finance, par conséquent, il n’est pas recommandé d’utiliser cette méthode de validation en raison de l’impact comptable qu’elle a sur le traitement des règlements.
+description: Cet article fournit une vue d’ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 Finance, par conséquent, il n’est pas recommandé d’utiliser cette méthode de validation en raison de l’impact comptable qu’elle a sur le traitement des règlements.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889089"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>N° de document unique avec plusieurs enregstrements client ou fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions, par conséquent, il n’est pas recommandé d’utiliser cette méthode de validation en raison de l’impact comptable qu’elle a sur le traitement des règlements. 
+Cet article fournit une vue d’ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions, par conséquent, il n’est pas recommandé d’utiliser cette méthode de validation en raison de l’impact comptable qu’elle a sur le traitement des règlements. 
 
 Certains exemples courants dans lesquels un N° de document est utilisé pour plusieurs clients ou fournisseurs incluent les transferts de solde entre clients, et les soldes de compensation entre clients et fournisseurs de la même organisation. 
 
@@ -35,7 +35,7 @@ Un N° de document contenant plusieurs clients ou fournisseurs peut être entré
 -   Utilisation d’un N° de document multiligne, dans lequel il n’existe aucun compte général de contrepartie, avec plusieurs clients ou fournisseurs.
 -   Saisie d’un N° de document avec le compte et le compte de contrepartie étant fournisseur/fournisseur, client/client, fournisseur/client, ou client/fournisseur.
 
-Cette rubrique présente de quelle manière le règlement sera traité lorsqu’un N° de document avec plusieurs enregistrements client ou fournisseur est validé. En outre, cette rubrique fournit des solutions pour vous aider à comprendre comment éviter d’utiliser un N° de document avec plusieurs clients ou fournisseurs. Ainsi, il existe des exemples qui illustrent deux scénarios de règlement courants qui seront influencés par l’utilisation d’un N° de document avec plusieurs clients ou fournisseurs :
+Cet article présente de quelle manière le règlement sera traité lorsqu’un N° de document avec plusieurs enregistrements client ou fournisseur est validé. En outre, cet article fournit des solutions pour vous aider à comprendre comment éviter d’utiliser un N° de document avec plusieurs clients ou fournisseurs. Ainsi, il existe des exemples qui illustrent deux scénarios de règlement courants qui seront influencés par l’utilisation d’un N° de document avec plusieurs clients ou fournisseurs :
 
 -   Comptabilité de l’escompte de règlement
 -   Comptabilité de la réévaluation

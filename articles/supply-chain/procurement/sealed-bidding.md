@@ -1,6 +1,6 @@
 ---
 title: Soumissions sous pli scellé les appels d’offre
-description: Cette rubrique explique comment configurer des appels d’offre scellés pour garder secrètes les réponses d’offres des fournisseurs jusqu’à ce qu’elles soient descellées par le personnel chargé des achats.
+description: Cet article explique comment configurer des appels d’offre scellés pour garder secrètes les réponses d’offres des fournisseurs jusqu’à ce qu’elles soient descellées par le personnel chargé des achats.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890884"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Soumissions sous pli scellé les appels d’offre
 
@@ -148,7 +148,7 @@ Le processus de création d’un dossier d’appel d’offre pour un appel d’o
 Les dossiers d’appel d’offres pour les appels d’offres scellés doivent avoir une valeur **Type d’appel d’offre** de *Scellé*. Il existe trois manières d’affecter cette valeur à un dossier d’appel d’offre :
 
 - Définissez la valeur directement sur le dossier d’appel d’offre après l’avoir créé.
-- Définissez l’appel d’offre scellé comme type d’appel d’offre par défaut pour tous les appels d’offres dans les paramètres d’approvisionnements. (Voir la section [Définir le type d’appel d’offre par défaut](#set-default-bid-type) plus haut dans cette rubrique.)
+- Définissez l’appel d’offre scellé comme type d’appel d’offre par défaut pour tous les appels d’offres dans les paramètres d’approvisionnements. (Voir la section [Définir le type d’appel d’offre par défaut](#set-default-bid-type) plus haut dans cet article.)
 - Lorsque vous créez un dossier d’appel d’offres, sélectionnez un type de sollicitation configuré pour l’appel d’offres scellé. (Voir la section [Définir le type d’appel d’offre par défaut](#set-default-bid-type).)
 
 Pour les appels d’offres scellés, la valeur **Date et heure d’expiration** du dossier d’appel d’offre établit quand les offres soumises peuvent être descellées. La valeur **Date et heure d’expiration** sur chaque ligne correspondra à la valeur sur l’en-tête.

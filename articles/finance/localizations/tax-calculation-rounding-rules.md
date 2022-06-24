@@ -1,6 +1,6 @@
 ---
 title: Règles d’arrondi du calcul de la taxe
-description: Cette rubrique fournit des informations sur les règles d'arrondi dans les paramètres de calcul de la taxe du service de calcul des taxes.
+description: Cet article fournit des informations sur les règles d’arrondi dans les paramètres de calcul de la taxe du service de calcul des taxes.
 author: kailiang
 ms.date: 07/29/2021
 ms.topic: article
@@ -14,48 +14,48 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 167db4d836aa754509bb28677916a30901cebbbb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0f6182ab18a5a408a6e526feec7014ccdfce8af0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858299"
 ---
 # <a name="tax-calculation-rounding-rules"></a>Règles d’arrondi du calcul de la taxe
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la façon dont fonctionnent les règles d'arrondi dans les paramètres de calcul de la taxe du service de calcul des taxes.
+Cet article fournit des informations sur la façon dont fonctionnent les règles d’arrondi dans les paramètres de calcul de la taxe du service de calcul des taxes.
 
 > [!NOTE] 
-> Lorsque le service de calcul des taxes est activé, les règles d'arrondi sur les pages **Code taxe** et **Groupe de taxes** ne sont pas effectives.
+> Lorsque le service de calcul des taxes est activé, les règles d’arrondi sur les pages **Code taxe** et **Groupe de taxes** ne sont pas effectives.
 
-Vous pouvez consulter la configuration de la règle d'arrondi pour le service de calcul des taxes dans la section **Règle d'arrondi des taxes** dans le raccourci **Calcul** de l'onglet **Général**, sur la page **Paramètres de calcul des taxes** (**Taxe** \> **Paramétrage** \> **Configuration de taxe** \> **Paramètres de calcul des taxes**).
+Vous pouvez consulter la configuration de la règle d’arrondi pour le service de calcul des taxes dans la section **Règle d’arrondi des taxes** dans le raccourci **Calcul** de l’onglet **Général**, sur la page **Paramètres de calcul des taxes** (**Taxe** \> **Paramétrage** \> **Configuration de taxe** \> **Paramètres de calcul des taxes**).
 
-[![Configuration de la règle d'arrondi sur la page Paramètres de calcul des taxes](./media/tax-calculation-parameters-calculation-1.png)](./media/tax-calculation-parameters-calculation-1.png)
+[![Configuration de la règle d’arrondi sur la page Paramètres de calcul des taxes](./media/tax-calculation-parameters-calculation-1.png)](./media/tax-calculation-parameters-calculation-1.png)
 
-Les champs **Précision de l'arrondi** et **Méthode d'arrondi** déterminent comment les montants calculés dans la charge utile à partir du service de calcul des taxes sont arrondis.
+Les champs **Précision de l’arrondi** et **Méthode d’arrondi** déterminent comment les montants calculés dans la charge utile à partir du service de calcul des taxes sont arrondis.
 
-## <a name="rounding-precision"></a>Précision de l'arrondi
+## <a name="rounding-precision"></a>Précision de l’arrondi
 
-Le champ **Précision de l'arrondi** prend en charge une valeur comportant jusqu'à six décimales. Par exemple, si vous définissez le champ **Précision d'arrondi** sur **0,000000**, les montants calculés sont arrondis à six décimales, puis envoyés à Microsoft Dynamics 365 Finance. Par exemple, si la méthode d'arrondi **Normal** est utilisée, le montant **987,1234567** est arrondi à **987,123457**.
+Le champ **Précision de l’arrondi** prend en charge une valeur comportant jusqu’à six décimales. Par exemple, si vous définissez le champ **Précision d’arrondi** sur **0,000000**, les montants calculés sont arrondis à six décimales, puis envoyés à Microsoft Dynamics 365 Finance. Par exemple, si la méthode d’arrondi **Normal** est utilisée, le montant **987,1234567** est arrondi à **987,123457**.
 
 > [!NOTE]
-> Finance arrondit les montants selon les règles d'arrondi des devises. Par conséquent, les montants de taxe qui sont affichés et enregistrés dans les transactions sont affectés à la fois par les règles d'arrondi de calcul des taxes et par les règles d'arrondi des devises.
+> Finance arrondit les montants selon les règles d’arrondi des devises. Par conséquent, les montants de taxe qui sont affichés et enregistrés dans les transactions sont affectés à la fois par les règles d’arrondi de calcul des taxes et par les règles d’arrondi des devises.
 
-## <a name="rounding-method"></a>Méthode d'arrondi
+## <a name="rounding-method"></a>Méthode d’arrondi
 
-La méthode d'arrondi pour le calcul des taxes peut être configurée pour chaque entité juridique. Dans le champ **Méthode d'arrondi**, vous pouvez choisir parmi trois options : **Normal**, **Arrondi au chiffre inférieur** et **Arrondi au chiffre supérieur**.
+La méthode d’arrondi pour le calcul des taxes peut être configurée pour chaque entité juridique. Dans le champ **Méthode d’arrondi**, vous pouvez choisir parmi trois options : **Normal**, **Arrondi au chiffre inférieur** et **Arrondi au chiffre supérieur**.
 
-### <a name="rounding-example"></a>Exemple d'arrondi
+### <a name="rounding-example"></a>Exemple d’arrondi
 
-Le tableau suivant fournit un exemple qui montre comment le montant **987,345** est arrondi pour différentes combinaisons de précisions d'arrondi et de méthodes d'arrondi.
+Le tableau suivant fournit un exemple qui montre comment le montant **987,345** est arrondi pour différentes combinaisons de précisions d’arrondi et de méthodes d’arrondi.
 
 <table>
 <thead>
 <tr>
-<th rowspan="2">Méthode d'arrondi</th>
-<th colspan="8">Précision de l'arrondi</th>
+<th rowspan="2">Méthode d’arrondi</th>
+<th colspan="8">Précision de l’arrondi</th>
 </tr>
 <tr>
 <th>0,00</th>
@@ -105,11 +105,11 @@ Le tableau suivant fournit un exemple qui montre comment le montant **987,345** 
 </tbody>
 </table>
 
-La logique de calcul et d'arrondi des montants de taxe peut être paramétrée en fonction des règles de taxation.
+La logique de calcul et d’arrondi des montants de taxe peut être paramétrée en fonction des règles de taxation.
 
 ## <a name="rounding-by"></a>Arrondi à 
 
-Dans le champ **Arrondi par**, sélectionnez le principe d'arrondi qui s'applique aux taxes. Les options suivantes sont disponibles :
+Dans le champ **Arrondi par**, sélectionnez le principe d’arrondi qui s’applique aux taxes. Les options suivantes sont disponibles :
 
 - **Codes taxe** : arrondit le montant de taxe dans chaque code taxe.
 - **Combinaisons de codes taxe** : arrondit le montant de taxe dans la combinaison de codes de taxe de la ligne.
@@ -118,17 +118,17 @@ Dans le champ **Arrondi par**, sélectionnez le principe d'arrondi qui s'appliqu
 
 Dans le champ **Méthode de calcul**, sélectionnez si les taxes sur les factures sont calculées pour chaque ligne ou pour toutes les lignes. Les options suivantes sont disponibles :
 
-- **Ligne** : calcule le montant de taxe ligne par ligne. Le montant de taxe sur chaque ligne n'est pas affecté par le montant de taxe des autres lignes.
-- **Total** : calcule le montant de taxe pour toutes les lignes d'un même document.
+- **Ligne** : calcule le montant de taxe ligne par ligne. Le montant de taxe sur chaque ligne n’est pas affecté par le montant de taxe des autres lignes.
+- **Total** : calcule le montant de taxe pour toutes les lignes d’un même document.
 
-### <a name="rounding-calculation-example"></a>Exemple de calcul d'arrondi
+### <a name="rounding-calculation-example"></a>Exemple de calcul d’arrondi
 
 Cet exemple montre les différents calculs qui peuvent être effectués pour une facture, pour différentes combinaisons de valeurs **Arrondi par** et **Méthode de calcul**. Pour cet exemple, la configuration suivante est en place :
 
 - La facture comporte quatre lignes.
 - Il existe deux codes taxe : **TVA1** (10 %) et **TVA2** (10 %).
-- La précision d'arrondi est définie sur **0,01**.
-- La méthode d'arrondi est définie sur **Arrondi au chiffre supérieur**.
+- La précision d’arrondi est définie sur **0,01**.
+- La méthode d’arrondi est définie sur **Arrondi au chiffre supérieur**.
 
 #### <a name="rounding-by--tax-codes-and-calculation-method--line"></a>Arrondi par = Codes taxe et Méthode de calcul = Ligne
 

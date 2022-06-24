@@ -1,6 +1,6 @@
 ---
-title: Utilisation de fichiers de remplacement CSS
-description: Cette rubrique décrit pourquoi, quand et comment utiliser les fichiers de remplacement de feuilles de style en cascade (CSS) dans Microsoft Dynamics 365 Commerce.
+title: Utiliser CSS pour remplacer les fichiers
+description: Cet article décrit pourquoi, quand et comment utiliser les fichiers de remplacement de feuilles de style en cascade (CSS) dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892858"
 ---
 # <a name="work-with-css-override-files"></a>Utiliser CSS pour remplacer les fichiers
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit pourquoi, quand et comment utiliser les fichiers de remplacement de feuilles de style en cascade (CSS) dans Microsoft Dynamics 365 Commerce.
+Cet article décrit pourquoi, quand et comment utiliser les fichiers de remplacement de feuilles de style en cascade (CSS) dans Microsoft Dynamics 365 Commerce.
 
 Les styles de sites permanents doivent généralement être gérés via le thème d’un site. Les thèmes fournissent les paramètres de CSS et de style de base pour les modules sur n’importe quelle page de votre site. Les thèmes sont créés à l’aide du kit de développement logiciel en ligne (SDK) Dynamics 365 Commerce, et ils sont déployés sur vos sites web via Microsoft Dynamics Lifecycle Services (LCS). Les capacités de débogage de thème et les configurations d’interface de module dans le kit de développement logiciel en ligne (SDK) aident les développeurs de sites à créer des packages de conception de site personnalisables et cohérents. Lorsque ces packages de conception sont déployés sur un site, les auteurs du site peuvent se concentrer sur la création, la modification et la publication de contenu au lieu du développement du site.
 

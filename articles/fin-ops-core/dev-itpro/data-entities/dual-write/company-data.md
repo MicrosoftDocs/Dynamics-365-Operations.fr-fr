@@ -1,6 +1,6 @@
 ---
 title: Concept de société dans Dataverse
-description: Cette rubrique décrit l’intégration des données de société entre Finances et Opérations et Dataverse.
+description: Cet article décrit l’intégration des données de société entre Finances et Opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873176"
 ---
 # <a name="company-concept-in-dataverse"></a>Concept de société dans Dataverse
 
@@ -49,7 +49,7 @@ En raison de cette configuration, toutes les lignes liées à la société USMF 
 
 Comme le montre l’illustration précédente, cette correspondance 1:1 entre l’unité commerciale, la société et l’équipe est uniquement un point de départ. Dans cet exemple, une unité commerciale « Europe » est créée manuellement dans Dataverse comme parent de DEMF et d’ESMF. Cette nouvelle unité commerciale racine est indépendante de la double écriture. Toutefois, elle peut être utilisée pour donner membres de l’équipe « Ventes EUR » l’accès aux données du compte dans DEMF et ESMF en définissant la visibilité des données sur **BU parent/enfant** dans le rôle de sécurité associé.
 
-Une rubrique finale pour expliquer comment la double écriture détermine à quelle l’équipe propriétaire elle doit affecter les lignes. Ce comportement est contrôlé par la colonne **Équipe propriétaire par défaut** dans la ligne cdm\_Company. Lorsqu’une ligne cdm\_Company est activé pour la double écriture, un plug-in crée automatiquement l’unité commerciale et l’équipe propriétaire associées (si elles n’existent pas encore), et définit la colonne **Équipe propriétaire par défaut**. L’administrateur peut modifier cette colonne avec une valeur différente. Toutefois, l’administrateur ne peut pas désactiver la colonne tant que la table est activée pour la double écriture.
+Un article final pour expliquer comment la double écriture détermine à quelle l’équipe propriétaire elle doit affecter les lignes. Ce comportement est contrôlé par la colonne **Équipe propriétaire par défaut** dans la ligne cdm\_Company. Lorsqu’une ligne cdm\_Company est activé pour la double écriture, un plug-in crée automatiquement l’unité commerciale et l’équipe propriétaire associées (si elles n’existent pas encore), et définit la colonne **Équipe propriétaire par défaut**. L’administrateur peut modifier cette colonne avec une valeur différente. Toutefois, l’administrateur ne peut pas désactiver la colonne tant que la table est activée pour la double écriture.
 
 > [!div class="mx-imgBorder"]
 ![Colonne d’équipe propriétaire par défaut.](media/dual-write-default-owning-team.jpg)

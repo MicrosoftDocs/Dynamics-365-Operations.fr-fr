@@ -1,6 +1,6 @@
 ---
 title: Soldes de la comptabilité
-description: 'Cette article décrit deux manières d’afficher les soldes de compte général : la page de liste de balance comptable et les états financiers.'
+description: 'Cet article décrit deux manières d’afficher les soldes de compte général : la page de liste de balance comptable et les états financiers.'
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8470929b6805ddf9b85bd03e3043c2953d5fcfd1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f00f221765e757d8d4c82e1a0e4b8721e33dc321
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874491"
 ---
 # <a name="general-ledger-account-balances"></a>Soldes de la comptabilité
 
 [!include [banner](../includes/banner.md)]
 
-Cette article décrit deux manières d’afficher les soldes de compte général : la page de liste de balance comptable et les états financiers. Il explique également comment mettre à jour les soldes de l’ensemble de dimensions.
+Cet article décrit deux manières d’afficher les soldes de compte général : la page de liste de balance comptable et les états financiers. Il explique également comment mettre à jour les soldes de l’ensemble de dimensions.
 
 Les utilisateurs disposent de plusieurs méthodes pour afficher les soldes dans la comptabilité. Certaines des options les plus courantes sont :
 

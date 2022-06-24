@@ -1,6 +1,6 @@
 ---
 title: Employé avec paie
-description: Cette rubrique fournit des détails et un exemple de requête pour l’entité Collaborateur avec paie dans Dynamics 365 Human Resources.
+description: Cet article fournit des détails et un exemple de requête pour l’entité Collaborateur avec paie dans Dynamics 365 Human Resources.
 author: jcart
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e853a8a5730d397f253c8ce3a330794594dfd907
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b07fbc76b997600b2c076c00a63d1f6d865326d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872208"
 ---
 # <a name="payroll-employee"></a>Employé avec paie
 
@@ -27,7 +27,7 @@ ms.locfileid: "8068482"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique décrit l’entité d’employé de la paie pour Dynamics 365 Human Resources.
+Cet article décrit l’entité d’employé de la paie pour Dynamics 365 Human Resources.
 
 Nom physique : mshr_payrollemployeeentity.
 
@@ -57,7 +57,7 @@ Cette entité fournit des informations sur l’employé. Vous devez définir les
 
 ## <a name="relations"></a>Relations
 
-|Valeur de propriété  | Entité liée | Propriété de navigation | Type de collection |
+|Valeur de propriété | Entité liée | Propriété de navigation | Type de collection |
 | --- | --- | --- | --- |
 | _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | mshr_FK_HcmEmploymentDetailEntity_PayrollEmployee |
 | _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |

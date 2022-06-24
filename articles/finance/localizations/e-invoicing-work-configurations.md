@@ -1,6 +1,6 @@
 ---
 title: Utiliser des configurations
-description: Cette rubrique fournit une vue d’ensemble du scénario principal d’utilisation des configurations de gestion des états électroniques (ER) à partir de l’espace de travail des fonctionnalités de globalisation.
+description: Cet article fournit une vue d’ensemble du scénario principal d’utilisation des configurations de gestion des états électroniques (ER) à partir de l’espace de travail des fonctionnalités de globalisation.
 author: dkalyuzh
 ms.date: 01/26/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4318399ee58ed54b29f8d360345b8930238ea9f2
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 359f00336811efd5f21463a325627df0e01a5f3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875940"
 ---
 # <a name="work-with-configurations"></a>Utiliser des configurations
 
@@ -28,8 +28,8 @@ ms.locfileid: "8371707"
 
 Les configurations de gestion des états électroniques (ER) sont l’un des principaux ensembles de composants des fonctionnalités de facturation électronique. Une configuration de gestion des états électroniques (ER) contient la configuration de la structure de fichiers et un ensemble de règles de transformation pour transformer les données de deux manières :
 
-- **Exporter la configuration du format ER** –  Cette configuration transforme les données de la structure interne unifiée (modèle ER) au format de fichier électronique.
-- **Importer la configuration du format ER** –  Cette configuration transforme les données du format de fichier électronique à la structure interne unifiée (modèle ER).
+- **Exporter la configuration du format ER** – Cette configuration transforme les données de la structure interne unifiée (modèle ER) au format de fichier électronique.
+- **Importer la configuration du format ER** – Cette configuration transforme les données du format de fichier électronique à la structure interne unifiée (modèle ER).
 
 En plus de générer des fichiers électroniques sortants dans le format prédéfini, les configurations ER sont largement utilisées pour analyser les messages entrants provenant de services Web externes en tant que réponses. Cette fonctionnalité permet de créer une logique configurable pour obtenir les résultats de la communication avec les canaux externes, convertir ces résultats (codes, messages et journaux) en une structure lisible par l’utilisateur, puis transmettre ces informations à l’application cliente.
 

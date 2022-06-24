@@ -1,6 +1,6 @@
 ---
 title: Gérer les déductions à l’aide du workbench de déduction
-description: Cette rubrique décrit comment utiliser le workbench de déduction afin de traiter les paiements client qui incluent des déductions.
+description: Cet article décrit comment utiliser le workbench de déduction afin de traiter les paiements client qui incluent des déductions.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873606"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Gérer les déductions à l’aide du workbench de déduction
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser le workbench de déduction afin de traiter les paiements client qui incluent des déductions.
+Cet article décrit comment utiliser le workbench de déduction afin de traiter les paiements client qui incluent des déductions.
 
 Un client qui possède une remise peut choisir de ne pas attendre un paiement de remise. Au lieu de cela, il peut envoyer un paiement incluant une déduction du montant de la remise. Pour traiter ce type de transaction, vous pouvez utiliser le workbench de déduction pour faire correspondre les déductions aux transactions de crédit en cours, déductions fractionnées, déductions refusées, et déductions annulées.
 
 > [!NOTE]
-> Le workbench de déduction fait partie des fonctionnalités de vente et de marketing de Microsoft Dynamics 365 Supply Chain Management depuis longtemps. Cependant, il a maintenant été amélioré de sorte qu’il fonctionne également avec le nouveau module **Gestion des remises**. Cette rubrique explique comment utiliser à la fois les anciennes fonctionnalités et les fonctionnalités de gestion des remises du workbench de déduction. Cependant, si vous n’avez pas [activé le module **Gestion des remises** pour votre système](rebate-management-enable.md), certaines des fonctionnalités décrites ici ne seront pas disponibles.
+> Le workbench de déduction fait partie des fonctionnalités de vente et de marketing de Microsoft Dynamics 365 Supply Chain Management depuis longtemps. Cependant, il a maintenant été amélioré de sorte qu’il fonctionne également avec le nouveau module **Gestion des remises**. Cet article explique comment utiliser à la fois les anciennes fonctionnalités et les fonctionnalités de gestion des remises du workbench de déduction. Cependant, si vous n’avez pas [activé le module **Gestion des remises** pour votre système](rebate-management-enable.md), certaines des fonctionnalités décrites ici ne seront pas disponibles.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -159,11 +159,11 @@ Créer une déduction sur le workbench de déduction, procédez comme suit.
         - *Basé sur la quantité* – Une commande client négative ou un ordre de retour sera créé.
 
     - **Date de réclamation** – Sélectionnez la date de la réclamation. La valeur par défaut est la date actuelle.
-    - **Motif de la réclamation** – Sélectionnez le code de motif qui s’applique à la déduction actuelle. La base de réclamation que vous avez sélectionnée affecte les options qui s’appliquent. Pour plus d’informations sur la création et la configuration des motifs de réclamation qui peuvent être sélectionnés ici, consultez la section [Créer des motifs de déduction](#deduction-reasons) plus haut dans cette rubrique.
+    - **Motif de la réclamation** – Sélectionnez le code de motif qui s’applique à la déduction actuelle. La base de réclamation que vous avez sélectionnée affecte les options qui s’appliquent. Pour plus d’informations sur la création et la configuration des motifs de réclamation qui peuvent être sélectionnés ici, consultez la section [Créer des motifs de déduction](#deduction-reasons) plus haut dans cet article.
     - **Remarques** – Ajoutez toutes les remarques qui s’appliquent. Une fois la réclamation approuvée, l’approbateur pourra modifier ou compléter les notes de la réclamation.
     - **Créer un journal des réclamations** – Définissez cette option pour spécifier si le journal des réclamations doit être créé lors de la création de la réclamation ou de la déduction :
 
-        - *Oui* – Le système créera et publiera un journal général en utilisant le journal des réclamations configuré sur la page **Paramètres de la Comptabilité client**. (Pour plus d’informations, consultez la section [Configurer la Comptabilité client et les déductions](#accounts-receivable-deductions) plus haut dans cette rubrique.) Lorsqu’une facture est jointe à la réclamation, le journal des réclamations est utilisé pour réduire le solde de la facture applicable. Si la réclamation est rejetée par la suite, le journal des réclamations et les règlements (si une facture était jointe) seront annulés.
+        - *Oui* – Le système créera et publiera un journal général en utilisant le journal des réclamations configuré sur la page **Paramètres de la Comptabilité client**. (Pour plus d’informations, consultez la section [Configurer la Comptabilité client et les déductions](#accounts-receivable-deductions) plus haut dans cet article.) Lorsqu’une facture est jointe à la réclamation, le journal des réclamations est utilisé pour réduire le solde de la facture applicable. Si la réclamation est rejetée par la suite, le journal des réclamations et les règlements (si une facture était jointe) seront annulés.
         - *Non* – Aucun journal des réclamations n’est créé pour le moment. Il sera créé lorsque la demande sera approuvée. Une facture peut toujours être jointe à la nouvelle réclamation, même si aucun journal des réclamations n’est créé. Cependant, le règlement ne peut se faire sans le journal des réclamations.
 
 1. Cliquez sur **OK**.
@@ -197,11 +197,11 @@ Le processus de création d’une déduction à partir d’un règlement client 
         - *Basé sur la quantité* – Une commande client négative ou un ordre de retour sera créé.
 
     - **Date de réclamation** – Sélectionnez la date de la réclamation. La valeur par défaut est la date actuelle.
-    - **Motif de la réclamation** – Sélectionnez le code de motif qui s’applique à la déduction actuelle. La base de réclamation que vous avez sélectionnée affecte les options qui s’appliquent. Pour plus d’informations sur la création et la configuration des motifs de réclamation qui peuvent être sélectionnés ici, consultez la section [Créer des motifs de déduction](#deduction-reasons) plus haut dans cette rubrique.
+    - **Motif de la réclamation** – Sélectionnez le code de motif qui s’applique à la déduction actuelle. La base de réclamation que vous avez sélectionnée affecte les options qui s’appliquent. Pour plus d’informations sur la création et la configuration des motifs de réclamation qui peuvent être sélectionnés ici, consultez la section [Créer des motifs de déduction](#deduction-reasons) plus haut dans cet article.
     - **Remarques** – Ajoutez toutes les remarques qui s’appliquent. Une fois la réclamation approuvée, l’approbateur pourra modifier ou compléter les notes de la réclamation.
     - **Créer un journal des réclamations** – Définissez cette option pour spécifier si le journal des réclamations doit être créé lors de la création de la réclamation ou de la déduction :
 
-        - *Oui* – Le système créera et publiera un journal général en utilisant le journal des réclamations configuré sur la page **Paramètres de la Comptabilité client**. (Pour plus d’informations, consultez la section [Configurer la Comptabilité client et les déductions](#accounts-receivable-deductions) plus haut dans cette rubrique.) Lorsqu’une facture est jointe à la réclamation, le journal des réclamations est utilisé pour réduire le solde de la facture applicable. Si la réclamation est rejetée par la suite, le journal des réclamations et les règlements (si une facture était jointe) seront annulés.
+        - *Oui* – Le système créera et publiera un journal général en utilisant le journal des réclamations configuré sur la page **Paramètres de la Comptabilité client**. (Pour plus d’informations, consultez la section [Configurer la Comptabilité client et les déductions](#accounts-receivable-deductions) plus haut dans cet article.) Lorsqu’une facture est jointe à la réclamation, le journal des réclamations est utilisé pour réduire le solde de la facture applicable. Si la réclamation est rejetée par la suite, le journal des réclamations et les règlements (si une facture était jointe) seront annulés.
         - *Non* – Aucun journal des réclamations n’est créé pour le moment. Il sera créé lorsque la demande sera approuvée. Une facture peut toujours être jointe à la nouvelle réclamation, même si aucun journal des réclamations n’est créé. Cependant, le règlement ne peut se faire sans le journal des réclamations.
 
 1. Cliquez sur **OK**.
@@ -235,11 +235,11 @@ Le processus de création d’une déduction à partir d’une page client resse
         - *Basé sur la quantité* – Une commande client négative ou un ordre de retour sera créé.
 
     - **Date de réclamation** – Sélectionnez la date de la réclamation. La valeur par défaut est la date actuelle.
-    - **Motif de la réclamation** – Sélectionnez le code de motif qui s’applique à la déduction actuelle. La base de réclamation que vous avez sélectionnée affecte les options qui s’appliquent. Pour plus d’informations sur la création et la configuration des motifs de réclamation qui peuvent être sélectionnés ici, consultez la section [Créer des motifs de déduction](#deduction-reasons) plus haut dans cette rubrique.
+    - **Motif de la réclamation** – Sélectionnez le code de motif qui s’applique à la déduction actuelle. La base de réclamation que vous avez sélectionnée affecte les options qui s’appliquent. Pour plus d’informations sur la création et la configuration des motifs de réclamation qui peuvent être sélectionnés ici, consultez la section [Créer des motifs de déduction](#deduction-reasons) plus haut dans cet article.
     - **Remarques** – Ajoutez toutes les remarques qui s’appliquent. Une fois la réclamation approuvée, l’approbateur pourra modifier ou compléter les notes de la réclamation.
     - **Créer un journal des réclamations** – Définissez cette option pour spécifier si le journal des réclamations doit être créé lors de la création de la réclamation ou de la déduction :
 
-        - *Oui* – Le système créera et publiera un journal général en utilisant le journal des réclamations configuré sur la page **Paramètres de la Comptabilité client**. (Pour plus d’informations, consultez la section [Configurer la Comptabilité client et les déductions](#accounts-receivable-deductions) plus haut dans cette rubrique.) Lorsqu’une facture est jointe à la réclamation, le journal des réclamations est utilisé pour réduire le solde de la facture applicable. Si la réclamation est rejetée par la suite, le journal des réclamations et les règlements (si une facture était jointe) seront annulés.
+        - *Oui* – Le système créera et publiera un journal général en utilisant le journal des réclamations configuré sur la page **Paramètres de la Comptabilité client**. (Pour plus d’informations, consultez la section [Configurer la Comptabilité client et les déductions](#accounts-receivable-deductions) plus haut dans cet article.) Lorsqu’une facture est jointe à la réclamation, le journal des réclamations est utilisé pour réduire le solde de la facture applicable. Si la réclamation est rejetée par la suite, le journal des réclamations et les règlements (si une facture était jointe) seront annulés.
         - *Non* – Aucun journal des réclamations n’est créé pour le moment. Il sera créé lorsque la demande sera approuvée. Une facture peut toujours être jointe à la nouvelle réclamation, même si aucun journal des réclamations n’est créé. Cependant, le règlement ne peut se faire sans le journal des réclamations.
 
 1. Cliquez sur **OK**.
@@ -280,7 +280,7 @@ Pour faire correspondre une déduction à un crédit, procédez comme suit.
 1. Dans le volet Actions, cliquez sur **Tenir à jour \> Mettre en correspondance**. Le système met en correspondance la déduction et le crédit. S’il reste un solde dans la déduction, il est indiqué dans le champ **Montant restant** sur l’onglet **Déductions**.
 
     > [!NOTE]
-    > Pour les déductions qui ont été créées à l’aide de la commande **Nouvelle déduction** sur le workbench des déductions, le règlement client ou la page client, la commande **Tenir à jour \> Mettre en correspondance** n’est disponible que si le champ **Statut de la réclamation** est défini sur *Accepté*. Cette commande peut être utilisée pour faire correspondre manuellement la transaction basée sur le prix ou la quantité au crédit associé dans la section **Transactions ouvertes**. Ce crédit est créé soit au moment de l’approbation de la déduction (en utilisant la commande **Tenir à jour \> Approuver la déduction**), ou lorsqu’il est rattaché à un crédit existant tel que décrit dans la section [Crédits créés en dehors du processus d’approbation de déduction](#credits-outside-approval) plus loin dans cette rubrique. La tâche périodique *Régler les déductions approuvées* (**Ventes et Marketing \> Tâches périodiques \> Régler les déductions approuvées**) peut également être utilisée pour mettre automatiquement en correspondance les déductions et les crédits ayant des valeurs et montants **ID de déduction** correspondants.
+    > Pour les déductions qui ont été créées à l’aide de la commande **Nouvelle déduction** sur le workbench des déductions, le règlement client ou la page client, la commande **Tenir à jour \> Mettre en correspondance** n’est disponible que si le champ **Statut de la réclamation** est défini sur *Accepté*. Cette commande peut être utilisée pour faire correspondre manuellement la transaction basée sur le prix ou la quantité au crédit associé dans la section **Transactions ouvertes**. Ce crédit est créé soit au moment de l’approbation de la déduction (en utilisant la commande **Tenir à jour \> Approuver la déduction**), ou lorsqu’il est rattaché à un crédit existant tel que décrit dans la section [Crédits créés en dehors du processus d’approbation de déduction](#credits-outside-approval) plus loin dans cet article. La tâche périodique *Régler les déductions approuvées* (**Ventes et Marketing \> Tâches périodiques \> Régler les déductions approuvées**) peut également être utilisée pour mettre automatiquement en correspondance les déductions et les crédits ayant des valeurs et montants **ID de déduction** correspondants.
 
 ### <a name="split-a-deduction"></a>Fractionner une déduction
 

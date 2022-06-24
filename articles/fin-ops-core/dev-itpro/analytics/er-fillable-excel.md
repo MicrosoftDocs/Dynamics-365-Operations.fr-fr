@@ -1,6 +1,6 @@
 ---
 title: Créer une configuration pour générer des documents au format Excel
-description: Cette rubrique décrit comment concevoir un format pour la gestion des états électroniques pour renseigner un modèle Excel, puis générer des documents sortants au format Excel.
+description: Cet article décrit comment concevoir un format pour la gestion des états électroniques pour renseigner un modèle Excel, puis générer des documents sortants au format Excel.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854812"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811418"
 
 Vous pouvez concevoir une configuration de format [états électroniques (ER)](general-electronic-reporting.md) ayant un composant de format ER que vous pouvez configurer pour générer un document sortant dans un format de classeur Microsoft Excel. Des composants spécifiques au format ER doivent être utilisés à cet effet.
 
-Pour en savoir plus sur cette fonctionnalité, suivez les étapes de la rubrique : [Concevoir une configuration pour générer des états au format OPENXML](tasks/er-design-reports-openxml-2016-11.md).
+Pour en savoir plus sur cette fonctionnalité, suivez les étapes de l’article : [Concevoir une configuration pour générer des états au format OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="add-a-new-er-format"></a>Ajouter un nouveau format ER
 
@@ -263,7 +263,7 @@ Pour un même composant **Feuille**, vous pouvez ajouter plusieurs composants **
 
 Sous le composant **Pied de page** ajouté, ajoutez les composants imbriqués requis de type **Texte\\Chaîne**, **Texte\\DateTime** ou d’un autre type. Configurez les liaisons de ces composants pour spécifier la manière dont votre pied de page est rempli.
 
-Vous pouvez également utiliser des [codes de mise en forme](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) pour mettre en forme correctement le contenu d’un pied de page généré. Pour apprendre à utiliser cette approche, suivez les étapes de la section [Exemple 1](#example-1), plus loin dans cette rubrique.
+Vous pouvez également utiliser des [codes de mise en forme](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) pour mettre en forme correctement le contenu d’un pied de page généré. Pour apprendre à utiliser cette approche, suivez les étapes de la section [Exemple 1](#example-1), plus loin dans cet article.
 
 > [!NOTE]
 > Quand vous configurez des formats ER, assurez-vous de prendre en compte la [limite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) Excel et le nombre maximum de caractères pour un seul en-tête ou pied de page.

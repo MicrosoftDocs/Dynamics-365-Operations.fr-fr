@@ -1,6 +1,6 @@
 ---
 title: Déplacer les fichiers XML NF-e en pièces jointes
-description: Cette rubrique explique comment déplacer des fichiers XML NF-e hors de votre base de données Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management et les rendre disponibles en tant que pièces jointes à la place.
+description: Cet article explique comment déplacer des fichiers XML NF-e hors de votre base de données Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management et les rendre disponibles en tant que pièces jointes à la place.
 author: gionoder
 ms.date: 11/11/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-01-27
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c7b82d486cecf6b20f1283fa609c360b3003efca
-ms.sourcegitcommit: ebf6546835e4d6a80aea1dfae81e119e294387f0
+ms.openlocfilehash: ce9061896759efeb8e8960e84656d5fc1f0616ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7799446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877895"
 ---
 # <a name="move-nf-e-xml-files-as-attachments"></a>Déplacer les fichiers XML NF-e en pièces jointes
 
 [!include [banner](../includes/banner.md)] 
 
 
-Lors de l’émission de documents fiscaux électroniques (NF-e), des fichiers XML sont créés et stockés dans les bases de données Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management. Dans la localisation brésilienne, vous pouvez utiliser la fonctionnalité **Déplacement XML NF-e en pièce jointe** pour libérer l’espace de base de données que ces fichiers XML consomment.
+Lors de l’émission de documents fiscaux électroniques (NF-e), des fichiers XML sont créés et stockés dans les bases de données Microsoft Dynamics 365 finance et Dynamics 365 Supply Chain Management. Dans la localisation brésilienne, vous pouvez utiliser la fonctionnalité **Déplacement XML NF-e en pièce jointe** pour libérer l’espace de base de données que ces fichiers XML consomment.
 
 Pour une plage de dates et un établissement fiscal spécifiques, la fonctionnalité déplace les fichiers XML NF-e de votre base de données Finance ou Supply Chain Management vers le stockage Blob de votre abonnement Azure. Ce mouvement rend les fichiers disponibles uniquement en tant que pièces jointes. Une fois les fichiers XML déplacés avec succès vers le stockage Blob, les fichiers d’origine sont supprimés de la base de données Finance ou Supply Chain Management. Par conséquent, l’espace de base de données utilisé par ces fichiers est libéré.
 

@@ -1,6 +1,6 @@
 ---
-title: Configurer plusieurs locataires B2C dans un environnement Commerce
-description: Cette rubrique décrit quand et comment configuer plusieurs clients Microsoft Azure Active Directory (Azure AD) B2C par canal pour l’authentification de l’utilisateur dans un environnement Dynamics 365 Commerce dédié.
+title: Configurer plusieurs clients B2C dans un environnement Commerce
+description: Cet article décrit quand et comment configurer plusieurs clients Microsoft Azure Active Directory (Azure AD) B2C par canal pour l’authentification de l’utilisateur dans un environnement Dynamics 365 Commerce dédié.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890567"
 ---
-# <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurer plusieurs locataires B2C dans un environnement Commerce
+# <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurer plusieurs clients B2C dans un environnement Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit quand et comment configurer plusieurs clients Microsoft Azure Active Directory (Azure AD) B2C par canal pour l’authentification de l’utilisateur dans un environnement Dynamics 365 Commerce dédié.
+Cet article décrit quand et comment configurer plusieurs clients Microsoft Azure Active Directory (Azure AD) B2C par canal pour l’authentification de l’utilisateur dans un environnement Dynamics 365 Commerce dédié.
 
 Dynamics 365 Commerce utilise le service d’identité du cloud Azure AD B2C pour prendre en charge les identifiants utilisateur et les flux d’authentification. Les utilisateurs peuvent utiliser les flux d’authentification pour s’inscrire, se connecter et réinitialiser leur mot de passe. Azure AD B2C stocke les informations d’authentification sensibles d’un utilisateur, telles que son nom d’utilisateur et son mot de passe. L’enregistrement d’utilisateur est propre à chaque client B2C et utilise soit les identifiants du nom d’utilisateur (adresse électronique) ou les identifiants du fournisseur d’identité sociale.
 

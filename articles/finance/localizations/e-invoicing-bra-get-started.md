@@ -1,6 +1,6 @@
 ---
 title: Mise en route de la Facturation électronique pour le Brésil
-description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour le Brésil dans Finance et Supply Chain Management.
+description: Cet article donne des informations qui vous aideront à démarrer la Facturation électronique pour le Brésil dans Finance et Supply Chain Management.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846582"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Mise en route de la Facturation électronique pour le Brésil 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour le Brésil. La rubrique vous guide tout au long des étapes de configuration qui dépendent du pays dans Regulatory Configuration Services (RCS) et complètent les étapes décrites dans la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
+Cet article donne des informations qui vous aideront à démarrer la Facturation électronique pour le Brésil. Cet article vous guide tout au long des étapes de configuration qui dépendent du pays dans Regulatory Configuration Services (RCS) et complètent les étapes décrites dans l’article [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Configuration spécifique au pays pour la fonctionnalité de Facturation électronique NF-e (BR) pour le Brésil
 
 Certains des paramètres de la **Fonctionnalité de Facturation électronique NF-e (BR) pour le Brésil** sont publiés avec des valeurs par défaut. Passez en revue les valeurs et, si nécessaire, mettez à jour les valeurs pour mieux répondre aux besoins de votre entreprise avant de déployer la fonctionnalité de Facturation électronique dans l’environnement de service.
 
-Cette section complète la section **Configuration spécifique au pays pour la fonctionnalité de Facturation électronique** de la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
+Cette section complète la section **Configuration spécifique au pays pour la fonctionnalité de Facturation électronique** de l’article [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
 
 1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalité de globalisation**, sélectionnez la vignette **Facturation électronique**.
 2. Sur la page **Fonctionnalités de Facturation électronique**, vérifiez que la fonctionnalité de Facturation électronique **NF-e (BR) pour le Brésil** que vous avez créée est sélectionnée.
@@ -51,7 +53,7 @@ Cette section complète la section **Configuration spécifique au pays pour la f
 
 Effectuez ces étapes avant de déployer la configuration de l’application sur votre application connectée Finance ou Supply Chain Management.
 
-Cette section complète la section **Configuration du paramétrage de l’application spécifique au pays** de la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
+Cette section complète la section **Configuration du paramétrage de l’application spécifique au pays** de l’article [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
 
 1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalité de globalisation**, sélectionnez la vignette **Facturation électronique**.
 2. Sur la page **Fonctionnalités de Facturation électronique**, vérifiez que la fonctionnalité de Facturation électronique **NF-e (BR) pour le Brésil** est sélectionnée.
@@ -71,7 +73,7 @@ Cette section complète la section **Configuration du paramétrage de l’applic
 
 Certains des paramètres de la **Fonctionnalité de Facturation électronique NFS-e ABRASF Curitiba (BR) pour le Brésil** sont publiés avec des valeurs par défaut. Passez en revue et, si nécessaire, mettez à jour les valeurs pour mieux répondre aux besoins de votre entreprise avant de déployer la fonctionnalité de Facturation électronique dans l’environnement de service.
 
-Cette section complète la section **Configuration spécifique au pays pour la fonctionnalité de Facturation électronique** de la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
+Cette section complète la section **Configuration spécifique au pays pour la fonctionnalité de Facturation électronique** de l’article [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
 
 1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalité de globalisation**, sélectionnez la vignette **Facturation électronique**.
 2. Sur la page **Fonctionnalités de Facturation électronique**, vérifiez que la fonctionnalité de Facturation électronique **NFS-e ABRASF Curitiba (BR) pour le Brésil** que vous avez créée est sélectionnée.
@@ -96,7 +98,7 @@ Cette section complète la section **Configuration spécifique au pays pour la f
 
 Effectuez ces étapes avant de déployer la configuration de l’application sur votre application connectée Finance ou Supply Chain Management.
 
-Cette section complète la section **Configuration du paramétrage de l’application spécifique au pays** de la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
+Cette section complète la section **Configuration du paramétrage de l’application spécifique au pays** de l’article [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
 
 1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalité de globalisation**, sélectionnez la vignette **Facturation électronique**.
 2. Sur la page **Fonctionnalités de Facturation électronique**, vérifiez que la fonctionnalité de Facturation électronique **NFS-e ABRASF Curitiba (BR) pour le Brésil** est sélectionnée.

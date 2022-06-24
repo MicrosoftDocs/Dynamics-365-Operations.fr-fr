@@ -1,6 +1,6 @@
 ---
-title: État Balance comptable avec le détail des transactions
-description: Cette rubrique décrit l’état par défaut des balances comptables. Elle décrit également les blocs élémentaires associés à cet état et comment il est possible de modifier l’état pour l’adapter à vos exigences métier.
+title: Balance comptable avec état détaillé des transactions
+description: Cet article décrit l’état par défaut des balances comptables. Elle décrit également les blocs élémentaires associés à cet état et comment il est possible de modifier l’état pour l’adapter à vos exigences métier.
 author: v-kiarnd
 ms.date: 10/24/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 11ed9929b329c910ca0b20d728edeeb6fcdcd73f
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: f6fe3576df0c578ae6942c670cbb15969fb85be1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846436"
 ---
-# <a name="trial-balance-with-transactional-detail-report"></a>État Balance comptable avec le détail des transactions
+# <a name="trial-balance-with-transactional-detail-report"></a>Balance comptable avec état détaillé des transactions
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l’état par défaut des balances comptables. L’état **Balance comptable avec détail des transactions** génère une balance comptable et inclut les transactions détaillées qui ont été validées dans chaque compte du grand livre. En choisissant d’inclure des transactions spécifiques non comptabilisées, vous pouvez utiliser l’état pour générer une balance comptable provisoire ainsi que des transactions détaillées.
+Cet article décrit l’état par défaut des balances comptables. L’état **Balance comptable avec détail des transactions** génère une balance comptable et inclut les transactions détaillées qui ont été validées dans chaque compte du grand livre. En choisissant d’inclure des transactions spécifiques non comptabilisées, vous pouvez utiliser l’état pour générer une balance comptable provisoire ainsi que des transactions détaillées.
 
 La Gestion des états électroniques (ER) a été utilisée pour créer l’état **Balance comptable avec détail des transactions**. Par conséquent, une organisation peut soit utiliser la version de l’état incluse dans le référentiel global, soit créer sa propre version de l’état.
 

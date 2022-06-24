@@ -1,6 +1,6 @@
 ---
 title: Saisir des soldes d’ouverture de salaire
-description: La rubrique décrit les étapes pour entrer des soldes d’ouverture pour les codes de rémunération, les déductions, les avantages et les taxes.
+description: L’article décrit les étapes pour entrer des soldes d’ouverture pour les codes de rémunération, les déductions, les avantages et les taxes.
 author: andreabichsel
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14e7e0772c5b365818d3a8a230abe9f674a077e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850016"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Saisir des soldes d’ouverture de salaire
 
 [!include [banner](../../includes/banner.md)]
 
-La rubrique décrit les étapes pour entrer des soldes d’ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires qui transfèrent des données pour une nouvelle implémentation du salaire à partir d’un autre système. Pour commencer à entrer les soldes d’ouverture de salaires, nous vérifions les informations suivantes :
+L’article décrit les étapes pour entrer des soldes d’ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires qui transfèrent des données pour une nouvelle implémentation du salaire à partir d’un autre système. Pour commencer à entrer les soldes d’ouverture de salaires, nous vérifions les informations suivantes :
 
 - Les enregistrements employé sont entrés et disponibles dans le système
 - Les données suivantes sont configurées et attribuées aux employés :

@@ -1,6 +1,6 @@
 ---
-title: Aucun résultat correspondant n’a pu être trouvé
-description: Cette rubrique explique comment résoudre l’erreur « Aucun résultat correspondant n’a pu être trouvé » dans le service de calcul des taxes.
+title: Aucun résultat correspondant n’a été trouvé
+description: Cet article explique comment résoudre l’erreur « Aucun résultat correspondant n’a pu être trouvé » dans le service de calcul des taxes.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845142"
 ---
-# <a name="no-matching-result-could-be-found"></a>Aucun résultat correspondant n’a pu être trouvé
+# <a name="no-matching-result-could-be-found"></a>Aucun résultat correspondant n’a été trouvé
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique la procédure de résolution si vous recevez l’erreur « Aucun résultat correspondant n’a pu être trouvé » dans le service de calcul des taxes.
+Cet article explique la procédure de résolution si vous recevez l’erreur « Aucun résultat correspondant n’a pu être trouvé » dans le service de calcul des taxes.
 
 ## <a name="symptom"></a>Problème
 

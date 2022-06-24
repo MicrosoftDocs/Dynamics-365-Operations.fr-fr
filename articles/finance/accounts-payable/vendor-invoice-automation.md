@@ -1,6 +1,6 @@
 ---
 title: Automatisation des factures pour les documents numérisés
-description: Cette rubrique explique les fonctionnalités disponibles pour l’automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
+description: Cet article explique les fonctionnalités disponibles pour l’automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883414"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatisation des factures pour les documents numérisés
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique les entités de données disponibles pour l’automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
+Cet article explique les entités de données disponibles pour l’automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 
 Les organisations qui souhaitent simplifier leurs processus de compatibilité fournisseur identifient souvent le traitement des factures comme l’un des principaux domaines de processus dont l’efficacité doit être améliorée. Dans de nombreux cas, ces organisations confient le traitement des factures papier à un fournisseur de services de reconnaissance optique des caractères (OCR) tiers. Elles reçoivent ensuite les métadonnées de facture dans un format lisible par une machine avec une image numérisée de chaque facture. Pour faciliter l’automatisation, une solution de « dernier kilomètre » est créée pour activer la consommation de ces artefacts dans le système de facturation. L’automatisation de ce « dernier kilomètre » est maintenant activée, via une solution d’automatisation des factures.
 
@@ -46,7 +46,7 @@ L’empreinte de la solution comprend les composants suivants :
 + Traitement des exceptions pour les factures
 + Visionneuse de pièce jointe côte à côte dans les factures
 
-Le reste de cette rubrique fournit des descriptions détaillées des composants de la solution.
+Le reste de cet article fournit des descriptions détaillées des composants de la solution.
 
 ## <a name="data-entities"></a>Entités de données
 
@@ -58,7 +58,7 @@ Un package de données est l’unité de travail qui doit être envoyée, afin q
 
 Les pièces jointes des documents de facture fournisseur sont une nouvelle entité de données introduite dans le cadre de cette fonctionnalité. L’entité En-tête de facture fournisseur a été modifiée pour prendre en charge les pièces jointes. L’entité Ligne de facture fournisseur n’a pas été modifiée pour cette fonctionnalité.
 
-Pour des informations détaillées sur les packages de données, consultez [Vue d’ensemble de la gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Pour plus d’informations sur la création de packages de données à l’aide de l’espace de travail de gestion des données, consultez [Traiter et consommer des packages de données dans la solution d'applications de finances et d’opérations Dynamics 365](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Pour des informations détaillées sur les packages de données, consultez [Vue d’ensemble de la gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Pour plus d’informations sur la création de packages de données à l’aide de l’espace de travail de gestion des données, consultez [Traiter et consommer des packages de données dans la solution d’applications de finances et d’opérations Dynamics 365](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Pour générer rapidement des données de test incluant des factures et des pièces jointes, procédez comme suit :
 
@@ -86,7 +86,7 @@ Les factures importées via des packages de données peuvent être associées à
 
 ## <a name="exception-processing"></a>Traitement des exceptions
 
-Dans les scénarios où les factures fournisseur sont envoyées dans Finance and Operations par le biais de l'intégration, un membre de l'équipe de la comptabilité fournisseur doit pouvoir traiter facilement les exceptions ou les factures ayant échoué, et créer des factures en attente à partir des factures ayant échoué. Ce traitement des exceptions pour les factures fournisseur fait désormais partie de Finance and Operations.
+Dans les scénarios où les factures fournisseur sont envoyées dans Finance et Opérations par le biais de l’intégration, un membre de l’équipe de la comptabilité fournisseur doit pouvoir traiter facilement les exceptions ou les factures ayant échoué, et créer des factures en attente à partir des factures ayant échoué. Ce traitement des exceptions pour les factures fournisseur fait désormais partie de Finance et Opérations.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Factures fournisseur qui n’ont pas réussi à importer la page de liste
 

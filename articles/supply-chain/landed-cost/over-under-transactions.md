@@ -1,6 +1,6 @@
 ---
 title: Transactions de dépassement/d’insuffisance
-description: Cette rubrique fournit des informations qui vous aideront à configurer les détails des stratégies pour les transactions de sur/sous-traitance, afin que le système puisse déterminer comment gérer le sur-traitement et le sous-traitement des marchandises au moment de la réception.
+description: Cet article fournit des informations qui vous aideront à configurer les détails des stratégies pour les transactions de sur/sous-traitance, afin que le système puisse déterminer comment gérer le sur-traitement et le sous-traitement des marchandises au moment de la réception.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 63ba27d3fe10441f5e0ad54e684aa6799b521c7a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 79ce18a462f9c2f93dceec82da7ee0209ab61f78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844995"
 ---
 # <a name="overunder-transactions"></a>Transactions de dépassement/d’insuffisance
 

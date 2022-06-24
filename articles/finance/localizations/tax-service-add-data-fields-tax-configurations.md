@@ -1,6 +1,6 @@
 ---
 title: Ajouter des champs de données dans les configurations de taxe
-description: Cette rubrique explique comment personnaliser les configurations de taxe en ajoutant des champs de données.
+description: Cet article explique comment personnaliser les configurations de taxe en ajoutant des champs de données.
 author: Kai-Cloud
 ms.date: 10/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: deb19c8ddf20b416864ed8c3f816f92e43309f71
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 894c42f444d27b807288b84c7b9c620ad0121fa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872324"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Ajouter des champs de données dans les configurations de taxe
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment personnaliser les configurations de taxe à l’aide de [champs de données ajoutés dans l’intégration fiscale](tax-service-add-data-fields-tax-integration-by-extension.md).
+Cet article explique comment personnaliser les configurations de taxe à l’aide de [champs de données ajoutés dans l’intégration fiscale](tax-service-add-data-fields-tax-integration-by-extension.md).
 
 ## <a name="customize-the-tax-data-model"></a>Personnaliser le modèle de données fiscales
 
@@ -33,7 +33,7 @@ Cette rubrique explique comment personnaliser les configurations de taxe à l’
 2. Dans l’arborescence de configuration, sélectionnez **Modèle de données de calcul des taxes**. Ensuite, dans le volet Actions, sélectionnez **Créer une configuration**. 
 
   > [!NOTE] 
-  > Si aucun fournisseur de configuration n'est disponible, créez-en un et activez-le pour votre configuration fiscale. Pour plus d’informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+  > Si aucun fournisseur de configuration n’est disponible, créez-en un et activez-le pour votre configuration fiscale. Pour plus d’informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
   
 3. Dans la boîte de dialogue déroulante, sélectionnez l’option **Modèle de données de calcul des taxes, Microsoft**, entrez un nom pour le nouveau modèle de données fiscales, puis sélectionnez **Créer une configuration**.
 4. Sélectionnez le modèle de données fiscales que vous venez de créer, puis, dans le volet Actions, sélectionnez **Concepteur**.

@@ -1,6 +1,6 @@
 ---
 title: Afficher et mettre à jour les données d’entité avec Excel
-description: Cette rubrique explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel.
+description: Cet article explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel.
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862153"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Afficher et mettre à jour les données d’entité avec Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762637"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Cette rubrique explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel. Pour ouvrir les données d’entité, vous pouvez utiliser Excel ou des applications Finances et Opérations.
+Cet article explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel. Pour ouvrir les données d’entité, vous pouvez utiliser Excel ou des applications Finances et Opérations.
 
 En ouvrant des données d’entité dans Excel, vous pouvez rapidement les étudier et les modifier à l’aide du module complémentaire pour Excel. Ce module complémentaire nécessite Microsoft Excel 2016 ou des versions ultérieures.
 
