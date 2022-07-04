@@ -16,10 +16,8 @@
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (juillet)
                   href: get-started/whats-new-changed-10-0-27.md
-                - name: Finance 10.0.26 (mai)
+                - name: "Finance\_10.0.26 (mai)"
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (avril)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Fonctions supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctions supprimées ou déconseillées
@@ -462,6 +460,8 @@
                   items:
                     - name: Configuration des reports de revenus et de dépenses
                       href: accounts-receivable/sb-deferrals.md
+                    - name: Méthode de validation des reports
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: Créer des échéanciers de reports
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Transactions de report par défaut
@@ -1214,6 +1214,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Composants de l’état financier
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Afficher et concevoir des états financiers
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Fonctions de devise dans les états financiers
               href: general-ledger/financial-reporting-currency-capability.md
             - name: Calcul des bénéfices non répartis dans les états financiers
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Paramétrer des numéros de compte bancaire pour le Brésil
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Ordres de transfert
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Taxes
                   items:
                     - name: Vue d’ensemble des taxes au Brésil
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Clôture de fin d’exercice
                   href: localizations/emea-cze-hun-year-end.md
+                - name: Liste des ventes intracommunautaires
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Danemark
               items:
                 - name: Vue d’ensemble du Danemark
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: Liste des ventes intracommunautaires
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: Importer les configurations de facturation électronique OIOUBL
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Factures électroniques client au Danemark
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Valider une facture financière avec un bordereau de paiement
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: Valider une facture de projet avec un bordereau de paiement
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: "Importer la configuration du débit direct\_ISO20022"
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: "Conditions préalables au format de virement ISO\_20022"
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: "Importer la configuration du virement\_ISO20022"
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: "Paramétrer les comptes bancaires de société pour les virements\_ISO20022"
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: Calculs de la taxe différée
                   href: localizations/emea-hun-deferred-vat.md
+                - name: Liste des ventes intracommunautaires
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: Islande
               items:
                 - name: Vue d’ensemble de l’Islande
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: Paramétrer les numéros d’enregistrement TDS pour les entités juridiques
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Paramétrer les groupes de composants de retenue à la source pour le type de taxe TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: Paramétrer les autorités de retenue à la source pour le type de taxe TDS
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: Paramétrer les composants de taxe pour le type de taxe TDS
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: Configurer les comptes principaux pour la validation des obligations de suppression des actifs et les taux de remise sur le marché
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Déclaration de taxe de consommation
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Factures consolidées
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: Créer une immobilisation avec un amortissement supplémentaire
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Acquisition d’immobilisations et mise en service
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Véhicules et biens immobiliers en tant qu’immobilisations
+                          href: localizations/rus-vehicles-realty.md
                         - name: Calculer l’amortissement
                           href: localizations/rus-depreciation-calculation.md
                         - name: Démontage partiel d’immobilisations (liquidation)
@@ -3444,6 +3460,8 @@
                       items:
                         - name: Immobilisations sans valeur (NVFA) (Russie)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'Formes primaires pour NVFA, vêtements de travail et gréements spéciaux (Russie)'
+                          href: localizations/rus-nvfa.md
                         - name: Comptabilité des vêtements de travail/équipements spéciaux (Russie)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Intégration des immobilisations avec le module de gestion des actifs
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: Déclaration de taxe sur les bénéfices
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: Rapport sur les opérations avec des marchandises traçables
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Administration d’organisation
                   items:
                     - name: Adresse associée aux informations sur l’immatriculation fiscale

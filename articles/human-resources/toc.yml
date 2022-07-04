@@ -496,6 +496,8 @@
                   items:
                     - name: Gérer le processus de projet de recrutement
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Configurer des projets de recrutement
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Entrer manuellement le candidat et les données de la candidature
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: Développer et ouvrir des demandes de poste
@@ -620,12 +622,16 @@
                   href: hr-benefits-setup-employment-categories.md
                 - name: Configurer les types d’emploi
                   href: hr-benefits-setup-employment-types.md
-                - name: Configurer le libre-service employé
+                - name: Configurer le libre service employé
                   href: hr-benefits-setup-employee-self-service.md
                 - name: Créer des plans d’avantages
                   items:
                     - name: Configurer des plans d’avantages
                       href: hr-benefits-plans-setup.md
+                    - name: Créer des plans d’avantages pour les collaborateurs
+                      href: hr-benefits-plans-worker.md
+                    - name: Configurer les événements de vie futurs
+                      href: hr-benefits-plans-future-life-events.md
                     - name: Configurer des programmes de crédit flexibles
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Traiter les plans d’avantages
@@ -836,11 +842,15 @@
               href: hr-developer-api-authentication.md
             - name: Entités
               items:
+                - name: Détail de la tâche
+                  href: hr-admin-integration-api-job-detail.md
+                - name: Option de type d’emploi
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: Vue d’ensemble de MyLeaveRequests
                       href: hr-developer-api-myleaverequests-overview.md
-                    - name: Soumettre une demande d’absence au workflow
+                    - name: Soumettre une demande d’absence au flux de travail
                       href: hr-developer-api-myleaverequests-submit.md
         - name: API d’intégration ATS
           items:

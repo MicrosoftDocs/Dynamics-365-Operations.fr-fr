@@ -18,8 +18,6 @@
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: "Supply Chain Management\_10.0.26 (mai\_2022)"
                   href: get-started/whats-new-scm-10-0-26.md
-                - name: "Supply Chain Management\_10.0.25 (avril\_2022)"
-                  href: get-started/whats-new-scm-10-0-25.md
             - name: Fonctions supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctions supprimées ou déconseillées
@@ -619,8 +617,6 @@
                   href: asset-management/asset-management-mobile-workspace.md
             - name: Intégration de la gestion des actifs avec Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-        - name: Gestion des données
-          items:
             - name: Entités cibles
               href: asset-management/data-management/target-entities.md
         - name: Contrôle de gestion
@@ -775,6 +771,10 @@
                   href: cost-management/physical-financial-updates.md
                 - name: Inclure la valeur physique
                   href: cost-management/include-physical-value.md
+                - name: Prix fixe de réception
+                  href: cost-management/fixed-receipt-price.md
+                - name: Principe de comptabilisation des comptes imputés
+                  href: cost-management/post-to-charge-account-accounting-principle.md
                 - name: Objets de coût
                   href: cost-management/cost-object.md
                 - name: Afficher le solde des objets de coût
@@ -1651,6 +1651,8 @@
                   href: inventory/tasks/check-availability-stock.md
                 - name: Liste du stock disponible
                   href: inventory/inventory-on-hand-list.md
+                - name: Détails des transactions de stock
+                  href: inventory/inventory-transactions-details.md
                 - name: Initialiser les niveaux des stocks dans l’entrepôt
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Transférer du stock physique au sein de l’entrepôt
@@ -2111,9 +2113,11 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Approvisionnements
           items:
+            - name: Page d’accueil Approvisionnements
+              href: procurement/procurement-sourcing.md
             - name: Vue d’ensemble des approvisionnements
               href: procurement/procurement-sourcing-overview.md
-            - name: Workflow d’approvisionnements
+            - name: Flux de travail d’approvisionnement
               href: procurement/procurement-sourcing-workflows.md
             - name: Catalogues d’approvisionnement
               items:
@@ -2167,6 +2171,8 @@
                   href: procurement/purchase-order-creation.md
                 - name: Créer une commande fournisseur
                   href: procurement/tasks/create-purchase-order.md
+                - name: Créer une commande fournisseur régie par budget
+                  href: cost-management/tasks/create-purchase-order-governed-by-budget.md
                 - name: Créer une commande fournisseur avec un plan de livraison
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Créer une commande fournisseur pour un fournisseur occasionnel
@@ -2383,6 +2389,8 @@
                       href: pim/tasks/create-dimension-based-configurations.md
                 - name: Créer une configuration basée sur les contraintes
                   items:
+                    - name: Vue d’ensemble des modèles de configuration du produit
+                      href: pim/product-configuration-models.md
                     - name: Paramétrer un modèle de configuration de produits
                       href: pim/set-up-maintain-product-configuration-model.md
                     - name: Calculs du modèle de configuration de produit
@@ -2933,6 +2941,8 @@
                   href: sales-marketing/customer-portal-user-admin.md
                 - name: Personnaliser et utiliser le portail client
                   href: sales-marketing/customer-portal-customize.md
+            - name: Limites de crédits pour les clients
+              href: sales-marketing/credit-limits-customers.md
             - name: Reprise
               href: sales-marketing/trade-allowance.md
             - name: Créer un accord commercial
@@ -2951,6 +2961,8 @@
                       href: service-management/service-agreement-groups.md
                     - name: Créer des accords de service
                       href: service-management/create-service-agreements.md
+                    - name: Création de groupes d’accords de service
+                      href: service-management/create-service-agreement-groups.md
                     - name: Intervalles de services
                       href: service-management/service-intervals.md
                     - name: Paramétrer les intervalles de service
@@ -2972,7 +2984,7 @@
                     - name: Vue d’ensemble des objets de service
                       href: service-management/service-objects.md
                     - name: Créer des objets de service
-                      href: service-management/create-service-task-relations.md
+                      href: service-management/create-service-objects.md
                     - name: Associer des articles en stock aux objets de service
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: Groupes d’objets de service
@@ -3117,6 +3129,8 @@
                           href: service-management/create-item-requirements-service-orders.md
                         - name: Demandes d’articles de la commande de service
                           href: service-management/service-order-item-requirements.md
+                        - name: Ajout d’une adresse à une commande de service
+                          href: service-management/add-address-service-order.md
                         - name: Vue d’ensemble du workflow de l’abonnement
                           href: service-management/subscription-workflow-overview.md
                         - name: Combiner les commandes de service
@@ -3137,8 +3151,10 @@
                           href: service-management/set-up-service-activity-types.md
                         - name: Paramétrer un technicien préféré
                           href: service-management/set-up-preferred-technician.md
-                        - name: Paramétrer des équipes de répartition
+                        - name: Paramétrer les équipes de répartition
                           href: service-management/set-up-dispatch-teams.md
+                        - name: Mettre à jour les équipes de répartition
+                          href: service-management/view-dispatch-teams.md
                         - name: Définir des priorités pour les commandes de service
                           href: service-management/prioritize-service-orders.md
                         - name: Afficher le statut des commandes de service
@@ -3257,8 +3273,6 @@
                   href: landed-cost/landed-cost-enable.md
                 - name: Paramètres du coût au débarquement
                   href: landed-cost/landed-cost-parameters.md
-                - name: Paramètres d’approvisionnement du coût au débarquement
-                  href: landed-cost/landed-cost-procurement-parameters.md
                 - name: Configuration du statut du voyage
                   href: landed-cost/voyage-status-setup.md
                 - name: Configuration du conteneur d’expédition
@@ -3269,12 +3283,16 @@
                   href: landed-cost/multi-leg-journey-setup.md
                 - name: Paramétrage des informations d’expédition
                   href: landed-cost/shipping-information-setup.md
+                - name: Configuration des coûts automatiques
+                  href: landed-cost/auto-cost-setup.md
                 - name: Configuration des valeurs du paramètre d’évaluation des coûts
                   href: landed-cost/costing-parameters-setup.md
+                - name: Paramètres d’approvisionnement du coût au débarquement
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Paramètres fournisseur ajoutés pour le coût au débarquement
+                  href: landed-cost/vendors-landed-cost-settings.md
                 - name: Descriptions par défaut pour la comptabilité générale
                   href: landed-cost/defult-descriptions.md
-            - name: Paramètres fournisseur ajoutés pour le coût au débarquement
-              href: landed-cost/vendors-landed-cost-settings.md
             - name: 'Utiliser les voyages, conteneurs et folios'
               items:
                 - name: Gérer les voyages
@@ -3643,396 +3661,6 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Étendre le stock des entités de données disponibles
               href: inventory/extend-on-hand-entities.md
-        - name: Résolution des problèmes
-          items:
-            - name: Gestion des coûts
-              items:
-                - name: Écarts Stock - Balance âgée
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Avertissements ou erreurs lors de la modification du statut de la période comptable sans clôture du stock
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Écarts fonctionnels entre les états de valeur de stock/chronologiques et leurs versions de stockage
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: Un conflit de mise à jour se produit lorsque la méthode d’évaluation du stock est par coût standard ou moyenne mobile
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Paramètres de champ manquants lors de la copie de groupes de modèles d’articles dans une autre entité juridique
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: L’état Coûts indirects en cours inclut les ordres de fabrication supprimés
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: Comptabilisation des achats imputée avec un montant zéro pour l’accusé de réception de marchandises de valeur nulle
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Les commandes fournisseur reçues physiquement n’apparaissent pas dans l’état de clôture des stocks
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: Absence de date de début dans l’onglet Prix actifs de la page Prix de l’article
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Gestion des stocks
-              items:
-                - name: "Vous ne trouvez pas la boîte de dialogue déroulante «\_Workflow\_» pour les journaux de stock"
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: Le workflow du journal de stock ne prend jamais fin et le journal ne peut pas être traité
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: Votre journal de stock est verrouillé et le traitement par lots de workflow ne fonctionne pas
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: L’unité et la quantité unitaire ne fonctionnent pas correctement dans le journal de stock
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Les conditions de workflow du journal de stock s’appliquent au niveau du journal, pas au niveau de la ligne'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: Le volet de filtre de la page de liste Disponible ne fonctionne pas comme prévu
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: "Le nombre maximal de décimales pour l’unité de gestion des stocks est de\_0"
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: "Plusieurs mouvements de stock pour les numéros de lot n’ont pas de «\_Mise à jour physique\_»"
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: La contrepassation d’une déclaration de fin crée une transaction ouverte inattendue
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: L’état de la liste de prélèvement n’affiche pas les nouvelles notes attachées à un journal
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: La quantité d’un ordre de contrôle commencé ne se met pas à jour lorsque la commande est fractionnée
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Le champ Dernière date testée n’est pas mis à jour lors de la création de plusieurs ordres de qualité
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: 'Lorsqu’une quantité en poids variable est fractionnée, la quantité minimale est utilisée au lieu de la quantité nominale'
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Planification générale
-              items:
-                - name: Le système ne peut pas trouver une commande planifiée lorsqu’il fonctionne sur plusieurs commandes
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: L’éclatement de nomenclature se comporte différemment pour les ordres de fabrication confirmés et estimés
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: La valeur de délai n’est pas mise à jour lorsque vous replanifiez un ordre planifié
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: Les commandes planifiées prennent du temps à se mettre à jour
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Les ordres planifiés sont générés pour la disponibilité avec des ordres de fabrication
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: La planification de la production ne tient pas compte des marges de sécurité
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: La planification dépasse la capacité disponible
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Une capacité insuffisante peut être détectée
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: Vous recevez une erreur lors de l’exécution du moteur de planification intégré
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: L’article ne peut pas avoir de nomenclature ou de formule
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Les paramètres du plan général n’existent pas
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: L’ordre de fabrication prévisionnel doit être planifié avant de pouvoir être confirmé
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: Le produit est bloqué pour les transactions
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: Le numéro de formule sélectionné n’est pas approuvé pour un lot de production.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Le code fournisseur n’est pas autorisé pour un produit et une date spécifiques
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: Le fournisseur n’est pas spécifié lors de la confirmation des commandes planifiées
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: Les commandes confirmées directement dérivées sont traitées par un workflow en cours de révision
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Impossible de filtrer les éléments de planification générale selon leurs valeurs de groupe de couverture associées
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: La planification génère des commandes planifiées pour les produits fantômes
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: Commande fournisseur prévisionnelle créée en cas d’achat au cours des jours négatifs
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: Impossible de mettre à jour le coût unitaire prévu lorsque vous importez des enregistrements de prévision de la demande
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: Impossible de supprimer la dimension de prévision de la demande d’entrepôt à partir des lignes de prévision
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: Vous êtes invité à enregistrer les paramètres de couverture de l’article même si vous n’avez effectué aucune modification
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Approvisionnement
-              items:
-                - name: Écarts de données de ligne de commande d’achat
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: Une ou plusieurs répartitions comptables sont sur ou sous-distribuées
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Vous ne pouvez effectuer une action de commande fournisseur que pour les numéros de lignes entièrement réparties
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Impossible de modifier de la date d’effet pour un fournisseur agréé
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: Les commandes fournisseur annulées s’affichent dans la liste des brouillons de l’espace de travail
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: Les transactions peuvent être enregistrées sur un compte général suspendu
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: L’annulation du reste de la livraison fait passer la commande d’achat à l’état Confirmé
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Vous ne pouvez pas consolider plusieurs accusés de réception de marchandises en une seule commande fournisseur
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: Le groupe de taxe par défaut et l’escompte de règlement ne sont pas renseignés à partir du compte de facturation
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Le nom de livraison n’est pas synchronisé après la modification d’une adresse de livraison de commande fournisseur
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Une exception se produit lors de la validation de la facture fournisseur
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: Les commandes fournisseur importées affichent des numéros de lignes incorrects
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: La limite maximale du contrat d’achat n’est pas effective sur une demande d’achat
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: "L’erreur «\_Référence d’objet non définie\_» survient lorsque la commande d’achat est confirmée"
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Les répartitions comptables sont sur ou sous-distribuées
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Vous ne pouvez pas ajouter le champ Unité de prix à la page Contrat d’achat
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: Les commandes fournisseur ne reflètent pas les paramètres linguistiques de l’entité juridique
-                  href: troubleshooting/procurement/po-language.md
-                - name: Un accusé de réception de commande fournisseur n’inclut pas tous les frais
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: Les prix unitaires sur les commandes fournisseur ne sont pas calculés en fonction de la conversion des unités
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Le paramètre Valider sur le compte de frais dans la comptabilité n’est pas activé
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Erreur lors du renvoi d’une commande fournisseur à un workflow après une modification
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Problèmes de conversion de devises dans les accords commerciaux
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: Les conditions des accords commerciaux ne s’appliquent pas aux lignes de commande importées
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: Des accords commerciaux peuvent être créés à partir d’appels d’offres rejetés
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: Une remise fournisseur n’est pas cumulée en fonction des factures
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: Un n° document d’accusé de réception de marchandises est consommé même lorsqu’il ne génère pas de n° document
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Impossible de facturer une commande client adressée au client
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: Impossible d’ajouter une ligne à une demande d’achat après avoir demandé une modification
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Gestion des informations sur les produits
-              items:
-                - name: Vous ne pouvez pas supprimer un produit lancé
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: Entiers incorrectement arrondis lors du calcul des modèles de configuration de produit
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: Le texte de l’article est écrasé lorsqu’un produit est configuré sur une ligne de commande client
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: Impossible d’appliquer un modèle pour créer un produit lancé
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: Impossible d’importer un article à l’aide de l’entité Produits lancés V2
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: Les commandes fournisseur n’affichent pas le texte du produit traduit
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Contrôle de la production
-              items:
-                - name: Erreur de calcul des coûts de comptabilité à rebours lors de la clôture du stock
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Impossible de terminer un ordre de fabrication en raison d’une erreur de valeur de consumptionCost de la nomenclature
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Impossible d’insérer la nomenclature et l’itinéraire à la création d’un ordre de fabrication
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: Les tâches en cours précédentes sont terminées au moment de la déclaration de la quantité partielle sur la dernière tâche
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: L’article RM ne peut pas être entièrement réservé lorsqu’un ordre de fabrication est lancé
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: La mise à jour de Déclarer comme terminé échoue avec une erreur de quantité manquante
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: Erreur lorsque le journal Déclarer comme terminé est validé
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Erreur au moment du changement de statut de l’ordre de fabrication de Déclarer comme terminé à Fin
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Les ordres de fabrication ne sont pas affichés sur la page de marquage
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Le nom de la ressource n’est pas mis à jour après la modification d’un nom de collaborateur dans le carnet d’adresses
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Erreur de quantité totale de marchandises pendant la tentative de terminer un ordre de fabrication
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Impossible d’effectuer le suivi des numéros de série des produits finis par rapport à ceux des produits consommés
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: 'Impossible de réserver ou de mettre en production le travail, car les processus sont en cours d’utilisation'
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: Les paramètres de principe d’effacement sur les lignes de nomenclature ne sont pas respectés
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: Le numéro de lot est effacé lors de la sélection d’un nouvel ID de lot
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: Sélection tardive non respectée lors de la réinitialisation des ordres de fabrication via un traitement par lots
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: Les utilisateurs peuvent annuler le prélèvement des lignes de matériaux pour les produits qui ont été déclarés comme terminés
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: Erreur lorsque le journal Déclarer comme terminé est validé
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: L’entrepôt du journal de la liste de prélèvement n’est pas mis à jour sur une ligne de nomenclature
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: Gestion des remises
-              items:
-                - name: Échec du cumul des remises client à l’aide de groupes de remises d’articles
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Ventes et marketing
-              items:
-                - name: La tâche de nettoyage de l’historique des mises à jour des ventes a échoué ou présente des problèmes de performances
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Un élément d’offre groupée n’est pas pris en charge dans un processus intersociétés
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: Impossible d’annuler une commande fournisseur intersociétés liée à une commande client
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Impossible de supprimer les réservations au moment de l’annulation d’une commande
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: 'Si deux accords commerciaux existent pour des dates qui se chevauchent, le même est toujours sélectionné'
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Impossible de modifier la quantité vendue d’un article de service sur une ligne de devis de vente
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: Les informations fiscales ne sont pas mises à jour en cas de modification de l’emplacement sur un en-tête de commande client
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: La quantité ne peut pas être réduite en cas d’annulation de la commande client
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: 'Les administrateurs système ne peuvent pas effacer les commandes en attente, car ils n’y sont pas autorisés'
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Gestion du transport
-              items:
-                - name: L’ajout du compte principal comme compte de crédit n’est possible que pour un rapprochement
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Gestion des entrepôts
-              items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: Différence inattendue entre les données de requête et de session lors des tests
-                      href: troubleshooting/warehousing/request-session-data-difference.md
-                    - name: Ancre validé pour le chemin de certification introuvable au moment de la configuration de la connexion à l’application
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: Ancre d’approbation pour le chemin d’accès de certification introuvable au moment de la mise à jour et de la migration vers WMS
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Impossible de valider le bon de livraison pour une ligne de commande client arrêtée
-                  href: troubleshooting/warehousing/unable-to-post-packi.md
-                - name: Des problèmes de traitement se produisent après l’installation d’une charge de travail d’entrepôt d’unités d’échelle
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: L’invite de réservation automatique pour le numéro de lot est affichée même avec le stock disponible
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Le travail de prélèvement ne peut pas être débloqué en raison d’un travail de réapprovisionnement inachevé
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: Impossible d’annuler un bon de livraison après l’avoir publié à partir d’une commande client
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: Impossible de déplacer le contenant si une sortie vierge et une réception vierge sont autorisées dans le numéro de série
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: Impossible de déplacer le stock vers un emplacement contrôlé par le contenant
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Le profil de groupement est introuvable
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Impossible de traiter la correction de la note de livraison
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Erreur lors de la confirmation de l’expédition après la création d’un ordre de transfert pour un article en série
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: Impossible de traiter la livraison directe pour un entrepôt compatible WMS
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: Mélange des types de stock au cours de l’utilisation d’un profil de gestion des quais
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: L’option Plusieurs SKU n’évalue pas les actions de directive d’emplacements multiples
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: Le travail de prélèvement n’est pas généré immédiatement lorsque la charge sortante est libérée
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: Erreur de contenant non valide au cours de la numérisation de l’ID de contenant dans l’application mobile
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Le propriétaire du stock n’est pas autorisé au cours du traitement des mouvements dans l’application d’entrepôt
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: Le système ne peut pas mettre à jour la quantité de stock en raison de transactions insuffisantes
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: Impossible de sélectionner le changement de statut du stock dans la colonne Type de travail
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: Erreur de contenant ou d’emplacement non valide au cours de la numérisation dans l’application mobile
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: La quantité de contenant n’est pas valide au cours de l’enregistrement des commandes entrantes
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Erreur de spécification de contenant au cours de la confirmation de l’expédition pour un ordre de transfert
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: L’une des lignes figure déjà sur un chargement
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: Erreur de poids de chargement et mise à jour annulée lors du traitement du travail entre les emplacements
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: 'La réception de contenant mixte ne fonctionne pour aucun code de disposition, sauf le crédit'
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Peut uniquement utiliser le rôle d’administrateur pour accéder à l’émulateur d’application pour appareil mobile
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Problèmes liés au passage de l’entreposage de base à l’entreposage avancé
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: Nombre de tâches du groupement insuffisant au cours de l’utilisation du prélèvement de groupement dirigé par le système
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: 'Le statut de la commande reste Partiellement libérée, même après la facturation de la commande client'
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Impossible d’utiliser l’application mobile Warehouse Management pour effectuer un prélèvement partiel
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Activer le changement de statut de stock pour le travail en quantité partielle
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Imprimer une note de livraison ou le contenu de l’emballage par entrepôt ou site
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: La quantité n’est pas valide en cas de travail de prélèvement avec plusieurs contenants au même emplacement
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: La quantité n’est pas valide au moment de l’exécution d’un prélèvement fractionné sur plusieurs lots
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: Impossible de libérer à nouveau une charge partiellement libérée vers l’entrepôt
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Le système ne peut pas faire de réservation, car la quantité disponible en stock est nulle'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Impossible de créer une ligne de chargement pour la commande client de retour en raison de dimensions de stock non valides
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: La commande client n’a pas pu être lancée avec les opérations d’entrepôt sortantes
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: 'L’expédition pour chargement a été confirmée, mais aucune ligne n’est publiée'
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: Les modèles de positionnement ne prennent pas en compte le stock disponible pour les articles au-dessus du lot
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Impossible de libérer un chargement pour une quantité partielle avec une hiérarchie de réservation au-dessus du lot
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Les commandes fournisseur non confirmées sont confirmées après exécution de la mise à jour des accusés de réception de produits
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Impossible d’annuler la réservation du stock sur une ligne de commande client
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: 'Vous ne pouvez pas confirmer une expédition, car le client est en attente'
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: 'Vous ne pouvez pas confirmer une expédition, car les lignes de chargement ont une quantité nulle'
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: Impossible de mettre à jour une ligne de chargement car la quantité libérée serait négative
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: Les accusés de réception de marchandises annulées ne mettent pas à jour le statut des transactions sur Enregistré
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: L’arrondi décimal de la quantité de mise à jour physique est incorrect
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: La quantité physique restante dans l’unité doit être différente de zéro
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: La quantité prélevée n’est pas suffisante lors de la génération du bon de livraison
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: La quantité dépasse le pourcentage de livraison excédentaire lors de la génération du bon de livraison
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: La quantité que vous essayez de mettre à jour dépasse la quantité reçue/livrée
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: La quantité dépasse le pourcentage de livraison incomplète lors de la génération du bon de livraison
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: Une erreur se produit lors du choix de l’emplacement lors de l’enregistrement de la liste de prélèvement
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: La station de conditionnement n’affiche pas les notes de produit
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: 'Le profil d’emplacement n’autorise pas d’inventaire négatif, mais le stock négatif est autorisé'
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Une seule étiquette est imprimée pour plusieurs en-têtes de tâche sur un seul justificatif
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: Impossible de confirmer une expédition en raison d’un problème avec le calendrier
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: Vous ne pouvez pas confirmer une expédition en raison d’un travail incomplet ou manquant
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: Vous ne pouvez pas confirmer une expédition car les articles n’ont pas été retirés
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: Vous ne pouvez pas confirmer une expédition car il n’y a aucune quantité
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: Impossible de confirmer une expédition car la quantité dépasse le pourcentage de livraison excédentaire
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: Impossible de confirmer une expédition car la quantité dépasse le pourcentage de livraison incomplète
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: La dernière ligne de travail clôturée doit être un placement
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: Les champs de poids sur les lignes de charge ne correspondent pas aux champs de poids en charge
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: La vague n’est pas éligible pour le nettoyage
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Le poids doit être positif
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: Le travail ne peut pas être annulé car il est bloqué
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Le travail ne peut pas être annulé en raison du statut
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Le travail n’est pas bloqué
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: Le travail reste bloqué
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: Impossible d’annuler le travail effectué sur un utilisateur
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Développement et administration des applications de finances et d’opérations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

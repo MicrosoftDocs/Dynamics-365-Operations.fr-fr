@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: "Commerce\_10.0.26 (mai\_2022)"
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: "Commerce 10.0.25 (avril\_2022)"
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: Fonctions supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctions supprimées ou déconseillées
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Créer et automatiser les tests d’acceptation par l’utilisateur
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Paramétrer un environnement d’évaluation Dynamics 365 Commerce
+            - name: Configurer un environnement de bac à sable Dynamics 365 Commerce
               items:
-                - name: Vue d’ensemble d’un environnement d’évaluation Dynamics 365 Commerce
-                  href: cpe-overview.md
-                - name: Mettre en service un environnement d’évaluation Dynamics 365 Commerce
+                - name: Mettre en service un environnement de bac à sable Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Configurer un environnement d’évaluation Dynamics 365 Commerce
+                - name: Configurer un environnement de bac à sable Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
                 - name: Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Configurer des fonctions facultatives pour un environnement d’évaluation Dynamics 365 Commerce
+                - name: Configurer des fonctionnalités facultatives pour un environnement de bac à sable Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: FAQ des environnements d’évaluation Dynamics 365 Commerce
-                  href: cpe-faq.md
             - name: Considérations relatives au déploiement
               items:
                 - name: Options de déploiement
@@ -440,7 +434,9 @@
                           href: pos-healthcheck.md
                         - name: Prise en charge des périphériques réseau
                           href: dev-itpro/network-peripherals.md
-                    - name: Dispositions de l’écran
+                        - name: Compatibilité périphérique
+                          href: Compatible-peripherals.md
+                    - name: Mises en page de l’écran
                       items:
                         - name: Dispositions de l’écran de données de démonstration dans MPOS/CPOS
                           href: demo-data.md
@@ -1402,6 +1398,8 @@
               items:
                 - name: Exemple d’intégration du service d’enregistrement fiscal pour l’Autriche
                   href: localizations/emea-aut-fi-sample.md
+                - name: Instructions de déploiement de caisses enregistreuses pour l’Autriche
+                  href: localizations/emea-aut-deployment.md
                 - name: Exemples d’instructions de déploiement pour l’intégration fiscale pour l’Autriche (hérité)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brésil
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: Pipeline de build de kit de développement logiciel (SDK) Retail
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: "Mettre en place un agent de build Visual Studio\_2017 pour créer un MPOS"
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: Exécuter les exemples de PDV
                       href: dev-itpro/pos-run-samples.md
                 - name: Référence
