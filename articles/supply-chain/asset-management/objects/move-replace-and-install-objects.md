@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872122"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015577"
 ---
 # <a name="move-replace-and-install-assets"></a>Déplacer, remplacer et installer des actifs
 
@@ -44,7 +44,7 @@ Utilisez la fonctionnalité **Déplacer l’actif** pour déplacer l’actif ver
 > [!NOTE]
 > N’utilisez pas cette fonctionnalité si des actifs sont en cours de réparation ou remplacés temporairement. Au lieu de cela, utilisez la fonctionnalité **Remplacer l’actif** décrite plus loin dans cet article.
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
+1. Sélectionnez **Gestion des actifs** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
 2. Dans la liste, sélectionnez l’actif à déplacer. Si l’actif comporte des actifs enfants, vous déplacez également ces actifs.
 3. Sélectionnez **Déplacer l’actif**.
 4. Pour déplacer l’actif afin qu’il puisse faire une partie d’une structure d’actif, sélectionnez le nouvel actif parent dans le champ **Actif parent**. Si vous déplacez un actif enfant, et que vous souhaitez en faire un actif autonome qui n’a aucune relation de structure, laissez le champ **Actif parent** vide.
@@ -58,7 +58,7 @@ Utilisez la fonctionnalité **Remplacer l’actif** en relation avec des répara
 > [!NOTE]
 > Si un atelier de réparation est lié à votre service de production, vous pouvez créer des postes techniques, tels que **Réparation**, **Rebut** et **Stockage** pour gérer la réparation et le remplacement des actifs.
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
+1. Sélectionnez **Gestion des actifs** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
 2. Dans la liste, sélectionnez l’actif enfant à remplacer. Si l’actif comporte des actifs enfants, vous remplacez également ces actifs.
 3. Sélectionnez **Remplacer l’actif**.
 
@@ -79,7 +79,7 @@ Utilisez la fonctionnalité **Installer l’actif** pour installer une structure
 > [!NOTE]
 > Sélectionnez toujours un actif parent. L’actif parent et les actifs enfants associés sont déplacés vers le poste technique sélectionné.
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
+1. Sélectionnez **Gestion des actifs** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
 2. Dans la liste, sélectionnez l’actif parent à installer à un autre poste technique.
 3. Sélectionnez **Installer l’actif**.
 

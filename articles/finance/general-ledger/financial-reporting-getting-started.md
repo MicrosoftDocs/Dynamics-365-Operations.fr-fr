@@ -2,7 +2,7 @@
 title: Présentation de Financial Reporting
 description: Cet article explique où accéder à Financial Reporting dans Microsoft Dynamics 365 Finance et comment utiliser les fonctionnalités de Financial Reporting.
 author: aprilolson
-ms.date: 03/31/2022
+ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853407"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033658"
 ---
 # <a name="get-started-with-financial-reporting"></a>Démarrage de Financial Reporting 
 
@@ -30,14 +30,17 @@ ms.locfileid: "8853407"
 
 Cet article explique où accéder à Financial Reporting et comment utiliser les fonctionnalités de Financial Reporting. Elle inclut également une description des états financiers par défaut fournis.
 
-## <a name="accessing-financial-reporting"></a>Accès à la génération d’états financiers
+## <a name="enable-financial-reporting"></a>Activer le service Financial Reporting
+Pour utiliser le service Financial Reporting pour votre organisation, un administrateur Lifecycle Services (LCS) doit activer ce service dans le portail LCS de votre organisation. Si Financial Reporting n’a pas été mis en service pour votre environnement, contactez votre administrateur LCS pour activer le service. 
+
+## <a name="accessing-financial-reporting"></a>Accès à Financial Reporting
 
 Vous pouvez trouver le menu **États financiers** dans les endroits suivants :
 
-- **Comptabilité** &gt; **Recherches et états**
-- **Budget** &gt; **Recherches et états** &gt; **Budget de base**
-- **Budget** &gt; **Recherches et états** &gt; **Planification budgétaire**
-- **Budget** &gt; **Recherches et états** &gt; **Contrôle budgétaire**
+- **Comptabilité** > **Recherches et états**
+- **Budget** > **Recherches et états** > **Budget de base**
+- **Budget** > **Recherches et états** > **Planification budgétaire**
+- **Budget** > **Recherches et états** > **Contrôle budgétaire**
 - Regroupements
 
 Pour créer et générer des états financiers pour une entité juridique, vous devez paramétrer les informations suivantes pour cette entité juridique :

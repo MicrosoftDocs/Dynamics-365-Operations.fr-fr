@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a9abdb5ea702917a745c3156f774aade757c159e
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849013"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027252"
 ---
 # <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Impact de l’extensibilité des catalogues Commerce pour les personnalisations B2B
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cet article décrit l’impact sur l’extensibilité de la fonctionnalité **Catalogues Commerce pour B2B** dans Microsoft Dynamics 365 Commerce.
 

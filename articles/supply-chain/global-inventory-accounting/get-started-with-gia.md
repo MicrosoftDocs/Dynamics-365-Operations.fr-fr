@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891087"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013553"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Premiers pas avec la comptabilité globale des stocks
 
@@ -69,37 +69,6 @@ Avant de pouvoir activer la fonctionnalité de complément, vous devez l’inté
 
 Pour plus d’informations, voir [Activer après le déploiement de l’environnement](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Configurer Dataverse
-
-Avant de configurer Dataverse, ajoutez les principaux de service Comptabilité globale des stocks à votre locataire en suivant les étapes ci-après.
-
-1. Installez le module Azure AD pour Windows PowerShell v2 comme décrit dans [Installer Azure Active Directory PowerShell pour Graph](/powershell/azure/active-directory/install-adv2).
-1. Exécutez la commande suivante PowerShell.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-Ensuite, créez des utilisateurs d’application pour la comptabilité globale des stocks dans Dataverse en suivant les étapes ci-après.
-
-1. Ouvrez l’URL de votre environnement Dataverse.
-1. Aller à **Paramètre avancé \> Système \> Sécurité \> Utilisateurs** et créez un utilisateur d’application. Utilisez le champ **Vue** pour changer la vue de page en *Utilisateurs de l’application*.
-1. Sélectionnez **Nouveau**.
-1. Définissez le champ **ID application** sur *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Sélectionner **Attribuer un rôle**, puis *Administrateur système*. S’il y a un rôle nommé *Utilisateur Common Data Service*, sélectionnez-le aussi.
-1. Répétez les étapes précédentes, mais définissez le champ **ID d’application** sur *5f58fc56-0202-49a8-ac9e-0946b049718b*.
-
-Pour plus d’informations, voir [Créer un utilisateur d’application](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-Si la langue par défaut de votre installation Dataverse n’est pas l’anglais, suivez les étapes ci-après.
-
-1. Accédez à **Paramètres avancés \> Administration \> Langues**.
-1. Sélectionnez *Anglais* (*LanguageCode=1033*), puis sélectionnez **Appliquer**.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>Installer le complément
 
 Suivez ces étapes pour installer le complément afin de pouvoir utiliser la comptabilité globale des stocks.
@@ -109,11 +78,21 @@ Suivez ces étapes pour installer le complément afin de pouvoir utiliser la com
 1. Accédez à **Détails complets**.
 1. Accédez à **Intégration Power Platform** et sélectionnez **Installer**.
 1. Dans la boîte de dialogue **Configuration de l’environnement Power Platform**, cochez la case, puis sélectionnez **Installer**. En règle générale, la configuration prend entre 60 et 90 minutes.
-1. Une fois la configuration de l’environnement Microsoft Power Platform terminée, dans le raccourci **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.
+1. Après la configuration de l’environnement Microsoft Power Platform, connectez-vous au [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com), puis installez le complément Comptabilité globale des stocks en procédant comme suit :
+   1. Sélectionnez l'environnement où vous souhaitez installer le complément.
+   1. Sélectionnez **Applications Dynamics 365**.
+   1. Sélectionnez **Installer l'application**.
+   1. Sélectionnez **Comptabilité globale des stocks Dynamics 365**.
+   1. Sélectionnez **Suivant** pour effectuer l’installation.
+1. Revenez à l’environnement LCS. Dans le raccourci **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.
 1. Sélectionnez **Comptabilité globale des stocks**.
 1. Suivez le guide d’installation, et acceptez les conditions générales du contrat.
 1. Sélectionnez **Installer**.
 1. Dans le raccourci **Compléments d’environnement**, vous devriez voir que le complément Comptabilité globale des stocks est en cours d’installation. Après quelques minutes, le statut devrait passer de *Installation* à *Installé*. (Vous devrez peut-être actualiser la page pour voir cette modification.) À ce stade, le complément Comptabilité globale des stocks est prêt à être utilisé.
+
+Si la langue par défaut de votre installation Dataverse n’est pas l’anglais, suivez les étapes ci-après :
+1. Accédez à **Paramètres avancés \> Administration \> Langues**.
+1. Sélectionnez *Anglais* (*LanguageCode=1033*), puis sélectionnez **Appliquer**.
 
 ## <a name="set-up-the-integration"></a>Paramétrage de l’intégration
 

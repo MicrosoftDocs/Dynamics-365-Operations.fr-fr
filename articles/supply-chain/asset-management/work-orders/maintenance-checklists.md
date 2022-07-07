@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 25e9139ce57283482d8da4b7f1e5d6275c74ad28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 70b83de50105cf664bbc6b6095203d01d83cd79b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854527"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016679"
 ---
 # <a name="maintenance-checklists"></a>Listes de contrôle de maintenance
 
@@ -35,7 +35,7 @@ Lorsque vous travaillez avec des listes de contrôle de maintenance sur un ordre
 
 ## <a name="fill-in-a-maintenance-checklist"></a>Remplir une liste de contrôle de maintenance
 
-1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Cliquez sur **Gestion des actifs** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 2. Sélectionnez l’ordre de travail puis, dans le volet Actions, sous l’onglet **Ordre de travail**, dans le groupe **Lignes**, sélectionnez **Liste de contrôle de maintenance**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678260"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014849"
 ---
 # <a name="create-service-orders-manually"></a>Création manuelle de commandes de service    
 
@@ -34,7 +34,7 @@ Vous pouvez créer des commandes de service manuellement à l’aide d’un acco
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Création manuelle d’une commande de service à partir d’un accord de service
 
-1.  Sélectionnez **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**.
+1.  Sélectionnez **Gestion des services** \> **Accords de service** \> **Accords de service**.
 
 2.  Sélectionnez un accord de service ou créez-en un nouveau.
 
@@ -42,7 +42,7 @@ Vous pouvez créer des commandes de service manuellement à l’aide d’un acco
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Création manuelle d’une commande de service dans l’écran Commandes de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
+1.  Cliquez sur **Gestion des services** \> **Commandes de service** \> **Commandes de service**.
 
 2.  Sélectionnez **Nouveau** pour créer un ordre de service.
 
@@ -53,7 +53,7 @@ Vous pouvez créer des commandes de service manuellement à l’aide d’un acco
 
 ## <a name="create-a-service-order-from-a-project"></a>Création d’une commande de service à partir d’un projet
 
-1.  Accédez à **Gestion et comptabilité des projets** \> **Commun** \> **Projets** \> **Tous les projets**.
+1.  Accédez à **Gestion et comptabilité des projets** \> **Projets** \> **Tous les projets**.
 
 2.  Dans le formulaire **Projets**, dans le volet **Actions**, cliquez sur l’onglet **Gérer** \> **Service** \> **Commandes de service**.
 
@@ -66,7 +66,7 @@ Vous pouvez créer des commandes de service manuellement à l’aide d’un acco
 
 Vous pouvez créer une commande de service dans l’écran **Commandes client** à l’aide de l’Assistant **Créer une nouvelle commande de service basée sur la commande client**.
 
-1.  Accédez à **Ventes et marketing** \> **Commun** \> **Commandes client** \> **Toutes les commandes client**.
+1.  Accédez à **Ventes et marketing** \> **Commandes client** \> **Toutes les commandes client**.
 
 2.  Ouvrez les commandes clients concernées.
 

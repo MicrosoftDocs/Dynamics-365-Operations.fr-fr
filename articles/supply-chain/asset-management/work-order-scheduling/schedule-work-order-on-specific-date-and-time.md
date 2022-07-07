@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ec7e300f60f76aaa467238d7a2c2a199fdeafeed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e25d1c108e5cc90fcedc7e8f7e4bbc14052719f1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857922"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015954"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Planifier un ordre de travail à une date et une heure spécifiques
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857922"
 
 Si un ordre de travail doit être programmé à une date *et* à une heure spécifiques, vous pouvez remplacer le processus de planification standard dans le module Gestion des actifs et créer un programme spécifique pour un ordre de travail.
 
-1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Cliquez sur **Gestion des actifs** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 2. Dans la liste des ordres de travail, cliquez sur l’ID de l’ordre de travail dans la colonne **Ordre de travail**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2dbd968a22f2bded29cff3517dacbafc79ff8f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902109"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016621"
 ---
 # <a name="maintenance-forecasts"></a>Prévisions en matière de maintenance
 
@@ -32,7 +32,7 @@ Lorsque vous créez un ordre de travail, vous créez des tâches de l’ordre de
 
 Vous pouvez ajouter des lignes de prévision à un ordre de travail ou les supprimer d’un ordre de travail. La configuration de l’état du cycle de vie de l’ordre de travail, le type de projet associé et les règles de stade liées au type de projet déterminent si vous pouvez ajouter ou modifier les lignes de prévision. Pour plus d’informations sur les états du cycle de vie de l’ordre de travail et les étapes du projet associé, consultez [Prévisions, ordres de travail et projets](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Sélectionnez **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Sélectionnez **Gestion des actifs** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 2. Sélectionnez l’ordre de travail dans la liste, puis, dans le volet Actions > onglet **Ordre de travail** > groupe **Projet**, sélectionnez **Prévision**. La page **Prévisions en matière de maintenance de l’ordre de travail** affiche les lignes de prévision du type de tâche de maintenance sélectionné sur la tâche de l’ordre de travail.
 

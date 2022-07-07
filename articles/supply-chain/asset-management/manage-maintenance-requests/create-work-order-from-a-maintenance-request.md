@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb54ec3466086afbd87a023a40e346a6a3464c98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909699"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017172"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Créer des ordres de travail à partir de demandes de maintenance
 
@@ -34,7 +34,7 @@ Après avoir créé des demandes de maintenance, vous pouvez facilement les conv
 > [!NOTE]
 > Chaque demande de maintenance peut être associée à un seul ordre de travail. Toutefois, plusieurs demandes de maintenance peuvent être incluses dans un même ordre de travail, même si les demandes de maintenance ont des actifs différents.
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Toutes les demandes de maintenance**.
+1. Sélectionnez **Gestion des actifs** \> **Demandes de maintenance** \> **Toutes les demandes de maintenance**.
 2. Avant de pouvoir créer un ordre de travail à partir de demandes de maintenance, vous devez au minimum sélectionner un type de travail de maintenance pour les demandes de maintenance, ainsi qu’une variante et un échange de type de travail de maintenance, si ces informations sont pertinentes. Dans la vue Grille, vous pouvez facilement mettre à jour les informations de mise à jour pour une demande de maintenance.
 3. Lorsque vous êtes prêt(e) à créer un ordre de travail, sélectionnez les demandes de maintenance à inclure dans celui-ci.
 
@@ -48,7 +48,7 @@ Après avoir créé des demandes de maintenance, vous pouvez facilement les conv
 
     En outre, lorsque vous créez un ordre de travail basé sur une demande de maintenance, si l’actif associé à la demande de maintenance est inclus dans un contrat de garantie, une barre de message vous avertit du contrat de garantie.
 
-6. Sélectionnez **Gestion des actifs** \> **Commun** \> **Ordres de travail** \> **Tous les ordres de travail**, puis ouvrez le nouvel ordre de travail.
+6. Sélectionnez **Gestion des actifs** \> **Ordres de travail** \> **Tous les ordres de travail**, puis ouvrez le nouvel ordre de travail.
 
     ![Ouvrir le nouvel ordre de travail.](media/05-manage-maintenance-requests.png)
 

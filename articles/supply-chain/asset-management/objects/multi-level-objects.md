@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908770"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017143"
 ---
 # <a name="multi-level-assets"></a>Actifs à plusieurs niveaux
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908770"
 
 Cet article explique comment créer et supprimer des actifs à plusieurs niveaux. Vous pouvez créer des actifs et des sous-actifs associés dans une structure arborescente hiérarchique. De cette manière, vous pouvez afficher les relations et les dépendances entre les actifs. Les tâches de maintenance peuvent être associées à tous les niveaux de la structure arborescente. Des statistiques peuvent également être créées à un niveau particulier ou en tant que somme de tous les sous-niveaux.
 
-Sur la page de liste **Tous les actifs** (**Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les actifs**), la colonne **Actif** répertorie les actifs dans l’ordre hiérarchique. La colonne **Parent** affiche le parent associé. En outre, si les actifs et les sous-actifs ont déjà été créés, la section **Arborescence d’actifs** du volet **Informations associées** affiche les actifs sous forme de structure arborescente.
+Sur la page de liste **Tous les actifs** (**Gestion des actifs** \> **Actifs** \> **Tous les actifs**), la colonne **Actif** répertorie les actifs dans l’ordre hiérarchique. La colonne **Parent** affiche le parent associé. En outre, si les actifs et les sous-actifs ont déjà été créés, la section **Arborescence d’actifs** du volet **Informations associées** affiche les actifs sous forme de structure arborescente.
 
 Pour plus d’informations sur la création d’un actif, voir [Créer un actif](../objects/create-an-object.md). Pour créer un sous-actif, sélectionnez l’actif parent dans le champ **Parent** sur l’organisateur **Général**.
 
@@ -38,7 +38,7 @@ Pour plus d’informations sur la création d’un actif, voir [Créer un actif]
 
 Si votre société a plusieurs structures d’actifs similaires, vous pouvez utiliser la fonction Copier dans Gestion des actifs pour en créer rapidement.
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les actifs**.
+1. Sélectionnez **Gestion des actifs** \> **Actifs** \> **Tous les actifs**.
 2. Sur la page de liste **Tous les actifs**, sélectionnez l’actif à copier. Par exemple, si vous souhaitez copier la structure d’actif complète, y compris les sous-actifs, sélectionnez un actif parent.
 3. Sélectionnez **Copier l’actif**. Dans la section **Copier depuis**, le champ **Actif** est défini sur l’actif sélectionné dans la page de liste.
 4. Dans la section **Copier vers**, dans le champ **Actif**, entrez le nom du nouvel actif.

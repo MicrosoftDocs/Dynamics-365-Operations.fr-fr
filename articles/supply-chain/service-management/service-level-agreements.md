@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1db12600aa47f537da6918c82ef3164c2123a8ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2b90618d5d283b16ac8374f3b8b2df48611ba270
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670802"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014661"
 ---
 # <a name="service-level-agreements-overview"></a>Vue d’ensemble des contrats de niveau de service       
 
@@ -50,7 +50,7 @@ Les commandes de service créées automatiquement ne sont pas associées à un c
 
 ## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a>Application du contrat de niveau de service à l’accord de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**. Sélectionnez le contrat de service auquel appliquer le contrat SLA, puis cliquez sur **Modifier** dans le volet **Actions**.
+1.  Cliquez sur **Gestion des services** \> **Accords de service** \> **Accords de service**. Sélectionnez le contrat de service auquel appliquer le contrat SLA, puis cliquez sur **Modifier** dans le volet **Actions**.
 
 2.  Dans le champ **Contrat de niveau de service**, sélectionnez le contrat SLA à affecter.
 

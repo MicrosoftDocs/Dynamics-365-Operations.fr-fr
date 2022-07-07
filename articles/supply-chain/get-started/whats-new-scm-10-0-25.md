@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850784"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954494"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Nouveautés et modifications dans Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
 
@@ -155,7 +155,7 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Gestion des entrepôts | [Traitement différé de l’opération manuelle de mouvement de stock](../warehousing/deferred-processing-manual-inventory-movement.md) | Obligatoire |
 | Gestion des entrepôts | Ne pas autoriser la création des chargements, qui ne satisfont pas aux exigences du modèle de création de chargement de vague | Obligatoire |
 | Gestion des entrepôts | [Mises en page d’étiquettes de contenant améliorées](../warehousing/document-routing-layout-for-license-plates.md) | Obligatoire |
-| Gestion des entrepôts | [Évaluer toutes les actions pour les directives d’emplacement qui autorise plusieurs SKU](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Obligatoire |
+| Gestion des entrepôts | [Évaluer toutes les actions pour les directives d’emplacement qui autorise plusieurs SKU](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Obligatoire |
 | Gestion des entrepôts | Masquer le champ Valeur totale sur les pages « Toutes les charges » et « Détails de la charge » | Obligatoire |
 | Gestion des entrepôts | Configuration de la version d’étiquette du contenant | Obligatoire |
 | Gestion des entrepôts | Correction manuelle de la ligne de chargement pour les administrateurs ou les utilisateurs approuvés similaires | Obligatoire |

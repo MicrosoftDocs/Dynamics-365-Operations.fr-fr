@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80980d83248612037999c665b6058c4d0bbf6a7c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 51ea26a0f6519d26f5207a7b6c8afbcdfa358be9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678232"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015257"
 ---
 # <a name="create-service-task-relations"></a>Création de relations de tâches de service    
 
@@ -30,7 +30,7 @@ Vous pouvez associer des tâches de service à des accords de service ou des com
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Création d’une relation avec un accord de service
 
-1.  Accédez à **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**.
+1.  Accédez à **Gestion des services** \> **Accords de service** \> **Accords de service**.
 
 2.  Sélectionnez un accord de service ou créez-en un.
 
@@ -48,7 +48,7 @@ Une relation de tâches de service créée dans une commande de service est disp
 
 ## <a name="create-a-relation-with-a-service-order"></a>Création d’une relation avec une commande de service
 
-1.  Accédez à **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
+1.  Accédez à **Gestion des services** \> **Commandes de service**\> **Commandes de service**.
 
 2.  Sélectionnez une commande de service ou créez-en une.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa4fe7af46996e8de76ea61d5395327e7617e736
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e63161aa32ecbc99baace9bb0cc649aedc600ed
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906122"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015990"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Garanties sur les actifs et les types d’actifs
 
@@ -39,7 +39,7 @@ Cet article explique comment paramétrer les garanties sur les actifs et les typ
 
 ## <a name="set-up-a-warranty-on-an-asset"></a>Configurer une garantie sur un actif
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les actifs**.
+1. Sélectionnez **Gestion des actifs** \> **Actifs** \> **Tous les actifs**.
 2. Sélectionnez l’actif, puis sélectionnez **Modifier**.
 3. Sur l’organisateur **Fournisseur**, dans la section **Garantie fournisseur**, dans le champ **Garantie**, sélectionnez le contrat de garantie.
 4. Dans les champs **Début de garantie** et **Fin de garantie**, sélectionnez les dates de début et de fin.

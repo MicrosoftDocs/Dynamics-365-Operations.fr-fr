@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905022"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016418"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Nouveautés ou modifications dans Dynamics 365 for Operations version 1611 (novembre 2016)
 
@@ -818,7 +818,7 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu’applicati
 | Ajustez le stock appartenant au fournisseur à l’aide d’un journal d’inventaire. | Il est important que vous conserviez le stock disponible dans le système synchronisé sur le stock physique réel. Le stock appartenant au fournisseur peut être ajusté en entrée et en sortie à l’aide des processus d’inventaire, tels que les processus d’ajustement de quantité et de journal d’inventaire. |
 | En savoir plus sur le support de consignation dans Dynamics 365 for Operations | Pour plus d’informations sur la prise en charge des processus de consignation, consultez [Consignation](../../../supply-chain/inventory/consignment.md), [Paramétrage de la consignation](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Créer une commande de réapprovisionnement de consignation (guide de tâche)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md), et [Modifier la propriété du stock de consignation en fonction de la demande de production (guide de tâche)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Collaboration du fournisseur (précédemment appelé le portail fournisseur)
+### <a name="vendor-collaboration"></a>Collaboration du fournisseur
 
 | Ce que vous pouvez faire | Pourquoi c’est important |
 |-----------------|-----------------------|

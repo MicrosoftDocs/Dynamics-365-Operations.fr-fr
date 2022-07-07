@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879219"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015781"
 ---
 # <a name="functional-location-types"></a>Types de poste technique
 
@@ -57,7 +57,7 @@ Cette procédure explique comment créer un type de poste technique par défaut 
 7. Le champ **Type d’actif** est utilisé si vous souhaitez créer automatiquement *un* actif pour le poste technique avec le même ID et le même nom que le poste technique vous créez. Par exemple, cela peut être utile si vous créez un poste technique statique, tel qu’un bâtiment ou une canalisation. Dans ce cas, sélectionnez le type d’actif à utiliser pour l’actif créé automatiquement. N’oubliez pas que si vous effectuez une sélection dans ce champ, le bouton de basculement **Plusieurs actifs** doit être défini sur « Non ».
 8. Dans le raccourci **Types d’actifs**, sélectionnez les types d’actifs à associer au type de poste technique. Sélectionnez **Ajouter la ligne**, puis sélectionnez les types d’actifs. Si vous ajoutez des types d’actifs ici, seuls les actifs utilisant ces types d’actifs peuvent être installés à un poste technique utilisant ce type de poste technique. Si aucun type d’actif n’est sélectionné dans l’organisateur **Types d’actifs**, tous les types d’actifs peuvent être installés.
 9. Dans l’organisateur **Plans de maintenance**, sélectionnez les plans de maintenance à configurer automatiquement sur de nouveaux postes techniques utilisant ce type de poste technique. Sélectionnez **Ajouter la ligne**, puis sélectionnez les plans de maintenance. Si vous ajoutez des plans de maintenance ici, seuls ces plans peuvent être utilisés à un poste technique utilisant ce type de poste technique.
-10. Dans l’organisateur **Exigences d’attribut d’actif**, configurez les attributs d’actif à configurer automatiquement sur de nouveaux postes techniques utilisant ce type de poste technique. Sélectionnez **Ajouter la ligne**, puis sélectionnez l’attribut. Ces exigences d’attributs fonctionnent comme instructions. Elles ne sont pas validées selon le paramétrage d’attributs d’un actif (**Gestion des actifs** > **Commun** > **Actifs** > **Tous les actifs** > sélectionnez l’actif dans la page de liste > onglet **Général** > bouton **Attributs** ). Les exigence d’attribut s’affichent lorsque vous installez des actifs à des postes techniques.
+10. Dans l’organisateur **Exigences d’attribut d’actif**, configurez les attributs d’actif à configurer automatiquement sur de nouveaux postes techniques utilisant ce type de poste technique. Sélectionnez **Ajouter la ligne**, puis sélectionnez l’attribut. Ces exigences d’attributs fonctionnent comme instructions. Elles ne sont pas validées selon le paramétrage d’attributs d’un actif (**Gestion des actifs** > **Actifs** > **Tous les actifs** > sélectionnez l’actif dans la page de liste > onglet **Général** > bouton **Attributs**). Les exigence d’attribut s’affichent lorsque vous installez des actifs à des postes techniques.
 11. Dans l’organisateur **Types autorisés**, sélectionnez les types de poste technique qui doivent être valides pour des types de sous-postes techniques liés à un type de poste technique parent qui utilise le type de poste technique sélectionné.
 12. Dans l’organisateur **Attributs**, sélectionnez les attributs de poste technique à configurer automatiquement sur des postes techniques utilisant ce type de poste technique. Sélectionnez **Ajouter la ligne**, puis sélectionnez l’attribut.
 

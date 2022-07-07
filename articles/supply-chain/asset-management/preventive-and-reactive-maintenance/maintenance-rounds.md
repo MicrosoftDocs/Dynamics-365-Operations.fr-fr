@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852869"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016505"
 ---
 # <a name="maintenance-rounds"></a>Visites de maintenance
 
@@ -87,7 +87,7 @@ L’illustration ci-après présente l’exemple d’une tâche de maintenance c
 
 Lorsque vous avez paramétré une visite de maintenance, vous exécutez une tâche de programme pour planifier toutes les tâches relatives à la visite de maintenance.
 
-1. Cliquez sur **Gestion des actifs** > **Périodique** > **Maintenance préventive** > **Visites de maintenance du programme**, ou **Gestion des actifs** > **Commun** > **Programme de maintenance** > **Tout le programme de maintenance** ou **Ouvrir les lignes du programme de maintenance** ou **Ouvrir les regroupements du programme de maintenance** > sélectionnez la ligne du programme de maintenance dans la liste > bouton **Visites de maintenance**.
+1. Cliquez sur **Gestion des actifs** > **Périodique** > **Maintenance préventive** > **Visites de maintenance du programme** ou **Gestion des actifs** > **Programme de maintenance** > **Tout le programme de maintenance** ou **Ouvrir les lignes du programme de maintenance** ou **Ouvrir les regroupements du programme de maintenance** > sélectionnez la ligne du programme de maintenance dans la liste > bouton **Visites de maintenance**.
 
 2. Dans le champ **Période**, sélectionnez le type de période à utiliser pour la tâche de planification.
 
@@ -102,7 +102,7 @@ Lorsque vous avez paramétré une visite de maintenance, vous exécutez une tâc
 
 6. Cliquez sur **OK**.
 
-7. Vous pouvez à présent voir les tâches de visite de maintenance dans **Gestion des actifs** > **Commun** > **Programme de maintenance** > **Tout le programme de maintenance** ou **Ouvrir les lignes du programme de maintenance**. Si les visites planifiées sont connectées à un regroupement d’ordres de travail, vous pouvez également voir des lignes du programme de maintenance dans **Ouvrir les regroupements du programme de maintenance**. Les lignes du programme de maintenance créées depuis une visite ont le type de référence « Visites de maintenance ».
+7. Vous pouvez à présent voir les tâches de visite de maintenance dans **Gestion des actifs** > **Programme de maintenance** > **Tout le programme de maintenance** ou **Ouvrir les lignes du programme de maintenance**. Si les visites planifiées sont connectées à un regroupement d’ordres de travail, vous pouvez également voir des lignes du programme de maintenance dans **Ouvrir les regroupements du programme de maintenance**. Les lignes du programme de maintenance créées depuis une visite ont le type de référence « Visites de maintenance ».
 
 Les deux illustrations ci-dessous présentent une tâche de programme dans la boîte de dialogue **Programmer les tâches de maintenance**, et les lignes de programme de maintenance créées dans **Tout le programme de maintenance** selon cette tâche programmée.
 

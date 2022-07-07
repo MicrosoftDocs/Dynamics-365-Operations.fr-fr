@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882777"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016244"
 ---
 # <a name="asset-boms"></a>Nomenclatures d’actif
 
@@ -57,7 +57,7 @@ Le paramétrage de l’historique des pièces détachées est basé sur les grou
 
 Après avoir validé la consommation d’articles sur un ordre de travail, vous pouvez afficher la consommation enregistrée dans la page **Nomenclature des actifs**.
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Actifs actifs**. Sélectionnez l’actif dans la liste, puis sélectionnez **Nomenclature des actifs**.
+1. Sélectionnez **Gestion des actifs** \> **Actifs** \> **Actifs**. Sélectionnez l’actif dans la liste, puis sélectionnez **Nomenclature des actifs**.
 
     > [!NOTE]
     > Pour afficher tous les enregistrements de consommation d’articles pour tous les actifs, sélectionnez **Gestion des actifs** \> **Recherches** \> **Actifs** \> **Nomenclature des actifs**.

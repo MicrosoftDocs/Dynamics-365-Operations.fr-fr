@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890826"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023758"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Paramétrer et mettre à jour la collaboration fournisseur
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890826"
 L'interface de collaboration avec les fournisseurs expose un ensemble limité d'informations sur les bons de commande, les factures et le stock en consignation aux utilisateurs de fournisseurs externes. À partir de cette interface, un fournisseur peut également répondre aux demandes de devis (RFQ) et afficher et modifier les informations de base de l'entreprise.
 
 Cet article explique comment paramétrer la collaboration fournisseur dans Dynamics 365 Supply Chain Management. Il explique également comment configurer un flux de travail pour provisionner de nouveaux utilisateurs de collaboration fournisseur et comment gérer les rôles de sécurité pour ces utilisateurs.
-
-> [!NOTE]
-> Les informations sur la configuration des rôles de sécurité pour la collaboration avec les fournisseurs s'appliquent uniquement à la version actuelle de Finance et Operations. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d'informations sur les autorisations des utilisateurs pour le portail des fournisseurs dans Microsoft Dynamics AX, voir [Sécurité des utilisateurs du portail fournisseur](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Configurer les rôles de sécurité de collaboration avec les fournisseurs
 
@@ -118,7 +115,7 @@ Pour configurer ce branchement, créez un nouveau workflow du type **Workflow de
 2. Attribuez une tâche à la personne chargée de demander de nouveaux comptes d'utilisateurs Microsoft Azure Active Directory (Azure AD) dans le portail Azure. Utilisez la tâche **Envoyer une invitation utilisateur Azure B2B** prédéfinie pour cette étape. Les utilisateurs B2B peuvent être automatiquement exportés vers Azure AD. Utilisez **Configurer l'utilisateur B2B Azure AD** prédéfini. Pour plus d’informations, consultez [Exporter des utilisateurs B2B dans Azure AD](../../fin-ops-core/dev-itpro/sysadmin/implement-b2b.md).
 3. Attribuez une tâche d'approbation à la personne qui télécharge vers Azure. Si un compte n'est pas créé avec succès, cette personne rejette la tâche et met fin au workflow. Cette tâche d'approbation peut être ignorée si vous avez inclus l'étape qui exporte automatiquement les nouveaux comptes d'utilisateurs vers Azure via l'interface de programmation d'applications (API) B2B.
 4. Ajoutez une tâche automatisée qui provisionne un nouvel utilisateur. Utilisez la tâche **Utilisateur configuré automatiquement** prédéfinie pour cette étape.
-5. Ajoutez une tâche qui avertit le nouvel utilisateur. Vous souhaiterez peut-être envoyer au nouvel utilisateur un e-mail de bienvenue comprenant une URL pour Supply Chain Management. Cet e-mail peut utiliser un modèle que vous créez sur la page **Messages électroniques**, puis sélectionnez dans la page **Paramètres de workflow utilisateur**. Le modèle peut inclure la balise **%portalURL%**. Lorsque l'email de bienvenue est généré, cette balise sera remplacée par l'URL du client Supply Chain Management.
+5. Ajoutez une tâche qui avertit le nouvel utilisateur. Vous souhaiterez peut-être envoyer au nouvel utilisateur un e-mail de bienvenue comprenant une URL pour Supply Chain Management. Cet e-mail peut utiliser un modèle que vous créez sur la page **Messages électroniques**, puis sélectionnez dans la page **Paramètres de workflow utilisateur**. Le modèle peut inclure la balise **%portalURL%**. Lorsque l’email de bienvenue est généré, cette balise sera remplacée par l’URL du client Supply Chain Management.
 
     > [!NOTE]
     > Ce flux de travail peut être utilisé dans plusieurs scénarios impliquant l'intégration des utilisateurs. Par exemple, il peut être utilisé lorsque des fournisseurs potentiels ou des personnes à contacter ont besoin d'un compte de collaboration fournisseur. Par conséquent, vous devez formuler l'e-mail comme une déclaration générale pouvant être utilisée à plusieurs fins.
@@ -138,13 +135,7 @@ Créer un flux de travail du type **Désactiver la plateforme de workflow de dem
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Activer la collaboration fournisseur pour un fournisseur spécifique
 
-Avant de créer un compte utilisateur pour quelqu'un qui utilisera la collaboration fournisseur, vous devez configurer le fournisseur afin qu'il puisse utiliser la collaboration fournisseur. Sur la page **Fournisseurs**, sous l’onglet **Général**, définissez le champ **Activation de la collaboration**. Les options suivantes sont disponibles :
-
-- **Actif (la CF est confirmée automatiquement)**- Les commandes fournisseur sont automatiquement confirmées si le fournisseur les accepte sans demander de modifications.
-- **Actif (la CF n’est pas confirmée automatiquement)** – Votre organisation doit confirmer manuellement les commandes fournisseur une fois que le fournisseur les a acceptées.
-
-> [!NOTE]
-> Les professionnels des achats de votre entreprise peuvent également effectuer cette tâche.
+Avant de créer un compte utilisateur pour quelqu'un qui utilisera la collaboration fournisseur, vous devez configurer le fournisseur afin qu'il puisse utiliser la collaboration fournisseur. Pour plus d’informations sur la procédure, voir [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Résoudre les problèmes liés à l'approvisionnement des nouveaux utilisateurs de collaboration avec les fournisseurs
 

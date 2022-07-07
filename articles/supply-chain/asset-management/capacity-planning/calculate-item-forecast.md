@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870898"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016099"
 ---
 # <a name="calculate-item-forecast"></a>Calculer les prévisions en matière d’articles
 
@@ -36,7 +36,7 @@ Tout comme vous pouvez effectuer des calculs de charge, comme décrit dans la se
 
 Cela est utile si vous souhaitez obtenir une vue d’ensemble de la consommation d’article prévue (des pièces détachées ainsi que d’autres articles requis pour accomplir des ordres de travail) pour une période spécifique. Le calcul de la prévision d’article peut être effectué sur tous les actifs ou sur des actifs sélectionnés. Vous pouvez également effectuer un calcul sur une activité de temps d’arrêt pour maintenance (**Toutes les activités de temps d’arrêt pour maintenance** ou **Activités de temps d’arrêt pour maintenance**) ou sur un regroupement d’ordres de travail (**Tous les regroupements d’ordres de travail** ou **Regroupements d’ordres de travail actifs**).
 
-1. Cliquez sur **Gestion des actifs** > **Recherches** > **Prévision d’article** ou **Gestion des actifs** > **Commun** > **Regroupements d’ordres de travail** > **Tous les regroupements d’ordres de travail** / **Regroupements d’ordres de travail actifs** > sélectionnez le regroupement d’ordres de travail dans la liste > cliquez sur le bouton **Prévision d’article** ou **Gestion des actifs** > **Commun** > **Activités de temps d’arrêt pour maintenance** > **Toutes les activités de temps d’arrêt pour maintenance** / **Activités de temps d’arrêt pour maintenance actifs** > sélectionnez l’activité de temps d’arrêt pour maintenance dans la liste > cliquez sur le bouton **Prévision d’article**.
+1. Cliquez sur **Gestion des actifs** > **Recherches** > **Prévision d’article** ou **Gestion des actifs** > **Regroupements d’ordres de travail** > **Tous les regroupements d’ordres de travail** / **Regroupements d’ordres de travail actifs** > sélectionnez le regroupement d’ordres de travail dans la liste > **bouton Prévision d’article** ou **Gestion des actifs** > **Activités de temps d’arrêt pour maintenance** > **Toutes les activités de temps d’arrêt pour maintenance** / **Activités de temps d’arrêt pour maintenance actifs** > sélectionnez l’activité de temps d’arrêt pour maintenance dans la liste > bouton **Prévision d’article**.
 
 2. Dans la boîte de dialogue **Calculer les prévisions en matière d’articles**, sélectionnez une période de calcul dans les champs **Date et heure de début** et **Date et heure de fin**.
 

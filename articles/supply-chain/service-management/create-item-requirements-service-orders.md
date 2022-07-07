@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888410"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016947"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Créer des demandes d’articles pour des commandes de service
 
@@ -34,14 +34,14 @@ Les demandes d’articles pour les commandes de service sont traitées au traver
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Création d’une demande d’articles pour une commande de service
 
-1. Accédez à **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
+1. Accédez à **Gestion des services** \> **Commandes de service**\> **Commandes de service**.
 1. Sélectionnez la commande de service que vous souhaitez créer pour la demande d’articles.
 1. Dans le volet **Actions**, sous l’onglet **Répartir**, sélectionnez **Demande d’articles**.
 1. Dans l’écran **Demande d’articles**, entrez les informations pour l’article requis. Pour plus d’informations sur les champs spécifiques, voir [Demande d’articles (écran)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Création d’une demande d’articles pour un accord de service
 
-1. Accédez à **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**.
+1. Accédez à **Gestion des services** \> **Accords de service** \> **Accords de service**.
 1. Ouvrez l’accord de service pour lequel vous souhaitez créer une demande d’articles.
 1. Dans l’organisateur **Lignes**, sélectionnez **Ajouter** pour créer une ligne.
 1. Dans le champ **Type de transaction**, sélectionnez **Article**.

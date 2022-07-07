@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f12b0dd1facc753bfcde820eea26a4052caf67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 376cda6bbe1800611e6f24c347b9035469a30a14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882400"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015170"
 ---
 # <a name="service-order-item-requirements"></a>Demandes d’articles de la commande de service
 
@@ -36,7 +36,7 @@ Dès qu’une demande d’article est créée pour une commande de service, elle
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Affichage d’une demande d’article à partir d’une commande de service
 
-1. Accédez à **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
+1. Accédez à **Gestion des services** \> **Commandes de service**\> **Commandes de service**.
 1. Sélectionnez **Répartir**, puis sélectionnez **Demande d’articles** pour ouvrir l’écran **Demandes d’articles**.
 1. Sélectionnez l’onglet **Projet**, puis consultez le champ **Commande de service** pour voir les commandes de service pour la demande d’articles.
 
@@ -44,13 +44,13 @@ Dès qu’une demande d’article est créée pour une commande de service, elle
 
 Si une demande d’articles est créée sur une commande de service, vous ne pouvez pas supprimer la commande de service. Pour pouvoir supprimer la commande de service, vous devez supprimer la demande d’articles.
 
-1. Accédez à **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
+1. Accédez à **Gestion des services** \> **Commandes de service**\> **Commandes de service**.
 1. Sélectionnez **Répartir**, puis sélectionnez **Demande d’articles** pour ouvrir l’écran **Demandes d’articles**. Cet écran affiche la liste des demandes d’articles qui sont créées sur la commande de service.
 1. Sélectionnez la demande d’articles à supprimer, puis sélectionnez **Supprimer**.
 
 - ou -
 
-1. Accédez à **Gestion et comptabilité des projets** \> **Commun** \> **Projets** \> **Tous les projets**.
+1. Accédez à **Gestion et comptabilité des projets** \> **Projets** \> **Tous les projets**.
 1. Ouvrez le projet contenant la commande de service dans laquelle une demande d’articles est créée.
 1. Dans l’écran **Projet**, dans le volet droit, sélectionnez **Demandes d’articles**. L’écran **Demandes d’articles** s’ouvre et affiche la liste des demandes d’article qui sont associées au projet sélectionné.
 1. Sélectionnez la demande d’articles à supprimer, puis sélectionnez **Supprimer**.

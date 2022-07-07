@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870809"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015810"
 ---
 # <a name="asset-management-parameters"></a>Paramètres de gestion des actifs
 
@@ -37,7 +37,7 @@ L’onglet **Actifs** fournit les paramètres suivants :
 
 - **Poste technique par défaut** est le poste technique standard, qui est automatiquement sélectionné sur les actifs lors de la création d’actifs.  
 - Dans le champ **Calendrier standard**, sélectionnez un calendrier à utiliser pour le calcul des indicateurs de performance clés des actifs si aucune ressource n’est sélectionnée sur un actif.  
-- Dans le champ **Afficher**, sélectionnez la vue standard qui s’affiche lorsque vous ouvrez la page **Vue Actif** (**Gestion des actifs** > **Commun** > **Actifs** > **Vue Actifs**).
+- Dans le champ **Afficher**, sélectionnez la vue standard qui s’affiche lorsque vous ouvrez la page **Vue Actif** (**Gestion des actifs** > **Actifs** > **Vue Actifs**).
 - Le **Type de demande par défaut** est le type de demande de maintenance standard, qui est automatiquement sélectionné lorsque vous créez une demande.  
 - Les prévisions sur les types de tâches sont stockées sur le projet sélectionné dans le champ **Projet de prévision**. Pour chaque type de tâche, une activité est automatiquement créée dans le projet de prévision. Les prévisions sur le type de tâche sont ensuite enregistrées dans le projet de prévision.  
 - Dans le champ **Modèle**, sélectionnez le modèle de prévision utilisé pour les prévisions de type de tâche et d’ordre de travail.

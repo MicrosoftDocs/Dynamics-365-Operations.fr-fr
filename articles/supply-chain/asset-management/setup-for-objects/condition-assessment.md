@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872092"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015054"
 ---
 # <a name="condition-assessment"></a>Évaluation des conditions
 
@@ -47,7 +47,7 @@ L’évaluation des conditions est créée sur les actifs. Vous paramétrez un m
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>Création d’un enregistrement d’évaluation des conditions dans un actif
 
-1. Sélectionnez **Gestion des actifs** > **Commun** > **Actifs** > **Tous les actifs**.
+1. Sélectionnez **Gestion des actifs** > **Actifs** > **Tous les actifs**.
 2. Dans la liste, sélectionnez l’actif pour lequel vous souhaitez créer un enregistrement d’évaluation des conditions.
 3. Sous l’onglet **Général**, cliquez sur **Évaluation de la condition**.
 4. Cliquez sur **Nouveau** pour créer un nouvel enregistrement.
@@ -62,7 +62,7 @@ L’évaluation des conditions est créée sur les actifs. Vous paramétrez un m
 Après avoir effectué un enregistrement d’évaluation de la condition dans un actif, vous pouvez imprimer un état d’évaluation de la condition.
 
 >[!NOTE]
->Vous pouvez également enregistrer l’évaluation des conditions sur un ordre de travail (**Évaluation de la condition** > **Gestion des actifsCommun** > **Ordres de travail** > **Tous les ordres de travail** > **Bouton Évaluation de la condition**.)
+>Vous pouvez également enregistrer l’évaluation des conditions sur un ordre de travail (**Gestion des actifs** > **Ordres de travail** > **Tous les ordres de travail** > **Bouton Évaluation de la condition**.)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

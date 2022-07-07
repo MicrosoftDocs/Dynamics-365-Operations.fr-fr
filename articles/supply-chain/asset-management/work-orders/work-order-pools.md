@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6fc97c8a65afe24bfe730e6d13eb178ddcafc2d9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc9eaf82c2f3336f8c3400fcd3f1165ed4fa56d8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849559"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014937"
 ---
 # <a name="work-order-pools"></a>Regroupements d’ordres de travail
 
@@ -44,7 +44,7 @@ Au besoin, vous pouvez placer un ordre de travail dans plusieurs regroupements d
 
 Sur la page de liste **Tous les regroupements d’ordres de travail** ou **Regroupements d’ordres de travail actifs**, vous pouvez obtenir une vue d’ensemble de vos regroupements d’ordres de travail et créer de nouveaux regroupements.
 
-1. Sélectionnez **Gestion des actifs** > **Commun** > **Regroupements d’ordres de travail** > **Tous les regroupements d’ordres de travail** ou **Regroupements d’ordres de travail actifs**.
+1. Sélectionnez **Gestion des actifs** > **Regroupements d’ordres de travail** > **Tous les regroupements d’ordres de travail** ou **Regroupements d’ordres de travail actifs**.
 
 2. Sélectionnez **Nouveau**.
 

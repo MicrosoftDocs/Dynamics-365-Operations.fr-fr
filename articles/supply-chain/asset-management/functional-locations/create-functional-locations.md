@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869718"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015839"
 ---
 # <a name="create-functional-locations"></a>Créer des emplacements fonctionnels
 
@@ -41,7 +41,7 @@ Pour pouvoir utiliser des postes techniques, commencez par créer deux « caté
 
 Lorsque vous utilisez des postes techniques, commencez par créer un emplacement par défaut à utiliser lors de la création de nouveaux actifs. Ce poste technique est celui sélectionné via **Gestion des actifs** > **Paramétrage** > **Paramètres de gestion des actifs** > **lien Actifs** >champ **Poste technique par défaut**. Le poste technique par défaut peut être utilisé lors de la création de nouveaux actifs, et vous n’avez pas encore mis en place de structure de poste technique pour ces actifs.
 
-1. Sélectionnez **Gestion des actifs** > **Commun** > **Postes techniques** > **Tous les postes techniques**.  
+1. Sélectionnez **Gestion des actifs** > **Postes techniques** > **Tous les postes techniques**.  
 2. Dans **Tous les postes techniques**, sélectionnez **Nouveau**.
 3. Insérez un ID dans le champ **Poste technique**, par exemple, « 0000 » ou « valeur par défaut », pour indiquer qu’il s’agit d’un poste technique spécial.
 4. Insérez le nom du poste technique par défaut dans le champ **Nom**.
@@ -53,7 +53,7 @@ Lorsque vous utilisez des postes techniques, commencez par créer un emplacement
 
 La procédure suivante décrit comment vous créez les postes techniques requis pour la gestion de la maintenance de votre société.
 
-1. Sélectionnez **Gestion des actifs** > **Commun** > **Postes techniques** > **Tous les postes techniques**. Vous pouvez créer un poste technique à partir de la vue Grille ou de la vue Détails.
+1. Sélectionnez **Gestion des actifs** > **Postes techniques** > **Tous les postes techniques**. Vous pouvez créer un poste technique à partir de la vue Grille ou de la vue Détails.
 2. Sélectionnez le bouton **Nouveau**.
 3. Insérez un ID dans le champ **Poste technique**.
 4. Insérez un nom de poste technique dans le champ **Nom**.

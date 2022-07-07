@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886042"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015083"
 ---
 # <a name="register-consumption"></a>Enregistrer la consommation
 
@@ -35,7 +35,7 @@ Dans certains cas, vous pouvez être en mesure d’ajouter ou de supprimer des l
 >[!NOTE]
 >Il est possible de paramétrer la validation automatique des journaux dans un état du cycle de vie de l’ordre de travail. Consultez [États du cycle de vie de l’ordre de travail](../setup-for-work-orders/work-order-lifecycle-states.md) pour en savoir plus.
 
-1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Cliquez sur **Gestion des actifs** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 2. Sélectionnez l’ordre de travail, et cliquez sur **Journaux**.
 
@@ -61,7 +61,7 @@ Le capture d’écran suivante présente un exemple des enregistrements d’heur
 
 Si un ordre de travail contient plusieurs tâches de l’ordre de travail, vous pouvez enregistrer les heures de travail à l’aide de la fonctionnalité **Répartir les heures**, ce qui signifie qu’une ligne d’enregistrement horaire peut être distribuée de manière uniforme sur chaque tâche de l’ordre de travail.
 
-1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Cliquez sur **Gestion des actifs** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 2. Sélectionnez l’ordre de travail et cliquez sur **Journaux**.
 

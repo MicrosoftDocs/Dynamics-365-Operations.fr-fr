@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851273"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014617"
 ---
 # <a name="wave-creation-and-processing"></a>Création et traitement des vagues
 
@@ -60,9 +60,9 @@ Pour créer manuellement une vague, procédez comme suit :
 1. Assurez-vous que les [Modèles de vagues](wave-templates.md) ne sont pas configurés pour créer automatiquement une vague pour l’entrepôt et les types de commande pour lesquels vous souhaitez le faire manuellement.
 1. Selon le type de vague à créer, effectuez l’une des actions suivantes :
 
-    - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues d’expédition** \> **Toutes les vagues**. Dans le volet Actions, sélectionnez **Vague**.
-    - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues de production** \> **Toutes les vagues de production**. Dans le volet Actions, sélectionnez **Vague de production**.
-    - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues kanban** \> **Toutes les vagues kanban**. Dans le volet Actions, sélectionnez **Créer une vague**.
+    - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de l’expédition** \> **Toutes les vagues**. Dans le volet Actions, sélectionnez **Vague**.
+    - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de production** \> **Toutes les vagues de production**. Dans le volet Actions, sélectionnez **Vague de production**.
+    - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues kanban** \> **Toutes les vagues kanban**. Dans le volet Actions, sélectionnez **Créer une vague**.
 
 1. Dans le champ **Description**, entrez une brève description de la vague. Elle doit indiquer ce que vous traitez dans la vague.
 
@@ -87,9 +87,9 @@ Lorsqu’une vague a été créée mais pas encore publiée, vous pouvez spécif
 
 1. Selon le type de vague auquel vous voulez ajouter des lignes, effectuez l’une des actions suivantes :
 
-    - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues d’expédition** \> **Toutes les vagues**. Dans le volet Actions, sélectionnez **Vague**.
-    - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues de production** \> **Toutes les vagues de production**. Dans le volet Actions, sélectionnez **Vague de production**.
-    - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues kanban** \> **Toutes les vagues kanban**. Dans le volet Actions, sélectionnez **Créer une vague**.
+    - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de l’expédition** \> **Toutes les vagues**. Dans le volet Actions, sélectionnez **Vague**.
+    - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de production** \> **Toutes les vagues de production**. Dans le volet Actions, sélectionnez **Vague de production**.
+    - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues kanban** \> **Toutes les vagues kanban**. Dans le volet Actions, sélectionnez **Créer une vague**.
 
 1. Sélectionnez la vague. Sur le volet Actions, sélectionnez l’un des éléments suivants :
 
@@ -121,9 +121,9 @@ Pour traiter manuellement une vague comportant tout le contenu requis, procédez
 
 1. Selon le type de vague à traiter, effectuez l’une des actions suivantes :
 
-    - Sélectionnez **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues d’expédition** \> **Toutes les vagues**. Dans le volet Actions, sélectionnez **Vague**.
-    - Sélectionnez **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues de production** \> **Toutes les vagues de production**. Dans le volet Actions, sélectionnez **Vague de production**.
-    - Sélectionnez **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues kanban** \> **Toutes les vagues kanban**. Dans le volet Actions, sélectionnez **Créer une vague**.
+    - Sélectionnez **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de l’expédition** \> **Toutes les vagues**. Dans le volet Actions, sélectionnez **Vague**.
+    - Sélectionnez **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de production** \> **Toutes les vagues de production**. Dans le volet Actions, sélectionnez **Vague de production**.
+    - Sélectionnez **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues kanban** \> **Toutes les vagues kanban**. Dans le volet Actions, sélectionnez **Créer une vague**.
 
 1. Sélectionnez la vague à traiter. Dans le volet Actions, sélectionnez **Processus**.
 
@@ -141,9 +141,9 @@ Pour lancer une vague manuellement, procédez comme suit :
 
 1. Selon le type de vague à lancer, effectuez l’une des actions suivantes :
 
-      - Sélectionnez **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues d’expédition** \> **Toutes les vagues**. Dans le volet Actions, sélectionnez **Vague**.
-      - Sélectionnez **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues de production** \> **Toutes les vagues de production**. Dans le volet Actions, sélectionnez **Vague de production**.
-      - Sélectionnez **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues kanban** \> **Toutes les vagues kanban**. Dans le volet Actions, sélectionnez **Créer une vague**.
+      - Sélectionnez **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de l’expédition** \> **Toutes les vagues**. Dans le volet Actions, sélectionnez **Vague**.
+      - Sélectionnez **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de production** \> **Toutes les vagues de production**. Dans le volet Actions, sélectionnez **Vague de production**.
+      - Sélectionnez **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues kanban** \> **Toutes les vagues kanban**. Dans le volet Actions, sélectionnez **Créer une vague**.
 
 1. Sélectionnez la vague à lancer. Dans le volet Actions, sélectionnez **Lancer une vague**.
 
@@ -179,9 +179,9 @@ Si nécessaire, vous pouvez annuler une vague qui a été traitée. Pour annuler
 
 1. Selon le type de vague à annuler, effectuez l’une des actions suivantes :
 
-      - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues d’expédition** \> **Toutes les vagues**.
-      - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues de production** \> **Toutes les vagues de production**.
-      - Accédez à **Gestion des entrepôts** \> **Commun** \> **Vagues** \> **Vagues kanban** \> **Toutes les vagues kanban**.
+      - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de l’expédition** \> **Toutes les vagues**.
+      - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues de production** \> **Toutes les vagues de production**.
+      - Accédez à **Gestion des entrepôts** \> **Vagues sortantes** \> **Vagues kanban** \> **Toutes les vagues kanban**.
 
 1. Sélectionnez la vague à annuler. Dans le volet Actions, sous l’onglet **Travail**, sélectionnez **Annuler**.
 

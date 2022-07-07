@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893640"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014950"
 ---
 # <a name="procurement"></a>Approvisionnement
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893640"
 
 Dans le module Gestion des actifs, vous pouvez obtenir une vue d’ensemble des demandes d’achat et des commandes fournisseur associées aux ordres de travail. Il est également possible de créer une commande fournisseur ou une demande d’achat depuis un ordre de travail.
 
-La page de liste **Demande d’achat de l’ordre de travail** (**Gestion des actifs** > **Commun** > **Approvisionnement** > **Demande d’achat de l’ordre de travail**) affiche une liste des demandes d’achat associées aux ordres de travail. Lorsque vous sélectionnez une tâche d’ordre de travail dans cette page, vous pouvez utiliser les boutons du groupe **Afficher** sous l’onglet du volet d’action **Demande d’achat d’ordres de travail** pour exécuter différentes actions :
+La page de liste **Demande d’achat de l’ordre de travail** (**Gestion des actifs** > **Approvisionnement** > **Demande d’achat de l’ordre de travail**) affiche une liste des demandes d’achat associées aux ordres de travail. Lorsque vous sélectionnez une tâche d’ordre de travail dans cette page, vous pouvez utiliser les boutons du groupe **Afficher** sous l’onglet du volet d’action **Demande d’achat d’ordres de travail** pour exécuter différentes actions :
 
 - Pour ouvrir la demande d’achat associée, sélectionnez **Demande d’achat**. 
 - Pour ouvrir l’ordre de travail associé, sélectionnez **Ordre de travail**.
@@ -39,7 +39,7 @@ L’illustration suivante présente un exemple de la liste de page **Demande d�
 ![Figure 1.](media/08-work-orders.png)
 
 
-La page de liste **Achats de l’ordre de travail** (**Gestion des actifs** > **Commun** > **Approvisionnement** > **Achats de l’ordre de travail**) affiche une liste des commandes fournisseur associées aux ordres de travail. Lorsque vous sélectionnez une tâche d’ordre de travail dans cette page, vous pouvez utiliser les boutons du groupe **Afficher** sous l’onglet du volet d’action **Achats d’ordres de travail** pour exécuter différentes actions :
+La page de liste **Achats de l’ordre de travail** (**Gestion des actifs** > **Approvisionnement** > **Achats de l’ordre de travail**) affiche une liste des commandes fournisseur associées aux ordres de travail. Lorsque vous sélectionnez une tâche d’ordre de travail dans cette page, vous pouvez utiliser les boutons du groupe **Afficher** sous l’onglet du volet d’action **Achats d’ordres de travail** pour exécuter différentes actions :
 
 - Pour ouvrir la commande fournisseur associée, sélectionnez **Commande fournisseur**. 
 - Pour ouvrir l’ordre de travail associé, sélectionnez **Ordre de travail**.
@@ -69,7 +69,7 @@ Pour une demande d’achat, la date du champ **Date demandée** sur l’organisa
 
 Sur la page de liste **Tous les ordres de travail**, vous pouvez sélectionner une tâche de l’ordre de travail, puis créer une commande fournisseur ou une demande d’achat associée. Ainsi, vous garantissez que des relations de projet existent entre la commande fournisseur ou la demande d’achat et l’ordre de travail.
 
-1. Sélectionnez **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Sélectionnez **Gestion des actifs** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 2. Sélectionnez l’ordre de travail pour lequel créer une commande fournisseur, puis sélectionnez **Modifier**.
 

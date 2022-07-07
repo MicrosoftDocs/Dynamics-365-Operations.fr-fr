@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14442853152764fce7e5a8a275532ed553da16dc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677084"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017238"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>Prix de vente de retour et n° de lot de retour        
 
@@ -38,7 +38,7 @@ Pour utiliser un coût autre que le coût actuel pour les retours provenant d’
 
 Par défaut, lorsque vous ajoutez des articles à un ordre de retour, ceux-ci sont renvoyés en stock au prix de revient actuel. Pour spécifier un prix de revient de retour différent, procédez comme suit.
 
-1.  Cliquez sur **Ventes et marketing** \> **Commun** \> **Ordres de retour** \> **Tous les ordres de retour**.
+1.  Cliquez sur **Ventes et marketing** \> **Retours sur ventes** \> **Tous les ordres de retour**.
 
 2.  Dans le volet **Actions**, dans le groupe **Nouveau**, cliquez sur **Ordre de retour**.
 
@@ -54,7 +54,7 @@ Par défaut, lorsque vous ajoutez des articles à un ordre de retour, ceux-ci so
 
 Il s’agit de la méthode recommandée à utiliser pour créer des lignes de retour. Pour utiliser le coût auquel les produits ont été vendus au client, créez un ordre de retour et spécifiez une ligne de vente à retourner.
 
-1.  Cliquez sur **Ventes et marketing** \> **Commun** \> **Ordres de retour** \> **Tous les ordres de retour**.
+1.  Cliquez sur **Ventes et marketing** \> **Retours sur ventes** \> **Tous les ordres de retour**.
 
 2.  Dans le volet **Actions**, dans le groupe **Nouveau**, cliquez sur **Ordre de retour**.
 

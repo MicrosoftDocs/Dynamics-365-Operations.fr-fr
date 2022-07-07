@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860665"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022502"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -263,9 +263,6 @@ Un travailleur enregistre une pause en sélectionnant **Pause** puis en sélecti
 
 ## <a name="view-the-my-day-dialog"></a>Afficher la boîte de dialogue "Ma journée"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 La boîte de dialogue **Ma journée** fournit aux collaborateurs un aperçu de leurs enregistrements et de leurs soldes. La boîte de dialogue est divisée en trois sections :
 
 - La section principale répertorie les enregistrements que le collaborateur actuel a effectués à une date sélectionnée. Elle s’ouvre en affichant les inscriptions pour le jour en cours et fournit un sélecteur de date qui permet au collaborateur de voir les autres jours.
@@ -275,9 +272,6 @@ La boîte de dialogue **Ma journée** fournit aux collaborateurs un aperçu de l
 Les administrateurs peuvent ajouter cette fonctionnalité à l’interface en plaçant le bouton **Ma journée** sur une barre d’outils pour chaque onglet pertinent comme décrit dans [Concevoir l’interface d’exécution de l’atelier de production](production-floor-execution-tabs.md).
 
 ## <a name="working-in-teams"></a>Travailler en équipe
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Quand plusieurs collaborateurs sont affectés au même projet de rpdocution, ils peuvent former une équipe. L’équipe peut nommer un collaborateur comme pilote. Les collaborateurs restants deviennent alors automatiquement des assistants de ce pilote. Pour l’équipe résultante, seul le pilote doit enregistrer le statut du projet. Les enregistrements de temps s’appliquent à tous les membres de l’équipe.
 

@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2798e25d1f6c293aa71a6c143ded5293f241060
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 079e6de00d1a946d998648378d5ca24c1fd26218
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850552"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015404"
 ---
 # <a name="product-related-translations-faq"></a>FAQ sur les traductions relatives au produit
 
@@ -43,20 +43,20 @@ Vous pouvez afficher les traductions des informations relatives aux produits dan
 
 ## <a name="how-do-i-create-translations-for-product-related-information"></a>Comment créer des traductions pour les informations associées aux produits ?
 Pour créer des traductions pour un produit, procédez comme suit :
-1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Commun** &gt; **Produits lancés**.
+1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés**.
 2.  Sélectionnez un produit et sur le volet Action, dans le groupe **Langues**, cliquez sur **Traductions**.
 3.  Sur la page **Traduction de texte**, dans le champ **Langue**, sélectionnez une langue. Pour ajouter d’autres langues, développez le champ **Langue**, puis cliquez sur **OK**.
 4.  Dans le groupe **Texte traduit**, entrez des traductions dans les champs **Description** et **Nom du produit**.
 
 Pour créer des traductions pour les attributs de produit, procédez comme suit :
-1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Commun** &gt; **Produits lancés**.
+1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés**.
 2.  Sous **Paramétrage**, cliquez sur **Attributs**, puis sur **Attributs**.
 3.  Sur la page **Attributs**, cliquez sur **Traduire**.
 4.  Sur la page **Traduction de texte**, dans le champ **Langue**, sélectionnez une langue. Pour ajouter d’autres langues, développez le champ **Langue**, puis cliquez sur **OK**.
 5.  Dans le groupe **Texte traduit**, entrez des traductions dans les champs **Description**, **Nom convivial** et **Texte d’aide**.
 
 Pour créer des traductions pour les valeurs de dimension de produit, procédez comme suit :
-1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Commun** &gt; **Produits lancés**.
+1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés**.
 2.  Sélectionnez un produit, puis cliquez sur **Dimensions de produit**.
 3.  Sélectionnez l’un des liens des dimensions de produit : **Configurations**, **Tailles**, **Couleurs** ou **Style**.
 4.  Sélectionnez une valeur de dimension, puis cliquez sur **Traduire**.

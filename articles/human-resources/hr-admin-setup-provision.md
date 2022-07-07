@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858241"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015344"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -143,7 +143,9 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
 6. Les capacités de double écriture pour l’intégration des données de Ressources humaines avec l’environnement Power Apps ne peuvent être utilisées que si l’option **Activer les applications Dynamics 365** est sélectionnée pour l’environnement. Voir [Page d’accueil de la double écriture](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) pour en savoir plus sur la double écriture.
 
     > [!NOTE]
-    > L’option **Activer les applications Dynamics 365** doit être sélectionnée au moment de la création de l’environnement Power Apps. Si l’option n’est pas sélectionnée au moment de l’approvisionnement, vous ne pouvez pas utiliser la double écriture pour intégrer des données entre Dynamics 365 Human Resources et l’environnement Power Apps ni installer des applications Dynamics 365 telles que Dynamics 365 Sales et Field Service sur l’environnement. Cette option n’est pas réversible. Pour plus d’informations, voir [Quelques considérations importantes au moment de la création d’un nouvel environnement](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) sur le site de documentation Power Platform.
+    > L’option **Activer les applications Dynamics 365** doit être sélectionnée au moment de la création de l’environnement Power Apps. Si l’option n’est pas sélectionnée au moment de l’approvisionnement, vous ne pouvez pas utiliser la double écriture pour intégrer des données entre Dynamics 365 Human Resources et l’environnement Power Apps ni installer des applications Dynamics 365 telles que Dynamics 365 Sales et Field Service sur l’environnement. Cette option n’est pas réversible. 
+    > -  Les ressources humaines ne prennent pas en charge la modification de l’instance Dataverse liée une fois que les ressources humaines y ont été déployées. </br></br>
+    > Pour plus d’informations, voir [Quelques considérations importantes au moment de la création d’un nouvel environnement](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) sur le site de documentation Power Platform.  
 
 7. Après avoir déterminé l’environnement à utiliser, vous pouvez poursuivre le processus d’approvisionnement. 
 

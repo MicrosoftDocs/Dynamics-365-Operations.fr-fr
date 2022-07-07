@@ -2,7 +2,7 @@
 title: Déclaration de la liste des ventes intracommunautaires
 description: Cet article fournit des informations sur la génération d’un état relatif à la liste des ventes intracommunautaires.
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 8dfd3fafdfc011973b169516cd4e2d239751e96d
+ms.sourcegitcommit: f5b156f2e5ca99ad05b3d6e4a5d118631fd3064e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323474"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9012498"
 ---
 # <a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
 
@@ -150,7 +150,7 @@ Les transactions des types suivants peuvent être considérées comme des transa
 -   Factures de projet
 -   Factures fournisseur
 
-Une transaction est considérée comme une transaction d’échanges intracommunautaires si l’adresse de livraison de la transaction est un état membre de l’UE. Pour ces pays/régions, un enregistrement doit exister sous l’onglet **Paramètres de pays/région** de la page **Paramètres de commerce extérieur** et la valeur **Type de pays/région** doit être définie sur **UE**. Les transactions d’échanges intracommunautaires sont marquées dans le champ **Code liste**. Ce champ vous permet également de séparer les transactions générales d’échanges intracommunautaires à partir des transactions du commerce triangulaire. Vous pouvez collecter des informations sur les transactions d’échanges intracommunautaires dans la page **Liste des ventes intracommunautaires** (cliquez sur **Taxe** &gt; **Déclarations** &gt; **Commerce extérieur** &gt; **Liste des ventes intracommunautaires**) à l’aide de la fonction **Transfert**. Cette fonction permet d’inclure des transactions qui ont des montants de différents types de génération d’états (c’est-à-dire., des articles ou des services), en fonction des groupes de taxe d’article qui sont spécifiés dans les lignes de transaction. Vous pouvez également appliquer d’autres filtres pour définir les transactions qui doivent être incluses. La fonction **Transfert** crée un enregistrement dans la page **Liste des ventes intracommunautaires** pour chaque transaction d’échanges intracommunautaires incluse, et spécifie un numéro de compte de contrepartie, un pays/une région, un numéro identifiant TVA, un numéro de facture et une date, et les montants totaux des lignes par type de génération d’états. Elle copie également la valeur **Code liste** à partir de la transaction. Vous pouvez modifier manuellement le code liste pour une transaction dans la page **Liste des ventes intracommunautaires**. La fonction **Transfert** crée des enregistrements où la valeur **Statut de génération d’états** est définie sur **Inclus**. Vous pouvez valider les informations qui sont collectées dans la page **Liste des ventes intracommunautaires** à l’aide de la fonction **Valider**.
+Une transaction est considérée comme une transaction d’échanges intracommunautaires si l’adresse de livraison de la transaction est un état membre de l’UE. Pour ces pays/régions, un enregistrement doit exister sous l’onglet **Paramètres de pays/région** de la page **Paramètres de commerce extérieur** et la valeur **Type de pays/région** doit être définie sur **UE**. Les transactions d’échanges intracommunautaires sont marquées dans le champ **Code liste**. Ce champ vous permet également de séparer les transactions générales d’échanges intracommunautaires à partir des transactions du commerce triangulaire. Vous pouvez collecter des informations sur les transactions d’échanges intracommunautaires dans la page **Liste des ventes intracommunautaires** (cliquez sur **Taxe** &gt; **Déclarations** &gt; **Commerce extérieur** &gt; **Liste des ventes intracommunautaires**) à l’aide de la fonction **Transfert**. Cette fonction permet d’inclure des transactions qui ont des montants de différents types de génération d’états (c’est-à-dire., des articles ou des services), en fonction des groupes de taxe d’article qui sont spécifiés dans les lignes de transaction. Vous pouvez également appliquer d’autres filtres pour définir les transactions qui doivent être incluses. La fonction **Transfert** crée un enregistrement dans la page **Liste des ventes intracommunautaires** pour chaque transaction d’échanges intracommunautaires incluse, et spécifie un numéro de compte de contrepartie, un pays/une région, un numéro identifiant TVA, un numéro de facture et une date, et les montants totaux des lignes par type de génération d’états. Elle copie également la valeur **Code liste** à partir de la transaction. Vous pouvez modifier manuellement le code liste pour une transaction dans la page **Liste des ventes intracommunautaires**. La fonction **Transfert** crée des enregistrements où la valeur **Statut de génération d’états** est définie sur **Inclus**. Vous pouvez valider les informations qui sont collectées dans la page **Liste des ventes intracommunautaires** à l’aide de la fonction **Valider**. Vous pouvez obtenir des informations détaillées sur la facture (pour le sens de la vente) en utilisant la fonction **Totaux**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>Déclaration de l’état Liste des ventes intracommunautaires
 
@@ -160,8 +160,26 @@ Vous pouvez déclarer un état **Liste des ventes intracommunautaires** à l’a
 
 Lorsque vous avez terminé le processus de génération d’états pour une période spécifique (par exemple, lorsque les administrations fiscales ont accepté l’état **Liste des ventes intracommunautaires**), vous pouvez marquer les enregistrements de la liste des ventes intracommunautaires inclus dans l’état pour la période en définissant la valeur **Statut de génération d’états** sur **Clôturé**. Pour définir ce statut, utilisez la fonction **Marquer comme clôturé** de la page **Liste des ventes intracommunautaires**. Si vous rétablissez la clôture de la période, vous pouvez marquer les enregistrements de la liste des ventes intracommunautaires en définissant la valeur de **Statut de génération d’états** sur **Inclus**. Ces enregistrements peuvent ensuite de nouveau être inclus dans **Liste des ventes intracommunautaires**. Pour définir ce statut, utilisez la fonction **Marquer comme** **inclus** de la page **Liste des ventes intracommunautaires**.
 
+## <a name="list-of-country-specific-topics"></a>Liste des sujets spécifiques à chaque pays
 
-
+| Pays          | Lien      |
+|------------------|-----------|
+| Autriche          | [Liste des ventes intracommunautaires pour l’Autriche](emea-aut-eu-sales-list.md)| 
+| Belgique          |[Liste des ventes intracommunautaires pour la Belgique](emea-bel-eu-sales-list.md)|
+| République tchèque          |[Liste des ventes intracommunautaires pour la République tchèque](emea-cze-eu-sales-list.md)|
+| Danemark          |[Liste des ventes intracommunautaires pour le Danemark](emea-dnk-eu-sales-list.md)|
+| Estonie          |[Liste des ventes intracommunautaires pour l’Estonie](emea-est-eu-sales-list.md)|
+| Finlande          |[Liste des ventes intracommunautaires pour la Finlande](emea-fin-eu-sales-list.md)|
+| France          |[Liste des ventes intracommunautaires pour la France](emea-fra-eu-sales-list.md)|
+| Allemagne          |[Liste des ventes intracommunautaires pour l’Allemagne](emea-deu-eu-sales-list.md)|
+| Hongrie          |[Liste des ventes intracommunautaires pour la Hongrie](emea-hun-eu-sales-list.md)|
+| Lettonie          |[Liste des ventes intracommunautaires pour la Lettonie](emea-lva-eu-sales-list.md)|
+| Lituanie          |[Liste des ventes intracommunautaires pour la Lituanie](emea-ltu-eu-sales-list.md)|
+| Pays-Bas          |[Liste des ventes intracommunautaires pour les Pays-Bas](emea-nl-eu-sales-list.md)|
+| Pologne          |[Liste des ventes intracommunautaires pour la Pologne](emea-pol-eu-sales-list.md)|
+| Espagne          |[Liste des ventes intracommunautaires pour l’Espagne (État 349)](emea-esp-sales-list.md)|
+| Suède          |[Liste des ventes intracommunautaires pour la Suède](emea-swe-eu-sales-list.md)|
+| Royaume-Uni (Irlande du Nord)          |[Liste des ventes de l’UE pour le Royaume-Uni (Irlande du Nord)](emea-uk-eu-sales-list.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

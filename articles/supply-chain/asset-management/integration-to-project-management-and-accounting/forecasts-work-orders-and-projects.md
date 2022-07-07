@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880449"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016795"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prévisions, ordres de travail et projets
 
@@ -60,7 +60,7 @@ Par exemple, dans l’illustration suivante, en raison de la façon dont le type
 
 ![Figure 1.](media/01-integration-to-pma.png)
 
-L’objectif de l’ID de projet sur la tâche de l’ordre de travail, et le numéro d’activité associé, consiste à suivre les coûts associés à la tâche de l’ordre de travail, et l’actif qui y est sélectionné, dans le module **Gestion de projet et comptabilité**. (Pour afficher l’ID du projet et le numéro d’activité, sélectionnez **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail**, puis sélectionnez l’ordre de travail. Dans l’organisateur **Détails de ligne**, le champ **ID de projet** indique l’ID du projet et le champ **Numéro d’activité** précise le numéro de l’activité.) Pour plus d’informations sur le contrôle des coûts dans Gestion des actifs, voir [Contrôle de date et de coût](../controlling-and-reporting/cost-and-date-control.md).
+L’objectif de l’ID de projet sur la tâche de l’ordre de travail, et le numéro d’activité associé, consiste à suivre les coûts associés à la tâche de l’ordre de travail, et l’actif qui y est sélectionné, dans le module **Gestion de projet et comptabilité**. (Pour afficher l’ID du projet et le numéro d’activité, sélectionnez **Gestion des actifs** > **Ordres de travail** > **Tous les ordres de travail**, puis sélectionnez l’ordre de travail. Dans l’organisateur **Détails de ligne**, le champ **ID de projet** indique l’ID du projet et le champ **Numéro d’activité** précise le numéro de l’activité.) Pour plus d’informations sur le contrôle des coûts dans Gestion des actifs, voir [Contrôle de date et de coût](../controlling-and-reporting/cost-and-date-control.md).
 
 L’illustration suivante présente une vue d’ensemble graphique des projets d’ordre de travail et des activités de projet associées.
 

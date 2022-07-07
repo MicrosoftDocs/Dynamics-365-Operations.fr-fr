@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860926"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016302"
 ---
 # <a name="create-an-asset"></a>Créer un actif
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860926"
 
 Cet article décrit comment créer un actif dans le module Gestion des actifs.
 
-1. Cliquez sur **Gestion des actifs** > **Commun** > **Actifs** > **Tous les actifs** ou **Actifs actifs**.
+1. Cliquez sur **Gestion des actifs** > **Actifs** > **Tous les actifs** ou **Actifs**.
 2. Cliquez sur le bouton **Nouveau**.
 3. Dans la boîte de dialogue **Créer des actifs**, insérez des données relatives à l’**Actif** (l’ID d’actif) et le nom de l’actif. Sélectionnez la date et l’heure d’effectivité de l’actif dans le champ **Date d’effet**. À partir de cette date, vous pouvez installer l’actif dans un poste technique, ainsi qu’un déplacement et remplacement de l’actif dans une structure d’actif.
 4. Dans le champ **Type d’actif**, sélectionnez le type d’actif pour l’actif (champ obligatoire). Si nécessaire, sélectionnez **Fabricant d’actif** et **Modèle d’actif** pour l’actif. Si un seul produit a été paramétré, ce produit est automatiquement sélectionné dans le champ **Fabricant d’actif**. Les sélections disponibles dans les champs **Fabricant d’actif** et **Modèle d’actif** dépendent du paramétrage dans [Fabricants et modèles d’actifs](../setup-for-objects/product-and-model.md).

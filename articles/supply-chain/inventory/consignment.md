@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872034"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014907"
 ---
 # <a name="set-up-consignment"></a>Paramétrer la consignation
 
@@ -84,7 +84,7 @@ Si vos fournisseurs utilisent l’interface de collaboration fournisseur, ils pe
 - **Produits reçus à partir du stock de consignation** - Affiche des informations sur les articles et les quantités qui comportent des accusés de réception de marchandises mis à jour pendant le processus de modification de la propriété.
 - **Stock de consignation disponible** - Affiche des informations sur les articles avec consignation qu’ils prévoient de fournir, et les articles qui sont déjà physiquement disponibles sur le site du client.
 
-Pour plus d’informations sur le paramétrage des fournisseurs pour utiliser la collaboration fournisseur, voir [Sécurité de l’utilisateur du portail de fournisseurs](../procurement/configure-security-vendor-portal-users.md).
+Pour plus d’informations sur le paramétrage des fournisseurs pour utiliser la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](../procurement/manage-vendor-collaboration-users.md).
 
 ## <a name="inventory-owners"></a>Propriétaires du stock
 

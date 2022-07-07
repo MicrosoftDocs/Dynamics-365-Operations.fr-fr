@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671672"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017201"
 ---
 # <a name="set-up-a-preferred-technician"></a>Paramétrage d’un technicien préféré 
 
@@ -31,13 +31,13 @@ Vous pouvez sélectionner tout travailleur comme technicien préféré pour un a
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Affectation d’un employé à une équipe de répartition
 
-1.  Cliquez sur **Ressources humaines** \> **Commun** \> **Travailleurs** \> **Travailleurs**. Double-cliquez sur un travailleur pour ouvrir sa page de détails. Dans le volet **Actions**, cliquez sur **Paramétrage** \>**Équipe de répartition** pour ouvrir l’écran **Répartir les collaborateurs**.
+1.  Cliquez sur **Ressources humaines** \> **Collaborateurs** \> **Collaborateurs**. Double-cliquez sur un travailleur pour ouvrir sa page de détails. Dans le volet **Actions**, cliquez sur **Paramétrage** \>**Équipe de répartition** pour ouvrir l’écran **Répartir les collaborateurs**.
 
 2.  Dans le champ **Équipe de répartition**, sélectionnez l’équipe à laquelle affecter le travailleur.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Affectation d’un technicien préféré à un accord de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**. Double-cliquez sur un accord de service pour ouvrir l’écran Détails.
+1.  Cliquez sur **Gestion des services** \> **Accords de service** \> **Accords de service**. Double-cliquez sur un accord de service pour ouvrir l’écran Détails.
 
 2.  Sous l’onglet **Général**, sélectionnez le champ **Technicien préféré**, puis un membre de l’équipe de répartition appropriée comme technicien préféré pour l’accord de service.
 

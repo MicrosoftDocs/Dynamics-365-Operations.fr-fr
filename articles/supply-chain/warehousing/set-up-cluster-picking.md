@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862306"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014718"
 ---
 # <a name="set-up-cluster-picking"></a>Paramétrer le prélèvement de groupement
 
@@ -74,9 +74,14 @@ Lorsque la sélection du groupement est appliqué, la confirmation d’article e
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Paramétrage de la vérification d’article avec la sélection du groupement
 
-1. Dans une option de menu de l’appareil mobile, ouvrez l’écran de paramétrage pour la confirmation du travail : **Gestion des entrepôts** \> **Gestion des entrepôts** \> **Paramétrage** \>  **Appareil mobile** \> **Options de menu d’appareil mobile**.
+1. Accédez à **Gestion des entrepôts** > **Configuration** > **Appareil mobile** > **Options de menu d’appareil mobile**.
+1. Dans le volet de liste, sélectionnez l’option de menu que vous souhaitez configurer.
+1. Dans le volet Actions, sélectionnez **Configuration de la confirmation de travail**.
+1. Effectuez l’une des actions suivantes :
+    - S’il existe déjà une ligne pour le **Type de travail** que vous souhaitez configurer, sélectionnez-le, puis sélectionnez **Modifier** dans le volet Actions.
+    - Si une ligne appropriée n’existe pas, sélectionnez **Nouveau** dans le volet Actions, puis définissez le **Type de travail** sur le type approprié.
+1. Cochez la case **Confirmation du produit** pour votre ligne nouvelle ou sélectionnée. Cela permettra aux collaborateurs de vérifier chaque pièce du stock à l’aide de l’appareil mobile.
 
-1. Dans l’option de menu de l’appareil mobile, ouvrez **Paramétrage de la confirmation du travail**. L’option **Confirmation du produit** permet de confirmer chaque pièce du stock de l’appareil mobile lors de la lecture.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903867"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015316"
 ---
 # <a name="credit-limits-for-customers"></a>Limites de crédit pour les clients
 
@@ -117,7 +117,7 @@ Utilisez l’écran **Paramètres de la comptabilité client** pour spécifier l
 
 Utilisez l’écran **Clients** pour spécifier le montant de la limite de crédit pour un client spécifique. Vous devez être membre d’un rôle de sécurité ayant le droit de Mettre à jour l’enregistrement principal du client (CustCustomersMaintain) pour apporter des modifications dans cet écran.
 
-1.  Cliquez sur **Comptabilité client** \> **Commun** \> **Clients** \> **Tous les clients**. Double-cliquez sur un compte client.
+1.  Cliquez sur **Comptabilité client** \> **Clients** \> **Tous les clients**. Double-cliquez sur un compte client.
 
 2.  Dans l’écran **Clients**, dans le volet Actions, cliquez sur **Modifier**.
 
@@ -132,7 +132,7 @@ Utilisez l’écran **Clients** pour spécifier le montant de la limite de créd
 
 Parfois, vous devez vérifier manuellement la limite de crédit d’un client. Par exemple, vous pouvez vérifier manuellement la limite de crédit d’un client avant de commencer à saisir une commande. Vous pouvez utiliser l’écran **Commande client** pour vérifier manuellement des limites de crédit. Vous devez être membre d’un rôle de sécurité ayant le droit de Mettre à jour la commande client (SalesOrderMaintain) pour apporter des modifications dans cet écran.
 
-1.  Cliquez sur **Ventes et marketing** \> **Commun** \> **Commandes client** \> **Toutes les commandes client**. Double-cliquez sur une commande client.
+1.  Cliquez sur **Ventes et marketing** \> **Commandes client** \> **Toutes les commandes client**. Double-cliquez sur une commande client.
 
 2.  Dans l’écran **Commande client**, dans le volet Actions, sous l’onglet **Gérer**, cliquez sur **Vérifier la limite de crédit**.
 

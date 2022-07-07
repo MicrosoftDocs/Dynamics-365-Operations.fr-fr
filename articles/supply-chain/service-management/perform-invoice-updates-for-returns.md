@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f999dec6639183015b1be9378dc4e8ea01c9a84
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 32a108694c11a2ebd922a71d5c82691584bbb397
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670886"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014747"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>Exécution de mises à jour de factures pour les retours 
 
@@ -35,7 +35,7 @@ Lorsque vous paramétrez la mise à jour de facture pour un traitements par lots
 
 ## <a name="post-an-invoice-for-a-return-order"></a>Validation d’une facture pour un ordre de retour
 
-1.  Cliquez sur **Comptabilité client** \> **Commun** \> **Commandes client** \> **Toutes les commandes client**.
+1.  Cliquez sur **Comptabilité client** \> **Commandes** \> **Toutes les commandes client**.
 
 2.  Sélectionnez une commande client pour laquelle la valeur **Commande retournée** est affichée dans le champ **Type de commande**.
 

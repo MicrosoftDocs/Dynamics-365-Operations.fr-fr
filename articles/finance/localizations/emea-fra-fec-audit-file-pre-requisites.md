@@ -10,12 +10,12 @@ audience: Application User
 ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: 890fe4d9f362f482b776543b453f9329087c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a911dbfd1aefcca2a8a07e7028297bf9b5488c70
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880631"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033708"
 ---
 # <a name="prerequisites-to-generate-an-fec-audit-file-in-france"></a>Prérequis pour générer un fichier d’audit FEC en France
 
@@ -32,3 +32,5 @@ Pour générer un fichier d’audit conforme au Fichier des écritures comptable
 
 > [!NOTE]
 > En France, les modifications de la description des comptes principaux et des journaux validés ne sont pas autorisées.
+>
+> L’utilisation de la fonctionnalité [Un bon](../general-ledger/one-voucher.md) introduit une limitation des rapports FEC pour certains scénarios soumis à FEC. Plus précisément, un scénario de relevé bancaire doit être validé en utilisant différentes pièces justificatives pour les transactions qui ont des comptes de contrepartie différents. Nous vous recommandons de définir le paramètre **Autoriser plusieurs transactions dans un seul bon** sur la page **Paramètres du grand livre** sur **Non** dans votre entité juridique si vous publiez des transactions qui font partie du rapport FEC. 

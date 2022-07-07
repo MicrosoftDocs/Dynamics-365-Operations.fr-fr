@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e75ed6e30ece1f4807ff036d831c269774d941a7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670970"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017374"
 ---
 # <a name="cancel-service-orders"></a>Annuler des commandes de service   
 
@@ -36,11 +36,11 @@ Vous pouvez annuler une commande de service ou une ligne de commande de service 
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>Annulation d’une commande de service dans l’écran Commandes de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez la commande de service, puis dans le volet Actions, cliquez sur **Annuler la commande**.
+1.  Cliquez sur **Gestion des services** \> **Commandes de service** \> **Commandes de service**. Sélectionnez la commande de service, puis dans le volet Actions, cliquez sur **Annuler la commande**.
 
 ## <a name="cancel-a-service-order-line"></a>Annulation d’une ligne de commande de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Double-cliquez sur la commande de service qui contient la ligne à annuler.
+1.  Cliquez sur **Gestion des services** \> **Commandes de service** \> **Commandes de service**. Double-cliquez sur la commande de service qui contient la ligne à annuler.
 
 2.  Sélectionnez la ligne de commande de service à annuler, puis cliquez sur **Annuler la ligne de commande** pour modifier le statut de la ligne sur **Annulé**.
 

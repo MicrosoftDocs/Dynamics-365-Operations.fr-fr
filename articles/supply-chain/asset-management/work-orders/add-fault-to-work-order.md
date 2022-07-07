@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857893"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014996"
 ---
 # <a name="add-fault-to-work-order"></a>Ajoutez une erreur à l’ordre de travail
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857893"
 
 Vous pouvez ajouter les défaillances configurées dans le concepteur de défaillance d’un ordre de travail. Un ou plusieurs enregistrements de défaillance associés doivent être connectés aux types d’actifs utilisé pour l’actif sélectionné dans l’ordre de travail. Pour plus d’informations sur la configuration, voir [Gestion des défaillances](../setup-for-work-orders/fault-management.md).
 
-1. Sélectionnez **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Sélectionnez **Gestion des actifs** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 2. Sélectionnez l’ordre de travail sur lequel faire un enregistrement de défaillance, puis, dans le volet Actions, sous l’onglet **Ordre de travail**, dans le groupe **Actif**, sélectionnez **Défaillance des actifs**.
 
@@ -64,7 +64,7 @@ Sur la page de liste **Défaillances des actifs**, vous pouvez obtenir une vue d
 
 Dans la page de liste **Tous les actifs**, vous pouvez imprimer un état de défaillance de l’actif qui affiche tous les enregistrements de défaillance ainsi qu’une vue d’ensemble graphique des statistiques de défaillance.
 
-1. Sélectionnez **Gestion des actifs** > **Commun** > **Actifs** > **Tous les actifs**.
+1. Sélectionnez **Gestion des actifs** > **Actifs** > **Tous les actifs**.
 
 2. Sélectionner l’actif pour lequel imprimer un état.
 

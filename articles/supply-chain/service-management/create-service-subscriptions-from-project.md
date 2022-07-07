@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a57bc31a49c8671872ad02bc2721d42455a5217
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 38b0c28b013ef93c73b6963087d2d8e7787a77a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670930"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016918"
 ---
 # <a name="create-service-subscriptions-from-a-project"></a>Création de services récurrents à partir d’un projet    
 
@@ -29,7 +29,7 @@ ms.locfileid: "8670930"
 
 Vous pouvez créer un service récurrent à partir d’un projet dans le module **Gestion et comptabilité des projets**.
 
-1.  Cliquez sur **Gestion et comptabilité des projets** \> **Commun** \> **Projets** \> **Tous les projets**. Ouvrez le projet pour lequel vous voulez créer un abonnement.
+1.  Cliquez sur **Gestion et comptabilité des projets** \> **Projets** \> **Tous les projets**. Ouvrez le projet pour lequel vous voulez créer un abonnement.
 
 2.  Dans l’écran **Projets**, dans le volet **Actions**, sous l’onglet **Gérer**, cliquez sur **Service** \> **Service récurrent**.
 

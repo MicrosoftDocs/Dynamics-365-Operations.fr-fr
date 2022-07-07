@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902829"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016708"
 ---
 # <a name="introduction-to-work-orders"></a>Vue d’ensemble des ordres de travail
 
@@ -47,15 +47,15 @@ Les ordres de travail peuvent être créés des façons suivantes :
 
 ## <a name="all-work-orders"></a>Tous les ordres de travail
 
-Sélectionnez **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail**, puis ouvrez la page de liste **Tous les ordres de travail**. Cette page affiche tous les ordres de travail et certaines informations liées à chacun d’eux.
+Sélectionnez **Gestion des actifs** > **Ordres de travail** > **Tous les ordres de travail**, puis ouvrez la page de liste **Tous les ordres de travail**. Cette page affiche tous les ordres de travail et certaines informations liées à chacun d’eux.
 
 L’illustration suivante présente un exemple de la liste de page **Tous les ordres de travail**.
 
 ![Figure 1.](media/01-work-orders.png)
 
-Pour afficher une liste des ordres de travail actifs uniquement, sélectionnez **Gestion des actifs** > **Commun** > **Ordres de travail** > **Ordres de travail actifs** . 
+Pour afficher une liste des ordres de travail actifs uniquement, sélectionnez **Gestion des actifs** > **Ordres de travail** > **Ordres de travail actifs**. 
 
-Pour afficher la liste des tâches d’ordre de travail contenant des actifs installés dans des postes techniques auxquels vous êtes lié en tant que collaborateur, sélectionnez **Gestion des actifs** > **Commun** > **Ordres de travail** > **Mes tâches de maintenance d’ordre de travail de poste technique**. (La relation entre les collaborateurs et les postes techniques est paramétrée sur la page **Collaborateurs**. Pour plus d’informations, voir [Agents de maintenance et groupes de collaborateurs](../setup-for-objects/workers-and-worker-groups.md).)
+Pour afficher la liste des tâches d’ordre de travail contenant des actifs installés dans des postes techniques auxquels vous êtes lié en tant que collaborateur, sélectionnez **Gestion des actifs** > **Ordres de travail** > **Mes tâches de maintenance d’ordre de travail de poste technique**. (La relation entre les collaborateurs et les postes techniques est paramétrée sur la page **Collaborateurs**. Pour plus d’informations, voir [Agents de maintenance et groupes de collaborateurs](../setup-for-objects/workers-and-worker-groups.md).)
 
 Voici quelques façons d’utiliser la page **Tous les ordres de travail** :
 

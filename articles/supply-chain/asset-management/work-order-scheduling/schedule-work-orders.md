@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845052"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016737"
 ---
 # <a name="schedule-work-orders"></a>Planifier des ordres de travail
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845052"
 
 Cet article explique comment planifier des ordres de travail dans le module Gestion des actifs. 
 
-Le nombre d’heures requises pour un ordre de travail est défini par la somme des heures prévues moins les heures validées. Si plus de temps est nécessaire, les prévisions doivent être ajustées en conséquence. Dans **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**, vous pouvez afficher ou modifier des prévisions sur un ordre de travail en sélectionnant l’ordre de travail et en cliquant sur **Prévisions** sur l’onglet **Ordre de travail** . Lorsque les ordres de travail ont été créés et estimés, l’étape suivante d’exécution des ordres de travail consiste à répartir les agents et les outils nécessaires de maintenance.
+Le nombre d’heures requises pour un ordre de travail est défini par la somme des heures prévues moins les heures validées. Si plus de temps est nécessaire, les prévisions doivent être ajustées en conséquence. Dans **Gestion des actifs** > **Ordres de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**, vous pouvez afficher ou modifier des prévisions sur un ordre de travail en sélectionnant l’ordre de travail et en cliquant sur **Prévisions** sur l’onglet **Ordre de travail**. Lorsque les ordres de travail ont été créés et estimés, l’étape suivante d’exécution des ordres de travail consiste à répartir les agents et les outils nécessaires de maintenance.
 
 Seuls les ordres de travail avec un état du cycle de vie de l’ordre de travail qui permet la planification peuvent être planifiés. Autoriser la planification est configuré dans **Gestion des actifs** > **Paramétrage** > **Ordres de travail** > **États du cycle de vie** > **Général** organisateur > bouton à bascule **Autoriser la planification**.
 
-1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail**.
+1. Cliquez sur **Gestion des actifs** > **Ordres de travail** > **Tous les ordres de travail**.
 
 2. Sélectionnez les ordres de travail que vous souhaitez planifier dans la liste. Par exemple, vous pouvez trier la liste par **État du cycle de vie actuel**.
 

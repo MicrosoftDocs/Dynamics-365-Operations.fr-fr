@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890942"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015491"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Forums aux questions sur les calculs pour les modèles de configuration de produit
 
@@ -73,7 +73,7 @@ Vous pouvez remplacer la valeur calculée pour l’attribut cible à moins que l
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Comment définir un attribut cible comme masqué ou en lecture seule ?
 Pour définir un attribut comme masqué ou en lecture seule, procédez comme suit :
 
-1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Commun** &gt; **Modèles de configuration de produit**.
+1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Produits** &gt; **Modèles de configuration de produit**.
 2.  Sélectionnez un modèle de configuration de produit. Dans le volet Actions, cliquez sur **Modifier**.
 3.  Sur la page **Détails du modèle de configuration de produits basée sur les contraintes**, sélectionnez l’attribut à utiliser comme attribut cible.
 4.  Dans l’organisateur **Attributs**, sélectionnez **Masqué** ou **Lecture seule**.
@@ -96,7 +96,7 @@ Ce message s’affiche lorsqu’un calcul comprend une erreur ou qu’une contra
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Pourquoi est-ce que j’obtiens un message d’erreur alors que j’ai correctement contrôlé mon modèle de produit ?
 Les calculs ne sont pas inclus dans le contrôle. Vous devez tester le modèle de configuration de produit pour rechercher les erreurs dans les calculs. Pour tester un modèle de configuration de produit, procédez comme suit :
 
-1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Commun** &gt; **Modèles de configuration de produit**.
+1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Produits** &gt; **Modèles de configuration de produit**.
 2.  Sélectionnez un modèle de configuration de produit. Dans le volet Actions, dans le groupe **Exécuter**, cliquez sur **Test**.
 
 

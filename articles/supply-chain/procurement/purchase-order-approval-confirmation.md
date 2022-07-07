@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907375"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016447"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Approuver et confirmer des commandes fournisseur
 
@@ -50,7 +50,7 @@ Lorsque de la gestion des modifications est activée, les CF passent par six sta
 ## <a name="confirming-purchase-orders"></a>Confirmation des commandes fournisseur
 Les CF qui ont un statut d’approbation **Approuvée** peuvent passer par des étapes supplémentaires avant d’être confirmées. Par exemple, vous devrez peut-être envoyer une demande de renseignements sur les achats au fournisseur pour obtenir des informations sur les prix, les escomptes ou les dates de livraison. Dans ce cas, vous pouvez définir la CF sur le statut **Fait l’objet d’une révision externe** à l’aide de l’action **Demande de renseignements sur les achats**.
 
-Les fournisseurs qui sont configurés pour utiliser le portail fournisseur peuvent consulter les commandes sur le portail et les approuver ou les refuser. Au cours de ce processus de révision, la CF a le statut **Fait l’objet d’une révision externe**. Le portail fournisseur peut être configuré de sorte qu’une confirmation du fournisseur confirme automatiquement la commande dans Supply Chain Management. Vous pouvez également confirmer manuellement une CF après avoir reçu la confirmation du fournisseur. Si un fournisseur refuse une CF, le refus est reçu avec le motif du rejet et des propositions de modifications. Dans ce cas, le statut de la CF reste **Fait l’objet d’une révision externe**.
+Les fournisseurs qui sont configurés pour utiliser le module de collaboration fournisseur peuvent consulter les commandes sur le portail et les approuver ou les refuser. Au cours de ce processus de révision, la CF a le statut **Fait l’objet d’une révision externe**. Le module de collaboration fournisseur peut être configuré de sorte qu’une confirmation du fournisseur confirme automatiquement la commande dans Supply Chain Management. Vous pouvez également confirmer manuellement une CF après avoir reçu la confirmation du fournisseur. Si un fournisseur refuse une CF, le refus est reçu avec le motif du rejet et des propositions de modifications. Dans ce cas, le statut de la CF reste **Fait l’objet d’une révision externe**.
 
 Il existe également une option pour générer une confirmation pro forma pour une commande avant le traitement de la confirmation réelle. Cette option crée simplement un état que vous pouvez partager avec le fournisseur. Elle ne crée pas d’informations de journal.
 

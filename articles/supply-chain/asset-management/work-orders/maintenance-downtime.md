@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a76c0ecefbb8da762ac68cbdd7bb44f68a89894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a310152685f733093cc7e50404c23b6f24c40cc
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851854"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016650"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Temps d’arrêt pour maintenance pour des ordres de travail
 
@@ -52,7 +52,7 @@ Après avoir créé les codes motif de temps d’arrêt pour maintenance que vou
 
 ## <a name="create-maintenance-downtime-registrations"></a>Créer des enregistrements de temps d’arrêt pour maintenance
 
-1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Cliquez sur **Gestion des actifs** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 2. Sélectionnez l’ordre de travail puis, sous l’onglet **Ordre de travail**, dans le groupe **Actif**, sélectionnez **Temps d’arrêt pour maintenance**.
 

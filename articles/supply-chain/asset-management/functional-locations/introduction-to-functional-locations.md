@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882835"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016041"
 ---
 # <a name="introduction-to-functional-locations"></a>Vue d’ensemble des emplacements fonctionnels
 
@@ -59,7 +59,7 @@ Après avoir créé une hiérarchie de postes techniques, l’étape suivante co
 
 ## <a name="all-functional-locations"></a>Tous les postes techniques
 
-Sélectionnez **Gestion des actifs** \> **Commun** \> **Postes techniques** \> **Tous les postes techniques** pour ouvrir la page de liste **Tous les postes techniques**. Cette page affiche tous les postes techniques et certaines informations liées à chacun d’eux. Pour afficher uniquement les postes techniques actifs, sélectionnez **Postes techniques actifs**. Pour afficher uniquement les postes techniques auxquels vous êtes associé en tant qu’agent de maintenance, sélectionnez **Mes postes techniques actifs**. (Cette relation est configurée sur la page **Collaborateurs**. Pour plus d’informations, voir [Agents de maintenance et groupes de collaborateurs](../setup-for-objects/workers-and-worker-groups.md).)
+Sélectionnez **Gestion des actifs** \> **Postes techniques** \> **Tous les postes techniques** pour ouvrir la page de liste **Tous les postes techniques**. Cette page affiche tous les postes techniques et certaines informations liées à chacun d’eux. Pour afficher uniquement les postes techniques actifs, sélectionnez **Postes techniques actifs**. Pour afficher uniquement les postes techniques auxquels vous êtes associé en tant qu’agent de maintenance, sélectionnez **Mes postes techniques actifs**. (Cette relation est configurée sur la page **Collaborateurs**. Pour plus d’informations, voir [Agents de maintenance et groupes de collaborateurs](../setup-for-objects/workers-and-worker-groups.md).)
 
 Sur la page de liste **Tous les postes techniques**, sélectionnez un lien dans la colonne **Poste technique** pour afficher les détails de l’enregistrement sélectionné. Pour modifier le poste technique, sélectionnez le bouton **Modifier**. La vue des détails affiche des informations détaillées associées au poste. Elle inclut également un volet **Informations associées** à droite. Ce volet affiche la hiérarchie des postes techniques. Vous pouvez développer et réduire le volet **Informations associées**.
 

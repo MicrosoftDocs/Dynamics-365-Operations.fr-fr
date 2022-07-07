@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851621"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015550"
 ---
 # <a name="import-vendor-catalogs"></a>Importer les catalogues fournisseur
 
@@ -46,7 +46,7 @@ Pour importer les données d’un catalogue fournisseur, procédez comme suit :
 
 4. Configurez le workflow pour l’importation du catalogue. Créez un modèle de fichier DMC et partagez-le avec votre fournisseur.
 
-5. Sélectionnez **Approvisionnements** \> **Commun** \> **Catalogues** \> **Catalogues fournisseur** pour créer un catalogue fournisseur. Les fichiers DMC envoyés par le fournisseur sont regroupés dans ce catalogue. 
+5. Sélectionnez **Approvisionnements** \> **Catalogues** \> **Catalogues fournisseur** pour créer un catalogue fournisseur. Les fichiers DMC envoyés par le fournisseur sont regroupés dans ce catalogue.
 
 6. Téléchargez le fichier DMC.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887600"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016766"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Types, catégories, variantes, opérations et listes de contrôle de tâches de maintenance
 
@@ -243,7 +243,7 @@ Vous pouvez paramétrer un traitement par lots pour mettre à jour les référen
 
 Après avoir créé les combinaisons par défaut de type de tâche de maintenance requises, vous pouvez utiliser la page **Tous les actifs** pour obtenir une vue d’ensemble de la valeur par défaut du type de tâche de maintenance associé à un actif spécifique. Cette vue d’ensemble indique toutes les combinaisons de valeurs par défaut du type de tâche de maintenance qui peuvent être utilisées sur le type d’actif sélectionné pour l’actif. Ces combinaisons incluent des combinaisons ayant différentes variantes de type de tâche de maintenance et d’opérations de tâches de maintenance.
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
+1. Sélectionnez **Gestion des actifs** \> **Actifs** \> **Tous les Actifs** ou **Actifs actifs**.
 2. Dans la liste, sélectionnez l’actif pour afficher une vue d’ensemble des combinaisons de types de tâches de maintenance.
 3. Dans le volet Actions, sous l’onglet **Général**, dans le groupe **Informations associées**, cliquez sur **Types de tâches de maintenance**.
 

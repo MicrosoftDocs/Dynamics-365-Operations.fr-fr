@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849646"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016128"
 ---
 # <a name="calculate-capacity-load"></a>Calculer la charge de la capacité
 
@@ -35,7 +35,7 @@ Dans le module Gestion des actifs, vous pouvez calculer la charge de la capacit�
 
 Cela est utile si vous souhaitez obtenir une vue d’ensemble de la charge de la capacité prévue pour une période spécifique. Le calcul de la charge maximale peut être effectué sur tous les actifs ou sur des actifs sélectionnés. Vous pouvez également effectuer un calcul sur les activités de temps d’arrêt pour maintenance ou les regroupements d’ordres de travail.
 
-1. Cliquez sur **Gestion des actifs** > **Recherches** > **Charge maximale** ou **Gestion des actifs** > **Commun** > **Regroupements d’ordres de travail** > **Tous les regroupements d’ordres de travail** / **Regroupements d’ordres de travail actifs** > sélectionnez le regroupement d’ordres de travail dans la liste > cliquez sur le bouton **Charge de la capacité** ou **Gestion des actifs** > **Commun** > **Activités de temps d’arrêt pour maintenance** > **Toutes les activités de temps d’arrêt pour maintenance** / **Activités de temps d’arrêt pour maintenance actifs** > sélectionnez l’activité de maintenance dans la liste > cliquez sur le bouton **Charge de la capacité**.
+1. Cliquez sur **Gestion des actifs** > **Recherches** > **Charge maximale** ou **Gestion des actifs** > **Regroupements d’ordres de travail** > **Regroupements d’ordres de travail** / **Tous les regroupements d’ordres de travail** > sélectionnez le regroupement d’ordres de travail dans la liste > bouton **Charge de la capacité** ou **Gestion des actifs** > **Activités de temps d’arrêt pour maintenance** > **Toutes les activités de temps d’arrêt pour maintenance** / **Activités de temps d’arrêt pour maintenance actives** > sélectionnez l’activité de maintenance dans la liste > bouton **Charge de la capacité**.
 
 2. Dans la boîte de dialogue **Calculer la charge de la capacité**, sélectionnez une période de calcul dans les champs **Date et heure de début** et **Date et heure de fin**.
 

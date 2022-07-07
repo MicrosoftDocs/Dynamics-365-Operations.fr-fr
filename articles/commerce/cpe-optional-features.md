@@ -1,8 +1,8 @@
 ---
-title: Configurer des fonctions facultatives pour un environnement d’évaluation Dynamics 365 Commerce
-description: Cet article explique comment configurer des fonctionnalités facultatives pour un environnement d’évaluation Microsoft Dynamics 365 Commerce.
+title: Configurer les fonctionnalités facultatives pour un environnement de bac à sable dans Dynamics 365 Commerce
+description: Cet article explique comment configurer des fonctionnalités facultatives pour un environnement de bac à sable Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861912"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013236"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurer des fonctions facultatives pour un environnement d’évaluation Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Configurer les fonctionnalités facultatives pour un environnement de bac à sable dans Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cet article explique comment configurer des fonctionnalités facultatives pour un environnement d’évaluation Microsoft Dynamics 365 Commerce.
+Cet article explique comment configurer des fonctionnalités facultatives pour un environnement de bac à sable Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Si vous souhaitez évaluer les fonctionnalités d’e-mail transactionnelles, les conditions requises suivantes doivent être remplies :
+Si vous souhaitez montrer les fonctionnalités d’e-mail transactionnelles, les conditions requises suivantes doivent être remplies :
 
-- Un serveur de messagerie disponible (serveur \[SMTP\], Simple Mail Transfer Protocol) qui peut être utilisé par l’abonnement Microsoft Azure dans lequel vous avez mis en service l’environnement d’évaluation.
+- Un serveur de messagerie disponible (serveur \[SMTP\], Simple Mail Transfer Protocol) qui peut être utilisé par l’abonnement Microsoft Azure dans lequel vous avez mis en service l’environnement de bac à sable.
 - Le nom de domaine complet (FQDN)/adresse IP, le numéro de port SMTP, et les détails d’authentification disponibles.
 
 ## <a name="configure-the-image-back-end"></a>Configurer l’arrière-plan de l’image
@@ -39,10 +39,10 @@ Si vous souhaitez évaluer les fonctionnalités d’e-mail transactionnelles, le
 ### <a name="find-your-media-base-url"></a>Rechercher votre URL de base multimédia
 
 > [!NOTE]
-> Avant de pouvoir terminer cette procédure, vous devez suivre les étapes dans [Configurer votre site dans Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
+> Avant de pouvoir terminer cette procédure, vous devez suivre les étapes dans [Configurer votre site dans Commerce](cpe-post-provisioning.md#set-up-your-e-commerce-sites).
 
 1. Connectez-vous au générateur de site Commerce en utilisant l’URL que vous avez notée lorsque vous avez initialisé le commerce électronique lors de la mise en service (voir [Initialiser le commerce électronique](provisioning-guide.md#initialize-e-commerce)).
-1. Ouvrez le site **Fabrikam**.
+1. Ouvrez le site **Fabrikam**, **Adventure Works** ou **Adventure Works Business** avec lequel vous souhaitez travailler.
 1. Dans le menu à gauche, sélectionnez **Bibliothèque multimédia**.
 1. Sélectionnez un actif d’image unique.
 1. Dans l’inspecteur de propriété à droite, recherchez la propriété **URL publique**. La valeur est une URL. Voici un exemple :
@@ -98,9 +98,9 @@ Pour chaque événement transactionnel pour lequel envoyer des e-mails vous deve
 
 ## <a name="customize-email-templates"></a>Personnaliser des modèles d’e-mail
 
-Vous souhaiterez peut-être personnaliser les modèles d’e-mails afin qu’ils utilisent des images différentes. Ou vous souhaiterez peut-être mettre à jour les liens dans les modèles afin qu’ils accèdent à votre environnement d’évaluation. Cette procédure explique le téléchargement des modèles par défaut, leur personnalisation et la mise à jour des modèles à jour dans le système.
+Vous souhaiterez peut-être personnaliser les modèles d’e-mails afin qu’ils utilisent des images différentes. Ou vous souhaiterez peut-être mettre à jour les liens dans les modèles afin qu’ils accèdent à votre environnement de bac à sable. Cette procédure explique le téléchargement des modèles par défaut, leur personnalisation et la mise à jour des modèles à jour dans le système.
 
-1. Dans un navigateur web, téléchargez le [fichier .zip des modèles d’e-mails par défaut de l’environnement d’évaluation Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) sur votre ordinateur local. Ce fichier contient les documents HTML suivants :
+1. Dans un navigateur web, téléchargez le [fichier .zip des modèles d’e-mails démo Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) sur votre ordinateur local. Ce fichier contient les documents HTML suivants :
 
     - Modèle de confirmation de commande
     - Émettre un modèle de carte cadeau
@@ -167,15 +167,11 @@ Les jetons suivants sont remplacés par des valeurs pour chaque produit de la co
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble d’un environnement d’évaluation Dynamics 365 Commerce](cpe-overview.md)
+[Mettre en service un environnement de bac à sable dans Dynamics 365 Commerce](provisioning-guide.md)
 
-[Mettre en service un environnement d’évaluation Dynamics 365 Commerce](provisioning-guide.md)
+[Configurer un environnement de bac à sable dans Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurer un environnement d’évaluation Dynamics 365 Commerce](cpe-post-provisioning.md)
-
-[Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce](cpe-bopis.md)
-
-[FAQ des environnements d’évaluation Dynamics 365 Commerce](cpe-faq.md)
+[Configurer le BOPIS dans un environnement de bac à sable Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

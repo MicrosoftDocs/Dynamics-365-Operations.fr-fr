@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891232"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016824"
 ---
 # <a name="create-maintenance-requests"></a>Créer des demandes de maintenance
 
@@ -32,9 +32,9 @@ Les demandes de maintenance peuvent être utilisées si les agents de maintenanc
 
 **Exemple :** pendant qu’un agent de maintenance effectue une réparation, il découvre qu’un autre actif situé au même endroit doit être réparé. Cependant, l’agent de maintenance n’a pas le temps ni les pièces de rechange nécessaires pour effectuer le travail de réparation. Par conséquent, il crée une demande de maintenance pour l’actif et entre une brève description du problème.
 
-La section **Demandes de maintenance actives** du volet **Informations associées** à droite de la page **Tous les actifs** ou **Actifs actifs** (**Gestion d’actifs** \> **Commun** \> **Actifs** \> **Tous les actifs** ou **Actifs actifs**) affiche les demandes de maintenance actives attachées à l’actif sélectionné.
+La section **Demandes de maintenance actives** du volet **Informations associées** à droite de la page **Tous les actifs** ou **Actifs** (**Gestion d’actifs** \> **Actifs** \> **Tous les actifs** ou **Actifs**) affiche les demandes de maintenance actives attachées à l’actif sélectionné.
 
-1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Toutes les demandes de maintenance** ou **Demandes de maintenance actives**.
+1. Sélectionnez **Gestion des actifs** \> **Demandes de maintenance** \> **Toutes les demandes de maintenance** ou **Demandes de maintenance actives**.
 2. Sélectionnez **Nouveau**.
 3. Dans la boîte de dialogue **Créer une demande**, dans le champ **Type de demande de maintenance**, sélectionnez le type de demande de maintenance. Un type par défaut est proposé.
 4. Dans le champ **Description**, entrez un nom ou un titre décrivant brièvement la demande de maintenance.

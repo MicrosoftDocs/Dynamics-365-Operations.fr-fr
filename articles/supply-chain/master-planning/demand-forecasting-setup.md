@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fae2ac53dec8696075e7506d979c1cf9fb277af5
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901000"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960152"
 ---
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
@@ -340,6 +340,7 @@ Lorsque vous sélectionnez *Azure Machine Learning Service* en tant que stratég
 - [Vue d’ensemble de la prévision de la demande](introduction-demand-forecasting.md)
 - [Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)
 - [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
+- [Webinaire : Prévisions de demande avec les séries Azure Machine Learning](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874186"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016012"
 ---
 # <a name="introduction-to-assets"></a>Vue d’ensemble des actifs
 
@@ -36,7 +36,7 @@ Un actif est automatiquement mis à jour avec des informations associées. Par e
 
 ## <a name="all-assets"></a>Tous les actifs
 
-Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les actifs**. La page de liste **Tous les actifs** répertorie tous les actifs et certaines informations les concernant. Pour afficher uniquement les actifs actifs, sélectionnez **Actifs actifs**. Pour afficher uniquement les actifs installés aux postes techniques auxquels vous les avez associés en tant qu’agent de maintenance, sélectionnez **Mes actifs actifs**. (Cette relation est configurée sur la page **Collaborateurs**. Pour plus d’informations, voir [Agents de maintenance et groupes de collaborateurs](../setup-for-objects/workers-and-worker-groups.md).)
+Sélectionnez **Gestion des actifs** \> **Actifs** \> **Tous les actifs**. La page de liste **Tous les actifs** répertorie tous les actifs et certaines informations les concernant. Pour afficher uniquement les actifs actifs, sélectionnez **Actifs actifs**. Pour afficher uniquement les actifs installés aux postes techniques auxquels vous les avez associés en tant qu’agent de maintenance, sélectionnez **Mes actifs actifs**. (Cette relation est configurée sur la page **Collaborateurs**. Pour plus d’informations, voir [Agents de maintenance et groupes de collaborateurs](../setup-for-objects/workers-and-worker-groups.md).)
 
 Dans la vue de grille **Tous les actifs**, sélectionnez un lien dans la colonne **Actif** pour afficher les détails de l’enregistrement sélectionné. Pour modifier l’enregistrement, sélectionnez le bouton **Modifier**. La vue des détails affiche des informations détaillées associées à l’actif. Un volet **Informations associées** à droite contient des informations supplémentaires relatives à l’actif. Développez le volet pour afficher les informations associées à l’actif sélectionné.
 

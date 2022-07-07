@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907288"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023786"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907288"
 Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n’ont pas l’intégration d’échange de données informatisé (EDI) avec Microsoft Dynamics 365 Supply Chain Management. Il permet aux fournisseurs d’utiliser les commandes fournisseur, les factures, les informations sur le stock de consignation et les appels d’offre. Il leur permet également d’accéder à des parties de leurs données principales. Cet article explique comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l’interface de collaboration fournisseur pour utiliser les CF, les appels d’offre et le stock de consignation. Elle explique également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations visibles par tous les fournisseurs qui répondent à une commande fournisseur.
 
 Pour plus d’informations sur ce que les fournisseurs externes peuvent effectuer dans l’interface de collaboration fournisseur, voir [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> Les informations sur la collaboration fournisseur contenues dans cet article s’appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d’informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l’aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
 
 Pour plus d’informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d’informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Un administrateur configure les paramètres généraux de la collaboration fourn
 
 Avant que les comptes d’utilisateur puissent être créés pour un fournisseur externe, vous devez configurer le compte fournisseur afin que ce fournisseur puisse utiliser la collaboration fournisseur. Sur la page **Fournisseurs**, sous l’onglet **Général**, définissez le champ **Activation de la collaboration**. Les options suivantes sont disponibles :
 
-- **Actif (la CF est confirmée automatiquement)** – Les CF sont automatiquement confirmées si le fournisseur les accepte sans modifications.
+- **Actif (la CF est confirmée automatiquement)** – Les CF sont automatiquement confirmées si le fournisseur les accepte sans modifications. Si vous utilisez cette option, assurez-vous de programmer le batch *Confirmer les bons de commande acceptés de la collaboration des fournisseurs*, qui est responsable du traitement des confirmations. Pour obtenir des instructions, reportez-vous à la section suivante.
 - **Actif (la CF n’est pas confirmée automatiquement)** – Votre organisation doit confirmer manuellement les CF une fois que le fournisseur les a acceptées.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Planification du travail par lots de confirmation automatique
+
+Si vous utilisez l’option **Actif (le bon de commande est automatiquement confirmé)** pour un ou plusieurs de vos fournisseurs (comme décrit dans la section précédente), vous devez programmer le traitement par lots *Confirmer les bons de commande acceptés de la collaboration des fournisseurs*, qui est responsable du traitement et de la confirmation de vos bons de commande. Sinon, les confirmations automatiques ne se produiront jamais. Procédez comme suit pour planifier cette tâche.
+
+1. Accédez à **Approvisionnement et approvisionnement \> Acheter en ligne \> Confirmation du bon de commande \> Confirmer les bons de commande acceptés de la collaboration des fournisseur**.
+1. Dans la boîte de dialogue **Confirmer les bons de commande acceptés de la collaboration des fournisseurs**, sur le raccourci **Exécuter en arrière-plan**, sélectionnez **Récurrence**.
+1. Dans la boîte de dialogue **Définir la récurrence**, définissez la planification d’exécution de la tâche. Lorsque vous choisissez votre horaire, tenez compte des points suivants :
+
+    - Si votre système traite un grand volume de données et exécute de nombreux travaux par lots, les performances peuvent être un problème. Dans ce cas, vous ne devriez probablement pas exécuter cette tâche plus souvent que toutes les 10 minutes (selon vos autres exigences). Si les performances ne sont pas un problème pour vous, vous pouvez l’exécuter aussi souvent que toutes les 1 à 2 minutes si nécessaire.
+    - Si vos fournisseurs ont tendance à livrer les marchandises rapidement (dans la journée convenue), la récurrence devrait être fréquente (toutes les 10 à 30 minutes environ). De cette manière, les magasiniers pourront recevoir les marchandises contre le bon de commande confirmé une fois la confirmation effectuée.
+    - Si vos fournisseurs ont tendance à avoir un long délai (plus de 24 heures), vous pouvez configurer cette tâche pour qu’elle s’exécute une seule fois par jour environ.
+
+1. Sélectionnez **OK** pour appliquer votre horaire et revenir à la boîte de dialogue **Confirmer les bons de commande acceptés de la collaboration des fournisseurs**.
+1. Définissez les options en arrière-plan supplémentaires selon vos besoins. La boîte de dialogue propose les options habituelles de configuration des travaux par lots dans Supply Chain Management.
+
+Pour plus d’informations sur les traitements par lots, voir [Vue d’ensemble du traitement par lots](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Spécifier si le fournisseur doit voir les informations tarifaires
 
