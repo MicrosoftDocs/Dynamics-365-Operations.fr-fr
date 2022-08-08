@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906631"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206473"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Génération d’états et analyses avec la page d’accueil Power BI
 
@@ -29,10 +29,10 @@ ms.locfileid: "8906631"
 
 Cet article décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils décisionnels et de génération d’états disponibles.
 
-## <a name="get-started"></a>Mise en route
+## <a name="get-started"></a>Démarrage
 - [Accès aux informations et génération d’états](information-access-reporting.md)
 - [Forum technique : options de génération d’états](https://www.youtube.com/watch?v=NzZONjKs5xA) (vidéo)
-- [Finance and Operations : blog sur les services d’analyse et de génération d’états Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
+- [Finance et opérations : blog sur les services d’analyse et de génération d’états Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Espaces de travail analytiques
 Les espaces de travail peuvent utiliser des éléments infographiques et visuels complets qui sont pris en charge par Microsoft Power BI. Ces éléments infographiques et visuels comprennent de nombreux contrôles fournis par des tiers. Par conséquent, les espaces de travail peuvent offrir une expérience visuelle interactive aux utilisateurs.

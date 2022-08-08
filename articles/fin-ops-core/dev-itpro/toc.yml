@@ -18,15 +18,13 @@
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.27 (juillet\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: "Mises à jour de la plateforme pour la version\_10.0.26 (mai\_2022)"
-                  href: get-started/whats-new-platform-updates-10-0-26.md
-            - name: Fonctions supprimées ou déconseillées
+            - name: Fonctionnalités supprimées ou déconseillées
               items:
-                - name: Page d’accueil des fonctions supprimées ou déconseillées
+                - name: Page d’accueil des Fonctionnalités supprimées ou déconseillées
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Fonctions de la plateforme supprimées ou déconseillées
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Fonctions supprimées ou déconseillées dans les versions précédentes
+                - name: Fonctionnalités supprimées ou déconseillées dans les versions précédentes
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: "Fonctionnalités d’AX\_2012 ayant été reportées"
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -106,39 +104,39 @@
                       items:
                         - name: Prospect en disponibilités
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Synchroniser directement les comptes provenant du module Sales sur les clients de Finance and Operations
+                        - name: Synchroniser directement les comptes provenant du module Sales pour les clients des applications de finances et d’opérations
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Synchroniser directement les produits provenant de Finance and Operations sur les produits du module Sales
+                        - name: Synchroniser directement les produits provenant des applications de finances et d’opérations sur les produits du module Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations
+                        - name: Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients des applications de finances et d’opérations
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Synchroniser directement les en-têtes et les lignes de devis provenant du module Sales sur Finance and Operations
+                        - name: Synchroniser directement les en-têtes et les lignes de devis provenant du module Sales sur les applications de finances et d’opérations
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Synchronisation des commandes client directement entre Sales et Finance and Operations
+                        - name: Synchronisation des commandes client directement entre Sales et les applications de finances et d’opérations
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Synchroniser directement les en-têtes et les lignes de facture client entre Finance and Operations et Sales
+                        - name: Synchroniser directement les en-têtes et les lignes de facture client entre les applications de finances et d’opérations et le module Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Configuration de l’intégration avec Field Service
                       items:
                         - name: Vue d’ensemble de la configuration de l’intégration avec Field Service
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Synchroniser des produits de Finance and Operations sur des produits de Field Service
+                        - name: Synchroniser des produits dans les applications de finances et d’opérations sur des produits de Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Synchroniser des bons de travail de Field Service sur des commandes client de Finance and Operations
+                        - name: Synchroniser des bons de travail de Field Service sur des commandes client dans les applications de finances et d’opérations
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Synchroniser des factures d’accord de Field Service sur des factures financières dans Finance and Operations
+                        - name: Synchroniser des factures d’accord de Field Service sur des factures financières dans les applications de finances et d’opérations
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Synchroniser les transferts et les ajustements de stock entre Field Service et Finance and Operations
+                        - name: Synchroniser les transferts et les ajustements de stock entre Field Service et les applications de finances et d’opérations
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Synchroniser les informations sur le niveau de stock entre Finance and Operations et Field Service
+                        - name: Synchroniser les informations sur le niveau de stock entre les applications de finances et d’opérations et Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Synchroniser les produits avec l’unité de stock entre Finance and Operations et Field Service
+                        - name: Synchroniser les produits avec l’unité de stock entre les applications de finances et d’opérations et Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Synchroniser la liste des projets entre Finance and Operations et Field Service
+                        - name: Synchroniser la liste des projets entre les applications de finances et d’opérations et Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Synchroniser les entrepôts entre Finance and Operations et Field Service
+                        - name: Synchroniser les entrepôts entre les applications de finances et d’opérations et Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Synchroniser les ordres de travail avec un projet entre Field Service et Finance and Operations
+                        - name: Synchroniser les ordres de travail avec un projet entre Field Service et les applications de finances et d’opérations
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: "Configurer l’intégration de Project\_Service\_Automation"
                       items:
@@ -348,9 +346,9 @@
                   href: deployment/arm-onboarding.md
                 - name: Terminer le processus d’intégration d’Azure Resource Manager pour les projets LCS de l’administration américaine
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute et Finance and Operations
+                - name: Azure ExpressRoute et les applications de finances et d’opérations
                   href: deployment/expressroute.md
-                - name: Architecture de Finance and Operations
+                - name: Architecture des applications de finances et d’opérations
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Appliquer des mises à jour à des environnements cloud
                   href: deployment/apply-deployable-package-system.md
@@ -584,7 +582,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Modèles et packages
                   href: dev-tools/models.md
-                - name: Type de projet Finance and Operations
+                - name: Type de projet des applications de finances et d’opérations
                   href: dev-tools/projects.md
                 - name: Modules complémentaires d’outils pour Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -1050,7 +1048,7 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Didacticiel de l’extension Azure DevOps (version préliminaire publique)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Extension Visual Studio (version préliminaire privée)
+                - name: Extension Visual Studio (version préliminaire publique)
                   href: lifecycle-services/dts-visual-studio.md
                 - name: Extension de Visual Studio Code (version préliminaire publique)
                   href: lifecycle-services/dts-vscode-doc.md
@@ -1224,9 +1222,9 @@
                   href: power-platform/admin-reference.md
                 - name: Activer les entités virtuelles de Dataverse
                   href: power-platform/enable-virtual-entities.md
-                - name: Portails Power Apps avec Finance and Operations
+                - name: Portails Power Apps avec les applications de finances et d’opérations
                   href: power-platform/power-portal-reference.md
-                - name: FAQ sur les entités virtuelles de Finance and Operations
+                - name: FAQ sur les entités virtuelles des applications de finances et d’opérations
                   href: power-platform/faq.md
             - name: Événements commerciaux
               items:
@@ -1574,11 +1572,11 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Support
           items:
-            - name: Obtenir de l’aide sur Finance and Operations et Lifecycle Services
+            - name: Obtenir de l’aide sur les applications de finances et d’opérations et Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: "Vue d’ensemble du support technique de Dynamics\_365"
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Obtenir de l’aide sur Finance and Operations exploité par 21Vianet en Chine
+            - name: Obtenir de l’aide sur les applications de finances et d’opérations exploitées par 21Vianet en Chine
               href: lifecycle-services/21vianet-support.md
             - name: Configurer le support technique pour les applications de finances et d’opérations
               href: lifecycle-services/support-experience.md
@@ -1696,9 +1694,9 @@
           items:
             - name: 'Mises à niveau, mises à jour et ressources'
               href: migration-upgrade/upgrade-home-page.md
-            - name: "Mise à niveau de AX\_2012"
+            - name: "Mise à niveau depuis AX\_2012"
               items:
-                - name: "Mise à niveau d’AX\_2012 vers Finance and Operations"
+                - name: "Mise à niveau d’AX\_2012 vers les applications de finances et d’opérations"
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: "Mise à niveau d’AX\_2012\_-\_Planifier à l’aide de l’analyseur de mise à niveau"
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: "Migrer des données depuis AX\_2009"
               items:
-                - name: "Migrer des données d’AX\_2009 vers Finances et opérations"
+                - name: "Migrer des données d’AX\_2009 vers les applications de finances et d’opérations"
                   href: migration-upgrade/data-migration-tool.md
                 - name: "Migration d’AX\_2009\_-\_Installer l’outil de migration des données"
                   href: migration-upgrade/install-dmt.md
@@ -1826,7 +1824,7 @@
                   href: dev-tools/update-development-tools.md
             - name: Obsolescences
               items:
-                - name: Fonctions supprimées ou déconseillées
+                - name: Fonctionnalités supprimées ou déconseillées
                   href: migration-upgrade/deprecated-features.md
                 - name: Obsolescence des méthodes et des éléments de métadonnées
                   href: migration-upgrade/deprecation-deletion-apis.md

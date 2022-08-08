@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866535"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067680"
 ---
 # <a name="globalization-resources"></a>Ressources de globalisation
 
@@ -32,7 +32,7 @@ Si vos réglementations gouvernementales nécessitent que les données soient st
 
 [!include [banner](../includes/banner.md)]
 
-Les applications de finances et d’opérations incluent une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité pour la localisation et la traduction du produit](https://aka.ms/dynamics_365_international_availability_deck). Cette fonctionnalité est activée en fonction de l’adresse principale de l’entité juridique active. 
+Les applications de finances et d’opérations incluent une fonctionnalité pour les pays/régions qui est décrite dans le [Guide de disponibilité pour la localisation et la traduction du produit](https://aka.ms/dynamics_365_international_availability_deck). Cette fonctionnalité est activée en fonction de l’adresse principale de l’entité juridique active. 
 
 Cet article liste des ressources utiles pour effectuer ce qui suit : 
 - En savoir plus sur le développement de solutions spécifiques à des pays/régions.
@@ -60,10 +60,10 @@ Les ressources suivantes fournissent des informations sur les nouvelles fonction
 -   [Soumettre des alertes concernant les fonctions de réglementation spécifiques à un pays/une région](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Programmes de publication de Dynamics 365
-Les [Programmes de publication de Dynamics 365](/business-applications-release-notes/) fournissent des descriptions des fonctionnalités, nouvelles et améliorées, planifiées pour les applications d’entreprise et les plateformes d’application Dynamics 365. 
+Les [Programmes de publication de Dynamics 365](/business-applications-release-notes/) fournissent des descriptions des nouveautés et des améliorations en matière de fonctionnalités prévues pour les applications d’entreprise et les plateformes d’application Dynamics 365. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Nouveautés des applications Finance and Operations
-La [page d’accueil Nouveautés ou modifications dans Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) répertorie les fonctionnalités incluses dans des versions spécifiques des applications Finance and Operations.
+#### <a name="finance-and-operations-apps-whats-new"></a>Nouveautés des applications de finances et d’opérations
+La [page d’accueil Nouveautés ou modifications dans les applications de finances et d’opérations](../../fin-ops/get-started/whats-new-changed.md) répertorie les fonctionnalités incluses dans des versions spécifiques des applications de finances et d’opérations.
 
 ### <a name="electronic-reporting"></a>Gestion des états électroniques
 L’outil de gestion des états électroniques (ER) vous permet de configurer des formats électroniques conformes aux obligations légales de différents pays/régions. Il vous permet de gérer ces formats au cours de tout leur cycle de vie. Pour plus d’informations, voir l’une des rubriques suivantes :
@@ -133,3 +133,4 @@ Pour en savoir plus, consultez [Système d’aide](../../fin-ops/get-started/hel
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
