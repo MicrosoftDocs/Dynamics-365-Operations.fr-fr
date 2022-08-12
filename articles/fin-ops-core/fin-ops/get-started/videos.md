@@ -1,6 +1,6 @@
 ---
 title: Vidéos
-description: Cette page dresse une liste des vidéos du forum technique et des procédures créées par Microsoft concernant les applications Finance and Operations disponibles sur YouTube et autres sites.
+description: Cette page dresse une liste des vidéos du forum technique et des procédures créées par Microsoft concernant les applications de finances et d’opérations disponibles sur YouTube et autres sites.
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958136"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124949"
 ---
 # <a name="videos"></a>Vidéos 
 
 [!include [banner](../includes/banner.md)]
 
-Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), vous trouverez des vidéos créées par Microsoft qui présentent un large éventail de solutions d'entreprise pour les produits Dynamics 365. Cette section dresse une liste des vidéos de procédure pour les applications Finance and Operations qui sont hébergées sur la chaîne.
+Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), vous trouverez des vidéos créées par Microsoft qui présentent un large éventail de solutions d’entreprise pour les produits Dynamics 365. Cette section dresse une liste des vidéos de procédure pour les applications de finances et d’opérations qui sont hébergées sur la chaîne.
 
 > [!Note]
-> Certaines des vidéos répertoriées ont été publiées sous un autre nom de produit, mais restent toujours d'actualité.
+> Certaines des vidéos répertoriées ont été publiées sous un autre nom de produit, mais restent toujours d’actualité.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Vidéos sur le développement et l'administration de Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Vidéos sur le développement et l’administration de finances et d’opérations
 
 ### <a name="data-integration"></a>Intégration de données
 
-- [Synchroniser un ordre de travail entre Dynamics 365 for Field Service et les applications Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Synchroniser un ordre de travail entre Dynamics 365 for Field Service et les applications de finances et d’opérations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gestion des données
 
@@ -49,10 +49,10 @@ Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/U
 
 ### <a name="intelligence"></a>Intelligence
 
-- [Procédure de modification d'un état intégré dans un espace de travail analytique](https://youtu.be/_8WlwmSggcQ)
-- [Comment inclure des états PowerBI.com dans les applications Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Importer votre propre base de données dans les applications Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [Procédure d'utilisation du contenu Power BI de gestion des coûts dans Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
+- [Procédure de modification d’un état intégré dans un espace de travail analytique](https://youtu.be/_8WlwmSggcQ)
+- [Comment inclure des états PowerBI.com dans les applications de finances et d’opérations](https://youtu.be/gGWuNJDoi-M)
+- [Importer votre propre base de données dans les applications de finances et d’opérations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Procédure d’utilisation du contenu Power BI de gestion des coûts dans Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 
@@ -169,3 +169,4 @@ Les [forums techniques FastTrack](https://community.dynamics.com/365/b/techtalks
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

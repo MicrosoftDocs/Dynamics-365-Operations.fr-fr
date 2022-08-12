@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016157"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070377"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Paramètres de production dans Contrôle et suivi de la production
 
@@ -71,7 +71,7 @@ Pour chaque étape, le champ **Consommation automatique de nomenclature** permet
   - Vide (Aucune option n’est sélectionnée.)
   - **Disponible à l’emplacement**
 
-    Dans le module Contrôle et suivi de la production, si l’option **Principe d’effacement** est sélectionnée dans le champ **Consommation automatique de nomenclature** de l’onglet **Début**, toutes les matières définies sur **Début** dans la nomenclature sont déduites du stock lorsque l’opération est démarrée. L’option **Disponible à l’emplacement** est utilisée pour les produits activés pour les processus d’entrepôt avancés. Si vous sélectionnez ce principe d’effacement, les matières sont vidées lorsque le travail d’entrepôt pour le prélèvement de matières premières est terminé. Les matières sont également vidées lorsqu’une ligne de nomenclature qui utilise ce principe d’effacement est libérée dans l’entrepôt et les matières sont disponibles à l’emplacement de l’entrée en production.
+    Dans le module Contrôle et suivi de la production, si l’option **Principe d’effacement** est sélectionnée dans le champ **Consommation automatique de nomenclature** de l’onglet **Début**, toutes les matières définies sur **Début** dans la nomenclature sont déduites du stock lorsque l’opération est démarrée. L’option **Disponible à l’emplacement** est utilisée pour les produits activés pour les processus de gestion des entrepôts. Si vous sélectionnez ce principe d’effacement, les matières sont vidées lorsque le travail d’entrepôt pour le prélèvement de matières premières est terminé. Les matières sont également vidées lorsqu’une ligne de nomenclature qui utilise ce principe d’effacement est libérée dans l’entrepôt et les matières sont disponibles à l’emplacement de l’entrée en production.
 
     > [!NOTE]
     > Si le champ **Principe d’effacement** est défini sur l’onglet **Démarrer** dans Contrôle et suivi de la production, vous devez sélectionner le même principe dans l’onglet **Opérations** ou l’onglet **Déclarer comme terminé**. Cette exigence permet de garantir que les matériaux sont déduits de l’inventaire des nomenclatures qui utilisent **Terminer** comme principe d’effacement pour l’ordre de fabrication. Si le même principe d’effacement n’est pas sélectionné dans l’onglet **Opérations** ou l’onglet **Déclaration de fin**, les matières peuvent être déduites du stock deux fois.

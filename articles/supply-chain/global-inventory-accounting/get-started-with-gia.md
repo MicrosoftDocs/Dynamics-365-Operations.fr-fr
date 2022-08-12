@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013553"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177146"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Premiers pas avec la comptabilité globale des stocks
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 La comptabilité globale des stocks vous permet d’effectuer plusieurs comptabilités de stock dans les différents registres de comptabilité globale des stocks que vous avez configurés. Vous devez associer chaque registre de comptabilité globale des stocks à une *convention*. Une convention est un ensemble des types de stratégies comptables suivants :
 
@@ -69,28 +67,34 @@ Avant de pouvoir activer la fonctionnalité de complément, vous devez l’inté
 
 Pour plus d’informations, voir [Activer après le déploiement de l’environnement](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="install-the-add-in"></a><a name="install"></a>Installer le complément
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a>Installer ou mettre à jour le complément et la solution
 
-Suivez ces étapes pour installer le complément afin de pouvoir utiliser la comptabilité globale des stocks.
+Utilisez la procédure suivante pour installer ou mettre à jour le complément et la solution Global Inventory Accounting. La partie de la procédure que vous devez suivre varie selon que vous installez pour la première fois ou que vous avez simplement besoin de mettre à jour la solution pour une installation existante.
+
+- Si vous n’avez jamais installé le complément auparavant, suivez la procédure complète pour installer à la fois le complément et la solution.
+- Si vous utilisez déjà Global Inventory Accounting, mais que vous devez mettre à jour la solution dans le [centre d’administration Power Platform](https://admin.powerplatform.microsoft.com), passez à l’étape 6 uniquement et ignorez toutes les autres étapes.
+
+Pour installer ou mettre à jour le complément et la solution :
 
 1. Connectez-vous à [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Ouvrez l’environnement LCS dans lequel vous souhaitez ajouter le service.
 1. Accédez à **Détails complets**.
 1. Accédez à **Intégration Power Platform** et sélectionnez **Installer**.
 1. Dans la boîte de dialogue **Configuration de l’environnement Power Platform**, cochez la case, puis sélectionnez **Installer**. En règle générale, la configuration prend entre 60 et 90 minutes.
-1. Après la configuration de l’environnement Microsoft Power Platform, connectez-vous au [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com), puis installez le complément Comptabilité globale des stocks en procédant comme suit :
-   1. Sélectionnez l'environnement où vous souhaitez installer le complément.
+1. Après la configuration de l’environnement Microsoft Power Platform, connectez-vous au [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com), puis installez la solution Comptabilité globale des stocks en procédant comme suit :
+   1. Sélectionnez l’environnement où vous souhaitez installer ou mettre à jour la solution.
    1. Sélectionnez **Applications Dynamics 365**.
    1. Sélectionnez **Installer l'application**.
    1. Sélectionnez **Comptabilité globale des stocks Dynamics 365**.
    1. Sélectionnez **Suivant** pour effectuer l’installation.
-1. Revenez à l’environnement LCS. Dans le raccourci **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.
+1. Une fois la solution complètement installée, revenez à l’environnement LCS. Dans le raccourci **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.
 1. Sélectionnez **Comptabilité globale des stocks**.
 1. Suivez le guide d’installation, et acceptez les conditions générales du contrat.
 1. Sélectionnez **Installer**.
 1. Dans le raccourci **Compléments d’environnement**, vous devriez voir que le complément Comptabilité globale des stocks est en cours d’installation. Après quelques minutes, le statut devrait passer de *Installation* à *Installé*. (Vous devrez peut-être actualiser la page pour voir cette modification.) À ce stade, le complément Comptabilité globale des stocks est prêt à être utilisé.
 
 Si la langue par défaut de votre installation Dataverse n’est pas l’anglais, suivez les étapes ci-après :
+
 1. Accédez à **Paramètres avancés \> Administration \> Langues**.
 1. Sélectionnez *Anglais* (*LanguageCode=1033*), puis sélectionnez **Appliquer**.
 

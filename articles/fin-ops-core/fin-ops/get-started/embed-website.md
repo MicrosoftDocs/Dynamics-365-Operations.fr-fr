@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef5ed6c3c99d62010643940f3e2f158963ff0dc2
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868606"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123716"
 ---
 # <a name="embed-third-party-apps"></a>Incorporer des applications tierces
 
@@ -129,3 +129,4 @@ Si un site Web n’est pas rendu correctement après avoir été intégré dans 
 Bien que cet article traite de l’intégration d’applications ou de sites Web tiers via la personnalisation, les développeurs peuvent également les intégrer dans un formulaire à l’aide de l’expérience de développement Visual Studio. Ajoutez simplement un contrôle **Site WebHostControl** au formulaire. Les propriétés de métadonnées disponibles pour le contrôle offrent les mêmes fonctionnalités que l’expérience de personnalisation.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

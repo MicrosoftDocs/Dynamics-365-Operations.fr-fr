@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: acb3575d9b6371bb4a6924be1e6e2ee86b976e7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1c42897a0392d053b90fc2eae9b20a0d14f327
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888033"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067710"
 ---
 # <a name="revenue-recognition-overview"></a>Vue d’ensemble de la fonctionnalité de prise en compte de revenu
 
@@ -35,7 +35,7 @@ En général le processus de prise en compte de revenu peut être utilisé pour 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-La vidéo [Utilisation de la constatation du produit dans Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (affichée ci-dessus) est incluse dans la [liste de lecture Finance et Opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Utilisation de la constatation du produit dans Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (affichée ci-dessus) est incluse dans la [liste de lecture des applications de finances et d’opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 La fonctionnalité de constatation du produit offre un cadre flexible qui vous permet de définir des règles spécifiques pour identifier le prix et l’échéancier de produit.
 
@@ -53,3 +53,4 @@ Si une modification contractuelle entraîne l’ajout d’une nouvelle ligne de 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

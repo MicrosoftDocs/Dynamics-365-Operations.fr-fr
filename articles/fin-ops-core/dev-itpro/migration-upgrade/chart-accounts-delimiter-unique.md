@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa0092f65461b6ebeea6649f48c0cf1c07cc936d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2fd29d747c7141b051e6c7c68db94abfd849f947
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866252"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123494"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Rendre unique le délimiteur du plan de comptes
 
 [!include [banner](../includes/banner.md)]
 
-Dans Microsoft Dynamics AX 2012, vous pouviez utiliser le même délimiteur pour votre plan de comptes et les valeurs de dimension. Dans les versions actuelles de Finance et Opérations, vous ne pouvez pas avoir le même délimiteur pour le plan de comptes et les valeurs ou les noms de dimension. Si un délimiteur est en double, vous pouvez le modifier après la mise à niveau. 
+Dans Microsoft Dynamics AX 2012, vous pouviez utiliser le même délimiteur pour votre plan de comptes et les valeurs de dimension. Dans les versions actuelles de finances et d’opérations, vous ne pouvez pas avoir le même délimiteur pour le plan de comptes et les valeurs ou les noms de dimension. Si un délimiteur est en double, vous pouvez le modifier après la mise à niveau. 
 
 ## <a name="update-delimiter"></a>Mettre à jour le délimiteur
 En cas de conflit avec le plan de comptes, le délimiteur de plan de comptes et le format de l’ID de projet/sous-projet peut être modifié. Aucun autre délimiteur de dimension ne peut être modifié. 
@@ -39,3 +39,4 @@ Comme pour l’ID de projet/sous-projet, tous les autres enregistrements de donn
 Si les délimiteurs de votre environnement mis à niveau sont en conflit, vous pouvez rencontrer de l’instabilité en entrant des valeurs dans un contrôle d’accès segmenté et un contrôle d’entrée de dimension. Cela signifie que vous devez toujours utiliser les recherches ou un menu volant pour la saisie des combinaisons de compte et de dimensions.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

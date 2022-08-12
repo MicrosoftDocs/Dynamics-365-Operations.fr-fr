@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872497"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070662"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modèles de planification budgétaire pour Excel
 
@@ -79,7 +79,7 @@ Le groupe de champs sélectionné affiche les colonnes disponibles dans le modè
 [![Ajouter et insérer une colonne.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Pour définir la formule, créez la formule dans la feuille de calcul, puis copiez-la dans la fenêtre **Créer**. Une table liée Finance and Operations sera généralement nommée « AXTable1 ». Par exemple, pour récapituler les colonnes Demande T1 : Demande T4 dans la feuille de calcul, utilisez la formule = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
+> Pour définir la formule, créez la formule dans la feuille de calcul, puis copiez-la dans la fenêtre **Créer**. Une table liée des applications de finances et d’opérations sera généralement nommée « AXTable1 ». Par exemple, pour récapituler les colonnes Demande T1 : Demande T4 dans la feuille de calcul, utilisez la formule = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
 
 Répétez ces étapes pour insérer la colonne **Ajustement**. Utilisez la formule = AxTable1\[Total request\]\*$I$1 pour cette colonne. Elle utilise la valeur de la cellule I1 et multiplie les valeurs de la colonne **Demande totale** pour calculer les montants de l’ajustement.
 
@@ -129,3 +129,4 @@ Vous pouvez également créer et utiliser des tableaux croisés dynamiques et de
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

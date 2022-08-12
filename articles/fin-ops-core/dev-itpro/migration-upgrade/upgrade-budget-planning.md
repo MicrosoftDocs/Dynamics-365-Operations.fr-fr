@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890404"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124026"
 ---
 # <a name="upgrade-budget-planning"></a>Mise à jour de la planification budgétaire
 
@@ -30,7 +30,7 @@ Il existe des différences significatives de planification budgétaire entre Mic
 La planification budgétaire dans Finance dispose de nombreuses fonctions qui n’étaient pas disponibles dans Dynamics AX 2012. Cet article explique les modifications que les clients qui mettent à niveau leur système peuvent effectuer. Elle précise également les nouvelles fonctions qui doivent être prises en compte dans le processus de mise à niveau. En raison de l’extension des modifications, aucun plan budgétaire existant ne peut être ouvert avant que les modifications expliquées dans cet article ne soient effectuées. Toutefois, les états devraient fonctionner normalement et sans qu’il soit nécessaire d’apporter des modifications supplémentaires.
 
 ## <a name="overview-of-changes"></a>Vue d’ensemble des modifications
-De nombreuses modifications importantes ont été apportées dans la budgétisation pour Finance et Opérations. Ces modifications visent à faciliter la configuration et l’utilisation de la planification budgétaire, afin de réduire la maintenance et la configuration d’une année sur l’autre. Les zones suivantes dans AX 2012 ne figurent plus dans Finance :
+De nombreuses modifications importantes ont été apportées dans la budgétisation pour les applications de finances et d’opérations. Ces modifications visent à faciliter la configuration et l’utilisation de la planification budgétaire, afin de réduire la maintenance et la configuration d’une année sur l’autre. Les zones suivantes dans AX 2012 ne figurent plus dans Finance :
 
 -   Modèles de plan budgétaire (configuration de la planification budgétaire)
 -   Dossiers de plan budgétaire (configuration de la planification budgétaire)
@@ -47,7 +47,7 @@ Les colonnes sont un nouveau concept qui remplace les parties du modèle Excel e
 
 ### <a name="layouts"></a>Mises en page
 
-Les mises en page sont un nouveau concept qui remplace le modèle Excel. Les mises en page contiennent les colonnes qui définissent quelles données et périodes réelles ou budgétaires devraient être affichées. Les mises en page sont également partagées entre le module client et Excel. Par conséquent, lorsque vous entrez ou affichez des données dans le client Finance et Opérations, l’expérience utilisateur est meilleure que celle de AX 2012. Pour entrer des données dans le client Finance, vous n’êtes plus obligé d’afficher et d’entrer un scénario unique dans une vue de transaction. Au lieu de cela, une vue de comparaison vous permet d’afficher et d’entrer facilement des montants pour les heures et les comptes simultanément. Les mises en page peuvent également être définies pour que vous puissiez entrer et afficher la devise, les commentaires, et d’autres données facultatives. Les mises en page vous permettent également de définir les dimensions comptables et les descriptions de dimension qui doivent s’afficher. Les mises en page incorporent également des contraintes de scénario pour définir quelles colonnes dans un modèle peuvent être modifiées et quelles colonnes doivent être disponibles dans Excel. Après avoir défini une mise en page, un modèle est généré pour celle-ci. Ce modèle, à son tour, crée le modèle Excel correspondant. Vous pouvez ensuite modifier le modèle Excel pour répercuter plus de formules et plus de mises en forme, puis les télécharger de nouveau. Les mises en page sont ensuite affectées à chaque règle de stade sur la page **Processus de planification budgétaire**. Par conséquent, les mises en page remplacent les modèles, qui ont été affectés et utilisés de manière similaire.
+Les mises en page sont un nouveau concept qui remplace le modèle Excel. Les mises en page contiennent les colonnes qui définissent quelles données et périodes réelles ou budgétaires devraient être affichées. Les mises en page sont également partagées entre le module client et Excel. Par conséquent, lorsque vous entrez ou affichez des données dans le client de finances et d’opérations, l’expérience utilisateur est meilleure que celle de AX 2012. Pour entrer des données dans le client Finance, vous n’êtes plus obligé d’afficher et d’entrer un scénario unique dans une vue de transaction. Au lieu de cela, une vue de comparaison vous permet d’afficher et d’entrer facilement des montants pour les heures et les comptes simultanément. Les mises en page peuvent également être définies pour que vous puissiez entrer et afficher la devise, les commentaires, et d’autres données facultatives. Les mises en page vous permettent également de définir les dimensions comptables et les descriptions de dimension qui doivent s’afficher. Les mises en page incorporent également des contraintes de scénario pour définir quelles colonnes dans un modèle peuvent être modifiées et quelles colonnes doivent être disponibles dans Excel. Après avoir défini une mise en page, un modèle est généré pour celle-ci. Ce modèle, à son tour, crée le modèle Excel correspondant. Vous pouvez ensuite modifier le modèle Excel pour répercuter plus de formules et plus de mises en forme, puis les télécharger de nouveau. Les mises en page sont ensuite affectées à chaque règle de stade sur la page **Processus de planification budgétaire**. Par conséquent, les mises en page remplacent les modèles, qui ont été affectés et utilisés de manière similaire.
 
 ### <a name="budget-planning-processes"></a>Processus de planification budgétaire
 
@@ -69,7 +69,7 @@ Pour vous aider à déterminer comment configurer le système mis à niveau, l�
    -   Scénarios de plan budgétaire : Chiffres réels, Référence, Demande budgétaire, Budget approuvé
    -   Lignes de plan budgétaire pour tous les scénarios en 2017, et chiffres réels pour 2017 et 2016
 
-   Les colonnes suivantes sont créées dans Finance et Opérations :
+   Les colonnes suivantes sont créées dans les applications de finances et d’opérations :
 
    | Nom de la colonne    | Scénario de plan budgétaire | Période de la colonne | Contrepartie de l’année |
    |----------------|----------------------|--------------------|-------------|

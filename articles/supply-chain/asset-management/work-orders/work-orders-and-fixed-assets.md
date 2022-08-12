@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a6b9cf8327f65371f8362a5729bb32746d900cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ed83450592d85205743c9ff1aefd0e66e5d2b90c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885984"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111957"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Ordres de travail et immobilisations
 
 [!include [banner](../../includes/banner.md)]
 
 
-Dans le module Gestion des actifs, les actifs peuvent être associés aux immobilisations, et vous pouvez créer des ordres de travail pour ces actifs. Si vous utilisez cette fonction, vous pouvez obtenir une vue d’ensemble complète des immobilisations, des projets d’investissement associés et des coûts enregistrés sur les projets d’investissement dans les modules **Gestion de projets et comptabilité** et **Immobilisations** dans Microsoft Dynamics 365 for Finance and Operations.
+Dans le module Gestion des actifs, les actifs peuvent être associés aux immobilisations, et vous pouvez créer des ordres de travail pour ces actifs. Si vous utilisez cette fonction, vous pouvez obtenir une vue d’ensemble complète des immobilisations, des projets d’investissement associés et des coûts enregistrés sur les projets d’investissement dans le module **Gestion de projets et comptabilité** et le module **Immobilisations** dans les applications de finances et d’opérations.
 
 >[!NOTE]
 >Le champ **Numéro d’immobilisation** dans le projet de tâche de l’ordre de travail est renseigné uniquement si le type **Investissement** est sélectionné comme type de projet sur le projet de tâche de l’ordre de travail.

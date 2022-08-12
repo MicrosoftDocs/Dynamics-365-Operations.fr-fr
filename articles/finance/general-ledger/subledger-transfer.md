@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 6d9b40409089e2050dc28c21040069107b766aa0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871244"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068988"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transfert de la comptabilité auxiliaire vers la comptabilité
 
@@ -28,7 +28,7 @@ ms.locfileid: "8871244"
 
 Cet article décrit les fonctionnalités liées aux règles permettant le transfert par lots des écritures de journal de la comptabilité auxiliaire.
 
-Dans la version 8.1, des modifications ont été apportées pour permettre le transfert des règles, ce qui a rendu l’option **Synchrone** obsolète. Pour plus d’informations sur cette obsolescence, voir [Fonctions supprimées ou abandonnées pour Finance et Opérations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
+Dans la version 8.1, des modifications ont été apportées pour permettre le transfert des règles, ce qui a rendu l’option **Synchrone** obsolète. Pour plus d’informations sur cette obsolescence, voir [Fonctions supprimées ou abandonnées pour les applications de finances et d’opérations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
 
 Les options suivantes sont disponibles pour le transfert par lots de la comptabilité auxiliaire :
 
@@ -46,3 +46,4 @@ Le changement d’efficacité au niveau du lot utilise un seul traitement par lo
 Pour plus d’informations sur la configuration de l’automatisation des processus, voir [Automatisation des processus](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

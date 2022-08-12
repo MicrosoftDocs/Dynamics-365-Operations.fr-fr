@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862654"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067390"
 ---
 # <a name="engineering-change-management-overview"></a>Présentation de la gestion des modifications d’ingénierie
 
@@ -40,7 +40,7 @@ La gestion des modifications techniques, qui vous aide à planifier et à gérer
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-La vidéo précédente ([Capacités de gestion du changement dans Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) est incluse dans la [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo précédente ([Capacités de gestion du changement dans Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) est incluse dans la [liste des lectures de applications de finances et d’opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Activer les fonctions de gestion des modifications techniques pour votre système
 
@@ -88,3 +88,4 @@ Une fois que vous avez activé les fonctionnalités de gestion des modifications
 | Générer des variantes pour les produits d’ingénierie | <p>Cette fonctionnalité vous permet de générer des variantes pour les produits d’ingénierie, en fonction des valeurs de dimension disponibles.</p><p>Pour plus d’informations, voir [Générer des variantes pour les produits d’ingénierie](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

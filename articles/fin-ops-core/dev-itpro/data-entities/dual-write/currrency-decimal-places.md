@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855585"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112272"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migration de type de données de devise pour la double écriture
 
@@ -100,3 +100,4 @@ Pour connaître le comportement attendu de la précision décimale de la devise 
 |          | Précision décimale maximale dans l’interface utilisateur des résultats de la base de données et des requêtes de base de données | 10 chiffres. Cependant, seuls 4 sont significatifs avec tous les zéros au-delà des 4 chiffres décimaux. Cela permet une migration plus simple et plus rapide de l’organisation, si nécessaire. | 10 chiffres      | 10 chiffres     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

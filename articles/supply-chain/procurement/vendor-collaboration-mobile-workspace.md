@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851650"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112148"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espace de travail de collaboration fournisseur sur téléphone mobile
 
@@ -28,7 +28,7 @@ ms.locfileid: "8851650"
 
 Cet article fournit des informations sur l’espace de travail mobile **Collaboration du fournisseur**. Cet espace de travail permet aux fournisseurs d’être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
 
-Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance et Opérations (Dynamics 365).
+Cet espace de travail mobile est destiné à être utilisé avec l’application mobile de finances et d’opérations (Dynamics 365).
 
 ## <a name="overview"></a>Présentation 
 L’espace de travail mobile **Collaboration du fournisseur** tient les fournisseurs informés des nouvelles commandes fournisseur, de sorte qu’ils puissent y répondre dans le client Web. 
@@ -110,7 +110,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Updat
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Téléchargez et installez l’application mobile Finance et Opérations (Dynamics 365) :
+Téléchargez et installez l’application mobile de finances et d’opérations (Dynamics 365) :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -171,3 +171,4 @@ Lorsque la commande fournisseur est confirmée par le client (son statut est pas
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

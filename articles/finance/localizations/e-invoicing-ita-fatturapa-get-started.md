@@ -2,7 +2,7 @@
 title: Mettre en place l’intégration directe de FatturaPA italienne avec SDI
 description: Cet article fournit des informations qui vous aideront à démarrer avec la facturation électronique pour l’Italie et à configurer l’intégration directe de FatturaPA italien avec le système Exchange (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853190"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203167"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Mettre en place l’intégration directe de FatturaPA italienne avec SDI
 
@@ -69,10 +69,13 @@ Cette section complète la section [Configuration du paramétrage de l’applica
     - Pour l’action **Signer le document**, dans le champ **Nom du certificat**, spécifiez le certificat de signature numérique.
     - Pour l’action **Soumettre**, définissez les champs **Adresse URL** et **Certificats**. La valeur du champ **Certificats** est une chaîne de certificats, dont le premier est le certificat de l’autorité de certification racine (caentrate.cer), et le second est le certificat Clients.
 
-4. Sélectionnez **Valider** pour s’assurer que tous les champs obligatoires ont été définis.
-5. Enregistrez vos modifications et fermez la page.
-6. Dans l’onglet **Paramétrages**, sélectionnez **Factures projet**, puis sélectionnez **Modifier**.
-7. Répétez les étapes 3 à 5 pour les factures de projet.
+4. Dans la section **Règles d’applicabilité**, parcourez les clauses et passez en revue ou définissez les champs obligatoires :
+    - Examinez la clause **LegalEntityID** et mettez à jour avec la valeur correcte de votre entité juridique.
+
+5. Sélectionnez **Valider** pour s’assurer que tous les champs obligatoires ont été définis.
+6. Enregistrez vos modifications et fermez la page.
+7. Dans l’onglet **Paramétrages**, sélectionnez **Factures projet**, puis sélectionnez **Modifier**.
+8. Répétez les étapes 3 à 6 pour les factures de projet.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>Configurer le pipeline de traitement pour l’importation
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954494"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167729"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Nouveautés et modifications dans Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
 
@@ -36,8 +36,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 | Inventaire&nbsp;et&nbsp;logistique | [Améliorations des matières dangereuses](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Bientôt disponible | Gestion des fonctions :<br>*Améliorations des matières dangereuses* |
 | Inventaire&nbsp;et&nbsp;logistique | [Travail de conditionnement pour les stations de conditionnement](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Bientôt disponible | Gestion des fonctions :<br>*Travail de conditionnement pour les stations de conditionnement* |
 | Inventaire&nbsp;et&nbsp;logistique | [Scannez les codes-barres dans l’entrepôt en utilisant les normes de format GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Codes à barres GS1 et codes QR](../warehousing/gs1-barcodes.md) | Gestion des fonctions :<br>*Scanner les codes-barres de GS1* |
-| Fabrication | [Consommation et réservation des matières sur l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*(Version préliminaire) Enregistrer la consommation des matériaux sur l’interface d’exécution de l’atelier de production (autre que WMS)*<br><br>Et/ou :<br><br>Gestion des fonctions :<br>*(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)* |
-| Fabrication | [Enregistrer la consommation des matières sur les unités d’échelle](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie](../cloud-edge/cloud-edge-workload-manufacturing.md) | Gestion des fonctions :<br>*Enregistrer la consommation de matières sur l’application mobile sur une unité d’échelle* |
+| Fabrication | [Consommation et réservation des matières sur l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*Enregistrer la consommation des matériaux sur l’interface d’exécution de l’atelier de production (autre que WMS)*<br><br>Et/ou :<br><br>Gestion des fonctions :<br>*(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)* |
 | Planification | [Maintenance du calendrier centralisé de l’optimisation de la planification](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Calendriers et planification](../master-planning/supply-chain-calendars-master-planning.md) | Activé par défaut |
 | Planification | [Suggestions d’optimisation de la planification pour optimiser l’offre existante](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Messages d’action](../master-planning/action-messages.md) | Activé par défaut |
 | Planification | Ordres planifiés simplifiés | [Ordres planifiés simplifiés](../master-planning/planning-optimization/planned-orders-simplified.md ) | Gestion des fonctions :<br>*Ordres planifiés simplifiés* |
@@ -183,9 +182,9 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finances et Opérations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.25 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances et Opérations, version 10.0.25 (avril 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.25 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.25 (avril 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
@@ -209,3 +208,4 @@ Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obso
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

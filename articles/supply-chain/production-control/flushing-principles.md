@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849298"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065552"
 ---
 # <a name="flushing-principles"></a>Principes d’effacement
 
@@ -50,9 +50,9 @@ Les principes d’effacement sont configurés dans une hiérarchie de valeurs pa
 ## <a name="description-of-the-flushing-principles"></a>Description des principes d’effacement
 
 ### <a name="manual"></a>Manuel
-Le principe d’effacement manuel indique que l’enregistrement de la consommation de matières est une opération manuelle. Ce principe est utile si, par exemple, vous voulez pouvoir suivre l’heure, et la quantité de numéros de lot ou de numéros de série consommés doit être comptabilisée à des fins de suivi. La consommation manuelle est enregistrée dans un journal des prélèvements en production. Pour les articles activés pour les processus avancés de l’entrepôt, un flux portable peut être appliqué.
+Le principe d’effacement manuel indique que l’enregistrement de la consommation de matières est une opération manuelle. Ce principe est utile si, par exemple, vous voulez pouvoir suivre l’heure, et la quantité de numéros de lot ou de numéros de série consommés doit être comptabilisée à des fins de suivi. La consommation manuelle est enregistrée dans un journal des prélèvements en production. Pour les articles activés pour les processus de gestion des entrepôts, un flux portable peut être appliqué.
 
-### <a name="start"></a>Commencement
+### <a name="start"></a>Début
 Le principe d’effacement de début indique que le matériel est automatiquement consommé lorsque l’ordre de fabrication démarre. La quantité de matériel consommé est proportionnelle à la quantité lancée. Lorsque le principe d’effacement de début est utilisé avec le système d’exécution de la production, il permet également d’effacer des matières lorsqu’une opération ou une tâche de traitement est lancée. Ce principe est utile si, par exemple, l’écart dans la consommation est faible, les matières sont des matériaux à faible valeur, il est inutile d’effectuer un suivi, ou les opérations nécessitent un délai d’exécution court. 
 
 ### <a name="finish"></a>Terminer

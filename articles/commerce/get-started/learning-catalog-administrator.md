@@ -12,18 +12,18 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 54a3dfe64d46b082db12ef05b88075831c9f525e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473977a7a75bb7bbe493225c6455a918ba5f748e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898543"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070786"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Catalogue d’apprentissage pour les administrateurs de Dynamics 365 Commerce
 
 Avez-vous besoin de maintenir les systèmes et les données fluides, mis en service et sécurisés 24h/24 ?
 
-Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins. Ce catalogue ne comprend que des fonctionnalités spécifiques à Dynamics 365 Commerce. Pour une formation sur les fonctionnalités partagées avec d'autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-administrator.md).
+Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins. Ce catalogue ne comprend que des fonctionnalités spécifiques à Dynamics 365 Commerce. Pour une formation sur les fonctionnalités partagées avec d’autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-administrator.md).
 
 ## <a name="get-started"></a>Prise en main<a name="get-started"></a>
 
@@ -49,3 +49,4 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

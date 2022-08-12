@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou déconseillées dans Dynamics 365 Commerce
 description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910522"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138584"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Commerce
 
@@ -31,7 +31,20 @@ Cet article décrit les fonctions qui ont été supprimées, ou qu’il est pré
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
 > [!NOTE]
-> Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
+> Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
+
+## <a name="feature-deprecation-effective-july-2022"></a>Notification d’abandon de fonctionnalités à compter de juillet 2022
+
+### <a name="commerce-analytics-preview"></a>Commerce Analytics (version préliminaire)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | L’équipe Dynamics 365 Commerce a analysé l’utilisation et l’adoption de la fonctionnalité Commerce Analytics (version préliminaire), et la décision a été prise de ne plus avancer dans la mise à disposition générale de la fonctionnalité.   |
+| **Remplacé par une autre fonctionnalité ?**   | Pour le moment, Commerce Analytics (version préliminaire) ne sera pas remplacé par une autre fonctionnalité ou solution. L’exportation des transactions brutes et des données de base des applications de finances et d’opérations vers Azure Data Lake reste disponible, comme expliqué dans [Exporter vers Data Lake dans les applications de finances et d’opérations](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Les partenaires et les clients peuvent tirer parti de ce flux de données pour créer des rapports d’analyse destinés à leurs besoins commerciaux.
+| **Zones de produit affectées**         | Commerce Analytics (version préliminaire) |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Nous envisagerons de désactiver cette fonctionnalité d’ici le 30 août 2022.  À partir de cette date, aucune actualisation n’aura lieu dans les rapports Power BI fournis par Commerce Analytics (version préliminaire).     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.25
 
@@ -195,3 +208,4 @@ Pour en savoir plus sur les fonctionnalités supprimées ou obsolètes dans les 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

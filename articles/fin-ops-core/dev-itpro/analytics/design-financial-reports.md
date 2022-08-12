@@ -1,32 +1,33 @@
 ---
 title: Afficher et créer des états financiers
-description: Cet article propose des exercices qui traitent de l’affichage et de la création d’états financiers pour Microsoft Dynamics 365 Finance.
+description: Cet article propose des exercices qui traitent de l’affichage et de la création d’états financiers pour Microsoft Dynamics 365 Finance.
 author: jcart1106
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReportingSetup
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 10814
-ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "10814"
+ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
+ms.search.form: FinancialReportingSetup
+ms.openlocfilehash: 77756b9f32268b091361e1e69be05a11eac19846
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724441"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205662"
 ---
-# <a name="view-and-design-financial-reports"></a>Afficher et créer des états financiers
+# <a name="view-and-design-financial-reports"></a>Afficher et concevoir des états financiers
 
 [!include [banner](../includes/banner.md)]
 
-Cet article propose des exercices qui traitent de l’affichage et de la création d’états financiers pour Microsoft Dynamics 365 Finance. La génération d’états financiers comprend une expérience d’affichage dans l’application et un concepteur d’état en un clic qui permet de créer et de modifier des états financiers.
+Cet article propose des exercices qui traitent de l’affichage et de la création d’états financiers pour Microsoft Dynamics 365 Finance. La génération d’états financiers comprend une expérience d’affichage dans l’application et un concepteur d’état en un clic qui permet de créer et de modifier des états financiers.
 
 ## <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Exercice 1 : Générez et explorez un état financier par défaut
 
@@ -194,7 +195,7 @@ Dans cet exercice, vous créerez un état. L’état est un relevé des revenus 
 
 [Afficher les états financiers](../../../finance/general-ledger/view-financial-reports.md)
 
-[Blog de Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+[Blog Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

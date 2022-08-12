@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882082"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111198"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Résoudre les problèmes lors de la configuration initiale
 
@@ -22,20 +22,20 @@ ms.locfileid: "8882082"
 
 
 
-Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse. Notamment elle fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
+Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications de finances et d’opérations et Dataverse. Notamment elle fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
 
 > [!IMPORTANT]
 > Certains des problèmes abordés dans cet article peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Vous ne pouvez pas lier une application de finances et d’opérations à Dataverse
 
-**Rôle requis pour configurer la double écriture :** Administrateur système dans les applications Finances et Opérations et Dataverse.
+**Rôle requis pour configurer la double écriture :** Administrateur système dans les applications de finances et d’opérations et Dataverse.
 
 Les erreurs sur la page **Lien de configuration vers Dataverse** sont généralement causés par des problèmes de configuration ou d’autorisations incomplets. Veillez à ce que l’ensemble du contrôle d’intégrité passe sur la page **Lien de configuration vers Dataverse**, comme indiqué dans l’illustration suivante. Vous ne pouvez pas lier la double écriture sauf si le contrôle d’intégrité réussit.
 
 ![Contrôle d’intégrité réussi.](media/health_check.png)
 
-Vous devez avoir les identifiants d’admin client Azure AD pour lier les environnements Finances et Opérations et Dataverse. Après avoir lié les environnements, les utilisateurs peuvent se connecter en utilisant leurs informations d’identification de compte et mettre à jour une carte de table existante.
+Vous devez avoir les identifiants d’admin client Azure AD pour lier les environnements de finances et d’opérations et Dataverse. Après avoir lié les environnements, les utilisateurs peuvent se connecter en utilisant leurs informations d’identification de compte et mettre à jour une carte de table existante.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Trouver la limite du nombre tables juridiques ou de sociétés pouvant être liées pour la double écriture
 
@@ -55,7 +55,7 @@ La double écriture ne prend pas en charge plusieurs entités juridiques/sociét
 
 Pour débloquer le client, supprimez les enregistrements en double de la table **cdm_company** dans Dataverse. Aussi, si la table **cdm_company** a des enregistrements avec un nom vide, supprimez ou corrigez ces enregistrements.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Erreur à l’ouverture de la page Double écriture dans les applications Finances et Opérations
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Erreur à l’ouverture de la page Double écriture dans les applications de finances et d’opérations
 
 Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez de lier un environnement Dataverse pour la double écriture :
 
@@ -70,7 +70,7 @@ Cette erreur se produit lorsque l’étape de consentement de l’application n�
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Sélectionnez **Accepter** pour consentir. Vous donnez votre consentement pour installer l’application (avec `id=33976c19-1db5-4c02-810e-c243db79efde`) dans votre client.
-+ Cette application est requise pour que Dataverse communique avec les applications Finances et Opérations.
++ Cette application est requise pour que Dataverse communique avec les applications de finances et d’opérations.
 
     ![Résolution des problèmes lors de la synchronisation initiale.](media/Initial-sync-setup-troubleshooting-1.png)
 
@@ -81,11 +81,12 @@ Cette erreur se produit lorsque l’étape de consentement de l’application n�
 
 Vous pouvez recevoir le message d’erreur suivant :
 
-*L’environnement des applications Finances et Opérations \*\*\*.cloudax.dynamics.com n’est pas détectable.*
+*L’environnement des applications de finances et d’opérations \*\*\*.cloudax.dynamics.com n’est pas détectable.*
 
 Deux choses peuvent causer un problème avec l’environnement non détectable :
 
-+ L’utilisateur utilisé pour la connexion n’est pas dans le même client que l’instance Finances et Opérations.
-+ Des instances Finances et Opérations héritées hébergées par Microsoft présentaient un problème de découverte. Pour résoudre ce problème, mettez à jour l’instance Finances et Opérations. L’environnement devient détectable avec n’importe quelle mise à jour.
++ L’utilisateur utilisé pour la connexion n’est pas dans le même client que l’instance de finances et d’opérations.
++ Des instances de finances et d’opérations héritées hébergées par Microsoft présentaient un problème de découverte. Pour résoudre ce problème, mettez à jour l’instance de finances et d’opérations. L’environnement devient détectable avec n’importe quelle mise à jour.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

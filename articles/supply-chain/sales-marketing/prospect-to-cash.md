@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857226"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103592"
 ---
 # <a name="prospect-to-cash"></a>Prospect en disponibilités
 
@@ -43,13 +43,13 @@ Dans la version actuelle, la solution Prospect en disponibilités fournit les ty
 ## <a name="system-requirements-for-supply-chain-management"></a>Configuration système pour Supply Chain Management
 L’intégration de la solution Prospect en disponibilités est prise en charge dans les versions suivantes :
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (décembre 2017)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 Finance and Operations, Enterprise edition 7.3 (décembre 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (décembre 2017) - Version de l’application 7.3.11971.56116 avec Platform Update 12 (7.0.4709.41129)
+- Dynamics 365 Finance and Operations, Enterprise Edition (décembre 2017) – Version d’application 7.3.11971.56116 avec mise à jour 12 de la plateforme (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance, Enterprise edition (juillet 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017) - avec Platform Update 8 (version de l’application 7.2.11792.56024 avec version de la plateforme 7.0.4565.16212).
+- Dynamics 365 Finance and Operations, Enterprise Edition (juillet 2017) avec mise à jour 8 de la plateforme (version d’application 7.2.11792.56024 avec version de plateforme 7.0.4565.16212).
 - Les correctifs suivants sont requis :
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – Ce correctif permet la synchronisation des commandes client entre Sales et Supply Chain Management via la fonctionnalité d’intégration de données. Il fournit également plusieurs autres améliorations.
@@ -59,9 +59,9 @@ L’intégration de la solution Prospect en disponibilités est prise en charge 
     > [!NOTE]
     > Vous devez uniquement installer KB4045570 car l’installation inclut les modifications issues des autres correctifs. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations version 1611 (novembre 2016)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 Finance and Operations version 1611 (novembre 2016)
 
-- Dynamics 365 for Finance and Operations version 1611 (novembre 2016) avec Platform Update 8 ou version ultérieure
+- Dynamics 365 Finance and Operations, version 1611 (novembre 2016) avec mise à jour 8 ou plus de la plateforme
 
 - Les correctifs suivants sont requis :
 

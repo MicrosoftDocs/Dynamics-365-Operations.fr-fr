@@ -13,18 +13,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: be2c0f921fde13598685553ea01bfcf3f8255362
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313565"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108669"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utiliser un chemin d’accès relatif dans les liaisons de données des modèles et des formats ER
 
 [!include[banner](../includes/banner.md)]
 
-L’outil de génération d’états électroniques (ER) permet aux utilisateurs de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l’aide des données et ses algorithmes existants dans l’application. Pour plus d'informations, voir [Créer des configurations de génération d'états électroniques (ER)](electronic-reporting-configuration.md). Pour spécifier le flux de données pour extraire les données Finance and Operations et l'utiliser pour générer un document électronique, vous devez effectuer les opérations suivantes :
+L’outil de génération d’états électroniques (ER) permet aux utilisateurs de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l’aide des données et ses algorithmes existants dans l’application. Pour plus d’informations, voir [Créer des configurations de génération d’états électroniques (ER)](electronic-reporting-configuration.md). Pour spécifier le flux de données pour extraire les données de finances et d’opérations et l’utiliser pour générer un document électronique, vous devez effectuer les opérations suivantes :
 
 - Lier les sources de données configurées aux éléments du modèle de données conçu pour le domaine. La structure du modèle et les sources de données sélectionnées peuvent faire partie d’une structure hiérarchique complexe. Pour cette raison, les liaisons finales peuvent être assez étendues et contenir de nombreux éléments de différents types (par exemple, des relations, des tables et des méthodes). Les liaisons peuvent devenir moins lisibles et très complexes à examiner et comprendre, en particulier pour les non propriétaires. 
 - Liez les éléments de modèle de données avec des composants de format pour définir les données qui seront renseignées à partir du modèle de données dans la sortie du format généré.
@@ -58,3 +58,4 @@ Cette fonction n’empêche pas la compatibilité ascendante de la structure ER.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

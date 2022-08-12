@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la double écriture
-description: Cet article offre une présentation générale de la double écriture, qui est une infrastructure prête à l’emploi qui fournit une interaction en temps quasi réel entre les applications d’engagement client et les applications Finances et Opérations.
+description: Cet article offre une présentation générale de la double écriture, qui est une infrastructure prête à l’emploi qui fournit une interaction en temps quasi réel entre les applications d’engagement client et les applications de finances et d’opérations.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 599cfdab8232cab28c59c5098094c4afd351df77
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872938"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112392"
 ---
 # <a name="dual-write-overview"></a>Vue d’ensemble de la double écriture
 
@@ -26,9 +26,9 @@ ms.locfileid: "8872938"
 
 ## <a name="what-is-dual-write"></a>Qu’est-ce que la double écriture ?
 
-La double écriture est une infrastructure prête à l’emploi qui fournit une interaction en temps quasi réel entre les applications d’engagement client et les applications Finances et Opérations. Lorsque les données sur les clients, les produits, les personnes et les opérations vont au-delà des limites de l’application, tous les départements d’une organisation sont habilités.
+La double écriture est une infrastructure prête à l’emploi qui fournit une interaction en temps quasi réel entre les applications d’engagement client et les applications de finances et d’opérations. Lorsque les données sur les clients, les produits, les personnes et les opérations vont au-delà des limites de l’application, tous les départements d’une organisation sont habilités.
 
-La double écriture offre une intégration bidirectionnelle étroitement couplée entre les applications Finances et Opérations et Dataverse. Toute modification de données dans les applications Finances et Opérations provoque des écritures dans Dataverse et toute modification de données dans Dataverse provoque des écritures dans les applications Finances et Opérations. Ce flux de données automatisé offre une expérience utilisateur intégrée dans les différentes applications.
+La double écriture offre une intégration bidirectionnelle étroitement couplée entre les applications de finances et d’opérations et Dataverse. Toute modification de données dans les applications de finances et d’opérations provoque des écritures dans Dataverse et toute modification de données dans Dataverse provoque des écritures dans les applications de finances et d’opérations. Ce flux de données automatisé offre une expérience utilisateur intégrée dans les différentes applications.
 
 ![Relation de données entre les applications.](media/dual-write-overview.jpg)
 
@@ -49,9 +49,9 @@ L’infrastructure de double écriture est extensible et fiable et comprend les 
 + Gestion fiable du cycle de vie des applications
 + Expérience de configuration initiale pour les nouveaux clients
 
-### <a name="application"></a>Demande
+### <a name="application"></a>Application
 
-La double écriture crée un mappage entre les concepts des applications Finances et Opérations et les concepts des applications d’engagement client. Cette intégration prend en charge les scénarios suivants :
+La double écriture crée un mappage entre les concepts des applications de finances et d’opérations et les concepts des applications d’engagement client. Cette intégration prend en charge les scénarios suivants :
 
 + Données principales client intégrées
 + Accès aux cartes de fidélité et aux points de récompense des clients
@@ -80,15 +80,15 @@ La double écriture assure l’intégration des données entre les applications 
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Que signifie la double écriture pour les développeurs et les architectes d’applications Customer Engagement ?
 
-La double écriture automatise le flux de données entre les applications Finances et Opérations et les applications d’engagement client. La double écriture se compose de deux solutions AppSource installées sur Dataverse. Les solutions étendent le schéma de table, les plug-ins et les workflows sur Dataverse afin qu’ils puissent évoluer à la taille de l’ERP. Pour une mise en œuvre réussie, les développeurs et les architectes d’applications d’engagement client doivent comprendre ces changements et collaborer avec leurs homologues sur les applications Finances et Opérations.
+La double écriture automatise le flux de données entre les applications de finances et d’opérations et les applications d’engagement client. La double écriture se compose de deux solutions AppSource installées sur Dataverse. Les solutions étendent le schéma de table, les plug-ins et les workflows sur Dataverse afin qu’ils puissent évoluer à la taille de l’ERP. Pour une mise en œuvre réussie, les développeurs et les architectes d’applications d’engagement client doivent comprendre ces changements et collaborer avec leurs homologues sur les applications de finances et d’opérations.
 
-Pour créer la parité avec les applications Finances et Opérations, la double écriture apporte des changements cruciaux dans le schéma Dataverse. Si vous comprenez le plan, vous pouvez éviter certaines retouches de conception et de développement à l’avenir.
+Pour créer la parité avec les applications de finances et d’opérations, la double écriture apporte des changements cruciaux dans le schéma Dataverse. Si vous comprenez le plan, vous pouvez éviter certaines retouches de conception et de développement à l’avenir.
 
-+ Lorsque le package AppSource de double écriture est installé, Dataverse dispose de nouveaux concepts, tels que la société et la partie. Ces concepts aident les applications basées sur Dataverse, y compris Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service et Dynamics 365 Field Service, pour interagir de manière transparente avec les applications Finances et Opérations.
++ Lorsque le package AppSource de double écriture est installé, Dataverse dispose de nouveaux concepts, tels que la société et la partie. Ces concepts aident les applications basées sur Dataverse, y compris Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service et Dynamics 365 Field Service, pour interagir de manière transparente avec les applications de finances et d’opérations.
 
 + Les activités et les notes sont unifiées et étendues pour prendre en charge à la fois les C1 (utilisateurs du système) et les C2 (clients du système).
 
-+ Pour éviter la perte de données lors de la transmission de devises entre les applications Finances et Opérations et Dataverse, vous pourrez augmenter le nombre de décimales dans le type de données de devise des applications d’engagement client. La fonctionnalité traduit automatiquement les lignes existants dans le nouvel état étendu au niveau de la couche de métadonnées. Au cours de ce processus, la valeur monétaire est convertie en données décimales plutôt qu’en données monétaires et la valeur monétaire prend en charge 10 décimales. Cette fonctionnalité est une adhésion, et les organisations qui n’ont pas besoin de plus de 4 décimales de précision n’ont pas besoin de l’activer. Pour plus d’informations, voir [Migration de type de données de devise pour la double écriture](currrency-decimal-places.md).
++ Pour éviter la perte de données lors de la transmission de devises entre les applications de finances et d’opérations et Dataverse, vous pourrez augmenter le nombre de décimales dans le type de données de devise des applications d’engagement client. La fonctionnalité traduit automatiquement les lignes existants dans le nouvel état étendu au niveau de la couche de métadonnées. Au cours de ce processus, la valeur monétaire est convertie en données décimales plutôt qu’en données monétaires et la valeur monétaire prend en charge 10 décimales. Cette fonctionnalité est une adhésion, et les organisations qui n’ont pas besoin de plus de 4 décimales de précision n’ont pas besoin de l’activer. Pour plus d’informations, voir [Migration de type de données de devise pour la double écriture](currrency-decimal-places.md).
 
 + [Prise d’effet de date](../../dev-tools/date-effectivity.md) sera ajouté à Dataverse. Elle prendra en charge les données passées, présentes et futures sur la même table.
 
@@ -99,3 +99,4 @@ Pour plus d’informations sur les modifications à venir, voir [Nouveautés ou 
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

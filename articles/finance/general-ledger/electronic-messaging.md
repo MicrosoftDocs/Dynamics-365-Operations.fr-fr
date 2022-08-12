@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4e765c6d56e0ab6d209c27a70fd4b7e52273c103
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934681"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069878"
 ---
 # <a name="electronic-messaging"></a>Messagerie électronique
 
@@ -76,7 +76,7 @@ Le tableau suivant fournit des informations sur certaines fonctionnalités régl
 |-------------|--------------|------------------------|
 | Espagne       | [Fourniture immédiate d’informations sur la TVA (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | Hongrie     | [Système de facturation en ligne](../localizations/emea-hun-online-invoicing.md) | |
-| Royaume-Uni | [Rendre la taxe numérique - Envoi de déclarations de TVA](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance et Opérations : Taxe numérique britannique – Déclaration de TVA dans Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| Royaume-Uni | [Rendre la taxe numérique - Envoi de déclarations de TVA](../localizations/emea-gbr-mtd-vat-integration.md) | [Finances et opérations : Taxe numérique britannique – Déclaration de TVA dans Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | Lituanie   | [Génération d’états i.SAF](../localizations/emea-ltu-isaf.md) | |
 | Pologne      | [Déclaration de TVA avec registres (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance : registres d’audit de TVA SAF/JPK](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | Pays-Bas | [Déclaration de TVA pour les Pays-Bas](../localizations/emea-nl-vat-declaration-netherlands.md) | |
@@ -97,4 +97,5 @@ Le tableau suivant fournit des informations sur certaines fonctionnalités régl
 | Suisse | [Déclaration TVA (Suisse)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
 

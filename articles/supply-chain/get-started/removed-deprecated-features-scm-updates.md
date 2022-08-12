@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865264"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171513"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Cet article sera mise à jour à mesure que de nouvelles fonctionnalités suppri
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification.
 
 > [!NOTE]
-> Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
+> Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.19
@@ -48,11 +48,11 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.18
 
-### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Entreposage (l’application d’entrepôt)
+### <a name="supply-chain-management--warehousing-the-warehouse-app"></a><a name="wma"></a>Supply Chain Management – Entrepôts (application des entrepôts)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | À compter d’avril 2021, *Dynamics 365 for Finance and Operations - Entreposage* (l’application d’entrepôt) est obsolète et ne sera plus prise en charge après avril 2022. Elle est maintenant remplacée par l’*Application mobile Gestion des entrepôts*, qui a été publiée avec la version 10.0.17 de Supply Chain Management. La nouvelle application est un remplacement complet, mais elle utilise la même infrastructure sous-jacente, ce qui facilite la migration. Si nécessaire, les deux applications peuvent être utilisées côte à côte pour aider les utilisateurs à s’adapter à mesure qu’ils apprennent à utiliser la nouvelle application.<br><br>Pour plus d’informations sur la nouvelle application mobile Gestion des entrepôts, voir [Application mobile Gestion des entrepôts](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) et [Installer et connecter l’application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md). |
+| **Motif de l’abandon/de la suppression** | À compter d’avril 2021, *Supply Chain Management – Warehousing* (l’application d’entrepôt) est obsolète et ne sera plus prise en charge après avril 2022. Elle est maintenant remplacée par l’*Application mobile Gestion des entrepôts*, qui a été publiée avec la version 10.0.17 de Supply Chain Management. La nouvelle application est un remplacement complet, mais elle utilise la même infrastructure sous-jacente, ce qui facilite la migration. Si nécessaire, les deux applications peuvent être utilisées côte à côte pour aider les utilisateurs à s’adapter à mesure qu’ils apprennent à utiliser la nouvelle application.<br><br>Pour plus d’informations sur la nouvelle application mobile Gestion des entrepôts, voir [Application mobile Gestion des entrepôts](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) et [Installer et connecter l’application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md). |
 | **Remplacé par une autre fonctionnalité ?**   | Oui, remplacé par la nouvelle application mobile Gestion des entrepôts. |
 | **Zones de produit affectées**         | Supply Chain Management - application d’entrepôt |
 | **Option de déploiement**              | Cloud et sur site |
@@ -98,3 +98,4 @@ Pour en savoir plus sur les fonctionnalités supprimées ou obsolètes dans les 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

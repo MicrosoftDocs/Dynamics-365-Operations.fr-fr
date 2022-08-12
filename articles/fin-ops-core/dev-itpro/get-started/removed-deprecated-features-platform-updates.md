@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945802"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069920"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de la plateforme supprimées ou déconseillées
 
@@ -30,18 +30,18 @@ Cet article décrit les fonctions qui ont été supprimées, ou qu’il est pré
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
-Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
+Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Notification d’abandon de fonctionnalités à compter de juin 2022
 
-### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Application mobile et plateforme mobile Finance et Opérations (Dynamics 365) 
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Application mobile et plateforme mobile des applications de finances et d’opérations (Dynamics 365) 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Nous abandonnons l’application et la plateforme mobiles Finance et Opérations (Dynamics 365) pour les consolider en une plateforme mobile unique, qui est Power Apps. |
-| **Remplacé par une autre fonctionnalité ?**   | Oui, des expériences mobiles sur les données de l’application Finance et Opérations peuvent être créées avec l’intégration de Power Platform. Consultez le [billet de blog](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) et [Créer des expériences mobiles](../power-platform/build-mobile-experiences.md) pour plus d’informations. |
-| **Zones de produit affectées**         | applications de finances et d’opérations |
+| **Motif de l’abandon/de la suppression** | Nous abandonnons l’application et la plateforme mobiles des applications de finances et d’opérations (Dynamics 365) pour les consolider en une plateforme mobile unique, qui est Power Apps. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, des expériences mobiles sur les données de l’application de finances et d’opérations peuvent être créées avec l’intégration de Power Platform. Consultez le [billet de blog](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) et [Créer des expériences mobiles](../power-platform/build-mobile-experiences.md) pour plus d’informations. |
+| **Zones de produit affectées**         | Applications de finances et d'opérations |
 | **Option de déploiement**              | Tout |
 | **Status**                         | Obsolète. La date de fin du support est prévue pour octobre 2024. |
 
@@ -67,7 +67,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Nous supprimons la prise en charge de la résolution d’URL XML car cela a été identifié comme une vulnérabilité de sécurité potentielle. Cela signifie que les ressources externes associées aux fichiers XML ne seront plus résolues.  |
 | **Remplacé par une autre fonctionnalité ?**   | Non |
-| **Zones de produit affectées**         | Applications Finances et Opérations |
+| **Zones de produit affectées**         | Applications de finances et d'opérations |
 | **Option de déploiement**              | Tout |
 | **Status**                         | Obsolète. |
 
@@ -79,7 +79,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La prise en charge des scripts XSLT dans Gestion des données est obsolète pour améliorer la sécurité et la protection des données dans les applications de finances et d’opérations.  |
 | **Remplacé par une autre fonctionnalité ?**   | Non Les clients et les éditeurs de logiciels indépendants doivent envisager de réimplémenter leurs solutions selon le langage X++, à la place des scripts XSLT. |
-| **Zones de produit affectées**         | Applications Finances et Opérations |
+| **Zones de produit affectées**         | Applications de finances et d'opérations |
 | **Option de déploiement**              | Tout |
 | **Status**                         | Désapprouvé <br><br>**Exception :** les clients qui utilisent actuellement les scripts XLST. Ils peuvent continuer à l’utiliser jusqu’à la mise à jour vers la version 10.0.30 ou ultérieure. Pour les versions antérieures, l’exception expirera le 31 janvier 2023. Les clients avec cette exception ont reçu une notification dans le centre de messages disponible dans le centre d’administration Microsoft 365. |
 
@@ -196,7 +196,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Afin de réduire les frais généraux d’exploitation, de surveillance et de maintenance de la gestion des index par les clients, cette fonctionnalité a été supprimée. |
 | **Remplacé par une autre fonctionnalité ?**   | À l’avenir, la maintenance de l’index sera effectuée par les services Microsoft. Elle se produira de manière continue sans affecter les charges de travail des utilisateurs. |
-| **Zones de produit affectées**         | Applications Finances et Opérations|
+| **Zones de produit affectées**         | Applications de finances et d'opérations|
 | **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
 | **Statut**                         | Cette fonctionnalité est supprimée. |
 
@@ -229,7 +229,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Les artefacts de métadonnées associés à Dynamics AX 2012 Enterprise Portal (EP) ne sont plus utilisés, car EP n’a jamais été pris en charge dans les applications de finances et d’opérations. |
-| **Remplacé par une autre fonctionnalité ?**   | Non |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tous |
 | **Statut**                         | Obsolète : tout le code EP devrait être supprimé dans la version d’octobre 2021. |
@@ -398,3 +398,4 @@ Pour en savoir plus sur les fonctionnalités supprimées ou obsolètes dans les 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

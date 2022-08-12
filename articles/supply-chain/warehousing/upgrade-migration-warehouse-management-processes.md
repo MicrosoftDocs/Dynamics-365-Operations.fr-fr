@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857081"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065808"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Mise à niveau de la gestion des entrepôts depuis Microsoft Dynamics AX 2012 vers Supply Chain Management 
 
@@ -37,7 +37,7 @@ Lors d’une mise à niveau, tous les produits associés à un groupe de dimensi
 Après la mise à niveau, vous pouvez utiliser un ensemble d’options dans l’écran **Modifier le groupe de dimensions de stockage pour les articles** pour débloquer les produits qui ont été bloqués pendant la mise à niveau, puis traiter les transactions pour ces produits.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Activation des articles dans Supply Chain Management 
-Cette modifications est requise, car la traçabilité des articles fait partie des processus de gestion des entrepôts dans Supply Chain Management. Pour ces processus, tous les entrepôts et leurs emplacements doivent être associés à un profil d’emplacement. Si vous souhaitez utiliser les processus de gestion des entrepôts, les éléments suivants doivent être configurés :
+Cette modification est requise, car la traçabilité des articles fait partie des processus de gestion des entrepôts dans Supply Chain Management. Pour ces processus, tous les entrepôts et leurs emplacements doivent être associés à un profil d’emplacement. Si vous souhaitez utiliser WMS, les éléments suivants doivent être configurés :
 -   Les entrepôts existants doivent être activés pour utiliser les processus de gestion des entrepôts 
 -   Les produits lancés existants doivent être associés à un groupe de dimensions de stockage qui utilise les processus de gestion des entrepôts 
 
@@ -58,10 +58,10 @@ Pour débloquer les produits qui ont été bloqués pendant la mise à niveau, v
 -   Modifiez le groupe de dimensions de stockage de l’article en un groupe de dimensions de stockage qui utilise uniquement les dimensions de stock Site, Entrepôt et Emplacement. Suite à cette modification, la dimension de stock ID palette n’est plus utilisée.
 -   Modifiez le groupe de dimensions de stockage de l’article en un groupe de dimensions de stockage qui utilise les processus de gestion des entrepôts. Suite à cette modification, la dimension de stock Contenant est à présent utilisée.
 
-## <a name="configure-warehouse-management-processes"></a>Configurer les processus de gestion des entrepôts
+## <a name="configure-wms"></a>Configurer le WMS
 Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepôts**, les produits doivent utiliser un groupe de dimensions de stockage dans lequel le paramètre **Utiliser les processus de gestion des entrepôts** est sélectionné.
 
-### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Activer les entrepôts pour utiliser les processus de gestion des entrepôts
+### <a name="enable-warehouses-to-use-wms"></a>Activer l’utilisation de la gestion des entrepôts
 
 1.  Créez au moins un profil d’emplacement.
 2.  Cliquez sur **Gestion des entrepôts** &gt; **Paramétrage** &gt; **Activer les processus de gestion des entrepôts** &gt; **Activer le paramétrage des entrepôts**.
@@ -70,7 +70,7 @@ Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepô
 5.  Validez les modifications. Dans le cadre du processus de validation, différentes validations de l’intégrité des données se produisent. Dans le cadre d’un processus de mise à niveau plus vaste, les problèmes qui se produisent doivent être ajustés sur l’implémentation source. Dans ce cas, une mise à niveau supplémentaire des données sera nécessaire.
 6.  Traitez les modifications.
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Modifier le groupe de dimensions de stockage pour les articles, afin qu’il utilise les processus de gestion des entrepôts
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Modifier le groupe de dimensions de stockage pour les articles, afin qu’il utilise les processus de gestion des entrepôts
 
 1.  Créez une valeur **Statut du stock**, puis définissez-la comme **ID statut de stock par défaut** dans les **Paramètres de gestion des entrepôts**.
 2.  Créez un groupe de dimensions de stockage dans lequel le paramètre **Utiliser les processus de gestion des entrepôts** est sélectionné.

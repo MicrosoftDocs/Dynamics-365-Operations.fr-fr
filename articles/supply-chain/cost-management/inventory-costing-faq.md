@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1d86e7e9cca159d0a820680714a08dc73c0688
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850842"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068391"
 ---
 # <a name="inventory-costing-faq"></a>FAQ sur l’évaluation des coûts de stock
 
@@ -112,11 +112,11 @@ Non, vous ne pouvez pas activer l’option **Stock financier** pour la dimension
 
 ### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>Dois-je activer l’option Utiliser les processus de gestion des entrepôts pour le groupe de dimensions de stockage ?
 
-Si vous estimez que vous allez peut-être utiliser les fonctionnalités avancées de gestion des entrepôts par la suite, vous devez activer l’option **Utiliser les processus de gestion des entrepôts**. Après avoir enregistré un groupe de dimensions de stockage, vous ne pouvez plus modifier le paramètre de l’option **Utiliser les processus de gestion des entrepôts** pour celui-ci. Si vous décidez d’utiliser les processus de gestion des entrepôts ultérieurement, vous devrez créer un nouvel entrepôt où l’option est activée. Il n’existe aucun processus automatisé à utiliser pour déplacer tout le stock d’un entrepôt vers un autre entrepôt ou pour copier les configurations associées vers un nouvel entrepôt.
+Si vous estimez que vous allez peut-être utiliser les fonctionnalités de processus de gestion des entrepôts par la suite, vous devez activer l’option **Utiliser les processus de gestion des entrepôts**. Après avoir enregistré un groupe de dimensions de stockage, vous ne pouvez plus modifier le paramètre de l’option **Utiliser les processus de gestion des entrepôts** pour celui-ci. Si vous décidez d’utiliser les processus de gestion des entrepôts ultérieurement, vous devrez créer un nouvel entrepôt où l’option est activée. Il n’existe aucun processus automatisé à utiliser pour déplacer tout le stock d’un entrepôt vers un autre entrepôt ou pour copier les configurations associées vers un nouvel entrepôt.
 
-### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>Puis-je activer l’option Utiliser les processus de gestion des entrepôts pour le groupe de dimensions de stockage même si je ne prévois pas d’utiliser la gestion d’entrepôt avancée ?
+### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-warehouse-management-processes-wms"></a>Puis-je activer l’option Utiliser les processus de gestion des entrepôts pour le groupe de dimensions de stockage même si je ne prévois pas d’utiliser les processus de gestion des entrepôts ?
 
-Oui, même si vous ne prévoyez pas d’utiliser les fonctionnalités avancées de gestion des entrepôts, vous pouvez activer l’option **Utiliser les processus de gestion des entrepôts** pour le groupe de dimensions de stockage. Pour créer et traiter des transactions, vous devrez compléter la configuration minimale, telle que les hiérarchies de réservation et les groupes de séquences d’unités. Cependant, les paramètres d’entreposage avancé sont généralement ignorés lorsque vous traitez manuellement des listes de prélèvement, des bons de livraison et des accusés de réception de marchandises (par exemple, sur les pages de commande client et de commande fournisseur).
+Oui, même si vous ne prévoyez pas d’utiliser les fonctionnalités de processus de gestion des entrepôts, vous pouvez activer l’option **Utiliser les processus de gestion des entrepôts** pour le groupe de dimensions de stockage. Pour créer et traiter des transactions, vous devrez compléter la configuration minimale, telle que les hiérarchies de réservation et les groupes de séquences d’unités. Cependant, les paramètres d’entreposage avancé sont généralement ignorés lorsque vous traitez manuellement des listes de prélèvement, des bons de livraison et des accusés de réception de marchandises (par exemple, sur les pages de commande client et de commande fournisseur).
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>Quand dois-je activer l’option Stock physique pour un groupe de dimensions de suivi ou de stockage ?
 

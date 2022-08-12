@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853072"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070556"
 ---
 # <a name="create-variable-compensation-plans"></a>Créer un régime de rémunération variable
 
@@ -42,7 +42,11 @@ Les **types de rémunération variable** sont des composants obligatoires. Les *
 Le cas échéant, les sociétés peuvent paramétrer des **Règles d’acquisition**. Les **Règles d’acquisition** décrivent comment la prime variable doit être affectée au fil du temps. Par exemple, une règle d’acquisition peut déclarer que l’employé recevra 25 % de sa prime totale chaque année pour les quatre années à venir. Les règles d’acquisition sont uniquement à titre d’information.
 
 ## <a name="variable-compensation-plans"></a>Régimes de rémunération variable
-Le **régime de rémunération variable** contient les règles, les modes de calcul, et les valeurs par défaut pour le calcul de la rémunération variable des employés inscrits. Lorsque vous créez un régime de rémunération variable, vous devez définir le type de rémunération variable. Le type de rémunération variable détermine si le système calcule un montant en devise ou un nombre d’unités pour la prime. Vous devez également définir le mode de calcul :
+Le **régime de rémunération variable** contient les règles, les modes de calcul, et les valeurs par défaut pour le calcul de la rémunération variable des employés inscrits. Lorsque vous créez un régime de rémunération variable, vous devez définir le type de rémunération variable. Le type de rémunération variable détermine si le système calcule un montant en devise ou un nombre d’unités pour la prime. 
+
+Le paramètre **Restreindre l’accès aux rôles sélectionnés** limite l’accès au plan de rémunération aux rôles de sécurité sélectionnés qui ont été attribués à ce plan dans Human Resources. Par exemple, lorsque vous créez des plans de rémunération destinés aux cadres et qui ne doivent pas être visibles pour tous les rôles spécifiques aux RH, vous pouvez utiliser ce paramètre pour restreindre l’accès à ces plans de rémunération. 
+
+Vous devez également définir le mode de calcul :
 
 -   **Moment donné** – Le calcul de la prime variable est basé sur la rémunération fixe que l’employé a reçue à une date spécifique. Cette date est spécifiée sur l’événement de processus lorsque de nouveaux montants de rémunération sont traités.
 -   **Composite** – Un montant de prime est calculé pour chaque taux de salaire de rémunération fixe que l’employé a reçu entre la date de début de cycle et la date de fin de cycle sur l’événement de processus. Les taux sont ensuite additionnés pour déterminer la prime finale. Par exemple, au cours du cycle, un employé est transféré vers un autre poste dont le taux de salaire est différent. Dans ce cas, la prime variable est ajustée selon la durée pendant laquelle l’employé a eu chaque taux de salaire.

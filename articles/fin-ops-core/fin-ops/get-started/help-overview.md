@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898367"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124192"
 ---
 # <a name="help-system"></a>Système d’aide
 
@@ -53,7 +53,7 @@ Vous pouvez trouver du contenu sur docs.microsoft.com en utilisant n’importe q
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Être informé des changements via un flux RSS
 
-Pour vous abonner à un flux RSS de toutes les mises à jour apportées au contenu de docs.microsoft.com dans les applications Finances et Opérations, utilisez le lien suivant :
+Pour vous abonner à un flux RSS de toutes les mises à jour apportées au contenu de docs.microsoft.com dans les applications de finances et d’opérations, utilisez le lien suivant :
 
 [Flux RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ Pour plus d’informations, consultez le [guide du contributeur](/contribute), q
 
 Un guide de tâche est une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d’une tâche ou d’un processus métier. Vous pouvez lire un guide de tâche à partir du volet **Aide**. Lorsque vous cliquez sur un guide de tâche, le volet **Aide** affiche les instructions pas-à-pas concernant la tâche. Des guides des tâches localisés sont disponibles.
 
-Microsoft a publié des bibliothèques de guides de tâches pour les versions de produits jusqu’à la version de décembre 2017 de Dynamics 365 for Finance and Operations. La section [Accès aux guides de tâche à partir du volet Aide](#accessing-task-guides-from-the-help-pane) de cet article décrit comment trouver les guides de tâche appropriés à votre produit.
+Microsoft a publié des bibliothèques de guides de tâches pour les versions de produits jusqu’à la version de décembre 2017 des applications de finances et d’opérations de Dynamics 365. La section [Accès aux guides de tâche à partir du volet Aide](#accessing-task-guides-from-the-help-pane) de cet article décrit comment trouver les guides de tâche appropriés à votre produit.
 
 ![Vue de lecture du Guide de tâche.](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ Le tableau suivant répertorie nos sites Web. Les sites qui ont un astérisque (
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 729ef6aae228ad1e528945031567b92c44cdf256
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015083"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111752"
 ---
 # <a name="register-consumption"></a>Enregistrer la consommation
 
@@ -90,7 +90,7 @@ Lorsque vous effectuez des enregistrements de consommation, les dimensions finan
 - *Enregistrements de l’article :* tout d’abord, les dimensions financières de l’en-tête de journal sont ajoutées, le cas échéant. Puis, les dimensions financières du projet de l’ordre de travail associé sont ajoutées. Ensuite, les dimensions financières du site sont ajoutées. Enfin, les dimensions financières de l’article sont ajoutées.
 
 >[!NOTE]
->Pour tous les types d'enregistrement, la combinaison de dimensions financières est ajoutée et les combinaisons non valides sont grisées. Il s'agit du paramétrage standard avec d'autres applications Finance and Operations.
+>Pour tous les types d’enregistrement, la combinaison de dimensions financières est ajoutée et les combinaisons non valides sont grisées. Il s’agit du paramétrage standard avec d’autres applications de finances et d’opérations.
 
 
 

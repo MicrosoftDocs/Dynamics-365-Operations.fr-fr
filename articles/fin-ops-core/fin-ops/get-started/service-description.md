@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 756895ab0ccdbd2bc42f0a750ad9895ee7b284a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9e5160cc3961703475ffb8dc4a4daf2ae872aaba
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847158"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124923"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Description du service pour les applications de finances et d’opérations
 
@@ -37,10 +37,10 @@ Combinées avec les outils [Business Intelligence](/power-bi/fundamentals/power-
 
 En fonction des besoins, les clients choisissent leur approche de solution. Ils collaborent avec leur partenaire de mise en œuvre pour définir, développer et tester leur solution en utilisant des outils et les bonnes pratiques fournis dans[Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md). Il existe quatre scénarios courants :
 
-- Configuration standard des applications de finances et d’opérations "prêtes à l’emploi" (pas d’extensions)
+- Configuration standard des applications de finances et d’opérations « prêtes à l’emploi » (pas d’extensions)
 - Configuration des applications de finances et d’opérations qui inclut une ou plusieurs solutions de fournisseur de logiciel indépendant
-- Configuration des applications de finances et d’opérations incluant une ou plusieurs extensions spécifiques au client
-- Configuration des applications de finances et d’opérations incluant une combinaison d’extensions spécifiques au client et une ou plusieurs solutions ISV
+- Configuration des applications de finances et d’opérations avec une ou plusieurs extensions spécifiques au client
+- Configuration des applications de finances et d’opérations avec une combinaison d’extensions spécifiques au client et une ou plusieurs solutions ISV
 
 Les organisations peuvent accompagner la croissance de leur activité en ajoutant facilement des utilisateurs et des processus métier via un modèle d’abonnement simple et transparent. Pour plus d’informations, voir [Guide de gestion des licences Dynamics 365](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365).
 
@@ -428,3 +428,4 @@ Le cadre qui guide systématiquement une implémentation à travers une série d
 ### <a name="user"></a>Utilisateur
 
 Personne seule qui utilise les environnements de finances et d’opérations et associée au locataire d’un client.
+

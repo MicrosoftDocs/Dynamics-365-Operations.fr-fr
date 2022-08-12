@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900504"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065117"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Tâche de nettoyage des entrées disponibles de la gestion de l’entrepôt
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900504"
 
 Les performances des requêtes utilisées pour calculer l’inventaire disponible sont affectées par le nombre d’enregistrements dans les tables impliquées. Une façon d’améliorer les performances consiste à réduire le nombre d’enregistrements que la base de données doit prendre en compte.
 
-Cet article décrit la tâche de nettoyage des entrées disponibles, qui supprime les enregistrements inutiles dans les tables InventSum et WHSInventReserve. Ces tables stockent les informations de disponibilité pour les articles activés pour le traitement de gestion d’entrepôt. (Ces éléments sont appelés éléments WHS.) La suppression de ces enregistrements peut améliorer considérablement les performances des calculs de disponibilité.
+Cet article décrit la tâche de nettoyage des entrées disponibles, qui supprime les enregistrements inutiles dans les tables `InventSum` et `WHSInventReserve`. Ces tables stockent les informations de disponibilité pour les articles activés pour le traitement de gestion d’entrepôt. (Ces éléments sont appelés éléments WMS.) La suppression de ces enregistrements peut améliorer considérablement les performances des calculs de disponibilité.
 
 ## <a name="what-the-cleanup-job-does"></a>Ce que fait la tâche de nettoyage
 
-La tâche de nettoyage des entrées disponibles supprime tous les enregistrements des tables WHSInventReserve et InventSum dont toutes les valeurs de champ sont *0* (zéro). Ces enregistrements peuvent être supprimés car ils ne contribuent pas aux informations de disponibilité. La tâche supprime uniquement les enregistrements qui se trouvent en-dessous du niveau **Emplacement**.
+La tâche de nettoyage des entrées disponibles supprime tous les enregistrements des tables `WHSInventReserve` et `InventSum` dont toutes les valeurs de champ sont *0* (zéro). Ces enregistrements peuvent être supprimés car ils ne contribuent pas aux informations de disponibilité. La tâche supprime uniquement les enregistrements qui se trouvent en-dessous du niveau **Emplacement**.
 
 Si le stock physique négatif est autorisé, la tâche de nettoyage peut ne pas être en mesure de supprimer toutes les entrées pertinentes. La raison de cette limitation est que la tâche doit autoriser un scénario spécial où un contenant contient plusieurs numéros de série et où l’un de ces numéros de série est devenu négatif. Par exemple, le système aura une disponibilité zéro au niveau du contenant lorsqu’un contenant aura +1 pièces du numéro de série 1 et –1 pièces du numéro de série 2. Pour ce scénario spécial, la tâche effectue d’abord une suppression globale, où elle essaie de supprimer en partant des niveaux inférieurs.
 

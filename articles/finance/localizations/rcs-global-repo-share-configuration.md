@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f789fd86904c1e625be8fc5be3bfe456fe0659b4
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888921"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068746"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Partager des configurations d’états électroniques (ER) dans Regulatory Configuration Services (RCS)/le référentiel global avec des organisations externes.
 
@@ -36,7 +36,7 @@ Les procédures suivantes expliquent comment un utilisateur RCS peut partager un
 
 Vous devez également vous assurer qu’un environnement RCS est configuré pour votre entreprise.
 
-1. Dans une application Finances et Opérations, accédez à **Administration d’organisation** \> **Espaces de travail** \> **Gestion des états électroniques**.
+1. Dans une application de finances et d’opérations, accédez à **Administration d’organisation** \> **Espaces de travail** \> **Gestion des états électroniques**.
 2. Si vous n’avez pas d’environnement RCS configuré dans votre société, sélectionnez **Regulatory services – Configuration externe** et suivez les instructions pour en mettre un en service.
 
 Si un environnement RCS a déjà été configuré pour votre entreprise, utilisez l’URL de la page pour y accéder en sélectionnant l’option de connexion.
@@ -67,7 +67,7 @@ Une fois qu’une configuration a été créée sous votre fournisseur de config
 
     ![Boîte de dialogue Partager la version de la configuration avec l’organisation externe.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-La configuration est partagée avec l’organisation externe et est disponible pour cette organisation dans le référentiel global. De là, elle peut être importée dans l’instance de RCS de l’organisation ou dans ses instances des applications Finance et Opérations.
+La configuration est partagée avec l’organisation externe et est disponible pour cette organisation dans le référentiel global. De là, elle peut être importée dans l’instance de RCS de l’organisation ou dans ses instances des applications de finances et d’opérations.
 
 6. Pour annuler le partage d’une configuration qui a été précédemment partagée avec une organisation externe, sélectionnez la configuration et cliquez sur **Annuler le partage**, puis cliquez sur **OK**
 

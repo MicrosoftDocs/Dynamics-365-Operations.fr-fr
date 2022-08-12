@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856278"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065642"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurer les paramètres de Human Resources
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856278"
 
 Les réglages de certains paramètres des Ressources humaines sont partagés entre des sociétés, alors que les réglages d’autres paramètres sont spécifiques à la société. Cet article décrit comment définir les paramètres Human Resources spécifiques à la société.
 
-Deux pages permettent de définir les paramètres de Human Resources. Pour les paramètres communs à des sociétés, vous utilisez la page **Paramètres partagés de ressources humaines**. Pour les paramètres qui sont spécifiques à une société (en d’autres termes, les paramètres s’appliquent à une seule société), vous utilisez la page **Paramètres de ressources humaines**.
+Deux pages permettent de définir les paramètres de Human Resources. Pour les paramètres communs à des sociétés, vous utilisez la page **Paramètres partagés de ressources humaines**. Pour les paramètres spécifiques à la société, vous utilisez la page **Paramètres des ressources humaines**.
 
 ![Accéder aux paramètres de Human resources.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,9 +74,10 @@ Dans Dynamics 365 Finance, les paramètres de l’onglet **Rémunération** déf
 
 Dans Human Resources, vous pouvez utiliser l’onglet **Rémunération** pour choisir de restreindre l’accès aux plans de rémunération et de définir une devise par défaut.
 
-Pour plus d’informations sur les plans de rémunération, voir [Vue d’ensemble des régimes de rémunération](hr-compensation-overview.md).
+> [!NOTE]
+> Dans l’infrastructure fusionnée, le paramètre par défaut **Devise** sur l’onglet **Compensation** de la page **Paramètres des ressources humaines** a été supprimé. À l’avenir, la monnaie sera gérée par le paramètre **Devise comptable** pour s’assurer qu’il n’y a pas de conflits pour les fonctionnalités existantes des applications de finances et d’opérations et pour éviter les doublons. Pour plus d’informations sur la manière d’utiliser la fonctionnalité de devise comptable, voir [Configurer les registres](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md). 
 
-![Onglet Rémunération.](./media/hr-setup-parameters-compensation.png)
+Pour plus d’informations sur les plans de rémunération, voir [Vue d’ensemble des régimes de rémunération](hr-compensation-overview.md).
 
 ## <a name="number-sequences"></a>Souches de numéros
 

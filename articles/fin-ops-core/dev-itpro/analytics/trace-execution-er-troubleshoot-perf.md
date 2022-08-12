@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851949"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108854"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Suivez l’exécution des formats d’ER pour résoudre les problèmes de performances
 
@@ -98,7 +98,7 @@ Supposons que vous avez commencé à créer une solution ER pour générer un no
 
 Supposons que vous avez terminé de configurer la première version de la solution ER. Vous souhaitez à présent la tester dans l’instance et analyser les performances d’exécution.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importer une configuration ER de RCS dans Finance et Opérations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importer une configuration ER de RCS dans les applications de finances et d’opérations
 
 1. Connectez-vous à votre instance d’application.
 2. Pour ce didacticiel, vous importez des configurations de votre instance de RCS (dans laquelle vous concevez vos composants ER) vers l’instance (dans laquelle vous les utilisez et enfin vous les testez). Par conséquent, vous devez vous assurer que les artefacts requis ont été préparés. Pour plus d’instructions, voir la procédure [Importer les configurations des états électroniques (ER) depuis Regulatory Configuration Service (RCS)](rcs-download-configurations.md).
@@ -305,7 +305,7 @@ Il peut également être utile de réduire le nombre d’appels effectués à la
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Importez la configuration de la mise en correspondance de modèles ER modifiée du RCS vers l’application.
 
-Répétez les étapes de la section [Importer une configuration ER de RCS dans Finance et Opérations](#import-configuration) plus haut dans cet article pour importer la version 1.2 de la configuration **Mise en correspondance de suivi des performances**.
+Répétez les étapes de la section [Importer une configuration ER de RCS dans les applications de finances et d’opérations](#import-configuration) plus haut dans cet article pour importer la version 1.2 de la configuration **Mise en correspondance de suivi des performances**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Exécuter la solution ER modifiée pour suivre l’exécution
 
@@ -363,7 +363,7 @@ Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier 
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utiliser des outils externes pour examiner une trace d’exécution comprenant des requêtes de base de données
 
-En raison des améliorations apportées à la structure ER, le suivi des performances généré dans le format PerfView offre désormais plus de détails sur l’exécution du format ER. Dans la version Microsoft Dynamics 365 for Finance and Operations 10.0.4 (juillet 2019), ce suivi peut également inclure des détails sur les requêtes SQL exécutées envers la base de données d’application.
+En raison des améliorations apportées à la structure ER, le suivi des performances généré dans le format PerfView offre désormais plus de détails sur l’exécution du format ER. Dans la version Microsoft Dynamics 365 Finance 10.0.4 (juillet 2019), ce suivi peut également inclure des détails sur les requêtes SQL exécutées envers la base de données d’application.
 
 ### <a name="configure-user-parameters"></a>Configurer les paramètres utilisateur
 
@@ -392,3 +392,4 @@ Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 4e3da8ab9a739c8455d2c1d2720f94f91a42927d
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016621"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111598"
 ---
 # <a name="maintenance-forecasts"></a>Prévisions en matière de maintenance
 
@@ -107,7 +107,7 @@ L’illustration suivante présente un exemple de la liste de page **Prévisions
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Mise à jour automatique des prévisions de l’ordre de travail
 
-Si les coûts horaires, les coûts d’article et les dépenses sont mises à jour dans d’autres modules dans Microsoft Dynamics 365 for Finance and Operations, les prévisions de l’ordre de travail dans Gestion des actifs peut automatiquement être mis à jour pour refléter ces modifications. Cette capacité permet de garantir que les derniers prix de revient soient toujours utilisés dans vos prévisions d’ordre de travail. Vous pouvez également effectuer des mises à jour similaires pour [prévisions de type de tâche de maintenance](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Si les coûts horaires, les coûts d’article et les dépenses sont mises à jour dans d’autres modules, les prévisions de l’ordre de travail dans Gestion des actifs peut automatiquement être mis à jour pour refléter ces modifications. Cette capacité permet de garantir que les derniers prix de revient soient toujours utilisés dans vos prévisions d’ordre de travail. Vous pouvez également effectuer des mises à jour similaires pour [prévisions de type de tâche de maintenance](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Sélectionnez **Gestion des actifs** > **Périodique** > **Prévisions** > **Mettre à jour les prévisions de l’ordre de travail**.
 

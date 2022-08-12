@@ -1,5 +1,5 @@
 ---
-title: Configurer l’expérience d’aide pour les applications Finances et Opérations
+title: Configurer l’expérience d’aide pour les applications de finances et d’opérations
 description: Cet article fournit des informations sur les composants du système d’aide pour certaines applications Microsoft Dynamics 365.
 author: margoc
 ms.date: 08/11/2021
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900127"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123622"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurer l’expérience d’aide pour les applications Finances et Opérations
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurer l’expérience d’aide pour les applications de finances et d’opérations
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Dans cet article, vous trouverez un aperçu des composants du système d’aide pour des applications Finances et Opérations, telles que Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management Dynamics 365 Commerce et Dynamics 365 Human Resources. L’article explique également comment connecter ces composants et fournit un résumé du processus de création d’une aide personnalisée.
+Dans cet article, vous trouverez un aperçu des composants du système d’aide pour des applications de finances et d’opérations, telles que Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management Dynamics 365 Commerce et Dynamics 365 Human Resources. L’article explique également comment connecter ces composants et fournit un résumé du processus de création d’une aide personnalisée.
 
 ## <a name="help-architecture"></a>Architecture de l’aide
 
-Les applications Finances et Opérations incluent des aperçus conceptuels et d’autres rubriques qui sont publiés sur le site [Microsoft Dynamics 365 documentation](/dynamics365/). Ce contenu est ensuite accessible à partir du volet **Aide** du produit. La figure suivante illustre les parties du système d’aide.
+Les applications de finances et d’opérations incluent des aperçus conceptuels et d’autres rubriques qui sont publiés sur le site [Microsoft Dynamics 365 documentation](/dynamics365/). Ce contenu est ensuite accessible à partir du volet **Aide** du produit. La figure suivante illustre les parties du système d’aide.
 
 [![Architecture de l’aide.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -63,7 +63,7 @@ Pour configurer des guides de tâche pour une solution, procédez comme suit sur
 2. Sélectionnez les bibliothèques BPM (dans le projet sélectionné) à partir desquelles récupérer les enregistrements de tâche.
 3. Sélectionnez l’ordre d’affichage des bibliothèques BPM. L’ordre d’affichage définit l’ordre dans lequel les enregistrements de tâche des bibliothèques s’affichent dans le volet **Aide**.
 
-À l’issue de ces étapes, vous pouvez ouvrir le volet **Aide**, puis sélectionnez l’onglet **Guides de tâches**. Vous obtenez désormais les guides de tâches qui s’appliquent à la page sur laquelle vous êtes actuellement dans les applications Finances et Opérations. Si aucun guide de tâche n’est trouvé, vous pouvez entrer des mots clés pour affiner votre recherche.
+À l’issue de ces étapes, vous pouvez ouvrir le volet **Aide**, puis sélectionnez l’onglet **Guides de tâches**. Vous obtenez désormais les guides de tâches qui s’appliquent à la page sur laquelle vous êtes actuellement dans les applications de finances et d’opérations. Si aucun guide de tâche n’est trouvé, vous pouvez entrer des mots clés pour affiner votre recherche.
 
 ### <a name="showing-translated-task-guides"></a>Affichage des guides de tâches traduits
 
@@ -87,7 +87,7 @@ Si vous êtes un partenaire et que vous faites d’une bibliothèque une bibliot
 
 ### <a name="connect-a-custom-help-site"></a>Connexion à un site d’aide personnalisé
 
-Les applications Finances et Opérations sont rarement utilisées dans leur forme prête à l’emploi. Au lieu de cela, la solution est personnalisée et étendue pour répondre aux besoins de l’organisation. Vous pouvez également personnaliser et étendre l’expérience d’aide. Par exemple, vous pouvez ajouter une aide personnalisée au volet **Aide** du produit.
+Les applications de finances et d’opérations sont rarement utilisées dans leur forme prête à l’emploi. Au lieu de cela, la solution est personnalisée et étendue pour répondre aux besoins de l’organisation. Vous pouvez également personnaliser et étendre l’expérience d’aide. Par exemple, vous pouvez ajouter une aide personnalisée au volet **Aide** du produit.
 
 Microsoft a fourni une boîte à outils pour vous aider à déployer et à connecter l’aide personnalisée du volet **Aide**. Pour plus d’informations sur la façon de configurer une solution d’aide personnalisée connectée au volet **Aide**, voir [Vue d’ensemble de l’aide personnalisée](../../dev-itpro/help/custom-help-overview.md).
 
@@ -103,3 +103,4 @@ Si vous souhaitez collaborer avec Microsoft sur des outils et de processus de pe
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

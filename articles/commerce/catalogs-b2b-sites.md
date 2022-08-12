@@ -2,19 +2,19 @@
 title: Créer des catalogues Commerce pour les sites B2B
 description: Cet article décrit comment créer des catalogues Commerce pour les sites interentreprises (B2B) dans Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 05/18/2022
+ms.date: 07/11/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 7d4ed3e2a76924c2c3c0ba55e21ba648e8da7b76
+ms.sourcegitcommit: d1491362421bf2fcf72a81dc2dc2d13d3b98122b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027030"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9136824"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Créer des catalogues Commerce pour les sites B2B
 
@@ -25,10 +25,13 @@ Cet article décrit comment créer des catalogues de produits Commerce pour les 
 > [!NOTE]
 > Cet article s’applique à Dynamics 365 Commerce version 10.0.27 et versions ultérieures.
 
-Vous pouvez utiliser les catalogues Commerce pour identifier les produits que vous souhaitez proposer dans vos magasins en ligne B2B. Quand vous créez un catalogue, identifiez les magasins en ligne dans lesquels les produits sont proposés, ajoutez les produits souhaités et améliorez les offres de produit en ajoutant des détails de vente. Vous pouvez créer plusieurs catalogues pour chaque magasin en ligne B2B.
+Vous pouvez utiliser les catalogues Commerce pour identifier les produits que vous souhaitez proposer dans vos magasins en ligne B2B. Quand vous créez un catalogue, identifiez les magasins en ligne dans lesquels les produits sont proposés, ajoutez les produits souhaités et améliorez les offres de produit en ajoutant des détails de vente. Vous pouvez créer plusieurs catalogues pour chaque boutique en ligne B2B, comme indiqué dans l’illustration suivante.
+
+![Aperçu des catalogues de produits commerciaux.](./media/Commerce_Catalogs.png)
 
 Les catalogues de produits Commerce vous permettent de définir les informations suivantes :
 
+- **Type de catalogue** – Configurez la valeur comme **B2B**. Vous pouvez définir des propriétés spécifiques au catalogue B2B telles qu’une hiérarchie de navigation, une hiérarchie client et des métadonnées d’attribut pour le catalogue. 
 - **Hiérarchie de navigation spécifique au catalogue** – Les organisations peuvent créer une structure de catégorie distincte pour leur catalogue spécifique.
 - **Métadonnées d’attributs spécifiques au catalogue** – Les attributs contiennent des détails sur un produit. En affectant des attributs à une catégorie de la hiérarchie de navigation, vous pouvez définir des valeurs pour ces attributs au niveau des produits affectés à cette catégorie. Le organisations peuvent ensuite effectuer les tâches suivantes :
 
@@ -41,11 +44,14 @@ Les catalogues de produits Commerce vous permettent de définir les informations
 - **Groupes de prix** – Vous pouvez configurer des prix et des promotions spécifiques à un catalogue donné. Cette capacité est une raison essentielle pour définir un catalogue pour un canal B2B. Les groupes de prix pour les catalogues permettent aux organisations de mettre des produits à la disposition de leurs organisations B2B prévues et d’appliquer leurs prix et remises préférés. Les clients B2B qui commandent à partir d’un catalogue configuré peuvent bénéficier de prix spéciaux et de promotions après s’être connectés à un site Commerce B2B. Pour configurer des prix spécifiques au catalogue, sélectionnez **Groupes de prix** sur l’onglet **Catalogues** pour associer un ou plusieurs groupes de prix au catalogue. Les accords commerciaux, les journaux d’ajustement de prix et les remises avancées associés au même groupe de prix sont appliqués quand les clients passent une commande à partir de ce catalogue. (Les remises avancées incluent les remises de seuil, de quantité et de combinaison.) Pour plus d’informations sur les groupes de prix, voir [Groupes de prix](price-management.md#price-groups).
 
 > [!NOTE]
-> Cette fonctionnalité est disponible à partir de la version 10.0.27 de Dynamics 365 Commerce. Pour configurer des configurations spécifiques au catalogue telles que la hiérarchie de navigation et la hiérarchie des clients, dans Commerce headquarters, ouvrez l’espace de travail **Gestion des fonctionnalités** (**Administration système \> Espaces de travail \> Gestion des fonctionnalités**), activez la fonctionnalité **Activer l’utilisation de plusieurs catalogues sur les canaux de vente au détail**, puis exécutez la tâche **1110 CDX**.
+> Cette fonctionnalité est disponible à partir de la version 10.0.27 de Dynamics 365 Commerce. Pour configurer des configurations spécifiques au catalogue telles que la hiérarchie de navigation et la hiérarchie des clients, dans Commerce headquarters, accédez à l’espace de travail **Gestion des fonctionnalités** (**Administration système \> Espaces de travail \> Gestion des fonctionnalités**), activez la fonctionnalité **Activer l’utilisation de plusieurs catalogues sur les canaux de vente au détail**, puis exécutez la tâche **1110 CDX**. Lorsque vous activez cette fonctionnalité, tous les catalogues existants utilisés pour les points de vente ou un centre d’appels seront marqués comme **Type de catalogue = B2C** sur la page **Catalogues**. Seuls les catalogues existants et nouveaux marqués comme **Type de catalogue = B2C** sont applicables aux points de vente et à un centre d’appels. 
 
-## <a name="catalog-process-flow"></a>Flux de processus du catalogue
+## <a name="b2b-catalog-process-flow"></a>Flux de processus du catalogue B2B
 
 Le processus de création et de traitement d’un catalogue comporte quatre étapes générales. Chaque étape est expliquée en détail dans la section suivante.
+
+> [!NOTE]
+> Avant de continuer, assurez-vous que le catalogue est marqué comme **Type de catalogue = B2B**.
 
 1. **[Configuration](#configure-the-catalog)**
 
@@ -73,7 +79,7 @@ Utilisez les informations de cette section pour configurer votre catalogue.
 
 Dans Commerce headquarters, accédez à **Retail et Commerce \> Catalogues et assortiments \> Tous les catalogues** pour configurer votre catalogue.
 
-Quand vous créez un catalogue, vous devez d’abord l’associer à un ou plusieurs canaux. Seuls les articles liés aux [assortiments](/dynamics365/unified-operations/retail/assortments) du canal sélectionné peuvent être utilisés à la création du catalogue. Pour associer le catalogue à un ou plusieurs canaux, sélectionnez **Ajouter** sur le raccourci **Canaux Commerce** de la page **Configuration du catalogue**.
+Quand vous créez un catalogue, vous devez d’abord l’associer à un ou plusieurs canaux. Seuls les articles liés aux [assortiments](/dynamics365/unified-operations/retail/assortments) du canal sélectionné peuvent être utilisés à la création du catalogue. Pour associer le catalogue à un ou plusieurs canaux, sélectionnez **Ajouter** sur le raccourci **Canaux Commerce** de la page **Configuration du catalogue**. Veillez à ce que le catalogue soit marqué comme **Type de catalogue = B2B**.
 
 #### <a name="associate-the-navigation-hierarchy"></a>Associez la hiérarchie de navigation
 
@@ -90,6 +96,17 @@ Pour configurer les produits à ajouter au catalogue, dans Commerce headquarters
 Sinon, vous pouvez également sélectionner un nœud dans la hiérarchie de navigation. Vous pourrez alors ajouter des produits directement à une catégorie du catalogue.
 
 #### <a name="associate-price-groups"></a>Associez les groupes de prix
+
+Pour configurer les produits à ajouter au catalogue, dans Commerce headquarters, accédez à **Retail et Commerce \> Catalogues et assortiments \> Tous les catalogues**. Ensuite, dans l’onglet **Catalogues**, sélectionnez **Ajouter des produits**. 
+
+Produits qui ont été ajoutés à un catalogue à partir du nœud racine de la hiérarchie de navigation en sélectionnant **Ajouter des produits** dans le volet Actions hériteront de leurs catégories si la hiérarchie de navigation source est également associée au catalogue. Les modifications apportées aux catégories dans la hiérarchie de navigation source seront immédiatement répercutées dans les catalogues. Vous devez republier les catalogues pour mettre à jour les chaînes.
+
+Vous pouvez également sélectionner un nœud dans la hiérarchie de navigation et ajouter des produits directement à une catégorie sélectionnée dans le catalogue. 
+
+Lorsque vous ajoutez des produits, l’option **Inclure automatiquement toutes les variantes lorsque seul le produit principal est sélectionné** sera disponible. Pour empêcher l’inclusion de toutes les variantes, sélectionnez au moins une variante pour le produit générique. 
+
+> [!NOTE]
+> Si vous choisissez d’inclure automatiquement toutes les variantes dans une grande sélection de produits génériques, vous risquez de rencontrer des délais de traitement plus longs. Pour les grandes sélections, nous vous recommandons de sélectionner **Inclure toutes les variantes** dans le volet Actions de la page des catalogues pour exécuter l’opération en mode batch. Si vous avez inclus uniquement le produit générique dans le catalogue et n’avez inclus aucune variante, le sélecteur de variante peut ne pas être disponible lorsque vous accédez à une page de détails de produit. 
 
 Pour configurer des prix spécifiques au catalogue, vous devez lier un ou plusieurs groupes de prix au catalogue. Pour associer des groupes de prix à un catalogue, dans Commerce headquarters, accédez à **Retail et Commerce \> Catalogues et assortiments \> Tous les catalogues**. Ensuite, sur l’onget **Catalogues**, sous **Tarification**, sélectionner **Groupes de prix**. Les accords commerciaux, les journaux d’ajustement de prix et les remises avancées (seuil, quantité et remises mix and match) qui ont été associés au même groupe de prix sont appliqués quand les clients passent une commande à partir du catalogue.
 
@@ -122,6 +139,9 @@ Pour valider un catalogue, procédez comme suit.
 1. Sur l’onglet **Catalogues** de la page **Tous les catalogues**, sous **Valider**, sélectionnez **Valider le catalogue** pour exécuter une validation. Cette étape est obligatoire. Elle permet de valider que le paramétrage requis est exact.
 1. Sélectionnez **Afficher les résultats** pour afficher les détails de la validation. Si des erreurs sont détectées, vous devez corriger les données et réexécuter ensuite la validation jusqu’à ce qu’elle réussisse.
 
+> [!NOTE]
+> Si **Type de catalogue = B2B**, la validation échouera si vous avez ajouté des points de vente ou un centre d’appels au catalogue. Les catalogues B2B ne doivent être associés qu’à des canaux en ligne B2B. La validation échouera également si aucune hiérarchie client n’est associée à un catalogue B2B. 
+
 ### <a name="approve-the-catalog"></a>Approuver le catalogue
 
 Une fois un catalogue validé, il doit être approuvé.
@@ -143,3 +163,5 @@ Une fois qu’un catalogue est dans un statut **Approuvé**, vous pouvez le publ
 [Impact d’extensibilité des catalogues Commerce pour les personnalisations B2B](catalogs-b2b-sites-dev.md)
 
 [FAQ sur les catalogues Commerce pour le B2B](catalogs-b2b-sites-FAQ.md)
+
+[Module de sélection de catalogue](catalog-picker.md)

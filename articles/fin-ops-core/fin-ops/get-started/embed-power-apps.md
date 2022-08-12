@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898396"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123652"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Incorporer des applications canevas à partir de Power Apps
 
@@ -27,7 +27,7 @@ ms.locfileid: "8898396"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Microsoft Power Apps est un service qui permet aux développeurs et aux utilisateurs non techniciens de générer des applications d’entreprise personnalisées pour les appareils mobiles, les tablettes et le web sans écrire de code. Intégration du support des applications Finances et Opérations avec Power Apps. Les applications canevas développées par vous, votre organisation ou l’écosystème élargi peuvent être incorporées dans les applications Finances et Opérations pour augmenter la fonctionnalité du produit. Par exemple, vous pouvez créer une application canevas de Power Apps en complément d’une application de finances et d’opérations avec des informations extraites d’un autre système.
+Microsoft Power Apps est un service qui permet aux développeurs et aux utilisateurs non techniciens de générer des applications d’entreprise personnalisées pour les appareils mobiles, les tablettes et le web sans écrire de code. Intégration du support des applications de finances et d’opérations avec Power Apps. Les applications canevas développées par vous, votre organisation ou l’écosystème élargi peuvent être incorporées dans les applications de finances et d’opérations pour augmenter la fonctionnalité du produit. Par exemple, vous pouvez créer une application canevas de Power Apps en complément d’une application de finances et d’opérations avec des informations extraites d’un autre système.
 
 Pour en savoir plus sur l’incorporation d’applications canevas, visionnez la courte vidéo [Comment incorporer des applications canvas](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
@@ -86,7 +86,7 @@ Lorsque vous intégrez une application canevas, vous devez définir les paramèt
 
 - **Nom** : saisissez le texte à afficher pour le bouton ou l’onglet contenant l’application incorporée. Il arrivera souvent que vous souhaitiez répéter le nom de l’application dans ce champ.
 - **ID d’application** : ce champ indique l’identificateur global unique (GUID) de l’application canevas que vous souhaitez incorporer. Pour récupérer cette valeur, recherchez l’application sur [make.powerapps.com](https://make.powerapps.com), puis consultez le champ **ID d’application** sous **Détails**.
-- **Contexte d’entrée de l’application** : vous pouvez également sélectionner le champ contenant les données à transmette à l’application comme entrée. Pour en savoir plus sur la manière dont l’application peut accéder aux données envoyées depuis les applications Finances et Opérations, voir [Création d’une application qui exploite les données envoyées depuis les applications Finances et Opérations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) ultérieurement dans cet article.
+- **Contexte d’entrée de l’application** : vous pouvez également sélectionner le champ contenant les données à transmette à l’application comme entrée. Pour en savoir plus sur la manière dont l’application peut accéder aux données envoyées depuis les applications de finances et d’opérations, voir [Création d’une application qui exploite les données envoyées depuis les applications de finances et d’opérations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) ultérieurement dans cet article.
 
     À partir de la version 10.0.19, l’entité juridique actuelle sera également transmise en tant que contexte à l’application canevas via le paramètre d’URL **cmp**. Ce comportement n’affecte pas l’application canevas cible tant que cette application n’utilise pas ces informations.
 
@@ -107,15 +107,15 @@ Après avoir incorporé une application canevas sur une page et confirmé qu’e
     - Si la fonction **Vues enregistrées** est désactivée, l’administrateur système peut donner une personnalisation qui inclut l’application canevas à l’ensemble d’utilisateurs approprié via la page **Personnalisation**. Vous pouvez également exporter les personnalisations de votre page et les envoyer à un ou plusieurs utilisateurs. Chacun de ces utilisateurs peut ensuite importer la personnalisation. La barre d’outils de personnalisation a des boutons qui vous permettent d’exporter et d’importer des personnalisations.
 
 > [!NOTE]
-> Si l’application canevas a été partagée avec des utilisateurs externes, ces utilisateurs ne peuvent pas utiliser l’application incorporée dans les applications Finances et Opérations. Cependant, ils peuvent accéder à l’application directement dans Power Apps. Les utilisateurs externes comprennent les invités et les utilisateurs qui n’appartiennent pas à Microsoft 365 Azure Directeory où l’application de finances et d’opérations est déployée.
+> Si l’application canevas a été partagée avec des utilisateurs externes, ces utilisateurs ne peuvent pas utiliser l’application incorporée dans les applications de finances et d’opérations. Cependant, ils peuvent accéder à l’application directement dans Power Apps. Les utilisateurs externes comprennent les invités et les utilisateurs qui n’appartiennent pas à Microsoft 365 Azure Directory où l’application de finances et d’opérations est déployée.
 
 Consultez [Personnaliser l’expérience de l’utilisateur](personalize-user-experience.md) en savoir plus sur les fonctions de personnalisation du produit et leur utilisation.
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Création d’une application canevas qui utilise les données envoyées depuis les applications Finances et Opérations
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Création d’une application canevas qui utilise les données envoyées depuis les applications de finances et d’opérations
 
-Lorsque vous créez une application canevas qui sera incorporée dans une application de finances et d’opérations, une partie importante du processus consiste à utiliser les données d’entrée de cette appplication Finances et Opérations. Depuis l’expérience de développement de Power Apps, les données d’entrée transmises à partir d’une application de finances et d’opérations sont accessibles à l’aide de la variable **Param("EntityId")**. De plus, à partir de la version 10.0.19, l’entité juridique actuelle sera également transmise en tant que contexte à l’application canevas via la variable **Param("cmp")**. 
+Lorsque vous créez une application canevas qui sera incorporée dans une application de finances et d’opérations, une partie importante du processus consiste à utiliser les données d’entrée de cette application de finances et d’opérations. Depuis l’expérience de développement de Power Apps, les données d’entrée transmises à partir d’une application de finances et d’opérations sont accessibles à l’aide de la variable **Param("EntityId")**. De plus, à partir de la version 10.0.19, l’entité juridique actuelle sera également transmise en tant que contexte à l’application canevas via la variable **Param("cmp")**. 
 
-Par exemple, dans la fonction OnStart de l’application, vous pouvez définir les données d’entrée des applications Finances et Opérations sur une variable comme suit :
+Par exemple, dans la fonction OnStart de l’application, vous pouvez définir les données d’entrée des applications de finances et d’opérations sur une variable comme suit :
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -125,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Affichage d’une application canevas
 
-Pour afficher une application canevas incorporée sur une page dans les applications Finances et Opérations, accédez simplement à une page contenant une application incorporée. N’oubliez pas que les applications sont accessibles à l’aide du bouton **Power Apps** sur le volet Actions standard. Elles peuvent également apparaître directement sur la page en tant que nouvel onglet, raccourci ou panneau, ou en tant que nouvelle section dans un espace de travail. Lorsque les utilisateurs essaient pour la première fois de charger une application sur une page, ils sont invités à se connecter. Cette étape garantit que les utilisateurs disposent des autorisations appropriées pour utiliser l’application.
+Pour afficher une application canevas incorporée sur une page dans les applications de finances et d’opérations, accédez simplement à une page contenant une application incorporée. N’oubliez pas que les applications sont accessibles à l’aide du bouton **Power Apps** sur le volet Actions standard. Elles peuvent également apparaître directement sur la page en tant que nouvel onglet, raccourci ou panneau, ou en tant que nouvelle section dans un espace de travail. Lorsque les utilisateurs essaient pour la première fois de charger une application sur une page, ils sont invités à se connecter. Cette étape garantit que les utilisateurs disposent des autorisations appropriées pour utiliser l’application.
 
 ## <a name="editing-an-embedded-app"></a>Modification d’une application incorporée
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

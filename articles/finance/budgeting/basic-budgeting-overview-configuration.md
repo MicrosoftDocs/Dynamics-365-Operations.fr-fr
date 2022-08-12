@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble du budget
-description: Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 Finance pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
+description: Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 Finance pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans les applications de finances et d’opérations ou les charger dans un programme tiers.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,20 +17,20 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 380afc399a050215bb2d7b1e5ddb20088226f654
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710411"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068958"
 ---
 # <a name="budgeting-overview"></a>Vue d’ensemble du budget
 
 [!include [banner](../includes/banner.md)]
 
-Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 Finance pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
+Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 Finance pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans les applications de finances et d’opérations ou les charger dans un programme tiers.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 Le budget approuvé pour une entité juridique est tenu à jour dans un document appelé une *écriture de registre budgétaire*. Les lignes d’un document d’écriture de registre budgétaire sont appelées écritures de *compte budgétaire*, et contiennent des informations relatives aux dimensions financières, des dates et les montants du budget approuvé. Le document d’écriture de registre budgétaire est intégré aux états financiers de base et aux pages de recherche où les montants réels comptables sont comparés aux montants du budget. 
 
@@ -89,3 +89,4 @@ Une société qui utilise la fonctionnalité de planification budgétaire peut c
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

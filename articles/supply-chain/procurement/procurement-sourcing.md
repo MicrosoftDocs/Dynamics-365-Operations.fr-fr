@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec5a9dac1d3b1288d060fe92ec94e6a105f84be8
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: b0d3869b93f6ecf4f70df6b394ce18a77318b83c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015286"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111782"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Page d’accueil Approvisionnements
 
@@ -54,7 +54,7 @@ Le module Approvisionnements couvre toutes les étapes : identification d’un b
 -   [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md)
 -   [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md)
--   [Script de démonstration pour stock de consignation entrant pour Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(livre blanc)
+-   [Script de démonstration pour stock de consignation entrant](https://www.microsoft.com/download/details.aspx?id=101945)(livre blanc)
 -   [Contrôler le stock de consignation à l’aide de la collaboration fournisseur](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Espace de travail de collaboration fournisseur sur téléphone mobile](vendor-collaboration-mobile-workspace.md)
 

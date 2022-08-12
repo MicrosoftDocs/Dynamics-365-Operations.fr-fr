@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870131"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068778"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>État Récupération d’immobilisations
 
@@ -30,7 +30,7 @@ L’état **Récupération d’immobilisations** fournit, dans un format Microso
 
 L’état **Récupération d’immobilisations** utilise la structure de gestion des états électroniques. Avant d’exécuter l’état, les configurations Modèle d’immobilisations et Récupération d’immobilisations doivent être importées depuis Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
-Cet état est disponible dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, ou comme correctif pour Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017). Trois correctifs doivent être appliqués aux environnements de la version de juillet 2017 :
+Cet état est disponible dans Microsoft Dynamics 365 Finance, Enterprise Edition 7.3, ou comme correctif pour Microsoft Dynamics 365 Finance, Enterprise Edition (juillet 2017). Trois correctifs doivent être appliqués aux environnements de la version de juillet 2017 :
 
 - **KB 4041754 :** la configuration des états électroniques ne peut pas être téléchargée à partir de LCS, car elle n’est pas applicable pour la version actuelle après application du package de mise à jour de la plateforme
 - **KB 4056107 :** mise à jour cumulative 5 pour les états électroniques
@@ -67,3 +67,4 @@ Le tableau suivant décrit les champs disponibles dans l’état.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

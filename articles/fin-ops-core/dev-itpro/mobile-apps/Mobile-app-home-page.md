@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil Application mobile
-description: Cet article décrit l’application mobile Finance et Opérations (Dynamics 365) et fournit des liens vers des ressources qui peuvent vous aider à l’implémentation de votre organisation.
+description: Cet article décrit l’application mobile de finances et d’opérations (Dynamics 365) et fournit des liens vers des ressources qui peuvent vous aider à l’implémentation de votre organisation.
 author: ChrisGarty
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868757"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066451"
 ---
 # <a name="mobile-app-home-page"></a>Page d’accueil Application mobile
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Cet article décrit l’application mobile **Finance et Opérations (Dynamics 365)** et fournit des liens vers des ressources qui peuvent vous aider à l’implémentation de votre organisation.
+Cet article décrit l’application mobile de **finances et d’opérations (Dynamics 365)** et fournit des liens vers des ressources qui peuvent vous aider à l’implémentation de votre organisation.
 
 ## <a name="overview"></a>Présentation
 
@@ -77,7 +77,7 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 <tr class="odd">
 <td>1</td>
 <td>Administrateur système</td>
-<td>Implémentez l’application Finance et Opérations dans votre organisation.</td>
+<td>Implémentez l’application de finances et d’opérations dans votre organisation.</td>
 <td><ul><li>Si vous n&#39;avez pas encore déployé une version de Microsoft Dynamics 365, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>.</li><li>Pour afficher la liste des espaces de travail mobiles qui peuvent être utilisés, voir <a href="mobile-workspaces-released.md">Espaces de travail mobiles récemment publiés</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -132,8 +132,8 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 <td>Utilisateur</td>
 <td>Téléchargez et installez l’application mobile.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Application Finance et Opérations pour Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Application Finance et Opérations pour iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Application de finances et d’opérations pour Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Application de finances et d’opérations pour iOS</a><BR/>
 (Windows Phone non pris en charge)
 </td>
 </tr>
@@ -152,3 +152,4 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

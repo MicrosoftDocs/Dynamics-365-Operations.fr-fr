@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859664"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065291"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Créer des liens depuis Ressources humaines vers un autre environnement Finances
 
@@ -53,7 +53,7 @@ Chaque lien créé aura les informations suivantes définies :
 
    Pour trouver l’élément de menu requis :
    1. Accédez à l’environnement Finance et ouvrez la page cible de la navigation. 
-   2. Copiez l’option de menu de l’URL. Par exemple, si vous souhaitez que le lien vous dirige vers la liste des employés dans Finance and Operations, entrez la valeur qui s’affiche après le « &mi » dans l’URL. 
+   2. Copiez l’option de menu de l’URL. Par exemple, si vous souhaitez que le lien vous dirige vers la liste des employés dans les applications de finances et d’opérations, entrez la valeur qui s’affiche après le « &mi » dans l’URL. 
    3. L’option de menu permettant d’accéder à la page de la liste des employés dans cet exemple est : HcmWorkerListPage_Employees.
 
  - **Lien vers la source de données** - Sélectionnez la source des données à laquelle le lien fait référence. Les sources les plus courantes comme **Collaborateur** et **Poste** sont disponibles.
@@ -63,4 +63,5 @@ Chaque lien créé aura les informations suivantes définies :
 Les administrateurs système afficheront les liens nouvellement créés sur les pages définies, même si l’option **Activer ce lien** est définie sur **Non**. Cela peut être utilisé pour tester des liens avant de les afficher pour d’autres employés. Tous les autres rôles n’affichent que les liens configurés une fois l’option **Activer ce lien** définie sur **Oui**. Les employés ayant accès aux pages sur lesquelles les liens sont affichés auront accès aux liens.
 
 Les utilisateurs doivent également disposer de droits de sécurité dans l’environnement secondaire défini pour accéder aux pages de cet environnement. Si ce n’est pas le cas, une boîte de dialogue de sécurité s’affiche lorsque vous utilisez le lien.
+
 

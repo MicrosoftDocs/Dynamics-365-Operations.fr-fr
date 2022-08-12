@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885694"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068668"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Instruction d’emplacement relatif à l’âge du prélèvement du stock
 
@@ -82,7 +82,7 @@ Les données de démonstration nécessitent des ajustements de configuration et 
 
 1. Sélectionnez **OK** pour appliquer vos paramètres et fermer la boîte de dialogue de la requête.
 1. Sélectionnez **Enregistrer** pour enregistrer les modifications de la directive d’emplacement.
-1. Sur un appareil mobile ou dans l’application *Dynamics 365 for Finance and Operations - Entreposage* sur votre PC, procédez comme suit pour supprimer le stock existant de l’emplacement de l’entrepôt afin de prendre en charge les scénarios :
+1. Sur un appareil mobile ou dans l’application *Dynamics 365 Supply Chain Management - Entreposage* sur votre PC, procédez comme suit pour supprimer le stock existant de l’emplacement de l’entrepôt afin de prendre en charge les scénarios :
 
     1. Connectez-vous à l’entrepôt *63* en utilisant un ID d’utilisateur et un mot de passe appropriés.
     1. Dans le menu principal, sélectionnez **Qualité**.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 54655d2b1cfb4b11f32842d4c3cff2f4d8e97ef5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d2c811ac48a6bf29267192f61a33b6b47721659
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856797"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068164"
 ---
 # <a name="customer-payment-insights-preview"></a>Informations de paiement du client (Aperçu)
 
@@ -69,9 +69,10 @@ Envoyer un e-mail à [Informations de paiement du client (version préliminaire)
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
-Les version préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance et Opérations, (2) ne sont pas incluses dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisées pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
+Les version préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 de finances et d’opérations, (2) ne sont pas incluses dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisées pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
 
 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

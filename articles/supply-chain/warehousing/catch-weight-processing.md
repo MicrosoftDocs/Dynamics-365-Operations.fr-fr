@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900678"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070407"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
@@ -82,7 +82,7 @@ Si le poids réel est saisi à la station de conditionnement pendant les process
 > [!NOTE]
 > Parce que l’option **Emballage** entraîne la mise à jour du stock avec le poids moyen prélevé, cela pourrait déclencher une différence susceptible d’entraîner un ajustement de gain/perte de poids variable et/ou une différence entre le poids du stock disponible et le poids de la balise en poids variable.
 
-Pour les processus de gestion interne des entrepôts comme les corrections de comptage et d’ajustement, vous pouvez définir si le poids doit être saisi. S’il n’est pas saisi, le poids nominal est utilisé. D’autres options vous permettent de saisir le poids par unité en poids variable et par quantité de comptage.
+Pour les processus interne comme les corrections de comptage et d’ajustement, vous pouvez définir si le poids doit être saisi. S’il n’est pas saisi, le poids nominal est utilisé. D’autres options vous permettent de saisir le poids par unité en poids variable et par quantité de comptage.
 
 Vous pouvez également définir la manière dont le poids est saisi. Dans un des deux flux principaux, les balises en poids variable sont suivies et utilisées pour saisir le poids. Dans l’autre flux, les balises en poids variable ne sont pas suivies.
 

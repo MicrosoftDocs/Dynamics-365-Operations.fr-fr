@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015344"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178501"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**S’applique à :** Human Resources dans l’infrastructure autonome_ 
 
-
+> [!NOTE]
+> À partir de juin 2022, les environnements Human Resources peuvent être déployés uniquement sur l’infrastructure des applications de finances et d’opérations. Pour en savoir plus, voir [Mettre en service Human Resources dans l’infrastructure des applications de finances et d’opérations](hr-admin-setup-provision-fo.md).
 
 Cet article explique le processus de mise en service d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources. 
 
@@ -40,12 +41,12 @@ Avant de commencer la mise en service d’un nouvel environnement de production,
 ## <a name="provision-a-human-resources-trial-environment"></a>Configuration d’un environnement d’essai Human Resources
 
 >[!NOTE]
-> À partir d’avril 2022, les environnements d’essai de Human Resources ne seront plus disponibles sur l’application autonome. Les clients potentiels qui souhaitent évaluer les capacités de Human Resources dans les applications de finances et d’opérations peuvent le faire en utilisant l’essai gratuit de 30 jours avec les données de démonstration. Dynamics 365 Finance inclura les fonctionnalités de Human Resources intégrées dans l’infrastructure de Finance grâce à la fusion de l’application autonome. Pour plus d’informations, voir [La fusion des offres HR rassemble les fonctionnalités pour les clients](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Pour plus d’informations sur les versions d’évaluation de Dynamics 365 Finance, consultez le [guide](../fin-ops-core/fin-ops/get-started/before-you-buy.md) pas-à-pas. 
+> À partir d’avril 2022, les environnements d’essai de Human Resources ne seront plus disponibles sur l’application autonome. Les clients potentiels qui souhaitent évaluer les capacités de Human Resources dans les applications de finances et d’opérations peuvent le faire en utilisant l’essai gratuit de 30 jours avec les données de démonstration. Dynamics 365 Finance inclura les fonctionnalités de Human Resources intégrées dans l’infrastructure de Finance grâce à la fusion de l’application autonome. Pour plus d’informations, voir [La fusion des offres RH rassemble les capacités des clients](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Pour en savoir plus sur les évaluations Dynamics 365 Finance, consultez le [guide étape par étape](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Avant de provisionner votre premier environnement bac à sable ou de production, vous souhaiterez peut-être provisionner un [Environnement d’essai Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) pour valider la fonctionnalité Human Resources. Les environnements d’évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Bien qu’un environnement d’évaluation soit la propriété de l’utilisateur qui l’a demandé, d’autres utilisateurs peuvent être invités par l’expérience d’administration système pour Ressources humaines. 
 
-Les environnements d’essai offrent la possibilité d’évaluer la fonctionnalité des ressources humaines pour les personnes qui n’ont pas encore accès à un environnement de ressources humaines. Si vous fournissez un environnement d’essai et que l’utilisateur authentifié a déjà accès à un ou plusieurs environnements de ressources humaines existants, l’utilisateur est redirigé vers l’environnement existant ou la liste d’environnements.
+Les environnements de test offrent la possibilité d’évaluer la fonctionnalité de Human Resources pour les personnes qui n’ont pas encore accès à un environnement Human Resources. Si vous fournissez un environnement d’essai et que l’utilisateur authentifié a déjà accès à un ou plusieurs environnements de ressources humaines existants, l’utilisateur est redirigé vers l’environnement existant ou la liste d’environnements.
 
 Les environnements d’essai ne sont pas destinés à être utilisés comme environnements de production. Ils sont limités à une période d’essai de 30 jours. À l’expiration de la période d’essai, l’environnement et toutes les données qu’il contient sont supprimés et ne peuvent pas être récupérés. L’environnement ne peut pas être converti en environnement bac à sable ou de production. Vous pouvez vous inscrire à un nouvel environnement d’évaluation après expiration de l’environnement existant.
 
@@ -60,10 +61,10 @@ Avant de créer votre premier environnement Human Resources, vous devez planifie
 
 Considérations relatives aux environnements supplémentaires :
 
-- **Migration de données** : Vous devrez peut-être envisager un environnement supplémentaire pour les activités de migration de données afin de permettre à votre environnement sandbox d’être utilisé à des fins de test tout au long du projet. Le fait de disposer d’un environnement supplémentaire permet aux activités de migration de données de se poursuivre tandis que les activités de test et de configuration se produisent simultanément dans un environnement différent.
-- **Intégration** : Vous devrez peut-être envisager un environnement supplémentaire pour configurer et tester les intégrations. Cela peut inclure des intégrations natives telles que les intégrations de Ceridian Dayforce ou LinkedIn Talent Hub, ou des intégrations personnalisées telles que celles pour la paie, les systèmes de suivi des candidatures ou les régimes et les fournisseurs de prestations.
-- **Formation** : Vous pouvez avoir besoin d’un environnement distinct configuré avec un ensemble de données de formation afin de former vos employés à l’utilisation du nouveau système. 
-- **Projet en plusieurs phases** : Vous pouvez avoir besoin d’un environnement supplémentaire pour prendre en charge la configuration, la migration des données, les tests ou d’autres activités dans une phase de projet qui est planifiée après la mise en service initiale du projet.
+- **Migration de données** : pour les activités de migration de données afin de permettre à votre environnement sandbox d’être utilisé à des fins de test tout au long du projet. Le fait de disposer d’un environnement supplémentaire permet aux activités de migration de données de se poursuivre tandis que les activités de test et de configuration se produisent simultanément dans un environnement différent.
+- **Intégration** : configurez et testez les intégrations, qui peuvent inclure des intégrations natives, telles que Ceridian Dayforce, ou des intégrations personnalisées.
+- **Formation** : vous pouvez avoir besoin d’un environnement distinct configuré avec un ensemble de données de formation afin de former vos employés à l’utilisation du nouveau système. 
+- **Projet en plusieurs phases** : pour prendre en charge la configuration, la migration des données, les tests ou d’autres activités dans une phase de projet qui est planifiée après la mise en service initiale du projet.
 
  > [!IMPORTANT]
  > En tenant compte de votre environnement, nous vous recommandons ce qui suit :
@@ -111,7 +112,7 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Human
 
 6. Sélectionnez **Oui** pour accepter les termes et commencer le déploiement.
 
-   Votre nouvel environnement apparaît dans la liste des environnements dans le volet de navigation à gauche. Toutefois, vous ne pouvez pas commencer à utiliser l’environnement jusqu’à ce que le statut de déploiement soit mis jour sur **Déployé**. Ce processus prend généralement quelques minutes. Si le processus d’approvisionnement est infructueux, vous devez contacter le support technique.
+   Votre nouvel environnement apparaît dans la liste des environnements dans le volet de navigation à gauche. Toutefois, vous ne pouvez pas commencer à utiliser l’environnement jusqu’à ce que le statut de déploiement soit sur **Déployé**. Ce processus prend généralement quelques minutes. Si le processus d’approvisionnement est infructueux, contactez le support technique.
 
 7. Sélectionnez **Se connecter à Human Resources** pour utiliser votre nouvel environnement.
 
@@ -140,7 +141,7 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
    
     - **Zones géographiques non prises en charge** – L’environnement doit être dans une zone géographique prise en charge. Pour plus d’informations, consultez [Zones géographiques prises en charge](hr-admin-setup-provision.md#supported-geographies).
 
-6. Les capacités de double écriture pour l’intégration des données de Ressources humaines avec l’environnement Power Apps ne peuvent être utilisées que si l’option **Activer les applications Dynamics 365** est sélectionnée pour l’environnement. Voir [Page d’accueil de la double écriture](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) pour en savoir plus sur la double écriture.
+6. Les capacités de double écriture pour l’intégration des données de Ressources humaines avec l’environnement Power Apps ne peuvent être utilisées que si l’option **Activer les applications Dynamics 365** est sélectionnée pour l’environnement. Pour plus d’informations, voir [Page d’accueil de la double écriture](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
     > L’option **Activer les applications Dynamics 365** doit être sélectionnée au moment de la création de l’environnement Power Apps. Si l’option n’est pas sélectionnée au moment de l’approvisionnement, vous ne pouvez pas utiliser la double écriture pour intégrer des données entre Dynamics 365 Human Resources et l’environnement Power Apps ni installer des applications Dynamics 365 telles que Dynamics 365 Sales et Field Service sur l’environnement. Cette option n’est pas réversible. 
@@ -175,3 +176,4 @@ Par défaut, l’administrateur global ayant créé l’environnement y a accès
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

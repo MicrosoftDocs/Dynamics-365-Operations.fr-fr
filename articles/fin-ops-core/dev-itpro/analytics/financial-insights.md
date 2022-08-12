@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464907"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109110"
 ---
 # <a name="financial-analysis"></a>Analyse financière
 
@@ -40,7 +40,7 @@ L’espace de travail **Analyse financière** vous permet essentiellement d’af
 
 - [Ajouter ou modifier les visualisations Power BI sur votre tableau de bord](/powerapps/user/add-powerbi-dashboards)
 
-## <a name="dynamics-365-finance-setup"></a>Configuration Dynamics 365 Finance
+## <a name="dynamics-365-finance-setup"></a>Configuration de Dynamics 365 Finance
 **Comptabilité**
 
 Le type de compte principal et les catégories de compte principal permettent de renseigner les comptes principaux par défaut appropriés dans le tableau d’analyse **Bilan** et les différents tableaux d’analyse **Compte de résultat** dans l’**analyse financière**.
@@ -78,7 +78,7 @@ Actuellement, les données des états Power BI intégrés ne peuvent pas être l
 | Droits de douane                                    | Rôles | Description |
 |-----------------------------------------|-------|------------|
 | Afficher l’analyse financière pour la société actuelle | <ul><li>Comptable</li><li>Responsable comptabilité</li><li>Chef comptable</li><li>Auditeur</li><li>Responsable du budget</li><li>Président directeur général</li><li>Directeur financier</li><li>Contrôleur financier</li></ul> | Ce droit permet d’accéder à l’analyse financière. Par défaut, la société active est utilisée comme filtre. Vous ne pouvez pas ajouter d’autres entités juridiques. |
-| Afficher l’analyse financière pour toutes les sociétés   | Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, cette responsabilité n’est pas affectée à un rôle. Dans la prochaine version, ce droit sera affecté au rôle Directeur financier. | Ce droit permet d’accéder à l’option de menu de l’espace de travail Vue d’ensemble d’un processus CFO. Par défaut, la société active est utilisée comme filtre. Toutefois, vous pouvez ajouter toutes les entités juridiques, que l’utilisateur ait accès ou non aux autres entités juridiques. |
+| Afficher l’analyse financière pour toutes les sociétés   | Dans Microsoft Dynamics 365 Finance, Enterprise Edition 7.3, cette responsabilité n’est pas affectée à un rôle. Dans la prochaine version, ce droit sera affecté au rôle Directeur financier. | Ce droit permet d’accéder à l’option de menu de l’espace de travail Vue d’ensemble d’un processus CFO. Par défaut, la société active est utilisée comme filtre. Toutefois, vous pouvez ajouter toutes les entités juridiques, que l’utilisateur ait accès ou non aux autres entités juridiques. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Comparaison entre Financial Reporting et l’analyse financière
@@ -96,7 +96,7 @@ Le tableau de comparaison suivant permet de différencier les deux options :
 | **Prise en charge de la hiérarchie/hiérarchie d’organisation de génération d’états**   | Oui                                                               | Non |
 | **État sur les données de comptabilité auxiliaire**                             | Oui Limité uniquement au fournisseur, client                              | Oui Fournisseur, client, fournisseur/groupes de clients, adresses fournisseur/client, et ainsi de suite. |
 | **Devise de déclaration**                                   | Oui Devise comptable et convertir dans la devise de déclaration       | Non Devise comptable uniquement |
-| **Sécurité**                                             | Oui Adhère à Finance et à la sécurité d’organigramme d’entreprise | Rapports limités à toutes les sociétés (quelle que soit la sécurité de Finance and Operations) ou uniquement la société active |
+| **Sécurité**                                             | Oui Adhère à Finance et à la sécurité d’organigramme d’entreprise | Rapports limités à toutes les sociétés (quelle que soit la sécurité des applications de finances et d’opérations) ou uniquement la société active |
 | **Prend en charge différents plan de comptes et exercices** | Oui                                                               | Non |
 | **état sur les données externes**                              | Non                                                                | Non |
 | **Prendre en charge les consolidations**                               | Oui                                                               | Limité Peut générer des rapports sur plusieurs sociétés mais utiliser la devise comptable uniquement |
@@ -244,3 +244,4 @@ Les informations des ressources suivantes ne sont pas requises pour activer les 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

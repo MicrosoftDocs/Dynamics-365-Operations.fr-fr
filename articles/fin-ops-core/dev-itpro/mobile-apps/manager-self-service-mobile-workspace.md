@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a4b1667e3d97b651b8019c9dbe577ab30aed67
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868696"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068197"
 ---
 # <a name="my-team-mobile-workspace"></a>Mon espace de travail mobile Équipe
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868696"
 
 Cet article fournit des informations sur l’espace de travail mobile **Mon équipe**. Cet espace de travail permet aux responsables de voir leurs rapports directs et leur personnel étendu. lls peuvent également envoyer des récompenses aux personnes de leur chaîne hiérarchique.
 
-Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance et Opérations.
+Cet espace de travail mobile est destiné à être utilisé avec l’application mobile de finances et d’opérations.
 
 ## <a name="overview"></a>Présentation 
 L’espace de travail mobile **Mon équipe** permet aux responsables d’effectuer les tâches suivantes :
@@ -50,12 +50,12 @@ Avant d’utiliser cet espace de travail mobile, les conditions requises suivant
 <tbody>
 <tr class="odd">
 <td>Un des produits suivants doit être déployés dans votre organisation :
-<ul><li>Une application Finance et Opérations</li>
+<ul><li>Une application de finances et d’opérations</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Administrateur système</td>
-<td>Si vous n’avez pas encore une application Finance et Opérations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>. Si vous n&#39;avez pas encore Ressources humaines déployé dans votre organisation, l’administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.
+<td>Si vous n’avez pas encore une application de finances et d’opérations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>. Si vous n&#39;avez pas encore Ressources humaines déployé dans votre organisation, l’administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.
 </td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ Avant d’utiliser cet espace de travail mobile, les conditions requises suivant
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Télécharger et installer l’application mobile Finance et Opérations :
+Télécharger et installer l’application mobile des finances et d’opérations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -99,3 +99,4 @@ Télécharger et installer l’application mobile Finance et Opérations :
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

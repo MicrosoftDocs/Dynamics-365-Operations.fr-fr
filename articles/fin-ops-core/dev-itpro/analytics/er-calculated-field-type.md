@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934702"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108327"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
 
@@ -36,7 +36,7 @@ Pour exécuter les exemples décrits dans cet article, vous devez disposer de l�
     - Consultant fonctionnel des états électroniques
     - Administrateur système
 
-- Accès aux Regulatory Configuration Service (RCS) qui ont été mis en service pour le même locataire que Finance and Operations, pour un des rôles suivants :
+- Accès aux Regulatory Configuration Services (RCS) qui ont été mis en service pour le même client que finances et opérations, pour un des rôles suivants :
 
     - Développeur d’états électroniques
     - Consultant fonctionnel des états électroniques
@@ -84,7 +84,7 @@ Dans cet exemple, vous allez créer une configuration pour l’exemple de socié
             - Somme des valeurs de taxe.
             - Valeur minimale du taux de taxe appliqué.
 
-    La mise en correspondance des modèles dans cette configuration met en œuvre le modèle des données de base pour tous les formats de gestion des états électroniques créés pour ce modèle et exécutés dans Finance and Operations. Par conséquent, le contenu **Taxe** et source de données **Gr** est exposé pour les formats de gestion des états électroniques tels que des sources de données abstraites.
+    La mise en correspondance des modèles dans cette configuration met en œuvre le modèle des données de base pour tous les formats de gestion des états électroniques créés pour ce modèle et exécutés dans finances et opérations. Par conséquent, le contenu **Taxe** et source de données **Gr** est exposé pour les formats de gestion des états électroniques tels que des sources de données abstraites.
 
     ![Page du concepteur de mise en correspondance des modèles affichant les sources des données Taxe et Gr.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ Vous pouvez importer des configurations révisées depuis RCS à l’aide du ré
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

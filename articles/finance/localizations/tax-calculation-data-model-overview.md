@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859693"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068846"
 ---
 # <a name="tax-calculation-data-model"></a>Modèle de données de calcul des taxes
 
@@ -134,3 +134,4 @@ Vingt-six modèles de données sont inclus en tant que champs sur les lignes d�
 | Unité                          | <ul><li>**Commande client :** unité</li><li>**Commande fournisseur :** unité</li><li>**Ordre de transfert – Expédition :** unité</li><li>**Ordre de transfert - Réception :** unité</li><li>**Demande d’achat :** unité</li><li>**Appel d’offre :** unité</li><li>**Devis de vente :** unité</li></ul> |
 | Numéro de variante                | <ul><li>**Commande client :** numéro de variante</li><li>**Commande fournisseur :** numéro de variante</li><li>**Devis de vente :** numéro de variante</li></ul> |
 | Entrepôt                     | <ul><li>**Commande client :**<ol><li>Ligne &gt; Entrepôt</li><li>Produit &gt; Entrepôt</li></ol></li><li>**Commande fournisseur :**<ol><li>Ligne &gt; Entrepôt</li><li>Produit &gt; Entrepôt</li></ol></li><li>**Ordre de transfert - Expédition :** entrepôt d’origine</li><li>**Ordre de transfert - Réception :** entrepôt de destination</li><li>**Demande d’achat :** Ligne &gt; Entrepôt</li><li>**Appel d’offre :** Ligne &gt; Entrepôt</li><li>**Devis de vente :**<ol><li>Ligne &gt; Entrepôt</li><li>Produit &gt; Entrepôt</li></ol></li></ul> |
+

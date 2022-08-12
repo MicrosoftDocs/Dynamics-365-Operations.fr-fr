@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea9355b040c6431f5ddcccc4aaa0de73e21ad299
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866183"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124556"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctions supprimées ou déconseillées dans les versions précédentes
 
@@ -37,7 +37,7 @@ Cet article décrit les fonctionnalités qui ont été supprimées de Dynamics 3
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
-Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
+Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultées dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 avec Platform update 31
 
@@ -1417,3 +1417,4 @@ L’application pour tablettes Windows 8 a fourni la fonctionnalité pour la sa
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

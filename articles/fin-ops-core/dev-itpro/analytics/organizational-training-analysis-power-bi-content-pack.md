@@ -1,31 +1,32 @@
 ---
 title: Contenu Power BI Formation dans l’organisation
-description: Cet article décrit le contenu Power BI Formation dans l’organisation dans Finance et Opérations.
+description: Cet article décrit les applications de finances et d’opérations – Contenu Power BI de formation dans l’organisation.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 263874
-ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ba332fc0c241969cbe0c25e7985101a2bbe12be4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "263874"
+ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
+ms.openlocfilehash: 7b8f6c1b32876af3a6992ff73c6898ce5307c5a2
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892419"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206753"
 ---
 # <a name="organizational-training-power-bi-content"></a>Contenu Power BI Formation dans l’organisation
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit le contenu Power BI Formation dans l’organisation dans Finance et Opérations.
+Cet article décrit les applications de finances et d’opérations – Contenu Power BI de formation dans l’organisation.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>États inclus dans le pack de contenu
 Après avoir connecté le pack de contenu à vos données, les données de votre organisation s’affichent dans les états. Si vous n’avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d’apprentissage guidé pour Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.

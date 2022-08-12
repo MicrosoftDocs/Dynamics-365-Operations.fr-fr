@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954519"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166837"
 ---
 # <a name="tax-calculation-overview"></a>Vue d’ensemble du calcul de la taxe
 
@@ -29,7 +29,7 @@ Le calcul des taxes est un service multi-locataire hyper évolutif qui permet au
 Le calcul des taxes s’intègre à Dynamics 365 Finance et Dynamics 365 Supply Chain Management. À terme, il s’intégrera également avec Dynamics 365 Project Operations, Dynamics 365 Commerce et d’autres applications propriétaires et tierces.
 
 > [!IMPORTANT]
-> Quand vous activez le calcul des taxes, certaines opérations sur les données associées peuvent être effectuées dans un centre de données autre que le centre de données qui gère vos données de service. Consultez les [Conditions générales d’utilisation](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) avant d’activer le calcul des taxes. La protection de votre vie privée est importante pour nous. Pour en savoir plus, lisez notre [Déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Quand vous activez le calcul des taxes, certaines opérations sur les données associées peuvent être effectuées dans un centre de données autre que le centre de données qui gère vos données de service. Consultez les [Conditions générales d’utilisation](https://go.microsoft.com/fwlink/?linkid=2156043) avant d’activer le calcul des taxes. La protection de votre vie privée est importante pour nous. Pour en savoir plus, lisez notre [Déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Le calcul des taxes est un moteur fiscal basé sur des microservices qui offre une évolutivité exponentielle et peut vous aider à effectuer les tâches suivantes :
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853346"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070632"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Planifier votre plan comptable
 
@@ -43,7 +43,7 @@ Voici des facteurs dont vous devez tenir compte lorsque vous planifiez la struct
 Vous créez le plan de comptes dans la page **Plan de comptes**. Vous pouvez créer les comptes principaux à partir de la page **Plan de comptes** ou de la page **Comptes principaux**. Vos comptes principaux ne doivent pas utiliser de caractères spéciaux utilisés comme séparateurs de plan de comptes. Sinon, vous pouvez rencontrer de l’instabilité, ou vous pouvez toujours avoir à utiliser les recherches ou la boîte de dialogue lorsque vous entrez des combinaisons de comptes et de dimensions. Pour plus d’informations, voir [Créer un compte principal](tasks/create-main-account.md).
 
 > [!NOTE]
-> Dans Dynamics 365 for Finance and Operations version 8.0 (avril 2018), vous pouvez modifier le séparateur de plan de comptes sur la page **Paramètres de comptabilité**.
+> Dans Dynamics 365 Finance version 8.0 (avril 2018), vous pouvez modifier le séparateur de plan de comptes sur la page **Paramètres de comptabilité**.
 
 Il est préférable de lier les comptes principaux aux catégories de compte principal, afin de pouvoir tirer profit des états financiers par défaut sans devoir apporter des modifications. Par conséquent, vous pouvez concevoir et tenir à jour les états plus rapidement et plus facilement.
 
@@ -60,3 +60,4 @@ Pour plus d’informations, voir les rubriques suivantes :
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 208cfc91f11d4893785538ce4874e85a5725e993
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892223"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109258"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Interface utilisateur de style Microsoft Office dans la gestion des documents commerciaux
 
@@ -36,7 +36,7 @@ Dans les exemples de cet article, le fournisseur actif est Contoso et vous l’u
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 
-La vidéo [Créer un nouveau document commercial à l’aide de la gestion des documents commerciaux](https://youtu.be/gAIYl-mM_pw) (ci-dessus) est incluse dans la [playlist Finances et Opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Créer un nouveau document commercial à l’aide de la gestion des documents commerciaux](https://youtu.be/gAIYl-mM_pw) (ci-dessus) est incluse dans la [liste de lecture de finances et d’opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="make-the-new-document-ui-in-business-document-management-available"></a>Rendre disponible la nouvelle interface utilisateur de document dans la gestion des documents commerciaux
 
@@ -145,3 +145,4 @@ Cet exemple indique que vous pouvez utiliser le bouton **Nouveau document** dans
 7. Cliquez sur **OK** pour confirmer le début du processus de modification.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

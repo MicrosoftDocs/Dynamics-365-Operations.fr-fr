@@ -1,7 +1,7 @@
 ---
 title: Escomptes de règlement pour les trop-perçus
 description: Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d’un escompte de règlement tout en payant un montant supérieur.
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 14171
 ms.assetid: a94d0fd0-57ba-4054-93c8-519d01d50e19
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b6e8711870cf961ed1fb75d5a43ac604873c1f1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 08f7384016d02dce6aeff4e1bddb8a45336653e7
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711378"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151468"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Escomptes de règlement pour les trop-perçus
 

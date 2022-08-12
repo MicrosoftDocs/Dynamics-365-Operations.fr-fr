@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883566"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111692"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Définir la dépendance des configurations ER sur d’autres composants
 
@@ -25,7 +25,7 @@ ms.locfileid: "8883566"
 
 Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS).
 
-Cette procédure indique comment créer une configuration ER et spécifier sa dépendance vis-à-vis d’autres composants logiciels, afin vous puissiez garantir que la configuration est correctement téléchargée vers une version spécifique de Finance and Operations. Dans cet exemple, vous créerez les configurations ER requises pour la société fictive, Litware, Inc. 
+Cette procédure indique comment créer une configuration ER et spécifier sa dépendance vis-à-vis d’autres composants logiciels, afin vous puissiez garantir que la configuration est correctement téléchargée vers une version spécifique de finances et opérations. Dans cet exemple, vous créerez les configurations ER requises pour la société fictive, Litware, Inc. 
 
 Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur système ou Développeur d’états électroniques a été affecté. Les étapes peuvent être effectuées dans n’importe quelle société, car les configurations ER sont partagées entre les sociétés. 
 
@@ -46,7 +46,7 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
 7. Sélectionnez Microsoft Dynamics 365 for Operations (1611).
 8. Dans le champ Version, tapez « [7.1.1541.3036,8) ».
     * [7.1.1541.3036,8)  
-    * Les dépendances entrées sont évaluées lorsque cette configuration est téléchargée à partir d’un référentiel ER. Cette version de configuration est téléchargée à partir du référentiel ER lorsque la version 1 de la configuration « Exemple de modèle de données » est déjà en place ou téléchargée à l’avance. Si elle est téléchargée à l’avance, elle doit être exécutée dans l'application de finances et d’opérations, dont la version doit être 7.1.1541.3036 ou ultérieure, mais ne doit pas dépasser la version principale 8.   
+    * Les dépendances entrées sont évaluées lorsque cette configuration est téléchargée à partir d’un référentiel ER. Cette version de configuration est téléchargée à partir du référentiel ER lorsque la version 1 de la configuration « Exemple de modèle de données » est déjà en place ou téléchargée à l’avance. Si elle est téléchargée à l’avance, elle doit être exécutée dans l’application de finances et d’opérations, dont la version doit être 7.1.1541.3036 ou ultérieure, mais ne doit pas dépasser la version principale 8.   
 9. Cliquez sur Enregistrer.
 10. Fermez la page.
 11. Cliquez sur Modifier le statut.
@@ -59,7 +59,7 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
 18. Sélectionnez Microsoft Dynamics AX 7.0 RTW.
 19. Dans le champ Version, tapez « [7.0.1265.3015,7.1) ».
     * [7.0.1265.3015,7.1)  
-    * Les dépendances sont évaluées lorsque la configuration est téléchargée à partir d’un référentiel ER. Cette version de configuration est téléchargée à partir du référentiel ER lorsque la version 1 de la configuration « Exemple de modèle de données » est déjà en place ou téléchargée à l’avance. Si elle est téléchargée à l’avance, elle doit être exécutée dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, dont la version doit être 7.0.1265.3015 ou ultérieure, mais ne doit pas dépasser la version secondaire 1.   
+    * Les dépendances sont évaluées lorsque la configuration est téléchargée à partir d’un référentiel ER. Cette version de configuration est téléchargée à partir du référentiel ER lorsque la version 1 de la configuration « Exemple de modèle de données » est déjà en place ou téléchargée à l’avance. Si elle est téléchargée à l’avance, elle doit être exécutée dans Microsoft Dynamics 365 Finance, Enterprise Edition, dont la version doit être 7.0.1265.3015 ou ultérieure, mais ne doit pas dépasser la version secondaire 1.   
 20. Cliquez sur Enregistrer.
 21. Fermez la page.
 22. Cliquez sur Modifier le statut.
@@ -136,10 +136,11 @@ Nous supprimerons les configurations créées du système et les téléchargeron
 25. Accédez à Administration d’organisation > États électroniques > Configurations.
 26. Dans l’arborescence, développez « Exemple de modèle de données ».
     * Notez que la configuration de mise en correspondance de modèle « Exemple de mise en correspondance » a été téléchargée avec la configuration de modèle de données sélectionnée. Les deux fichiers sont téléchargés ensemble, car la configuration « Exemple de mise en correspondance » a été définie comme implémentant le modèle de données sélectionné et qu’elle s’applique à l’application. La configuration « Exemple de mise en correspondance (autre) » n’a pas été téléchargée, car la condition pour la version d’application requise n’est pas remplie.   
-    * Si vous vous connectez à l'application de finances et d’opérations, enregistrez le même fournisseur, accédez au même projet LCS et téléchargez la même configuration de modèle de données, la configuration « Exemple de mise en correspondance (autre) » sera téléchargée, tandis que la configuration « Exemple de mise en correspondance » sera ignorée.  
+    * Si vous vous connectez à l’application de finances et d’opérations, enregistrez le même fournisseur, accédez au même projet LCS et téléchargez la même configuration de modèle de données, la configuration « Exemple de mise en correspondance (autre) » sera téléchargée, tandis que la configuration « Exemple de mise en correspondance » sera ignorée.  
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Gérer le cycle de vie de la configuration des états électroniques](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

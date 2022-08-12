@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713274"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123980"
 ---
 # <a name="before-you-buy"></a>Avant d’acheter
 
@@ -26,13 +26,13 @@ ms.locfileid: "8713274"
 
 Vous débutez avec Dynamics 365 Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce? Nous vous préparé des instructions pas-à-pas si vous évaluez ou si vous êtes prêt à effectuer un achat.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Étape une : Essayez Finance and Operations gratuitement pendant 30 jours
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Étape une : Essayez les applications de finances et d’opérations gratuitement pendant 30 jours
 
-Vous pouvez tester Dynamics 365 for Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce pendant 30 jours via un simple e-mail d’inscription. La version d'évaluation des applications de finances et d’opérations inclut des guides de démarrage qui fournissent des instructions détaillées vous permettant d'afficher des scénarios spécifiques en action. Le produit est disponible pour explorer et essayer des scénarios, mais ne peut pas être personnalisé. Les données de démonstration sont incluses pour faciliter l’utilisation du produit et rendre l’expérience plus évocatrice. Un e-mail de rappel sera envoyé 3 jours avant l’expiration de la version d’évaluation. Obtenez des détails sur [Souscrire des abonnements d’aperçu](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+Vous pouvez tester Dynamics 365 for Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce pendant 30 jours via un simple e-mail d’inscription. La version d’évaluation des applications de finances et d’opérations inclut des guides de démarrage qui fournissent des instructions détaillées vous permettant d’afficher des scénarios spécifiques en action. Le produit est disponible pour explorer et essayer des scénarios, mais ne peut pas être personnalisé. Les données de démonstration sont incluses pour faciliter l’utilisation du produit et rendre l’expérience plus évocatrice. Un e-mail de rappel sera envoyé 3 jours avant l’expiration de la version d’évaluation. Obtenez des détails sur [Souscrire des abonnements d’aperçu](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Étape deux : Choisissez une option de déploiement
 
-Vous pouvez maintenant déployer des applications de finances et d’opérations dans le cloud ou sur site. Les déploiements dans le cloud offrent un service d’ERP qui est entièrement géré par Microsoft, tandis que les déploiements sur site sont déployés localement dans le centre de données d’un client.
+Vous pouvez maintenant déployer des applications de finances et d’opérations dans le cloud ou en local. Les déploiements dans le cloud offrent un service d’ERP qui est entièrement géré par Microsoft, tandis que les déploiements sur site sont déployés localement dans le centre de données d’un client.
 
 Les points suivants doivent être pris en compte lorsque vous choisissez l’option de déploiement sur site :
 
@@ -60,9 +60,9 @@ Il existe de nombreuses façons de souscrire un abonnement :
 
 Un fournisseur de solution dans le cloud Microsoft peut fonctionner étroitement avec vous pour comprendre les besoins de votre entreprise ou organisation. Utilisez le [portail du Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home) pour rechercher un partenaire adapté à vos besoins.
 
-### <a name="buy-through-a-dynamics-partner-on-premises"></a>Acheter via un partenaire Dynamics (sur site)
+### <a name="buy-through-a-dynamics-partner-on-premises"></a>Acheter via un partenaire Dynamics (local)
 
-Vous devez travailler avec un partenaire pour acheter Finance and Operations sur site. Pour plus d’informations, voir [Acheter Finance + Operations (versions locales)](purchase-on-premises.md).
+Vous devez travailler avec un partenaire pour acheter Finance + Operations (on-premises). Pour plus d’informations, voir [Acheter Finance + Operations (on-premises)](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Acheter via le programme de licence en volume (dans le cloud ou sur site)
 
@@ -94,3 +94,4 @@ Si vous êtes un client qui effectue une mise à niveau depuis Microsoft Dynamic
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

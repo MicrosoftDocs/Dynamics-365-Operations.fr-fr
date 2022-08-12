@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888381"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068632"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Lancement par lots des ordres de transfert partiellement réservés
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888381"
 La fonctionnalité de lancement par lots des ordres de transfert partiellement réservés permet de lancer partiellement des ordres de transfert à l’attention à un entrepôt à l’aide d’un traitement par lots.
 Comme vous avez la possibilité de lancer une quantité partielle, vous ne devez pas attendre que la quantité de la commande entière soit disponible dans l’entrepôt avant de lancer un ordre.
 
-Le lancement des commandes à un entrepôt est un processus de gestion des entrepôts avancé. Ce processus implique des activités, comme le prélèvement, l’emballage et l’expédition, auxquelles un employé d’entrepôt peut procéder à l’aide d’un périphérique mobile.
+Le lancement des commandes à un entrepôt est un processus de gestion des entrepôts. Ce processus implique des activités, comme le prélèvement, l’emballage et l’expédition, auxquelles un employé d’entrepôt peut procéder à l’aide d’un périphérique mobile.
 
 ## <a name="where-it-applies"></a>Dans ce cas
 

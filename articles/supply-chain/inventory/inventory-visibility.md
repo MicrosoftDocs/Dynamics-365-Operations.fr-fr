@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897630"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066638"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Vue d’ensemble du complément de visibilité des stocks
 
@@ -61,9 +61,9 @@ La visibilité de votre stock projeté dans un avenir proche (tenant compte des 
 
 La fonctionnalité DAV est facile à adopter dans votre processus quotidien de traitement des commandes. Plus important encore, comme les autres offres de la Visibilité des stocks, la fonctionnalité DAV est *globale et en temps réel*. Par conséquent, vous pouvez configurer plusieurs formules de calcul de la DAV pour avoir des requêtes de disponibilité complète des stocks qui couvrent tous vos canaux commerciaux et sources de données. Pour plus d’informations, voir [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md).
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>Compatibilité avec les éléments de la gestion avancée des entrepôts
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>Compatibilité avec les éléments des processus de gestion des entrepôts
 
-Microsoft vise à fournir une intégration prête à l’emploi avec la gestion avancée des entrepôts (WHS), afin que les clients de la WHS puissent également profiter des avantages du service Visibilité des stocks. Selon la version de la 1e vague de lancement 2022 (version préliminaire publique en mars), le service d’inventaire prend en charge les requêtes de disponibilité des stocks WHS et DAV. La fonctionnalité de répartition et de réservation provisoire sera prise en charge pour les clients WHS dans la prochaine vague. Pour plus d'informations, voir [Prise en charge de la Visibilité des stocks pour les articles WHS](inventory-visibility-whs-support.md).
+Microsoft vise à fournir une intégration prête à l’emploi avec les processus de gestion des entrepôts, afin que les clients de la WMS puissent également profiter des avantages du service de visibilité des stocks. Selon la version de la 1e vague de lancement 2022 (version préliminaire publique en mars), le service d’inventaire prend en charge les requêtes de disponibilité des stocks WMS et DAV. La fonctionnalité de répartition et de réservation provisoire sera prise en charge pour les clients WMS dans la prochaine vague. Pour plus d’informations, voir [Prise en charge de la Visibilité des stocks pour les articles WMS](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Gestionnaire de licences
 

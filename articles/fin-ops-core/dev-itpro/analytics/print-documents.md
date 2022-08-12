@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984906"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206723"
 ---
 # <a name="document-printing-overview"></a>Vue d’ensemble de l’impression de document
 
@@ -54,7 +54,7 @@ Comme la solution varie, selon le scénario, les applications fournissent des se
 - Le **Scénario 2** utilise des applications client et des services Microsoft 365.
 - Le **Scénario 3** requiert la prise en charge des applications client et des services hébergés dans Microsoft Azure.
 
-Outre la plateforme déployée dans l’abonnement Azure, les applications Finances and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l’impression de documents.
+Outre la plateforme déployée dans l’abonnement Azure, les applications de finances et d’opérations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l’impression de documents.
 
 ## <a name="service-overview"></a>Vue d’ensemble du service
 Pendant que les documents qui sont produits par les applications hébergées attendent d’être imprimés sur un périphérique réseau connecté, ils sont stockés dans le stockage des objets blobs Azure. L’option [Installer l’agent d’acheminement de document pour activer l’impression réseau](install-document-routing-agent.md) utilise l’authentification Azure pour établir un canal sécurisé vers les services Azure.

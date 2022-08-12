@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 00e536241710fc8a75158472688757320abf4247
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710355"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067206"
 ---
 # <a name="collections-in-accounts-receivable"></a>Recouvrements dans Comptabilité client
 
@@ -64,8 +64,8 @@ Les pages de liste suivantes permettent d’organiser les informations de recouv
 -   Dossiers de recouvrement – Les colonnes de la page de liste affichent les informations relatives aux demandes de devis associées à une catégorie de demande de devis et au type de demande de devis Recouvrements.
 
 > [!NOTE]
-> Vous devez créer un instantané de balance âgée avant d’afficher des informations dans ces pages de liste. Les informations ne sont affichées que pour les clients pour lesquels un instantané de balance âgée a été créé. L'accès aux enregistrements affichés dans la page de liste peut également être filtré de la manière suivante :
-> <li>Par défaut, un utilisateur de Finance and Operations a accès à tous les clients associés à un instantané de balance âgée.</li>
+> Vous devez créer un instantané de balance âgée avant d’afficher des informations dans ces pages de liste. Les informations ne sont affichées que pour les clients pour lesquels un instantané de balance âgée a été créé. L’accès aux enregistrements affichés dans la page de liste peut également être filtré de la manière suivante :
+> <li>Par défaut, un utilisateur des applications des finances et d’opérations accès à tous les clients associés à un instantané de balance âgée.</li>
 > <li>Si des regroupements de clients existent, un utilisateur doit être paramétré en tant qu’agent de recouvrement pour les utiliser afin de filtrer les informations des pages de liste de recouvrement. Les informations sont limitées aux clients inclus dans le regroupement de clients sélectionné.</li>
 > <li>Si un utilisateur est paramétré en tant qu’agent de recouvrement, seuls les regroupements sélectionnés pour celui-ci sont disponibles dans la page de liste. Si l’option Autoriser l’agent à voir tous les regroupements de clients est sélectionnée sur la page Agent de recouvrement pour l’agent de recouvrement, tous les regroupements sont disponibles pour celui-ci.</li>
 
@@ -110,3 +110,4 @@ Vous pouvez traiter les paiements des impayés en cliquant sur Paiement des impa
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

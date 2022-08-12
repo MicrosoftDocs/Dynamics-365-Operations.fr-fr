@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867410"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103970"
 ---
 # <a name="on-premises-deployment-home-page"></a>Page d’accueil de déploiement local
 
@@ -52,8 +52,8 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md)
 - [Importer des configurations de gestion des états électroniques](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Génération, publication et impression de documents dans les déploiements sur site](../analytics/printing-capabilities-on-premises.md)
-- [Configurer les proxys de contrepassation pour les environnements sur site](onprem-reverseproxy.md)
-- [Configurer le support technique pour les applications Finance et Opérations](../lifecycle-services/support-experience.md)
+- [Configurer les proxys pour les environnements sur site](onprem-reverseproxy.md)
+- [Configurer le support technique pour les applications de finances et d’opérations](../lifecycle-services/support-experience.md)
 - [Connectivité Internet du client](../user-interface/client-disconnected.md)
 - [Appliquer des mises à jour à des déploiement sur site](apply-updates-on-premises.md)
 - [Redéployer les environnements sur site](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Scripts pour résoudre les problèmes dans les environnements locaux](onprem-tsg-implementations.md)
 - [Rotation du certificat](certificate-rotation-on-prem.md)
 - [Diagnostics locaux](on-premises-diagnostics.md)
-- [Fonctions supprimées ou abandonnées pour Finance et Opérations](../migration-upgrade/deprecated-features.md)
+- [Fonctions supprimées ou abandonnées pour finances et opérations](../migration-upgrade/deprecated-features.md)
 - [Stratégie du cycle de vie de logiciel et versions sur site](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

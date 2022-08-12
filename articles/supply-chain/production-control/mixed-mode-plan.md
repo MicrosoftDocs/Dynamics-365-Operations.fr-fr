@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857429"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065986"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Planification de mode mixte - combiner un approvisionnement discret, basé sur les processus et le lean manufacturing
 
@@ -33,7 +33,7 @@ Vous pouvez sélectionner votre stratégie globale pour fournir un produit, ind�
 
 Par exemple, vous pouvez disposer du contrôle de kanban au niveau de l’assemblage, où les matières sont fournies à la zone d’assemblage par les ordres de fabrication, les kanbans, les transferts, les lots de commandes, ou toute combinaison appropriée pour les caractéristiques de votre chaîne d’approvisionnement, tout en conservant une visibilité complète des approvisionnements. Cette capacité permet de bénéficier de processus optimisés de chaîne d’approvisionnement et d’une visibilité améliorée de votre chaîne d’approvisionnement.  
 
-La granularité des stratégies d’approvisionnement utilisées dans le calcul PDP/MRP dépend des dimensions de stockage qui sont activées en tant que dimensions de couverture. Pour activer le calcul PDP/MRP de sorte à contrôler le réapprovisionnement et l’approvisionnement de différents types d’emplacements (par exemple, en séparant l’atelier de production pour différentes unités de production, ou en séparant différents types d’entrepôts de matières et de produits finis), nous vous recommandons d’activer Site et Entrepôt en tant que dimensions de couverture. Sinon, Entrepôt peut être omis en tant que dimension de couverture. Dans ce cas, lorsque vous utilisez la gestion avancée des entrepôts, tous les mouvements à l’intérieur d’un entrepôt sont contrôlés par le travail d’entrepôt, alors que tous les mouvements sur plusieurs entrepôts peuvent être contrôlés par les kanbans de prélèvement.
+La granularité des stratégies d’approvisionnement utilisées dans le calcul PDP/MRP dépend des dimensions de stockage qui sont activées en tant que dimensions de couverture. Pour activer le calcul PDP/MRP de sorte à contrôler le réapprovisionnement et l’approvisionnement de différents types d’emplacements (par exemple, en séparant l’atelier de production pour différentes unités de production, ou en séparant différents types d’entrepôts de matières et de produits finis), nous vous recommandons d’activer Site et Entrepôt en tant que dimensions de couverture. Sinon, Entrepôt peut être omis en tant que dimension de couverture. Dans ce cas, lorsque vous utilisez les processus de gestion des entrepôts, tous les mouvements à l’intérieur d’un entrepôt sont contrôlés par le travail d’entrepôt, alors que tous les mouvements sur plusieurs entrepôts peuvent être contrôlés par les kanbans de prélèvement.
 
 ## <a name="supply-policies"></a>Stratégies d’approvisionnement
 Le mode de planification mixte contrôle comment un produit est fourni et, en fonction de l’approvisionnement, la façon dont les besoins déduits (consommation d’articles d’une \[nomenclature\]) sont émis. En fonction du type de commande, le système fournit automatiquement les matériaux pour répondre aux besoins.  

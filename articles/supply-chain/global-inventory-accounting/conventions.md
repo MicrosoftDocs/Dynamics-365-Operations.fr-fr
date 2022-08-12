@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0055757a0d012896232de58330ee142f702e4ed1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f148d4c6ece543c8a11eee3e6dcdff47b3767936
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875392"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135498"
 ---
 # <a name="conventions"></a>Conventions
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Une convention est un conteneur dédié à un ensemble de stratégies qui affectent le comportement du système. En fonction des besoins de votre entreprise, vous devez définir des conventions en combinant les différentes stratégies qui établissent la manière dont les coûts doivent être comptabilisés dans la comptabilité globale des stocks. Vous pouvez associer chaque convention à un ou plusieurs registres pour assurer la cohérence des stratégies comptables appliquées entre les registres.
 

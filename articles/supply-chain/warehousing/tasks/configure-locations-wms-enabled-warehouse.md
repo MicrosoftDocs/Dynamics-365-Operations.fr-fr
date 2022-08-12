@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599346"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067271"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurer les emplacements dans un entrepôt compatible WMS
 
@@ -35,7 +35,7 @@ Ce guide vous indique comment configurer le paramétrage d’emplacement pour un
 4. Tapez une valeur dans le champ **Nom**.
 5. Dans le champ **Site**, sélectionnez ou saisissez une valeur de site existante.
 6. Développer la section **Entrepôt**.
-7. Définissez l’option **Utiliser les processus de gestion des entrepôts** sur Oui. Ce paramètre permet d’exécuter des processus avancés de stockage à l’aide du travail d’entrepôt et de périphériques mobiles.
+7. Définissez l’option **Utiliser les processus de gestion des entrepôts** sur Oui. Ce paramètre permet d’exécuter des processus de gestion des entrepôts à l’aide du travail d’entrepôt et de périphériques mobiles.
 8. Fermez la page.
 
 ## <a name="define-a-location-format"></a>Définir un format d’emplacement

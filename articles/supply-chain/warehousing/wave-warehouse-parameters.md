@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909610"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067849"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Paramètres de l’entrepôt pour le traitement des vagues
 
@@ -52,7 +52,7 @@ Pour définir les paramètres d’entrepôt pour le traitement des vagues, proc�
 > [!NOTE]
 > Dans le modèle de vague utilisé pour traiter la vague, vous pouvez spécifier les paramètres pour l’automatisation du traitement de la vague. Si vous paramétrez un programme pour le traitement par lots, vous devez coordonner le temps avec les paramètres d’automatisation dans le modèle de vague. Pour plus d’informations, voir [Création d ’un modèle de vague](wave-templates.md).
 >
-> Si vous utilisez la *Gestion du transport* et la *Gestion avancée des entrepôts*, vous pouvez spécifier si les charges sont consolidées lorsque vous traitez une vague. Par exemple, cela est utile lorsque plusieurs petites charges peuvent être expédiées simultanément. Pour consolider les charges lorsque vous traitez une vague, sur l’onglet **Charges**, cochez la case **Consolider les charges pendant le traitement des vagues**.</P>
+> Si vous utilisez la *Gestion du transport* et les *Processus de gestion des entrepôts*, vous pouvez spécifier si les charges sont consolidées lorsque vous traitez une vague. Par exemple, cela est utile lorsque plusieurs petites charges peuvent être expédiées simultanément. Pour consolider les charges lorsque vous traitez une vague, sur l’onglet **Charges**, cochez la case **Consolider les charges pendant le traitement des vagues**.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Paramétrer une réservation complète ou partielle pour les vagues de production
 

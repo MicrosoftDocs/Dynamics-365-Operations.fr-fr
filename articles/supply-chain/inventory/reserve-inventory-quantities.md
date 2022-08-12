@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899438"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201864"
 ---
 # <a name="reserve-inventory-quantities"></a>Réservation de quantités en stock
 
@@ -75,7 +75,7 @@ Une commande client qui doit être automatiquement réservée et livrée le 4 av
 
 Il existe deux options liées aux réservations sur la page **Paramètres de gestion des stocks et des entrepôts** :
 -   L’option **Réserver les articles commandés** sous l’onglet **Général** vous permet de réserver les réceptions d’articles qui sont commandées par rapport aux sorties d’articles dans les modules Comptabilité client, Gestion de projets et comptabilité et Contrôle de la production. Si vous désactivez cette option, vous pouvez uniquement réserver les articles physiquement reçus. Si un article a été paramétré pour accepter un stock négatif, ce champ est sans importance.
--   L’option **Réserver automatiquement les articles** sous l’onglet **Transport** détermine le paramètre par défaut si les articles sont automatiquement réservés pour les ordres de transfert. Le paramètre par défaut peut être remplacé sur les ordres de transfert individuels.
+-   L’option **Réserver automatiquement les articles** sous l’onglet **Transfert** détermine le paramètre par défaut si les articles sont automatiquement réservés pour les ordres de transfert. Le paramètre par défaut peut être remplacé sur les ordres de transfert individuels.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Stratégies de réservation de stock sur la page Paramètres de production
 

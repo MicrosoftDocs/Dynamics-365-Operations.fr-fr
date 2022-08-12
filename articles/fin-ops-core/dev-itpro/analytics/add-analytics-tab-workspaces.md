@@ -7,24 +7,24 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b06821f02e6a80f2e15db7d0dd95ef6c9a30d5bc
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884547"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206414"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Cette fonction est prise en charge dans Finance and Operations (version 7.2 et ultérieure).
+> Cette fonction est prise en charge dans les applications de finance et d’opérations (version 7.2 et ultérieure).
 
 ## <a name="introduction"></a>Introduction
 Cet article explique comment inclure un état Microsoft Power BI sous l’onglet **Analyses** d’un espace de travail. Pour l’exemple qui est indiqué ici, nous étendrons l’espace de travail **Gestion des réservations** dans l’application Gestion de flotte pour inclure un espace de travail analytique sur un onglet **Analyses**.

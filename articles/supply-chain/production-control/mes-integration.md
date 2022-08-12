@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860636"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068029"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Intégration avec des systèmes d’exécution de fabrication tiers
 
@@ -252,9 +252,10 @@ Une fois que le système d’exécution de la production a envoyé un message à
 Dans ces cas, vous pouvez profiter de la fonction d’alerte standard dans Supply Chain Management. Pour plus d’informations sur le fonctionnement des alertes standard, consultez les ressources suivantes :
 
 - Article d’aide : [Vue d’ensemble des alertes](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Vidéo : [Options de règle d’alerte dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Vidéo : [Options de règle d’alerte dans les finances et les opérations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Par exemple, vous pouvez configurer les alertes suivantes pour fournir des commentaires sur l’état d’un message :
 
 - Créez un événement commercial (« Envoyer en externe ») utilisé lorsqu’un message a *Échoué*.
 - Envoyez une notification et un e-mail à l’administrateur informatique ou au responsable de l’atelier de production.
+

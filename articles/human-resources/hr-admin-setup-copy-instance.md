@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692420"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178531"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**S’applique à :** Human Resources dans l’infrastructure autonome_ 
 
+> [!NOTE]
+> À partir de juin 2022, les environnements Human Resources peuvent être déployés uniquement sur l’infrastructure des applications de finances et d’opérations. Pour en savoir plus, voir [Mettre en service Human Resources dans l’infrastructure des applications de finances et d’opérations](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> L’infrastructure des finances et des opérations ne prend pas en charge une fonction d’instance de copie. Vous pouvez déployer de nouveaux environnements et utiliser des mouvements de base de données pour créer des copies. Pour plus d’informations sur les déploiements en libre-service, voir [Aperçu des déploiements en libre-service](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Pour plus d’informations sur les mouvements de bases de données sur l’infrastructure de finances et d’opérations, voir [Page d’accueil des opérations de migration de la base de données](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 Vous pouvez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour copier une base de données Microsoft Dynamics 365 Human Resources dans un environnement de bac à sable. Si vous avez un autre environnement de bac à sable, vous pouvez également copier la base de données de cet environnement vers un environnement cible de bac à sable.
 
@@ -50,7 +55,7 @@ Les événements suivants se produisent lorsque vous copiez une base de données
 
 - Les documents dans le stockage Microsoft Azure Blob n’est pas copié d’un environnement à un autre. En conséquence, tous les documents et modèles joints ne seront pas copiés et resteront dans l’environnement source.
 
-- Tous les utilisateurs, à l’exception de ceux dotés du rôle de sécurité « Administrateur système » et d’autres comptes d’utilisateurs du service interne, seront indisponibles. L’utilisateur Admin peut supprimer ou masquer les données avant que d’autres utilisateurs ne soient autorisés à réintégrer le système.
+- Tous les utilisateurs, à l’exception de ceux dotés du rôle de sécurité « Administrateur système » et d’autres comptes d’utilisateurs du service interne, seront indisponibles. L’utilisateur Admin peut supprimer les données avant que d’autres utilisateurs ne soient autorisés à réintégrer le système.
 
 - Tout utilisateur doté du rôle de sécurité « Administrateur système » doit apporter les modifications de configuration requises, telles que la reconnexion des points de terminaison d’intégration à des services ou URL spécifiques.
 
@@ -67,15 +72,17 @@ Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous 
 
 3. Sélectionnez l’instance à copier, puis sélectionnez **Copier**.
 
-4. Dans le volet des tâches **Copier une instance**, sélectionnez l’instance à remplacer, puis sélectionnez **Copier**. Attendez que la valeur du champ **Statut de la copie** affiche **Terminé**.
+4. Dans le volet des tâches **Copier une instance**, sélectionnez l’instance à remplacer, puis sélectionnez **Copier**. Attendez que le champ **Statut de la copie** affiche **Terminé**.
 
    ![[Sélectionner l’instance à remplacer.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
-5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d’administration Microsoft Power Platform.
+5. Sélectionnez **Power Platform**, et connectez-vous au Centre d’administration Microsoft Power Platform.
 
    ![[Sélectionnez Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
+6. Sélectionnez l'environnement Power Apps à copier, puis sélectionnez **Copier**.
+
+Pour plus d’informations sur la copie des environnements Power Apps, voir [Copier un environnement](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Une fois le processus de copie terminé, connectez-vous à l’instance cible et activez l’intégration Dataverse. Pour plus d’informations et instructions, voir [Configurer l’intégration Dataverse](./hr-admin-integration-common-data-service.md).
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901906"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103828"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Présentation du portail client pour Dynamics 365 Supply Chain Management
 
@@ -42,7 +42,7 @@ Le modèle de portail client possède toutes les fonctionnalités de personnalis
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-La vidéo [Présentation du modèle de portail client dans Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (illustrée ci-dessus) est incluse dans la [playlist Finances et Opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Présentation du modèle de portail client dans Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (illustrée ci-dessus) est incluse dans la [liste de lecture des applications de finances et d’opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="who-should-use-it"></a>Qui doit l’utiliser ?
 
@@ -62,7 +62,7 @@ Le portail client est fourni en tant que modèle de portails Power Apps. Il repo
 
 Les [portails Power Apps](/powerapps/maker/portals/overview) sont une fonctionnalité qui permet aux utilisateurs de créer un site web ouvert sur l’extérieur auquel des personnes extérieures à l’organisation peuvent se connecter. La création de portails requiert peu ou pas de code. Le portail client est l’un des nombreux [Modèles de portail Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) disponibles auprès de Microsoft.
 
-La [double écriture](/powerapps/maker/portals/overview) est une infrastructure prête à l’emploi qui fournit une interaction en temps quasi réel entre les applications d’engagement client et les applications Finances et Opérations. La double écriture offre une intégration bidirectionnelle entre les applications Finances et Opérations et Microsoft Dataverse. Par conséquent, elle offre une expérience utilisateur intégrée entre les différentes applications. Le portail client dépend des tables synchronisées par la double écriture. Avant que les données issues de Supply Chain Management puissent apparaître dans le portail client, la double écriture doit être activée pour toutes les tables appropriées.
+La [double écriture](/powerapps/maker/portals/overview) est une infrastructure prête à l’emploi qui fournit une interaction en temps quasi réel entre les applications d’engagement client et les applications de finances et d’opérations. La double écriture offre une intégration bidirectionnelle entre les applications de finances et d’opérations et Microsoft Dataverse. Par conséquent, elle offre une expérience utilisateur intégrée entre les différentes applications. Le portail client dépend des tables synchronisées par la double écriture. Avant que les données issues de Supply Chain Management puissent apparaître dans le portail client, la double écriture doit être activée pour toutes les tables appropriées.
 
 ![Dépendances du portail client.](media/customer-portal-elements.png "Dépendances du portail client")
 

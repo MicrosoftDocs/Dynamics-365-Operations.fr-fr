@@ -1,6 +1,6 @@
 ---
 title: Affecter des utilisateurs à des rôles de sécurité
-description: Pour accéder aux applications Finance and Operations, des rôles de sécurité doivent être affectés aux utilisateurs.
+description: Pour accéder aux applications de finances et d’opérations, des rôles de sécurité doivent être affectés aux utilisateurs.
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105536"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103866"
 ---
 # <a name="manage-users-and-security-roles"></a>Gestion des utilisateurs et des rôles de sécurité
 
 [!include [banner](../../includes/banner.md)]
 
-Pour utiliser autre chose que les fonctionnalités courantes dans les applications Finances et Opérations, des rôles de sécurité doivent être attribués aux utilisateurs. Vous pouvez affecter des utilisateurs à des rôles automatiquement, en fonction des règles et des données d’entreprise, exclure les utilisateurs de l’attribution automatique des rôles ou ajouter des utilisateurs aux rôles manuellement.
+Pour utiliser autre chose que les fonctionnalités courantes dans les applications de finances et d’opérations, des rôles de sécurité doivent être attribués aux utilisateurs. Vous pouvez affecter des utilisateurs à des rôles automatiquement, en fonction des règles et des données d’entreprise, exclure les utilisateurs de l’attribution automatique des rôles ou ajouter des utilisateurs aux rôles manuellement.
 
 ## <a name="automatically-assign-users-to-roles"></a>Affecter automatiquement des utilisateurs à des rôles
 Cette procédure explique comment les administrateurs système peuvent affecter automatiquement des utilisateurs aux rôles, selon les données commerciales. 
@@ -73,3 +73,4 @@ Les utilisateurs qui reçoivent des rôles de sécurité manuellement doivent é
    4. Sous le **volet Actions**, sélectionnez **Exclure du rôle**. La colonne **Mode d’affectation** est maintenant mise à jour en **Manuel** et les utilisateurs sont maintenant exclus du rôle.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

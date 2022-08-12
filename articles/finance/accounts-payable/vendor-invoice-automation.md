@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883414"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070692"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatisation des factures pour les documents numérisés
 
@@ -86,7 +86,7 @@ Les factures importées via des packages de données peuvent être associées à
 
 ## <a name="exception-processing"></a>Traitement des exceptions
 
-Dans les scénarios où les factures fournisseur sont envoyées dans Finance et Opérations par le biais de l’intégration, un membre de l’équipe de la comptabilité fournisseur doit pouvoir traiter facilement les exceptions ou les factures ayant échoué, et créer des factures en attente à partir des factures ayant échoué. Ce traitement des exceptions pour les factures fournisseur fait désormais partie de Finance et Opérations.
+Dans les scénarios où les factures fournisseur sont envoyées dans les applications de finances et d’opérations par le biais de l’intégration, un membre de l’équipe de la comptabilité fournisseur doit pouvoir traiter facilement les exceptions ou les factures ayant échoué, et créer des factures en attente à partir des factures ayant échoué. Ce traitement des exceptions pour les factures fournisseur fait désormais partie des applications de finances et d’opérations.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Factures fournisseur qui n’ont pas réussi à importer la page de liste
 
@@ -225,3 +225,4 @@ Par défaut, si le rôle d’utilisateur donne des droits de modification sur n�
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

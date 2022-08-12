@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849929"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151030"
 ---
 # <a name="purchase-order-posting"></a>Validation de la commande fournisseur
 
@@ -93,10 +93,10 @@ Le tableau suivant montre des exemples de types de comptabilisation par défaut 
 
 | Type de validation | Exemple de compte principal | Exemple de nom de compte principal | Type de compte | Débit/Crédit ? | Compte de compensation | P/F | Suivre | Description |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Coût des matériaux achetés reçus | 140100</br>140101 | Inventaire des matériaux</br>Matériaux expédiés non facturés | Actif | Débit | Oui | P | Coût des matériaux achetés facturé | Utilisé lorsqu’un accusé de réception de commande fournisseur est validé. La compensation du compte correspond aux dépenses d’achat non facturées. Le montant de ce compte est annulé lorsqu’une facture de commande fournisseur est validée. |
+| Coût des matériaux achetés reçus | 140100</br>140101 | Inventaire des matériaux</br>Matériaux expédiés non facturés | Actif | Débit | Oui | P | Coût des matériaux achetés facturé | Utilisé lorsqu’un accusé de réception de commande fournisseur est validé et que la contrepartie au compte est Dépenses d’achat, non facturé. Le montant de ce compte est annulé lorsqu’une facture de commande fournisseur est validée. |
 | Dépenses d’achat, non facturées | 600180 | Réceptions de matériel | Dépenses | Débit | Oui | P | |Utilisé lorsqu’un accusé de réception de commande fournisseur est validé. Deux pièces justificatives sont créées pour le reçu afin de suivre les écarts de prix d’achat lorsque le coût standard est utilisé. La compensation du compte sur le premier bon est la provision d’achat. La compensation sur le deuxième bon est la somme des comptes Coût des matériaux achetés reçus et Écart sur prix d’achat. Les montants validés de ce compte sont annulés lorsqu’une facture de commande fournisseur est validée. |
 | Coût des matériaux achetés facturé | 140100 | Inventaire des matériaux | Actif | Débit | N° | V  |Coût des matériaux achetés reçus | Utilisé lorsqu’une facture de commande fournisseur est validée. La compensation de ce compte correspond aux dépenses d’achat non facturées pour le produit. Ce compte représente l’inventaire sur votre bilan. Le compte utilisé est généralement le même que celui utilisé pour le coût des unités livrées et le coût des unités facturées pour la commande client. |
-| Dépenses d’achat pour le produit | 600180 | Réception de matériel | Dépenses | Crédit | N° | V  | |Utilisé lorsqu’une facture de commande fournisseur est validée. La compensation de ce compte est le coût des marchandises achetées. Ce compte représente l’inventaire sur votre bilan. |
+| Dépenses d’achat pour le produit | 600180 | Réception de matériel | Dépenses | Crédit | Oui | V  | |Utilisé lorsqu’une facture de commande fournisseur est validée. Deux pièces justificatives sont créées pour la facturation afin de suivre les écarts de prix d’achat lorsque le coût standard est utilisé. La contrepartie de ce compte est le compte Dépenses d’achat, non facturé qui est utilisé lors de l’enregistrement de la réception et annulé lors de l’enregistrement de la facture. Représente les coûts du stock acheté lors de la facturation qui ne sont pas reflétés dans le compte de stock du bilan. Il s’agit d’un compte de profits et pertes pour l’écart de prix d’achat le plus souvent observé dans les achats d’articles au coût standard.|
 | Bénéfice du prix fixe de réception (Achat, bénéfice du prix fixe de réception*) | 510310 | Écart de prix d’achat | Dépenses | Crédit | N° | V | Perte sur prix fixe de réception | Utilisé lorsqu’une facture de bon de commande est validée et qu’il existe une différence entre le prix facturé et le coût par défaut de l’article. Ce compte est utilisé lorsque la différence est plus élevée. La compensation de ce compte est la compensation du prix fixe de réception. |
 | Perte du prix fixe de réception (Achat, perte du prix fixe de réception*) | 510310 | Écart de prix d’achat | Dépenses | Débit | N° | V | Profit sur prix fixe de réception | Utilisé lorsqu’une facture de bon de commande est validée et qu’il existe une différence entre le prix facturé et le coût par défaut de l’article. Ce compte est utilisé lorsque la différence est plus basse. La compensation de ce compte est la compensation du prix fixe de réception. |
 | Compensation du prix fixe de réception (Achat, compensation du prix fixe de réception*) | 140900 | Variation de stock | Actif | Les deux | N° | V  | |Utilisé lorsqu’une facture de bon de commande est validée et qu’il existe une différence entre le prix facturé et le coût par défaut de l’article. Ce compte est la contrepartie des comptes de profits et pertes du prix fixe de réception. |

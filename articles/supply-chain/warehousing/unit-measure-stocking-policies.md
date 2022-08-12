@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714834"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069120"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Stratégies d’unité de mesure et de stockage
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714834"
 
 Cet article décrit la manière dont les unités par défaut, les séquences d’unité et les conversions d’unités sont utilisées dans les processus d’entrepôt.
 
-Les groupes de séquences d’unités définissent la séquence d’unités qui peut être utilisée dans les opérations d’entrepôt. Ils sont créés dans la page **Groupes de séquences d’unités**. La séquence indique la relation des différentes unités. Par exemple, vous stockez des palettes contenant des cartons avec plusieurs articles. Dans ce cas, vous devez fournir les trois différentes unités et l’ordre logique des couches. Les groupes de séquences d’unités permettent de définir les stratégies de regroupement des contenants et les unités par défaut à utiliser pour différents processus d’entrepôt. Cet article s’applique à la solution d’entreposage avancée qui est disponible dans le module Gestion des entrepôts et à la solution d’entreposage plus basique qui est disponible dans le module Gestion des stocks.
+Les groupes de séquences d’unités définissent la séquence d’unités qui peut être utilisée dans les opérations d’entrepôt. Ils sont créés dans la page **Groupes de séquences d’unités**. La séquence indique la relation des différentes unités. Par exemple, vous stockez des palettes contenant des cartons avec plusieurs articles. Dans ce cas, vous devez fournir les trois différentes unités et l’ordre logique des couches. Les groupes de séquences d’unités permettent de définir les stratégies de regroupement des contenants et les unités par défaut à utiliser pour différents processus d’entrepôt. Cet article s’applique aux processus de gestion des entrepôts disponibles dans le module Gestion des entrepôts et à la solution d’entreposage plus basique qui est disponible dans le module Gestion des stocks.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Groupes de séquences d’unités pour les produits lancés
 Si vous souhaitez utiliser des produits lancés dans les processus de travail d’entrepôt, un groupe de séquences d’unités doit leur être affecté. Si vous validez un produit associé à un groupe de dimensions de stockage et que l’option **Utiliser les processus de gestion des entrepôts** pour le groupe de dimensions de stockage est défini sur **Oui**, vous recevez un message d’erreur si un ID de groupe de séquences d’unités n’est pas défini pour le produit. Si le groupe de séquences d’unités que vous utilisez contient plusieurs lignes (et donc plusieurs unités), vous devez paramétrer une conversion d’unités entre les unités. Ce paramétrage est réalisé dans la page **Conversions d’unités**. L’unité la plus petite d’un groupe de séquences que vous associez à un produit lancé doit correspondre à l’unité de stock définie pour le produit correspondant. L’unité de stock est l’unité utilisée pour les calculs de base du stock disponible. Vous pouvez également paramétrer des conversions d’unité de mesure pour les variantes de produit des produits génériques à l’aide de l’option **Autoriser les conversions des unités de mesure**.

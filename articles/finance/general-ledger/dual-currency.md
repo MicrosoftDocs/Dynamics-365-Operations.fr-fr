@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19337b2651830d79543361d525bf24c4f794e825
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906353"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065744"
 ---
 # <a name="dual-currency"></a>Devise double
 
 [!include [banner](../includes/banner.md)]
 
-La fonctionnalité qui a été introduite dans Microsoft Dynamics 365 for Finance and Operations version 8.1 (octobre 2018) permet à la devise de déclaration d’être redéfinie et utilisée comme seconde devise comptable. Cette fonctionnalité est parfois désignée *devise double*. Les modifications pour la devise double ne peuvent pas être désactivées via une clé de configuration ou un paramètre. Comme la devise de déclaration est utilisée comme seconde devise comptable, la manière dont la devise de déclaration est calculée dans la logique de validation a changé.
+La fonctionnalité qui a été introduite dans Microsoft Dynamics 365 Finance version 8.1 (octobre 2018) permet à la devise de déclaration d’être redéfinie et utilisée comme seconde devise comptable. Cette fonctionnalité est parfois désignée *devise double*. Les modifications pour la devise double ne peuvent pas être désactivées via une clé de configuration ou un paramètre. Comme la devise de déclaration est utilisée comme seconde devise comptable, la manière dont la devise de déclaration est calculée dans la logique de validation a changé.
 
 En outre, plusieurs modules ont été améliorés pour effectuer le suivi, générer des états, et utiliser la devise de déclaration dans différents processus. Les modules affectés sont :
 
@@ -209,3 +209,4 @@ Dans la consolidation dans le module Comptabilité, une nouvelle option a été 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

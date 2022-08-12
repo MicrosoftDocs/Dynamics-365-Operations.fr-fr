@@ -1,6 +1,6 @@
 ---
 title: Données principales client intégrées
-description: Cet article décrit l’intégration des données client entre Finances et Opérations et Dataverse.
+description: Cet article décrit l’intégration des données client entre les applications de finances et d’opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890454"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111722"
 ---
 # <a name="integrated-customer-master"></a>Données principales client intégrées
 
@@ -30,9 +30,9 @@ Les données client peuvent être gérées dans plusieurs applications Dynamics�
 
 ![Flux de données client.](media/dual-write-customer-data-flow.png)
 
-Les clients peuvent être classés largement en deux types : les clients commerciaux/organisationnels et les consommateurs/utilisateurs finaux. Ces deux types de clients sont stockés et gérés différemment dans Finances et Opérations et Dataverse.
+Les clients peuvent être classés largement en deux types : les clients commerciaux/organisationnels et les consommateurs/utilisateurs finaux. Ces deux types de clients sont stockés et gérés différemment dans les applications de finances et d’opérations et Dataverse.
 
-Dans Finances et Opérations, des clients commerciaux/organisationnels et des consommateurs/utilisateurs finaux sont gérés dans une table unique nommée **CustTable** (CustCustomerV3Entity), et ils sont classés selon l’attribut **Type**. (Si **Type** est défini sur **Organisation**, le client est commercial/organisationnel, et si **Type** est défini sur **Personne**, le client est client/utilisateur.) Les informations de principale personne à contacter sont traitées via la table de SMMContactPersonEntity.
+Dans les applications de finances et d’opérations, des clients commerciaux/organisationnels et des consommateurs/utilisateurs finaux sont gérés dans une table unique nommée **CustTable** (CustCustomerV3Entity), et ils sont classés selon l’attribut **Type**. (Si **Type** est défini sur **Organisation**, le client est commercial/organisationnel, et si **Type** est défini sur **Personne**, le client est client/utilisateur.) Les informations de principale personne à contacter sont traitées via la table de SMMContactPersonEntity.
 
 Dans Dataverse, les clients commerciaux/organisationnels sont gérés dans la table Compte et identifiés comme clients lorsque l’attribut **RelationshipType** est défini sur **Client**. Les consommateurs/utilisateurs finaux et la personne à contacter sont représentés par la table Contact. Pour fournir une séparation claire entre un consommateur/utilisateur final et une personne à contacter, la table **Contact** a un indicateur booléen nommé **Vendable**. Lorsque **Vendable** est **True**, le contact est un consommateur/utilisateur final, et des devis et des commandes peuvent être créés pour ce contact. Lorsque **Vendable** est **False**, le contact est simplement une principale personne à contacter d’un client.
 
@@ -42,7 +42,7 @@ Lorsqu’un contact non vendable participe à un processus de devis ou de comman
 
 Les données client incluent toutes les informations sur le client, telles que le groupe de clients, les adresses, les informations de contact, le profil de paiement, le profil de facture, et le statut de fidélité. Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-Applications de Finances et Opérations | Applications Customer Engagement         | Description
+Applications de finances et d’opérations | Applications Customer Engagement         | Description
 ----------------------------|---------------------------------|------------
 [Contacts CDS V2](mapping-reference.md#115) | contacts | Ce modèle synchronise toutes les informations principales, secondaires et tertiaires de contact, à la fois pour les clients et les fournisseurs.
 [Groupes de clients](mapping-reference.md#126) | msdyn_customergroups | Ce modèle synchronise les informations du groupe de clients.
@@ -57,3 +57,4 @@ Applications de Finances et Opérations | Applications Customer Engagement      
 [Conditions de paiement](mapping-reference.md#161) | msdyn_paymentterms | Ce modèle synchronise les données de référence des conditions de paiement pour les clients et les fournisseurs.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

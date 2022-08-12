@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983000"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065184"
 ---
 # <a name="warehouse-configuration-overview"></a>Vue d’ensemble de configuration de l’entrepôt
 
@@ -31,10 +31,10 @@ ms.locfileid: "7983000"
 Cet article explique comment configurer un entrepôt. Elle contient des informations sur l’activation d’une présentation d’entrepôt et sur les processus d’entrepôt.
 
 > [!NOTE]
-> Cet article s’applique aux fonctionnalités du module **Gestion des entrepôts** (entreposage avancé). Il ne s’applique pas aux fonctionnalités dédiées aux entrepôts du module **Gestion des stocks**.
+> Cet article s’applique aux fonctionnalités du module **Gestion des entrepôts**. Il ne s’applique pas aux fonctionnalités dédiées aux entrepôts du module **Gestion des stocks**.
 
 ## <a name="warehouse-layout"></a>Disposition de l’entrepôt
-Le système de gestion des entrepôts de Supply Chain Management vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l’entrepôt.
+Les processus de gestion des entrepôts de Supply Chain Management vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l’entrepôt.
 
 -   Vous pouvez créer des zones de stockage à priorité haute et basse pour positionner les marchandises de manière optimale.
 -   Vous pouvez diviser votre entrepôt en zones pour répondre à des besoins de stockage variés, tels qu’une température de préférence ou des taux de rotation variables d’un article à l’autre.
@@ -42,7 +42,7 @@ Le système de gestion des entrepôts de Supply Chain Management vous offre des 
 -   Vous pouvez regrouper des emplacements à l’aide des paramètres de contrainte de capacité physique.
 -   Vous pouvez contrôler la façon dont les articles sont stockés et prélevés, en fonction de règles définies par des requêtes.
 
-Pour utiliser la gestion des entrepôts dans Supply Chain Management, vous devez créer un entrepôt et l’activer pour des activités plus avancées ou plus spécialisées de gestion des entrepôts. Dans la page **Entrepôts**, sélectionnez l’option **Utiliser les processus de gestion des entrepôts**.
+Pour utiliser WMS dans Supply Chain Management, vous devez créer un entrepôt et l’activer pour WMS. Dans la page **Entrepôts**, sélectionnez l’option **Utiliser les processus de gestion des entrepôts**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Groupes de zones, zones, types d’emplacements et emplacements
 

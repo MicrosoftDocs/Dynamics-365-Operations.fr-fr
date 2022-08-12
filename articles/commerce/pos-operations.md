@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 3948fff15108568df514406ad443d4f538653e62
+ms.sourcegitcommit: 1af2b01aea6b5a4d88ee3fae6faa0eaf1976c5dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027281"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9146483"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -271,7 +271,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 1 218 | Forcer le déverrouillage du périphérique                           | Le système utilise cette opération en interne pour déverrouiller les périphériques du PDV.                                                                                                                                           | Non applicable | Non applicable     | Non applicable | Non applicable    | N°              |
 | 1219 | Ouvrir une URL dans le PDV                                   | Cette opération permet d’ouvrir une URL configurée par l’administrateur dans le PDV.                                                                                                                                                                           | Oui            | Oui                | Oui            | Oui               | N°              |
 | 1220 | Gérer le coffres-fort                                       | Gérer le coffre-fort pour différents registres.                                                                                                                                                                       | Oui            | Oui                | Oui            | Oui               | N°              |
-| 1221 | Annuler les transactions suspendues                       | Annuler les transactions suspendues.                                                                                                                                                                               | Oui            | Oui                | Oui            | Oui               | N°              |
+| 1221 | Annuler les transactions suspendues                       | Annuler les transactions suspendues.                                                                                                                                                                               | Oui            | N°                | N°            | Oui               | N°              |
 | 1300 | Ignorer l’enregistrement fiscal                          | Ignorer l’enregistrement fiscal.                                                                                                                                                                                       | N°            | N°                | N°            | Oui               | N°             |
 | 1301 | Marque l’événement fiscal comme enregistré                      |  Marque l’événement fiscal comme enregistré.                                                                                                                                                                                  | N°            | N°                | N°            | Oui               | N°             |
 | 1302 | Effectuer le processus d’enregistrement fiscal              | Effectuer le processus d’enregistrement fiscal.                                                                                                                                                                           | N°            | N°                | Oui            | Oui               | Oui             |

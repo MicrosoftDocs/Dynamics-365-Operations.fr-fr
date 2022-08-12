@@ -1,6 +1,6 @@
 ---
 title: Données principales fournisseur intégrées
-description: Cet article décrit l’intégration des données fournisseur entre les applications Finances et Opérations et Dataverse.
+description: Cet article décrit l’intégration des données fournisseur entre les applications de finances et d’opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905313"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112193"
 ---
 # <a name="integrated-vendor-master"></a>Données principales fournisseur intégrées
 
@@ -37,13 +37,13 @@ Si vous ne souhaitez pas continuer à stocker les données fournisseur dans la t
 ![Flux de données fournisseur étendues.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Si vous utilisez les portails Power Apps pour les fournisseurs en libre service, les informations sur les fournisseurs peuvent passer directement vers les applications Finances et Opérations.
+> Si vous utilisez les portails Power Apps pour les fournisseurs en libre service, les informations sur les fournisseurs peuvent passer directement vers les applications de finances et d’opérations.
 
 ## <a name="templates"></a>Modèles
 
 Les données fournisseur incluent toutes les informations sur le fournisseur, telles que le groupe de fournisseurs, les adresses, les informations de contact, le profil de paiement et le profil de facture. Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction des données fournisseur, comme indiqué dans le tableau suivant.
 
-Applications de Finances et Opérations | Applications Customer Engagement     | Description
+Applications de finances et d’opérations | Applications Customer Engagement     | Description
 ----------------------------|-----------------------------|------------
 [Contacts CDS V2](mapping-reference.md#115) | contacts | Ce modèle synchronise toutes les informations principales, secondaires et tertiaires de contact, à la fois pour les clients et les fournisseurs.
 [Affixes de nom](mapping-reference.md#155) | msdyn_nameaffixes | Ce modèle synchronise les données de référence des affixes de nom pour les clients et les fournisseurs.
@@ -52,8 +52,9 @@ Applications de Finances et Opérations | Applications Customer Engagement     |
 [Lignes d’échéancier de paiement](mapping-reference.md#159) | msdyn_paymentschedulelines | Synchronise les références de données des lignes du programme de paiement, à la fois pour les clients et les fournisseurs.
 [Echéancier de paiement](mapping-reference.md#160) | msdyn_paymentschedules | Ce modèle synchronise les données de référence du programme de paiement, pour les clients et les fournisseurs.
 [Conditions de paiement](mapping-reference.md#161) | msdyn_paymentterms | Ce modèle synchronise les données de référence des conditions de paiement pour les clients et les fournisseurs.
-[Fournisseurs V2](mapping-reference.md#202) | msdyn_vendors | Les sociétés qui utilisent une solution personnalisée pour les fournisseurs peuvent profiter du concept de fournisseur prédéfini introduit dans Dataverse en raison de l’intégration des applications Finances et Opérations.
+[Fournisseurs V2](mapping-reference.md#202) | msdyn_vendors | Les sociétés qui utilisent une solution personnalisée pour les fournisseurs peuvent profiter du concept de fournisseur prédéfini introduit dans Dataverse en raison de l’intégration des applications de finances et d’opérations.
 [Groupes de fournisseurs](mapping-reference.md#200) | msdyn_vendorgroups | Ce modèle synchronise les informations du groupe de fournisseurs.
 [Mode de paiement fournisseur](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Ce modèle synchronise les informations de la méthode de paiement des fournisseurs.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

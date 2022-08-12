@@ -1,6 +1,6 @@
 ---
 title: Supprimer une instance
-description: Cet article décrit le processus de suppression d’un pilote test ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
+description: Cet article décrit le processus de suppression d’une version d’évaluation ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859631"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178470"
 ---
 # <a name="remove-an-instance"></a>Supprimer une instance
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**S’applique à :** Human Resources dans l’infrastructure autonome_ 
+
+> [!NOTE]
+> À partir de juillet 2022, les nouveaux environnements de Human Resources ne peuvent plus être approvisionnés sur l’infrastructure autonome de Human Resources, et les nouveaux projets Microsoft Dynamics Lifecycle Services (LCS) ne peuvent pas y être créés. Les clients peuvent déployer des environnements Human Resources sur l’infrastructure des applications de finances et d’opérations. Pour en savoir plus, voir [Mettre en service Human Resources dans l’infrastructure des applications de finances et d’opérations](/hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> L’infrastructure de l’application de finances et d’opérations prend en charge la suppression d’un environnement. Pour plus d’informations sur la suppression d’un environnement, voir [Supprimer un environnement](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment).
 
 Cet article explique le processus de suppression d’une version d’évaluation ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
 
@@ -42,10 +48,13 @@ L’environnement de test existant est supprimé. Une fois supprimé, vous pouve
 
 Cet article suppose que vous avez acheté Human Resources par l’intermédiaire d’un fournisseur de solutions Cloud (CSP) ou dans le cadre d’un contrat d’architecture d’entreprise (EA). 
 
-Comme un seul environnement Human Resources est « contenu » dans un seul environnement Power Apps, il existe deux options à prendre en compte. La première option implique de supprimer l’ensemble de l’environnement Power Apps ; puis supprimer uniquement Human Resources. La première option est recommandée lorsque vous avez créé un environnement Power Apps expressément pour le provisionnement de Human Resources, et que vous venez de commencer l’implémentation, ou que vous n’avez pas établi d’intégration. La deuxième option est utile lorsque vous avez établi un environnement Power Apps rempli avec des données enrichies qui sont exploitées dans Power Apps et Power Automate.
+Comme un seul environnement Human Resources est contenu dans un seul environnement Power Apps, il existe deux options à prendre en compte lorsque vous supprimez un environnement : 
+- **Supprimer l’intégralité de l’environnement Power Apps.** La première option est recommandée lorsque vous avez créé un environnement Power Apps expressément pour l’approvisionnement de Human Resources, et que vous venez de commencer l’implémentation, ou que vous n’avez pas établi d’intégration.  
+- **Supprimer uniquement Human Resources.** L’option est utile lorsque vous avez établi un environnement Power Apps rempli avec des données enrichies qui sont exploitées dans Microsoft Power Apps et Power Automate.
+
 
 > [!Important]
-> Avant de supprimer l’environnement Power Apps, vérifiez qu’il n’est pas utilisé pour des intégrations de données enrichies en dehors de la portée de Human Resources. Notez également que les environnements Power Apps par défaut ne peuvent pas être supprimés. 
+> Avant de supprimer l’environnement Power Apps, vérifiez qu’il n’est pas utilisé pour des intégrations de données enrichies en dehors de la portée de Human Resources. Notez également que les environnements Power Apps par défaut ne peuvent pas être supprimés. 
 
 Pour supprimer l’ensemble de l’environnement Power Apps, notamment Human Resources et les applications et flux associés :
 
@@ -73,7 +82,7 @@ Pour supprimer un environnement Human Resources d’un environnement Power Apps 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Récupérer un environnement supprimé de manière temporaire
 
-Si vous supprimez l’environnement Power Apps auquel votre environnement Human Resources est connecté, le statut de l’environnement Human Resources dans Lifecycle Services est **Suppression temporaire**. Dans ce cas, les utilisateurs ne peuvent pas se connecter à Human Resources.
+Si vous supprimez l’environnement Power Apps auquel votre environnement Human Resources est connecté, le statut de l’environnement Human Resources dans LCS est **Suppression temporaire**. Dans ce cas, les utilisateurs ne peuvent pas se connecter à Human Resources.
 
 Pour restaurer l’environnement :
 

@@ -1,6 +1,6 @@
 ---
-title: Obtenir de l’aide sur les applications Finances et Opérations et Lifecycle Services (LCS)
-description: Cet article explique comment obtenir de l’aide pour les applications de finances et d'opérations ou Microsoft Dynamics Lifecycle Services (LCS).
+title: Obtenir de l’aide sur les applications de finances et d’opérations et Lifecycle Services (LCS)
+description: Cet article explique comment obtenir de l’aide pour les applications de finances et d’opérations ou Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 278a62c0393be503352db39dddeca1095e7e4a5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f36709ddc2a64c31fe3c2d63fbe073fd9bc159bb
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866429"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103401"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtenir de l’aide sur les applications Finances et Opérations et Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtenir de l’aide sur les applications de finances et d’opérations et Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-2.md)]
 
-Cet article explique comment obtenir de l’aide pour les applications de finances et d'opérations ou Microsoft Dynamics Lifecycle Services (LCS). 
+Cet article explique comment obtenir de l’aide pour les applications de finances et d’opérations ou Microsoft Dynamics Lifecycle Services (LCS). 
 
 <table>
 <thead>
@@ -51,7 +51,7 @@ Cet article explique comment obtenir de l’aide pour les applications de financ
 <td>Dans <a href="https://lcs.dynamics.com/">LCS</a>, utilisez l’outil <strong>Recherche d’incidents</strong> pour rechercher rapidement des articles de base de connaissances Microsoft, des correctifs et des solutions aux problèmes signalés. Vous pouvez voir les problèmes signalés qui sont en cours de résolution pour un domaine fonctionnel spécifique et ceux qui ont déjà été résolus. Pour plus d’informations, voir <a href="issue-search-lcs.md">Recherche d’incidents (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Obtenez de l’aide dans votre application Finances et Opérations.</td>
+<td>Obtenez de l’aide dans votre application de finances et d’opérations.</td>
 <td>Sélectionnez le bouton <strong>Aide</strong> (<strong>?</strong>) dans le coin supérieur droit de l’application, puis sélectionnez <strong>Support</strong>. Les problèmes sont signalés dans l’onglet <strong>Problèmes actifs</strong> dans LCS. Là, les administrateurs peuvent déterminer s’ils doivent fournir une assistance en interne ou soumettre les problèmes à Microsoft.</td>
 </tr>
 <tr>
@@ -72,3 +72,4 @@ Cet article explique comment obtenir de l’aide pour les applications de financ
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

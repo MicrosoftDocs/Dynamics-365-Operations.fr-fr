@@ -10,18 +10,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
+ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954661"
+ms.lasthandoff: 07/25/2022
+ms.locfileid: "9188989"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications de l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Cet article répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20300"></a>Version 2.0.30.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+
+- Stabilité améliorée.
+
+## <a name="version-20280"></a>Version 2.0.28.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+
+- Stabilité améliorée.
+- Introduction de la possibilité de poursuivre la numérisation même lorsqu’une boîte de dialogue d’erreur s’affiche à l’écran.
+- Ajout de la prise en charge d’ASCII 10 dans les codes-barres.
+- Amélioration de la convivialité des boîtes de dialogue d’instructions pas à pas.
+- Correction d’un problème où un écran vide pouvait parfois être affiché.
+- Correction d’un problème où les listes de travail ne défilaient pas correctement lors de l’exécution sur Microsoft Windows.
 
 ## <a name="version-20250"></a>Version 2.0.25.0
 

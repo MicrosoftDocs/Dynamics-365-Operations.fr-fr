@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876323"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129510"
 ---
 # <a name="create-a-customer-invoice"></a>Création d’une facture client
 
@@ -90,6 +90,14 @@ Vous pouvez paramétrer le fractionnement des factures clients des commandes cli
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Valider sur le compte Produit pour les lignes de commande client sans prix et de coût nul
 Vous aurez la possibilité de mettre à jour le compte **Revenu** en **Comptabilité** pour les lignes de commande client sans prix et de coût nul. Pour configurer ou afficher ces informations, accédez au paramètre **Valider sur le compte Produit pour les lignes de facture de commande client sans prix et de coût nul** sur l’onglet **Comptabilité et taxe** de la page **Paramètres de la comptabilité client**. (**Comptabilité client > Comptabilité client > Paramètres de la comptabilité client**). Sélectionnez **Oui** pour mettre à jour le compte **Revenu** pour les lignes de facture de commande client qui n’ont pas de prix et de coût nul. Si cette option est sélectionnée, le justificatif contiendra 0,00 entrées pour les types de validations **Client - Solde** et **Produit**. Un compte de produit est défini sur la page du paramètre **Validation de l’inventaire**, sur l’onglet de définition du compte **Commande client**. Si cette option n’est pas sélectionnée, les lignes qui n’ont pas d’informations sur les prix et les coûts ne seront pas validées vers le compte **Revenu**. Au lieu de cela, le justificatif contiendra une entrée de 0,00 pour le type de validation **Client – Solde**.
+
+## <a name="line-creation-sequence-number-information"></a>Informations sur le numéro de séquence de création de ligne
+Lorsque vous validez des lignes de facture client, vous avez la possibilité de créer des numéros de séquence de création de ligne séquentiels. Les numéros de séquence de création de ligne sont attribués lors du processus de validation. En autorisant la numérotation non séquentielle, vous pouvez contribuer à améliorer les performances de la validation des factures client. Les numéros de séquence de création de ligne peuvent être utilisés par des intégrations tierces qui attendent un ordre séquentiel. Consultez votre service informatique au sujet des extensions qui pourraient s’intégrer aux numéros de séquence de création de ligne.
+
+Pour configurer ou afficher ces informations, sur la page **Paramètres de comptabilité client**, sur l’onglet **Mises à jour**, définissez l’option **Affecter des numéros de ligne séquentiels lors de la validation des lignes de facture client** :
+
+- Définissez l’option sur **Non** pour utiliser une numérotation non séquentielle pour les numéros de séquence de création de ligne.
+- Définissez l’option sur **Oui** pour utiliser la numérotation séquentielle. Vous devez définir l’option sur **Oui** pour les personnes morales ayant une adresse principale en Italie. Vous devez également le régler sur **Oui** si le vol **CustInvoiceTransRandLineCreationSeqNumFlight** est désactivé.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Paramètres supplémentaires qui modifient le comportement de validation
 Les champs suivants modifient le comportement du processus de validation.

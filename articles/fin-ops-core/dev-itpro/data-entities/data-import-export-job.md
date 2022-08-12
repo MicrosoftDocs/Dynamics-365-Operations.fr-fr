@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860162"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109460"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -151,7 +151,7 @@ Chaque exécution de tâche fournit les informations suivantes :
 Les détails de l’exécution indiquent l’état de chaque entité de données que la tâche a traitée. Par conséquent, vous pouvez rapidement rechercher les informations suivantes :
 
 - Quelles entités ont été traitées.
-- Pour une entité, le nombre d’enregistrements ayant été correctement traités et le nombre ayant échoué.
+- Pour une entité, le nombre d'enregistrements ayant été correctement traités et le nombre ayant échoué.
 - Les enregistrements intermédiaires pour chaque entité.
 
 Vous pouvez télécharger les données intermédiaires dans un fichier pour les tâches d’exportation, ou vous pouvez les télécharger sous la forme d’un module pour les tâches d’importation et d’exportation.
@@ -209,7 +209,7 @@ Au moment de la planification du processus de nettoyage, les paramètres suivant
 ## <a name="job-history-clean-up-and-archival"></a>Nettoyage et archivage de l’historique des tâches 
 La fonctionnalité de nettoyage et d’archivage de l’historique des tâches remplace les versions précédentes de la fonctionnalité de nettoyage. Cette section explique ces nouvelles fonctionnalités.
 
-L’un des principaux changements apportés à la fonctionnalité de nettoyage est l’utilisation du traitement par lots du système pour nettoyer l’historique. L’utilisation du traitement par lots système permet aux applications Finances et Opérations d’obtenir que le traitement par lots de nettoyage soit automatiquement planifié et exécuté dès que le système est prêt. Il n’est plus nécessaire de planifier manuellement le traitement par lots. Dans ce mode d’exécution par défaut, le traitement par lots s’exécutera toutes les heures à partir de minuit et conservera l’historique d’exécution des 7 jours les plus récents. L’historique purgé est archivé pour une récupération ultérieure. À partir de la version 10.0.20, cette fonctionnalité est toujours activée.
+L’un des principaux changements apportés à la fonctionnalité de nettoyage est l’utilisation du traitement par lots du système pour nettoyer l’historique. L’utilisation du traitement par lots système permet aux applications de finances et d’opérations d’obtenir que le traitement par lots de nettoyage soit automatiquement planifié et exécuté dès que le système est prêt. Il n’est plus nécessaire de planifier manuellement le traitement par lots. Dans ce mode d’exécution par défaut, le traitement par lots s’exécutera toutes les heures à partir de minuit et conservera l’historique d’exécution des 7 jours les plus récents. L’historique purgé est archivé pour une récupération ultérieure. À partir de la version 10.0.20, cette fonctionnalité est toujours activée.
 
 Le deuxième changement dans le processus de nettoyage est l’archivage de l’historique d’exécution purgé. La tâche de nettoyage archivera les enregistrements supprimés dans le stockage d’objets blob que DIXF utilise pour les intégrations régulières. Le fichier archivé sera au format de package DIXF et sera disponible pendant 7 jours dans le blob pendant lequel il pourra être téléchargé. La longévité par défaut de 7 jours pour le fichier archivé peut être modifiée à un maximum de 90 jours dans les paramètres.
 
@@ -235,3 +235,4 @@ Pour télécharger l’historique d’exécution archivé, accédez à l’espac
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

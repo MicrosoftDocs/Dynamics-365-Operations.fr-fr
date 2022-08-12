@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db15c52ddde08bcc9d390c51efc676c20aac0a7e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864395"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067427"
 ---
 # <a name="budgeting-home-page"></a>Page d’accueil de la fonctionnalité de budgétisation
 
@@ -38,7 +38,7 @@ Le cycle de planification des ressources pour une société comporte généralem
 
 Les processus de planification stratégique à long terme et de planification budgétaire annuelle sont pris en charge par un document de plan budgétaire. Les documents de plan budgétaire sont étroitement intégrés avec Microsoft Excel. Les utilisateurs peuvent configurer des scénarios monétaires et quantitatifs illimités, et définir une hiérarchie organisationnelle de budgétisation pour prendre en charge les méthodes de budgétisation du haut-en-bas et de bas-en-haut. Une fois que le budget est établi et approuvé dans l’application, vous devez convertir le plan budgétaire en écriture du registre budgétaire. Les écritures du registre budgétaires fournissent des outils pour tenir à jour le budget et pour conserver la trace des montants grâce à des codes budgétaires. Les écritures du registre budgétaires permettent de réviser les budgets d’origine, effectuer des transferts et reporter des montants budgétaires de l’année précédente. Selon le budget établi, une société peut activer le contrôle budgétaire. Le niveau de contrôle dépend du niveau de la culture organisationnelle et du niveau de maturité de l’organisation. Les organisations qui ont un faible niveau de maturité peuvent laisser le budget « tel quel » et être plus réactives que proactives si un budget ne respecte pas leurs attentes. D’autres organisations peuvent activer les stratégies de contrôle budgétaire qui empêchent les utilisateurs d’acheter si les fonds budgétaires ne sont pas disponibles.
 
-Enfin, les organisations très mûres peuvent créer une culture organisationnelle dans laquelle les employés sont instruits des cibles organisationnelles et les poursuivent via des stratégies telles que « Envisagez une réunion en ligne plutôt qu’un déplacement ». L’application inclut une structure de contrôle budgétaire qui permet à la direction de la société de choisir un contrôle ferme (qui empêche les validations qui excéderaient le budget) ou souple (où les utilisateurs sont prévenus s’ils dépassent les fonds budgétaires disponibles et peuvent décider par eux-mêmes). Enfin, vous pouvez utiliser des prévisions à court terme. Une prévision à court terme est une comparaison régulière du budget avec les chiffres réels et elle sert à définir avec quel succès la société exploite son budget. Une prévision à court terme permet également d’identifier les tendances. Dans Finance and Operations, les prévisions à court terme sont prises en charge via un document de plan budgétaire en tant qu’activités initiales de planification. Les prévisions à court terme peuvent être effectuées parallèlement avec l’organisation du cycle budgétaire à venir.
+Enfin, les organisations très mûres peuvent créer une culture organisationnelle dans laquelle les employés sont instruits des cibles organisationnelles et les poursuivent via des stratégies telles que « Envisagez une réunion en ligne plutôt qu’un déplacement ». L’application inclut une structure de contrôle budgétaire qui permet à la direction de la société de choisir un contrôle ferme (qui empêche les validations qui excéderaient le budget) ou souple (où les utilisateurs sont prévenus s’ils dépassent les fonds budgétaires disponibles et peuvent décider par eux-mêmes). Enfin, vous pouvez utiliser des prévisions à court terme. Une prévision à court terme est une comparaison régulière du budget avec les chiffres réels et elle sert à définir avec quel succès la société exploite son budget. Une prévision à court terme permet également d’identifier les tendances. Dans les applications de finances et d’opérations, les prévisions à court terme sont prises en charge via un document de plan budgétaire en tant qu’activités initiales de planification. Les prévisions à court terme peuvent être effectuées parallèlement avec l’organisation du cycle budgétaire à venir.
 
 -   [Vue d’ensemble du budget](basic-budgeting-overview-configuration.md)
 -   [Vue d’ensemble des contrôles budgétaires](budget-control-overview-configuration.md)
@@ -72,3 +72,4 @@ Par exemple, vous pouvez définir qui effectue la budgétisation, qu’est-ce qu
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Comptabilité intégrée
-description: Cet article décrit l’intégration des données de comptabilité entre Finances et Opérations et d’autres applications Dynamics 365 avec Dataverse.
+description: Cet article décrit l’intégration des données de comptabilité entre les applications de finances et d’opérations et d’autres applications Dynamics 365 avec Dataverse.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5598295a25e31b33cd8b4d7ce3250a982ab4e87
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847187"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112238"
 ---
 # <a name="integrated-ledger"></a>Comptabilité intégrée
 
@@ -28,7 +28,7 @@ Dans une application d’entreprise, les données de comptabilité définissent 
 
 Les données comptables comprennent un ensemble de mappages de tables financières de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-Applications de Finances et Opérations | Applications Customer Engagement     | Description
+Applications de finances et d’opérations | Applications Customer Engagement     | Description
 ---------------------------------|----------------------------------|------------
 [Taux de change CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
 [Plan comptable](mapping-reference.md#121) | msdyn_chartofaccountses |
@@ -45,3 +45,4 @@ Applications de Finances et Opérations | Applications Customer Engagement     |
 [Catégories de compte principal](mapping-reference.md#151) | msdyn_mainaccountcategories |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

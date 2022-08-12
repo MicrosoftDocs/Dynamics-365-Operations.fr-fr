@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906795"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109080"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gérer le cycle de vie de la configuration des états électroniques
 
@@ -73,7 +73,7 @@ Les rôles suivants et les activités liées sont associés au cycle de vie de l
 | Commis au paiement de la comptabilité fournisseur            | Utilisez des artefacts ER dans un processus d’entreprise spécifique.                | Par exemple, un rôle de **Commis au paiement de la comptabilité fournisseur** qui autorise des messages de paiement électronique à générer pour le traitement des factures, selon le format ER configuré pour un mode de paiement spécifique. |
 
 ## <a name="er-configuration-development-lifecycle"></a>Cycle de vie de développement de la configuration ER
-Pour les raisons suivantes associées à ER, nous recommandons que vous conceviez des configurations ER dans l’environnement de développement en tant qu’instance distincte de Finance and Operations :
+Pour les raisons suivantes associées à ER, nous recommandons que vous conceviez des configurations ER dans l’environnement de développement en tant qu’instance distincte de finances et d’opérations :
 
 - Les utilisateurs, qu’ils soient dans des rôles de **Développeur d’états électroniques** ou de **Consultant fonctionnel des états électroniques**, peuvent modifier des configurations et les exécuter à des fins de test. Ce scénario peut provoquer des appels de méthodes de classes et de tables qui sont potentiellement néfastes pour les données commerciales et les performances de l’instance.
 - Les appels de méthodes de classes et de tables en tant que sources de données ER des configurations ER ne sont pas limités par les points d’entrée, ni par le contenu d’entreprise consigné. Par conséquent, les utilisateurs dans les rôles de **Développeur d’états électroniques** ou de **Consultant fonctionnel des états électroniques** peuvent accéder aux données commerciales importantes.
@@ -113,3 +113,4 @@ Dans certains cas, vous pouvez exiger que le système ignore les conditions pré
 [Définir la dépendance des configurations ER sur d’autres composants](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

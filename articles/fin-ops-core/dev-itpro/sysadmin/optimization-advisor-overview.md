@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble du conseiller en optimisation
-description: Cet article décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Finance et Opérations.
+description: Cet article décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de finances et d’opérations.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865859"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109038"
 ---
 # <a name="optimization-advisor-overview"></a>Vue d’ensemble du conseiller en optimisation
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Finance et Opérations.
+Cet article décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de finances et d’opérations.
 
 ## <a name="overview"></a>Présentation
 
@@ -44,7 +44,7 @@ Les stratégies de sécurité standard s’appliquent aux opportunités d’opti
 
 Lorsque vous prenez des mesures sur certaines opportunités d’optimisation, le système calcule l’impact de l’opportunité en termes de réduction sur l’exécution des processus d’entreprise. Malheureusement, cette fonction n’est pas disponible pour toutes les opportunités d’optimisation.
 
-Pour en savoir plus sur le conseiller en optimisation, consultez le vidéo [Conseiller en optimisation dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Pour en savoir plus sur le conseiller en optimisation, consultez la courte vidéo [Conseiller en optimisation dans Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Règles d’optimisation
 
@@ -90,7 +90,7 @@ Pour désactiver l’évaluation de règles spécifiques, sélectionnez l’oppo
 
 [Créer des règles pour le conseiller en optimisation](./create-rules-optimization-advisor.md)
 
-[Conseiller en optimisation dans Dynamics 365 for Finance and Operations (vidéo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Conseiller en optimisation dans Dynamics 365 Finance (Vidéo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

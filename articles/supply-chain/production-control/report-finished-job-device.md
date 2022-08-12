@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857371"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070467"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Déclarer comme terminé à partir du périphérique de bon de travail
 
@@ -50,7 +50,7 @@ Pour plus d’informations sur l’utilisation de la page **Valeurs par défaut 
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Déclarer les articles contrôlés par lot comme terminés
 
-Le périphérique de bon de travail prend en charge trois scénarios pour la déclaration des articles par lot. Ces scénarios s’appliquent à la fois aux articles activés pour les processus d’entrepôt avancés et aux articles qui ne sont pas activés pour les processus d’entrepôt avancés.
+Le périphérique de bon de travail prend en charge trois scénarios pour la déclaration des articles par lot. Ces scénarios s’appliquent à la fois aux articles activés pour les processus de gestion des entrepôts et aux articles qui ne sont pas activés pour les processus d’entrepôt avancés.
 
 - **Numéros de lot attribués manuellement** - Les collaborateurs entrent un numéro de lot personnalisé. Ce numéro de lot peut provenir d’une source externe inconnue du système.
 - **Numéros de lots prédéfinis** - Les collaborateurs sélectionnent un numéro de lot dans une liste de numéros de lot que le système génère automatiquement avant que l’ordre de fabrication ne soit envoyé au périphérique de bon de travail.
@@ -129,7 +129,7 @@ Lorsque vous utilisez ce scénario, le champ **Numéro de lot** fourni par la pa
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Déclarer les articles contrôlés par série comme terminés
 
-Le périphérique de bon de travail prend en charge trois scénarios pour la déclaration des articles contrôlés par série. Ces scénarios s’appliquent à la fois aux articles activés pour les processus d’entrepôt avancés et aux articles qui ne sont pas activés pour les processus d’entrepôt avancés.
+Le périphérique de bon de travail prend en charge trois scénarios pour la déclaration des articles contrôlés par série. Ces scénarios s’appliquent à la fois aux articles activés pour les processus de gestion des entrepôts et aux articles qui ne sont pas activés pour les processus d’entrepôt avancés.
 
 - **Numéros de série attribués manuellement** - Les collaborateurs entrent un numéro de série personnalisé. Ce numéro de série peut provenir d’une source externe inconnue du système.
 - **Numéros de série prédéfinis** - Les collaborateurs sélectionnent un numéro de série dans une liste de numéros de série que le système génère automatiquement avant que l’ordre de fabrication ne soit envoyé au périphérique de bon de travail.
@@ -212,7 +212,7 @@ Lorsque vous utilisez ce scénario, le champ **Numéro de série** fourni par la
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Déclarer comme terminé à un contenant
 
-Les processus d’entrepôt avancés peuvent utiliser la dimension de contenant pour suivre le stocke sur les sites d’entrepôt qui ont été configurés à cet effet. Dans ce cas, le numéro de contenant est requis lorsqu’un collaborateur déclare des quantités comme terminées.
+Les processus de gestion des entrepôts peuvent utiliser la dimension de contenant pour suivre le stocke sur les sites d’entrepôt qui ont été configurés à cet effet. Dans ce cas, le numéro de contenant est requis lorsqu’un collaborateur déclare des quantités comme terminées.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Activer la déclaration et l’impression d’étiquette de contenant
 

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e7d220639f5f3af26e892461928c646746963bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d6d3fdcc0b0387a92f138b0ba7cf537f473b91a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874665"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069561"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Espace de travail mobile Contrôle des coûts
 
@@ -29,7 +29,7 @@ ms.locfileid: "8874665"
 
 Cet article fournit des informations sur l’espace de travail mobile **Contrôle des coûts**. Cet espace de travail permet aux responsables de centre de coût d’afficher des informations sur les performances du centre de coût à tout moment et n’importe où.
 
-Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance et Opérations (Dynamics 365).
+Cet espace de travail mobile est destiné à être utilisé avec l’application mobile de finances et d’opérations (Dynamics 365).
 
 ## <a name="overview"></a>Présentation
 L’espace de travail mobile **Contrôle des coûts** fournit une vue instantanée des performances actuelles des centres de coût en comparant les coûts réels aux coûts budgétés. Vous pouvez accéder au statut des éléments de coût individuels.
@@ -114,7 +114,7 @@ Si la version 1611 avec Platform Update 3 ou version ultérieure a été déplo
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
-Téléchargez et installez l’application mobile Finance et Opérations (Dynamics 365) :
+Téléchargez et installez l’application mobile de finances et d’opérations (Dynamics 365) :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -146,3 +146,4 @@ Téléchargez et installez l’application mobile Finance et Opérations (Dynami
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

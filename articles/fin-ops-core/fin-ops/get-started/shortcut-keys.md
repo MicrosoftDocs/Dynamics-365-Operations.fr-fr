@@ -1,8 +1,8 @@
 ---
 title: Raccourcis clavier
-description: Cet article fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finance et Opérations.
+description: Cet article fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications de finances et d’opérations.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866115"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140437"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -27,7 +27,7 @@ ms.locfileid: "8866115"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Les raccourcis clavier peuvent vous aider rapidement et efficacement à la saisie des données dans les applications Finance et Opérations. 
+Les raccourcis clavier peuvent vous aider rapidement et efficacement à la saisie des données dans les applications de finances et d’opérations. 
 
 > [!NOTE]
 > Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
@@ -197,6 +197,7 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Fermer la liste de navigation dans l’écran de détails (avec le focus sur la liste de navigation) | Échap                        |
 | Effectuer un déplacement vers le contenu de la page principale (avec la vue dans un autre volet)                    | Alt+M,M                    |
 | Effectuer un déplacement vers le volet Récapitulatif (qui peut permettre de l’ouvrir)                       | Alt+M, B ou Ctrl+F2         |
+| Passer à la légende de fonction suivante                                              | Alt+M,C                    |
 
 > [!NOTE]
 > La fonctionnalité **Simplifier le comportement de tabulation dans les formulaires pleine page**, introduite dans la version 10.0.26, permet aux utilisateurs de parcourir toutes les régions d’une page sans avoir besoin de la souris ou d’un raccourci clavier dédié pour se déplacer entre les régions. Vous pouvez toujours utiliser les raccourcis clavier existants (tels que les raccourcis d’accord de touche Alt + M) pour vous déplacer rapidement entre les régions d’une page.
@@ -259,13 +260,14 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Afficher plus/moins d’informations dans l’invite contextuelle animée (lors de la lecture d’un guide de tâche) | Alt + R, M                    |
 
 ## <a name="focus-management"></a>Gestion des focus 
-La gestion du focus décrit comment le focus utilisateur est géré dans une application. Les applications Finance et Opérations ont des comportements de focus spécialisés destinés à optimiser la productivité des utilisateurs, en particulier pour les scénarios de saisie de données. Les comportements de mise au point incluent les éléments suivants :  
+La gestion du focus décrit comment le focus utilisateur est géré dans une application. Les applications de finances et d’opérations ont des comportements de focus spécialisés destinés à optimiser la productivité des utilisateurs, en particulier pour les scénarios de saisie de données. Les comportements de mise au point incluent les éléments suivants :  
 
 -  Lorsqu’une page est chargée, le premier contrôle d’entrée modifiable de la page aura le focus et pourra accepter immédiatement l’entrée de l’utilisateur. S’il n’y a pas de contrôle d’entrée modifiable sur la page, l’option de secours pour le focus initial est le premier contrôle d’entrée sur la page suivi du premier contrôle focusable sur la page.   
--  Généralement, lorsqu’un bouton est sélectionné, l’action est traitée et le focus peut revenir à la page. Lorsque cela se produit, le focus a tendance à revenir au bouton de contrôle qui a été sélectionné. Cela est vrai dans les applications Finance et Opérations **sauf** lorsque le bouton se trouve dans le volet Actions ou sur une barre d’outils. Dans ces cas, lorsque l’action se termine, le focus revient au dernier contrôle *à l’extérieur* du volet Actions (ou de la barre d’outils) qui avait le focus avant que le bouton ne soit sélectionné.
+-  Généralement, lorsqu’un bouton est sélectionné, l’action est traitée et le focus peut revenir à la page. Lorsque cela se produit, le focus a tendance à revenir au bouton de contrôle qui a été sélectionné. Cela est vrai dans les applications de finances et d’opérations **sauf** lorsque le bouton se trouve dans le volet Actions ou sur une barre d’outils. Dans ces cas, lorsque l’action se termine, le focus revient au dernier contrôle *à l’extérieur* du volet Actions (ou de la barre d’outils) qui avait le focus avant que le bouton ne soit sélectionné.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Raccourcis clavier pour l’analyse de compte manquante](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

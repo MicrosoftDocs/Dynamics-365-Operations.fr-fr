@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 04ee25bdf3c8b0d324c6b43769c5ee41fe14315f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ca07e84399a490e632d9c3e5de06776d9eedff34
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882806"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068808"
 ---
 # <a name="asset-management-overview"></a>Vue d’ensemble de la gestion des actifs
 
@@ -27,9 +27,9 @@ ms.locfileid: "8882806"
 
 
 
-Gestion des actifs est un module avancé de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management. Gestion des actifs s’intègre de façon transparente à plusieurs modules dans les applications Finance and Operations. 
+Gestion des actifs est un module avancé de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management. Gestion des actifs s’intègre de façon transparente à plusieurs modules dans les applications de finances et d’opérations. 
 
-L’illustration ci-dessous présente les interfaces avec d’autres modules de Finance and Operations.
+L’illustration ci-dessous présente les interfaces avec d’autres modules de finances et d’opérations.
 
 ![Vue d’ensemble de l’intégration de Gestion des actifs.](media/overview-integrate2.jpg)
 

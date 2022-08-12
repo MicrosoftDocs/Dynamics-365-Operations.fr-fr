@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850436"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067526"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurer les filtres de produit pour les transactions en entrepôt
 
@@ -95,7 +95,7 @@ Pour paramétrer des codes filtre sur des groupes d’articles, procédez comme 
     Par exemple, si les cases **Utiliser le code filtre 1** et **Utiliser le code filtre 2** sont sélectionnées, alors les deux codes filtre 1 et 2 de l’article doivent correspondre au paramétrage du groupe de filtres pour le groupe d’articles avant que le groupe de filtres ne puisse être sélectionné. Lorsque vous créez un article, le groupe de filtres sélectionné est le groupe de filtres par défaut dans les champs **Groupe 1** et **Groupe 2** sur l’organisateur **Entrepôt** de la page **Détails des produits lancés**.
 
 > [!IMPORTANT]
-> Les codes filtre de produit sont activés uniquement pour les articles qui utilisent la gestion avancée de l’entrepôt.
+> Les codes filtre de produit sont activés uniquement pour les articles qui utilisent les processus de gestion des entrepôts.
 
 ## <a name="specify-filter-codes-for-released-products"></a>Spécification de codes filtre pour les produits lancés
 

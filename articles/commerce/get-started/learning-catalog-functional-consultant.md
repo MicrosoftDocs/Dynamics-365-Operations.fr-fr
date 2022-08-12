@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ed6f53d79e273ecc938ee8bd1a8c0990e60bc997
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 654ea18b3cb22bbdfad061f38653f654cef83bdc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883962"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066512"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Catalogue d’apprentissage pour les consultants techniques de Dynamics 365 Commerce
 
@@ -27,7 +27,7 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 Pour les consultants techniques, notre recherche d’analyse de tâche a montré que chacun doit comprendre l’ensemble du contenu de base ainsi qu’un domaine.
 
-Pour une formation sur les fonctionnalités partagées avec d'autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-functional-consultant.md).
+Pour une formation sur les fonctionnalités partagées avec d’autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-functional-consultant.md).
 
 ## <a name="get-started"></a>Prise en main<a name="get-started"></a>
 
@@ -56,3 +56,4 @@ Pour une formation sur les fonctionnalités partagées avec d'autres application
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

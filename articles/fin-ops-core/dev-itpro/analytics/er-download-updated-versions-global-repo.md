@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847544"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108437"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importer des versions mises à jour des configurations de gestion des états électroniques
 
@@ -28,7 +28,7 @@ ms.locfileid: "8847544"
 
 Les [référentiels](general-electronic-reporting.md#Repository) de gestion des états électroniques sont utilisés pour partager des [configurations de gestion des états électroniques](general-electronic-reporting.md#Configuration). Vous pouvez [importer](download-electronic-reporting-configuration-lcs.md) des configurations de gestion des états électroniques depuis différents référentiels vers votre instance de Microsoft Dynamics 365 Finance. Lorsque vous importez des configurations de gestion des états électroniques, les [fournisseurs de configuration](general-electronic-reporting.md#Provider) peuvent publier de nouveaux référentiels de [versions](general-electronic-reporting.md#component-versioning) afin de pouvoir les partager.
 
-Cet article explique comment importer des versions mises à jour des configurations de gestion des états électroniques depuis le référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, service de configuration](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Cet article explique comment importer des versions mises à jour des configurations de gestion des états électroniques depuis le référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 Finance – Regulatory Services, service de configuration](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Consulter les versions mises à jour disponibles
 

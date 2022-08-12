@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722239"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178441"
 ---
 # <a name="update-process"></a>Processus de mise à jour
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**S’applique à :** Human Resources dans l’infrastructure autonome_ 
 
+> [!NOTE]
+> À partir de juillet 2022, les nouveaux environnements de Human Resources ne peuvent plus être approvisionnés sur l’infrastructure autonome de Human Resources, et les nouveaux projets Microsoft Dynamics Lifecycle Services (LCS) ne peuvent pas y être créés. Les clients peuvent déployer des environnements Human Resources sur l’infrastructure des applications de finances et d’opérations. Pour en savoir plus, voir [Mettre en service Human Resources dans l’infrastructure des applications de finances et d’opérations](/hr-admin-setup-provision-fo.md).
 
+> [!IMPORTANT]
+> Le processus de mise à jour et de correctif sur l’infrastructure de l’application de finances et d’opérations diffère du processus de mise à jour et de correctif autonome de Human Resources. Pour plus d’informations sur la mise à niveau vers le processus de mise à jour, voir [Processus de mise à niveau vers la dernière mise à jour des applications de finances et d’opérations](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Pour plus d’informations sur les correctifs, consultez [Téléchargement de mises à jour depuis Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
 
 Microsoft Dynamics 365 Human Resources est un véritable logiciel en tant que service (SaaS) qui fournit des mises à jour de service continues et sans contact. Ces mises à jour contiennent à la fois des changements d’application et de plate-forme qui fournissent souvent des améliorations essentielles au service, y compris des mises à jour réglementaires.
 
@@ -37,16 +41,14 @@ Les mises à jour sont publiées régulièrement pour tous les environnements. H
 
 Les mises à jour de Human Resources sont appliquées à tous les environnements automatiquement. Human Resources propose deux types de versions :
 
-- **Mises à jour de service** : les mises à jour surviennent toutes les deux semaines ; elles incluent des corrections de bugs et de nouvelles fonctionnalités. Les mises à jour de service incluent également les mises à jour de plateforme applicables lors de leur publication. Pour plus d'informations sur les mises à jour de plateformes, voir [Nouveautés ou changements dans les mises à jour de plateformes](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Les mises à jour bihebdomadaires ont un déploiement mondial par étapes dans les régions. Pour plus d’informations sur les mises à jour bihebdomadaires, voir [Nouveautés ou changements dans Dynamics 365 Human Resources](hr-admin-whats-new.md).
-
-    Tous les centres de données pris en charge sont mis à jour toutes les deux semaines, sauf indication contraire. Les régions américaines, australiennes, européennes, britanniques, asiatiques et canadiennes sont incluses dans les mises à jour bihebdomadaires. 
+- **Mises à jour de service** : les mises à jour surviennent toutes les deux semaines ; elles incluent des corrections de bugs et de nouvelles fonctionnalités. Les mises à jour de service incluent également les mises à jour de plateforme applicables lors de leur publication. Pour plus d'informations sur les mises à jour de plateformes, voir [Nouveautés ou changements dans les mises à jour de plateformes](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Les mises à jour ont un déploiement mondial par étapes dans les régions. Pour plus d’informations sur les mises à jour, voir [Nouveautés ou changements dans Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Mises à jour de la solution Dataverse** : ces mises à jour ont lieu environ toutes les six semaines, selon les besoins. Elles incluent les nouvelles entités et les modifications apportées aux entités existantes dans Dataverse. Ces mises à jour sont publiées dans les mêmes régions que les mises à jour bihebdomadaires et leur réplication dans tous les centres de données prend environ six semaines. Les mises à jour de la solution peuvent ou non correspondre aux mises à jour bihebdomadaires du service.
 
 > [!NOTE]
 > Les mises à jour de la solution sont disponibles sur tous les centres de données une fois publiées. Si vous ne souhaitez pas attendre la réplication automatique des mises à jour, vous pouvez appliquer manuellement ces mises à jour sur n’importe quel environnement dans n’importe quel centre de données.
 
-Au besoin, Human Resources fournit également les types de correctifs suivants :
+Au besoin, Human Resources fournit les types de correctifs suivants :
 
 - **Révision (correctif)**  : corrections de bogues pouvant survenir avec ou en dehors d’une mise à jour bihebdomadaire du service
 
@@ -83,11 +85,11 @@ Vous pouvez découvrir ce qui est en cours de développement pour Human Resource
 
 Vous pouvez valider les fonctionnalités d’aperçu dans un environnement de bac à sable avant de les activer dans votre environnement de production. Pour plus d’informations sur l’activation des fonctionnalités, voir [Présentation de la gestion des fonctionnalités](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Toutes les nouvelles fonctionnalités restent dans la version préliminaire pendant au moins 30 jours, et généralement entre 30 et 60 jours. Les fonctionnalités principales sont généralement disponibles en octobre et en avril chaque année suivant la période de version préliminaire. Dès que vous voyez de nouvelles fonctionnalités dans l’espace de travail Gestion des fonctions, vous pouvez les activer. Certaines fonctionnalités peuvent être activées par défaut.
+Toutes les nouvelles fonctionnalités restent dans la version préliminaire pendant au moins 30 jours, et généralement entre 30 et 60 jours. Les fonctionnalités principales sont généralement disponibles en octobre et en avril chaque année suivant la période de version préliminaire. Dès que vous voyez de nouvelles fonctionnalités dans l'espace de travail **Gestion des fonctions**, vous pouvez les activer. Certaines fonctionnalités peuvent être activées par défaut.
 
 Parfois, une fonctionnalité intégrale sera activée par défaut et ne pourra pas être désactivée (par exemple, l’espace de travail Gestion des fonctions).
 
-Une fois qu’une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L’espace de travail Gestion des fonctions indique quand une fonction d’aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s’aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu’elle n’est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.
+Une fois qu’une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L’espace de travail **Gestion des fonctions** indique quand une fonction d’aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s’aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu’elle n’est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.
 
 Nous vous recommandons vivement de prévisualiser les fonctionnalités dans un environnement de bac à sable ou de test. Il est préférable de créer une copie de votre environnement de production ou de base de données actuel dans un environnement de bac à sable afin que vous puissiez profiter pleinement des nouvelles fonctionnalités avec vos données.
 

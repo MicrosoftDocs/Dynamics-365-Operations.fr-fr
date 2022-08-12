@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869979"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203107"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Prise en charge de la fonction de taxe pour les ordres de transfert
 
@@ -111,7 +111,10 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
 6. Définissez l’applicabilité du groupe de taxes d’article.
 
     1. Sélectionnez **Gérer les colonnes**, puis sélectionnez les colonnes à utiliser pour créer le tableau d’applicabilité.
-    2. Ajoutez des règles d’applicabilité. Ne laissez pas le champ **Groupe de taxes d’article** vide.
+    2. Ajoutez des règles d’applicabilité.
+        
+       > [!NOTE]
+       > Si le groupe de taxe de vente de l’article par défaut sur vos lignes de document imposables est déjà correct, laissez cette matrice vide. 
         
         Ajoutez une nouvelle règle pour l’expédition des ordres de transfert et reçus.
         1. Dans la table **Règles d’applicabilité**, sélectionnez **Ajouter**.

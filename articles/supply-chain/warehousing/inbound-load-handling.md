@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855930"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070317"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
@@ -56,7 +56,7 @@ L’illustration suivante présente le flux classique de gestion des chargements
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Enregistrer les quantités d’articles sur un chargement entrant
 
-Microsoft Dynamics 365 Supply Chain Management prend en charge plusieurs approches opérationnelles pour l’enregistrement de l’arrivée des produits commandés. Par conséquent, vous pouvez configurer le système pour qu’il corresponde aux besoins spécifiques de votre entreprise. Cette section décrit comment enregistrer les quantités d’articles entrants via un appareil mobile lorsque la gestion avancée des entrepôts est activée dans le système. Vous pouvez néanmoins avoir recours à un autre flux basé sur l’utilisation du journal d’arrivée des articles plutôt que d’un appareil mobile. Pour en savoir plus sur ce flux, voir [Enregistrer des articles pour un article activé pour l’entreposage avancé à l’aide d’un journal des arrivées d’articles](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management prend en charge plusieurs approches opérationnelles pour l’enregistrement de l’arrivée des produits commandés. Par conséquent, vous pouvez configurer le système pour qu’il corresponde aux besoins spécifiques de votre entreprise. Cette section décrit comment enregistrer les quantités d’articles entrants via un appareil mobile lorsque les processus de gestion des entrepôts est activée dans le système. Vous pouvez néanmoins avoir recours à un autre flux basé sur l’utilisation du journal d’arrivée des articles plutôt que d’un appareil mobile. Pour en savoir plus sur ce flux, voir [Enregistrer des articles pour un article activé pour les processus de gestion des entrepôts à l’aide d’un journal des arrivées d’articles](tasks/register-items-advanced-warehousing.md).
 
 Lorsqu’un chargement entrant arrive pour la première fois dans l’entrepôt, les collaborateurs de l’entrepôt doivent enregistrer les quantités d’articles incluses dans l’expédition. En règle générale, ils utilisent des scanners portables. Ce flux de travail n’est disponible que si les éléments suivants sont présents dans le système :
 

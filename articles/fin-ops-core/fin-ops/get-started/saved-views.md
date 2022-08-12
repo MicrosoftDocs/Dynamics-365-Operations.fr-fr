@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845411"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125148"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -215,7 +215,7 @@ Pour obtenir une liste des problèmes connus liés aux vues enregistrées, voir 
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Comment activer des vues enregistrées dans mon environnement ?
 
 > [!NOTE]
-> La fonctionnalité **Vues enregistrées** nécessite l’activation du système de personnalisation dans Finances et Opérations. Si la personnalisation est désactivée pour tout l’environnement, les vues sont désactivées même si vous suivez la procédure ci-dessous. 
+> La fonctionnalité **Vues enregistrées** nécessite l’activation du système de personnalisation dans les applications de finances et d’opérations. Si la personnalisation est désactivée pour tout l’environnement, les vues sont désactivées même si vous suivez la procédure ci-dessous. 
 
 Vous pouvez activer et désactiver la fonctionnalité **Vues enregistrées** par le biais de la gestion des fonctionnalités dans n’importe quel environnement. Une fois la fonctionnalité activée, les vues enregistrées seront activées dans toutes les sessions utilisateur suivantes.
 
@@ -255,3 +255,4 @@ Si vous publiez une vue sur une entité juridique spécifique, mais que vous ne 
 - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n’affiche que la vue pour les entités juridiques spécifiées. Ce comportement se produit car la fonctionnalité permet aux vues (y compris les vues personnelles) d’être liées à des entités juridiques spécifiques.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

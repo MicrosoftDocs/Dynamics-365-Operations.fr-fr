@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716969"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065706"
 ---
 # <a name="establish-customer-payment-terms"></a>Établir les conditions de paiement client
 
@@ -35,11 +35,11 @@ Cette procédure définit un escompte de règlement et une date d’échéance. 
 7. Cliquez sur **Enregistrer**.
 8. Fermez la page.
 9. Accédez à **Volet de navigation > Modules > Comptabilité client > Paramétrage des paiements > Conditions de paiement**.
-10. Cliquez sur **Nouveau**. Les conditions de paiement sont utilisées pour définir la manière dont les dates d’échéance sont calculées. Le paramétrage de date d’escompte de règlement est défini dans une page indépendante. 
+10. Cliquez sur **Nouveau**. Les **conditions de paiement** sont utilisées pour définir la manière dont les dates d’échéance sont calculées. Le paramétrage de date d’escompte de règlement est défini dans une page indépendante. 
 11. Entrez un ID dans le champ **Conditions de paiement**.
 12. Entrez une description dans le champ **Description**.
-13. Sélectionnez un **Mode de paiement** comme Contre remboursement, Net, Mois en cours, etc. Le mode de paiement est utilisé pour définir le début de la manière dont le solde sera calculé. Par exemple, Net est utilisé si la date d’échéance est toujours un nombre de mois ou de jours définis après la date de facture. Contre remboursement peut être utilisé lorsque le paiement est requis à la facturation, une date d’échéance n’est donc pas calculée. Sélectionnez Mois en cours pour ce guide de tâche.  
-14. Sélectionnez un **Jour de paiement** si un jour de la semaine spécifique ou la date sont inclus dans le calcul. Selon vos conditions de paiement, vous pouvez entrer une quantité dans Mois ou Jours. Ou vous pouvez choisir d’ajouter **Échéancier de paiement** ou **Jour de paiement** à la fin du mode de paiement. Si la date d’échéance est toujours le 10 du mois suivant, sélectionnez 10 comme **Jour de paiement**. 
+13. Sélectionnez un **Mode de paiement** comme **Contre remboursement**, **Net**, **Mois en cours**, etc. Le **mode de paiement** est utilisé pour définir le début de la manière dont le solde sera calculé. Par exemple, **Net** est utilisé si la date d’échéance est toujours un nombre de mois ou de jours définis après la date de facture. **Contre remboursement** peut être utilisé lorsque le paiement est requis à la facturation, une date d’échéance n’est donc pas calculée. Sélectionnez **Mois en cours** pour ce guide de tâche.  
+14. Sélectionnez un **Jour de paiement** si un jour de la semaine spécifique ou la date sont inclus dans le calcul. Selon vos conditions de paiement, vous pouvez entrer une quantité dans Mois ou Jours. Ou vous pouvez choisir d’ajouter **Échéancier de paiement** ou **Jour de paiement** à la fin du **mode de paiement**. Si la date d’échéance est toujours le 10 du mois suivant, sélectionnez 10 comme **Jour de paiement**. Si vous utilisez un **Calendrier de paiement**, vous pouvez définir comment la date d’échéance est déterminée lorsque la date calculée tombe sur un jour chômé. La date d’échéance initiale est calculée en jours calendaires. Si la date calculée tombe sur un jour chômé, vous pouvez ajuster la date d’échéance calculée à la prochaine date ouvrable ou au premier jour ouvrable.
 15. Cliquez sur **Enregistrer**.
 16. Fermez la page.
 17. Accédez à **Comptabilité client > Paramétrage des paiements > Escomptes de règlement**.
@@ -50,7 +50,7 @@ Cette procédure définit un escompte de règlement et une date d’échéance. 
 22. Dans le champ **Jours**, saisissez le nombre de jours utilisés pour calculer la date d’escompte de règlement. Si le principe **Net** est sélectionné, le nombre de jours est ajouté à la date de facturation pour calculer la date d’escompte de règlement.  
 23. Dans le champ **Pourcentage de l’escompte**, saisissez le pourcentage de l’escompte de règlement.
 24. Dans **Compte principal pour les remises client**, entrez le compte principal dans lequel l’escompte de règlement validera les factures client.
-25. Sélectionnez une option dans le champ **Comptes de contrepartie pour les remises**. Si vous sélectionnez « Comptes sur les lignes de facture », l’escompte de règlement va valider sur le même compte principal de dépense/d’actif sur les lignes de la facture fournisseur. Si vous sélectionnez « Utiliser le compte principal pour les factures fournisseur », l’escompte de règlement va valider sur le même compte principal que celui défini dans Compte principal pour les factures fournisseur. Pour cet exemple, sélectionnez « Utiliser le compte principal pour les factures fournisseur ». 
+25. Sélectionnez une option dans le champ **Comptes de contrepartie pour les remises**. Si vous sélectionnez « Comptes sur les lignes de facture », l’escompte de règlement va valider sur le même compte principal de dépense/d’actif sur les lignes de la facture fournisseur. Si vous sélectionnez **Utiliser le compte principal pour les factures fournisseur**, l’escompte de règlement va valider sur le même compte principal que celui défini dans **Compte principal pour les factures fournisseur**. Pour cet exemple, sélectionnez **Utiliser le compte principal pour les factures fournisseur**. 
 26. Dans **Compte principal pour les remises fournisseur**, entrez le compte principal dans lequel l’escompte de règlement validera les factures fournisseur.
 27. Cliquez sur **Enregistrer**.
 

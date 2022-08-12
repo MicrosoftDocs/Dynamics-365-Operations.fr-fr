@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670438"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135567"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO avec valeur physique et marquage
 
@@ -128,7 +128,7 @@ La figure suivante illustre ces transactions :
 - 6a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 23,00 EUR (prix de revient moyen en vigueur des transactions validées financièrement)
 - 7\. La clôture du stock est effectuée. Selon le principe de marquage qui utilise la méthode LIFO, les transactions marquées sont réglées les unes par rapport aux autres. Dans cet exemple, 3b est réglé sur 2b, et un ajustement pour 6,00 EUR est posté sur 3b pour ramener la valeur à 22,00 EUR. Dans cet exemple, aucun règlement supplémentaire n’est effectué, car la clôture crée des règlements uniquement pour les transactions financièrement mises à jour.
 
-Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 27,50 EUR.
+Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 17,50 EUR.
 
 Les illustrations suivantes montrent les effets du modèle de stock LIFO sur cette série de transactions quand le marquage entre les sorties et les réceptions est utilisé.
 

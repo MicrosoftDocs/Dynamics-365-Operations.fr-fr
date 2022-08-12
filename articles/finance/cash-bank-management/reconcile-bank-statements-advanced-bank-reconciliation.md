@@ -1,7 +1,7 @@
 ---
 title: Rapprochement de relevés bancaires à l’aide du rapprochement bancaire avancé
 description: La fonctionnalité de rapprochement bancaire avancé permet d’importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cet article explique le processus de rapprochement.
-author: moaamer
+author: angelad116
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
-ms.author: moaamer
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5b229821fc1ca1caa55b733af293aaef65a171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859862"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151342"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Rapprochement de relevés bancaires à l’aide du rapprochement bancaire avancé
 

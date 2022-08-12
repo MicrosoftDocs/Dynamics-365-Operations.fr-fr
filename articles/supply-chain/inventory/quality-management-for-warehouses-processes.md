@@ -1,6 +1,6 @@
 ---
 title: Gestion de la qualité pour les processus d’entrepôt
-description: Cet article fournit des informations sur la gestion de la qualité pour les processus d’entrepôt. Cette fonctionnalité étend les capacités de gestion de la qualité et permet aux utilisateurs d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée.
+description: Cet article fournit des informations sur la gestion de la qualité pour les processus d’entrepôt. Cette fonctionnalité étend les capacités de gestion de la qualité et permet aux utilisateurs d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant les processus de gestion des entrepôts.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857835"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069240"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestion de la qualité pour les processus d’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ vous permet d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée. Le travail en entrepôt peut être généré automatiquement pour déplacer le stock vers le lieu de contrôle de la qualité, en fonction d’un pourcentage ou d’une quantité fixe, ou en fonction de chaque *n* e contenant. Une fois un ordre de qualité terminé, le travail peut être généré automatiquement pour déplacer le stock vers le prochain emplacement du processus, en fonction des résultats de qualité.
+La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ vous permet d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant les processus de gestion des entrepôts. Le travail en entrepôt peut être généré automatiquement pour déplacer le stock vers le lieu de contrôle de la qualité, en fonction d’un pourcentage ou d’une quantité fixe, ou en fonction de chaque *n* e contenant. Une fois un ordre de qualité terminé, le travail peut être généré automatiquement pour déplacer le stock vers le prochain emplacement du processus, en fonction des résultats de qualité.
 
 La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ étend les capacités de la fonctionnalité de base de la gestion de la qualité. Elle offre la possibilité de créer des ordres de qualité pour le stock qui est envoyé au site de contrôle de la qualité, bien que les ordres de qualité ne soient pas toujours requis. Par conséquent, elle permet un processus de contrôle de la qualité léger basé sur le travail en entrepôt.
 
@@ -97,7 +97,7 @@ Chaque [enregistrement d’association de qualité](enable-quality-management.md
     - **Tous** – Désactivez la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_. Sélectionnez cette valeur pour tous les types de référence sauf *Achat* et *Production*.
 
 > [!NOTE]
-> La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ ne prend effet que si l’élément sur la ligne de document source utilise des processus avancés de gestion d’entrepôt et si l’option **Activer l’ordre de qualité pour les processus d’entrepôt** est définie sur _Oui_ pour l’entrepôt sur la ligne du document source.
+> La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ ne prend effet que si l’élément sur la ligne de document source utilise des processus de gestion des entrepôts et si l’option **Activer l’ordre de qualité pour les processus d’entrepôt** est définie sur _Oui_ pour l’entrepôt sur la ligne du document source.
 
 Lorsque chaque article est enregistré (ou signalé comme terminé), le système détermine les associations de qualité qui lui sont applicables.
 

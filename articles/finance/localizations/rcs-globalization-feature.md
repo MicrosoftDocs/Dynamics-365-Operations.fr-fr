@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4981d72d76d6f865b919e90994a0ce1b0bcba494
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888892"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066105"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) – Fonctions de globalisation
 
@@ -40,7 +40,7 @@ Avant de terminer les procédures, vous devez effectuer les étapes liées aux t
 - Accéder à une instance RCS.
 - Créer et activer un fournisseur de configuration. Pour plus d’informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Dans votre instance d’application Finances et Opérations, procédez comme suit.
+Dans votre instance d’application de finances et d’opérations, procédez comme suit.
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **Gestion des états électroniques**.
 2. Si vous n’avez pas d’environnement RCS configuré dans votre société, sélectionnez **Regulatory services – Configuration** et suivez les instructions pour en mettre un en service.

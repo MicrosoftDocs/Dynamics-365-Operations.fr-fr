@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876122"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135841"
 ---
 # <a name="posting-profiles-overview"></a>Présentation des profils de validation
 
@@ -111,13 +111,14 @@ De nombreux modules de Dynamics 365 Finance, Dynamics 365 Supply Chain Managemen
 - Validation de la gestion des dépenses (à venir)
 - [Profil de validation d’immobilisation](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Validation de la comptabilité intersociétés (à venir)
-- Profil de validation de stock (à venir)
+- [Validation de stock](inventory-posting.md)
 - [Validation de coût au débarquement](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Vue d’ensemble des définitions de validation](posting-definitions.md)
-- Validation du contrôle de production (à venir)
+- [Validation de la production](production-posting.md)
 - Validation de la Gestion de projets et comptabilité (à venir)
 - Validation de la gestion des services (à venir)
 - Validation des taxes (à venir)
 - Validation du pointage (à venir)
 - Validation de la gestion des transports (à venir)
 - Profils de validation de la gestion des remises (à venir)
+

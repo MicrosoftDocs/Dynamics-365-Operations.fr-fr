@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879277"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067614"
 ---
 # <a name="integration-with-finance-faq"></a>Intégration avec Finance
 
@@ -88,7 +88,7 @@ Aucune configuration spéciale n’est requise pour le traitement des exceptions
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Puis-je définir une intégration bi-directionnelle ?
 
-Non, l’intégration est actuellement unidirectionnelle (Ressources humaines vers Finances et Opérations). Un modèle par défaut est disponible pour envoyer les données depuis Human Resources vers Finance.
+Non, l’intégration est actuellement unidirectionnelle (Human Resources vers finances et opérations). Un modèle par défaut est disponible pour envoyer les données depuis Human Resources vers Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Puis-je autoriser la suppression d’enregistrements dans le cadre de mon intégration ?
 
@@ -118,7 +118,7 @@ Parmi les causes de cette erreur peuvent figurer :
 
 - Le transfert des données a généré une extraction des doublons au niveau des enregistrements à la source (Dataverse).
 
-- Le transfert des données a des valeurs nulles pour les champs requis dans Finances et Opérations. Vérifiez les données qui se trouvent dans Dataverse et qui répondent aux exigences de Finances et Opérations.
+- Le transfert des données a des valeurs nulles pour les champs requis dans les applications de finances et d’opérations. Vérifiez les données qui se trouvent dans Dataverse et qui répondent aux exigences de Finances et Opérations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>S’il existe des erreurs d’exécution et si l’ID d’employé ne s’est pas synchronisé, comment trouver la tâche de l’historique qui affiche l’enregistrement d’employé échoué ?
 
@@ -150,7 +150,7 @@ Si l’entité est prise en charge et si les données sont disponibles dans Data
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Les adresses pour mes employés sont incorrectes après leur importation dans Finance. Que dois-je faire ?
 
-La souche de numéros pour **ID emplacement** utilise le même modèle dans Human Resources et Finance. La souche de numéros doit être unique des deux côtés afin qu’il n’y ait pas de conflit d’adresses lors de l’intégration des données de Dataverse vers Finances et Opérations.
+La souche de numéros pour **ID emplacement** utilise le même modèle dans Human Resources et Finance. La souche de numéros doit être unique des deux côtés afin qu’il n’y ait pas de conflit d’adresses lors de l’intégration des données de Dataverse vers les applications de finances et d’opérations.
 
 Pendant la mise en place de Human Resources, vérifiez que les souches de numéros ne sont pas identiques dans Human Resources et Finances et Opérations. Vérifiez que toutes les souches de numéros ne sont pas identiques lorsque les données doivent être conservées dans les deux systèmes.
 
@@ -184,3 +184,4 @@ Actualisez les entités des données dans Finance en accédant à **Gestion des 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

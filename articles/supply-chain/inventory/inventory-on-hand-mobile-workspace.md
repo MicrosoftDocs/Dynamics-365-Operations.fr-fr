@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 640a45e29627ffe56535c7d05419309688e8ecb6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859428"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069814"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Stock disponible dans l’espace de travail mobile
 
@@ -29,7 +29,7 @@ ms.locfileid: "8859428"
 
 Cet article fournit des informations sur l’espace de travail mobile **Stock disponible**. Cet espace de travail vous permet d’acquérir des connaissances sur les stocks réservés et disponibles à tout moment et n’importe où.
 
-Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance et Opérations (Dynamics 365).
+Cet espace de travail mobile est destiné à être utilisé avec l’application mobile de finances et d’opérations (Dynamics 365).
 
 ## <a name="overview"></a>Présentation
 Généralement, les sociétés ont plusieurs expéditions et plusieurs réceptions de stock chaque jour. Ces mouvements modifient constamment le statut du stock disponible. L’espace de travail **Stock disponible** vous permet de voir l’état du stock en ligne afin d’obtenir les dernières informations sur les données de stock sur votre appareil mobile. Que vous travailliez dans l’entrepôt, les achats, les ventes, la fabrication ou la gestion, ou que vous ayez d’autres rôles, vous pouvez accéder aux données de stock en temps réel à tout moment et n’importe où. 
@@ -94,7 +94,7 @@ Si Platform Update 3 ou version ultérieure a été déployée pour votre organi
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Téléchargez et installez l’application mobile Finance et Opérations (Dynamics 365) :
+Téléchargez et installez l’application mobile de finances et d’opérations (Dynamics 365) :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -131,3 +131,4 @@ Téléchargez et installez l’application mobile Finance et Opérations (Dynami
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

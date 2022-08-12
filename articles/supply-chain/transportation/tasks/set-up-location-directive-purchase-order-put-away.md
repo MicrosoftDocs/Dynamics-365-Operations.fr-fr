@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25484efd7be026bfc3a209fb52822b87d6b76cc2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873490"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065492"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Paramétrer une instruction d’emplacement pour le rangement des commandes fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cet article décrit comment paramétrer une simple instruction d’emplacement. L’exemple qui est indiqué crée une instruction d’emplacement à utiliser pour déterminer où mettre les articles reçus pour une commande fournisseur. Vous pouvez lire ce guide des tâches avec les données mentionnées en utilisant la société USMF de données de démonstration. Conditions préalables : vous devez créer un code disposition. Dans cette procédure nous utilisons un code disposition appelé Relabel. Si vous créez une instruction d’emplacement dans vos propres données, vous devez avoir configuré la gestion des entrepôts avancée pour votre entrepôt et vos articles. Cette procédure est destinée au gestionnaire d’entrepôts.
+Cet article décrit comment paramétrer une simple instruction d’emplacement. L’exemple qui est indiqué crée une instruction d’emplacement à utiliser pour déterminer où mettre les articles reçus pour une commande fournisseur. Vous pouvez lire ce guide des tâches avec les données mentionnées en utilisant la société USMF de données de démonstration. Conditions préalables : vous devez créer un code disposition. Dans cette procédure nous utilisons un code disposition appelé Relabel. Si vous créez une instruction d’emplacement dans vos propres données, vous devez avoir configuré les processus de gestion des entrepôts pour votre entrepôt et vos articles. Cette procédure est destinée au gestionnaire d’entrepôts.
 
 1. Dans le volet de navigation, accédez à **Modules > Gestion des entrepôts > Paramétrage > Entrepôt > Instructions d’emplacement**.
 2. Dans le champ **Type d’ordre de travail**, sélectionnez **Commandes fournisseurs**.

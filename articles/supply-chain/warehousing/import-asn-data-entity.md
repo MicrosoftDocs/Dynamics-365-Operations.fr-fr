@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66ed258ebddaadb5a306f41dea3e439e9b5a7be3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907114"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065861"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importer les APE entrants via l’entité de données V3
 
@@ -29,7 +29,7 @@ Les ASN peuvent aider les employés d’entrepôt à savoir ce qui arrive et qua
 Cet article présente une collection de scénarios qui montrent, à travers des exemples, comment utiliser les fichiers ASN.
 
 > [!IMPORTANT]
-> L’importation des *ASN entrants* ne s’applique qu’aux articles activés pour la gestion avancée des entrepôts (WMS). Avant de recevoir un ASN, une commande client doit être enregistrée dans le système par rapport au fournisseur qui envoie cet ASN.
+> L’importation des *ASN entrants* ne s’applique qu’aux articles activés pour les processus de gestion des entrepôts (WMS). Avant de recevoir un ASN, une commande client doit être enregistrée dans le système par rapport au fournisseur qui envoie cet ASN.
 
 ## <a name="inbound-asn-v3-entity"></a>Entité ASN entrant V3
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863677"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070287"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking planifié
 
@@ -118,7 +118,7 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
     - **Source d’approvisionnement :** *Commande fournisseur*
 
 > [!NOTE]
-> Vous pouvez paramétrer une requête pour contrôler le moment où un modèle spécifique de cross-docking est utilisé. La requête pour les modèles de cross-docking n’a que la table *InventTable* (articles) et la table de type jointure interne *WHSInventTable* (articles WHS). Si vous souhaitez ajouter d’autres tables à la requête, vous pouvez les joindre en utilisant uniquement *jointures existantes* ou *aucune jointure*. Lorsque vous filtrez sur les tables jointes, un enregistrement de la table principale est récupéré pour chaque enregistrement correspondant dans la table jointe. Si le type de jointure est *jointure existante*, la recherche se termine une fois la première correspondance trouvée. Par exemple, si vous joignez la table des lignes de commande client à la table des articles, le système valide et renvoie les articles pour lesquels au moins une ligne de commande client a la condition définie. Essentiellement, les données sont extraites de la table parent (articles) et non de la table enfant (ligne de commande client). Par conséquent, le filtrage par documents source tels que les lignes de commande client ou les clients ne peut pas être effectué directement.
+> Vous pouvez paramétrer une requête pour contrôler le moment où un modèle spécifique de cross-docking est utilisé. La requête pour les modèles de cross-docking n’a que la table *InventTable* (articles) et la table de type jointure interne *WHSInventTable* (articles WMS). Si vous souhaitez ajouter d’autres tables à la requête, vous pouvez les joindre en utilisant uniquement *jointures existantes* ou *aucune jointure*. Lorsque vous filtrez sur les tables jointes, un enregistrement de la table principale est récupéré pour chaque enregistrement correspondant dans la table jointe. Si le type de jointure est *jointure existante*, la recherche se termine une fois la première correspondance trouvée. Par exemple, si vous joignez la table des lignes de commande client à la table des articles, le système valide et renvoie les articles pour lesquels au moins une ligne de commande client a la condition définie. Essentiellement, les données sont extraites de la table parent (articles) et non de la table enfant (ligne de commande client). Par conséquent, le filtrage par documents source tels que les lignes de commande client ou les clients ne peut pas être effectué directement.
 
 ### <a name="create-a-work-class"></a>Créer une classe de travail
 

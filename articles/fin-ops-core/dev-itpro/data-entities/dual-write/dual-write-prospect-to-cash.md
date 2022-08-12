@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860107"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112110"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -111,7 +111,7 @@ Les factures sont créées dans Supply Chain Management et synchronisées vers S
 
 Prospect en disponibilité comprend un ensemble de mappages de tables de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-| applications de finances et d’opérations | Applications Customer Engagement | Description |
+| Applications de finances et d'opérations | Applications Customer Engagement | Description |
 |-----------------------------|-----------------------------------|-------------|
 [Tous les produits](mapping-reference.md#138) | msdyn_globalproducts | |
 [Clients V3](mapping-reference.md#101) | comptes | |
@@ -135,3 +135,4 @@ Pour plus d’informations sur les tarifs, voir [Expérience produit uniformisé
 - Les dimensions financières doivent être définies pour les données principales, par exemple, client et fournisseur. Lorsqu’un client est ajouté à une offre ou à une commande client, les dimensions financières associées à l’enregistrement client sont automatiquement transmises à la commande. Actuellement, la double écriture n’inclut pas les données de dimensions financières pour les données principales.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

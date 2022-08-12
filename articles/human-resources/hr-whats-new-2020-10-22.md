@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b183ea08a2decc2696ca3bc3997b5cf7f04652d4
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862799"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068059"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 22 octobre 2020
 
@@ -41,7 +41,7 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 
 | Fonctionnalité | Programme de lancement | Documentation |
 | --- | --- | --- |
-| Platform update 10.0.14(38) | -- | [Mises à jour de plateforme pour les applications Finances et Opérations, version 10.0.14 (novembre 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
+| Platform update 10.0.14(38) | -- | [Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.14 (novembre 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
 | Améliorations de l’expérience des workflows de gestion de l’organisation et du personnel | [Améliorations de l’expérience de workflow de gestion de l’organisation et du personnel](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Option de configuration pour positionner la liste des éléments de travail qui me sont affectés](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 

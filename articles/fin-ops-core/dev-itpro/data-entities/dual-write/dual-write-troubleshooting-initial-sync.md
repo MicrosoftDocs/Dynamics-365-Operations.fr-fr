@@ -2,19 +2,19 @@
 title: Résoudre les problèmes lors de la synchronisation initiale
 description: Cet article fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes susceptibles de survenir pendant la synchronisation initiale.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 06/24/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8fb27a6af2962be31288a3d2260110e5fe6a201
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892355"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112080"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Résoudre les problèmes lors de la synchronisation initiale
 
@@ -22,7 +22,7 @@ ms.locfileid: "8892355"
 
 
 
-Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes susceptibles de survenir pendant la synchronisation initiale.
+Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications de finances et d’opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes susceptibles de survenir pendant la synchronisation initiale.
 
 > [!IMPORTANT]
 > Certains des problèmes abordés dans cet article peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
@@ -104,7 +104,7 @@ Si des ligne de la table fournisseur ont des valeurs dans les colonnes **Primary
 
 1. Dans l’application de finances et d’opérations, supprimez les colonnes **PrimaryContactPersonId** et **InvoiceVendorAccountNumber** du mappage et enregistrez le mappage.
 
-    1. Dans la page de mappage en double écriture pour **Fournisseurs V2 (fournisseurs\_msdyn)**, dans l’onglet **Mappages de tables** dans le filtre, sélectionnez **Finances et Opérations apps.Vendors V2**. Dans le filtre de droite, sélectionnez **Ventes.Fournisseur**.
+    1. Dans la page de mappage en double écriture pour **Fournisseurs V2 (fournisseurs\_msdyn)**, dans l’onglet **Mappages de tables** dans le filtre, sélectionnez **Applications de finances et d’opérations.Fournisseurs V2**. Dans le filtre de droite, sélectionnez **Ventes.Fournisseur**.
     2. Recherchez **primarycontactperson** pour trouver la colonne source **PrimaryContactPersonId**.
     3. Sélectionnez **Actions**, puis sélectionnez **Supprimer**.
 
@@ -151,7 +151,7 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
 
 1. Dans l’application de finances et d’opérations, supprimez les colonnes **ContactPersonID** et **InvoiceAccount** du mappage **Clients V3 (comptes)** et enregistrez le mappage.
 
-    1. Dans la page de mappage en double écriture pour **Clients V3 (comptes)**, dans l’onglet **Mappages de tables**, sous le filtre de gauche, sélectionnez **Finances et Opérations app.Customers V3**. ns le filtre de droite, sélectionnez **Dataverse.Compte**.
+    1. Dans la page de mappage en double écriture pour **Clients V3 (comptes)**, dans l’onglet **Mappages de tables**, sous le filtre de gauche, sélectionnez **Application de finances et d’opérations.Clients V3**. ns le filtre de droite, sélectionnez **Dataverse.Compte**.
     2. Recherchez **contactperson** pour trouver la colonne source **ContactPersonID**.
     3. Sélectionnez **Actions**, puis sélectionnez **Supprimer**.
 
@@ -185,7 +185,7 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
 6. Exécutez à nouveau la synchronisation initiale pour le mappage **Clients V3 (Comptes)**. Le suivi des modifications étant désactivés, les données de **InvoiceAccount** et **ContactPersonId** seront synchronisées à partir de l’application de finances et d’opérations avec Dataverse.
 7. Pour synchroniser les données pour **InvoiceAccount** et **ContactPersonId** depuis Dataverse vers l’application de finances et d’opérations, vous utilisez un projet d’intégration de données.
 
-    1. Dans Power Apps, créez un projet d’intégration de données entre **Sales.Account** et les tables **Finances et Opérations apps.Customers V3**. La direction des données doit aller de Dataverse vers l’application de finances et d’opérations. Comme **InvoiceAccount** est un nouvel attribut en double écriture, vous pourrez souhaiter ignorer la synchronisation initiale pour cet attribut. Pour plus d’informations, voir [Intégration des données dans Dataverse](/power-platform/admin/data-integrator).
+    1. Dans Power Apps, créez un projet d’intégration de données entre les tables **Sales.Account** et **applications de finances et d’opérations.Clients V3**. La direction des données doit aller de Dataverse vers l’application de finances et d’opérations. Comme **InvoiceAccount** est un nouvel attribut en double écriture, vous pourrez souhaiter ignorer la synchronisation initiale pour cet attribut. Pour plus d’informations, voir [Intégration des données dans Dataverse](/power-platform/admin/data-integrator).
 
         L’illustration suivante montre un projet qui met à jour **CustomerAccount** et **ContactPersonId**.
 
@@ -227,12 +227,21 @@ Le message d’erreur suivant peut s’afficher lorsque vous essayez d’exécut
 
 *Le numéro de partie est introuvable dans Dataverse.*
 
-Une plage est définie sur **DirPartyCDSEntity** dans les applications Finances et Opérations qui filtrent les parties de type **Personne** et **Organisation**. En conséquence, une synchronisation initiale du mappage **Parties CDS - msdyn_parties** ne synchronisera pas les parties d’autres types, y compris **Entité juridique** et **Unité opérationnelle**. Lorsque la synchronisation initiale s’exécute pour **Adresses postales des parties CDS (msdyn_partypostaladdresses)** ou **Contacts de partie V3 (msdyn_partyelectronicaddresses)**, il se peut que vous receviez l’erreur.
+Une plage est définie sur **DirPartyCDSEntity** dans les applications de finances et d’opérations qui filtrent les parties de type **Personne** et **Organisation**. En conséquence, une synchronisation initiale du mappage **Parties CDS - msdyn_parties** ne synchronisera pas les parties d’autres types, y compris **Entité juridique** et **Unité opérationnelle**. Lorsque la synchronisation initiale s’exécute pour **Adresses postales des parties CDS (msdyn_partypostaladdresses)** ou **Contacts de partie V3 (msdyn_partyelectronicaddresses)**, il se peut que vous receviez l’erreur.
 
-Nous travaillons sur un correctif pour supprimer la plage de type partie sur l’entité Finances et Opérations afin que les parties de tous types puissent se synchroniser avec Dataverse avec succès.
+Nous travaillons sur un correctif pour supprimer la plage de type partie sur l’entité de finances et d’opérations afin que les parties de tous types puissent se synchroniser avec Dataverse avec succès.
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Y a-t-il des problèmes de performances lors de l’exécution de la synchronisation initiale pour les données des clients ou des contacts ?
 
 Si vous avez exécuté la synchronisation initiale pour les données **Client** et si les cartes **Client** sont en cours d’exécution, et si vous exécutez ensuite la synchronisation initiale pour les données **Contacts**, il peut y avoir des problèmes de performances lors des insertions et des mises à jour des tables **LogisticsPostalAddress** et **LogisticsElectronicAddress** pour les adresses **Contact**. Les mêmes tables d’adresses postales et électroniques globales sont suivies pour **CustCustomerV3Entity** et **VendVendorV2Entity** et la double écriture essaie de créer plus de requêtes pour écrire des données de l’autre côté. Si vous avez déjà exécuté la synchronisation initiale pour **Client**, puis arrêtez la carte correspondante lors de l’exécution de la synchronisation initiale pour les données **Contacts**. Faites de même pour les données **Fournisseur**. Une fois la synchronisation initiale est terminée, vous pouvez exécuter toutes les cartes en ignorant la synchronisation initiale.
 
+## <a name="float-data-type-that-has-a-zero-value-cant-be-synchronized"></a>Le type de données flottant qui a une valeur nulle ne peut pas être synchronisé
+
+La synchronisation initiale peut échouer pour les enregistrements qui ont une valeur nulle pour un champ de prix, comme **Montant du paiement fixe** ou **Montant** dans la devise de la transaction. Dans ce cas, vous recevrez un message d’erreur semblable à l’exemple suivant :
+
+*Une erreur s’est produite lors de la validation des paramètres d’entrée : Microsoft.OData.ODataException : Impossible de convertir le littéral ’000000’ en le type attendu ’Edm.Decimal’,...*
+
+Le problème se situe avec la valeur **Paramètres régionaux de langue** sous **Formats des données sources** dans le module **Gestion des données**. Modifiez la valeur du champ **Paramètres régionaux de langue** sur **en-us**, puis réessayez.
+
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

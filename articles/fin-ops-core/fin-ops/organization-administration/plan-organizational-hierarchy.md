@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771870"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108762"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Planification de votre hiérarchie d’organisation
 
@@ -42,7 +42,7 @@ Lorsque vous planifiez des hiérarchies, il est également important de prendre 
 
 Vous devez avoir au moins une entité juridique pour représenter votre entreprise. Une entité juridique peut passer des contrats juridiques et est tenue de préparer des tableaux d’analyse faisant état de ses performances.
 
-Les entités juridiques peuvent être utilisées pour les transactions ou pour la consolidation. Cela signifie qu’une entité juridique dans Finance and Operations ne représente pas nécessairement une entité réelle de votre entreprise. Par exemple, une société qui participe à des transactions peut posséder des entités juridiques filiales. Dans ce scénario, une entité juridique est requise pour les transactions et une entité juridique virtuelle est requise pour consolider les résultats et les soldes des entités juridiques filiales.
+Les entités juridiques peuvent être utilisées pour les transactions ou pour la consolidation. Cela signifie qu’une entité juridique dans finances et opérations ne représente pas nécessairement une entité réelle de votre entreprise. Par exemple, une société qui participe à des transactions peut posséder des entités juridiques filiales. Dans ce scénario, une entité juridique est requise pour les transactions et une entité juridique virtuelle est requise pour consolider les résultats et les soldes des entités juridiques filiales.
 
 Les organisations internes de votre entreprise, telles que les bureaux régionaux, peuvent être représentées comme entités juridiques supplémentaires ou comme unités opérationnelles de l’entité juridique principale. Une unité opérationnelle n’est pas nécessairement une organisation légalement définie. Les unités opérationnelles permettent de contrôler les ressources économiques et les processus opérationnels de l’entreprise. Par exemple, les départements et les centres de coût sont des unités opérationnelles.
 
@@ -171,7 +171,7 @@ Pour les pays/régions pris en charge, la plupart des états statutaires peuvent
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Si l’organisation est modélisée comme unité opérationnelle
 
-Les états statutaires doivent être créés à l’aide d’une autre application. Vous devez vérifier que les données sont capturées dans les applications Finance and Operations pour prendre en charge les exigences de chaque unité opérationnelle, lorsqu’elles diffèrent des besoins du siège.
+Les états statutaires doivent être créés à l’aide d’une autre application. Vous devez vérifier que les données sont capturées dans les applications de finances et d’opérations pour prendre en charge les exigences de chaque unité opérationnelle, lorsqu’elles diffèrent des besoins du siège.
 
 ### <a name="currency"></a>Devise
 
@@ -242,3 +242,4 @@ Les pratiques suivantes sont recommandées lorsque vous implémentez une hiérar
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

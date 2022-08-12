@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856916"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123946"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancée
 
@@ -122,9 +122,9 @@ Cet article décrit les options de filtrage et de requête disponibles lorsque v
 <td>Deux guillemets consécutifs (<strong>""</strong>) permettent de rechercher des lignes sans valeur pour la colonne actuelle.</td>
 </tr>
 <tr>
-<td>(<span class="code">Requête Finances et Opérations</span>) (Requête Finances et Opérations entre parenthèses)</td>
+<td>(<span class="code">Requête de finances et d’opérations</span>) (Requête de finances et d’opérations entre parenthèses)</td>
 <td>Correspond à une requête définie.</td>
-<td>Tapez une requête en tant qu’instruction SQL entre parenthèses à l’aide du langage de requête Finances et Opérations.</td>
+<td>Tapez une requête en tant qu’instruction SQL entre parenthèses à l’aide du langage de requête de finances et d’opérations.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        en tant que syntaxe pour une condition de filtre sur un champ à partir de la source de données racine ainsi qu’un champ d’une autre source de données (pour la page Tous les clients)</td>
 </tr>

@@ -2,7 +2,7 @@
 title: Configurer les structures de compte
 description: Cet article fournit des informations sur les structures de compte et les dimensions financières.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907978"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141276"
 ---
 # <a name="configure-account-structures"></a>Configurer les structures de compte
 
@@ -91,6 +91,8 @@ Pour continuer à ajouter des critères supplémentaires, cliquez sur la section
 Lors du paramétrage de vos structures de compte, certaines pratiques recommandées peuvent être suivies. Toutefois, il s’agit seulement de recommandations, une discussion holistique sur votre entreprise, votre plan de croissance et votre plan de maintenance doit être envisagée dans le cadre de cette discussion.
 
 - Placez le compte principal en premier ou le plus proche possible de la structure de compte, afin que les utilisateurs puissent bénéficier de la meilleure expérience guidée possible lors de l’écriture de compte.
+  
+  - Vérifiez que toutes les solutions tierces que vous avez l’intention d’utiliser prennent en charge le compte principal en première position.
 
 - Réutilisez les structures de compte autant que possible pour réduire la maintenance dans vos entités juridiques.
 

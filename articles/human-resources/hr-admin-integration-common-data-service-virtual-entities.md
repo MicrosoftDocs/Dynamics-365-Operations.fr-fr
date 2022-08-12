@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45155dba5063981eb3aeeed4dda1d79a57b7c8af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899728"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067096"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurer les tables virtuelles de Dataverse
 
@@ -121,10 +121,10 @@ L’étape suivante consiste à configurer la source de données de table virtue
 
 4. Dans **Hub état solution**, sélectionnez l’icône **Recherche avancée** en haut à droite de la page de l’application.
 
-5. Sur la page **Recherche avancée**, dans la liste déroulante **Rechercher**, sélectionnez **Configurations de source de données virtuelle Finances et Opérations**.
+5. Sur la page **Recherche avancée**, dans la liste déroulante **Rechercher**, sélectionnez **Configurations de source de données virtuelle de finances et d’opérations**.
 
    > [!NOTE]
-   > L’installation de l’application de table virtuelle à partir de l’étape de configuration précédente peut prendre quelques minutes. Si **Configurations de source de données virtuelle Finances et Opérations** n’est pas disponible dans la liste, attendez une minute et actualisez la liste.
+   > L’installation de l’application de table virtuelle à partir de l’étape de configuration précédente peut prendre quelques minutes. Si **Configurations de source de données virtuelle de finances et d’opérations** n’est pas disponible dans la liste, attendez une minute et actualisez la liste.
 
 6. Sélectionnez **Résultats**.
 
@@ -218,3 +218,4 @@ Le volet coulissant affiche les résultats d’exécution les plus récents du p
 [Présentation de la création d’applications dans Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

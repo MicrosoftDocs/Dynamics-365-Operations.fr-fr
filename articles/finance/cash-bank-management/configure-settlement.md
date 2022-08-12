@@ -1,7 +1,7 @@
 ---
 title: Configurer un règlement
 description: La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cet article décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client.
-author: kweekley
+author: angelad116
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
-ms.author: kweekley
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14ed2999a9ad8ffc64815ca3f8b1556aad27ae48
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a0aae3d72d35e8c09b2a3dc8d25958be4c523969
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910198"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151848"
 ---
 # <a name="configure-settlement"></a>Configurer un règlement
 

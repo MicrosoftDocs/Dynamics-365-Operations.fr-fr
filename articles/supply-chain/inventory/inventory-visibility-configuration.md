@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895813"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066668"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer Inventory Visibility
 
@@ -55,7 +55,7 @@ Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnali
 | *OnHandMostSpecificBackgroundService* | Cette fonctionnalité fournit un récapitulatif du stock pour les produits, avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Cette fonctionnalité facultative active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV). Pour plus d’informations, voir [Planning de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md). |
 | *Allocation* | Cette fonctionnalité facultative permet à Inventory Visibility d'avoir la possibilité de protéger les stocks (ringfencing) et de contrôler la survente. Pour plus d’informations, voir [Répartition de stock pour Visibilité des stocks](inventory-visibility-allocation.md). |
-| *Activer les articles d’entrepôt dans Visibilité des stocks* | Cette fonctionnalité facultative permet à la Visibilité des stocks de prendre en charge les articles activés pour les processus d’entrepôt avancés (articles WHS). Pour plus d’informations, voir [Prise en charge de la Visibilité des stocks pour les articles WHS](inventory-visibility-whs-support.md). |
+| *Activer les articles d’entrepôt dans Visibilité des stocks* | Cette fonctionnalité facultative permet à la Visibilité des stocks de prendre en charge les articles activés pour les processus de gestion des entrepôts (articles WMS). Pour plus d’informations, voir [Prise en charge de la Visibilité des stocks pour les articles WMS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Rechercher le point de terminaison de service
 
@@ -63,7 +63,7 @@ Si vous ne connaissez pas le bon point de terminaison de service de visibilité 
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configuration de la source de données
 
-Chaque source de données représente un système d’où proviennent vos données. Les exemples de noms de source de données incluent `fno` (qui signifie « applications Finances and Operations de Dynamics 365 ») et `pos` (qui signifie « point de vente »). Par défaut, Supply Chain Management est configuré comme source de données par défaut (`fno`) dans la visibilité des stocks.
+Chaque source de données représente un système d’où proviennent vos données. Les exemples de noms de source de données incluent `fno` (qui signifie « applications de finances et d’opérations de Dynamics 365 ») et `pos` (qui signifie « point de vente »). Par défaut, Supply Chain Management est configuré comme source de données par défaut (`fno`) dans la visibilité des stocks.
 
 > [!NOTE]
 > La source de données `fno` est réservée pour Supply Chain Management. Si votre complément de visibilité d’inventaire est intégré à un environnement Supply Chain Management, nous vous recommandons de ne pas supprimer les configurations liées à `fno` dans la source de données.
@@ -809,3 +809,4 @@ Le tableau suivant montre la hiérarchie de réservation par défaut.
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

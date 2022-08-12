@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867327"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103518"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Exécuter des scripts X++ personnalisés sans aucun temps d’arrêt
 
@@ -120,7 +120,7 @@ La liste suivante décrit certaines des bonnes pratiques pour réussir l’écri
 
 Utilisez la procédure suivante pour importer et exécuter un script.
 
-1. Dans votre application Finances et Opérations, accédez à **Administration du système \> Tâches périodiques \> Base de données \> Scripts personnalisés**.
+1. Dans votre application de finances et d’opérations, accédez à **Administration du système \> Tâches périodiques \> Base de données \> Scripts personnalisés**.
 1. Sélectionnez **Charger**.
 1. Sélectionnez le package déployable que vous avez créé comme décrit précédemment dans cet article. Vous serez invité à spécifier l’objectif du script.
 1. Le script doit maintenant être approuvé par un utilisateur autre que celui qui l’a importé. L’approbateur doit suivre la procédure ci-après :
@@ -149,6 +149,7 @@ Votre sélection à la dernière étape définit l’état final du script. Vous
 
 ## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Télécharger et exécuter un package déployable via LCS
 
-Au lieu de déployer votre package déployable via l’interface utilisateur de votre application Finances et Opérations, comme décrit dans la section précédente, vous pouvez le télécharger sur LCS et utiliser la procédure habituelle pour le déployer. Pour en savoir plus, voir [Installer des modules déployables à partir de la ligne de commande](../deployment/install-deployable-package.md).
+Au lieu de déployer votre package déployable via l’interface utilisateur de votre application de finances et d’opérations, comme décrit dans la section précédente, vous pouvez le télécharger sur LCS et utiliser la procédure habituelle pour le déployer. Pour en savoir plus, voir [Installer des modules déployables à partir de la ligne de commande](../deployment/install-deployable-package.md).
 
 Bien que cette approche comporte moins de restrictions, elle offre moins de protection contre les erreurs. De plus, comme cela nécessite un redémarrage de tous les serveurs, cela entraînera des temps d’arrêt.
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022502"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069784"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -217,7 +217,7 @@ Les employés peuvent ajuster la consommation de matériaux pour les éléments 
 
 Dans la boîte de dialogue **Ajuster la matière**, un collaborateur peut effectuer et ajuster des réservations de matière en sélectionnant **Réserver des matières**. La boîte de dialogue **Réserver des matières** qui s’affiche indique le stock physiquement disponible pour l’article pour chaque dimension de stockage et de suivi.
 
-Si la matière est activée pour les processus d’entrepôt avancés, la liste affiche uniquement le stock physiquement disponible pour l’emplacement d’entrée de production de la matière. L’emplacement d’entrée de production est défini sur la ressource où le travail de production est planifié. Si le numéro d’article est contrôlé par numéro de lot ou de série, la liste complète des numéros de lot et de série physiquement disponibles s’affiche. Pour spécifier une quantité à réserver, le collaborateur peut sélectionner **Réserver des matières**. Pour supprimer une réservation existante, l’employé peut sélectionner **Supprimer la réservation**.
+Si la matière est activée pour les processus de gestion des entrepôts, la liste affiche uniquement le stock physiquement disponible pour l’emplacement d’entrée de production de la matière. L’emplacement d’entrée de production est défini sur la ressource où le travail de production est planifié. Si le numéro d’article est contrôlé par numéro de lot ou de série, la liste complète des numéros de lot et de série physiquement disponibles s’affiche. Pour spécifier une quantité à réserver, le collaborateur peut sélectionner **Réserver des matières**. Pour supprimer une réservation existante, l’employé peut sélectionner **Supprimer la réservation**.
 
 Pour plus d’informations sur la configuration de l’emplacement d’entrée de production, consultez le billet de blog suivant : [Configuration de l’emplacement d’entrée de production](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 

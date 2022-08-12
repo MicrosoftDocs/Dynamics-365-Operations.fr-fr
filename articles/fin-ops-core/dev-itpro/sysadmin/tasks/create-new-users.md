@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595384"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103323"
 ---
 # <a name="create-new-users"></a>Créer de nouveaux utilisateurs
 
 [!include [banner](../../includes/banner.md)]
 
-Avant de pouvoir accéder aux applications Finance and Operations, vous devez d’abord être ajouté à la page **Utilisateurs** (**Administration système \> Utilisateurs \> Utilisateurs**). Les utilisateurs incluent les employés internes de votre organisation ou les clients et fournisseurs externes. Les utilisateurs peuvent être importés ou ajoutés manuellement. Tous les utilisateurs doivent disposer d’une licence correcte pour une utilisation conforme.
+Avant de pouvoir accéder aux applications de finances et d’opérations, vous devez d’abord être ajouté à la page **Utilisateurs** (**Administration système \> Utilisateurs \> Utilisateurs**). Les utilisateurs incluent les employés internes de votre organisation ou les clients et fournisseurs externes. Les utilisateurs peuvent être importés ou ajoutés manuellement. Tous les utilisateurs doivent disposer d’une licence correcte pour une utilisation conforme.
 
-Pour plus d’informations sur l’achat et la licence pour les applications Finance and Operations, voir [Guide des licences Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+Pour plus d’informations sur l’achat et la licence pour les applications de finances et d’opérations, voir [Guide des licences Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Attribuer une licence à un utilisateur
-Les administrateurs système peuvent [attribuer des licences aux utilisateurs](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) dans le [Centre d’administration Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
+Les administrateurs système peuvent [attribuer des licences aux utilisateurs](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) dans le [Centre d’administration Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Ajouter un utilisateur externe à Azure AD et attribuer une licence 
-Les utilisateurs externes doivent être représentés dans votre répertoire de locataires (Azure Active Directory (Azure AD)) pour leur attribuer des licences. Ces utilisateurs externes doivent être ajoutés au client dans Azure AD en tant qu’utilisateurs invités, puis se voir attribuer les licences appropriées. Obligation concernant les applications Finance and Operations : l’entreprise de l’utilisateur invité doit utiliser Azure AD. Pour plus d’informations, voir [Ajouter utilisateurs de collaboration B2B Azure Active Directory dans le portail Azure](/azure/active-directory/b2b/add-users-administrator).
+Les utilisateurs externes doivent être représentés dans votre répertoire de locataires (Azure Active Directory (Azure AD)) pour leur attribuer des licences. Ces utilisateurs externes doivent être ajoutés au client dans Azure AD en tant qu’utilisateurs invités, puis se voir attribuer les licences appropriées. Obligation concernant les applications de finances et d’opérations : l’entreprise de l’utilisateur invité doit utiliser Azure AD. Pour plus d’informations, voir [Ajouter utilisateurs de collaboration B2B Azure Active Directory dans le portail Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Importer de nouveaux utilisateurs depuis Azure AD 
 1. Accédez à **Administration système** \> **Utilisateurs** \> **Utilisateurs**.

@@ -1,6 +1,6 @@
 ---
 title: Configurer l’espace de travail mobile Gestion des actifs
-description: Cet article décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Dynamics 365 Finance and Operations pour exécuter un espace de travail mobile Gestion des actifs que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
+description: Cet article décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Dynamics 365 de finances et d’opérations pour exécuter un espace de travail mobile Gestion des actifs que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870840"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070051"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurer l’espace de travail mobile Gestion des actifs
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Dynamics 365 Finance and Operations pour exécuter un espace de travail mobile **Gestion des actifs** que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
+Cet article décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Dynamics 365 de finances et d’opérations pour exécuter un espace de travail mobile **Gestion des actifs** que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Configurer les utilisateurs des agents de maintenance dans Supply Chain Management
 
@@ -41,7 +41,7 @@ Pour chaque utilisateur nécessitant un accès à l’espace de travail mobile *
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Publier l’espace de travail mobile Gestion des actifs
 
-Pour rendre les fonctionnalités de gestion des actifs disponibles dans l’application mobile Dynamics 365 Finance and Operations, vous devez publier l’espace de travail mobile **Gestion des actifs**.
+Pour rendre les fonctionnalités de gestion des actifs disponibles dans l’application mobile Dynamics 365 de finances et d’opérations, vous devez publier l’espace de travail mobile **Gestion des actifs**.
 
 1. Dans Supply Chain Management, sélectionnez le bouton **Paramètres** (le symbole d’engrenage dans le coin supérieur droit), puis sélectionnez **Application mobile** dans le menu.
 1. Dans la boîte de dialogue **Gérer l’application mobile**, recherchez la vignette **Gestion des actifs**. Si elle contient le texte « Dans les métadonnées : non publiées », l’espace de travail n’a pas encore été publié. Si elle contient le texte « Dans les métadonnées : publiées », l’espace de travail a déjà été publié et vous pouvez ignorer le reste de cette procédure.
@@ -50,14 +50,14 @@ Pour rendre les fonctionnalités de gestion des actifs disponibles dans l’appl
 
 1. Sélectionnez la vignette **Gestion des actifs**, puis sélectionnez **Publier** dans la barre d’outils. Après quelques secondes, vous devriez recevoir une notification indiquant que la publication de l’espace de travail a réussi. En outre, le texte de la vignette doit être modifié en « Dans les métadonnées : publiées ».
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Installer et configurer l'application mobile Dynamics 365 Finance and Operations
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Installer et configurer l’application mobile Dynamics 365 de finances et d’opérations
 
-1. Accédez à l’un des magasins d’applications suivants pour installer l’application **Microsoft Finance and Operations (Dynamics 365)** sur votre appareil mobile :
+1. Accédez à l’un des magasins d’applications suivants pour installer l’application **de finances et d’opérations de Microsoft (Dynamics 365)** sur votre appareil mobile :
 
     - [Pour les appareils Google Android](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Pour les appareils Apple iOS](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Ouvrez l’application Finance et Operations (Dynamics 365). La page de connexion doit apparaître. Dans le champ **Se connecter**, entrez l’URL de Supply Chain Management ou sélectionnez une URL récente dans la liste **Environnements récents**, puis appuyez sur **Se connecter**.
+1. Ouvrez l’application de finances et d’opérations (Dynamics 365). La page de connexion doit apparaître. Dans le champ **Se connecter**, entrez l’URL de Supply Chain Management ou sélectionnez une URL récente dans la liste **Environnements récents**, puis appuyez sur **Se connecter**.
 
     ![Page de connexion.](media/mobile-app-sign-in.png "Page de connexion")
 
@@ -80,7 +80,7 @@ Pour rendre les fonctionnalités de gestion des actifs disponibles dans l’appl
 
 Pour plus d’informations sur l’utilisation de l’espace de travail mobile **Gestion des actifs**, voir [Utiliser l’espace de travail mobile Gestion des actifs](asset-management-mobile-workspace.md).
 
-Pour plus d’informations sur l’application mobile Finance and Operations (Dynamics 365), voir la [Page d’accueil de l’application mobile](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+Pour plus d’informations sur l’application mobile de finances et d’opérations (Dynamics 365), voir la [Page d’accueil de l’application mobile](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

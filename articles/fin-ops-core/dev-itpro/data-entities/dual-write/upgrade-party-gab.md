@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895274"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111816"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
 
@@ -34,11 +34,11 @@ Les trois modèles Data Factory suivants sont fournis. Ils facilitent le rapproc
 
 | Nom de fichier | Objectif |
 |---|---|
-| FONewParty.csv | Ce fichier permet de créer de nouveaux enregistrements **Partie** dans l’application Finances et Opérations. |
-| ImportFONewPostalAddressLocation.csv | Ce fichier permet de créer de nouveaux enregistrements **Emplacements d’adresse postale** dans l’application Finances et Opérations. |
-| ImportFONewPartyPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale de partie** dans l’application Finances et Opérations. |
-| ImportFONewPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale** dans l’application Finances et Opérations. |
-| ImportFONewElectronicAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse électronique** dans l’application Finances et Opérations. |
+| FONewParty.csv | Ce fichier permet de créer de nouveaux enregistrements **Partie** dans l’application de finances et d’opérations. |
+| ImportFONewPostalAddressLocation.csv | Ce fichier permet de créer de nouveaux enregistrements **Emplacements d’adresse postale** dans l’application de finances et d’opérations. |
+| ImportFONewPartyPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale de partie** dans l’application de finances et d’opérations. |
+| ImportFONewPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale** dans l’application de finances et d’opérations. |
+| ImportFONewElectronicAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse électronique** dans l’application de finances et d’opérations. |
 
 Cet article comment utiliser les modèles Data Factory et mettre à niveau vos données. Si vous n’avez aucune personnalisation, vous pouvez utiliser les modèles tels quels. Toutefois, si vous avez des personnalisations pour les données de **Compte**, **Contact** et **Fournisseur**, vous devez modifier les modèles comme décrit dans cet article.
 
@@ -167,7 +167,7 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
 2. Assurez-vous que les cartes sont supprimées de la table **msdy_dualwriteruntimeconfig** dans Dataverse.
 3. Installez [Solutions de double écriture pour les Carnets d’adresses global et de partie](https://aka.ms/dual-write-gab) à partir de AppSource.
-4. Dans l’application Finances et Opérations, exécutez la **Synchronisation initiale** si les tables suivantes contiennent des données :
+4. Dans l’application de finances et d’opérations, exécutez la **Synchronisation initiale** si les tables suivantes contiennent des données :
 
     + Salutations
     + Type de caractère personnel
@@ -267,10 +267,10 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
     > [!NOTE]
     > Si vous avez des personnalisations pour **Compte**, **Contact** et **Fournisseur**, vous devez modifier le modèle.
 
-8. Importez les nouveaux enregistrements **Partie** dans l’application Finances et Opérations.
+8. Importez les nouveaux enregistrements **Partie** dans l’application de finances et d’opérations.
 
     1. Téléchargez le fichier **FONewParty.csv** à partir du stockage blob Azure. Le chemin est **partybootstrapping/output/FONewParty.csv**.
-    2. Convertissez le fichier **FONewParty.csv** en fichier Excel et importez le fichier Excel dans l’application Finances et Opérations. Si l’importation CSV fonctionne pour vous, vous pouvez importer le fichier .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données. Pour plus d’informations, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../data-import-export-job.md).
+    2. Convertissez le fichier **FONewParty.csv** en fichier Excel et importez le fichier Excel dans l’application de finances et d’opérations. Si l’importation CSV fonctionne pour vous, vous pouvez importer le fichier .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données. Pour plus d’informations, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../data-import-export-job.md).
 
     ![Importation des enregistrements de partie Dataverse.](media/data-factory-import-party.png)
 
@@ -281,7 +281,7 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
     ![Exécution des modèles d’adresse postale et d’adresse électronique de partie.](media/ADF-7.png)
 
-10. Pour mettre à jour l’application Finances et Opérations avec ces données, vous devez convertir les fichiers .csv en classeur Excel et [les importer dans l’application Finances et Opérations](../data-import-export-job.md). Si l’importation CSV fonctionne pour vous, vous pouvez importer les fichiers .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données.
+10. Pour mettre à jour l’application de finances et d’opérations avec ces données, vous devez convertir les fichiers .csv en classeur Excel et [les importer dans l’application de finances et d’opérations](../data-import-export-job.md). Si l’importation CSV fonctionne pour vous, vous pouvez importer les fichiers .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données.
 
     ![Importation réussie.](media/ADF-8.png)
 
@@ -364,9 +364,9 @@ Cette section vous guide à travers les étapes de chaque modèle Data Factory.
 ### <a name="steps-in-the-party-template"></a>Étapes du modèle Partie
 
 1. Les étapes 1 à 6 identifient les entreprises qui sont activées pour la double écriture et créent une clause de filtre pour elles.
-2. Les étapes 7-1 à 7-9 récupèrent les données à la fois de l’application Finances et Opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
-3. Les étapes 8 à 9 comparent le numéro de partie pour les enregistrements **Compte**, **Contact** et **Fournisseur** entre l’application Finances et Opérations et l’application d’engagement client. Les enregistrements qui n’ont pas de numéro de partie sont ignorés.
-4. L’étape 10 génère deux fichiers .csv pour les enregistrements de partie qui doivent être créés dans l’application d’engagement client et l’application Finances et Opérations.
+2. Les étapes 7-1 à 7-9 récupèrent les données à la fois de l’application de finances et d’opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
+3. Les étapes 8 à 9 comparent le numéro de partie pour les enregistrements **Compte**, **Contact** et **Fournisseur** entre l’application de finances et d’opérations et l’application d’engagement client. Les enregistrements qui n’ont pas de numéro de partie sont ignorés.
+4. L’étape 10 génère deux fichiers .csv pour les enregistrements de partie qui doivent être créés dans l’application d’engagement client et l’application de finances et d’opérations.
 
     - **FOCDSParty.csv** : Ce fichier contient tous les enregistrements de partie des deux systèmes, que l’entreprise soit ou non activée pour la double écriture.
     - **FONewParty.csv** : ce fichier contient un sous-ensemble des enregistrements de partie connus de Dataverse (par exemple, les comptes de type **Prospect**).
@@ -382,12 +382,12 @@ Cette section vous guide à travers les étapes de chaque modèle Data Factory.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Étapes du modèle d’adresse postale de partie.
 
-1. Les étapes 1-1 à 1-10 récupèrent les données à la fois de l’application Finances et Opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
-2. L’étape 2 dénormalise les données d’adresse postale dans l’application Finances et Opérations en joignant l’adresse postale et l’adresse postale de partie.
+1. Les étapes 1-1 à 1-10 récupèrent les données à la fois de l’application de finances et d’opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
+2. L’étape 2 dénormalise les données d’adresse postale dans l’application de finances et d’opérations en joignant l’adresse postale et l’adresse postale de partie.
 3. L’étape 3 déduplique et fusionne les données de compte, de contact et d’adresse du fournisseur à partir de l’application Customer Engagement.
-4. L’étape 4 crée des fichiers .csv pour l’application Finances et Opérations pour créer de nouvelles données d’adresse basées sur les adresses de compte, de contact et de fournisseur.
-5. L’étape 5-1 crée des fichiers .csv pour l’application Customer Engagement afin de créer toutes les données d’adresse, en fonction de l’application Finances et Opérations et de l’application d’engagement client.
-6. L’étape 5-2 convertit les fichiers .csv dans le format d’importation Finances et Opérations pour l’importation manuelle.
+4. L’étape 4 crée des fichiers .csv pour l’application de finances et d’opérations pour créer de nouvelles données d’adresse basées sur les adresses de compte, de contact et de fournisseur.
+5. L’étape 5-1 crée des fichiers .csv pour l’application Customer Engagement afin de créer toutes les données d’adresse, en fonction de l’application de finances et d’opérations et de l’application d’engagement client.
+6. L’étape 5-2 convertit les fichiers .csv dans le format d’importation de finances et d’opérations pour l’importation manuelle.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
@@ -401,13 +401,13 @@ Cette section vous guide à travers les étapes de chaque modèle Data Factory.
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Étapes du modèle d’adresse électronique de partie.
 
-1. Les étapes 1-1 à 1-5 récupèrent les données à la fois de l’application Finances et Opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
+1. Les étapes 1-1 à 1-5 récupèrent les données à la fois de l’application de finances et d’opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
 2. L’étape 2 consolide les adresses électroniques dans l’application Customer Engagement à partir des entités de compte, de contact et de fournisseur.
-3. L’étape 3 fusionne les données d’adresse électronique principales de l’application d’engagement client et de l’application Finances et Opérations.
+3. L’étape 3 fusionne les données d’adresse électronique principales de l’application d’engagement client et de l’application de finances et d’opérations.
 4. L’étape 4 crée des fichiers .csv.
 
-    - Créez de nouvelles données d’adresse électronique pour l’application Finances et Opérations, en fonction des adresses de compte, de contact et de fournisseur.
-    - Créez de nouvelles données d’adresse électronique pour l’application d’engagement client, en fonction de l’adresse électronique, du compte, des adresses de contact et de fournisseur dans l’application Finances et Opérations.
+    - Créez de nouvelles données d’adresse électronique pour l’application de finances et d’opérations, en fonction des adresses de compte, de contact et de fournisseur.
+    - Créez de nouvelles données d’adresse électronique pour l’application d’engagement client, en fonction de l’adresse électronique, du compte, des adresses de contact et de fournisseur dans l’application de finances et d’opérations.
 
 5. L’étape 5-1 importe les adresses électroniques dans l’application Customer Engagement.
 6. L’étape 5-2 crée des fichiers .csv pour mettre à jour les adresses principales des comptes et des contacts dans l’application Customer Engagement.
@@ -425,3 +425,4 @@ Cette section vous guide à travers les étapes de chaque modèle Data Factory.
 ## <a name="learn-more-about-the-template"></a>En savoir plus sur le modèle
 
 Pour plus d’informations sur le modèle, voir [Commentaires pour le fichier Lisez-moi du modèle Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+

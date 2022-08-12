@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00a20faaa05a9d0891ee202951b1ca50d0176c83
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893234"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065956"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurer les champs de l’application mobile Warehouse Management
 
@@ -135,7 +135,7 @@ Selon la priorité du champ d’application d’entrepôt paramétrée dans le t
 -   Ligne 2 : Description de l’article
 -   Ligne 3 : Taille
 
-Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées sur la page de tâches, mais sur une page de détails. Pour en savoir plus et pour consulter des exemples de l'interface utilisateur, reportez-vous à la publication de blog [Annonce de Finance and Operations - Entreposage](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées sur la page de tâches, mais sur une page de détails. Pour en savoir plus et pour consulter des exemples de l’interface utilisateur, reportez-vous à la publication de blog [Annonce de Dynamics 365 Supply Chain Management - Entreposage](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

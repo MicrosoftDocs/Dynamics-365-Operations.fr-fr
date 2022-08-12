@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896703"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111424"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Résoudre les problèmes de synchronisation en direct
 
@@ -22,7 +22,7 @@ ms.locfileid: "8896703"
 
 
 
-Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Microsoft Dataverse. Notamment elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
+Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications de finances et d’opérations et Microsoft Dataverse. Notamment elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
 
 > [!IMPORTANT]
 > Certains des problèmes abordés dans cet article peuvent exiger le rôle d’administrateur système ou les identifiants d’administrateur du client Azure Active Directory (Azure AD). Chaque section explique si un rôle ou des informations d’identification spécifiques sont requis.
@@ -47,7 +47,7 @@ Pour résoudre le problème, vous devez vous assurer que les données de référ
 
 Si les données existent aux deux endroits, et si vous avez confirmé que le problème n’est pas lié aux données, procédez comme suit.
 
-1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finances et Opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
+1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel de finances et d’opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
 2. Sélectionnez et supprimez les enregistrements qui présentent des problèmes dans le mappage et le projet à double écriture. Il y aura deux enregistrements pour chaque mappage à double écriture.
 3. Publiez les modifications à l’aide du complément Excel. Cette étape est importante car elle supprime les enregistrements de l’entité et des tables sous-jacentes.
 
@@ -94,10 +94,10 @@ Pour résoudre le problème, vous devez suivre les étapes à la fois dans Datav
 
 1. Dans l’application de finances et d’opérations, procédez comme suit :
 
-    1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finances et Opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
+    1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel de finances et d’opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
     2. Sélectionnez et supprimez les enregistrements qui présentent des problèmes dans le mappage et le projet à double écriture. Il y aura deux enregistrements pour chaque mappage à double écriture.
     3. Publiez les modifications à l’aide du complément Excel. Cette étape est importante car elle supprime les enregistrements de l’entité et des tables sous-jacentes.
-    4. Pour éviter les erreurs lorsque vous reconnectez les environnements Finances et Opérations ou Dataverse, assurez-vous qu’il ne reste aucune configuration à double écriture.
+    4. Pour éviter les erreurs lorsque vous reconnectez les environnements de finances et d’opérations ou Dataverse, assurez-vous qu’il ne reste aucune configuration à double écriture.
 
 2. Dans Dataverse, procédez comme suit :
 
@@ -110,10 +110,10 @@ Pour résoudre le problème, vous devez suivre les étapes à la fois dans Datav
 
 3. Dans l’application de finances et d’opérations, procédez comme suit :
 
-    1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finances et Opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
+    1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel de finances et d’opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
     2. Sélectionnez et supprimez les enregistrements qui présentent des problèmes dans le mappage et le projet à double écriture. Il y aura deux enregistrements pour chaque mappage à double écriture.
     3. Publiez les modifications à l’aide du complément Excel. Cette étape est importante car elle supprime les enregistrements de l’entité et des tables sous-jacentes.
-    4. Pour éviter les erreurs lorsque vous reconnectez les environnements Finances et Opérations ou Dataverse, assurez-vous qu’il ne reste aucune configuration à double écriture.
+    4. Pour éviter les erreurs lorsque vous reconnectez les environnements de finances et d’opérations ou Dataverse, assurez-vous qu’il ne reste aucune configuration à double écriture.
 
 ## <a name="live-synchronization-error-after-you-do-a-full-database-copy"></a>Erreur de synchronisation en direct après avoir effectué une copie complète de la base de données
 
@@ -189,9 +189,9 @@ while(qRun.next())
 }
 ```
 
-## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Les données des applications Finances et Opérations ne sont pas synchronisées avec Dataverse
+## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Les données des applications de finances et d’opérations ne sont pas synchronisées avec Dataverse
 
-Lors de la synchronisation en direct, vous pouvez rencontrer un problème où seule une partie des données est synchronisée à partir des applications Finances et Opérations vers Dataverse, ou bien où les données ne sont pas du tout synchronisées.
+Lors de la synchronisation en direct, vous pouvez rencontrer un problème où seule une partie des données est synchronisée à partir des applications de finances et d’opérations vers Dataverse, ou bien où les données ne sont pas du tout synchronisées.
 
 > [!NOTE]
 > Vous devez résoudre ce problème pendant le développement.
@@ -200,13 +200,13 @@ Avant de commencer à résoudre le problème, vérifiez les conditions préalabl
 
 + Assurez-vous que vos modifications personnalisées sont écrites dans une étendue de transaction unique.
 + Les événements commerciaux et la structure à double écriture ne gèrent pas les opérations `doinsert()`, `doUpdate()` et `recordset()`, ni les enregistrements où `skipBusinessEvents(true)` est marqué. Si votre code est à l’intérieur de ces fonctions, la double écriture ne sera pas déclenchée.
-+ Les événements commerciaux doivent être enregistrés pour la source de données mappée. Certaines sources de données peuvent utiliser une jointure externe et peuvent être marquées comme en lecture seule dans les applications Finances et Opérations. Ces sources de données ne sont pas suivies.
++ Les événements commerciaux doivent être enregistrés pour la source de données mappée. Certaines sources de données peuvent utiliser une jointure externe et peuvent être marquées comme en lecture seule dans les applications de finances et d’opérations. Ces sources de données ne sont pas suivies.
 + Les modifications ne seront déclenchées que si les modifications sont sur les champs mappés. Les modifications des champs non mappés ne déclencheront pas la double écriture.
 + Assurez-vous que les évaluations de filtre fournissent un résultat valide.
 
 ### <a name="troubleshooting-steps"></a>Étapes de résolution des problèmes
 
-1. Passez en revue les mappages de champs sur la page d’administration de la double écriture. Si un champ n’est pas mappé entre les applications Finances et Opérations et Dataverse, il ne sera pas suivi. Par exemple, dans l’illustration suivante, le champ **Description** est suivi à partir de Dataverse, mais pas à partir des applications Finances et Opérations. Aucune modification de ce champ à l’intérieur des applications Finances et Opérations ne sera suivie.
+1. Passez en revue les mappages de champs sur la page d’administration de la double écriture. Si un champ n’est pas mappé entre les applications de finances et d’opérations et Dataverse, il ne sera pas suivi. Par exemple, dans l’illustration suivante, le champ **Description** est suivi à partir de Dataverse, mais pas à partir des applications de finances et d’opérations. Aucune modification de ce champ à l’intérieur des applications de finances et d’opérations ne sera suivie.
 
     ![Champ suivi.](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ Avant de commencer à résoudre le problème, vérifiez les conditions préalabl
 
 ### <a name="sample-scenario"></a>Exemple de scénario
 
-Dans les applications Finances et Opérations, il y a une mise à jour de l’adresse d’un enregistrement de contact, mais la modification de l’adresse n’est pas synchronisée avec Dataverse. Ce scénario se produit parce qu’aucun enregistrement de la table **BusinessEventsDefinition** ne comporte la combinaison de la table et de l’entité affectées. Plus précisément, la table **LogisticsPostalAddress** n’est pas la source de données directe pour l’entité **smmContactpersonCDSV2Entity**. L’entité **smmContactpersonCDSV2Entity** a pour source de données l’entité **smmContactPersonV2Entity**, et l’entité **smmContactPersonV2Entity** a à son tour l’entité **LogisticsPostalAddressBaseEntity** comme source de données. La table **LogisticsPostalAddress** est la source de données de l’entité **LogisticsPostalAddressBaseEntity**.
+Dans les applications de finances et d’opérations, il y a une mise à jour de l’adresse d’un enregistrement de contact, mais la modification de l’adresse n’est pas synchronisée avec Dataverse. Ce scénario se produit parce qu’aucun enregistrement de la table **BusinessEventsDefinition** ne comporte la combinaison de la table et de l’entité affectées. Plus précisément, la table **LogisticsPostalAddress** n’est pas la source de données directe pour l’entité **smmContactpersonCDSV2Entity**. L’entité **smmContactpersonCDSV2Entity** a pour source de données l’entité **smmContactPersonV2Entity**, et l’entité **smmContactPersonV2Entity** a à son tour l’entité **LogisticsPostalAddressBaseEntity** comme source de données. La table **LogisticsPostalAddress** est la source de données de l’entité **LogisticsPostalAddressBaseEntity**.
 
-Une situation similaire peut se produire dans certains schémas non standard, tels que les cas où la table qui est modifiée dans les applications Finances et Opérations n’est pas liée de manière évidente à l’entité qui la contient. Par exemple, les données d’adresse principale sont calculées sur l’entité **smmContactPersonCDSV2Entity**. L’infrastructure à double écriture essaie de déterminer comment une modification apportée à une table sous-jacente est mappée en retour sur les entités. Habituellement, cette approche est suffisante. Cependant, dans certains cas, le lien est si complexe que vous devez être précis. Vous devez vous assurer que l’identifiant **RecId** de la table associée est directement disponible sur l’entité. Ajoutez ensuite une méthode statique pour surveiller les modifications de la table.
+Une situation similaire peut se produire dans certains schémas non standard, tels que les cas où la table qui est modifiée dans les applications de finances et d’opérations n’est pas liée de manière évidente à l’entité qui la contient. Par exemple, les données d’adresse principale sont calculées sur l’entité **smmContactPersonCDSV2Entity**. L’infrastructure à double écriture essaie de déterminer comment une modification apportée à une table sous-jacente est mappée en retour sur les entités. Habituellement, cette approche est suffisante. Cependant, dans certains cas, le lien est si complexe que vous devez être précis. Vous devez vous assurer que l’identifiant **RecId** de la table associée est directement disponible sur l’entité. Ajoutez ensuite une méthode statique pour surveiller les modifications de la table.
 
 Par exemple, consultez la méthode **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. **CustCustomerV3entity** et **VendVendorV2Entity** ont été modifiées pour gérer cette situation.
 
@@ -260,9 +260,9 @@ Pour résoudre le problème, créez des relations d’entité dans l’applicati
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Activer la journalisation détaillée des messages d’erreur
 
-Dans une application de finances et d’opérations, vous pouvez rencontrer des erreurs liées à l’environnement Dataverse. Le message d’erreur peut ne pas contenir le texte intégral du message, ou d’autres données pertinentes. Pour obtenir plus d’informations, vous pouvez activer la journalisation détaillée en définissant l’indicateur **IsDebugMode** qui est présent sur l’entité **DualWriteProjectConfigurationEntity** dans toutes les configurations de projet des applications Finances et Opérations.
+Dans une application de finances et d’opérations, vous pouvez rencontrer des erreurs liées à l’environnement Dataverse. Le message d’erreur peut ne pas contenir le texte intégral du message, ou d’autres données pertinentes. Pour obtenir plus d’informations, vous pouvez activer la journalisation détaillée en définissant l’indicateur **IsDebugMode** qui est présent sur l’entité **DualWriteProjectConfigurationEntity** dans toutes les configurations de projet des applications de finances et d’opérations.
 
-1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finances et Opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
+1. Ouvrez l’entité **DualWriteProjectConfigurationEntity** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel de finances et d’opérations et ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
 2. Définissez l’indicateur **IsDebugMode** sur **Oui** dans le projet.
 3. Exécutez le scénario.
 4. Les journaux détaillés sont disponibles dans la table **DualWriteErrorLog**. Pour rechercher des données à l’aide du navigateur de tables, utilisez l’URL suivante : `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -270,7 +270,7 @@ Dans une application de finances et d’opérations, vous pouvez rencontrer des 
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>Erreur lors de l’ajout d’une adresse pour un client ou un contact
 
-Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez d’ajouter une adresse pour un client ou un contact dans les applications Finances et Opérations ou Dataverse :
+Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez d’ajouter une adresse pour un client ou un contact dans les applications de finances et d’opérations ou Dataverse :
 
 *Impossible d’écrire des données dans l’entité msdyn_partypostaladdresses. Les écritures dans DirPartyPostalAddressLocationCDSEntity ont échoué avec le message d’erreur : « La requête a échoué avec le code statut BadRequest et le code d’erreur CDS : message de réponse 0x80040265 : une erreur s’est produite dans le plug-in. Un enregistrement ayant les valeurs d’attribut ID d’emplacement existe déjà. La clé d’entité Location ID Key requiert que cet ensemble d’attributs contienne des valeurs uniques. Sélectionnez des valeurs uniques et réessayez. »*
 
@@ -290,7 +290,7 @@ Vous pouvez recevoir le message d’erreur suivant lorsque vous essayer d’ajou
 
 *« RecordError0 » : « Échec de l’écriture pour l’entité Customers V3 avec exception inconnue – Enregistrement de partie introuvable pour le type de partie "Organisation" »}.*
 
-Lorsqu’un client est créé dans Dataverse, un nouveau numéro de partie est généré. Le message d’erreur s’affiche lorsque l’enregistrement du client, ainsi que la partie, est synchronisé avec les applications Finances et Opérations, mais qu’il existe déjà un enregistrement client qui a un numéro de partie différent.
+Lorsqu’un client est créé dans Dataverse, un nouveau numéro de partie est généré. Le message d’erreur s’affiche lorsque l’enregistrement du client, ainsi que la partie, est synchronisé avec les applications de finances et d’opérations, mais qu’il existe déjà un enregistrement client qui a un numéro de partie différent.
 
 Pour résoudre le problème, recherchez le client via la recherche de partie. Si le client n’existe pas, créez un nouvel enregistrement client. Si le client existe, utilisez la partie existante pour créer le nouvel enregistrement client.
 
@@ -300,7 +300,7 @@ Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez de crée
 
 *Impossible de mettre à jour le type de partie de « DirOrganization » à « DirPerson » ; il convient plutôt d’effectuer une suppression de la partie existante suivie d’une insertion avec le nouveau type.*
 
-Dans Dataverse, il existe une souche de numéros sur la table **msdyn_party**. Lorsqu’un compte est créé dans Dataverse, une nouvelle partie est créée (par exemple **Partie-001** du type **Organisation**). Ces données sont envoyées à l’application de finances et d’opérations. Si l’environnement Dataverse est réinitialisé, ou si l’environnement de finances et d’opérations est lié à un autre environnement Dataverse, puis qu’un nouvel enregistrement de contact est créé dans Dataverse, une nouvelle valeur de partie commençant par **Partie-001** est créé. Cette fois, l’enregistrement de partie créé sera **Partie-001** du type **Personne**. Lorsque ces données sont synchronisées, les applications Finances et Opérations affichent le message d’erreur précédent, parce que l’enregistrement de partie **Partie-001** du type **Organisation** existe déjà.
+Dans Dataverse, il existe une souche de numéros sur la table **msdyn_party**. Lorsqu’un compte est créé dans Dataverse, une nouvelle partie est créée (par exemple **Partie-001** du type **Organisation**). Ces données sont envoyées à l’application de finances et d’opérations. Si l’environnement Dataverse est réinitialisé, ou si l’environnement de finances et d’opérations est lié à un autre environnement Dataverse, puis qu’un nouvel enregistrement de contact est créé dans Dataverse, une nouvelle valeur de partie commençant par **Partie-001** est créé. Cette fois, l’enregistrement de partie créé sera **Partie-001** du type **Personne**. Lorsque ces données sont synchronisées, les applications de finances et d’opérations affichent le message d’erreur précédent, parce que l’enregistrement de partie **Partie-001** du type **Organisation** existe déjà.
 
 Pour résoudre le problème, modifiez la souche de numéros automatique pour le champ **msdyn_partynumber** de la table **msdyn_party** dans Dataverse en une autre séquence de numéros automatique.
 
@@ -355,3 +355,4 @@ Après avoir mis à jour les méthodes, procédez comme suit.
 3. Démarrez les mappages. Vous devriez voir moins d’enregistrements dans les entité **smmContactPersonCDSV2Entity** et **CustCustomerV3Entity** et la table **BusinessEventsDefinition**, et les performances pourraient légèrement s’améliorer.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+
