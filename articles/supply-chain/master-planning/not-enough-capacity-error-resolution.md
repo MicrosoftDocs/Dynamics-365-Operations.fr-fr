@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891029"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135597"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Correction de l’erreur du moteur de planification « Capacité suffisante introuvable »
 
@@ -99,17 +99,53 @@ Pour effectuer une planification de capacité infinie, procédez comme suit.
 Pour examiner la capacité disponible sur la ressource, procédez comme suit.
 
 1. Accédez à **Administration d’organisation \> Ressources \> Ressources**, puis sélectionnez une ressource applicable à la commande qui ne peut pas être planifiée.
-1. Dans le volet Actions, dans l’onglet **Ressource**, dans le groupe **Vue**, sélectionnez **Capacité maximale** ou **Charge maximale, graphique**, et assurez-vous qu’il y a de la capacité disponible.
+1. Dans le volet Actions, dans l’onglet **Ressource**, dans le groupe **Vue**, sélectionnez **Charge maximale** ou **Charge maximale, graphique**, et assurez-vous qu’il y a de la capacité disponible.
 
 Pour examiner la capacité disponible sur le groupe de ressources, procédez comme suit.
 
 1. Accédez à **Administration d’organisation \> Ressources \> Groupe de ressources**, puis sélectionnez un groupe de ressources applicable à la commande qui ne peut pas être planifiée.
-1. Dans le volet Actions, dans l’onglet **Groupe de ressources**, dans le groupe **Vue**, sélectionnez **Capacité maximale** ou **Charge maximale, graphique**, et assurez-vous qu’il y a de la capacité disponible.
+1. Dans le volet Actions, dans l’onglet **Groupe de ressources**, dans le groupe **Vue**, sélectionnez **Charge maximale** ou **Charge maximale, graphique**, et assurez-vous qu’il y a de la capacité disponible.
 
 ## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>La planification générale réserve une ressource lorsque le calendrier des ressources est fermé
 
 Lors de l’utilisation de la planification des opérations, la planification générale planifiera la capacité en fonction du calendrier du groupe de ressources principal. Elle réserve l’opération secondaire en même temps que l’opération primaire et ne tient pas compte des calendriers ou de la capacité de l’opération secondaire. Cela peut entraîner la planification de l’ordre de fabrication sur un calendrier fermé ou à un moment où l’opération secondaire n’est pas disponible (calendrier fermé, pas de capacité).
 
 Lors de l’utilisation de la planification des tâches, la planification principale prendra en compte la capacité et le calendrier de l’opération principale et secondaire lors de la planification de l’ordre. Pour que l’ordre soit planifié, les calendriers des ressources des deux opérations doivent être ouverts et avoir une capacité disponible.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>Le délai maximum d’exécution de la tâche est trop court
+
+Le moteur de planification ne pourra pas planifier une commande si le **Délai maximum d’exécution de la tâche** défini pour votre site est inférieur au délai spécifié pour un article dans ses paramètres de commande par défaut ou ses paramètres de couverture.
+
+Pour afficher ou modifier le paramètre **Délai maximum d’exécution de la tâche** pour votre site, accédez à **Contrôle de production \> Installer \> Paramètres de contrôle de production** et ouvrez l’onglet **Général**.
+
+Pour afficher ou modifier les paramètres de commande par défaut pour un article, procédez comme suit :
+
+1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
+1. Recherchez et sélectionnez le produit pertinent dans la liste.
+1. Sur le volet Action, ouvrez l’onglet **Gérer le stock** et sélectionnez **Paramètres de commande par défaut**.
+1. Développez le raccourci **Stock** et affichez ou modifiez le paramètre **Délai de stock**, au besoin.
+
+Pour afficher ou modifier les paramètres de couverture pour un article, procédez comme suit :
+
+1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
+1. Recherchez et sélectionnez le produit pertinent dans la liste.
+1. Dans le volet Actions, ouvrez l’onglet **Planifier** et sélectionnez **Couverture de l’article**.
+1. Ouvrez l’onglet **Délai d’exécution** et affichez ou modifiez la valeur **Délai de production**, au besoin.
+
+## <a name="excessive-quantity-of-required-resources"></a>Quantité excessive de ressources requises
+
+Lors de la planification, le moteur essaie de faire correspondre la quantité de ressources requise définie pour une opération de gamme aux ressources applicables en fonction des besoins en ressources de l’opération. Définir une quantité de ressources trop élevée peut rendre un itinéraire irréalisable, ce qui produira une erreur de planification.
+
+Utilisez la procédure suivante pour vérifier à la fois la quantité spécifiée et les ressources applicables pour un produit, une gamme et une opération de gamme sélectionnés :
+
+1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
+1. Recherchez et sélectionnez le produit pertinent dans la grille.
+1. Dans le volet Actions, ouvrez l’onglet **Ingénieur** et sélectionnez **Itinéraire**.
+1. Recherchez et sélectionnez l’itinéraire pertinent dans la grille.
+1. Ouvrez l’onglet **Vue d’ensemble** en bas de la page.
+1. Sélectionnez une opération dans la liste des opérations d’itinéraire sélectionnées.
+1. Sélectionnez **Ressources applicables** pour ouvrir une boîte de dialogue dans laquelle vous pouvez afficher les ressources applicables pour l’opération de routage sélectionnée.
+1. Ouvrez l’onglet **Charge de la ressource**. Le champ **Quantité** indique ici la quantité de ressource requise pour l’opération de routage sélectionnée. Affichez-la et/ou modifiez-la, au besoin.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

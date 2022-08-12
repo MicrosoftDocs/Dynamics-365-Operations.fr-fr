@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f78201585101e2848eded69e03d5eb4c22d7e9a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874244"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066760"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 26 septembre 2020
 
@@ -39,7 +39,7 @@ Cette version inclut les nouvelles fonctionnalités et correctifs de bogues suiv
 
 La fonctionnalité suivante est généralement disponible avec cette version :
 
-- **La mise à jour de la plate-forme 10.0.13 est maintenant disponible** : Pour plus d’informations sur la mise à jour, consultez [Mises à jour de la plate-forme pour la version 10.0.13 des applications Finances et Opérations (octobre 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+- **La mise à jour de la plate-forme 10.0.13 est maintenant disponible** : Pour plus d’informations sur la mise à jour, consultez [Mises à jour de la plate-forme pour la version 10.0.13 des applications de finances et d’opérations (octobre 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 

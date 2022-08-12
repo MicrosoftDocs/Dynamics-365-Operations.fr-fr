@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 171b383e1549babd76fd18e4932436a66aa62cc1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f0371cf9862afaf3bc43a44def725c420e9aaf56
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873925"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166741"
 ---
 # <a name="vendor-invoice-entities"></a>Entités Facture fournisseur
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 Le module **Prix au débarquement** permet de configurer des codes de type de coût pour les coûts internes ou les coûts externes dérivés. Si un coût est externe à une entreprise, une facture est attendue du prestataire. Cette facture est traitée comme un journal des factures pouvant être associé à un voyage, et la valeur de la facture peut être répartie sur un ou plusieurs coûts du voyage.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d05403113c9b178553134ce1a9066bb2acf59b0f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868516"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068103"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuration pour Finance Insights – versions 10.0.20 et ultérieures
 
@@ -755,3 +755,4 @@ L’installation du complément peut prendre plusieurs minutes.
 Si vous souhaitez fournir des commentaires ou si vous avez besoin d’aide, veuillez envoyer un e-mail à [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873809"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186481"
 ---
 # <a name="priority-based-planning"></a>Planification basée sur la priorité
 
 [!include [banner](../../includes/banner.md)]
 
-Cet article décrit la fonctionnalité de planification basée sur la priorité de Microsoft Dynamics 365 Supply Chain Management. La fonctionnalité ajoute la prise en charge de la planification pilotée par la demande, qui est une étape de la Planification des besoins en matières basée sur la demande. La planification basée sur les priorités permet à l’optimisation de la planification de générer des ordres planifiés basés sur les priorités de planification plutôt que sur les dates des besoins.
+Cet article décrit la fonctionnalité de planification basée sur la priorité de Microsoft Dynamics 365 Supply Chain Management. La fonctionnalité ajoute la prise en charge de la planification pilotée par la demande, qui est une étape de la [Planification des besoins en matières basée sur la demande](ddmrp-overview.md). La planification basée sur les priorités permet à l’optimisation de la planification de générer des ordres planifiés basés sur les priorités de planification plutôt que sur les dates des besoins.
 
 La planification basée sur les priorités vous permet de hiérarchiser les ordres de réapprovisionnement pour vous assurer que la demande urgente est prioritaire par rapport à la demande moins importante. Par exemple, un ordre de réapprovisionnement de stock insuffisant sera prioritaire par rapport à un ordre de réapprovisionnement standard. Le système peut diviser automatiquement les commandes plus importantes en commandes plus petites séparées où les lignes de commande sont regroupées par priorité. Il peut alors traiter en premier toutes les commandes prioritaires.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: d7e68cbe1132547fea5c72458a93b1a449a67c86
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f215d5f6758f222a9dc6b382b172009836547ec
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902138"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066999"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Utiliser l’espace de travail mobile pour la gestion des actifs
 
@@ -46,7 +46,7 @@ Avant de pouvoir utiliser l’espace de travail mobile **Gestion des actifs**, v
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Téléchargez et installez l’application mobile Finance et Opérations (Dynamics 365) :
+Téléchargez et installez l’application mobile de finances et d’opérations (Dynamics 365) :
 
 - [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -241,3 +241,4 @@ Téléchargez et installez l’application mobile Finance et Opérations (Dynami
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

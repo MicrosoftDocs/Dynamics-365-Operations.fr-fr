@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869255"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109578"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d’ensemble des états électroniques
 
@@ -66,7 +66,7 @@ ER prend actuellement en charge les formats de feuille de calcul TEXT, XML, JSON
 
 Le moteur d’états électroniques est doté des fonctionnalités suivantes :
 
-- il représente un outil commun unique partagé pour la génération d’états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d’états électronique pour Finance and Operations.
+- Il représente un outil commun unique partagé pour la génération d’états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d’états électronique pour les applications de finances et d’opérations.
 - Il isole le format d’un état de l’implémentation actuelle. En d’autres termes, le format est applicable aux différentes versions.
 - Il prend en charge la création d’un format personnalisé qui est basé sur un format d’origine. Il inclut également des fonctionnalités permettant de mettre à niveau automatiquement le format personnalisé lorsque le format d’origine est modifié du fait que des spécifications de localisation/personnalisation sont introduites.
 - Il devient l’outil standard principal pour prendre en charge les exigences de localisation dans les états électroniques, pour Microsoft ainsi que pour les partenaires de Microsoft.
@@ -126,7 +126,7 @@ Une configuration d’état électronique est partagée pour les sociétés de l
 
 #### <a name="provider"></a><a name="Provider"></a>Fournisseur
 
-Le fournisseur d’états électroniques est l’identificateur de partie utilisé pour indiquer l’auteur (propriétaire) de chaque configuration d’état électronique. L’état électronique vous permet de gérer la liste des fournisseurs de configuration. Les configurations de format émises pour les documents électroniques dans le cadre de la solution Finance and Operations sont marquées comme détenues par le fournisseur de configuration **Microsoft**.
+Le fournisseur d’états électroniques est l’identificateur de partie utilisé pour indiquer l’auteur (propriétaire) de chaque configuration d’état électronique. L’état électronique vous permet de gérer la liste des fournisseurs de configuration. Les configurations de format émises pour les documents électroniques dans le cadre de la solution de finances et d’opérations sont marquées comme détenues par le fournisseur de configuration **Microsoft**.
 
 Pour savoir comment enregistrer un nouveau fournisseur d’états électroniques, consultez le Guide de tâche, **Génération d’états électroniques – Créer un fournisseur de configuration et le marquer comme actif** (qui fait partie du processus d’entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
@@ -143,7 +143,7 @@ Un référentiel d’états électroniques enregistre les configurations d’ét
 
 Un référentiel **Bibliothèque LCS partagée** permet d’accéder à la liste des configurations dans la bibliothèque des actifs partagés de Lifecycle Services (LCS). Ce type de référentiel ER ne peut être enregistré que pour le fournisseur Microsoft. À partir de la bibliothèque d’actifs LCS partagés, vous pouvez importer les dernières versions des configurations ER dans l’instance actuelle.
 
-Un référentiel **Projet LCS** permet d’accéder à la liste des configurations d’un projet LCS spécifique (bibliothèque d’actifs de projet LCS) sélectionné lors de l’enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l’instance actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers l’instance actuelle de vos applications Finances et Opérations.
+Un référentiel **Projet LCS** permet d’accéder à la liste des configurations d’un projet LCS spécifique (bibliothèque d’actifs de projet LCS) sélectionné lors de l’enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l’instance actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers l’instance actuelle de vos applications de finances et d’opérations.
 
 Un référentiel **Système de fichiers** permet d’accéder à la liste des configurations situées en tant que fichiers xml dans le dossier spécifique du système de fichiers local de l’ordinateur où le service AOS est hébergé. Le dossier requis est sélectionné au stade d’enregistrement du référentiel. Vous pouvez importer des configurations depuis un référentiel **Système de fichiers** vers l’instance actuelle. 
 
@@ -270,3 +270,4 @@ La liste des configurations de gestion des états électroniques pour Finance es
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

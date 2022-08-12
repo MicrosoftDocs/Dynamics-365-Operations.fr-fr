@@ -2,7 +2,7 @@
 title: Automatisation des processus
 description: Cet article fournit des détails sur la façon dont l’automatisation des processus permet une planification simple des processus qui seront exécutés par le serveur de traitement par lots.
 author: RyanCCarlson2
-ms.date: 04/20/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: f13392fd6610735f8c539d42b62cf71cece71fba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
+ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898607"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9114933"
 ---
 # <a name="process-automation"></a>Automatisation des processus
 
@@ -30,7 +30,7 @@ L’automatisation des processus permet une planification simple des processus q
 
 La page d’administration centrale de toutes les automatisations de processus se trouve dans le module Administration système sous le menu **Paramétrage**. Cette page répertoriera tous les processus automatisés (séries) configurés dans le système. Elle vous permettra également d’ajouter de nouvelles automatisations de processus directement à partir de cette page. Une fois une série configurée, vous pouvez gérer chaque série à partir de cette liste. Vous pouvez choisir de modifier toute la série, de la supprimer, d’afficher toutes les occurrences dans une vue liste ou de désactiver la série si vous souhaitez interrompre le travail planifié pendant un certain temps. 
 
-Les processus désactivés dans la gestion des fonctionnalités ne s’afficheront pas lorsque la fonctionnalité est désactivée. De plus, le moteur de planification de l’automatisation des processus ne planifiera aucune occurrence ou processus d’arrière-plan pour une fonction désactivée. La réactivation de la fonction entraînera l’exécution immédiate de toutes les occurrences planifiées ou processus d’arrière-plan du passé. Le moteur de planification de l’automatisation des processus repose sur le traitement par lots du système, **Tâche système d’interrogation de l’automatisation des processus** pour s’exécuter. La tâche ne doit être ni modifiée ni falsifiée à aucun moment. 
+Les processus désactivés dans la gestion des fonctionnalités ne s’afficheront pas lorsque la fonctionnalité est désactivée. De plus, le moteur de planification de l’automatisation des processus ne planifiera aucune occurrence ou processus d’arrière-plan pour une fonction désactivée. La réactivation de la fonction entraînera l’exécution immédiate de toutes les occurrences planifiées ou processus d’arrière-plan du passé. Le moteur de planification de l’automatisation des processus repose sur le traitement par lots du système, **Tâche système d’interrogation de l’automatisation des processus** pour s’exécuter. La tâche ne doit être ni modifiée ni falsifiée à aucun moment. Si ce travail par lots n’est pas en cours d’exécution ou s’il présente un état d’erreur, sélectionnez **Initialiser l’automatisation des processus** pour réinitialiser le travail par lots. Cette réinitialisation garantit que toutes les nouvelles automatisations publiées dans une version plus récente de l’application sont initialisées. 
 
 ## <a name="calendar-view"></a>Vue calendrier
 

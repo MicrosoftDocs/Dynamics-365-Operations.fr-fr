@@ -6,21 +6,22 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 264084
-ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "264084"
+ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
+ms.search.form: HcmWorkforceWorkspace
+ms.openlocfilehash: 156657e5f9876bd051f317f0bbcd8664807dd7d3
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884486"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206617"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Contenu Power BI Mesures de main d’œuvre
 
@@ -58,7 +59,7 @@ Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et 
 Veillez à télécharger le contenu Power BI **Mesures de la main œuvre** qui s’applique à la version de Microsoft Dynamics 365 que vous utilisez.
 
 > [!NOTE]
-> Les fichiers .pbix disponibles dans Lifecycle Services s’appliquent uniquement aux applications Finance et Opérations.
+> Les fichiers .pbix disponibles dans Lifecycle Services s’appliquent uniquement aux applications de finances et d’opérations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 Le tableau suivant indique les entités sur lesquelles le contenu est basé.

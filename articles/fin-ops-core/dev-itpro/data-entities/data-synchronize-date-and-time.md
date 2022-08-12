@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: b8faa7b73349c48d3a02b685546b47c4969c6027
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403839"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109430"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Synchroniser la date et l’heure dans les tâches d’importation
 
@@ -25,9 +25,9 @@ ms.locfileid: "7403839"
 
 Il est important de définir le fuseau horaire de votre tâche d’importation sur le temps universel coordonné (UTC). Vous pouvez voir des dates et des heures inattendues dans vos données importées si vous utilisez un paramètre différent. Sans le paramètre correct, le processus d’importation convertit la date UTC au format local, puis les paramètres système la convertit à nouveau.
 
-Cette double conversion fait changer les dates entre les applications. Par exemple, la double conversion pourrait faire en sorte que la date de début d’un employé soit différente entre Dynamics 365 Human Resources et Dynamics 365 Finance en raison de différences dans les fuseaux horaires locaux. La définition de la tâche d’importation sur UTC résout ce problème.
+Cette double conversion fait changer les dates entre les applications. Par exemple, la double conversion pourrait faire en sorte que la date de début d’un employé soit différente entre Dynamics 365 Human Resources et Dynamics 365 Finance en raison de différences dans les fuseaux horaires locaux. La définition de la tâche d’importation sur UTC résout ce problème.
 
-1. Dans Dynamics 365 Finance and Operations, sélectionnez **Gestion de données**.
+1. Dans les applications de finances et d’opérations de Dynamics 365, sélectionnez **Gestion des données**.
 
 2. Sélectionnez **Importer des projets**, puis sélectionnez le projet.
 
@@ -41,3 +41,4 @@ Cette double conversion fait changer les dates entre les applications. Par exemp
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

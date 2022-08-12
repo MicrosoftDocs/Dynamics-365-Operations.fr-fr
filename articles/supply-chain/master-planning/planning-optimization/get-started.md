@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900968"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112178"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -40,7 +40,7 @@ Avant d’activer l’Optimisation de la planification, nous vous recommandons f
 
 ## <a name="availability"></a>Disponibilité
 
-Le complément Optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Brésil, Europe, Royaume-Uni, Australie, Asie-Pacifique, Japon et Inde. Si vous essayez d’installer le complément à partir d’une autre région géographique, LCS affichera un message indiquant que cette zone géographique n’est pas prise en charge. Pour plus d’informations sur les zones géographiques Azure et les régions associées, consultez [Géographies Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Le complément Optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Brésil, Europe, France, Royaume-Uni, Australie, Asie-Pacifique, Japon et Inde. Si vous essayez d’installer le complément à partir d’une autre région géographique, LCS affichera un message indiquant que cette zone géographique n’est pas prise en charge. Pour plus d’informations sur les zones géographiques Azure et les régions associées, consultez [Géographies Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Notez que Optimisation de la planification ne prend pas en charge les déploiements locaux de Dynamics 365 Supply Chain Management.
 
@@ -58,7 +58,7 @@ Avant d’installer le complément Optimisation de la planification, les conditi
 
 - Vous devez exécuter Supply Chain Management sur un environnement à haute disponibilité compatible LCS, niveau 2 ou supérieur (pas un environnement OneBox), avec Dynamics 365 Supply Chain Management version 10.0.7 ou les versions ultérieures. Si vous essayez d’installer le complément dans un environnement OneBox, l’installation ne se terminera pas et vous devrez annuler l’installation.
 
-- Votre système doit être configuré pour l’intégration Power Platform. Pour plus d’informations, voir [Intégration de Microsoft Power Platform avec les applications Finance et Opérations](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Votre système doit être configuré pour l’intégration Power Platform. Pour plus d’informations, voir [Intégration de Microsoft Power Platform avec les applications de finances et d’opérations](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Activer la licence du complément Optimisation de la planification
 
@@ -135,3 +135,4 @@ Si l’Optimisation de la planification est activée, la planification est effec
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

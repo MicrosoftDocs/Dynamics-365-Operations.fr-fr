@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879802"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111968"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuration en double écriture depuis Lifecycle Services
 
@@ -28,8 +28,8 @@ Cet article explique comment activer la double écriture depuis Microsoft Dynami
 
 Les clients doivent terminer l’intégration de Power Platform comme décrit dans les rubriques suivantes :
 
-- Si vous n’utilisez pas encore Microsoft Power Platform et souhaitez étendre vos environnements Finance et Opérations en ajoutant des fonctionnalités de plateforme, consultez [Intégration Power Platform - Activer pendant le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
-- Si vous avez déjà Dataverse et Power Platform et que vous souhaitez les connecter aux environnements Finance et Opérations, consultez [Intégration Power Platform - Activer après le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
+- Si vous n’utilisez pas encore Microsoft Power Platform et souhaitez étendre vos environnements de finance et d’opérations en ajoutant des fonctionnalités de plateforme, consultez [Intégration Power Platform : activer pendant le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Si vous avez déjà Dataverse et Power Platform et que vous souhaitez les connecter aux environnements de finances et d’opérations, consultez [Intégration Power Platform : activer après le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Configurer la double écriture pour des environnements Dataverse nouveaux ou existants
 
@@ -53,7 +53,7 @@ Suivez ces étapes pour configurer la double écriture depuis la page **Détails
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Lier à l’environnement Power Platform.":::
 
-8. Une fois la liaison terminée, un lien hypertexte s’affiche. Utilisez le lien pour vous connecter à la zone d’administration de la double écriture dans l’environnement Finances et Opérations. À partir de là, vous pouvez configurer les mappages d’entités.
+8. Une fois la liaison terminée, un lien hypertexte s’affiche. Utilisez le lien pour vous connecter à la zone d’administration de la double écriture dans l’environnement de finances et d’opérations. À partir de là, vous pouvez configurer les mappages d’entités.
 
 ## <a name="linking-mismatch"></a>Incompatibilité de liaison
 
@@ -71,3 +71,4 @@ Si vous recevez cet avertissement, essayez l’une des solutions suivantes :
 Dans le passé, une option de ticket d’assistance manuelle était disponible, mais c’était avant l’existence de l’option 1 ci-dessus.  Microsoft ne prend plus en charge les demandes de réassociation manuelle via les tickets de support.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+
