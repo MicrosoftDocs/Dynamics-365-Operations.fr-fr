@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.search.industry: public sector
-ms.author: roschlom
-ms.search.validFrom: 2019-9-03
+ms.author: v-kiarnd
+ms.search.validFrom: 2019-09-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0cfd110b69006b182e3f2a55581e9381a89b587e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: public sector
+ms.openlocfilehash: f2ce341e9f2b3d41f30c2d1c309a262c2c474aba
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893921"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275856"
 ---
 # <a name="calculate-the-delivery-date-for-a-line-based-on-the-lead-time"></a>Calculer la date de livraison d’une ligne, en fonction du délai de livraison
 

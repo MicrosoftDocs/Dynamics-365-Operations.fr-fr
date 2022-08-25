@@ -1,26 +1,26 @@
 ---
 title: Destinations pour la gestion des états électroniques
 description: Cet article fournit des informations sur la gestion des destinations pour la gestion des états électroniques, les types de destinations prises en charge et les considérations de sécurité.
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851075"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281965"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
@@ -118,7 +118,7 @@ Lorsque vous configurez des destinations de fichiers pour un format sélectionn�
 
 [![Lien Configuration.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-En même temps, vous pouvez avoir plusieurs [versions](general-electronic-reporting.md#component-versioning) du format importé dans l’instance Finance actuelle. Vous pouvez les afficher si vous sélectionnez le lien **Configuration** proposé lorsque vous sélectionnez le champ **Référence**.
+En même temps, vous pouvez avoir plusieurs versions du format importé dans l’instance Finance actuelle. Vous pouvez les afficher si vous sélectionnez le lien **Configuration** proposé lorsque vous sélectionnez le champ **Référence**.
 
 [![Versions de configuration.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -180,6 +180,16 @@ Le document PDF produit est limité à une longueur maximum de 300 pages.
 Depuis la **version 10.0.9** de Finance, seule l’orientation de la page au format paysage est prise en charge dans le document PDF généré depuis une sortie Excel. À compter de la **version 10.0.10** de Finance, vous pouvez [spécifier l’orientation de la page](#SelectPdfPageOrientation) dans le document PDF généré à partir d’une sortie Excel pendant que vous configurez une destination pour les états électroniques (ER).
 
 Seules les polices système courantes du système d’exploitation Windows sont utilisées pour la conversion d’une sortie qui ne contient aucune police intégrée.
+
+### <a name="resources"></a>Ressources
+
+Avant Finance version 10.0.29, la conversion PDF ne pouvait être effectuée qu’en dehors de l’instance Finance actuelle. Un fichier généré a été envoyé par Finance au service de conversion, et ce service a ensuite renvoyé le document converti. Cependant, dans la version **10.0.29 et versions ultérieures**, en plus de la fonctionnalité **Convertir les documents sortants de rapports électroniques Microsoft Office au format PDF**, vous pouvez activer la fonctionnalité **Utiliser les ressources de l’application pour effectuer la conversion des documents CBD du format Word au format PDF**. Cette fonctionnalité vous permet de convertir localement des documents Word générés au format PDF en utilisant les ressources du serveur d’applications dans l’instance Finance actuelle. 
+
+Voici les avantages de la conversion PDF locale lorsque la fonctionnalité **Utiliser les ressources de l’application pour effectuer la conversion des documents CBD du format Word au format PDF** est activée :
+
+- Le document PDF produit n’est pas [limité](#limitations) à un nombre de pages maximal.
+- Le document Word qui est converti peut contenir un [grand nombre de contrôles de contenu](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3).
+- La connectivité Internet n’est pas requise dans les déploiements sur site.
 
 ### <a name="use-the-pdf-conversion-option"></a>Utilisez l’option de conversion PDF
 

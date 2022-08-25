@@ -1,26 +1,26 @@
 ---
 title: Liste annuelle de TVA des ventes intérieures
 description: Cet article fournit des informations sur la liste TVA annuelle belge des ventes intérieures ou l’état du chiffre d’affaires des factures.
-author: andosip
+author: AdamTrukawka
 ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Belgium
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33e4040cd7f11289909807b8caff6022f60c65d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 8ab3d28db4d8dafa99a11f5e1fcc3ebaf79d9f40
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894000"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275211"
 ---
 # <a name="annual-vat-listing-of-domestic-sales"></a>Liste annuelle de TVA des ventes intérieures
 

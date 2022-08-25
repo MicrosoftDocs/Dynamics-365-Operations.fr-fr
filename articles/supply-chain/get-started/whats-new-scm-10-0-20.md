@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123806"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219152"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.20 (août 2021)
 
@@ -49,7 +49,7 @@ Le tableau suivant répertorie les améliorations de fonctionnalités incluses d
 | Module | Nom&nbsp;de la fonctionnalité&nbsp;dans Gestion&nbsp;des fonctionnalités | Informations supplémentaires |
 |---|---|---|
 | Planification générale | Autorisation parallèle de l’ajustement de la prévision de la demande | Cette fonctionnalité permet l’autorisation parallèle de la prévision de la demande ajustée dans la page **Prévision de la demande ajustée**. Cette fonctionnalité a pour but d’augmenter les performances lorsqu’un grand nombre de prévisions est autorisé. Lors de l’autorisation, l’utilisateur peut spécifier le **Nombre de fils de discussion** dans la boîte de dialogue d’autorisation. |
-| Planification | (Aperçu) Confirmation et consolidation pouvant être traitées par lots pour les lots de commandes planifiées de consommables et d’articles emballés | Cette fonctionnalité vous permet d’utiliser les traitements par lots pour confirmer et consolider les commandes planifiées de consommables et d’articles emballés. |
+| Planification générale | Confirmation et consolidation pouvant être traitées par lots pour les lots de commandes planifiées de consommables et d’articles emballés | Cette fonctionnalité vous permet d’utiliser les traitements par lots pour confirmer et consolider les commandes planifiées de consommables et d’articles emballés. |
 | Contrôle de la production | Copier les gammes génériques | Cette fonctionnalité améliore la fonction de copie de la gamme pour permettre aux utilisateurs de copier des gammes qui ne sont pas spécifiques à un élément. Ellle permet au système de mettre à jour toutes les informations pertinentes (telles que le site, le groupe de gammes, les besoins en ressources et les différentes heures) une fois que la fonction de copie de la gamme a été utilisée pour remplacer une gamme qui n’est pas encore affectée à un article. |
 | Contrôle de la production | Mettre à jour les ressources requises liées lorsqu’une opération de gamme est modifiée | Cette fonctionnalité permet au système de mettre à jour les ressources requises liées après qu’un utilisateur a modifié l’opération d’une étape de gamme existante. |
 | Gestion des informations sur les produits | Pré-traitement du rapport de nomenclature pour éviter le délai d’attente | Cette fonctionnalité entraîne le prétraitement du rapport de nomenclature. Cela évitera les problèmes de délai d’attente lorsqu’il y a un chargement de données important pour le rapport. |

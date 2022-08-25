@@ -1,32 +1,32 @@
 ---
-title: Configurer la taxe pour les commandes en ligne
-description: Cet article fournit une vue d’ensemble de la sélection du groupe de taxes pour différents types de commande en ligne dans Dynamics 365 Commerce.
+title: Configurer la taxe de vente pour les commandes en ligne
+description: Cet article fournit une vue d’ensemble de la sélection du groupe de taxes de vente pour différents types de commande en ligne dans Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac9fefe68663d76b3461d3209530976f66b113ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906884"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276714"
 ---
-# <a name="configure-sales-tax-for-online-orders"></a>Configurer la taxe pour les commandes en ligne
+# <a name="configure-sales-tax-for-online-orders"></a>Configurer la taxe de vente pour les commandes en ligne
 
 [!include [banner](includes/banner.md)]
 
-Cet article fournit une vue d’ensemble de la sélection du groupe de taxes pour différents types de commande en ligne à l’aide des paramètres de taxe basés sur la destination ou sur le compte client. 
+Cet article fournit une vue d’ensemble de la sélection du groupe de taxes de vente pour différents types de commande en ligne à l’aide des paramètres de taxe basés sur la destination ou sur le compte client. 
 
 Vous pouvez souhaiter que votre canal de commerce électronique puisse prendre en charge des options telles que la livraison ou le retrait des commandes en ligne. L’applicabilité de la taxe est basée sur l’option sélectionnée par vos clients en ligne. 
 

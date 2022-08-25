@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849124"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219686"
 ---
 # <a name="system-directed-work-sequencing"></a>Classement des travaux dirigés par le système
 
@@ -44,7 +44,7 @@ Avant de pouvoir utiliser le classement des travaux dirigés par le système, la
 
 ### <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Pour utiliser le scénario à l’aide des valeurs présentées dans cet article, vous devez utiliser un système sous lequel les données de démonstration standard sont installées. De plus, vous devez sélectionner l’entité juridique **USMF**. Le scénario utilise l’entrepôt *51* à partir des données de démonstration.
+Pour utiliser le scénario à l’aide des valeurs présentées dans cet article, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. De plus, vous devez sélectionner l’entité juridique **USMF**. Le scénario utilise l’entrepôt *51* à partir des données de démonstration.
 
 > [!IMPORTANT]
 > Avant de lancer les commandes à l’entrepôt, assurez-vous que les emplacements de prélèvement disposent d’un stock suffisant pour tous les articles des commandes.

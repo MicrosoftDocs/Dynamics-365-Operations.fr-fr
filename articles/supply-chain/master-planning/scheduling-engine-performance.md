@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854295"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219905"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Améliorer les performances du moteur de planification
 
@@ -294,7 +294,9 @@ Une alternative à l’utilisation d’opérations parallèles consiste, au choi
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Itinéraire où la quantité des ressources est supérieure à 1
 
-Si vous définissez la quantité de ressources nécessaires pour une opération supérieure à un, le résultat est le même que si vous utilisiez des opérations primaire/secondaire, car plusieurs tâches parallèles sont envoyées au moteur. Cependant, dans ce cas, il n’est pas possible d’utiliser des affectations de ressources spécifiques, car une quantité supérieure à un nécessite que plusieurs ressources soient applicables pour l’opération.
+Si la quantité de ressources nécessaires pour une opération est supérieure à une, alors le résultat est effectivement le même que l'utilisation d'opérations primaires/secondaires, car plusieurs tâches parallèles seront envoyées au moteur. Cependant, dans ce cas, il n’est pas possible d’utiliser des affectations de ressources spécifiques car une quantité supérieure à une nécessite plus d'une ressource pour être applicable pour l’opération.
+
+Une opération secondaire qui a une quantité de charge de ressources supérieure à une signifie que la quantité spécifiée de ressources secondaires est nécessaire pour chaque ressource de l’opération principale. Par exemple, si une opération principale a sa quantité de ressources définie sur deux et son opération secondaire a sa quantité de ressources définie sur trois, alors un total de six ressources est nécessaire pour l’opération secondaire.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Utilisation excessive d’une capacité finie
 

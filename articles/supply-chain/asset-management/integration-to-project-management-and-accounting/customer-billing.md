@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7c2c07f3e3eb76ff20e37e8d5d485dc08232c7a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887687"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220420"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Facture de maintenance sur les actifs appartenant au client
 
@@ -49,7 +49,7 @@ Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votr
 
 Pour savoir comment cette fonctionnalité fonctionne, suivez l’exemple de scénario suivant.
 
-Pour utiliser ce scénario à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard sont installées. Vous devez sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser ce scénario à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. Vous devez sélectionner l’entité juridique **USMF** avant de commencer.
 
 Vous pouvez également utiliser ce scénario comme orientation pour utiliser la fonctionnalité lorsque vous travaillez sur un système de production. Cependant, dans ce cas, vous devez remplacer vos propres valeurs, et il se peut que certains types d’enregistrements requis que les données de démonstration standard fournissent manquent.
 

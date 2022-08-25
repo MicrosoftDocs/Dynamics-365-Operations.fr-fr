@@ -6,22 +6,22 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustBillingClassification
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 27311
-ms.assetid: 9d61d1d8-1672-4bd0-ae0d-605b09240890
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: kfend
+ms.author: v-kiarnd
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aaed0dd40b86e209e9e2ee8c368efe88eb1160c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 27311
+ms.assetid: 9d61d1d8-1672-4bd0-ae0d-605b09240890
+ms.search.industry: Public sector
+ms.search.form: CustBillingClassification
+ms.openlocfilehash: 1e9d89c166dfa0b027aeb9f5a926e5a34b142258
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846432"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291532"
 ---
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167759"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220360"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -87,29 +87,23 @@ Cette fonctionnalité offre une expérience améliorée pour l’affichage des l
 
 ### <a name="enable-registering-of-material-consumption"></a>Activer l’enregistrement de la consommation de matières
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Cette fonctionnalité permet aux travailleurs d’utiliser l’interface d’exécution de l’atelier de production pour enregistrer la consommation de matériaux, les numéros de lot et les numéros de série. Certains fabricants, en particulier ceux des industries de transformation, doivent enregistrer explicitement la quantité de matière consommée pour chaque lot ou ordre de fabrication. Par exemple, les travailleurs peuvent utiliser une balance pour peser la quantité de matière consommée pendant qu’ils travaillent. Pour assurer une traçabilité totale des matériaux, ces organisations doivent également enregistrer les numéros de lots consommés au moment de la fabrication de chaque produit.
 
 Il existe deux versions de cette fonctionnalité. L’une prend en charge les articles qui ne *sont pas* activés pour utiliser les processus de gestion des entrepôts. L’autre prend en charge les éléments qui *sont* activés pour utiliser WMS. Pour utiliser cette fonctionnalité, activez une ou les deux fonctionnalités suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (dans cet ordre), selon que vous avez ou non des éléments activés pour WMS :
 
 - *Enregistrer la consommation des matériaux sur l’interface d’exécution de l’atelier de production (autre que WMS)*
-- *(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)*
+- *Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)*
 
 > [!IMPORTANT]
 > Vous pouvez utiliser la fonctionnalité non-WMS seule. Cependant, si vous utilisez WMS, vous devez activer les deux fonctionnalités.
 
 ### <a name="enable-reporting-on-catch-weight-items"></a>Activer les rapports sur les éléments de poids variable
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Les collaborateurs peuvent utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots pour les éléments de poids variable. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des éléments à poids variable en tant qu’éléments de formule, co-produits et sous-produits en sortie. Une formule peut également être définie pour avoir des lignes de formule pour les ingrédients qui sont définis pour le poids variable. Les éléments à poids variable utilisent deux unités de mesure pour suivre l’inventaire : la quantité de poids variable et la quantité de stock. Par exemple, dans l’industrie alimentaire, la viande en boîte peut être définie comme un élément à poids variable, où la quantité de poids variable est utilisée pour suivre le nombre de boîtes et la quantité d’inventaire est utilisée pour suivre le poids des boîtes.
 
 Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 
-- *(Aperçu) État sur les articles en poids variable à partir de l’interface d’exécution de l’atelier de production*
+- *État sur les articles en poids variable à partir de l’interface d’exécution de l’atelier de production*
 
 ### <a name="enable-the-my-day-dialog"></a>Activer la boîte de dialogue "Ma journée"
 

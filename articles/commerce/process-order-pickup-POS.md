@@ -1,7 +1,7 @@
 ---
 title: Traiter les retraits de commandes client dans le PDV
 description: Cet article explique la fonctionnalité disponible dans l’application de point de vente (PDV) pour traiter les retraits de commandes client.
-author: Hhainesms
+author: hhainesms
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0a886f156fff96f3b7e6026c405d3c8700d57f62
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7fd7d08ac59f6fe7381b79d854160188ef1c325a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910467"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286355"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Traiter les retraits de commandes client dans le PDV
 
@@ -54,7 +54,7 @@ Si vous devez modifier la quantité à retirer après avoir sélectionné les ar
 
 Si la fonction **Expérience utilisateur améliorée pour le traitement des commandes à retirer dans le point de vente** est activée, les organisations peuvent ajouter un bouton pour l’opération **Changer les lignes de retrait** dans la mise en page de l’écran de la page de transaction. Après avoir créé le panier de transaction pour le retrait dans le PDV et sélectionné les articles, vous pouvez sélectionner **Changer les lignes de retrait** si vous devez changer les articles à retirer mais que vous ne voulez pas annuler toute la transaction. Dans la boîte de dialogue **Changer les lignes de retrait** qui apparaît, vous pouvez modifier les articles et les quantités à retirer. Le panier de transaction est ensuite mis à jour pour refléter vos modifications.
 
-![Boîte de dialogue Modifier les éléments à retirer.](media/pickupchange.png)
+![Boîte de dialogue Modifier les articles de retrait.](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

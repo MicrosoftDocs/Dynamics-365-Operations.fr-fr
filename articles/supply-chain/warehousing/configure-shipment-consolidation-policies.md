@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845922"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219530"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurer les stratégies de consolidation de l’expédition
 
@@ -61,7 +61,6 @@ Suivez ces étapes pour configurer des stratégies de consolidation des expédit
 1. Dans le raccourci **Entrepôt**, définissez l’option **Consolider l’expédition au lancement dans l’entrepôt** sur *Oui*.
 1. Répétez les étapes 2 à 4 pour tous les autres entrepôts où la consolidation est requise.
 1. Fermez la page.
-1. Utilisez [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer la fonctionnalité *Stratégies de consolidation de l’expédition*. Dans l’espace de travail **Gestion des fonctionnalités**, la fonction est nommée *Consolider l’expédition*.
 1. Allez dans **Gestion des entrepôts \> Configuration \> Lancement dans l’entrepôt \> Stratégies de consolidation de l’expédition**. Vous devrez peut-être actualiser votre navigateur pour voir le nouvel élément de menu **Stratégies de consolidation de l’expédition** après avoir activé la fonctionnalité.
 1. Dans le volet Actions, sélectionnez **Créer un paramétrage par défaut** pour créer les stratégies suivantes :
 
@@ -81,7 +80,6 @@ Suivez ces étapes pour configurer des stratégies de consolidation des expédit
 
 Suivez ces étapes pour configurer des stratégies de consolidation des expéditions par défaut dans un tout nouvel environnement.
 
-1. Utilisez [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer la fonctionnalité *Stratégies de consolidation de l’expédition*, si ce n’est pas déjà fait. Dans l’espace de travail **Gestion des fonctionnalités**, la fonction est nommée *Consolider l’expédition*.
 1. Allez dans **Gestion des entrepôts \> Configuration \> Lancement dans l’entrepôt \> Stratégies de consolidation de l’expédition**.
 1. Dans le volet Actions, sélectionnez **Créer un paramétrage par défaut** pour créer les stratégies suivantes :
 

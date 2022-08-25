@@ -1,25 +1,25 @@
 ---
 title: Rapprochement des relevés bancaires et des paiements pour l’UE
 description: Cet article donne une vue d’ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BankAccountTable, CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 267994
 ms.search.region: Belgium, Norway, Sweden, Switzerland
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a8ee9bd6ff4c458df884bc484f66999ddbb8900a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 267994
+ms.search.form: BankAccountTable, CustPaymMode, VendPaymMode
+ms.openlocfilehash: a7352bee2a56b8c667749b73acbe1493532f85df
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872384"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268566"
 ---
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Rapprochement des relevés bancaires et des paiements pour l’UE
 

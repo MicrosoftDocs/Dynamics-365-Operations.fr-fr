@@ -1,25 +1,25 @@
 ---
 title: Facture et n° de justificatif chronologiques
 description: Cet article explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client.
-author: ShylaThompson
+author: mrolecki
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustParameters, NumberSequenceGroup
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 264514
 ms.search.region: France
-ms.author: ilyako
+ms.author: mrolecki
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 87bb6fdca9cdc2814c17ceb2a0f207d6572d3aa4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 264514
+ms.search.form: CustParameters, NumberSequenceGroup
+ms.openlocfilehash: 5883995e44d8983b9c16c0dd20f138fa3a0e436e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846509"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283905"
 ---
 # <a name="chronological-invoice-and-voucher-numbers"></a>Facture et n° de justificatif chronologiques
 

@@ -1,21 +1,21 @@
 ---
 title: Structure des sources de données Dynamics 365 Finance pour le FEC
 description: Cet article décrit la structure des sources de données Microsoft Dynamics 365 Finance pour le Fichier des écritures comptables (FEC).
-author: liza-golub
+author: AdamTrukawka
 ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: 2cb8acf3aad6213c5081105aa8d2fb27a111c68e
-ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
+ms.author: atrukawk
+ms.openlocfilehash: 1c379596bb2d48b29dcc1b66078d70e87f188f8e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "9033706"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277271"
 ---
 # <a name="structure-of-dynamics-365-finance-data-sources-for-the-fec"></a>Structure des sources de données Dynamics 365 Finance pour le FEC
 

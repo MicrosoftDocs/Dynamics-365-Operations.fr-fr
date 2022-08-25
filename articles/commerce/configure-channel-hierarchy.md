@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: af72fbbea45a9e7cfaca4e72b0a2af06fcc480ed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: b15e6eee86880f0315f42b34056385f718cc6bf1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872856"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280391"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurer un canal pour une utiliser une hiérarchie de navigation du canal
 
@@ -47,7 +47,7 @@ L’image suivante montre comment configurer un canal afin d’utiliser une hié
 
 ![Exemple de configuration de canal.](media/configure-channel-hierarchy-1.png)
 
-## <a name="set-attribute-metadata"></a>Paramétrer les métadonnées d'attribut
+## <a name="set-attribute-metadata"></a>Paramétrer les métadonnées d’attribut
 
 La définition des métadonnées d’attribut permettra la configuration des attributs sur chaque nœud.
 

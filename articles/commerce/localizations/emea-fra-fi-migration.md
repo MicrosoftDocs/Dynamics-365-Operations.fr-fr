@@ -2,25 +2,25 @@
 title: Effectuer une migration depuis l’ancienne fonctionnalité Commerce pour la France
 description: Cet article explique comment effectuer la migration depuis la solution de signature numérique héritée dans la localisation de Microsoft Dynamics 365 Commerce pour la France vers la solution basée sur le cadre d’intégration fiscale du Commerce.
 author: EvgenyPopovMBS
-manager: annbe
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: France
-ms.search.industry: Retail
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9eb586791d0b205738291dbae3ef6b44c9a57371
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
+manager: annbe
+ms.openlocfilehash: 3a17317c246c108f6c81153e163360393c07717e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878472"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280284"
 ---
 # <a name="migrate-from-legacy-commerce-functionality-for-france"></a>Effectuer une migration depuis l’ancienne fonctionnalité Commerce pour la France
 

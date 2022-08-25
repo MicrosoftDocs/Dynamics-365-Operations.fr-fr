@@ -1,26 +1,26 @@
 ---
 title: Intégrer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)
 description: Cet article explique comment utiliser l’outil États électroniques pour générer des documents commerciaux contenant des images et des formes incorporées.
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 27621
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fe0e6d6def50670566f44cfb5cd6bb4abe5faf15
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 27621
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 0bb652f245db93424aeadcaadf2ad393945e616b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851046"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280986"
 ---
 # <a name="embed-images-and-shapes-in-documents-that-you-generate-by-using-er"></a>Intégrer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)
 

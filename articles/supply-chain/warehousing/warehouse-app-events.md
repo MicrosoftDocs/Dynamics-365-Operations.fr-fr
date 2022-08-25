@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905452"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218740"
 ---
 # <a name="warehouse-app-event-processing"></a>Traitement des événements de l’application d’entreposage
 
@@ -28,7 +28,7 @@ Les traitements par lots exécutés dans Supply Chain Management peuvent utilise
 
 ## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Activer ou désactiver la fonction Traiter les événements de l’application d’entreposage
 
-À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Remplacer la réservation de production par défaut* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. À compter de la version 10.0.29 de Supply Chain Management, cette caractéristique est obligatoire. Par conséquent, elle est activée par défaut et ne peut pas être désactivée à nouveau. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette caractéristique en recherchant la caractéristique *Traiter les événements d'application d'entrepôt* dans l’espace de travail [Gestion des caractéristiques](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Configurer un traitement par lots pour traiter les événements de l’application d’entreposage
 

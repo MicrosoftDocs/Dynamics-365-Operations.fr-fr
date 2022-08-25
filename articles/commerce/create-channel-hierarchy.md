@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 371c648ccd242c990e095e760e5aa7cc81600395
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: c3b28dd29bf444a75e5aa0a2a105d8a03fcacb0d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869000"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270262"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Créer une hiérarchie de navigation dans un canal
 
@@ -77,7 +77,7 @@ Pour ajouter des produits à des nœuds de catégorie, procédez comme suit.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 > [!NOTE]
-> L’ajout de produits à un nœud à l’intérieur de la hiérarchie de navigation de canal n’est pas suffisant pour que les produits apparaissent sur un canal sélectionné, les produits doivent également être assortis à un canal. Pour plus d'informations sur les assortiments, voir [Gestion des assortiments](assortments.md).
+> L’ajout de produits à un nœud à l’intérieur de la hiérarchie de navigation de canal n’est pas suffisant pour que les produits apparaissent sur un canal sélectionné, les produits doivent également être assortis à un canal. Pour plus d’informations sur les assortiments, voir [Gestion des assortiments](assortments.md).
 
 L’image suivant présente un exemple de nœud avec produits ajoutés.
 
@@ -103,7 +103,7 @@ L’image suivant présente un exemple de nœud avec des groupes d’attributs d
 
 [Paramétrer des assortiments](set-up-assortments.md)
 
-[Gérer les attributs et les groupes d'attributs](attribute-attributegroups-lifecycle.md)
+[Gérer les attributs et les groupes d’attributs](attribute-attributegroups-lifecycle.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

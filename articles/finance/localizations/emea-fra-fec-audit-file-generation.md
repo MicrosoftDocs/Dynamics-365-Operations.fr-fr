@@ -1,21 +1,21 @@
 ---
 title: Générer un FEC dans Dynamics 365 Finance
 description: Cet article explique comment générer un fichier d’audit Fichier des écritures comptables (FEC) dans Microsoft Dynamics 365 Finance.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 05/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: 2b6e2863fb59c1043aff07496ce491bd999b52cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: atrukawk
+ms.openlocfilehash: 29b1fb8ffd753f0ff8c1ec6778c5ceb0b8382d12
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902356"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275896"
 ---
 # <a name="generate-an-fec-in-dynamics-365-finance"></a>Générer un FEC dans Dynamics 365 Finance
 

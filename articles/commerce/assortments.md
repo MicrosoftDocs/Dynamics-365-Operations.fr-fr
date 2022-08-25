@@ -1,7 +1,7 @@
 ---
 title: Gestion des assortiments
 description: Cet article explique les concepts fondamentaux relatifs à la gestion des assortiments dans Dynamics 365 Commerce et fournit des considérations pour la mise en œuvre de votre projet.
-author: jblucher
+author: josaw1
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.region: Global
-ms.author: jeffbl
+ms.author: josaw
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 038e6fb37e8781222920c572bacf682239bbeffb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 255e0ccfd9e5cb41cdd0a3713d611f1e8008aadf
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880364"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279706"
 ---
 # <a name="assortment-management"></a>Gestion des assortiments
 
@@ -45,7 +45,7 @@ Sinon, vous pouvez ajouter le magasin 1 à l’assortiment 2.
 
 ![Magasin 1 ajouté à l’assortiment 2.](./media/Managing-assortments-figure3.png)
 
-### <a name="organization-hierarchies"></a>Hiérarchies de l'organisation
+### <a name="organization-hierarchies"></a>Hiérarchies de l’organisation
 
 Dans les situations où plusieurs canaux partagent les mêmes assortiments de produits, vous pouvez configurer les assortiments à l’aide de la hiérarchie d’organisation d’assortiments Commerce. Lorsque des nœuds de cette hiérarchie sont ajoutés, tous les canaux de ce nœud et ses nœuds enfants sont inclus.
 

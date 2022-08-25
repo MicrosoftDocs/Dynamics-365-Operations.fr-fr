@@ -1,24 +1,24 @@
 ---
 title: Vue d’ensemble du calcul de la taxe
 description: Cet article explique la portée et les fonctionnalités générales de la fonctionnalité de calcul des taxes.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: c6dabb9d2aae6f1fc759c40f870c66304d7f7c8d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166837"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270663"
 ---
 # <a name="tax-calculation-overview"></a>Vue d’ensemble du calcul de la taxe
 
@@ -54,10 +54,15 @@ Le calcul des taxes est déployé dans les zones géographiques Azure suivantes.
 
 - Asie-Pacifique
 - Australie
+- Brésil
 - Canada
 - Europe
+- France
+- Inde
 - Japon
+- Afrique du Sud
 - Suisse
+- Émirats arabes unis
 - Royaume-Uni
 - Etats-Unis
 
@@ -149,11 +154,15 @@ Les transactions suivantes sont prises en charge dans la version 10.0.28 :
 - Journal des paiements fournisseur
 - Journal des paiements client
 
+Les transactions suivantes sont prises en charge dans la version 10.0.29 : 
+
+- Journal périodique
+
 ## <a name="supported-countriesregions"></a>Pays/régions pris en charge
 
-Le calcul des taxes peut être activé par entité juridique. 
+Le calcul des taxes peut être exécuté avec les fonctionnalités de localisation prises en charge dans les pays/régions suivants pour l’adresse principale d’une entité juridique : 
 
-Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.21 :
+Prise en charge dans la version 10.0.21 :
 
 - Autriche
 - Belgique
@@ -176,7 +185,7 @@ Les pays/régions suivants pour l’adresse principale d’une entité juridique
 - Royaume-Uni
 - Etats-Unis
 
-Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.22 :
+Prise en charge dans la version 10.0.22 :
 
 - Australie
 - Royaume de Bahreïn
@@ -191,22 +200,24 @@ Les pays/régions suivants pour l’adresse principale d’une entité juridique
 - Afrique du Sud
 - Émirats arabes unis
 
-Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.23 :
+Prise en charge dans la version 10.0.23 :
 
 - Thaïlande
 - Japon
 - Malaisie
 - Singapour
 
-Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.24 :
+Prise en charge dans la version 10.0.24 :
 
 - Mexique
 
-Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.26 :
+Prise en charge dans la version 10.0.26 :
 
 - Chine
 - République tchèque
 - Espagne
+
+Pour tout pays/région non localisé par Microsoft, le calcul des taxes peut également être activé et exécuté avec d’autres fonctionnalités globales.
 
 ## <a name="related-resources"></a>Ressources associées
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065462"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220055"
 ---
 # <a name="warehouse-location-status"></a>Statut de l’emplacement de l’entrepôt
 
@@ -42,10 +42,7 @@ Les quatre champs suivants de la page **Emplacements** effectuent le suivi des i
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>Activer la fonctionnalité de statut de l’emplacement dans l’entrepôt
 
-Avant de pouvoir utiliser la fonctionnalité *Statut de l’emplacement dans l’entrepôt* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Gestion des entrepôts*
-- **Nom de la fonctionnalité :** *Statut de l’emplacement dans l’entrepôt*
+Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le système. À compter de la version 10.0.29 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette caractéristique en recherchant la caractéristique *Statut de l'emplacement de l’entrepôt* dans l'espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>Configurer le statut de l’emplacement dans l’entrepôt
 
@@ -55,7 +52,7 @@ Avant de commencer à travailler sur le scénario, vous devez activer des exempl
 
 #### <a name="use-the-usmf-legal-entity"></a>Utiliser l’entité juridique USMF
 
-Pour utiliser l’exemple de scénario à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser l’exemple de scénario à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
 
 #### <a name="set-up-location-profiles"></a>Définir des profils d’emplacement
 

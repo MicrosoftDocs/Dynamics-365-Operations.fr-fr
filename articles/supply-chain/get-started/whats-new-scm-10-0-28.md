@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 09a01a9100b5fc17317d40a8b3e4dbd1aae92e8b
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186517"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228479"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.28 (août 2022)
 
@@ -35,7 +35,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 |---|---|---|---|
 | Inventaire et logistique | [Entités d’intégration des coûts au débarquement pour les transitaires tiers](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Vue d’ensemble des entités de coût au débarquement](../landed-cost/landed-cost-entities-overview.md) | Activé par défaut |
 | Planification | [Planification des besoins en matériaux basée sur la demande (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Vue d’ensemble de la planification des besoins en matériaux basée sur la demande (DDMRP)](../master-planning/planning-optimization/ddmrp-overview.md) | Gestion des fonctions :<br>*(Version préliminaire) DDMRP pour Optimisation de la planification* |
-| Planification | [Prise en charge de l'optimisation de la planification pour la logique capable-to-promise (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Bientôt disponible | Gestion des fonctions :<br>*(Version préliminaire) CTP pour Optimisation de la planification* |
+| Planification | [Prise en charge de l'optimisation de la planification pour la logique capable-to-promise (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Calculer les dates de livraison des commandes clients à l’aide de CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Gestion des fonctions :<br>*(Version préliminaire) CTP pour Optimisation de la planification* |
 | Planification | [Prise en charge de l’optimisation de la planification pour la durée de conservation](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Bientôt disponible | Activé par défaut |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Améliorations de fonctionnalités incluses dans cette version

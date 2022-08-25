@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 952acf4cc26815822436bb7a5117775a5f12200c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 8d656cc82472e0515f0f8a64ec21c6c674223ec6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884109"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279679"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calculer la disponibilité des stocks pour les canaux de vente au détail
 
@@ -49,7 +49,7 @@ Pour utiliser le calcul du stock côté canal, vous devez activer la fonction **
 Si votre environnement Commerce est dans la version **10.0.8 à 10.0.11**, procédez comme suit.
 
 1. Dans Commerce Headquarters, accédez à **Retail et Commerce** \> **Paramètres partagés de Commerce**.
-1. Sous l'onglet **Stock**, dans le champ **Tâche Disponibilité du produit**, sélectionnez **Utiliser le processus optimisé pour la tâche Disponibilité du produit**.
+1. Sous l’onglet **Stock**, dans le champ **Tâche Disponibilité du produit**, sélectionnez **Utiliser le processus optimisé pour la tâche Disponibilité du produit**.
 
 Si votre environnement Commerce est dans la version **10.0.12 à version ultérieure**, procédez comme suit.
 
@@ -57,7 +57,7 @@ Si votre environnement Commerce est dans la version **10.0.12 à version ultéri
 1. Si vos canaux en ligne et en magasin utilisent les mêmes entrepôts de traitement des commandes, vous devez également activer la fonction **Amélioration de la logique de calcul des stocks côté canal du commerce électronique**. De cette façon, la logique de calcul côté canal prendra en compte les transactions non validées qui sont créées dans le canal de magasin. (Ces transactions peuvent être des transactions au comptant sans livraison, des commandes clients et des retours.)
 1. Exécutez la tâche **1070** (**Configuration du canal**).
 
-Si votre environnement Commerce a été mis à niveau à partir d'une version antérieure à la version 10.0.8 de Commerce, après avoir activé la fonction **Calcul de la disponibilité des produits optimisée**, vous devez également exécuter **Initialiser le planificateur de commerce** pour que la fonction prenne effet. Pour exécuter l'initialisation, accédez à **Retail et Commerce** \> **Paramétrage Headquarters** \> **Planificateur de commerce**.
+Si votre environnement Commerce a été mis à niveau à partir d’une version antérieure à la version 10.0.8 de Commerce, après avoir activé la fonction **Calcul de la disponibilité des produits optimisée**, vous devez également exécuter **Initialiser le planificateur de commerce** pour que la fonction prenne effet. Pour exécuter l’initialisation, accédez à **Retail et Commerce** \> **Paramétrage Headquarters** \> **Planificateur de commerce**.
 
 Pour utiliser le calcul du stock côté canal, comme condition préalable, un instantané périodique des données d’inventaire du siège créé par la tâche **Disponibilité du produit** doit être envoyé aux bases de données de canal. L’instantané représente les informations dont Commerce Headquarters dispose sur la disponibilité du stock pour une combinaison spécifique d’un produit ou d’une variante de produit et d’un entrepôt. Il inclut uniquement les transactions d’inventaire qui ont été traitées et publiées dans Commerce Headquarters au moment où l’instantané a été pris, et il peut ne pas être précis à 100 %% en temps réel en raison du traitement constant des ventes qui se produit sur les serveurs distribués.
 
@@ -118,7 +118,7 @@ Dans Commerce version 10.0.9 et les versions antérieures, l’opération **Rech
 
 Lorsque le calcul côté canal est correctement configuré et géré, il peut fournir une estimation plus fiable du stock actuel du magasin, car il utilise les données transactionnelles disponibles dans la base de données du canal Commerce, mais pour lesquelles Commerce Headquarters ne dispose peut-être pas encore d’informations. Par exemple, si vous utilisez l’appel de service en temps réel existant pour les recherches de stock dans le PDV, Commerce Headquarters ne dispose probablement pas encore d’informations sur une vente au comptant sans livraison qui vient d’être effectuée pour un produit. Par conséquent, la valeur du stock disponible renvoyée par Commerce Headquarters pour ce produit dépasse probablement d’une unité le stock réel disponible du magasin. Toutefois, si vous utilisez le calcul côté canal, la vente au comptant sans livraison peut être prise en compte dans le calcul et déduite de la valeur disponible affichée. Bien que les valeurs fournies par le calcul côté canal et l’appel de service en temps réel ne soient que des estimations du stock disponible, la valeur fournie par le calcul côté canal est plus susceptible d’être précise pour le magasin actuel.
 
-Pour configurer l'opération **Recherche de stock** du PDV dans Commerce Headquarters pour utiliser la logique de calcul côté canal et désactiver les appels de service en temps réel, vous devez d’abord activer la fonctionnalité **Calcul de la disponibilité des produits optimisée** via l’espace de travail **Gestion des fonctionnalités** de Commerce Headquarters, puis procédez comme suit.
+Pour configurer l’opération **Recherche de stock** du PDV dans Commerce Headquarters pour utiliser la logique de calcul côté canal et désactiver les appels de service en temps réel, vous devez d’abord activer la fonctionnalité **Calcul de la disponibilité des produits optimisée** via l’espace de travail **Gestion des fonctionnalités** de Commerce Headquarters, puis procédez comme suit.
 
 1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils de fonctionnalité**.
 1. Sélectionnez un profil de fonctionnalité.

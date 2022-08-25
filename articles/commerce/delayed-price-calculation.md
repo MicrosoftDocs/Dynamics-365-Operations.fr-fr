@@ -5,16 +5,16 @@ author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66c7c5a61648ba0423b27b74a1c4e42bc1b22b8b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845895"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267588"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>Calcul du prix exact différé et de la remise pour des performances optimales
 
@@ -40,7 +40,7 @@ Pour activer le calcul différé du prix et de la remise pour le PDV, procédez 
 1. Ajoutez un bouton pour l’opération **Calculer le total** à la grille de boutons souhaitée.
 1. Exécutez les tâches **1070** et **1090**.
 
-Désormais, lorsque des articles sont ajoutés à une transaction, les remises multilignes ne sont pas calculées à moins que le caissier ne sélectionne le bouton **Calculer le total**. Une fois que l'option **Calculer le total** est sélectionnée pour une transaction, des remises multilignes seront toujours calculées pour celle-ci. Le caissier ne doit pas sélectionner à nouveau le bouton, même si des articles supplémentaires sont ajoutés au panier. Le système ne laisse pas le caissier capturer le paiement tant que l’option **Calculer le total** n’est pas sélectionnée.
+Désormais, lorsque des articles sont ajoutés à une transaction, les remises multilignes ne sont pas calculées à moins que le caissier ne sélectionne le bouton **Calculer le total**. Une fois que l’option **Calculer le total** est sélectionnée pour une transaction, des remises multilignes seront toujours calculées pour celle-ci. Le caissier ne doit pas sélectionner à nouveau le bouton, même si des articles supplémentaires sont ajoutés au panier. Le système ne laisse pas le caissier capturer le paiement tant que l’option **Calculer le total** n’est pas sélectionnée.
 
 ## <a name="enable-delayed-price-and-discount-calculation-for-call-center"></a>Activer le calcul du prix différé et de la remise pour le centre d’appels
 

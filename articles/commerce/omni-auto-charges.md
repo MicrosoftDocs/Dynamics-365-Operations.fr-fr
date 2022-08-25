@@ -1,27 +1,27 @@
 ---
 title: Frais automatiques avancés omnicanaux
 description: Cet article décrit les capacités de gestion d’autres frais de commande pour les commandes du canal Commerce en utilisant les fonctions de frais automatiques avancés.
-author: hhaines
+author: hhainesms
 ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: d44bc4ef61341c394b627ddbe10768d2ddf98de0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851129"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292703"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Frais automatiques avancés omnicanaux
 
@@ -31,9 +31,9 @@ Cet article fournit des informations sur la configuration et le déploiement des
 
 Lorsque les fonctionnalités de frais automatiques avancés sont activées, les commandes créées dans tout canal Commerce pris en charge (point de vente (PDV), centre d’appels et en ligne) peuvent tirer parti des configurations de [frais automatiques](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) définies dans l’application ERP pour les frais associés au niveau de l’en-tête et de la ligne.
 
-Dans les versions antérieures à la version 10.0 de Retail, les configurations de [frais automatiques](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sont uniquement accessibles par les commandes créées dans les canaux de e-commerce et de centres d’appels. Dans les versions 10.0 et ultérieures, les commandes créées en PDV peuvent utiliser les configurations de frais automatiques. Ainsi, les différents frais supplémentaires peuvent systématiquement être ajoutés aux transactions de vente.
+Dans les versions antérieures à la version 10.0 de Retail, les configurations de [frais automatiques](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sont uniquement accessibles par les commandes créées dans les canaux e-commerce et de centres d’appels. Dans les versions 10.0 et ultérieures, les commandes créées en PDV peuvent utiliser les configurations de frais automatiques. Ainsi, les différents frais supplémentaires peuvent systématiquement être ajoutés aux transactions de vente.
 
-Lors de l’utilisation de versions précédentes à la version 10.0, un utilisateur du PDV est invité à saisir manuellement des frais d’expédition pendant la création d’une transaction de PDV « Tout expédier » ou « Expédition sélectionnée ». Même si les différentes fonctions de frais de l’application sont utilisées par rapport à la manière dont les frais sont rédigés dans la commande, aucun calcul systématique n’est fourni. Le calcul est basé sur la saisie de l’utilisateur pour déterminer la valeur des frais. Les frais peuvent être ajoutés uniquement en tant que code de frais associés à l’expédition unique et ne peuvent pas être facilement modifiés ou mis à jour dans le PDV après leur création.
+Lors de l’utilisation de versions précédentes à la version 10.0, un utilisateur du PDV est invité à saisir manuellement des frais d’expédition pendant la création d’une transaction de PDV « Tout expédier » ou « Expédition sélectionnée ». Même si les différentes fonctions de frais de l’application sont utilisées par rapport à la manière dont les frais sont rédigés dans la commande, aucun calcul systématique n’est fourni – the calcul est basé sur l'entrée de l’utilisateur pour déterminer la valeur des frais. Les frais peuvent être ajoutés uniquement en tant que code de frais associés à l’expédition unique et ne peuvent pas être facilement modifiés ou mis à jour dans le PDV après leur création.
 
 L’utilisation des invites manuelles pour ajouter des frais d’expédition reste disponible dans les versions 10.0 et ultérieures. Si une organisation n’active pas le paramètre **Frais automatiques avancés**, les invites du PDV pour la saisie manuelle des frais resteront les mêmes.
 
@@ -41,7 +41,7 @@ Avec la fonctionnalité des frais automatiques avancés, les utilisateurs de PDV
 
 ## <a name="enable-advanced-auto-charges"></a>Activer des frais automatiques avancés
 
-Dans la page **Commerce et vente au détail \> Configuration du siège \> Paramètres \> Paramètres de Commerce**, accédez à l’onglet **Commandes client**. Dans l’organisateur **Frais**, définissez **Utiliser les frais automatiques avancés** sur **Oui**.
+Dans la page **Commerce et vente au détail \> Configuration Headquarters \> Paramètres \> Paramètres Commerce**, accédez à l’onglet **Commandes client**. Dans l’organisateur **Frais**, définissez **Utiliser les frais automatiques avancés** sur **Oui**.
 
 ![Paramètre de frais automatiques avancés.](media/advancedchargesparameter.png)
 
@@ -102,7 +102,7 @@ Pour les scénarios de PDV et de commerce électronique, car il n’y a pas d’
 
 Dans les scénarios du centre d’appels, l’utilisateur a le contrôle du paramètre du mode de livraison à l’en-tête de commande, par conséquent des frais au niveau de l’en-tête s’appliqueront pour ces commandes même si certaines des lignes de vente ont été configurées pour utiliser un autre mode de livraison. Les frais au niveau de l’en-tête pour les commandes de centre d’appels seront toujours basés sur le mode de livraison défini au niveau de l’en-tête de commande de la commande client.
 
-### <a name="auto-charges-line-charges-example"></a>Exemple de frais de ligne Frais automatiques
+### <a name="auto-charges-line-charges-example"></a>Exemple de frais de ligne frais automatiques
 
 #### <a name="use-case-scenario"></a>Scénario d’utilisation 
 
@@ -118,7 +118,7 @@ Définissez le menu déroulant **Niveau** sur **Ligne**, puis créez un nouvel e
 
 ![Exemple de table de frais automatiques au niveau de la ligne.](media/linechargesexample.png)
 
-Envoyez les frais vers l’unité d’échelle commerciale/la base de données du canal de telle sorte que le PDV puisse les utiliser en exécutant la tâche **programme de distribution 1040**.
+Envoyez les frais vers le Commerce Scale Unit/la base de données du canal de telle sorte que le PDV puisse les utiliser en exécutant la tâche **programme de distribution 1040**.
 
 #### <a name="sales-processing-for-this-scenario"></a>Traitement des ventes pour ce scénario
 

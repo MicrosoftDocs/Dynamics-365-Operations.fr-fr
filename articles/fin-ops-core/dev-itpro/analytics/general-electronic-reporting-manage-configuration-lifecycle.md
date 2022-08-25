@@ -1,32 +1,32 @@
 ---
-title: Gérer le cycle de vie de la configuration des états électroniques
+title: Gérer le cycle de vie de la configuration des états électroniques (ER)
 description: Cet article décrit comment gérer le cycle de vie des configurations d’états électroniques (ER) pour Dynamics 365 Finance.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109080"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271581"
 ---
-# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gérer le cycle de vie de la configuration des états électroniques
+# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gérer le cycle de vie de la configuration des états électroniques (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit comment gérer le cycle de vie des configurations d’états électroniques (ER) pour Dynamics 365 Finance.
+Cet article décrit comment gérer le cycle de vie des [configurations](general-electronic-reporting.md#Configuration) des [Rapports électroniques](general-electronic-reporting.md) (ER) pour Dynamics 365 Finance.
 
 ## <a name="overview"></a>Présentation
 
@@ -65,7 +65,7 @@ La génération d’états électronique (ER) est un moteur qui prend en charge 
 ## <a name="concepts"></a>Concepts
 Les rôles suivants et les activités liées sont associés au cycle de vie de la configuration ER.
 
-| Rôle                                       | Activités                                                      | description ; |
+| Rôle                                       | Activités                                                      | Description |
 |--------------------------------------------|-----------------------------------------------------------------|-------------|
 | Consultant fonctionnel de gestion des états électroniques | Créez et gérez des composants ER (modèles et formats).           | Un commercial qui conçoit des modèles de données spécifique au domaine ER, conçoit les modèles requis pour des documents électroniques et les lie en conséquence. |
 | Développeur d’états électroniques             | Créez et gérez les mises en correspondance de modèle de données.                          | Un spécialiste qui sélectionne les sources de données requises de Finance et les lie aux modèles de données spécifiques au domaine ER. |
@@ -106,9 +106,44 @@ Dans certains cas, vous pouvez exiger que le système ignore les conditions pré
     > [!NOTE]
     > Ce paramètre est spécifique à l’utilisateur et à l’entreprise.
 
+## <a name="dependencies-on-other-components"></a>Dépendances sur d’autres composants
+
+Les configurations ER peuvent être configurées comme [dépendantes](er-download-configurations-global-repo.md#import-filtered-configurations) d'autres configurations. Par exemple, vous pouvez [importer](er-download-configurations-global-repo.md) une configuration ER de [modèle de données](er-overview-components.md#data-model-component) du référentiel global dans votre [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) ou instance Dynamics 365 Finance, puis créer une nouvelle configuration ER [format](er-overview-components.md#format-component) qui est [dérivé](er-quick-start2-customize-report.md#DeriveProvidedFormat) à partir de la configuration du modèle de données ER importé. La configuration du format ER dérivé dépendra de la configuration du modèle de données ER de base.
+
+![Configuration du format ER dérivé sur la page Configurations.](./media/ger-configuration-lifecycle-img1.png)
+
+Lorsque vous avez terminé de concevoir le format, vous pouvez modifier le statut de votre [version](general-electronic-reporting.md#component-versioning) initiale de la configuration du format ER à partir de **Brouillon** à **Complété**. Vous pouvez ensuite partager la version terminée de la configuration du format ER en la [publiant](../../../finance/localizations/rcs-global-repo-upload.md) sur le référentiel global. Ensuite, vous pouvez accéder au référentiel global à partir de n’importe quelle instance cloud RCS ou Finance. Vous pouvez ensuite importer toute version de configuration ER applicable à l’application à partir du référentiel global dans cette application.
+
+![Configuration du format ER publiée sur la page référentiel de configuration.](./media/ger-configuration-lifecycle-img2.png)
+
+En fonction de la dépendance de configuration, lorsque vous sélectionnez la configuration du format ER dans le référentiel global pour l’importer dans une instance RCS ou Finance nouvellement déployée, la configuration du modèle de données ER de base est automatiquement trouvée dans le référentiel global et importée avec la configuration de format ER sélectionnée comme configuration de base.
+
+Vous pouvez également exporter votre version de configuration au format ER hors de votre instance RCS ou Finance actuelle et la stocker localement sous forme de fichier XML.
+
+![Exporter une version de configuration du format ER en XML sur la page Configuration.](./media/ger-configuration-lifecycle-img3.png)
+
+Dans les versions de Finance **avant la version 10.0.29**, lorsque vous essayez d’importer la version de configuration au format ER à partir de ce fichier XML ou de tout référentiel autre que le référentiel global dans une instance RCS ou Finance nouvellement déployée qui ne contient pas encore de configurations ER, l’exception suivante sera envoyée pour vous informer qu’une configuration de base ne peut pas être obtenue :
+
+> Références non résolues restantes<br>
+Impossible d'établir la référence de l'objet '\<imported configuration name\>' vers l'objet (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) « Base »
+
+![Importation de la version de configuration du format ER sur la page référentiel de configuration.](./media/ger-configuration-lifecycle-img4.gif)
+
+Dans la version **10.0.29 et les versions ultérieures**, lorsque vous essayez de faire la même importation de configuration, si une configuration de base est introuvable dans l’instance d’application actuelle ou dans le référentiel source que vous utilisez actuellement (le cas échéant), l’infrastructure ER essaiera automatiquement de trouver le nom de la configuration de base manquante dans le cache du référentiel global. Il présentera ensuite le nom et l’identificateur global unique (GUID) de la configuration de base manquante dans le texte de l’exception levée.
+
+> Références non résolues restantes<br>
+Impossible d'établir la référence de l'objet '\<imported configuration name\>' vers l'objet (\<name of the missed base configuration\> \<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) « Base »
+
+![Exception sur la page référentiel de configuration lorsque la configuration de base est introuvable.](./media/ger-configuration-lifecycle-img5.png)
+
+Vous pouvez utiliser le nom fourni pour rechercher la configuration de base, puis l’importer manuellement.
+
+> [!NOTE]
+> Cette nouvelle option ne fonctionne que lorsqu’au moins un utilisateur s’est déjà connecté au référentiel global à l’aide de la page [Référentiels de configuration](er-download-configurations-global-repo.md#open-configurations-repository) ou l’un des champs [chercher](er-extended-format-lookup.md) des référentiels mondiaux dans l’instance Finance actuelle et lorsque le contenu du référentiel global a été mis en cache.
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
 
 [Définir la dépendance des configurations ER sur d’autres composants](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 

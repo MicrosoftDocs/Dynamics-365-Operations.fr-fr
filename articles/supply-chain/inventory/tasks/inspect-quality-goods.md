@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eeb14a3b0a61f34819bdd8d524e65ac214a81c35
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b881f9c6f872061864d4254ce880d981ca71c479
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857574"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219032"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Inspecter la qualité des marchandises
 
@@ -27,7 +27,7 @@ ms.locfileid: "8857574"
 
 Cet article explique comment traiter des ordres de qualité. Les inspections de qualité sont généralement réalisées par un adjoint au contrôle de la qualité.
 
-Si les données de démonstration standard sont installées, vous pouvez les utiliser pour exécuter les procédures de cet article. Pour utiliser les données de démonstration, vous devez sélectionner l’entité juridique *USMF* avant de commencer. Vous devez ensuite confirmer le bon de commande *000016* et afficher un accusé de réception de marchandises. Un ordre de qualité est généré automatiquement.
+Si les [données de démonstration](../../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées, vous pouvez les utiliser pour exécuter les procédures de cet article. Pour utiliser les données de démonstration, vous devez sélectionner l’entité juridique *USMF* avant de commencer. Vous devez ensuite confirmer le bon de commande *000016* et afficher un accusé de réception de marchandises. Un ordre de qualité est généré automatiquement.
 
 ## <a name="step-1-select-a-quality-order"></a>Étape 1: Sélectionner un ordre de qualité
 

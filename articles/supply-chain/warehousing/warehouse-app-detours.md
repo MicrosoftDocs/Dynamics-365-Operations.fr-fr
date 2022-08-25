@@ -4,19 +4,19 @@ description: Cet article explique comment configurer des détours pour les élé
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863590"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219002"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile
 
@@ -34,20 +34,8 @@ Un détour est une option de menu distinct qui peut être ouvert à partir d’u
 Avant de pouvoir configurer des détours pour les étapes dans les options de menu de l’appareil mobile, vous devez effectuer la procédure suivante pour activer les fonctionnalités requises et générer les noms de champ requis dans l’application mobile Warehouse Management.
 
 1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
-1. Dans l’[espace de travail **Gestion des fonctionnalités**](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), activez les fonctionnalités qui sont répertoriées comme suit :
-
-    - **Module :** *Gestion des entrepôts*
-    - **Nom de la fonctionnalité :** *instructions d’étape de l’application d’entrepôt*
-
-    Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md). Cette fonctionnalité est une condition préalable à la fonctionnalité *Détours de l’application Warehouse Management*.
-
-1. Activez la fonctionnalité qui est répertoriée de la manière suivante :
-
-    - **Module :** *Gestion des entrepôts*
-    - **Nom de la fonctionnalité :** *Détours de l’application Warehouse Management*
-
-    Cette fonctionnalité est la fonctionnalité décrite dans cet article.
-
+1. Assurez-vous que la caractéristique *Instructions d’étape de l’application Warehouse* est activée pour votre système. À compter de la version 10.0.29 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md). Cette fonctionnalité est une condition préalable à la fonctionnalité *Détours de l’application Warehouse Management*.
+1. Activez la caractéristique *Détours de l’application de Warehouse Management*. Cette caractéristique est celle qui est décrite dans cet article.
 1. Mettez à jour les noms de champ dans l’application mobile Warehouse Management en accédant à **Warehouse Management \> Paramétrage \> Périphérique mobile \> Noms des champs d’application d’entrepôt** et en sélectionnant **Créer une configuration par défaut**. Pour plus d’informations, voir [Configurer les champs pour l’application mobile Gestion des entrepôts](configure-app-field-names-priorities-warehouse.md).
 1. Répétez l’étape précédente pour chaque entité juridique (société) où vous utilisez l’application mobile Warehouse Management.
 
@@ -65,7 +53,7 @@ Ce scénario montre comment configurer une demande d’emplacement en tant que d
 
 ### <a name="enable-sample-data"></a>Activer les exemples de données
 
-Pour utiliser les exemples d’enregistrements et de valeurs spécifiés dans ce scénario, vous devez utiliser un système sur lequel les données de démonstration standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser les enregistrements et les valeurs de l'échantillon spécifiés pour travailler sur ce scénario, vous devez utiliser un système où les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Créer une dérogation spécifique au menu et configurer le détour pour le scénario 1
 
@@ -118,7 +106,7 @@ Vous pouvez remplacer la recherche d’emplacement par une demande de contenant 
 
 ### <a name="enable-sample-data"></a>Activer les exemples de données
 
-Pour utiliser les exemples d’enregistrements et de valeurs spécifiés dans ce scénario, vous devez utiliser un système sur lequel les données de démonstration standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser les enregistrements et les valeurs de l'échantillon spécifiés pour travailler sur ce scénario, vous devez utiliser un système où les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Créer une dérogation spécifique au menu et configurer le détour pour le scénario 2
 

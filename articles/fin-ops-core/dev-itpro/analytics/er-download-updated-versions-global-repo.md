@@ -1,32 +1,32 @@
 ---
 title: Importer des versions mises à jour des configurations de gestion des états électroniques
 description: Cet article explique comment importer des versions mises à jour des configurations de gestion des états électroniques depuis le référentiel global du service de configuration.
-author: NickSelin
+author: kfend
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 105843
-ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 105843
+ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
+ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
+ms.openlocfilehash: 0eef9c9a112fd58a43f6c3a85163ccf44bea3d61
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9108437"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292644"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importer des versions mises à jour des configurations de gestion des états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-Les [référentiels](general-electronic-reporting.md#Repository) de gestion des états électroniques sont utilisés pour partager des [configurations de gestion des états électroniques](general-electronic-reporting.md#Configuration). Vous pouvez [importer](download-electronic-reporting-configuration-lcs.md) des configurations de gestion des états électroniques depuis différents référentiels vers votre instance de Microsoft Dynamics 365 Finance. Lorsque vous importez des configurations de gestion des états électroniques, les [fournisseurs de configuration](general-electronic-reporting.md#Provider) peuvent publier de nouveaux référentiels de [versions](general-electronic-reporting.md#component-versioning) afin de pouvoir les partager.
+Les [référentiels](general-electronic-reporting.md#Repository) de gestion des états électroniques sont utilisés pour partager des [configurations de gestion des états électroniques](general-electronic-reporting.md#Configuration). Vous pouvez [importer](download-electronic-reporting-configuration-lcs.md) des configurations de gestion des états électroniques depuis différents référentiels vers votre instance de Microsoft Dynamics 365 Finance. Lorsque vous importez des configurations de gestion des états électroniques, les [fournisseurs de configuration](general-electronic-reporting.md#Provider) peuvent publier de nouveaux référentiels de versions afin de pouvoir les partager.
 
 Cet article explique comment importer des versions mises à jour des configurations de gestion des états électroniques depuis le référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 Finance – Regulatory Services, service de configuration](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 

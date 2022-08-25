@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901145"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227895"
 ---
 # <a name="benefits-management-overview"></a>Vue d’ensemble de la gestion des avantages
 
@@ -147,6 +147,16 @@ Avant de pouvoir traiter des événements de la vie, vous devez avoir exécuté 
 - [Traiter les événements de vie](hr-benefits-process-life-events.md)
 - [Traiter les modifications des événements de vie](hr-benefits-process-life-event-changes.md)
 - [Traiter l’éligibilité aux événements de vie](hr-benefits-process-life-event-eligibility.md)
+
+Une fois le traitement de l’événement personnel terminé et tant que la période d’inscription à l’événement personnel est ouverte, les employés peuvent apporter des modifications aux options du plan qui sont affectées par l’événement personnel. Les administrateurs peuvent apporter les modifications au nom des employés. Une fois la période d’inscription terminée et qu’aucun type de plan non confirmé n’est lié à la transaction d’événement de vie, la transaction est clôturée.
+
+Tous les plans qui sont affectés par l’événement de la vie doivent être soit sélectionnés, soit annulés, puis confirmés. Si un plan n’est pas sélectionné, n’est pas annulé et n’est donc pas confirmé, la transaction d’événement de la vie n’est pas fermée.
+
+Les administrateurs peuvent manuellement fermer une transaction d’événement de vie selon les besoins, en la sélectionnant, puis en sélectionnant **Fermer**. S’il y a des plans non confirmés dans la transaction et qu’un administrateur veut la fermer, la fermeture de l’événement de vie peut restreindre les modifications à ces plans.
+
+Les événements de vie fermés ne peuvent pas être supprimés.
+
+Les administrateurs peuvent réouvrir une transaction d’événement de vie selon les besoins, en la sélectionnant, puis en sélectionnant **Réouvrir**.
 
 ## <a name="rate-updates-optional"></a>Mettre à jour les taux (facultatif)
 

@@ -1,20 +1,20 @@
 ---
 title: Copier un site d’e-commerce
 description: Cet article décrit comment copier un site de commerce électronique existant dans ou entre des environnements de commerce électronique dans le générateur de site Microsoft Dynamics 365 Commerce.
-author: psimolin
+author: josaw1
 ms.date: 06/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: cb53a76b2ebe5b511bf5009727f20f20755e5720
-ms.sourcegitcommit: 13c7a1cc4c90417e3e88db59b7d2165b3c40a56c
+ms.openlocfilehash: 9b74e0d48be29272b893c855c229e4003f0c161e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "8935742"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276290"
 ---
 # <a name="copy-an-e-commerce-site"></a>Copier un site d’e-commerce
 
@@ -66,9 +66,9 @@ Pour copier un site entre deux environnements de commerce électronique, procéd
 
 Une fois les informations validées, une notification indique qu’un nouveau travail de copie de site a été créé. Vous pouvez surveiller la progression de la tâche dans le [volet droit de la page **Tâches des locataires**](#monitor-the-site-copy-operation). Lorsque l’opération de copie s’est terminée avec succès, le nouveau site apparaît dans la liste des sites en vue de la liste des sites.
 
-## <a name="map-channels-during-the-site-copy-operation-optional"></a>Mapper les canaux lors de l'opération de copie du site (optionnel)
+## <a name="map-channels-during-the-site-copy-operation-optional"></a>Mapper les canaux lors de l’opération de copie du site (optionnel)
 
-Les canaux source et les paramètres régionaux peuvent être mappés aux canaux et paramètres régionaux de destination dans le cadre de l'opération de copie du site. Si le mappage des canaux est effectué dans le cadre de l'opération de copie de site, l'initialisation du site à l'aide du processus FRE et la configuration des canaux dans les paramètres du site ne sont pas nécessaires. 
+Les canaux source et les paramètres régionaux peuvent être mappés aux canaux et paramètres régionaux de destination dans le cadre de l’opération de copie du site. Si le mappage des canaux est effectué dans le cadre de l’opération de copie de site, l’initialisation du site à l’aide du processus FRE et la configuration des canaux dans les paramètres du site ne sont pas nécessaires. 
 
 Pour mapper tous les canaux et paramètres régionaux "tels quels" (1 à 1) dans le créateur de site, procédez comme suit.
 
@@ -82,7 +82,7 @@ Pour mapper tous les canaux et paramètres régionaux "tels quels" (1 à 1) dans
 1. Sélectionnez **Ajouter les paramètres régionaux**.
 1. Sélectionnez **Paramètres régionaux source**, puis sélectionnez les paramètres régionaux source.
 1. Sélectionnez **Paramètres régionaux de destination**, puis sélectionnez les mêmes paramètres régionaux que les paramètres source. 
-1. Pour **Chemin d'URL**, entrez un chemin d'URL unique qui n'est pas actuellement utilisé dans l'environnement de destination.
+1. Pour **Chemin d’URL**, entrez un chemin d’URL unique qui n’est pas actuellement utilisé dans l’environnement de destination.
 1. Répétez les étapes 8 à 11 pour chaque paramètre régional à mapper pour le canal.
 1. Sélectionnez **Appliquer**.
 1. Répétez les étapes 6 à 11 pour chaque canal source.
@@ -90,7 +90,7 @@ Pour mapper tous les canaux et paramètres régionaux "tels quels" (1 à 1) dans
 1. Passez en revue la configuration pour la précision, puis sélectionnez **Copier le site**.
 
 > [!NOTE]
-> Tous les canaux source et paramètres régionaux doivent être mappés et ne peuvent être mappés qu'une seule fois.
+> Tous les canaux source et paramètres régionaux doivent être mappés et ne peuvent être mappés qu’une seule fois.
 
 ## <a name="monitor-the-site-copy-operation"></a>Surveiller l’opération de copie du site
 

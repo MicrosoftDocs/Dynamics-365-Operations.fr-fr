@@ -1,7 +1,7 @@
 ---
 title: Déclaration de TVA (France)
 description: Cet article explique comment configurer et générer un état pour la France, qui peut être utilisé pour effectuer une déclaration de taxe sur la valeur ajoutée (TVA).
-author: anasyash
+author: AdamTrukawka
 ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: France
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: e1c405ea115317070ac1847fe068fed2e6a9da85
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f0617a2850ead91782006ff5a9a10c3058c4c000
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891505"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275899"
 ---
 # <a name="vat-declaration-france"></a>Déclaration de TVA (France)
 

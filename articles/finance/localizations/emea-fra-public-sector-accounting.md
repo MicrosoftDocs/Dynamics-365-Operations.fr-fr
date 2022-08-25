@@ -1,26 +1,26 @@
 ---
 title: Comptabilité du secteur public en France
 description: Cet article décrit la comptabilité du secteur public en France.
-author: rschloma
+author: brpotter
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 19621
-ms.assetid: f6bfb9dd-c3a7-48d3-b31d-23e6f27c1323
 ms.search.region: France
-ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c5ca1f87807b8877eb64d1303e4c14fd0ad3303bedb605e713d6e9f761e67a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 19621
+ms.assetid: f6bfb9dd-c3a7-48d3-b31d-23e6f27c1323
+ms.search.industry: Public sector
+ms.openlocfilehash: 7b84c523ded7a823f8e90e9e90d1e6a785b5d469
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748936"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282416"
 ---
 # <a name="public-sector-accounting-in-france"></a>Comptabilité du secteur public en France
 

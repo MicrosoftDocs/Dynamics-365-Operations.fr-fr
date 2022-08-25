@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907143"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219776"
 ---
 # <a name="gs1-bar-codes"></a>Codes-barres GS1
 
@@ -115,7 +115,7 @@ Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le syst
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>Activer la fonctionnalité Analyseur amélioré pour les codes-barres GS1
 
-Si vous utilisez des codes-barres GS1, nous vous recommandons d’activer également la fonctionnalité *Analyseur amélioré pour les codes-barres GS1*. Cette fonctionnalité fournit une implémentation améliorée de l’analyseur de code-barres GS1. Elle apporte les améliorations suivantes :
+Si vous utilisez des codes-barres GS1, nous vous recommandons d’activer également la fonctionnalité *Analyseur amélioré pour les codes-barres GS1* . Cette fonctionnalité fournit une implémentation améliorée de l’analyseur de code-barres GS1. Elle apporte les améliorations suivantes :
 
 - Elle suit l’algorithme des spécification générale GS1 pour l’analyse des données de symbole et vérifie que les données du symbole sont conformes à la spécification.
 - Elle ne vous oblige pas à configurer une valeur **Longueur maximale de l’identifiant** et utilise la correspondance de préfixe la plus longue à partir des identifiants d’application configurés.

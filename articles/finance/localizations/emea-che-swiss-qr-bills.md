@@ -1,24 +1,24 @@
 ---
 title: Factures QR pour la Suisse
 description: Cet article offre des informations sur la façon de générer des factures QR (bons de livraison QR) et de traiter les factures QR entrantes.
-author: anasyash
+author: AdamTrukawka
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Switzerland
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 5c968146b2d60ba3f21ff93dca6aa6b5f0dea319
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 2292f8a1c598806e170bef08ea59d6ecea656bb8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906268"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287046"
 ---
 # <a name="swiss-qr-bills"></a>Factures QR pour la Suisse
 

@@ -1,33 +1,33 @@
 ---
-title: Installer le concepteur de mise en page du PDV
-description: Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes mises en page Modern POS (MPOS) et Cloud POS, en mode Paysage ou en mode Portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables.
-author: athinesh99
+title: Installer le concepteur de disposition du PDV
+description: Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes dispositions Modern POS (MPOS) et Cloud POS, en mode Paysage ou en mode Portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables.
+author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 219684
-ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: athinesh
+ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0d7143833bb4a98ac976ea46a1b4b21dad2f2e5841b5e142de7583b4ce6bad38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 219684
+ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
+ms.search.industry: Retail
+ms.search.form: RetailTillLayout
+ms.openlocfilehash: a610dbb9db63236ae7d182692f45f21c56982c69
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738718"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274257"
 ---
-# <a name="install-the-pos-layout-designer"></a>Installer le concepteur de mise en page du PDV
+# <a name="install-the-pos-layout-designer"></a>Installer le concepteur de disposition du PDV
 
 [!include [banner](includes/banner.md)]
 
-Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes mises en page Modern POS (MPOS) et Cloud POS, en mode Paysage ou en mode Portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables.
+Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes dispositions de Modern POS (MPOS) et Cloud POS, en mode Paysage ou en mode Portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables.
 
 Le l’interface de conception graphique de MPOS ou PDV Cloud est contrôlée par la disposition du tiroir-caisse. Une mise en page contrôle la disposition de divers objets. Par exemple, la mise en page du total, la mise en page du groupe d’articles, la mise en page du client, la mise en page des paiements et la mise en page de plusieurs boutons de menu. Les mises en page incluent également l’apparence globale de l’interface de vente présentée aux travailleurs.
 

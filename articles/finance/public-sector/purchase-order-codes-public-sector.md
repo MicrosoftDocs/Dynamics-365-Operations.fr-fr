@@ -6,22 +6,22 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ConfirmingPOCodes, PurchTableListPage
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 27291
-ms.assetid: 65032886-4dc6-4411-98c8-8969287fd7df
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: kfend
+ms.author: v-kiarnd
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ef74caa33211bb14a5b3bd4fbe1415103f3678
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 27291
+ms.assetid: 65032886-4dc6-4411-98c8-8969287fd7df
+ms.search.industry: Public sector
+ms.search.form: ConfirmingPOCodes, PurchTableListPage
+ms.openlocfilehash: c5a2285859f8bb70dad906878acb2f8b3188c4b2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853126"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284340"
 ---
 # <a name="purchase-order-codes-in-the-public-sector"></a>Codes de commande fournisseur dans le secteur public
 

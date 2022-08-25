@@ -6,24 +6,22 @@ ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AdvancedLedgerEntry, JournalizingDefinition, LedgerDerivedFinHierarchies, LedgerFundType, LedgerParameters
 audience: Application User
-ms.reviewer: kfend
-ms.custom:
-- "27211"
-- intro-internal
-ms.assetid: d737c743-e224-4a30-b4c3-e9568eaddd8c
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: kfend
+ms.author: v-kiarnd
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd294242db320ebd3f0742fbf8e4f2eabab0cede
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 27211,  ""intro-internal
+ms.assetid: d737c743-e224-4a30-b4c3-e9568eaddd8c
+ms.search.industry: Public sector
+ms.search.form: AdvancedLedgerEntry, JournalizingDefinition, LedgerDerivedFinHierarchies, LedgerFundType, LedgerParameters
+ms.openlocfilehash: 786f3dc0d175eebde20183614a845bcc51850266
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865440"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279755"
 ---
 # <a name="general-ledger-in-the-public-sector-overview"></a>Vue d’ensemble du module Comptabilité dans le secteur public
 
@@ -31,11 +29,11 @@ ms.locfileid: "8865440"
 
 Cet article décrit la fonctionnalité Comptabilité disponible pour les organisations du secteur public.
 
-## <a name="how-do-general-ledger-parameters-need-to-be-set-for-public-sector-organizations"></a>Comment paramètres de comptabilité doivent-ils être définis pour les organisations du secteur public ?
+## <a name="how-do-general-ledger-parameters-need-to-be-set-for-public-sector-organizations"></a>Comment les paramètres de comptabilité doivent-ils être définis pour les organisations du secteur public ?
 
 La plupart des paramètres de comptabilité sont définis de la même manière pour les organisations du secteur public et du secteur privé. En outre, il existe des paramètres du secteur public utilisés pour le processus de fin d’exercice pour les fonds. Définissez ces paramètres sur la page **Paramètres de comptabilité**, dans la section **Comptabilité**, dans l’organisateur **Clôture d’exercice**.
 
--   Sélectionnez **Créer des transactions de clôture lors du transfert** pour générer les entrées de clôture et de solde d’ouverture. Lorsque cette option est sélectionnée, lors des exécutions suivantes de ce processus, le système supprime les transactions des exécutions précédentes et génère de nouvelles entrées de clôture et d’ouverture. Si cette option n’est pas sélectionnée, le système calculera la modification nette et génèrera uniquement cette transaction pour les entrées de clôture et les soldes d’ouverture. **Remarque** : cette option requiert l’utilisation des définitions de validation. Pour plus d’informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
+-   Sélectionnez **Créer des transactions de clôture lors du transfert** pour générer les entrées de clôture et de solde d’ouverture. Lorsque cette option est sélectionnée, lors des exécutions suivantes de ce processus, le système supprime les transactions des exécutions précédentes et génère de nouvelles entrées de clôture et d’ouverture. Si cette option n’est pas sélectionnée, le système calculera la modification nette et génèrera uniquement cette transaction pour les entrées de clôture et les soldes d’ouverture. **Remarque** : Cette option requiert l’utilisation des définitions de validation. Pour plus d’informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 -   Sélectionnez **Utilisez la dimension de fonds pour les transactions de fin d’exercice** afin d’activer la version du secteur public de la page **Transactions d’ouverture**.
 -   Sélectionnez **Utilisez la dimension de fonds pour reporter des commandes fournisseur** pour activer la capacité à définir les options de traitement de fin d’exercice pour des fonds spécifiques.
 

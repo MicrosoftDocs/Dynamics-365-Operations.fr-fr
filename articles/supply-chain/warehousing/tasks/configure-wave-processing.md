@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9a8c088f8726573e4b1fcad1944676547391a9bf
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860346"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219626"
 ---
 # <a name="configure-wave-processing-example"></a>Exemple de configuration de traitement des vagues
 
@@ -29,7 +29,7 @@ Cet article illustre la procédure de paramétrage des critères qui déterminen
 
 ## <a name="enable-sample-data"></a>Activer les exemples de données
 
-Pour utiliser ce scénario à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les données de démonstration standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser ce scénario à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
 
 ## <a name="example-scenario-configure-wave-processing"></a>Exemple de scénario : configuration du traitement des vagues
 

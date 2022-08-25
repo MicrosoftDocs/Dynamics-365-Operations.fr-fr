@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: db6c46d471e3b54982132df3e4819236833cf4a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878484"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292133"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurer un profil de notification par courrier électronique
 
@@ -31,17 +31,9 @@ Lorsque vous créez des canaux, vous pouvez configurer un profil de notification
 
 Pour plus d’informations sur la configuration de l’e-mail, consultez la rubrique [Configurer et envoyer un e-mail](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
-## <a name="create-an-email-notification-profile"></a>Créer un profil de notification par e-mail
 
-Pour créer un profil de notification par e-mail, procédez comme suit.
 
-1. Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Configuration du siège \> Profil de notification par e-mail de Commerce**.
-1. Dans le volet Actions, cliquez sur **Nouveau**.
-1. Dans le champ **Profil de notification par e-mail**, entrez un nom pour identifier le profil.
-1. Entrez une description pertinente dans le champ **Description**.
-1. Paramétrer le commutateur **Actif** sur **Oui**.
-
-### <a name="create-an-email-template"></a>Créer un modèle d’e-mail
+## <a name="create-an-email-template"></a>Créer un modèle d’e-mail
 
 Avant qu’un type de notification par e-mail puisse être activé, vous devez créer un modèle d’e-mail d’organisation dans Commerce Headquarters pour chaque type de notification que vous souhaitez prendre en charge. Ce modèle définit l’objet de l’e-mail, l’expéditeur, la langue par défaut et le corps de l’e-mail pour chaque langue prise en charge.
 
@@ -63,14 +55,24 @@ L’image suivante montre quelques exemples de paramètres de modèle d’e-mail
 
 Pour plus d’informations sur la création et le chargement de modèles d’e-mail, voir [Créer des modèles d’e-mail pour les événements transactionnels](email-templates-transactions.md). 
 
-### <a name="create-an-email-event"></a>Créer un événement d’e-mail
+## <a name="create-an-email-notification-profile"></a>Créer un profil de notification par e-mail
+
+Pour créer un profil de notification par e-mail dans headquarters, procédez comme suit.
+
+1. Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Configuration du siège \> Profil de notification par e-mail de Commerce**.
+1. Dans le volet Actions, sélectionnez **Nouveau**.
+1. Dans le champ **Profil de notification par e-mail**, entrez un nom pour identifier le profil.
+1. Entrez une description pertinente dans le champ **Description**.
+1. Paramétrer le commutateur **Actif** sur **Oui**.
+
+## <a name="add-a-notification-type"></a>Ajouter un type de notification
 
 Pour créer un événement d’e-mail, procédez comme suit.
 
 1. Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Configuration du siège \> Profil de notification par e-mail de Commerce**.
-1. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. 
-1. Sélectionnez le modèle d’e-mail dans la liste déroulante **ID e-mail**.
+1. Sous **Paramètres de notification par e-mail de vente au détail**, sélectionnez **Nouveau**.
 1. Sélectionnez le bon **Type de notification par e-mail** dans la liste déroulante.
+1. Sélectionnez le modèle d’e-mail que vous avez créé ci-dessus dans la liste déroulante **ID d’e-mail**.
 1. Cochez la case **Actif**.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
@@ -78,14 +80,12 @@ L’image suivante montre quelques exemples de notification d’événements.
 
 ![Paramètres de notification d’événements.](media/email-notification-profile.png)
 
-> [!NOTE]
-> Le type de notification créé par le client nécessite la mise en œuvre d’une personnalisation avant qu’une notification par e-mail puisse être envoyée.
 
-### <a name="schedule-a-recurring-email-notification-process-job"></a>Planifier une tâche de processus de notification par e-mail récurrente
+## <a name="schedule-a-recurring-email-notification-process-job"></a>Planifier une tâche de processus de notification par e-mail récurrente
 
 Pour envoyer des notifications par e-mail, vous devez disposer du travail **Traiter la notification par e-mail de commande au détail** en cours d’exécution.
 
-Pour mettre en place le travail **Traiter la notification par e-mail de commande au détail** dans Commerce Headquarters si vous ne l’avez pas déjà fait, suivez ces étapes.
+Pour configurer un traitement par lots dans headquarters pour l’envoi d’e-mails transactionnels, procédez comme suit.
 
 1. Accédez à **Retail et Commerce \> Retail et Commerce IT \> E-mail et notifications \> Envoyer une notification par e-mail**.
 1. Dans la boîte de dialogue **Traiter la notification par e-mail de commande au détail**, sélectionnez **Récurrence**.
@@ -94,9 +94,9 @@ Pour mettre en place le travail **Traiter la notification par e-mail de commande
 1. Sélectionnez **OK** pour revenir à la boîte de dialogue **Traiter la notification par e-mail de commande au détail**.
 1. Sélectionnez **OK** pour terminer la configuration de la tâche.
 
-### <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Étapes suivantes
 
-Avant de pouvoir envoyer des e-mails, vous devez configurer votre service de courrier sortant et configurer un traitement par lots. Pour plus d’informations, voir [Configurer et envoyer un e-mail](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
+Avant de pouvoir envoyer des e-mails, vous devez configurer votre service de courrier sortant. Pour plus d’informations, voir [Configurer et envoyer un e-mail](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

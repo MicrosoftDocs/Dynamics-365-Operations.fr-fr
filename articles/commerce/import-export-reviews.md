@@ -1,22 +1,22 @@
 ---
-title: Importation et exportation des évaluations et des avis
+title: Import et export des évaluations et des avis
 description: Cet article décrit comment importer et exporter des évaluations et des avis de produits dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f369e3cd208cdfba816f817ead75374ee6982912
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863399"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271933"
 ---
-# <a name="import-and-export-ratings-and-reviews"></a>Importation et exportation des évaluations et des avis
+# <a name="import-and-export-ratings-and-reviews"></a>Import et export des évaluations et des avis
 
 [!include [banner](includes/banner.md)]
 

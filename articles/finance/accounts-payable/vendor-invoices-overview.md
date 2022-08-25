@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 565e45a1c396b9144b4a6437056a0040b2fbde1d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894169"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228749"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d’ensemble des factures fournisseur
 
@@ -71,10 +71,10 @@ Votre organisation peut utiliser des workflows pour gérer le processus de révi
 
 Voici plusieurs façons d’empêcher une facture d’être soumise à un flux de travail.
 
-- **Le total de la facture et le total enregistré ne sont pas identiques.** La personne qui a soumis la facture recevra une alerte indiquant que les totaux ne sont pas égaux. L’alerte offre la possibilité de corriger les soldes avant de soumettre à nouveau la facture au workflow. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le total de la facture et le total de la facture enregistrée ne sont pas identiques** sur la page **Gestion des fonctionnalités** est activé. 
-- **La facture contient des frais non alloués.** La personne qui a soumis la facture recevra une alerte indiquant que la facture a des frais non attribués afin de pouvoir corriger la facture avant de la soumettre à nouveau au flux de travail. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail en cas de charges non attribuées sur une facture fournisseur** de la page **Gestion des fonctionnalités** est activé.
-- **La facture contient le même numéro de facture qu’une autre facture validée.** La personne qui a envoyé la facture recevra un message indiquant qu’une facture avec un numéro en double a été trouvée. Le numéro en double peut être corrigé avant d’envoyer à nouveau la facture au flux de travail. Cette alerte s’affiche lorsque le paramètre **Vérifier le numéro de facture utilisé** de la Comptabilité fournisseur est défini sur **Rejeter le doublon**. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le numéro de facture existe déjà sur une facture validée et lorsque votre système n’est pas configuré pour accepter les numéros de facture en double** sur la page **Gestion des fonctionnalités** est activé.
-- **La facture contient une ligne où la quantité de la facture est inférieure à la quantité correspondante de l’accusé de réception de marchandises.** La personne qui envoie la facture ou tente de la publier recevra un message indiquant que les quantités ne sont pas égales. Ce message offre la possibilité de corriger les valeurs avant de renvoyer la facture au flux de travail. Cette fonctionnalité est disponible si le paramètre **Bloquer la publication et l’envoi de factures fournisseur au flux de travail** dans la page **Gestion des fonctionnalités** est activé et le paramètre **Bloquer la publication et l’envoi au flux de travail** dans la page **Paramètres de la comptabilité fournisseur** est activé.
+- **Le total de la facture et le total enregistré ne sont pas identiques.** L'utilisateur qui a soumis la facture recevra une alerte indiquant que les totaux ne sont pas égaux. Cette alerte donne à l'utilisateur la possibilité de corriger les soldes avant de soumettre à nouveau la facture au système du flux de travail. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le total de la facture et le total de la facture enregistrée ne sont pas égaux** sur la page **Gestion des fonctionnalités** et le paramètre **Option de flux de travail lorsque le total de la facture et le total enregistré ne sont pas égaux** sur la page **Paramètres des comptes fournisseurs** sont activées. 
+- **La facture contient des frais non alloués.** L'utilisateur qui a soumis la facture recevra une alerte indiquant que la facture a des frais non allouées. De cette façon, l’utilisateur peut corriger la facture avant de la soumettre à nouveau au système de flux de travail. Cette fonctionnalité est disponible si le paramètre **Interdire la soumission au flux de travail lorsqu'il y a des frais non alloués sur une facture fournisseur** dans la page **Gestion des fonctionnalités** et le paramètre **Option de flux de travail lorsqu'il existe des frais non alloués** dans la page **Paramètres de la comptabilité fournisseur** sont activés.
+- **La facture contient le même numéro de facture qu’une autre facture validée.** L'utilisateur qui a soumis la facture recevra une alerte qu’une facture avec un numéro en double a été trouvée. L’utilisateur peut corriger le numéro en double avant de soumettre à nouveau la facture au système de flux de travail. L'alerte s’affichera si le paramètre **Vérifier le numéro de facture utilisé** de la Comptabilité fournisseur est défini sur **Rejeter le doublon**. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le numéro de facture existe déjà sur une facture validée et lorsque votre système n’est pas configuré pour accepter les numéros de facture en double** sur la page **Gestion des fonctionnalités** est activé.
+- **La facture contient une ligne où la quantité de la facture est inférieure à la quantité correspondante de l’accusé de réception de marchandises.** L'utilisateur qui soumet la facture ou essaie de la publier recevra un message que les quantités ne sont pas égales. Ce message donne à l'utilisateur la possibilité de corriger les valeurs avant de soumettre à nouveau la facture au système du flux de travail. Cette fonctionnalité est disponible si le paramètre **Bloquer la publication et l’envoi de factures fournisseur au flux de travail** dans la page **Gestion des fonctionnalités** et le paramètre **Bloquer la publication et l’envoi au flux de travail** dans la page **Paramètres de la comptabilité fournisseur** sont activés.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Rapprochement des factures fournisseur avec les accusés de réception de marchandises
 
@@ -142,7 +142,7 @@ Pour chaque transaction, l’état comprend les détails suivants :
 Lorsque vous générez l’état **Transactions ouvertes par le fournisseur**, les paramètres par défaut suivants sont disponibles. Vous pouvez les utiliser pour filtrer les données qui seront incluses dans le rapport.
 
 - **Exclure le règlement futur** – Cochez cette case pour exclure les transactions réglées après la date saisie dans le champ **Transactions ouvertes par**.
-- **Transactions ouvertes par** – Saisissez une date pour inclure les transactions ouvertes à cette date. Si vous ne saisissez pas de date, ce champ est défini sur la date maximale. (La date maximale est la dernière date que le système acceptera, le 31 décembre 2154.) Par défaut, la prochaine fois que le rapport sera exécuté, ce champ sera défini comme la dernière date qui y a été entrée.
+- **Transactions ouvertes par** – Saisissez une date pour inclure les transactions ouvertes à cette date. Si vous ne saisissez pas de date, ce champ est défini sur la date maximale. (La date maximale est la dernière date que le système acceptera, le 31 décembre 2154.) Par défaut, la prochaine fois que le rapport sera exécuté, ce champ sera défini sur la dernière date qui y a été entrée.
 
 Vous pouvez utiliser les filtres sous le champ **Enregistrement à inclure** pour limiter davantage les données de transaction incluses dans le rapport.
 

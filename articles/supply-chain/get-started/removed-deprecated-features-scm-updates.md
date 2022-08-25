@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou déconseillées dans Dynamics 365 Supply Chain Management
 description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171513"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218800"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Supply Chain Management
 
@@ -33,6 +33,17 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.29
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Ordres de transfert des stocks avec taxe sur le prix de transfert
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motif de l’abandon/de la suppression** | La fonctionnalité [Ordres de transfert de stock qui ont une taxe sur le prix de transfert](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) est remplacée par la fonctionnalité [Ordres de transfert de stock pour l'Inde](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, la fonctionnalité [Ordres de transfert de stock qui ont une taxe sur le prix de transfert](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) est remplacée par la fonctionnalité [Ordres de transfert de stock pour l'Inde](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Zones de produit affectées** | Supply Chain Management - inventaire |
+| **Option de déploiement** | Cloud et sur site |
+| **Status** | <p>Être obsolète. La fonctionnalité *Ordres de transfert de stock qui ont une taxe sur le prix de transfert* ne recevra pas de support avec les correctifs de bogues et les correctifs de sécurité.</p><p>Après avril 2023, les clients seront invités à utiliser la fonctionnalité améliorée, *Ordres de transfert de stock pour l'Inde*, par défaut. Après octobre 2023, la fonctionnalité *Ordres de transfert de stock qui ont une taxe sur le prix de transfert* ne sera plus disponible, et les clients seront invités à passer à la fonctionnalité améliorée *Ordres de transfert de stock pour l'Inde*.</p><p>Pour plus d'informations, voir [Ordres de transfert de stock pour l'Inde](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.19
 

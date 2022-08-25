@@ -1,23 +1,23 @@
 ---
 title: Catalogue d’apprentissage pour les développeurs de Dynamics 365 Commerce
 description: Découvrez toutes les options d’apprentissage pour les développeurs de Dynamics 365 Commerce.
-author: margoc
-ms.topic: article
+author: josaw1
 ms.date: 07/27/2020
-ms.author: margoc
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: josaw
 ms.search.region: Global
+ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a4ac123bea3b3cc2c6c0645a4ecc8cf119119408
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 048d46fa5504f7249f310da2d2ff4be05e88b3fd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066185"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291507"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Catalogue d’apprentissage pour les développeurs de Dynamics 365 Commerce
 
@@ -39,7 +39,7 @@ Pour une formation sur les fonctionnalités partagées avec d’autres applicati
 
 | Contenu  | Description  | Format  | Longueur    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Déployer et étendre Dynamics 365 Commerce](/learn/paths/deploy-dynamics-365-commerce/) | Ce parcours d’apprentissage décrit comment déployer des environnements Dynamics 365 Commerce et effectuer des étapes post-mise en service pour des implémentations réussies de Commerce en utilisant la topologie adaptée aux besoins de chaque détaillant. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5 heures |
+| [Déployer et étendre Dynamics 365 Commerce](/learn/paths/deploy-dynamics-365-commerce/) | Ce parcours d’apprentissage décrit comment déployer des environnements Dynamics 365 Commerce et effectuer des étapes post-mise en service pour des implémentations réussies de Commerce en utilisant la topologie adaptée aux besoins de chaque détaillant. | Parcours d’apprentissage en ligne, gratuit et auto-rythmé | 5 heures |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

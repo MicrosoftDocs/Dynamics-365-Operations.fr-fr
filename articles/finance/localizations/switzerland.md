@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble de la Suisse
 description: Cet article fournit des liens vers des ressources de documentation pour la Suisse.
-author: ShylaThompson
+author: kfend
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Switzerland
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ba005496abc6739eea834229729a12bb439e011
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1958ddb816dc9bd02b1043b769d535c6d87ecb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872346"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283364"
 ---
 # <a name="switzerland-overview"></a>Vue d’ensemble de la Suisse
 

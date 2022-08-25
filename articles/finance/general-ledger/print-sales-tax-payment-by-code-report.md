@@ -1,50 +1,50 @@
 ---
-title: Imprimer l’état de déclaration de taxe par code
-description: Cet article fournit des informations sur les paramètres et les actions nécessaires pour imprimer l’état de déclaration de taxe par code dans la devise du code comptable ou fiscal.
-author: anasyash
+title: Imprimer l’état de paiement de taxe de vente par code
+description: Cet article fournit des informations sur les paramètres et les actions nécessaires pour imprimer l’état de paiement de taxe de vente par code dans la devise du code comptable ou fiscal.
+author: AdamTrukawka
 ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9c6b51da41f2aaa3206f8ad97a364a9cd5ca6d49
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: ea11826d21b66e6283abf24b3f7b0945e6eb9192
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856652"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272366"
 ---
-# <a name="print-the-sales-tax-payment-by-code-report"></a>Imprimer l’état de déclaration de taxe par code 
+# <a name="print-the-sales-tax-payment-by-code-report"></a>Imprimer l’état de paiement de taxe de vente par code 
 
 [!include [banner](../includes/banner.md)]
 
-Pour imprimer l’état **Déclaration de taxe par code**, accédez à **Taxe** \> **Recherches et états** \> **Déclarations de taxe** \> **Déclaration de taxe par code**. Par défaut, les montants prédéfinis sont générés dans la devise comptable de l’entité juridique pour tous les codes de déclaration configurés sur la page **Codes déclaration de taxe**.
+Pour imprimer l’état **Paiement de taxe de vente par code**, accédez à **Taxe** \> **Recherches et états** \> **Déclarations de taxe de vente** \> **Déclaration de taxe de vente par code**. Par défaut, les montants prédéfinis sont générés dans la devise comptable de l’entité juridique pour tous les codes de déclaration configurés sur la page **Codes déclaration de taxe de vente**.
 
 Vous pouvez également générer ce rapport afin qu’il affiche les montants de paiement de la taxe de vente dans les devises des codes de taxe de vente pour tous les codes de déclaration affectés aux codes de taxe de vente sur la page **Codes taxe**.
 
 ## <a name="turn-on-the-feature"></a>Activer la fonctionnalité
 
-Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonction suivante : **Générer l’état Déclaration de taxe par code dans la devise du code taxe**.
+Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonction suivante : **Générer l’état Déclaration de taxe de vente par code dans la devise du code taxe**.
 
 ## <a name="run-the-report"></a>Exécuter le rapport
 
-1. Accédez à **Taxe** \> **Recherches et états** \> **États de taxe** \> **Paiement de taxe par code**.
+1. Accédez à **Taxe** \> **Recherches et états** \> **États de taxe de vente** \> **Paiement de taxe de vente par code**.
 2. Dans le champ **Devise du rapport**, sélectionnez l’une des valeurs suivantes :
 
     - **Devise comptable** – Imprimez les montants du rapport dans la devise comptable.
-    - **Devise du code taxe** – Imprimer les montants du rapport dans les devises des codes taxe.
+    - **Devise du code taxe de vente** – Imprimer les montants du rapport dans les devises des codes taxe de vente.
 
-    ![Boîte de dialogue Déclaration de taxe par code.](media/Sales-tax-payment-by-code.png)
+    ![Boîte de dialogue Déclaration de taxe de vente par code.](media/Sales-tax-payment-by-code.png)
 
-L’illustration suivante présente un exemple de l’état généré. Le rapport montre que le code de déclaration de taxe **101** a la devise **EUR** si le champ **Devise de la taxe** est défini sur **EUR** pour le code taxe auquel le code de déclaration est affecté.
+L’illustration suivante présente un exemple de l’état généré. Le rapport montre que le code de déclaration de taxe **101** a la devise **EUR** si le champ **Devise de la taxe de vente** est défini sur **EUR** pour le code taxe de vente auquel le code de déclaration est affecté.
 
-![Exemple de l’état de déclaration de taxe par code.](media/Sales-tax-payment-by-code-2.png)
+![Exemple de l’état de déclaration de taxe de vente par code.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

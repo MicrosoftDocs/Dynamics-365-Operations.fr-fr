@@ -6,21 +6,21 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BudgetDetailsInquiry, CustGroup, JournalizingDefinition, JournalizingDefinitionTrans, LedgerFund, LedgerParameters, LedgerTransferOpening, MainAccount
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 27271
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: kfend
+ms.author: v-kiarnd
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76f66b6c9adfcdf04a774a21cc3579d35ab4272c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 27271
+ms.search.industry: Public sector
+ms.search.form: BudgetDetailsInquiry, CustGroup, JournalizingDefinition, JournalizingDefinitionTrans, LedgerFund, LedgerParameters, LedgerTransferOpening, MainAccount
+ms.openlocfilehash: 86eacdafd1bc1016dcc33fb38677784ee68908d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888835"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270532"
 ---
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 
@@ -607,11 +607,11 @@ La définition de validation recherche un rapprochement avec toute partie du com
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Module Comptabilité fournisseur](../accounts-payable/accounts-payable.md)
+[Comptabilité fournisseur](../accounts-payable/accounts-payable.md)
 
-[Comptabilité fournisseur (Secteur public)](accounts-payable-public-sector.md)
+[Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
 
-[Comptabilité client (Secteur public)](accounts-receivable-public-sector.md)
+[Comptabilité client dans le secteur public](accounts-receivable-public-sector.md)
 
 [Budgétisation dans le secteur public](budgeting-public-sector.md)
 

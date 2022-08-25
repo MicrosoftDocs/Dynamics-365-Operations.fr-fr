@@ -1,24 +1,24 @@
 ---
 title: Gérer plusieurs mises en correspondance dérivées pour une seule racine de modèle
 description: Cet article explique comment gérer plusieurs mises en correspondance dérivées configurées pour une seule racine de modèle.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892477"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277506"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gérer plusieurs mises en correspondance dérivées pour une seule racine de modèle
 
@@ -106,7 +106,7 @@ Cette section explique comment [Personnaliser](er-quick-start3-customize-report.
 3. Dans la boîte de dialogue **Créer la configuration**, dans le champ **Nouveau**, sélectionnez **Provenant du nom : Mappage de modèle de facture, Microsoft**.
 4. Dans le champ **Nom**, saisissez **Mappage de modèle de facture Litware**.
 5. Sélectionnez **Créer une configuration**.
-6. [Marquez](er-quick-start2-customize-report.md#MarkFormatRunnable) la version [brouillon](general-electronic-reporting.md#component-versioning) du mappage dérivé disponible pour une utilisation au moment de l’exécution :
+6. [Marquez](er-quick-start2-customize-report.md#MarkFormatRunnable) la version [brouillon](general-electronic-reporting.md) du mappage dérivé disponible pour une utilisation au moment de l’exécution :
 
     1. Dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Utiliser les paramètres**.
     2. Dans la boîte de dialogue **Paramètres utilisateur**, définissez l’option **Paramètres d’exécution** sur **Oui**, puis cliquez sur **OK**.

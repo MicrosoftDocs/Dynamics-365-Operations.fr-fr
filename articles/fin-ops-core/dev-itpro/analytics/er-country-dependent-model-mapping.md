@@ -1,26 +1,26 @@
 ---
 title: Configurer les mises en correspondance de modèle de gestion des états électroniques selon le contexte du pays
 description: Cet article explique comment vous pouvez configurer les mises en correspondance de modèle de gestion des états électroniques de telle sorte qu’elles dépendent du contexte du pays/de la région de l’entité juridique qui contrôle leur utilisation.
-author: NickSelin
+author: kfend
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable
+ms.openlocfilehash: 5db0936682e0cc052622658ac14046013bc4fd87
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883873"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277754"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurer les mises en correspondance de modèle de gestion des états électroniques selon le contexte du pays
 

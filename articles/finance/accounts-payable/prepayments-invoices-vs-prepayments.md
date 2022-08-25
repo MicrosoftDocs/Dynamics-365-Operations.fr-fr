@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895194"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227773"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Factures d’acompte et acomptes
 
@@ -78,6 +78,8 @@ L’acompte peut être supprimé de la commande fournisseur, sauf si vous avez d
 Pour enregistrer la facture d’acompte du fournisseur, accédez à la page **Facture fournisseur** en sélectionnant l’option **Facture d’acompte** sur la page **Commandes fournisseur** (**Comptabilité fournisseur \> Commun \> Commandes fournisseur \> Toutes les commandes fournisseur \> Onglet Facture \> Facture d’acompte**). Entrez les informations relatives à la facture d’acompte, notamment le numéro de facture. Vous ne pouvez pas modifier les quantités d’une facture d’acompte. Si le fournisseur a facturé un montant partiel de la valeur d’acompte définie sur la commande fournisseur, vous pouvez mettre à jour le prix unitaire pour refléter la valeur partielle.
 
 Lors de la validation de la facture d’acompte, le solde fournisseur et le compte d’acompte sont mis à jour. La valeur **Application de l’acompte** de la définition d’acompte contenue dans la commande fournisseur est également mise à jour. Les entrées de dimension financière par défaut pour le N° document d’acompte validé seront extraites des informations d’en-tête de la commande fournisseur.
+
+Si la fonction **Verrouiller les dimensions financières sur les lignes de facture sur la facture d’acompte fournisseur** sur la page **Gestion des fonctionnalités** est activée, les dimensions de l’en-tête ou des lignes d’acompte ne peuvent pas être mises à jour. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Valider et régler les paiements pour la facture d’acompte
 Ensuite, la facture d’acompte sera payée à partir de la page **Journal des paiements**. Pour accéder aux journaux de paiement, cliquez sur **Comptabilité fournisseur \> Journaux \> Paiement s\> Journal des paiements**. Après avoir validé le règlement du paiement sur la facture d’acompte, la valeur **Demandes d’avance restantes** de la commande fournisseur est mise à jour.

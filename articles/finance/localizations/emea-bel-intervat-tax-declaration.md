@@ -1,25 +1,25 @@
 ---
 title: Déclaration de taxe INTERVAT
 description: Cet article fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 273023
 ms.search.region: Belgium
-ms.author: anasyash
-ms.dyn365.ops.version: AX 7.0.1
+ms.author: atrukawk
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 68c7fc39b462c5ec4171d160bd7c0b05227b5d24
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.dyn365.ops.version: AX 7.0.1
+ms.custom: 273023
+ms.search.form: TaxIntervat
+ms.openlocfilehash: eab7060cda1e059d724ae83dfd5d639126b90a4e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883102"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275914"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 

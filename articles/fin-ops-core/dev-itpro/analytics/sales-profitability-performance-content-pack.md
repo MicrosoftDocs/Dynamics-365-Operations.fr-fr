@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "260674"
+ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.form: SalesProfitabilityPerformancePowerBI
-ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 77271ad9f5a1d7c131e1d7750de280f0c70daaa4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205599"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274657"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenu Power BI Performances de rentabilité et de ventes
 
@@ -77,7 +76,7 @@ Le contenu Power BI **Performances de rentabilité et de vente** comprend un ét
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 Les données suivantes sont utilisées pour remplir les pages d’état dans le contenu Power BI **Performances de rentabilité et de vente**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d’informations, voir [Intégration de Power BI au magasin d’entité](power-bi-integration-entity-store.md).
 
-Les mesures globales dans ce pack de contenu sont le sous-ensemble des mesures globales qui sont disponibles dans le Cube des ventes dans Microsoft Dynamics AX 2012 et Microsoft Dynamics AX 2012 R3. Pour enregistrer les mesures globales du cube dans le magasin d’entités, vous devez les rendre déployables. Pour plus d’informations, voir la procédure d’enregistrement des mesures globales dans le magasin d’entités dans la publication de blog [Intégration de Power BI avec le magasin d’entités dans Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
+Les mesures agrégées de ce contenu sont le sous-ensemble de mesures agrégées qui étaient disponibles dans le cube des ventes dans Microsoft Dynamics AX 2012 et Microsoft Dynamics AX 2012 R3. Pour enregistrer les mesures globales du cube dans le magasin d’entités, vous devez les rendre déployables. Pour plus d’informations, voir la procédure d’enregistrement des mesures globales dans le magasin d’entités dans la publication de blog [Intégration de Power BI avec le magasin d’entités dans Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
 
 Les mesures globales clés suivantes de l’entité Lignes de facture sont utilisées comme base du contenu.
 
@@ -95,7 +94,7 @@ Le tableau suivant indique comment les mesures globales clés de l’entité Lig
 | Marge brute      | SOMME(Produit brut / (Produit – Taxe (y compris dans le montant de la ligne de la facture client)))             |
 | Produit l’année dernière | Produit l’année dernière = CALCULATE(SUM(’Lignes de facture’\[Produit\]), SAMEPERIODLASTYEAR(Dates\[Date\]) |
 
-Les dimensions clés suivantes du cube de vente sont utilisées comme filtres pour diviser les mesures globales afin d’atteindre une meilleure granularité et d’obtenir une analyse plus approfondie.
+Les dimensions clés suivantes du cube des ventes sont utilisées comme filtres pour diviser les mesures agrégées, afin que vous puissiez atteindre une plus grande granularité et obtenir des aperçus analytiques plus approfondis.
 
 | Entité           | Exemples d’attributs                               |
 |------------------|------------------------------------------------------|

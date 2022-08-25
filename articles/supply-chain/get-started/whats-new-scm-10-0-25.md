@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167729"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219092"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Nouveautés et modifications dans Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
 
@@ -34,7 +34,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 | Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
 | Inventaire&nbsp;et&nbsp;logistique | [Améliorations des matières dangereuses](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Bientôt disponible | Gestion des fonctions :<br>*Améliorations des matières dangereuses* |
-| Inventaire&nbsp;et&nbsp;logistique | [Travail de conditionnement pour les stations de conditionnement](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Bientôt disponible | Gestion des fonctions :<br>*Travail de conditionnement pour les stations de conditionnement* |
+| Inventaire&nbsp;et&nbsp;logistique | [Travail de conditionnement pour les stations de conditionnement](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [Travaux d’emballage pour l’emballage des conteneurs sortants et le traitement des expéditions](../warehousing/packing-work.md) | Gestion des fonctions :<br>*Travail de conditionnement pour les stations de conditionnement* |
 | Inventaire&nbsp;et&nbsp;logistique | [Scannez les codes-barres dans l’entrepôt en utilisant les normes de format GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Codes à barres GS1 et codes QR](../warehousing/gs1-barcodes.md) | Gestion des fonctions :<br>*Scanner les codes-barres de GS1* |
 | Fabrication | [Consommation et réservation des matières sur l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*Enregistrer la consommation des matériaux sur l’interface d’exécution de l’atelier de production (autre que WMS)*<br><br>Et/ou :<br><br>Gestion des fonctions :<br>*(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)* |
 | Planification | [Maintenance du calendrier centralisé de l’optimisation de la planification](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Calendriers et planification](../master-planning/supply-chain-calendars-master-planning.md) | Activé par défaut |

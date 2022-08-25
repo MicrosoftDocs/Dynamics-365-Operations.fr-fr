@@ -1,25 +1,25 @@
 ---
 title: Déclaration TVA (Suisse)
 description: Cet article fournit des informations sur la configuration et la génération d’une déclaration de TVA pour la Suisse.
-author: anasyash
+author: AdamTrukawka
 ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 264584
 ms.search.region: Switzerland
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4d2cd47fe59aad9c54dd5d519defa604037b566f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 264584
+ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
+ms.openlocfilehash: f5967fc00cffc7882b9232ab989d897dbe123623
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865510"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275208"
 ---
 # <a name="vat-declaration-switzerland"></a>Déclaration TVA (Suisse)
 

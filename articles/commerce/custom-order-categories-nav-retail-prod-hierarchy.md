@@ -2,7 +2,7 @@
 title: Modifier l’ordre de tri pour les entités de promotion des ventes
 description: Cet article explique les concepts relatifs aux contrôle de l’ordre d’affichage pour différentes entités associées à un événement de promotion des ventes dans Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/05/2019
+ms.date: 08/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,27 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80586597f4f60476b341e4cf1cfd90f3681e15c0
+ms.sourcegitcommit: 52e31b1ef2b3ed8675de931d06090cd57e057fc2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847652"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9265834"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Modifier l’ordre de tri pour les entités de promotion des ventes
 
 
 [!Include [banner](includes/banner.md)]
 
-Les détaillants considèrent que la découverte d’un produit est l’outil principal pour l’interaction de clients entre les canaux. Différentes fonctionnalités peuvent aider les clients à découvrir facilement des produits. Ils peuvent par exemple parcourir des catégories, faire des recherches, et filtrer.
+Les détaillants considèrent que la découverte d’un produit est l’outil principal pour l’interaction de clients entre les canaux. Plusieurs fonctionnalités peuvent aider les clients à découvrir facilement les produits. Ils peuvent par exemple parcourir des catégories, faire des recherches, et filtrer.
 
 Cet article explique les concepts relatifs aux contrôle de l’ordre d’affichage pour différentes entités associées à un événement de promotion des ventes. Elle décrit également comment modifier l’ordre de tri.
 
 ## <a name="overview"></a>Présentation
 
-La prise en charge du tri de différentes entités associées à un événement de promotion des ventes a été améliorée. Cette prise en charge correspond désormais mieux aux scénarios client existants qui nécessitaient auparavant des extensions de la part des partenaires d’implémentation.
+Dans Commerce, le tri des différentes entités liées au merchandising est aligné sur les scénarios clients existants et ne nécessite plus d’extensions de la part des partenaires d’exécution.
 
-Dans les versions de Retail qui sont antérieures à la version 10.0.5, la commande de tri pour les catégories de la hiérarchie de navigation était dans l’ordre alphabétique. La nouvelle fonctionnalité d’ordre de tri personnalisée permet aux responsables des ventes de configurer la commande de tri pour différentes entités associées à un événement de promotion des ventes entre tous les clients de l’utilisateur final. Ces clients incluent les sièges sociaux et les centres d’appels.
+Dans les versions Commerce version 10.0.5 et antérieures, la commande de tri pour les catégories de la hiérarchie de navigation était dans l’ordre alphabétique. La fonctionnalité actuelle d’ordre de tri personnalisée permet aux responsables des ventes de configurer la commande de tri pour différentes entités associées à un événement de promotion des ventes entre tous les clients de l’utilisateur final. Ces clients incluent les sièges sociaux et les centres d’appels.
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>Configuration de l’ordre d’affichage des catégories de la hiérarchie des produits
 
@@ -63,11 +63,11 @@ Avant de pouvoir exécuter cette procédure, les données de démonstration doiv
 2. Dans la liste, sélectionnez la hiérarchie **Navigation de mode**.
 3. Cliquez sur **Modifier la hiérarchie de la catégorie**.
 4. Cliquez sur **Modifier**.
-5. Dans l’arborescence, sélectionnez **Fashion \> Womenswear \> Tops**.
+5. Dans l’arborescence, sélectionnez **Fashion \> Vêtements pour femmes \> Chaussures pour femme**.
 6. Entrez un nombre dans le champ **Ordre d’affichage**.
 7. Dans l’arborescence, sélectionnez **Fashion \> Womenswear \> Tops**.
 
-    De même, vous pouvez définir l’ordre de tri pour les sous-catégories.
+De même, vous pouvez définir l’ordre de tri pour les sous-catégories.
 
 8. Dans l’arborescence, sélectionnez **Fashion \> Menswear \> Casual Shirts**.
 9. Entrez un nombre dans le champ **Ordre d’affichage**.
@@ -84,7 +84,7 @@ L’ordre d’affichage pour la hiérarchie de navigation du canal apparaît dan
 ![PDV avec des catégories triées par personnalisation.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Par défaut, la fonctionnalité d’ordre de tri personnalisé est désactivée. Pour savoir comment activer cette fonctionnalité et les autres, consultez [Gestion des fonctionnalités](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
-
+> Par défaut, la fonctionnalité **Activer l’ordre d’affichage pour les entités de merchandising** est désactivée. Utilisez [Gestion des fonctionnalités](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour l’activer. Une fois la fonctionnalité activée, exécutez la tâche CDX **Configuration globale -1110** dans le programme de distribution.
+> Si l’ordre de vos catégories dans le PDV n’est pas mis à jour, réactivez l’appareil. Les informations de catégorie sont récupérées lors de l’activation de l’appareil, de sorte que l’appareil peut avoir besoin de récupérer les informations de catégorie avec des commandes d’affichage mises à jour. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

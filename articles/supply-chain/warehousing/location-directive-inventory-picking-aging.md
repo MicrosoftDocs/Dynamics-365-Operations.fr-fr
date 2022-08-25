@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068668"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219470"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Instruction d’emplacement relatif à l’âge du prélèvement du stock
 
@@ -34,8 +34,8 @@ Lors de la première réception ou de la création du stock dans l’entrepôt, 
 
 Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), dans l’ordre suivant :
 
-1. Statut de l’emplacement de l’entrepôt
-1. Instruction d’emplacement relatif à l’âge du prélèvement du stock
+1. *Statut de l’emplacement de l’entrepôt*  (Depuis la version 10.0.29, cette fonctionnalité est activée par défaut. Pour plus d’informations, voir [Statut de l'emplacement de l’entrepôt](warehouse-location-status.md).)
+1. *Instruction d’emplacement relatif à l’âge du prélèvement du stock*
 
 ## <a name="feature-requirements"></a>Exigences relatives à la fonctionnalité
 
@@ -50,7 +50,7 @@ Cette section illustre le paramétrage et l’utilisation des stratégies FIFO e
 
 ### <a name="make-sample-data-available"></a>Rendre les exemple de données disponibles
 
-Pour exécuter ces scénarios à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
+Pour exécuter ces scénarios à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
 
 Vous pouvez également utiliser ces scénarios comme orientation pour utiliser la fonctionnalité dans un système de production. Cependant, dans ce cas, vous devez remplacer les valeurs de chaque paramètre décrit ici par les vôtres.
 

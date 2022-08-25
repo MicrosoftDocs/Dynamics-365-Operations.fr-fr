@@ -1,39 +1,39 @@
 ---
 title: Concepteur de formule dans les états électroniques (ER)
 description: Cet article fournit des informations sur l’utilisation du concepteur de formule dans les États électroniques (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b03613cb40c5ca718f45e69740d29059fcfb70b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894293"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287926"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit l’utilisation du concepteur de formule dans la génération d’états électroniques. Lorsque vous créez un format pour un document électronique spécifique dans ER, vous pouvez utiliser des formules pour transformer les données afin qu’elles répondent aux exigences d’exécution et de mise en forme du document. Ces formules sont semblables aux formules dans Microsoft Excel. Plusieurs types de fonctions sont pris en charge dans les formules : texte, date et heure, mathématique, logique, informations, et des formules de conversion du type de données ainsi que d’autres fonctions spécifiques au métier.
+Cet article décrit l’utilisation du concepteur de formule dans la génération d’états électroniques (ER). Lorsque vous créez un format pour un document électronique spécifique dans ER, vous pouvez utiliser des formules pour transformer les données afin qu’elles répondent aux exigences d’exécution et de mise en forme du document. Ces formules sont semblables aux formules dans Microsoft Excel. Plusieurs types de fonctions sont pris en charge dans les formules : texte, date et heure, mathématique, logique, informations, et des formules de conversion du type de données ainsi que d’autres fonctions spécifiques au domaine de métier.
 
 ## <a name="formula-designer-overview"></a>Vue d’ensemble du concepteur de formule
 
-La fonctionnalité de génération d’états électroniques prend en charge le concepteur de formule. Par conséquent, au moment de la conception, vous pouvez configurer des expressions qui peuvent être utilisées pour les tâches suivantes au moment de l’exécution :
+ER prend en charge le concepteur de formule. Par conséquent, au moment de la conception, vous pouvez configurer des expressions qui peuvent être utilisées pour les tâches suivantes au moment de l’exécution :
 
 - Transformez les données provenant d’une base de données d’une application, et qui doivent être saisies dans un modèle de données ER conçues pour être une source de données pour les formats ER. (Par exemple, ces transformations peuvent inclure le filtrage, le regroupement et la conversion des types de données.)
-- Mettre en forme des données qui doivent être émises vers un document électronique en cours de génération en accord avec la mise en forme et les conditions d’un format de génération d’états électroniques spécifique. (Par exemple, la mise en forme peut être effectuée en accord avec la langue, la culture ou le codage demandé.)
+- Mettre en forme des données qui doivent être émises vers un document électronique en cours de génération en accord avec la disposition et les conditions d’un format ER spécifique. (Par exemple, la mise en forme peut être effectuée en accord avec la langue, la culture ou le codage demandé.)
 - Contrôler le processus de création de documents électroniques. (Par exemple, les expressions peuvent activer ou désactiver l’émission d’éléments spécifiques du format, en fonction des données de traitement. Elles peuvent également interrompre le processus de création du document ou envoyer des messages aux utilisateurs.)
 
 Vous pouvez ouvrir la page **Concepteur de formule** lorsque vous effectuez l’une des actions suivantes :
@@ -51,17 +51,17 @@ Vous pouvez ouvrir la page **Concepteur de formule** lorsque vous effectuez l’
 
 ## <a name="data-binding"></a><a name="Binding"></a>Liaison de données
 
-Le concepteur de formule de génération d’états électroniques permet de définir une expression qui transforme des données reçues des sources de données à saisir de la manière suivante dans le consommateur de données au moment de l’exécution :
+Le concepteur de formule ER permet de définir une expression qui transforme des données reçues des sources de données à saisir de la manière suivante dans le consommateur de données au moment de l’exécution :
 
-- Des sources de données de l’application et des paramètres d’exécution à un modèle de données de génération d’états électroniques
-- D’un modèle de données de génération d’états électroniques à un format de génération d’états électroniques
-- Des sources de données de l’application et des paramètres d’exécution à format de génération d’états électroniques
+- Des sources de données de l’application et des paramètres d’exécution à un modèle de données ER
+- D’un modèle de données ER à un format ER
+- Des sources de données de l’application et des paramètres d’exécution à un format ER
 
 La figure suivante présente la création d’une expression de ce type. Dans cet exemple, l’expression arrondit la valeur du champ **Intrastat.AmountMST** dans la table Déclaration d’échanges de biens à deux décimales et retourne la valeur arrondie.
 
 [![Expression de liaison de données.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
-La figure suivante présente l’utilisation d’une expression de ce type. Dans cet exemple, le résultat de l’expression conçue est saisi dans le composant **Transaction.InvoicedAmount** du modèle de données **Modèle de déclaration de taxe**.
+La figure suivante présente l’utilisation d’une expression de ce type. Dans cet exemple, le résultat de l’expression conçue est saisi dans le composant **Transaction.InvoicedAmount** du modèle de données **Modèle de déclaration de taxe** .
 
 [![Expression de liaison de données utilisée.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
@@ -69,7 +69,7 @@ La figure suivante présente l’utilisation d’une expression de ce type. Dans
 
 ## <a name="data-formatting"></a><a name="Transformation"></a>Mise en forme des données
 
-Le concepteur de formule de génération d’états électroniques permet de définir une expression qui formate les données reçues des sources de données, afin que les données puissent être envoyées dans le cadre de la génération d’un document électronique. Vous disposez peut-être d’une mise en forme qui doit être appliquée comme règle classique pour être réutilisée pour un format. Dans ce cas, vous pouvez entrer cette mise en forme une fois dans la configuration du format comme transformation nommée ayant une expression de mise en forme. Cette transformation nommée peut ensuite être liée à de nombreux composants de format dont la sortie doit être mise en forme en fonction de l’expression de mise en forme créée.
+Le concepteur de formule ER permet de définir une expression qui formate les données reçues des sources de données, afin que les données puissent être envoyées dans le cadre de la génération d’un document électronique. Vous disposez peut-être d’une mise en forme qui doit être appliquée comme règle classique pour être réutilisée pour un format. Dans ce cas, vous pouvez entrer cette mise en forme une fois dans la configuration du format comme transformation nommée ayant une expression de mise en forme. Cette transformation nommée peut ensuite être liée à de nombreux composants de format dont la sortie doit être mise en forme en fonction de l’expression de mise en forme créée.
 
 La figure suivante présente la création d’une transformation de ce type. Dans cet exemple, la transformation **TrimmedString** tronque les données entrantes du type de données *Chaîne* en supprimant les espaces de début et de fin. Elle retourne ensuite la valeur de chaîne tronquée.
 
@@ -87,7 +87,7 @@ Si vous avez une mise en forme qui doit être appliquée individuellement, vous 
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Contrôle des flux de processus
 
-Le concepteur de formule de génération d’états électroniques permet de définir les expressions utilisées pour contrôler le flux de processus de génération de documents électroniques. Vous pouvez effectuer les tâches suivantes :
+Le concepteur de formule ER permet de définir les expressions utilisées pour contrôler le flux de processus de génération de documents électroniques. Vous pouvez effectuer les tâches suivantes :
 
 - Définir des conditions qui déterminent quand un processus de création de document doit être arrêté.
 - Spécifier les expressions qui créent des messages pour l’utilisateur, relatifs aux processus arrêtés ou lancent des messages de journal d’exécution relatifs à la continuité du processus de génération d’états.
@@ -101,7 +101,7 @@ Chaque règle du contrôle des flux de processus est conçue comme un contrôle 
 
 [![Validation.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
-Le concepteur de formule de génération d’états électroniques peut également être utilisé pour générer un nom de fichier permettant de générer un document électronique et de contrôler le processus de création de fichier. La figure suivante présente la création d’un contrôle des flux de processus de ce type. Voici une explication de la configuration dans cet exemple :
+Le concepteur de formule ER peut également être utilisé pour générer un nom de fichier permettant de générer un document électronique et de contrôler le processus de création de fichier. La figure suivante présente la création d’un contrôle des flux de processus de ce type. Voici une explication de la configuration dans cet exemple :
 
 - La liste des enregistrements de la source de données **model.Intrastat** est divisée en lots. Chaque lot contient jusqu’à 1 000 enregistrements.
 - Le résultat crée un fichier zip qui contient un fichier au format XML pour chaque lot qui a été créé.
@@ -112,7 +112,7 @@ Le concepteur de formule de génération d’états électroniques peut égaleme
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Contrôle du contenu des documents
 
-Le concepteur de formule de génération d’états électroniques peut être utilisé pour configurer les expressions contrôlant quelles données sont placées dans les documents électroniques générés au moment de l’exécution. Les expressions peuvent activer ou désactiver l’émission d’éléments spécifiques du format, en fonction des données de traitement et de la logique configurée. Ces expressions peuvent être entrées pour un seul élément de format dans le champ **Activé** sur l’onglet **Mise en correspondance** sur la page **Concepteur des opérations**. Vous pouvez entrer les expressions sous la forme d’une condition logique retournant une valeur *Booléenne* :
+Le concepteur de formule ER peut être utilisé pour configurer les expressions contrôlant quelles données sont placées dans les documents électroniques générés au moment de l’exécution. Les expressions peuvent activer ou désactiver l’émission d’éléments spécifiques du format, en fonction des données de traitement et de la logique configurée. Ces expressions peuvent être entrées pour un seul élément de format dans le champ **Activé** sur l’onglet **Mise en correspondance** sur la page **Concepteur des opérations**. Vous pouvez entrer les expressions sous la forme d’une condition logique retournant une valeur *Booléenne*:
 
 - Si la condition renvoie **True**, l’élément de format actuel est exécuté.
 - Si la condition renvoie **False**, l’élément de format actuel est ignoré.
@@ -153,7 +153,7 @@ Lorsque vous testez cette formule, vous pouvez utiliser la boîte de dialogue **
 
 Après avoir spécifié le code de marchandise de la déclaration d’échanges de biens et sélectionné **OK**, l’onglet **Résultat du test** sur la page **Concepteur de formule** affiche le résultat de l’exécution de la formule configurée. Vous pouvez ensuite évaluer si le résultat est acceptable. Si le résultat n’est pas acceptable, vous pouvez mettre à jour la formule et la tester à nouveau.
 
-[![Résultat du test.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Résultat de test.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Certaines formules ne peuvent pas être testées au moment de la conception. Par exemple, une formule peut renvoyer le résultat d’un type de données qui ne peut pas être affiché sur l’onglet **Résultat du test**. Dans ce cas, vous recevez un message d’erreur indiquant que la formule ne peut pas être testée.
 

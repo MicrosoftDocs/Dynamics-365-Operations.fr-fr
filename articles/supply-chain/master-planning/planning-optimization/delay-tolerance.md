@@ -10,28 +10,35 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4bd6042f9dd33ba15773b251911e965cb870c5aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865119"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219965"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolérance de retard (jours négatifs)
 
 [!include [banner](../../includes/banner.md)]
 
-La fonctionnalité de tolérance de retard permet à l’optimisation de la planification de prendre en compte la valeur **Jours négatifs** définie pour les groupes de couverture. Elle sert à prolonger la période de tolérance de retard qui est appliquée lors de la planification générale. De cette façon, vous pouvez éviter de créer de nouvelles commandes d’approvisionnement si l’approvisionnement existant peut couvrir la demande après un court délai. Le but de cette fonctionnalité est de déterminer s’il est judicieux de créer un nouvel ordre d’approvisionnement pour une demande donnée.
+La fonctionnalité de tolérance de retard permet à l’optimisation de la planification de prendre en compte la valeur **Jours négatifs** définie pour les groupes de couverture, la couverture des éléments et/ou les plans principaux. Elle sert à prolonger la période de tolérance de retard qui est appliquée lors de la planification générale. De cette façon, vous pouvez éviter de créer de nouvelles commandes d’approvisionnement si l’approvisionnement existant peut couvrir la demande après un court délai. Le but de cette fonctionnalité est de déterminer s’il est judicieux de créer un nouvel ordre d’approvisionnement pour une demande donnée.
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Activez la fonctionnalité dans votre système
 
-Pour rendre la fonctionnalité de tolérance de retard disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Jours négatifs dans l’optimisation de la planification*.
+Pour rendre la fonctionnalité de tolérance de retard disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez les fonctionnalités suivantes :
+
+- *Jours négatifs pour l’optimisation de la planification* – Cette fonctionnalité active les paramètres de jours négatifs pour les groupes de couverture et la couverture des articles.
+- *Automatisation de l’approvisionnement sur commande* – Cette fonctionnalité active les paramètres de jours négatifs pour les plans principaux. (Pour plus d’informations, voir [Automatisation de l’approvisionnement sur commande](../make-to-order-supply-automation.md).)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Tolérance de retard dans l’optimisation de la planification
 
 La tolérance de retard représente le nombre de jours au-delà du délai que vous êtes prêt à attendre avant de commander un nouveau réapprovisionnement lorsqu’un approvisionnement existant est déjà planifié. La tolérance de retard est définie en fonction des jours calendaires et non des jours ouvrables.
 
-Au moment de la planification générale, lorsque le système calcule la tolérance de retard, il prend en compte le paramètre **Jours négatifs**. Vous pouvez définir la valeur **Jours négatifs** sur la page **Groupes de couverture** ou sur la page **Couverture de l’article**.
+Au moment de la planification générale, lorsque le système calcule la tolérance de retard, il prend en compte le paramètre **Jours négatifs**. Vous pouvez définir la valeur **Jours négatifs** sur la page **Groupes de couverture** ou sur la page **Couverture de l’article** ou sur la page **Plans principaux**. Si des jours négatifs sont affectés à plusieurs niveaux, le système applique la hiérarchie suivante pour décider du paramètre à utiliser :
+
+- Si les jours négatifs sont activés sur les **Plans principaux**, ce paramètre remplace tous les autres paramètres de jours négatifs lors de l’exécution du plan.
+- Si des jours négatifs sont configurés sur la page **Couverture des éléments**, ce paramètre remplace le paramètre du groupe de couverture.
+- Les jours négatifs qui sont configurés sur la page **Groupes de couverture** s’appliquent uniquement si les jours négatifs n’ont pas été configurés pour un article ou un plan pertinent.
 
 Le système lie le calcul de la tolérance de retard à la *date de réapprovisionnement la plus proche*, qui est égale à la date du jour plus le délai. La tolérance de retard est calculée en utilisant la formule suivante, où *max()* trouve la plus grande des deux valeurs :
 

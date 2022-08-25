@@ -1,26 +1,26 @@
 ---
 title: Concevoir un format ER pour générer un rapport au format Excel avec des images incorporées aux en-têtes ou pieds de page
 description: Cet article explique comment utiliser les états électroniques (ER) pour générer des documents commerciaux contenant des images et des formes incorporées aux en-têtes ou pieds de page.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854841"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281810"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Concevoir un format ER pour générer un rapport au format Excel avec des images incorporées aux en-têtes ou pieds de page
 
@@ -196,7 +196,7 @@ Dans ce cas, en tant que représentant de Litware, Inc., vous devez créer (dér
 
 ![Création d’une configuration pour un format de paiement personnalisé dans la boîte de dialogue déroulante Créer une configuration.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-La version 240.112.1 de la configuration du format ER **Facture financière (Excel) personnalisée** est créée. Cette version présente le [statut](general-electronic-reporting.md#component-versioning) **Brouillon** et peut être modifiée. Le contenu actuel de votre format de gestion des états électroniques personnalisé correspond au contenu du format fourni par Microsoft.
+La version 240.112.1 de la configuration du format ER **Facture financière (Excel) personnalisée** est créée. Cette version présente le statut **Brouillon** et peut être modifiée. Le contenu actuel de votre format de gestion des états électroniques personnalisé correspond au contenu du format fourni par Microsoft.
 
 ![Nouvelle version de la configuration du format ER créée sur la page Configurations.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Configurez votre format personnalisé afin qu’une image du logo de la compagni
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Marquer le format personnalisé comme exécutable
 
-La première version du format personnalisé ayant été créée et présentant le statut **Brouillon**, vous pouvez exécuter le format à des fins de test. Pour exécuter l’état, traitez un paiement fournisseur en utilisant le mode de paiement qui fait référence à votre format de gestion des états électroniques personnalisé. Par défaut, lorsque vous appelez un format de gestion des états électroniques depuis l’application, seules les versions qui ont le statut **Terminé** et **Partagé** sont [prises en compte](general-electronic-reporting.md#component-versioning). Ce comportement permet de ne pas utiliser les formats de gestion des états électroniques dont les conceptions sont inachevées. Cependant, pour vos exécutions de test, vous pouvez forcer l’application à utiliser la version de votre format de gestion des états électroniques dont le statut est **Brouillon**. De cette façon, vous pouvez ajuster la version actuelle du format si des modifications sont nécessaires. Pour plus d’informations, voir [Applicabilité](electronic-reporting-destinations.md#applicability).
+La première version du format personnalisé ayant été créée et présentant le statut **Brouillon**, vous pouvez exécuter le format à des fins de test. Pour exécuter l’état, traitez un paiement fournisseur en utilisant le mode de paiement qui fait référence à votre format de gestion des états électroniques personnalisé. Par défaut, lorsque vous appelez un format de gestion des états électroniques depuis l’application, seules les versions qui ont le statut **Terminé** ou **Partagé** sont prises en compte. Ce comportement permet de ne pas utiliser les formats de gestion des états électroniques dont les conceptions sont inachevées. Cependant, pour vos exécutions de test, vous pouvez forcer l’application à utiliser la version de votre format de gestion des états électroniques dont le statut est **Brouillon**. De cette façon, vous pouvez ajuster la version actuelle du format si des modifications sont nécessaires. Pour plus d’informations, voir [Applicabilité](electronic-reporting-destinations.md#applicability).
 
 Pour utiliser la version provisoire d’un format de gestion des états électroniques, vous devez explicitement marquer le format de gestion des états électroniques.
 

@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 4321d980f56e321a653ca4f4c5738ebd1bb0153d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112110"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289606"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -111,7 +111,7 @@ Les factures sont créées dans Supply Chain Management et synchronisées vers S
 
 Prospect en disponibilité comprend un ensemble de mappages de tables de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-| Applications de finances et d'opérations | Applications Customer Engagement | Description |
+| Applications de finances et d’opérations | Applications Customer Engagement | Description |
 |-----------------------------|-----------------------------------|-------------|
 [Tous les produits](mapping-reference.md#138) | msdyn_globalproducts | |
 [Clients V3](mapping-reference.md#101) | comptes | |

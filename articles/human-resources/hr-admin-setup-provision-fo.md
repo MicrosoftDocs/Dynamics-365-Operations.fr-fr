@@ -1,5 +1,5 @@
 ---
-title: Mettre en service Human Resources dans l’infrastructure des applications de finances et d’opérations
+title: Approvisionner les ressources humaines dans l’infrastructure des applications de finances et d’opérations
 description: Cet article explique le processus de provisionnement d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources dans l’infrastructure des finances et des opérations.
 author: twheeloc
 ms.date: 01/07/2022
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15060d8bdd598476081c22d7280319da3db0cb31
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 2fd8176d16178ecc4ba667e5937f2cec2e0af2c3
+ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178408"
+ms.lasthandoff: 08/03/2022
+ms.locfileid: "9221590"
 ---
-# <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>Mettre en service Human Resources dans l’infrastructure des applications de finances et d’opérations
+# <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>Approvisionner les ressources humaines dans l’infrastructure des applications de finances et d’opérations
 
 _**S’applique à :** Human Resources dans l’infrastructure des applications de finances et d’opérations_ 
 
@@ -52,8 +52,8 @@ Voici quelques considérations aux environnements facultatifs supplémentaires 
 - **Intégration** : configurer et tester les intégrations, ce qui peut inclure des intégrations natives telles que les intégrations natives, ou des intégrations personnalisées telles que celles pour la paie, les systèmes de suivi des candidatures ou les régimes et les fournisseurs de prestations.
 - **Formation** : vous pouvez avoir besoin d’un environnement distinct configuré avec un ensemble de données de formation afin de former vos employés à l’utilisation du nouveau système. 
 - **Projet en plusieurs phases** : vous pouvez avoir besoin d’un environnement supplémentaire pour prendre en charge la configuration, la migration des données, les tests ou d’autres activités dans une phase de projet qui est planifiée après la mise en service initiale du projet.
-- **Développement** : dans l’infrastructure des finances et des opérations, vous pouvez désormais étendre la solution et développer vos propres personnalisations. Chaque développeur doit utiliser son propre environnement de développement. Pour en savoir plus, voir [Déployer des environnements de développement et y accéder](/fin-ops-core/dev-itpro/dev-tools/access-instances).
-- **GOLD** : pour les nouveaux déploiements, une pratique courante consiste à utiliser un environnement GOLD distinct qui reste vierge pour la configuration et la migration des données. Cet environnement peut être utilisé tout au long de l’implémentation pour actualiser d’autres environnements. Il sera utilisé pour créer l’environnement de production qui a la configuration de base et la migration des données. Vous ne pouvez pas déployer un environnement de production sur l’infrastructure de finances et d’opérations tant que vous n’avez pas terminé le processus de préparation à la mise en service. Pour plus d’informations, voir [Préparation au lancement](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live).
+- **Développement** : dans l’infrastructure des finances et des opérations, vous pouvez désormais étendre la solution et développer vos propres personnalisations. Chaque développeur doit utiliser son propre environnement de développement. Pour en savoir plus, voir [Déployer des environnements de développement et y accéder](../fin-ops-core/dev-itpro/dev-tools/access-instances.md).
+- **GOLD** : pour les nouveaux déploiements, une pratique courante consiste à utiliser un environnement GOLD distinct qui reste vierge pour la configuration et la migration des données. Cet environnement peut être utilisé tout au long de l’implémentation pour actualiser d’autres environnements. Il sera utilisé pour créer l’environnement de production qui a la configuration de base et la migration des données. Vous ne pouvez pas déployer un environnement de production sur l’infrastructure de finances et d’opérations tant que vous n’avez pas terminé le processus de préparation à la mise en service. Pour plus d’informations, voir [Préparation au lancement](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md).
 
 <!--NOTE: Need to come back and verify Tier-1 can be used and if a customer cannot purchase tier 3-5 need specific documentation about this.-->
 
@@ -66,24 +66,24 @@ Voici quelques considérations aux environnements facultatifs supplémentaires 
 
 ## <a name="create-an-lcs-project"></a>Créer un projet LCS
 
-Pour utiliser LCS pour gérer vos environnements Human Resources, vous devez d’abord créer un projet LCS. Si vous migrez votre environnement de Human Resources vers l’infrastructure des finances et des opérations, vous devez créer un projet LCS pour les applications de finances et d’opérations. Pour plus d’informations, voir [Migrer votre environnement Human Resources](hr-admin-migrate-overview). Si vous avez déjà un projet LCS pour d’autres applications de finances et d’opérations, vous pouvez activer les fonctionnalités de Human Resources dans l’espace de travail **Gestion des fonctionnalités**. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Pour utiliser LCS pour gérer vos environnements Human Resources, vous devez d’abord créer un projet LCS. Si vous migrez votre environnement de Human Resources vers l’infrastructure des finances et des opérations, vous devez créer un projet LCS pour les applications de finances et d’opérations. Si vous avez déjà un projet LCS pour d’autres applications de finances et d’opérations, vous pouvez activer les fonctionnalités de Human Resources dans l’espace de travail **Gestion des fonctionnalités**. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Lorsqu’un nouveau client s’inscrit à Human Resources, l’abonnement inclut un espace de travail de projet de mise en œuvre. Une fois que le client a activé le service, l’administrateur du client doit se connecter à <https://lcs.dynamics.com> en utilisant le compte client. L’espace de travail du projet est automatiquement créé pour l’organisation. Pour plus d’informations, voir [Lifecycle Services (LCS) pour les clients des applications de finances et d’opérations](/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs).
+Lorsqu’un nouveau client s’inscrit à Human Resources, l’abonnement inclut un espace de travail de projet de mise en œuvre. Une fois que le client a activé le service, l’administrateur du client doit se connecter à <https://lcs.dynamics.com> en utilisant le compte client. L’espace de travail du projet est automatiquement créé pour l’organisation. Pour plus d’informations, voir [Lifecycle Services (LCS) pour les clients des applications de finances et d’opérations](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md).
 
 > [!NOTE]
 > Pour garantir un provisionnement réussi, le compte que vous utilisez pour provisionner l’environnement Human Resources doit être affecté au rôle **Administrateur système** ou au rôle **Personnalisateur du système** dans l’environnement Power Apps associé à l’environnement Human Resources. Pour plus d’informations sur l’affectation de rôles de sécurité aux utilisateurs dans Microsoft Power Platform, voir [Configurer la sécurité utilisateur sur les ressources](/power-platform/admin/database-security).
 
-Vous devez terminer le processus d’intégration du projet LCS avant de pouvoir commencer à déployer des environnements. Pour plus d’informations, voir [Intégration du projet](/fin-ops-core/dev-itpro/lifecycle-services/project-onboarding). Pour plus d’informations sur l’utilisation de LCS, voir [Guide de l’utilisateur de Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide).
+Vous devez terminer le processus d’intégration du projet LCS avant de pouvoir commencer à déployer des environnements. Pour plus d’informations, voir [Intégration du projet](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md). Pour plus d’informations sur l’utilisation de LCS, voir [Guide de l’utilisateur de Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md).
 
 ## <a name="deploy-human-resources-environments"></a>Déployer les environnements Human Resources
 
 Le déploiement d’applications de finances et d’opérations, y compris Human Resources, dans le cloud nécessite que vous compreniez l’environnement et l’abonnement que vous déployez, qui peut effectuer quelles tâches, et quelles données et personnalisations vous devez gérer. Nous vous recommandons d’utiliser un compte de service au lieu d’un utilisateur nommé lorsque vous déployez de nouveaux environnements. Pour plus d’informations sur le déploiement d’environnements sur l’infrastructure de finances et d’opérations, voir [Vue d’ensemble du déploiement cloud](/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview).
 
-Pour déployer un environnement de production pour Human Resources sur l’infrastructure de finances et d’opérations, vous devez terminer processus de préparation à la mise en service. Pour plus d’informations, voir [Préparation au lancement](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live). Ce processus inclut l’estimateur d’abonnement dans LCS. Pour plus d’informations, voir [Estimateur d’abonnement](/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator).
+Pour déployer un environnement de production pour Human Resources sur l’infrastructure de finances et d’opérations, vous devez terminer processus de préparation à la mise en service. Pour plus d’informations, voir [Préparation au lancement](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md). Ce processus inclut l’estimateur d’abonnement dans LCS. Pour plus d’informations, voir [Estimateur d’abonnement](../fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator.md).
 
 ## <a name="integrate-microsoft-power-platform-with-human-resources"></a>Intégrer Microsoft Power Platform à Human Resources
 
-Microsoft Power Platform fournit une suite de fonctionnalités pour les applications Dynamics 365 via le centre d’administration Power Platform. Vous pouvez intégrer et étendre l’utilisation des données de Human Resources à l’aide de Microsoft Power Platform. Pour plus d’informations sur l’intégration de Human Resources à Microsoft Power Platform, voir [Intégration de Microsoft Power Platform aux applications de finances et d’opérations](/fin-ops-core/dev-itpro/power-platform/overview).
+Microsoft Power Platform fournit une suite de fonctionnalités pour les applications Dynamics 365 via le centre d’administration Power Platform. Vous pouvez intégrer et étendre l’utilisation des données de Human Resources à l’aide de Microsoft Power Platform. Pour plus d’informations sur l’intégration de Human Resources à Microsoft Power Platform, voir [Intégration de Microsoft Power Platform aux applications de finances et d’opérations](../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ## <a name="supported-geographies"></a>Zones géographiques prises en charge
 
@@ -96,8 +96,8 @@ Par défaut, l’administrateur global ayant créé l’environnement y a accès
 ## <a name="additional-resources"></a>Ressources supplémentaires
 Vous pouvez en savoir plus sur l’utilisation et la gestion de projets dans LCS sur l’infrastructure des applications de finances et d’opérations en utilisant les ressources suivantes :
 
-- [Ressources Lifecycle Services](/fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
-- [Guide de l’utilisateur de Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
+- [Ressources Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
+- [Guide de l’utilisateur de Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
 - [Vue d’ensemble de Déploiement libre-service](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md)
 - [Page d’accueil des opérations de mouvement de base de données](../fin-ops-core/dev-itpro/database/dbmovement-operations.md)
 

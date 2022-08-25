@@ -1,6 +1,6 @@
 ---
-title: Page d’accueil Contenu Power BI
-description: Cet article répertorie les solutions PowerBI.com disponibles et vous indique les ressources complémentaires.
+title: Page d’accueil contenu Power BI
+description: Cet article répertorie les solutions PowerBI.com disponibles et vous indique les ressources où vous pouvez en apprendre davantage sur les solutions.
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: article
@@ -12,17 +12,15 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "265694"
-- intro-internal
+ms.custom: 265694,  ""intro-internal
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.form: PowerBIPbixDeployForm
-ms.openlocfilehash: ff13ef4e71d64bcd03054b9e44f738676a75efc2
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 54bc2ae0614413c86502ade503942cd5828a3689
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206350"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273058"
 ---
 # <a name="power-bi-content-home-page"></a>Page d’accueil Contenu Power BI
 

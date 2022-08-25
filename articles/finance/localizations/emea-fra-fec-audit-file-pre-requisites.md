@@ -1,21 +1,21 @@
 ---
 title: Prérequis pour générer un fichier d’audit FEC en France
 description: Cet article décrit les prérequis à mettre en place avant de pouvoir générer un fichier d’audit conforme au Fichier des écritures comptables (FEC) en France.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 05/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: 74cc3b805e1c5b448709d34b16869f7d4792ef3f
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.author: atrukawk
+ms.openlocfilehash: 9ec55a9e7dafbe971c4171a0cdc109d9f57ac783
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069260"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277274"
 ---
 # <a name="prerequisites-to-generate-an-fec-audit-file-in-france"></a>Prérequis pour générer un fichier d’audit FEC en France
 

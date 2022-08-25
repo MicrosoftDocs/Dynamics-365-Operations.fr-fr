@@ -1,24 +1,24 @@
 ---
 title: Déclaration de TVA (Belgique)
 description: Cet article fournit des informations sur la déclaration de TVA pour la Belgique.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Belgium
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5a16493e56c306e1abd3880b73a336da536249ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: c0e3bca70ecfc28a4e34ef9a77c3474043775931
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904308"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269453"
 ---
 # <a name="vat-declaration-belgium"></a>Déclaration de TVA (Belgique)
 

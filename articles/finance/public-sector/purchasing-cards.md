@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.search.industry: public sector
-ms.author: kfend
-ms.search.validFrom: 2019-9-03
+ms.author: v-kiarnd
+ms.search.validFrom: 2019-09-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: abf5b7e35e278dc80e9eb936c720740450ba7935
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: public sector
+ms.openlocfilehash: 6dacf820d724bf60ee8993af2cc2422918ade937
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848389"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277102"
 ---
 # <a name="purchasing-cards"></a>Cartes d’achat
 

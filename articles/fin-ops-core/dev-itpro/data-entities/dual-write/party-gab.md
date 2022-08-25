@@ -2,19 +2,19 @@
 title: Partie et carnet d’adresses global
 description: Cet article décrit la fonctionnalité de carnet d’adresses global et de la partie de la double écriture.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892191"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228988"
 ---
 # <a name="party-and-global-address-book"></a>Partie et carnet d’adresses global
 
@@ -119,11 +119,11 @@ La grille comprend les colonnes suivantes :
 
 Vous pouvez utiliser le bouton **Nouvelle adresse** au-dessus de la grille pour créer autant d’adresses postales que vous le souhaitez.
 
-Les champs **Adresse 1** et **Adresse 2** sur la page **Résumé** du formulaire **Compte** correspondent aux adresses **Livraison** et **Facture**, respectivement.
+Dans les applications customer engagement, lorsqu'un utilisateur entre les adresses sur l'onglet **Sommaire** de la page **Comptes**, les champs **Adresse 1** et **Adresse 2** correspondent aux adresses de **Livraison** et de **Facture**, respectivement. Cependant, lorsqu’un utilisateur crée une adresse postale dans les applications de finances et d’opérations, les deux premières adresses de l'enregistrement client apparaîtront dans les champs **Adresse1** et **Adresse2**, et l'utilisateur a l'option de modifier l'objectif de l'adresse en **Livraison** et **Facture**.
 
 ![Onglet Résumé des adresses postales.](media/party-gab-image5.png)
 
-Les champs **Adresse 1**, **Adresse 2**, and **Adresse 3** sur la page **Résumé** du formulaire **Contact** correspondent aux adresses **Entreprise**, **Livraison** et **Facture**, respectivement.
+De même, les champs **Adresse 1**, **Adresse 2**, et **Adresse 3** sur l'onglet **Sommaire** de la page de **Contact** correspondent aux adresses **Entreprise**, **Livraison**, et **Facture**, respectivement.
 
 ## <a name="electronic-addresses"></a>Adresses électroniques
 

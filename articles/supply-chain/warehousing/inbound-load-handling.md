@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070317"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219500"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
@@ -279,7 +279,7 @@ Ces scénarios nécessitent la fonctionnalité _Plusieurs validations d’accus�
 
 #### <a name="enable-sample-data"></a>Activer les exemples de données
 
-Pour utiliser ces scénarios à l’aide des exemples d’enregistrements et de valeurs spécifiés, vous devez utiliser un système sur lequel les données de démonstration standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
+Pour travailler sur ces scénarios à l’aide des exemples d’enregistrements et de valeurs spécifiés, vous devez utiliser un système sur lequel les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>Ajouter un élément de menu pour recevoir des articles de chargement lorsqu’un appareil mobile est utilisé
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849182"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219440"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidation des articles - Utilisation de l’emplacement
 
@@ -30,10 +30,10 @@ Cet article fournit des informations sur les fonctionnalités qui permettent aux
 
 Avant de pouvoir utiliser les fonctionnalités décrites dans cet article, vous devez les activer dans votre système. Les administrateurs peuvent utiliser l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de ces fonctionnalités et les activer si nécessaire. Activez les deux fonctionnalités, dans l’ordre dans lequel elles sont mentionnées. (Les deux fonctionnalités sont destinées au module **Gestion des entrepôts**.)
 
-1. Statut de l’emplacement de l’entrepôt
-2. Utilisation de l’emplacement de consolidation des articles
+1. *Statut de l’emplacement de l’entrepôt* (Depuis la version 10.0.29, cette fonctionnalité est activée par défaut. Pour plus d’informations, voir [Statut de l'emplacement de l’entrepôt](warehouse-location-status.md).)
+2. *Utilisation de l’emplacement de consolidation des articles*
 
-## <a name="warehouse-location-status"></a>Statut de l’emplacement de l’entrepôt
+## <a name="warehouse-location-status"></a>Statut de l'emplacement de l'entrepôt
 
 La fonctionnalité *Statut de l’emplacement de l’entrepôt* ajoute quatre nouveaux champs à la page **Emplacements** pour suivre des informations supplémentaires sur l’état actuel de l’emplacement :
 

@@ -2,25 +2,25 @@
 title: Fonctionnalité de caisse enregistreuse pour la France
 description: Cet article fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
-manager: annbe
-ms.date: 05/17/2022
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: France
-ms.search.industry: Retail
-ms.author: epopov
-ms.search.validFrom: 2018-2-28
+ms.author: josaw
+ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 6656194f84a95fb8163b6793b453ead10a7f959e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
+manager: annbe
+ms.openlocfilehash: bd7ef43eabea28ac70349603b54a19882eba9825
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885423"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269178"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -283,7 +283,7 @@ Vous devez activer les fonctionnalités suivantes dans l’espace de travail **G
 Vous devez apporter les modifications suivantes dans la page **Entités juridiques**. Ces paramètres sont utilisés dans le format d’archive.
 
 - Dans l’organisateur **Informations sur le compte en banque**, dans le champ **Numéro d’acheminement**, spécifiez l’identifiant TVA de l’organisation.
-- Dans l’organisateur **Génération d’état statutaire**, dans le champ **Code NAF**, spécifiez le code NAF (Nomenclature des Activités Françaises) de l’organisation.
+- Dans l’organisateur **Numéros d’inscription**, dans le champ **Code NAF**, spécifiez le code NAF (Nomenclature des Activités Françaises) de l’organisation.
 - Dans l’organisateur **Immatriculation fiscale**, dans le champ **Numéro d’identification fiscale**, spécifiez le numéro de SIRET (Système d’identification du répertoire des établissements) de l’organisation.
 
 ### <a name="set-up-vat-per-french-requirements"></a>Paramétrer la TVA selon les exigences de la France
@@ -398,10 +398,10 @@ Pour activer le processus d’enregistrement fiscal pour la France dans Commerce
 1. Téléchargez les fichiers de configuration du fournisseur de documents fiscaux et du connecteur fiscal à partir du SDK Commerce :
 
     1. Ouvrez le référentiel [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    2. Ouvrez la dernière branche de version disponible (par exemple, **[version/9.30](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.30)**).
+    2. Ouvrez la dernière branche de version disponible.
     3. Ouvrez **src \> FiscalIntegration \> SequentialSignatureFrance \> Configurations**.
-    4. Téléchargez le fichier de configuration du connecteur fiscal sur **Connecteur\> ConnectorMicrosoftSequentialSignatureFRA.xml** (par exemple, [le dossier pour version/9.30](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.30/src/FiscalIntegration/SequentialSignatureFrance/Configurations/Connector/ConnectorMicrosoftSequentialSignatureFRA.xml)).
-    5. Téléchargez le fichier de configuration du fournisseur de document sur **DocumentProvider\> DocumentProviderMicrosoftSequentialSignatureFRA.xml** (par exemple, [le dossier pour version/9.30](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.30/src/FiscalIntegration/SequentialSignatureFrance/Configurations/DocumentProvider/DocumentProviderMicrosoftSequentialSignatureFRA.xml)).
+    4. Téléchargez le fichier de configuration du connecteur fiscal sur **Connecteur \> ConnectorMicrosoftSequentialSignatureFRA.xml**.
+    5. Téléchargez le fichier de configuration du fournisseur de document sur **DocumentProvider \> DocumentProviderMicrosoftSequentialSignatureFRA.xml**.
 
 1. Accédez à **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres partagés**. Dans l’onglet **Général**, définissez l’option **Activer l’intégration fiscale** sur **Oui**.
 1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Connecteurs fiscaux**, et téléchargez le fichier de configuration du connecteur fiscal téléchargé précédemment.
@@ -489,7 +489,22 @@ Pour activer les événements d’audit, vous devez réinitialiser les énuméra
 1. Sur la page **Paramètres Commerce**, sur le raccourci **Général**, sélectionnez **Initialiser**. Pour en savoir plus, voir [Initialisation des données de départ dans de nouveaux environnement Retail](../enable-configure-retail-functionality.md).
 1. Il existe une option pour configurer séparément le planificateur. Accédez à **Planificateur Commerce** \> **Initialiser le planificateur Commerce**. Dans la boîte de dialogue **Initialiser le planificateur Commerce**, sélectionnez **OK**.
 
+### <a name="enable-the-digital-signature-in-offline-mode"></a>Activer la signature numérique en mode hors connexion
+
+Pour activer la signature numérique en mode hors connexion, vous devez suivre ces étapes après avoir activé le PDV sur un nouvel appareil.
+
+1. Connectez-vous à POS.
+1. Sur la page **Statut de la connexion à la base de données**, assurez-vous que la base de données hors connexion est entièrement synchronisée. Lorsque la valeur du champ **Téléchargements en attente** est **0** (zéro), la base de données est entièrement synchronisée.
+1. Déconnectez-vous du PDV.
+1. Attendez que la base de données hors connexion soit entièrement synchronisée.
+1. Connectez-vous à POS.
+1. Sur la page **Statut de la connexion à la base de données**, assurez-vous que la base de données hors connexion est entièrement synchronisée. Lorsque la valeur du champ **Transactions en attente dans la base de données hors connexion** est **0** (zéro), la base de données est entièrement synchronisée.
+1. Redémarrer le PDV.
+
 ### <a name="configure-channel-components"></a>Configurer des composants de canal
+
+> [!WARNING]
+>  Si vous utilisez la version 10.0.28 ou antérieure de Commerce, vous devez suivre des étapes spécifiques pour configurer les composants du canal Commerce pour la France uniquement. À partir de la version 10.0.29, tous les composants de canal requis sont activés par défaut. Si vous utilisez la version 10.0.28 ou une version antérieure de Commerce et que vous migrez vers la version 10.0.29 ou une version ultérieure, vous devez suivre les étapes décrites dans [Migrer vers la version 10.0.29 ou ultérieure](./emea-fra-fi-deployment.md#migrate-to-commerce-version-10029-or-later).
 
 Pour activer la fonctionnalité spécifique à la France, vous devez configurer les extensions des composants de canal. Pour plus d’informations, voir les [instructions de déploiement](./emea-fra-fi-deployment.md).
 

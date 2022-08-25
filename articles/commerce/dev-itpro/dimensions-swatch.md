@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: rapraj
+ms.author: anupamar
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.search.industry: Retail
+ms.openlocfilehash: e81c1f03eb6387176ca5ce8f751ce53aa0261679
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892650"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271988"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
 
@@ -46,7 +46,7 @@ L’illustration suivante montre un exemple où les couleurs apparaissent comme 
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Activer la fonction d’affichage des dimensions comme échantillon dans Commerce Headquarters
 
-Pour activer la fonction d’affichage des dimensions comme échantillons dans Commerce Headquarters, accédez à **Espaces de travail \> Gestion des fonctionnalités** et activez la fonctionnalité **Activer un mécanisme pour représenter les dimensions en tant qu'échantillons**. Lorsque cet indicateur de fonction est activé, trois nouveaux champs sont ajoutés pour chaque dimension dans les tables appropriées dans Commerce Headquarters : **Code hexadécimal**, **URL** (pour les images) et **RefinerGroup**.
+Pour activer la fonction d’affichage des dimensions comme échantillons dans Commerce Headquarters, accédez à **Espaces de travail \> Gestion des fonctionnalités** et activez la fonctionnalité **Activer un mécanisme pour représenter les dimensions en tant qu’échantillons**. Lorsque cet indicateur de fonction est activé, trois nouveaux champs sont ajoutés pour chaque dimension dans les tables appropriées dans Commerce Headquarters : **Code hexadécimal**, **URL** (pour les images) et **RefinerGroup**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Configurer les valeurs de dimension dans Commerce Headquarters
 
@@ -115,7 +115,7 @@ L’exemple de l’illustration suivante montre la relation entre les propriét�
 
 Si les URL d’image sont utilisées pour des valeurs de dimension, les images correspondantes doivent être chargées dans le générateur de sites de Commerce. L’emplacement de chaque image doit correspondre au nom de fichier et au chemin d’accès du dossier définis pour l’image dans Commerce Headquarters. Les fichiers image doivent être chargés dans les emplacements de catégorie appropriés du générateur de sites. Par exemple, les images de couleur doivent être chargées dans le dossier de catégorie **Couleur**. Pour plus d’informations sur le chargement d’images dans le générateur de sites, consultez [Charger des images](../dam-upload-images.md).
 
-L'illustration suivante montre un exemple dans lequel la boîte de dialogue **Charger les fichiers** est utilisée pour charger des images dans la bibliothèque multimédia du générateur de sites. Elle met en surbrillance les catégories **Taille**, **Couleur** et **Style** disponibles pour sélection.
+L’illustration suivante montre un exemple dans lequel la boîte de dialogue **Charger les fichiers** est utilisée pour charger des images dans la bibliothèque multimédia du générateur de sites. Elle met en surbrillance les catégories **Taille**, **Couleur** et **Style** disponibles pour sélection.
 
 ![Exemple de catégories de fichier image lors du chargement dans la bibiothèque multimédia du générateur de sites.](../dev-itpro/media/swatch_sitebuilder.png)
 
@@ -127,20 +127,20 @@ De plus, vous devez activer la propriété **Inclure les attributs du produit da
 
 ## <a name="inventory-awareness-on-swatches"></a>Connaissance du stock sur les échantillons
 
-Les échantillons ont une capacité facultative d'afficher la disponibilité du stock d'une couleur ou d'une dimension de variante de produit. Par exemple, un produit est vendu en plusieurs tailles, mais certaines tailles sont en rupture de stock. Dans ce cas, les échantillons des produits en rupture de stock sont affichés différemment pour indiquer qu'ils ne sont pas disponibles. Cette capacité permet de réduire le nombre de clics client requis pour déterminer la disponibilité du produit.
+Les échantillons ont une capacité facultative d’afficher la disponibilité du stock d’une couleur ou d’une dimension de variante de produit. Par exemple, un produit est vendu en plusieurs tailles, mais certaines tailles sont en rupture de stock. Dans ce cas, les échantillons des produits en rupture de stock sont affichés différemment pour indiquer qu’ils ne sont pas disponibles. Cette capacité permet de réduire le nombre de clics client requis pour déterminer la disponibilité du produit.
 
-La fonction de disponibilité du stock des échantillons peut être configurée pour être utilisée à la fois sur les pages de détails des produits et les pages de recherche ou de liste de catégories où les échantillons sont affichés. Pour l'activer, vous devez définir la propriété **Mettre à jour le média lors de la sélection des dimensions** sur **True** dans le [module Galerie multimédia](../media-gallery-module.md). Ce paramètre permet de mettre à jour les images de la galerie multimédia lorsque les dimensions sont sélectionnées. 
+La fonction de disponibilité du stock des échantillons peut être configurée pour être utilisée à la fois sur les pages de détails des produits et les pages de recherche ou de liste de catégories où les échantillons sont affichés. Pour l’activer, vous devez définir la propriété **Mettre à jour le média lors de la sélection des dimensions** sur **True** dans le [module Galerie multimédia](../media-gallery-module.md). Ce paramètre permet de mettre à jour les images de la galerie multimédia lorsque les dimensions sont sélectionnées. 
 
 > [!IMPORTANT]
-> La fonction de disponibilité du stock des échantillons est disponible à partir de la version 10.0.21 de Commerce. Elle nécessite l'installation du package de bibliothèque du module Commerce version 9.31.
+> La fonction de disponibilité du stock des échantillons est disponible à partir de la version 10.0.21 de Commerce. Elle nécessite l’installation du package de bibliothèque du module Commerce version 9.31.
 
-L'illustration suivante montre un exemple de prise en compte du stock sur les échantillons de taille d'une page de détails de produit.
+L’illustration suivante montre un exemple de prise en compte du stock sur les échantillons de taille d’une page de détails de produit.
 
-![Exemple de prise en compte du stock sur les échantillons de taille d'un page de détails de produit](../dev-itpro/media/swatch_inventory.png)
+![Exemple de prise en compte du stock sur les échantillons de taille d’un page de détails de produit](../dev-itpro/media/swatch_inventory.png)
 
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Afficher les échantillons dans le PDV et d’autres canaux
 
-Actuellement, Commerce n’a pas d’implémentation prédéfinie qui prend en charge l’affichage des échantillons dans le point de vente (PDV) et d’autres canaux. Cependant, vous pouvez implémenter la fonctionnalité d’affichage d’échantillons en tant qu'extension, puisque les API de canal renvoient les codes hexadécimaux et les URL d’image nécessaires à l’affichage des échantillons.
+Actuellement, Commerce n’a pas d’implémentation prédéfinie qui prend en charge l’affichage des échantillons dans le point de vente (PDV) et d’autres canaux. Cependant, vous pouvez implémenter la fonctionnalité d’affichage d’échantillons en tant qu’extension, puisque les API de canal renvoient les codes hexadécimaux et les URL d’image nécessaires à l’affichage des échantillons.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -150,6 +150,6 @@ Actuellement, Commerce n’a pas d’implémentation prédéfinie qui prend en c
 
 [Dimensions de produit](../../supply-chain/pim/product-dimensions.md)
 
-[Télécharger l'image](../dam-upload-images.md)
+[Télécharger l’image](../dam-upload-images.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

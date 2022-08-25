@@ -6,22 +6,22 @@ ms.date: 02/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: twheeloc
-ms.custom: 19851
-ms.assetid: 877eabf3-19c7-4897-b33e-c5a8a319cb35
 ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: twheeloc
+ms.author: v-kiarnd
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e752fbe084b87f7df990722ad4ec5bc24c4b003
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 19851
+ms.assetid: 877eabf3-19c7-4897-b33e-c5a8a319cb35
+ms.search.industry: Public sector
+ms.search.form: SysConfiguration
+ms.openlocfilehash: 4e04af4a92854bddeb265a8a42336aeeab1c15c4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865433"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292163"
 ---
 # <a name="plan-for-public-sector-functionality"></a>Planifier la fonctionnalité Secteur public
 

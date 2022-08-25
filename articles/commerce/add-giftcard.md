@@ -6,20 +6,20 @@ ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cc3d51b9891469b8bb0fa38ae2bcd0b27eee56f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 93e2a6608b6d3190df7df1d8f85fd9d7e1c18692
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869488"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280556"
 ---
 # <a name="gift-card-module"></a>Module Carte cadeau
 
@@ -51,14 +51,14 @@ L’image suivante montre un exemple de module de carte cadeau dans une page de 
     Les valeurs suivantes sont prises en charge :
 
     - Code PIN
-    - Date d'expiration
+    - Date d’expiration
     - Code PIN et date d’expiration 
     - None
 
-- **Activer pour les utilisateurs invités** : lorsque cette propriété est activée, les utilisateurs invités peuvent accepter ou vérifier les soldes des cartes-cadeaux. Cette propriété nécessite que l'accès anonyme (invité) pour les cartes-cadeaux soit activé dans Commerce Headquarters. Pour plus d'informations, consultez [Activer les paiements par carte-cadeau pour la caisse invités](#enable-gift-card-payments-for-guest-checkout).
+- **Activer pour les utilisateurs invités** : lorsque cette propriété est activée, les utilisateurs invités peuvent accepter ou vérifier les soldes des cartes-cadeaux. Cette propriété nécessite que l’accès anonyme (invité) pour les cartes-cadeaux soit activé dans Commerce Headquarters. Pour plus d’informations, consultez [Activer les paiements par carte-cadeau pour la caisse invités](#enable-gift-card-payments-for-guest-checkout).
 
 > [!IMPORTANT]
-> La propriété **Activer pour les utilisateurs invités** est disponible à partir de Commerce version 10.0.21. Elle nécessite l'installation du package de bibliothèque du module Commerce version 9.31.
+> La propriété **Activer pour les utilisateurs invités** est disponible à partir de Commerce version 10.0.21. Elle nécessite l’installation du package de bibliothèque du module Commerce version 9.31.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Paramètres du site pour les modules de cartes cadeaux
 
@@ -72,18 +72,18 @@ Dans le générateur de site Commerce, sous **Paramètres du site \> Extensions*
 
 ## <a name="extend-internal-gift-cards-for-use-in-e-commerce-storefronts"></a>Étendre les cartes-cadeaux internes aux vitrines de commerce électronique
 
-Par défaut, les cartes-cadeaux internes ne sont pas optimisées pour les vitrines de commerce électronique. Par conséquent, avant d'autoriser l'utilisation de cartes-cadeaux internes pour le paiement, vous devez les configurer avec des extensions qui les rendent plus sécurisées. Voici les zones de cartes-cadeaux que vous devez étendre avant d'autoriser l'utilisation de cartes-cadeaux internes en production :
+Par défaut, les cartes-cadeaux internes ne sont pas optimisées pour les vitrines de commerce électronique. Par conséquent, avant d’autoriser l’utilisation de cartes-cadeaux internes pour le paiement, vous devez les configurer avec des extensions qui les rendent plus sécurisées. Voici les zones de cartes-cadeaux que vous devez étendre avant d’autoriser l’utilisation de cartes-cadeaux internes en production :
 
 - **Numéro de la carte-cadeau** – Les séquences de numéros sont utilisées pour générer des numéros de carte-cadeau pour les cartes-cadeaux internes. Étant donné que les séquences de numéros peuvent être facilement prédites, vous devez étendre la génération des numéros de carte-cadeau afin que des chaînes aléatoires sécurisées par cryptographie soient utilisées pour les numéros émis.
-- **GetBalance** – L'API **GetBalance** est utilisé pour rechercher les soldes des cartes-cadeaux. Par défaut, il s'agit d'une API publique. Si un code PIN n'est pas requis pour rechercher les soldes des cartes-cadeaux, il existe un risque que des attaques par force brute utilisent l'API **GetBalance** pour pirater les numéros de cartes-cadeaux qui ont des soldes. En mettant en œuvre à la fois un code PIN pour les cartes-cadeaux internes et la limitation de l'API, vous pouvez atténuer ce risque.
-- **PIN** – Par défaut, les cartes-cadeaux internes ne prennent pas en charge les codes PIN. Vous devez étendre les cartes-cadeaux internes afin qu'un code PIN soit nécessaire pour rechercher les soldes. Cette fonctionnalité peut également être utilisée pour verrouiller les cartes-cadeaux après plusieurs tentatives incorrectes de saisie du code PIN.
+- **GetBalance** – L’API **GetBalance** est utilisé pour rechercher les soldes des cartes-cadeaux. Par défaut, il s’agit d’une API publique. Si un code PIN n’est pas requis pour rechercher les soldes des cartes-cadeaux, il existe un risque que des attaques par force brute utilisent l’API **GetBalance** pour pirater les numéros de cartes-cadeaux qui ont des soldes. En mettant en œuvre à la fois un code PIN pour les cartes-cadeaux internes et la limitation de l’API, vous pouvez atténuer ce risque.
+- **PIN** – Par défaut, les cartes-cadeaux internes ne prennent pas en charge les codes PIN. Vous devez étendre les cartes-cadeaux internes afin qu’un code PIN soit nécessaire pour rechercher les soldes. Cette fonctionnalité peut également être utilisée pour verrouiller les cartes-cadeaux après plusieurs tentatives incorrectes de saisie du code PIN.
 
 ## <a name="enable-gift-card-payments-for-guest-checkout"></a>Activer les paiements par carte-cadeau pour la caisse d’invité
 
 Par défaut, les paiements par carte-cadeau ne sont pas activés pour la caisse d’invité (anonyme). Pour les activer, procédez comme suit.
 
 1. Dans Commerce Headquarters, accédez à **Retail et Commerce \> Configuration de canal \>  Configuration de PDV \> PDV \> Opérations PDV**.
-1. Sélectionnez et maintenez sélectionné (ou cliquez avec le bouton droit) l'en-tête de la grille, puis sélectionnez **Insérer des colonnes**.
+1. Sélectionnez et maintenez sélectionné (ou cliquez avec le bouton droit) l’en-tête de la grille, puis sélectionnez **Insérer des colonnes**.
 1. Dans la boîte de dialogue **Insérer des colonnes**, sélectionnez la case à cocher **AllowAnonymousAccess**.
 1. Sélectionnez **Mettre à jour**.
 1. Pour les opérations **520** (Solde de carte-cadeau) et **214**, définissez la valeur **AllowAnonymousAccess** sur **1**.

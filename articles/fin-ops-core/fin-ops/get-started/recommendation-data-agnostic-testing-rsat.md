@@ -1,24 +1,24 @@
 ---
 title: Test des données agnostiques à l’aide de Regression Suite Automation Tool
 description: Cet article présente les recommandations pour le test agnostique en matière de données avec Regression Suite Automation Tool.
-author: kfend
+author: FrankDahl
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: fdahl
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9463a69b6c1b273c6d37b6f4cf6eac19441da682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 21761
+ms.openlocfilehash: f4322cb76d1d83c02ec9d4dcb997a1cd4730d090
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860008"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269589"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Test agnostique en matière de données à l’aide de Regression Suite Automation Tool
 
@@ -45,7 +45,7 @@ Même si la validation technique d’une application d’ERP ne peut pas être t
     [![Page Options, onglet Performance.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Validez uniquement après avoir filtré sur une transaction spécifique plutôt qu’une validation générique. Par exemple, pour le nombre d’enregistrements, filtrez le nombre de transactions ou la date de transaction de telle sorte que la validation exclut toutes les autres transactions. 
-    - Si vous activez un solde client ou un contrôle budgétaire, enregistrez la valeur tout d’abord, puis ajoutez la valeur de votre transaction pour valider le résultat attendu au lieu de valider une valeur attendue fixe. 
+    - Si vous vérifiez un solde client ou un contrôle budgétaire, enregistrez la valeur tout d’abord, puis ajoutez la valeur de votre transaction pour valider le résultat attendu au lieu de valider une valeur attendue fixe. 
  
 
 

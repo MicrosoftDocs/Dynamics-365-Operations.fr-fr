@@ -1,24 +1,24 @@
 ---
 title: ER Configurer des destinations
 description: Cette procédure illustre le paramétrage et l’utilisation de différentes destinations pour les composants de sortie de génération d’états électroniques (ER), tels qu’un dossier ou un fichier.
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1e679b52b28ff1ca117c5224fc7e2825feb26e5e5aea1c8b5bc3a88d1eaf235
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
+ms.openlocfilehash: 3c8d03e9783013183fbe76cb36014fa9e1e1cbed
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743261"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291052"
 ---
 # <a name="er-configure-destinations"></a>ER Configurer des destinations
 
@@ -26,7 +26,7 @@ ms.locfileid: "6743261"
 
 Cette procédure illustre le paramétrage et l’utilisation de différentes destinations pour les composants de sortie de génération d’états électroniques (ER), tels qu’un dossier ou un fichier. La société fictive de démonstration utilisée pour créer cette procédure est DEMF. L’Allemagne est le pays/région de l’adresse principale de l’entité juridique ; toutefois, vous pouvez utiliser n’importe quelle entité juridique pour cette procédure. 
 
-Le format utilisé dans cet exemple est Virement ISO20022, mais vous pouvez utiliser n’importe quel format que vous avez déjà importé. Notez que cette procédure est un exemple de paramétrage d’un fichier unique et d’une destination unique. Vous trouverez plus d’informations sur la gestion des destinations d’états électroniques dans l’aide de Dynamics 365 Finance.
+Le format utilisé dans cet exemple est Virement ISO20022, mais vous pouvez utiliser n’importe quel format que vous avez déjà importé. Notez que cette procédure est un exemple de paramétrage d’un fichier unique et d’une destination unique. Vous trouverez plus d’informations sur la gestion de destination d’états électroniques dans l’aide Dynamics 365 Finance.
 
 1. Allez dans Administration d’organisation > Génération d’états électroniques > Destination des états électroniques.
 2. Cliquez sur Nouveau pour créer un nouvel ensemble de destination pour un format.

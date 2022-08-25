@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4d46933b7c60317234b8e39cd6dfd63d383de860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9361448ba7993ba7cc126d6dd60a45fe497b2e84
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857139"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218768"
 ---
 # <a name="cluster-position-full"></a>Poste de groupement complet
 
@@ -38,7 +38,7 @@ Cette section fournit des instructions et un exemple qui montre comment configur
 
 ### <a name="make-sample-data-available"></a>Rendre les exemple de données disponibles
 
-Pour utiliser [l’exemple de scénario](#example-scenario) à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser [l’exemple de scénario](#example-scenario) à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
 
 Vous pouvez également utiliser cet exemple de scénario comme orientation pour utiliser cette fonctionnalité lorsque vous travaillez sur un système de production. Cependant, dans ce cas, vous devez remplacer les valeurs des paramètres décrits ici par les vôtres.
 

@@ -6,19 +6,19 @@ ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb69bf997100f25cd0ad2b7e34139857199e5d00
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: e564a0499cb1a5dc00fc027c20a027f9b454600c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880165"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272518"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnostics de sécurité pour l’enregistrement des tâches
 
@@ -46,7 +46,7 @@ Cet article fournit des informations sur la façon d’analyser et de gérer les
 
     - Si **Rôle** est sélectionné, sélectionnez **Ajouter un rôle à l’utilisateur**. Cela ouvrira la page **Attribuer des utilisateurs aux rôles**. Pour plus d’informations, voir la page [Affecter des utilisateurs à des rôles de sécurité](assign-users-security-roles.md).
     - Si **Devoir** est sélectionné, sélectionnez **Ajouter le devoir au rôle**, sélectionnez les rôles auxquels le devoir doit être ajouté, puis sélectionnez **OK**.
-    - Si **Privilège** est sélectionné, sélectionnez **Ajouter le privilège aux devoirs**, sélectionnez les rôles auxquels le devoir doit être ajouté, puis sélectionnez **OK**.
+    - Si **Privilège** est sélectionné, sélectionnez **Ajouter le privilège aux responsabilités**, sélectionnez les rôles auxquels la responsabilité doit être ajoutée, puis sélectionnez **OK**.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

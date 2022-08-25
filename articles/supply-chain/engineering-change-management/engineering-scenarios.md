@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889633"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220025"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Présentation de la fonction de gestion des modifications d’ingénierie
 
@@ -45,7 +45,7 @@ Avant d’essayer de faire l’un des exercices du reste de cet article, suivez 
 
 ### <a name="make-standard-demo-data-available"></a>Rendre les données de démonstration standard disponibles
 
-Travaillez sur un système où les [données de démonstration standard sont installées](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Les données de démonstration standard ajoutent des données pour plusieurs entités juridiques de démonstration (entreprises et organisations). Au cours des exercices, vous utiliserez le sélecteur d’entreprise sur le côté droit de la barre de navigation pour basculer entre une entreprise (*DEMF*) qui est configurée comme une *organisation d’ingénierie* et une autre entreprise (*USMF*) qui est configurée comme une *organisation opérationnelle*.
+Travaillez sur un système où les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. Les données de démonstration standard ajoutent des données pour plusieurs entités juridiques de démonstration (entreprises et organisations). Au cours des exercices, vous utiliserez le sélecteur d’entreprise sur le côté droit de la barre de navigation pour basculer entre une entreprise (*DEMF*) qui est configurée comme une *organisation d’ingénierie* et une autre entreprise (*USMF*) qui est configurée comme une *organisation opérationnelle*.
 
 ### <a name="set-up-an-engineering-organization"></a>Paramétrage d’une organisation d’ingénierie
 

@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111198"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289512"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Résoudre les problèmes lors de la configuration initiale
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Cet article fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications de finances et d’opérations et Dataverse. Notamment elle fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
 
@@ -87,6 +85,19 @@ Deux choses peuvent causer un problème avec l’environnement non détectable 
 
 + L’utilisateur utilisé pour la connexion n’est pas dans le même client que l’instance de finances et d’opérations.
 + Des instances de finances et d’opérations héritées hébergées par Microsoft présentaient un problème de découverte. Pour résoudre ce problème, mettez à jour l’instance de finances et d’opérations. L’environnement devient détectable avec n’importe quelle mise à jour.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>Erreur 403 (Forbidden) lors de la création des connexions
+
+Dans le cadre du processus de liaison à double écriture, deux connexions Power Apps (également appelées connexion *Apihub*) sont créés au nom de l’utilisateur dans l’environnement Dataverse. Si le client n’a pas de licence pour l’environnement Power Apps, la création des connexions ApiHub échoue et une erreur 403 (Forbidden) s’affiche. Voici un exemple du message d’erreur :
+
+> MSG=\[Échec de la configuration de l’environnement d’écriture double. Détails de l’erreur : Le code d’état de réponse n’indique pas la réussite : 403 (Forbidden). - Le code d’état de réponse n’indique pas la réussite : 403 (Interdit).\] STACKTRACE=\[   at Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs:line 297 --- End of stack trace from previous location where exception was thrown --- at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) at Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:line 265\]
+
+Cette erreur se produit en raison de l’absence d’une licence Power Apps. Attribuez une licence appropriée (par exemple, une version d’évaluation Power Apps 2) à l’utilisateur, afin que ce dernier ait l’autorisation de créer les connexions. Pour vérifier la licence, le client peut se rendre sur le site [Mon compte](https://portal.office.com/account/?ref=MeControl#subscriptions) pour afficher les licences actuellement attribuées à l’utilisateur.
+
+Pour plus d’informations sur la licence Power Apps, voir les articles suivants :
+
+- [Affecter des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Achetez Power Apps pour votre organisation](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

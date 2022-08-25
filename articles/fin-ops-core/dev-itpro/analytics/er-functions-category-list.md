@@ -1,25 +1,25 @@
 ---
 title: Liste des fonctions ER dans la catégorie de liste
 description: Cet article fournit des informations sur les fonction de liste prises en charge dans les États électroniques (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869053"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277690"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Liste des fonctions ER dans la catégorie de liste
 
@@ -47,6 +47,7 @@ Les fonctions de liste des états électroniques (ER) peuvent être utilisées p
 | [ListOfFields](er-functions-list-listoffields.md)         | Cette fonction renvoie une valeur *Liste des enregistrements* créée en fonction de la structure de l’argument spécifié du type *Énumération* ou *Conteneur (enregistrement)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Cette fonction renvoie une valeur *Liste des enregistrements* constituée uniquement du premier enregistrement de la liste spécifiée.|
 | [OrderBy](er-functions-list-orderby.md)                   | Cette fonction renvoie la liste spécifiée sous la forme d’une *Liste des enregistrements* après avoir été triée selon les arguments spécifiés. Ces arguments peuvent être définis comme expressions. |
+| [Répéter](er-functions-list-repeat.md)                     | Cette fonctionnalité crée un enregistrement qui contient le champ dont la valeur correspond à l’entrée spécifiée. Elle renvoie alors une nouvelle *Liste des enregistrements* d’un enregistrement répété un certain nombre de fois. |
 | [Contrepasser](er-functions-list-reverse.md)                   | Cette fonction renvoie la liste spécifiée en tant que valeur de *Liste des enregistrements* dans l’ordre de tri inversé. |
 | [Fractionner](er-functions-list-split.md)                       | Cette fonction fractionne la chaîne d’entrée spécifiée en sous-chaînes et renvoie le résultat sous la forme d’une nouvelle valeur de *Liste des enregistrements*. |
 | [SplitList](er-functions-list-splitlist.md)               | Cette fonction fractionne la liste spécifiée en sous-listes (ou lots), dont chacun contient le nombre d’enregistrements spécifié. Elle renvoie ensuite le résultat en tant que nouvelle valeur de *Liste des enregistrements* constituée des lots. |

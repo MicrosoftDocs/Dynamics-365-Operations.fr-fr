@@ -1,26 +1,26 @@
 ---
 title: Importer des images
 description: Cet article décrit comment charger des images dans le générateur de site Microsoft Dynamics 365 Commerce.
-author: psimolin
+author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: d937e8c0e00ce28b0e4a4c2feab3ac1c8f075916
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892832"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283377"
 ---
 # <a name="upload-images"></a>Importer des images
 
@@ -42,7 +42,7 @@ Lors du téléchargement d’une image, les informations suivantes peuvent être
 
 > [!NOTE]
 > - Les actifs d’image auxquels une catégorie a été affectée sont également automatiquement étiquetés avec la catégorie en tant que mot clé pour faciliter la recherche d’éléments de catégorie spécifique.
-> - Les pages de détails du produit génèrent dynamiquement le **Texte alternatif** en utilisant le nom du produit, donc le fait de changer le **Texte alternatif** pour une image de produit n'aura aucun impact sur l'image rendue.
+> - Les pages de détails du produit génèrent dynamiquement le **Texte alternatif** en utilisant le nom du produit, donc le fait de changer le **Texte alternatif** pour une image de produit n’aura aucun impact sur l’image rendue.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Conventions de dénomination des images omnicanal 
 

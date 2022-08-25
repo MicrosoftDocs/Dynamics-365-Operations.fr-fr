@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 183d0f13a17ffac723fac6c4801bd187dd54e976
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cb3ca03e0d9d7e5423a405f1eb0372e1c19588d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888852"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227983"
 ---
 # <a name="configure-future-life-events"></a>Configurer les événements de vie futurs
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Vous pouvez planifier des événements de vie futurs dans Dynamics 365 Human Resources.
 
@@ -39,11 +40,12 @@ Vous pouvez planifier des événements de vie futurs dans Dynamics 365 Human Res
    | Événement de vie enregistré | Date et heure de consignation de l’événement de vie. |
    | Type de journal | Indique si l’action est l’une des suivantes :</br></br>- **Mettre à jour** – modification à un enregistrement existant qui effectue le suivi des événements de vie</br></br>- **Insérer** – création d’un nouvel enregistrement d’événement de vie |
    | ID du type d’événement de vie | Identificateur unique pour le type d’événement de vie. |
-   | Type d’événement de vie | Catalyseur pour mettre à jour l’inscription aux avantages d’un employé. Pour plus de détails, voir la section Déclencheurs d’événements de vie. |
+   | Type d’événement de vie | Catalyseur pour mettre à jour l’inscription aux avantages d’un employé. Pour plus d'informations, voir la section Déclencheurs d’événement de vie. |
    | Statut | Indique si l’événement de vie a été traité ou non. |
    | Ligne | Numéro de ligne du futur événement de vie. |
 
-4. Sélectionnez **Enregistrer**. 
+4. Cliquez sur **Enregistrer**. 
 
+Vous pouvez supprimer des événements de vie futurs. Si un événement de vie futur traité est supprimé, l’enregistrement futur est également supprimé. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

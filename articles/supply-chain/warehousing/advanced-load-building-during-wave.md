@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 76aee3a736efa9ed7431d4e5127cd0abaccd659f
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863764"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218846"
 ---
 # <a name="advanced-load-building-during-wave"></a>Création de chargement avancée pendant une vague
 
@@ -50,7 +50,7 @@ Avant de pouvoir utiliser la création de chargement avancée, deux fonctionnali
 
 ### <a name="make-sample-data-available"></a>Rendre les exemple de données disponibles
 
-Pour utiliser cette démonstration à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser cette démonstration à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
 
 Vous pouvez également utiliser cette démonstration comme orientation pour utiliser cette fonctionnalité lorsque vous travaillez sur un système de production. Cependant, dans ce cas, vous devez remplacer vos propres valeurs, et il se peut que certains types d’enregistrements requis que les données de démonstration standard fournissent manquent.
 

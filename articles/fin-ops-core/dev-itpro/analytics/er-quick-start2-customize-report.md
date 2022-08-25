@@ -1,28 +1,26 @@
 ---
 title: Ajuster un format d’état électronique pour générer un document électronique personnalisé
 description: Cet article explique comment ajuster un format de gestion des états électroniques fourni par Microsoft afin de générer un document électronique personnalisé.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886789"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283556"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajuster un format d’état électronique pour générer un document électronique personnalisé
 
@@ -271,7 +269,7 @@ Dans ce cas, en tant que représentant de Litware, Inc., vous devez créer (dér
 
 6. Sélectionnez **Créer une configuration**.
 
-La version 1.1.1 de la configuration du format de gestion des états électroniques **BACS (UK custom)** est créée. Cette version présente le [statut](general-electronic-reporting.md#component-versioning) **Brouillon** et peut être modifiée. Le contenu actuel de votre format de gestion des états électroniques personnalisé correspond au contenu du format fourni par Microsoft.
+La version 1.1.1 de la configuration du format de gestion des états électroniques **BACS (UK custom)** est créée. Cette version présente le statut **Brouillon** et peut être modifiée. Le contenu actuel de votre format de gestion des états électroniques personnalisé correspond au contenu du format fourni par Microsoft.
 
 ![Page de configurations avec la version 1.1.1 de la configuration du format ER BACS (UK custom).](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ Vous devez configurer votre format personnalisé afin qu’il réponde aux exige
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Marquer un format personnalisé comme exécutable
 
-Maintenant que la première version de votre format personnalisé a été créée et présente le statut **Brouillon**, vous pouvez l’exécuter à des fins de test. Pour exécuter l’état, vous devez traiter un paiement fournisseur en utilisant le mode de paiement qui fait référence à votre format de gestion des états électroniques personnalisé. Par défaut, lorsque vous appelez un format de gestion des états électroniques depuis l’application, seules les versions qui ont le statut **Terminé** et **Partagé** sont [prises en compte](general-electronic-reporting.md#component-versioning). Ce comportement permet de ne pas utiliser les formats de gestion des états électroniques dont les conceptions sont inachevées. Cependant, pour vos exécutions de test, vous pouvez forcer l’application à utiliser la version de votre format de gestion des états électroniques dont le statut est **Brouillon**. De cette façon, vous pouvez ajuster la version actuelle du format si des modifications sont nécessaires. Pour plus d’informations, voir [Applicabilité](electronic-reporting-destinations.md#applicability).
+Maintenant que la première version de votre format personnalisé a été créée et présente le statut **Brouillon**, vous pouvez l’exécuter à des fins de test. Pour exécuter l’état, vous devez traiter un paiement fournisseur en utilisant le mode de paiement qui fait référence à votre format de gestion des états électroniques personnalisé. Par défaut, lorsque vous appelez un format de gestion des états électroniques depuis l’application, seules les versions qui ont le statut **Terminé** ou **Partagé** sont prises en compte. Ce comportement permet de ne pas utiliser les formats de gestion des états électroniques dont les conceptions sont inachevées. Cependant, pour vos exécutions de test, vous pouvez forcer l’application à utiliser la version de votre format de gestion des états électroniques dont le statut est **Brouillon**. De cette façon, vous pouvez ajuster la version actuelle du format si des modifications sont nécessaires. Pour plus d’informations, voir [Applicabilité](electronic-reporting-destinations.md#applicability).
 
 Pour utiliser la version provisoire d’un format de gestion des états électroniques, vous devez explicitement marquer le format de gestion des états électroniques.
 

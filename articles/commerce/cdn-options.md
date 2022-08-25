@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: de2ecab86809af3ace64ba06956f00137d254ab7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884415"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275145"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Options de mise en œuvre d’un réseau de diffusion de contenu
 
@@ -49,7 +49,7 @@ Le tableau suivant répertorie les avantages et les inconvénients de l’utilis
 
 | Avantages | Inconvénients |
 |------|------|
-| <ul><li>L’instance est incluse dans le coût de Commerce.</li><li>Étant donné que l’instance est gérée par l’équipe de Commerce, moins de maintenance est requise et des étapes de configuration sont partagées.</li><li>L’infrastructure hébergée par Azure est évolutive, sécurisée et fiable.</li><li>Le certificat SSL (Secure Sockets Layer) nécessite une configuration unique et est automatiquement renouvelé.</li><li>L’instance est surveillée par l’équipe Commerce qui recherche les erreurs et les anomalies.</li></ul> | <ul><li>Un WAF n'est pas pris en charge.</li><li>Il n’y a pas de personnalisations ou d’ajustements de paramètres spécifiques.</li><li>Les mises à jour ou les modifications de l’instance dépendent de l’équipe Commerce.</li><li>Une instance Azure Front Door distincte est requise pour les domaines apex, et un travail supplémentaire est requis pour intégrer les domaines apex avec Azure DNS.</li><li>Aucune télémétrie sur les réponses par seconde (RPS) ou le taux d’erreur n’est fournie au client.</li></ul> |
+| <ul><li>L’instance est incluse dans le coût de Commerce.</li><li>Étant donné que l’instance est gérée par l’équipe de Commerce, moins de maintenance est requise et des étapes de configuration sont partagées.</li><li>L’infrastructure hébergée par Azure est évolutive, sécurisée et fiable.</li><li>Le certificat SSL (Secure Sockets Layer) nécessite une configuration unique et est automatiquement renouvelé.</li><li>L’instance est surveillée par l’équipe Commerce qui recherche les erreurs et les anomalies.</li></ul> | <ul><li>Un WAF n’est pas pris en charge.</li><li>Il n’y a pas de personnalisations ou d’ajustements de paramètres spécifiques.</li><li>Les mises à jour ou les modifications de l’instance dépendent de l’équipe Commerce.</li><li>Une instance Azure Front Door distincte est requise pour les domaines apex, et un travail supplémentaire est requis pour intégrer les domaines apex avec Azure DNS.</li><li>Aucune télémétrie sur les réponses par seconde (RPS) ou le taux d’erreur n’est fournie au client.</li></ul> |
 
 L’illustration suivante montre l’architecture de l’instance Azure Front Door fournie par Commerce.
 

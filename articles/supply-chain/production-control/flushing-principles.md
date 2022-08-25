@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065552"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266426"
 ---
 # <a name="flushing-principles"></a>Principes d’effacement
 
@@ -56,7 +56,10 @@ Le principe d’effacement manuel indique que l’enregistrement de la consommat
 Le principe d’effacement de début indique que le matériel est automatiquement consommé lorsque l’ordre de fabrication démarre. La quantité de matériel consommé est proportionnelle à la quantité lancée. Lorsque le principe d’effacement de début est utilisé avec le système d’exécution de la production, il permet également d’effacer des matières lorsqu’une opération ou une tâche de traitement est lancée. Ce principe est utile si, par exemple, l’écart dans la consommation est faible, les matières sont des matériaux à faible valeur, il est inutile d’effectuer un suivi, ou les opérations nécessitent un délai d’exécution court. 
 
 ### <a name="finish"></a>Terminer
-La principe d’effacement de fin indique que le matériel est automatiquement consommé lorsque l’ordre de fabrication est déclaré terminé, ou lorsqu’une opération paramétrée pour consommer les matières est enregistrée comme terminée. La quantité de matériel consommé est proportionnelle à la quantité désignée comme terminée. Lorsque le principe d’effacement de fin est utilisé avec le système d’exécution de la production, il permet également d’effacer des matières lorsqu’une opération ou une tâche de traitement est terminée. Ce principe est utile dans les mêmes situations que le principe de début. Toutefois, le principe de fin est pour les opérations avec un délai d’exécution plus long, au cours duquel les matières ne devraient pas être définies sur Travaux en cours avant que l’opération soit terminée. 
+La principe d’effacement de fin indique que le matériel est automatiquement consommé lorsque l’ordre de fabrication est déclaré terminé, ou lorsqu’une opération paramétrée pour consommer les matières est enregistrée comme terminée. La quantité de matériel consommé est proportionnelle à la quantité désignée comme terminée. Lorsque le principe d’effacement de fin est utilisé avec le système d’exécution de la production, il permet également d’effacer des matières lorsqu’une opération ou une tâche de traitement est terminée. Ce principe est utile dans les mêmes situations que le principe de début. Toutefois, le principe de fin est pour les opérations avec un délai d’exécution plus long, au cours duquel les matières ne devraient pas être définies sur Travaux en cours avant que l’opération soit terminée.
+
+> [!NOTE]
+> Vous ne pouvez pas utiliser le principe d’effacement de fin avec des éléments de planification. Nous vous recommandons plutôt d’utiliser le principe d’effacement de début. Les éléments de planification ont un type de production d’*élément de planification*, et seuls les coproduits et les sous-produits peuvent être déclarés comme finis sur les commandes de lots qui sont créées pour les éléments de planification.
 
 ### <a name="available-at-location"></a>Disponible à l’emplacement
 Le principe d’effacement sur site disponible indique que les matières sont automatiquement consommées lorsqu’elles sont enregistrées comme prélevées pour la production. Les matières sont enregistrées comme prélevées de l’emplacement lorsque le prélèvement de matières premières est terminé, ou lorsque la matière est disponible à l’emplacement d’entrée en production et que la ligne de matière est lancée à l’entrepôt. Les prélèvements générés lors du processus sont validés dans un traitement par lots. Ce principe est utile si, par exemple, vous avez plusieurs activités de prélèvement pour un ordre de fabrication. Dans ce cas, vous ne devez pas mettre les prélèvements à jour manuellement, et vous pouvez obtenir une vue actuelle du solde des travaux en cours.

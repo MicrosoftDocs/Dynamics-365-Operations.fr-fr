@@ -1,26 +1,26 @@
 ---
 title: Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 description: Cet article explique comment inspecter les composants de rapports électroniques (ER) configurés pour éviter que des problèmes d’exécution ne se produisent.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864834"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277848"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 
@@ -30,8 +30,8 @@ Chaque composant de [format](er-overview-components.md#format-components-for-out
 
 Par défaut, la validation est automatiquement appliquée dans les cas suivants pour une configuration ER contenant les composants ER mentionnés précédemment :
 
-- Vous [importez](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) une nouvelle [version](general-electronic-reporting.md#component-versioning) d’une configuration ER dans votre instance de Microsoft Dynamics 365 Finance.
-- Vous modifiez le [statut](general-electronic-reporting.md#component-versioning) de la configuration de l’ER modifiable, mis à jour de **Brouillon** à **Terminé**.
+- Vous [importez](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) une nouvelle version d’une configuration ER dans votre instance de Microsoft Dynamics 365 Finance.
+- Vous modifiez le statut de la configuration de l’ER modifiable, mis à jour de **Brouillon** à **Terminé**.
 - Vous [redéfinissez](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) une configuration d’ER modifiable en appliquant une nouvelle version de base.
 
 Vous pouvez exécuter explicitement cette validation. Sélectionnez l’une des trois options suivantes et suivez les étapes fournies :
@@ -770,7 +770,7 @@ Modifiez le format configuré en supprimant la liaison pour l’élément de for
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Modèle non lié
 
-Lorsque vous configurez [manuellement](er-fillable-excel.md#manual-entry) un composant de format ER pour utiliser un modèle pour générer un document sortant, vous devez ajouter manuellement l’élément **Excel\\Fichier**, ajouter le modèle requis en tant que pièce jointe du composant modifiable et sélectionner cette pièce jointe dans l’élément **Excel\\ Fichier** ajouté. De cette manière, vous indiquez que l’élément ajouté remplira le modèle sélectionné au runtime. Lorsque vous configurez une version de composant de format dans le [statut](general-electronic-reporting.md#component-versioning) **Brouillon**, vous pouvez ajouter plusieurs modèles au composant modifiable, puis sélectionner chaque modèle dans l’élément **Excel\\Fichier** pour exécuter le format ER. De cette façon, vous pouvez voir comment les différents modèles sont remplis au moment du runtime. Si vous avez des modèles qui ne sont sélectionnés dans aucun élément **Excel\\Fichier**, le concepteur de format ER vous avertit que ces modèles seront supprimés de la version modifiable du composant de format ER lorsque son statut passe de **Brouillon** à **Terminé**.
+Lorsque vous configurez [manuellement](er-fillable-excel.md#manual-entry) un composant de format ER pour utiliser un modèle pour générer un document sortant, vous devez ajouter manuellement l’élément **Excel\\Fichier**, ajouter le modèle requis en tant que pièce jointe du composant modifiable et sélectionner cette pièce jointe dans l’élément **Excel\\ Fichier** ajouté. De cette manière, vous indiquez que l’élément ajouté remplira le modèle sélectionné au runtime. Lorsque vous configurez une version de composant de format dans le statut **Brouillon**, vous pouvez ajouter plusieurs modèles au composant modifiable, puis sélectionner chaque modèle dans l’élément **Excel\\Fichier** pour exécuter le format ER. De cette façon, vous pouvez voir comment les différents modèles sont remplis au moment du runtime. Si vous avez des modèles qui ne sont sélectionnés dans aucun élément **Excel\\Fichier**, le concepteur de format ER vous avertit que ces modèles seront supprimés de la version modifiable du composant de format ER lorsque son statut passe de **Brouillon** à **Terminé**.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 

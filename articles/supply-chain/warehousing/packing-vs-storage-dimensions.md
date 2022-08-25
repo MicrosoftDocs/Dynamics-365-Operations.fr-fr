@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ebea86e5ea63ab4f5a844cd3d0936c0d65bbe2b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905484"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220240"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Définir différentes dimensions pour l’emballage et le stockage
 
@@ -27,7 +27,7 @@ ms.locfileid: "8905484"
 Certains articles sont emballés ou stockés de telle sorte que vous devrez peut-être effectuer le suivi des dimensions physiques de manière différente pour chacun des différents processus. La fonctionnalité *Dimensions d’emballage du produit* vous permet de configurer un ou plusieurs types de dimensions pour chaque produit. Chaque type de dimension fournit un ensemble de mesures physiques (poids, largeur, profondeur et hauteur) et établit le processus dans lequel ces valeurs de mesure physique s’appliquent. Lorsque cette fonctionnalité est activée, votre système prend en charge les types de dimensions suivants :
 
 - *Stockage* : les dimensions de stockage sont utilisées avec la volumétrie de l’emplacement pour déterminer quelle quantité de chaque article peut être stockée dans divers emplacements de l’entrepôt.
-- *Emballage* : les dimensions d’emballage sont utilisées pendant la mise en conteneur et le processus d’emballage manuel pour déterminer quelle quantité de chaque article peut contenir dans divers types de conteneurs.
+- *Emballage* - les dimensions d’emballage sont utilisées pendant la mise en conteneur et le processus d’emballage manuel pour déterminer quelle quantité de chaque article peut contenir dans divers types de conteneurs.
 - *Emballage imbriqué* : les dimensions d’emballage imbriqué sont utilisées lorsque le processus d’emballage contient plusieurs niveaux.
 
 Les dimensions de *stockage* sont prises en charge même lorsque la fonctionnalité *Dimensions d’emballage du produit* n’est pas activée. Vous configurez ces dimensions dans la page **Dimension physique** de Supply Chain Management. Ces dimensions sont utilisées par tous les processus dans lesquels les dimensions d’emballage et d’emballage imbriqué ne sont pas spécifiées.
@@ -50,7 +50,7 @@ Avant de pouvoir exécuter l’exemple de scénario, vous devez préparer votre 
 
 #### <a name="enable-demo-data"></a>Activer les données de démonstration
 
-Pour exécuter ce scénario en utilisant les enregistrements et les valeurs de démonstration spécifiés ici, vous devez utiliser un système dans lequel les [données de démonstration](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique *USMF* avant de commencer.
+Pour exécuter ce scénario en utilisant les enregistrements et les valeurs de démonstration spécifiés ici, vous devez utiliser un système dans lequel les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique *USMF* avant de commencer.
 
 #### <a name="add-a-new-physical-dimension-to-a-product"></a>Ajouter une nouvelle dimension physique à un produit
 
@@ -129,7 +129,7 @@ Dans ce processus, vous allez créer une expédition basée sur les dimensions d
 
 1. Ouvrez l’appareil mobile, connectez-vous à l’entrepôt 63 et accédez à **Stock \> Ajuster dans**.
 1. Entrez **Loc** = *SHORT-01*. Créez un contenant avec **Article** = *A0001* et **Quantité** = *1 pc*.
-1. Cliquez sur **OK**. Vous recevrez l’erreur « L’emplacement SHORT-01 a échoué, car l’article A0001 ne correspond pas aux dimensions spécifiées de l’emplacement. » Les dimensions de type *Stockage* du produit sont plus grandes que les dimensions spécifiées sur le profil d’emplacement.
+1. Cliquez sur **OK**. Vous recevrez l’erreur « L’emplacement SHORT-01 a échoué, car l’article A0001 ne correspond pas aux dimensions spécifiées de l’emplacement. » Ceci est dû au fait que les dimensions de type *Stockage* du produit sont plus grandes que les dimensions spécifiées sur le profil d’emplacement.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

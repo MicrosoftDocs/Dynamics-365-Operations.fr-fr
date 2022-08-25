@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3dd9f4930303b1e3506e613d5437613138944430
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1017527419acc2e4cb42b2bcb83131339d82b665
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877303"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218880"
 ---
 # <a name="work-line-details"></a>Détails de la ligne de travail
 
@@ -52,7 +52,7 @@ Cette section fournit une démonstration en trois parties qui montre comment uti
 
 ### <a name="make-sample-data-available"></a>Rendre les exemple de données disponibles
 
-Pour utiliser cette démonstration à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser cette démonstration à l’aide des exemples d’enregistrements et de valeurs spécifiés ici, vous devez utiliser un système sous lequel les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. En outre, vous devez sélectionner l’entité juridique **USMF** avant de commencer.
 
 Vous pouvez également utiliser cette démonstration comme orientation lorsque vous travaillez sur un système de production. Cependant, vous devez remplacer vos propres valeurs, et il se peut que certains types d’enregistrements requis que les données de démonstration standard fournissent manquent.
 

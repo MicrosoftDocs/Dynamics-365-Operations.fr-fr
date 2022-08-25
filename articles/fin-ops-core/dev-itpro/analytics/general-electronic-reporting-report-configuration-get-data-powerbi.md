@@ -1,25 +1,25 @@
 ---
 title: Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 description: Cet article explique comment vous pouvez utiliser la configuration de gestion des états électroniques (ER) pour organiser le transfert des données entre votre instance et les services Power BI.
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: be0e79bb767a8bd2db4c02dc2b73bfbc5cb95675
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896732"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281720"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 
@@ -29,7 +29,7 @@ Cet article explique comment vous pouvez utiliser la configuration de gestion de
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Microsoft Power BI est un ensemble de services logiciels, d’applications et de connecteurs qui fonctionnent ensemble pour transformer des sources de données externes en analyses logiques, visuellement immersives et interactives. La gestion des états électroniques (ER) permet aux utilisateurs de configurer facilement les sources de données et d’organiser le transfert des données à partir de l’application vers Power BI. Les données sont transférées en tant que fichiers dans le format de feuille de calcul OpenXML (fichier classeur Microsoft Excel). Les fichiers transférés sont stockés sur un serveur Microsoft SharePoint Server qui a été configuré à cette fin. Les fichiers stockés sont utilisés dans Power BI pour générer des états qui incluent des visualisations (tableaux, graphiques, cartes, etc.). Les états Power BI sont partagés avec les utilisateurs Power BI, et ils sont accessibles dans les tableaux de bord Power BI et sur les pages de l’application. Cet article décrit les tâches suivantes :
+Microsoft Power BI est un ensemble de services logiciels, d’applications et de connecteurs qui fonctionnent ensemble pour transformer des sources de données externes en analyses logiques, visuellement immersives et interactives. La gestion des états électroniques (ER) permet aux utilisateurs de configurer facilement les sources de données et d’organiser le transfert des données à partir de l’application vers Power BI. Les données sont transférées en tant que fichiers dans le format de feuille de calcul OpenXML (fichier classeurMicrosoft Excel ). Les fichiers transférés sont stockés sur un serveur Microsoft SharePoint Server qui a été configuré à cette fin. Les fichiers stockés sont utilisés dans Power BI pour générer des états qui incluent des visualisations (tableaux, graphiques, cartes, etc.). Les états Power BI sont partagés avec les utilisateurs Power BI, et ils sont accessibles dans les tableaux de bord Power BI et sur les pages de l’application. Cet article décrit les tâches suivantes :
 
 - Configurer Microsoft Dynamics 365 Finance.
 - Préparez votre configuration du format de gestion des états électroniques pour obtenir des données de l’application Finance.
@@ -130,13 +130,13 @@ Cliquez sur le bouton **Paramètres** pour le nouvel enregistrement de destinati
 
 3. Sélectionnez la version terminée de la configuration **Activités d’importation/d’exportation**, puis cliquez sur **Exécuter**. Notez que la destination configurée est appliquée au résultat de sortie qui est généré dans le format Excel.
 4. Définissez l’option **Traitement par lots** sur **Oui** pour d’exécuter cet état en mode sans assistance.
-5. Cliquez sur **Répétition** pour planifier la récurrence requise de cette exécution du traitement par lots. La récurrence définit la fréquence à laquelle les données mises à jour seront transférées vers Power BI.
+5. Cliquez sur **Périodicité** pour planifier la périodicité requise de cette exécution du traitement par lots. La périodicité définit la fréquence à laquelle les données mises à jour seront transférées vers Power BI.
 
-    [![Boîte de dialogue Paramètres de génération d’états électroniques.](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
+    [![Boîte de dialogue paramètres de génération d’états électroniques.](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
 
 6. Après l’avoir configurée, vous pouvez rechercher la tâche d’exécution de l’état ER sur la page **Traitements par lots** (**Administration système &gt; Recherches &gt; Traitements par lots**).
 
-    [![Page Traitements par lots.](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
+    [![Page traitements par lots.](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
 
 7. Lorsque cette tâche est exécutée pour la première fois, la destination crée un fichier Excel qui contient le nom configuré du dossier SharePoint sélectionné. Chaque fois que la tâche est exécutée par la suite, la destination crée une version de ce fichier Excel.
 
@@ -145,26 +145,26 @@ Cliquez sur le bouton **Paramètres** pour le nouvel enregistrement de destinati
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Créez un ensemble de données Power BI à l’aide du résultat de sortie du format ER
 1. Connectez-vous à Power BI, puis ouvrez un groupe Power BI existant (espace de travail) ou créez un groupe. Cliquez sur **Ajouter** sous **Fichiers** dans la section **Importer ou se connecter aux données** ou sur le signe (**+**) en regard de **Ensembles de données** dans le volet gauche.
 
-    [![Création d’un ensemble de données.](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
+    [![Création d’un jeu de données.](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
-2. Sélectionnez l’option **SharePoint – Sites d’équipe**, puis entrez le chemin d’accès du serveur SharePoint Server que vous utilisez (`https://ax7partner.litware.com` dans notre exemple).
-3. Accédez au dossier **/Shared Documents/GER data/PowerBI**, puis sélectionnez le fichier Excel que vous avez créé comme source de données pour le nouvel ensemble de données Power BI.
+2. Sélectionnez l’option **SharePoint – Sites d’équipe**, puis entrez le chemin d’accès du serveur SharePoint que vous utilisez (`https://ax7partner.litware.com` dans notre exemple).
+3. Accédez au dossier **/Shared Documents/GER data/PowerBI**, puis sélectionnez le fichier Excel que vous avez créé comme source de données pour le nouveau jeu de données Power BI.
 
     [![Sélection du fichier Excel.](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
 
-4. Cliquez **Connecter**, puis sur **Importer**. Un ensemble de données est créé, basé sur le fichier Excel sélectionné. L’ensemble de données peut également être ajouté automatiquement au tableau de bord nouvellement créé.
+4. Cliquez **Connecter**, puis sur **Importer**. Un jeu de données est créé, basé sur le fichier Excel sélectionné. Le jeu de données peut également être ajouté automatiquement au tableau de bord nouvellement créé.
 
-    [![Ensemble de données sur le tableau de bord.](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
+    [![Jeu de données sur le tableau de bord.](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
 
-5. Configurez le programme d’actualisation pour cet ensemble de données pour forcer une mise à jour périodique. Les mises à jour périodiques activent la consommation de nouvelles données commerciales via l’exécution périodique de la gestion des états périodiques à l’aide des nouvelles versions du fichier Excel créées dans le serveur SharePoint Server.
+5. Configurez le programme d’actualisation pour ce jeu de données pour forcer une mise à jour périodique. Les mises à jour périodiques activent la consommation de nouvelles données commerciales via l’exécution périodique de la gestion des états périodiques à l’aide des nouvelles versions du fichier Excel créées dans le serveur SharePoint .
 
-## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Créer un état Power BI à l’aide du nouvel ensemble de données
-1. Cliquez sur l’ensemble de données Power BI **Détails d’importation et d’exportation** que vous avez créé.
+## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Créer un état Power BI à l’aide du nouveau jeu de données
+1. Cliquez sur le jeu de données Power BI **Détails d’importation et d’exportation** que vous avez créé.
 2. Configurez la visualisation. Par exemple, sélectionnez la visualisation **Carte remplie**, et configurez-la comme suit :
 
-    - Affectez le champ d’ensemble de données **CountryOrigin** au champ **Emplacement** de la visualisation de carte.
-    - Affectez le champ d’ensemble de données **Montant** au champ **Saturation des couleurs** de la visualisation de carte.
-    - Ajoutez les champs d’ensembles de données **Activité** et **Année** à la collection de champs **Filtres** de la visualisation de carte.
+    - Affectez le champ du jeu de données **CountryOrigin** au champ **Emplacement** de la visualisation de carte.
+    - Affectez le champ de jeu de données **Montant** au champ **Saturation des couleurs** de la visualisation de carte.
+    - Ajoutez les champs des jeux de données **Activité** et **Année** à la collection de champs **Filtres** de la visualisation de carte.
 
 3. Enregistrez l’état Power BI comme **État de détails d’importation et d’exportation**.
 
@@ -176,7 +176,7 @@ Cliquez sur le bouton **Paramètres** pour le nouvel enregistrement de destinati
 
     [![Liste des transactions de déclaration d’échanges de biens.](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
 
-5. Attendez la prochaine exécution prévue de l’état ER et la prochaine mise à jour programmée de l’ensemble de données Power BI. Examinez l’état Power BI (sélectionnez pour afficher les transactions d’importation uniquement). La carte mise à jour affiche maintenant l’Italie.
+5. Attendez la prochaine exécution prévue de l’état ER et la prochaine mise à jour programmée du jeu de données Power BI. Examinez l’état Power BI (sélectionnez pour afficher les transactions d’importation uniquement). La carte mise à jour affiche maintenant l’Italie.
 
     [![Carte mise à jour.](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 

@@ -6,22 +6,22 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
 audience: Application User
 ms.reviewer: twheeloc
-ms.custom: 19681
-ms.assetid: c99b2aeb-4ac2-4abe-b8b9-786b664c103d
 ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: twheeloc
+ms.author: v-kiarnd
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7c8597856a676ca431852d2fc7964bfd3583127
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 19681
+ms.assetid: c99b2aeb-4ac2-4abe-b8b9-786b664c103d
+ms.search.industry: Public sector
+ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
+ms.openlocfilehash: 61244e1a63f1fe698256bfbc99b232b252ad5ece
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889740"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270526"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 
@@ -124,7 +124,7 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 <td>400,00</td>
 <td>750,00</td>
 <td>200,00</td>
-<td><p>1,000.00</p></td>
+<td><p>1 000,00</p></td>
 </tr>
 </tbody>
 </table>

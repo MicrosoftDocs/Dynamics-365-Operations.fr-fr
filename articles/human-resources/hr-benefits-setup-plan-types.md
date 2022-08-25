@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 87be947c829641ba809e6850ccf41ea6d142161d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687105"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228958"
 ---
 # <a name="plan-type-overview"></a>Vue d’ensemble du type de plan
 
@@ -27,6 +27,8 @@ ms.locfileid: "8687105"
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Un type de plan est un regroupement de haut niveau de types spécifiques d’avantages. Chaque type de plan possède un code de type de plan qui détermine les règles du type de plan. Par exemple, le type de régime **Assurance-vie de base** aura le code de type de régime **Vie**, car il s’agit d’un type d’assurance-vie qui doit respecter les règles édictées pour le code de type de régime **Vie**. Un autre type de régime pourrait être **Assurance-vie complémentaire**. Ce type de régime aura également le code de type de régime **Vie**.
 
@@ -67,14 +69,14 @@ Un type de plan peut définir des options de couverture. Les options de couvertu
    | --- | --- |
    | **Type de plan** | Type de plan pour lequel configurer les options d’événements de vie. |
    | **ID du type d’événement de vie** | ID du type d’événement de vie. |
-   | **Autoriser l’annulation** | Spécifie si un employé peut annuler un plan d’avantages pendant l’événement de vie. |
    | **Modifier l’option de couverture** | Spécifie si un employé peut les options de couverture pendant l’événement de vie. |
    | **Passer à un nouveau plan** | Spécifie si un employé peut les plans pendant l’événement de vie. |
-   | **Auto-annuler le plan** | Spécifie s’il faut annuler automatiquement le plan pendant l’événement de vie. |
    | **Réouvrir automatiquement le contrôle d’éligibilité** | Spécifie s’il faut rouvrir automatiquement le contrôle d’éligibilité à l’inscription aux avantages lors de l’événement de vie. |
-   | **Fenêtre de déclaration** | Spécifie la fenêtre de déclaration, en jours, de l’événement de vie. **Remarque** : si vous n’entrez pas de montant, le système suppose que la fenêtre de rapport est nulle et ne traitera pas l’événement de vie. |
+   | **Période d'inscription de l'événement de vie** | Spécifie la fenêtre de déclaration, en jours, de l’événement de vie. **Remarque** : si vous n’entrez pas de montant, le système suppose que la fenêtre de rapport est nulle et ne traitera pas l’événement de vie. |
+   | **Modifiable uniquement par les administrateurs** | Spécifie si les administrateurs peuvent annuler ou modifier un plan lors d'un événement de vie. Aucune modification ne peut être apportée par l’employé dans l'espace de travail **Libre-service pour l'employé**. |
+   | **Auto-annuler le plan** | Spécifie s’il faut annuler automatiquement le plan pendant un événement de vie. Une fois les changements d’événement de vie traités, l'option **Plan d’annulation automatique** conservera la sélection de plan. Seulement le statut **Confirmé** ou **Vérifié** sera supprimé. Le plan reste sélectionné. Par conséquent, les employés qui ne sélectionnent pas de plan pendant la période d’inscription à un événement de vie ne perdront pas la sélection de plan. 
 
-5. Sélectionnez **Enregistrer**. 
+5. Cliquez sur **Enregistrer**. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

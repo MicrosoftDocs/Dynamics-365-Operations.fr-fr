@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910548"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279566"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Créer des modèles d’e-mail pour les événements transactionnels
 
@@ -117,7 +117,29 @@ Le type de notification *Annulation de commande* est déclenché lorsqu’une co
 
 ### <a name="customer-created"></a>Client créé
 
-Le type de notification *Client créé* est déclenché lorsqu’une nouvelle entité client est créée dans Commerce Headquarters.
+Le type de notification *Client créé* est déclenché lorsqu’une nouvelle entité client est créée dans Commerce Headquarters. 
+
+Pour activer les notifications créées par le client dans Commerce headquarters, accédez à **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres Commerce \> Général**. Dans la liste déroulante **Profil de notification par e-mail**, sélectionnez un profil de notification par e-mail contenant le type de notification créé par le client. 
+
+Par défaut, les événements créés par le client sont chargés vers headquarters avec la tâche par lot **Synchroniser les demandes des clients et des canaux**. Si vous souhaitez utiliser un appel de service en temps réel pour envoyer ces événements, définissez l’ID de messagerie du modèle créé par le client sur **newCust**. Toutefois, cela n’est pas recommandé, car les appels de service en temps réel sont des appels « lancer et oublier » et n’ont pas la logique de secours ou de nouvelle tentative fournie par les tâches par lots.
+
+> [!NOTE] 
+> Lorsque vous activez les notifications créées par le client, les clients créés dans tous les canaux de l’entité juridique recevront un e-mail créé par le client. Actuellement, les notifications créées par les clients ne peuvent pas être limitées à un seul canal.  
+
+Lorsqu’il est appelé via la tâche par lots, le type de notification créé par le client prend en charge l’espace réservé suivant.
+
+| Nom de l’espace réservé | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | Le prénom et le nom du client qui a créé un compte. |
+
+Lorsqu’il est appelé via appel de service en temps réel, le type de notification créé par le client prend en charge les espaces réservés suivants.
+
+| Nom de l’espace réservé | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Name             | Le prénom et le nom du client qui a créé un compte. |
+| Courrier électronique            | L’adresse e-mail du client qui a créé un compte.    |
+| Téléphone            | Le numéro de téléphone du client qui a créé un compte.      |
+| URL              | L’URL fournie par le client lors de la création du compte. |
 
 ### <a name="b2b-prospect-approved"></a>Prospect B2B approuvé
 

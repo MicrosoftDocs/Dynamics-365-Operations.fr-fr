@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857052"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218972"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Configurer les champs promus pour les étapes dans l’application mobile Warehouse Management
 
@@ -32,13 +32,7 @@ Cet article décrit comment promouvoir et mettre en évidence des informations s
 Avant de pouvoir configurer des champs promus, vous devez effectuer la procédure suivante pour activer les fonctionnalités requises et générer les noms de champ requis dans l’application mobile Warehouse Management.
 
 1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
-1. Dans l’[espace de travail **Gestion des fonctionnalités**](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), activez les fonctionnalités qui sont répertoriées comme suit :
-
-    - **Module :** *Gestion des entrepôts*
-    - **Nom de la fonctionnalité :** *instructions d’étape de l’application d’entrepôt*
-
-    Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md). Cette fonctionnalité est une condition préalable à la fonctionnalité *Champs promus par l’application d’entrepôt*.
-
+1. Assurez-vous que la caractéristique *Instructions d’étape de l’application Warehouse* est activée pour votre système. À compter de la version 10.0.29 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md). Cette fonctionnalité est une condition préalable à la fonctionnalité *Champs promus par l’application d’entrepôt*.
 1. Activez la fonctionnalité qui est répertoriée de la manière suivante :
 
     - **Module :** *Gestion des entrepôts*
@@ -67,7 +61,7 @@ La procédure suivante permet de paramétrer les champs promus.
 
 ### <a name="enable-sample-data"></a>Activer les exemples de données
 
-Pour utiliser les exemples d’enregistrements et de valeurs spécifiés dans ce scénario, vous devez utiliser un système sur lequel les données de démonstration standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
+Pour utiliser les enregistrements et les valeurs de l'échantillon spécifiés pour travailler sur ce scénario, vous devez utiliser un système où les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard sont installées. Vous devez également sélectionner l’entité juridique **USMF** avant de commencer.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>Configurer le prélèvement des ventes avec des étapes promues à l’étape du contenant
 

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: rapraj
+ms.author: anupamar
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 319b2ac2a652e633bc70c477dab52e2676c17001
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882231"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282831"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Créer et mettre à jour des plages horaires pour le ramassage des clients
 
@@ -124,7 +124,7 @@ Dans l’application du centre d’appels, les agents peuvent sélectionner le m
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Module Information sur les prélèvements](../pickup-info-module.md)
+[Module Information sur les ramassages](../pickup-info-module.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

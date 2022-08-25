@@ -1,26 +1,26 @@
 ---
-title: (Gestion des états électroniques) Importer les configurations depuis RCS
+title: (ER) Importer les configurations depuis RCS
 description: Cet article fournit des informations sur la manière dont un utilisateur peut importer une nouvelle version d’une configuration ER à partir de RCS.
-author: NickSelin
+author: kfend
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5317b1f7c8c0af6cd5c839e065c590c4474c84de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 55e7a3ae23b708acecb5ac219b885f43b4c7aa0a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850141"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290032"
 ---
-# <a name="er-import-configurations-from-rcs"></a>(Gestion des états électroniques) Importer les configurations depuis RCS
+# <a name="er-import-configurations-from-rcs"></a>(ER) Importer les configurations depuis RCS
 
 [!include [banner](../../includes/banner.md)]
 

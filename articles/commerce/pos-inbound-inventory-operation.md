@@ -1,27 +1,27 @@
 ---
 title: Opération de stock entrant dans le PDV
 description: Cet article décrit les fonctionnalités de l’opération de stock entrant dans le point de vente (PDV).
-author: hhaines
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858880"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288350"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -141,7 +141,7 @@ Les pourcentages de tolérance de livraison incomplète pour une ligne de comman
 
 Une fois qu’une organisation a terminé les configurations de livraison incomplète des commandes fournisseur, les utilisateurs du PDV voient une nouvelle option **Clôturer la quantité restante** dans le volet **Détails** lorsqu’ils sélectionnent une ligne de commande fournisseur entrant dans l’**Opération de stock entrant**. Si l’utilisateur clôture la quantité restante, le PDV effectue une validation pour vérifier que la quantité qui est fermée se situe dans la tolérance de pourcentage de livraison incomplète définie sur la ligne de commande fournisseur. En cas de dépassement de la tolérance de livraison incomplète, un message d’erreur s’affiche et l’utilisateur ne peut pas fermer la quantité restante tant que la quantité précédemment reçue plus la quantité **Recevoir maintenant** atteint ou dépasse la quantité minimale qui doit être reçue en fonction du pourcentage de tolérance de livraison incomplète. 
 
-Quand l’option **Clôturer la quantité restante** est activée pour une ligne de commande fournisseur, lorsque l’utilisateur achève la réception à l’aide de l’action **Terminer la réception**, une demande de clôture est également envoyée au siège de Commerce, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
+Avec l'option **Clôturer la quantité restante** activée pour une ligne de commande fournisseur, lorsque l’utilisateur achève la réception à l’aide de l’action **Terminer la réception**, une demande de clôture est également envoyée au Commerce headquarters, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
 
 ### <a name="receiving-location-controlled-items"></a>Articles contrôlés par l’emplacement de réception
 
@@ -155,15 +155,13 @@ Selon vos besoins, vous pouvez sélectionner **Recevoir tout** sur la barre d’
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Réception d’articles non planifiés sur les commandes fournisseur
 
-Dans Commerce version 10.0.14 et ultérieure, les utilisateurs peuvent recevoir un produit qui ne figurait pas à l’origine sur la commande fournisseur. Pour activer cette fonctionnalité, activez **Ajouter des lignes à la commande fournisseur lors de la réception au point de vente**.  
-
-Cette fonctionnalité ne fonctionne que pour la réception des commandes fournisseur. Il n’est pas possible de recevoir des articles avec des ordres de transfert lorsque les articles n’ont pas été précédemment commandés et expédiés depuis l’entrepôt sortant.
+Dans Commerce version 10.0.14 et ultérieure, les utilisateurs peuvent recevoir un produit qui ne figurait pas à l’origine sur la commande fournisseur. Cette fonctionnalité ne fonctionne que pour la réception des commandes fournisseur. Il n’est pas possible de recevoir des articles avec des ordres de transfert lorsque les articles n’ont pas été précédemment commandés et expédiés depuis l’entrepôt sortant.
 
 Les utilisateurs ne peuvent pas ajouter de nouveaux produits à la commande fournisseur lors de la réception au point de vente si le [workflow de gestion de modification](../supply-chain/procurement/purchase-order-approval-confirmation.md) de la commande fournisseur est activé au siège de Commerce. Pour activer la gestion des modifications, toutes les modifications apportées à une la commande fournisseur doivent d’abord être approuvées avant que la réception ne soit autorisée. Étant donné que ce processus permet à un destinataire d’ajouter de nouvelles lignes à la commande fournisseur, la réception échouera si le workflow de gestion des modifications est activé. Si la gestion des modifications est activée pour toutes les la commandes fournisseur ou pour le fournisseur lié à la la commande fournisseur en cours de réception active dans le PDV, l’utilisateur ne peut pas ajouter de nouveaux produits à la la commande fournisseur lors de la réception au PDV.
 
 La fonctionnalité qui permet d’ajouter des lignes ne peut pas être utilisée comme solution pour recevoir des quantités supplémentaires de produits déjà sur la commande fournisseur. La sur-réception est gérée par les paramètres de [sur-réception](#over-receiving-validations) standard de la ligne de produits sur la commande fournisseur.
 
-Si **Ajouter des lignes à la commande fournisseur lors de la réception au point de vente** est activé et qu’un utilisateur effectue la réception avec l’**Opération entrante** dans le PDV, si l’utilisateur scanne ou saisit un code-barres de produit ou un numéro de produit qui n’est pas reconnu comme un article de la commande fournisseur en cours, mais est reconnu comme un article valide, l’utilisateur reçoit un message concernant l’ajout de l’article à la commande fournisseur. Si l’utilisateur ajoute l’article à la commande fournisseur, la quantité saisie dans **Recevoir maintenant** est considérée comme la quantité commandée pour la ligne de commande fournisseur.
+Lorsqu’un utilisateur reçoit avec l' **Opération entrante** dans le PDV, si l’utilisateur scanne ou saisit un code-barres de produit ou un numéro de produit qui est reconnu comme un article valide mais n'est pas reconnu comme un article de la commande fournisseur en cours, l’utilisateur reçoit un message l'invitant à ajouter l’article à la commande fournisseur. Si l’utilisateur ajoute l’article à la commande fournisseur, la quantité saisie dans **Recevoir maintenant** est considérée comme la quantité commandée pour la ligne de commande fournisseur.
 
 Lorsque la réception de la commande fournisseur est terminée et soumise au siège pour traitement, les lignes ajoutées sont créées sur le document principal de la commande fournisseur. Sur la ligne de la commande fournisseur au siège, il y aura un indicateur **Ajouté par le PDV** sur l’onglet **Général** de la de la ligne de la commande fournisseur. L’indicateur **Ajouté par le PDV** indique que la ligne de la commande fournisseur a été ajoutée par le processus de réception du PDV et n’était pas une ligne qui figurait sur la commande fournisseur avant la réception.
 

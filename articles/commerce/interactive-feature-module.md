@@ -1,39 +1,39 @@
 ---
-title: Module de fonctions interactives
-description: Cet article couvre les modules de fonctionnalités interactives et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+title: Module de caractéristiques interactives
+description: Cet article couvre les modules de caractéristiques interactives et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: deee7c35cfc4293480fda74665429121b71bbfab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 7922ae892d75099ca22df55a7237cf57cfa45cc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898517"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284712"
 ---
-# <a name="interactive-feature-module"></a>Module de fonctions interactives
+# <a name="interactive-feature-module"></a>Module de caractéristiques interactives
 
 [!include [banner](includes/banner.md)]
 
-Cet article couvre les modules de fonctionnalités interactives et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cet article couvre les modules de caractéristiques interactives et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
-Les modules de fonctionnalités interactives sont de type mosaïque et peuvent être utilisés pour commercialiser plusieurs catégories de produits ou marques de produits en utilisant une combinaison d’images et de texte. Par exemple, un détaillant peut ajouter un module de fonctionnalité interactive à la page d’accueil d’un site de commerce électronique pour promouvoir les catégories les plus vendues. Le module de fonction interactive ressemble au module de liste de vignettes, mais il a une disposition différente et des fonctionnalités d’interaction différentes.
+Les modules de caractéristiques interactives sont de type mosaïque et peuvent être utilisés pour commercialiser plusieurs catégories de produits ou marques de produits en utilisant une combinaison d’images et de texte. Par exemple, un détaillant peut ajouter un module de caractéristique interactive à la page d’accueil d’un site de commerce électronique pour promouvoir les catégories les plus vendues. Le module de caractéristique interactive ressemble au module de liste de vignettes, mais il a une disposition différente et des fonctionnalités d’interaction différentes.
 
-Chaque module de fonction interactive est une collection de modules d’éléments de fonctionnalités interactives. Chaque module d’élément de fonctionnalité dépend des données du système de gestion de contenu (CMS). Il ne dépend d’aucun autre module ou donnée du siège de Commerce. Le module de fonctionnalités interactives peut être ajouté à n’importe quelle page de site où un détaillant souhaite lancer sur le marché ou promouvoir un événement (par exemple les produits, les catégories ou les marques).
+Chaque module de caractéristique interactive est une collection de modules d’éléments de caractéristiques interactives. Chaque module d’élément de caractéristique dépend des données du système de gestion de contenu (CMS). Il ne dépend d’aucun autre module ou donnée du siège de Commerce. Le module de caractéristiques interactives peut être ajouté à n’importe quelle page de site où un détaillant souhaite lancer sur le marché ou promouvoir un événement (par exemple les produits, les catégories ou les marques).
 
 > [!IMPORTANT]
-> - Le module de fonctionnalités interactives est disponible à partir de la version 10.0.20 de Dynamics 365 Commerce.
+> - Le module de caractéristiques interactives est disponible à partir de la version 10.0.20 de Dynamics 365 Commerce.
 > - Le module de fonctionnalités interactives est présenté dans le thème Adventure Works.
 
 L’illustration suivante montre un exemple de module de fonctionnalités interactives sur la page d’accueil Adventure Works.

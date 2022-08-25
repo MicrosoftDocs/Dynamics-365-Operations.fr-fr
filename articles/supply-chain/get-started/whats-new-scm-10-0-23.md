@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124526"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219122"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.23 (janvier 2022)
 
@@ -55,7 +55,7 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 | Gestion des entrepôts et des stocks | (Russie) Utiliser les traductions dans la langue locale dans les écrans principaux spécifiques au pays ou à la région dans Gestion des stocks | Pour les localisations en russe de Supply Chain Management, cette fonctionnalité permet l’utilisation de traductions en russe pour les noms de produits/articles et les unités de mesure dans les impressions de stock spécifiques au russe suivantes : liste de comptage (INV-3), liste de comptage (INV-5), et Liste de comptage (INV-6). |
 | Planification générale | Azure Machine Learning Service pour les prévisions de demande | Cette fonctionnalité permet à Azure Machine Learning Service de générer les prévisions de la demande basées sur des données historiques. Pour plus d’informations, voir [Paramétrage de la prévision de la demande](../master-planning/demand-forecasting-setup.md). |
 | Approvisionnements | Nettoyer l’historique des mises à jour des commandes fournisseur | Cette fonctionnalité vous permet de nettoyer les enregistrements historiques temporaires liés aux mises à jour des bons de commande. Il ajoute un nouveau bouton appelé **Nettoyer l’historique des mises à jour des achats** au volet Actions sur la page **Tous les bons de commande**. Cette fonctionnalité est activée par défaut. |
-| Contrôle de la production | (Version préliminaire) Prélèvement automatique des matières activées pour les entrepôts pour les prélèvements automatiquement validés | Cette fonction vous permet de sélectionner automatiquement et de résoudre les dimensions de stock pour les journaux des prélèvements automatiquement validés, dérivés. |
+| Contrôle de la production | Prélèvement automatique des matières activées pour les entrepôts pour les prélèvements automatiquement validés | Cette fonction vous permet de sélectionner automatiquement et de résoudre les dimensions de stock pour les journaux des prélèvements automatiquement validés, dérivés. |
 | Contrôle de la production | Valider l’expiration des matières premières par rapport à la date de consommation prévue | Cette fonctionnalité modifie la manière dont les dates d’expiration des lots sont validées lors de la réservation d’un lot de matières premières à utiliser pendant la production. Lorsque cette fonctionnalité est activée, la date d’expiration du lot est validée par rapport à la date de consommation planifiée (la date de la matière première), telle qu’établie sur la ligne de nomenclature de production ou la ligne de formule de commande de lot. Lorsque cette fonctionnalité est désactivée, la date d’expiration du lot est validée par rapport à la date de livraison prévue de la production ou de la commande de lot (comme précédemment). |
 | Ventes et marketing | Nettoyer l’historique des mises à jour de ventes selon l’âge | Cette fonctionnalité vous permet de définir l’âge maximum des enregistrements à conserver lors de l’exécution de la tâche périodique **Nettoyage de l’historique des mises à jour des ventes**. Les enregistrements plus anciens seront supprimés. Ceci est utile lorsque vous définissez la tâche pour qu’elle s’exécute périodiquement, car l’âge est toujours calculé par rapport à la date d’exécution de la tâche. Sans cette fonctionnalité, vous ne pouvez définir qu’une date spécifique pour les enregistrements les plus anciens à conserver. Pour plus d’informations, consultez [Planifier le nettoyage des données de l’historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventes et marketing | Améliorer les performances de l’état des « 100 principaux clients » | Cette fonction améliore les performances des rapports clients **Top 100** en exécutant toujours le rapport sur tous les clients (ce qui est son utilisation prévue) plutôt qu’en autorisant les requêtes personnalisées. Lorsque cette fonction est activée, tous les paramètres **Enregistrements à inclure** sont désactivés dans la boîte de dialogue du rapport **Top 100**. |

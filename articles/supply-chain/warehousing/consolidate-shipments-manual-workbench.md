@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888323"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218616"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolider les expéditions à l’aide de l’atelier de consolidation des expéditions
 
@@ -41,7 +41,7 @@ Avant de pouvoir utiliser la fonctionnalité *Consolidation manuelle des expédi
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Consolidation manuelle des expéditions*
 
-Comme mentionné dans [Configurer les stratégies de consolidation de l’expédition](configure-shipment-consolidation-policies.md), vous devez également activer la fonctionnalité *Consolider les expéditions* avant de pouvoir créer des stratégies. Cependant, vous devriez déjà avoir terminé cette étape.
+Vous devez également activer la fonctionnalité *Consolider l’expédition* pour pouvoir créer des stratégies. Pour plus d’informations, voir [Configurer des stratégies de regroupement des expéditions](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Créez les commandes client pour ce scénario
 

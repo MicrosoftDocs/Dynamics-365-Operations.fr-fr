@@ -2,21 +2,21 @@
 title: L’e-mail de bienvenue n’est pas envoyé lorsque de nouveaux clients sont créés
 description: Cet article fournit des conseils de dépannage qui peuvent vous aider si une notification par e-mail de bienvenue n’est pas envoyée lorsqu’un nouveau client est créé dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/24/2022
+ms.date: 08/01/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 8e95b33d4b8a9af13c613ab89dd33de6b4934694
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5aa7d864555f96194500989e2d7ad200d8892121
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853681"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219402"
 ---
-# <a name="welcome-email-is-not-sent-when-new-customers-are-created"></a>L’e-mail de bienvenue n’est pas envoyé lorsque de nouveaux clients sont créés
+# <a name="welcome-email-isnt-sent-when-new-customers-are-created"></a>L’e-mail de bienvenue n’est pas envoyé lorsque de nouveaux clients sont créés
 
 [!include [banner](../../includes/banner.md)]
 
@@ -28,13 +28,15 @@ Lorsqu’un nouveau client est créé dans Commerce Headquarters, un e-mail de 
 
 ## <a name="resolution"></a>Résolution
 
-### <a name="set-the-correct-email-id-value-for-the-customer-created-email-notification-type"></a>Définir la valeur d’identifiant de messagerie correcte pour le type de notification par e-mail créé par le client
+### <a name="associate-an-email-notification-profile-under-commerce-parameters"></a>Associez un profil de notification par e-mail sous les paramètres Commerce
 
-Pour définir la valeur **Identifiant de messagerie** exacte pour le type de notification par e-mail **Client créé** dans Headquarters, procédez comme suit.
+1. Dans Headquarters, accédez à **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres commerciaux \> Général**.
+2. Dans la liste déroulante **Profil de notification par e-mail**, sélectionnez le profil de notification par e-mail contenant un mappage entre le type de notification créé par le client et un modèle d’e-mail créé par le client.  
 
-1. Accédez à **Retail et Commerce \> Configuration de Headquarters \> Profil de notification par e-mail Commerce**.
-1. Dans le volet de navigation de gauche, sélectionnez le profil de notification par e-mail.
-1. Sous **Paramètres des notifications d’événements Retail**, pour le type de notification par e-mail **Client créé**, définissez le champ **Identifiant de messagerie** sur **NewCust**.
+> [!NOTE] 
+> Lorsque vous activez les notifications créées par le client, les clients créés dans tous les canaux de l’entité juridique recevront un e-mail créé par le client. Actuellement, les notifications créées par les clients ne peuvent pas être limitées à un seul canal.
+
+Pour plus d’informations, voir [Créer des modèles d’e-mail pour les événements transactionnels](../email-templates-transactions.md). 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

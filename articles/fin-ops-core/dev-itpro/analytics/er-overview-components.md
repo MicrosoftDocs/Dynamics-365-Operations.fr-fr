@@ -1,26 +1,26 @@
 ---
 title: Composants des états électroniques
 description: Cet article décrit les composants Gestion des états électroniques (ER).
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892448"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285029"
 ---
 # <a name="electronic-reporting-components"></a>Composants des états électroniques
 
@@ -113,7 +113,7 @@ Pour exécuter une configuration simple de format de génération d’états él
 
 Le contrôle de versions est pris en charge pour les composants d’états électroniques. Le workflow suivant est fourni pour gérer et sauvegarder les modifications dans les composants d’états électroniques :
 
-1. La version qui est créée est marquée comme étant une version en mode **Brouillon**. Cette version peut être modifiée et est disponible pour des séries de tests.
+1. La version qui a été créée est marquée comme étant une version en mode **Brouillon**. Cette version peut être modifiée et est disponible pour des séries de tests.
 2. La version **Brouillon** peut être convertie en une version **Terminée**. Cette version peut être utilisée dans les processus de création d’états locaux.
 3. La version **Terminée** peut être convertie en une version **Partagée**. Cette version est publiée dans Microsoft Dynamics Lifecycle Services (LCS) et peut être utilisée dans le processus de création de rapports globaux.
 4. La version **Partagée** peut être convertie en une version **Interrompue**. Cette version peut être supprimée.
@@ -123,15 +123,37 @@ Les versions dotées du statut **Terminée** ou **Partagée** sont disponibles p
 - Le composant peut être sérialisé au format XML et exporté vers un fichier au format XML.
 - Le composant peut être resérialisé à partir d’un fichier XML et importé dans l’application sous la forme d’une nouvelle version d’un composant d’état électronique.
 
+Pour plus d’informations, voir [Importer une nouvelle configuration de modèle de données](er-quick-start1-new-solution.md#ImportDataModel) et [Exporter la version terminée d’un format dérivé](er-calculated-field-type.md#export-completed-version-of-a-derived-format).
+
+### <a name="draft-versions-at-runtime"></a>Versions brouillon au moment de l’exécution
+
+Dans vos paramètres utilisateur personnels pour l’infrastructure ER, vous pouvez activer l’option qui vous permet de spécifier si la version brouillon d’une configuration ER doit être utilisée lors de l’exécution. Pour savoir comment rendre l’option **Exécuter le brouillon** disponible pour vos configurations ER, voir [Marquer un format personnalisé comme exécutable](er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+> [!NOTE]
+> Les paramètres d’utilisateur ER sont spécifiques à l’utilisateur et à l’entreprise.
+
+### <a name="draft-format-versions-at-runtime"></a>Versions de format brouillon au moment de l’exécution
+
+Par défaut, lorsque vous exécutez une solution ER, les versions brouillon de ses composants de format sont ignorées. Au lieu de cela, seule la version pertinente qui a un statut autre que **Brouillon** est utilisée. Parfois, vous souhaiterez peut-être forcer ER à utiliser la version brouillon de votre configuration de format ER lors de l’exécution. Par exemple, après avoir introduit les modifications nécessaires dans votre version brouillon, vous pouvez utiliser cette version brouillon pour effectuer le test. De cette façon, vous pouvez valider l’exactitude de vos modifications. Pour commencer à utiliser la version au format préliminaire, vous devez [définir](er-quick-start2-customize-report.md#MarkFormatRunnable) l’option **Exécuter le brouillon** de la configuration ER pertinente sur **Oui**.
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Versions de mappage de modèle Brouillon lors de l’exécution
+
+Par défaut, lorsque vous exécutez une solution ER, les versions brouillon de ses composants de mappage des modèles sont ignorées. Parfois, vous souhaiterez peut-être forcer ER à ignorer la version brouillon de votre configuration de mappage de modèle ER lors de l’exécution. Dans la **version 10.0.29 et ultérieures**, vous pouvez activer l’option **Tenir toujours compte de l’option « Exécuter le brouillon » pour les mappages de modèles ER** afin de contrôler la version de mappage de modèle utilisée lors de l’exécution. Lorsque cette fonctionnalité est activée, le comportement suivant se produit :
+
+- Quand l’option **Exécuter le brouillon** est définie sur **Non** pour une configuration de mappage de modèle, la version non brouillon la plus élevée de cette configuration est utilisée lors de l’exécution. Une exception est levée si la configuration n’est pas disponible dans l’instance Finance actuelle.
+- Quand l’option **Exécuter le brouillon** est définie sur **Oui** pour une configuration de mappage de modèle, la version brouillon de cette configuration est utilisée lors de l’exécution.
+
 ## <a name="component-date-effectivity"></a>Validité de date du composant
 
-Les versions du composant d’état électronique est soumis à une date d’effet. Vous pouvez définir la date "Prend effet le" pour un composant d’état électronique afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d’états. La date de session de l’application permet de définir si un composant est valide pour l’exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d’états.
+Les versions du composant de format ER ont une date d’effet. Vous pouvez définir la date "Prend effet le" pour un composant de format ER afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d’états. La date de session de l’application permet de définir si un composant est valide pour l’exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d’états.
 
 ## <a name="component-access"></a>Accès au composant
 
-L’accès aux composants au format ER dépend du réglage du code de pays/région de l’Organisation internationale de normalisation (ISO). Lorsque ce paramètre est vide pour une version sélectionnée d’une configuration de format, un composant de format est accessible à partir de n’importe quelle société au moment de l’exécution. Lorsqu’il contient des codes pays/région ISO, un composant de format est disponible uniquement à partir des sociétés dont l’adresse principale est défini pour l’un des codes pays/régions ISO du composant de format.
+L’accès aux composants au format ER et à ceux de mappage des modèles lors de l’exécution dépend du réglage du code de pays/région de l’Organisation internationale de normalisation (ISO). Lorsque ce paramètre est vide pour une version sélectionnée d’une configuration de format ou de mappage de modèle, un composant de format ou de mappage de modèle est accessible à partir de n’importe quelle société au moment de l’exécution. Lorsqu’il contient des codes pays/région ISO, un composant de format ou de modèle de mappage est disponible uniquement à partir des sociétés dont l’adresse principale est défini pour l’un des codes pays/régions ISO du composant de format.
 
-Différentes versions d’un composant de format de données peuvent avoir différents paramètres de codes pays/région ISO.
+Différentes versions d’un composant de format ou de mappage de modèle peuvent avoir différents paramètres de codes pays/région ISO.
+
+Pour en savoir plus, configurez [Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays](er-country-dependent-model-mapping.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

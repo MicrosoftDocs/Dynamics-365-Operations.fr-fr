@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881850"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276371"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Vue d’ensemble de la page d’arrivée de catégories et de la page des résultats de la recherche par défaut
 
@@ -46,6 +46,12 @@ Les composants suivants sont essentiels pour une catégorie :
     - Nom du produit – \[Z à A\]
     - Classements – du plus bas au plus élevé
     - Classements – du plus élevé au plus bas
+
+- Les **Options de tri avancées** sont utilisés par les visiteurs de site web pour trier les produits à l’aide de critères intelligents. En activant [Recommandations de produit](product-recommendations.md), les options de tri suivantes sont disponibles. Pour plus d’informations, reportez-vous à l’article [Types de recommandations de produits](product-recommendations.md#types-of-product-recommendations).
+
+    - Nouveau
+    - Meilleures ventes
+    - Tendances
 
 - La **Pagination** permet aux visiteurs de site web se déplacer d’une page de résultats de produit catégorisé à une autre page.
 - Le **Nombre total** fournit le nombre total de produits définis dans une catégorie.
@@ -78,7 +84,7 @@ Les composants suivants sont essentiels pour une page de résultats de recherche
 
 - Les **Vignettes de placement de produit** affiche les produits pour la recherche d’utilisateur. Par défaut, ces vignettes sont triées par le score de pertinence de la recherche optimisée par le cloud pour la recherche d’utilisateur.
 - **Raffineurs et synthèse des choix** sont des filtres qui fournissent des nombres et qui peuvent être utilisés pour affiner les articles. Le responsable de la promotion des ventes les configure dans le cadre de la configuration des métadonnées des « catégories de canaux et aux attributs de produit ».
-- Les **Options de tri** sont utilisés par les visiteurs de site web pour trier les produits. Par défaut, les options de tri suivantes sont disponibles :
+- Les **Options de tri standard** sont utilisés par les visiteurs de site web pour trier les produits. Par défaut, les options de tri suivantes sont disponibles :
 
     - Prix – du plus bas au plus élevé
     - Prix – du plus élevé au plus bas
@@ -86,7 +92,16 @@ Les composants suivants sont essentiels pour une page de résultats de recherche
     - Nom du produit – \[Z à A\]
     - Classements – du plus bas au plus élevé
     - Classements – du plus élevé au plus bas
-    - Par défaut
+    - Par défaut 
+    
+    > [!NOTE]
+    > Si les valeurs **Ordre d’affichage** sont définies pour les produits dans la hiérarchie de navigation, le tri par défaut sur une page catégorie respecte les valeurs définies dans **Ordre d’affichage**. Dans le cas contraire, le tri sera fera par **Numéro de produit**.)
+    
+- Les **Options de tri avancées** sont utilisés par les visiteurs de site web pour trier les produits à l’aide de critères intelligents. En activant [Recommandations de produit](product-recommendations.md), les options de tri suivantes sont disponibles. Pour plus d’informations, reportez-vous à l’article [Types de recommandations de produits](product-recommendations.md#types-of-product-recommendations).
+
+    - Nouveau
+    - Meilleures ventes
+    - Tendances
 
 - La **Pagination** permet aux visiteurs de site web se déplacer d’une page de résultats de produit catégorisé à une autre page.
 - Le **Nombre total** fournit le nombre total de produits définis dans une catégorie et qui correspondent aux critères de recherche.
@@ -94,6 +109,8 @@ Les composants suivants sont essentiels pour une page de résultats de recherche
 >[!NOTE]
 >Ces fonctionnalités de recherche dans le cloud sont disponibles à partir de la version 10.0.8. Assurez-vous que sous **Paramètres Commerce > Paramètres de configuration**, il existe une entrée pour « ProductSearch.UseAzureSearch » définie sur « true ». 
 ![Paramètres de configuration pour la recherche dans le cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>De plus, pour utiliser les options de tri avancées telles que les nouveautés, les meilleures ventes et les tendances, vous devez activer les [Recommandations de produits](product-recommendations.md) pour votre environnement. Les options de tri avancées sont disponibles avec Commerce SDK version 9.35+ et Commerce version 10.0.20.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

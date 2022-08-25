@@ -1,25 +1,25 @@
 ---
 title: Configurer un environnement de bac à sable dans Dynamics 365 Commerce
 description: Cet article explique comment configurer un environnement de bac à sable Microsoft Dynamics 365 Commerce après sa mise en service.
-author: psimolin
+author: josaw1
 ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
-ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: ae6a8c63721ac32f525e1846a10c0b2caeb08f9f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013107"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270344"
 ---
 # <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Configurer un environnement de bac à sable dans Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ Une fois que votre environnement de bac à sable Commerce a été mis en service
 1. Sélectionnez votre environnement dans la liste.
 1. Dans les informations de l’environnement à droite, cliquez sur **Se connecter à l’environnement**. Vous êtes alors dirigé vers le siège de Commerce.
 1. Assurez-vous que l’entité juridique **USRT** est sélectionnée dans l’angle supérieur droit. Cette entité légale a été préconfigurée dans les données de démonstration.
-1. Accédez à **Paramètres Commerce \> Paramètres de configuration** et assurez-vous qu'il existe une entrée pour **ProductSearch.UseAzureSearch** et que la valeur est définie sur **true**. Si cette entrée est manquante, ajoutez-la et définissez la valeur sur **true**.
+1. Accédez à **Paramètres Commerce \> Paramètres de configuration** et assurez-vous qu’il existe une entrée pour **ProductSearch.UseAzureSearch** et que la valeur est définie sur **true**. Si cette entrée est manquante, ajoutez-la et définissez la valeur sur **true**.
 1. Accédez à **Retail et Commerce \> Configuration du siège \> Planificateur de commerce \> Initialiser le planificateur de Commerce**. Dans le menu volant **Initialiser le planificateur Commerce**, définissez l’option **Supprimer la configuration existante** sur **Oui**, puis cliquez sur **OK**.
 1. Pour que les canaux de magasin et de commerce électronique fonctionnent correctement, ils doivent être ajoutés à Commerce Scale Unit. Accédez à **Retail et Commerce \> Configuration de Headquarters \> Planificateur commercial \> Base de données des canaux**, puis dans le volet gauche, sélectionnez Commerce Scale Unit. Dans le raccourci **Canal de vente au détail**, ajoutez les canaux **Boutique en ligne AW**, **Boutique en ligne AW Business** et **Boutique en ligne étendue Fabrikam** si vous prévoyez d’utiliser ces canaux de commerce électronique. En option, vous pouvez également ajouter des magasins de détail si vous utilisez un point de vente (PDV) (par exemple, **Seattle**, **San Fransisco** et/ou **San José**).
 1. Pour vous assurer que toutes les modifications sont synchronisées avec la base de données des canaux, sélectionnez **Base de données des chaînes \> Synchronisation complète des données** pour Commerce Scale Unit.
@@ -156,15 +156,15 @@ Pour permettre aux utilisateurs de commerce électronique de se connecter au sit
 
 ### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>La liste des canaux du générateur de site est vide lors de la configuration du site
 
-Si le générateur du site n'affiche aucun canal de boutique en ligne, au siège social, assurez-vous que les canaux ont été ajoutés à l'unité Commerce Scale Unit, comme décrit dans la section [Avant de commencer](#before-you-start) ci-dessus. De plus, exécutez **Initialiser le planificateur de commerce** avec la valeur **Supprimer la configuration existante** définie sur **Oui**.  Une fois ces étapes terminées, sur la page **Base de données des canaux** (**Retail et Commerce \> Configuration de Headquarters \> Planificateur commercial \> Base de données des canaux**), exécutez la tâche **9999** sur Commerce Scale Unit.
+Si le générateur du site n’affiche aucun canal de boutique en ligne, au siège social, assurez-vous que les canaux ont été ajoutés à l’unité Commerce Scale Unit, comme décrit dans la section [Avant de commencer](#before-you-start) ci-dessus. De plus, exécutez **Initialiser le planificateur de commerce** avec la valeur **Supprimer la configuration existante** définie sur **Oui**.  Une fois ces étapes terminées, sur la page **Base de données des canaux** (**Retail et Commerce \> Configuration de Headquarters \> Planificateur commercial \> Base de données des canaux**), exécutez la tâche **9999** sur Commerce Scale Unit.
 
-### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Les échantillons de couleurs ne s'affichent pas sur la page de catégorie, mais s'affichent sur la page de détails du produit (PDP)
+### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Les échantillons de couleurs ne s’affichent pas sur la page de catégorie, mais s’affichent sur la page de détails du produit (PDP)
 
 Suivez ces étapes pour vous assurer que les échantillons de couleur et de taille sont définis pour être affinables.
 
 1. Dans Headquarters, accédez à **Retail et Commerce \> Paramétrage du canal \> Catégories de canal et attributs de produit**.
-1. Dans le volet de gauche, sélectionnez le canal de la boutique en ligne, puis sélectionnez **Définir les métadonnées d'attribut**.
-1. Définissez l'option **Afficher l'attribut sur le canal** sur **Oui**, définissez l'option **Peut être affiné** sur **Oui**, puis sélectionnez **Enregistrer**. 
+1. Dans le volet de gauche, sélectionnez le canal de la boutique en ligne, puis sélectionnez **Définir les métadonnées d’attribut**.
+1. Définissez l’option **Afficher l’attribut sur le canal** sur **Oui**, définissez l’option **Peut être affiné** sur **Oui**, puis sélectionnez **Enregistrer**. 
 1. Revenez à la page de canal de la boutique en ligne, puis sélectionnez **Publier les mises à jour du canal**.
 1. Accédez à **Retail et Commerce \> Configuration de Headquarters \> Planificateur commercial \> Base de données des canaux** et exécutez la taĉhe **9999** sur Commerce Scale Unit.
 
@@ -172,7 +172,7 @@ Suivez ces étapes pour vous assurer que les échantillons de couleur et de tail
 
 Au siège social, assurez-vous que le canal de la boutique en ligne est configuré avec le **Type de client** défini sur **B2B**. Si le **Type de client** est paramétré sur **B2C**, un nouveau canal doit être créé car le canal existant ne peut pas être modifié. 
 
-Les données de démonstration fournies dans Commerce version 10.0.26 et les versions antérieures présentaient un bug où le canal **Boutique en ligne AW Business** a été mal configuré. La solution consiste à créer un nouveau canal avec les mêmes paramètres et configurations, à l'exception de **Type de client**, qui doit être paramétré sur **B2B**.
+Les données de démonstration fournies dans Commerce version 10.0.26 et les versions antérieures présentaient un bug où le canal **Boutique en ligne AW Business** a été mal configuré. La solution consiste à créer un nouveau canal avec les mêmes paramètres et configurations, à l’exception de **Type de client**, qui doit être paramétré sur **B2B**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

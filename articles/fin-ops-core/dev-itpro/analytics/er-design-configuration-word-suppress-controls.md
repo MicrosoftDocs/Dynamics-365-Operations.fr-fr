@@ -1,24 +1,26 @@
 ---
 title: Supprimer les contrôles de contenu Word dans les états générés
 description: Cet article explique comment configurer un format d’état électronique (ER) pour générer des états en tant que fichiers Microsoft Word dans lesquels les contrôles de contenu sont supprimés.
-author: NickSelin
+author: kfend
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: 8787d43a0c453d49dd1d0efcbb7b5d276721be9e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882111"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267312"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Supprimer les contrôles de contenu Word dans les rapports générés
 
@@ -42,7 +44,7 @@ Pour réaliser ces étapes, vous devez d’abord effectuer les étapes des guide
 Lorsque vous avez terminé les étapes de ces guides de tâches, les éléments suivants sont préparés :
 
 - Un format ER **Exemple d’état sur les feuilles de calcul** configuré pour générer un document au format Word
-- Une version [Brouillon](general-electronic-reporting.md#component-versioning) du format ER **Exemple d’état sur les feuilles de calcul** marqué comme **Exécutable**
+- Une version brouillon du format ER **Rapport d’état sur les feuilles de calcul** marqué comme **Exécutable**
 - Un mode de paiement **Électronique** configuré pour utiliser le format ER **Exemple d’état sur les feuilles de calcul** pour le traitement des paiements fournisseur
 
 Vous devez également télécharger et enregistrer le modèle suivant pour l’exemple d’état :

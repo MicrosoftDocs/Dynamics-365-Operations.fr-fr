@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d2ac2bcf4324f2386c97fbf264c076062e6f304c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: d58d3957749fa961b7be164a0a474ac90a23321f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852743"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281506"
 ---
 # <a name="navigation-menu-module"></a>Module du menu de navigation
 
@@ -37,20 +37,20 @@ L’illustration suivante montre un exemple de menu de navigation pour le site F
 
 ## <a name="navigation-menu-module-properties"></a>Propriétés du module Menu de navigation
 
-| Nom de la propriété             | Valeur                  | Description  |
+| Nom de la propriété             | Valeur                 | Description |
 |---------------------------|-----------------------|-------------|
-| Source                  | **Vente au détail**, **Création manuelle**, **Vente au détail et création manuelle** | La valeur **Vente au détail** permet d’afficher la hiérarchie de navigation des canaux depuis le siège Commerce dans le menu de navigation. La valeur **Création manuelle** permet aux éléments de menu statiques d’être organisés. La valeur **Vente au détail et création manuelle** permet un mélange des deux. |
-| Afficher les images des catégories | **Vrai** ou **Faux**    | Lorsqu’elle est activée, cette propriété affiche les images de catégorie dans le menu de navigation, telles que définies dans le siège Commerce pour chaque catégorie. Ajouté dans la version 10.0.14 de Commerce. |
+| Source                  | **Vente au détail**, **Création manuelle**, **Vente au détail et création manuelle** | La valeur **Vente au détail** permet d’afficher la hiérarchie de navigation des canaux depuis Commerce headquarters dans le menu de navigation. La valeur **Création manuelle** permet aux éléments de menu statiques d’être organisés. La valeur **Vente au détail et création manuelle** permet un mélange des deux. |
+| Afficher les images des catégories | **Vrai** ou **Faux**    | Lorsqu’elle est activée, cette propriété affiche les images de catégorie dans le menu de navigation, telles que définies dans le Commerce headquarters pour chaque catégorie. Ajouté dans la version 10.0.14 de Commerce. |
 | Afficher les images promotionnelles | **Vrai** ou **Faux** | Lorsque cette propriété est activée, les promotions peuvent être configurées à l’aide d’images, de liens et de texte. Cette propriété a été ajoutée dans la version 10.0.17 de Commerce. |
 |Ajouter le contenu promotionnel de la catégorie | Texte, image ou lien | Quand la propriété **Afficher les images promotionnelles** est activée, vous pouvez ajouter du texte, une image ou un lien comme contenu promotionnel dans le menu de navigation. |
-| Activer le menu de navigation à plusieurs niveaux | **Vrai** ou **Faux** | Lorsque cette propriété est activée, le menu de navigation peut afficher plusieurs niveaux de la hiérarchie de navigation. Cette fonctionnalité est disponible dans la version 10.0.15 et ultérieure de Commerce. |
-| Nombre de niveaux | entier | Cette propriété définit le nombre de niveaux à afficher si la propriété **Activer le menu de navigation à plusieurs niveaux** est définie sur **True**. |
+| Activer le menu de navigation à plusieurs niveaux | **Vrai** ou **Faux** | Lorsque cette propriété est activée, le menu de navigation peut afficher plusieurs niveaux de la hiérarchie de navigation. Cette fonctionnalité est disponible dans la version 10.0.15 de Commerce. |
+| Nombre de niveaux | entier | Cette propriété définit le nombre de niveaux à afficher si la propriété **Activer le menu de navigation à plusieurs niveaux** est définie sur **Vrai**. |
 | Élément de menu statique| Tableau de valeurs| Éléments de menu statiques qui associent un nom d’élément de menu à un lien vers une page de site statique. Vous pouvez créer des éléments de menu sous d’autres éléments de menu. Par défaut, les menus statiques apparaissent au niveau racine et seront ajoutés à la hiérarchie de navigation des canaux si elle existe. |
 | Afficher le menu racine | **Vrai** ou **Faux** | Lorsque cette propriété est activée, le menu de navigation peut être défini sous une racine personnalisée (par exemple, **Acheter maintenant**). Cette fonction est disponible dans Dynamics 365 Commerce version 10.0.15. |
-| Menu racine | chaîne | Cette propriété peut être utilisée pour définir le texte d’une racine personnalisée si la propriété **Afficher le menu racine** est définie sur **True**. |
+| Menu racine | chaîne | Cette propriété peut être utilisée pour définir le texte d’une racine personnalisée si la propriété **Afficher le menu racine** est définie sur **Vrai**. |
 
 L’illustration suivante montre un exemple d’image de catégorie affichée dans le menu de navigation du site Fabrikam.
-![Exemple de module de navigation avec images de catégories.](./media/ecommerce-categoryimages.PNG)
+![Exemple de module de menu de navigation avec images de catégories.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Ajouter un module de menu de navigation à un module d’en-tête
 
@@ -60,11 +60,11 @@ Pour plus d’informations sur l’ajout d’un module de menu de navigation à 
 
 [Vue d’ensemble de la bibliothèque de modules](starter-kit-overview.md)
 
-[Module de barre de navigation](add-breadcrumb.md)
+[Module Fil de navigation](add-breadcrumb.md)
 
-[Module de sélection de site](site-selector.md)
+[Module de sélecteur de site](site-selector.md)
 
-[Module Zone d’achat](add-buy-box.md)
+[Module zone d’achat](add-buy-box.md)
 
 [Conformité des cookies](cookie-compliance.md)
 
