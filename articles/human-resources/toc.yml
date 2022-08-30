@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: "Nouveautés ou modifications dans Human\_Resources"
               items:
+                - name: "Human\_Resources\_10.0.29 (infrastructure fusionnée)"
+                  href: ./get-started/whats-new-changed-10-0-29.md
                 - name: "Human\_Resources\_10.0.28 (infrastructure fusionnée)"
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: "Human\_Resources\_10.0.27 (infrastructure fusionnée)"
@@ -604,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: Définir les paramètres de gestion des avantages et de libre-service des employés pour toutes les entreprises
                   href: hr-benefits-setup-parameters.md
+                - name: Configurer les droits d’administrateur pour les événements de vie
+                  href: admin-life-events.md
+                - name: Configurer les notifications par e-mail pour les avantages
+                  href: hr-email-notifications.md
                 - name: Configurer les règles et les options d’éligibilité
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: Configurer les options d’éligibilité des contacts personnels

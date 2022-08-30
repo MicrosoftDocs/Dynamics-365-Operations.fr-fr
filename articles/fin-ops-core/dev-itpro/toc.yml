@@ -14,6 +14,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
+                - name: "Mises à jour de la plateforme pour la version\_10.0.29 (octobre\_2022)"
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.28 (août\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.27 (juillet\_2022)"
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Activer la carte d’entité pour la double écriture
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Activer un délai d’expiration de session de cinq minutes pour les sessions de double écriture
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Package d’orchestration de l’application en double écriture séparée
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Migration de type de données de devise pour la double écriture

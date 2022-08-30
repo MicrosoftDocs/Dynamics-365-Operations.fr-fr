@@ -1,24 +1,24 @@
 ---
 title: Réaffectation de la prise en compte de revenu - Scénario 3
 description: Cet article décrit un scénario de réaffectation dans lequel une nouvelle ligne est ajoutée à une commande client existante, facturée. Lorsqu’un nouvel article est ajouté à un contrat, il peut être ajouté soit à une nouvelle commande client, soit à la commande client existante.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e76c077aa24813c9b6ac8c72db06b38cedaafd18
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904814"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348181"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Réaffectation de la prise en compte de revenu - Scénario 3
 

@@ -12,9 +12,11 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Finance
                   href: get-started/whats-new-home-page.md
-                - name: Finance 10.0.28 (août)
+                - name: "Finance\_10.0.29 (octobre)"
+                  href: get-started/whats-new-changed-10-0-29.md
+                - name: "Finance\_10.0.28 (août)"
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (juillet)
+                - name: "Finance\_10.0.27 (juillet)"
                   href: get-started/whats-new-changed-10-0-27.md
             - name: Fonctionnalités supprimées ou déconseillées
               items:
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Être informé sur les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Mises à jour qualité proactives
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Automatisation des tâches de données
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
                 - name: Fournir des solutions pour fournisseurs de logiciels indépendants à l’aide de One Version
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Afficher les entrées de journal ou les transactions
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Autoriser les modifications des données internes dans les documents de comptabilité
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Afficher un document intersociétés associé d’un journal
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Publier des lignes de journal et des documents à partir d’Excel
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Démarrage de la facturation électronique pour l’Égypte
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Démarrage de la facturation électronique pour la France
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Démarrage de la facturation électronique pour le Mexique
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Démarrage de la facturation électronique pour la Pologne
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Démarrage de la facturation électronique pour l’Arabie saoudite
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Intégration de la facturation électronique en Arabie saoudite
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Configurer l’intégration directe de FatturaPA italien avec SDI
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Utiliser le service de facturation électronique pour importer des factures fournisseurs
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: FAQ sur la facturation électronique
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Calcul de la taxe
@@ -1648,6 +1660,10 @@
                           items:
                             - name: Déclaration de TVA
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Génération d’états pour la Pologne
+                          items:
+                            - name: Déclaration de TVA
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Génération d’états pour l’Espagne
                           items:
                             - name: 'Fourniture immédiate d’informations sur la TVA (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calculer et ajuster la taxe sur une facture fournisseur
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Ajuster la taxe de vente via les journaux des opérations diverses
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Activer le calcul différé de la taxe dans le journal
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Créer un paiement de taxe
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Paramétrer la retenue à la source globale
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Activer la configuration du type de taux de change et du type de date de la devise de retenue à la source globale
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Retenue à la source dans les transactions d’achat
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Retenue à la source dans les transactions de vente
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: Déplacer des fichiers XML NF-e en tant que pièces jointes
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 - Mises à jour de la disposition et de la validation dans le document fiscal électronique (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 - Mises à jour de la disposition et de la validation dans le document fiscal électronique (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 - Plateforme numérique de vente intermédiaire pour NF-e
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Piste d’audit et journaux d’édition pour le logiciel de comptabilité
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Factures électroniques en Inde
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Taxes indirectes
                   items:
                     - name: GST pour l’Inde
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Utiliser un profil de stock dans les documents et les requêtes
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Dédouanement
+                      items:
+                        - name: Utiliser le dédouanement
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Génération d’états
                   items:
                     - name: Financial Reporting
@@ -3576,6 +3604,8 @@
                       href: localizations/rus-company-divisions.md
                     - name: Formats d’adresse russes et importation depuis FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: Importer à partir du registre d’adresses d’état (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: Reports
                   items:
                     - name: Configuration des reports
@@ -4059,7 +4089,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?context=/dynamics365/context/finance
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?context=/dynamics365/context/finance
-                        - name: ListeDistinct
+                        - name: ListDistinct
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?context=/dynamics365/context/finance
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?context=/dynamics365/context/finance
@@ -4069,6 +4099,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Split

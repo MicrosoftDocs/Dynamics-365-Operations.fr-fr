@@ -12,9 +12,11 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Commerce
                   href: get-started/whats-new-home-page.md
-                - name: "Commerce 10.0.28 (juillet\_2022)"
+                - name: "Commerce\_10.0.29 (octobre\_2022)"
+                  href: get-started/whats-new-commerce-10-0-29.md
+                - name: "Commerce\_10.0.28 (juillet\_2022)"
                   href: get-started/whats-new-commerce-10-0-28.md
-                - name: "Commerce 10.0.27 (juillet\_2022)"
+                - name: "Commerce\_10.0.27 (juillet\_2022)"
                   href: get-started/whats-new-commerce-10-0-27.md
             - name: Fonctionnalités supprimées ou déconseillées
               items:
@@ -60,6 +62,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Être informé sur les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Mises à jour qualité proactives
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Automatisation des tâches de données
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
                 - name: Fournir des solutions pour fournisseurs de logiciels indépendants à l’aide de One Version
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: Enregistreur de tâches et aide pour MPOS et Cloud POS
                       href: task-recorder-retail-pos.md
+                    - name: Configurer CPOS pour utiliser une application Azure AD personnalisée
+                      href: cpos-custom-aad.md
                     - name: Périphériques matériels
                       items:
                         - name: Périphériques
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Remises basées sur le mode de paiement
                   href: tender_based_discounts.md
-                - name: Vue d’ensemble des remises sur expédition
-                  href: retail-shipping-discount.md
+                - name: Remise sur expédition
+                  href: shipping-discount.md
                 - name: Configurer le cadeau avec les promotions d’achat
                   href: gift-with-purchase.md
                 - name: Paramétrer des coupons
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Retarder le calcul du prix exact et de la remise
                   href: delayed-price-calculation.md
+                - name: Fonctions de tarification dans le PDV
+                  href: pos-pricing-functions.md
+                - name: API de tarification Commerce
+                  href: pricing-apis.md
             - name: Recommandations
               items:
                 - name: Vue d’ensemble des recommandations produit
@@ -872,6 +882,8 @@
               href: async-customer-mode.md
             - name: Convertir des clients asynchrones en clients synchrones
               href: convert-async-to-sync.md
+            - name: FAQ sur le mode de création asynchrone de clients
+              href: async-customer-mode-faq.md
             - name: Gestion des clients
               items:
                 - name: Vue d’ensemble de la gestion des clients
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Module de visualisation rapide
                       href: quick-view-module.md
+                - name: Modules de comparaison de produits
+                  items:
+                    - name: Modules de comparaison de produits
+                      href: product-comparison-modules.md
                 - name: Modules de navigation
                   items:
                     - name: Module de barre de navigation
@@ -1272,6 +1288,10 @@
                   items:
                     - name: Module de consentement aux cookies
                       href: cookie-consent-module.md
+                - name: Modules de conversation instantanée
+                  items:
+                    - name: Module de conversation instantanée de Commerce
+                      href: commerce-chat-module.md
             - name: Rechercher
               items:
                 - name: Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche
@@ -1404,8 +1424,6 @@
               items:
                 - name: Exemple d’intégration du service d’enregistrement fiscal pour l’Autriche
                   href: localizations/emea-aut-fi-sample.md
-                - name: Instructions de déploiement de caisses enregistreuses pour l’Autriche
-                  href: localizations/emea-aut-deployment.md
                 - name: Exemples d’instructions de déploiement pour l’intégration fiscale pour l’Autriche (hérité)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brésil
@@ -1462,7 +1480,7 @@
                   href: localizations/emea-fra-fi-deployment.md
                 - name: Vérification de l’intégrité des données et des archives fiscales
                   href: localizations/emea-fra-fiscal-archive.md
-                - name: Migration depuis l’ancienne fonctionnalité pour la France
+                - name: Migrer depuis l’ancienne fonctionnalité pour la France
                   href: localizations/emea-fra-fi-migration.md
                 - name: Instructions de déploiement de caisses enregistreuses (héritées)
                   href: localizations/emea-fra-deployment.md
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Instructions de déploiement de caisses enregistreuses
                   href: localizations/emea-nor-fi-deployment.md
+                - name: Migrer depuis l’ancienne fonctionnalité pour la Norvège
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Instructions de déploiement de caisses enregistreuses (héritées)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Russie
@@ -1754,7 +1774,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?context=/dynamics365/context/commerce
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?context=/dynamics365/context/commerce
-                        - name: ListeDistinct
+                        - name: ListDistinct
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?context=/dynamics365/context/commerce
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?context=/dynamics365/context/commerce
@@ -1764,6 +1784,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Split
@@ -2482,7 +2504,7 @@
               items:
                 - name: Vue d’ensemble du kit de développement logiciel (SDK) Commerce
                   items:
-                    - name: Échantillons et packages de référence
+                    - name: Télécharger les exemples et les packages de référence du Kit de développement logiciel (SDK) Commerce
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Migration de l’ancien kit de développement logiciel (SDK) Retail
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
