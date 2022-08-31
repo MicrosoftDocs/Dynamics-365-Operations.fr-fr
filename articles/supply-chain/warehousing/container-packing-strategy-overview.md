@@ -2,7 +2,7 @@
 title: Stratégies de conditionnement en conteneurs
 description: Cet article décrit les différences entre les stratégies d’emballage dans des conteneurs et en donne des exemples.
 author: GalynaFedorova
-ms.date: 06/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a9a0066abaa76294faebcb15d5091ba36e8a60d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862364"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335763"
 ---
 # <a name="container-packing-strategies"></a>Stratégies de conditionnement en conteneurs
 
@@ -77,7 +77,7 @@ Ce scénario montre comment vous pouvez réduire le nombre de conteneurs évalu�
 
 #### <a name="turn-on-the-consolidate-shipments-feature-in-your-system"></a>Activer la fonction Regrouper les expéditions dans votre système
 
-Ce scénario utilise la fonctionnalité *Regrouper les expéditions*. Si cette fonctionnalité n’est pas déjà disponible dans votre système, vous devez l’activer en utilisant la [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Ce scénario utilise la fonctionnalité *Regrouper les expéditions*. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Consolider les expéditions* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 #### <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 

@@ -2,7 +2,7 @@
 title: Créer des ordres de transfert depuis l’application d’entrepôt
 description: Cet article décrit comment créer et traiter des ordres de transfert à partir de l’application mobile Gestion des entrepôts
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877448"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336453"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Créer des ordres de transfert depuis l’application d’entrepôt
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877448"
 
 Cette fonctionnalité permet aux magasiniers de créer et de traiter des ordres de transfert directement à partir de l’application mobile Gestion des entrepôts. Les magasiniers commencent par sélectionner l’entrepôt de destination et peuvent ensuite scanner un ou plusieurs contenants à l’aide de l’application afin d’ajouter des contenants à l’ordre de transfert. Lorsque le magasinier sélectionne **Terminer la commande**, un traitement par lots créera l’ordre de transfert requis et les lignes de commande en fonction du stock disponible enregistré pour ces contenants.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Activer ou désactiver cette fonctionnalité
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Activer cette fonctionnalité et ses prérequis
 
 Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer et activer les éléments requis sur votre système. Les administrateurs peuvent utiliser les paramètres de la page de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire.
 
 1. Activez les deux fonctionnalités suivantes dans l’espace de travail (respectivement) [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Depuis la version 10.0.25 de Supply Chain Management, ces deux fonctionnalités sont activées par défaut.
-    1. *Traiter les événements d’application d’entrepôt*
-    1. *Créer et traiter les ordres de transfert à partir de l’application d’entrepôt*
-1. Pour automatiser le traitement des expéditions sortantes, vous devez également activer la fonctionnalité [Confirmer les expéditions sortantes des traitements par lots](confirm-outbound-shipments-from-batch-jobs.md).
+    1. *Traiter les événements d’application d’entrepôt*<br>(Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée.)
+    1. *Créer et traiter les ordres de transfert à partir de l’application d’entrepôt*<br>(Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée.)
+1. Pour automatiser le traitement des expéditions sortantes, vous devez également activer la fonctionnalité [*Confirmer les expéditions sortantes des traitements par lots*](confirm-outbound-shipments-from-batch-jobs.md). Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée.
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Paramétrer une option de menu d’appareil mobile pour créer des ordres de transfert
 
@@ -307,11 +307,11 @@ Non, vous ne pouvez pas ajouter d’autres contenants à un ordre de transfert a
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Comment puis-je trouver des ordres de transfert existants à utiliser via le bouton « Sélectionner un ordre de transfert » dans l’application mobile Gestion des entrepôts, si la commande n’a pas encore été créée dans le système de back-end ?
 
-Actuellement, vous ne pouvez pas rechercher les ordres de transfert dans l’application, mais vous pouvez trouver les numéros d’ordre de transfert sur la page **Événements de l’application d’entreposage**. Pour plus d’informations, voir [Demander les événements de l’application d’entreposage](#inquire-the-warehouse-app-events).
+Vous pouvez permettre aux travailleurs de rechercher les numéros d’ordre de transfert dans Warehouse Management mobile app en utilisant sa fonctionnalité de [demande de données](warehouse-app-data-inquiry.md). Par exemple, vous pouvez créer un [détour](warehouse-app-detours.md) élément de menu de l’appareil mobile qui interroge les données affichées sur la page web client Web **Événements d’application de Warehouse** (`WHSMobileDeviceQueueMessageCollection`) comme étape de *Sélectionner la commande - MobileDeviceQueueMessageCollectionIdentifierId*. Le numéro de l’ordre de transfert correspond à la valeur indiquée dans le champ **Identifiant**. Voir aussi [Demander les événements de l'application Warehouse](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Puis-je sélectionner manuellement le numéro d’ordre de transfert à utiliser à partir de l’application mobile Gestion des entrepôts ?
 
-Seuls les numéros d’ordre de transfert générés automatiquement via des séquences de numéros sont pris en charge.
+Seuls les numéros d’ordre de transfert générés automatiquement via des séquences de numéros sont pris en charge. Voir aussi la réponse à la question précédente concernant la configuration du bouton **Sélectionner l’ordre de transfert**. Pour plus d’informations sur la recherche des numéros d’ordre de transfert, voir [Demander les événements de l’application Warehouse](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Traitement en arrière-plan
 

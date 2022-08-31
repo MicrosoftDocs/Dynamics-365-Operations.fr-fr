@@ -2,25 +2,29 @@
 title: Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour l’Autriche (héritées)
 description: Cet article fournit des lignes directrices pour le déploiement de l’exemple d’intégration fiscale pour l’Autriche à partir du Kit de développement logiciel de vente au détail (SDK) Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 203904f60888464a473cb2997652db497fba6f57
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f5f12dbd638c8228dbc63c1fae8f3dfffc7bfe9c
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276099"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313770"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour l’Autriche (héritées)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Cet article fournit des instructions pour le déploiement de l’exemple d’intégration de service d’enregistrement fiscal pour l’Autriche à partir du Kit de développement logiciel (SDK) Microsoft Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration du service d’enregistrement fiscal pour l’Autriche](emea-aut-fi-sample.md). 
+> [!IMPORTANT]
+> Vous devez suivre les instructions de cet article uniquement si vous utilisez Microsoft Dynamics 365 Commerce version 10.0.28 ou antérieure. A partir de la version 10.0.29 de Commerce, l’échantillon d’intégration du service d’enregistrement fiscal pour l’Autriche est disponible dans le SDK de Commerce. Pour plus d’informations, voir [Configurer les composants du canal](./emea-aut-fi-sample.md#configure-channel-components).
+
+Cet article fournit des instructions pour le déploiement de l’échantillon d’intégration de service d’enregistrement fiscal pour l’Autriche à partir du Kit de développement logiciel (SDK) Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration du service d’enregistrement fiscal pour l’Autriche](emea-aut-fi-sample.md). 
 
 L’échantillon d’intégration fiscale pour l’Autriche fait partie du Kit de développement logiciel (SDK) Retail. Pour en savoir plus sur la manière d’installer et d’utiliser le SDK, voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). L’exemple d’intégration fiscale se compose d’extensions pour Commerce Runtime (CRT), station matérielle et point de vente (PDV). Pour exécuter cet exemple, vous devez modifier et générer les projets CRT, station matérielle et PDV. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cet article. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Azure DevOps, où aucun fichier n’a encore été modifié.
 

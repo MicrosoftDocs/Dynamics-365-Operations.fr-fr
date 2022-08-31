@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4c8cd4e32880df771a4a72237d212e061f849ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848250"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336912"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurer les règles et les options d’éligibilité 
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Après avoir configuré les paramètres requis pour la gestion des avantages dans Microsoft , vous pouvez créer les règles d’admissibilité, les offres groupées, les périodes et les programmes que vous associez à vos régimes d’avantages.
 

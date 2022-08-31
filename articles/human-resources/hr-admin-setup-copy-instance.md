@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178531"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324258"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
@@ -47,13 +47,14 @@ Pour copier une instance, gardez à l’esprit les conseils suivants :
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Effets de la copie d’une base de données Human Resources
 
+> [!Note]
+> À partir d’août 2022, les Documents se trouvant dans Microsoft Azure Stockage Blob sont inclus lors de la copie d’un environnement de production vers un environnement bac à sable. Tous les documents et modèles joints seront copiés de l'environnement source à l'environnement cible.
+
 Les événements suivants se produisent lorsque vous copiez une base de données Human Resources :
 
 - Le processus de copie efface la base de données existante dans l’environnement cible. Une fois le processus de copie terminé, vous ne pouvez pas récupérer la base de données existante.
 
 - L’environnement cible ne sera pas disponible tant que le processus de copie n’est pas terminé.
-
-- Les documents dans le stockage Microsoft Azure Blob n’est pas copié d’un environnement à un autre. En conséquence, tous les documents et modèles joints ne seront pas copiés et resteront dans l’environnement source.
 
 - Tous les utilisateurs, à l’exception de ceux dotés du rôle de sécurité « Administrateur système » et d’autres comptes d’utilisateurs du service interne, seront indisponibles. L’utilisateur Admin peut supprimer les données avant que d’autres utilisateurs ne soient autorisés à réintégrer le système.
 

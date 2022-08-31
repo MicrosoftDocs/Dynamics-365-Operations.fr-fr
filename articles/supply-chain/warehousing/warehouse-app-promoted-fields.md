@@ -2,7 +2,7 @@
 title: Configurer les champs promus pour les étapes dans l’application mobile Warehouse Management
 description: Cet article décrit comment promouvoir et mettre en évidence des informations spécifiques pour toute étape des flux de tâches pour l’application mobile Warehouse Management.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218972"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336063"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Configurer les champs promus pour les étapes dans l’application mobile Warehouse Management
 
@@ -29,19 +29,12 @@ Cet article décrit comment promouvoir et mettre en évidence des informations s
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Activer les champs promus dans votre système
 
-Avant de pouvoir configurer des champs promus, vous devez effectuer la procédure suivante pour activer les fonctionnalités requises et générer les noms de champ requis dans l’application mobile Warehouse Management.
+Si vous exécutez la version 10.0.28 ou antérieure de Supply Chain Management, avant de pouvoir configurer des champs promus, vous devez effectuer la procédure suivante pour activer les fonctionnalités requises et générer les noms de champ requis dans l’application mobile Warehouse Management. Si vous exécutez Supply Chain Management version 10.0.29 ou ultérieure, les fonctionnalités sont obligatoires et ne peuvent pas être désactivées, vous pouvez donc ignorer cette procédure.
 
-1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
-1. Assurez-vous que la caractéristique *Instructions d’étape de l’application Warehouse* est activée pour votre système. À compter de la version 10.0.29 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md). Cette fonctionnalité est une condition préalable à la fonctionnalité *Champs promus par l’application d’entrepôt*.
-1. Activez la fonctionnalité qui est répertoriée de la manière suivante :
-
-    - **Module :** *Gestion des entrepôts*
-    - **Nom de la fonctionnalité :** *Champs promus par l’application d’entrepôt*
-
-    Cette fonctionnalité est la fonctionnalité décrite dans cet article.
-
-1. Mettez à jour les noms de champ dans l’application mobile Warehouse Management en accédant à **Warehouse Management \> Paramétrage \> Périphérique mobile \> Noms des champs d’application d’entrepôt** et en sélectionnant **Créer une configuration par défaut**. Pour plus d’informations, voir [Configurer les champs pour l’application mobile Gestion des entrepôts](configure-app-field-names-priorities-warehouse.md).
-1. Répétez l’étape précédente pour chaque entité juridique (société) où vous utilisez l’application mobile Warehouse Management.
+1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**. (Pour plus d’informations sur cette page, voir [Présentation de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
+1. Assurez-vous que la caractéristique *Instructions d’étape de l’application Warehouse* est activée pour votre système. Cette fonctionnalité est une condition préalable à la fonctionnalité *Champs promus par l’application d’entrepôt*. Depuis la version 10.0.29 de Supply Chain Management, elle est obligatoire et ne peut être désactivée. Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md).
+1. Assurez-vous que la caractéristique *Champs promus de l’application Warehouse* est activée pour votre système. Il s’agit de la fonctionnalité décrite dans cet article. Depuis la version 10.0.29 de Supply Chain Management, elle est obligatoire et ne peut être désactivée.
+1. Mettez à jour les noms de champ dans l’application mobile Warehouse Management en accédant à **Warehouse Management \> Paramétrage \> Périphérique mobile \> Noms des champs d’application d’entrepôt** et en sélectionnant **Créer une configuration par défaut**. Répétez cette étape pour chaque entité juridique (société) où vous utilisez le Warehouse Management mobile app. Pour plus d’informations, voir [Configurer les champs pour l’application mobile Gestion des entrepôts](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Configurer les champs promus à partir d’un remplacement spécifique au menu
 

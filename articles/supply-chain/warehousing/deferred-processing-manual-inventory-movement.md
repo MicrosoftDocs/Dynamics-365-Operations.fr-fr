@@ -2,7 +2,7 @@
 title: Traitement différé du mouvement manuel des stocks
 description: Cet article décrit comment utiliser le traitement différé du mouvement manuel des stocks dans Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 04/27/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9acacaddbde22d05d85ab9e11cd1d6de62337a6a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219806"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336393"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Traitement différé du mouvement manuel des stocks
 
@@ -32,10 +32,10 @@ Le traitement en arrière-plan est réalisé en utilisant la [Fonctionnalité Tr
 
 Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Vous devez les activer dans cet ordre :
 
-1. *Blocage des tâches à l’échelle de l’organisation*<br>(À partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
-1. *Traiter les événements d’application d’entrepôt*<br>Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. À compter de la version 10.0.29 de Supply Chain Management, cette caractéristique est obligatoire. Par conséquent, elle est activée par défaut et ne peut pas être désactivée à nouveau.)
-1. *Opérations put différées*
-1. *Traitement différé de l’opération manuelle de mouvement de stock*<br>(À partir de la version 10.0.25, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
+1. *Blocage des tâches à l’échelle de l’organisation*<br>Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut pas être désactivée.
+1. *Traiter les événements d’application d’entrepôt*<br>Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut pas être désactivée.)
+1. *Opérations put différées*<br>(Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut pas être désactivée.)
+1. *Traitement différé de l’opération manuelle de mouvement de stock*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut pas être désactivée.)
 
 ## <a name="configure-the-work-processing-policies"></a>Configurer les stratégies de traitement du travail
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1dab8d8bdace046f0f061713600fd1eab69e7c12
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219686"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335463"
 ---
 # <a name="system-directed-work-sequencing"></a>Classement des travaux dirigés par le système
 
@@ -35,7 +35,7 @@ Par conséquent, cette fonctionnalité permet d’optimiser davantage les proces
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>Activer la fonctionnalité de classement des travaux dirigés par le système à l’échelle de l’organisation
 
-Avant de pouvoir utiliser le classement des travaux dirigés par le système, la fonctionnalité doit être activée sur votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+Avant de pouvoir utiliser le classement des travaux dirigés par le système, la fonctionnalité doit être activée dans votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Classement des travaux dirigés par le système à l’échelle de l’organisation*

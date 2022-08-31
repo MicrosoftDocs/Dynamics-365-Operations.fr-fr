@@ -2,7 +2,7 @@
 title: Expédition de petits colis
 description: Cet article fournit des informations sur la fonctionnalité d’expédition de petits colis (SPS). Cette fonctionnalité permet à Microsoft Dynamics 365 Supply Chain Management d’envoyer des détails sur un conteneur emballé au transporteur, puis de recevoir une étiquette d’expédition, des frais d’expédition et un numéro de suivi de ce transporteur.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219716"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336153"
 ---
 # <a name="small-parcel-shipping"></a>Expédition de petits colis
 
@@ -34,12 +34,9 @@ Les frais d’expédition renvoyés sont ajoutés à la commande client associé
 
 Avant de pouvoir commencer à utiliser la fonctionnalité SPS, vous devez l’activer dans le module Gestion des fonctionnalités, ajouter votre moteur de frais et configurer les modules **Gestion du transport** et **Gestion des entrepôts** pour la prendre en charge.
 
-### <a name="turn-on-the-sps-feature"></a>Activer la fonctionnalité SPS
+### <a name="turn-the-sps-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité SPS
 
-Avant de pouvoir utiliser la fonctionnalité SPS, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
-
-- **Module :** *Vidéos sur la gestion du transport*
-- **Nom de la fonctionnalité :** *Expédition de petits colis*
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Expédition de petits colis* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="deploy-and-set-up-rate-engines"></a>Déployer et configurer les moteurs de frais
 

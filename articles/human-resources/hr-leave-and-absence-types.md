@@ -14,17 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59fe5ece00500f7dafab282c00d572575706f790
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894583"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323956"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configuration des types de congé et d’absence
-
-> [!Important]
-> La fonctionnalité indiquée dans cet article est actuellement disponible pour les clients sur Dynamics 365 Human Resources autonome. Certaines ou toutes les fonctionnalités seront disponibles dans le cadre d’une future version de l’infrastructure Finance après la version 10.0.26 de Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,31 +38,21 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 
 ## <a name="add-a-leave-type"></a>Ajouter un type de congé
 
-1. Dans la page **Plans de congé et d’absence**, sélectionnez l’onglet **Liens**.
-
+1. Dans l'espace de travail **Plans de congé et d’absence**, sélectionnez l’onglet **Liens**.
 2. Sous **Configuration**, sélectionnez **Types de congé et d’absence**.
-
 3. Sélectionnez **Nouveau**.
-
 4. Entrez un nom pour le type de congé sous **Type**, sélectionnez un workflow dans **ID workflow** et entrez une description sous **Description**.
-
 5. Dans **Général**, sélectionnez **Aucun**, **Planifié**, ou **non planifié** dans me menu déroulant **Catégorie**.
-
 6. Sélectionnez un code de rémunération dans le menu déroulant **Code de rémunération**.
-
 7. Sous **Code motif obligatoire**, choisissez si vous souhaitez exiger un code de motif. Si vous souhaitez exiger des codes de motif, vous devrez peut-être les ajouter. Sous **Codes motif**, sélectionnez **Ajouter**, sélectionnez un code de motif, puis cochez la case **Activé** à côté.
-
 8. Sous **Restreindre l’accès aux rôles sélectionnés**, choisissez si vous souhaitez restreindre l’accès. Sélectionnez ensuite les rôles de sécurité sous **Rôles de sécurité pour ce type de congé**. Les rôles de sécurité sont définis dans le workflow que vous avez sélectionné sous **ID workflow** plus tôt dans cette procédure.
-
 9. Sous **Couleur du calendrier**, choisissez la couleur à afficher sur les calendriers de congé et d’absence pour ce type de congé. 
-
 10. En dessous de **Relations de suspension**, choisissez si vous souhaitez que ce type de congé suspende un autre type de congé ou soit suspendu par un autre type de congé. Lorsqu’une demande de congé est soumise pour le type de congé suspendu, une suspension de congé est automatiquement créée pour le type de congé suspendu. 
-
-10. Sélectionnez **Enregistrer**.
+11. Cliquez sur **Enregistrer**.
 
 ## <a name="configure-leave-type-rules"></a>Configurer les règles de type de congé
 
-1. Définissez les options d’arrondi pour le type de congé. Les options incluent **Aucun**, **Haut**, **Bas** et **Le plus proche**. Vous pouvez également définir la précision d’arrondi pour le type de congé.
+1. Définissez les options d’arrondi pour le type de **Plan de congé et d'absence**. Les options incluent **Aucun**, **Haut**, **Bas** et **Le plus proche**. Vous pouvez également définir la précision d’arrondi pour le type de congé.
 
 2. Définissez **Correction des congés** pour le type de congés. Lorsque vous sélectionnez cette option, le nombre de congés qui tombent un jour ouvrable est utilisé pour déterminer comment cumuler des congés pour le type de congé. Par exemple, si le jour de Noël tombe un lundi, Human Resources soustraira un jour du type de congé lors du traitement des régularisations.
 

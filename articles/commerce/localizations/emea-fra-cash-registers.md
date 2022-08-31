@@ -2,7 +2,7 @@
 title: Fonctionnalité de caisse enregistreuse pour la France
 description: Cet article fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
-ms.date: 08/12/2022
+ms.date: 08/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7.3.2
 ms.search.industry: Retail
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 manager: annbe
-ms.openlocfilehash: bd7ef43eabea28ac70349603b54a19882eba9825
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e61c6729c6e330ef1c9d9db580236aec59faf99
+ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269178"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9305168"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -504,7 +504,7 @@ Pour activer la signature numérique en mode hors connexion, vous devez suivre c
 ### <a name="configure-channel-components"></a>Configurer des composants de canal
 
 > [!WARNING]
->  Si vous utilisez la version 10.0.28 ou antérieure de Commerce, vous devez suivre des étapes spécifiques pour configurer les composants du canal Commerce pour la France uniquement. À partir de la version 10.0.29, tous les composants de canal requis sont activés par défaut. Si vous utilisez la version 10.0.28 ou une version antérieure de Commerce et que vous migrez vers la version 10.0.29 ou une version ultérieure, vous devez suivre les étapes décrites dans [Migrer vers la version 10.0.29 ou ultérieure](./emea-fra-fi-deployment.md#migrate-to-commerce-version-10029-or-later).
+> Vous ne devez mettre en oeuvre les étapes décrites dans cette section que si vous utilisez Commerce version 10.0.28 ou antérieure. À partir de la version 10.0.29, tous les composants de canal de Commerce requis pour la France sont activés par défaut. Si vous utilisez la version 10.0.28 ou une version antérieure de Commerce et que vous migrez vers la version 10.0.29 ou une version ultérieure, vous devez suivre les étapes décrites dans [Migrer vers la version 10.0.29 ou ultérieure](./emea-fra-fi-deployment.md#migrate-to-commerce-version-10029-or-later).
 
 Pour activer la fonctionnalité spécifique à la France, vous devez configurer les extensions des composants de canal. Pour plus d’informations, voir les [instructions de déploiement](./emea-fra-fi-deployment.md).
 

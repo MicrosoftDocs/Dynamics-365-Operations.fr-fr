@@ -2,7 +2,7 @@
 title: Requêter des données en utilisant des détours de Warehouse Management mobile app
 description: Cet article décrit comment configurer les éléments de menu de l’appareil mobile de demande de données et les utiliser dans le cadre des détours.
 author: perlynne
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c3ea53379badb3cb2ed71b7f102956d71c3f047a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220538"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336603"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Requêter des données en utilisant des détours de Warehouse Management mobile app
 
@@ -35,19 +35,19 @@ Par exemple, dans le flux de réception de commande fournisseur, un numéro de c
 Avant de pouvoir utiliser la fonctionnalité décrite dans cet article, vous devez effectuer la procédure suivante pour activer les fonctionnalités requises.
 
 1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**. (Pour plus d’informations sur comment utiliser l'espace de travail **Gestion des fonctionnalités**, voir [Présentation de la gestion des fonctions](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
-1. Activez la fonctionnalité qui est répertoriée de la manière suivante :
+1. Si vous exécutez la version 10.0.28 ou antérieure de Supply Chain Management, activez la fonctionnalité qui est répertoriée de la manière suivante :
 
     - **Module :** *Gestion des entrepôts*
     - **Nom de la fonctionnalité :** *instructions d’étape de l’application d’entrepôt*
 
-    Cette fonctionnalité est une condition préalable à la fonctionnalité *Flux de demande de données de Warehouse management app*. Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md).
+    Cette fonctionnalité est une condition préalable à la fonctionnalité *Flux de demande de données de Warehouse management app*. Depuis la version 10.0.29 de Supply Chain Management, elle est obligatoire et ne peut être désactivée. Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md).
 
 1. Activez la fonctionnalité qui est répertoriée de la manière suivante :
 
     - **Module :** *Gestion des entrepôts*
     - **Nom de la fonctionnalité :** *Détours de l’application Warehouse Management*
 
-    Cette fonctionnalité est une condition préalable à la fonctionnalité *Flux de demande de données de Warehouse management app*. Pour plus d'informations sur la fonction *Détours de Warehouse management app*, voir [Configurer les détours pour les étapes dans les éléments de menu de l’appareil mobile](warehouse-app-detours.md).
+    Cette fonctionnalité est une condition préalable à la fonctionnalité *Flux de demande de données de Warehouse management app*. Depuis la version 10.0.29 de Supply Chain Management, elle est activée par défaut. Pour plus d'informations sur la fonction *Détours de Warehouse management app*, voir [Configurer les détours pour les étapes dans les éléments de menu de l’appareil mobile](warehouse-app-detours.md).
 
 1. Si la fonction *Détours de Warehouse management app* n'était pas déjà activée, mettez à jour les noms des champs dans le Warehouse Management mobile app en accédant à **Warehouse management \> Configuration \> Appareil mobile \> Noms des champs d’application d’entrepôt** et en sélectionnant **Créer une configuration par défaut**. Répétez cette étape pour chaque entité juridique (société) où vous utilisez le Warehouse Management mobile app. Pour plus d’informations, voir [Configurer les champs pour l’application mobile Gestion des entrepôts](configure-app-field-names-priorities-warehouse.md).
 1. Activez la fonctionnalité qui est répertoriée de la manière suivante :

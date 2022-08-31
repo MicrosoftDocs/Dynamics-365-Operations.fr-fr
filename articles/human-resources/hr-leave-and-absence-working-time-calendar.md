@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861071"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323571"
 ---
 # <a name="create-a-working-time-calendar"></a>Création d’un calendrier du temps de travail
 
-
-> [!Important]
-> La fonctionnalité indiquée dans cet article est actuellement disponible pour les clients sur Dynamics 365 Human Resources autonome. Certaines ou toutes les fonctionnalités seront disponibles dans le cadre d’une future version de l’infrastructure Finance après la version 10.0.26 de Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Configurez au moins un calendrier de temps de travail qui affiche vos jours et h
 
 3. Sous **Options de génération**, sélectionnez les jours ouvrables de votre organisation et saisissez les heures de travail. 
    - Pour ajouter un jour férié ou une fermeture, sélectionnez le bouton **Ajouter** à côté de **Congés et fermetures**.
-   - Pour ajouter du temps libre, comme des déjeuners ou des pauses, sélectionnez **Ajouter** sous **TEMPS LIBRE** et entrez le nom et la plage horaire.
+   - Pour ajouter les temps libres, comme les déjeuners ou les pauses, sélectionnez **Ajouter** sous **Temps libres** et entrez le nom et l'intervalle de temps.
 
 4. Sous **Jours**, sélectionnez **Générer** pour générer les jours dans votre calendrier. Saisissez la plage de dates de votre calendrier, puis sélectionnez **Générer des jours**.
 
@@ -67,7 +64,7 @@ Vous pouvez ajouter ou modifier des congés et des fermetures séparément d’u
 
 Vous pouvez ajouter ou modifier du temps libre séparément d’un calendrier de temps de travail.
 
-1. Dans la page **Administration d’organisation**, sélectionnez **TEMPS LIBRE**.
+1. Dans la page **Administration d’organisation**, sélectionnez **Temps libre**.
 
 2. Sélectionnez **Nouveau** et entrez le nom et la plage de temps pour le temps libre.
 

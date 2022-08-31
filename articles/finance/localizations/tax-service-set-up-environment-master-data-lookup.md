@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181122"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306201"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Activer la recherche des données de base pour la configuration du calcul des taxes 
 
@@ -108,7 +108,7 @@ Dataverse utilise l’application Azure AD que vous avez créée pour appeler de
     - **Fournisseur** : définissez ce champ sur **NonAAD**.
     - **E-mail** : saisissez **dataverseintegration** ou une autre valeur. (La valeur ne doit pas nécessairement être un compte de messagerie valide.)
 
-3. Affectez le rôle de sécurité à l’utilisateur **application de l’entité virtuelle CDS**.
+3. Affectez le rôle de sécurité de l'application d'intégration de l’entité virtuelle **Dataverse à l’utilisateur**.
 4. Supprimez tous les autres rôles, y compris **Utilisateur système**.
 5. Accédez à **Administration système** \> **Paramétrage** \> **Applications Azure Active Directory** pour inscrire Dataverse. 
 6. Ajoutez une ligne, puis, dans le champ **ID client**, saisissez la valeur **ID (client) de l’application** que vous avez notée précédemment.
@@ -199,17 +199,11 @@ Pour plus d’informations, consultez [Activer des entités virtuelles Microsoft
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a>Configurer l’application connectée pour le calcul des taxes
 
-1. Dans RCS, ouvrez l’espace de travail **Gestion des fonctionnalités**, puis activez les fonctionnalités suivantes :
-
-    - Prise en charge des sources de données de la gestion des états électroniques Dataverse
-    - Prise en charge des sources de données Dataverse du service fiscal
-    - Fonctionnalités de globalisation
-
-2. Accédez à **Génération d’états électroniques**, dans la section **Liens connexes**, sélectionnez **Applications connectées**.
+1. Accédez à **Génération d’états électroniques**, dans la section **Liens connexes**, sélectionnez **Applications connectées**.
 
     [![Applications connectées.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Sélectionnez **Nouveau** pour ajouter un enregistrement et entrez les informations suivantes.
+2. Sélectionnez **Nouveau** pour ajouter un enregistrement et entrez les informations suivantes.
 
     - **Nom** – Entrez un nom.
     - **Type** : sélectionnez **Dataverse**.
@@ -217,12 +211,18 @@ Pour plus d’informations, consultez [Activer des entités virtuelles Microsoft
     - **Client** : saisissez votre client.
     - **Custom URL** : saisissez votre URL Dataverse, et ajoutez-y **/api/data/v9.1**.
 
-4. Sélectionnez **Vérifier la connexion**, puis, dans la boîte de dialogue qui s’affiche, sélectionnez **Cliquer ici pour vous connecter à l’application distante sélectionnée**.
+3. Sélectionnez **Vérifier la connexion**, puis, dans la boîte de dialogue qui s’affiche, sélectionnez **Cliquer ici pour vous connecter à l’application distante sélectionnée**.
 
     [![Vérification de la connexion.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Veillez à bien recevoir un message « Réussi ! » indiquant que la connexion a été établie avec succès.
+4. Veillez à bien recevoir un message « Réussi ! » indiquant que la connexion a été établie avec succès.
 
     [![Message de réussite.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. Dans RCS, ouvrez l’espace de travail **Gestion des fonctionnalités**, puis activez les fonctionnalités suivantes :
+
+    - Fonctionnalités de globalisation
+    - Prise en charge des sources de données de la gestion des états électroniques Dataverse
+    - Prise en charge des sources de données Dataverse du service fiscal
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a>Importer et configurer la mise en correspondance de modèle Dataverse
 

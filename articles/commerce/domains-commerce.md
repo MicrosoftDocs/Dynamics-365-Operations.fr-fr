@@ -2,7 +2,7 @@
 title: Domaines dans Dynamics 365 Commerce
 description: Cet article décrit comment les domaines sont gérés dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 05/10/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
 ms.search.industry: retail
 ms.search.form: ''
-ms.openlocfilehash: 9bd925b7bf27748b3c17946de72a76bc0d0200d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288447"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336665"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domaines dans Dynamics 365 Commerce
 
@@ -109,6 +109,10 @@ Le point de terminaison `<e-commerce tenant name>.dynamics365commerce.ms` ne pre
 Pour configurer des domaines personnalisés à l’aide d’un front door service ou d’un CDN, vous avez deux options :
 
 - Configurez un front door service comme Azure Front Door pour gérer le trafic frontal et connectez-vous à votre environnement Commerce. Cela offre un meilleur contrôle sur la gestion des domaines et des certificats et des stratégies de sécurité plus granulaires.
+
+> [!NOTE]
+> Si vous utilisez un CDN externe ou un service instance Front Door, assurez-vous que la demande atterrit sur la plate-forme Commerce avec le nom d’hôte fourni par Commerce, mais avec l’en-tête X-Forwarded-Host (XFH) \<custom-domain\>. Par exemple, si votre point de terminaison Commerce est `xyz.dynamics365commerce.ms` et le domaine personnalisé est `www.fabrikam.com`, l’en-tête d’hôte de la requête transférée doit être `xyz.dynamics365commerce.ms` et l’en-tête XFH doit être `www.fabrikam.com`.
+
 - Utilisez l’instance d’Azure Front Door fournie par Commerce. Cela nécessite une action coordonnée avec l’équipe Dynamics 365 Commerce pour la vérification du domaine et l’obtention de certificats SSL pour votre domaine de production.
 
 Pour plus d’informations sur la configuration directe d’un service CDN, consultez [Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md).
@@ -141,18 +145,22 @@ Pour les domaines existants/actifs :
 
 ## <a name="apex-domains"></a>Domaines Apex
 
-L’instance d’Azure Front Door fournie par Commerce ne prend pas en charge les domaines apex (domaines racine qui ne contiennent pas de sous-domaines). Les domaines apex nécessitent une adresse IP pour être résolus et l’instance de Commerce Azure Front Door existe uniquement avec des points de terminaison virtuels. Pour utiliser un domaine apex, vous avez deux options :
+L’instance d’Azure Front Door fournie par Commerce ne prend pas en charge les domaines apex (domaines racine qui ne contiennent pas de sous-domaines). Les domaines apex nécessitent une adresse IP pour être résolus et l’instance Front Door de Commerce Azure existe uniquement avec des points de terminaison virtuels. Pour utiliser un domaine apex, vous disposez des options suivantes :
 
 - **Option 1** – Utilisez votre fournisseur DNS pour rediriger le domaine apex vers un domaine « www ». Par exemple, fabrikam.com redirige vers `www.fabrikam.com` où `www.fabrikam.com` est l’enregistrement CNAME qui pointe vers l’instance d’Azure Front Door hébergée par Commerce.
 
-- **Option 2** – Configurez vous-même une instance CDN/front door pour héberger le domaine apex.
+- **Option 2** - Si votre fournisseur DNS prend en charge les enregistrements ALIAS, vous pouvez faire pointer le domaine apex vers le point de terminaison de l'instance front door. Cela garantit que le changement d’adresse IP par le point de terminaison de l'instance front door est reflété.
+  
+- **Option 3** - Si votre fournisseur DNS ne prend pas en charge les enregistrements ALIAS, vous devez configurer vous-même un CDN ou une instance front door pour héberger le domaine apex.
 
 > [!NOTE]
 > Si vous utilisez Azure Front Door, vous devez également configurer un Azure DNS dans le même abonnement. Le domaine apex hébergé sur Azure DNS peut pointer vers votre Azure Front Door en tant qu’enregistrement d’alias. C’est la seule solution, car les domaines apex doivent toujours pointer vers une adresse IP.
+  
+Si vous avez des questions concernant les domaines Apex, veuillez contacter [Assistance Microsoft ](https://support.microsoft.com/).
 
   ## <a name="additional-resources"></a>Ressources supplémentaires
 
-  [Déployer un nouveau client e-commerce](deploy-ecommerce-site.md)
+  [Déployer un nouveau abonné e-commerce](deploy-ecommerce-site.md)
 
   [Paramétrer un canal de magasin en ligne](./channel-setup-online.md)
 

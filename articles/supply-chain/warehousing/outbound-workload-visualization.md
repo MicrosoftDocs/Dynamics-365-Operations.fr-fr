@@ -2,7 +2,7 @@
 title: Visualisation de la charge de travail sortante
 description: Cet article fournit des informations sur la visualisation de la charge de travail sortante. Cette fonctionnalité permet aux responsables d’entrepôt et aux superviseurs de créer des graphiques de charge de travail personnalisés qui peuvent être utilisés pour surveiller la progression du travail en cours et la quantité qui reste. Les gestionnaires d’entrepôt peuvent créer plusieurs vues et configurer une actualisation automatique selon leurs besoins.
 author: Mirzaab
-ms.date: 08/28/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 78d0d81095bb52a314936dd7590a5690d94ecb15
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851331"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334413"
 ---
 # <a name="outbound-workload-visualization"></a>Visualisation de la charge de travail sortante
 
@@ -29,7 +29,7 @@ Cette fonctionnalité peut être utilisée pour suivre la progression du travail
 
 ## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité de visualisation de la charge de travail sortante
 
-À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Visualisation de la charge de travail sortante* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette caractéristique en recherchant la caractéristique *Visualisation de la charge de travail sortante* dans l’espace de travail [Gestion des caractéristiques](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Configuration des visualisations de la charge de travail sortante
 

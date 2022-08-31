@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112178"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295926"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -29,7 +29,7 @@ ms.locfileid: "9112178"
 
 Comme [annoncé précédemment](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), une optimisation de la planification est planifiée pour remplacer le moteur de planification principal intégré existant.
 
-Si vous utilisez actuellement le moteur de planification principal intégré, vous devez commencer à planifier votre migration vers l’optimisation de la planification. Il est important de démarrer immédiatement le processus de migration car vos opérations peuvent être affectées quand l’obsolescence est appliquée. Pour éviter les problèmes de dernière minute quand l’obsolescence est appliquée, nous vous encourageons vivement à terminer la migration avant le 1er décembre 2020. 
+Si vous utilisez actuellement le moteur de planification principal intégré, vous devez commencer à planifier votre migration vers l’optimisation de la planification. Il est important de commencer tout de suite, car vos opérations pourraient autrement être affectées lorsque l’obsolesence est appliquée (bien que l’application ne soit pas actuellement planifiée). Nous vous encourageons vivement à terminer la migration dès que Planning Optimization prend en charge les fonctionnalités dont vous avez besoin afin que vous puissiez commencer à tirer parti des nombreuses améliorations de performances et des autres nouvelles fonctionnalités fournies par le nouveau service.
 
 La fonctionnalité d’optimisation de la planification ne prend actuellement pas en charge toutes les fonctionnalités disponibles dans le moteur de planification intégré à Supply Chain Management. Par conséquent, il est important d’évaluer si la fonctionnalité définie, qui est actuellement disponible dans Optimisation de la planification, répondra à vos attentes. La fonctionnalité d’optimisation de la planification n’est actuellement pas activée par défaut dans Dynamics Lifecycle Services (LCS), vous avez donc la possibilité de faire votre évaluation avant que la fonctionnalité ne soit activée.
 

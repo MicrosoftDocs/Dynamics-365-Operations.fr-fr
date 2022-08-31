@@ -2,7 +2,7 @@
 title: Consolidation des articles - Utilisation de l’emplacement
 description: Cet article fournit des informations sur les fonctionnalités qui permettent aux responsables d’entrepôt d’afficher et de filtrer facilement l’utilisation volumétrique des emplacements dans l’entrepôt. Les responsables peuvent sélectionner des emplacements et créer un travail de mouvement des stocks directement à partir de la page Consolidation des articles afin de regrouper des articles et ainsi mieux utiliser l’espace de l’entrepôt.
 author: Mirzaab
-ms.date: 07/16/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219440"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336421"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidation des articles - Utilisation de l’emplacement
 
@@ -30,8 +30,8 @@ Cet article fournit des informations sur les fonctionnalités qui permettent aux
 
 Avant de pouvoir utiliser les fonctionnalités décrites dans cet article, vous devez les activer dans votre système. Les administrateurs peuvent utiliser l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de ces fonctionnalités et les activer si nécessaire. Activez les deux fonctionnalités, dans l’ordre dans lequel elles sont mentionnées. (Les deux fonctionnalités sont destinées au module **Gestion des entrepôts**.)
 
-1. *Statut de l’emplacement de l’entrepôt* (Depuis la version 10.0.29, cette fonctionnalité est activée par défaut. Pour plus d’informations, voir [Statut de l'emplacement de l’entrepôt](warehouse-location-status.md).)
-2. *Utilisation de l’emplacement de consolidation des articles*
+1. *Statut de l'emplacement de l'entrepôt*<br>(Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut pas être désactivée. Pour plus d’informations, voir [Statut de l'emplacement de l’entrepôt](warehouse-location-status.md).)
+2. *Utilisation de l’emplacement de consolidation des articles*<br>(Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 
 ## <a name="warehouse-location-status"></a>Statut de l'emplacement de l'entrepôt
 

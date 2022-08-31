@@ -2,7 +2,7 @@
 title: Tolérance de retard (jours négatifs)
 description: Cet article fournit des informations sur le calcul de la tolérance de retard et son impact sur la création d’ordres planifiés dans l’optimisation de la planification.
 author: t-benebo
-ms.date: 07/30/2021
+ms.date: 08/09/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219965"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335373"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolérance de retard (jours négatifs)
 
@@ -23,11 +23,11 @@ ms.locfileid: "9219965"
 
 La fonctionnalité de tolérance de retard permet à l’optimisation de la planification de prendre en compte la valeur **Jours négatifs** définie pour les groupes de couverture, la couverture des éléments et/ou les plans principaux. Elle sert à prolonger la période de tolérance de retard qui est appliquée lors de la planification générale. De cette façon, vous pouvez éviter de créer de nouvelles commandes d’approvisionnement si l’approvisionnement existant peut couvrir la demande après un court délai. Le but de cette fonctionnalité est de déterminer s’il est judicieux de créer un nouvel ordre d’approvisionnement pour une demande donnée.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Activez la fonctionnalité dans votre système
+## <a name="turn-delay-tolerance-features-on-or-off"></a>Activer ou désactiver les fonctionnalités de délai de tolérance.
 
 Pour rendre la fonctionnalité de tolérance de retard disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez les fonctionnalités suivantes :
 
-- *Jours négatifs pour l’optimisation de la planification* – Cette fonctionnalité active les paramètres de jours négatifs pour les groupes de couverture et la couverture des articles.
+- *Jours négatifs pour l’optimisation de la planification* – Cette fonctionnalité active les paramètres de jours négatifs pour les groupes de couverture et la couverture des articles. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée.
 - *Automatisation de l’approvisionnement sur commande* – Cette fonctionnalité active les paramètres de jours négatifs pour les plans principaux. (Pour plus d’informations, voir [Automatisation de l’approvisionnement sur commande](../make-to-order-supply-automation.md).)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Tolérance de retard dans l’optimisation de la planification

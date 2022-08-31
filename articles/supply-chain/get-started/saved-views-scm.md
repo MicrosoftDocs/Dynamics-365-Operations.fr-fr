@@ -2,7 +2,7 @@
 title: Vues enregistrées standard pour Supply Chain Management
 description: Cet article décrit les vues enregistrées standard disponibles et explique comment les activer.
 author: kamaybac
-ms.date: 02/03/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f94fffb9aa2c208b8c2c0005a2892853eda66a01
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887556"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334833"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Vues enregistrées standard pour Supply Chain Management
 
@@ -47,15 +47,15 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module Ges
 
 | Page | Nom de vue | Afficher la description | Nom de la fonction |
 |---|---|---|---|
-| Liste disponible | Finances | Cette vue simplifiée vous permet de vous concentrer sur les informations financières tout en gérant le stock disponible. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Liste disponible | Contrôle de la qualité | Cette vue simplifiée vous permet de vous concentrer sur le contrôle qualité tout en gérant le stock disponible. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Liste disponible | Réception | Cette vue simplifiée vous permet de vous concentrer sur les opérations de réception tout en gérant le stock disponible. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Liste disponible | Expédition | Cette vue simplifiée vous permet de vous concentrer sur les opérations d’expédition tout en gérant le stock disponible. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Transactions | Simplifié | Cette vue simplifiée vous permet de réviser le statut du stock sans être distrait par les informations financières et d’autres champs moins souvent utilisés. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Ordres de transfert | Expédition | Cette vue simplifiée vous permet de vous concentrer sur les opérations d’expédition tout en gérant les ordres de transfert. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Ordres de transfert | Réception | Cette vue simplifiée vous permet de vous concentrer sur les opérations de réception tout en gérant les ordres de transfert. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Ordres de transfert | Contrôle de la qualité | Cette vue simplifiée vous permet de vous concentrer sur le contrôle qualité tout en gérant les ordres de transfert. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Ordres de transfert | Finances | Cette vue simplifiée vous permet de vous concentrer sur les informations financières tout en gérant les ordres de transfert. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) |
+| Liste disponible | Finances | Cette vue simplifiée vous permet de vous concentrer sur les informations financières tout en gérant le stock disponible. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Liste disponible | Contrôle de la qualité | Cette vue simplifiée vous permet de vous concentrer sur le contrôle qualité tout en gérant le stock disponible. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Liste disponible | Réception | Cette vue simplifiée vous permet de vous concentrer sur les opérations de réception tout en gérant le stock disponible. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Liste disponible | Expédition | Cette vue simplifiée vous permet de vous concentrer sur les opérations d’expédition tout en gérant le stock disponible. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Transactions | Simplifié | Cette vue simplifiée vous permet de réviser le statut du stock sans être distrait par les informations financières et d’autres champs moins souvent utilisés. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Ordres de transfert | Expédition | Cette vue simplifiée vous permet de vous concentrer sur les opérations d’expédition tout en gérant les ordres de transfert. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Ordres de transfert | Réception | Cette vue simplifiée vous permet de vous concentrer sur les opérations de réception tout en gérant les ordres de transfert. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Ordres de transfert | Contrôle de la qualité | Cette vue simplifiée vous permet de vous concentrer sur le contrôle qualité tout en gérant les ordres de transfert. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Ordres de transfert | Finances | Cette vue simplifiée vous permet de vous concentrer sur les informations financières tout en gérant les ordres de transfert. | Vues enregistrées pour la gestion des stocks<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Vues enregistrées pour le module Planification générale
 
@@ -63,8 +63,8 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module Pla
 
 | Page | Nom de vue | Afficher la description | Nom de la fonction |
 |---|---|---|---|
-| Ordres prévisionnels : page de détails de l’ordre prévisionnel | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour travailler avec les détails d’un ordre prévisionnel unique. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées des ordres prévisionnels<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Ordres prévisionnels : page de liste d’ordres prévisionnels | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour travailler avec la liste des ordres prévisionnels. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées des ordres prévisionnels<br><br>(Activé par défaut à partir de la version 10.0.25) |
+| Ordres prévisionnels : page de détails de l’ordre prévisionnel | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour travailler avec les détails d’un ordre prévisionnel unique. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées des ordres prévisionnels<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Ordres prévisionnels : page de liste d’ordres prévisionnels | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour travailler avec la liste des ordres prévisionnels. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées des ordres prévisionnels<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
 
 ## <a name="saved-views-for-the-procurement-and-sourcing-module"></a>Vues enregistrées pour le module Approvisionnements
 
@@ -72,10 +72,10 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module App
 
 | Page | Nom de vue | Afficher la description | Nom de la fonction |
 |---|---|---|---|
-| Détails de la commande fournisseur | Création de commande | Cette vue simplifiée est optimisée pour la création de nouvelles commandes fournisseur. | Vues enregistrées pour les commandes fournisseur<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Détails de la commande fournisseur | Gestion des stocks | Cette vue simplifiée est optimisée pour exécuter des activités liées au stock, telles que le suivi du stock reçu, la réception du stock, la vérification des besoins nets et l’ajustement des quantités en commande. | Vues enregistrées pour les commandes fournisseur<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Détails de la commande fournisseur | Gestion financière | Cette vue simplifiée est optimisée pour exécuter des activités liées aux finances, telles que la facturation et la vérification des prix, totaux et frais. | Vues enregistrées pour les commandes fournisseur<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Détails de la commande fournisseur | Approbation commande | Cette vue simplifiée est optimisée pour l’approbation de nouvelles commandes fournisseur. | Vues enregistrées pour les commandes fournisseur<br><br>(Activé par défaut à partir de la version 10.0.25) |
+| Détails de la commande fournisseur | Création de commande | Cette vue simplifiée est optimisée pour la création de nouvelles commandes fournisseur. | Vues enregistrées pour les commandes fournisseur<br><br>Activée par défaut à partir de la version 10.0.25 Obligatoire à partir de la version 10.0.29) |
+| Détails de la commande fournisseur | Gestion des stocks | Cette vue simplifiée est optimisée pour exécuter des activités liées au stock, telles que le suivi du stock reçu, la réception du stock, la vérification des besoins nets et l’ajustement des quantités en commande. | Vues enregistrées pour les commandes fournisseur<br><br>Activée par défaut à partir de la version 10.0.25 Obligatoire à partir de la version 10.0.29) |
+| Détails de la commande fournisseur | Gestion financière | Cette vue simplifiée est optimisée pour exécuter des activités liées aux finances, telles que la facturation et la vérification des prix, totaux et frais. | Vues enregistrées pour les commandes fournisseur<br><br>Activée par défaut à partir de la version 10.0.25 Obligatoire à partir de la version 10.0.29) |
+| Détails de la commande fournisseur | Approbation commande | Cette vue simplifiée est optimisée pour l’approbation de nouvelles commandes fournisseur. | Vues enregistrées pour les commandes fournisseur<br><br>Activée par défaut à partir de la version 10.0.25 Obligatoire à partir de la version 10.0.29) |
 
 ## <a name="saved-views-for-the-product-information-management-module"></a>Vues enregistrées pour le module Gestion des informations sur les produits
 
@@ -83,11 +83,11 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module Ges
 
 | Page | Nom de vue | Afficher la description | Nom de la fonction |
 |---|---|---|---|
-| Liste Produits lancés | Création de produits | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la création de produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Détails des produits lancés | Création de produits | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la création de produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Détails des produits lancés | Gestion des informations logistiques | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations logistiques des produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Détails des produits lancés | Gestion des informations sur l’achat | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations sur l’achat des produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Détails des produits lancés | Gestion des informations sur les ventes | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations liées aux ventes des produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) |
+| Liste Produits lancés | Création de produits | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la création de produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Détails des produits lancés | Création de produits | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la création de produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Détails des produits lancés | Gestion des informations logistiques | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations logistiques des produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Détails des produits lancés | Gestion des informations sur l’achat | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations sur l’achat des produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Détails des produits lancés | Gestion des informations sur les ventes | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations liées aux ventes des produits. | Vues enregistrées pour les produits lancés<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Vues enregistrées pour le module Contrôle de la production
 
@@ -95,10 +95,10 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module Con
 
 | Page | Nom de vue | Afficher la description | Nom de la fonction |
 |---|---|---|---|
-| Page de nomenclature de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Page de détails de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Page de liste de prélèvements de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production<br><br>(Activé par défaut à partir de la version 10.0.21) |
-| Page de liste d’ordres de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production<br><br>(Activé par défaut à partir de la version 10.0.21) |
+| Page de nomenclature de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Page de détails de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Page de liste de prélèvements de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
+| Page de liste d’ordres de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production<br><br>(Activé par défaut à partir de la version 10.0.21) Obligatoire à partir de la version 10.0.29) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Vues enregistrées pour le module Vente et marketing
 
@@ -106,10 +106,10 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module Ven
 
 | Page | Nom de vue | Afficher la description | Nom de la fonction |
 |---|---|---|---|
-| Journal des bons de livraison | Révision du journal | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour réviser les journaux de bon de livraison. | Vues enregistrées pour la vente et le marketing<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Commande de vente | Création de commande | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour créer des commandes client. | Vues enregistrées pour la vente et le marketing<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Commande de vente | Révision de la commande | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour réviser des commandes client. | Vues enregistrées pour la vente et le marketing<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Devis de vente | Création de devis | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour créer des devis de vente. | Vues enregistrées pour la vente et le marketing<br><br>(Activé par défaut à partir de la version 10.0.25) |
+| Journal des bons de livraison | Révision du journal | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour réviser les journaux de bon de livraison. | Vues enregistrées pour la vente et le marketing<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Commande de vente | Création de commande | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour créer des commandes client. | Vues enregistrées pour la vente et le marketing<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Commande de vente | Révision de la commande | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour réviser des commandes client. | Vues enregistrées pour la vente et le marketing<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Devis de vente | Création de devis | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour créer des devis de vente. | Vues enregistrées pour la vente et le marketing<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
 
 ## <a name="saved-views-for-the-warehouse-management-module"></a>Vues enregistrées pour le module Gestion des entrepôts
 
@@ -117,13 +117,13 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module Ges
 
 | Page | Nom de vue | Afficher la description | Nom de la fonction |
 |---|---|---|---|
-| Toutes les charges | Traitement entrant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les chargements entrants. | Vues enregistrées pour le traitement du chargement<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Toutes les charges | Traitement sortant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les chargements sortants. | Vues enregistrées pour le traitement du chargement<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Toutes les expéditions | Traitement entrant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les expéditions entrantes. | Vues enregistrées pour le traitement de l’expédition<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Toutes les expéditions | Traitement sortant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les expéditions sortantes. | Vues enregistrées pour le traitement de l’expédition<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Toutes les vagues | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour le traitement de la vague<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Atelier de planification des chargements | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour l’atelier de planification des chargements<br><br>(Activé par défaut à partir de la version 10.0.25) |
-| Détails du travail | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour la page des détails du travail<br><br>(Activé par défaut à partir de la version 10.0.25) |
+| Toutes les charges | Traitement entrant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les chargements entrants. | Vues enregistrées pour le traitement du chargement<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Toutes les charges | Traitement sortant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les chargements sortants. | Vues enregistrées pour le traitement du chargement<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Toutes les expéditions | Traitement entrant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les expéditions entrantes. | Vues enregistrées pour le traitement de l’expédition<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Toutes les expéditions | Traitement sortant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les expéditions sortantes. | Vues enregistrées pour le traitement de l’expédition<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Toutes les vagues | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour le traitement de la vague<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Atelier de planification des chargements | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour l’atelier de planification des chargements<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
+| Détails du travail | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour la page des détails du travail<br><br>(Activé par défaut à partir de la version 10.0.25. Obligatoire à partir de la version 10.0.29) |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

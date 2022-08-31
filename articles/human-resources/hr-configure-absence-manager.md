@@ -14,17 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40f9607fb6fc16b96373141d8d2610538e3fdec7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b752b722bf63958fc35b10a4612f7f02e2e8e717
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886100"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336922"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurer le rôle de gestionnaire des absences
 
->[!Important]
->La fonctionnalité indiquée dans cet article est actuellement disponible pour les clients sur Dynamics 365 Human Resources autonome. Certaines ou toutes les fonctionnalités seront disponibles dans le cadre d’une future version de l’infrastructure Finance après la version 10.0.26 de Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +35,6 @@ Dans certaines organisations, les responsables du personnel peuvent ne pas gére
 ## <a name="turn-on-the-feature"></a>Activer la fonctionnalité
 
 1. Dans l’espace de travail **Administration système**, sélectionnez **Gestion des fonctionnalités**.
-
 2. Sur l’onglet **Gestion des fonctionnalités**, activez la fonctionnalité **Gestionnaire des absences pour gérer les congés**.
 
 ## <a name="define-a-custom-hierarchy"></a>Définir une hiérarchie personnalisée
@@ -45,23 +42,16 @@ Dans certaines organisations, les responsables du personnel peuvent ne pas gére
 La fonctionnalité de gestionnaire des absences utilise une hiérarchie personnalisée qui doit être configurée.
 
 1. Dans l’espace de travail **Administration d’organisation**, sélectionnez **Types de hiérarchie des postes**.
-
 2. Créez un type de hiérarchie de postes nommé **Congé**.
-
 3. Dans l’espace de travail **Congés et absences**, sous **Liens**, sélectionnez **Paramètres des congés et absences**.
-
 4. Sur l’onglet **Général**, dans la liste déroulante **Hiérarchie des absences**, sélectionnez le type de hiérarchie **Congé** que vous avez créé précédemment. Cette association de hiérarchie des congés doit être renseignée pour chaque entité juridique où la fonctionnalité de gestionnaire des absences sera utilisée.
 
 Une fois le type de hiérarchie défini, la liaison hiérarchique du poste doit être affectée à celui-ci.
 
 1. Dans l’espace de travail **Administration d’organisation**, sélectionnez **Tous les postes**.
-
 2. Sélectionnez le poste auquel ajouter la hiérarchie Congés.
-
 3. Dans l’onglet **Relations**, sélectionnez **Ajouter**.
-
 4. Dans le champ **Nom de la hiérarchie**, sélectionnez **Congés**.
-
 5. Dans le champ **Liaisons du poste**, sélectionnez un poste. Le nom du collaborateur est automatiquement renseigné une fois que vous avez sélectionné un poste.
 
 ## <a name="assign-the-absence-manager-role-to-a-user"></a>Attribuer le rôle de gestionnaire des absences à un utilisateur
@@ -69,13 +59,9 @@ Une fois le type de hiérarchie défini, la liaison hiérarchique du poste doit 
 Le rôle Gestionnaire des absences doit être attribué à des employés pour leur permettre d’approuver ou de refuser les demandes de congé.
 
 1. Dans l’espace de travail **Administrateur système**, sélectionnez **Liens**.
-
 2. Dans la section **Utilisateurs**, sélectionnez le lien **Utilisateurs**.
-
 3. Dans la liste des utilisateurs, sélectionnez l’utilisateur auquel attribuer le rôle de gestionnaire des absences.
-
 4. Dans l’onglet **Rôle de l’utilisateur**, sélectionnez **Affecter des rôles**.
-
 5. Dans la liste, sélectionnez le rôle **Gestionnaire des absences**. Puis sélectionnez **OK**.
 
     > [!IMPORTANT]
@@ -84,7 +70,6 @@ Le rôle Gestionnaire des absences doit être attribué à des employés pour le
 6. Après avoir créé la hiérarchie Congés, vous pouvez l’afficher en procédant comme suit :
 
     1. Dans l’espace de travail **Administration d’organisation**, sélectionnez **Hiérarchie des postes**.
-    
     2. Dans le champ **Type de hiérarchie**, sélectionnez **Congés**.
 
 ## <a name="absence-manager-workspace"></a>Espace de travail du gestionnaire des absences
@@ -115,9 +100,7 @@ Les gestionnaires des absences peuvent approuver ou refuser les demandes de cong
 > Pour plus d’informations sur la création d’un workflow de demande de congé, voir [Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md).
 
 1. Dans l’espace de travail **Libre service employé**, sélectionnez l’onglet **Gestion des congés**.
-
 2. Dans l’onglet **Demandes de congés**, sélectionnez les demandes de congés sur lesquelles vous souhaitez agir. Vous pouvez sélectionner plusieurs enregistrements dans cette vue de liste.
-
 3. Utilisez les boutons d’action en haut de la grille pour approuver, refuser ou déléguer la demande de congé. 
 
 L’utilisateur peut également utiliser la vignette **Demandes de congés** sur la gauche pour accéder à la liste de tous les éléments de travail de demandes de congés. 
@@ -130,9 +113,7 @@ Les utilisateurs ayant le rôle de gestionnaire des absences peuvent afficher le
 > Un administrateur système doit configurer les options d’affichage du calendrier du gestionnaire des absences. Sur la page **Paramètres des congés et absences**, sur l’onglet **Calendrier**, il existe des options pour masquer ou afficher les dates de naissance, les absences sans détails, les congés et les demandes de congé en attente. Il existe également une option pour filtrer l’option d’affichage du calendrier par type de collaborateur.
 
 1. Dans l’espace de travail **Libre service des employés**, sélectionnez **Gestion des congés**, puis **Calendrier du gestionnaire des absences**.
-
 2. Dans le champ **Date**, saisissez les dates souhaitées.
-
 3. Mettez à jour les options d’affichage si nécessaire.
 
 Le calendrier du gestionnaire des absences affiche tous les enregistrements des employés qui relèvent du gestionnaire des absences dans la hiérarchie des congés.

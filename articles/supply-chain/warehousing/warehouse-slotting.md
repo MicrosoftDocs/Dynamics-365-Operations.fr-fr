@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d319a1130facbc2988cc074960e6cdfbe053a2d6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218942"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336033"
 ---
 # <a name="warehouse-slotting"></a>Créneaux de l’entrepôt
 
@@ -34,7 +34,7 @@ La fonctionnalité *Améliorations de l’allocation des créneaux d’entrepôt
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Activer les fonctionnalités de créneaux d’entrepôt
 
-Avant de pouvoir utiliser ces fonctionnalités, vous devez les activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut des fonctionnalités et les activer si nécessaire. Activez les fonctionnalités suivantes selon vos besoins :
+Avant de pouvoir utiliser ces fonctionnalités, vous devez les activer dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut des fonctionnalités et les activer si nécessaire. Activez les fonctionnalités suivantes selon vos besoins :
 
 - Fonction Entreposage
 - Créneaux d’entrepôt pour les ordres de transfert

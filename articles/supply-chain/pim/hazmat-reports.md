@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 784361f4e715921890ecff784b62935988732464
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846038"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335163"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Demandes de renseignements et déclarations de matières dangereuses
 
@@ -101,11 +101,11 @@ Pour générer et imprimer cet état, accédez à **Gestion des entrepôts \> Ex
 
 ## <a name="bill-of-lading-report"></a>état de feuille de chargement
 
-Lorsque la fonctionnalité sur les matières dangereuses est activée dans votre système, la déclaration **feuille de chargement** comprend une colonne **Matières dangereuses** indiquant si une charge contient des matières dangereuses. Cet état est disponible sur la page **Toutes les charges**, comme d’habitude.
+Lorsque la fonctionnalité relative aux matières dangereuses est activée dans votre système, le **connaissement** comprend une colonne **Matières dangereuses** indiquant si une charge contient des matières dangereuses. Cet état est disponible sur la page **Toutes les charges**, comme d’habitude.
 
 ## <a name="packing-list-report"></a>État sur la liste d’emballage
 
-Lorsque la fonctionnalité de matières dangereuses est activée sur votre système, les listes d’emballage incluent des informations supplémentaires liées au texte d’impression d’expédition d’un article. Cet état est disponible sur la page **Toutes les charges**, comme d’habitude.
+Lorsque la fonctionnalité relative aux matières dangereuses est activée sur votre système, les listes d’emballage incluent des informations supplémentaires liées au texte d’impression d’expédition d’un article. Cet état est disponible sur la page **Toutes les charges**, comme d’habitude.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Instruction d’emplacement relatif à l’âge du prélèvement du stock
 description: Cet article explique comment utiliser les stratégies de directive d’emplacement premier entré, premier sorti (FIFO) et dernier entré, premier sorti (LIFO) lors du prélèvement.
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219470"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335613"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Instruction d’emplacement relatif à l’âge du prélèvement du stock
 
@@ -34,7 +34,7 @@ Lors de la première réception ou de la création du stock dans l’entrepôt, 
 
 Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), dans l’ordre suivant :
 
-1. *Statut de l’emplacement de l’entrepôt*  (Depuis la version 10.0.29, cette fonctionnalité est activée par défaut. Pour plus d’informations, voir [Statut de l'emplacement de l’entrepôt](warehouse-location-status.md).)
+1. *Statut de l’emplacement de l’entrepôt*  (Depuis la version 10.0.29, cette fonctionnalité est obligatoire et ne peut être désactivée. Pour plus d’informations, voir [Statut de l'emplacement de l’entrepôt](warehouse-location-status.md).)
 1. *Instruction d’emplacement relatif à l’âge du prélèvement du stock*
 
 ## <a name="feature-requirements"></a>Exigences relatives à la fonctionnalité

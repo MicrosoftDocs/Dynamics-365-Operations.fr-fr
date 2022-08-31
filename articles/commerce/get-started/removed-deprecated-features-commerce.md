@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou déconseillées dans Dynamics 365 Commerce
 description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
 author: josaw1
-ms.date: 07/11/2022
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 541e21999884a2d51b27009d72a2f8bc9084557f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287621"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337594"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Commerce
 
@@ -26,12 +26,44 @@ ms.locfileid: "9287621"
 Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
-- Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
+- Une caractéristique *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.29
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Réglage des paramètres de Commerce - Autoriser les ajustements de prix à augmenter le prix du produit.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Nous avions ce paramètre pour contrôler si la fonction d’ajustement des prix permettait d’augmenter le prix du produit. Lorsque ce paramètre est désactivé, lors de l’utilisation de la fonction d’ajustement des prix, les organisations ne peuvent que définir le prix unitaire d’un produit en dessous de son prix de base et du prix de vente de l’accord commercial. Nous déconseillons ce paramètre car la fonction d’ajustement des prix a été mise à jour pour prendre en charge les ajustements bidirectionnels (augmentation ou diminution) par défaut. |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Zones de produit affectées**         | Tarification et remises |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Déconseillé : ce paramètre est activé par défaut depuis la version 10.0.29 de Commerce et sera supprimé en octobre 2023. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Réglage des paramètres de commerce - Activer le rapport de prix pour le magasin de détail
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Nous avions ce paramètre pour contrôler si la fonction de rapport de prix est disponible pour une utilisation sur le formulaire de configuration du magasin. Nous déconseillons ce paramètre car le formulaire de configuration du magasin a été mis à jour pour toujours fournir la fonction de rapport de prix en tant que fonction standard. |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Zones de produit affectées**         | Tarification et remises |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Déconseillé : ce paramètre sera supprimé en octobre 2023. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Réglage des paramètres de Commerce - Utiliser la date du jour pour calculer les prix
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Le moteur de tarification de Supply Chain Management prend en charge le calcul des prix en fonction de la date d’expédition demandée ou de la date de réception demandée ainsi que de la date actuelle. Le moteur de tarification de Commerce ne prend en charge que le calcul des prix en fonction de la date du jour. Pour les clients qui utilisent à la fois les fonctionnalités SCM et Commerce, nous avons fourni ce paramètre et recommandé aux clients de toujours le définir sur **Oui** afin que les deux moteurs de tarification puissent fonctionner ensemble. Nous déconseillons ce paramètre car il ne modifie pas le comportement de calcul et est redondant. |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Zones de produit affectées**         | Tarification et remises |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Déconseillé : ce paramètre est activé par défaut depuis la version 10.0.29 de Commerce et sera supprimé en octobre 2023. |
 
 ## <a name="feature-deprecation-effective-july-2022"></a>Notification d’abandon de fonctionnalités à compter de juillet 2022
 
@@ -39,26 +71,11 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | L’équipe Dynamics 365 Commerce a analysé l’utilisation et l’adoption de la fonctionnalité Commerce Analytics (version préliminaire), et la décision a été prise de ne plus avancer dans la mise à disposition générale de la fonctionnalité.   |
-| **Remplacé par une autre fonctionnalité ?**   | Pour le moment, Commerce Analytics (version préliminaire) ne sera pas remplacé par une autre fonctionnalité ou solution. L’exportation des transactions brutes et des données de base des applications de finances et d’opérations vers Azure Data Lake reste disponible, comme expliqué dans [Exporter vers Data Lake dans les applications de finances et d’opérations](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Les partenaires et les clients peuvent tirer parti de ce flux de données pour créer des rapports d’analyse destinés à leurs besoins commerciaux.
+| **Motif de l’abandon/de la suppression** | L’équipe Dynamics 365 Commerce a analysé l’utilisation et l’adoption de la fonctionnalité d'analyse (d'évaluation) de Commerce, et la décision a été prise de ne plus la mettre à disposition générale.   |
+| **Remplacé par une autre fonctionnalité ?**   | Pour le moment, Commerce Analytics (version préliminaire) ne sera pas remplacée par une autre fonctionnalité ou solution. L’exportation des transactions brutes et des données de base des applications de finances et d’opérations vers Azure Data Lake reste disponible, comme expliqué dans [Exporter vers Data Lake dans les applications de finances et d’opérations](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Les partenaires et les clients peuvent tirer parti de ce flux de données pour créer des rapports d’analyse destinés à leurs besoins commerciaux.
 | **Zones de produit affectées**         | Commerce Analytics (version préliminaire) |
 | **Option de déploiement**              | Tout |
 | **Status**                         | Nous envisagerons de désactiver cette fonctionnalité d’ici le 30 août 2022.  À partir de cette date, aucune actualisation n’aura lieu dans les rapports Power BI fournis par Commerce Analytics (version préliminaire).     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.25
-
-### <a name="modern-point-of-sale-mpos"></a>Modern POS (MPOS)
-
-L’application Modern Point of Sale (MPOS) sera obsolète dans la version 10.0.25 de Commerce et remplacée par l’application Store Commerce.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Les applications en magasin sont la pierre angulaire de l’offre omnicanale Dynamics 365 Commerce. Nous innovons en permanence pour offrir des expériences de magasin modernes et intelligentes, et pour moderniser davantage notre solution, nous déployons de nouveaux ensembles de changements qui amélioreront considérablement les opérations informatiques et les expériences des utilisateurs avec nos applications en magasin existantes sur Windows. La nouvelle application Store Commerce est une mise à niveau technologique du MPOS existant. Il offre des performances, une fiabilité et une prise en charge à long terme améliorées sur la plateforme Windows et élimine le besoin de reconditionner l’application à chaque mise à jour. |
-| **Remplacé par une autre fonctionnalité ?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **Zones de produit affectées**         | Modern POS |
-| **Option de déploiement**              | Tout |
-| **Status**                         | Obsolète : À partir de la version 10.0.25 de Commerce, le programme d’installation MPOS fourni via les machines virtuelles (VM) LCS sera supprimé en octobre 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.21
 
@@ -70,7 +87,7 @@ Le paramètre **Gestion des remises qui se chevauchent** sur la page **Paramètr
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | <p>Le paramètre **Gestion des remises qui se chevauchent** dans les paramètres Commerce contrôle la manière dont le moteur de tarification Commerce recherche et détermine la combinaison optimale de remises qui se chevauchent. Il propose actuellement trois options :<p><ul><li> **Meilleure performance** – Cette option utilise un algorithme heuristique avancé et une méthode [classement de la valeur marginale](../optimal-combination-overlapping-discounts.md) pour hiérarchiser, évaluer et déterminer la meilleure combinaison de remises en temps opportun.</li><li>**Calcul équilibré** – Dans la base de code actuelle, cette option fonctionne exactement comme l’option **Meilleure performance**. Par conséquent, il s’agit essentiellement d’une option dupliquée.</li><li>**Calcul exhaustif** – Cette option utilise un ancien algorithme qui passe en revue toutes les combinaisons de remises possibles au moment du calcul du prix. Pour les commandes comportant des lignes et des quantités importantes, cette option peut entraîner des problèmes de performances.</li></ul><p>Pour simplifier la configuration, améliorer les performances et réduire les incidents causés par l’ancien algorithme, nous supprimerons complètement le paramètre **Gestion des remises qui se chevauchent** et mettre à jour la logique interne du moteur de tarification Commerce afin qu’il utilise désormais uniquement l’algorithme avancé (c’est-à-dire l’algorithme à l’origine de l’option **Meilleure performance**).</p> |
+| **Motif de l’abandon/de la suppression** | <p>Le paramètre **Gestion des remises qui se chevauchent** dans les paramètres Commerce contrôle la manière dont le moteur de tarification Commerce recherche et détermine la combinaison optimale de remises qui se chevauchent. Il propose actuellement trois options :<p><ul><li> **Meilleure performance** – Cette option utilise un algorithme heuristique avancé et une méthode [classement de la valeur marginale](../optimal-combination-overlapping-discounts.md) pour hiérarchiser, évaluer et déterminer la meilleure combinaison de remises en temps opportun.</li><li>**Calcul équilibré** – Dans la base de code actuelle, cette option fonctionne exactement comme l’option **Meilleure performance**. Par conséquent, il s’agit essentiellement d’une option dupliquée.</li><li>**Calcul exhaustif** – Cette option utilise un ancien algorithme qui passe en revue toutes les combinaisons de remises possibles au moment du calcul du prix. Pour les commandes comportant des lignes et des quantités importantes, cette option peut entraîner des problèmes de performances.</li></ul><p>Pour simplifier la configuration, améliorer les performances et réduire les incidents causés par l’ancien algorithme, nous supprimerons complètement le paramètre **Gestion des remises qui se chevauchent** et mettrons à jour la logique interne du moteur de tarification de Commerce afin qu’il utilise désormais uniquement l’algorithme avancé (c’est-à-dire l’algorithme à l’origine de l’option **Meilleure performance**).</p> |
 | **Remplacé par une autre fonctionnalité ?**   | Non. Nous recommandons aux organisations qui utilisent le commutateur d’option **Calcul équilibré** ou **Calcul exhaustif** à l’option **Meilleure performance** avant que cette fonctionnalité ne soit supprimée. |
 | **Zones de produit affectées**         | Tarification et remises |
 | **Option de déploiement**              | Tout |
@@ -127,11 +144,11 @@ Le développement d’extensions PDV à l’aide de ModernPos.sln, CloudPos.sln,
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | À partir de cette version, dans le formulaire **Paramètres du planificateur Commerce** dans Dynamics 365 Headquarters, le champ **Intervalle de génération de l’ensemble de données complet en jours** sera obsolète. À partir de cette version également, le champ sera supprimé visuellement afin que la valeur ne puisse pas être modifiée. Cela restera comme la valeur **0**. |
-| **Remplacé par une autre fonctionnalité ?**   | Non |
+| **Motif de l’abandon/de la suppression** | À partir de cette version, dans le formulaire **Paramètres du planificateur Commerce** dans Dynamics 365 Headquarters, le champ **Intervalle de génération de l’ensemble de données complet en jours** sera obsolète. Aussi, à partir de cette version, le champ sera supprimé visuellement afin que la valeur ne puisse pas être modifiée. Cela restera comme la valeur **0**. |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Dynamics 365 Commerce |
-| **Option de déploiement**              | Tous|
-| **État**                         | Obsolète. N’utilisez pas ce champ et ne modifiez pas sa valeur.|
+| **Option de déploiement**              | Tout|
+| **Status**                         | Obsolète. N’utilisez pas ce champ et ne modifiez pas sa valeur.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.15
 
@@ -177,7 +194,7 @@ Le développement d’extensions PDV à l’aide de ModernPos.sln, CloudPos.sln,
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | L’extension de station matérielle utilisant IHardwareStationController est déconseillée pour fournir un modèle d’extension simplifié. La nouvelle implémentation n’aura que la classe IController sans aucune implémentation de classe supplémentaire et pour éviter la dépendance aux bibliothèques de station matérielle de base ; l’extension nécessitait auparavant de faire référence à plusieurs bibliothèques. |
-| **Remplacé par une autre fonctionnalité ?**   | Il est recommandé d’utiliser le modèle d’extension de classe IController en important le package NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Remplacé par une autre fonctionnalité ?**   | Il est recommandé d’utiliser le modèle d’extension de classe IController en important le package NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
 | **Zones de produit affectées**         | Extensions de station matérielle |
 | **Option de déploiement**              | Tout |
 | **État**                         | Obsolète : à partir de la version 10.0.11 |
@@ -187,18 +204,18 @@ Le développement d’extensions PDV à l’aide de ModernPos.sln, CloudPos.sln,
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Les opérations de prélèvement et de réception sont obsolètes en raison de la nouvelle conception de l’opération. |
-| **Remplacé par une autre fonctionnalité ?**   | Oui. Il est remplacé par deux nouvelles opérations PDV : l’opération entrante (804) et l’opération sortante (805).|
+| **Remplacé par une autre fonctionnalité ?**   | Oui. Il est remplacé par deux nouvelles opérations PDV : l’opération entrante (804) et l’opération sortante (805).|
 | **Zones de produit affectées**         | Application Point De Vente (PDV) |
 | **Option de déploiement**              | Tout |
 | **État**                         | Obsolète : à partir de la version 10.0.10, l’opération de prélèvement et de réception ne recevra plus de nouvelles mises à jour de fonctionnalités. Seules les corrections de bogues critiques seront effectuées pour cette opération dans les versions futures. Tous les clients sont encouragés à passer aux nouvelles [Opérations entrantes](../pos-inbound-inventory-operation.md) et [Opérations sortantes](../pos-outbound-inventory-operation.md), qui continueront à faire partie de notre feuille de route des produits à long terme. |
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.7
-### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>API Commerce GetProductAvailabilities et GetAvailableInventoryNearby
+### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>API de Commerce GetProductAvailabilities et GetAvailableInventoryNearby
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Ces nouvelles API optimisées ont été créées pour remplacer les API GetProductAvailabilities et GetAvailableInventoryNearby. |
-| **Remplacé par une autre fonctionnalité ?**   | Oui : remplacement par les API GetEstimatedAvailabilty et GetEstimatedProductWarehouseAvailability. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui : il est remplacé par les API GetEstimatedAvailabilty et GetEstimatedProductWarehouseAvailability. |
 | **Zones de produit affectées**         | SDK d’application e-Commerce |
 | **Option de déploiement**              | Tout |
 | **État**                         | Obsolète : à compter de la version 10.0.7, il n’y aura plus d’investissement d’ingénierie pour GetProductAvailabilities et GetAvailableInventoryNearby. Les organisations qui utilisent ces API dans leurs déploiements de commerce électronique doivent passer aux nouvelles API GetEstimatedAvailabilty et GetEstimatedProductWarehouseAvailability et activer la [fonction de calcul de la disponibilité des produits optimisée](../calculated-inventory-retail-channels.md).  |

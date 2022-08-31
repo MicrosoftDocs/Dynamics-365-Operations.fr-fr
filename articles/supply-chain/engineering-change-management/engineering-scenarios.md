@@ -2,7 +2,7 @@
 title: Présentation de la fonction de gestion des modifications d’ingénierie
 description: Cet article fournit une procédure de bout en bout qui montre comment utiliser la gestion des modifications techniques.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 65ff30632a54b0b7cadbfe663698d466d41abe47
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220025"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334893"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Présentation de la fonction de gestion des modifications d’ingénierie
 
@@ -284,7 +284,7 @@ Pour examiner le produit et le livrer à l’entreprise *USMF*, suivez ces étap
 
 1. Sélectionnez la valeur dans la colonne **Numéro du produit** pour ouvrir la page **Détails de la version du produit**. Notez les informations suivantes :
 
-    - Le raccourci **Général** affiche des informations sur la version du produit, comme la société de lancement (*DEMF* pour cet exemple), le site de livraison (*1*) et le site de réception (*1*). Parce que vous n’avez pas spécifié de site de réception dans l’Assistant **Lancement des produits**, la valeur du site de lancement est copiée sur le site de réception.
+    - Le raccourci **Général** affiche des informations sur la version du produit, comme la société de lancement (*DEMF* pour cet exemple), le site de livraison (*1*) et le site de réception (*1*). Parce que vous n’avez pas spécifié de site de réception dans l’Assistant **de mise en production des produits**, la valeur du site de lancement est copiée sur le site de réception.
     - Le raccourci **Détails de la version** affiche des informations sur le produit et la version publiée. Ici, vous pouvez modifier les paramètres tels que les dates de validité.
     - Le raccourci **Gamme** montre la gamme du produit. Cependant, pour cet exemple, vous n’avez lancé aucune gamme.
 

@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aae3d53c1005f096551b107c46ddafb37357f03c
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 37fb24bdda1d49291b88c6728e11aecf9863cc66
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219836"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324815"
 ---
 # <a name="configure-rates"></a>Configurer les taux
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Les taux définissent combien les employeurs et les employés cotisent pour un avantage. La valeur peut être un montant ou un nombre de crédits flexibles, selon votre configuration.
 

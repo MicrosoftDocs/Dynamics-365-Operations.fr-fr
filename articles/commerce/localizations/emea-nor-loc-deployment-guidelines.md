@@ -1,79 +1,61 @@
 ---
-ms.openlocfilehash: b17bd56f9f3e4def341658626915adbd7f5aada6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+title: Instructions de déploiement de caisses enregistreuses pour la Norvège (héritées)
+description: Cet article est un guide de déploiement qui montre comment activer la localisation Microsoft Dynamics 365 Commerce pour la Norvège.
+author: EvgenyPopovMBS
+ms.date: 08/23/2022
+ms.topic: article
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
+ms.search.region: Global
+ms.author: josaw
+ms.search.validFrom: 2018-2-28
+ms.openlocfilehash: fb597add48ac3508a88142e63d80f405b6b5f8b4
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281536"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346043"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Instructions de déploiement de caisses enregistreuses pour la Norvège (héritées)
----
 
-titre : Instructions de déploiement de caisses enregistreuses pour la Norvège (héritées) [!include [banner](../includes/banner.md)]
-description : Cet article est un guide de déploiement qui montre comment activer la localisation Microsoft Dynamics 365 Commerce pour la Norvège.
+[!include [banner](../includes/banner.md)]
 
-auteur : EvgenyPopovMBS Cet article est un guide de déploiement qui montre comment activer la localisation Microsoft Dynamics 365 Commerce pour la Norvège. La localisation consiste en plusieurs extensions des composants Commerce. Par exemple, les extensions vous permettent d’imprimer des champs personnalisés sur les reçus, d’enregistrer des événements d’audit supplémentaires, des transactions de vente et des transactions de paiement dans le point de vente (PDV), de signer numériquement les transactions de vente et d’imprimer des rapports X et Z dans des formats locaux. Pour plus d’informations sur la localisation pour la Norvège, voir [Fonctionnalité de caisse enregistreuse pour la Norvège](./emea-nor-cash-registers.md).
-ms.date : 20/12/2021
+> [!WARNING]
+> Cette fonctionnalité d’échantillon d'intégration fiscale ne tire pas parti du [cadre d’intégration fiscale](./fiscal-integration-for-retail-channel.md) et deviendra obsolète dans les mises à jour ultérieures. Vous devez plutôt utiliser la [fonctionnalité qui est basée sur le cadre de l’intégration fiscale](./emea-nor-fi-deployment.md).
 
-ms.topic : article Cet exemple fait partie du kit de développement logiciel (SDK) Retail. Pour en savoir plus le Kit de développement logiciel (SDK), voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
-public : Utilisateur de l’application, Développeur, Pro de l’informatique
+Cet article est un guide de déploiement qui montre comment activer la localisation Microsoft Dynamics 365 Commerce pour la Norvège. La localisation consiste en plusieurs extensions des composants Commerce. Par exemple, les extensions vous permettent d’imprimer des champs personnalisés sur les reçus, d’enregistrer des événements d’audit supplémentaires, des transactions de vente et des transactions de paiement dans le point de vente (PDV), de signer numériquement les transactions de vente et d’imprimer des rapports X et Z dans des formats locaux. Pour plus d’informations sur la localisation pour la Norvège, voir [Fonctionnalité de caisse enregistreuse pour la Norvège](./emea-nor-cash-registers.md).
 
-ms.reviewer : v-chgriffin Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT), Retail Server et PDV. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT, Retail Server et PDV. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cet article. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Microsoft Visual Studio Online (VSO), où aucun fichier n’a encore été modifié.
-ms.search.region : global
+Cet exemple fait partie du kit de développement logiciel (SDK) Retail. Pour en savoir plus le Kit de développement logiciel (SDK), voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-ms.author : josaw
+Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT), Retail Server et PDV. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT, Retail Server et PDV. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cet article. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Microsoft Visual Studio Online (VSO), où aucun fichier n’a encore été modifié.
+
 > [!NOTE]
-ms.search.validFrom : 2018-02-28 Dans Commerce 10.0.8 et versions ultérieures, Retail Server est appelé Commerce Scale Unit. Étant donné que ce sujet s’applique à plusieurs versions précédentes de l’application, *Retail Server* est utilisé tout au long du sujet.
+> Dans Commerce 10.0.8 et versions ultérieures, Retail Server est appelé Commerce Scale Unit. Étant donné que ce sujet s’applique à plusieurs versions précédentes de l’application, *Retail Server* est utilisé tout au long du sujet.
 >
----
 > Certaines étapes des procédures décrites dans cet article diffèrent selon la version de Commerce que vous utilisez. Pour plus d’informations, voir [Nouveautés ou changements dans Dynamics 365 Retail](../get-started/whats-new.md).
 
-
-6. Mettez à jour le fichier de configuration Retail Server. Dans le fichier **RetailSDK\\Packages\\RetailServer\\Code\\web.config**, ajoutez les lignes suivantes à la section composition **extensionComposition**.
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Utilisation des profils de certificat dans les canaux Commerce
 
-
-    ``` xml
 Dans Commerce versions 10.0.15 et ultérieures, vous pouvez utiliser la fonctionnalité [Profils de certificats définis par l’utilisateur pour les magasins de détail](./certificate-profiles-for-retail-stores.md) qui prend en charge le basculement hors connexion lorsque Key Vault ou le siège de Commerce ne sont pas disponibles. La fonctionnalité étend la fonction [Gérer les clés secrètes pour les canaux de vente au détail](../dev-itpro/manage-secrets.md).
-    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
 
-    ```
 Pour appliquer cette fonctionnalité dans l’extension CRT, suivez les étapes ci-après.
 
-
-7. Exécutez **msbuild** pour l’intégralité du kit de développement logiciel (SDK) Retail afin de créer des packages déployables.
 1. Créer un projet d’extension CRT (type de projet de bibliothèque de classes C#). Utilisez les exemples de modèles du kit de développement logiciel (SDK) Retail (RetailSDK\SampleExtensions\CommerceRuntime).
-8. Appliquer les packages via Microsoft Dynamics Lifecycle Services (LCS) ou manuellement. Pour plus d’informations, voir [Créer des packages déployables](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
-
 
 2. Ajoutez un gestionnaire personnalisé pour CertificateSignatureServiceRequest dans le projet SequentialSignatureRegister.
-### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>Activer la signature numérique en mode hors connexion pour le PDV moderne
-
 
 3. Pour lire un appel secret, `GetUserDefinedSecretCertificateServiceRequest` en utilisant un constructeur avec le paramètre profileId. Cela démarrera la fonctionnalité fonctionnant avec les paramètres des profils de certificat. En fonction des paramètres, le certificat sera récupéré à partir d’Azure Key Vault ou du stockage de la machine locale.
-Pour activer la signature numérique en mode hors connexion pour le PDV moderne, vous devez suivre ces étapes après avoir activé le PDV moderne sur un nouvel appareil.
-
 
     ```csharp
-1. Sign in to POS.
     GetUserDefinedSecretCertificateServiceRequest getUserDefinedSecretCertificateServiceRequest = new GetUserDefinedSecretCertificateServiceRequest(profileId: "ProfileId", secretName: null, thumbprint: null, expirationInterval: null);
-2. On the **Database connection status** page, make sure that the offline database is fully synchronized. When the value of the **Pending downloads** field is **0** (zero), the database is fully synchronized.
     GetUserDefinedSecretCertificateServiceResponse getUserDefinedSecretCertificateServiceResponse = request.RequestContext.Execute<GetUserDefinedSecretCertificateServiceResponse>(getUserDefinedSecretCertificateServiceRequest);
-3. Sign out of POS.
 
-4. Wait a while for the offline database to be fully synchronized.
     X509Certificate2 Certificate = getUserDefinedSecretCertificateServiceResponse.Certificate;
-5. Sign in to POS.
     ```
-6. Sur la page **Statut de la connexion à la base de données**, assurez-vous que la base de données hors connexion est entièrement synchronisée. Lorsque la valeur du champ **Transactions en attente dans la base de données hors connexion** est **0** (zéro), la base de données est entièrement synchronisée.
 
-7. Redémarrez le PDV moderne.
 4. Une fois le certificat récupéré, procédez à la signature des données.
 
-
-
 5. Construisez le projet d’extension CRT.
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 6. Copiez la bibliothèque de classes de sortie et collez-la dans ...\RetailServer\webroot\bin\Ext pour un test manuel.
 
@@ -1633,3 +1615,27 @@ Suivez ces étapes pour créer des packages déployables qui contiennent des com
     Le fichier est nommé **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config**, et se trouve sous **Extensions.SequentialSignatureRegister\\bin\\Debug**.
 
     ---
+
+6. Mettez à jour le fichier de configuration Retail Server. Dans le fichier **RetailSDK\\Packages\\RetailServer\\Code\\web.config**, ajoutez les lignes suivantes à la section composition **extensionComposition**.
+
+    ``` xml
+    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
+    ```
+
+7. Exécutez **msbuild** pour l’intégralité du kit de développement logiciel (SDK) Retail afin de créer des packages déployables.
+8. Appliquer les packages via Microsoft Dynamics Lifecycle Services (LCS) ou manuellement. Pour plus d’informations, voir [Créer des packages déployables](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+
+### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>Activer la signature numérique en mode hors connexion pour le PDV moderne
+
+Pour activer la signature numérique en mode hors connexion pour le PDV moderne, vous devez suivre ces étapes après avoir activé le PDV moderne sur un nouvel appareil.
+
+1. Connectez-vous à POS.
+2. Sur la page **Statut de la connexion à la base de données**, assurez-vous que la base de données hors connexion est entièrement synchronisée. Lorsque la valeur du champ **Téléchargements en attente** est **0** (zéro), la base de données est entièrement synchronisée.
+3. Déconnectez-vous du PDV.
+4. Attendez un moment que la base de données hors connexion soit entièrement synchronisée.
+5. Connectez-vous à POS.
+6. Sur la page **Statut de la connexion à la base de données**, assurez-vous que la base de données hors connexion est entièrement synchronisée. Lorsque la valeur du champ **Transactions en attente dans la base de données hors connexion** est **0** (zéro), la base de données est entièrement synchronisée.
+7. Redémarrez le PDV moderne.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

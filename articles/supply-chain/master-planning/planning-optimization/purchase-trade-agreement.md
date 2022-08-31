@@ -2,7 +2,7 @@
 title: Planification avec accords commerciaux d’achat
 description: Cet article décrit comment l’optimisation de la planification peut trouver le fournisseur et/ou le délai de livraison pour une commande prévisionnelle, en fonction du meilleur prix ou du meilleur délai de livraison trouvé dans les accords commerciaux d’achat.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873751"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335223"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planification avec accords commerciaux d’achat
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873751"
 
 Cet article décrit comment l’optimisation de la planification peut trouver le fournisseur et/ou le délai de livraison pour une commande prévisionnelle, en fonction du meilleur prix ou du meilleur délai de livraison trouvé parmi tous les accords commerciaux d’achat qui ont été passés pour un produit donné.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Activer la fonctionnalité Accords commerciaux d’achat pour l’optimisation de la planification
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité Accords commerciaux d’achat pour l’optimisation de la planification
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
-
-- **Module :** *Planification*
-- **Nom de la fonctionnalité :** *Accords commerciaux d’achat pour l’optimisation de la planification*
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Accords commerciaux d'achat pour l'optimisation de la planification* dans l’espace de travail [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Préparer le système pour évaluer les accords commerciaux d’achat lors de la planification
 

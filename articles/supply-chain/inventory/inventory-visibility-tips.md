@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3bdd161815a15d5c39b3c0afc176a288c8d9055a
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885955"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306083"
 ---
 # <a name="inventory-visibility-tips"></a>Conseils de visibilité des stocks
 
@@ -35,5 +35,8 @@ Voici quelques conseils que vous devez prendre en compte lorsque vous configurez
 - La [configuration de la partition](inventory-visibility-configuration.md#partition-configuration) se compose de deux dimensions de base (`SiteId` et `LocationId`) qui indiquent comment les données sont distribuées. Les opérations sous la même partition peuvent offrir des performances supérieures à moindre coût. La solution inclut cette configuration de partition par défaut. Par conséquent, *vous n’avez pas à la définir vous-même*. Ne personnalisez pas la configuration de partition par défaut. Si vous la supprimez ou la modifiez, vous risquez de provoquer une erreur inattendue.
 - Les dimensions de base définies dans la configuration de la partition ne doivent pas être définies dans la [configuration de hiérarchie d’index de produits](inventory-visibility-configuration.md#index-configuration).
 - Votre [configuration de hiérarchie d'index de produit](inventory-visibility-configuration.md#index-configuration) doit avoir au moins une hiérarchie d'index (par exemple, contenant la dimension de base `Empty`), sinon les requêtes échoueront avec l'erreur "Aucune hiérarchie d'index n'a été définie".
+- La source de données `@iv` est une source de données prédéfinie et les mesures physiques définies dans `@iv` avec préfixe `@` sont des mesures prédéfinies. Ces mesures sont une configuration prédéfinie pour la fonctionnalité de répartition, donc ne les modifiez pas ou ne les supprimez pas ou vous risquez de rencontrer des erreurs inattendues lors de l’utilisation de la fonctionnalité de répartition.
+- Vous pouvez ajouter de nouvelles mesures physiques à la mesure calculée prédéfinie `@iv.@available_to_allocate`, mais vous ne devez pas modifier son nom.
+- Si vous restaurez une base de données de Supply Chain Management, votre base de données restaurée peut contenir des données qui ne sont plus cohérentes avec les données précédemment synchronisées par Inventory Visibility sur Dataverse. Cette incohérence des données peut entraîner des erreurs système et d’autres problèmes. Par conséquent, il est important que vous nettoyiez toujours toutes les données liées à Inventory Visibility de Dataverse avant toute restauration d'une base de données de Supply Chain Management. Pour plus de détails, voir [Nettoyer les données de Inventory Visibility de Dataverse avant de restaurer la base de données de Supply Chain Management](inventory-visibility-setup.md#restore-environment-database).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

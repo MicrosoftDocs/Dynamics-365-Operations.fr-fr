@@ -2,7 +2,7 @@
 title: Contrats d’achat
 description: Cet article fournit des informations sur les contrats d’achat. Un contrat d’achat est un contrat par lequel une organisation s’engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l’acheteur a droit à des prix spéciaux et des remises.
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669543"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335883"
 ---
 # <a name="purchase-agreements"></a>Contrats d’achat
 
@@ -41,7 +41,7 @@ Pour éviter que votre contrat d’achat ne soit utilisé et confirmé, marquez 
 Vous pouvez identifier un collaborateur responsable principal et un collaborateur responsable secondaire dans la classification du contrat d’achat. Ces valeurs seront héritées par le contrat d’achat résultant. Vous n’êtes pas obligé d’ajouter des collaborateurs responsables au contrat d’achat, et ils peuvent être modifiés directement au cas par cas sur le contrat d’achat lui-même. Vous ne pouvez pas spécifier de collaborateur responsable secondaire sans collaborateur responsable principal, bien que vous n’ayez pas besoin d’avoir un collaborateur responsable secondaire. Vous ne pouvez pas spécifier le même collaborateur comme collaborateur responsable principal et secondaire.
 
 > [!IMPORTANT]
-> Pour utiliser la fonctionnalité de la partie responsable, vous devez l’activer sur votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Partie responsable du contrat d’achat* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> Pour utiliser la fonctionnalité de la partie responsable, vous devez l’activer dans votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Accord d'achat partie responsable* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Types d’engagements
 Chaque ligne d’un accord d’achat exprime un engagement à acheter quelque chose. Vous pouvez utiliser les lignes de plusieurs commandes fournisseur pour honorer l’engagement. Il existe quatre types d’engagements :

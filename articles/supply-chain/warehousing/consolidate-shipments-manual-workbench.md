@@ -2,7 +2,7 @@
 title: Consolider les expéditions à l’aide de l’atelier de consolidation des expéditions
 description: Cet article présente un scénario dans lequel plusieurs commandes sont validées dans l’entrepôt puis consolidées en expéditions ultérieurement à l’aide de l’atelier de consolidation des expéditions.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218616"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335793"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolider les expéditions à l’aide de l’atelier de consolidation des expéditions
 
@@ -34,14 +34,11 @@ Le scénario de cet article fait référence à des valeurs et des enregistremen
 
 Le scénario décrit ici suppose que vous avez déjà activé la fonctionnalité, effectué les exercices de la rubrique [Configurer les stratégies de consolidation de l’expédition](configure-shipment-consolidation-policies.md) et créé les stratégies et autres enregistrements qui y sont décrits. Assurez-vous de faire ces exercices avant de continuer avec ce scénario.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Activer la fonctionnalité de consolidation manuelle des expéditions
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité de consolidation manuelle des expéditions
 
-Avant de pouvoir utiliser la fonctionnalité *Consolidation manuelle des expéditions*, vous devez l’activer dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Pour pouvoir utiliser la consolidation manuelle des expéditions, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Consolidation manuelle des expéditions* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Module :** *Gestion des entrepôts*
-- **Nom de la fonctionnalité :** *Consolidation manuelle des expéditions*
-
-Vous devez également activer la fonctionnalité *Consolider l’expédition* pour pouvoir créer des stratégies. Pour plus d’informations, voir [Configurer des stratégies de regroupement des expéditions](configure-shipment-consolidation-policies.md).
+Vous devez également activer la fonctionnalité *Consolider l’expédition* avant de pouvoir créer des politiques (à partir de la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée). Pour plus d’informations, voir [Configurer des stratégies de regroupement des expéditions](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Créez les commandes client pour ce scénario
 

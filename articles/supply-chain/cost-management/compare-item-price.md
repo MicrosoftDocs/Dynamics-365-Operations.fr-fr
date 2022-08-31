@@ -2,7 +2,7 @@
 title: Rapport Comparer le stockage du prix des articles
 description: Découvrez comment générer un rapport Comparer le stockage du prix des articles, puis parcourir et/ou exporter le résultat.
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846211"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334983"
 ---
 # <a name="compare-item-prices-storage-report"></a>Comparer l’état de stockage des prix des articles
 
@@ -35,12 +35,9 @@ Les résultats du rapport sont stockés dans l’entité de données **Comparer 
 
 Le rapport **Comparer le stockage du prix des articles** est utile dans les cas où la sortie contient plusieurs lignes. Par exemple, la sortie contiendra plusieurs lignes si plus de 40 000 articles ont un prix d’article en attente dans la version d’évaluation des coûts.
 
-## <a name="enable-compare-item-prices-storage"></a>Activer la fonctionnalité Comparer le stockage du prix des articles
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité de sauvegarde de comparaison des prix d'article
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. La fonctionnalité est répertoriée comme suit :
-
-- **Module** : Gestion des coûts
-- **Nom de la fonctionnalité** : Comparer le stockage du prix des articles
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Sauvegarde de comparaison des prix d'article* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Générer un rapport Comparer le stockage du prix des articles
 

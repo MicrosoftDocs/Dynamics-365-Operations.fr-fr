@@ -2,7 +2,7 @@
 title: Remplacer le principe de réservation par défaut pour les articles en production
 description: Cet article décrit comment définir un principe de réservation par défaut pour chaque groupe de modèles d’article, afin que différents principes de réservation puissent être automatiquement appliqués pour chaque article faisant partie d’une nomenclature de production ou d’une formule de commande par lots.
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907230"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334593"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Remplacer le principe de réservation par défaut pour les articles en production
 
@@ -32,7 +32,7 @@ Par exemple, si des matières premières ou des ingrédients nécessitent un tra
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité Remplacer la réservation de production par défaut
 
-À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Remplacer la réservation de production par défaut* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette caractéristique en recherchant la caractéristique *Remplacement de la réservation de production par défaut* dans l’espace de travail [Gestion des caractéristiques](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Attribuer une stratégie de réservation de production à un groupe de modèles d’article
 

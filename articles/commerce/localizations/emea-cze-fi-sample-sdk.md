@@ -2,25 +2,29 @@
 title: Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour la République tchèque (héritées)
 description: Cet article fournit des lignes directrices pour le déploiement de l’exemple d’intégration fiscale pour la République tchèque à partir du Kit de développement logiciel de vente au détail (SDK) Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: d689e5b48fb8274a58d0c3a18e70b598aca2c310
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8338b1e11e1bd4fe7482b914ac6bf5f60ebc2e36
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287536"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313827"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour la République tchèque (héritées)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Cet article fournit des instructions pour le déploiement de l’exemple d’intégration de service d’enregistrement fiscal pour la République tchèque à partir du Kit de développement logiciel (SDK) Microsoft Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration du service d’enregistrement fiscal pour la République tchèque](emea-cze-fi-sample.md). 
+> [!IMPORTANT]
+> Vous devez suivre les instructions de cet article uniquement si vous utilisez Microsoft Dynamics 365 Commerce version 10.0.28 ou antérieure. A partir de la version 10.0.29 de Commerce, l’échantillon d’intégration du service d’enregistrement fiscal pour la République tchèque est disponible dans le SDK de Commerce. Pour plus d’informations, voir [Configurer les composants du canal](./emea-cze-fi-sample.md#configure-channel-components).
+
+Cet article fournit des instructions pour le déploiement de l’exemple d’intégration de service d’enregistrement fiscal pour la République tchèque à partir du (SDK) de Dynamics 365 Commerce Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations sur cet exemple d’intégration fiscale, voir [Exemples d’intégration du service d’enregistrement fiscal pour la République tchèque](emea-cze-fi-sample.md). 
 
 L’échantillon d’intégration fiscale pour la République tchèque fait partie du Kit de développement logiciel (SDK) Retail. Pour en savoir plus sur la manière d’installer et d’utiliser le SDK, voir [Architecture du kit de développement logiciel de Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Cet exemple se compose d’extensions pour l’environnement de Commerce Runtime (CRT) et la station matérielle. Pour exécuter cet exemple, vous devez modifier et générer les projets CRT et station matérielle. Nous vous recommandons d’utiliser un Kit de développement logiciel (SDK) Retail non modifié pour apporter les modifications décrites dans cet article. Nous vous recommandons également d’utiliser un système de contrôle de source, tel que Azure DevOps, où aucun fichier n’a encore été modifié.
 

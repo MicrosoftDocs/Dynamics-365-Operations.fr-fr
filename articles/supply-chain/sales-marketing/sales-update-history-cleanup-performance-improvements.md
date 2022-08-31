@@ -2,7 +2,7 @@
 title: Planifier le nettoyage des données de l’historique des ventes
 description: Cet article décrit comment améliorer les performances du système en programmant la tâche périodique Nettoyage de l'historique de mise à jour des ventes pour qu'elle s'exécute à intervalles réguliers.
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900823"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335501"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Planifier le nettoyage des données de l’historique des ventes
 
@@ -51,10 +51,7 @@ Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le syst
 
 La fonctionnalité *Nettoyer l’historique des mises à jour de ventes selon l’âge* vous permet de spécifier l'âge maximal des enregistrements à conserver lors de l'exécution de la tâche périodique *Nettoyage de l’historique des mises à jour des ventes*. Les enregistrements plus anciens seront supprimés. Cette fonctionnalité est utile lorsque vous configurez la tâche pour qu’elle s’exécute périodiquement, car l’âge est toujours calculé par rapport au moment d’exécution de la tâche. Si vous n'utilisez pas cette fonctionnalité, vous ne pouvez définir qu’une date spécifique pour les enregistrements les plus anciens à conserver.
 
-Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Ventes et marketing*
-- **Nom de la fonctionnalité :** *Nettoyer l’historique des mises à jour de ventes selon l’âge*
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Nettoyage de l'historique de mises à jour des ventes basée sur l'âge* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Configurer et planifier la tâche périodique de nettoyage de l'historique des ventes
 

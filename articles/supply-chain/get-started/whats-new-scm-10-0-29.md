@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7f5691c5784b7b381ff805b0431d8adb1a25f1cb
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266396"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334743"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.29 (octobre 2022)
 
@@ -74,10 +74,7 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 
 | Module | Nom de la fonction | Statut de la nouvelle fonctionnalité |
 | --- | --- | --- |
-| Gestion des actifs | [Appliquer des règles pour le regroupement des ordres d’exécution lors de l’exécution d’un plan de maintenance](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | Obligatoire |
 | Gestion des actifs | [Fonctionnalité de gestion d’actifs pour l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-configure.md) | Obligatoire |
-| Gestion des actifs | [Améliorations apportées à la maintenance par compteur](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | Activé par défaut |
-| Gestion des actifs | [Facturation de l’ordre de travail](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) | Obligatoire |
 | Gestion des coûts | [Remplacer le libellé de l’annulation dans Clôture et ajustement par Contrepasser](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse) | Obligatoire |
 | Gestion des coûts | Nettoyer les détails du calcul de la nomenclature des versions de coûts croisés | Obligatoire |
 | Gestion des coûts | [Comparer le stockage du prix des articles](../cost-management/compare-item-price.md) | Obligatoire |
@@ -102,7 +99,7 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Gestion des entrepôts et des stocks | Utilisation de l’unité de mesure et de la quantité d’unités dans les journaux de stock | Obligatoire |
 | Gestion des entrepôts et des stocks | Déverrouiller le journal de stock | Obligatoire |
 | Fabrication | [Prélèvement automatique des matières activées pour les entrepôts pour les prélèvements automatiquement validés](whats-new-scm-10-0-23.md) | Disponibilité générale |
-| Fabrication | Activer l'affichage des dimensions de stock dans la liste des matières pour les opérations de gamme de production | Activé par défaut |
+| Fabrication | Activer l'affichage des dimensions de stock dans la liste des matières pour les opérations de gamme de production | Obligatoire |
 | Fabrication | [Ce bouton permet d’entrer des numéros de lot et de série lors de la déclaration de fin à partir du périphérique de bons de travail](../production-control/report-finished-job-device.md) | Activé par défaut |
 | Fabrication | Prélèvement de la quantité en poids variable de production amélioré | Activé par défaut |
 | Fabrication | [Recherche de tâche pour l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-configure.md) | Obligatoire |
@@ -127,20 +124,19 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Planification générale | [Confirmation de l’ordre planifié avec filtrage](../master-planning/planning-optimization/planned-order-firming.md) | Obligatoire |
 | Planification générale | [Ordres de fabrication prévisionnels pour l’optimisation de la planification](../master-planning/planning-optimization/production-planning.md) | Obligatoire |
 | Planification générale | [Accords commerciaux d’achat pour l’optimisation de la planification](../master-planning/planning-optimization/purchase-trade-agreement.md) | Obligatoire |
-| Planification générale | Planification des ressources avec la maintenance | Obligatoire |
 | Planification générale | [Vues enregistrées des ordres prévisionnels](saved-views-scm.md) | Obligatoire |
 | Approvisionnements | Frais de et vers les montants sur les commandes fournisseur | Obligatoire |
 | Approvisionnements | Désactiver le bouton de réinitialisation de la répartition de demande d’achat | Activé par défaut |
 | Approvisionnements | [Activer la réinitialisation des flux de travail liés à l’approvisionnement](whats-new-scm-10-0-20.md) | Activé par défaut |
 | Approvisionnements | [Limiter le nombre de lignes des commandes fournisseur par tâche de traitement par lots](whats-new-scm-10-0-27.md) | Activé par défaut |
 | Approvisionnements | [Fusionner les dimensions financières du fournisseur avec la dimension financière de lien de dimension active sur la commande fournisseur](whats-new-scm-10-0-25.md) | Obligatoire |
+| Approvisionnements | [Valider les quantités enregistrées de produits stockés et les restes de produits non stockés pour les réceptions et les factures fournisseur](whats-new-scm-10-0-26.md) | Disponibilité générale |
 | Approvisionnements | [Empêcher la surconsommation des réservations budgétaires générales lorsque le flux de travail contient plusieurs demandes d’achat](whats-new-scm-10-0-21.md) | Activé par défaut |
 | Approvisionnements | [Partie responsable du contrat d’achat](../procurement/purchase-agreements.md) | Obligatoire |
 | Approvisionnements | [Vues enregistrées pour les commandes fournisseur](saved-views-scm.md) | Obligatoire |
 | Gestion des informations sur les produits | Pré-traitement de l’état de nomenclature afin d’éviter les délais d’attente | Obligatoire |
 | Gestion des informations sur les produits | Définir les dimensions financières par défaut séparément lors de l’utilisation des modèles d’article | Obligatoire |
 | Gestion des informations sur les produits | Activer les groupes de dimensions de produit pour les modèles d’article | Obligatoire |
-| Gestion des informations sur les produits | [Amélioration de l’héritage des attributs pour la gestion des changements d’ingénierie](../engineering-change-management/engineering-attributes-and-search.md) | Obligatoire |
 | Gestion des informations sur les produits | Article - Améliorations de l’entité code-barres | Obligatoire |
 | Gestion des informations sur les produits | Régénérer les noms de variantes de produit en fonction de la nomenclature | Obligatoire |
 | Gestion des informations sur les produits | [Vues enregistrées pour les produits lancés](saved-views-scm.md) | Obligatoire |
@@ -161,27 +157,30 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Ventes et marketing | [Confirmation de commande client en un seul clic](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation) | Obligatoire |
 | Gestion du transport | Autoriser le non-rapprochement des factures de transport à partir des lignes de facture de transport sans journal des factures fournisseur validé | Activé par défaut |
 | Gestion du transport | [Activer la création d’un journal des factures fournisseur lorsqu’une facture des frais de transport est ignorée](whats-new-scm-10-0-20.md) | Activé par défaut |
-| Gestion du transport | [Expédition de petits colis](../warehousing/small-parcel-shipping.md) | Activé par défaut |
+| Gestion du transport | [Expédition de petits colis](../warehousing/small-parcel-shipping.md) | Obligatoire |
 | Gestion du transport | [Certification USMCA du document d’origine](../transportation/usmca-certification-of-origin.md) | Activé par défaut |
 | Gestion des entrepôts | [Zone d’emplacement supplémentaire](../warehousing/additional-location-zones.md) | Obligatoire |
 | Gestion des entrepôts | [Annuler le travail](../warehousing/cancel-warehouse-work.md) | Obligatoire |
-| Gestion des entrepôts | [Consolider l'expédition](../warehousing/configure-shipment-consolidation-policies.md) | Activé par défaut |
+| Gestion des entrepôts | [Consolider l'expédition](../warehousing/configure-shipment-consolidation-policies.md) | Obligatoire |
 | Gestion des entrepôts | [Créer et traiter les ordres de transfert à partir de l’application d’entrepôt](../warehousing/create-transfer-order-from-warehouse-app.md) | Obligatoire |
-| Gestion des entrepôts | Modèles cross-docking avec instructions d’emplacement | Activé par défaut |
-| Gestion des entrepôts | [Découpler le travail de rangement des APE](whats-new-scm-10-0-21.md) | Activé par défaut |
-| Gestion des entrepôts | [Opérations put différées](../warehousing/deferred-processing-manual-inventory-movement.md) | Activé par défaut |
+| Gestion des entrepôts | Modèles de cross-docking avec instructions d’emplacement | Activé par défaut |
+| Gestion des entrepôts | [Découpler le travail de rangement des APE](whats-new-scm-10-0-21.md) | Obligatoire |
+| Gestion des entrepôts | [Opérations put différées](../warehousing/deferred-processing-manual-inventory-movement.md) | Obligatoire |
 | Gestion des entrepôts | Placement différé - conteneur | Activé par défaut |
 | Gestion des entrepôts | Traitement du placement différé : activez-le pour la fonction de modèle d'audit lorsque l'événement de déclenchement est défini sur Antérieur | Obligatoire |
 | Gestion des entrepôts | [Désactiver les réceptions prévues à partir d’ordres de qualité qui échantillonnent le stock bloqué](../inventory/inventory-blocking.md) | Activé par défaut |
 | Gestion des entrepôts | Activer le contrôle rapide pour les appareils mobiles d’entrepôt | Obligatoire |
-| Gestion des entrepôts | [Réservation de dimension de niveau entrepôt flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Activé par défaut |
-| Gestion des entrepôts | [Réservation flexible de contenants validée par commande](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Activé par défaut |
-| Gestion des entrepôts | [Visualisation de la charge de travail sortante](../warehousing/outbound-workload-visualization.md) | Obligatoire |
+| Gestion des entrepôts | [Analyseur amélioré pour les codes-barres GS1](../warehousing/gs1-barcodes.md) | Disponibilité générale |
+| Gestion des entrepôts | [Réservation flexible de contenants validée par commande](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Obligatoire |
+| Gestion des entrepôts | [Réservation de dimension de niveau entrepôt flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Obligatoire |
 | Gestion des entrepôts | [Utilisation de l’emplacement de consolidation des articles](../warehousing/item-consolidation-location-utilization.md) | Activé par défaut |
 | Gestion des entrepôts | Historique de réception de contenant | Activé par défaut |
 | Gestion des entrepôts | [Consolidation d'expédition manuelle](../warehousing/consolidate-shipments-manual-workbench.md) | Activé par défaut |
+| Gestion des entrepôts | [Service de prélèvement de ligne de transfert manuel pour les administrateurs ou les utilisateurs approuvés similaires](whats-new-scm-10-0-28.md) | Disponibilité générale |
 | Gestion des entrepôts | [Interface de l’équipement de manutention du matériel](../warehousing/mhax.md) | Obligatoire |
-| Gestion des entrepôts | [Cross-docking planifié](../warehousing/planned-cross-docking.md) | Activé par défaut |
+| Gestion des entrepôts | [Nouvelles pages de l’atelier de planification des chargements](whats-new-scm-10-0-24.md) | Disponibilité générale |
+| Gestion des entrepôts | [Visualisation de la charge de travail sortante](../warehousing/outbound-workload-visualization.md) | Obligatoire |
+| Gestion des entrepôts | [Cross-docking planifié](../warehousing/planned-cross-docking.md) | Obligatoire |
 | Gestion des entrepôts | [Traiter les événements d’application d’entrepôt](../warehousing/warehouse-app-events.md) | Obligatoire |
 | Gestion des entrepôts | Amélioration des requêtes pour le modèle de travail de rangement des coproduits et des sous-produits | Obligatoire |
 | Gestion des entrepôts | [Arrondir les quantités vers le bas pour l’unité de vente la plus proche à la libération dans l’entrepôt](whats-new-scm-10-0-19.md) | Obligatoire |
@@ -190,13 +189,14 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Gestion des entrepôts | [Vue enregistrée pour le traitement de la vague](saved-views-scm.md) | Obligatoire |
 | Gestion des entrepôts | [Vues enregistrées pour le traitement du chargement](saved-views-scm.md) | Obligatoire |
 | Gestion des entrepôts | [Vues enregistrées pour le traitement de l’expédition](saved-views-scm.md) | Obligatoire |
-| Gestion des entrepôts | Détails de l’étiquette de la vague d’expédition | Activé par défaut |
+| Gestion des entrepôts | [Scanner les codes-barres de GS1](../warehousing/gs1-barcodes.md) | Disponibilité générale |
+| Gestion des entrepôts | Détails de l’étiquette de la vague d’expédition | Obligatoire |
 | Gestion des entrepôts | [Insérer des créneaux dans les unités mixtes](whats-new-scm-10-0-21.md) | Obligatoire |
 | Gestion des entrepôts | [Utiliser une API plus rapide pour la clôture/réouverture des conteneurs sur la station de conditionnement](whats-new-scm-10-0-21.md) | Activé par défaut |
 | Gestion des entrepôts | [Valider les modèles sélectionnés pour les tâches de réapprovisionnement](whats-new-scm-10-0-20.md) | Activé par défaut |
-| Gestion des entrepôts | [Champs promus de l’application Warehouse](../warehousing/warehouse-app-promoted-fields.md) | Activé par défaut |
-| Gestion des entrepôts | [Instructions d’étape de l’application d’entrepôt](../warehousing/mobile-app-titles-instructions.md) | Activé par défaut |
-| Gestion des entrepôts | [Statut de l'emplacement de l'entrepôt](../warehousing/warehouse-location-status.md) | Activé par défaut |
+| Gestion des entrepôts | [Champs promus de l’application Warehouse](../warehousing/warehouse-app-promoted-fields.md) | Obligatoire |
+| Gestion des entrepôts | [Instructions d’étape de l’application d’entrepôt](../warehousing/mobile-app-titles-instructions.md) | Obligatoire |
+| Gestion des entrepôts | [Statut de l'emplacement de l'entrepôt](../warehousing/warehouse-location-status.md) | Obligatoire |
 | Gestion des entrepôts | [Détours de l’application Warehouse Management](../warehousing/warehouse-app-detours.md) | Activé par défaut |
 | Gestion des entrepôts | [Détails du traitement par lots des vagues](../warehousing/wave-processing.md) | Obligatoire |
 | Gestion des entrepôts | [Notifications d’exécution de vague](../warehousing/wave-execution-notifications.md) | Obligatoire |

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2bb4115a486fbfe7287c9b183224699de4dfd456
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069150"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335523"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Expédier des commandes client sans entreposage
 
@@ -45,7 +45,7 @@ Cet article explique comment mettre une commande client à jour lorsque les prod
 14. Sélectionnez **Modifier la vue**.
 15. Sélectionnez **Vue de l’en-tête**.
     - Si toutes les lignes de la commande ont été entièrement expédiées, le statut de la commande passe de En cours à Livrée.  
-    - Dans cet exemple, la ligne de commande a été partiellement expédiée. C’est pourquoi le statut de la commande demeure En cours.     
+    - Dans cet exemple, la ligne de commande a été partiellement expédiée. C’est pourquoi le statut de la commande demeure Ouvert.     
     - Le champ **Statut de document** est défini sur Bon de livraison parce qu’au moins une des lignes de commande a été expédiée.  
 16. Dans le volet Actions, sélectionnez **Général**.
 17. Sélectionnez **Quantité de ligne**.

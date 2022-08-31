@@ -2,7 +2,7 @@
 title: Blocage du stock
 description: Cette article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Supply Chain Management. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857806"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334683"
 ---
 # <a name="inventory-blocking"></a>Blocage du stock
 
@@ -96,11 +96,11 @@ Lorsque **Réserver les articles commandés** est désactivé, les réceptions p
 
 Notez la différence de statut de transaction et de dimensions entre les deux cas. Pour cette raison, nous vous recommandons d’activer l’option **Réserver les articles commandés**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Désactiver les réceptions prévues à partir d’ordres de qualité qui échantillonnent la fonction de stock bloquée
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Désactiver les réceptions prévues à partir d’ordres de qualité qui échantillonnent le stock bloqué
 
 Pour simplifier les transactions de stock dans le cas d’ordres de qualité dont le stock d’échantillons est bloqué en raison de l’état des stocks, le système fournit une fonctionnalité qui désactive les réceptions attendues de ces ordres de qualité. Étant donné que la réception attendue est immédiatement bloquée par le blocage de l’état du stock, il n’y a pas de réduction du stock disponible en raison de ce changement.
 
-Par défaut, cette fonctionnalité est désactivée. Les administrateurs peuvent l’activer ou le désactiver en recherchant la fonctionnalité *Désactiver les réceptions attendues des commandes de qualité qui échantillonnent l’inventaire bloqué* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est activée par défaut. Les administrateurs peuvent l’activer ou le désactiver en recherchant *Désactiver les reçus attendus des ordres de qualité qui échantillonnent l’inventaire bloqué* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -2,7 +2,7 @@
 title: Statut de l'emplacement de l'entrepôt
 description: Cet article fournit une vue d’ensemble de la fonctionnalité de statut de l’emplacement de l’entrepôt.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220055"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336093"
 ---
 # <a name="warehouse-location-status"></a>Statut de l’emplacement de l’entrepôt
 
@@ -40,9 +40,9 @@ Les quatre champs suivants de la page **Emplacements** effectuent le suivi des i
     - **Prélèvement** - Les transactions sortantes ont été effectuées à l’emplacement depuis qu’il a été vide pour la dernière fois.
     - **Stockage** - Seules les transactions sortantes ont été effectuées à l’emplacement depuis que l’emplacement a été vide pour la dernière fois.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>Activer la fonctionnalité de statut de l’emplacement dans l’entrepôt
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité de statut de l’emplacement de Warehouse
 
-Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le système. À compter de la version 10.0.29 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette caractéristique en recherchant la caractéristique *Statut de l'emplacement de l’entrepôt* dans l'espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Statut d'emplacement de Warehouse* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>Configurer le statut de l’emplacement dans l’entrepôt
 

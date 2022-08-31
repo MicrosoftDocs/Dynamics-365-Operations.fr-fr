@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895755"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306171"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Utiliser l’application Inventory Visibility
 
@@ -70,10 +70,24 @@ Pour valider une requête de réservation, vous devez saisir une valeur dans le 
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Récapitulatif du stock
 
-**Récapitulatif du stock** est une vue personnalisée de l’entité *Somme de stock disponible*. Elle fournit un récapitulatif du stock pour les produits avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks toutes les 15 minutes. Pour voir les données sur l’onglet **Récapitulatif du stock**, vous devez activer la fonction *OnHandMostSpecificContexteService* sur l’onglet **Gestion des fonctionnalités**, puis sélectionnez **Mettre à jour la configuration**.
+La page de **récapitulatif d'inventaire** fournit un récapitulatif d'inventaire pour les produits, avec toutes les dimensions. C'est une vue personnalisée de l’entité *Somme d'inventaire disponible*. Les données récapitulatives d'inventaire seront périodiquement synchronisées à partir de Inventory Visibility.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Activez le récapitulatif d’inventaire et définissez la fréquence de synchronisation
+
+Pour activer la page de **récapitulatif d’inventaire** et définir la fréquence de synchronisation, suivez ces étapes :
+
+1. Ouvrez la page **Configuration**.
+1. Ouvrez l’onglet **Gestion des fonctionnalités et Paramètres**.
+1. Réglez l’interrupteur à bascule pour la fonctionnalité **OnHandMostSpecificBackgroundService** sur *Oui*.
+1. Lorsque la fonction est activée, la section de **Paramétrage des services** devient disponible et comprend une ligne pour configurer la fonctionnalité **OnHandMostSpecificBackgroundService**. Ce paramètre vous permet de choisir la fréquence à laquelle les données récapitulatives de l’inventaire sont synchronisées. Utilisez les boutons **Haut** et **Bas** dans la collone **Valeur** pour modifier le temps entre les synchronisations (qui peut être aussi bas que 5 minutes). Sélectionnez ensuite **Enregistrer**.
+1. Sélectionnez **Mettre à jour la configuration** pour enregistrer toutes les modifications.
+
+![Paramètres OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.PNG "Paramètres OnHandMostSpecificBackgroundService")
 
 > [!NOTE]
 > La fonctionnalité *OnHandMostSpecificBackgroundService* suit uniquement les modifications du produit en stock qui se sont produites après l'activation de la fonctionnalité. Les données des produits qui n'ont pas changé depuis que vous avez activé la fonctionnalité ne seront pas synchronisées du cache du service d'inventaire vers l'environnement Dataverse. Si votre page **Récapitulatif du stock** n'affiche pas toutes les informations disponibles que vous attendez, accédez à **Gestion des stocks > Tâches périodiques > Intégration de la visibilité des stocks**, désactivez le traitement par lots et réactivez-le. Cela fera la poussée initiale, et toutes les données seront synchronisées avec l'entité *Somme d'inventaire disponible* dans les 15 prochaines minutes. Si vous souhaitez utiliser cette fonctionnalité, nous vous recommandons de l'activer avant de créer des modifications en cours et d'activer le traitement par lots **Intégration de la Visibilité des stocks**.
+
+### <a name="work-with-the-inventory-summary"></a>Travaillez avec le récapitulatif de l’inventaire
 
 En utilisant le **Filtre avancé** fourni par Dataverse, vous pouvez créer une vue personnelle qui affiche les lignes qui sont importantes pour vous. Les options de filtrage avancées vous permettent de créer un large éventail de vues, des plus simples aux plus complexes. Elles vous permettent également d’ajouter des conditions groupées et imbriquées aux filtres. Pour en savoir plus sur l’utilisation du **Filtre avancé**, voir [Modifier ou créer des vues personnelles à l’aide de filtres de grille avancés](/powerapps/user/grid-filters-advanced).
 

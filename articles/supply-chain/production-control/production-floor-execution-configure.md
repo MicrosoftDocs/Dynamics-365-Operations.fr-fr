@@ -2,7 +2,7 @@
 title: Configurer l’interface d’exécution de l’atelier de production
 description: Cet article décrit comment créer une ou plusieurs configurations pour l’interface d’exécution de l’atelier de production. Quand vous ouvrez l’interface d’exécution de l’atelier de production, elle charge automatiquement une configuration sélectionnée et un filtre de tâches spécifiques au navigateur et à l’appareil. Dans la configuration, vous définissez les stratégies qui doivent être applicables pour une utilisation spécifique.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220360"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336183"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -63,29 +63,32 @@ Cette fonctionnalité permet de permettre aux travailleurs de verrouiller l’é
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Fonctionnalité de gestion d’actifs pour l’interface d’exécution de l’atelier de production
 
-Cette fonctionnalité ajoute un onglet de gestion des actifs à l’interface d’exécution de l’atelier de production. Les collaborateurs peuvent utiliser cet onglet pour sélectionner un actif connecté à une ressource de machine qui se trouve dans le filtre sélectionné de la liste des tâches. Pour l’actif de machine sélectionné, le collaborateur peut afficher l’état et l’intégrité de l’actif à partir des valeurs de compteur de quatre compteurs sélectionnés au maximum. Si vous souhaitez utiliser cette fonctionnalité, activez la fonctionnalité suivante dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+Cette fonctionnalité ajoute un onglet de gestion des actifs à l’interface d’exécution de l’atelier de production. Les collaborateurs peuvent utiliser cet onglet pour sélectionner un actif connecté à une ressource de machine qui se trouve dans le filtre sélectionné de la liste des tâches. Pour l’actif de machine sélectionné, le collaborateur peut afficher l’état et l’intégrité de l’actif à partir des valeurs de compteur de quatre compteurs sélectionnés au maximum.
 
-- *Fonctionnalité de gestion d’actifs pour l’interface d’exécution de l’atelier de production*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
+À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Fonctionnalité de gestion des actifs pour l'interface d'exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-job-search"></a>Activer la recherche de tâches
+### <a name="job-search"></a>Rechercher des tâches
 
-Cette fonctionnalité permet d’ajouter un champ de recherche à la liste des tâches. Les collaborateurs peuvent rechercher une tâche spécifique en entrant l’ID de la tâche ou en recherchant toutes les tâches pour une commande spécifique en entrant l’ID de la commande. Les collaborateurs peuvent entrer l’ID en utilisant un pavé numérique ou en scannant un code-barres. Pour l’utiliser, activez la fonctionnalité suivante dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+Cette fonctionnalité permet d’ajouter un champ de recherche à la liste des tâches. Les collaborateurs peuvent rechercher une tâche spécifique en entrant l’ID de la tâche ou en recherchant toutes les tâches pour une commande spécifique en entrant l’ID de la commande. Les collaborateurs peuvent entrer l’ID en utilisant un pavé numérique ou en scannant un code-barres.
 
-- *Recherche de tâche pour l’interface d’exécution de l’atelier de production*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
+À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Recherche de tâches l'interface d'exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Activer la génération de rapport sur les co-produits et sous-produits
+### <a name="report-on-co-products-and-by-products"></a>Rapport sur les co-produits et sous-produits
 
-Cette fonctionnalité permet aux collaborateurs d’utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots. Ce reporting inclut le reporting sur les co-produits et les sous-produits. Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+Cette fonctionnalité permet aux collaborateurs d’utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots. Ce reporting inclut le reporting sur les co-produits et les sous-produits.
 
-- *État sur les co-produits et sous-produits de l’interface d’exécution de l’atelier de production*
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Rapport sur les co-produits et sous-produits de l’interface d’exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Activer l’affichage des numéros de série, de lot et de plaque d’immatriculation complets
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>Affichez les numéros de série, de lot et de plaque d’immatriculation complets
 
 Cette fonctionnalité offre une expérience améliorée pour l’affichage des listes de n° de série, n° lot et numéros de contenant dans l’interface d’exécution de l’atelier de production. L’affichage passe d’une vue de carte avec un nombre limité de caractères à une vue de liste qui offre suffisamment d’espace pour afficher les valeurs complètes. La liste offre également la possibilité de rechercher des numéros spécifiques.
 
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Afficher les numéros de série, de lots et de plaques d'immatriculation complets dans l’interface d’exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+
 À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Afficher les numéros de série, de traitements par lots et de contenants complets dans l’interface d’exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-registering-of-material-consumption"></a>Activer l’enregistrement de la consommation de matières
+### <a name="register-material-consumption"></a>Enregistrer la consommation de matières
 
 Cette fonctionnalité permet aux travailleurs d’utiliser l’interface d’exécution de l’atelier de production pour enregistrer la consommation de matériaux, les numéros de lot et les numéros de série. Certains fabricants, en particulier ceux des industries de transformation, doivent enregistrer explicitement la quantité de matière consommée pour chaque lot ou ordre de fabrication. Par exemple, les travailleurs peuvent utiliser une balance pour peser la quantité de matière consommée pendant qu’ils travaillent. Pour assurer une traçabilité totale des matériaux, ces organisations doivent également enregistrer les numéros de lots consommés au moment de la fabrication de chaque produit.
 
@@ -97,7 +100,7 @@ Il existe deux versions de cette fonctionnalité. L’une prend en charge les ar
 > [!IMPORTANT]
 > Vous pouvez utiliser la fonctionnalité non-WMS seule. Cependant, si vous utilisez WMS, vous devez activer les deux fonctionnalités.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Activer les rapports sur les éléments de poids variable
+### <a name="report-on-catch-weight-items"></a>Rapport sur les éléments à poids variable
 
 Les collaborateurs peuvent utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots pour les éléments de poids variable. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des éléments à poids variable en tant qu’éléments de formule, co-produits et sous-produits en sortie. Une formule peut également être définie pour avoir des lignes de formule pour les ingrédients qui sont définis pour le poids variable. Les éléments à poids variable utilisent deux unités de mesure pour suivre l’inventaire : la quantité de poids variable et la quantité de stock. Par exemple, dans l’industrie alimentaire, la viande en boîte peut être définie comme un élément à poids variable, où la quantité de poids variable est utilisée pour suivre le nombre de boîtes et la quantité d’inventaire est utilisée pour suivre le poids des boîtes.
 
@@ -105,15 +108,13 @@ Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [
 
 - *État sur les articles en poids variable à partir de l’interface d’exécution de l’atelier de production*
 
-### <a name="enable-the-my-day-dialog"></a>Activer la boîte de dialogue "Ma journée"
+### <a name="the-my-day-dialog"></a>La boîte de dialogue "Ma journée"
 
 La boîte de dialogue **Ma journée** fournit aux collaborateurs un aperçu de leurs enregistrements quotidiens et des soldes actuels pour le temps payé, les heures supplémentaires payées, les absences et les absences payées.
 
-Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant *l'aperçu "Ma journée" de l’interface d’exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- *Vue « Ma journée » pour l’interface d’exécution de l’atelier de production*
-
-### <a name="enable-teams"></a>Activer les équipes
+### <a name="teams"></a>Équipes
 
 Quand plusieurs collaborateurs sont affectés au même projet de rpdocution, ils peuvent former une équipe. L’équipe peut nommer un collaborateur comme pilote. Les collaborateurs restants deviennent alors automatiquement des assistants de ce pilote. Pour l’équipe résultante, seul le pilote doit enregistrer le statut du projet. Les enregistrements de temps s’appliquent à tous les membres de l’équipe.
 
@@ -121,7 +122,7 @@ Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [
 
 - *Équipes de production dans l’interface d’exécution de l’atelier de production*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Activation de la configuration supplémentaire sur l’interface d’exécution de l’atelier de production
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Configuration supplémentaire dans l’interface d’exécution de l’atelier de production
 
 Cette fonctionnalité ajoute des paramètres pour les fonctionnalités suivantes à la page **Configurer l’exécution de l’atelier de production** :
 
@@ -136,7 +137,6 @@ Les informations sur l’utilisation des paramètres sont fournies plus tard dan
 Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 
 - *Configuration supplémentaire sur l’interface d’exécution de l’atelier de production*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Utiliser les configurations de l’exécution de l’atelier de production
 

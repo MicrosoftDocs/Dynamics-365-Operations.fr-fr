@@ -2,7 +2,7 @@
 title: Planification de la production
 description: Cet article décrit la planification de la production et explique comment modifier les ordres de fabrication prévisionnels à l’aide de l’optimisation de la planification.
 author: t-benebo
-ms.date: 06/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873780"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335253"
 ---
 # <a name="production-planning"></a>Planification de la production
 
@@ -26,9 +26,9 @@ L’optimisation de la planification prend en charge plusieurs scénarios de pro
 
 La vidéo suivante donne une brève introduction à certains des concepts abordés dans cet article : [Dynamics 365 Supply Chain Management : Améliorations de l’optimisation de la planification](https://youtu.be/u1pcmZuZBTw).
 
-## <a name="turn-on-this-feature-for-your-system"></a>Activez cette fonctionnalité pour votre système
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>Activez ou désactivez cette fonctionnalité dans votre système
 
-Si votre système n’inclut pas déjà les fonctionnalités décrites dans cet article, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Ordres de fabrication prévisionnels pour l’optimisation de la planification*.
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Ordre de fabrication prévisionnel pour l'optimisation prévisionnelle* dans l’espace de travail [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="planned-production-orders"></a>Ordres de fabrication prévisionnels
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852503"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306112"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Répartition de stock pour Visibilité des stocks
 
@@ -63,12 +63,11 @@ La fonctionnalité d’allocation de stock comprend les composants suivants :
 - La source de données prédéfinie liée à l’allocation, les mesures physiques et les mesures calculées.
 - Groupes d’allocation personnalisables comportant un maximum de huit niveaux.
 - Un ensemble d’interfaces de programmation d’application (API) d’allocation :
-
-    - allouer
-    - réallouer
-    - ne pas allouer
-    - consommer
-    - interroger
+  - allouer
+  - réallouer
+  - ne pas allouer
+  - consommer
+  - interroger
 
 Le processus de configuration de la fonctionnalité d’allocation comporte deux étapes :
 
@@ -84,23 +83,26 @@ La source de données est nommée `@iv`.
 Voici les premières mesures physiques :
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Voici les premières mesures calculées :
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Ajouter d’autres mesures physiques à la mesure calculée disponible pour allocation
 
 Pour utiliser l’allocation, vous devez configurer la mesure calculée disponible pour allocation (`@iv.@available_to_allocate`). Par exemple, vous avez la source de données `fno` et la mesure `onordered`, la source de données `pos` et la mesure `inbound`, et vous voulez faire une allocation sur place pour la somme de `fno.onordered` et `pos.inbound`. Dans ce cas, `@iv.@available_to_allocate` doit contenir `pos.inbound` et `fno.onordered` dans la formule. Voici un exemple :
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> La source de données `@iv` est une source de données prédéfinie et les mesures physiques définies dans `@iv` avec préfixe `@` sont des mesures prédéfinies. Ces mesures sont une configuration prédéfinie pour la fonctionnalité de répartition, donc ne les modifiez pas ou ne les supprimez pas ou vous risquez de rencontrer des erreurs inattendues lors de l’utilisation de la fonctionnalité de répartition.
+>
+> Vous pouvez ajouter de nouvelles mesures physiques à la mesure calculée prédéfinie `@iv.@available_to_allocate`, mais vous ne devez pas modifier son nom.
 
 ### <a name="change-the-allocation-group-name"></a>Modifier le nom du groupe d’allocation
 
@@ -136,7 +138,7 @@ Appelez l’API `Allocate` pour allouer un produit qui a des dimensions spécifi
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ Par exemple, vous souhaitez allouer une quantité de 10 pour le produit *Vélo*,
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ Utilisez l’API `Reallocate` pour déplacer une quantité allouée vers une aut
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ Par exemple, vous pouvez déplacer deux vélos qui ont les dimensions \[1site=1,
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ Utilisez l’API `Consume` pour valider la quantité consommée par rapport à l
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ Maintenant, trois vélos sont vendus et ils sont prélevés sur le pool d’allo
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ Lorsque vous souhaitez consommer une quantité de 3 et réserver directement ce
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

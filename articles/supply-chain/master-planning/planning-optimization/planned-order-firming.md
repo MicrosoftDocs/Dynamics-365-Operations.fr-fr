@@ -2,7 +2,7 @@
 title: Commandes prévisionnelles confirmées
 description: Cet article explique comment confirmer des commandes prévisionnelles. Lorsque des commandes prévisionnelles sont confirmées, elles deviennent des commandes fournisseur, des ordres de transfert ou des ordres de fabrication réels.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857516"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335343"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -37,19 +37,21 @@ La plupart des fonctionnalités de commandes prévisionnelles sont disponibles d
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activer ou désactiver la confirmation de la mise en parallèle des commandes prévisionnelles
 
-La confirmation de la mise en parallèle permet d’accélérer le processus de confirmation en le mettant en parallèle sur plusieurs threads. Cette approche peut être utile lorsque de nombreuses commandes prévisionnelles sont confirmées. Pour utiliser cette fonctionnalité, la fonctionnalité *Consolidation parallèle des commandes planifiées* doit être activée pour votre système. À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, vous pouvez ensuite activer ou désactiver cette fonctionnalité en accédant à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et en recherchant la fonction *Confirmation de la mise en parallèle des ordres prévisionnels*.
+La confirmation de la mise en parallèle permet d’accélérer le processus de confirmation en le mettant en parallèle sur plusieurs threads. Cette approche peut être utile lorsque de nombreuses commandes prévisionnelles sont confirmées. Pour utiliser cette fonctionnalité, la fonctionnalité *Consolidation parallèle des commandes planifiées* doit être activée pour votre système. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Activer la confirmation des commandes prévisionnelles avec filtrage
+À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, vous pouvez ensuite activer ou désactiver cette fonctionnalité en accédant à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et en recherchant la fonction *Confirmation de la mise en parallèle des ordres prévisionnels*.
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Activez ou désactivez la confirmation des commandes prévisionnelles avec filtrage
 
 La confirmation des commandes prévisionnelles avec filtrage vous permet de définir des critères logiques pour sélectionner les commandes prévisionnelles à confirmer. Vous pouvez également prévisualiser les commandes prévisionnelles sélectionnées, exécuter le processus en arrière-plan et/ou le planifier en tant que traitement par lots.
 
-À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmation de l’ordre planifié avec filtrage* dans l’espace de travail [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette caractéristique en recherchant la caractéristique *Confirmation des commandes prévisionnelles avec filtrage* dans l’espace de travail [Gestion des caractéristiques](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Activer la confirmation automatique pour l’Optimisation de la planification
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Activez ou désactivez la confirmation automatique pour l’Optimisation de la planification
 
 La confirmation automatique vous permet de confirmer les commandes prévisionnelles dans le cadre du processus de planification durant la plage de gestion de confirmation. La confirmation automatique est toujours prise en charge pour le moteur de planification intégré à Supply Chain Management. Vous devez cependant activer la fonctionnalité pour l’utiliser également avec l’Optimisation de la planification.
 
-Pour rendre cette fonctionnalité disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Confirmation automatique de l’Optimisation de la planification*. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
+À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.29, vous pouvez activer ou désactiver cette caractéristique en accédant à [Gestion des caractéristiques](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et en recherchant la caractéristique *Confirmation automatique de l'optimisation prévisionnelle*.
 
 ## <a name="manually-firm-planned-orders"></a>Confirmer manuellement les commandes prévisionnelles
 
@@ -67,8 +69,8 @@ Pour confirmer manuellement les commandes prévisionnelles, recherchez et sélec
 
     - **Mettre à jour le marquage** – Sélectionnez la politique de marquage du stock à utiliser lors de la confirmation de commandes prévisionnelles.
     - **Arrêter la confirmation si une erreur se produit** – Définissez cette option sur *Oui* pour arrêter de confirmer toutes les commandes prévisionnelles sélectionnées si une erreur se produit dans l’une d’entre elles. Cette option doit être définie sur *Non* si l’option **Confirmation de la mise en parallèle** est définie sur *Oui*.
-    - **Confirmation de la mise en parallèle** – Cette option n’est disponible que si la fonctionnalité [*Confirmation de la mise en parallèle des commandes prévisionnelles*](#enable-features) est activée dans votre système et si vous avez sélectionné au moins deux commandes prévisionnelles pour confirmation. Définissez l’option sur *Oui* pour exécuter les processus de conformation en parallèle. Une confirmation de la mise en parallèle peut aider à améliorer les performances.
-    - **Nombre de threads** – Cette option n’est disponible que si la fonctionnalité [*Confirmation de la mise en parallèle des commandes prévisionnelles*](#enable-features) est activée dans votre système et si vous avez défini l’option **Confirmation de la mise en parallèle** sur *Oui*. Entrez le nombre de threads à utiliser pour mettre en parallèle le processus de confirmation. Pour obtenir des conseils sur l’utilisation de cette option dans la planification générale, voir [Améliorer les performances de planification](../master-planning-performance.md#number-of-threads).
+    - **Confirmation de la mise en parallèle** – Cette option n’est disponible que si la caractéristique [*Confirmation de la mise en parallèle des commandes prévisionnelles*](#enable-features) est activée dans votre système et si vous avez sélectionné au moins deux commandes prévisionnelles pour confirmation. Définissez l’option sur *Oui* pour exécuter les processus de conformation en parallèle. Une confirmation de la mise en parallèle peut aider à améliorer les performances.
+    - **Nombre de threads** – Cette option n’est disponible que si la caractéristique [*Confirmation de la mise en parallèle des commandes prévisionnelles*](#enable-features) est activée dans votre système et si vous avez défini l’option **Confirmation de la mise en parallèle** sur *Oui*. Entrez le nombre de threads à utiliser pour mettre en parallèle le processus de confirmation. Pour obtenir des conseils sur l’utilisation de cette option dans la planification générale, voir [Améliorer les performances de planification](../master-planning-performance.md#number-of-threads).
 
         > [!NOTE]
         > Une valeur *0* (zéro) pour le champ **Nombre de threads** augmente le temps d’exécution de la planification générale. Par conséquent, nous vous recommandons de toujours définir ce champ sur une valeur supérieure à 0.
@@ -97,7 +99,7 @@ La confirmation automatique vous permet de confirmer des commandes prévisionnel
 > Les commandes dérivées (c’est-à-dire les commandes d’achat de sous-traitance) confirmées afficheront un statut *En cours de révision* si le suivi des modifications de dossier est activé.
 
 > [!IMPORTANT]
-> Avant que la fonctionnalité décrite dans cette section puisse être utilisée avec Optimisation de la planification, la fonctionnalité [*Confirmation automatique de l’Optimisation de la planification*](#enable-features) doit être activée dans votre système, comme décrit au début de cet article. La confirmation automatique peut toujours être utilisée avec le moteur de planification principal intégré.
+> Avant que la caractéristique décrite dans cette section puisse être utilisée avec Optimisation de la planification, la caractéristique [*Confirmation automatique de l’Optimisation de la planification*](#enable-features) doit être activée dans votre système, comme décrit au début de cet article. La confirmation automatique peut toujours être utilisée avec le moteur de planification principal intégré.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmation automatique avec l’option Optimisation de la planification par rapport au moteur de planification intégré
 
@@ -130,7 +132,7 @@ Une confirmation basée une requête vous permet de planifier une confirmation e
 Vous pouvez combiner la confirmation automatique avec celle basée sur une requête. Par exemple, une tâche de confirmation basée sur une requête a une plage de temps plus longue que celle d’une configuration de couverture de confirmation automatique correspondante. Par conséquent, la tâche de confirmation basée sur une requête traitera ses commandes prévisionnelles avant que la confirmation automatique ne soit déclenchée. Vous pouvez profiter de ce comportement pour planifier des commandes pour des fournisseurs spécifiques différemment des commandes pour des produits similaires d’autres fournisseurs.
 
 > [!IMPORTANT]
-> Avant que la fonctionnalité décrite dans cette section puisse être utilisée, la fonctionnalité [*Confirmation des commandes prévisionnelles avec filtrage*](#enable-features) doit être activée dans votre système, comme décrit au début de cet article.
+> Avant que la caractéristique décrite dans cette section puisse être utilisée, la caractéristique [*Confirmation des commandes prévisionnelles avec filtrage*](#enable-features) doit être activée dans votre système, comme décrit au début de cet article.
 
 Pour confirmer une commande prévisionnelle à l’aide du processus de confirmation basé sur une requête, procédez comme suit :
 

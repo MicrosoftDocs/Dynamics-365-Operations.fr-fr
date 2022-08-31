@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895697"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306052"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Installer et configurer Inventory Visibility
 
@@ -43,7 +43,7 @@ Si vous avez des questions sur ces conditions préalables, contactez l’équipe
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Installer le complément de visibilité de stock
 
-Avant d’installer le module complémentaire, enregistrez une application et ajoutez une clé secrète client à Azure Active Directory (Azure AD) sous votre abonnement Azure. Pour les instructions, voir [Enregistrer une application](/azure/active-directory/develop/quickstart-register-app) et [Ajouter une clé secrète client](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Assurez-vous de noter des valeurs des **ID de l’application (client)** , **Clé secrète client**, et **ID du locataire**, car vous en aurez besoin plus tard.
+Avant d’installer le module complémentaire, enregistrez une application et ajoutez une clé secrète client à Azure Active Directory (Azure AD) sous votre abonnement Azure. Pour les instructions, voir [Enregistrer une application](/azure/active-directory/develop/quickstart-register-app) et [Ajouter une clé secrète client](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Assurez-vous de noter les valeurs de **ID de l’application (client)** , **Clé secrète client**, et **ID du tenant**, car vous en aurez besoin plus tard.
 
 > [!IMPORTANT]
 > Si vous avez plusieurs environnements LCS, créez une application Azure AD différente de ces derniers. Si vous utilisez le même ID d’application et le même ID de locataire pour installer le complément de visibilité des stocks pour différents environnements, un problème de jeton se produira pour les environnements plus anciens. En tant que résultat, seule la dernière installation est valide.
@@ -88,20 +88,6 @@ Après avoir enregistré une application et ajouté un clé secrète client à A
 >
 > 1. Une fois l'installation terminée, revenez à la page LCS et réessayez de réinstaller le complément **Visibilité des stocks**.
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Désinstaller le complément de visibilité des stocks
-
-Pour désinstaller le complément de visibilité des stocks, sélectionnez **Désinstaller** sur la page LCS. Le processus de désinstallation met fin au complément de visibilité des stocks, annule l’enregistrement du complément de LCS et supprime toutes les données temporaires stockées dans le cache de données du complément de visibilité des stocks. Cependant, les données de stock principales qui sont stockées dans votre abonnement Dataverse ne sont pas supprimées.
-
-Pour désinstaller les données de stock stockées dans votre abonnement Dataverse, ouvrez [Power Apps](https://make.powerapps.com), sélectionnez **Environnement** dans la barre de navigation et sélectionnez l’environnement Dataverse lié à votre environnement LCS. Ensuite allez dans **Solutions**, et supprimez les cinq solutions suivantes dans cet ordre :
-
-1. Ancrer la solution pour l’application Inventory Visibility dans les solutions Dynamics 365
-1. Solution d’application Dynamics 365 FNO SCM Inventory Visibility
-1. Configuration du service de stock
-1. Visibilité des stocks autonome
-1. Solution de base Dynamics 365 FNO SCM Inventory Visibility
-
-Après avoir supprimé ces solutions, les données stockées dans les tables seront également supprimées.
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurer la visibilité des stocks dans Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Déployer le package d’intégration de la visibilité d’inventaire
@@ -113,7 +99,7 @@ Si vous exécutez la version 10.0.17 ou antérieure de Supply Chain Management,
 >
 > Le code est inclus dans la version 10.0.18 de Supply Chain Management. Si vous exécutez cette version ou une version ultérieure, le déploiement n’est pas requis.
 
-Assurez-vous que les fonctionnalités suivantes sont activées dans votre environnement Supply Chain Management. (Par défaut, ils sont identiques.)
+Assurez-vous que les fonctionnalités suivantes sont activées dans votre environnement Supply Chain Management. (Par défaut, ils sont activés.)
 
 | Description de fonctionnalité | Version du code | Basculer la classe |
 |---|---|---|
@@ -122,7 +108,7 @@ Assurez-vous que les fonctionnalités suivantes sont activées dans votre enviro
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Configurer l’intégration de la visibilité du stock
 
-Une fois que vous avez installé le complément, préparez votre système Supply Chain Management pour l’utiliser en procédant comme suit.
+Une fois que vous avez installé le complément, préparez votre système Supply Chain Management pour l’utilisation en procédant comme suit.
 
 1. Dans Supply Chain Management, ouvrez l’espace de travail **[Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** et activez les fonctionnalités suivantes :
     - *Intégration de la visibilité des stocks* : requis.
@@ -135,10 +121,45 @@ Une fois que vous avez installé le complément, préparez votre système Supply
 
 1. Si vous avez activé l’option *Intégration de la visibilité des stocks avec compensation des réservations*, ouvrez l’onglet **Compensation des réservations** et effectuez les réglages suivants :
     - **Activer la compensation des réservations** : définissez-le sur *Oui* pour activer cette fonctionnalité.
-    - **Modificateur de la compensation des réservations** : sélectionnez le statut de la transaction de stock qui compensera les réservations effectuées sur la visibilité des stocks. Ce paramètre détermine l’étape de traitement de la commande qui déclenche les compensations. L’étape est tracée par le statut du mouvement de stock de la commande. Choisissez l’une des méthodes suivantes :
+    - **Modificateur de la compensation des réservations** : sélectionnez le statut de la transaction de stock qui compensera les réservations effectuées sur la visibilité des stocks. Ce paramètre détermine l’étape de traitement de la commande qui déclenche les compensations. L’étape est tracée par le statut du mouvement de stock de la commande. Choisissez l’une des options suivantes :
         - *Sur commande* – Pour le statut *Sur transaction*, une commande enverra une demande de compensation lors de sa création. La quantité de compensation sera la quantité de la commande créée.
         - *Réserve* – Pour le statut *Réserver la transaction commandée*, une commande enverra une demande de compensation lorsqu’elle est réservée, prélevée, validée par bon de livraison ou facturée. La demande ne sera déclenchée qu’une seule fois, pour la première étape lorsque le processus mentionné se produit. La quantité de compensation sera la quantité pour laquelle le statut de la transaction de stock sera passé de *En commande* à *Réservé commandé* (ou statut ultérieur) sur la ligne de commande correspondante.
 
 1. Aller à **Gestion de l’inventaire \> Périodique \> Intégration de la visibilité de l’inventaire** et activez le travail. Tous les événements de changement d’inventaire de Supply Chain Management seront désormais publiés dans la visibilité des stocks.
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Désinstaller le complément de visibilité des stocks
+
+Pour installer le complément Inventory Visibility, procédez comme suit :
+
+1. Connectez-vous à Supply Chain Management.
+1. Aller à **Gestion de l’inventaire \> Périodique \> Intégration de Inventory Visibility** et désactivez la tâche.
+1. Accédez à LCS et ouvrez la page de l’environnement dans lequel vous souhaitez désinstaller le complément (voir aussi [Installer le complément de Inventory Visibility](#install-add-in)).
+1. Sélectionnez **Désinstaller**.
+1. Le processus de désinstallation met fin au complément de Inventory Visibility, annule l’enregistrement du complément de LCS et supprime toutes les données temporaires stockées dans le cache de données du complément de Inventory Visibility. Cependant, les données d'inventaire principales qui sont synchronisées à votre abonnement Dataverse ne sont pas supprimées. Pour supprimer ces données, terminez le reste de cette procédure.
+1. Ouvrez [Power Apps](https://make.powerapps.com).
+1. Sélectionnez **Environnement** sur la barre de navigation
+1. Sélectionnez l'environnement Dataverse lié à votre environnement LCS.
+1. Allez dans **Solutions**, et supprimez les solutions suivantes dans cet ordre :
+    1. Ancrer la solution pour l’application Inventory Visibility dans les solutions Dynamics 365
+    1. Solution d’application Dynamics 365 FNO SCM Inventory Visibility
+    1. Configuration du service de stock
+    1. Visibilité des stocks autonome
+    1. Solution de base Dynamics 365 FNO SCM Inventory Visibility
+
+    Après avoir supprimé ces solutions, les données stockées dans les tables seront également supprimées.
+
+> [!NOTE]
+> Si vous restaurez une base de données Supply Chain Management après avoir désinstallé le complément de Inventory Visibility, et souhaitez réinstaller le complément, assurez-vous que vous avez supprimé les anciennes données de Inventory Visibility qui sont stockées dans votre abonnement Dataverse (comme décrit dans la procédure précédente) avant de réinstaller le complément. Cela évitera les problèmes d’incohérence des données qui pourraient autrement se produire.
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a>Nettoyez les données de Inventory Visibility de Dataverse avant de restaurer la base de données de Supply Chain Management.
+
+Si vous étiez entrain d'utiliser Inventory Visibility et vous restaurez la base de données de Supply Chain Management, votre base de données restaurée peut contenir des données qui ne sont plus cohérentes avec les données précédemment synchronisées par Inventory Visibility sur Dataverse. Cette incohérence des données peut entraîner des erreurs système et d’autres problèmes. Par conséquent, il est important que vous nettoyiez toujours toutes les données liées à Inventory Visibility de Dataverse avant toute restauration d'une base de données de Supply Chain Management.
+
+Si vous devez restaurer une base de données Supply Chain Management, utilisez la procédure suivante :
+
+1. Désinstallez le complément Inventory Visibility et supprimez toutes les données y relatives dans Dataverse, comme décrit dans [Désinstallez le complément Inventory Visibility](#uninstall-add-in)
+1. Restaurez votre base de données Supply Chain Management, par exemple comme décrit dans [restauration à un instant dans le passé de la base de données (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md) ou [restauration à un instant dans le passé de la base de données de production à un environnement bac à sable](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md).
+1. Si vous souhaitez toujours l’utiliser, réinstallez et configurez le complément Inventory Visibility comme décrit dans [Installer le complément de Inventory Visibility](#install-add-in) et [Configurez l’intégration de Inventory Visibility](#setup-inventory-visibility-integration)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

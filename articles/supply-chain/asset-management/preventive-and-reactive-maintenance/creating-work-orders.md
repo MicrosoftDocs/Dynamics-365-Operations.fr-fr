@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ba01a90f805300a27e4550e1371fb55d5e3a7536
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891203"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335043"
 ---
 # <a name="creating-work-orders"></a>Création d’ordres de travail
 
@@ -64,7 +64,7 @@ Cette fonction vous permet de définir des règles de regroupement des lignes d�
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Activer le regroupement pour les ordres de travail générés automatiquement
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des actifs*
 - **Nom de fonctionnalité :** *Appliquer les règles de regroupement d’ordres de travail lors de l’exécution d’un plan de maintenance*

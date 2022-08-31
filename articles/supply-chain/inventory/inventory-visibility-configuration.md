@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066668"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306316"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer Inventory Visibility
 
@@ -52,7 +52,7 @@ Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnali
 | Nom dans la Gestion des fonctionnalités | Description |
 |---|---|
 | *OnHandReservation* | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Visibilité des stocks. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
-| *OnHandMostSpecificBackgroundService* | Cette fonctionnalité fournit un récapitulatif du stock pour les produits, avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnHandMostSpecificBackgroundService* | Cette fonctionnalité fournit un récapitulatif du stock pour les produits, avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. La fréquence de synchronisation par défaut est d’une fois toutes les 15 minutes et peut être réglée jusqu’à une fois toutes les 5 minutes. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Cette fonctionnalité facultative active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV). Pour plus d’informations, voir [Planning de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md). |
 | *Allocation* | Cette fonctionnalité facultative permet à Inventory Visibility d'avoir la possibilité de protéger les stocks (ringfencing) et de contrôler la survente. Pour plus d’informations, voir [Répartition de stock pour Visibilité des stocks](inventory-visibility-allocation.md). |
 | *Activer les articles d’entrepôt dans Visibilité des stocks* | Cette fonctionnalité facultative permet à la Visibilité des stocks de prendre en charge les articles activés pour les processus de gestion des entrepôts (articles WMS). Pour plus d’informations, voir [Prise en charge de la Visibilité des stocks pour les articles WMS](inventory-visibility-whs-support.md). |

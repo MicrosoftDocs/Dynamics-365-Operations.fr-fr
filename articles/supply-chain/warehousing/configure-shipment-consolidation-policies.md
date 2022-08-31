@@ -2,7 +2,7 @@
 title: Configurer les stratégies de consolidation de l’expédition
 description: Cet article explique comment configurer des stratégies de consolidation de l’expédition par défaut et personnalisées.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219530"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336490"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurer les stratégies de consolidation de l’expédition
 
@@ -33,10 +33,7 @@ Les scénarios présentés dans cet article montrent comment configurer des stra
 > [!IMPORTANT]
 > Dans le [premier scénario](#scenario-1) décrit dans cet article, vous allez d’abord configurer un entrepôt afin qu’il utilise la fonctionnalité de consolidation de l’expédition antérieure. Vous rendrez ensuite disponibles les stratégies de consolidation de l’expédition. De cette façon, vous pouvez découvrir le fonctionnement du scénario de mise à niveau. Si vous prévoyez d’utiliser un environnement de données de démonstration pour passer par le premier scénario, n’activez pas la fonctionnalité avant de réaliser le scénario.
 
-Avant de pouvoir utiliser la fonctionnalité *Stratégies de consolidation de l’expédition*, vous devez l’activer dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Gestion des entrepôts*
-- **Nom de la fonctionnalité :** *Consolider l’expédition*
+Pour utiliser la fonctionnalité *Politiques de consolidation de l’expédition*, il doit être activer pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Politiques de consolidation de l'expédition* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 

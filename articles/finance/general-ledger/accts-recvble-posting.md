@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874572"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324327"
 ---
 # <a name="accounts-receivable-posting"></a>Validation dans la comptabilité client
 
 [!include [banner](../includes/banner.md)]
 
 Le principal profil de validation pour le module **Comptabilité client** est le profil de validation client. Ce profil de validation détermine le compte collectif utilisé lorsque les soldes des clients sont validés dans la comptabilité. Un compte collectif est un compte principal. Il est également appelé compte commercial de la comptabilité client.
+
+Le rapport **Rapprochement client-grand livre** peut être utilisé après la validation pour faciliter le rapprochement des soldes des comptes client et du grand livre. Le rapport utilise les informations trouvées dans le compte récapitulatif du profil de validation client. Il n’utilise pas le compte récapitulatif de la comptabilité crée pour le document. Si vous apportez des modifications au profil de validation du client ou au groupe de clients affecté au client après avoir validé des transactions, le rapport peut afficher des différences entre le client et le solde du compte général. Pour afficher uniquement les lignes qui présentent des différences et toutes les lignes pour lesquelles les comptes client et le compte général sont tous les deux à zéro, sélectionnez l’option **Différences uniquement** lors de l’impression du rapport.
 
 Pour plus d’informations, voir [Profils de validation client](../accounts-receivable/customer-posting-profiles.md).
 

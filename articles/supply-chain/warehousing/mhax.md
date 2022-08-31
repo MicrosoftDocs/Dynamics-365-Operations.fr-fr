@@ -2,7 +2,7 @@
 title: Interface de l’équipement de manutention du matériel (MHAX)
 description: Cet article décrit comment configurer l’Interface de l’équipement de manutention du matériel (MHAX) afin que vous puissiez vous connecter à des systèmes de manutention physique (MH) externes.
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068357"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334353"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface de l’équipement de manutention du matériel (MHAX)
 
@@ -41,12 +41,13 @@ Voici une explication des interactions présentées dans l’illustration préc�
 
 Avant de pouvoir utiliser la fonction MHAX, vous devez activer à la fois sa fonction et sa clé de configuration.
 
-1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
-2. Dans l’espace de travail **[Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**, activez la fonctionnalité nommée *Interface d’équipement de manutention du matériel*.
-3. Mettez votre système en mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-4. Accédez à **Administration système \> Paramétrage \> Configuration des licences**.
-5. Développer **Échanger \> Gestion des entrepôts et du transport**, puis cochez la case **Interface d’équipement de manutention du matériel**.
-6. Désactiver le mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Si vous utilisez Supply Chain Management version 10.0.28 ou antérieure, suivez les étapes suivantes :
+    1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
+    1. Dans l’espace de travail **[Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**, activez la fonctionnalité nommée *Interface d’équipement de manutention du matériel*. (Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut être désactivée.)
+1. Mettez votre système en mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Accédez à **Administration système \> Paramétrage \> Configuration des licences**.
+1. Développer **Échanger \> Gestion des entrepôts et du transport**, puis cochez la case **Interface d’équipement de manutention du matériel**.
+1. Désactiver le mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 ## <a name="set-mhax-parameters"></a>Définition des paramètres MHAX
 

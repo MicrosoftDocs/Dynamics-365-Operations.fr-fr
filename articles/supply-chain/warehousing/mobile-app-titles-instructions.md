@@ -2,7 +2,7 @@
 title: Personnaliser les titres d’étapes et les instructions pour l’application mobile Warehouse Management
 description: Cet article explique comment créer et afficher des instructions personnalisées pour chaque étape de chaque flux de tâches que vous configurez pour l'application mobile Warehouse Management.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220147"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334474"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Personnaliser les titres d’étapes et les instructions pour l’application mobile Warehouse Management
 
@@ -28,9 +28,9 @@ Cet article explique comment créer et afficher des instructions personnalisées
 - **Améliorer l'efficacité des travailleurs plus rapidement en leur permettant de suivre des instructions simples pour chaque étape de la tâche.** Chaque étape d'un flux fournit des instructions qui permettent aux travailleurs de première ligne de comprendre la tâche.
 - **Fournir des instructions qui correspondent à vos propres processus.** Rédigez vos propres instructions pour qu'elles correspondent aux processus de votre entreprise et de votre entrepôt. Par exemple, vous pouvez adapter la terminologie à votre espace physique et aux abréviations locales.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Activer la fonctionnalité d'instructions d'étape de l'application d'entrepôt
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité d'instructions d'étape de l'application Warehouse
 
-Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le système. À compter de la version 10.0.29 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Instructions par étape du Warehouse app* dans l'espace de traveil [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le système. Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Instructions d'étape de l'application Warehouse* dans l’espace de travail [Gestion des caractéristiques](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Titres d'étape et instructions d'étape dans l'application
 

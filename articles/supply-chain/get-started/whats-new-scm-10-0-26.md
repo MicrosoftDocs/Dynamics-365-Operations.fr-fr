@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: b44b044bf10115a7fcaf347a3b6f1759c2a68cb6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219062"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334713"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.26 (mai 2022)
 
@@ -51,7 +51,6 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 | Gestion des informations sur les produits | Nettoyer les valeurs de l’attribut de produit | Cette fonction ajoute une tâche périodique appelée **Nettoyer les valeurs de l’attribut de produit**, qui nettoie les enregistrements de valeur de l’attribut de produit qui ne sont plus associés à un produit via une catégorie de produit. |
 | Gestion des entrepôts et des stocks | (Russie) Empêcher les écarts au moment de l’émission des GTD pour les commandes fournisseur qui incluent des articles activés par le service de gestion du flux de travail | Cette fonctionnalité n’est disponible que pour la Russie. Elle évite les écarts qui se produisent au moment de l’émission de numéros de déclaration en douane (GTD) russes pour les bons de commande d’importation qui incluent des éléments activés pour les processus de gestion des entrepôts (WMS). Le processus d’émission GTD modifie certaines valeurs de dimension de stock sur les transactions de stock associées pour les factures incluses dans le journal personnalisé, ce qui entraîne des écarts entre les enregistrements de travail pour le bon de commande et les transactions de stock pour l’achat. Quand cette fonctionnalité est activée, le processus d’émission de GTD génère un travail d’ajustement qui élimine ces écarts. |
 | Gestion des entrepôts | Analyseur amélioré pour les codes-barres GS1 | Cette fonctionnalité ajoute un analyseur amélioré pour les données de symboles GS1. Le nouvel analyseur implémente l’algorithme de spécification générale GS1 pour l’analyse des symboles GS1 et fournit une validation des données plus solide. Pour plus d’informations, voir [Lecture des codes-barres GS1](../warehousing/gs1-barcodes.md). |
-| Gestion des entrepôts | Nouvelles pages de l’atelier de planification des chargements | Ajoute deux nouvelles pages de l’atelier de planification des chargements : **Atelier de planification des chargements entrants** et **Atelier de planification des chargements sortants**. |
 | Gestion des entrepôts | Application Warehouse Management - GTD vierge | Cette fonctionnalité n’est disponible que pour la Russie. Il permet aux collaborateurs utilisant l’application mobile Warehouse Management de laisser les numéros de déclaration en douane (GTD) russes vides en cas de besoin. Si la dimension de suivi GTD est configurée pour autoriser les valeurs vides, le système acceptera les valeurs vides pour GTD pour les opérations de stock à condition que le stock disponible soit disponible. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour

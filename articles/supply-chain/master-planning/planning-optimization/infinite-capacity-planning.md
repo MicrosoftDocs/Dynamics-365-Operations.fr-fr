@@ -2,7 +2,7 @@
 title: Planification avec une capacité infinie
 description: Cet article fournit des informations sur la planification de capacité infinie pour l'Optimisation de la planification. Elle décrit également les limitations actuelles des fonctionnalités.
 author: t-benebo
-ms.date: 09/21/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3646a7ca1f9a3a87a2f130783dc4961a61335f1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6e0190899abb544b559bb5f26ba974155989c3a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873867"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335313"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planification avec une capacité infinie
 
@@ -24,12 +24,9 @@ ms.locfileid: "8873867"
 
 La fonctionnalité *Planification de capacité infinie pour Planning Optimization* introduit une planification basée sur les informations d’itinéraire. Elle vous permet de planifier des tâches en fonction d’un large éventail de configurations d’itinéraires. La planification de Planning Optimization couvre les paramètres d’itinéraire fréquemment utilisés, y compris la séquence d’opérations d’itinéraire ou les exigences pour les ressources d’opérations d’itinéraire.
 
-## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Activer la fonction de planification de capacité infinie
+## <a name="turn-the-infinite-capacity-scheduling-feature-on-or-off"></a>Activer ou désactiver la fonction de planification de capacité infinie
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Planification*
-- **Nom de la fonctionnalité :** *Planification des capacités infinies pour l’optimisation de la planification*
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Planification de capacité infinie pour l'optimisation de la planification* dans l'espace de travail [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Pour plus d’informations sur cette fonctionnalité, voir [Planification avec sélection des ressources en fonction des capacités](capability-based-scheduling.md).
 

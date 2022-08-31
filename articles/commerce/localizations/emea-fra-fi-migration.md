@@ -2,7 +2,7 @@
 title: Effectuer une migration depuis l’ancienne fonctionnalité Commerce pour la France
 description: Cet article explique comment effectuer la migration depuis la solution de signature numérique héritée dans la localisation de Microsoft Dynamics 365 Commerce pour la France vers la solution basée sur le cadre d’intégration fiscale du Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/10/2021
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 10.0.18
 ms.search.industry: Retail
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 manager: annbe
-ms.openlocfilehash: 3a17317c246c108f6c81153e163360393c07717e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c07f696148c256bee59f205edbd2a2a3415857da
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280284"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9345973"
 ---
 # <a name="migrate-from-legacy-commerce-functionality-for-france"></a>Effectuer une migration depuis l’ancienne fonctionnalité Commerce pour la France
 
@@ -39,17 +39,19 @@ Pour éviter les scénarios de double signature d’un événement ou d’une tr
 Procédez comme suit pour effectuer ce processus de migration :
 
 1. Mettez à jour les composants de Commerce Headquarters.
-1. Mettez à jour les composants Commerce Scale Unit et activez les extensions de la solution actuelle.
-1. Mettez à jour les composants POS et activez les extensions de la solution actuelle.
-1. Dans Commerce Headquarters, configurez la fonctionnalité d’intégration fiscale pour la France.
+1. Dans Commerce headquarters, [configurez la fonctionnalité d’intégration fiscale pour la France](#configure-fiscal-integration).
 1. Assurez-vous que toutes les transactions hors ligne sont téléchargées depuis les appareils Modern POS compatibles hors ligne vers la base de données des canaux.
 1. Fermez les équipes et déconnectez-vous de tous les appareils de point de vente.
-1. Ajustez les formats de tickets de caisse afin qu’ils utilisent des champs personnalisés mis à jour.
-1. Activez la fonctionnalité d’intégration fiscale.
-1. Redémarrez le PDV.
+1. Mettez à jour les composants Commerce Scale Unit et activez les extensions de la solution actuelle.
+1. Mettez à jour les composants du PDV et activez les extensions de la solution actuelle.
 
-> [!NOTE]
-> Selon le type d’environnement, vous pouvez trouver plus de détails techniques sur le processus de migration dans la section [Migration dans un environnement de développement](#migration-in-a-development-environment) ou la section [Migration dans un environnement de production](#migration-in-a-production-environment) de cet article.
+    > [!NOTE]
+    > - Vous ne devez activer Commerce runtime (CRT) et les extensions PDV que si vous utilisez Commerce version 10.0.28 ou antérieure. À partir de la version 10.0.29, tous les composants de canal de Commerce requis pour la France sont activés par défaut. Cependant, vous devez plutôt [activer les fonctionnalités spécifiques à la France](./emea-fra-cash-registers.md#enable-features-for-france).
+    > - Selon le type d’environnement, vous pouvez trouver plus de détails techniques sur le processus de migration dans la section [Migration dans un environnement de développement](#migration-in-a-development-environment) ou la section [Migration dans un environnement de production](#migration-in-a-production-environment).
+
+1. [Ajustez les formats de tickets de caisse](#adjust-receipt-formats) afin qu’ils utilisent des champs personnalisés mis à jour.
+1. [Activez la fonctionnalité d’intégration fiscale](#enable-fiscal-integration).
+1. Redémarrez le PDV.
 
 ## <a name="configure-fiscal-integration"></a>Configurer l’intégration fiscale
 
@@ -80,6 +82,9 @@ Lorsque vous êtes prêt à activer la fonctionnalité d’intégration fiscale 
 
 ## <a name="migration-in-a-development-environment"></a>Migration dans un environnement de développement
 
+> [!NOTE]
+> Vous ne devez mettre en oeuvre les étapes décrites dans cette section que si vous utilisez Commerce version 10.0.28 ou antérieure. À partir de la version 10.0.29, tous les composants de canal de Commerce requis pour la France sont activés par défaut. Cependant, vous devez plutôt [activer les fonctionnalités spécifiques à la France](./emea-fra-cash-registers.md#enable-features-for-france).
+
 ### <a name="update-the-commerce-runtime-development"></a>Mettre à jour Commerce Runtime (développement)
 
 Pour mettre à jour Commerce Runtime (CRT), suivez ces étapes.
@@ -104,6 +109,7 @@ Pour mettre à jour Commerce Runtime (CRT), suivez ces étapes.
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsFrance" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.RegisterAuditEventFrance" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsFrance" />
+    <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.RestrictShiftDuration" />
     ```
 
 ### <a name="update-modern-pos-development"></a>Mettre à jour Modern POS (développement)
@@ -119,6 +125,9 @@ Pour mettre à jour Modern POS, procédez comme suit.
     }, 
     {
         "baseUrl": "Microsoft/FifAuditEvent.FR"
+    }, 
+    {
+        "baseUrl": "Microsoft/RestrictShiftDuration"
     }
     ```
 
@@ -135,6 +144,9 @@ Pour mettre à jour Cloud POS, procédez comme suit.
     }, 
     {
         "baseUrl": "Microsoft/FifAuditEvent.FR"
+    }, 
+    {
+        "baseUrl": "Microsoft/RestrictShiftDuration"
     }
     ```
 
@@ -229,6 +241,9 @@ Pour désactiver l’ancienne extension Cloud POS, procédez comme suit.
 
 ## <a name="migration-in-a-production-environment"></a>Migration dans un environnement de production
 
+> [!NOTE]
+> Vous ne devez mettre en oeuvre les étapes décrites dans cette section que si vous utilisez Commerce version 10.0.28 ou antérieure. À partir de la version 10.0.29, tous les composants de canal de Commerce requis pour la France sont activés par défaut. Cependant, vous devez plutôt [activer les fonctionnalités spécifiques à la France](./emea-fra-cash-registers.md#enable-features-for-france).
+
 ### <a name="update-crt-production"></a>Mettre à jour CRT (production)
 
 Pour mettre à jour CRT, procédez comme suit.
@@ -245,6 +260,7 @@ Pour mettre à jour CRT, procédez comme suit.
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsFrance" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.RegisterAuditEventFrance" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsFrance" />
+    <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.RestrictShiftDuration" />
     ```
 
 ### <a name="update-modern-pos-production"></a>Mettre à jour Modern POS (production)
@@ -260,6 +276,9 @@ Pour mettre à jour Modern POS, procédez comme suit.
     }, 
     {
         "baseUrl": "Microsoft/FifAuditEvent.FR"
+    }, 
+    {
+        "baseUrl": "Microsoft/RestrictShiftDuration"
     }
     ```
 
@@ -276,6 +295,9 @@ Pour mettre à jour Cloud POS, procédez comme suit.
     }, 
     {
         "baseUrl": "Microsoft/FifAuditEvent.FR"
+    }, 
+    {
+        "baseUrl": "Microsoft/RestrictShiftDuration"
     }
     ```
 

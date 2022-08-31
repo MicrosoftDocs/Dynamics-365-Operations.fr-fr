@@ -2,7 +2,7 @@
 title: Création et traitement des vagues
 description: Cet article décrit comment créer, traiter, et lancer une vague pour créer un travail de prélèvement pour une charge, une expédition, un ordre de fabrication, ou une commande kanban.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014617"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336003"
 ---
 # <a name="wave-creation-and-processing"></a>Création et traitement des vagues
 
@@ -191,7 +191,7 @@ Utilisez la page **Détails du traitement par lots de la vague** pour inspecter 
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Activer ou désactiver la page Détails du traitement par lots de la vague
 
-Depuis la version 10.0.25 de Supply Chain Management, la page **Détails du traitement par lots de la vague** est activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Détails du traitement par lots de la vague* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Détails de classement de tâches Wave* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Utiliser la page Détails du traitement par lots de la vague
 

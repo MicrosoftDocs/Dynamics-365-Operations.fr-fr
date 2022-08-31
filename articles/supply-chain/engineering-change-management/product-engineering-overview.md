@@ -2,7 +2,7 @@
 title: Vue d’ensemble de la gestion des modifications techniques (contient une vidéo)
 description: Cet article fournit une vue d’ensemble de la gestion des modifications techniques, qui vous aide à planifier et à gérer la gestion des versions des produits et à gérer les cycles de vie des produits et les modifications techniques.
 author: t-benebo
-ms.date: 01/11/2022
+ms.date: 08/09/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067390"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334863"
 ---
 # <a name="engineering-change-management-overview"></a>Présentation de la gestion des modifications d’ingénierie
 
@@ -76,16 +76,16 @@ Ensuite, activez les clés de configuration en suivant ces étapes. Elles ne son
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Activer les fonctions supplémentaires de gestion des modifications techniques
 
-Une fois que vous avez activé les fonctionnalités de gestion des modifications techniques de base et activé leurs clés de configuration, plusieurs fonctionnalités de gestion des modifications techniques supplémentaires et facultatives sont ajoutées à la gestion des fonctionnalités. Chacune de ces fonctions est répertoriée sous le module **Gestion des modifications techniques**. Le tableau suivant décrit chaque fonction facultative et fournit des liens pour plus d’informations. À partir de la version 10.0.25 de Supply Chain Management, toutes ces fonctionnalités sont activées par défaut, mais vous pouvez toujours choisir de les désactiver.
+Une fois que vous avez activé les fonctionnalités de gestion des modifications techniques de base et activé leurs clés de configuration, plusieurs fonctionnalités de gestion des modifications techniques supplémentaires et facultatives sont ajoutées à la gestion des fonctionnalités. Chacune de ces fonctions est répertoriée sous le module **Gestion des modifications techniques**. Le tableau suivant décrit chaque fonction facultative et fournit des liens pour plus d’informations.
 
 | Nom de la fonction dans la Gestion des fonctionnalités | Description | État de la fonctionnalité |
 |---|---|---|
-| Activer la gestion des changements sur les produits existants | <p>Cette fonctionnalité vous permet de convertir des produits existants en produits d’ingénierie afin que vous puissiez commencer à les gérer en utilisant la gestion des modifications techniques.</p><p>Pour plus d’informations, consultez [Activer la gestion des changements sur les produits existants](change-management-existing-products.md).</p> |
-| Notifications d’ingénierie pour la production | <p>Lorsqu’un produit est modifié en ingénierie, il peut être important d’informer la production de ces changements. De cette façon, les collaborateurs de la production peuvent prendre les mesures appropriées, telles que la substitution de composants, le remplacement de la nomenclature (BOM) ou le remplacement de la gamme. Cette fonctionnalité vous permet d’informer la production des modifications apportées aux produits en cours de production.</p><p>Pour plus d’informations, voir [Gérer modifications des produits techniques](engineering-change-management.md).</p> |
-| Amélioration de l’héritage des attributs pour la gestion des changements d’ingénierie | <p>Cette fonctionnalité simplifie la gestion des attributs pour les produits finis ou les articles intermédiaires. Lorsque cette fonctionnalité est activée, il est plus facile d’identifier tous les attributs qui appartiennent à un article et vous pouvez sélectionner les attributs qui doivent être propagés de cet article à son article parent. Cette fonctionnalité est utile lorsque, par exemple, un composant d’un produit fini est fragile, toxique ou inflammable, car vous pouvez facilement identifier l’attribut fragile, toxique ou inflammable et le propager au produit fini.</p><p>Pour plus d’informations, voir [Attributs d’ingénierie et recherche d’attributs d’ingénierie](engineering-attributes-and-search.md).</p> |
-| Vérifications de la disponibilité du produit | <p>Cette fonction vous permet de configurer des contrôles de préparation pour les produits standard (autres que des produits d’ingénierie). Utilisez des contrôles de préparation des produits pour vous assurer que chaque produit est entièrement défini et que toutes les stratégies requises sont configurées avant que le produit ne soit mis à disposition et utilisé dans les transactions. Si vous désactivez cette fonctionnalité après l’avoir utilisée pendant un certain temps, tous les contrôles de préparation existants pour les produits standard seront supprimés.</p><p>Pour plus d’informations, voir [Disponibilité du produit](product-readiness.md).</p> |
-| Gérer les modifications apportées aux formules et à leurs ingrédients | <p>Cette fonctionnalité vous permet de suivre les modifications apportées aux ingrédients de la formule, aux co-produits et aux sous-produits.</p><p>Pour plus d’informations, consultez [Gérer les changements de formules et de leurs composants](manage-formula-changes.md).</p> |
-| Générer des variantes pour les produits d’ingénierie | <p>Cette fonctionnalité vous permet de générer des variantes pour les produits d’ingénierie, en fonction des valeurs de dimension disponibles.</p><p>Pour plus d’informations, voir [Générer des variantes pour les produits d’ingénierie](engineering-variants.md).</p> |
+| Activer la gestion des changements sur les produits existants | <p>Cette fonctionnalité vous permet de convertir des produits existants en produits d’ingénierie afin que vous puissiez commencer à les gérer en utilisant la gestion des modifications techniques.</p><p>Pour plus d’informations, consultez [Activer la gestion des changements sur les produits existants](change-management-existing-products.md).</p> | Activée par défaut à partir de la version 10.0.25 |
+| Notifications d’ingénierie pour la production | <p>Lorsqu’un produit est modifié en ingénierie, il peut être important d’informer la production de ces changements. De cette façon, les collaborateurs de la production peuvent prendre les mesures appropriées, telles que la substitution de composants, le remplacement de la nomenclature (BOM) ou le remplacement de la gamme. Cette fonctionnalité vous permet d’informer la production des modifications apportées aux produits en cours de production.</p><p>Pour plus d’informations, voir [Gérer modifications des produits techniques](engineering-change-management.md).</p> |  Activée par défaut à partir de la version 10.0.25 |
+| Amélioration de l’héritage des attributs pour la gestion des changements d’ingénierie | <p>Cette fonctionnalité simplifie la gestion des attributs pour les produits finis ou les articles intermédiaires. Lorsque cette fonctionnalité est activée, il est plus facile d’identifier tous les attributs qui appartiennent à un article et vous pouvez sélectionner les attributs qui doivent être propagés de cet article à son article parent. Cette fonctionnalité est utile lorsque, par exemple, un composant d’un produit fini est fragile, toxique ou inflammable, car vous pouvez facilement identifier l’attribut fragile, toxique ou inflammable et le propager au produit fini.</p><p>Pour plus d’informations, voir [Attributs d’ingénierie et recherche d’attributs d’ingénierie](engineering-attributes-and-search.md).</p> |  Activée par défaut à partir de la version 10.0.25 |
+| Vérifications de la disponibilité du produit | <p>Cette fonction vous permet de configurer des contrôles de préparation pour les produits standard (autres que des produits d’ingénierie). Utilisez des contrôles de préparation des produits pour vous assurer que chaque produit est entièrement défini et que toutes les stratégies requises sont configurées avant que le produit ne soit mis à disposition et utilisé dans les transactions. Si vous désactivez cette fonctionnalité après l’avoir utilisée pendant un certain temps, tous les contrôles de préparation existants pour les produits standard seront supprimés.</p><p>Pour plus d’informations, voir [Disponibilité du produit](product-readiness.md).</p> |  Activée par défaut à partir de la version 10.0.25 |
+| Gérer les modifications apportées aux formules et à leurs ingrédients | <p>Cette fonctionnalité vous permet de suivre les modifications apportées aux ingrédients de la formule, aux co-produits et aux sous-produits.</p><p>Pour plus d’informations, consultez [Gérer les changements de formules et de leurs composants](manage-formula-changes.md).</p> |  Activée par défaut à partir de la version 10.0.25 |
+| Générer des variantes pour les produits d’ingénierie | <p>Cette fonctionnalité vous permet de générer des variantes pour les produits d’ingénierie, en fonction des valeurs de dimension disponibles.</p><p>Pour plus d’informations, voir [Générer des variantes pour les produits d’ingénierie](engineering-variants.md).</p> |  Activée par défaut à partir de la version 10.0.25 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
