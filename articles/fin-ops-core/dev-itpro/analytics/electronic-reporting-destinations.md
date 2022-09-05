@@ -2,7 +2,7 @@
 title: Destinations pour la gestion des états électroniques
 description: Cet article fournit des informations sur la gestion des destinations pour la gestion des états électroniques, les types de destinations prises en charge et les considérations de sécurité.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281965"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360977"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
@@ -247,6 +247,52 @@ Dans le raccourci **Général**, dans le champ **Envoyer le dossier en tant que*
 ### <a name="limitations"></a>Limitations
 
 Si vous définissez le champ **Envoyer le dossier en tant que** sur **Fichiers distincts** pour un composant **Dossier** contenant d’autres composants **Dossier** imbriqués, le paramètre n’est pas appliqué de manière récursive aux composants **Dossier** imbriqués.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> Modifier les propriétés de mise en page d’un modèle
+
+Vous pouvez configurer une destination d’états électroniques pour un composant au format d’état électronique conçu pour utiliser un modèle dans un format Microsoft Office (Excel ou Word) pour la génération d’états. Si vous n’êtes pas le propriétaire de ce format et que vous devez modifier les propriétés de mise en page du modèle de format, dans les versions de Finance antérieures à la version 10.0.29, vous devez créer un format dérivé et modifier les propriétés du modèle. Ensuite, vous devez conserver la configuration du format dérivé. Cependant, dans la version 10.0.29 et les versions ultérieures, vous pouvez modifier les propriétés de mise en page du modèle lors de l’exécution pour éviter de créer et de gérer la configuration du format dérivé. Pour ce faire, configurez les propriétés souhaitées dans le cadre des paramètres de la destination des états électroniques configurée. Lorsque vous exécutez un format d’état électronique et exécutez une destination d’états électroniques configurée pour utiliser certaines propriétés de mise en page, les valeurs des propriétés de mise en page de la destination exécutée sont appliquées au modèle que vous utilisez, remplaçant les propriétés du modèle d’origine. Vous pouvez configurer différentes destinations pour le même composant de format en configurant différentes propriétés de mise en page pour le modèle utilisé.
+
+Les propriétés suivantes peuvent être configurées dans une destination d’états électroniques pour un composant de format conçu pour utiliser un modèle dans un format Excel ou Word :
+
+- Orientation de la page
+    - Portrait
+    - Paysage
+- Format du papier
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - Exécutif US
+    - Legal US
+    - Lettre US
+    - Statement US
+    - Tabloïd
+- Marges de la page
+    - Haut
+        - En-tête
+    - Bas
+        - Pied de page
+    - Gauche
+    - Droite
+
+> [!NOTE]
+> L’orientation de la page du modèle ainsi configuré doit être alignée sur l’[orientation de la page pour la conversion PDF](#select-a-page-orientation-for-pdf-conversion) si la conversion PDF est configurée.
+
+Vous devez sélectionner l’unité de longueur pour définir les marges de la page :
+
+- Pouces
+- Centimètres
+- Millimètres
+
+![Configurez les propriétés de mise en page sur la page de destination des états électroniques.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Lorsqu’une valeur de marge est désignée en centimètres et spécifiée avec plusieurs décimales, elle est arrondie au moment de l’exécution à la valeur la plus proche avec 1 décimale.
+>
+> Lorsqu’une valeur de marge est désignée en millimètres et spécifiée avec plusieurs décimales, elle est arrondie au moment de l’exécution d’Excel à la valeur la plus proche sans décimale.
+>
+> Lorsqu’une valeur de marge est désignée en millimètres et spécifiée avec plusieurs décimales, elle est arrondie au moment de l’exécution de Word à la valeur la plus proche avec une décimale.
 
 ## <a name="security-considerations"></a>Considérations de sécurité
 

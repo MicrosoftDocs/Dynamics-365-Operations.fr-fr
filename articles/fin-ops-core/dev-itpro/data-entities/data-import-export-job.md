@@ -2,7 +2,7 @@
 title: Vue d’ensemble des tâches d’importation et d’exportation de données
 description: L’espace de travail Gestion des données vous permet de créer et de gérer des tâches d’importation et d’exportation de données.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109460"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357589"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -76,6 +76,19 @@ Quand vous sélectionnez une entité, vous devez sélectionner le format des don
 
 > [!NOTE]
 > Pour les formats de fichiers basés sur XML, veillez à n’utiliser que des caractères légaux. Pour plus de détails sur les caractères valides, voir [Caractères valides dans XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 n’autorise aucun caractère de contrôle à l’exception des tabulations, des retours chariot et des sauts de ligne. Des exemples de caractères illégaux sont les crochets, les accolades et les barres obliques inverses. 
+
+Utilisez Unicode au lieu d’une page de code spécifique pour importer ou exporter des données. Cela aidera à fournir les résultats les plus cohérents et à éliminer les échecs des tâches de gestion des données, car elles incluent des caractères Unicode. Les formats de données source définis par le système qui utilisent Unicode ont tous **Unicode** dans le nom de la source. Le format Unicode est appliqué en sélectionnant une page de code ANSI de codage Unicode comme **Page de code** dans l’onglet **Paramètres régionaux**. Sélectionnez l’une des pages de codes suivantes pour Unicode :
+
+| Page de codes | Nom d’affichage                |
+|-----------|-----------------------------|
+| 1 200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Pour plus de détails sur les pages de code, voir [Identificateurs de page de code](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Séquencer les entités
 Les entités peuvent être séquencées dans un modèle de données, ou dans des tâches d’importation et d’exportation. Quand vous exécutez une tâche qui contient plusieurs entités de données, vous devez vous assurer que les entités de données sont correctement séquencées. Séquencez principalement les entités afin de pouvoir traiter les dépendances fonctionnelles entre les entités. Si les entités n’ont aucune dépendance fonctionnelle, elles peuvent être planifiées pour l’importation ou l’exportation parallèle. 

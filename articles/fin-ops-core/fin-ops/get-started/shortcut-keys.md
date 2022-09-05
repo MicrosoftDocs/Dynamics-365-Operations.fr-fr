@@ -2,7 +2,7 @@
 title: Raccourcis clavier
 description: Cet article fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications de finances et d’opérations.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140437"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357575"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -135,10 +135,10 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Défilement horizontal                                                                                                   | Maj + Molette de la souris             |
 | Accéder à la colonne suivante/précédente                                                                                       | Tab/Maj+Tab                 |
 | Accéder à la ligne suivante/précédente                                                                                          | Flèche Haut/Flèche Bas           |
-| Se déplacer jusqu’à la ligne suivante/précédente sans la sélectionner<blockquote>[!NOTE] Ce raccourci s’applique uniquement aux scénarios de sélection multiple.</blockquote> | Ctrl+Flèche Haut/Ctrl+Flèche Bas |
-| Sélectionner/désélectionner la ligne actuelle<blockquote>[!NOTE] Ce raccourci s’applique uniquement aux scénarios de sélection multiple.</blockquote>                    | Ctrl+Espace/Ctrl+Clic         |
-| Ajouter la ligne suivante/précédente à l’ensemble sélectionné<blockquote>[!NOTE] Ce raccourci s’applique uniquement aux scénarios de sélection multiple.</blockquote>   | Shift+Space                     |
-| Ajouter une plage de lignes à l’ensemble sélectionné<blockquote>[!NOTE] Ce raccourci s’applique uniquement aux scénarios de sélection multiple.</blockquote>         | Maj+Clic                     |
+| Se déplacer jusqu’à la ligne suivante/précédente sans la sélectionner<br><br>**Remarque :** Ce raccourci s’applique uniquement aux scénarios de sélection multiple. | Ctrl+Flèche Haut/Ctrl+Flèche Bas |
+| Sélectionner/désélectionner la ligne actuelle<br><br>**Remarque :** Ce raccourci s’applique uniquement aux scénarios de sélection multiple.                   | Ctrl+Espace/Ctrl+Clic         |
+| Ajouter la ligne suivante/précédente à l’ensemble sélectionné<br><br>**Remarque :** Ce raccourci s’applique uniquement aux scénarios de sélection multiple.  | Shift+Space                     |
+| Ajouter une plage de lignes à l’ensemble sélectionné<br><br>**Remarque :** Ce raccourci s’applique uniquement aux scénarios de sélection multiple.         | Maj+Clic                     |
 | Accéder à la page de données suivante/précédente                                                                                   | Page précédente / Page suivante             |
 | Créer une nouvelle ligne en bas de la grille                                                                             | Flèche Bas (à partir de la dernière ligne)  |
 | Accéder au premier enregistrement                                                                                               | Ctrl + Début                       |
@@ -148,7 +148,7 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Accéder à la ligne marquée suivante                                                                                            | Alt+Maj+M, L                  |
 | Accéder à la ligne marquée précédente                                                                                        | Alt+Maj+M, P                  |
 | Accéder à la dernière ligne marquée                                                                                           | Alt+Maj+M, N                  |
-| Exécuter l’action par défaut dans une grille<blockquote>[!NOTE] Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte.</blockquote> | Entrer                           |
+| Exécuter l’action par défaut dans une grille<br><br>**Remarque :** Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte. | Entrer                           |
 | Basculer la vue entre la ligne sélectionnée et la ligne d’en-tête                                                               | Alt+Maj+H                     |
 | Agrandir/réduire la colonne active (avec le focus sur la ligne d’en-tête)                                                  | Flèche droite/Flèche gauche        |
 | Déplacer la colonne actuelle vers la position suivante/précédente (avec le focus dans la ligne d’en-tête)                                   | Ctrl+Maj+Flèche droite / Ctrl+Maj+Flèche gauche |
