@@ -12,11 +12,13 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Finance
                   href: get-started/whats-new-home-page.md
+                - name: "Finance\_10.0.30 (novembre)"
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: "Finance\_10.0.29 (octobre)"
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: "Finance\_10.0.28 (août)"
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: "Finance\_10.0.27 (juillet)"
+                - name: Finance 10.0.27 (juillet)
                   href: get-started/whats-new-changed-10-0-27.md
             - name: Fonctionnalités supprimées ou déconseillées
               items:
@@ -1138,6 +1140,8 @@
                       href: general-ledger/subledger-transfer.md
                     - name: Explorateur de comptabilité source
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: Documents en attente de comptabilité
+                      href: general-ledger/documents-pending-accounting.md
             - name: Recherches et états
               items:
                 - name: Afficher les écritures du journal et les transactions

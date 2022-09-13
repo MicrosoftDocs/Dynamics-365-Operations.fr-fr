@@ -12,6 +12,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Commerce
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce\_10.0.30 (novembre\_2022)"
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: "Commerce\_10.0.29 (octobre\_2022)"
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: "Commerce\_10.0.28 (juillet\_2022)"
@@ -702,19 +704,17 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Définir les remises spécifiques à un canal
                   href: define-channel-specific-discounts.md
-                - name: Options pour empêcher les remises pour les produits vendus au détail
-                  href: prevent-discounts.md
                 - name: Remises basées sur le mode de paiement
                   href: tender_based_discounts.md
                 - name: Remise sur expédition
                   href: shipping-discount.md
                 - name: Configurer le cadeau avec les promotions d’achat
                   href: gift-with-purchase.md
-                - name: Paramétrer des coupons
-                  href: retail-coupons.md
-                - name: Afficher les remises dans le PDV
-                  href: discounts-pos.md
-                - name: États sur les prix
+                - name: Coupons
+                  href: coupons.md
+                - name: Paramètres de tarification
+                  href: price-settings.md
+                - name: Rapports sur les prix
                   href: price-report.md
                 - name: Créer des accords commerciaux spécifiques au canal
                   href: tasks/base-price-trade-agreements.md
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Opération de recherche de stock dans le PDV
                       href: pos-inventory-lookup-operation.md
+                    - name: Liste de produits tenant compte de l’inventaire
+                      href: inventory-aware-product-listing.md
                 - name: Commandes fournisseur
                   items:
                     - name: Vue d’ensemble des commandes fournisseur

@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: Paramétrer la réaffectation des articles pour les prélèvements partiels
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Annuler le travail d’entrepôt pour la gestion des exceptions
-                      href: warehousing/cancel-warehouse-work.md
                     - name: Classement des travaux dirigés par le système
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Regroupement des lignes de prélèvement
@@ -3427,10 +3425,14 @@
                       href: warehousing/anchoring.md
                     - name: Tri sortant
                       href: warehousing/outbound-sorting.md
-                    - name: Mettre au mur – Mettre en magasin
+                    - name: Mettre au mur - Mettre en magasin
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Visualisation de la charge de travail sortante
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Gérer manuellement les ventes et les exceptions de prélèvement de ligne de transfert
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Annuler le travail d’entrepôt pour la gestion des exceptions
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Réapprovisionnement
                   items:
                     - name: Vue d’ensemble du réapprovisionnement

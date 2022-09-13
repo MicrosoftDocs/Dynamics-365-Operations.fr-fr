@@ -14,6 +14,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
+                - name: "Mises à jour de la plateforme pour la version\_10.0.30 (novembre\_2022)"
+                  href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.29 (octobre\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.28 (août\_2022)"
