@@ -2,7 +2,7 @@
 title: Module de résultats de recherche
 description: Cet article couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: eeb7cd0769fcb866a3d7dcc03e8e87daf24b2c5d
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286808"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405291"
 ---
 # <a name="search-results-module"></a>Module de résultats de recherche
 
@@ -86,52 +86,20 @@ Pour ajouter un module de résultats de recherche à une page de catégorie dans
 1. Sous **Revoir et terminer**, vérifiez la configuration de la page. Si vous devez modifier les informations de la page, sélectionnez **Précédent**. Si les informations de la page sont correctes, sélectionnez **Créer une page**.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
-## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Activer la connaissance du stock pour le module des résultats de recherche
+## <a name="inventory-aware-search-results-module"></a>Module de résultats de recherche tenant compte des stocks
 
-Les clients s’attendent généralement à ce que le site web d’e-commerce tienne compte du stock tout au long de l’expérience de navigation, afin qu’ils puissent décider quoi faire s’il n’y a pas de stock pour un produit. Le module de résultats de recherche peut être configurer pour intégrer les données de stock et de fournir les expériences suivantes :
+Le module de résultats de recherche peut être configurer pour intégrer les données de stock et de fournir les expériences suivantes :
 
-- Afficher une étiquette de disponibilité de stock avec le produit.
+- Affichez les étiquettes de niveau d’inventaire à côté des produits.
 - Masquer les produits en rupture de stock de la liste des produits.
-- Afficher les produits en rupture de stock à la fin de la liste des produits.
-- Filtrer les produits dans les résultats de recherche par niveau de stock.
+- Affichez les produits en rupture de stock à la fin de la liste des produits.
+- Prenez en charge le filtrage des produits basé sur les stocks.
 
-Pour activer ces expériences, vous devez d’abord activer la fonctionnalité **Découverte améliorée des produits d’e-commerce pour tenir compte des stocks** dans l’espace de travail **Gestion des fonctionnalités**.
-
-> [!NOTE]
-> La fonctionnalité **Découverte améliorée des produits de commerce électronique pour tenir compte des stocks** est disponible dans Commerce version 10.0.20 et versions ultérieures.
-
-La recherche de produits prenant en compte le stock utilise des attributs de produit pour obtenir des informations sur la disponibilité de stock. Comme condition préalable à la fonctionnalité, des attributs de produit dédiés doivent être créés, des données de stock doivent être saisies pour eux et ils doivent être ajoutés au canal en ligne. 
-
-Pour créer des attributs de produit dédiés afin de prendre en charge le module de résultats de recherche tenant compte du stock, procédez comme suit.
-
-1. Dans Headquarters, accédez à **Retail et Commerce \> IT Retail et Commerce \> Produits et stock**.
-1. Sélectionnez et ouvrez **Remplir les attributs de produit avec le niveau de stock**.
-1. Dans la boîte de dialogue, entrez les informations suivantes :
-
-    1. Dans le champ **Attribut de produit et nom du type**, spécifiez un nom pour l’attribut de produit dédié qui sera créé pour capturer les données de stock.
-    1. Dans le champ **Disponibilité des stocks en fonction de**, sélectionnez le type de quantité sur laquelle le calcul du niveau de stock doit être basé (par exemple, **Physique disponible**). 
-
-1. Exécutez la tâche en arrière-plan. Étant donné que le stock change constamment dans un environnement omnicanal, nous vous recommandons fortement de planifier cette tâche en tant que traitement par lots.
-
-> [!NOTE]
-> Pour un calcul cohérent du niveau de stock sur les pages et modules sur votre site web d’e-commerce, assurez-vous de sélectionner le même type de quantité pour **Disponibilité des stocks en fonction de** dans Commerce Headquarters et le paramètre **Niveau de stock basé sur** dans le générateur de site Commerce. Pour plus d’informations sur les paramètres du stock dans le générateur de site, voir [Appliquer les paramètres de stock](inventory-settings.md).
-
-Pour configurer les attributs de produit pour un canal en ligne, procédez comme suit. 
-
-1. Dans Headquarters, accédez à **Retail et Commerce \> Paramétrage du canal \> Catégories de canal et attributs de produit**.
-1. Sélectionnez le canal en ligne pour activer le module de des résultats de recherche basé sur le stock.
-1. Sélectionnez et ouvrez un groupe d’attributs associé, puis ajoutez-y l’attribut de produit nouvellement créé.
-1. Pour les versions 10.0.27 de Commerce, sélectionnez **Définir les métadonnées d’attribut**, sélectionnez l’attribut de produit nouvellement ajouté, puis activez les options **Afficher l’attribut sur le canal**, **Récupérable**, **Peut être affiné** et **Peut être interrogé**.
-1. Accédez à **Retail et Commerce \> Informatique Retail et Commerce \> Programme de distribution**, et exécutez la tâche **1150 (Catalogue)**. Si vous programmez la tâche **Remplir les attributs de produit avec le niveau de stock** en tant que traitement par lots, nous vous recommandons de planifier également la tâche 1150 en tant que traitement par lots qui s’exécute à la même fréquence.
-
-> [!NOTE]
-> Pour les produits qui sont affichés dans le module de résultats de recherche, le niveau de stock est affiché au niveau du produit principal au lieu du niveau de la variante individuelle. Il n’a que deux valeurs possibles : "disponible" et "en rupture de stock". L’étiquette réelle de la valeur est extrait de la définition [Profil de niveau de stock](inventory-buffers-levels.md). Un produit principal est considéré comme en rupture de stock uniquement quand toutes ses variantes sont en rupture de stock.
-
-Une fois toutes les étapes de configuration précédentes terminées, les affineurs sur les pages de résultats de recherche affichent un filtre basé sur le stock et le module de résultats de recherche récupère les données de stock en arrière-plan. Vous pouvez ensuite configurer le paramètre **Paramètres de stock pour les pages de liste de produits** dans le générateur de site Commerce pour contrôler la façon dont le module de résultats de recherche affiche les produits en rupture de stock. Pour plus d’informations, voir [Appliquer les paramètres de stock](inventory-settings.md).
+Pour activer ces expériences, vous devez d’abord activer la fonctionnalité **Découverte améliorée des produits d’e-commerce pour tenir compte des stocks**, puis configurer certains paramètres prérequis dans Commerce headquarters. Pour plus d’informations, voir [Liste des produits tenant compte du stock](inventory-aware-product-listing.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md)
+[Vue d’ensemble de la page d’arrivée de catégories et de la page des résultats de la recherche par défaut](category-search-page-overview.md)
 
 [Vue d’ensemble de la bibliothèque de modules](starter-kit-overview.md)
 

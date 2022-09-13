@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313881"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410448"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.30
+
+### <a name="revenue-recognition"></a>Prise en compte de revenu
+
+[Prise en compte de revenu](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motif de l’abandon/de la suppression** |Remplacé par une fonctionnalité améliorée, [Facturation de l’abonnement](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées** | Application |
+| **Option de déploiement** | Tout |
+| **Status** | Obsolète : après avril 2023, la fonctionnalité de comptabilisation des revenus dans Dynamics 365 Finance ne sera plus prise en charge avec les correctifs de bogues. Les clients seront invités à utiliser la fonctionnalité améliorée, [Facturation de l’abonnement](../../finance/accounts-receivable/subscription-billing-summary.md). En octobre 2023, la fonctionnalité de comptabilisation des revenus ne sera plus disponible. Les clients seront invités à utiliser la fonctionnalité améliorée, Facturation de l’abonnement.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.29
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306052"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388538"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Installer et configurer Inventory Visibility
 
@@ -56,7 +56,9 @@ Après avoir enregistré une application et ajouté un clé secrète client à A
 1. Sur la page d’environnement, faites défiler vers le bas jusqu’à ce que vous trouviez la section **Compléments d’environnement** dans la section **Intégration Power Platform**. Là, vous pouvez trouver le nom de l’environnement Dataverse. Confirmez que le nom de l’environnement Dataverse est celui que vous souhaitez utiliser pour la visibilité de l’inventaire.
 
     > [!NOTE]
-    > Actuellement, seuls les environnements Dataverse créés à l’aide de LCS sont pris en charge. Si votre environnement  Dataverse a été créé d’une autre manière (par exemple, en utilisant le centre d’administration Power Apps) et s’il est lié à votre environnement Supply Chain Management, vous devez d’abord contacter l’équipe produit de visibilité des stocks à [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) pour résoudre le problème de mappage. Ensuite, vous pouvez installer le module complémentaire de visibilité des stocks.
+    > Actuellement, seuls les environnements Dataverse créés à l’aide de LCS sont pris en charge. Si votre environnement Dataverse a été créé d’une autre manière (par exemple, en utilisant le centre d’administration PowerApps) et s’il est lié à votre environnement Supply Chain Management, vous devez d’abord contacter l’équipe produit de visibilité des stocks pour résoudre le problème de mappage avant d’installer le complément de visibilité des stocks.
+    >
+    > Il est possible que votre environnement à double écriture soit lié à une instance Dataverse alors que LCS n’est pas configuré pour l’intégration Power Platform. Cette incompatibilité de liaison peut entraîner un comportement inattendu. Nous recommandons que les détails de l’environnement LCS correspondent à ce à quoi vous êtes connecté en double écriture afin que la même connexion puisse être utilisée par les événements métier, les tables virtuelles et les compléments. Voir [Incompatibilité de liaison](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) pour plus d’informations sur la résolution du problème de mappage. Une fois le problème de mappage résolu, vous pouvez procéder à l’installation de Inventory Visibility.
 
 1. Dans la section **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.
 
@@ -140,11 +142,11 @@ Pour installer le complément Inventory Visibility, procédez comme suit :
 1. Sélectionnez **Environnement** sur la barre de navigation
 1. Sélectionnez l'environnement Dataverse lié à votre environnement LCS.
 1. Allez dans **Solutions**, et supprimez les solutions suivantes dans cet ordre :
-    1. Ancrer la solution pour l’application Inventory Visibility dans les solutions Dynamics 365
-    1. Solution d’application Dynamics 365 FNO SCM Inventory Visibility
-    1. Configuration du service de stock
-    1. Visibilité des stocks autonome
-    1. Solution de base Dynamics 365 FNO SCM Inventory Visibility
+    1. Dynamics 365 Inventory Visibility – Ancre
+    1. Dynamics 365 Inventory Visibility – Application
+    1. Dynamics 365 Inventory Visibility – Contrôles
+    1. Dynamics 365 Inventory Visibility – Plug-ins
+    1. Dynamics 365 Inventory Visibility – Base
 
     Après avoir supprimé ces solutions, les données stockées dans les tables seront également supprimées.
 

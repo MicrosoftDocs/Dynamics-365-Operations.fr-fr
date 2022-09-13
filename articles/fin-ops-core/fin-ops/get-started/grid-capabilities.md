@@ -2,7 +2,7 @@
 title: Capacités de grille
 description: Cet article décrit plusieurs fonctionnalités puissantes du contrôle de grille. Vous devez activer la nouvelle fonction de grille pour avoir accès à ces capacités.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258945"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405463"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -178,20 +178,22 @@ La fonctionnalité **Nouveau contrôle de grille** est disponible directement da
 
 Cette fonctionnalité a commencé à être activée par défaut dans la version 10.0.21. Il devrait devenir obligatoire en octobre 2022.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Développeur] Empêcher des pages individuelles d’utiliser la nouvelle grille 
+## <a name="developer-topics"></a>Rubriques de développeur
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Développeur] Empêcher des pages individuelles d’utiliser la nouvelle grille 
 Si votre organisation découvre une page qui n’arrive pas à utiliser la nouvelle grille, une API est disponible pour autoriser un formulaire individuel à utiliser le contrôle de grille hérité tout en autorisant le reste du système à utiliser le nouveau contrôle de grille. Pour désactiver une page individuelle dans la nouvelle grille, ajoutez le message d’appel suivant `super()` dans la méthode `run()` du formulaire.
 
 ```this.forceLegacyGrid();```
 
 Cette API sera éventuellement obsolète pour permettre la suppression du contrôle de grille hérité. Cependant, il restera disponible pendant au moins 12 mois après l’annonce de sa dépréciation. Si des problèmes nécessitent l’utilisation de cette API, signalez-les à Microsoft.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forcer une page à utiliser la nouvelle grille après avoir précédemment refusé la grille
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forcer une page à utiliser la nouvelle grille après avoir précédemment refusé la grille
 Si vous avez refusé l’utilisation de la nouvelle grille pour une page individuelle, vous souhaiterez peut-être réactiver ultérieurement la nouvelle grille une fois les problèmes sous-jacents résolus. Pour ce faire, il vous suffit de supprimer l’appel à `forceLegacyGrid()`. La modification ne prendra effet que quand l’un des événements suivants se produira :
 
 - **Redéploiement de l’environnement** : quand un environnement est mis à jour et redéployé, la table qui stocke les pages pour lesquelles a été refusée la nouvelle grille (FormControlReactGridState) est automatiquement effacée.
 - **Effacement manuel de la table** : pour les scénarios de développement, vous devrez utiliser SQL pour effacer la table FormControlReactGridState, puis redémarrer l’AOS. Cette combinaison d’actions réinitialisera la mise en cache des pages pour lesquelles la nouvelle grille a été refusée.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Développeur] Désactiver les grilles individuelles de la saisie avant la capacité du système
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Développeur] Désactiver les grilles individuelles de la saisie avant la capacité du système
 Certains scénarios se sont présentés qui ne se prêtent pas à une bonne collaboration avec la capacité *Saisie avant le système* de la grille. (Par exemple, un code qui est déclenché quand une ligne est validée provoque le déclenchement d’une recherche de source de données, et la recherche peut alors corrompre des modifications non validées sur des lignes existantes.) Si votre organisation fait face à un tel scénario, une API est disponible afin que le développeur désactive une grille individuelle de la validation de ligne asynchrone et rétablisse le comportement hérité.
 
 Quand la validation de ligne asynchrone est désactivée dans une grille, les utilisateurs ne peuvent pas créer de ligne ou passer à une autre ligne existante dans la grille tant qu’il existe des problèmes de validation sur la ligne actuelle. Comme effet secondaire de cette action, les tableaux ne peuvent pas être collés depuis Excel dans les grilles de finances et d’opérations.
@@ -204,13 +206,18 @@ Pour désactiver une grille individuelle de la validation de ligne asynchrone, a
 > - Cet appel ne doit être invoqué que dans des cas exceptionnels et ne doit pas être la norme pour toutes les grilles.
 > - Nous vous déconseillons de basculer cette API au moment de l’exécution après le chargement du formulaire.
 
-## <a name="developer-size-to-available-width-columns"></a>[Développeur] Ajuster à disponible la largeur des colonnes
+### <a name="developer-size-to-available-width-columns"></a>[Développeur] Ajuster à disponible la largeur des colonnes
 Si un développeur définit la propriété **WidthMode** sur **Ajuster à disponible** pour les colonnes à l’intérieur de la nouvelle grille, ces colonnes ont initialement la même largeur qu’elles auraient si la propriété était définie sur **Ajuster à disponible**. Cependant, elles s’étirent pour utiliser toute largeur supplémentaire disponible à l’intérieur de la grille. Si la propriété est définie sur **Ajuster à disponible** pour plusieurs colonnes, toutes ces colonnes partagent la largeur supplémentaire disponible à l’intérieur de la grille. Cependant, si un utilisateur redimensionne manuellement l’une de ces colonnes, la colonne devient statique. Elle restera à cette largeur et ne s’étirera plus pour prendre la largeur de grille supplémentaire disponible.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Développeur] Consultez la colonne qui reçoit le focus initial lorsque de nouvelles lignes sont créées à l’aide de la touche fléchée vers le bas
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Développeur] Consultez la colonne qui reçoit le focus initial lorsque de nouvelles lignes sont créées à l’aide de la touche fléchée vers le bas
 Comme cela a été discuté dans la section [Différences lors de la saisie de données en amont du système](#differences-when-entering-data-ahead-of-the-system) , si la fonctionnalité « Saisir en amont du système » est activée et qu’un utilisateur crée une nouvelle ligne à l’aide de la touche **Flèche vers le bas**, le comportement par défaut consiste à mettre l'accent sur la première colonne de la nouvelle ligne. Cette expérience peut différer de l’expérience de la grille héritée ou lorsqu’un **Nouveau** bouton est sélectionné.
 
 Les utilisateurs et les organisations peuvent créer des vues enregistrées optimisées pour la saisie de données. (Par exemple, vous pouvez réorganiser les colonnes afin que la première colonne soit celle dans laquelle vous souhaitez commencer à saisir des données.) De plus, à partir de la version 10.0.29, les organisations peuvent ajuster ce comportement en utilisant le **selectedControlOnCreate()** méthode. Cette méthode permet à un développeur de spécifier la colonne qui doit recevoir le focus initial lorsqu'une nouvelle ligne est créée à l’aide de la touche **Fléchée vers le bas** . En entrée, cette API prend l’ID de contrôle qui correspond à la colonne qui doit recevoir le focus initial.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Développeur] Gestion des grilles avec des contrôles extensibles non React
+Lors du chargement d’une grille, si le système rencontre un contrôle extensible qui n’est pas basé sur React, le système forcera le rendu de la grille héritée à la place. Quand un utilisateur rencontre pour la première fois cette situation, un message concernant l’actualisation de la page s’affiche. Ensuite, cette page chargera automatiquement l’ancienne grille sans aucune autre notification aux utilisateurs jusqu’à la prochaine mise à jour du système. 
+
+Pour surmonter cette situation de manière permanente, les auteurs de contrôles extensibles peuvent créer une version React du contrôle à utiliser dans la grille.  Une fois développée, la classe X++ pour le contrôle peut être décorée avec l’attribut **FormReactControlAttribute** pour spécifier l’emplacement du bundle React à charger pour ce contrôle. Consultez la catégorie `SegmentedEntryControl` à titre d’exemple.  
 
 ## <a name="known-issues"></a>Problèmes connus
 Cette section maintient une liste des problèmes connus pour le nouveau contrôle de grille.
@@ -218,9 +225,12 @@ Cette section maintient une liste des problèmes connus pour le nouveau contrôl
 ### <a name="open-issues"></a>Questions ouvertes
 - Après avoir activé la fonctionnalité **Nouveau contrôle de grille**, certaines pages vont continuer à utiliser le contrôle de grille existant. Cela se produit dans les scénarios suivants :
  
-    - Il existe une liste de cartes sur la page qui est affichée dans plusieurs colonnes.
-    - Il existe une liste de cartes groupée sur la page.
-    - Une colonne de grille avec un contrôle extensible non réactif.
+    - [Résolu] Il existe une liste de cartes sur la page qui est affichée dans plusieurs colonnes.
+        - Ce type de liste de cartes est pris en charge par le **Nouveau contrôle de grille** à partir de la version 10.0.30. Toute utilisation de forceLegacyGrid() à cette fin peut être supprimée. 
+    - [Résolu] Il existe une liste de cartes groupée sur la page.
+        - Les listes de cartes regroupées sont prises en charge par le **Nouveau contrôle de grille** à partir de la version 10.0.30. Toute utilisation de forceLegacyGrid() à cette fin peut être supprimée. 
+    - [Résolu] Une colonne de grille avec un contrôle extensible non React.
+        - Les contrôles extensibles peuvent fournir une version React de leur contrôle qui sera chargée lorsqu’ils sont placés dans la grille et ajuster leur définition de contrôle pour charger ce contrôle lorsqu’il est utilisé dans la grille. Voir la section développeur correspondante pour plus de détails. 
 
     Quand un utilisateur rencontre pour la première fois l’un de ces scénarios, un message concernant l’actualisation de la page s’affiche. Une fois ce message affiché, la page va continuer à utiliser la grille existante pour tous les utilisateurs jusqu’à la prochaine mise à jour de la version du produit. Une meilleure gestion de ces scénarios, afin de pouvoir utiliser la nouvelle grille, est envisagée pour une future mise à jour.
 

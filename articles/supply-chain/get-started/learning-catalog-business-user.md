@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d43b9b331a8a88ac1282acc33dabe7b71bca57b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 82420ad8dae12e4a47290599a5bbd0d15a7f3c29
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124294"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423852"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Catalogue d’apprentissage pour les utilisateurs de Dynamics 365 Supply Chain Management
 
@@ -25,11 +25,10 @@ Vous venez de recevoir une nouvelle application à utiliser ?
 
 Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins.
 
-## <a name="get-started"></a>Mise en route<a name="get-started"></a>
+## <a name="get-started"></a>Démarrage<a name="get-started"></a>
 
-| Contenu | Description | Format | Longueur |
+| Contenu | Description | Format | Length |
 |---------|-------------|--------|--------|
-| [Apprendre la valeur commerciale de Microsoft Dynamics 365 et Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Souhaitez-vous en savoir plus sur les applications métier ? Peut-être que vous ne savez pas par où commencer avec Microsoft Dynamics 365 et les applications Power Platform ? Découvrez comment la puissance des applications d’entreprise peut aider à transformer votre entreprise. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 8 heures |
 | [Principes fondamentaux de Dynamics 365 et Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Souhaitez-vous en savoir plus sur les applications métier ? Commencez ce parcours d’apprentissage pour voir comment les applications Dynamics 365 sont utilisées. Découvrez les concepts du cloud, Power Platform, et comment prendre en main les applications Dynamics 365. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5.5 heures |
 | [Mise en route des applications de finances et d’opérations](/learn/paths/get-started-finance-operations/) | Découvrez comment les applications de finances et d’opérations prennent en charge les entreprises pour gérer leurs systèmes financiers mondiaux, les processus métier opérationnels et les chaînes d’approvisionnement rationalisées pour permettre aux utilisateurs de prendre rapidement des décisions éclairées. Dans le cadre de la première étape de votre expérience de collaboration avec les applications de finances et d’opérations, vous devez vous familiariser avec ses fonctionnalités, quel que soit votre rôle souhaité. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 2 heures |
 | [Premiers pas avec Gestion des actifs pour Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Gestion des actifs est un module de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management. Gestion des actifs vous permet de gérer et d’effectuer plus efficacement des tâches relatives à la gestion et à l’entretien de nombreux types d’équipements de votre société, par exemple, des machines, de l’équipement de production et des véhicules. Gestion des actifs prend en charge les solutions de nombreux secteurs. | Module d’apprentissage en ligne, gratuit et à son propre rythme | 1 heure |

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334773"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403691"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.28 (août 2022)
 
@@ -50,7 +50,7 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 | Gestion des entrepôts et des stocks | (Inde) Pour les règles de prix de transfert, ignorer l’emplacement lorsque « Code entrepôt d’origine » est défini sur « Tout » | <p>Cette fonctionnalité s’applique uniquement aux localisations en Inde. Cela rend le processus de configuration des prix de transfert pour les articles en transfert de stock plus intuitif.</p><p>Vous paramétrez les prix de transfert en configurant chaque article avec des règles de prix de transfert. Une façon de faire cette configuration est d’inclure une ligne de règle où le champ **Du code d’entrepôt** est défini sur *Tout*. Ce paramètre indique que le prix de transfert défini par la ligne doit s’appliquer quel que soit l’entrepôt dans lequel l’article est prélevé. Lorsque cette fonction est activée, les règles de prix de transfert où le champ **Du code d’entrepôt** est défini sur *Tout* ignorera le paramètre **Emplacement**. Par conséquent, la règle s’appliquera quel que soit l’emplacement spécifié sur l’ordre de transfert. Ce comportement est probablement ce qui est attendu, car l’emplacement se situe sous l’entrepôt dans la hiérarchie de la dimension de stockage.</p><p>Sans cette fonctionnalité, le système appliquera les règles de ce type uniquement lorsque l’emplacement sur l’ordre de transfert correspond exactement à l’emplacement défini pour la règle. (Si un emplacement vide est défini pour la règle, le système appliquera la règle uniquement aux ordres de transfert qui ont également une valeur vide pour l’emplacement.)</p> |
 | Gestion des entrepôts et des stocks | Nettoyage des données de l’état de disponibilité du stock | Cette fonction fournit un moyen de nettoyer les données permettant de créer les états *Stockage des états sur le stock disponible*. |
 | Contrôle de la production | Affecter les activités du projet pour l’accord de service et les lignes de commande de service | Cette fonctionnalité ajoute un champ nommé **Activité de projet** aux lignes de contrat de service et de commande de service, afin que vous puissiez définir une activité de projet pour eux. Cette fonctionnalité permet d’éviter les erreurs bloquantes lorsque vous publiez des journaux de projet de gestion des services qui nécessitent la définition d’une activité de projet.  |
-| Gestion des entrepôts | Service de prélèvement de ligne de transfert manuel pour les administrateurs ou les utilisateurs approuvés similaires | Cette fonctionnalité permet aux administrateurs de sélectionner manuellement les transactions de stock liées aux lignes de transfert. Ces lignes incluent les lignes ayant déjà été libérées dans l’entrepôt. Les administrateurs ne doivent effectuer cette sélection que dans des cas exceptionnels, par exemple lorsque le système est dans un état corrompu. |
+| Gestion des entrepôts | Service de prélèvement de ligne de transfert manuel pour les administrateurs ou les utilisateurs approuvés similaires | Cette fonctionnalité permet aux administrateurs de sélectionner manuellement les transactions de stock liées aux lignes de transfert. Ces lignes incluent les lignes ayant déjà été libérées dans l’entrepôt. Les administrateurs ne doivent effectuer cette sélection que dans des cas exceptionnels, par exemple lorsque le système est dans un état corrompu. Pour plus d’informations, voir [Gérer manuellement les ventes et les exceptions de prélèvement de ligne de transfert](../warehousing/manual-order-line-picking-exception-handling.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 

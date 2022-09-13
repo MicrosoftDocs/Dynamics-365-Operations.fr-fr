@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 45a35eb32cb9e51d9f63f6687808fb511f894887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873722"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403694"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processus de publication de l’optimisation de la planification et historique des versions
 
@@ -33,6 +33,7 @@ Les environnements qui utilisent l’optimisation de la planification reçoivent
 
 | Modifications | Détails de la gestion des fonctionnalités | Dates de parution |
 |---|---|---|
+| <p>Améliorations générales des performances, de la qualité et de la stabilité. | Aucune gestion des fonctionnalités n’est requise. | 29 août – 3 septembre 2022 |
 | <p>Améliorations générales des performances, de la qualité et de la stabilité.<p>[Maintenance du calendrier centralisé de l’optimisation de la planification](../supply-chain-calendars-master-planning.md)<p>[Suggestions d’optimisation de la planification pour optimiser l’offre existante](../action-messages.md)<p>[Prise en charge de l’optimisation de la planification pour la sous-traitance](../../production-control/manage-subcontract-work-production.md) | Aucune gestion des fonctionnalités n’est requise. | 7-11 mars 2022 |
 | <p>Ajout de la prise en charge de la priorité de planification pour les ordres de fabrication. | Disponible avec la version 10.0.25 dans le cadre de la fonctionnalité *Support MRP piloté par la priorité pour l’optimisation de la planification*. | 12-18 novembre 2021 |
 | <p>Améliorations générales des performances, de la qualité et de la stabilité. | Aucune gestion des fonctionnalités n’est requise. | 12-18 novembre 2021 |

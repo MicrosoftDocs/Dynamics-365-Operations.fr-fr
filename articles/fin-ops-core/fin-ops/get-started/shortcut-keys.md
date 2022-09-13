@@ -2,7 +2,7 @@
 title: Raccourcis clavier
 description: Cet article fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications de finances et d’opérations.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357575"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405435"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,10 +88,12 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Ouvrir le volet de filtre (ou permuter le focus entre le volet de filtre et l’écran principal si le volet de filtre est déjà ouvert) | Alt+M, F ou Ctrl+F3       |
 | Fermer le volet de filtre (avec le focus sur le volet de filtre)                                                               | Échap                      |
 | Ouvrir le filtrage ou le tri avancé                                                                                        | Ctrl+Maj+F3            |
+| Appliquer le filtre rapide (lorsque le focus est dans le filtre rapide)                                                              | Entrer                    |
+| Appliquer le filtre de grille (lorsque le focus est dans le champ de filtre de l’en-tête de colonne)                                             | Entrer                    |
 
 ## <a name="form-shortcuts"></a>Raccourcis d’écran
 
-| Opération                                    | Raccourci             |
+| Opération                                    | Appuyer sur             |
 |-----------------------------------------------|-------------------|
 | Créer un enregistrement                           | Alt+N             |
 | Supprimer un enregistrement                               | Alt+Suppr ou Alt+F9 |
@@ -160,9 +163,10 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Opération                                                                   | Appuyer sur                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Ouvrir le lien hypertexte                                                           | Ctrl+Entrée                    |
+| Ouvrir le lien hypertexte (lorsque le focus est sur un contrôle en lecture seule)<br><br>**Noter :** Ce raccourci ne s’applique que lorsque la fonctionnalité **Standardiser l’interaction du clavier pour la zone de liste modifiable et les contrôles de recherche** est activée                   | Entrer    |
 | Entrer la date de session dans un champ de date                                       | D                             |
 | Entrer la date actuelle dans un champ de date                                       | T                             |
-| Ouvrir la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                         | Alt + Flèche Bas                |
+| Ouvrir la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                         | Alt + Flèche Bas<br><br>Entrée (lorsque la fonctionnalité **Standardiser l’interaction du clavier pour la zone de liste modifiable et les contrôles de recherche** est activée)                |
 | Fermer la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                        | Échap                           |
 | Déplacer le focus sur une recherche (lorsque la recherche est déjà ouverte)                   | Alt + Flèche Bas                |
 | Ouvrir l’aperçu amélioré du contrôle                                          | Alt + Flèche Haut                  |

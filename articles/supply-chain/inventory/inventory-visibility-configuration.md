@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306316"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423567"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer Inventory Visibility
 
@@ -303,13 +303,13 @@ La solution inclut cette configuration de partition par défaut. Par conséquent
 
 La plupart du temps, la requête de stock disponible ne sera pas seulement au niveau « total » le plus élevé. Au lieu de cela, vous souhaiterez peut-être également voir les résultats agrégés en fonction des dimensions de stock.
 
-La visibilité des stocks offre de la flexibilité en vous permettant de configurer les _index_. Ces index sont basés sur une dimension ou une combinaison de dimensions. Un index se compose d’un *numéro d’ensemble*, d’une *dimension* et d’une *hiérarchie*, tel que défini dans le tableau suivant.
+Inventory Visibility offre de la flexibilité en vous permettant de configurer _index_ pour améliorer les performances de vos requêtes. Ces index sont basés sur une dimension ou une combinaison de dimensions. Un index se compose d’un *numéro d’ensemble*, d’une *dimension* et d’une *hiérarchie*, tel que défini dans le tableau suivant.
 
 | Nom | Description |
 |---|---|
 | Numéro d’ensemble | Les dimensions appartenant au même ensemble (index) seront regroupées et le même numéro d’ensemble leur sera attribué. |
 | Dimension | Dimensions de base sur lesquelles le résultat de requête est agrégé. |
-| Hiérarchie | La hiérarchie est utilisée pour définir les combinaisons de dimensions prises en charge qui peuvent être interrogées. Par exemple, vous configurez un ensemble de dimensions qui a une séquence hiérarchique de `(ColorId, SizeId, StyleId)`. Dans ce cas, le système prend en charge les requêtes sur quatre combinaisons de dimensions. La première combinaison est vide, la seconde est `(ColorId)`, la troisième est `(ColorId, SizeId)` et la quatrième est `(ColorId, SizeId, StyleId)`. Les autres combinaisons ne sont pas prises en charge. Pour plus d’informations, voir les exemples suivants. |
+| Hiérarchie  | La hiérarchie vous permet d’augmenter les performances de combinaisons spécifiques de dimensions lorsqu’elles sont utilisées dans des paramètres de requête de filtrage et de regroupement. Par exemple, si vous configurez un ensemble de dimensions avec une séquence hiérarchique de `(ColorId, SizeId, StyleId)`, le système peut alors traiter plus rapidement les requêtes liées aux combinaisons à quatre dimensions. La première combinaison est vide, la seconde est `(ColorId)`, la troisième est `(ColorId, SizeId)` et la quatrième est `(ColorId, SizeId, StyleId)`. Les autres combinaisons ne seront pas accélérées. Les filtres ne sont pas limités par l’ordre, mais doivent être à l’intérieur de ces dimensions si vous souhaitez améliorer leurs performances. Pour plus d’informations, voir les exemples suivants. |
 
 Pour paramétrer votre index de hiérarchie des produits, procédez comme suit.
 
@@ -319,14 +319,13 @@ Pour paramétrer votre index de hiérarchie des produits, procédez comme suit.
 1. Par défaut, une liste d’index est fournie. Pour modifier un index existant, sélectionnez **Modifier** ou **Ajouter** dans la section de l’index approprié. Pour créer un ensemble d’index, sélectionnez **Nouvel ensemble d’index**. Pour chaque ligne de chaque ensemble d’index, dans le champ **Dimension**, faites votre sélection dans la liste des dimensions de base. Les valeurs des champs suivants sont générées automatiquement :
 
     - **Numéro d’ensemble** : les dimensions appartenant au même groupe (index) seront regroupées et le même numéro d’ensemble leur sera attribué.
-    - **Hiérarchie** : la hiérarchie est utilisée pour définir les combinaisons de dimensions prises en charge qui peuvent être interrogées dans un groupe de dimensions (index). Par exemple, si vous configurez un groupe de dimensions ayant une séquence hiérarchique *Style*, *Couleur* et *Taille*, le système prend en charge le résultat de trois groupes de requêtes. Le premier groupe concerne uniquement le style. Le deuxième groupe est une combinaison de style et de couleur. Et le troisième groupe est une combinaison de style, couleur et taille. Les autres combinaisons ne sont pas prises en charge.
+    - **Hiérarchie** : La hiérarchie vous permet d’augmenter les performances de combinaisons spécifiques de dimensions lorsqu’elles sont utilisées dans des paramètres de requête de filtrage et de regroupement.
 
 > [!TIP]
 > Voici quelques conseils à garder à l'esprit lors de la configuration de votre hiérarchie d'index :
 >
 > - Les dimensions de base définies dans la configuration de la partition ne doivent pas être définies dans les configurations d’index. Si une dimension de base est à nouveau définie dans la configuration de l'index, vous ne pourrez pas interroger par cet index.
 > - Si vous devez interroger uniquement le stock qui est agrégé par toutes les combinaisons de dimensions, vous pouvez configurer un index unique qui contient la dimension de base `Empty`.
-> - Vous devez avoir au moins une hiérarchie d'index (par exemple, contenant la dimension de base `Empty`), sinon les requêtes échoueront avec l'erreur "Aucune hiérarchie d'index n'a été définie".
 
 ### <a name="example"></a>Exemple
 

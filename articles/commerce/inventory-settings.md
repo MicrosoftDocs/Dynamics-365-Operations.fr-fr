@@ -2,7 +2,7 @@
 title: Appliquer les paramètres de stock
 description: Cet article couvre les paramètres de stock et décrit leur application dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287590"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405318"
 ---
 # <a name="apply-inventory-settings"></a>Appliquer les paramètres de stock
 
@@ -51,12 +51,12 @@ Dans Commerce, les paramètres de stock sont définis dans **Paramètres du site
     > [!IMPORTANT] 
     > Le paramètre **Niveau d’inventaire pour plusieurs entrepôts** est disponible à partir de la version 10.0.19 de Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour plus d’informations, voir [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Paramètres de stock pour les pages de liste de produits** – Ce paramètre définit la manière dont les produits en rupture de stock sont affichés dans les listes de produits affichées par les modules de collecte de produits et de résultats de recherche. Les valeurs disponibles sont **Afficher dans l’ordre avec les autres produits**, **Masquer les produits en rupture de stock de la liste** et **Afficher les produits en rupture de stock en fin de liste**. Pour utiliser ce paramètre, vous devez d’abord configurer certains paramètres prérequis dans Commerce Headquarters. Pour plus d’informations, voir [Activer la connaissance du stock pour le module des résultats de recherche](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Paramètres de stock pour les pages de liste de produits** – Ce paramètre définit la manière dont les produits en rupture de stock sont affichés dans les listes de produits affichées par les modules de collecte de produits et de résultats de recherche. Les valeurs disponibles sont **Afficher dans l’ordre avec les autres produits**, **Masquer les produits en rupture de stock de la liste** et **Afficher les produits en rupture de stock en fin de liste**. Pour utiliser ce paramètre, vous devez d’abord configurer certains paramètres prérequis dans Commerce Headquarters. Pour plus d’informations, voir [Liste des produits tenant compte du stock](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > Le paramètre **Paramètres de stock pour les pages de liste de produits** est disponible à partir de la version 10.0.20 de Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour plus d’informations, voir [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Plages de stock** – Ce paramètre définit les plages de stock pour lesquelles des messages sont affichés sur les modules du site. Il est applicable uniquement si la valeur **Total disponible** ou la valeur **Disponible physique** est sélectionnée pour le paramètre **Niveau de stock basé sur**. Les valeurs disponibles sont **Tout**, **Stock faible et rupture de stock** et **En rupture de stock**.
+- **Plages de stock** – Ce paramètre définit les messages de plages de stock affichés sur les modules du site. Il est applicable uniquement si la valeur **Total disponible** ou la valeur **Disponible physique** est sélectionnée pour le paramètre **Niveau de stock basé sur**. Les valeurs disponibles sont **Tout**, **Stock faible et rupture de stock** et **En rupture de stock**.
 
     - Quand **Tout** est sélectionné, les messages pour toutes les plages de stock, depuis en stock (message « Disponible ») jusqu’à rupture de stock (message « Épuisé »), seront affichés.
     - Quand **Stock faible et rupture de stock** est sélectionné, les messages pour toutes les plages de stock, sauf en stock (message « Disponible »), seront affichés.

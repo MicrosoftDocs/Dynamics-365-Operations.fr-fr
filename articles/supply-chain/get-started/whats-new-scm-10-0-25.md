@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219092"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403682"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Nouveautés et modifications dans Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
 
@@ -161,7 +161,7 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Gestion des entrepôts | [Positionnement des contenants d’emplacement](../warehousing/location-license-plate-positioning.md) | Obligatoire |
 | Gestion des entrepôts | [Mélange de dimensions de produit d’emplacement](../warehousing/location-product-dimension-mixing.md) | Obligatoire |
 | Gestion des entrepôts | Rendre modifiable le champ Statut du stock pour les mouvements de stock sur l’appareil mobile | Obligatoire |
-| Gestion des entrepôts | Service de prélèvement de ligne vente manuel pour les administrateurs ou les utilisateurs approuvés similaires | Obligatoire |
+| Gestion des entrepôts | [Service de prélèvement de ligne vente manuel pour les administrateurs ou les utilisateurs approuvés similaires](../warehousing/manual-order-line-picking-exception-handling.md) | Obligatoire |
 | Gestion des entrepôts | [Empêcher l’utilisation des contenants expédiés de l’ordre de transfert dans d’autres entrepôts que celui de destination](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Obligatoire |
 | Gestion des entrepôts | Inviter à résoudre les noms ambigus « Emplacement/Contenant » | Obligatoire |
 | Gestion des entrepôts | [Contrôle qualité](../warehousing/quality-check.md) | Obligatoire |

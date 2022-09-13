@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e10d4708415c7f2035154205fdd7095cb9df1b5e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b8403a01720ffdc90e0e04742e7e254166b66955
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284272"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423940"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Catalogue d’apprentissage pour les décideurs commerciaux et techniques concernant Dynamics 365 Commerce
 
@@ -29,12 +29,9 @@ Pour une formation sur les fonctionnalités partagées avec d’autres applicati
 
 ## <a name="get-started"></a>Prise en main<a name="get-started"></a>
 
-| Contenu   | Description   | Format    | Longueur    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
-| [Apprendre la valeur commerciale de Microsoft Dynamics 365 et Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Cette expérience d’apprentissage vous guidera dans le cadre d’un parcours qui commencera avec la présentation de la manière dont la transformation numérique et la puissance des applications métier peuvent révolutionner votre entreprise. Nous couvrirons comment Dynamics 365 et Power Platform vous aideront à prendre des décisions éclairées en fonction des besoins de votre organisation et de vos objectifs, par le biais des quatre concepts élémentaires de la révolution numérique : moderne, unifiée, intelligente et adaptable.                  | Parcours d’apprentissage en ligne, gratuit et à son propre rythme                                          | 6.5 heures   |
-| [Mise en route de Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/)                                                       | Dynamics 365 Commerce, fondé sur les fonctionnalités éprouvées de Dynamics 365 Retail, fournit une solution complète omnicanale qui unifie le back-office, le magasin, le centre d’appels et les expériences numériques. Dynamics 365 Commerce permet d’établir la fidélité de la marque via les engagements personnalisés du client, pour augmenter le produit avec une productivité améliorée des employés, pour optimiser les opérations afin de réduire les coûts et pour favoriser l’efficacité de la chaîne d’approvisionnement, ce qui fournit essentiellement de meilleurs résultats d’entreprise. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme                                          | 2 heures   |
-| [Mise en route de Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection est une solution basée sur le cloud conçue pour le commerce électronique, les magasins traditionnels et les marchands omnicanaux, pour aider à protéger leurs revenus et leur réputation en fournissant des outils et des fonctionnalités pour réduire la fraude et les abus, réduire les dépenses opérationnelles et augmenter les taux d’acceptation tout en protégeant les comptes d’utilisateurs contre la fraude. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 35 minutes |
-
+| Contenu | Description | Format | Length |
+|---------|-------------|--------|--------|
+| [Mise en route de Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/)                                                       | Dynamics 365 Commerce, fondé sur les fonctionnalités éprouvées de Dynamics 365 Retail, fournit une solution complète omnicanale qui unifie le back-office, le magasin, le centre d’appels et les expériences numériques. Dynamics 365 Commerce permet d’établir la fidélité de la marque via les engagements personnalisés du client, pour augmenter le produit avec une productivité améliorée des employés, pour optimiser les opérations afin de réduire les coûts et pour favoriser l’efficacité de la chaîne d’approvisionnement, ce qui fournit essentiellement de meilleurs résultats d’entreprise. | Parcours d’apprentissage en ligne, gratuit et auto-rythmé                                          | 2 heures   |
+| [Mise en route de Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection est une solution basée sur le cloud conçue pour le commerce électronique, les magasins traditionnels et les marchands omnicanaux, pour aider à protéger leurs revenus et leur réputation en fournissant des outils et des fonctionnalités pour réduire la fraude et les abus, réduire les dépenses opérationnelles et augmenter les taux d’acceptation tout en protégeant les comptes d’utilisateurs contre la fraude. | Parcours d’apprentissage en ligne, gratuit et auto-rythmé | 35 minutes |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
