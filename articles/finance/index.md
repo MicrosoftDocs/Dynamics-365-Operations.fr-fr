@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887888"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475580"
 ---
 # <a name="finance-home-page"></a>Page d’accueil Finance
 
@@ -41,7 +41,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
         - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Financial Reporting](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Financial Reporting](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Immobilisations](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Comptabilité et Financial Reporting](general-ledger/general-ledger.md) 
@@ -64,7 +64,7 @@ Consultez les vidéos de procédure qui sont désormais disponibles sur la [cha�
 
 ### <a name="countryregion-functionality"></a>Fonctionnalité spécifique à un pays/une région
 
-Les réglementations spécifiques à un pays/une région affectent le paramétrage des taxes et d’autres domaines de la gestion financière. Pour en savoir plus sur les fonctionnalités spécifiques à un pays/une région, reportez-vous à la section [Fonctions de localisation et de réglementation](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Les réglementations spécifiques à un pays/une région affectent le paramétrage des taxes et d’autres domaines de la gestion financière. Pour en savoir plus sur les fonctionnalités spécifiques à un pays/une région, reportez-vous à la section [Fonctions de localisation et de réglementation](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json).
 
 ### <a name="additional-content"></a>Contenu supplémentaire
 
@@ -80,6 +80,6 @@ Pour obtenir des informations sur les fonctionnalités de gestion des achats, du
 
 ## <a name="elearning-courses"></a>Cours eLearning
 
-Pour les cours et formations en ligne, consultez [Dynamics 365 Finance sur Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Pour les cours et formations en ligne, consultez [les parcours d’apprentissage Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
