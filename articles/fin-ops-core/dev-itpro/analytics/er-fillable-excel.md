@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280922"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476818"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
@@ -186,6 +186,9 @@ Quand un composant **Cellule** est configuré pour entrer une valeur dans une im
 
 > [!NOTE]
 > Chaque image et forme Excel est considérée comme étant ancrée par son coin supérieur gauche à une cellule ou une plage Excel spécifique. Si vous souhaitez répliquer une image ou une forme Excel, vous devez configurer la cellule ou la plage à laquelle il est ancré en tant que cellule ou plage répliquée.
+
+> [!TIP]
+> Si vous envisagez d’utiliser une image avec une mise à l’échelle et des proportions personnalisées lors de l’exécution, nous vous recommandons de définir l’option **Respecter la mise à l’échelle des images** du parent [Composant de fichier Excel](#excel-file-component) sur **Oui** pour appliquer la mise à l’échelle et les proportions en tant qu’espace réservé de cette image dans le modèle Excel que vous utilisez.
 
 Pour en savoir plus sur l’incorporation d’images et de formes, consultez [Incorporer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md).
 

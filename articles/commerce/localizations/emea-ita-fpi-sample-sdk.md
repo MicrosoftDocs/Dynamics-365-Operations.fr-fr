@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 275759ffec470c6188f734968f4b18b641a49212
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336657"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474151"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Directives de déploiement pour l’échantillon d’intégration d’imprimante fiscale l’Italie (héritées)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Vous devez suivre les instructions de cet article uniquement si vous utilisez Microsoft Dynamics 365 Commerce version 10.0.28 ou antérieure. A partir de la version 10.0.29 de Commerce, l’échantillon d’intégration de l'imprimante fiscale pour l’Italie est disponible dans le SDK de Commerce. Pour plus d’informations, voir [Configurer les composants du canal](./emea-ita-fpi-sample.md#configure-channel-components).

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: eed484cd37b02e58831e0041c3e0625091283b65
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335793"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428115"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolider les expéditions à l’aide de l’atelier de consolidation des expéditions
 
@@ -259,7 +259,7 @@ Quatre expéditions sont normalement créées :
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Stratégies de consolidation de l’expédition](about-shipment-consolidation-policies.md)
+- [Vue d’ensemble des stratégies de consolidation de l’expédition](about-shipment-consolidation-policies.md)
 - [Configurer les stratégies de consolidation de l’expédition](configure-shipment-consolidation-policies.md)
 
 

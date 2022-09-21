@@ -2,7 +2,7 @@
 title: Périphériques
 description: Cet article explique les concepts relatifs aux périphériques de Commerce.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880079"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459990"
 ---
 # <a name="peripherals"></a>Périphériques
 
@@ -141,6 +141,9 @@ Dans le cas de périphériques de PDV, il est possible de connecter de nombreux 
 Modern POS prend en charge les LBM et les lecteurs UWP. Par conséquent, lorsque Modern POS est prêt à recevoir l’entrée de l’un de ces périphériques, et qu’un périphérique qui appartient à une de ces classes est connecté, le périphérique peut être utilisé. Par exemple, si un lecteur de codes-barres plug-and-play est branché à un ordinateur Windows 10, et que la connexion de code-barres est configurée pour Modern POS, le lecteur de code-barres devient actif dans la page de connexion. Aucune configuration supplémentaire n’est requise.
 
 Des classes supplémentaires de périphériques PDV sont ajoutées à Windows, telles que des classes pour les tiroirs-caisses et les imprimantes de reçus. La prise en charge de ces nouvelles classes de périphérique dans Modern POS est en attente.
+
+> [!NOTE] 
+> Certains périphériques USB peuvent cesser de répondre ou ne plus être fiables lorsqu’ils sont gérés par une fonctionnalité de gestion de l’alimentation de Windows 10 appelée [Suspension sélective USB](/windows-hardware/drivers/usbcon/usb-selective-suspend). Si un périphérique USB ne répond plus, il peut être nécessaire de désactiver la fonction de suspension sélective pour ce périphérique. Pour plus d’informations, consultez [Activer la suspension sélective](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
 
 ### <a name="keyboard-wedge"></a>Clavier wedge
 

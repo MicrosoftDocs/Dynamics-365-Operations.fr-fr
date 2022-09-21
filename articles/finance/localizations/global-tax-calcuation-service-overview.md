@@ -2,7 +2,7 @@
 title: Vue d’ensemble du calcul de la taxe
 description: Cet article explique la portée et les fonctionnalités générales de la fonctionnalité de calcul des taxes.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295989"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465164"
 ---
 # <a name="tax-calculation-overview"></a>Vue d’ensemble du calcul de la taxe
 
@@ -74,18 +74,10 @@ Nous vous recommandons d’importer et de paramétrer votre configuration de cal
 
 | Version de Finance ou de Supply Chain Management | Version de la configuration de la taxe               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Configuration de taxe - Europe 30.12.82     |
-| 10.0.19         | Configuration du calcul des taxes 36.38.193 |
-| 10.0.20         | Configuration du calcul des taxes 40.43.208 |
-| 10.0.21         | Configuration du calcul des taxes 40.48.215 |
-| 10.0.22         | Configuration du calcul des taxes 40.48.215 |
-| 10.0.23         | Configuration du calcul des taxes 40.50.221 |
-| 10.0.24         | Configuration du calcul des taxes 40.50.225 |
-| 10.0.25         | Configuration du calcul des taxes 40.50.225 |
-| 10.0.26         | Configuration du calcul des taxes 40.54.234 |
-| 10.0.27         | Configuration du calcul des taxes 40.54.234 |
-| 10.0.28         | Configuration du calcul des taxes 40.54.234 |
+| 10.0.30         | Configuration du calcul des taxes 40.55.239 |
 | 10.0.29         | Configuration du calcul des taxes 40.55.236 |
+| 10.0.28         | Configuration du calcul des taxes 40.54.234 |
+| 10.0.27         | Configuration du calcul des taxes 40.54.234 |
 
 
 ## <a name="data-flow"></a>Flux de données
@@ -104,120 +96,27 @@ Voici un aperçu du processus de flux de données pour le calcul des taxes.
 
 Le calcul des taxes peut être activé par les transactions. 
 
-Les transactions suivantes sont prises en charge dans la version 10.0.21 : 
+La table suivante répertorie les transactions prises en charge dans la version correspondante.
 
-- Vente
-
-    - Devis de vente
-    - Commande de vente
-    - Confirmation
-    - Prélèvements
-    - Bon de livraison
-    - Facture client
-    - Avoir
-    - Ordre de retour
-    - Frais divers d’en-tête
-    - Frais divers de ligne
-
-- Achats
-
-    - Commande fournisseur
-    - Confirmation
-    - Préparation de réception
-    - Réception des produits
-    - Facture d’achat
-    - Frais divers d’en-tête
-    - Frais divers de ligne
-    - Avoir
-    - Ordre de retour
-    - Demande d’achat
-    - Frais divers de ligne de demande d’achat
-    - Appel d’offre
-    - Frais divers d’en-tête d’appel d’offre
-    - Frais divers de ligne d’appel d’offre
-
-- Stock
-
-    - Ordre de transfert – Expédition
-    - Ordre de transfert – Réception
-
-Les transactions suivantes sont prises en charge dans la version 10.0.23 : 
-
-- Facture financière
-
-Les transactions suivantes sont prises en charge dans la version 10.0.26 : 
-
-- Journaux des opérations diverses
-- Journal des factures fournisseur
-
-Les transactions suivantes sont prises en charge dans la version 10.0.28 : 
-
-- Journal des paiements fournisseur
-- Journal des paiements client
-
-Les transactions suivantes sont prises en charge dans la version 10.0.29 : 
-
-
-- Journaux périodiques
+| Version | Transactions |
+|---------|--------------|
+| 10.0.29 | Journaux périodiques |
+| 10.0.28 | Journal des paiements fournisseur<br> Journal des paiements client | 
+| 10.0.26 | Journaux des opérations diverses<br> Journal des factures fournisseur |
+| 10.0.23 | Facture financière |
+| 10.0.21| Vente<br><ul><li>Devis de vente</li><li>Commande de vente</li><li>Confirmation</li><li>Prélèvements</li><li>Bon de livraison</li><li>Facture client</li><li>Avoir</li><li>Ordre de retour</li><li>Frais divers d’en-tête</li><li>Frais divers de ligne</li></ul>Achats<br><ul><li>Commande fournisseur</li><li>Confirmation</li><li>Préparation de réception</li><li>Réception des produits</li><li>Facture d’achat</li><li>Frais divers d’en-tête</li><li>Frais divers de ligne</li><li>Avoir</li><li>Ordre de retour</li><li>Demande d’achat</li><li>Frais divers de ligne de demande d’achat</li><li>Appel d’offre</li><li>Frais divers d’en-tête d’appel d’offre</li><li>Frais divers de ligne d’appel d’offre</li></ul>Stocks<ul><li>Ordre de transfert – Expédition</li><li>Ordre de transfert – Réception</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Pays/régions pris en charge
 
-Le calcul des taxes peut être exécuté avec les fonctionnalités de localisation prises en charge dans les pays/régions suivants pour l’adresse principale d’une entité juridique : 
+Le calcul des taxes peut être exécuté avec les fonctionnalités de localisation prises en charge. La table suivante répertorie les pays/régions pour l’adresse principale d’une entité juridique.
 
-Prise en charge dans la version 10.0.21 :
-
-- Autriche
-- Belgique
-- Danemark
-- Estonie
-- Finlande
-- France
-- Allemagne
-- Hongrie
-- Islande
-- Irlande
-- Italie
-- Lettonie
-- Lituanie
-- Pays-Bas
-- Norvège
-- Pologne
-- Suède
-- Suisse
-- Royaume-Uni
-- Etats-Unis
-
-Prise en charge dans la version 10.0.22 :
-
-- Australie
-- Royaume de Bahreïn
-- Canada
-- Égypte
-- Hong Kong (R.A.S.)
-- Koweït
-- Nouvelle-Zélande
-- Oman
-- Qatar
-- Arabie saoudite
-- Afrique du Sud
-- Émirats arabes unis
-
-Prise en charge dans la version 10.0.23 :
-
-- Thaïlande
-- Japon
-- Malaisie
-- Singapour
-
-Prise en charge dans la version 10.0.24 :
-
-- Mexique
-
-Prise en charge dans la version 10.0.26 :
-
-- Chine
-- République tchèque
-- Espagne
+| Version | Pays/Région |
+|---------|----------------|
+| 10.0.26 | - Chine <br>- République tchèque<br>- Espagne |
+| 10.0.24 | Mexique |
+| 10.0.23 | - Thaïlande <br>- Japon <br>- Malaisie <br>- Singapour |
+| 10.0.22 | - Australie<br>- Royaume de Bahreïn <br>- Canada<br>- Égypte <br>- R.A.S. de Hong Kong <br>- Koweït <br>- Nouvelle-Zélande <br>- Oman <br>- Qatar <br>- Arabie saoudite <br>- Afrique du Sud <br>- Émirats arabes unis |
+| 10.0.21 | - Autriche <br>- Belgique <br>- Danemark <br>- Estonie <br>- Finlande <br>- France <br>- Allemagne <br>- Hongrie <br>- Islande <br>- Irlande <br>- Italie <br>- Lettonie <br>- Lituanie <br>- Pays-Bas <br>- Norvège <br>- Pologne <br>- Suède <br>- Suisse <br>- Royaume-Uni <br>- États-Unis |
 
 Pour tout pays/région non localisé par Microsoft, le calcul des taxes peut également être activé et exécuté avec d’autres fonctionnalités globales.
 

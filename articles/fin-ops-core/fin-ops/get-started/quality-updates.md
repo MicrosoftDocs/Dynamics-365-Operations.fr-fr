@@ -2,7 +2,7 @@
 title: Mises à jour proactives de la qualité
 description: Cet article fournit des informations sur la livraison proactive des mises à jour de qualité.
 author: rashmansur
-ms.date: 08/23/2022
+ms.date: 09/12/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9d81cb15e9a127e7bea7ad9b5e0f50a1ee543f71
-ms.sourcegitcommit: 78e85ad49634cd31459fdb7325cb273352bf1501
+ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
+ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9338134"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473603"
 ---
 # <a name="proactive-quality-updates"></a>Mises à jour proactives de la qualité
 
@@ -58,12 +58,67 @@ Un ensemble de modifications de processus est en cours de mise en œuvre avant l
 - **Contrôle accru des changements** – Actuellement, il existe déjà une étape de processus supplémentaire pour approuver les modifications à inclure dans une mise à jour de qualité. L’examen minutieux de l’étape supplémentaire sera accru pour aider à réduire le potentiel de régressions. Les changements cassants ne sont pas autorisés dans les mises à jour de qualité, et l’examen approfondi des modifications contribuera à garantir que nous atteignons cet objectif.
 - **Visibilité** – Nous enverrons des notifications par e-mail et Lifecycle Services (LCS) pour les prochaines mises à jour de qualité proactives. De plus, les équipes de support et les responsables des incidents auront une visibilité sur les endroits où les mises à jour de qualité ont été déployées de manière proactive.
 - **Version de repli** – Le flighting sera utilisé pour regrouper toutes les modifications dans une mise à jour proactive de la qualité. Si un repli est nécessaire après un déploiement proactif, il peut être effectué via le système de flighting.
-- **Désignation de la synchronisation bac à sable** – Moins de 20 % des clients disposent aujourd’hui de plusieurs bacs à sable et conservent un bac à sable déployé là où la version correspond à la production, pour faciliter la résolution des problèmes. Dans un futur proche, nous allons introduire la possibilité pour les clients de spécifier un environnement bac à sable qui ne devrait pas recevoir le déploiement proactif de mise à jour de qualité avec d’autres bacs à sable, mais qui devrait plutôt le recevoir plus tard, avec l’environnement de production. Notez que si un client utilise un bac à sable pour tester une version plus récente que leur version en production, ce bac à sable recevra des mises à jour de qualité vers la version la plus récente.
-- 
-## <a name="when-will-proactive-quality-updates-start"></a>Quand commenceront les mises à jour de qualité proactives ?
+- **Désignation de la synchronisation bac à sable** – Moins de 20 % des clients disposent aujourd’hui de plusieurs bacs à sable et conservent un bac à sable déployé là où la version correspond à la production, pour faciliter la résolution des problèmes. Si un client utilise un bac à sable pour tester une version plus récente que leur version en production, ce bac à sable recevra des mises à jour de qualité vers la version la plus récente.
+
+## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Quelle est la feuille de route de déploiement des mises à jour de qualité ?
 
 La distribution de mises à jour de qualité proactives pour les environnements bac à sable devrait commencer fin septembre ou octobre 2022 pour les clients du cloud public Azure. Les environnements d’essai commenceront également à recevoir un déploiement de mise à jour proactive à ce moment-là. En septembre, une notification sera envoyée à chaque client pour les informer du calendrier prévu pour leurs environnements. Les exceptions au processus de distribution proactif des mises à jour ne seront autorisées que pour les clients réglementés par la FDA. Nous travaillons toujours sur la manière dont les environnements réglementés et les clients cloud souverains et gouvernementaux seront gérés.
 
 Au cours des six prochains mois, nous augmenterons progressivement le pourcentage d’environnements bac à sable qui reçoivent des mises à jour proactives, jusqu’à ce que tous les environnements désignés soient inclus et progressent vers la mise à jour des environnements de production. Tout au long de la période, nous surveillerons pour nous assurer que le processus de déploiement est transparent et que nous atteignons notre objectif de charges utiles non perturbatrices.
 
 Étant donné que les clients recevront régulièrement des charges utiles plus petites, nous nous attendons à ce que le processus de mise à jour devienne plus simple. Nous ajusterons la fréquence de déploiement des mises à jour à mesure que nous démontrerons la capacité d’exécuter le processus sans interruption. Ce processus fonctionne déjà efficacement pour notre plate-forme et les applications Dataverse, et fournit les améliorations attendues de la qualité de service. Nous sommes impatients de faire le même pas en avant pour les applications financières et d'exploitation.
+
+## <a name="when-will-quality-updates-start-for-production-environments"></a>Quand les mises à jour de qualité commenceront-elles pour les environnements de production ?
+Pour le moment, les mises à jour de qualité ne ciblent que les bacs à sable. Les mises à jour des environnements de production commenceront après novembre 2022.
+
+## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Quelle est le calendrier des mises à jour de qualité pour le bac à sable ?
+Pour plus d’informations sur les heures sombres pour chaque région, voir [Quel est le calendrier des mises à jour proactives de la qualité ?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates).
+
+## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>Comment les heures sombres sont-elles gérées pour les clients qui disposent d’une instance d’applications de finances et d’opérations, mais qui sont actifs dans plusieurs fuseaux horaires ? 
+Il n’y a pas d’horaires spéciaux en dehors des heures sombres où une instance d’applications de finances et d’opérations existe, car nous prévoyons de déployer des mises à jour de qualité de manière peu perturbatrice avec [nZDT](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean).
+
+## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>Comment Microsoft assurera-t-il la qualité de ces mises à jour ?
+Microsoft s’efforce de maintenir le pipeline de publication suffisamment efficace pour fournir de petites charges utiles afin de maintenir le coût de validation à un faible niveau. Chaque correctif d’une mise à jour de qualité passe par un processus de déploiement rigoureux et sûr qui contribue à améliorer la qualité et la fiabilité, réduisant ainsi l’impact sur le client. Le déploiement se fera d’abord par étapes sur les environnements sandbox, suivi de la production. Les déploiements par étapes permettent une surveillance appropriée pour déterminer si un déploiement ultérieur est sûr. Nous arrêterons le déploiement si des problèmes sont détectés avec chaque groupe de clients déployés et veillons à ce que chaque étape du déploiement ait suffisamment de temps pour que les problèmes apparaissent. Pour chaque mise à jour de qualité à venir, nous fournirons une visibilité sur le calendrier grâce à des mises à jour de la documentation publique et des e-mails, afin que les clients puissent planifier à l’avance.
+
+## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>Les clients peuvent-ils retarder, replanifier ou interrompre une mise à jour qualité ?
+Non L’objectif principal des mises à jour de qualité est de garantir que les fondamentaux tels que la sécurité, la confidentialité, la fiabilité, la disponibilité et les performances s’améliorent en permanence pour nos clients. En retardant ou en suspendant une mise à jour, la sécurité, la disponibilité et la fiabilité seront menacées.
+
+## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>Comment connaître l’ensemble des modifications apportées à une charge utile de mise à jour de qualité ?
+Vous pourrez consulter tous les articles de la base de connaissances dans une mise à jour de qualité basée sur la page **Détails de l’environnement** dans LCS, en naviguant vers la section **Mise à jour de la qualité**. 
+
+## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>Quel est le processus si un problème critique est détecté après une mise à jour qualité ?
+Un problème critique ou une régression est un ou plusieurs événements qui entraînent généralement une expérience dégradée pour plusieurs clients avec un ou plusieurs de nos services. Ces problèmes peuvent entraîner des temps d’arrêt imprévus, notamment une indisponibilité, une dégradation des performances et des interférences avec la gestion des services. S’il y a un impact important sur les clients en raison de telles régressions, nous arrêterons le déploiement d’une mise à jour de qualité jusqu’à ce que nous puissions communiquer et résoudre le problème. En règle générale, la prochaine mise à jour de qualité contiendra le correctif nécessaire pour reprendre le déploiement.
+
+Si un seul environnement client est concerné, contactez le support Microsoft pour ouvrir un ticket. Sur la base de la justification, nous arrêterons le déploiement de la mise à jour de la qualité dans tous les autres environnements de ce projet jusqu’à ce que le problème soit atténué.
+
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Les clients peuvent-ils toujours appliquer manuellement les mises à jour de correctifs à partir de LCS ?
+Oui. Pour garantir une parité continue avec le fonctionnement des correctifs, les mises à jour de correctifs peuvent toujours être appliquées aux environnements client dans LCS. Cependant, il est important de noter que les correctifs déployés dans le cadre d’une mise à jour de qualité passent par le SDP standard avant le déploiement de la mise à jour. Cela réduit le risque de régressions dues à une meilleure qualité. Nous vous recommandons de choisir une mise à jour de qualité plutôt que d’appliquer manuellement des correctifs pour une fiabilité accrue.
+
+## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>Les clients peuvent-ils installer eux-mêmes une mise à jour de qualité avant la date prévue ?
+Oui. Vous pouvez installer une mise à jour de qualité de manière proactive. Microsoft ignorera la mise à jour si la version de build actuelle de l’environnement est égale ou supérieure à la mise à jour de qualité en question.
+
+## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Si un environnement a une prochaine mise à jour de service mensuelle planifiée dans une semaine, recevra-t-il toujours des mises à jour de qualité ?
+- Les mises à jour de qualité ne sont pas appliquées si une mise à jour de service imminente est prévue dans la semaine suivant la date à laquelle la mise à jour de qualité est prévue.
+- Si un environnement sandbox a la même version de build ou une version supérieure à la mise à jour de qualité imminente, il sera ignoré.
+- Si un environnement de production a la même version de build ou une version supérieure à la mise à jour de qualité imminente, il sera ignoré.
+- Si un sandbox a la même version de build ou une version supérieure en raison d’une mise à jour de qualité ou d’une mise à jour manuelle de la production, la production recevra toujours la version planifiée de la mise à jour mensuelle du service. Si vous ne souhaitez pas que l’environnement de production planifié soit mis à jour vers la version de mise à jour du service, vous pouvez interrompre la mise à jour du service à partir de LCS. 
+- Nous vous recommandons d’utiliser la dernière version de mise à jour de qualité pour tester vos modifications pour une mise à jour de service à venir pour une meilleure stabilité et de meilleurs résultats.
+
+## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Un environnement peut-il être ramené à son état précédent s’il y a des problèmes après l’application d’une mise à jour de qualité ?
+Après l’application d’une mise à jour de qualité, il n’y a aucune restauration en aucune circonstance. Il n’y a que des options de transfert de correctifs disponibles pour atténuer les problèmes.
+
+## <a name="what-about-fda-regulation-and-gpx"></a>Qu’en est-il de la réglementation FDA et du GPX ?
+Le plan pour les clients soumis à la validation et à la réglementation de la FDA est toujours en évolution. Attendez-vous à plus de mises à jour dans cet espace bientôt. Pour l’instant, tous ces clients sont exemptés des mises à jour de qualité.
+
+## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Quelles versions des mises à jour de service sont prises en charge pour ces mises à jour de qualité ?
+Les clients des versions inférieures à N-2 ne recevront pas de mises à jour de qualité. 
+
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Les déploiements d’applications de finances et d’opérations avec des composants de vente au détail nécessitent généralement un travail supplémentaire en plus du redéploiement de MPOS. Quel sera l’impact de ces mises à jour de qualité sur RetailSDK ? 
+Comme la nature des correctifs eux-mêmes ne change pas dans la charge utile des mises à jour de qualité, nous ne prévoyons aucun impact supplémentaire pour le moment spécifiquement lié aux composants de vente au détail.
+
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>Y a-t-il un impact sur les environnements hébergés dans le cloud (CHE) ? ? 
+Non
+
+## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Y a-t-il des problèmes d’intégration avec Microsoft Dataverse ? 
+Non
+

@@ -2,7 +2,7 @@
 title: Configurer les stratégies de consolidation de l’expédition
 description: Cet article explique comment configurer des stratégies de consolidation de l’expédition par défaut et personnalisées.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0312d425d2ebc5311e894030423a916b90f1881a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336490"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427980"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurer les stratégies de consolidation de l’expédition
 
@@ -28,75 +28,49 @@ Le processus de consolidation de l’expédition qui utilise des stratégies de 
 
 Les scénarios présentés dans cet article montrent comment configurer des stratégies de consolidation d’expédition par défaut et personnalisées.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Activer la fonctionnalité Stratégie de consolidation de l’expédition
+> [!WARNING]
+> Si vous mettez à niveau un système Microsoft Dynamics 365 Supply Chain Management sur lequel vous utilisiez l’ancienne fonctionnalité de consolidation des expéditions, la consolidation risque de cesser de fonctionner comme prévu, sauf si vous suivez les conseils donnés ici.
+>
+> Sur les installations Supply Chain Management où la fonctionnalité *Stratégies de consolidation des expéditions* est désactivée, vous activez la consolidation des expéditions à l’aide du paramètre **Consolider l’expédition à la libération dans l’entrepôt** pour chaque entrepôt individuel. Cette fonctionnalité est obligatoire à partir de la version 10.0.29. Lorsqu’il est activé, le paramètre **Consolider l’expédition à la libération dans l’entrepôt** devient masqué et la fonctionnalité est remplacée par les *stratégies de consolidation des expéditions* qui sont décrites dans cet article. Chaque stratégie établit des règles de consolidation et inclut une requête pour contrôler où la stratégie s’applique. Lorsque vous activez la fonctionnalité pour la première fois, aucune politique de consolidation des expéditions ne sera définie sur la page **Stratégie de consolidation des expéditions**. Lorsqu’aucune stratégie n’est définie, le système utilise le comportement hérité. Ainsi, chaque entrepôt existant continue de respecter son paramètre **Consolider l’expédition à la libération dans l’entrepôt**, même si ce paramètre est maintenant masqué. Cependant, après avoir créé au moins une stratégie de consolidation des expéditions, le paramètre **Consolider l’expédition à la libération dans l’entrepôt** n’a plus d’effet et la fonctionnalité de consolidation est entièrement contrôlée par les stratégies.
+>
+> Après avoir défini au moins une stratégie de consolidation des expéditions, le système vérifie les stratégies de consolidation chaque fois qu’une commande est envoyée à l’entrepôt. Le système traite les stratégies en utilisant le classement défini par la valeur **Séquence de stratégies** de chaque stratégie. Il applique la première stratégie où la requête correspond à la nouvelle commande. Si aucune stratégie n’est configurée, chaque ligne de vente générera une expédition distincte contenant une seule ligne de chargement. Par conséquent, en guise de solution de rechange, nous vous recommandons de créer une stratégie par défaut qui s’applique à tous les entrepôts et groupes par numéro de commande. Donnez à cette stratégie de secours la valeur **Séquence de stratégies** la plus élevée, afin qu’elle soit traitée en dernier.
+>
+> Pour reproduire le comportement hérité, vous devez créer une stratégie qui ne regroupe pas par numéro de commande et qui a des critères de requête qui incluent tous les entrepôts pertinents.
 
-> [!IMPORTANT]
-> Dans le [premier scénario](#scenario-1) décrit dans cet article, vous allez d’abord configurer un entrepôt afin qu’il utilise la fonctionnalité de consolidation de l’expédition antérieure. Vous rendrez ensuite disponibles les stratégies de consolidation de l’expédition. De cette façon, vous pouvez découvrir le fonctionnement du scénario de mise à niveau. Si vous prévoyez d’utiliser un environnement de données de démonstration pour passer par le premier scénario, n’activez pas la fonctionnalité avant de réaliser le scénario.
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Activer la fonctionnalité Stratégie de consolidation de l’expédition
 
 Pour utiliser la fonctionnalité *Politiques de consolidation de l’expédition*, il doit être activer pour votre système. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Politiques de consolidation de l'expédition* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-## <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
+## <a name="set-up-your-initial-consolidation-policies"></a><a name="initial-policies"></a>Configurer vos stratégies de regroupement initiales
 
-Chaque scénario de cet article fait référence aux valeurs et aux enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
-
-## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Scénario 1 : Configurer les stratégies de consolidation des expéditions par défaut
-
-Il existe deux situations dans lesquelles vous devez configurer le nombre minimum de stratégies par défaut après avoir activé la fonctionnalité *Stratégies de consolidation de l’expédition* :
-
-- Quand vous mettez à niveau un environnement qui contient déjà des données.
-- Quand vous installez un environnement complètement nouveau.
-
-### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Mettre à niveau un environnement où les entrepôts sont déjà configurés pour la consolidation des commandes croisées
-
-Lorsque vous démarrez cette procédure, la fonctionnalité *Stratégies de consolidation de l’expédition* doit être désactivée pour simuler un environnement dans lequel la fonctionnalité de consolidation des commandes croisées de base était déjà utilisée. Vous utiliserez ensuite la gestion des fonctionnalités pour activer la fonctionnalité, afin de pouvoir apprendre à configurer des stratégies de consolidation des expéditions après la mise à niveau.
-
-Suivez ces étapes pour configurer des stratégies de consolidation des expéditions par défaut dans un environnement où les entrepôts ont déjà été configurés pour la consolidation des commandes croisées.
-
-1. Accédez à **Gestion des entrepôts \> Configuration \> Entrepôt \> Emplacements fixes**.
-1. Dans la liste, recherchez et ouvrez l’enregistrement d’entrepôt souhaité (par exemple, l’entrepôt *24* dans les données de démonstration **USMF**).
-1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans le raccourci **Entrepôt**, définissez l’option **Consolider l’expédition au lancement dans l’entrepôt** sur *Oui*.
-1. Répétez les étapes 2 à 4 pour tous les autres entrepôts où la consolidation est requise.
-1. Fermez la page.
-1. Allez dans **Gestion des entrepôts \> Configuration \> Lancement dans l’entrepôt \> Stratégies de consolidation de l’expédition**. Vous devrez peut-être actualiser votre navigateur pour voir le nouvel élément de menu **Stratégies de consolidation de l’expédition** après avoir activé la fonctionnalité.
-1. Dans le volet Actions, sélectionnez **Créer un paramétrage par défaut** pour créer les stratégies suivantes :
-
-    - Une stratégie **CrossOrder** pour le type de stratégie *Commandes client* (à condition que vous disposiez d’au moins un entrepôt configuré pour utiliser la fonctionnalité de consolidation antérieure)
-    - Une stratégie **Par défaut** pour le type de stratégie *Commandes client*
-    - Une stratégie **Par défaut** pour le type de stratégie *Sortie de transfert*
-    - Une stratégie **CrossOrder** pour le type de stratégie *Sortie de transfert* (à condition que vous disposiez d’au moins un entrepôt configuré pour utiliser la fonctionnalité de consolidation antérieure)
-
-    > [!NOTE]
-    > - Les deux stratégies **CrossOrder** prennent en compte le même ensemble de champs que la logique précédente, à l’exception du champ du numéro de commande. (Ce champ est utilisé pour consolider les lignes en expéditions, en fonction de facteurs tels que l’entrepôt, le mode de transport et l’adresse.)
-    > - Les deux stratégies **Par défaut** prennent en compte le même ensemble de champs que la logique précédente, y compris le champ du numéro de commande. (Ce champ est utilisé pour consolider les lignes en expéditions, en fonction de facteurs tels que le numéro de commande, l’entrepôt, le mode de transport et l’adresse.)
-
-1. Sélectionnez la stratégie **CrossOrder** pour le type de stratégie *Commandes*, puis, dans le volet Actions, sélectionnez **Modifier la requête**.
-1. Dans la boîte de dialogue de l’éditeur de requêtes, notez que les entrepôts où l’option **Consolider l’expédition à la Lancement dans l’entrepôt** est définie sur *Oui* sont répertoriés. Par conséquent, ils sont inclus dans la requête.
-
-### <a name="create-default-policies-for-a-new-environment"></a>Créer des stratégies par défaut pour un nouvel environnement
-
-Suivez ces étapes pour configurer des stratégies de consolidation des expéditions par défaut dans un tout nouvel environnement.
+Si vous utilisez un nouveau système ou un système sur lequel vous venez d’activer la fonctionnalité *Stratégies de consolidation des expéditions* pour la première fois, suivez ces étapes pour configurer vos stratégies initiales de consolidation des expéditions.
 
 1. Allez dans **Gestion des entrepôts \> Configuration \> Lancement dans l’entrepôt \> Stratégies de consolidation de l’expédition**.
 1. Dans le volet Actions, sélectionnez **Créer un paramétrage par défaut** pour créer les stratégies suivantes :
 
-    - Une stratégie **Par défaut** pour le type de stratégie *Commandes client*
-    - Une stratégie **Par défaut** pour le type de stratégie *Sortie de transfert*
+    - Une stratégie intitulée *Par défaut* pour le type de stratégie *Commandes client*.
+    - Une stratégie intitulée *Par défaut* pour le type de stratégie *Problème de transfert*.
+    - Une stratégie intitulée *CrossOrder* pour le type de stratégie *Problème de transfert*. (Cette stratégie est créée uniquement si vous aviez au moins un entrepôt où l’ancien paramètre **Consolider l’expédition à la libération dans l’entrepôt** a été activé.)
+    - Une stratégie intitulée *CrossOrder* pour le type de stratégie *Commandes client*. (Cette stratégie est créée uniquement si vous aviez au moins un entrepôt où l’ancien paramètre **Consolider l’expédition à la libération dans l’entrepôt** a été activé.)
 
     > [!NOTE]
-    > Les deux stratégies **Par défaut** prennent en compte le même ensemble de champs que la logique précédente, y compris le champ du numéro de commande. (Ce champ est utilisé pour consolider les lignes en expéditions, en fonction de facteurs tels que le numéro de commande, l’entrepôt, le mode de transport et l’adresse.)
+    > - Les deux stratégies *CrossOrder* prennent en compte le même ensemble de champs que la logique précédente. Cependant, elles tiennent également compte du champ du numéro de commande. (Ce champ est utilisé pour consolider les lignes en expéditions, en fonction de facteurs tels que l’entrepôt, le mode de transport et l’adresse.)
+    > - Les deux stratégies *Par défaut* prennent en compte le même ensemble de champs que la logique précédente. Cependant, elles tiennent également compte du champ du numéro de commande. (Ce champ est utilisé pour consolider les lignes en expéditions, en fonction de facteurs tels que le numéro de commande, l’entrepôt, le mode de transport et l’adresse.)
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Scénario 2 : Configurer les stratégies de consolidation des expéditions personnalisées
+1. Si le système a généré une stratégie *CrossOrder* pour le type de stratégie *Commandes*, sélectionnez-la, puis, dans le volet Actions, sélectionnez **Modifier la requête**. Dans l’éditeur de requêtes, vous pouvez voir pour lequel de vos entrepôts le paramètre **Consolider l’expédition à la libération dans l’entrepôt** a été précédemment activé. Par conséquent, cette stratégie reproduit vos paramètres précédents pour ces entrepôts.
+1. Personnalisez les nouvelles stratégies par défaut selon vos besoins en ajoutant ou en supprimant des champs et/ou en modifiant les requêtes. Vous pouvez également ajouter autant de stratégies que nécessaire. Pour obtenir des exemples montrant comment personnaliser et configurer vos stratégies, consultez l’exemple de scénario plus loin dans cet article.
 
-Ce scénario montre comment configurer des stratégies de consolidation d’expédition personnalisées. Les stratégies personnalisées peuvent prendre en charge des exigences commerciales complexes où la consolidation des expéditions dépend de plusieurs conditions. Pour chaque exemple de stratégie plus loin dans ce scénario, une brève description de l’analyse de rentabilisation est incluse. Ces exemples de stratégies doivent être configurés dans une séquence qui garantit une évaluation pyramidale des requêtes. (En d’autres termes, les stratégies qui ont le plus de conditions doivent être évaluées comme ayant la plus haute priorité.)
+## <a name="scenario-configure-custom-shipment-consolidation-policies"></a>Scénario : Configurer les stratégies de consolidation des expéditions personnalisées
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Activer la fonctionnalité et préparer les données de base pour ce scénario
+Ce scénario fournit un exemple qui montre comment configurer des stratégies de consolidation d’expédition personnalisées, puis les tester à l’aide de données de démonstration. Les stratégies personnalisées peuvent prendre en charge des exigences commerciales complexes où la consolidation des expéditions dépend de plusieurs conditions. Pour chaque exemple de stratégie plus loin dans ce scénario, une brève description de l’analyse de rentabilisation est incluse. Ces exemples de stratégies doivent être configurés dans une séquence qui garantit une évaluation pyramidale des requêtes. (En d’autres termes, les stratégies qui ont le plus de conditions doivent être évaluées comme ayant la plus haute priorité.)
 
-Avant de pouvoir effectuer les exercices de ce scénario, vous devez activer la fonctionnalité et préparer les données de base requises pour effectuer le filtrage, comme décrit dans les sous-sections suivantes. (Ces conditions préalables s’appliquent également aux scénarios répertoriés dans [Exemples de scénarios d’utilisation des stratégies de consolidation de l’expédition](#example-scenarios).)
+### <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Activer la fonctionnalité et créer les stratégies par défaut
+Ce scénario fait référence à des valeurs et des enregistrements inclus dans les [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard fournies pour Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur *USMF* avant de commencer.
 
-Utilisez la gestion des fonctionnalités pour activer la fonctionnalité, si ce n’est pas déjà fait, et créez les stratégies de consolidation par défaut décrites dans [Scénario 1](#scenario-1).
+### <a name="prepare-master-data-for-this-scenario"></a>Préparer les données principales pour ce scénario
+
+Avant de pouvoir effectuer les exercices de ce scénario, vous devez préparer les données principales requises pour effectuer le filtrage, comme décrit dans les sous-sections suivantes. (Ces conditions préalables s’appliquent également aux scénarios répertoriés dans la [section Exemples de scénarios d’utilisation des stratégies de consolidation de l’expédition](#example-scenarios).)
 
 #### <a name="create-two-new-product-filter-codes"></a>Créer deux codes de filtre de produit
 
@@ -300,7 +274,7 @@ Dans cet exemple, vous allez créer une stratégie *Entrepôts autorisant la con
 - La consolidation avec les expéditions en cours est désactivée.
 - La consolidation est effectuée entre les commandes à l’aide des champs sélectionnés par la stratégie CrossOrder par défaut (pour répliquer la case à cocher **Consolider l’expédition au lancement dans l’entrepôt** antérieure).
 
-En règle générale, cette analyse de rentabilisation peut être traitée à l’aide des stratégies par défaut que vous avez créées dans le [Scénario 1](#scenario-1). Cependant, vous pouvez également créer manuellement des stratégies similaires en suivant ces étapes.
+En règle générale, cette analyse de rentabilisation peut être traitée à l’aide des stratégies par défaut que vous avez créées dans le [Configurer vos stratégies de consolidation initiales](#initial-policies). Cependant, vous pouvez également créer manuellement des stratégies similaires en suivant ces étapes.
 
 1. Allez dans **Gestion des entrepôts \> Configuration \> Lancement dans l’entrepôt \> Stratégies de consolidation de l’expédition**.
 1. Définissez le champ **Type de stratégie** sur *Commandes client*.
@@ -345,7 +319,7 @@ Les scénarios suivants illustrent la façon dont vous pouvez utiliser les strat
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Stratégies de consolidation de l’expédition](about-shipment-consolidation-policies.md)
+- [Vue d’ensemble des stratégies de consolidation de l’expédition](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

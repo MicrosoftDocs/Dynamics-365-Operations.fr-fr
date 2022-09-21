@@ -2,7 +2,7 @@
 title: Ajouter des recommandations produit sur PDV
 description: Cet article décrit l’utilisation de recommandations de produit sur un appareil de PDV.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872797"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460054"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Ajouter des recommandations produit sur PDV
 
@@ -37,7 +37,7 @@ Les recommandations de produit sont activées pour les scénarios de PDV suivant
 
 1. Sur la page **Détails de produit** :
 
-    - Si un associé du magasin visite une page **Détails de produit** lorsque vous regardez des transactions antérieures sur différents canaux, le service de recommandation propose des éléments supplémentaires susceptibles d’être achetés ensemble.
+    - Si un associé du magasin visite une page **Détails de produit** lorsque vous regardez des transactions antérieures sur différents canaux, le service de recommandation propose des éléments supplémentaires susceptibles d’être achetés ensemble. Selon les modules complémentaires du service, les détaillants peuvent afficher les recommandations de produits **Acheter des looks similaires** et **Acheter une description similaire**, en plus des recommandations personnalisées pour les utilisateurs qui ont un historique d’achats antérieurs.
 
     [![Recommandations sur la page de Détails du produit.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ Les recommandations de produit sont activées pour les scénarios de PDV suivant
 
     [![Recommandations sur la page Transaction.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurer Commerce pour activer les recommandations de PDV
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurer Commerce pour activer les recommandations de PDV 
 
-Pour paramétrer les recommandations de produit, procédez comme suit :
+Pour configurer des recommandations de produits, confirmez que vous avez terminé le processus d’approvisionnement pour les recommandations de produits Commerce en suivant les étapes décrites dans [Activer les recommandations de produits](../commerce/enable-product-recommendations.md). Par défaut, les recommandations apparaissent sur les deux pages **Détails du produit** et **Détails du client** une fois que vous avez terminé les étapes de d’approvisionnement et que les données ont été préparées avec succès. 
 
-1. Veillez à ce que votre service ait été mis à jour avec la **version 10.0.6.**
-2. Suivez les instructions sur la procédure pour [activer les recommandations de produit](../commerce/enable-product-recommendations.md) pour votre entreprise.
-3. Facultatif : Pour afficher les recommandations dans l’écran de transaction, allez dans **Mise en page de l’écran**, choisissez une mise en page d’écran, lancez le **Concepteur de mise en page de l’écran**, puis faites glisser-déplacer le contrôle de **recommandations** à l’emplacement souhaité.
-4. Accédez à **Paramètres de commerce**, sélectionnez **Apprentissage machine**, sélectionnez **Oui** sous **Activer les recommandations de PDV**.
-5. Pour afficher les recommandations sur le PDV, exécutez une tâche de configuration globale **1110**. Pour refléter les modifications effectuées dans le concepteur de mise en page de l’écran du PDV, exécutez la tâche de configuration des canaux **1070**.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Ajouter des recommandations à l’écran de transaction
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Résoudre les problèmes que vous rencontrez lorsque vous avez des recommandations produit déjà activées
+1. Pour ajouter des recommandations à l’écran de transaction, suivez les étapes de la section [Ajouter des recommandations à l’écran de transaction](add-recommendations-control-pos-screen.md).
+1. Pour refléter les modifications apportées dans le concepteur de mise en page de l’écran du point de vente, exécutez la tâche de configuration du canal **1070** de Commerce headquarters.
 
-- Accédez à **Paramètres de commerce** \> **Listes de recommandation** \> **Désactiver les recommandations produit** et exécutez **Tâche de configuration globale \[9999\]**. 
-- Si vous avez ajouté le **Contrôle de recommandations** à votre écran de transaction à l’aide du **Concepteur de mise en page de l’écran**, supprimez-le également.
-- Si vous avez des questions supplémentaires, vérifiez [FAQ de recommandations du produit](../commerce/faq-recommendations.md) pour plus d’informations.
+> [!NOTE] 
+> Si vous souhaitez activer les recommandations du PDV à l’aide du fichier de valeurs séparées par des virgules (CSV) RecoMock, vous devez déployer le fichier CSV sur la bibliothèque de ressources Microsoft Dynamics Lifecycle Services (LCS) avant de configurer le gestionnaire de disposition. Si vous utilisez le fichier RecoMock CSV, vous n’avez pas besoin d’activer les recommandations. Le fichier CSV est disponible uniquement à des fins de démonstration. Il est recommandé aux clients ou aux architectes de solutions qui souhaitent imiter l’apparence des listes de recommandations à des fins de démonstration sans avoir à acheter une unité de gestion des stocks (SKU) complémentaire.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

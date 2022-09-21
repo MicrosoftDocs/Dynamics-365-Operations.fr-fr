@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287926"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476799"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
@@ -137,7 +137,29 @@ La figure suivante présente des expressions de ce type. (La version 11.12.11 d
 > 
 > Selon cette configuration, le message généré pour chaque paiement de débit, l’élément XML **Ustrd**, contient soit le texte des notes de paiement soit, si ce texte est vide, une liste des numéros de facture séparés par une virgule utilisés pour régler le paiement.
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Validation des formules configurées
+## <a name="assistance-in-formulas-writing"></a>Assistance à la rédaction de formules
+
+### <a name="data-sources-navigator"></a>Navigateur dans les sources de données
+
+Vous pouvez modifier une formule qui représente un élément d’une source de données structurées. Lorsque vous avez configuré vos paramètres ER pour présenter le chemin d’accès à un élément d’une source de données structurée comme [chemin d’accès relatif](relative-path-data-bindings-er-models-format.md), le signe « arobase » (@) est [montré](er-formula-language.md#relative-path) dans la formule au lieu de la partie restante du chemin absolu de l’arborescence hiérarchique utilisée. Cette partie restante du chemin d’accès absolu pointe vers un élément parent de l’élément modifiable. Dans la version Finance **10.0.30 et versions ultérieures**, sur la page **Concepteur de formules**, dans le volet **Source de données**, vous pouvez sélectionner l’option **Accéder à @** pour positionner le curseur de l’arborescence des sources de données sur un élément qui est le parent de l’élément modifiable. La structure de tous les éléments ascendants réduits est automatiquement et récursivement développée, si nécessaire. Cette expansion peut vous aider à visualiser rapidement l’élément de base de l’élément modifiable, à observer les jumeaux de l’élément modifiable dans l’arborescence des sources de données et à utiliser chacun d’eux dans la formule modifiable, si nécessaire.
+
+![Utilisez l’option « Accéder à @ » pour positionner le curseur de l’arborescence des sources de données sur un élément parent de l’élément modifiable sur la page Concepteur de formules.](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>Sélecteur de sources de données
+
+Sur la page **Concepteur de formules**, dans le volet de gauche **Sources de données**, sélectionnez un élément d’une source de données que vous souhaitez intégrer à la formule modifiable. Puis sélectionnez **Ajouter une source de données**. Notez que l’élément sélectionné est ajouté au texte de la formule modifiable.
+
+> [!TIP]
+> Lorsque vous utilisez l’option **Ajouter une source de données** dans l’éditeur de formule par défaut, l’élément sélectionné est toujours ajouté à la fin du texte de la formule. Lorsque vous faites la même chose dans l’[éditeur de formule avancé](er-advanced-formula-editor.md), l’élément sélectionné est inséré dans le texte de la formule à la position actuelle du curseur.
+
+### <a name="built-in-functions-picker"></a>Sélection de fonctions intégrées
+
+Sur la page **Concepteur de formules**, dans le volet de droite **Fonctions**, sélectionnez une fonction intégrée ER que vous souhaitez intégrer à la formule modifiable. Puis, sélectionnez **Ajouter une fonction**. Notez que la fonction sélectionnée est ajoutée au texte de la formule modifiable.
+
+> [!TIP]
+> Lorsque vous utilisez l’option **Ajouter une fonction** dans l’éditeur de formule par défaut, la fonction sélectionnée est toujours ajoutée à la fin du texte de la formule. Lorsque vous faites la même chose dans l’[éditeur de formule avancé](er-advanced-formula-editor.md), la fonction sélectionnée est insérée dans le texte de la formule à la position actuelle du curseur.
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Validation des formules configurées
 
 Sur la page **Concepteur de formule**, sélectionnez **Tester** pour valider le fonctionnement de la formule configurée.
 

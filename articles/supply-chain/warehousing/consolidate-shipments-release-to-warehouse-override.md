@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e2c4fed880c423790b979f27511d8d5697bd244c
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878698"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427953"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Consolider les expéditions lorsque la stratégie de consolidation des expéditions est remplacée
 
@@ -79,7 +79,7 @@ Suivez ces étapes pour examiner les expéditions qui ont été créées.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Stratégies de consolidation de l’expédition](about-shipment-consolidation-policies.md)
+- [Vue d’ensemble des stratégies de consolidation de l’expédition](about-shipment-consolidation-policies.md)
 - [Configurer les stratégies de consolidation de l’expédition](configure-shipment-consolidation-policies.md)
 
 

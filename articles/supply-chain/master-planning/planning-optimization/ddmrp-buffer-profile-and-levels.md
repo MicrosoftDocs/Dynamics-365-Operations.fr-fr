@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186663"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428142"
 ---
 # <a name="buffer-profile-and-levels"></a>Profil et niveaux de tampon
 
@@ -77,6 +77,14 @@ Dans l’illustration précédente, si aujourd’hui est le matin du 11 juin, l
 
 - **ADU (passé)** = (29 + 11 + 23) ÷ 3 = 21
 
+Les transactions suivantes sont prises en compte pour le calcul de la consommation quotidienne moyenne (passée) :
+
+- Les transactions qui diminuent la quantité de l’article (dans la table `inventtrans` où la quantité est inférieure à zéro)
+- Transactions avec un statut défini sur *Sur commande*, *Réservé commandé*, *Physique réservé*, *Prélevé*, *Déduit*, ou *Vendu*
+- Transactions datées de la période rétroactive choisie (la consommation quotidienne moyenne de la période écoulée)
+- Transactions autres que le travail en entrepôt, la quarantaine, les devis de vente ou les relevés (`WHSWork`,`WHSQuarantine`,`SalesQuotation`, ou `Statement`)
+- Transactions autres que les journaux de transfert qui se trouvent dans la même dimension de couverture
+
 ### <a name="average-daily-usage-forward"></a>Consommation moyenne journalière (à venir)
 
 Pour un nouveau produit, vous ne disposez peut-être d’aucune donnée de consommation passée. Par conséquent, vous pouvez plutôt utiliser l’ADU à venir (par exemple, en fonction de la demande prévue). L’illustration suivante montre comment cette approche fonctionne lorsque le calcul considère trois jours dans le futur (aujourd’hui inclus).
@@ -86,6 +94,11 @@ Pour un nouveau produit, vous ne disposez peut-être d’aucune donnée de conso
 Dans l’illustration précédente, si aujourd’hui est le matin du 11 juin, l’ADU des trois jours suivants (11, 12 et 13 juin) est de 21,66.
 
 - **ADU (à venir)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Les transactions suivantes sont prises en compte pour le calcul de la consommation quotidienne moyenne (à venir) :
+
+- Transactions prévisionnelles pour l’article où la prévision est sélectionnée sur le plan principal
+- Transactions datées de la période à venir choisie (la consommation quotidienne moyenne de la période à venir)
 
 ### <a name="average-daily-usage-blended"></a>Consommation moyenne journalière (pondérée)
 

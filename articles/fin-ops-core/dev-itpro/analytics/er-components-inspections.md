@@ -2,7 +2,7 @@
 title: Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 description: Cet article explique comment inspecter les composants de rapports électroniques (ER) configurés pour éviter que des problèmes d’exécution ne se produisent.
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277848"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476852"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 
@@ -243,6 +243,15 @@ Le tableau suivant offre une vue d’ensemble des inspections fournies par ER. P
 <td>
 <p>L’expression de liste de la fonction ORDERBY n’est pas utilisable dans une requête.</p>
 <p><b>Erreur de runtime :</b> Le tri n’est pas pris en charge. Validez la configuration pour obtenir plus de détails à ce sujet.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>Artefact d’application obsolète</a></td>
+<td>Intégrité des données</td>
+<td>Avertissement</td>
+<td>
+<p>L’élément &lt;chemin d’accès&gt; est marqué comme obsolète.<br>ou<br>L’élément &lt;chemin d’accès&gt; est marqué comme obsolète avec le message &lt;SMS&gt;.</p>
+<p><b>Exemple d’erreur d’exécution :</b> Classe « &lt;chemin d’accès&gt; » introuvable.</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ Au lieu d’ajouter un champ imbriqué du type **Champ calculé** à la source d
 #### <a name="option-2"></a>Option 2
 
 Changez l’expression de la source de données **FilteredVendors** de `ORDERBY("Query", Vendor, Vendor.AccountNum)` en `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Nous vous déconseillons de modifier l’expression d’une table contenant un grand volume de données (table transactionnelle), car tous les enregistrements seront récupérés et l’organisation des enregistrements requis sera effectuée en mémoire. Par conséquent, cette approche peut entraîner de mauvaises performances.
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a>Artefact d’application obsolète
+
+Lorsque vous concevez un composant de mappage de modèle ER ou un composant de format ER, vous pouvez configurer une expression ER pour appeler un artefact d’application dans ER, tel qu’une table de base de données, une méthode d’une classe, etc. Dans Finance version 10.0.30 et versions ultérieures, vous pouvez forcer ER à vous avertir que l’artefact d’application référencé est marqué dans le code source comme obsolète. Cet avertissement peut être utile, car généralement, les artefacts obsolètes sont finalement supprimés du code source. Être informé de l’état d’un artefact peut vous empêcher d’utiliser l’artefact obsolète dans le composant ER modifiable avant sa suppression du code source, ce qui permet d’éviter les erreurs d’appel d’artefacts d’application inexistants à partir d’un composant ER lors de l’exécution.
+
+Activez la fonctionnalité **Valider les éléments obsolètes des sources de données des états électroniques** dans l’espace de travail **Gestion des fonctionnalités** pour commencer à évaluer l’attribut obsolète des artefacts d’application lors de l’inspection d’un composant ER modifiable. L’attribut obsolète est actuellement évalué pour les types d’artefacts d’application suivants :
+
+- Table de base de données
+    - Champ d’une table
+    - Méthode d’une table
+- Classe d’application
+    - Méthode d’une classe
+
+> [!NOTE]
+> Un avertissement se produit lors de l’inspection du composant ER modifiable pour une source de données qui fait référence à un artefact obsolète uniquement lorsque cette source de données est utilisée dans au moins une liaison de ce composant ER.
+
+> [!TIP]
+> Quand la classe [SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) est utilisée pour notifier au compilateur d’émettre des messages d’avertissement au lieu d’erreurs, l’avertissement d’inspection présente l’avertissement spécifié dans le code source au moment de la conception dans le raccourci **Détails** sur la page **Concepteur de mise en correspondance des modèles** ou **Concepteur de formats**.
+
+L’illustration suivante montre l’avertissement de validation qui se produit lorsque le champ `DEL_Email` obsolète de la table d’application `CompanyInfo` est liée à un champ de modèle de données à l’aide de la source de données `company` configurée.
+
+![Passez en revue les avertissements de validation dans le raccourci Détails de la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>Résolution automatique
+
+Aucune option pour résoudre automatiquement ce problème n’est disponible.
+
+### <a name="manual-resolution"></a>Résolution manuelle
+
+Modifiez le mappage ou le format de modèle configuré en supprimant toutes les liaisons à une source de données qui fait référence à un artefact d’application obsolète.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

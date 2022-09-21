@@ -2,7 +2,7 @@
 title: Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile
 description: Cet article explique comment configurer des détours pour les éléments de menu afin que les collaborateurs puissent parquer la tâche en cours, effectuer une autre tâche, puis revenir à la tâche d’origine sans perdre aucune information.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/01/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
-ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.dyn365.ops.version: 10.0.30
+ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336123"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428061"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile
 
@@ -35,8 +35,11 @@ Avant de pouvoir configurer des détours pour les étapes dans les options de me
 
 1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
 1. Assurez-vous que la caractéristique *Instructions d’étape de l’application Warehouse* est activée pour votre système. À compter de la version 10.0.29 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Pour plus d’informations sur la fonctionnalité *Instructions d’étape de l’application d’entrepôt*, voir [Personnaliser les titres et les instructions des étapes pour l’application mobile Warehouse Management](mobile-app-titles-instructions.md). Cette fonctionnalité est une condition préalable à la fonctionnalité *Détours de l’application Warehouse Management*.
-1. Activez la caractéristique *Détours de l’application de Warehouse Management*. Cette caractéristique est celle qui est décrite dans cet article. Depuis la version 10.0.29 de Supply Chain Management, elle est activée par défaut.
-1. Si la fonction *Détours de Warehouse management app* n'était pas déjà activée, mettez à jour les noms des champs dans le Warehouse Management mobile app en accédant à **Warehouse management \> Configuration \> Appareil mobile \> Noms des champs d’application d’entrepôt** et en sélectionnant **Créer une configuration par défaut**. Répétez cette étape pour chaque entité juridique (société) où vous utilisez le Warehouse Management mobile app. Pour plus d’informations, voir [Configurer les champs pour l’application mobile Gestion des entrepôts](configure-app-field-names-priorities-warehouse.md).
+1. Activez les fonctionnalités suivantes, qui fournissent les fonctionnalités décrites dans cet article :
+    - *Détours de l’application Warehouse Management*<br>(Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
+    - *Détours à plusieurs niveaux pour l’application mobile Warehouse Management*
+1. Si les fonctionnalités *Détours de l’application Warehouse Management* et/ou *Détours à plusieurs niveaux pour l’application mobile Warehouse Management* n’étaient pas déjà activées, mettez à jour les noms des champs dans l’application mobile Warehouse Management en accédant à **Warehouse management\> Configuration \> Appareil mobile \> Noms des champs d’application d’entrepôt** et en sélectionnant **Créer une configuration par défaut**. Pour plus d’informations, voir [Configurer les champs pour l’application mobile Gestion des entrepôts](configure-app-field-names-priorities-warehouse.md).
+1. Répétez l’étape précédente pour chaque entité juridique (société) où vous utilisez l’application mobile Warehouse Management.
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Configurer un détour à partir d’un remplacement spécifique au menu
 
@@ -147,3 +150,6 @@ Dans cette procédure, vous effectuerez une recherche d’emplacement à l’aid
 1. Notez que le contenant a été copié à partir de la carte que vous avez sélectionnée. Confirmez la valeur.
 1. Vous pouvez maintenant suivre le flux de tâches standard pour terminer le mouvement. Une fois le travail terminé, ouvrez le menu des actions et sélectionnez **Annuler**.
 1. Vous êtes renvoyé à la page **Recherche d’emplacement**. Notez que les valeurs ne sont pas automatiquement mises à jour. Par conséquent, vous devez actualiser manuellement la page pour voir les modifications du détour de mouvement.
+
+> [!NOTE]
+> La fonctionnalité *Détours à plusieurs niveaux pour l’application mobile Warehouse Management* vous permet de définir des détours à plusieurs niveaux (détours dans les détours), ce qui permettra aux utilisateurs de sauter d’un détour existant deux par un, puis de revenir en arrière. La fonctionnalité prend en charge deux niveaux de détours prêts à l’emploi et, si nécessaire, vous pouvez personnaliser votre système pour prendre en charge trois niveaux de détours ou plus en créant des extensions de code sur la table `WHSWorkUserSessionState`.

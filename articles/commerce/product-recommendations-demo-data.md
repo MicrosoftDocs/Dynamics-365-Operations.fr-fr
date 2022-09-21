@@ -2,7 +2,7 @@
 title: Créer des recommandations avec des données de démonstration
 description: Ce document fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e3df414b3c16c28b6f5ca04f765d91c1312ada4
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874893"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459966"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Créer des recommandations avec des données de démonstration
 
@@ -45,7 +45,7 @@ Les données sont structurées selon les colonnes suivantes.
 
 | Nom de la colonne         | Obligatoire          | Description                                                                                                                                 | Valeurs possibles                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| RecoList            | :heavy_check_mark: | Le type de liste de recommandation produit spécifique que le point de données de démonstration est sur le point de générer.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
+| RecoList            | :heavy_check_mark: | Le type de liste de recommandation produit spécifique que le point de données de démonstration est sur le point de générer.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li><li>RecoPicks</li><li>RecoSimilarVisual</li><li>RecoSimilarTextual</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Le nombre d’unité opérationnelle spécifique où les recommandations produit sont prévues.                                        |                                                                              |
 | Catégorie            |                    |    La catégorie pour laquelle la liste spécifique doit être retournée. Si aucune catégorie n’est spécifiée, la liste est destinée uniquement pour le haut de la hiérarchie de navigation.    |                                                                              |
 | SeedItemId          |                    |    Pour les listes nécessitant une valeur initiale (RecoPeopleAlsoBuy et RecoCart), le produit pour lequel ces listes doivent présenter des produits supplémentaires.            |                                                                              |

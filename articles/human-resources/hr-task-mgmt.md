@@ -2,7 +2,7 @@
 title: Gestion des tâches
 description: Cet article explique la fonctionnalité de gestion des tâches disponible dans Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 12/20/2021
+ms.date: 09/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,14 +12,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2021-29-11
+ms.search.validFrom: 2022-06-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29b547ff4f55b572ab774e7e70949ec8cb53ef42
+ms.sourcegitcommit: 167f73a834629752c6b79c312d744e52df7f0927
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897862"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9445892"
 ---
 # <a name="task-management"></a>Gestion des tâches
 
@@ -69,7 +69,13 @@ Sur les trois onglets, les assistants et responsables RH peuvent effectuer les a
 
 Vous pouvez créer des tâches individuellement, puis les réutiliser dans plusieurs listes de contrôle. Pour créer une tâche, sur la page **Configuration d’intégration**, sur l’onglet **Tâches**, sélectionnez **Nouvelle**.
 
+Vous pouvez affecter une tâche créée à plusieurs listes de contrôle en sélectionnant la tâche, puis en sélectionnant **Appliquer aux listes de contrôle** au menu.
+
 Alternativement, vous pouvez ajouter des tâches directement à une liste de contrôle. Pour ajouter une tâche à une liste de contrôle, sur la page **Configuration d’intégration**, sur l’onglet **Liste de contrôle**, créez une liste de contrôle à laquelle ajouter la tâche ou ajoutez la tâche à une liste de contrôle existante.
+
+Pour modifier une tâche dans la bibliothèque, sélectionnez **Modifier** dans le menu de la bibliothèque de tâches. Si la tâche est associée à des listes de contrôle, ces listes de contrôle seront affichées sur la page **Modifier la tâche**. Si vous souhaitez que les tâches de toutes les listes de contrôle soient mises à jour avec les modifications, sélectionnez ces listes de contrôle dans la section **Appliquer aux listes de contrôle**.
+
+Pour supprimer des tâches de la bibliothèque, sélectionnez l’option **Supprimer**. Si une tâche est associée à une liste de contrôle, cette action ne supprime pas la tâche de cette liste de contrôle. La tâche doit être supprimée de la liste de contrôle dans une action distincte.
 
 > [!NOTE]
 > Si vous ajoutez une tâche directement à une liste de contrôle, vous ne pouvez pas la réutiliser dans d’autres listes de contrôle.
@@ -133,7 +139,15 @@ Les tâches complexes peuvent nécessiter plusieurs étapes, ou la personne qui 
 
 ## <a name="setting-up-checklists"></a>Paramétrage des listes de contrôle
 
-Une liste de contrôle est un groupe de tâches. Vous pouvez créer autant de listes de contrôle que vous le souhaitez et vous pouvez affecter les mêmes tâches à plusieurs listes de contrôle. Lorsque vous créez une liste de contrôle, vous spécifiez un propriétaire et un calendrier.
+Une liste de contrôle est un groupe de tâches. Vous pouvez créer autant de listes de contrôle que vous le souhaitez et vous pouvez affecter les mêmes tâches à plusieurs listes de contrôle.
+
+Pour créer une tâche dans une liste de contrôle, sélectionnez **Nouveau** sur la barre de menu **Tâches**. Lorsque vous créez une tâche, vous pouvez choisir de l’ajouter à la bibliothèque de tâches, afin qu’elle puisse être partagée sur plusieurs listes de contrôle. Vous pouvez ajouter la tâche à la bibliothèque uniquement si l’option **Appliquer la tâche à la bibliothèque** est définie sur **Oui**. Si vous ajoutez la tâche à la bibliothèque de tâches, vous pouvez également l’ajouter à d’autres listes de contrôle en même temps en sélectionnant ces listes de contrôle dans la section **Appliquer aux listes de contrôle**. Si vous n’ajoutez pas la tâche à la bibliothèque, elle n’existera que dans la liste de contrôle dans laquelle vous la créez.
+
+Pour modifier une tâche dans la liste de contrôle, sélectionnez **Modifier**. Si la tâche est associée à des listes de contrôle, ces listes de contrôle seront affichées sur la page **Modifier la tâche**. Si vous souhaitez que les tâches d’autres listes de contrôle soient mises à jour avec les modifications, sélectionnez ces listes de contrôle dans la section **Appliquer aux listes de contrôle**.
+
+Pour supprimer des tâches de la liste de contrôle, sélectionnez **Retirer**. Cette action supprime simplement les tâches de la liste de contrôle. Elle ne les supprime pas de la bibliothèque de tâches. Pour supprimer une tâche de la bibliothèque, accédez à la page de la bibliothèque de tâches et sélectionnez **Supprimer**.
+
+Lorsque vous créez une liste de contrôle, vous spécifiez un propriétaire et un calendrier.
 
 Si le champ **Type d’affectation** pour une tâche est défini sur **Poste**, **Directeur**, ou **Groupe**, mais aucune personne spécifique ne peut être dérivée du type d’affectation, la tâche sera affectée au propriétaire de la liste de contrôle. Voici quelques exemples de situations où des tâches seront attribuées au propriétaire de la liste de contrôle :
 

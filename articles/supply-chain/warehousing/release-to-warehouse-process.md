@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893176"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428034"
 ---
 # <a name="release-to-warehouse"></a>Lancement vers l’entrepôt
 
@@ -34,7 +34,7 @@ Un *chargement* est un groupe de lignes de commande client ou d’ordre de trans
 
 Un *travail* d’entrepôt correspond à toute opération d’entrepôt effectuée par un magasinier. Généralement, les opérations de travail d’entrepôt se composent d’au moins deux actions consécutives : un magasinier prend un stock disponible dans un emplacement et le range dans un autre emplacement.
 
-Lorsque vous lancez des commandes vers l’entrepôt, le système crée des *lignes de chargement* et les regroupe en expéditions. Le processus de regroupement des expéditions permet un regroupement automatique des expéditions pendant le processus de lancement vers l’entrepôt. Pour plus d’informations, voir [Stratégies de regroupement des expéditions](about-shipment-consolidation-policies.md).
+Lorsque vous lancez des commandes vers l’entrepôt, le système crée des *lignes de chargement* et les regroupe en expéditions. Le processus de regroupement des expéditions permet un regroupement automatique des expéditions pendant le processus de lancement vers l’entrepôt. Pour plus d’informations, voir [Vue d’ensemble des stratégies de regroupement des expéditions](about-shipment-consolidation-policies.md).
 
 Le système utilise des *vagues* pour créer des travaux de préparation de commande et de chargement pour l’expédition. Un *modèle de vague* doit être disponible pour le type de vague que vous souhaitez créer et pour l’entrepôt de la ligne de commande. Les modèles de vague du type *Expédition* servent à expédier les articles des commandes client et des ordres de transfert.
 

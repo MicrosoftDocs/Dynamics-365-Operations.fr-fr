@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5cb2c1234de03e9777921c18e4cbb81eec7feef9
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903505"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462272"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Générez des lignes de facture lorsque vous importez des factures fournisseur
 
@@ -45,7 +45,7 @@ Pour activer la création automatique de lignes de facture, procédez comme suit
 Pour prendre en charge les fonctionnalités décrites dans cet article, l’entité de données **En-tête de facture fournisseur** a été améliorée. Trois champs ont été ajoutés :
 
 - **HeaderOnlyImport** – Ce champ doit être défini sur **Oui** pour générer des lignes pour les en-têtes de facture.
-- **PurchIdRange** – Liste des numéros de commandes fournisseur. Les numéros de facture peuvent être une plage, par exemple **INV0001..INV0009** (où deux points séparent le début et la fin de la plage) ou des valeurs séparées, telles que **INV0001, INV0003, INV0006**. Toutes les commandes fournisseur doivent appartenir au même compte fournisseur sur l’en-tête de la facture. Sinon, vous recevrez le message d’erreur suivant : « Impossible de générer des lignes de facture. Les commandes fournisseur ont des comptes fournisseur différents. »
+- **PurchIdRange** – Liste des numéros de commandes fournisseur. Les numéros de facture peuvent être une plage, par exemple **PO0001..PO0009** (où deux points séparent le début et la fin de la plage) ou des valeurs séparées, telles que **PO0001, PO0003, PO0006**. Toutes les commandes fournisseur doivent appartenir au même compte fournisseur sur l’en-tête de la facture. Sinon, vous recevrez le message d’erreur suivant : « Impossible de générer des lignes de facture. Les commandes fournisseur ont des comptes fournisseur différents. »
 - **PackingslipRange** – Liste des numéros d’accusé de réception de marchandises. Les lignes de facture fournisseur peuvent être créées à partir des accusés de réception de marchandises. Cependant, les numéros d’accusé de réception de marchandises ne sont généralement pas inclus sur les factures fournisseur. N’entrez les numéros d’accusé de réception de marchandises dans ce champ que si vous pouvez clairement identifier quels accusés de réception de marchandises correspondent à quelles factures spécifiques. Les lignes de facture peuvent être générées à partir des accusés de réception de marchandises. Si ce champ est utilisé, le paramètre du champ **Choisir la quantité par défaut pour la création automatique de lignes de facture** sur la page **Paramètres de la comptabilité fournisseur** est ignoré. 
 
 **Limitation** : Si vous saisissez plusieurs numéros d’accusé de réception de marchandises, plusieurs factures fournisseur en attente seront créées avec le même numéro de facture. Vous devez les consolider manuellement avant de poursuivre le traitement de la facture. Dans les prochaines versions, nous prévoyons de consolider les factures automatiquement, ce qui permettra de lever la limitation.

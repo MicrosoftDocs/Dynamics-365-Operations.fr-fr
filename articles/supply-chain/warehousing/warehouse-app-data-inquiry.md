@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336603"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427846"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Requêter des données en utilisant des détours de Warehouse Management mobile app
 
@@ -268,6 +268,6 @@ Suivez ces étapes pour tester la configuration de votre nouvelle application mo
     ![Réception d’achat à l’aide de la recherche de PO par fournisseur, exemple 2.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Réception d’achat à l’aide de la recherche de PO par fournisseur, exemple 2")
 
 > [!TIP]
-> Au lieu d’exécuter le flux de réception en effectuant une recherche à partir de l'article du menu **Acheter recevoir**, vous pouvez démarrer à partir d’un flux de requête (**Principal \> Renseigner \> Rechercher des PO par fournisseur**) et invoquez un détour pour exécuter le flux souhaité en sélectionnant l’une des cartes de la liste. Pour utiliser cette approche, vous pouvez définir un détour sur la page **Étapes de l’appareil mobile** pour l'étape qui a une valeur **ID étape** de *GenericDataInquiryList*. Étant donné que ce flux est un flux de détour, vous ne pouvez pas invoquer d’autres détours à partir de celui-ci. Par conséquent, lorsque vous arrivez à l’écran de saisie du numéro d’article, par exemple, la recherche ne sera pas disponible sur celui-ci, car le système ne prend actuellement en charge qu’un seul niveau de détours.
+> Au lieu d’exécuter le flux de réception en effectuant une recherche à partir de l'article du menu **Acheter recevoir**, vous pouvez démarrer à partir d’un flux de requête (**Principal \> Renseigner \> Rechercher des PO par fournisseur**) et invoquez un détour pour exécuter le flux souhaité en sélectionnant l’une des cartes de la liste. Pour utiliser cette approche, vous pouvez définir un détour sur la page **Étapes de l’appareil mobile** pour l'étape qui a une valeur **ID étape** de *GenericDataInquiryList*. À condition que la fonctionnalité [*Détours à plusieurs niveaux pour l’application mobile Warehouse Management*](warehouse-app-detours.md) soit activée pour votre système, vous pouvez également ajouter un détour supplémentaire si nécessaire (cette fonction prend en charge jusqu’à deux niveaux de détours et peut être personnalisée pour prendre en charge des niveaux supplémentaires).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

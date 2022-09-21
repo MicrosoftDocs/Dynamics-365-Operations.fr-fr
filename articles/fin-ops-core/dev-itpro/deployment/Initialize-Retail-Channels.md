@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
-ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
+ms.openlocfilehash: f9d21de3e498b293394835d5cf564899338b9c18
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427074"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473987"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Initialiser Commerce Scale Unit (cloud)
 
@@ -73,6 +73,7 @@ Commerce Scale Unit est disponible pour un déploiement dans les régions suiv
 | EMEA            | Nord de l’Europe        | Disponibilité générale    |  Aucun commentaire. |
 | EMEA            | Royaume-Uni Sud            | Disponibilité générale |    Aucun commentaire.                          |
 | EMEA            | Royaume-Uni Ouest             | Disponibilité générale |    Aucun commentaire.                          |
+| Émirats arabes unis             | Émirats arabes unis Nord           | Capacité limitée    | Nécessite un processus d’approbation. |
 
 La capacité de déploiement dans les régions à capacité limitée est extrêmement limitée. Les demandes de déploiement sont évaluées au cas par cas. Si vous avez un besoin commercial impérieux de déploiement dans des régions à capacité limitée, vous pouvez déposer une demande d’assistance pour être ajouté à la liste d’attente. Les zones à capacité limitée ne permettent actuellement pas le déploiement de Commerce Scale Unit pour le moment. 
 

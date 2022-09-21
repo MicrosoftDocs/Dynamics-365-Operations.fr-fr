@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850668"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475610"
 ---
 # <a name="intercompany-planning"></a>Planification intersociétés
 
@@ -45,8 +45,8 @@ Si vous exécutez la planification à partir d’un plan directeur qui inclut la
 
 Pour utiliser la planification intersociétés, vous devez préparer votre système de la manière suivante :
 
-1. Les produits concernés doivent être commercialisés dans toutes les entreprises concernées. Pour plus d’informations, voir [Configurer et utiliser les transactions intersociétés dans Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) sur Microsoft Learn.
-1. La demande en aval doit être couverte par des achats auprès d’un fournisseur qui a une relation intersociétés avec la société en amont et les dimensions de stock par défaut pertinentes (site et entrepôt) sur le client. Pour plus d’informations, voir [Configurer et utiliser les transactions intersociétés dans Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) sur Microsoft Learn.
+1. Les produits concernés doivent être commercialisés dans toutes les entreprises concernées. Pour plus d’informations, voir [Configurer et utiliser les transactions intersociétés dans Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. La demande en aval doit être couverte par des achats auprès d’un fournisseur qui a une relation intersociétés avec la société en amont et les dimensions de stock par défaut pertinentes (site et entrepôt) sur le client. Pour plus d’informations, voir [Configurer et utiliser les transactions intersociétés dans Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Le plan directeur de l’entreprise en amont doit inclure la demande planifiée en aval, et l’entreprise et le plan directeur pertinents doivent être spécifiés dans les plans en aval.
 
 ## <a name="include-planned-downstream-demand"></a>Inclure la demande prévisionnelle intersociétés
@@ -85,6 +85,5 @@ Pour cet exemple, une commande fournisseur prévisionnelle est créé dans la so
 L’illustration suivante montre comment cet exemple peut apparaître sur la page **Origine des besoins à plusieurs niveaux** pour l’ordre de fabrication planifié.
 
 ![Exemple intersociétés impliquant trois entreprises.](media/IntercompanyPlanning2.png)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

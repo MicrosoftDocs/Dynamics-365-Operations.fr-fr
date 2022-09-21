@@ -2,19 +2,19 @@
 title: Domaines dans Dynamics 365 Commerce
 description: Cet article décrit comment les domaines sont gérés dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405494"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465191"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domaines dans Dynamics 365 Commerce
 
@@ -144,9 +144,9 @@ L’instance d’Azure Front Door fournie par Commerce ne prend pas en charge le
 
 - **Option 1** – Utilisez votre fournisseur DNS pour rediriger le domaine apex vers un domaine « www ». Par exemple, fabrikam.com redirige vers `www.fabrikam.com` où `www.fabrikam.com` est l’enregistrement CNAME qui pointe vers l’instance d’Azure Front Door hébergée par Commerce.
 
-- **Option 2** - Si votre fournisseur DNS prend en charge les enregistrements ALIAS, vous pouvez faire pointer le domaine apex vers le point de terminaison de l'instance front door. Cela garantit que le changement d’adresse IP par le point de terminaison de l'instance front door est reflété.
+- **Option 2** : si votre fournisseur DNS prend en charge les enregistrements ALIAS, vous pouvez faire pointer le domaine apex vers le point de terminaison Azure Front Door, ce qui garantit que le changement d’adresse IP par le point de terminaison est reflété. Vous devez héberger vous-même l’instance Azure Front Door.
   
-- **Option 3** - Si votre fournisseur DNS ne prend pas en charge les enregistrements ALIAS, vous devez configurer vous-même un CDN ou une instance front door pour héberger le domaine apex.
+- **Option 3** : si votre fournisseur DNS ne prend pas en charge les enregistrements ALIAS, vous devez remplacer votre fournisseur DNS par Azure DNS et héberger vous-même Azure DNS et l’instance Azure Front Door.
 
 > [!NOTE]
 > Si vous utilisez Azure Front Door, vous devez également configurer un Azure DNS dans le même abonnement. Le domaine apex hébergé sur Azure DNS peut pointer vers votre Azure Front Door en tant qu’enregistrement d’alias. C’est la seule solution, car les domaines apex doivent toujours pointer vers une adresse IP.

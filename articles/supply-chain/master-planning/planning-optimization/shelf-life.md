@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337147"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428219"
 ---
 # <a name="master-planning-for-products-with-limited-shelf-life"></a>Planification générale pour les produits à durée de conservation limitée
 
@@ -298,8 +298,6 @@ L’illustration suivante présente la chronologie pour cet exemple.
 ![Exemple 4 : FEFO simple, période, délai de prospect dépend de la quantité.](media/fefo-example-4.png "Exemple 4 : FEFO simple, période, délai de prospect dépend de la quantité")
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>Exemple 5 : FEFO simple, demande, 10 jours négatifs
-
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
 
 Cet exemple montre comment fonctionne la durée de conservation lorsqu'un grand nombre de jours vendables sont ajoutés pour un article. Les jours négatifs représente le nombre de jours que vous pouvez attendre avant de commander un réapprovisionnement d'un article qui a un stock négatif. Le système ne crée pas d’approvisionnement tant que le nombre de jours négatifs n’est pas dépassé.
 

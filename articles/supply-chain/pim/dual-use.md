@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878901"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460546"
 ---
 # <a name="dual-use-goods"></a>Biens à double usage
 
@@ -85,7 +85,14 @@ Pour identifier un produit comme un bien à double usage et lui appliquer une ca
 1. Dans l’organisateur **Commerce extérieur**, définissez l’option **Produits à double usage** sur **Oui** pour identifier le produit actuel comme un bien à double usage.
 1. Définissez le champ **Code de double usage** sur le code qui s’applique au produit actuel. (Vous avez défini ce code sur la page **Catégories de biens à double usage**.)
 
-Cette configuration est vérifiée lorsque vous créez une commande client.
+> [!NOTE]
+>
+> Le système effectue les contrôles à double usage suivants lorsqu’il génère une confirmation de vente :
+>
+> 1. La commande comprend-elle des produits à double usage ?
+> 1. Si c’est le cas, le pays de destination exige-t-il des certificats de double usage ?
+> 1. Si c’est le cas, existe-t-il un certificat pour chaque bien à double usage pour le pays de destination et ces certificats sont-ils valides pour les dates d’expédition confirmées ?
+> 1. Si les réponses aux questions 1 et 2 sont « Oui » et la réponse à la question 3 est « Non », alors le système affiche un avertissement pour informer l’utilisateur qu’il manque des certificats à double usage pour un ou plusieurs biens à double usage dans le bon de commande. L’utilisateur devrait probablement obtenir les certificats requis et réessayer, mais pourrait à la place ignorer l’avertissement et procéder à la confirmation de vente s’il le souhaite.
 
 ## <a name="set-up-dual-use-certificates"></a>Paramétrer des certificats de biens à double usage
 

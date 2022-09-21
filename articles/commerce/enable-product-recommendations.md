@@ -2,7 +2,7 @@
 title: Activer les recommandations produit
 description: Cet article explique comment faire des recommandations de produit basées sur le Machine Learning et l’Intelligence artificielle disponible pour les clients Microsoft Dynamics 365 Commerce.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892069"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460019"
 ---
 # <a name="enable-product-recommendations"></a>Activer les recommandations produit
 
@@ -36,12 +36,19 @@ Cet article explique comment faire des recommandations de produit basées sur le
 1. Confirmez que la configuration d’identité Azure AD contient une entrée pour les recommandations. Vous trouverez ci-dessous plus d’informations sur la façon d’effectuer cette action.
 1. Assurez-vous que le magasin d'entités s'actualise quotidiennement sur Azure Data Lake Storage Gen2. Pour plus d’informations, voir [S’assurer que l’actualisation du magasin d’entités a été automatisée](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. Activez les mesures RetailSale pour le magasin d'entités. Pour plus d'informations sur la configuration de ce processus, consultez [Utiliser les mesures](/dynamics365/ai/customer-insights/pm-measures).
+1. Veillez à ce que votre environnement ait configuré les régions de diffusion et de préparation dans les régions actuellement prises en charge, comme suit :
+
+    - **Régions de préparation prises en charge :** UE/US/CA/AU.
+    - **Régions de diffusion prises en charge :** UE/US/CA/AU. Si la région de diffusion ne correspond pas à l’une des régions prises en charge existantes, le service de recommandations sélectionnera la région de diffusion prise en charge la plus proche.
 
 Une fois les étapes ci-dessus réalisées, vous serez prêt à activer les recommandations.
 
+> [!NOTE]
+> Il existe un problème connu où les recommandations n’apparaissent pas une fois les étapes suivantes terminées. Ce problème est lié à des problèmes de flux de données dans l’environnement. Si votre environnement n’affiche pas les résultats des recommandations, configurez les données alternatives pour le service de recommandations en suivant les étapes de la section [Configurer un autre flux de données pour les recommandations](set-up-alternate-data-flow.md). Vous devez disposer des autorisations d’administrateur Azure pour effectuer ces étapes. Si vous avez besoin d’aide, contactez votre représentant FastTrack.
+
 ## <a name="azure-ad-identity-configuration"></a>Configuration de l’identité Azure AD
 
-Cette étape n'est requise que pour les clients exécutant une configuration d’infrastructure en tant que service (IaaS). Le configuration des identités Azure AD est automatique pour les clients exécutant Azure Service Fabric, mais il est recommandé de vérifier que les paramètres sont configurés comme prévu.
+Cette étape n’est requise que pour les clients exécutant une configuration d’infrastructure en tant que service (IaaS). Le configuration des identités Azure AD est automatique pour les clients exécutant Azure Service Fabric, mais il est recommandé de vérifier que les paramètres sont configurés comme prévu.
 
 ### <a name="setup"></a>Paramétrage
 
@@ -94,6 +101,8 @@ Pour plus d’informations sur les recommandations personnalisées, voir [Active
 
 [Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
 
+[Configurer un autre flux de données pour les recommandations](set-up-alternate-data-flow.md)
+
 [Activer les recommandations personnalisées](personalized-recommendations.md)
 
 [Activer les recommandations « acheter des aspects similaires »](shop-similar-looks.md)
@@ -111,6 +120,7 @@ Pour plus d’informations sur les recommandations personnalisées, voir [Active
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
+
 
 
 

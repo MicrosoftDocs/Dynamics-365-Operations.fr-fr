@@ -1,5 +1,5 @@
 ---
-title: Stratégies de consolidation de l’expédition
+title: Vue d’ensemble des stratégies de consolidation de l’expédition
 description: Cet article fournit une vue d’ensemble des fonctionnalités permettant une configuration flexible des stratégies de consolidation de l’expédition.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903896"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427926"
 ---
-# <a name="shipment-consolidation-policies"></a>Stratégies de consolidation de l’expédition
+# <a name="shipment-consolidation-policies-overview"></a>Vue d’ensemble des stratégies de consolidation de l’expédition
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Avant l’introduction des stratégies de consolidation d’expédition, la fonc
 
 Les requêtes sont utilisées pour identifier la stratégie de consolidation d’expédition qui s’applique, puis un ensemble modifiable de champs détermine la façon dont les lignes de chargement sont regroupées au niveau de l’expédition. (Ce modèle ressemble au modèle suivi par les modèles de la vague.) De plus, une option **Consolider avec les expéditions existantes** a été ajoutée à chaque stratégie. Lorsque cette option est activée, la procédure *Lancement dans l’entrepôt* recherche les expéditions à consolider en recherchant parmi les envois existants qui ont été créés sur la base de la même stratégie de consolidation. Dans ce cas, le système sélectionnera une expédition ou un chargement existant au lieu d’en créer un nouveau. Cependant, le système ne sera consolidé qu’avec les expéditions existantes qui ont le statut *Ouvert* ; les expéditions qui appartiennent à un lancement dont le statut est *Lancé* ou autre ne seront pas considérées comme des objectifs de consolidation.
 
-Lorsque les stratégies de consolidation de l’expédition sont mises à disposition, le paramètre **Consolider l’expédition au lancement dans l’entrepôt** qui était auparavant disponible sur la page de configuration **Entrepôts** est masqué. Pour vous aider à passer à la nouvelle fonctionnalité de consolidation des expéditions, une fonction de la page **Stratégies de consolidation de l’expédition** crée une stratégie par défaut qui inclut automatiquement l’ancien paramètre pour les entrepôts existants. Une fois cette stratégie par défaut créée, le paramètre **Consolider l’expédition au lancement dans l’entrepôt** de la page de configuration **Entrepôts** ne sera plus pris en compte.
+Lorsque la fonctionnalité *Stratégies de consolidation de l’expédition* est activée sur votre système, le paramètre **Consolider l’expédition au lancement dans l’entrepôt** qui était auparavant disponible sur la page de configuration **Entrepôts** est masqué. Pour vous aider à passer à la nouvelle fonctionnalité de consolidation des expéditions, une fonction de la page **Stratégies de consolidation de l’expédition** vous permet de créer une stratégie par défaut qui inclut automatiquement l’ancien paramètre pour les entrepôts existants. Une fois cette stratégie par défaut créée, le paramètre **Consolider l’expédition au lancement dans l’entrepôt** de la page de configuration **Entrepôts** ne sera plus pris en compte. Pour plus d’informations, voir [Configurer des stratégies de regroupement des expéditions](configure-shipment-consolidation-policies.md).
 
 Vous pouvez utiliser la page **Lancement dans l’entrepôt** pour remplacer manuellement la stratégie de consolidation applicable de la même manière que vous pouvez remplacer les stratégies d’exécution.
 
