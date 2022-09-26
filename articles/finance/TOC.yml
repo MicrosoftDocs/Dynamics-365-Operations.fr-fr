@@ -18,11 +18,9 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: "Finance\_10.0.28 (août)"
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (juillet)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: Fonctionnalités supprimées ou déconseillées
               items:
-                - name: Page d’accueil des Fonctionnalités supprimées ou déconseillées
+                - name: Page d’accueil des fonctionnalités supprimées ou déconseillées
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?context=/dynamics365/context/finance
                 - name: Fonctionnalités supprimées ou déconseillées dans Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
@@ -134,7 +132,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?context=/dynamics365/context/finance
                 - name: Fonctions d’accessibilité
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?context=/dynamics365/context/finance
-                - name: Vue d’ensemble de la gestion des fonctions
+                - name: Vue d’ensemble de la gestion des fonctionnalités
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?context=/dynamics365/context/finance
                 - name: FAQ sur le client
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?context=/dynamics365/context/finance
@@ -190,17 +188,17 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/finance
                 - name: Soumission d’une demande de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/finance
-                - name: 'FAQ sur les abonnements, les projets LCS et les locataires Azure AD'
+                - name: 'FAQ sur les abonnements, les projets LCS et les clients Azure AD'
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?context=/dynamics365/context/finance
                 - name: Déplacer les environnements entre les centres de données
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?context=/dynamics365/context/finance
                 - name: Déplacer les licences entre les types de contrat
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?context=/dynamics365/context/finance
-                - name: Déplacer les projets de mise en œuvre LCS vers différents locataires Azure AD
+                - name: Déplacer les projets de mise en œuvre LCS vers différents clients Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?context=/dynamics365/context/finance
                 - name: Déplacer les projets de mise en œuvre du site vers le cloud
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?context=/dynamics365/context/finance
-                - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
+                - name: "Plusieurs projets et environnements de production\_LCS sur un même client\_Azure AD"
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/finance
         - name: Comptabilité fournisseur
           items:
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Calcul de la taxe de vente harmonisée canadienne
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Globalisation
+        - name: Globalization Studio
           items:
+            - name: Vue d’ensemble de Globalization Studio
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: Ressources de globalisation
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: Services de globalisation
@@ -1734,6 +1734,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calculer et ajuster la taxe sur une facture fournisseur
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Résoudre les différences de taxe de vente
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: Ajuster la taxe de vente via les journaux des opérations diverses
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Activer le calcul différé de la taxe dans le journal
@@ -2514,6 +2516,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Système de facturation en ligne
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Déclaration de TVA (Hongrie)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: Déclarations de taxe pour la Hongrie
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: Déclaration d’échanges de biens (Hongrie)

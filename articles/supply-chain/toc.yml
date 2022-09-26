@@ -134,7 +134,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?context=/dynamics365/context/supply-chain
                 - name: Fonctions d’accessibilité
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?context=/dynamics365/context/supply-chain
-                - name: Vue d’ensemble de la gestion des fonctions
+                - name: Vue d’ensemble de la gestion des fonctionnalités
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?context=/dynamics365/context/supply-chain
                 - name: FAQ sur le client
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?context=/dynamics365/context/supply-chain
@@ -192,22 +192,24 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/supply-chain
                 - name: Soumission d’une demande de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/supply-chain
-                - name: 'FAQ sur les abonnements, les projets LCS et les locataires Azure AD'
+                - name: 'FAQ sur les abonnements, les projets LCS et les clients Azure AD'
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?context=/dynamics365/context/supply-chain
                 - name: Déplacer les environnements entre les centres de données
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?context=/dynamics365/context/supply-chain
                 - name: Déplacer les licences entre les types de contrat
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?context=/dynamics365/context/supply-chain
-                - name: Déplacer les projets de mise en œuvre LCS vers différents locataires Azure AD
+                - name: Déplacer les projets de mise en œuvre LCS vers différents clients Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?context=/dynamics365/context/supply-chain
                 - name: Déplacer les projets de mise en œuvre du site vers le cloud
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?context=/dynamics365/context/supply-chain
-                - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
+                - name: "Plusieurs projets et environnements de production\_LCS sur un même client\_Azure AD"
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: Dépannage et FAQ
           href: supply-chain-management-troubleshooting.md
-        - name: Globalisation
+        - name: Globalization Studio
           items:
+            - name: Vue d’ensemble de Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: Ressources de globalisation
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: Services de globalisation
@@ -1631,12 +1633,14 @@
               items:
                 - name: Journaux de stock
                   href: inventory/inventory-journals.md
-                - name: Workflow d’approbation du journal de stock
+                - name: Workflow d’approbation du journal d’inventaire
                   href: inventory/inventory-journal-workflow.md
-                - name: Emplacements de stockage
+                - name: Emplacement de stockage
                   href: inventory/inventory-locations.md
                 - name: Statuts du stock
                   href: inventory/inventory-statuses.md
+                - name: Utiliser des codes de disposition de lot pour marquer les lots comme disponibles ou non disponibles
+                  href: inventory/batch-disposition-codes.md
                 - name: Créer une disposition d’entrepôt
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Tenir à jour les types de codes-barres

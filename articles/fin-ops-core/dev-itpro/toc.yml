@@ -20,11 +20,9 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.28 (août\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: "Mises à jour de la plateforme pour la version\_10.0.27 (juillet\_2022)"
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Fonctionnalités supprimées ou déconseillées
               items:
-                - name: Page d’accueil des Fonctionnalités supprimées ou déconseillées
+                - name: Page d’accueil des fonctionnalités supprimées ou déconseillées
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Fonctions de la plateforme supprimées ou déconseillées
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -508,8 +506,10 @@
               items:
                 - name: Environnements de développement
                   href: dev-tools/access-instances.md
-                - name: Configurer des environnements de développement à boîte unique
+                - name: Configurer des environnements de développement tout-en-un
                   href: dev-tools/configure-developer-vm.md
+                - name: Sécuriser des environnements de développement tout-en-un
+                  href: dev-tools/secure-developer-vm.md
                 - name: FAQ sur les ordinateurs virtuels de développement et de version n’accordant pas l’accès à un administrateur
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Configurer le VHD téléchargeable pour la première utilisation
