@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347287"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542350"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
@@ -62,7 +62,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | --- | --- | --- | --- |
 | Actions | Groupes de couverture avec le calcul des actions activé : *\#* | Cette fonctionnalité est désormais prise en charge. | Prise en charge |
 | Calendriers de base | Calendriers utilisant le calendrier de base : *\#* | Cette fonctionnalité est désormais prise en charge. | Prise en charge | 
-| Codes disposition de lot | Données principales de disposition de lot qui ne sont pas disponibles à la vente : *\#* | Cette fonctionnalité est en attente. Actuellement, la fonctionnalité Codes disposition de lot est ignorée quand l’Optimisation de la planification est activée. | 2022 vague de lancement 2 |
+| Codes disposition de lot | Données principales de disposition de lot qui ne sont pas disponibles à la vente : *\#* | Cette fonctionnalité est en attente. Actuellement, la fonctionnalité Codes disposition de lot est ignorée quand l’Optimisation de la planification est activée. | 2022 vague de lancement 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Capable to promise (CTP) | Paramètres de commande par défaut avec le contrôle de date de livraison défini sur CTP : *\#* | Dans Supply Chain Management 10.0.28 et versions ultérieures, un processus appelé *CTP pour l’optimisation de la planification* met à disposition les dates d’expédition et de réception confirmées après l’exécution du plan dynamique. Pour les anciennes versions de Supply Chain Management, le paramètre CTP hérité est ignoré lorsque l’optimisation de la planification est activée. | Prise en charge |
 | Copie du plan statique vers le plan dynamique | La fonctionnalité Copie du plan statique vers le plan dynamique est activée dans les paramètres de planification. | L’Optimisation de la planification ne copie pas le plan statique dans le plan dynamique, quel que soit ce paramètre. En général, ce concept est moins pertinent en raison de la vitesse et de la régénération complète fournies par l’Optimisation de la planification. Si deux plans ou plus sont utilisés, la planification principale doit être déclenchée pour chaque plan. | S/O |
 | Confirmation | Groupes de couverture avec la plage de gestion de la confirmation automatique définie : *\#* | Dans la version 10.0.7 et les versions ultérieures, la confirmation est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité *Confirmation automatique pour l’Optimisation de la planification* ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l’Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. | Prise en charge |

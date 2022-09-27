@@ -2,7 +2,7 @@
 title: Archives fiscales pour la France
 description: Cet article fournit des informations sur les archives fiscales et l’outil de vérification de l’intégrité des archives fiscales qui sont disponibles dans la localisation de Microsoft Dynamics 365 Commerce pour la France.
 author: EvgenyPopovMBS
-ms.date: 05/17/2022
+ms.date: 09/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 10.0.17
 ms.search.industry: Retail
 ms.search.form: RetailGrandTotalJournalTable
 manager: annbe
-ms.openlocfilehash: 22bfdd6524271a969b9a84c5f1d62112349acf28
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ef4501167aac039f0309cc098060ca7ac69b563a
+ms.sourcegitcommit: 4f28f262cfb8f047cb5c0070261aa0748835e74b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9267535"
+ms.lasthandoff: 09/21/2022
+ms.locfileid: "9558415"
 ---
 # <a name="fiscal-archive-for-france"></a>Archives fiscales pour la France
 
@@ -223,7 +223,7 @@ Pour obtenir l’outil de vérification de l’intégrité des archives fiscales
     1. Consultez les termes de la licence de l’outil.
     1. Téléchargez le contenu du dossier sur votre ordinateur local.
 
-1. Exportez les fichiers de clé publique pour tous les certificats numériques utilisés pour la signature numérique des enregistrements.
+1. Exportez les fichiers de clé publique pour tous les certificats numériques utilisés pour la signature numérique des transactions et événements d’audit côté canal Commerce, ou les journaux du total général de la période et archives fiscales côté Commerce Headquarters.
 1. Placez le fichier d’archive fiscale, son fichier de signature et tous les fichiers de clé publique dans un seul dossier.
 1. Exécutez Windows PowerShell.
 1. Exécutez le script de l’outil **verify.ps1**, et précisez le nom du fichier d’archive fiscale. Incluez le chemin d’accès complet du fichier.

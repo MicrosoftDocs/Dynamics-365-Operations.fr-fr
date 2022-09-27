@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: c55d0891ed37d63f89ee09759965ac443db20dc6
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203107"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542242"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Prise en charge de la fonction de taxe pour les ordres de transfert
 
@@ -60,10 +60,10 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         4. Sélectionnez **Ajouter** dans la table **Taux**.
         5. Entrez **-21** dans le champ **Taux de taxe**.
         6. Définissez **Est une taxe au preneur** sur **Oui** dans la section **Général**.
-        7. Sélectionnez **Enregistrer**.
+        7. Cliquez sur **Enregistrer**.
         
         Créez le code taxe **BE-RC+21**.
-        1. Sélectionnez **Ajouter**, entrez **BE-RC-21** dans le champ **Code taxe**.
+        1. Sélectionnez **Ajouter**, entrez **BE-RC+21** dans le champ **Code taxe**.
         2. Sélectionnez **Par montant net** dans le champ **Composant de taxe**.
         3. Sélectionnez **Enregistrer**.
         4. Sélectionnez **Ajouter** dans la table **Taux**.

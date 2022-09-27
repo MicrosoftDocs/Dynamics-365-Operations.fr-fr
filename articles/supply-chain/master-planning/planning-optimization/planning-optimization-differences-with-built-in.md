@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dd9493e85a90c00b2dd50abb6530661c0fbb77dc
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897572"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520835"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Différences entre la planification générale intégrée et l’optimisation de la planification
 
@@ -26,7 +26,7 @@ Les résultats de l’optimisation de la planification peuvent différer des ré
 | Fonctionnalité | Comportement actuel dans l’optimisation de la planification |
 |---|---|
 | Produits en poids variable | Les produits en poids variable sont considérés comme des produits habituels.|
-| Dimensions extensibles | Les dimensions extensibles sont vides sur les ordres prévisionnels, même quand la case **Plan de couverture par dimension** est cochée sur la page **Groupes de dimensions de stockage** ou **Groupes de dimensions de suivi**. |
+| Dimensions extensibles | Les dimensions extensibles ne sont pas prises en charge par Planning Optimization. Lorsque vous utilisez l’optimisation de la planification, les dimensions extensibles sont vides sur les ordres prévisionnels, même quand la case **Plan de couverture par dimension** est cochée sur la page **Groupes de dimensions de stockage** ou **Groupes de dimensions de suivi**. |
 | Cycles de production filtrés | Pour plus de détails, voir [Planification de la production - Filtres](production-planning.md#filters). |
 | Planification prévisionnelle | La planification prévisionnelle n’est pas prise en charge. Nous vous recommandons d’utiliser la planification générale dans laquelle un modèle de prévision est affecté au plan général. |
 | Souches de numéros pour les ordres prévisionnels | Les souches de numéros pour les ordres prévisionnels ne sont pas prises en charge. Les numéros des ordres prévisionnels sont générés côté service. Le numéro de commande planifiée est normalement affiché avec 10 chiffres, mais la séquence est en fait construite sur 20 caractères, avec 10 chiffres alloués pour le nombre de cycles de planification et les 10 autres chiffres pour le nombre de commandes planifiées. |
@@ -38,6 +38,7 @@ Les résultats de l’optimisation de la planification peuvent différer des ré
 | Calendriers de transport | La valeur dans la colonne **Calendrier de transport** sur la page **Modes de livraison** est ignorée. |
 | Code de couverture min/max sans valeur| Avec le moteur de planification intégré, quand vous utilisez un code de couverture min/max où aucune valeur minimale ou maximale n’est définie, le moteur de planification traite le code de couverture comme une exigence et crée une commande pour chaque exigence. Avec l’optimisation de la planification, le système créera une commande par jour pour couvrir le montant total de cette journée.  |
 | Besoins nets et ordres planifiés créés manuellement | Avec le moteur de planification intégré, les commandes d’approvisionnement créées manuellement pour un article apparaissent automatiquement parmi les besoins nets pour cet article. Par exemple, à la création d’une commande fournisseur à partir d’une commande client, la commande client apparaît sur la page **Besoins nets** sans nécessiter aucune action préalable. En effet, le moteur de planification intégré enregistre les transactions de stock dans la table `inventLogTTS` et montre les changements sur la page **Besoins nets** pour les plans dynamiques. Cependant, avec l’optimisation de la planification, les commandes créées manuellement n’apparaissent pas parmi les besoins nets d’un article tant que l’optimisation de la planification n’est pas exécutée (à l’aide d’un plan qui inclut l’article) ou tant que vous n’avez pas sélectionné **Mise à jour \> Planification** dans le volet Actions de la page **Besoins nets** qui exécutera la planification de l’article. Pour plus d’informations sur l’utilisation de la page **Besoins nets**, consultez [Informations sur l’origine des besoins avec l’optimisation de la planification](net-requirements.md). |
+| Affectation de ressources | Lorsque vous travaillez avec une capacité infinie, le moteur de planification générale intégré affecte tous les ordres planifiés à la même ressource sur un groupe de ressources donné. L’optimisation de la planification améliore cela en sélectionnant des ressources au hasard afin que différents ordres de fabrication puissent utiliser différentes ressources. Si vous souhaitez utiliser la même ressource pour tous les ordres planifiés, vous devez spécifier cette ressource dans la gamme. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

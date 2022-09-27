@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
-ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
+ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9403694"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542318"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processus de publication de l’optimisation de la planification et historique des versions
 
@@ -30,6 +30,8 @@ Pendant la mise à jour de l’optimisation de la planification, la planificatio
 Les environnements qui utilisent l’optimisation de la planification reçoivent automatiquement la dernière version. Aucune action de l’utilisateur n’est requise : le service est automatiquement mis à jour. Cependant, aucune fonctionnalité de changement radical n’est jamais automatiquement poussée vers les environnements. Par défaut, toutes les modifications considérées comme des ruptures sont désactivées et doivent être explicitement activées à l’aide de la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Par conséquent, ces modifications n’apparaîtront pas dans les environnements tant que vous n’aurez pas choisi de les activer.
 
 Étant donné que les notifications ne s’affichent pas lorsque l’optimisation de la planification est mis à jour dans votre environnement, vous pouvez consulter les notes de publication dans le tableau suivant pour déterminer quand les modifications ont été publiées et quelles fonctionnalités elles ont introduites. Ce tableau indique les modifications qui ont été publiées pour l’optimisation de la planification, si ces modifications sont associées à une fonctionnalité de la gestion des fonctionnalités et la date de la publication.
+
+<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
 
 | Modifications | Détails de la gestion des fonctionnalités | Dates de parution |
 |---|---|---|

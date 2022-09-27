@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 56fe7fb4bb9d66f0ebb9be32be7569c31ca9ec11
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 77c51eee365eaf226e60514e7172ee927d6b6cdb
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423827"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538694"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Catalogue d’apprentissage pour les rôles de vente et de marketing des partenaires Microsoft pour Dynamics 365 Commerce
 
@@ -31,7 +31,7 @@ Pour une formation sur les fonctionnalités partagées avec d’autres applicati
 
 | Contenu | Description | Format | Length |
 |---------|-------------|--------|--------|
-| [Mise en route de Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, fondé sur les fonctionnalités éprouvées de Dynamics 365 Retail, fournit une solution complète omnicanale qui unifie le back-office, le magasin, le centre d’appels et les expériences numériques. Dynamics 365 Commerce vous permet de fidéliser votre marque grâce à des engagements personnalisés avec les clients, d’augmenter les revenus grâce à une meilleure productivité des employés, d’optimiser les opérations pour réduire les coûts et d’accroître l’efficacité de la chaîne d’approvisionnement, et ainsi fournir de meilleurs résultats opérationnels. | Parcours d’apprentissage en ligne, gratuit et auto-rythmé | 2 heures   |
-| [Mise en route de Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection est une solution basée sur le cloud conçue pour le commerce électronique, les magasins traditionnels et les marchands omnicanaux, pour aider à protéger leurs revenus et leur réputation en fournissant des outils et des fonctionnalités pour réduire la fraude et les abus, réduire les dépenses opérationnelles et augmenter les taux d’acceptation tout en protégeant les comptes d’utilisateurs contre la fraude. | Parcours d’apprentissage en ligne, gratuit et auto-rythmé | 35 minutes |
+| [Mise en route de Dynamics 365 Commerce](/training/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, fondé sur les fonctionnalités éprouvées de Dynamics 365 Retail, fournit une solution complète omnicanale qui unifie le back-office, le magasin, le centre d’appels et les expériences numériques. Dynamics 365 Commerce vous permet de fidéliser votre marque grâce à des engagements personnalisés avec les clients, d’augmenter les revenus grâce à une meilleure productivité des employés, d’optimiser les opérations pour réduire les coûts et d’accroître l’efficacité de la chaîne d’approvisionnement, et ainsi fournir de meilleurs résultats opérationnels. | Parcours d’apprentissage en ligne, gratuit et auto-rythmé | 2 heures   |
+| [Mise en route de Dynamics 365 Fraud Protection](/training/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection est une solution basée sur le cloud conçue pour le commerce électronique, les magasins traditionnels et les marchands omnicanaux, pour aider à protéger leurs revenus et leur réputation en fournissant des outils et des fonctionnalités pour réduire la fraude et les abus, réduire les dépenses opérationnelles et augmenter les taux d’acceptation tout en protégeant les comptes d’utilisateurs contre la fraude. | Parcours d’apprentissage en ligne, gratuit et auto-rythmé | 35 minutes |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

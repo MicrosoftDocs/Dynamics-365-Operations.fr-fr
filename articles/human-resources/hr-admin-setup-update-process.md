@@ -2,7 +2,7 @@
 title: Processus de mise à jour
 description: Microsoft Dynamics 365 Human Resources est un véritable logiciel en tant que service (SaaS) qui fournit des mises à jour de service continues et sans contact pour les modifications de l’application et de la plateforme.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178441"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520808"
 ---
 # <a name="update-process"></a>Processus de mise à jour
 
 _**S’applique à :** Human Resources dans l’infrastructure autonome_ 
 
 > [!NOTE]
-> À partir de juillet 2022, les nouveaux environnements de Human Resources ne peuvent plus être approvisionnés sur l’infrastructure autonome de Human Resources, et les nouveaux projets Microsoft Dynamics Lifecycle Services (LCS) ne peuvent pas y être créés. Les clients peuvent déployer des environnements Human Resources sur l’infrastructure des applications de finances et d’opérations. Pour en savoir plus, voir [Mettre en service Human Resources dans l’infrastructure des applications de finances et d’opérations](/hr-admin-setup-provision-fo.md).
+> À partir de juillet 2022, les nouveaux environnements de Human Resources ne peuvent plus être approvisionnés sur l’infrastructure autonome de Human Resources, et les nouveaux projets Microsoft Dynamics Lifecycle Services (LCS) ne peuvent pas y être créés. Les clients peuvent déployer des environnements Human Resources sur l’infrastructure des applications de finances et d’opérations. Pour en savoir plus, voir [Mettre en service Human Resources dans l’infrastructure des applications de finances et d’opérations](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
 > Le processus de mise à jour et de correctif sur l’infrastructure de l’application de finances et d’opérations diffère du processus de mise à jour et de correctif autonome de Human Resources. Pour plus d’informations sur la mise à niveau vers le processus de mise à jour, voir [Processus de mise à niveau vers la dernière mise à jour des applications de finances et d’opérations](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Pour plus d’informations sur les correctifs, consultez [Téléchargement de mises à jour depuis Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 

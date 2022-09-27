@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283143"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524743"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Utiliser le service de facturation électronique pour importer des factures fournisseur
 
@@ -107,7 +107,8 @@ Suivez les étapes des deux sections suivantes pour paramétrer différents type
 2. Sélectionnez **Modèle de contexte de facture client**, puis sélectionnez **Créer une configuration** > **Dériver du nom : modèle de contexte de facture client, Microsoft** pour créer une configuration dérivée.
 3. Dans la version **Brouillon**, sélectionnez **Concepteur** puis, dans l’arborescence **Modèle de données**, sélectionnez **Mapper le modèle sur la source de données**.
 4. Dans l’arborescence **Définitions**, sélectionnez **Canal de données**, puis sélectionnez **Concepteur**.
-5. Dans l’arborescence **Source de données**, développez le conteneur **$Contexte\_Canal**. Dans le champ **Valeur**, sélectionnez **Modifier** et entrez le nom du canal de données. Il s’agit du nom du canal donné dans la configuration du canal de données pour la fonctionnalité de facturation électronique dans RCS. 
+5. Dans l’arborescence **Source de données**, développez le conteneur **$Contexte\_Canal**. 
+6. Dans le champ **Valeur**, sélectionnez **Modifier** > **Modifier la formule** et entrez le nom du canal de données. Il s’agit du nom du canal donné dans la configuration du canal de données pour la fonctionnalité de facturation électronique dans RCS. 
 7. Cliquez sur **Enregistrer**, puis fermez la page.
 8. Fermez la page.
 9. Sélectionnez la configuration dérivée que vous venez de créer à partir du **Modèle de contexte de facture client** et, dans le raccourci **Versions**, sélectionnez **Modifier le statut** > **Terminé**.
