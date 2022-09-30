@@ -1801,11 +1801,13 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Planification générale pour les produits à durée de conservation limitée
                   href: master-planning/planning-optimization/shelf-life.md
-                - name: Planification avec une capacité infinie
+                - name: Programmation avec une capacité infinie
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Planification avec sélection des ressources en fonction des capacités
+                - name: Planification et programmation de la capacité finie
+                  href: master-planning/planning-optimization/finite-capacity.md
+                - name: Programmation avec sélection des ressources en fonction des capacités
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Planification fondée sur les priorités
+                - name: Planification basée sur la priorité
                   href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Planification des besoins en matériaux basée sur la demande (DDMRP)
                   items:
