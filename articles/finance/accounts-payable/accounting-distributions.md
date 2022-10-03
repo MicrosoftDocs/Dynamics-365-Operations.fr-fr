@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
+ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894198"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9588951"
 ---
 # <a name="accounting-distributions"></a>Répartitions comptables
 
@@ -51,7 +51,7 @@ Les fonctionnalités de répartition comptable générique fournissent les optio
     -   Vous pouvez afficher le statut comptable du document actuel dans **Référence**. Le statut concerne le document entier, et indique si le document est en cours de traitement ou terminé.
 -   **Afficher les distributions** : permet d’afficher les répartitions comptables pour toutes les lignes et tous les montants en devises du document. Vous ne pouvez pas modifier les répartitions comptables de cette vue.
 
-Dans la version 10.0.13, une fonctionnalité a été ajoutée qui valide la table de répartition comptable pour garantir que les nouveaux champs sont correctement configurés. Cette fonctionnalité est appelée **Permettre la validation supplémentaire des données des documents à l’aide de la structure comptable du document source**. Pour utiliser la fonctionnalité, vous devez l’activer en utilisant l’espace de travail **Gestion des fonctionnalités**. Pour activer la fonctionnalité, recherchez son nom dans le champ **Rechercher** de la page **Gestion des fonctionnalités**, puis sélectionnez **Activer maintenant**.
+Dans la version 10.0.13, une fonctionnalité a été ajoutée qui valide la table de répartition comptable pour garantir que les nouveaux champs sont correctement configurés. Cette fonctionnalité est appelée **Permettre la validation supplémentaire des données des documents à l’aide de la structure comptable du document source**. Cette fonctionnalité sera activée par défaut dans la version 10.0.29. 
 
 Pour plus d’informations, voir [Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

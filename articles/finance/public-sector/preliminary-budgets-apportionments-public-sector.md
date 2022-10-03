@@ -1,7 +1,7 @@
 ---
 title: Budgets préliminaires et répartitions dans le secteur public
 description: Cet article couvre la création d’un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire.
-author: v-kiarnd
+author: velofog
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -9,19 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: v-kiarnd
+ms.author: velofog
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 19701
 ms.assetid: 8885478d-67f5-4db8-b97b-c0734216f8dd
 ms.search.industry: Public sector
 ms.search.form: BudgetBalancesActuals, BudgetControlConfiguration, BudgetTransactionCode
-ms.openlocfilehash: 534936dd3ae8b334bb8b43f049f2330a75e66045
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 6f6bb29df7d1ac9f248c42b740d7a12a4cb210c5
+ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291536"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9572984"
 ---
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a>Budgets préliminaires et répartitions dans le secteur public
 

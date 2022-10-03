@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 331c714663d212471b72f1558e6183452ef7f394
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846913"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573166"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Résoudre les problèmes de configuration de Finance Insights
 
@@ -88,10 +88,14 @@ Les étapes suivantes doivent avoir été effectuées.
 - Vérifiquez qu’une licence Dynamics 365 Finance ou équivalente est appliquée à l’utilisateur qui installe le complément.
 - Vérifiez que l’application Azure AD est bien enregistrée dans Azure AD : 
 
-  | Demande                  | ID d’application           |
-  | ---------------------------- | ---------------- |
-  | CDS Microservices ERP Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+    | Application                  | ID d’application           |
+    | ---------------------------- | ---------------- |
+    | CDS Microservices ERP Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+    Pour vérifier que l’application est enregistrée dans Azure AD, vérifiez la liste **Toutes les applications**. Pour obtenir plus de détails, consultez [Afficher les applications d’entreprise](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Si l’application n’est pas enregistrée dans Azure AD, contactez le support.
+
 ## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Symptôme : Erreur : « Nous n’avons trouvé aucune donnée pour la plage de filtres sélectionnée. Veuillez sélectionner une autre plage de filtres et réessayer. » 
 
 ### <a name="resolution"></a>Résolution

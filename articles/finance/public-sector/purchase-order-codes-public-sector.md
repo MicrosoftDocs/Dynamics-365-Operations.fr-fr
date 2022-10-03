@@ -1,7 +1,7 @@
 ---
 title: Codes de commande fournisseur dans le secteur public
 description: Cet article fournit des informations sur les codes et les messages spéciaux pouvant être utilisés lors de la confirmation des commandes fournisseur.
-author: v-kiarnd
+author: velofog
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -9,19 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: v-kiarnd
+ms.author: velofog
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 27291
 ms.assetid: 65032886-4dc6-4411-98c8-8969287fd7df
 ms.search.industry: Public sector
 ms.search.form: ConfirmingPOCodes, PurchTableListPage
-ms.openlocfilehash: c5a2285859f8bb70dad906878acb2f8b3188c4b2
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9ad1a59fb0ae0be9f0d40ed8fb5919c71b27c180
+ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284340"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573124"
 ---
 # <a name="purchase-order-codes-in-the-public-sector"></a>Codes de commande fournisseur dans le secteur public
 

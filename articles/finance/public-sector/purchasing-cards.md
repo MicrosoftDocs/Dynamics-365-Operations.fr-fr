@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: v-kiarnd
+ms.author: velofog
 ms.search.validFrom: 2019-09-03
 ms.dyn365.ops.version: 10.0.7
 ms.search.industry: public sector
-ms.openlocfilehash: 6dacf820d724bf60ee8993af2cc2422918ade937
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0171e56a585a77516238f4ad9a5f9af5f6adb5d7
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277102"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9583238"
 ---
 # <a name="purchasing-cards"></a>Cartes d’achat
 

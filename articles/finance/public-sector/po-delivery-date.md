@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: v-kiarnd
+ms.author: velofog
 ms.search.validFrom: 2019-09-03
 ms.dyn365.ops.version: 10.0.7
 ms.search.industry: public sector
-ms.openlocfilehash: f2ce341e9f2b3d41f30c2d1c309a262c2c474aba
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: fbf96fd3056b2743b2adf62dddc92e5e1616a676
+ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9275856"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573005"
 ---
 # <a name="calculate-the-delivery-date-for-a-line-based-on-the-lead-time"></a>Calculer la date de livraison d’une ligne, en fonction du délai de livraison
 

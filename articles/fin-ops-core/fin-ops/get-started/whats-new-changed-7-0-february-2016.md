@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 4cd59d5ea2ef8d280a927fd9e9fe3b9af7974d7c
+ms.sourcegitcommit: 0a5885dc792fc608ae59d0ef9b36fb61790b24de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287078"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "9593985"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
@@ -319,7 +319,7 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d’évaluation d
 <tr>
 <td>Accès à l’aide procédurale guidée (guides des tâches) et aux rubriques conceptuelles en cliquant sur <strong>Aide</strong>.</td>
 <td>Le système d’aide AX 2012 pointe vers les rubriques HTML qui sont enregistrées sur un serveur Web local. Les partenaires et clients peuvent créer leur propre Aide.</td>
-<td>Le système d’aide de la version actuelle de Dynamics AX affiche les guides de tâches qui sont enregistrés dans le BPM Microsoft Dynamics Lifecycle Services (LCS). Le système d’aide affiche également des rubriques à partir du site de documentation Microsoft. Pour en savoir plus, voir <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Système d’aide</a> et <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nouveaux guides de tâches (février 2016)</a>.</td>
+<td>Le système d’aide de la version actuelle de Dynamics AX affiche les guides de tâches qui sont enregistrés dans le BPM Microsoft Dynamics Lifecycle Services (LCS). Le système d’aide affiche également les rubriques de Microsoft Learn. Pour en savoir plus, voir <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Système d’aide</a> et <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nouveaux guides de tâches (février 2016)</a>.</td>
 <td>Un guide de tâche fournit une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d’une tâche ou d’un processus métier. Vous pouvez télécharger et personnaliser les guides de tâches fournis par Microsoft. Cet article explique un moyen plus rapide et plus souple de créer, de fournir et mettre à jour la documentation du produit. Par conséquent, il aide à garantir que vous avez accès aux dernières informations techniques.</td>
 </tr>
 </tbody>

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: da97490cb065365a0502aa82c63205d5c34da9eb
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542318"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591875"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processus de publication de l’optimisation de la planification et historique des versions
 
@@ -35,6 +35,7 @@ Les environnements qui utilisent l’optimisation de la planification reçoivent
 
 | Modifications | Détails de la gestion des fonctionnalités | Dates de parution |
 |---|---|---|
+| <p> Prise en charge de la planification de ressources avec la capacité finie. <p>Améliorations générales des performances, de la qualité et de la stabilité. | Aucune gestion des fonctionnalités n’est requise. | 19 au 23 septembre 2022 |
 | <p>Améliorations générales des performances, de la qualité et de la stabilité. | Aucune gestion des fonctionnalités n’est requise. | 29 août – 3 septembre 2022 |
 | <p>Améliorations générales des performances, de la qualité et de la stabilité.<p>[Maintenance du calendrier centralisé de l’optimisation de la planification](../supply-chain-calendars-master-planning.md)<p>[Suggestions d’optimisation de la planification pour optimiser l’offre existante](../action-messages.md)<p>[Prise en charge de l’optimisation de la planification pour la sous-traitance](../../production-control/manage-subcontract-work-production.md) | Aucune gestion des fonctionnalités n’est requise. | 7-11 mars 2022 |
 | <p>Ajout de la prise en charge de la priorité de planification pour les ordres de fabrication. | Disponible avec la version 10.0.25 dans le cadre de la fonctionnalité *Support MRP piloté par la priorité pour l’optimisation de la planification*. | 12-18 novembre 2021 |

@@ -2,7 +2,7 @@
 title: Mises à jour réglementaires
 description: Cet article fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 04/18/2022
+ms.date: 09/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: fdfc10ea5bf330c3a739f8dfe86c56f16ca2c69e
+ms.sourcegitcommit: 2290799408b7567a97601bc4158f814d5bfd844c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206165"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "9596233"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -39,19 +39,14 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 
 |Pays|Date de sortie|Version|Mise à jour réglementaire|
 |--------------------|---------------|-------|-------| 
-|      Brésil         |   Mars 2022    | 10.0.27        |    Recouvrement ICMS-DIFAL dans les opérations destinées aux contribuables non fiscaux (loi complémentaire n° 190/22)  |
-|      Brésil         |   Mars 2022         | 10.0.27         |    NF-e NT2021.004 v1.00 – Mises à jour des règles de validation et de disposition  |
-|      Brésil         |   Mars 2022         | 10.0.27         |    NF-e NT2021.004 v1.00 – Mises à jour des règles de validation et de disposition – Retail  |
-|      Brésil         |   Avril 2022         | 10.0.27HF, 10.0.28         |    SPED ECF – DISPOSITION 8  |
-|      Europe de l’Est         |   Juillet 2022         | 10.0.27HF, 10.0.28HF, 10.0.29         |    Relevé comptable par compte principal  |
-|      Lituanie|   Février 2022 | 10.0.27 | i.SAF passe de 2022-01-01 dans Dynamics 365 Finance  |
-|      Mexique         |   Mars 2022      | 10.0.27      |   Formats CFDI version 4.0 (factures et paiements)  |
-|      Mexique         |   Février 2022      | 10.0.27      |   À compter du 1er janvier 2022, la version 4.0 du CFDI entre en vigueur, avec une période de coexistence entre la version 3.3 et la version 4.0, qui court du 1er janvier au 30 juin 2022.  |
-|      Mexique         |   Mars 2022      | 10.0.27      |   Formats CFDI version 4.0 (retenue)  |
-|      Pologne          |   Avril 2022     | 10.0.27HF, 10.0.28     |   JPK_FA version 4 à partir du 1er avril 2022JPK_V7M – nouvelle version du schéma à partir de janvier 2022 |
-|      Russie          |   2022 juin     | 10.0.27    |  Rapport sur les opérations avec des produits traçables (dans le cadre de la radiation des biens traçables achetés comme les moniteurs, les réfrigérateurs et le mobilier de bureau pour un usage personnel)|
-|      Singapour      |   Juillet 2022| 10.0.27HF, 10.0.28HF, 10.0.29 | Fichier d’audit IRAS (IAF) au format TXT|
-|      Espagne      |   Mars 2022| 10.0.27 | Déclaration de TVA Modèle 303 change le 1er janvier 2022 dans Dynamics 365 Finance|
+|      Brésil         |   Avril 2022         | 10.0.28         |    SPED ECF – DISPOSITION 8  |
+|      Brésil         |   2022 juin         | 10.0.30HF         |    EFD ICMS IPI - version 3.0.9  |
+|      Brésil         |   Août 2022         | 10.0.30         |    NF-e NT2021.004 v1.31 – Mises à jour des règles de validation et de disposition  |
+|      Europe de l’Est         |   Juillet 2022         | 10.0.28HF, 10.0.29         |    Relevé comptable par compte principal  |
+|      Hongrie         |   Juillet 2022         | 10.0.30         |    Déclaration de TVA au format XML (2065A) et aperçu dans Excel. Annexe des factures fournisseur au format XML (2065M)  |
+|      Pologne          |   Avril 2022     | 10.0.28     |   JPK_FA version 4 à partir du 1er avril 2022 |
+|      Russie          |   2022 juin     | 10.0.29    |  Importer des données d’adresse depuis le Registre d’adresses d’état (GAR)|
+|      Singapour      |   Juillet 2022| 10.0.28HF, 10.0.29 | Fichier d’audit IRAS (IAF) au format TXT|
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

@@ -1,7 +1,7 @@
 ---
 title: Définitions de validation dans le secteur public
 description: Cet article fournit des exemples de définitions de validation dans le secteur public à utiliser pour créer les lignes du journal de comptabilité auxiliaire pour les transactions d’origine correspondant aux critères sélectionnés.
-author: v-kiarnd
+author: velofog
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: v-kiarnd
+ms.author: velofog
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 27271
 ms.search.industry: Public sector
 ms.search.form: BudgetDetailsInquiry, CustGroup, JournalizingDefinition, JournalizingDefinitionTrans, LedgerFund, LedgerParameters, LedgerTransferOpening, MainAccount
-ms.openlocfilehash: 86eacdafd1bc1016dcc33fb38677784ee68908d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: fcf58b730031edeacefcd0b81b46d05625617898
+ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9270532"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9572977"
 ---
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 

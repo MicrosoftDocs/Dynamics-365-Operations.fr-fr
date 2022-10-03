@@ -1,7 +1,7 @@
 ---
 title: Remboursements dans le secteur public
 description: Cet article répond aux questions courantes associées aux remboursements dans le secteur public.
-author: v-kiarnd
+author: velofog
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -9,19 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: v-kiarnd
+ms.author: velofog
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 27311
 ms.assetid: 9d61d1d8-1672-4bd0-ae0d-605b09240890
 ms.search.industry: Public sector
 ms.search.form: CustBillingClassification
-ms.openlocfilehash: 1e9d89c166dfa0b027aeb9f5a926e5a34b142258
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c13d30c879c0544191b89acaa325cef317248e71
+ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291532"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573075"
 ---
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 

@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 0f005352970ec3dadb178dfafeaf4f7e36f8c18d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279808"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573303"
 ---
 # <a name="get-started-with-tax-calculation"></a>Démarrage du calcul de la taxe
 
@@ -186,9 +186,9 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
 
     | Groupe de taxes    | Codes taxe           |
     | ------------ | ------------------- |
-    | DEU_Local | DEU_TVA19 ; DEU_TVA7 |
+    | DEU_Dom | DEU_TVA19 ; DEU_TVA7 |
     | DEU_UE       | DEU_Exempté          |
-    | BEL_Local | BEL_TVA21 ; BEL_TVA6 |
+    | BEL_Dom | BEL_TVA21 ; BEL_TVA6 |
     | BEL_UE       | BEL_Exempté          |
 
 20. Sur l’onglet **Groupe de taxe d’article**, sélectionnez la colonne **Groupe de taxe d’article**, ajoutez-la à la matrice comme condition d’entrée, puis ajoutez des lignes pour conserver les données de base du groupe de taxe d’article.
@@ -204,11 +204,11 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
 
     Voici un exemple :
 
-    | Processus entreprise | Origine expédition | Destination expédition | Groupe de taxes    |
+    | Processus d’entreprise | Origine expédition | Expédier à | Groupe de taxes    |
     | ---------------- | --------- | ------- | ------------ |
-    | Vente            | DEU       | DEU     | DEU_Local |
+    | Vente            | DEU       | DEU     | DEU_Dom |
     | Vente            | DEU       | FRA     | DEU_UE       |
-    | Vente            | BEL       | BEL     | BEL_Local |
+    | Vente            | BEL       | BEL     | BEL_Dom |
     | Vente            | BEL       | FRA     | BEL_UE       |
     
     > [!NOTE]

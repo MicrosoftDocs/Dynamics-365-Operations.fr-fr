@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble du module Comptabilité dans le secteur public
 description: Cet article décrit la fonctionnalité Comptabilité disponible pour les organisations du secteur public.
-author: v-kiarnd
+author: TaylorVH
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -9,19 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: v-kiarnd
+ms.author: TaylorVH
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 27211,  ""intro-internal
 ms.assetid: d737c743-e224-4a30-b4c3-e9568eaddd8c
 ms.search.industry: Public sector
 ms.search.form: AdvancedLedgerEntry, JournalizingDefinition, LedgerDerivedFinHierarchies, LedgerFundType, LedgerParameters
-ms.openlocfilehash: 786f3dc0d175eebde20183614a845bcc51850266
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 19e2a05c0061131c35a9adcc89f9ba1124a75eb6
+ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279755"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573071"
 ---
 # <a name="general-ledger-in-the-public-sector-overview"></a>Vue d’ensemble du module Comptabilité dans le secteur public
 

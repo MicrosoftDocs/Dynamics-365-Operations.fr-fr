@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542350"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591848"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
@@ -94,7 +94,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Production | Versions de formule avec rendement : *\#* | Cette fonctionnalité est en attente. Actuellement, le rendement associé à la version de formule est ignoré quand l’Optimisation de la planification est activée. | 2022 vague de lancement 2 |
 | Production | Plans incluant le classement : *\#* | Cette fonctionnalité est en attente. Actuellement, le classement est ignoré quand l’Optimisation de la planification est activée, quel que soit ce paramètre. | 2022 vague de lancement 2 |
 | Production | Ordres de fabrication lancés qui n’ont pas commencé, quand la date de début planifiée est antérieure à aujourd’hui : *\#* | Cette fonctionnalité est en attente. Actuellement, si un ordre de fabrication est retardé, la planification générale supposera qu’il sera terminé aujourd’hui. Ceci est pertinent pour les ordres de fabrication lancés dont la date de livraison est dans le passé, mais qui ne sont pas encore terminés. | Vague future |
-| Production | Ressources planifiées avec une capacité finie : *\#* | Cette fonctionnalité est en attente. Actuellement, les ressources planifiées avec une capacité limitée sont ignorées quand l’Optimisation de la planification est activée. La planification est effectuée en fonction du délai de livraison par défaut du produit. | 2022 vague de lancement 2 |
+| Production | Ressources planifiées avec une capacité finie : *\#* | Cette fonctionnalité est désormais prise en charge.| Prise en charge |
 | Production | Gammes utilisées au moment de la planification : *\#* | Cette fonctionnalité est prise en charge. | Prise en charge |
 | Production | Réservation de ligne de vente avec éclatement : *\#* | La réservation de ligne de vente qui utilise un éclatement n’est pas prise en charge quand l’Optimisation de la planification est activée. | Vague future |
 | Production | Planification avec éclatement des ordres de fabrication : *\#* | La planification qui utilise un éclatement des ordres de fabrication n’est pas prise en charge quand l’Optimisation de la planification est activée. Les ordres de fabrication peuvent être planifiés individuellement. | Vague future |

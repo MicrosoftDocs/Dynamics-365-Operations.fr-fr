@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387017"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589087"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Déploiement en masse de composants en libre-service Commerce hérités
 
@@ -47,7 +47,7 @@ Le tableau suivant montre les délimiteurs qui peuvent être utilisés dans l'ex
 | -EnvironmentId | ID d’environnement. |
 | -HardwareStationAppInsightsInstrumentationKey | La clé d'instrumentation AppInsights de la station matérielle. |
 | Installer | Paramètre qui spécifie si le composant fourni par ce programme d'installation doit être installé. Ce paramètre est requis pour effectuer une installation et n’a pas de tiret au début. |
-| -InstallOffline | Pour Modern POS, ce paramètre spécifie que la base de données hors ligne doit également être installée et configurée. Utilisez le paramètre **-SQLServerName** aussi. Sinon, le programme d'installation essaiera de trouver une instance par défaut qui répond aux prérequis. |
+| -InstallOffline | Pour Modern POS, ce paramètre spécifie que la base de données hors ligne doit également être installée et configurée. Utilisez le paramètre **-SQLServerName** aussi. Sinon, le programme d'installation essaiera de trouver une instance par défaut qui répond aux prérequis. Lors de l’utilisation de l’authentification Azure Active Directory (Azure AD), le PDV hors ligne ne fonctionnera pas, car la connectivité en ligne est toujours requise. |
 | -Port | Le port qui doit être associé et utilisé par le répertoire virtuel Retail Server. Si aucun port n'est défini, le port par défaut, 443 est utilisé. |
 | -Register | L'ID de registre tel qu'indiqué sur la page **Registres** dans Headquarters. |
 | -RetailServerAadClientId | L'ID client Azure AD que Retail Server doit utiliser lors des communications avec Headquarters. |
