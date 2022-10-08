@@ -2,19 +2,19 @@
 title: Modules de comparaison de produits
 description: Cet article décrit les modules de comparaison de produits et comment les mettre en œuvre afin que les clients puissent effectuer des comparaisons de produits sur les sites e-commerce de Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474124"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618383"
 ---
 # <a name="product-comparison-modules"></a>Modules de comparaison de produits
 
@@ -91,6 +91,19 @@ Pour ajouter un bouton de comparaison de produits aux vignettes de produits sur 
 1. Dans le volet des propriétés sur la droite, configurez les propriétés du module **Bouton de comparaison de produit**.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Ajouter un module de volet d’aperçu de comparaison de produits aux pages de votre site Web
+
+Un module de volet d’aperçu de comparaison de produits offre à vos clients la possibilité de vérifier les produits qu’ils ajoutent ou suppriment de la comparaison. Le volet d’aperçu fournit également les options pour accéder directement à la page de comparaison ou effacer la liste entière de produits. 
+
+Nous vous recommandons d’activer le volet d’aperçu dans toutes les pages où le **Bouton de comparaison de produits** est activé. Le module peut être ajouté au **Bouton de comparaison de produits** comme emplacement, ou il peut être utilisé comme module autonome que vous pouvez configurer dans une page, même lorsqu’il n’y a pas de fonctionnalité pour ajouter ou supprimer des produits à comparer. 
+
+Vous devez ajouter manuellement le module de volet d’aperçu de comparaison de produits à une page. Vous ne devez ajouter qu’un seul module de volet d’aperçu à une page. Si vous ajoutez plusieurs instances du module à une page, le premier module sera affiché et le reste sera ignoré.
+
+![Volet d’aperçu de comparaison de produits](./media/product-comparison-preview-panel-2.png)
+
+Si vous spécifiez une limite de comparaison de produits, vous avez la possibilité d’activer des espaces réservés en gris dans le volet d’aperçu qui indiquent le nombre de produits supplémentaires qui peuvent être ajoutés à la comparaison. Les espaces réservés en gris sont remplacés par des produits au fur et à mesure qu’ils sont ajoutés à la comparaison. Pour configurer une limite de comparaison de produits et activer les espaces réservés en gris, dans le générateur de site, accédez à **Paramètres du site > Extensions** et apportez vos modifications dans la section **Comparaisons de produits**. La configuration sera appliquée à tous les volets d’aperçu de toutes les pages. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Spécifiez le nombre maximum de produits à afficher dans le plateau de comparaison
 

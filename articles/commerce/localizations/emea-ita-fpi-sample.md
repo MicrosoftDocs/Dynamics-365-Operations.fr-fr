@@ -2,19 +2,19 @@
 title: Exemple d’intégration de l’imprimante fiscale pour l’Italie
 description: Cet article fournit une présentation d’un exemple d’intégration fiscale pour l’Italie dans Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-01
-ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6ad97e87e4114a8f2250d0ba4880b7a466b3689e
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336741"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631394"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Exemple d’intégration de l’imprimante fiscale pour l’Italie
 
@@ -67,7 +67,7 @@ Les scénarios suivants sont couverts par l’exemple d’intégration de l’im
 - Gestion des erreurs, telles que les options suivantes :
 
     - Réessayez l’enregistrement fiscal si une nouvelle tentative est possible, par exemple si l’imprimante fiscale n’est pas connectée, n’est pas prête ou ne répond pas, l’imprimante n’a plus de papier ou il y a un bourrage papier.
-    - Reporter l’enregistrement fiscal.
+    - Différez l’enregistrement fiscal.
     - Ignorez l’enregistrement fiscal ou marquez la transaction comme enregistrée et incluez des codes d’information pour capturer la raison de l’échec et des informations supplémentaires.
     - Vérifiez la disponibilité de l’imprimante fiscal avant l’ouverture d’une nouvelle opération de vente ou la finalisation d’une opération de vente.
 
@@ -111,7 +111,7 @@ Suivez les étapes de configuration de l’intégration fiscale décrites dans [
 1. [Configurer les textes fiscaux pour les remises](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
 1. [Définir les paramètres de traitement des erreurs](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Configurer les états X/Z fiscaux depuis le PDV](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Activer l’exécution manuelle d’un enregistrement fiscal reporté](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Activer l’exécution manuelle d’un enregistrement fiscal différé](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configurer la fonctionnalité de gestion des informations client dans PDV](emea-ita-customer-information.md#setup).
 1. [Configurer des composants de canal](#configure-channel-components).
 

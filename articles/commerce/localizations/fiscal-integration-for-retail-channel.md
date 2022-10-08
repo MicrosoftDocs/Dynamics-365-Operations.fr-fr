@@ -2,19 +2,19 @@
 title: Vue d’ensemble de l’intégration fiscale pour les canaux Commerce
 description: Cet article fournit une vue d’ensemble des capacités d’intégration fiscale disponibles dans Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286497"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631234"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Vue d’ensemble de l’intégration fiscale pour les canaux Commerce
 
@@ -95,16 +95,20 @@ Cette configuration est utilisée lorsqu’un périphérique fiscal physique ou 
 
 La structure d’intégration fiscale offre les options suivantes pour traiter les échecs lors d’un enregistrement fiscal :
 
-- **Réessayer** – Les opérateurs peuvent utiliser cette option si l’échec peut être rapidement résolu et si l’enregistrement fiscal peut être à nouveau exécuté. Par exemple, cette option peut être utilisée lorsque le périphérique fiscal n’est pas connecté, lorsque l’imprimante fiscale est à court de papier ou présente un bourrage papier.
-- **Annuler** – Cette option permet aux opérateurs de remettre à plus tard l’enregistrement fiscal de la transaction ou de l’événement actuel en cas d’échec éventuel. Une fois l’enregistrement remis à plus tard, l’opérateur peut continuer à travailler sur le PDV et terminer une opération pour laquelle l’enregistrement fiscal n’est pas requis. Lorsqu’un événement qui exige un enregistrement fiscal survient dans le PDV (par exemple, une nouvelle transaction est ouverte), la boîte de dialogue de traitement des erreurs s’ouvre automatiquement pour prévenir l’opérateur que la transaction précédente n’a pas été bien enregistrée et pour fournir les options de gestion des erreurs.
-- **Ignorer** – Les opérateurs peuvent utiliser cette option si l’enregistrement fiscal peut être ignoré dans le cadre de conditions spécifiques et si les opérations habituelles peuvent se poursuivre dans le PDV. Par exemple, cette option peut être utilisée lorsqu’une transaction commerciale pour laquelle l’enregistrement fiscal a échoué peut être enregistrée dans un journal papier spécial.
-- **Marquer comme enregistrée** : les opérateurs peuvent utiliser cette option lorsque la transaction a été enregistrée réellement dans le périphérique fiscal (par exemple, un reçu fiscal a été imprimé), mais qu’un échec s’est produit lorsque la réponse fiscale a été enregistrée vers la base de données du canal.
-- **Reporter** : les opérateurs peuvent utiliser cette option lorsque la transaction n’a pas été enregistrée, car le service d’enregistrement n’était pas disponible. 
+- **Réessayer** – L’opérateur peut utiliser cette option si l’échec peut être rapidement résolu et si l’enregistrement fiscal peut être à nouveau exécuté. Par exemple, cette option peut être utilisée lorsque le périphérique fiscal n’est pas connecté, lorsque l’imprimante fiscale est à court de papier ou présente un bourrage papier.
+- **Annuler** – Cette option permet à l’opérateur de différer l’enregistrement fiscal de la transaction ou de l’événement actuel en cas d’échec éventuel. Une fois l’enregistrement différé, l’opérateur peut continuer à travailler dans le PDV et terminer une opération pour laquelle l’enregistrement fiscal n’est pas requis. Lorsqu’un événement qui exige un enregistrement fiscal survient dans le PDV (par exemple, une nouvelle transaction est ouverte), la boîte de dialogue de traitement des erreurs s’ouvre automatiquement pour prévenir l’opérateur que la transaction précédente n’a pas été bien enregistrée et pour fournir les options de gestion des erreurs.
+- **Ignorer** – L’opérateur peut utiliser cette option lorsqu’il n’est pas possible de terminer l’enregistrement fiscal de la transaction ou de l’événement actuel, par exemple si l’imprimante fiscale est hors service **et** l’enregistrement fiscal peut être omis dans certaines conditions. Par exemple, cette option peut être utilisée lorsqu’une transaction commerciale pour laquelle l’enregistrement fiscal a échoué peut être enregistrée dans un journal papier spécial. Après avoir ignoré l’enregistrement fiscal, les opérations normales peuvent être poursuivies dans le PDV. 
+- **Marquer comme enregistré** – L’opérateur peut utiliser cette option lorsque la transaction ou l’événement actuel a été enregistré réellement dans le périphérique fiscal, par exemple, un reçu fiscal a été imprimé, mais un échec se produit lorsque la réponse fiscale est enregistrée dans la base de données du canal. Après avoir marqué la transaction ou l’événement actuel comme enregistré, les opérations normales peuvent être poursuivies dans le PDV.
+- **Reporter** – L’opérateur peut utiliser cette option lorsque la transaction n’a pas été enregistrée, car le périphérique ou le service d’enregistrement n’est pas disponible **et** l’une des options suivantes s’applique :
+    - Il existe une option d’enregistrement fiscal de secours et il est possible de poursuivre le processus d’enregistrement fiscal pour la transaction actuelle. Par exemple, un [périphérique fiscal](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) local peut être une option de secours pour un service d’enregistrement fiscal en ligne lorsque le service n’est pas disponible.
+    - L’enregistrement fiscal peut être complété ultérieurement par d’autres moyens que le cadre d’intégration fiscale. Par exemple, les transactions reportées peuvent être enregistrées fiscalement dans un lot par une [fonctionnalité distincte](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Après avoir reporté la transaction ou l’événement actuel, les opérations normales peuvent être poursuivies dans le PDV.
 
-> [!NOTE]
-> Les options **Ignorer**, **Marquer comme enregistrée** et **Reporter** doivent être activées dans le processus d’enregistrement fiscal pour être utilisées. En outre, les autorisations correspondantes doivent être accordées aux opérateurs.
+> [!WARNING]
+> Les options **Ignorer**, **Marquer comme enregistré** et **Reporter** doivent être considérées comme des options d’urgence et utilisées uniquement dans des cas exceptionnels. Discutez de ces options de gestion des erreurs avec votre conseiller juridique ou fiscal et faites preuve de bon sens avant de les activer. Les options doivent être activées dans le processus d’enregistrement fiscal avant de les utiliser. Pour s’assurer que les opérateurs ne les utilisent pas régulièrement, des autorisations correspondantes doivent être accordées aux opérateurs.
 
-Les options **Ignorer**, **Marquer comme enregistrée** et **Reporter** permettent aux codes info de saisir certaines informations spécifiques concernant l’échec, comme la raison de l’échec ou la justification de l’omission de l’enregistrement fiscal ou du marquage de la transaction comme enregistrée. Pour en savoir plus sur la manière de configurer les paramètres de traitement des erreurs, voir [Définir les paramètres de traitement des erreurs](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Une [opération fiscale](#storing-fiscal-response-in-fiscal-transaction) est créée lorsque les options **Ignorer**, **Marquer comme enregistré** ou **Reporter** sont sélectionnées, mais la transaction fiscale ne contient pas de réponse fiscale. Cela vous permet de capturer l’événement d’échec de l’enregistrement fiscal. Ces options permettent également aux codes info de saisir certaines informations spécifiques concernant l’échec, comme la raison de l’échec ou la justification de l’omission de l’enregistrement fiscal ou du marquage de la transaction comme enregistrée. Pour en savoir plus sur la manière de configurer les paramètres de traitement des erreurs, voir [Définir les paramètres de traitement des erreurs](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Enregistrement fiscal facultatif
 
@@ -112,11 +116,7 @@ L’enregistrement fiscal peut être obligatoire pour certaines opérations mais
 
 ### <a name="manually-rerun-fiscal-registration"></a>Réexécuter manuellement l’enregistrement fiscal
 
-Si l’enregistrement fiscal d’une transaction ou d’un événement a été reporté après un échec (par exemple, si l’opérateur a sélectionné **Annuler** dans la boîte de dialogue de gestion des erreurs), vous pouvez relancer manuellement l’enregistrement fiscal en appelant une opération correspondante. Pour plus de détails, voir [Activer l’exécution manuelle d’un enregistrement fiscal reporté](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Option de report
-
-L’option **Reporter** vous permet de poursuivre le processus d’enregistrement fiscal si l’étape en cours échoue. Elle peut être utilisée lorsqu’il existe une option de sauvegarde de l’enregistrement fiscal.
+Si l’enregistrement fiscal d’une transaction ou d’un événement a été différé après un échec (par exemple, si l’opérateur a sélectionné **Annuler** dans la boîte de dialogue de gestion des erreurs), vous pouvez relancer manuellement l’enregistrement fiscal en appelant une opération correspondante. Pour plus de détails, voir [Activer l’exécution manuelle d’un enregistrement fiscal différé](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Contrôle d’intégrité d’enregistrement fiscal
 
@@ -138,7 +138,7 @@ Si le contrôle d’intégrité échoue, l’appareil de PDV affiche la boîte d
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Enregistrer la réponse fiscale dans la transaction fiscale
 
-Si l’enregistrement fiscal d’une transaction ou d’un événement est une réussite, une transaction fiscale est créée dans la base de données du canal et associée à la transaction ou à l’événement d’origine. De même, si l’option **Ignorer** ou **Marquer comme enregistrée** est activée pour un enregistrement fiscal ayant connu un échec, ces informations sont enregistrées dans une transaction fiscale. Une transaction fiscale détient la réponse fiscale du périphérique ou du service fiscal. Si le processus d’enregistrement fiscal est constitué de plusieurs étapes, une transaction fiscale est créée pour chaque étape du processus ayant résulté en un échec ou une réussite de l’enregistrement.
+Si l’enregistrement fiscal d’une transaction ou d’un événement est une réussite, une transaction fiscale est créée dans la base de données du canal et associée à la transaction ou à l’événement d’origine. De même, si l’option **Ignorer**, **Marquer comme enregistré** ou **Reporter** est sélectionnée pour un enregistrement fiscal ayant connu un échec, ces informations sont enregistrées dans une transaction fiscale. Une transaction fiscale détient la réponse fiscale du périphérique ou du service fiscal. Si le processus d’enregistrement fiscal est constitué de plusieurs étapes, une transaction fiscale est créée pour chaque étape du processus ayant résulté en un échec ou une réussite de l’enregistrement.
 
 Les transactions fiscales sont transférées vers Headquarters par la *Tâche-P*, de même que les transactions de vente au détail. Dans le raccourci **Transactions fiscales** de la page **Transactions de magasin**, vous pouvez afficher les transactions fiscales liées aux transactions de vente.
 

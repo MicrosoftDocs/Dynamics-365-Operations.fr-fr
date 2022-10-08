@@ -2,19 +2,19 @@
 title: Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne
 description: Cet article fournit une présentation d’un exemple d’intégration fiscale pour l’Allemagne dans Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: a725badbce498e4e7b35aecb2500e273586c7b77
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313939"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631451"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne
 
@@ -265,7 +265,7 @@ Suivez les étapes de configuration de l’intégration fiscale décrites dans [
     > - Nous vous recommandons de laisser l’option **Continuer en cas d’erreur** sur la page **Processus d’enregistrement fiscal** désactivée, car toutes les transactions doivent être correctement enregistrées, même si la première tentative d’enregistrement fiscal n’a pas réussi.
     > - Avant d’activer l’option **Ignorer** ou **Marquer comme enregistré** sur la page **Processus d’enregistrement fiscal**, vous devez discuter de ces modifications du processus d’enregistrement fiscal avec votre conseiller fiscal ou le bureau des impôts local.
 
-1. [Activer l’exécution manuelle d’un enregistrement fiscal reporté](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Activer l’exécution manuelle d’un enregistrement fiscal différé](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configurer des composants de canal](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Configurer le processus d’inscription

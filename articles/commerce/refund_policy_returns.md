@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286835"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627494"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Créer et mettre à jour une stratégie de retour et de remboursement pour un canal
 
@@ -36,12 +36,8 @@ La portée de la politique se limite actuellement à la définition des offres d
 
 ## <a name="enable-return-policy"></a>Activer la stratégie de retour
 
-Pour activer la fonctionnalité de politique de retour de canal dans Commerce Headquarters, procédez comme suit.
+Par défaut, cette fonctionnalité est activée. Vous la trouverez dans l’espace de travail **Gestion des fonctionnalités** en recherchant **Activer les stratégies de retour du canal** dans la liste des noms de fonctionnalités.
 
-1. Accédez à l’espace de travail **Gestion des fonctionnalités** dans Dynamics 365 Commerce.
-1. Recherchez la fonctionnalité **Activer les stratégies de retour de canal** dans la liste des noms de fonction.
-1. Sélectionnez **Activer maintenant**.
-1. Sur la page **Calendrier de diffusion**, exécutez la tâche **1110** (Configuration globale) pour distribuer le changement de fonctionnalité.
 
 ## <a name="configure-return-policy"></a>Configurer la stratégie de retour
 

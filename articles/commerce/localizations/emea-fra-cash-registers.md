@@ -2,7 +2,7 @@
 title: Fonctionnalité de caisse enregistreuse pour la France
 description: Cet article fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
-ms.date: 09/21/2022
+ms.date: 10/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7.3.2
 ms.search.industry: Retail
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 manager: annbe
-ms.openlocfilehash: 907322a7ae94ea7c15630a0504a8a0319c707d85
-ms.sourcegitcommit: 4f28f262cfb8f047cb5c0070261aa0748835e74b
+ms.openlocfilehash: 7c5b5266a6e1e6dfa70e3b7753905cf33166a229
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2022
-ms.locfileid: "9558413"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631469"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -473,7 +473,7 @@ Suivez les étapes de configuration de l’enregistrement fiscal décrites dans 
 
 1. [Configurer un processus d’enregistrement fiscal](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Assurez-vous de noter les paramètres du processus d’enregistrement fiscal qui sont [spécifiques à la France](#configure-the-fiscal-registration-process).
 1. [Définir les paramètres de traitement des erreurs](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Activer l’exécution manuelle d’un enregistrement fiscal reporté](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Activer l’exécution manuelle d’un enregistrement fiscal différé](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 #### <a name="configure-the-fiscal-registration-process"></a>Configurer le processus d’enregistrement fiscal
 

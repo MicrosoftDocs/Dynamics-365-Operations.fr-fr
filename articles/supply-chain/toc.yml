@@ -1745,25 +1745,15 @@
               href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
             - name: Le scénario de qualité du produit
               href: sensor-data-intelligence/sdi-scenario-product-quality.md
-            - name: Le scénario de retards de production
+            - name: Le scénario des retards de production
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: Intelligence IoT
           items:
-            - name: Page d’accueil d’Intelligence IoT
+            - name: Le complément Intelligence IoT est désormais remplacé par Sensor Data Intelligence
               href: iot/iot-intelligence-home-page.md
-            - name: Paramétrer les ressources Azure
-              href: iot/iot-azure-setup.md
-            - name: Formats du schéma de message pour IoT Hub
-              href: iot/iot-schema-format.md
-            - name: Paramétrer des mesures
-              href: iot/iot-metrics-setup.md
-            - name: Configuration d’un scénario
-              href: iot/iot-scenario-setup.md
-            - name: Surveiller et gérer
-              href: iot/iot-management.md
         - name: Planification générale
           items:
-            - name: Page d’accueil Planification
+            - name: Page d’accueil Planification générale
               href: master-planning/master-planning-home-page.md
             - name: Migration vers l’optimisation de la planification pour la planification générale
               href: master-planning/new-master-planning-engine.md

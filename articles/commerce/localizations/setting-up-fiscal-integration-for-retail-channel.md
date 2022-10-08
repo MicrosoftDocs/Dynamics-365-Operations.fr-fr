@@ -2,19 +2,19 @@
 title: Configurer l’intégration fiscale pour les canaux de commerce
 description: Cet article donne des instructions pour configurer la fonctionnalité d’intégration fiscale pour les canaux de commerce.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276130"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631421"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurer l’intégration fiscale pour les canaux de commerce
 
@@ -30,9 +30,10 @@ Pour activer les fonctionnalités associées à la fonctionnalité d’intégrat
 1. Recherchez et activez les fonctions suivantes :
 
     - **Intégration fiscale directe à partir des registres PDV** – Cette fonctionnalité étend le cadre d’intégration fiscale en ajoutant la possibilité de créer des connecteurs fiscaux qui seront exécutés en point de vente (PDV). Ce type de connecteur communique avec un appareil ou un service fiscal qui fournit une interface de programmation d’application (API) HTTP et ne nécessite pas de machine physique dédiée dans le magasin. Par exemple, cette fonctionnalité permet une intégration fiscale pour les appareils mobiles sans nécessiter de station matérielle partagée.
-    - **Remplacements du profil technique d’intégration fiscale** – Cette fonctionnalité permet d’étendre la configuration de l’intégration fiscale et ajoute la possibilité de vérifier les paramètres de connexion sur la page des paramètres d’une Caisse enregistreuse de PDV. Quand cette fonctionnalité est activée, vous pouvez remplacer les paramètres d’un profil technique.
+    - **Remplacements du profil technique d’intégration fiscale** – Cette fonctionnalité permet d’étendre la configuration de l’intégration fiscale et ajoute la possibilité de remplacer les paramètres d’un profil technique. Par exemple, il est possible de spécifier les chaînes de connexion au périphérique fiscal au niveau de la caisse enregistreuse de PDV individuelle. La fonctionnalité ajoute également la possibilité de vérifier les paramètres de connexion dans la page **Paramètres** d’une caisse enregistreuse de PDV. 
     - **État d’enregistrement fiscal des Caisse enregistreuse de PDV** – Quand cette fonctionnalité est activée, vous pouvez désactiver le processus d’enregistrement fiscal pour des Caisse enregistreuse de PDV spécifiques. Si l’enregistrement fiscal est désactivé pour une Caisse enregistreuse de PDV, les transactions de vente ne peuvent pas être effectuées sur cette Caisse enregistreuse.
-    - **Sauvegarde du stockage local d’intégration fiscale** – Cette fonctionnalité étend les capacités de traitement des erreurs du cadre d’intégration fiscale. Elle permet également la sauvegarde automatique des données d’enregistrement fiscal en cas de perte de données, de sorte que les données du stockage local soient restaurées pendant l’activation d’un appareil.
+    - **Sauvegarde du stockage local de l’intégration fiscale** – Cette fonctionnalité étend les capacités de gestion des erreurs du cadre d’intégration fiscale en activant la sauvegarde automatique des données d’enregistrement fiscal, afin que les données du stockage local puissent être restaurées pendant l’activation d’un périphérique.
+    - **Enregistrement différé de documents** - Cette fonctionnalité étend les capacités de gestion des erreurs du cadre d’intégration fiscale en activant l’option pour différer l’enregistrement fiscal en cas d’échec de l’enregistrement fiscal et utiliser une option d’enregistrement fiscal de secours ou terminer l’enregistrement fiscal ultérieurement par des moyens autres que le cadre d’intégration fiscale.
 
 ## <a name="set-up-commerce-parameters"></a>Configurer les paramètres de commerce
 
@@ -286,16 +287,15 @@ Pour activer les états X/Z fiscaux à exécuter depuis le PDV, vous devez ajout
     1. Ajoutez un nouveau bouton, puis définissez la propriété de bouton **Imprimer Z fiscal**.
     1. Sur la page **Planification de la distribution**, exécutez la tâche **1090** pour transférer les changements vers la base de données des canaux.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Activer l’exécution manuelle d’un enregistrement fiscal reporté
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Activer l’exécution manuelle d’un enregistrement fiscal différé
 
-Pour activer l’exécution manuelle d’un enregistrement fiscal reporté, vous devez ajouter un nouveau bouton à la disposition de l’appareil de PDV.
+Pour activer l’exécution manuelle d’un enregistrement fiscal différé, vous devez ajouter un nouveau bouton à une disposition de PDV.
 
 - Sur la page **Groupes de boutons**, suivez les instructions d’installation dans [Ajouter des opérations de PDV aux mises de PDV à l’aide du concepteur de groupe de boutons](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) pour installer le concepteur et mettre à jour la mise en page d’un écran de PDV.
 
     1. Permet de sélectionner la mise en page à mettre à jour.
     1. Ajoutez un nouveau bouton, puis définissez la propriété du bouton **Terminer le processus d’enregistrement fiscal**.
     1. Dans la page **Programme de distribution**, exécutez la tâche **1090** pour transférer vos modifications vers la base de données des canaux.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>Afficher les paramètres de connexion et d’autres informations dans le PDV
 
