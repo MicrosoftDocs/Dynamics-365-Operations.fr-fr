@@ -394,6 +394,8 @@
                   items:
                     - name: Application Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Application Store Commerce pour plateformes mobiles
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Migrer Modern POS vers Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Conseils de mise en œuvre pour la gestion des périphériques
