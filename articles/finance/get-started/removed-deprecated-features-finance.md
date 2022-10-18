@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou déconseillées dans Dynamics 365 Finance
 description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Finance.
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462299"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643792"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Finance
 
@@ -32,6 +32,18 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.31
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>Configuration EDIFACT PAYMUL (AT) sous Modèle de paiement
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motif de l’abandon/de la suppression** | Remplacé par un nouveau format basé sur ISO 20022 pain.001.001.09. | 
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées**         | Application |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Obsolète : les banques autrichiennes obsolèteront EDICFACT-PAYMUL pour les paiements transfrontaliers d’ici novembre 2022 et le remplaceront par la version XML pain.001.001.09N. Une nouvelle configuration a été ajoutée sous le référentiel de configuration globale qui permet aux utilisateurs de compléter la demande de paiement transfrontalier. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.30
 

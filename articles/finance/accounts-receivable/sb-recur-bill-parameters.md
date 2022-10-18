@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903332"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644001"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Paramètres de facturation de contrat récurrent
 
@@ -46,7 +46,8 @@ Utilisez la page **Paramètres de facturation des contrats récurrents** pour co
 8. Dans le champ **Type de transaction de facture**, sélectionnez le type de transaction de facture par défaut pour les nouveaux échéanciers de facturation.
 9. Met l’option **Aligner le report sur la facturation** sur **Oui** pour aligner l’échéancier de report correspondant afin qu’il utilise les mêmes dates que l’échéanciers de facturation. Réglez-le sur **Non** pour avoir différentes dates.
 10. Si vous utilisez la fonctionnalité de fractionnement de produit, définissez l’option **Créer automatiquement un fractionnement de produit** sur **Oui** quand des éléments sont ajoutés à un échéanciers de facturation. La case **Fractionnement de produit** sera automatiquement cochée sur la ligne de l’échéancier de facturation si l’article est configuré en tant qu’article de fractionnement de produit. Définissez l’option sur **Non** si vous voulez cocher manuellement la case **Fractionnement de produit**.
-11. Définissez les champs pour la création de la commande client :
+11. Définissez l’option **Fractionnement client** sur **Oui** pour permettre à un calendrier de facturation d’être facturé à différents clients. Quand elle est définie sur **Oui** l’option **Fractionnement client** est disponible sur l’en-tête et la ligne de l’échéancier de facturation. 
+12. Définissez les champs pour la création de la commande client :
 
     - Les factures peuvent être consolidées par période, client ou article. Toute combinaison de valeurs **Oui** et **Non** peuvent être définies. Les factures peuvent également être fractionnées par groupe d’articles.
     - Les options de comptabilisation suivantes sont disponibles pour les factures :
@@ -92,6 +93,9 @@ Utilisez la page **Paramètres de facturation des contrats récurrents** pour co
     - **Émettre un avoir** – Crée un avoir quand un calendrier de facturation ou une ligne de calendrier de facturation est résiliée.
     - **Ajustement de crédit** – Crée un ajustement de crédit pour un calendrier de facturation quand une ligne est résiliée. L’ajustement de crédit apparaît dans une période de facturation future pour le calendrier de facturation. L’ajustement de crédit mettra à jour également le montant de la facture pour la période de facturation suivante jusqu’à ce que le crédit ait fini d’être appliqué à l’échéanciers de facturation.
     - **Aucun avoir** – Ne crée pas un ajustement de crédit ni un avoir quand un calendrier de facturation ou une ligne de calendrier de facturation est résiliée. Cette option est disponible uniquement quand vous utilisez l’option **Aucun ajustement** pour résilier un échéanciers de facturation.
+18. Quand l’option **Possibilité de terminer occasionnellement avec un remboursement** est définie sur **Non** et un calendrier de facturation avec une fréquence de facturation de **Une fois**, le statut de la ligne d’échéancier de facturation passe à **Résilié** une fois le calendrier de facturation facturé. Ce calendrier de facturation ne peut pas être résilié et aucun crédit ne peut être émis. Quand **Possibilité de terminer occasionnellement avec un remboursement** est défini sur **Oui** la ligne de calendrier de facturation avec une fréquence de facturation de **Une fois** aura le statut **Actif** une fois le calendrier de facturation facturé. La ligne d’échéancier de facturation peut être résiliée et un remboursement effectué. 
+19. L’option **Prorata quotidien** définie dans les paramètres affichera par défaut la page de résiliation en masse et les boîtes de dialogue d’en-tête et de ligne de calendrier de facturation Résilier. Elle peut être modifiée pendant le processus de résiliation. Quand elle est définie sur **Oui** tout montant de remboursement sera calculé en utilisant un taux journalier. Quand elle est définie sur **Non** elle créditera en fonction de la date de résiliation et de la fréquence de facturation. Par exemple, si vous utilisez la fréquence mensuelle et que le montant de la facturation était de 100 $ par mois, le montant du crédit est par incréments de 100 $. Si la fréquence de facturation est Unique, le montant du crédit est 0,00 $. Vous devez avoir défini Prorata quotidien sur Oui pour obtenir un remboursement pour la fréquence de facturation unique. 
+20. Définissez l’option **Créer un report de crédit** sur **Oui** pour créer un calendrier de report si vous créditez un calendrier de report existant. Laissez l’option définie sur **Non** pour créer le crédit sur le calendrier de report existant.
 
 ## <a name="sequence-number-tab"></a>Onglet Souches de N°
 

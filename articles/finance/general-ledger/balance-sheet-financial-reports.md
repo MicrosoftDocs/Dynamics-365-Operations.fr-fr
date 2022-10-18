@@ -1,8 +1,8 @@
 ---
 title: États financiers du bilan
 description: Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
-ms.author: jcart
+ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880728"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643821"
 ---
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
@@ -33,9 +33,9 @@ Cet article décrit les états par défaut des bilans. Il décrit également les
 Par défaut, le bilan se distingue par deux états. Dans un état, les sections sont empilées. Dans l’autre état, les sections sont côte à côte.
 
 | État par défaut                       | Fonction                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------|
-| Bilan – Par défaut              | Permet d’afficher la position financière de l’organisation pour l’année.                                                                 |
-| Bilan côte à côte bilan – Par défaut | Permet d’afficher la position financière de l’organisation pour l’année. Les actifs et passifs et les capitaux propres des actionnaires sont affichés côte à côte. |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| Bilan – Par défaut              | Permet d’afficher la position financière de l’organisation pour l’année.                    |
+| Bilan et relevé des revenus côte à côte – Par défaut | Permet d’afficher la position financière de l’organisation pour l’année côte à côte. |
 
 ## <a name="building-blocks"></a>Blocs élémentaires
 Les rapports financiers du relevé des revenus utilisent les blocs élémentaires suivants.
@@ -43,7 +43,7 @@ Les rapports financiers du relevé des revenus utilisent les blocs élémentaire
 | État par défaut                       | Définition de ligne                       | Définition de colonne             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | Bilan – Par défaut              | Bilan – Par défaut              | Année en cours et écart – Par défaut    |
-| Bilan côte à côte bilan – Par défaut | Bilan côte à côte bilan – Par défaut | Colonne Année en cours – Par défaut |
+| Bilan et relevé des revenus côte à côte – Par défaut | Bilan et relevé des revenus côte à côte – Par défaut | Colonne Année en cours – Par défaut |
 
 ### <a name="row-definition"></a>Définition de ligne
 

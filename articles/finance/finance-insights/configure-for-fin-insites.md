@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 07edea234839a477802e5cd875620509c8f92d69
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573192"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644112"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuration de Finance Insights
 
@@ -106,8 +106,4 @@ Une fois le complément correctement installé, il peut s’écouler jusqu’à 
 > [!NOTE]
 > Si le processus **Vérification du statut d’approvisionnement d’informations** ne s’exécute pas, accédez à **Administration du système** > **Demandes** > **Tâches par lots**. Dans le champ **Système d’interrogation de l’automatisation des processus**, remplacez la valeur par **Attente** pour lancer le processus. 
 > 
-## <a name="feedback-and-support"></a>Commentaires et support
-
-Si vous souhaitez fournir des commentaires ou si vous avez besoin d’aide, envoyez un e-mail à [Finance Insights (version préliminaire)](mailto:fiap@microsoft.com).
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

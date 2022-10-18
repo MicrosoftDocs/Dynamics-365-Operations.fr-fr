@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357589"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671456"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -64,6 +64,9 @@ Vous pouvez ajouter des entités spécifiques à une tâche d’importation ou d
 
 ### <a name="set-the-data-format-for-the-job"></a>Définir le format de données pour la tâche
 Quand vous sélectionnez une entité, vous devez sélectionner le format des données à exporter ou importer. Définissez des formats à l’aide de la vignette **Paramétrage de sources de données**. Un format de données sources est une combinaison de **Type**, de **Format de fichier**, de **Séparateur de ligne** et de **Séparateur de colonne**. Il existe également d’autres attributs, mais ceux-ci sont les principaux à comprendre. Le tableau suivant répertorie les combinaisons valides.
+
+> [!NOTE]
+> Le format de fichier Excel n’est actuellement pas disponible dans l’espace de travail Gestion des données pour Cloud de la communauté du secteur public (GCC).
 
 | Format de fichier            | Séparateur de colonnes/lignes                       | Style XML                 |
 |------------------------|--------------------------------------------|---------------------------|
@@ -164,7 +167,7 @@ Chaque exécution de tâche fournit les informations suivantes :
 Les détails de l’exécution indiquent l’état de chaque entité de données que la tâche a traitée. Par conséquent, vous pouvez rapidement rechercher les informations suivantes :
 
 - Quelles entités ont été traitées.
-- Pour une entité, le nombre d'enregistrements ayant été correctement traités et le nombre ayant échoué.
+- Pour une entité, le nombre d’enregistrements ayant été correctement traités et le nombre ayant échoué.
 - Les enregistrements intermédiaires pour chaque entité.
 
 Vous pouvez télécharger les données intermédiaires dans un fichier pour les tâches d’exportation, ou vous pouvez les télécharger sous la forme d’un module pour les tâches d’importation et d’exportation.

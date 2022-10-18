@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: ff3944b987314a688a5829b05f8627479e3e79ed
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428342"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644055"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Le scénario de maintenance des actifs
 
@@ -24,6 +24,12 @@ ms.locfileid: "9428342"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Le scénario *Maintenance des actifs* vous permet d’utiliser les données des capteurs pour créer des enregistrements de compteur. Les enregistrements de compteur suivent l’utilisation d’un actif machine et sont utilisés comme entrée pour générer le programme de maintenance des actifs machine.
+
+## <a name="video-instructions"></a>Instructions vidéo
+
+La vidéo suivante montre comment configurer et tester le scénario de maintenance des actifs à l’aide de [données de démonstration](../../fin-ops-core/fin-ops/get-started/demo-data.md). Les sections restantes de cet article fournissent les mêmes instructions dans un format texte.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58aRW]
 
 ## <a name="prepare-demo-data-for-the-asset-maintenance-scenario"></a>Préparer les données de démonstration pour le scénario de maintenance des actifs
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591848"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643731"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
@@ -104,7 +104,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Marges de sécurité | Plans généraux avec la marge de sécurité : *\#* | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, consultez [Marges de sécurité](safety-margins.md) |  Prise en charge |
 | Traitement du stock de sécurité | Enregistrements de la couverture des articles avec « Exécuter le minimum » différent de « Date du jour + heure d’achat » : *\#* | L’Optimisation de la planification utilise toujours *Date du jour + heure d’achat*. Cette modification est effectuée pour préparer une configuration de planification simplifiée à l’avenir et pour fournir un résultat exploitable. Si le délai d’approvisionnement n’est pas inclus pour le stock de sécurité, les commandes planifiées qui sont créées pour le stock disponible actuellement bas seront toujours retardées en raison du délai de livraison. Ce comportement peut provoquer des perturbations importantes et des ordres prévisionnels indésirables. La meilleure pratique consiste à modifier le paramètre afin que *Date du jour + heure d’achat* soit utilisé. Mettez à jour les données principales pour éviter les avertissements. | S.o. |
 | Devis de vente | Plans généraux avec les devis de vente activés : *\#* | Cette fonctionnalité est en attente. Actuellement, les devis ne sont pas considérées quand l’Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | 2022 vague de lancement 2 ou ultérieure |
-| Date d'expiration  | Plans généraux avec la date d'expiration activée : *\#* | Cette fonctionnalité est en attente. Actuellement, la durée de conservation est ignorée quand l’Optimisation de la planification est activée, quel que soit ce paramètre. | Prise en charge |
+| Date d'expiration  | Plans généraux avec la date d'expiration activée : *\#* | Cette fonctionnalité est désormais prise en charge. | Prise en charge |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

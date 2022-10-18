@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882893"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643904"
 ---
 # <a name="request-time-off"></a>Demander un congé
 
@@ -63,6 +63,10 @@ Lors de la mise à jour d’une demande de congé existante, vous pouvez ajouter
 2. Pour afficher vos demandes de congé approuvées, sélectionnez **Congés approuvés**. Pour afficher vos demandes de congé en attente, sélectionnez **Demandes de congés**.
 
 ## <a name="cancel-time-off-requests"></a>Annuler les demandes de congé
+
+>[!NOTE] 
+> **Annuler les congés** est disponible quand la fonctionnalité **Améliorations de l’expérience du flux de travail des demandes de congé** est activé dans l’espace de travail **Gestion des fonctionnalités**.  
+
 
 1. Dans l’espace de travail **Libre service employé**, sélectionnez **Afficher les congés** dans la vignette **Soldes des congés**.
 

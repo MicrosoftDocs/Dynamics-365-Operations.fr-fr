@@ -2,7 +2,7 @@
 title: Produit non facturé
 description: Cet article explique comment configurer les articles et les comptes pour utiliser la fonctionnalité de produit non facturé dans la facturation de l’abonnement.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879680"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644166"
 ---
 # <a name="unbilled-revenue"></a>Produit non facturé
 
@@ -123,15 +123,15 @@ Les répartitions sont recalculées en fonction du type de répartition sélecti
 
 Un échéancier de facturation est entré pour trois ans, et les factures sont facturées annuellement pendant une période de trois ans. Le montant total du contrat est enregistré dans le compte de produit non facturé d’où les factures annuelles sont créées. Le compte de contrepartie est le compte de produit ou de produit différé.
 
-Notez que les produits les plus facturés et les produits non facturés ne fonctionnent pas ensemble, car des problèmes de rapprochement peuvent survenir dans la comptabilité. Par exemple, sur la page **Configuration du groupe d’articles**, le groupe d’articles A est configuré de sorte que le champ **Nombre de lignes supérieures** est défini sur **2**. Sur la page **Échéanciers de facturation**, trois articles sont ajoutés. Les trois articles appartiennent au groupe d’articles A. Quand l’entrée de journal initiale est créée pour la fonction de produits non facturés, le montant des trois articles est traité sur le compte non facturé. Quand la facture de l’échéancier de facturation est créée, seuls les montants des deux premiers articles sont inclus. Par conséquent, le montant de la facture ne correspond pas au montant traité dans le compte de produit non facturé et des problèmes de rapprochement se produisent dans la comptabilité.
+Les produits les plus facturés et les produits non facturés ne fonctionnent pas ensemble, car des problèmes de rapprochement peuvent survenir dans la comptabilité. Par exemple, sur la page **Configuration du groupe d’articles**, le groupe d’articles A est configuré de sorte que le champ **Nombre de lignes supérieures** est défini sur **2**. Sur la page **Échéanciers de facturation**, trois articles sont ajoutés. Les trois articles appartiennent au groupe d’articles A. Quand l’entrée de journal initiale est créée pour la fonction de produits non facturés, le montant des trois articles est traité sur le compte non facturé. Quand la facture de l’échéancier de facturation est créée, seuls les montants des deux premiers articles sont inclus. Par conséquent, le montant de la facture ne correspond pas au montant traité dans le compte de produit non facturé et des problèmes de rapprochement se produisent dans la comptabilité.
 
 Si vous souhaitez utiliser le produit non facturé, laissez la page **Configuration du groupe d’articles** vide ou configurez tous les groupes d’articles pour que le champ **Nombre de lignes supérieures** soit défini sur **0** (zéro). Si vous souhaitez utiliser la facturation la plus utilisée, aucune action sur les produits non facturés n’est disponible.
 
 ### <a name="examples"></a>Exemples
 
-À partir de la version 10.0.27, un nouveau compte est proposé quand un produit non facturé est utilisé. Quand le processus **Créer une entrée de journal** initial est validé, le crédit est effectué sur un nouveau compte de contrepartie de produits non facturés. Ce compte est utilisé à la place du compte de produits, car la même valeur doit être annulée quand l’échéancier de facturation est facturé. Si des différences de taux de change ou d’arrondi sont trouvées, les montants qui sont calculés au moment du processus **Générer une facture** peuvent être différents. Ce comportement garantit que le montant net des comptes est égal à 0 (zéro).
+À partir de la version 10.0.29, un nouveau paramètre est ajouté aux paramètres de facturation des contrats récurrents. Quand il est défini sur Oui, le paramètre **Utiliser des comptes de contrepartie non facturés** active deux nouveaux comptes dans **Configuration des revenus non facturés**. Les comptes de contrepartie des revenus non facturés et de contrepartie des remises non facturées deviennent disponibles et sont mieux utilisés quand les calendriers de facturation sont créés dans une devise autre que la devise comptable. L’utilisation des comptes de contrepartie garantit que les comptes de produits non facturés et de remises non facturés sont extournés en utilisant les mêmes taux de change que leurs écritures initiales. Le processus **Créer une entrée de journal** d’origine est le même avec le débit sur les revenus non facturés et le crédit sur les revenus. Si vous utilisez une remise, l’entrée de journal initiale est la même avec un débit sur la remise et un crédit sur la remise non facturée. 
 
-Cet exemple montre comment utiliser les produits non facturés pour comptabiliser le montant total d’un contrat dans le bilan en tant que produits non facturés. L’autre côté de l’entrée est la contrepartie des produits non facturés. Quand vous facturez le client, les produits non facturés et la contrepartie des produits non facturés sont inversés. La comptabilisation des produits se fera au moment de la facturation ou selon l’échéancier de reconnaissance des reports mis en place.
+Cet exemple montre comment utiliser les produits non facturés pour comptabiliser le montant total d’un contrat dans le bilan en tant que produits non facturés. L’autre côté de l’entrée est le produit ou le produit différé. Quand vous facturez le client, le produit non facturé est inversé. La comptabilisation des produits se fera au moment de la facturation ou selon l’échéancier de reconnaissance des reports mis en place.
 
 #### <a name="assumptions"></a>Hypothèses
 
@@ -151,47 +151,38 @@ Cet exemple montre comment utiliser les produits non facturés pour comptabilise
 
     | Article | Date de début | Date de fin | Montant | Fréquence de facturation | Article de report | Produit non facturé | Description |
     |---|---|---|---|---|---|---|---|
-    | Licence | 1er janvier, année en cours | 31 décembre, année en cours+2 | 100,00 $ | Année | Non | Oui | Le client sera facturé 100,00 $ chaque année. Le total de 300,00 $ sera enregistré par anticipation en produit non facturé dans le bilan, et en produit sur le compte de résultat. Chaque facture réduira le montant non facturé. |
-    | Maintenance | 1er janvier, année en cours | 31 décembre, année en cours+2 | 30,00 $ | Année | Oui | Oui | Le client sera facturé 30,00 $ chaque année. Le total de 90,00 $ sera enregistré par anticipation en produit non facturé et en produit différé sur le bilan. Chaque facture réduira le montant non facturé. Le produit différé sera comptabilisé mensuellement sur 36 mois. |
+    | Licence | 01 janvier 2022 | 31 décembre 2024 | 100,00 $ | Annuel | N° | Oui | Le client sera facturé 100,00 $ chaque année. Le total de 300,00 $ sera enregistré par anticipation en produit non facturé dans le bilan, et en produit sur le compte de résultat. Chaque facture réduira le montant non facturé. |
+    | Maintenance | 01 janvier 2022 | 31 décembre 2024 | 30,00 $ | Annuel | Oui | Oui | Le client sera facturé 30,00 $ chaque année. Le total de 90,00 $ sera enregistré par anticipation en produit non facturé et en produit différé sur le bilan. Chaque facture réduira le montant non facturé. Le produit différé sera comptabilisé mensuellement sur 36 mois. |
 
 6. Sur la page **Tous les échéanciers de facturation**, utilisez le processus **Créer une entrée de journal** pour comptabiliser la valeur du contrat dans le bilan en tant que produit non facturé.
 
 Deux entrées de journal sont créées, une pour chaque ligne de l’échéancier de facturation.
 
-| Compte de produit non facturé | Compte de contrepartie des revenus non facturés | Montant de débit | Montant de crédit |
-|---|---|---|---|
-| Compte de produit non facturé | | 300,00 $ | |
-| | Compte de contrepartie des revenus non facturés | | 300,00 $ |
+| Compte | Montant de débit | Montant de crédit |
+|---|---|---|
+| Compte de produit non facturé | 300,00 $ | |
+| Compte de produit | | 300,00 $ |
 
-| Compte de produit non facturé | Produit différé | Montant de débit | Montant de crédit |
-|---|---|---|---|
-| Compte de produit non facturé | | 90,00 $ | |
-| |Produit de maintenance différé | | 90,00 $ |
+| Compte | Montant de débit | Montant de crédit |
+|---|---|---|
+| Compte de produit non facturé | 90,00 $ | |
+| Produit différé | | 90,00 $ |
 
-La première entrée de journal est comptabilisée sur un compte de contrepartie de produits non facturés et la deuxième est comptabilisée sur un compte de produits différés. Si la ligne de facturation comporte à la fois des produits non facturés et des produits différés, le compte de produits différés est utilisé, et non la contrepartie des produits non facturés. Le contrat exige que la facture du client soit créée au début de chaque année. Utilisez le processus **Générer une facture** de création de la facture. Une fois la facture créée, les entrées de journal suivantes sont créées.
+Le contrat exige que la facture du client soit créée au début de chaque année. Utilisez le processus **Générer une facture** de création de la facture. Quand la facture est créée, le document de facture est validé.
 
-| Compte principal | Compte de produit non facturé | Montant de débit | Montant de crédit |
-|---|---|---|---|
-| Contrepartie des produits non facturés | | 100,00 $ | |
-| | Compte de produit non facturé | | 100,00 $ |
-| Module Comptabilité client | | 100,00 $ | |
-| | Compte de produit | | 100,00 $ |
+| Compte| Montant de débit | Montant de crédit |
+|---|---|---|
+| Compte de produit non facturé | | 130,00 $ |
+| Module Comptabilité client | 130,00 $ | |
 
-| Compte principal | Compte de produit non facturé | Montant de débit | Montant de crédit |
-|---|---|---|---|
-| Compte de produit de maintenance différé | | 30,00 $ | |
-| | Compte de produit non facturé | | 30,00 $ |
-| Module Comptabilité client | | 30,00 $ | |
-| | Compte de produit de maintenance différé | | 30,00 $ |
+Cette même entrée de journal sera créée par les factures qui sont comptabilisées au début des deux prochaines années. Le compte de revenus non facturés est réduit chaque année au cours du processus **Générer une facture**. Le compte de contrepartie des produits non facturés est utilisé pour équilibrer le compte des revenus non facturés quand différents taux de change sont utilisés. 
 
-Cette même entrée de journal sera créée par les factures qui sont comptabilisées au début des deux prochaines années. Le montant net du compte de produits différés sera de 0 (zéro), car il n’y a pas d’arrondi ni de différences de taux de change. Les produits différés doivent être contrepassés exactement tels qu’ils ont été crédités au moment du processus **Créer une entrée de journal**. Étant donné que les produits sont toujours différés et seront reconnus ultérieurement, le crédit au compte de produits différés se produit à nouveau.
+Dans la dernière étape, l’entrée de journal de reconnaissance est créée chaque mois pour comptabiliser les produits différés des frais de maintenance. L’entrée de journal peut être créée sur la page **Traitement de la reconnaissance**. Sinon, elle peut être créée en sélectionnant **Reconnaître** pour les lignes des pages **Échéancier de report**.
 
-Dans la dernière étape, l’entrée de journal de reconnaissance est créée chaque mois pour comptabiliser les produits de frais de maintenance différés. L’entrée de journal peut être créée sur la page **Traitement de la reconnaissance**. Sinon, elle peut être créée en sélectionnant **Reconnaître** pour les lignes des pages **Échéancier de report**.
-
-| Compte de produit différé | Compte de produit | Montant de débit | Montant de crédit |
-|---|---|---|---|
-| Produit de maintenance différé | | 2,50 $ | |
-| | Produit de maintenance | | 2,50 $ |
+| Compte principal | Montant de débit | Montant de crédit |
+|---|---|---|
+| Produit différé | 2,50 $ | |
+| Revenus | | 2,50 $ |
 
 Cette entrée de journal sera créée chaque fois que le processus de reconnaissance sera exécuté pour cet article différé (un total de 36 fois).
 
@@ -269,18 +260,18 @@ Deux articles avec des fréquences de facturation différentes sont ajoutés à 
 
 Le tableau suivant montre l’entrée de journal initiale pour les articles et la facture.
 
-| Compte de produit non facturé | Compte de produit différé | Montant de débit | Montant de crédit |
-|---|---|---|---|
-| **Entrée de journal – Article n° 1 000** | | | |
-| Compte de produit non facturé au débit (401250) | | 1 465,26 $ | |
-| | Compte de produit différé au crédit (250600) | | 1 465,26 $ |
-| **Entrée de journal – Article n° 0021** | | | |
-| Compte de produit non facturé au débit (401250) | | 274,74 $ | |
-| | Compte de produit différé au crédit (250600) | | 274,74 $ |
-| **Facture** | | | |
-| | Compte de produit non facturé au crédit | | 1 465,26 $ |
-| | Compte de produit non facturé au crédit | | 274,74 $ |
-| Compte comptabilité client débiteur (130100) | | 1 488,16 $ | |
+| Compte principal | Montant de débit | Montant de crédit |
+|---|---|---|
+| **Entrée de journal – Article n° 1 000** | | | 
+| Compte de produit non facturé (401250) | 1 465,26 $ | |
+| Compte de produit différé (250600) | | 1 465,26 $ |
+| **Entrée de journal – Article n° 0021** | | | 
+| Compte de produit non facturé (401250) | 274,74 $ | |
+| Compte de produit différé (250600) | | 274,74 $ |
+| **Facture** | | |
+| Compte de produit non facturé | | 1 465,26 $ |
+| Compte de produit non facturé | | 274,74 $ |
+| Compte comptabilité client (130100) | 1 488,16 $ | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Modifications apportées à la ligne d’échéancier de facturation, à la ligne de détails de facturation ou à la répartition des produits
 

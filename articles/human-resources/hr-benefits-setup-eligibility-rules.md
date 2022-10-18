@@ -2,7 +2,7 @@
 title: Configurer les règles et les options d’éligibilité
 description: Cet article décrit comment définir les règles et les options d’éligibilité dans la gestion des avantages dans Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336912"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644082"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurer les règles et les options d’éligibilité 
 
@@ -175,6 +175,7 @@ Les offres groupées sont un ensemble de plans d’avantages connexes. Vous pouv
    | **Offre groupée** | Identificateur unique d’une offre groupée. |
    | **Description** | Description de l’offre groupée. |
    | **Élément maître** | Indique si l’un des plans de l’offre groupée doit être marqué comme plan général. Le régime général doit être sélectionné lors de l’inscription ouverte dans le cadre de l’offre groupée avant que l’administrateur des avantages puisse confirmer les choix d’avantages de l’employé. |
+   | **Obligatoire**| Indique que le forfait doit être sélectionné pour vérifier tout autre forfait de l’offre groupée. Plusieurs plans peuvent être marqués comme **Obligatoire**. Dans ce cas, tous les plans marqués comme **Obligatoire** devra être sélectionné pour vérifier l’un des plans de l’offre groupée.|
    | **Valide à partir d’une date et heure** | Date et heure d’activation de l’offre groupée. |
    | **Fin de validité** | Date d’expiration de l’offre groupée. La valeur par défaut est 12/31/2154, qui représente jamais. |
 
