@@ -12,6 +12,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Finance
                   href: get-started/whats-new-home-page.md
+                - name: "Finance\_10.0.31 (janvier)"
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: "Finance\_10.0.30 (novembre)"
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: "Finance\_10.0.29 (octobre)"
@@ -228,11 +230,31 @@
               href: accounts-payable/three-way-matching-policies.md
             - name: Rapprochement des factures dans le module Comptabilité fournisseur
               items:
-                - name: Vue d’ensemble de rapprochement des factures dans le module Comptabilité fournisseur
+                - name: Vue d’ensemble du rapprochement des factures dans le module Comptabilité fournisseur
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Paramétrer la validation du rapprochement de factures dans la comptabilité fournisseur
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: Automatisation des factures fournisseur
+            - name: Solution Invoice Capture
+              items:
+                - name: Vue d’ensemble d’Invoice Capture
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: Installation d’Invoice Capture
+                  href: accounts-payable/install-invoice-capture.md
+                - name: Configurer Invoice Capture
+                  href: accounts-payable/config-invoice-capture.md
+                - name: Groupes de configuration d’Invoice Capture
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: Règles de mappage d’Invoice Capture
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: Espace de travail d’Invoice Capture
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: Paramètres avancés d’Invoice Capture
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: Tableau de bord d’Invoice Capture
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: Fichiers reçus Invoice Capture
+                  href: accounts-payable/invoice-capture-rec-files.md
+            - name: Automatisation de facture fournisseur
               items:
                 - name: Vue d’ensemble des processus de facturation automatisée des fournisseurs
                   href: accounts-payable/auto-vendr-invc-process.md
@@ -422,9 +444,9 @@
               items:
                 - name: Vue d’ensemble de la facturation de l’abonnement
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Facturation des contrats récurrents
+                - name: Facturation de contrat récurrente
                   items:
-                    - name: Configurer la facturation des contrats récurrents
+                    - name: Configurer la facturation de contrat récurrente
                       href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Créer des échéanciers de facturation
                       href: accounts-receivable/sb-billing-schedules.md

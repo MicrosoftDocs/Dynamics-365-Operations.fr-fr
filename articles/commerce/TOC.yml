@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: Convertir des clients asynchrones en clients synchrones
               href: convert-async-to-sync.md
+            - name: Auditer la synchronisation des opérations clients
+              href: audit-async-customer-operations.md
             - name: FAQ sur le mode de création asynchrone de clients
               href: async-customer-mode-faq.md
             - name: Gestion des clients
@@ -1296,9 +1298,15 @@
                       href: cookie-consent-module.md
                 - name: Modules de conversation instantanée
                   items:
-                    - name: Module de conversation instantanée de Commerce
+                    - name: Vue d’ensemble des fonctionnalités de conversation instantanée Commerce
+                      href: commerce-chat-overview.md
+                    - name: Module Conversation instantanée Commerce avec Omnicanal pour Customer Service
                       href: commerce-chat-module.md
-            - name: Rechercher
+                    - name: Module Conversation instantanée Commerce avec Power Virtual Agents
+                      href: chat-module-pva.md
+                    - name: Paramètres de conversation instantanée proactive du module Conversation instantanée Commerce
+                      href: chat-proactive-chat-parameters.md
+            - name: Recherche
               items:
                 - name: Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche
                   href: category-search-page-overview.md

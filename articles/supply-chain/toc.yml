@@ -12,17 +12,15 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management\_10.0.31 (février\_2022)"
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: "Supply Chain Management\_10.0.30 (novembre\_2022)"
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: "Supply Chain Management\_10.0.29 (octobre\_2022)"
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: "Supply Chain Management\_10.0.28 (août\_2022)"
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: "Supply Chain Management\_10.0.27 (juillet\_2022)"
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: Fonctionnalités supprimées ou déconseillées
               items:
-                - name: Page d’accueil des Fonctionnalités supprimées ou déconseillées
+                - name: Page d’accueil des fonctionnalités supprimées ou déconseillées
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?context=/dynamics365/context/supply-chain
                 - name: Fonctionnalités supprimées ou déconseillées dans Dynamics 365 Supply Chain Management
                   href: get-started/removed-deprecated-features-scm-updates.md
@@ -1775,10 +1773,14 @@
                   href: master-planning/supply-schedule.md
                 - name: Appliquer des filtres à un plan
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Planification avec prévision de la demande
+                - name: Planification avec prévisions de la demande
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: Planification avec prévisions d’approvisionnement
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: Planification avec accords commerciaux d’achat
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Planification basée sur des devis et des appels d’offre
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: Paramètres de date et d’heure utilisés par l’optimisation de la planification
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: Marges de sécurité
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Créer des variantes de produits prédéfinies
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Afficher les noms et descriptions de produits traduits dans l’interface utilisateur
+                  href: pim/show-translated-product-info.md
                 - name: Gérer les unités de mesure
                   href: pim/tasks/manage-unit-measure.md
                 - name: Conversion d’unité de mesure selon la variante de produit
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Utiliser les instructions d’emplacement
                       href: warehousing/create-location-directive.md
+                    - name: Tester les instructions d’emplacement avec des tests d’acceptation
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: Configurer les filtres de produit pour les transactions d’entrepôt
                       href: warehousing/filters-and-filter-codes.md
                     - name: Limites de stockage de l’emplacement
