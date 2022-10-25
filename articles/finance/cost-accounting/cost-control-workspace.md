@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853494"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682896"
 ---
 # <a name="cost-control-workspace"></a>Espace de travail de contrôle des coûts 
 
@@ -53,7 +53,7 @@ Dans l’organisateur **Filtrage des données**, définissez la base des donnée
 |-------------------------------------------------------------------|-------------|
 | Comptabilité de contrôle de gestion                                            | La **comptabilité de contrôle de gestion** sur laquelle l’état est basé. La valeur est extraite du champ **Unité de contrôle des coûts**. |
 | Unité de contrôle des coûts                                                 | La valeur que vous sélectionnez détermine les objets de comptabilité et le coût de contrôle de gestion sur lesquels cet état sera basé. |
-| Hiérarchie de dimension statistique, Hiérarchie des dimensions d’élément de coût | Un enregistrement de configuration de l’espace de travail **Contrôle des coûts** peut générer des états de valeurs non-monétaires ou monétaires, mais pas dans la même mise en page. Sélectionnez une valeur dans le champ **Hiérarchie de dimension d’élément de coût** pour déclarer des valeurs monétaires. Sélectionnez une valeur dans le champ **Hiérarchie de dimension statistique** pour déclarer des valeurs non-monétaires. L’enregistrement de la hiérarchie de dimension que vous sélectionnez détermine la structure des niveaux de génération et d’agrégation d’états.<blockquote>[!NOTE]<br>Pour afficher des valeurs non-monétaires et des valeurs monétaires côte à côte, vous pouvez exporter des données vers Microsoft Excel pour le pack de contenu Microsoft Power BI.</blockquote> |
+| Hiérarchie de dimension statistique, Hiérarchie des dimensions d’élément de coût | Un enregistrement de configuration de l’espace de travail **Contrôle des coûts** peut générer des états de valeurs non-monétaires ou monétaires, mais pas dans la même mise en page. Sélectionnez une valeur dans le champ **Hiérarchie de dimension d’élément de coût** pour déclarer des valeurs monétaires. Sélectionnez une valeur dans le champ **Hiérarchie de dimension statistique** pour déclarer des valeurs non-monétaires. L’enregistrement de la hiérarchie de dimension que vous sélectionnez détermine la structure des niveaux de génération et d’agrégation d’états.<blockquote>**REMARQUE :**<br>Pour afficher des valeurs non-monétaires et des valeurs monétaires côte à côte, vous pouvez exporter des données vers Microsoft Excel pour le pack de contenu Microsoft Power BI.</blockquote> |
 | Hiérarchie des dimensions d’objet de coût      | Sélectionnez la hiérarchie des dimensions de la dimension d’objet de coût qui s’adapte à l’objet de la génération d’états que vous définissez. |
 | Version originale du budget                                           | Sélectionnez l’ID de la version de budget agissant comme le budget d’origine dans le contexte de cet état. |
 | Version révisée du budget                                            | Sélectionnez l’ID de la version de budget agissant comme le budget révisé dans le contexte de cet état. |
@@ -64,7 +64,7 @@ Le calcul des frais généraux effectue plusieurs étapes de calcul sur les donn
 
 | Champ                  | Description |
 |------------------------|-------------|
-| Période de calendrier fiscal | Permet de sélectionner la période du calendrier fiscal pour lui affecter un ID de calcul des frais généraux.<blockquote>[!NOTE]<br>Les périodes fiscales qui figurent dans le champ proviennent du calendrier fiscal associé à la comptabilité de contrôle de gestion.</blockquote> |
+| Période de calendrier fiscal | Permet de sélectionner la période du calendrier fiscal pour lui affecter un ID de calcul des frais généraux.<blockquote>**REMARQUE :**<br>Les périodes fiscales qui figurent dans le champ proviennent du calendrier fiscal associé à la comptabilité de contrôle de gestion.</blockquote> |
 | Version réelle         | Sélectionnez l’ID de calcul des frais généraux approprié. |
 | Version des budgets         | Sélectionnez l’ID de calcul des frais généraux approprié. |
 | Version du budget révisée | Sélectionnez l’ID de calcul des frais généraux approprié. |
@@ -77,10 +77,10 @@ Les valeurs des colonnes sélectionnées sont multipliées par les valeurs séle
 
 | Champ                | Description |
 |----------------------|-------------|
-| Période en cours       | Le solde de la période fiscale actuelle s’affiche.<blockquote>[!NOTE]<br>Par défaut, la période actuelle est déterminée par la date de la session. Dans l’espace de travail **Contrôle des coûts**, une période fiscale particulière peut être sélectionnée. La valeur sélectionnée représente la période actuelle.</blockquote> |
-| Période précédente      | Le solde de la période fiscale précédente s’affiche. La formule utilisée est la suivante :<br>Période fiscale actuelle – 1<blockquote>[!NOTE]<br>Par défaut, la période précédente est dérivée de la date de la session. Dans l’espace de travail **Contrôle des coûts**, une période fiscale particulière peut être sélectionnée comme la période actuelle. La **Période précédente** est ensuite recalculée en conséquence.</blockquote> |
-| Année en cours         | Les données pour l’année en cours s’affichent. La formule utilisée est la suivante :<br>YearToDate (Solde de l’exercice actuel)<blockquote>[!NOTE]<br>Par défaut, la période actuelle est déterminée par la date de la session. Dans l’espace de travail **Contrôle des coûts**, une période fiscale particulière peut être sélectionnée. La valeur sélectionnée représente la période actuelle, et la valeur **Année en cours** est mise à jour en conséquence.</blockquote> |
-| Moyenne de l’année en cours | La moyenne pour l’année en cours s’affiche. La formule utilisée est la suivante :<br>(YearToDate [période fiscale actuelle]) ÷ (Count [Période fiscale actuelle])<p><strong>Exemple</strong></p><ul><li>**Membre de la dimension statistique** : Employés à temps plein</li><li>**Date actuelle** : 21-03-2017</li><li>**Période** : Période fiscale 1, Période fiscale 2, Période fiscale 3</li><li>**Ampleur** : 10, 10, 12</li></ul>Dans ce cas, **Moyenne de l’année en cours** = (10 + 10 + 12) ÷ 3 = 10,67<p>La valeur **Moyenne de l’année en cours** peut être calculée pour les membres de la dimension d’élément de coût et les membres de la dimension statistique.</p><blockquote>[!NOTE]<br>Par défaut, la période actuelle est déterminée par la date de la session. Dans l’espace de travail **Contrôle des coûts**, une période fiscale particulière peut être sélectionnée. La valeur sélectionnée représente la période actuelle, et les valeurs **Année en cours** et **Moyenne de l’année en cours** seront mises à jour en conséquence.</blockquote> |
+| Période en cours       | Le solde de la période fiscale actuelle s’affiche.<blockquote>**REMARQUE :**<br>Par défaut, la période actuelle est déterminée par la date de la session. Dans l’espace de travail **Contrôle des coûts**, une période fiscale particulière peut être sélectionnée. La valeur sélectionnée représente la période actuelle.</blockquote> |
+| Période précédente      | Le solde de la période fiscale précédente s’affiche. La formule utilisée est la suivante :<br>Période fiscale actuelle – 1<blockquote>**REMARQUE :**<br>Par défaut, la période précédente est dérivée de la date de la session. Dans l’espace de travail **Contrôle des coûts**, une période fiscale particulière peut être sélectionnée comme la période actuelle. La **Période précédente** est ensuite recalculée en conséquence.</blockquote> |
+| Année en cours         | Les données pour l’année en cours s’affichent. La formule utilisée est la suivante :<br>YearToDate (Solde de l’exercice actuel)<blockquote>**REMARQUE :**<br>Par défaut, la période actuelle est déterminée par la date de la session. Dans l’espace de travail **Contrôle des coûts**, une période fiscale particulière peut être sélectionnée. La valeur sélectionnée représente la période actuelle, et la valeur **Année en cours** est mise à jour en conséquence.</blockquote> |
+| Moyenne de l’année en cours | La moyenne pour l’année en cours s’affiche. La formule utilisée est la suivante :<br>(YearToDate [période fiscale actuelle]) ÷ (Count [Période fiscale actuelle])<p><strong>Exemple</strong></p><ul><li>**Membre de la dimension statistique** : Employés à temps plein</li><li>**Date actuelle** : 21-03-2017</li><li>**Période** : Période fiscale 1, Période fiscale 2, Période fiscale 3</li><li>**Ampleur** : 10, 10, 12</li></ul>Dans ce cas, **Moyenne de l’année en cours** = (10 + 10 + 12) ÷ 3 = 10,67<p>La valeur **Moyenne de l’année en cours** peut être calculée pour les membres de la dimension d’élément de coût et les membres de la dimension statistique.</p><blockquote>**REMARQUE :**<br>Par défaut, la période actuelle est déterminée par la date de la session. Dans l’espace de travail **Contrôle des coûts**, une période fiscale particulière peut être sélectionnée. La valeur sélectionnée représente la période actuelle, et les valeurs **Année en cours** et **Moyenne de l’année en cours** seront mises à jour en conséquence.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Colonnes à afficher pour les coûts
 
@@ -88,11 +88,11 @@ Dans l’organisateur **Colonnes à afficher pour les coûts**, le comptable dé
 
 | Champ                 | Description |
 |-----------------------|-------------|
-| Coût fixe            | Ce type de colonne indique le coût fixe en fonction de l’ID de calcul des frais généraux sélectionné.<blockquote>[!NOTE]<br>Ce type de colonne affiche un solde uniquement lorsqu’un ID de calcul des frais généraux est sélectionné pour la période fiscale.</blockquote> |
-| Coût variable         | Ce type de colonne indique le coût variable en fonction de l’ID de calcul des frais généraux sélectionné.<blockquote>[!NOTE]<br>Ce type de colonne affiche un solde uniquement lorsqu’un ID de calcul des frais généraux est sélectionné pour la période fiscale.</blockquote> |
-| Coût fixe + Coût variable | Ce type de colonne indique le coût fixe et le coût variable en fonction de l’ID de calcul des frais généraux sélectionné.<blockquote>[!NOTE]<br>Ce type de colonne affiche un solde uniquement lorsqu’un ID de calcul des frais généraux est sélectionné pour la période fiscale.</blockquote> |
-| Coût total            | Ce type de colonne affiche le coût total (coût non classifié, coût fixe et coût variable).<blockquote>[!NOTE]<br>Le type de colonne affichera le solde à tout moment.</blockquote> |
-| Coût non classifié     | Le type de colonne indique le coût non classifié.<blockquote>[!NOTE]<br>Cette colonne peut être utilisée pour contrôler si tous les coûts ont été correctement classifiés par le calcul des frais généraux, ou si les règles de comportement de coût doivent être ajustées.</blockquote> |
+| Coût fixe            | Ce type de colonne indique le coût fixe en fonction de l’ID de calcul des frais généraux sélectionné.<blockquote>**REMARQUE :**<br>Ce type de colonne affiche un solde uniquement lorsqu’un ID de calcul des frais généraux est sélectionné pour la période fiscale.</blockquote> |
+| Coût variable         | Ce type de colonne indique le coût variable en fonction de l’ID de calcul des frais généraux sélectionné.<blockquote>**REMARQUE :**<br>Ce type de colonne affiche un solde uniquement lorsqu’un ID de calcul des frais généraux est sélectionné pour la période fiscale.</blockquote> |
+| Coût fixe + Coût variable | Ce type de colonne indique le coût fixe et le coût variable en fonction de l’ID de calcul des frais généraux sélectionné.<blockquote>**REMARQUE :**<br>Ce type de colonne affiche un solde uniquement lorsqu’un ID de calcul des frais généraux est sélectionné pour la période fiscale.</blockquote> |
+| Coût total            | Ce type de colonne affiche le coût total (coût non classifié, coût fixe et coût variable).<blockquote>**REMARQUE :**<br>Le type de colonne affichera le solde à tout moment.</blockquote> |
+| Coût non classifié     | Le type de colonne indique le coût non classifié.<blockquote>**REMARQUE :**<br>Cette colonne peut être utilisée pour contrôler si tous les coûts ont été correctement classifiés par le calcul des frais généraux, ou si les règles de comportement de coût doivent être ajustées.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Colonnes à afficher pour les coûts budgétés
 
@@ -103,12 +103,12 @@ Dans l’organisateur **Colonnes à afficher pour les coûts budgétés**, le co
 
 | Champ                     | Description |
 |---------------------------|-------------|
-| Budget                    | Les soldes budgétaires sont affichés par colonnes sélectionnées.<blockquote>[!NOTE]<br>Les soldes seront basés sur les versions de budget sélectionnées sous l’organisateur **Filtrage des données**.</blockquote> |
+| Budget                    | Les soldes budgétaires sont affichés par colonnes sélectionnées.<blockquote>**REMARQUE :**<br>Les soldes seront basés sur les versions de budget sélectionnées sous l’organisateur **Filtrage des données**.</blockquote> |
 | Écart de budget           | Calculez et affichez la différence entre le budget et le solde réel. La formule utilisée est la suivante :<br>Solde budgétaire – solde réel |
 | Écart de budget en %      | Calculez et affichez la différence en pourcentage entre le budget et le solde réel. La formule utilisée est la suivante :<br>(Solde budgétaire – solde réel) ÷ Solde budgétaire |
-| Seuil de période d’écart | Définissez un seuil pour l’écart dans le montant en devises pour la période actuelle. Si le seuil est dépassé, la ligne est mise en surbrillance en rouge dans l’espace de travail **Contrôle des coûts**.<blockquote>[!NOTE]<br>Ce champ s’applique uniquement aux éléments de coût qui représentent des dépenses.</blockquote> |
+| Seuil de période d’écart | Définissez un seuil pour l’écart dans le montant en devises pour la période actuelle. Si le seuil est dépassé, la ligne est mise en surbrillance en rouge dans l’espace de travail **Contrôle des coûts**.<blockquote>**REMARQUE :**<br>Ce champ s’applique uniquement aux éléments de coût qui représentent des dépenses.</blockquote> |
 | Seuil d’année d’écart   | Définissez un seuil pour l’écart dans le montant en devises pour l’année. Si le seuil est dépassé, la ligne est mise en surbrillance en rouge dans l’espace de travail **Contrôle des coûts**. |
-| % seuil d’écart      | Définissez un seuil pour l’écart en pourcentage. Si le seuil est dépassé, la ligne est mise en surbrillance en rouge dans l’espace de travail **Contrôle des coûts**.<blockquote>[!NOTE]<br>Le même seuil de pourcentage s’applique à la période et l’année en cours.</blockquote> |
+| % seuil d’écart      | Définissez un seuil pour l’écart en pourcentage. Si le seuil est dépassé, la ligne est mise en surbrillance en rouge dans l’espace de travail **Contrôle des coûts**.<blockquote>**REMARQUE :**<br>Le même seuil de pourcentage s’applique à la période et l’année en cours.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Espace de travail de contrôle des coûts
 

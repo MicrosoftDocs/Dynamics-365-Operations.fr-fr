@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849987"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680356"
 ---
 # <a name="financial-dimensions"></a>Dimensions financières
 
@@ -84,7 +84,7 @@ Pour aider à gérer l’intégrité référentielle des données, les dimension
 Si un critère est réuni, vous ne pourrez pas supprimer la dimension financière.
 
 > [!NOTE]
-> À compter de la version 10.0.27 de Finance, les dimensions financières ne seront plus automatiquement sélectionnées pour la configuration de Financial Reporting à leur création. 
+> À compter de la version 10.0.27 de Finance, les dimensions financières ne sont plus automatiquement sélectionnées pour la configuration de Financial Reporting à leur création.
 
 ## <a name="default-dimension-values"></a>Valeurs de dimension par défaut
 

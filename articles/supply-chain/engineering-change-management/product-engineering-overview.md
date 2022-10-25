@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334863"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682504"
 ---
 # <a name="engineering-change-management-overview"></a>Présentation de la gestion des modifications d’ingénierie
 
@@ -73,6 +73,9 @@ Ensuite, activez les clés de configuration en suivant ces étapes. Elles ne son
 1. La base de données doit être synchronisée pour s’assurer que les clés de configuration sont correctement mises à jour pour refléter vos modifications. Effectuez l’une des étapes suivantes, selon le type d’environnement sur lequel vous travaillez :
     - **Pour les environnements de niveau 1 (développement)**  : ouvrez votre projet dans Microsoft Visual Studio, puis sélectionnez **Dynamics 365 \> Synchroniser la base de données \> Synchroniser**.
     - **Pour les environnements de niveau 2 (et supérieur)**  : la base de données se synchronise automatiquement une fois que vous avez mis l’environnement en mode de maintenance ou l’en avez sorti, vous pouvez donc ignorer cette étape.
+
+> [!NOTE]
+> Pour utiliser la gestion des modifications techniques, la souche de numéros de nomenclature et la souche de numéros de formule (si vous utilisez des formules) doivent être définies sur *Automatique* sur la page **Souche de numéros**.
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Activer les fonctions supplémentaires de gestion des modifications techniques
 

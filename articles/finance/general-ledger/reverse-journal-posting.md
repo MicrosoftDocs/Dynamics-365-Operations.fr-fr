@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284849"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680382"
 ---
 # <a name="reverse-journal-posting"></a>Contrepasser la validation du journal
 
@@ -37,7 +37,7 @@ Avant de pouvoir utiliser une des fonctionnalités décrites dans cet article, v
 Vous pouvez contrepasser des lignes de journal individuellement. Avec la contrepassation de la validation du journal, vous pouvez également contrepasser tout un journal financier. Pour contrepasser un journal : 
 
 - Filtrez sur les journaux publiés et ouvrez la vue **Lignes** sur le journal.
-- Sélectionnez le menu **Contrepasser** en haut de la page.
+- Sélectionnez le menu **Contrepasser l’intégralité du journal** en haut de la page.
 - Vous verrez le nombre total de documents et les lignes de documents ainsi que le volume total des lignes contrepassées.
 - Sélectionnez **Oui** pour utiliser les dates de transaction existantes ou **Non** pour en saisir de nouvelles. Dans certains cas, la période de la transaction d’origine peut être clôturée et vous devez saisir une nouvelle date de transaction pour la contrepassation.
 - Si vous sélectionnez **Non**, entrez une date de transaction pour la contrepassation. 

@@ -2,7 +2,7 @@
 title: Démarrage du calcul de la taxe
 description: Cet article explique comment paramétrer le calcul des taxes.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573303"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690381"
 ---
 # <a name="get-started-with-tax-calculation"></a>Démarrage du calcul de la taxe
 
@@ -124,6 +124,10 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
 7. Accédez à **Modèle de données fiscales**, développez l’arborescence de fichiers, puis sélectionnez **Configuration de taxe**.
 8. Sélectionnez la [version de configuration de taxe](global-tax-calcuation-service-overview.md#versions) correcte, en fonction de votre version de Finance, puis sélectionnez **Importer**.
 9. Dans l’espace de travail **Fonctionnalités de globalisation**, sélectionnez **Fonctionnalités**, sélectionnez la vignette **Calcul des taxes**, puis sélectionnez **Ajouter**.
+
+    > [!NOTE]
+    > Dans la version 10.0.26 et les versions ultérieures, vous pouvez importer une fonction de démonstration pour l’entité juridique de démonstration **DEMF**. Pour plus d’informations, voir [Importer les données de démonstration de la fonctionnalité](tax-calculation-import-export-feature.md).
+
 10. Sélectionnez l’une des fonctionnalités suivantes :
 
     - **Nouvelle fonctionnalité** : créer une configuration de fonctionnalité avec un contenu vierge.
@@ -154,8 +158,8 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     - **Applicabilité du numéro d’immatriculation fiscal du fournisseur** : si vous avez plusieurs numéros d’immatriculation fiscale pour un fournisseur, le calcul des taxes peut déterminer automatiquement le numéro d’immatriculation fiscale correct. Dans la matrice de cet onglet, définissez les règles à utiliser pour effectuer la détermination. Sinon, Finance et Supply Chain Management continueront à utiliser le numéro d’immatriculation fiscale par défaut sur les documents fiscaux pour les transactions d’achat.
     - **Applicabilité du code liste** : détermine automatiquement la valeur du champ **Code liste** grâce à des règles plus flexibles et configurables. Dans la matrice de cet onglet, définissez les règles à utiliser pour effectuer la détermination. Sinon, Finance et Supply Chain Management continueront à utiliser le code par défaut sur les documents fiscaux.
 
-14. Sur l’onglet **Codes taxe**, sélectionnez **Ajouter**, puis entrez le code taxe et une description.
-15. Sélectionnez **Composant de taxe**. Le composant de taxe est un groupe de méthodes de calcul de taxe qui ont été définies dans la version précédente de la configuration de taxe sélectionnée. Les composants de taxe suivants sont disponibles :
+15. Sur l’onglet **Codes taxe**, sélectionnez **Ajouter**, puis entrez le code taxe et une description.
+16. Sélectionnez **Composant de taxe**. Le composant de taxe est un groupe de méthodes de calcul de taxe qui ont été définies dans la version précédente de la configuration de taxe sélectionnée. Les composants de taxe suivants sont disponibles :
 
     - Par montant net
     - Par montant brut
@@ -163,8 +167,8 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     - Par marge
     - Taxe sur la taxe
 
-16. Sélectionnez **Enregistrer**. D’autres champs deviennent disponibles, en fonction du composant fiscal que vous avez sélectionné.
-17. Utilisez les options suivantes pour identifier la nature du code taxe :
+17. Sélectionnez **Enregistrer**. D’autres champs deviennent disponibles, en fonction du composant fiscal que vous avez sélectionné.
+18. Utilisez les options suivantes pour identifier la nature du code taxe :
 
     - Est exonéré
     - Est une taxe d’utilisation
@@ -179,8 +183,8 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
 
     Gérez les taux de taxe et les limites de montant de taxe pour ce code taxe.
 
-18. Répétez les étapes 14 à 17 pour ajouter tous autres les codes taxe requis.
-19. Sur l’onglet **Groupe de taxe**, sélectionnez la colonne **Groupe de taxe**, ajoutez-la à la matrice comme condition d’entrée, puis ajoutez des lignes pour conserver les données de base du groupe de taxe.
+19. Répétez les étapes 15 à 18 pour ajouter tous autres les codes taxe requis.
+20. Sur l’onglet **Groupe de taxe**, sélectionnez la colonne **Groupe de taxe**, ajoutez-la à la matrice comme condition d’entrée, puis ajoutez des lignes pour conserver les données de base du groupe de taxe.
 
     Voici un exemple :
 
@@ -191,7 +195,7 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     | BEL_Dom | BEL_TVA21 ; BEL_TVA6 |
     | BEL_UE       | BEL_Exempté          |
 
-20. Sur l’onglet **Groupe de taxe d’article**, sélectionnez la colonne **Groupe de taxe d’article**, ajoutez-la à la matrice comme condition d’entrée, puis ajoutez des lignes pour conserver les données de base du groupe de taxe d’article.
+21. Sur l’onglet **Groupe de taxe d’article**, sélectionnez la colonne **Groupe de taxe d’article**, ajoutez-la à la matrice comme condition d’entrée, puis ajoutez des lignes pour conserver les données de base du groupe de taxe d’article.
 
     Voici un exemple :
 
@@ -200,7 +204,7 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     | Complet           | DEU_TVA19 ; BEL_TVA21 ; DEU_Exempté ; BEL_Exempté |
     | Réduction        | DEU_TVA7 ; BEL_TVA6 ; DEU_Exempté ; BEL_Exempté   |
 
-21. Sur l’onglet **Applicabilité des groupes de taxe**, sélectionnez les colonnes requises pour déterminer le groupe de taxe correct, puis sélectionnez **Ajouter**. Saisissez ou sélectionnez des valeurs pour chaque colonne. Le champ **Groupe de taxe** sera la sortie de cette matrice. Si cet onglet n’est pas configuré, le groupe de taxe de vente sur la ligne de transaction sera utilisé.
+22. Sur l’onglet **Applicabilité des groupes de taxe**, sélectionnez les colonnes requises pour déterminer le groupe de taxe correct, puis sélectionnez **Ajouter**. Saisissez ou sélectionnez des valeurs pour chaque colonne. Le champ **Groupe de taxe** sera la sortie de cette matrice. Si cet onglet n’est pas configuré, le groupe de taxe de vente sur la ligne de transaction sera utilisé.
 
     Voici un exemple :
 
@@ -214,7 +218,7 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     > [!NOTE]
     > Si le groupe de taxe de vente par défaut sur vos lignes de document imposables est correct, laissez cette matrice vide. Pour plus d’informations, voir la section [Conception du runtime](#runtime) plus haut dans cet article.
 
-22. Sur l’onglet **Applicabilité des groupes de taxe d’article**, sélectionnez les colonnes requises pour déterminer le code de taxe correct, puis sélectionnez **Ajouter**. Saisissez ou sélectionnez des valeurs pour chaque colonne. Le champ **Groupe de taxe d’article** sera la sortie de cette matrice. Si cet onglet n’est pas configuré, le groupe de taxe d’article sur la ligne de transaction sera utilisé.
+23. Sur l’onglet **Applicabilité des groupes de taxe d’article**, sélectionnez les colonnes requises pour déterminer le code de taxe correct, puis sélectionnez **Ajouter**. Saisissez ou sélectionnez des valeurs pour chaque colonne. Le champ **Groupe de taxe d’article** sera la sortie de cette matrice. Si cet onglet n’est pas configuré, le groupe de taxe d’article sur la ligne de transaction sera utilisé.
 
     Voici un exemple :
 
@@ -228,10 +232,10 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
 
     Pour plus d’informations sur la façon dont les codes taxe sont déterminés dans le calcul de la TVA, voir [Logique de détermination du groupe de taxe et du groupe de taxe d’article](global-sales-tax-group-determination.md).
 
-23. Configurez l’applicabilité des numéros d’immatriculation fiscale des clients, des numéros d’immatriculation fiscale des fournisseurs et des codes liste en fonction des besoins de l’entreprise.
-24. Sélectionnez **Sauvegarder**, puis fermez la page.
-25. Sélectionnez **Modifier le statut** \> **Terminé**. Une fois le statut changé en **Terminé**, la version ne peut plus être modifiée.
-26. Sélectionnez **Modifier le statut** \> **Publier**. Cette version de la configuration de la fonctionnalité de taxe sera transférée vers le référentiel global et sera visible par chaque entité juridique dans Finance.
+24. Configurez l’applicabilité des numéros d’immatriculation fiscale des clients, des numéros d’immatriculation fiscale des fournisseurs et des codes liste en fonction des besoins de l’entreprise.
+25. Sélectionnez **Sauvegarder**, puis fermez la page.
+26. Sélectionnez **Modifier le statut** \> **Terminé**. Une fois le statut changé en **Terminé**, la version ne peut plus être modifiée.
+27. Sélectionnez **Modifier le statut** \> **Publier**. Cette version de la configuration de la fonctionnalité de taxe sera transférée vers le référentiel global et sera visible par chaque entité juridique dans Finance.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Configurer le Calcul des taxes dans Dynamics 365
 

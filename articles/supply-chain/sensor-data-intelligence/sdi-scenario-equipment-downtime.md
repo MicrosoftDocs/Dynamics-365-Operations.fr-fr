@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 1f2b424dccf1963a7917059d412b5df7937496ee
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 30fdfb898384aea4c1f8cb2f36f9e104cd316f90
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428345"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689637"
 ---
 # <a name="the-machine-status-scenario"></a>Scénario du statut de l’ordinateur
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Cet article décrit le scénario du *statut de l’ordinateur*, qui vous permet d’utiliser les données des capteurs pour surveiller la disponibilité de votre équipement. Si vous configurez un capteur qui envoie un signal lorsqu’un travail de production sur une ressource ordinateur produit une sortie, mais qu’aucun signal de capteur n’est reçu dans un intervalle spécifié, une notification s’affiche sur le tableau de bord du superviseur.
 

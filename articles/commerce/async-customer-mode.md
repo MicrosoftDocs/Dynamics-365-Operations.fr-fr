@@ -2,19 +2,19 @@
 title: Mode de création de client asynchrone
 description: Cet article décrit le mode de création de client asynchrone dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 95102936871e15f8e525abca736fa75927569b34
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: b2926339021991f87dd3eadef94da3b500c954cf
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473704"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690287"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Mode de création de client asynchrone
 
@@ -46,6 +46,7 @@ Pour aider les organisations à utiliser le mode de création de client asynchro
 | Activez la parité entre la création de clients synchrone et asynchrone. | 10.0.24 et versions ultérieures | <p>Commutateur de fonctionnalité : **Activez la création de client asynchrone amélioré**</p><p>Détails de la fonctionnalité : possibilité de capturer des informations supplémentaires, telles que le titre, les affiliations du client par défaut et les informations de contact secondaires (numéro de téléphone et adresse e-mail), pendant que vous créez des clients de manière asynchrone</p> |
 | Messages d’erreur conviviaux | 10.0.28 et versions ultérieures | Ces améliorations contribuent à améliorer la convivialité des messages d’erreur si un utilisateur ne peut pas modifier immédiatement les informations pendant le processus de synchronisation. Vous activez ces améliorations en utilisant le paramètre **Autoriser certains éléments de l’interface utilisateur à ne pas pouvoir être modifiés par un client asynchrone** dans **Paramètres du site \>Extension** dans le créateur de site Commerce. |
 | Possibilité de modifier les informations client de manière asynchrone | 10.0.29 et versions ultérieures | <p>Commutateur de fonctionnalité : **Activer la modification de clients en mode asynchrone**</p><p>Détails de la fonctionnalité : possibilité de modifier les données client de manière asynchrone</p><p>Pour obtenir des réponses aux questions courantes sur les problèmes liés à la modification asynchrone des informations client, consultez [FAQ sur le mode de création de client asynchrone](async-customer-mode-faq.md).</p> |
+| Capacité à auditer la synchronisation des opérations de gestion des clients | 10.0.31 et versions ultérieures | Cette amélioration permet aux utilisateurs d’auditer la synchronisation des opérations de gestion des clients dans Commerce headquarters. Elle permet également aux utilisateurs d’apporter des modifications si nécessaire et de synchroniser les données. |
 
 ### <a name="feature-switch-hierarchy"></a>Hiérarchie du commutateur de fonctionnalité
 

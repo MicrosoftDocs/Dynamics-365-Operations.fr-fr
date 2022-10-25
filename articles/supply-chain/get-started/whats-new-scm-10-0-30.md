@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429121"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689184"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.30 (novembre 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.30 (novembre 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Cet article répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version préliminaire 10.0.30. Cette version a un numéro de build de 10.0.1362 et est disponible selon le programme suivant :
+Cet article répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.30. Cette version a un numéro de build de 10.0.1362 et est disponible selon le programme suivant :
 
 - **Version préliminaire :** septembre 2022
 - **Disponibilité générale de la version (mise à jour automatique) :** octobre 2022
@@ -35,7 +34,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 | Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
 | Fabrication | [Surveiller l’équipement avec Sensor Data Intelligence](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Page d’accueil de Sensor Data Intelligence](../sensor-data-intelligence/sdi-home-page.md) | Gestion des fonctions :<br>*(Version préliminaire) Sensor Data Intelligence* |
-| Gestion des entrepôts | Détours à plusieurs niveaux pour l’application mobile Warehouse Management <!-- KFM: Add link when RP updates --> | [Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile](../warehousing/warehouse-app-detours.md) | Gestion des fonctions :<br>*Détours à plusieurs niveaux pour l’application mobile Warehouse Management* |
+| Gestion des entrepôts | [Détours à plusieurs niveaux pour l’application mobile Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile](../warehousing/warehouse-app-detours.md) | Gestion des fonctions :<br>*Détours à plusieurs niveaux pour l’application mobile Warehouse Management* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Améliorations de fonctionnalités incluses dans cette version
 
@@ -52,7 +51,7 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances et Opérations, version 10.0.30 (novembre 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md). <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances et Opérations, version 10.0.30 (novembre 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 

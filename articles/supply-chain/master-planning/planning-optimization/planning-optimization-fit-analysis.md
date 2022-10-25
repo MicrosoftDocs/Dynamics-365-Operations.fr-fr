@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643731"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689992"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
@@ -62,7 +62,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | --- | --- | --- | --- |
 | Actions | Groupes de couverture avec le calcul des actions activé : *\#* | Cette fonctionnalité est désormais prise en charge. | Prise en charge |
 | Calendriers de base | Calendriers utilisant le calendrier de base : *\#* | Cette fonctionnalité est désormais prise en charge. | Prise en charge | 
-| Codes disposition de lot | Données principales de disposition de lot qui ne sont pas disponibles à la vente : *\#* | Cette fonctionnalité est en attente. Actuellement, la fonctionnalité Codes disposition de lot est ignorée quand l’Optimisation de la planification est activée. | 2022 vague de lancement 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Codes disposition de lot | Données principales de disposition de lot qui ne sont pas disponibles à la vente : *\#* | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, voir [Utiliser des codes de disposition de lot pour marquer les lots comme disponibles ou non disponibles](../../inventory/batch-disposition-codes.md) | Prise en charge |
 | Capable to promise (CTP) | Paramètres de commande par défaut avec le contrôle de date de livraison défini sur CTP : *\#* | Dans Supply Chain Management 10.0.28 et versions ultérieures, un processus appelé *CTP pour l’optimisation de la planification* met à disposition les dates d’expédition et de réception confirmées après l’exécution du plan dynamique. Pour les anciennes versions de Supply Chain Management, le paramètre CTP hérité est ignoré lorsque l’optimisation de la planification est activée. | Prise en charge |
 | Copie du plan statique vers le plan dynamique | La fonctionnalité Copie du plan statique vers le plan dynamique est activée dans les paramètres de planification. | L’Optimisation de la planification ne copie pas le plan statique dans le plan dynamique, quel que soit ce paramètre. En général, ce concept est moins pertinent en raison de la vitesse et de la régénération complète fournies par l’Optimisation de la planification. Si deux plans ou plus sont utilisés, la planification principale doit être déclenchée pour chaque plan. | S/O |
 | Confirmation | Groupes de couverture avec la plage de gestion de la confirmation automatique définie : *\#* | Dans la version 10.0.7 et les versions ultérieures, la confirmation est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité *Confirmation automatique pour l’Optimisation de la planification* ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l’Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. | Prise en charge |
@@ -104,7 +104,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Marges de sécurité | Plans généraux avec la marge de sécurité : *\#* | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, consultez [Marges de sécurité](safety-margins.md) |  Prise en charge |
 | Traitement du stock de sécurité | Enregistrements de la couverture des articles avec « Exécuter le minimum » différent de « Date du jour + heure d’achat » : *\#* | L’Optimisation de la planification utilise toujours *Date du jour + heure d’achat*. Cette modification est effectuée pour préparer une configuration de planification simplifiée à l’avenir et pour fournir un résultat exploitable. Si le délai d’approvisionnement n’est pas inclus pour le stock de sécurité, les commandes planifiées qui sont créées pour le stock disponible actuellement bas seront toujours retardées en raison du délai de livraison. Ce comportement peut provoquer des perturbations importantes et des ordres prévisionnels indésirables. La meilleure pratique consiste à modifier le paramètre afin que *Date du jour + heure d’achat* soit utilisé. Mettez à jour les données principales pour éviter les avertissements. | S.o. |
 | Devis de vente | Plans généraux avec les devis de vente activés : *\#* | Cette fonctionnalité est en attente. Actuellement, les devis ne sont pas considérées quand l’Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | 2022 vague de lancement 2 ou ultérieure |
-| Date d'expiration  | Plans généraux avec la date d'expiration activée : *\#* | Cette fonctionnalité est désormais prise en charge. | Prise en charge |
+| Date d'expiration  | Plans généraux avec la date d'expiration activée : *\#* | Cette fonctionnalité est en attente. | 2022 vague de lancement 2 |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

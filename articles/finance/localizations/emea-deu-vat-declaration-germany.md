@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269402"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689458"
 ---
 # <a name="vat-declaration-germany"></a>Déclaration de TVA (Allemagne)
 
@@ -198,7 +198,8 @@ Suivez ces étapes pour définir quels codes de taxe génèrent quelles cases su
 
    Ce format est imprimé lorsque vous exécutez l’état **État de la taxe pour la période de règlement**. Il sera également imprimé lorsque vous sélectionnerez **Imprimer** sur la page **Paiements de la taxe**.
 
-4. Sur la page **Autorités fiscales**, sélectionnez l’administration fiscale, puis, dans le champ **Présentation d’état**, sélectionnez **Par défaut**.
+4. Si vous devez signaler les corrections, sur la section **Rapport spécial**, définissez **Inclure les corrections** sur **Oui**.
+5. Sur la page **Autorités fiscales**, sélectionnez l’administration fiscale, puis, dans le champ **Présentation d’état**, sélectionnez **Par défaut**.
 
 Si vous configurez la déclaration de TVA dans une entité juridique qui a [plusieurs immatriculations à la TVA](emea-reporting-for-multiple-vat-registrations.md), procédez comme suit :
 

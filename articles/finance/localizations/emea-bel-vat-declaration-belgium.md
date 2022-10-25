@@ -13,12 +13,12 @@ ms.author: atrukawk
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
 ms.search.form: ''
-ms.openlocfilehash: c0e3bca70ecfc28a4e34ef9a77c3474043775931
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 16638fdcfefc010aacc121b6eac141a5dc8cc1ba
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269453"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689446"
 ---
 # <a name="vat-declaration-belgium"></a>Déclaration de TVA (Belgique)
 
@@ -358,7 +358,8 @@ Suivez ces étapes pour définir quels groupes de taxe d’articles génèrent q
 
    Ce format est imprimé lorsque vous exécutez l’état **État de la taxe pour la période de règlement**. Il sera également imprimé lorsque vous sélectionnerez **Imprimer** sur la page **Paiements de la taxe**.
 
-4. Sur la page **Autorités fiscales**, sélectionnez l’administration fiscale, puis, dans le champ **Présentation d’état**, sélectionnez **Par défaut**.
+4. Dans la section **Rapport spécial**, vérifiez que **Inclure les corrections** est défini sur **Oui**.
+5. Sur la page **Autorités fiscales**, sélectionnez l’administration fiscale, puis, dans le champ **Présentation d’état**, sélectionnez **Par défaut**.
 
 Si vous configurez la déclaration de TVA dans une entité juridique qui a [plusieurs immatriculations à la TVA](emea-reporting-for-multiple-vat-registrations.md), procédez comme suit.
 

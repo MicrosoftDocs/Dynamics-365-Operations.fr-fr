@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335643"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682532"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installer et connecter l’application mobile Warehouse Management
 
@@ -272,6 +272,7 @@ Si vous n’avez pas de fichier ou de code QR, vous pouvez configurer manuelleme
 
         > [!IMPORTANT]
         > Ne terminez pas cette valeur par une barre oblique (/).
+        > Assurez-vous que le certificat HTTPS (SSL) est valide.
 
     - **Client Active Directory** : Entrez le nom de domaine Azure AD que vous utilisez avec le serveur Supply Chain Management. Cette valeur a la forme `https://login.windows.net/<your-Azure-AD-domain-name>`. Voici un exemple : `https://login.windows.net/contosooperations.onmicrosoft.com`. Pour plus d’informations sur la façon de trouver votre nom de domaine Azure AD, voir [Localiser les identifiants importants d’un utilisateur](/partner-center/find-ids-and-domain-names).
 

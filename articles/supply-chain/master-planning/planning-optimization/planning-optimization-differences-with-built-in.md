@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dd9493e85a90c00b2dd50abb6530661c0fbb77dc
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: a23256f3e092b32e1f1d09b708a8d0ca5f403785
+ms.sourcegitcommit: 5d33a3398e7e1d3494bfc3cad342fffa7cfa5b76
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520835"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680006"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Différences entre la planification générale intégrée et l’optimisation de la planification
 
@@ -34,15 +34,16 @@ Les résultats de l’optimisation de la planification peuvent différer des ré
 | Ordres de retour | Les ordres de retour ne sont pas pris en compte. |
 | Fonctionnalités liées à la planification | Pour plus de détails, voir [Planification avec une capacité infinie](infinite-capacity-planning.md#limitations). |
 | Traitement du stock de sécurité | L’optimisation de la planification utilise toujours l’option *Date du jour + heure d’approvisionnement* pour le champ **Exécuter le minimum** sur la page **Couverture de l’article**. Cela évite les commandes planifiées indésirables et d’autres problèmes, car si le délai d’approvisionnement n’est pas inclus pour le stock de sécurité, les commandes planifiées qui sont créées pour le stock disponible actuellement bas seront toujours retardées en raison du délai de livraison. |
-| Origine des besoins du stock de sécurité et besoins nets | Le besoin de type *Stock de Sécurité* n’est pas inclus et n’est pas affiché sur la page **Besoins nets**. Le stock de sécurité ne représente pas la demande et n’a pas de date de besoin associée. Au lieu de cela, il définit une contrainte sur la quantité de stock qui doit être présente à tout moment. Cependant, la valeur du champ **Minimum** est toujours prise en compte au moment du calcul des commandes planifiées dans le cadre de la planification générale. Nous vous suggérons d’inspecter la colonne **Quantité accumulée** sur la page **Besoins nets** pour voir que cette valeur a été prise en compte. |
+| Origine des besoins du stock de sécurité et besoins nets | Le besoin de type *Stock de Sécurité* n’est pas inclus et n’est pas affiché sur la page **Besoins nets**. Le stock de sécurité ne représente pas la demande et n’a pas de date de besoin associée. Au lieu de cela, il définit une contrainte sur la quantité de stock qui doit être présente à tout moment. Cependant, la valeur du champ **Minimum** est toujours prise en compte au moment du calcul des commandes planifiées dans le cadre de la planification générale. Nous vous suggérons d’inspecter la colonne **Quantité accumulée** sur la page **Besoins nets** pour voir que cette valeur a été prise en compte. Parce que l’origine des besoins est différente, différentes actions peuvent être suggérées. |
 | Calendriers de transport | La valeur dans la colonne **Calendrier de transport** sur la page **Modes de livraison** est ignorée. |
 | Code de couverture min/max sans valeur| Avec le moteur de planification intégré, quand vous utilisez un code de couverture min/max où aucune valeur minimale ou maximale n’est définie, le moteur de planification traite le code de couverture comme une exigence et crée une commande pour chaque exigence. Avec l’optimisation de la planification, le système créera une commande par jour pour couvrir le montant total de cette journée.  |
 | Besoins nets et ordres planifiés créés manuellement | Avec le moteur de planification intégré, les commandes d’approvisionnement créées manuellement pour un article apparaissent automatiquement parmi les besoins nets pour cet article. Par exemple, à la création d’une commande fournisseur à partir d’une commande client, la commande client apparaît sur la page **Besoins nets** sans nécessiter aucune action préalable. En effet, le moteur de planification intégré enregistre les transactions de stock dans la table `inventLogTTS` et montre les changements sur la page **Besoins nets** pour les plans dynamiques. Cependant, avec l’optimisation de la planification, les commandes créées manuellement n’apparaissent pas parmi les besoins nets d’un article tant que l’optimisation de la planification n’est pas exécutée (à l’aide d’un plan qui inclut l’article) ou tant que vous n’avez pas sélectionné **Mise à jour \> Planification** dans le volet Actions de la page **Besoins nets** qui exécutera la planification de l’article. Pour plus d’informations sur l’utilisation de la page **Besoins nets**, consultez [Informations sur l’origine des besoins avec l’optimisation de la planification](net-requirements.md). |
 | Affectation de ressources | Lorsque vous travaillez avec une capacité infinie, le moteur de planification générale intégré affecte tous les ordres planifiés à la même ressource sur un groupe de ressources donné. L’optimisation de la planification améliore cela en sélectionnant des ressources au hasard afin que différents ordres de fabrication puissent utiliser différentes ressources. Si vous souhaitez utiliser la même ressource pour tous les ordres planifiés, vous devez spécifier cette ressource dans la gamme. |
+| Extended data types (EDT) | Optimisation de la planification ne prend pas en charge les modifications de la précision des EDT. Par exemple, si vous étendez la précision de la quantité de produit de deux décimales (par défaut) à quatre, l’optimisation de la planification n’utilise toujours que deux décimales. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)
+- [Analyse de concordance pour l'optimisation de la planification](planning-optimization-fit-analysis.md)
 - [Paramètres non utilisés par l’optimisation de la planification](not-used-parameters.md)
 - [Paramètres de date et d’heure utilisés par l’optimisation de la planification](date-time-used.md)
 

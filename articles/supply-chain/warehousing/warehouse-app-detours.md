@@ -4,23 +4,25 @@ description: Cet article explique comment configurer des détours pour les élé
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428061"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689308"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > Les fonctionnalités décrites dans cet article s’appliquent uniquement à la nouvelle application mobile Warehouse Management. Elles n’affectent pas l’ancienne application d’entrepôt, qui est désormais obsolète.
@@ -38,6 +40,7 @@ Avant de pouvoir configurer des détours pour les étapes dans les options de me
 1. Activez les fonctionnalités suivantes, qui fournissent les fonctionnalités décrites dans cet article :
     - *Détours de l’application Warehouse Management*<br>(Depuis la version 10.0.29 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
     - *Détours à plusieurs niveaux pour l’application mobile Warehouse Management*
+    - *Soumettre automatiquement les étapes de détour pour l’application mobile Warehouse Management*
 1. Si les fonctionnalités *Détours de l’application Warehouse Management* et/ou *Détours à plusieurs niveaux pour l’application mobile Warehouse Management* n’étaient pas déjà activées, mettez à jour les noms des champs dans l’application mobile Warehouse Management en accédant à **Warehouse management\> Configuration \> Appareil mobile \> Noms des champs d’application d’entrepôt** et en sélectionnant **Créer une configuration par défaut**. Pour plus d’informations, voir [Configurer les champs pour l’application mobile Gestion des entrepôts](configure-app-field-names-priorities-warehouse.md).
 1. Répétez l’étape précédente pour chaque entité juridique (société) où vous utilisez l’application mobile Warehouse Management.
 
@@ -49,7 +52,7 @@ Utilisez la procédure suivante pour configurer un détour à partir d’une dé
 1. Trouvez la combinaison de valeurs **ID de l’étape** et **Nom de l’option de menu** que vous souhaitez modifier, puis sélectionnez la valeur dans la colonne **ID de l’étape**.
 1. Sur la page qui apparaît, sur le raccourci **Détours disponibles (options de menu)**, vous pouvez spécifier l’option de menu qui doit servir de détour. Vous pouvez également sélectionner les valeurs de champ de la tâche principale qui doivent être automatiquement copiées vers et depuis le détour. Pour des exemples qui montrent comment utiliser ces paramètres, consultez les scénarios plus loin dans cet article.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Exemple de scénario 1 : Préparation des ventes où une recherche d’emplacement agit comme un détour
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Exemple de scénario 1 : Préparation des ventes où une recherche d’emplacement agit comme un détour
 
 Ce scénario montre comment configurer une demande d’emplacement en tant que détour dans un flux de tâches de prélèvement des ventes dirigé par le collaborateur. Ce détour permettra aux collaborateurs de rechercher toutes les contenants à l’emplacement dans lequel ils choisissent et de choisir le contenant qu’ils souhaitent utiliser pour terminer la sélection. Ce type de détour peut être utile si le code-barres est endommagé et donc illisible par le scanner. Alternativement, il peut être utile qu’un collaborateur apprenne ce qui est réellement disponible dans le système. Notez que ce scénario ne fonctionne que si vous choisissez des emplacements contrôlés par les contenants.
 
@@ -74,11 +77,13 @@ Dans cette procédure, vous allez configurer un détour pour l’option de menu 
 
     - **Copie de la sélection des ventes :** *Emplacement*
     - **Coller dans la recherche de localisation :** *Emplacement*
+    - **Soumission automatique :** *Sélectionné* (la page est actualisée avec la valeur *Emplacement*)
 
 1. Étant donné que le détour dans ce scénario est configuré à l’étape du contenant, il sera utile que les collaborateurs puissent ramener le contenant de la recherche au flux principal. Par conséquent, dans la section **Renvoyer à la recherche d’emplacement**, sélectionnez **Ajouter** dans la barre d’outils pour ajouter une ligne à la grille. Définissez ensuite les valeurs suivantes pour la nouvelle ligne :
 
     - **Copie à partir de la recherche d’emplacement :** *Contenant*
     - **Coller dans la sélection des ventes :** *Contenant*
+    - **Soumission automatique :** *Effacé* (aucune mise à jour automatique ne se produit lors du retour du détour avec une valeur *Contenant*)
 
 1. Cliquez sur **OK**.
 
@@ -131,6 +136,7 @@ Dans cette procédure, vous allez configurer un détour pour l’option de menu 
 
     - **Copier à partir de la recherche d’emplacement :** *Emplacement*
     - **Coller en mouvement :** *Loc / LP*
+    - **Soumission automatique :** *Effacé* (aucune mise à jour automatique ne se produit)
 
     Dans ce détour, vous ne vous attendez pas à ce qu’aucune information ne soit copiée, car le flux principal était une recherche pour laquelle aucune étape supplémentaire n’est requise.
 
@@ -153,3 +159,5 @@ Dans cette procédure, vous effectuerez une recherche d’emplacement à l’aid
 
 > [!NOTE]
 > La fonctionnalité *Détours à plusieurs niveaux pour l’application mobile Warehouse Management* vous permet de définir des détours à plusieurs niveaux (détours dans les détours), ce qui permettra aux utilisateurs de sauter d’un détour existant deux par un, puis de revenir en arrière. La fonctionnalité prend en charge deux niveaux de détours prêts à l’emploi et, si nécessaire, vous pouvez personnaliser votre système pour prendre en charge trois niveaux de détours ou plus en créant des extensions de code sur la table `WHSWorkUserSessionState`.
+>
+> La fonctionnalité *Soumettre automatiquement les étapes de détour pour l’application mobile Warehouse Management* peut permettre aux collaborateurs d’effectuer plus rapidement et plus facilement les flux de détour dans l’application mobile Warehouse Management. Elle permet d’ignorer certaines étapes de flux en laissant l’application renseigner les données de détour sur le back-end, puis de passer automatiquement à l’étape suivante en soumettant automatiquement la page, comme indiqué dans [*Exemple de scénario 1 : Préparation des ventes où une demande d’emplacement agit comme un détour*](#scenario-1).

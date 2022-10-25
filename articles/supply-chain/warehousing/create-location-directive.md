@@ -2,7 +2,7 @@
 title: Utiliser des instructions d’emplacement
 description: Cet article décrit comment utiliser les instructions d’emplacement. Les instructions d’emplacement sont des règles définies par l’utilisateur qui aident à identifier les emplacements de prélèvement et de rangement pour le mouvement du stock.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903693"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689664"
 ---
 # <a name="work-with-location-directives"></a>Utiliser des instructions d’emplacement
 
@@ -47,6 +47,20 @@ Avant de pouvoir créer une instructions d’emplacement, vous devez suivre ces 
 1. Créez des emplacements, des types d’emplacement, des profils d’emplacement, et des formats d’emplacement. Pour plus d’informations, consultez [Configurer les emplacements dans un entrepôt compatible WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Créez des sites, des zones, et des groupes de zones. Pour plus d’informations, consultez [Configuration de l’entrepôt](../../commerce/channels-setup-warehouse.md) et [Configurer les emplacements dans un entrepôt compatible WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a>Activer ou désactiver la fonctionnalité de Portées de l’instruction d’emplacement
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+La fonctionnalité *Portées de l’instruction d’emplacement* vous donne plus de liberté lorsque vous concevez des directives d’emplacement et aide à réduire les configurations redondantes. Elle ajoute une option **Portées**, qui remplace la précédente option **Plusieurs SKU**. Tandis que l’option **Plusieurs SKU** peut être définie uniquement sur *Oui* ou *Non*, l’option **Portées** offre non seulement ces deux paramètres (via les valeurs *Article unique* et *Plusieurs articles*), mais également deux supplémentaires (via les valeurs *Article ou commande unique* et *Tout*). Pour plus d’informations sur ces paramètres, voir [Raccourci instruction d’emplacement](#location-directives-tab).
+
+Lorsqu’il est activé, l’option **Portée** remplace l’option **Plusieurs SKU** et est 100 % compatible avec les configurations existantes.
+
+Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans votre système. Les administrateurs peuvent utiliser les paramètres de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou le désactiver, si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module :** *Gestion des entrepôts*
+- **Nom de la fonctionnalité :** *Portées de l’instruction d’emplacement*
+
 ## <a name="work-order-types-for-location-directives"></a>Types d’ordre de travail pour les instructions d’emplacement
 
 La plupart des champs qui peuvent être définis pour les instructions d’emplacement sont communs à tous les types d’ordres de travail. Cependant, d’autres champs sont spécifiques à des types d’ordre de travail particuliers.
@@ -68,7 +82,7 @@ Le tableau suivant répertorie les champs communs à tous les types d’ordres d
 | Instructions d’emplacement | Site |
 | Instructions d’emplacement | Entrepôt |
 | Instructions d’emplacement | Code instructions |
-| Instructions d’emplacement | Plusieurs SKU |
+| Instructions d’emplacement | Portée *ou* Plusieurs SKU |
 | Lignes | Souche de N° |
 | Lignes | Quantité de départ |
 | Lignes | Quantité d’arrivée |
@@ -117,7 +131,9 @@ Le volet Actions sur la page **Directives de localisation** contient des boutons
 
 - **Déplacer vers le haut** – Déplacer l’instruction d’emplacement sélectionnée vers le haut dans la séquence. Par exemple, vous pouvez le déplacer du numéro de séquence 4 au numéro de séquence 3.
 - **Déplacer vers le bas** – Déplacer l’instruction d’emplacement sélectionnée vers le bas dans la séquence. Par exemple, vous pouvez le déplacer du numéro de séquence 4 au numéro de séquence 5.
+- **Copier** : ouvrez une boîte de dialogue dans laquelle vous pouvez créer une copie exacte de l’instruction d’emplacement actuelle.
 - **Modifier la requête** – Ouvrez une boîte de dialogue dans laquelle vous pouvez définir les conditions dans lesquelles l’instruction d’emplacement sélectionnée doit être traitée. Par exemple, vous souhaiterez peut-être qu’il s’applique uniquement à un entrepôt spécifique.
+- **Tests d’acceptation** : ouvrez une page où vous pouvez configurer des tests automatisés pour déterminer comment vos instructions d’emplacement se comportent dans différentes conditions de démarrage. De cette façon, vous pouvez rapidement valider vos directives au fur et à mesure que vous les créez et les maintenez. Pour plus d’informations, voir [Tester les instructions d’emplacement avec les tests d’acceptation](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>En-tête des instruction d’emplacement
 
@@ -126,7 +142,7 @@ L’en-tête de l’instruction d’emplacement comprend les champs suivants pou
 - **Numéro de séquence** – Ce champ indique la séquence dans laquelle le système tente d’appliquer chaque instruction d’emplacement pour le type d’ordre de travail sélectionné. Les nombres bas sont appliqués en premier. Vous pouvez modifier la séquence en utilisant les boutons **Déplacer vers le haut** et **Déplacer vers le bas** du volet Actions.
 - **Nom** – Entrez un nom descriptif pour l’instruction d’emplacement. Ce nom devrait aider à identifier l’usage général de la directive. Par exemple, entrez *Prélèvement de la commande client dans l’entrepôt 24*.
 
-## <a name="location-directives-fasttab"></a>Raccourci instruction d’emplacement
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>Raccourci instruction d’emplacement
 
 Les champs sur le raccourci **instruction d’emplacement** sont spécifiques au type d’ordre de travail sélectionné dans le champ **Type d’ordre de travail** dans le volet de liste.
 
@@ -145,7 +161,29 @@ Les champs sur le raccourci **instruction d’emplacement** sont spécifiques au
     > [!TIP]
     > Si un code de directive est défini, le système ne recherche pas les instructions d’emplacement par numéro de séquence lorsque le travail doit être généré. Au lieu de cela, il recherche par code de directive. Ainsi, vous pouvez être plus spécifique sur la directive d’emplacement utilisée pour une étape particulière d’un modèle de travail, par exemple l’étape d’échelonnement des matières.
 
-- **SKU multiples** – Définissez cette option sur *Oui* pour activer l’utilisation de plusieurs unités de gestion de stock (SKU) à un emplacement. Par exemple, plusieurs SKU doivent être activés pour l’emplacement de la porte de baie. Si vous activez plusieurs SKU, votre emplacement de rangement sera spécifié dans le travail, comme prévu. Cependant, l’emplacement de rangement ne pourra gérer qu’un ranger avec plusieurs articles (si le travail comprend différents SKU qui doivent être prélevés et rangés). Il ne sera pas en mesure de gérer un rangement avec une seule SKU. Si vous définissez cette option sur *Non*, votre emplacement de rangement ne sera spécifié que si votre rangement ne contient qu’un seul type de SKU.
+- **Portée** : utilisez cette option pour spécifier les scénarios auxquels l’instruction d’emplacement est appliquée. Cette option remplace l’option **Plusieurs SKU** et n’est disponible que si la fonctionnalité *Portées de l’instruction d’emplacement* est activée dans votre système. (Pour plus d’informations, voir [Activer ou désactiver la fonctionnalité de Portées de l’instruction d’emplacement](#scopes-feature) .)
+
+    | Paramètre de portée | Commande unique avec un article | Commandes multiples avec le même article | Commande unique avec plusieurs articles | Commandes multiples avec plusieurs articles |
+    |---|---|---|---|---|
+    | Article unique | Oui | Oui | N° | N° |
+    | Plusieurs articles | N° | N° | Oui | Oui |
+    | Article ou commande unique | Oui | Oui | Oui | N° |
+    | Tout | Oui | Oui | Oui | Oui |
+
+    Le tableau suivant décrit quand les portées sont disponibles et si elles permettent la fonction **Modifier la requête**.
+
+    | Étendue | Type de travail pris en charge | Types d’ordres de travail pris en charge | Autoriser la modification de la requête |
+    |---|---|---|---|
+    | Article unique | Tout | Tout | Oui |
+    | Plusieurs articles | Tout | Tout | N° |
+    | Article ou commande unique | Rangements | Rangement de coproduits et de sous-produits, rangement de produits finis, rangement de kanban, bons de commande, ordres de qualité, réapprovisionnement, ordres de retour, bons de commande, sortie de transfert et réception de transfert | Oui |
+    | Tout | Rangements | Tout | N° |
+
+    > [!NOTE]
+    > - Pour effectuer des rangements à la fois pour plusieurs éléments et pour des éléments uniques, vous devez vous assurer qu’il existe des directives d’emplacement qui couvrent les deux scénarios. Par exemple, vous pouvez configurer une ou plusieurs instructions d’emplacement *Article ou commande unique* pour couvrir les scénarios qui nécessitent un réglage précis (par exemple via des modifications de la requête), puis une ou plusieurs instructions d’emplacement *Tout* pour couvrir les scénarios restants.
+    > - Même si les portées *Article unique* et *Plusieurs articles* peuvent être utilisées pour les rangements, cette approche conduit généralement à des configurations redondantes. Pensez à utiliser les portées *Article ou commande unique* et *Tout* à la place, car cette approche produit une configuration plus propre.
+
+- **Plusieurs SKU** : utilisez cette option pour spécifier le scénario auquel l’instruction d’emplacement est appliquée. Ce paramètre est remplacé par le paramètre **Portée** si la fonctionnalité *Portées d’instruction d’emplacement* est activée dans votre système. (Pour plus d’informations, voir [Activer ou désactiver la fonctionnalité Portées d’instruction d’emplacement](#scopes-feature).) Définissez cette option sur *Oui* pour permettre l’utilisation de plusieurs unités de gestion des stocks (SKU) sur un emplacement. Par exemple, plusieurs SKU doivent être activés pour l’emplacement de la porte de baie. Si vous activez plusieurs SKU, votre emplacement de rangement sera spécifié dans le travail, comme prévu. Cependant, l’emplacement de rangement ne pourra gérer qu’un ranger avec plusieurs articles (si le travail comprend différents SKU qui doivent être prélevés et rangés). Il ne sera pas en mesure de gérer un rangement avec une seule SKU. Si vous définissez cette option sur *Non*, votre emplacement de rangement ne sera spécifié que si votre rangement ne contient qu’un seul type de SKU.
 
     > [!IMPORTANT]
     > Pour pouvoir effectuer à la fois des rangements de plusieurs articles et des rangements d’un seul SKU, vous devez spécifier deux lignes qui ont la même structure et la même configuration, mais vous devez définir l’option **SKU multiples** sur *Oui* pour une ligne et *Non* pour l’autre. Par conséquent, pour les opérations de rangement, les instructions d’emplacement doivent avoir deux instruction d’emplacement identiques, même si vous ne faites pas la distinction entre les SKU uniques et multiples sur l’ID d’un travail. Souvent, si vous ne configurez pas ces deux instruction d’emplacement, des emplacements de processus d’entreprise inattendus proviendront de l’instruction d’emplacement appliquée. Vous devez utiliser une configuration similaire pour les instructions d’emplacement qui ont un **Type de travail** de *Rangement* si vous devez traiter des commandes comprenant plusieurs SKU.
@@ -255,6 +293,5 @@ Après avoir créé des instructions d’emplacement, vous pouvez associer chaqu
 
 - Vidéo : [Analyse approfondie de la configuration de la gestion des entrepôts](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Article d’aide : [Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

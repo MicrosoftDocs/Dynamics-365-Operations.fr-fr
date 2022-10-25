@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186688"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689486"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Vue d’ensemble de la planification des besoins en matériaux basée sur la demande (DDMRP)
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Pendant des années, les entreprises ont utilisé la planification des besoins en matériaux (MRP) comme système de calcul des matériaux et des composants nécessaires à la fabrication d’un produit. Cependant, les chaînes d’approvisionnement ont maintenant changé. Les pièces ont des délais de livraison plus longs, car elles proviennent de plus en plus de l’étranger. Par conséquent, de nombreuses entreprises ont signalé des ruptures de stock ou des surstocks, car elles ne savent pas sur quantité de stock se baser. Il y a aussi plus de fluctuations du marché (parfois des prévisions inexactes) et les clients exigent des produits dans des délais courts. Par conséquent, il y a des pénuries dans la chaîne d’approvisionnement partout dans le monde. De plus, les outils MRP donnent souvent aux planificateurs des milliers d’actions à faire. Par conséquent, il est difficile de savoir sur quoi se concentrer. Souvent, la solution à bon nombre de ces problèmes consiste à passer à la planification des besoins en matériaux basée sur la demande (DDMRP).
 

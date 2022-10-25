@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644055"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689398"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Le scénario de maintenance des actifs
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Le scénario *Maintenance des actifs* vous permet d’utiliser les données des capteurs pour créer des enregistrements de compteur. Les enregistrements de compteur suivent l’utilisation d’un actif machine et sont utilisés comme entrée pour générer le programme de maintenance des actifs machine.
 
@@ -115,6 +116,9 @@ Une fois les données préparées et le scénario *Maintenance des actifs* confi
 1. Accédez à **Gestion des actifs \> Actifs \> Tous les Actifs**.
 1. Recherchez et sélectionnez l’actif à inspecter. (Si vous utilisez les données de démonstration que vous avez créées précédemment dans cet article, sélectionnez *AK-101*.)
 1. Sur le volet Actions, sous l’onglet **Actif**, dans le groupe **Préventif**, sélectionnez **Compteurs** pour ouvrir la page pour les enregistrements du compteur pour l’actif *AK-101*.
+
+> [!NOTE]
+> Les enregistrements de compteur sont configurés par défaut pour être insérés toutes les trois heures, ce qui signifie que les données des capteurs sont agrégées à cet intervalle. Vous pouvez modifier l’intervalle en modifiant la requête dans le composant Azure Stream Analytics.
 
 ### <a name="generate-maintenance-work-orders"></a>Générer les ordres de travail de maintenance
 

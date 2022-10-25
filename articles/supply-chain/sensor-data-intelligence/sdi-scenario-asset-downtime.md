@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 944818557deebed06c02c00fd69de6e8f08bda83
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: b82d757d1e69203012949bc397220fa42ada4ac2
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428376"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689427"
 ---
 # <a name="the-asset-downtime-scenario"></a>Le scénario d’interruption des actifs
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Le scénario d’interruption des actifs génère un enregistrement d’interruption pour maintenance si aucun signal n’est reçu d’une machine dans un délai défini depuis la réception du dernier signal. Le scénario nécessite que vous équipiez votre machine d’un capteur qui envoie périodiquement un signal à votre Azure IoT Hub pendant que la machine fonctionne, mais n’envoie pas de signal lorsque la machine ne fonctionne pas.
 

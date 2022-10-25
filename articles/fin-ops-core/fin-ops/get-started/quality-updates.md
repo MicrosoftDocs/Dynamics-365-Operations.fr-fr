@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
-ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9671423"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689222"
 ---
 # <a name="proactive-quality-updates"></a>Mises à jour proactives de la qualité
 
@@ -56,7 +56,9 @@ Un ensemble de modifications de processus est en cours de mise en œuvre avant l
 
 - **Schéma** – L’outillage garantira que les versions de mise à jour de qualité incluent uniquement les modifications de schéma pouvant être appliquées pendant que le service est en ligne. Cette approche aidera à préserver la possibilité d’appliquer la mise à jour avec un temps d’arrêt quasi nul.
 - **Contrôle accru des changements** – Actuellement, il existe déjà une étape de processus supplémentaire pour approuver les modifications à inclure dans une mise à jour de qualité. L’examen minutieux de l’étape supplémentaire sera accru pour aider à réduire le potentiel de régressions. Les changements cassants ne sont pas autorisés dans les mises à jour de qualité, et l’examen approfondi des modifications contribuera à garantir que nous atteignons cet objectif.
-- **Visibilité** – Nous enverrons des notifications par e-mail et Lifecycle Services (LCS) pour les prochaines mises à jour de qualité proactives. De plus, les équipes de support et les responsables des incidents auront une visibilité sur les endroits où les mises à jour de qualité ont été déployées de manière proactive.
+- **Visibilité** : nous envoyons des notifications via le centre d’administration, Lifecycle Services (LCS) et d’autres canaux disponibles pour les prochaines mises à jour de qualité proactives. De plus, les équipes de support et les responsables des incidents auront une visibilité sur les endroits où les mises à jour de qualité ont été déployées de manière proactive.
+ > [!NOTE]
+ > L’équipe Microsoft Communications enquête sur une dégradation continue des outils de messagerie qui empêche la livraison des notifications par e-mail. Veuillez continuer à surveiller le centre de messagerie Microsoft 365 pour les messages d’intégration et de notification.
 - **Mode sans échec via la version d’évaluation** : la version d’évaluation sera utilisée pour protéger les modifications de code, le cas échéant, dans un correctif de bogue de la mise à jour qualité ou utiliser la version d’évaluation de la fonctionnalité existante pertinente pour le correctif. Si une solution de secours ou la désactivation d’une modification est nécessaire après un déploiement proactif, cela peut être effectué via le système de versions d’évaluation pour éviter d’autres échecs.
 - **Désignation de la synchronisation bac à sable** – Moins de 20 % des clients disposent aujourd’hui de plusieurs bacs à sable et conservent un bac à sable déployé là où la version correspond à la production, pour faciliter la résolution des problèmes. Si un client utilise un bac à sable pour tester une version plus récente que leur version en production, ce bac à sable recevra des mises à jour de qualité vers la version la plus récente.
 
@@ -80,10 +82,10 @@ Pour plus d’informations sur les heures sombres pour chaque région, voir [Que
 
 | Station | Régions | Programme terminé| Calendrier bac à sable à venir
 |---|---|---|---|
-| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 15 septembre au 18 septembre 2022 et du 19 septembre au 22 septembre 2022 | Du 7 octobre au 10 octobre 2022 |
-| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 25 septembre au 28 septembre 2022 | Du 7 octobre au 10 octobre 2022 |
-| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 26 septembre au 29 septembre 2022 | Du 7 octobre au 10 octobre 2022 |
-| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 28 septembre au 1er octobre 2022 | Du 7 octobre au 10 octobre 2022 |
+| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 15 septembre au 18 septembre 2022, du 19 septembre au 22 septembre 2022 et du 7 octobre au 10 octobre 2022 | Du 25 octobre au 28 octobre 2022 |
+| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 25 septembre au 28 septembre 2022 et du 7 octobre au 10 octobre 2022 | Du 25 octobre au 28 octobre 2022 |
+| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 26 septembre au 29 septembre 2022 et du 7 octobre au 10 octobre 2022 | Du 25 octobre au 28 octobre 2022 |
+| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 28 septembre au 1er octobre 2022 et du 7 octobre au 10 octobre 2022 | Du 25 octobre au 28 octobre 2022 |
 | Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié | Non planifié |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Version mise à jour de qualité proactive : 10.0.29.

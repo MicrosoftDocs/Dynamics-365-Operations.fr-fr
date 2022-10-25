@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c5eebe9ef6258b43daa7c7007ee28b0278fe5b09
-ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
+ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573134"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689691"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Planification et programmation de la capacité finie
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 La capacité finie est une approche qui vous aide à comprendre quelle quantité de travail peut être produite sur une période spécifique lorsque les limitations des différentes ressources sont prises en compte. La programmation de la capacité finie a pour but de garantir que le travail avance à un rythme régulier et efficace dans toute l’usine.
 

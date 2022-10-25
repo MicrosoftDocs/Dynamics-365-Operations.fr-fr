@@ -2,7 +2,7 @@
 title: Calculs des taxes d’importation et d’exportation
 description: Cet article fournit des informations sur la fonctionnalité d’importation et d’exportation du service de calcul des taxes.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855171"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690231"
 ---
 # <a name="import-and-export-tax-calculations"></a>Calculs des taxes d’importation et d’exportation
 
@@ -98,3 +98,21 @@ La feuille de calcul Excel que vous avez téléchargée contient la structure de
 2. Dans RCS, sur la page de la fonctionnalité **Calcul des taxes**, sur l’onglet **Applicabilité au groupe de taxes**, sélectionnez **Ajouter** pour insérer un enregistrement vide au bas de la grille **Configurer l’applicabilité au groupe de taxes**.
 3. Faites **Ctrl+V** pour coller les lignes copiées dans la grille.
 4. Cliquez sur **Enregistrer**.
+
+## <a name="import-feature-demo-data"></a>Importer des données de démonstration de fonctionnalités
+
+Suivez ces étapes pour importer les données de démonstration des fonctionnalités.
+
+1. Connectez-vous à [RCS](https://marketing.configure.global.dynamics.com/).
+2. Dans l’espace de travail **Fonctionnalités de globalisation**, sélectionnez **Fonctionnalités**, puis la vignette **Calcul des taxes**.
+3. Sélectionnez **Importer**, puis, sur la page **Importer la fonctionnalité depuis le référentiel global**, sélectionnez **Synchroniser**. 
+4. Dans le tableau, sélectionnez la fonctionnalité **tax-calculation-feature-demo-data**, puis sélectionnez **Importer**.
+5. Sélectionnez **Voir** pour réviser les codes de taxe, les groupes et les règles d’applicabilité définis dans la fonction importée.
+6. Dans Finance, basculez sur l’entité juridique **DEMF**, puis accédez à **Taxe** \> **Paramétrage** \> **Configuration de taxe** \> **Paramètres de calcul de taxe**.
+7. Sur l’onglet **Général**, sélectionnez **Activer le service de calcul des taxes**.
+8. Dans le champ **Nom du paramétrage de fonctionnalité**, sélectionnez **tax-calculation-feature-demo-data**.
+9. Sélectionnez une **Période de règlement** et un **Groupe de validations dans la comptabilité** pour les nouveaux codes de taxe de démonstration, puis sélectionnez **Confirmer**.
+10. Cliquez sur **Enregistrer**.
+
+> [!NOTE]
+> La fonctionnalité de démonstration **tax-calculation-feature-demo-data** est basée sur la version de la fonctionnalité **40.54.234** et conçue pour l‘entité juridique de démonstration **DEMF**. Assurez-vous que Finance et RCS sont mis à niveau vers la version 10.0.26 ou ultérieure.

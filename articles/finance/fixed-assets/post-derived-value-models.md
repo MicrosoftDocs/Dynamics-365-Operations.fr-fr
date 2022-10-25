@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d4874642743ed8188e84052d94003051f2af7af
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722686"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682855"
 ---
 # <a name="post-with-derived-books"></a>Valider avec des registres dérivés
 
@@ -34,7 +34,7 @@ Si vous validez des transactions pour un registre contenant des registres dédui
 -   D’autres valeurs de type de transaction peuvent également s’appliquer. Par exemple, si le registre principal et les registres déduits ont les mêmes intervalles concernant la vente ou la cession, tous les types de transactions d’immobilisation sont disponibles pour le paramétrage d’un registre déduit.
 
 > [!WARNING]
-> Un amortissement validé dans le registre déduit sera du même montant que celui validé pour le registre principal. Si les méthodes d’amortissement des registres diffèrent, vous ne devez pas générer de transactions d’amortissement à l’aide du processus déduit. |
+> Un amortissement validé dans le registre déduit sera du même montant que celui validé pour le registre principal. Si les méthodes d’amortissement des registres diffèrent, vous ne devez pas générer de transactions d’amortissement à l’aide du processus déduit. 
 
 ## <a name="example"></a>Exemple 
 Les informations suivantes décrivent le paramétrage des transactions d’acquisition avec la fonctionnalité de registre déduit.

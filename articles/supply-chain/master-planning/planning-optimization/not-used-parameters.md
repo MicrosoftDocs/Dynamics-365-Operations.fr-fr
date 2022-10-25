@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542278"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682666"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Paramètres non utilisés par Planning Optimization
 
@@ -111,10 +111,8 @@ Planning Optimization n’utilise pas les paramètres ou options suivants sur la
 
 - Raccourci **Général** :
 
-  - **Inclure le stock disponible** – Support *Consommation du stock disponible* en attente.
   - **Remplacer le stock disponible** – Support *Consommation du stock disponible* en attente.
   - **Consommer le stock disponible** – Support *Consommation du stock disponible* en attente.
-  - **Inclure les transactions de stock** – Support *Consommation du stock disponible* en attente.
   - **Inclure les devis de vente** – Support *Devis de vente* en attente.
   - **Inclure la demande de devis** – Support *Demande de devis* en attente.
   - **Utiliser les dates de conservation** – Support *Durée de vie* en attente.
@@ -190,4 +188,3 @@ Planning Optimization n’utilise pas le paramètre suivant sur la page **Donné
 
   - Support **Disponible à la vente** – En attente *Codes de disposition des lots*.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428354"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690019"
 ---
 # <a name="the-production-delays-scenario"></a>Le scénario des retards de production
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Le scénario *Retards de production* génère une notification si la cadence de production tombe en dessous d’une valeur seuil spécifique. Dans ce scénario, un signal *partiel* est envoyé au hub IoT Microsoft Azure pour chaque article qui est produit. Dans Dynamics 365 Supply Chain Management, le retard de commande est calculé en fonction de la durée prévue de l’exécution de l’ordre de fabrication, du nombre d’articles à produire, de la durée d’exécution du travail et du nombre de signaux *partiels* reçus. Une notification de retard est générée si le nombre de signaux *partiels* pour le travail tombent en dessous de la valeur seuil de la valeur attendue.
 

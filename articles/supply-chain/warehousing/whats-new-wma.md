@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
-ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
+ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388446"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682612"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications de l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Cet article répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20340"></a>Version 2.0.34.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+- Stabilité améliorée.
+- Performances améliorées.
+- Amélioration de la disposition de l’écran pour laisser plus d’espace pour la carte de détails.
+- Ajout d’une fonction de recherche à la page **Liste de travail**. Les collaborateurs peuvent désormais numériser ou taper pour effectuer une recherche dans tous les champs et titres de la page.
+- La liste des connexions disponibles est maintenant triée par ordre alphabétique.
+- Correction d’un problème où les cartes en double étaient affichées pour les objets ayant plusieurs statuts d’inventaire au même emplacement.
+- Correction d’un problème où la page **Grande liste de sélection** n’a pas défilé pour afficher l’élément présélectionné.
+- Correction des couleurs de la barre de recherche sur la page **Grande liste de sélection**.
+- Correction d’un problème où le bouton par défaut défini dans le XML n’était pas utilisé comme bouton d’envoi.
+- Correction d’un problème où les boutons des flux de validation multiple et rapide ne se mettaient pas à jour lorsque de nouveaux identifiants étaient scannés.
+- Ajout du support pour plus de langues.
 
 ## <a name="version-20320"></a>Version 2.0.32.0
 
