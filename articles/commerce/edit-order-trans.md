@@ -2,7 +2,7 @@
 title: Modifier et vérifier les commandes en ligne et les transactions de commandes client asynchrones
 description: Cet article décrit comment modifier et vérifier les commandes en ligne et les transactions de commandes client asynchrones dans Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2020
+ms.date: 10/21/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.industry: Retail
-ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dbeeff47446c1617da44f34ae56f333717f577a1
+ms.sourcegitcommit: 18b7a02c497709e8d9c7b943d82f1fcc3dafa4cd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287675"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9712106"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Modifier et vérifier les commandes en ligne et les transactions de commandes client asynchrones
 
@@ -37,9 +37,10 @@ Entre les versions 10.0.5 et 10.0.6 de Commerce, la prise en charge de la modifi
 Pour modifier et vérifier les transactions de commande dans Commerce Headquarters, procédez comme suit.
 
 1. Installez [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
-1. Dans la page **Paramètres des ventes au détail**, sous l’onglet **Commandes client**, dans le raccourci **Commande**, spécifiez un code de blocage pour **Code de blocage pour les erreurs de synchronisation des commandes**.
-1. Ouvrez l’espace de travail **Finances du magasin**. Les vignettes **Erreurs de synchronisation des commandes en ligne** et **Erreurs de synchronisation des commandes client** fournissent une vue préfiltrée de la page des transactions de vente au détail. Chaque vignette affiche les enregistrements de transaction dont la synchronisation a échoué pour le type de commande correspondant.
-1. Ouvrez la page **Erreurs de synchronisation des commandes en ligne** ou la page **Erreurs de synchronisation des commandes client**. Sélectionnez un enregistrement pour afficher les détails de l’erreur de synchronisation. Le raccourci **État de la synchronisation** fournit les détails d’erreur suivants :
+1. Dans la page **Paramètres de Commerce**, sous l’onglet **Commandes client**, dans le raccourci **Commande**, spécifiez un code de blocage pour **Code de blocage pour les erreurs de synchronisation des commandes**.
+2. Suspendez les autres tâches de synchronisation des commandes qui sont en conflit avec le moment de votre modification et audit.
+3. Ouvrez l’espace de travail **Finances du magasin**. Les vignettes **Erreurs de synchronisation des commandes en ligne** et **Erreurs de synchronisation des commandes client** fournissent une vue préfiltrée de la page des transactions de vente au détail. Chaque vignette affiche les enregistrements de transaction dont la synchronisation a échoué pour le type de commande correspondant.
+4. Ouvrez la page **Erreurs de synchronisation des commandes en ligne** ou la page **Erreurs de synchronisation des commandes client**. Sélectionnez un enregistrement pour afficher les détails de l’erreur de synchronisation. Le raccourci **État de la synchronisation** fournit les détails d’erreur suivants :
 
     - Statut de commande en attente
     - Détails des erreurs de commande
@@ -67,7 +68,15 @@ Pour modifier et vérifier les transactions de commande dans Commerce Headquarte
 
 1. Dans le fichier Excel, dans le champ **Statut de commande en attente**, entrez **Modification**, puis publiez la modification. De cette façon, vous évitez que la tâche **Synchroniser la commande** qui s’exécute en mode lot ignore cet enregistrement pendant le traitement.
 1. Dans le fichier Excel, modifiez les champs appropriés, puis chargez les données dans Commerce Headquarters en utilisant la fonctionnalité de publication du complément Dynamics Excel. Une fois les données publiées, les modifications sont répercutées dans le système. Lors de la publication, aucune validation n’est exécutée pour les modifications effectuées par les utilisateurs.
-1. Vous pouvez afficher une piste d’audit complète des modifications en sélectionnant **Afficher la piste d’audit** dans l’en-tête **Transaction de vente au détail** pour les modifications au niveau de l’en-tête et dans la section et l’enregistrement appropriés dans la page de transaction appropriée. Par exemple, toutes les modifications liées aux lignes de vente seront affichées sur la page **Transactions de vente**, et toutes les modifications liées aux paiements seront affichées sur la page **Opérations de paiement**. Les détails d’audit suivants sont conservés pour les modifications :
+    > [!NOTE]
+    > Si vous ne trouvez pas le champ que vous devez modifier, suivez les étapes ci-dessous pour ajouter le champ manquant dans la feuille de calcul.
+    >   1. Sélectionnez **Concevoir** dans le connecteur de données.
+    >   1. Sélectionnez l’icône en forme de crayon en regard de la table dans laquelle vous souhaitez ajouter un champ.
+    >   1. Sélectionnez le champ dans la section **Champs disponibles**, puis sélectionnez **Ajouter**.
+    >   1. Ajoutez autant de champs que nécessaire, puis sélectionnez **Mettre à jour**.
+    >   1. Une fois la mise à jour terminée, vous devrez peut-être sélectionner **Actualiser** pour mettre à jour les valeurs.
+
+3. Vous pouvez afficher une piste d’audit complète des modifications en sélectionnant **Afficher la piste d’audit** dans l’en-tête **Transaction de vente au détail** pour les modifications au niveau de l’en-tête et dans la section et l’enregistrement appropriés dans la page de transaction appropriée. Par exemple, toutes les modifications liées aux lignes de vente seront affichées sur la page **Transactions de vente**, et toutes les modifications liées aux paiements seront affichées sur la page **Opérations de paiement**. Les détails d’audit suivants sont conservés pour les modifications :
 
     - Date et heure de modification
     - Champ

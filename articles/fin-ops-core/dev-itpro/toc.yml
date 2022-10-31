@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.29 (octobre\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: "Mises à jour de la plateforme pour la version\_10.0.28 (août\_2022)"
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Fonctionnalités supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctionnalités supprimées ou déconseillées
@@ -1605,7 +1603,11 @@
             - name: État des codes licence et des clés de configuration
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Partage de données entre sociétés
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Tables prises en charge pour le partage de données
+              href: sysadmin/drs-srs-tables.md
+            - name: Partage de données pour les développeurs
+              href: sysadmin/drs-srs-dev.md
             - name: Mode de maintenance
               href: sysadmin/maintenance-mode.md
             - name: Comptes système préconfigurés

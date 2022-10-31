@@ -10,18 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: "Nouveautés ou modifications dans Human\_Resources"
               items:
+                - name: "Human\_Resources\_10.0.31 (infrastructure fusionnée)"
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: "Human\_Resources\_10.0.30 (infrastructure fusionnée)"
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: "Human\_Resources\_10.0.29 (infrastructure fusionnée)"
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: "Human\_Resources\_10.0.28 (infrastructure fusionnée)"
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: "Human\_Resources\_10.0.27 (infrastructure fusionnée)"
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: "Human\_Resources\_10.0.26 (infrastructure fusionnée)"
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: "Human\_Resources\_10.0.25 (infrastructure fusionnée)"
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: Nouveautés dans Dynamics 365 Human Resources (autonome)
                   items:
                     - name: "Nouveautés dans les archives\_2021 Dynamics 365 Human Resources (autonome)"
@@ -208,7 +204,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
                 - name: Fonctions d’accessibilité
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
-                - name: Vue d’ensemble de la gestion des fonctions
+                - name: Vue d’ensemble de la gestion des fonctionnalités
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
                 - name: FAQ sur le client
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
@@ -718,7 +714,9 @@
               href: hr-develop-create-performance-review.md
         - name: Apprentissage
           items:
-            - name: Configurer des cours de formation
+            - name: Vue d’ensemble du cours
+              href: hr-course-overview.md
+            - name: Configurer les cours de formation
               href: hr-learning-courses.md
             - name: Vue d’ensemble des questionnaires
               href: hr-learning-questionnaires.md

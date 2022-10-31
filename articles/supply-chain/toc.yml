@@ -12,7 +12,7 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
                   href: get-started/whats-new-home-page.md
-                - name: "Supply Chain Management\_10.0.31 (février\_2022)"
+                - name: "Supply Chain Management\_10.0.31 (février\_2023)"
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: "Supply Chain Management\_10.0.30 (novembre\_2022)"
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: Certification d’origine USMCA
               href: transportation/usmca-certification-of-origin.md
+            - name: Factures commerciales
+              href: transportation/commercial-invoice.md
             - name: Créer une feuille de chargement
               href: transportation/create-bill-of-lading.md
             - name: Planifier les routes de transport de fret
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: Conditionner les conteneurs pour l’expédition
                       href: warehousing/packing-containers.md
+                    - name: Imprimer les étiquettes de conteneur
+                      href: warehousing/print-container-labels.md
                     - name: Travail de conditionnement pour conditionner les conteneurs sortants et traiter les expéditions
                       href: warehousing/packing-work.md
+                    - name: Conditionnement de conteneurs avec l’application mobile Warehouse Management
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: Exemple de scénario – Conditionnement de conteneurs avec l’application mobile Warehouse Management
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Paramétrer la réaffectation des articles pour les prélèvements partiels
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Classement des travaux dirigés par le système
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Regroupement système sur une liste des travaux en cours
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Mise en page d’acheminement de document pour les étiquettes de contenant
+                    - name: Dispositions des étiquettes d’acheminement de documents
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: Codes à barres GS1 et codes QR
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Mettre à niveau les processus de gestion des entrepôts de Microsoft Dynamics AX 2012 vers les applications de finances et d’opérations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Télémétrie de l’entreposage
+              items:
+                - name: Activer la télémétrie de l’entreposage avec Application Insights
+                  href: warehousing/application-insights-warehousing.md
+                - name: Surveiller l’utilisation et les performances des appareils mobiles
+                  href: warehousing/application-insights-wma.md
         - name: Développement de Supply Chain Management
           items:
             - name: Guide de développement du contrôle Gantt
