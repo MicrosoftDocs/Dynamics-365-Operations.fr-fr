@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336183"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708723"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -164,7 +164,7 @@ Les paramètres suivants sont disponibles dans le raccourci **Général** :
 - **Autoriser le verrouillage de l’écran tactile** – Définissez cette option sur *Oui* pour permettre aux collaborateurs de verrouiller l’écran tactile de l’interface d’exécution de l’atelier de production afin de pouvoir le désinfecter. Quand cette option est définie sur *Oui*, un bouton **Verrouiller l’écran pour la désinfection** est ajouté à la page de connexion. Quand un collaborateur sélectionne ce bouton, l’écran tactile est verrouillé temporairement pour empêcher toute entrée involontaire. Un compte à rebours est également affiché. Le collaborateur peut ensuite nettoyer en toute sécurité l’appareil et l’écran. Une fois le compte à rebours terminé, l’écran tactile est déverrouillé automatiquement.
 - **Durée de verrouillage de l’écran** – Quand l’option **Autoriser le verrouillage de l’écran tactile** est définie sur *Oui*, utilisez cette option pour spécifier le nombre de secondes pendant lesquelles l’écran tactile doit être verrouillé pour la désinfection. La durée doit être un nombre compris entre 5 et 120 secondes.
 - **Générer un contenant** – Définissez cette option sur *Oui* pour générer un nouveau contenant chaque fois qu’un collaborateur utilise l’interface d’exécution de l’atelier de fabrication pour effectuer une déclaration de fin. Le numéro du contenant est généré à partir d’une séquence de numéros configurée sur la page **Paramètres de gestion de l’entrepôt**. Quand cette option est définie sur *Non*, les collaborateurs doivent spécifier un contenant existant quand  ils font une déclaration de fin.
-- **Imprimer l’étiquette** – Définissez cette option sur *Oui* pour imprimer une étiquette de contenant quand un collaborateur utilise l’interface d’exécution de l’atelier de production pour effectuer une déclaration de fin. La configuration de l’étiquette est définie dans l’acheminement des documents, comme décrit dans [Mise en page d’acheminement de document pour les étiquettes de contenant](../warehousing/document-routing-layout-for-license-plates.md).
+- **Imprimer l’étiquette** – Définissez cette option sur *Oui* pour imprimer une étiquette de contenant quand un collaborateur utilise l’interface d’exécution de l’atelier de production pour effectuer une déclaration de fin. La configuration de l’étiquette est définie dans l’acheminement des documents, comme décrit dans [Mises en page des étiquettes d’acheminement de document](../warehousing/document-routing-layout-for-license-plates.md).
 
 ### <a name="the-tab-selection-fasttab"></a>Raccourci Sélection d’onglet
 

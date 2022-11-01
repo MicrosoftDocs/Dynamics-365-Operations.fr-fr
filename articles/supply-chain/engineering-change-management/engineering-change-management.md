@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849588"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714734"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gérer les modifications apportées aux produits d’ingénierie
 
@@ -141,6 +141,8 @@ Lorsque vous consultez les notifications d’ordre de fabrication dans la page *
 ### <a name="create-a-change-order-from-a-change-request"></a>Créer un ordre de modification à partir d’une demande de modification
 
 Un ingénieur qui examine une demande de modification technique peut créer un ordre de modification technique directement à partir de la page **Demandes de changement d’ingénierie**. Dans le volet Actions, sous l’onglet **Demande de modification**, dans le groupe **Ordre de modification d’ingénierie**, sélectionnez **Approuver**.
+
+Assurez-vous de sélectionner la bonne société pour le nouvel ordre de modification d’ingénierie. Si l’ordre de modification entraîne la modification du produit d’ingénierie lui-même (nouvelle version, nouveau produit ou nouvelle variante), l’ordre de modification doit être affecté à la société d’ingénierie. Si seule une modification locale est nécessaire (**Impact** est défini sur *Aucune*), l’ordre de modification peut être affecté à une entreprise locale et les modifications s’appliqueront au produit actuel.
 
 ## <a name="engineering-change-orders"></a>Ordres de modification d’ingénierie
 

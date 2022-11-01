@@ -1,8 +1,8 @@
 ---
-title: Dimension financières et validation
-description: Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifier la manière dont les différents composants fonctionneront ensemble lorsque vous validez un document ou un journal. Ces composants incluent les structures de compte, des règles avancées, et bilan et des dimensions fixes. Cet article explique ce qu’est chaque composant et comment les composants fonctionnent ensemble.
+title: Dimensions financières et validation
+description: Cet article explique quels composants constituent le plan comptable et comment ces composants fonctionnent ensemble.
 author: aprilolson
-ms.date: 08/04/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89696f08755a7ff2b01ec7e0cf8550a3b5914bc0
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910111"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715468"
 ---
-# <a name="financial-dimensions-and-posting"></a>Dimension financières et validation 
+# <a name="financial-dimensions-and-posting"></a>Dimensions financières et validation 
 
 [!include [banner](../includes/banner.md)]
 

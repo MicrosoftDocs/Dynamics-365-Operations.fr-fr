@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860723"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708615"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurer le bon de travail pour les périphériques
 
@@ -73,7 +73,7 @@ Le raccourci **Général** vous permet de configurer chacune des différentes op
 - **Groupe de ressources** - Sélectionnez un groupe de ressources à appliquer comme critère de filtrage par défaut pour la liste des tâches affichées à chaque collaborateur. Seules les tâches programmées sur des ressources regroupées sous le groupe de ressources sélectionné seront initialement affichées par le périphérique. Si l’option **Autoriser les collaborateurs à définir des filtres personnels** est activée, les utilisateurs pourront modifier cette valeur, sinon ce filtre s’appliquera toujours lorsque cette configuration de périphérique sera active.
 - **Ressource** - Sélectionnez une ressource à appliquer comme critère de filtrage par défaut pour la liste des tâches affichées à chaque collaborateur. Seules les tâches programmées sur la ressource sélectionnée seront initialement affichées par le périphérique. Si l’option **Autoriser les collaborateurs à définir des filtres personnels** est activée, les utilisateurs pourront modifier cette valeur, sinon ce filtre s’appliquera toujours lorsque cette configuration de périphérique sera active.
 - **Générer un contenant** - Définissez cette option sur **Oui** pour générer un nouveau contenant chaque fois qu’un collaborateur utilise le périphérique de bon de travail pour effectuer une déclaration de fin. Le numéro du contenant est généré à partir d’une séquence de numéros configurée sur la page **Paramètres de gestion de l’entrepôt**. Quand cette option est définie sur **Non**, les collaborateurs doivent spécifier un contenant existant lorsqu’ils font une déclaration de fin.
-- **Imprimer l’étiquette** - Définissez cette option sur **Oui** pour imprimer une étiquette de contenant quand un collaborateur utilise le périphérique de bon de travail pour effectuer une déclaration de fin. La configuration de l’étiquette est définie dans l’acheminement des documents, comme décrit dans [Mise en page d’acheminement de document pour les étiquettes de contenant](../warehousing/document-routing-layout-for-license-plates.md).
+- **Imprimer l’étiquette** - Définissez cette option sur **Oui** pour imprimer une étiquette de contenant quand un collaborateur utilise le périphérique de bon de travail pour effectuer une déclaration de fin. La configuration de l’étiquette est définie dans l’acheminement des documents, comme décrit dans [Mises en page des étiquettes d’acheminement de document](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

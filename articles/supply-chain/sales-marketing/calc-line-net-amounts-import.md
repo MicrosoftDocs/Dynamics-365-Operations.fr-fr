@@ -1,6 +1,6 @@
 ---
-title: Recalculer les montants nets des lignes lors de l’importation de commandes client, de devis et de retours
-description: Cet article décrit si et comment le système recalcule les montants nets des lignes lorsque les commandes client, les devis et les retours sont importés. Il explique également comment vous pouvez contrôler le comportement dans différentes versions de Microsoft Dynamics 365 Supply Chain Management.
+title: Recalculer les montants nets des lignes lors de l’importation de commandes client et de devis
+description: Cet article décrit si et comment le système recalcule les montants nets des lignes lorsque les commandes client et les devis sont importés. Il explique également comment vous pouvez contrôler le comportement dans différentes versions de Microsoft Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 08/05/2022
 ms.topic: article
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: edda0c016130e2a273adf8f3d3e00e2d3ae9d5c6
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335553"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719332"
 ---
-# <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Recalculer les montants nets des lignes lors de l’importation de commandes client, de devis et de retours
+# <a name="recalculate-line-net-amounts-when-importing-sales-orders-and-quotations"></a>Recalculer les montants nets des lignes lors de l’importation de commandes client et de devis
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit si et comment le système recalcule les montants nets des lignes lorsque les commandes client, les devis et les retours sont importés. Il explique également comment vous pouvez contrôler le comportement dans différentes versions de Microsoft Dynamics 365 Supply Chain Management.
+Cet article décrit si et comment le système recalcule les montants nets des lignes lorsque les commandes client et les devis sont importés. Il explique également comment vous pouvez contrôler le comportement dans différentes versions de Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="how-updates-to-net-line-amounts-are-calculated-on-import"></a>Comment les mises à jour des montants de ligne nets sont calculées lors de l’importation
 
-Supply Chain Management version 10.0.23 a introduit [bugfix 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Cette correction de bogue a changé les conditions dans lesquelles le champ **Montant net** d’une ligne peut être mis à jour ou recalculé lorsque des mises à jour de commandes clients, de retours et de devis existants sont importées. Dans la version 10.0.29, vous pouvez remplacer ce correctif en activant la fonctionnalité *Calculer le montant net de la ligne à l’importation*. Cette fonctionnalité a un effet similaire, mais elle fournit un paramètre global qui vous permet de revenir à l’ancien comportement si nécessaire. Bien que le nouveau comportement permette au système de fonctionner de manière plus intuitive, il peut produire des résultats inattendus dans des scénarios spécifiques où toutes les conditions suivantes sont remplies :
+Supply Chain Management version 10.0.23 a introduit [bugfix 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Cette correction de bogue a changé les conditions dans lesquelles le champ **Montant net** d’une ligne peut être mis à jour ou recalculé lorsque des mises à jour de commandes clients et de devis existants sont importées. Dans la version 10.0.29, vous pouvez remplacer ce correctif en activant la fonctionnalité *Calculer le montant net de la ligne à l’importation*. Cette fonctionnalité a un effet similaire, mais elle fournit un paramètre global qui vous permet de revenir à l’ancien comportement si nécessaire. Bien que le nouveau comportement permette au système de fonctionner de manière plus intuitive, il peut produire des résultats inattendus dans des scénarios spécifiques où toutes les conditions suivantes sont remplies :
 
 - Les données qui mettent à jour les enregistrements existants sont importées via l’entité *Lignes de commande client V2*, *Lignes de devis V2*, ou *Lignes de commande de retour* à l’aide du protocole Open Data Protocol (OData), y compris les situations où vous utilisez la double écriture, l’importation/exportation via Excel et certaines intégrations tierces.
-- [Stratégies d’évaluation des accords commerciaux](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper) qui sont en place établissent une stratégie de changement qui limite les mises à jour au **Montant net** sur les lignes de commande client, les lignes de devis de vente et/ou les lignes de commande de retour.
+- [Stratégies d’évaluation des accords commerciaux](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper) qui sont en place établissent une stratégie de changement qui limite les mises à jour au **Montant net** sur les lignes de commande client, les lignes de devis de vente et/ou les lignes de commande de retour. Notez que pour les lignes d’ordre de retour, le champ **Montant net** est toujours calculé et ne peut pas être défini manuellement.
 - Les données importées incluent les modifications apportées au champ **Montant net** sur les lignes, ou des modifications (telles que le prix unitaire, la quantité ou la remise) qui entraîneront la valeur du champ **Montant net** sur les lignes à être recalculées pour un ou plusieurs enregistrements de ligne existants.
 
 Dans ces scénarios spécifiques, la stratégie d’évaluation des accords commerciaux a pour effet de restreindre les mises à jour du champ **Montant net** sur la ligne. Cette restriction est connue sous le nom de *stratégie de changement*. En raison de cette stratégie, lorsque vous utilisez l’interface utilisateur pour modifier ou recalculer le champ, le système vous invite à confirmer si vous souhaitez apporter la modification. Cependant, lorsque vous importez un enregistrement, le système doit faire le choix pour vous. Avant la version 10.0.23, le système laissait toujours le montant net de la ligne inchangé, sauf si le montant net de la ligne entrante était de 0 (zéro). Cependant, dans les versions plus récentes, le système met toujours à jour ou recalcule le montant net selon les besoins, sauf instruction explicite de ne pas le faire. Bien que le nouveau comportement soit plus logique, il peut vous causer des problèmes si vous exécutez déjà des processus ou des intégrations qui adoptent l’ancien comportement. Cet article décrit comment revenir à l’ancien comportement si nécessaire.

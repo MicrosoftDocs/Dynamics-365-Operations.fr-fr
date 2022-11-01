@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279898"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710833"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Réaliser, publier et déployer une fonctionnalité de globalisation
 
@@ -59,8 +59,8 @@ Dans RCS, vous utilisez la commande **Déployer** pour publier une version de la
 2. Sur l’onglet **Versions** sur le côté droit de la page, sélectionnez la version de la fonctionnalité de facturation électronique que vous souhaitez déployer dans l’environnement de service ou l’application connectée. La version sélectionnée doit être définie sur le statut **Terminé** ou **Publié**.
 3. Sélectionnez **Déployer**, puis l’une des options suivantes pour définir la cible du déploiement :
 
-    - **Application connectée** – La configuration fournie par le programme d’installation de l’application est écrite dans l’instance de Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management qui lui était auparavant associé.
-    - **Environnement de service** – La version de la fonctionnalité de facturation électronique est déployée dans l’environnement de service. La facturation électronique est alors prête à recevoir et à traiter les documents électroniques envoyés par Finance ou Supply Chain Management.
+    - **Application connectée** – Option facultative, mais doit être utilisée si vous souhaitez que la configuration fournie par le programme d’installation de l’application soit écrite dans l’instance de Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management qui lui était auparavant associée. Ignorer ce type de déploiement nécessite une configuration manuelle des paramètres définis dans la configuration de l’application de Finance ou Supply Chain Management.
+    - **Environnement de service** – Déploie la version de la fonctionnalité de facturation électronique dans l’environnement de service. La facturation électronique est alors prête à recevoir et à traiter les documents électroniques envoyés par Finance ou Supply Chain Management.
 
 > [!NOTE]
 > En règle générale, vous modifierez les paramètres de la fonctionnalité de gestion des états électroniques (ER) qui doit être déployée dans l’environnement de service. Les modifications de l’application connectée seront rares. Vous devez déployer de nouvelles versions sur l’application connectée uniquement lorsque vous modifiez les paramètres correspondants de votre application.

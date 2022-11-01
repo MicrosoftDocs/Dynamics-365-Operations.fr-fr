@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 9a2d8a66fe7e68ebd5729a401af3f0efe04051b1
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9229935"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714858"
 ---
 # <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Calculer les dates de livraison des commandes clients à l’aide de CTP
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 La fonctionnalité Capable-to-Promise (CTP) vous permet de donner aux clients des dates réalistes auxquelles vous pouvez promettre des marchandises spécifiques. Pour chaque ligne de vente, vous pouvez fournir une date qui tient compte du stock disponible existant, de la capacité de production et des temps de transport.
 

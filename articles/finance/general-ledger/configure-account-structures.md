@@ -2,7 +2,7 @@
 title: Configurer les structures de compte
 description: Cet article fournit des informations sur les structures de compte et les dimensions financières.
 author: aprilolson
-ms.date: 07/12/2022
+ms.date: 10/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
-ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
+ms.openlocfilehash: b3fbdd6e2cac61c358848a21e1126bea900e86b2
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9141276"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713941"
 ---
 # <a name="configure-account-structures"></a>Configurer les structures de compte
 
@@ -28,7 +28,7 @@ ms.locfileid: "9141276"
 
 Les structures de compte utilisent le compte principal et les dimensions financières pour créer un ensemble de règles qui déterminent l’ordre et les valeurs utilisées lors de la saisie du numéro de compte. Vous pouvez paramétrer autant de structures de compte que nécessaire pour votre entreprise. Les structures de compte sont affectées au paramétrage de la comptabilité d’une société, elles peuvent donc être partagées.
 
-Lors de la création d’une structure de compte, le nombre maximal de segments est 11. Si vous avez besoin de plus de segments, évaluez soigneusement vos paramètres et vos besoins, car l’expérience de l’utilisateur en sera affectée. Déterminez si un segment peut être dérivé dans un scénario de génération d’états en utilisant une hiérarchie, et non lors de la saisie de données, ou en utilisant un champ défini par l’utilisateur. Par exemple, si vous souhaitez générer un état sur l’emplacement, mais vous pouvez déterminer l’emplacement par département ou centre de coût, il n’est pas nécessaire d’utiliser l’emplacement comme dimension financière. Si, après l’évaluation, vous déterminez que plus de 11 segments sont nécessaires, vous pouvez ajouter des segments supplémentaires à l’aide de règles avancées.
+Lors de la création d’une structure de compte, le nombre maximal de segments est 11. Si vous avez besoin de plus de 11 segments, évaluez soigneusement vos paramètres et vos besoins, car l’expérience de l’utilisateur en sera affectée. Déterminez si un segment peut être dérivé dans un scénario de génération d’états en utilisant une hiérarchie, et non lors de la saisie de données, ou en utilisant un champ défini par l’utilisateur. Par exemple, si vous souhaitez générer un état sur l’emplacement, mais vous pouvez déterminer l’emplacement par département ou centre de coût, il n’est pas nécessaire d’utiliser l’emplacement comme dimension financière. Si, après l’évaluation, vous déterminez que plus de 11 segments sont nécessaires, vous pouvez ajouter des segments supplémentaires à l’aide de règles avancées.
 
 Les structures de compte requièrent le compte principal. Il n’est pas nécessaire que le compte principal soit le premier segment de la structure, mais il identifie la structure de compte utilisée lors de la saisie du numéro de compte. Pour cette raison, une valeur de compte principal peut uniquement exister dans une structure affectée à la comptabilité afin d’éviter tout chevauchement. Une fois que la structure de compte est identifiée, la liste des valeurs autorisées est filtrée pour guider l’utilisateur dans la sélection des valeurs de dimension valides, ce qui réduit la possibilité d’une entrée de journal incorrecte.
 
@@ -42,23 +42,23 @@ Pour illustrer une pratique recommandée de paramétrage d’une structure de co
 
 |Compte principal          | Unité commerciale    |
 |----------------------|-----------|
-|100000..399999 | *;” “|
+|100000..399999 | *;"&nbsp;"|
 
 **Structure du compte de résultat**
 
 |Compte principal          | Unité commerciale    |Département          | Centre de coût    | &nbsp; |
 |----------------------|------------------|--------------------|-----------|---|
-|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
+|400000..999999 | \*;"&nbsp;"| \*;"&nbsp;"| \*;"&nbsp;"| \*;"&nbsp;"|
 
 **Règle avancée pour ajouter un client**
 
-Critères : si le compte principal est compris entre 400000 et 499999, ajoutez le client. Il doit être renseigné.
+Critères : si le compte principal est compris entre 400000 et 499999, ajoutez le client. Ce champ doit être renseigné.
 
 |Client         |
 |-----------------|
-|* |
+|\* |
 
-Dans cet exemple simplifié, toutes les valeurs et les vides sont autorisés, * et " " sont donc utilisés.
+Dans cet exemple simplifié, toutes les valeurs et les vides sont autorisés, \* et « &nbsp; » sont donc utilisés.
 
 ## <a name="segments-and-allowed-values"></a>Segments et valeurs autorisées
 La section **Segments** et **Détails des valeurs autorisées** fournit une expérience sous forme de grille pour saisir les règles à suivre lors de la validation. Vous pouvez taper directement dans les cellules de la grille, l’importer depuis Excel ou utiliser la section **Détails des valeurs autorisées** pour vous guider.
@@ -77,17 +77,20 @@ Voici un exemple de **Structure de compte de résultat**.
 
 Lorsque vous saisissez dans un journal et que vous sélectionnez un compte dans la plage du compte de résultat, sélectionner l’unité commerciale « 002 » génère les valeurs 022 et 014 comme valeurs par défaut du contrôle de compte. Ce comportement se produira également avec la page de répartition comptable. 
 
-## <a name="more-than-7-criteria-needed"></a>Plus de 7 critères requis
+## <a name="more-than-seven-criteria-needed"></a>Plus de sept critères requis
 
-Si plus de 7 critères sont requis, vous pouvez continuer à les ajouter sur la ligne suivante. Vous remarquerez lors de l’utilisation de la section **Détails des valeurs autorisées** que le critère **+Ajouter** n’est plus actif après la saisie du septième critère. Cela est dû à de nombreux facteurs tels que : 
+Si plus de sept critères sont requis, vous pouvez continuer à les ajouter sur la ligne suivante. Vous remarquerez lors de l’utilisation de la section **Détails des valeurs autorisées** que le critère **+Ajouter** n’est plus actif après la saisie du septième critère. Cela est dû à de nombreux facteurs tels que : 
  - Largeur de colonne 
  - Mode de stockage des données 
  - Performances du contrôle **Détails des valeurs autorisées**
  - Facilité d’utilisation  
- 
+
+> [!NOTE]
+> Une mise à niveau depuis Microsoft Dynamics AX 2012 avec plus de sept critères spécifiés n’est pas prise en charge. Cela doit être corrigé avant de terminer la mise à niveau vers les applications financières et opérationnelles. 
+
 Pour continuer à ajouter des critères supplémentaires, cliquez sur la section **Doublon dans le segment** et **Valeurs autorisées**. Les critères sont copiés sur une nouvelle ligne. Vous pouvez ensuite effectuer votre saisie ou modifier la section **Détails des valeurs autorisées**.
 
-## <a name="best-practices"></a>Utilisation optimale
+## <a name="best-practices"></a>Bonnes pratiques
 Lors du paramétrage de vos structures de compte, certaines pratiques recommandées peuvent être suivies. Toutefois, il s’agit seulement de recommandations, une discussion holistique sur votre entreprise, votre plan de croissance et votre plan de maintenance doit être envisagée dans le cadre de cette discussion.
 
 - Placez le compte principal en premier ou le plus proche possible de la structure de compte, afin que les utilisateurs puissent bénéficier de la meilleure expérience guidée possible lors de l’écriture de compte.
@@ -103,7 +106,7 @@ Lors du paramétrage de vos structures de compte, certaines pratiques recommand�
 - Il ne suffit d’ajouter un astérisque pour chaque segment de la structure de compte et de se baser uniquement sur les règles avancées. Cela peut s’avérer difficile à gérer et entraîne généralement des erreurs pendant la maintenance, ce qui rend la validation impossible.
 
 ## <a name="account-structure-activation"></a>Activation de la structure de compte
-Lorsque vous êtes satisfait de vos nouveaux paramétrages ou des modifications de la structure de compte, activez-les. Si une structure de compte est affectée à une comptabilité, cette activation peut prendre du temps, car toutes les transactions non validées dans le système doivent être synchronisées avec la nouvelle structure. Les transactions validées ne sont pas affectées par les modifications de la structure de compte.
+Lorsque vous êtes satisfait de vos nouveaux paramétrages ou des modifications de la structure de compte, activez-les. Si une structure de compte est affectée à une comptabilité, cette activation peut prendre du temps, car toutes les transactions non validées dans le système doivent être synchronisées avec la nouvelle structure. Les transactions validées ne sont pas affectées par les modifications de la structure de compte. À partir de la version 10.0.31 de l’application, une nouvelle fonctionnalité nommée **Amélioration des performances d’activation de la structure de compte** est disponible dans la gestion des fonctionnalités. Pour plus d’informations sur cette nouvelle fonctionnalité d’activation de la structure de compte, voir [Amélioration des performances d’activation de la structure de compte](account-structure-improvement.md). 
 
 Pour plus d’informations, voir, [Planifier votre plan de comptes](plan-chart-of-accounts.md), [Dimensions financières](financial-dimensions.md) et [Entrer des combinaisons de compte et de dimensions (contrôle d’accès segmenté)](enter-account-dimension-combinations-segmented-entry-control.md).
 

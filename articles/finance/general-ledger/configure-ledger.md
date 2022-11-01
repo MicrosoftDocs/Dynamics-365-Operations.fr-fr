@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864337"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713887"
 ---
 # <a name="configure-ledgers"></a>Configurer les registres
 
@@ -42,7 +42,7 @@ Chaque entité juridique dans Dynamics 365 Finance peut être configuré pour ut
 
 Notez que si vous disposez de plusieurs structures de compte, vous ne pouvez sélectionner que des structures de compte qui ne comportent pas de combinaisons de comptes principaux et de dimensions financières qui se chevauchent. Par exemple, l’une de vos structures de compte est configurée pour ajouter une unité commerciale pour les comptes principaux entre 1 000 et 1 999. Dans une autre structure de compte, vous avez ajouté une dimension financière Département pour les comptes principaux qui commencent par 1. Dans ce cas, une seule des structures de compte peut être ajoutée dans la même entité juridique.
 
-Pour configurer les structures de compte de votre comptabilité, sur la page **Comptabilité**, sur le raccourci **Structures de compte**, sélectionnez **Ajouter**, puis une structure de compte dans la liste, et enfin **Sélectionner**. L’ajout et l’enregistrement des structures de compte peuvent prendre quelques minutes. Notez que les structures de compte que vous sélectionnez doivent être actives. À défaut, les détails des structures de compte ne seront pas effectifs dans les entités juridiques où ils sont liés.
+Pour configurer les structures de compte de votre comptabilité, sur la page **Comptabilité**, sur le raccourci **Structures de compte**, sélectionnez **Ajouter**, puis une structure de compte dans la liste, et enfin **Sélectionner**. L’ajout et l’enregistrement des structures de compte peuvent prennent quelques minutes. Lorsque la structure de compte modifiée est enregistrée dans la comptabilité, le processus de synchronisation de toutes les transactions non comptabilisées commence. Vous devez attendre que la modification soit terminée pour la comptabilité actuelle dans l’entité juridique où la modification est effectuée avant de pouvoir modifier la structure de compte pour la comptabilité d’une autre entité juridique. Notez que les structures de compte que vous sélectionnez doivent être actives. À défaut, les détails des structures de compte ne seront pas effectifs dans les entités juridiques où ils sont liés.
 
 Pour supprimer une structure de compte, sur la page **Comptabilité**, sur le raccourci **Structures de compte**, sélectionnez **Supprimer**. Notez que si vous supprimez une structure de compte de votre comptabilité, vous ne supprimez aucune transaction qui a été validée à l’aide de la configuration de cette structure de compte.
 

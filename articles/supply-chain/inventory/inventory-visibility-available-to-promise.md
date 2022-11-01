@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856191"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719289"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks
 
@@ -205,6 +205,7 @@ Vous pouvez utiliser les URL d’interface de programmation d’application (API
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Créer plusieurs événements de changement. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Requête à l’aide de la méthode `POST`. |
 | `/api/environment/{environmentId}/onhand` | `GET` | Requête à l’aide de la méthode `GET`. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | Requête exacte à l’aide de la méthode `POST`. |
 
 Pour plus d’informations, voir [API publiques de la Visibilité des stocks](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ Dans votre requête, définissez `QueryATP` sur *true* si vous souhaitez interro
 > [!NOTE]
 > Indépendamment du fait que le paramètre `returnNegative` est défini sur *true* ou *false* dans le corps de la requête, le résultat inclura des valeurs négatives lorsque vous interrogerez les changements planifiés du stock disponible et les résultats de la DAV. Ces valeurs négatives seront incluses car, si seules les commandes de demande sont planifiées, ou si les quantités d’approvisionnement sont inférieures aux quantités demandées, les quantités du changement planifié du stock disponible seront négatives. Si les valeurs négatives n’étaient pas incluses, les résultats seraient déroutants. Pour plus d’informations sur cette option et son fonctionnement pour d’autres types de requêtes, voir [API publiques de visibilité du stock](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>Requête à l’aide de la méthode POST
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-L’exemple suivant montre comment créer un corps de requête pouvant être soumis à la Visibilité du stock à l’aide de la méthode `POST`.
+L’exemple suivant montre comment créer un corps de requête d’interrogation d’index pouvant être soumis à la Visibilité du stock à l’aide de la méthode `POST`.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ L’exemple suivant montre comment créer un corps de requête pouvant être sou
 }
 ```
 
-### <a name="get-method-example"></a>Exemple de méthode GET
+### <a name="query-by-using-the-get-method"></a>Requête à l’aide de la méthode GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-L’exemple suivant montre comment créer une URL de requête sous forme de requête `GET`.
+L’exemple suivant montre comment créer une URL de requête d’interrogation d’index sous forme de requête `GET`.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 Le résultat de cette requête `GET` est exactement le même que le résultat de la requête `POST` dans l’exemple précédent.
 
+### <a name="exact-query-by-using-the-post-method"></a>Requête exacte à l’aide de la méthode POST
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+L’exemple suivant montre comment créer un corps de requête d’interrogation exacte d’index pouvant être soumis à la Visibilité du stock à l’aide de la méthode `POST`.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Exemple de résultat de requête
 
-Les deux exemples de requête précédents peuvent produire la réponse suivante. Pour cet exemple, le système est configuré avec les paramètres suivants :
+N’importe lequel des exemples de requête précédents peut produire la réponse suivante. Pour cet exemple, le système est configuré avec les paramètres suivants :
 
 - **Mesure DAV calculée :** *iv.onhand = pos.inbound – pos.outbound*
 - **Période planifiée :** *7*

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 171b9f1dcb1d4ece63bc0beeb71f45b9f8ae7bba
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220560"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708781"
 ---
 # <a name="pack-containers-for-shipment"></a>Emballage de conteneurs à expédier
 
@@ -34,7 +34,9 @@ Plusieurs fonctionnalités d’entrepôt sortant associées peuvent être utilis
 - [Confirmer et transférer](confirm-and-transfer.md)
 - [Définir différentes dimensions pour l’emballage et le stockage](packing-vs-storage-dimensions.md)
 - [Travaux d’emballage pour l’emballage des conteneurs sortants et le traitement des expéditions](packing-work.md)
-<!-- KFM: Add link to upcoming topic when available (10.0.31): [Manual packing on the Warehouse management mobile app](manual-packing-on-the-warehouse-management-mobile-app.md) -->
+- [Conteneurs de conditionnement avec l’application mobile Warehouse Management](warehouse-app-packing-containers.md)
+- [Exemple de scénario – Conteneurs de conditionnement avec l’application mobile Warehouse Management](warehouse-app-pack-containers-scenario.md)
+- [Imprimer les étiquettes de conteneurs](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>Configurez votre entrepôt pour utiliser les opérations d’emballage manuelles
 
