@@ -328,18 +328,22 @@
                   href: deployment/cloud-deployment-overview.md
                 - name: Déploiement libre-service
                   items:
-                    - name: Vue d’ensemble de Déploiement libre-service
+                    - name: Vue d’ensemble du déploiement libre-service
                       href: deployment/infrastructure-stack.md
                     - name: Déployer un nouvel environnement
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: FAQ sur le déploiement
                       href: deployment/deploymentFAQ.md
+                    - name: Migrer un environnement
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Problèmes connus de déploiement libre-service
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Opérations de maintenance pour les déploiements
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Mettre à jour un environnement
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Migrer un environnement
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Résoudre les problèmes liés aux environnements déployés par le biais du déploiement libre-service
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: FAQ sur la maintenance planifiée dans les environnements en libre-service
@@ -970,8 +974,10 @@
                   href: lifecycle-services/whats-new-lcs.md
             - name: Guide de l’utilisateur de Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
-            - name: Intégration du projet
+            - name: Intégration de projet
               href: lifecycle-services/project-onboarding.md
+            - name: Gestionnaire de la migration de projets
+              href: lifecycle-services/project-migration-manager.md
             - name: Estimateur d’abonnement
               href: lifecycle-services/subscription-estimator.md
             - name: Configurer la sécurité

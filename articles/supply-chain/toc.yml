@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Paramétrer des stratégies pour les hiérarchies de catégories d’approvisionnement
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Évaluation du risque d’approvisionnement
+              items:
+                - name: Vue d’ensemble de l’évaluation du risque d’approvisionnement
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Configurer l’évaluation du risque d’approvisionnement
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Espace de travail interactif pour découvrir et gérer les risques fournisseur
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Rapports Power BI pour l’analyse des risques et le classement des performances
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Accusés de réception de marchandises et facturation
               items:
                 - name: Accusé de réception de marchandises et commandes fournisseur

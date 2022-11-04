@@ -692,20 +692,14 @@
               items:
                 - name: Processus de configuration du rapprochement bancaire avancé
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Paramétrage du processus d’importation du rapprochement bancaire
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Paramétrage du processus d’importation du rapprochement bancaire avancé à l’aide des états électroniques
                   href: accounts-payable/import-bai2-er.md
                 - name: Configurer les règles de correspondance de rapprochement bancaire
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Rapprochement de relevés bancaires à l’aide du rapprochement bancaire avancé
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Importation avancée du rapprochement bancaire MT940 – Mise à niveau de l’entité de données composite
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Vue d’ensemble du rapprochement bancaire avancé
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Résoudre les problèmes d’importation de fichier de relevé bancaire
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Mise à jour d’entité composite de journal des banques
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Contrôle de gestion

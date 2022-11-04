@@ -256,11 +256,9 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Modernisation de la pile technologique Commerce en magasin (livre blanc)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Mise en œuvre et résolution des problèmes hors connexion de Commerce
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Publication d’un catalogue de commerce en ligne
                   href: dev-itpro/retail-online-store-publishing-architecture.md
-                - name: Contenu de Power BI Retail Channel Performance
+                - name: Contenu Power BI de Retail Channel Performance
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?context=/dynamics365/context/commerce
                 - name: Certification PA-DSS (Payment Application Data Security Standards)
                   href: dev-itpro/PA-DSS-Certification.md
@@ -396,12 +394,16 @@
                   items:
                     - name: Application Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Fonctionnalités de l’application Store Commerce
+                      href: store-commerce-capabilities.md
                     - name: Application Store Commerce pour plateformes mobiles
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Migrer Modern POS vers Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Conseils de mise en œuvre pour la gestion des périphériques
                       href: implementation-considerations-devices.md
+                    - name: Mise en œuvre et résolution des problèmes hors connexion de Commerce
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Choisir entre Store Commerce et Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: Opérations PDV en ligne et hors connexion
