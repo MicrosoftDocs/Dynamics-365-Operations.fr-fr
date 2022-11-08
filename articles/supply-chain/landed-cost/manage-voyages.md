@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905861"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725467"
 ---
 # <a name="manage-voyages"></a>Gérer les trajets
 
@@ -29,7 +29,8 @@ Un trajet représente généralement un récipient. Cependant, en fonction de vo
 La page **Tous les trajets** fournit des détails sur le trajet, des informations de livraison et de coût, ainsi que des informations sur les articles, les commandes fournisseur et les ordres de transfert. Pour ouvrir la page **Tous les trajets**, allez à **Coût au débarquement \> Trajets \> Tous les trajets**. Cette page affiche une liste de tous les trajets en cours. Vous pouvez utiliser les boutons du volet Actions pour créer, supprimer et utiliser des trajets. Sélectionnez n’importe quel trajet dans la liste pour afficher ses détails.
 
 > [!NOTE]
-> Les conteneurs d’expédition et les folios sont liés à un trajet. Les lignes d’achat sont liées à un conteneur d’expédition. Si les conteneurs d’expédition et les folios sont désactivés, ils peuvent également être liés directement à un trajet. En outre, les coûts saisis ici sont répartis sur toutes les lignes d’achat associées.
+> Les conteneurs d’expédition et les folios sont liés à un trajet. Les lignes d’achat sont liées à un conteneur d’expédition. En outre, les coûts saisis ici sont répartis sur toutes les lignes d’achat associées.
+> Les commandes fournisseur de projet ne sont pas prises en charge dans le Coût au débarquement.
 
 ## <a name="action-pane"></a>Volet Actions
 

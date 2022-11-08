@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905890"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725475"
 ---
 # <a name="manage-folios"></a>Gérer les folios
 
 [!include [banner](../../includes/banner.md)]
 
-Un folio est souvent déterminé par la réglementation douanière. Un folio se compose de marchandises d’un fournisseur pour une entité ou entreprise par expédition. Les marchandises d'un folio sont gérées dans un conteneur.
+Un folio est souvent déterminé par la réglementation douanière. Un folio se compose de marchandises d’un fournisseur pour une entité ou entreprise par expédition. Les marchandises d’un folio sont gérées dans un conteneur.
 
 Pour ouvrir la page **Tous les folios**, allez à **Coût au débarquement \> folios \> Tous les folios**. Cette page affiche une liste de tous les folios en cours. Vous pouvez utiliser les boutons du volet Actions pour créer, supprimer et utiliser des folios. Sélectionnez n’importe quel folio dans la liste pour afficher ses détails sur la page **folios**.
 
@@ -48,9 +48,9 @@ Le tableau suivant décrit les boutons disponibles directement sur l’onglet **
 
 | Bouton | Description |
 |---|---|
-| Valider la préparation de réception | Validez une liste de reçus pour toutes les lignes de commande fournisseur du folio. Si des expéditions multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de liste de réception s’ouvre pour chaque entreprise. |
-| Valider l’accusé de réception de produits | Validez un reçu produit pour toutes les lignes de commande fournisseur du folio. Si des trajets multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de réception de produit s’ouvre pour chaque entreprise. |
-| Valider la facture | Validez une facture pour toutes les lignes de commande fournisseur du folio. Si des trajets multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de facture s’ouvre pour chaque entreprise. |
+| Valider la préparation de réception | Validez une liste de reçus pour toutes les lignes de commande fournisseur du folio.  |
+| Valider l’accusé de réception de marchandises | Validez un reçu produit pour toutes les lignes de commande fournisseur du folio. |
+| Valider la facture | Validez une facture pour toutes les lignes de commande fournisseur du folio.  |
 | Expédier l’ordre de transfert | Enregistrez un ordre de transfert pour toutes les lignes d’ordre de transfert liées au folio actuel dans l’envoi associé. |
 | Recevoir un ordre de transfert | Enregistrez un reçu d’ordre de transfert pour toutes les lignes d’ordre de transfert liées au folio actuel dans l’envoi associé. |
 | Recevoir des marchandises en transit | Recevez toutes les lignes de commande en transit dans le folio. |
@@ -65,8 +65,8 @@ Le tableau suivant décrit les boutons disponibles directement sur l’onglet **
 
 | Bouton | Description |
 |---|---|
-| Préparation de réception | Validez une liste de reçus pour toutes les lignes de commande fournisseur du folio. Si des trajets multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de liste de produit s’ouvre pour chaque entreprise. |
-| Accusé de réception des produits | Consultez l’enregistrement de réception du produit, s’il est utilisé. |
+| Préparation de réception | Validez une liste de reçus pour toutes les lignes de commande fournisseur du folio.  |
+| Réception des produits | Consultez l’enregistrement de réception du produit, s’il est utilisé. |
 | Arrivée d’articles | Affichez le journal d’arrivée des articles, s’il est utilisé. |
 | Recherche de coûts | Ouvrez la page de demande de prix pour afficher tous les coûts d’un voyage, y compris le conteneur d’expédition, le folio et la commande fournisseur. Vous pouvez ajuster la vue exacte de la page à l’aide de l’action Afficher. Sur la page de demande de coût, vous pouvez afficher l’un des domaines, ainsi que l’article et le code du type de coût. En supprimant ces articles, vous pouvez ajuster la page en regroupant les coûts. Cette fonctionnalité peut être utile si vous utilisez des tailles et des couleurs. Vous pouvez modifier les dimensions affichées sur la page. La page **Coûts** affiche uniquement les codes de type de coût où l’entrée **Dr** sur l’onglet **Validation** est défini sur *Article*. |
 

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0624c251646110644a8a72658a6dd6f8d319c57f
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869460"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734292"
 ---
 # <a name="recall-order-operation-in-pos"></a>Rappeler l’opération de commande dans le PDV
 
@@ -65,5 +65,11 @@ Dans la barre des applications, un utilisateur peut sélectionner une opération
 ## <a name="add-notifications-to-the-recall-order-operation"></a>Ajouter des notifications pour rappeler l’opération de commande
 
 Dans les versions 10.0.18 et ultérieures, vous pouvez configurer les notifications de PDV et les alertes de vignettes actives pour l’opération **Rappel de commande**. Pour plus d’informations, voir [Afficher les notifications de commande dans le point de vente (PDV)](notifications-pos.md).  
+
+> [!NOTE]
+> Pour activer la fonction de recherche de commande, assurez-vous que la clé **Devis** est activée sous **Configuration de la licence** > **Clés de configuration**.
+>
+> ![La configuration de la clé de configuration des devis doit être activée](./media/Quotations_License_Key_Configuration.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Opérations du point de vente (PDV), en ligne et hors connexion
 description: Cet article fournit les détails relatifs aux opérations du PDV dans Dynamics 365 Commerce. Elle spécifie où dans l’application les opérations peuvent être invoquées, et si elles sont disponibles dans le mode hors ligne.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272847"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728274"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -89,7 +89,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 143  | Recalculer les frais                               | Recalculez les frais automatiques appliqués à la commande.                                                                                                                                                             | Oui            | Oui                | N°             | N°                | N°              |
 | 144  | Ajouter une garantie à une transaction existante           | Ouvrez un formulaire dans lequel vous pouvez ajouter une garantie pour un produit dans une transaction existante.                                                                                                                                 | Oui            | Oui                | N°             | Oui               | N°              |
 | 200  | Payer en disponibilités                                          | Permet d’accepter un paiement en disponibilités.                                                                                                                                                                                        | Oui            | Oui                | N°             | Oui               | N°              |
-| 201  | Payer par carte                                          | Permet d’accepter une carte pour un paiement par carte de crédit ou de débit.                                                                                                                                                | Oui            | Oui                | N°             | Oui               | N°              |
+| 201  | Payer par carte                                          | Permet d’accepter une carte pour un paiement par carte de crédit.                                                                                                                                                | Oui            | Oui                | N°             | Oui               | N°              |
 | 202  | Payer sur le compte client                              | Permet de facturer la transaction sur le compte client. Ce mode de paiement n’est pas valide pour des dépôts de commande client.                                                                                                 | Oui            | Oui                | N°             | N°                | N°              |
 | 203  | Payer en devises                                      | Permet d’accepter un paiement dans différentes devises.                                                                                                                                                                          | Oui            | Oui                | N°             | Oui               | N°              |
 | 204  | Payer par chèque                                         | Permet d’accepter un chèque comme paiement.                                                                                                                                                                                     | Oui            | Oui                | N°             | Oui               | N°              |
@@ -101,7 +101,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 212  | Informations sur la carte de flotte                                   | Cette opération n’est pas prise en charge.                                                                                                                                                                                | Non applicable | Non applicable     | Non applicable | Non applicable    | Non applicable  |
 | 213  | Payer par avoir                                   | Permet d’accepter un avoir (N° document) émis par le magasin.                                                                                                                                                          | Oui            | Oui                | N°             | N°                | N°              |
 | 214  | Payer par carte cadeau                                     | Permet d’accepter une carte cadeau émise par le magasin.                                                                                                                                                                      | Oui            | Oui                | N°             | N°                | N°              |
-| 215  | Décaissement d’une carte cadeau                                | Cette opération n’est pas prise en charge.                                                                                                                                                                                | Oui            | Oui                | N°             | N°                | N°              |
+| 215  | Décaissement d’une carte cadeau                                | Transaction de crédit du montant total du solde restant de la carte cadeau, si dans la limite d’encaissement configurée.                                                                                                                                                                              | Oui            | Oui                | N°             | N°                | N°              |
 | 216  | Payer le montant exact par carte                                    | Cette opération n’est pas prise en charge.                                                                                                                                                                                | Non applicable | Non applicable     | Non applicable | Non applicable    | Non applicable  |
 | 217  | Payer le montant exact par chèque                                   | Cette opération n’est pas prise en charge.                                                                                                                                                                                | Non applicable | Non applicable     | Non applicable | Non applicable    | Non applicable  |
 | 218  | Payer le montant exact avec le compte client                        | Cette opération n’est pas prise en charge.                                                                                                                                                                                | Non applicable | Non applicable     | Non applicable | Non applicable    | Non applicable  |

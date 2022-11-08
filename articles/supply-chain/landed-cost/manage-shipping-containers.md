@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906151"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725439"
 ---
 # <a name="manage-shipping-containers"></a>Gérer les conteneurs d’expédition
 
@@ -40,9 +40,9 @@ Le tableau suivant décrit les boutons disponibles directement sur l’onglet **
 
 | Bouton | Descriptions |
 |---|---|
-| Valider la préparation de réception | Publiez une liste de reçus ou affichez les listes de reçus de produits pour toutes les lignes de commande fournisseur dans le conteneur d’expédition. Si des expéditions multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de liste de réception s’ouvre pour chaque entreprise. |
-| Valider l’accusé de réception de produits | Validez un reçu produit pour toutes les lignes de commande fournisseur du conteneurs d’expédition. |
-| Valider la facture | Validez une facture pour toutes les lignes de commande fournisseur du conteneurs d’expédition. Si des expéditions multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de facture s’ouvre pour chaque entreprise. |
+| Valider la préparation de réception | Publiez une liste de reçus ou affichez les listes de reçus de produits pour toutes les lignes de commande fournisseur dans le conteneur d’expédition.  |
+| Valider l’accusé de réception de marchandises | Validez un reçu produit pour toutes les lignes de commande fournisseur du conteneurs d’expédition. |
+| Valider la facture | Validez une facture pour toutes les lignes de commande fournisseur du conteneurs d’expédition.  |
 | Expédier l’ordre de transfert | Validez une expédition de transfert de commande pour toutes les lignes de commande de transfert du conteneurs d’expédition. Seules les lignes du conteneur d’expédition qui sont un type d’ordre de transfert apparaissent dans la boîte de dialogue. |
 | Recevoir un ordre de transfert | Validez un reçu de transfert de commande pour toutes les lignes de commande de transfert du conteneurs d’expédition. La boîte de dialogue de réception est le moyen le plus simple de recevoir des marchandises dans un conteneur d’expédition ou un voyage et constitue l’une des trois options disponibles. Vous pouvez également recevoir via les journaux d’arrivée ou le traitement des appareils mobiles. |
 | Créer un journal des arrivées | Vous pouvez générer un journal des arrivées pour les organisations à l’aide des fonctionnalités avancées de l’entrepôt. Les options sont _Initialiser la quantité_ (recommandé), et _Créer à partir de marchandises en transit_ ou _Créer à partir des commande fournisseur_. Les deux dernières options dépendent de l’utilisation ou non du traitement des marchandises en transit. |
@@ -56,8 +56,8 @@ Le tableau suivant décrit les boutons disponibles directement sur l’onglet **
 
 | Bouton | Descriptions |
 |---|---|
-| Préparation de réception | Validez un liste de reçus pour toutes les lignes de commande fournisseur du conteneurs d’expédition. Si des trajets multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de liste de produit s’ouvre pour chaque entreprise. |
-| Accusé de réception de marchandises | Consultez l’enregistrement de réception du produit, s’il est utilisé. Le processus de réception des produits ne sera utilisé que si les marchandises n’utilisent pas la fonctionnalité de marchandises en transit. |
+| Préparation de réception | Validez un liste de reçus pour toutes les lignes de commande fournisseur du conteneurs d’expédition.  |
+| Réception des produits | Consultez l’enregistrement de réception du produit, s’il est utilisé. Le processus de réception des produits ne sera utilisé que si les marchandises n’utilisent pas la fonctionnalité de marchandises en transit. |
 | Arrivée d’articles | Consultez le journal des arrivées d’articles pour le conteneur d’expédition, si ce journal est utilisé. |
 | Étapes | Les étapes sont utilisées pour identifier des parties distinctes d’un voyage. Des délais peuvent être associés à chaque étape pour faciliter le suivi des expéditions. Pour plus d’informations, consultez [Configuration de voyage multi-étapes](multi-leg-journey-setup.md). |
 | Suivi | Afficher ou mettre à jour le suivi des envois. |

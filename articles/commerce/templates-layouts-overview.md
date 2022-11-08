@@ -2,7 +2,7 @@
 title: Vue d’ensemble des modèles et dispositions
 description: Cet article couvre les modèles et dispositions dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277931"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733382"
 ---
 # <a name="templates-and-layouts-overview"></a>Vue d’ensemble des modèles et dispositions
 
@@ -66,6 +66,12 @@ Le modèle dans cet exemple définit une structure unique et un jeu d’options 
 
 Une étape initiale importante pour les administrateurs du site et de marque consiste à trouver l’équilibre entre la contrainte et la flexibilité des auteurs de disposition et de pages enfants. Lorsque des modèles sont utilisés, cet équilibre est totalement configurable. Il affecte si des éléments de page sont centralement mis à jour (verrouillés dans le modèle) ou laissés aux niveaux enfants individuels qui sont plus bas dans la hiérarchie de page.
 
+### <a name="relationship-between-template-defaults-and-page-content"></a>Relation entre les valeurs par défaut du modèle et le contenu de la page
+
+La fonction principale d’un modèle est de rationaliser l’expérience de création de module lors de la création d’une page. Même lorsque les valeurs par défaut du module sont définies, voire verrouillées, dans un modèle, il n’y a plus de connexion de données entre les configurations de module d’une page et les valeurs par défaut du modèle, sauf lorsque la page est modifiée. Les modèles contrôlent l’expérience de création pour la structure de la page, et après la création d’une page, les valeurs par défaut du modèle ne sont plus liées au contenu localisable de cette page. En d’autres termes, les valeurs par défaut du module définies dans un modèle contrôlent l’expérience de création des pages enfants. Elles ne contrôlent pas le contenu de ces pages une fois les pages créées et modifiées.
+
+La seule exception au comportement décrit précédemment se produit lorsqu’un [fragment](work-with-fragments.md) est ajouté à un modèle. Les fragments peuvent être utilisés pour ajouter ou modifier dynamiquement du contenu localisable sur toutes les pages enfants d’un modèle ou d’une mise en page à tout moment, même après que de nombreuses pages ont été créées à partir d’un modèle donné. Il est recommandé d’utiliser des fragments dans les modèles et les mises en page chaque fois que du contenu localisable doit être ajouté, supprimé ou modifié de manière dynamique sur toutes les pages enfants. Par exemple, les fragments doivent être utilisés pour les en-têtes, les pieds de page, les métadonnées/scripts communs ou tout autre contenu qui doit être modifiable de manière centralisée et identique sur toutes les pages enfants. Les fragments permettent d’utiliser des modèles et des mises en page pour contrôler le contenu de toutes les pages enfants.
+
 Pour commencer à utiliser les modèles, voir [Utilisation des modèles](work-with-templates.md).
 
 ## <a name="layouts"></a>Dispositions
@@ -96,7 +102,7 @@ Les dispositions de votre site peuvent être *prédéfinies* ou *personnalisées
 
 Les dispositions prédéfinies et les dispositions personnalisés sont modifiées dans différentes parties du jeu d’outils de création. Comme les dispositions personnalisées n’ont aucune dépendance avec d’autres pages, elles sont modifiées directement dans l’éditeur de page. Dans ce cas, l’existence d’une disposition est la plupart du temps transparente pour l’utilisateur et est exposée uniquement dans les propriétés au niveau de la page et via les actions pour les options de disposition. Toutefois, comme les modifications des dispositions prédéfinies peuvent affecter la plupart des pages enfants, elles doivent être modifiées dans l’éditeur de disposition, dans lequel les actions de publication prennent en compte l’impact en aval complet dans les pages enfants.
 
-Les illustrations suivantes affiche des scénarios de dispositions prédéfinies et personnalisées.
+L’illustration suivante affiche des scénarios de dispositions prédéfinies et personnalisées.
 
 ![Scénarios de dispositions prédéfinies et personnalisées.](../commerce/media/template-figure1.png)
 

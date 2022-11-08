@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689222"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731608"
 ---
 # <a name="proactive-quality-updates"></a>Mises à jour proactives de la qualité
 
@@ -40,13 +40,13 @@ Plusieurs avancées ont déjà été déployées qui permettent une livraison pr
 
 - **Mise à jour avec des temps d’arrêt quasi nuls** – Pour pousser des environnements plus fréquents, il est essentiel que l’impact sur la disponibilité de l’environnement soit réduit afin de préserver les Contrats de niveau de service (SLA) de Dynamics 365. La mise à jour avec un temps d’arrêt quasi nul a été introduite à l’origine pour aider à améliorer les correctifs mensuels du système d’exploitation en utilisant un groupement de basculement pour activer l’image mise à jour avec un minimum de perturbations. Le mécanisme d’application des mises à jour est amélioré afin qu’il soit encore moins perturbateur, et il couvrira à la fois les correctifs du système d’exploitation et le déploiement des mises à jour de qualité.
 
-    Pour les utilisateurs interactifs, une session active peut être interrompue et la nouvelle tentative ira à l’environnement maintenant mis à jour. Avec l’introduction de [planification des lots basée sur la priorité](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), qui est désormais disponible sur la base d’un abonnement, la planification et le traitement par lots sont récupérés et reprennent immédiatement après la mise à jour. Une planification par lots basée sur les priorités sera mise en place pour les clients avant qu’ils ne commencent à participer à la distribution proactive des mises à jour de qualité pour leurs environnements de production.
+Pour les utilisateurs interactifs, une session active peut être interrompue et la nouvelle tentative ira à l’environnement maintenant mis à jour. Avec l’introduction de la [planification des lots basée sur la priorité](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), la planification et le traitement par lots sont récupérés et reprennent immédiatement après la mise à jour. Une planification par lots basée sur les priorités sera mise en place pour les clients avant qu’ils ne commencent à participer à la distribution proactive des mises à jour de qualité pour leurs environnements de production.
 
 - **Heures sombres** – Les heures sombres sont définies pour chaque région Azure, et des mises à jour avec temps d’arrêt quasi nuls se produiront pendant la période des heures sombres.
 
 ## <a name="the-proactive-update-process"></a>Le processus de mise à jour proactive
 
-Le déploiement de mises à jour de qualité proactives suivra un processus de déploiement sécurisé (SDP). Les spécificités du SDP évolueront, mais les mises à jour de qualité seront initialement déployées dans des environnements bac à sable. Le processus commencera avec des environnements qui optent pour un déploiement précoce. À mesure que le pourcentage de bacs à sable déployés avec succès augmente, le déploiement dans les environnements de production commencera. Une fois de plus, le processus commencera avec des environnements qui optent pour un déploiement précoce. Les systèmes d’écoute surveilleront la télémétrie du système et les incidents Livesite, et arrêteront le déploiement d’une version spécifique si une régression est détectée. Les clients pourront toujours extraire les mises à jour de qualité avant le déploiement proactif s’ils le souhaitent.
+Le déploiement de mises à jour de qualité proactives suivra un processus de déploiement sécurisé (SDP). Les spécificités du SDP évolueront, mais les mises à jour de qualité seront initialement déployées dans des environnements bac à sable. À mesure que le pourcentage de bacs à sable déployés avec succès augmente, le déploiement dans les environnements de production commencera. Les systèmes d’écoute surveilleront la télémétrie du système et les incidents Livesite, et arrêteront le déploiement d’une version spécifique si une régression est détectée. Les clients pourront toujours extraire les mises à jour de qualité avant le déploiement proactif s’ils le souhaitent.
 
 Les données actuelles de gestion des versions montrent que moins de 3 % des régressions sont introduites dans les mises à jour de qualité. Avec un accent accru sur l’élimination de la régression et un SDP amélioré, l’impact potentiel des régressions sera considérablement inférieur aux gains de qualité obtenus en obtenant plus rapidement des correctifs déployés auprès des clients.
 
@@ -92,13 +92,13 @@ Pour plus d’informations sur les heures sombres pour chaque région, voir [Que
 **Version de l’application : 10.0.1326.70**
 **Dernier article de base de connaissances correspondant : 748926**
 
-| Station | Régions | Calendrier bac à sable à venir
-|---|---|---|
-| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 14 octobre au 17 octobre 2022 |
-| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 15 octobre au 18 octobre 2022 |
-| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 16 octobre au 19 octobre 2022 |
-| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 17 octobre au 20 octobre 2022 |
-| Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié |
+| Station | Régions | Programme terminé | Calendrier bac à sable à venir|
+|---|---|---|---|
+| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 14 octobre au 17 octobre 2022 | Du 2 novembre au 5 novembre 2022 |
+| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 15 octobre au 18 octobre 2022 | Du 2 novembre au 5 novembre 2022 |
+| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 16 octobre au 19 octobre 2022 | Du 2 novembre au 5 novembre 2022 |
+| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 17 octobre au 20 octobre 2022 | Du 2 novembre au 5 novembre 2022 |
+| Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié | Non planifié |
 
 > [!IMPORTANT] 
 > Cinq jours à l’avance, Microsoft mettra à jour le programme précédent et enverra des notifications par e-mail à l’ensemble des environnements programmés pour recevoir ces mises à jour de qualité. Le programme précédent s’applique uniquement aux environnements qui ont été informés d’une mise à jour à venir. Pour plus d’informations sur les heures sombres pour chaque région, voir [Quelles sont les fenêtre de maintenance planifiées par région ?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

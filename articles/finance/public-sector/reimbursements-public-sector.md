@@ -1,50 +1,33 @@
 ---
 title: Remboursements dans le secteur public
 description: Cet article répond aux questions courantes associées aux remboursements dans le secteur public.
-author: velofog
-ms.date: 06/20/2017
+author: JodiChristiansen
+ms.date: 11/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: velofog
+ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 27311
 ms.assetid: 9d61d1d8-1672-4bd0-ae0d-605b09240890
 ms.search.industry: Public sector
 ms.search.form: CustBillingClassification
-ms.openlocfilehash: c13d30c879c0544191b89acaa325cef317248e71
-ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
+ms.openlocfilehash: 4155d2a0ceb4e9b55bb1c9b2f04d15f43add8cc3
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573075"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734311"
 ---
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
 Cet article répond aux questions courantes associées aux remboursements dans le secteur public. 
-
-## <a name="what-happens-if-i-create-a-separate-reimbursement-transaction-for-each-billing-classification"></a>Que se passe-t-il si je crée une transaction de remboursement distincte pour chaque classification de facturation ?
-
-Lorsque vous créez une transaction de remboursement distincte pour chaque classification de facturation, les transactions d’avoir qui sont réparties vers le même compte général et dotées de la même classification de facturation sont combinées dans une transaction de remboursement unique. Les transactions d’avoir qui sont réparties vers le même compte général et qui sont dotées de classifications de facturation différentes génèrent des transactions de remboursement distinctes. Supposons, par exemple, que vous traitiez les remboursements pour trois avoirs. Les trois avoirs sont d’un montant de 1 000 €.
-
--   Le premier avoir, doté de la classification de facturation UTL, est distribué vers trois comptes, avec 15 % vers le compte 1110, 30 % vers le compte 2210 et 55 % vers le compte 3210.
--   Le deuxième avoir est également doté de la classification de facturation UTL. Il est distribué à 100 % vers le compte 3210.
--   Le troisième avoir, doté de la classification de facturation GEN, est distribué à 100 % vers le compte 1110.
-
-Si vous créez une transaction de remboursement distincte pour chaque classification de facturation, quatre transactions de remboursement sont créées, de la façon suivante :
-
--   150 € vers le compte 1110
--   1 000 € vers le compte 1110
--   300 € vers le compte 2210
--   1 550 € vers le compte 3210
-
-Les montants dirigés vers le compte 3210 sont combinés, car ils utilisent tous deux la même classification de facturation. Les montants dirigés vers le compte 1110 ne sont pas combinés, car ils n’utilisent pas la même classification de facturation. Si vous ne créez pas un remboursement distinct pour chaque classification de facturation, les transactions associées au compte 1110 seraient combinées, et seulement trois transactions de remboursement seraient créées.
 
 ## <a name="how-do-billing-classifications-affect-reimbursements-for-overpayments"></a>Comment les classifications de facturation affectent-elles les remboursements des trop-perçus ?
 Elle ne les affectent pas. Les classifications de facturation ne sont jamais appliquées aux paiements client, et elles ne sont donc pas utilisées lors du traitement des remboursements des trop-perçus.

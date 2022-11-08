@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871976"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725519"
 ---
 # <a name="landed-cost-parameters-setup"></a>Configuration des paramètres de coût au débarquement
 
@@ -125,14 +125,11 @@ Les paramètres de cet onglet définissent les dimensions par défaut pour chaqu
 
 L’onglet **Souche de numéros** de la page **Paramètres de coût au débarquement** répertorie chaque type de Souche de numéros de référence requis par les coûts au débarquement, mais qui n’est pas partagée entre les entités juridiques. Pour chaque référence de la liste, sélectionnez un code souche de numéros.
 
-> [!NOTE]
-> Dans une configuration multi-sociétés, différentes Souche de numéros doivent être créées pour chaque société (entité juridique).
 
 ## <a name="shared-number-sequences-tab"></a>Onglet Souches de numéros partagées
 
 L’onglet **Souche de numéros partagée** de la page **Paramètres de coût au débarquement** répertorie chaque type de Souche de numéros de référence requis par les coûts au débarquement, mais qui est partagée entre les entités juridiques pour les coûts au débarquement. Actuellement, il n’y a qu’une seule Souche de numéros dans la liste. Cette Souche de numéros est utilisée pour l’ID de voyage.
 
-Sur la page **Tous les voyages**, les utilisateurs peuvent afficher tous les voyages dans toutes les entités juridiques. Cependant, pour modifier et traiter un voyage, les utilisateurs doivent appartenir à l’entité juridique de l’enregistrement sélectionné.
 
 ## <a name="feature-visibility-tab"></a>Onglet Visibilité des fonctionnalités
 
