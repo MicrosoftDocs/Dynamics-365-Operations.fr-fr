@@ -486,9 +486,9 @@
                       href: help/custom-help-toolkit-HtmlLocaleChanger.md
                     - name: Convertir l’aide personnalisée Dynamics AX pour une utilisation dans Dynamics 365
                       href: help/migrate-dynamicsax2012.md
-                - name: Descripteurs locaux et de langue dans le produit et l’aide
+                - name: Descripteurs de langue et de paramètres régionaux dans le produit et l’aide
                   href: help/language-locale.md
-                - name: 'Étendre, personnaliser et collaborer dans l’aide'
+                - name: Étendre et collaborer dans l’aide
                   href: help/contributor-guide.md
             - name: Services régionaux des applications de finances et d’opérations
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: Gérer l’accès aux imprimantes réseau dans toutes les entités juridiques
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: Surveillance et télémétrie avec Application Insights
+              items:
+                - name: Vue d’ensemble
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: Sécurité
               items:
                 - name: Sécurité basée sur les rôles

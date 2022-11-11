@@ -446,11 +446,13 @@
                   items:
                     - name: Configurer la facturation de contrat récurrente
                       href: accounts-receivable/sb-recur-bill-parameters.md
-                    - name: Créer des échéanciers de facturation
+                    - name: Créer des programmes de facturation
                       href: accounts-receivable/sb-billing-schedules.md
-                    - name: Copier un échéancier de facturation
+                    - name: Copier un programme de facturation
                       href: accounts-receivable/sb-copy-schedules-items.md
-                    - name: Fonctionnalités de l’échéancier de facturation
+                    - name: Fractionnement client avec un programme de facturation
+                      href: accounts-receivable/sb-customer-split.md
+                    - name: Fonctionnalités du programme de facturation
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Facturation jalonnée
                       href: accounts-receivable/sb-milestonebilling.md
@@ -462,7 +464,7 @@
                       href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Planifications de l’indice des prix à la consommation
                       href: accounts-receivable/cpischedules.md
-                    - name: Résiliation des échéanciers de facturation
+                    - name: Résiliation des programmes de facturation
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Scénarios de date d’alignement
                       href: accounts-receivable/sb-alignment-date-examples.md
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Espace de travail de clôture de période comptable
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Optimiser la clôture de fin d’exercice
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Clôture de fin d’exercice
                   href: general-ledger/year-end-close.md
                 - name: Clôturer l’exercice
@@ -2836,7 +2840,7 @@
                                   href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                             - name: TDS pour l’Inde
                               items:
-                                - name: Aperçu de l’impôt indien déduit à la source (TDS)
+                                - name: Vue d’ensemble de l’impôt indien déduit à la source (TDS)
                                   href: localizations/apac-ind-TDS-India-TDS-overview.md
                                 - name: Inclure GST lors du calcul des déductions de taxe
                                   href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md

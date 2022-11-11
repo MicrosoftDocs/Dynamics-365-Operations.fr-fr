@@ -6,7 +6,7 @@
           href: index.md
         - name: Fusion de l’infrastructure Human Resources
           items:
-            - name: Présentation de la fusion de l’infrastructure Human Resources
+            - name: Vue d’ensemble de la fusion de l’infrastructure Human Resources
               href: hr-infrastructure-merge.md
             - name: Migration des clients de l’infrastructure Human Resources
               href: hr-cust-migration.md
@@ -20,15 +20,15 @@
           items:
             - name: Nouveautés ou modifications dans les applications de finances et d’opérations
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: "Nouveautés ou modifications dans Human\_Resources"
+            - name: Nouveautés ou modifications dans Human Resources
               items:
-                - name: "Human\_Resources\_10.0.31 (infrastructure fusionnée)"
+                - name: "Human Resources\_10.0.31 (infrastructure fusionnée)"
                   href: ./get-started/whats-new-changed-10-0-31.md
-                - name: "Human\_Resources\_10.0.30 (infrastructure fusionnée)"
+                - name: "Human Resources\_10.0.30 (infrastructure fusionnée)"
                   href: ./get-started/whats-new-changed-10-0-30.md
-                - name: "Human\_Resources\_10.0.29 (infrastructure fusionnée)"
+                - name: "Human Resources\_10.0.29 (infrastructure fusionnée)"
                   href: ./get-started/whats-new-changed-10-0-29.md
-                - name: "Human\_Resources\_10.0.28 (infrastructure fusionnée)"
+                - name: "Human Resources\_10.0.28 (infrastructure fusionnée)"
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Nouveautés dans Dynamics 365 Human Resources (autonome)
                   items:
@@ -541,7 +541,11 @@
                     - name: Recruter des candidats à un poste
                       href: hr-personnel-recruit.md
         - name: Gestion des tâches
-          href: hr-task-mgmt.md
+          items:
+            - name: Vue d’ensemble
+              href: hr-task-mgmt.md
+            - name: Mise à jour de la gestion des tâches
+              href: hr-task-update.md
         - name: Congé et absence
           items:
             - name: Vue d’ensemble
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Champs personnalisés
           href: hr-developer-custom-fields.md
+        - name: Développer et personnaliser
+          items:
+            - name: Enum de base de genre
+              href: enum-exten.md
         - name: Configurer l’intégration de données
           items:
             - name: Choisir une technologie d’intégration de données
