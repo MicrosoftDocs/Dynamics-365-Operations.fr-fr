@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690082"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740139"
 ---
 # <a name="master-planning-with-supply-forecasts"></a>Planification avec prévisions d’approvisionnement
 
@@ -168,13 +168,13 @@ Lorsque vous exécutez un plan directeur configuré pour n’utiliser *Aucune* m
 
 Vous traitez maintenant la commande fournisseur prévisionnelle qui a été créée après la dernière planification et modifiez la quantité sur *15 unités*. Vous approuvez ensuite la commande. La prochaine fois que vous exécutez le plan directeur, il génère une commande fournisseur prévisionnelle pour le fournisseur *US-101*, le site *1*, l’entrepôt *11*, une quantité de *10 unités* et la date *10/10/22*. Cette fois, la quantité est réduite pour refléter la quantité de la commande approuvée existante de l’exécution de planification précédente.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Différences entre l’optimisation de la planification et le moteur de planification intégré
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Différences entre l’optimisation de la planification et le moteur de planification générale déprécié
 
-Les prévisions d’approvisionnement fonctionnent de manière légèrement différente, selon le moteur de planification directeur que vous utilisez (planification générale intégrée ou optimisation de la planification). Cette section décrit les différences.
+Les prévisions d’approvisionnement fonctionnent de manière légèrement différente, selon le moteur de planification générale que vous utilisez (optimisation de la planification ou moteur de planification générale déprécié). Cette section décrit les différences.
 
 ### <a name="vendor-groups"></a>Groupes de fournisseurs
 
-Lorsque vous ajoutez une ligne de prévision, vous pouvez spécifier un fournisseur et un groupe de fournisseurs. Dans le moteur de planification intégré, les ordres planifiés qui sont créés sont regroupés selon la combinaison des valeurs de fournisseur et de groupe de fournisseurs. Dans l’optimisation de la planification, les ordres planifiés sont regroupés par fournisseur.
+Lorsque vous ajoutez une ligne de prévision, vous pouvez spécifier un fournisseur et un groupe de fournisseurs. Dans le moteur de planification générale déprécié, les ordres planifiés qui sont créés sont regroupés selon la combinaison des valeurs de fournisseur et de groupe de fournisseurs. Dans l’optimisation de la planification, les ordres planifiés sont regroupés par fournisseur.
 
 Le tableau suivant fournit quelques exemples de lignes de prévision d’approvisionnement pour un article.
 
@@ -186,7 +186,7 @@ Le tableau suivant fournit quelques exemples de lignes de prévision d’approvi
 
 Le fournisseur *VendorA* est le fournisseur par défaut pour le groupe de fournisseurs *VendorGroupA*. Il s’agit également du fournisseur par défaut pour l’article.
 
-Le moteur de planification intégré génère les commandes suivantes :
+Le moteur de planification générale déprécié créera les commandes suivantes :
 
 - Une commande fournisseur prévisionnelle pour le fournisseur *VendorA*, le groupe de fournisseurs *VendorGroupA*, et une quantité définie sur *11*
 - Une commande fournisseur prévisionnelle pour le fournisseur *VendorA* et une quantité définie sur *7*
@@ -197,7 +197,7 @@ L’optimisation de la planification crée une seule commande :
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Réduction des prévisions générales par des prévisions plus spécifiques
 
-Dans le moteur de planification intégré, le résultat est imprévisible si certaines prévisions ont un fournisseur, mais pas d’autres.
+Dans le moteur de planification générale déprécié, le résultat est imprévisible si certaines prévisions ont un fournisseur, mais pas d’autres.
 
 Dans l’optimisation de la planification, les prévisions générales sont toujours réduites par des prévisions plus spécifiques, comme le montre l’exemple suivant.
 
@@ -218,15 +218,15 @@ La prévision générale (pour 15 pièces) est diminuée des prévisions plus s
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Respect des paramètres de commande par défaut lors de la génération des ordres planifiés
 
-Chaque article peut avoir des paramètres de commande par défaut, comme une quantité minimale de commande fournisseur. Le moteur de planification intégré ignore ces paramètres et convertit donc les prévisions en ordres planifiés ayant la même quantité. L’optimisation de planification respecte ces paramètres lorsque les ordres planifiés sont générés à partir des prévisions d’approvisionnement. 
+Chaque article peut avoir des paramètres de commande par défaut, comme une quantité minimale de commande fournisseur. Le moteur de planification générale déprécié ignore ces paramètres et convertit donc les prévisions en ordres planifiés ayant la même quantité. L’optimisation de planification respecte ces paramètres lorsque les ordres planifiés sont générés à partir des prévisions d’approvisionnement. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Agrégation d’ordres planifiés suite à une réduction par des ordres approuvés
 
-Le moteur de planification intégré suppose qu’une seule commande réduit la prévision d’approvisionnement existante. Ainsi, si plusieurs commandes correspondent à une ligne de prévision d’approvisionnement, seule la première commande la réduit. Dans l’optimisation de la planification, toutes les commandes qui correspondent à la ligne de prévision d’approvisionnement la réduisent.
+Le moteur de planification générale déprécié suppose qu’une seule commande réduit la prévision d’approvisionnement existante. Ainsi, si plusieurs commandes correspondent à une ligne de prévision d’approvisionnement, seule la première commande la réduit. Dans l’optimisation de la planification, toutes les commandes qui correspondent à la ligne de prévision d’approvisionnement la réduisent.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Réduction des prévisions en ne faisant correspondre que les fournisseurs
 
-Lorsque le moteur de planification intégré réduit une prévision par des commandes fournisseur lancées existantes, il ne garantit pas que le fournisseur de la commande fournisseur corresponde au fournisseur de la prévision. L’optimisation de la planification réduit les prévisions uniquement par les commandes fournisseur qui ont une valeur correspondante dans le champ fournisseur.
+Lorsque le moteur de planification générale déprécié réduit une prévision par des commandes fournisseur lancées existantes, il ne garantit pas que le fournisseur de la commande fournisseur corresponde au fournisseur de la prévision. L’optimisation de la planification réduit les prévisions uniquement par les commandes fournisseur qui ont une valeur correspondante dans le champ fournisseur.
 
 Pour les ordres de transfert et de production, le champ fournisseur est toujours ignoré, car il n’est pas pertinent pour ces types d’ordres.
 
@@ -234,4 +234,4 @@ Pour les ordres de transfert et de production, le champ fournisseur est toujours
 
 Si le type de commande par défaut pour un article est *Transférer*, les prévisions ne peuvent être réduites que par des ordres de transfert planifiés existants. Cependant, pour les ordres de fabrication et les commandes fournisseur, seuls les ordres lancés réduisent la prévision d’approvisionnement.
 
-Le moteur de planification intégré réduit pour tous les états d’ordre de transfert, tandis que l’optimisation de la planification réduit les prévisions uniquement par les ordres de transfert définis à l’état *Lancé*.
+Le moteur de planification générale déprécié réduit pour tous les états d’ordre de transfert, tandis que l’optimisation de la planification réduit les prévisions uniquement par les ordres de transfert définis à l’état *Lancé*.
