@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904526"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752801"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Réévaluation des comptes en devises dans la Comptabilité
 
@@ -64,7 +64,9 @@ Le processus de réévaluation peut être exécuté pour une ou plusieurs entit�
 
 La réévaluation peut être exécutée pour une ou plusieurs devises étrangères. La recherche inclut toutes les devises validées dans la plage de dates appropriées pour le type de compte principal (Bilan ou Compte de résultat), pour les entités juridiques sélectionnées à réévaluer. La devise comptable est incluse dans la liste, mais rien n’est réévalué si la devise comptable est sélectionnée. 
 
-Définissez **Aperçu avant validation** sur **Oui** si vous souhaitez consulter le résultat de la réévaluation de la comptabilité. L’aperçu dans la comptabilité est différent de la simulation dans la réévaluation des comptes en devises de la Comptabilité client et de la Comptabilité fournisseur. La simulation dans la Comptabilité client et la Comptabilité fournisseur est un état, mais la comptabilité dispose d’un aperçu pouvant être validé, sans devoir réexécuter le processus de réévaluation. Les résultats de l’aperçu peuvent être exportés vers Microsoft Excel pour conserver l’historique de la manière dont les montants ont été calculés. Vous ne pouvez pas utiliser le traitement par lots si vous souhaitez afficher l’aperçu des résultats de la réévaluation. Dans l’aperçu, l’utilisateur dispose de l’option de valider les résultats de toutes les entités juridiques à l’aide du bouton **Valider**. En cas de problème avec les résultats d’une entité juridique, l’utilisateur dispose également de l’option de valider un sous-ensemble d’entités juridiques à l’aide du bouton **Sélectionner les entités juridiques à valider**. 
+Définissez **Aperçu avant validation** sur **Oui** si vous souhaitez consulter le résultat de la réévaluation de la comptabilité. L’aperçu dans la comptabilité est différent de la simulation dans la réévaluation des comptes en devises de la Comptabilité client et de la Comptabilité fournisseur. La simulation dans la Comptabilité client et la Comptabilité fournisseur est un état, mais la comptabilité dispose d’un aperçu pouvant être validé, sans devoir réexécuter le processus de réévaluation. Les résultats de l’aperçu peuvent être exportés vers Microsoft Excel pour conserver l’historique de la manière dont les montants ont été calculés. Vous ne pouvez pas utiliser le traitement par lots si vous souhaitez afficher l’aperçu des résultats de la réévaluation. Dans l’aperçu, l’utilisateur dispose de l’option de valider les résultats de toutes les entités juridiques à l’aide du bouton **Valider**. En cas de problème avec les résultats d’une entité juridique, l’utilisateur dispose également de l’option de valider un sous-ensemble d’entités juridiques à l’aide du bouton **Sélectionner les entités juridiques à valider**.
+
+Si vous souhaitez exclure des ajustements validés en utilisant le **Journal des ajustements de la devise de déclaration** du processus de réévaluation, définissez **Exclure les ajustements de la devise de déclaration** sur **Oui**. Par défaut, les ajustements de la devise de déclaration sont inclus dans la réévaluation. 
 
 Une fois le processus de réévaluation des comptes en devises terminé, un enregistrement est créé pour effectuer le suivi de l’historique de chaque exécution.  Un enregistrement distinct est créé pour chaque entité juridique et couche de validation.
 

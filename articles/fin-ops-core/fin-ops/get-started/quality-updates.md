@@ -2,7 +2,7 @@
 title: Mises à jour proactives de la qualité
 description: Cet article fournit des informations sur la livraison proactive des mises à jour de qualité.
 author: rashmansur
-ms.date: 09/12/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
-ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
+ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
+ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2022
-ms.locfileid: "9731608"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9752296"
 ---
 # <a name="proactive-quality-updates"></a>Mises à jour proactives de la qualité
 
@@ -25,6 +25,19 @@ ms.locfileid: "9731608"
 Au cours des dernières années, Microsoft a fait des progrès continus sur ce que nous appelons [Une version](../../dev-itpro/lifecycle-services/oneversion-overview.md). Le principe de One Version est simple : plus nous nous rapprochons du scénario d’avoir tous les clients sur la même version du logiciel, plus la qualité que nous pouvons offrir est élevée. Nous détectons et résolvons les problèmes une seule fois, et nous mettons ces solutions dans les mains d’un plus grand nombre de clients plus rapidement.
 
 Cette prémisse est confirmée par les résultats : un nombre d’incidents plus bas pour nos produits. Lorsque les clients ne sont pas sur la même version, nous constatons systématiquement qu’ils sont affectés par des problèmes pour lesquels une solution est déjà disponible. Nous avons déjà fait de grands progrès avec Dynamics 365 Finance, Dynamics 365 Supply Chain, Dynamics 365 Project Operations, et Dynamics 365 Commerce, et grâce aux récentes avancées techniques, il est désormais possible de passer à l’étape suivante. Les informations suivantes décrivent ce que nous allons faire, ce que nous avons déjà fait pour préparer le terrain, et comment et quand nous allons introduire les nouvelles fonctionnalités sans interruption.
+
+## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+
+- Les mises à jour de qualité proactives sont appliquées chaque mois.
+- Microsoft appliquera les mises à jour de qualité proactives à tous les environnements de bac à sable qui exécutent une mise à jour de service qui était [en service](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) au moment de la création des mises à jour de qualité proactives.
+- Des exceptions pour les mises à jour de qualité proactives seront autorisées pour les clients réglementés par la Food and Drug Administration (FDA) aux États-Unis.
+- Microsoft détermine comment les mises à jour de qualité proactives seront gérées pour les environnements réglementés et pour les clients cloud souverains et gouvernementaux.
+- Les notifications liées aux mises à jour de qualité proactives sont publiées dans le [centre de messages de Microsoft 365](https://admin.microsoft.com/AdminPortal/) et sur une bannière du projet Microsoft Dynamics Lifecycle Services du client.
+- Cinq jours avant qu’une mise à jour de qualité proactive ne soit appliquée à un environnement, les clients sont informés de la mise à jour.
+- Les clients ne peuvent pas annuler ou reporter les mises à jour de qualité proactives.
+- Les mises à jour de qualité proactives sont installées pendant les [fenêtres de maintenance planifiées](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) spécifiques à la région.
+- Les mises à jour de qualité sont conçues pour avoir un faible risque de problèmes ou de régressions, et cela est pris en charge par les données Microsoft.
+- Microsoft recommande des tests ciblés pour des problèmes spécifiques ou des correctifs spécifiques liés à une mise à jour de qualité proactive.
 
 ## <a name="focus-on-quality-updates"></a>Focus sur les mises à jour de qualité
 
@@ -40,7 +53,7 @@ Plusieurs avancées ont déjà été déployées qui permettent une livraison pr
 
 - **Mise à jour avec des temps d’arrêt quasi nuls** – Pour pousser des environnements plus fréquents, il est essentiel que l’impact sur la disponibilité de l’environnement soit réduit afin de préserver les Contrats de niveau de service (SLA) de Dynamics 365. La mise à jour avec un temps d’arrêt quasi nul a été introduite à l’origine pour aider à améliorer les correctifs mensuels du système d’exploitation en utilisant un groupement de basculement pour activer l’image mise à jour avec un minimum de perturbations. Le mécanisme d’application des mises à jour est amélioré afin qu’il soit encore moins perturbateur, et il couvrira à la fois les correctifs du système d’exploitation et le déploiement des mises à jour de qualité.
 
-Pour les utilisateurs interactifs, une session active peut être interrompue et la nouvelle tentative ira à l’environnement maintenant mis à jour. Avec l’introduction de la [planification des lots basée sur la priorité](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), la planification et le traitement par lots sont récupérés et reprennent immédiatement après la mise à jour. Une planification par lots basée sur les priorités sera mise en place pour les clients avant qu’ils ne commencent à participer à la distribution proactive des mises à jour de qualité pour leurs environnements de production.
+    Pour les utilisateurs interactifs, une session active peut être interrompue et la nouvelle tentative ira à l’environnement maintenant mis à jour. Avec l’introduction de la [planification des lots basée sur la priorité](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), la planification et le traitement par lots sont récupérés et reprennent immédiatement après la mise à jour. Une planification par lots basée sur les priorités sera mise en place pour les clients avant qu’ils ne commencent à participer à la distribution proactive des mises à jour de qualité pour leurs environnements de production.
 
 - **Heures sombres** – Les heures sombres sont définies pour chaque région Azure, et des mises à jour avec temps d’arrêt quasi nuls se produiront pendant la période des heures sombres.
 
@@ -56,9 +69,11 @@ Un ensemble de modifications de processus est en cours de mise en œuvre avant l
 
 - **Schéma** – L’outillage garantira que les versions de mise à jour de qualité incluent uniquement les modifications de schéma pouvant être appliquées pendant que le service est en ligne. Cette approche aidera à préserver la possibilité d’appliquer la mise à jour avec un temps d’arrêt quasi nul.
 - **Contrôle accru des changements** – Actuellement, il existe déjà une étape de processus supplémentaire pour approuver les modifications à inclure dans une mise à jour de qualité. L’examen minutieux de l’étape supplémentaire sera accru pour aider à réduire le potentiel de régressions. Les changements cassants ne sont pas autorisés dans les mises à jour de qualité, et l’examen approfondi des modifications contribuera à garantir que nous atteignons cet objectif.
-- **Visibilité** : nous envoyons des notifications via le centre d’administration, Lifecycle Services (LCS) et d’autres canaux disponibles pour les prochaines mises à jour de qualité proactives. De plus, les équipes de support et les responsables des incidents auront une visibilité sur les endroits où les mises à jour de qualité ont été déployées de manière proactive.
- > [!NOTE]
- > L’équipe Microsoft Communications enquête sur une dégradation continue des outils de messagerie qui empêche la livraison des notifications par e-mail. Veuillez continuer à surveiller le centre de messagerie Microsoft 365 pour les messages d’intégration et de notification.
+- **Visibilité** : des notifications sont envoyées via le centre d’administration, Lifecycle Services et d’autres canaux disponibles pour les prochaines mises à jour de qualité proactives. De plus, les équipes de support et les responsables des incidents auront une visibilité sur les endroits où les mises à jour de qualité ont été déployées de manière proactive.
+
+    > [!NOTE]
+    > L’équipe Microsoft Communications enquête sur une dégradation continue des outils de messagerie qui empêche la livraison des notifications par e-mail. Veuillez continuer à surveiller le centre de messagerie Microsoft 365 pour les messages d’intégration et de notification.
+
 - **Mode sans échec via la version d’évaluation** : la version d’évaluation sera utilisée pour protéger les modifications de code, le cas échéant, dans un correctif de bogue de la mise à jour qualité ou utiliser la version d’évaluation de la fonctionnalité existante pertinente pour le correctif. Si une solution de secours ou la désactivation d’une modification est nécessaire après un déploiement proactif, cela peut être effectué via le système de versions d’évaluation pour éviter d’autres échecs.
 - **Désignation de la synchronisation bac à sable** – Moins de 20 % des clients disposent aujourd’hui de plusieurs bacs à sable et conservent un bac à sable déployé là où la version correspond à la production, pour faciliter la résolution des problèmes. Si un client utilise un bac à sable pour tester une version plus récente que leur version en production, ce bac à sable recevra des mises à jour de qualité vers la version la plus récente.
 
@@ -77,8 +92,8 @@ Pour le moment, les mises à jour de qualité ne ciblent que les bacs à sable. 
 Pour plus d’informations sur les heures sombres pour chaque région, voir [Quelles sont les fenêtre de maintenance planifiées par région ?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 
 ### <a name="proactive-quality-update-release-10028"></a>Version mise à jour de qualité proactive : 10.0.28.
-**Version de l’application : 10.0.1265.89**
-**Dernier article de base de connaissances correspondant : 745340**
+**Version de l’application : 10.0.1265.89**  
+**Dernier article de la base de connaissances correspondant : 745340**
 
 | Station | Régions | Programme terminé| Calendrier bac à sable à venir
 |---|---|---|---|
@@ -89,19 +104,31 @@ Pour plus d’informations sur les heures sombres pour chaque région, voir [Que
 | Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié | Non planifié |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Version mise à jour de qualité proactive : 10.0.29.
-**Version de l’application : 10.0.1326.70**
-**Dernier article de base de connaissances correspondant : 748926**
+**Version de l’application : 10.0.1326.70**  
+**Dernier article de la base de connaissances correspondant : 748926**
 
 | Station | Régions | Programme terminé | Calendrier bac à sable à venir|
 |---|---|---|---|
-| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 14 octobre au 17 octobre 2022 | Du 2 novembre au 5 novembre 2022 |
-| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 15 octobre au 18 octobre 2022 | Du 2 novembre au 5 novembre 2022 |
-| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 16 octobre au 19 octobre 2022 | Du 2 novembre au 5 novembre 2022 |
-| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 17 octobre au 20 octobre 2022 | Du 2 novembre au 5 novembre 2022 |
+| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 14 octobre au 17 octobre 2022, du 2 novembre au 5 novembre 2022 | Du 13 novembre au 16 novembre 2022 |
+| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 15 octobre au 18 octobre 2022, du 2 novembre au 5 novembre 2022 | Du 13 novembre au 16 novembre 2022 |
+| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 16 octobre au 19 octobre 2022, du 2 novembre au 5 novembre 2022 | Du 13 novembre au 16 novembre 2022 |
+| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 17 octobre au 20 octobre 2022, du 2 novembre au 5 novembre 2022 | Du 13 novembre au 16 novembre 2022 |
 | Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié | Non planifié |
 
+### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Version mise à jour de qualité proactive : 10.0.30.
+**Version de l’application : À définir**
+**Dernier article de la base de connaissances correspondant : À définir**
+
+| Station | Régions | Calendrier bac à sable à venir |
+|---|---|---|
+| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 1 décembre au 4 décembre 2022 |
+| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 2 décembre au 5 décembre 2022 |
+| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Nord, USA Est, Émirats arabes unis Centre | Du 3 décembre au 6 décembre 2022 |
+| Station 4 | Europe Ouest, USA Centre, USA Ouest | Du 4 décembre au 7 décembre 2022 |
+| Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié |
+
 > [!IMPORTANT] 
-> Cinq jours à l’avance, Microsoft mettra à jour le programme précédent et enverra des notifications par e-mail à l’ensemble des environnements programmés pour recevoir ces mises à jour de qualité. Le programme précédent s’applique uniquement aux environnements qui ont été informés d’une mise à jour à venir. Pour plus d’informations sur les heures sombres pour chaque région, voir [Quelles sont les fenêtre de maintenance planifiées par région ?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+> Cinq jours à l’avance, Microsoft mettra à jour le programme précédent et enverra une notification pour l’ensemble des environnements programmés pour recevoir ces mises à jour de qualité. Le programme précédent s’applique uniquement aux environnements qui ont été informés d’une mise à jour à venir. Pour plus d’informations sur les heures sombres pour chaque région, voir [Quelles sont les fenêtre de maintenance planifiées par région ?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 >
 > Pour chaque groupe de régions, ou *station*, où une mise à jour de la qualité doit actuellement être déployée, le programme indique une plage de quatre jours. Les mises à jour de qualité commenceront uniquement avec les environnements bac à sable. Ensuite, à mesure que le pourcentage de bacs à sable déployés avec succès augmente, le déploiement dans les environnements de production commencera avec préavis pour les clients.
 > 
@@ -124,13 +151,13 @@ Les étapes suivantes sont une solution temporaire alors que nous continuons à 
 
 Utilisez la base de connaissances n° 745340 pour le train de mise à jour de qualité 10.0.28 et la version de l’application associée 10.0.1265.89.
 
-1. Dans LCS, ouvrez la page **Détails de l’environnement** pour votre bac à sable. 
+1. Dans Lifecycle Services, ouvrez la page **Détails de l’environnement** pour votre bac à sable. 
 2. Dans la section **Mises à jour disponibles**, sélectionnez **Afficher la mise à jour** pour la dernière version de la mise à jour de qualité. 
 3. Exportez la build dans un fichier CSV ou Microsoft Excel.
 4. Dans le fichier exporté, triez les informations en fonction de l’heure (la plus ancienne en premier), puis recherchez la base de connaissances n° 745340 dans la colonne **ID de mise à jour**. Vous devriez à présent pouvoir voir la liste delta des bases de connaissance.
  
- > [!NOTE]
- > L’exportation vers un fichier CSV ou Excel doit avoir lieu avant la mise à jour de l’environnement. Sinon, vous pouvez utiliser un environnement avec une configuration similaire sur laquelle la mise à jour n’est pas installée et suivez les étapes ci-dessus.
+> [!NOTE]
+> L’exportation vers un fichier CSV ou Excel doit avoir lieu avant la mise à jour de l’environnement. Sinon, vous pouvez utiliser un environnement avec une configuration similaire sur laquelle la mise à jour n’est pas installée et suivez les étapes ci-dessus.
 
 [![Exemple d’environnement avec mise à jour qualité.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
@@ -139,8 +166,8 @@ Un problème critique ou une régression est un ou plusieurs événements qui en
 
 Si un seul environnement client est concerné, contactez le support Microsoft pour ouvrir un ticket. Sur la base de la justification, nous arrêterons le déploiement de la mise à jour de la qualité dans tous les autres environnements de ce projet jusqu’à ce que le problème soit atténué.
 
-## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Les clients peuvent-ils toujours appliquer manuellement les mises à jour de correctifs à partir de LCS ?
-Oui. Pour garantir une parité continue avec le fonctionnement des correctifs, les mises à jour de correctifs peuvent toujours être appliquées aux environnements client dans LCS. Cependant, il est important de noter que les correctifs déployés dans le cadre d’une mise à jour de qualité passent par le SDP standard avant le déploiement de la mise à jour. Cela réduit le risque de régressions dues à une meilleure qualité. Nous vous recommandons de choisir une mise à jour de qualité plutôt que d’appliquer manuellement des correctifs pour une fiabilité accrue.
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lifecycle-services"></a>Les clients peuvent-ils toujours appliquer manuellement les mises à jour de correctifs à partir de Lifecycle Services ?
+Oui. Pour garantir une parité continue avec le fonctionnement des correctifs, les mises à jour de correctifs peuvent toujours être appliquées aux environnements client dans Lifecycle Services. Cependant, il est important de noter que les correctifs déployés dans le cadre d’une mise à jour de qualité passent par le SDP standard avant le déploiement de la mise à jour. Cela réduit le risque de régressions dues à une meilleure qualité. Nous vous recommandons de choisir une mise à jour de qualité plutôt que d’appliquer manuellement des correctifs pour une fiabilité accrue.
 
 ## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>Les clients peuvent-ils installer proactivement une mise à jour de qualité avant la date prévue ?
 Oui. Vous pouvez installer une mise à jour de qualité de manière proactive. Microsoft ignorera la mise à jour si la version de build actuelle de l’environnement est égale ou supérieure à la mise à jour de qualité en question.
@@ -149,7 +176,7 @@ Oui. Vous pouvez installer une mise à jour de qualité de manière proactive. M
 - Les mises à jour de qualité ne sont pas appliquées aux environnements de production si une mise à jour de service imminente est prévue dans la semaine suivant la date à laquelle la mise à jour de qualité est prévue.
 - Si un environnement sandbox a la même version de build ou une version supérieure à la mise à jour de qualité imminente, il sera ignoré.
 - Si un environnement de production a la même version de build ou une version supérieure à la mise à jour de qualité imminente, il sera ignoré.
-- Si un sandbox a la même version de build ou une version supérieure en raison d’une mise à jour de qualité ou d’une mise à jour manuelle de la production, la production recevra toujours la version planifiée de la mise à jour mensuelle du service. Si vous ne souhaitez pas que l’environnement de production planifié soit mis à jour vers la version de mise à jour du service, vous pouvez interrompre la mise à jour du service à partir de LCS. 
+- Si un sandbox a la même version de build ou une version supérieure en raison d’une mise à jour de qualité ou d’une mise à jour manuelle de la production, la production recevra toujours la version planifiée de la mise à jour mensuelle du service. Si vous ne souhaitez pas que l’environnement de production planifié soit mis à jour vers la version de mise à jour du service, vous pouvez interrompre la mise à jour du service à partir de Lifecycle Services. 
 - Nous vous recommandons d’utiliser la dernière version de mise à jour de qualité pour tester vos modifications pour une mise à jour de service à venir pour une meilleure stabilité et de meilleurs résultats.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Si un environnement a une action planifiée à venir et une mise à jour de qualité planifiée dans la même fenêtre de maintenance, recevra-t-il toujours la mise à jour de qualité ?
@@ -164,7 +191,7 @@ Le plan pour les clients soumis à la validation et à la réglementation de la 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Quelles versions des mises à jour de service sont prises en charge pour ces mises à jour de qualité ?
 Les clients de toutes les mises à jour de service prises en charge sont admissibles aux mises à jour de qualité. 
 
-## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Les déploiements d’applications de finances et d’opérations avec des composants Retail nécessitent généralement un travail supplémentaire en plus du redéploiement de MPOS. Quel sera l’impact de ces mises à jour de qualité sur RetailSDK ? 
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retail-sdk"></a>Les déploiements d’applications de finances et d’opérations avec des composants Retail nécessitent généralement un travail supplémentaire en plus du redéploiement de MPOS. Quel sera l’impact de ces mises à jour de qualité sur Retail SDK ? 
 Comme la nature du correctif lui-même ne change pas dans la charge utile des mises à jour de qualité, nous ne prévoyons aucun impact supplémentaire spécifiquement lié aux composants Retail.
 
 ## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>Y a-t-il un impact sur les environnements hébergés dans le cloud (CHE) ? 

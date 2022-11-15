@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335343"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740520"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -33,7 +33,7 @@ Cet article décrit chaque méthode en détail.
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Activer les fonctionnalités décrites dans cet article
 
-La plupart des fonctionnalités de commandes prévisionnelles sont disponibles dans toutes les installations standard de Microsoft Dynamics 365 Supply Chain Management qui utilisent l’optimisation de la planification. Cependant, certaines des fonctionnalités décrites dans cet article doivent être activées dans la gestion des fonctionnalités avant de pouvoir être utilisées.
+La plupart des fonctionnalités de commandes prévisionnelles sont disponibles dans toutes les installations standard de Microsoft Dynamics 365 Supply Chain Management. Cependant, certaines des fonctionnalités décrites dans cet article doivent être activées dans la gestion des fonctionnalités avant de pouvoir être utilisées.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activer ou désactiver la confirmation de la mise en parallèle des commandes prévisionnelles
 
@@ -91,7 +91,7 @@ Pour confirmer manuellement les commandes prévisionnelles, recherchez et sélec
 
 ## <a name="auto-firm-planned-orders"></a>Confirmation automatique des commandes prévisionnelles
 
-La confirmation automatique vous permet de confirmer des commandes prévisionnelles dans le cadre du processus de planification. Vous pouvez définir une plage horaire de confirmation par défaut pour les groupes de couverture, les éléments individuels et les combinaisons d’éléments et de plans directeurs. Ensuite, pendant les cycles de planification générale, les commandes prévisionnelles seront automatiquement confirmées si la date de commande se situe dans la plage de temps spécifiée pour la confirmation. Les commandes prévisionnelles générées par l’optimisation de la planification et l’opération de planification principale intégrée gèrent différemment la date de la commande (c’est-à-dire la date de début).
+La confirmation automatique vous permet de confirmer des commandes prévisionnelles dans le cadre du processus de planification. Vous pouvez définir une plage horaire de confirmation par défaut pour les groupes de couverture, les éléments individuels et les combinaisons d’éléments et de plans directeurs. Ensuite, pendant les cycles de planification générale, les commandes prévisionnelles seront automatiquement confirmées si la date de commande se situe dans la plage de temps spécifiée pour la confirmation. Les commandes prévisionnelles générées par l’Optimisation de la planification et le moteur de planification générale déprécié gèrent différemment la date de la commande (c’est-à-dire la date de début).
 
 > [!NOTE]
 > La confirmation automatique de commandes fournisseur prévisionnelles n’est possible que si les articles sont associés à un fournisseur.
@@ -99,13 +99,13 @@ La confirmation automatique vous permet de confirmer des commandes prévisionnel
 > Les commandes dérivées (c’est-à-dire les commandes d’achat de sous-traitance) confirmées afficheront un statut *En cours de révision* si le suivi des modifications de dossier est activé.
 
 > [!IMPORTANT]
-> Avant que la caractéristique décrite dans cette section puisse être utilisée avec Optimisation de la planification, la caractéristique [*Confirmation automatique de l’Optimisation de la planification*](#enable-features) doit être activée dans votre système, comme décrit au début de cet article. La confirmation automatique peut toujours être utilisée avec le moteur de planification principal intégré.
+> Avant que la caractéristique décrite dans cette section puisse être utilisée avec Optimisation de la planification, la caractéristique [*Confirmation automatique de l’Optimisation de la planification*](#enable-features) doit être activée dans votre système, comme décrit au début de cet article. La confirmation automatique peut toujours être utilisée avec le moteur de planification générale déprécié.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmation automatique avec l’option Optimisation de la planification par rapport au moteur de planification intégré
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Confirmation automatique avec l’option Optimisation de la planification par rapport au moteur de planification générale déprécié
 
-L’option Optimisation de planification et le moteur de planification intégré peuvent être utilisés pour confirmer automatiquement les commandes prévisionnelles. Toutefois, il existe des différences importantes. Par exemple, l’option Optimisation de la planification utilise la date de commande (à savoir la date de début) pour déterminer quelles commandes prévisionnelles confirmer, tandis que le moteur de planification intégré utilise la date de demande (à savoir la date de fin). Le tableau suivant résume les différences.
+L’option Optimisation de planification et le moteur de planification générale déprécié peuvent être utilisés pour confirmer automatiquement les commandes prévisionnelles. Toutefois, il existe des différences importantes. Par exemple, l’option Optimisation de la planification utilise la date de commande (à savoir la date de début) pour déterminer quelles commandes prévisionnelles confirmer, tandis que le moteur de planification générale déprécié utilise la date de demande (à savoir la date de fin). Le tableau suivant résume les différences.
 
-| Fonctionnalité | Service Optimisation de la planification | Moteur de planification intégré |
+| Fonction | Optimisation de la planification | Moteur de planification générale déprécié |
 |---|---|---|
 | **Base de la date** | La confirmation automatique est basée sur la date de commande (date de début). | La confirmation automatique est basée sur la date de besoin (date de fin). |
 | **Délai** | Puisque la date de commande (date de début) déclenche la confirmation, vous n’avez pas à tenir compte du délai d’exécution dans le cadre de la plage de confirmation. | Pour assurer que les commandes sont confirmées en temps voulu, la plage de confirmation doit être plus longue que le délai d’exécution. |

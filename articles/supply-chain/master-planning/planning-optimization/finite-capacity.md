@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689691"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740084"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Planification et programmation de la capacité finie
 
@@ -28,9 +28,8 @@ La capacité finie est une approche qui vous aide à comprendre quelle quantité
 
 La planification et la programmation de la capacité finie créent un programme plus réaliste pour les processus de production que celui créé par l’approche de chargement infini. Si la capacité des ressources n’est pas suffisante, la date de livraison sera retardée et la tâche sera planifiée lorsque la capacité sera suffisante.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Prise en charge de l’optimisation de la planification pour la planification de la capacité finie
-
-La planification et la programmation de la capacité finie fonctionnent à peu près de la même manière, que vous utilisiez l’optimisation de la planification ou le moteur de planification intégré. Cependant, l’optimisation de la planification n’utilise pas le paramètre de limite **Temps de goulot d’étranglement**. Lorsque vous utilisez l’optimisation de la planification, les ressources de goulot d’étranglement sont toujours programmées en utilisant la même plage de gestion que pour les ressources hors goulot d’étranglement (comme indiqué par la plage de gestion de la capacité finie).
+> [!NOTE]
+> La planification et la programmation de la capacité finie fonctionnent à peu près de la même manière, que vous utilisiez l’optimisation de la planification ou le moteur de planification générale déprécié. Cependant, l’optimisation de la planification n’utilise pas le paramètre de limite **Temps de goulot d’étranglement**. Lorsque vous utilisez l’optimisation de la planification, les ressources de goulot d’étranglement sont toujours programmées en utilisant la même plage de gestion que pour les ressources hors goulot d’étranglement (comme indiqué par la plage de gestion de la capacité finie).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Configurer la fonctionnalité de capacité finie
 

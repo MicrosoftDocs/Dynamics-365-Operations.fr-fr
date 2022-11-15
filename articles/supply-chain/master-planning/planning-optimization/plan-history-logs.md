@@ -1,6 +1,6 @@
 ---
 title: Afficher l’historique du plan et les journaux de planification
-description: Cet article explique comment afficher l’historique des tâches de planification déclenchées par la fonctionnalité d’Optimisation de la planification.
+description: Cet article explique comment afficher l’historique des tâches de planification.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863938"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740929"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Afficher l’historique du plan et les journaux de planification
 
 [!include [banner](../../includes/banner.md)]
 
-Cet article explique comment afficher l’historique des tâches de planification déclenchées par la fonctionnalité d’Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
+Cet article explique comment afficher l’historique des tâches de planification dans Microsoft Dynamics 365 Supply Chain Management.
 
 Pour afficher l’historique d’un plan, ouvrez le plan en accédant à **Planification** \> **Paramétrage** \> **Plans** \> **Plans généraux** et en sélectionnant **Historique**. L’historique répertorie toutes les tâches du plan sélectionné. La liste inclut les tâches terminées et actives.
 
@@ -47,14 +47,6 @@ Pour afficher les erreurs de confirmation automatique et d’autres avertissemen
     - Si vous utilisez le formulaire hérité : dans le volet Actions, sur l’onglet **Tâche de traitement par lots**, sélectionnez **Journal**.
 
 1. Sélectionnez **Détails du message** pour ouvrir le volet **Détails du message**, où vous pouvez afficher tous les avertissements et les erreurs qui ont été capturés pendant le traitement.
-
-## <a name="related-resources"></a>Ressources associées
-
-- [Vue d’ensemble de l’optimisation de la planification](planning-optimization-overview.md)
-- [Mise en route de l’optimisation de la planification](get-started.md)
-- [Analyse de concordance d’optimisation de la planification](planning-optimization-fit-analysis.md)
-- [Appliquer les filtres à un plan](plan-filters.md)
-- [Annuler une tâche de planification](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Exigences nettes et informations d’origine des besoins avec l’optimisation de la planification
-description: Cet article fournit des informations sur les besoins nets calculés et les informations d’origine des besoins dans l’optimisation de la planification.
+title: Besoins nets et informations sur l’origine des besoins
+description: Cet article fournit des informations sur les besoins nets calculés et les informations d’origine des besoins.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888526"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748436"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Exigences nettes et informations d’origine des besoins avec l’optimisation de la planification
+# <a name="net-requirements-and-pegging-information"></a>Besoins nets et informations sur l’origine des besoins
 
 [!include [banner](../../includes/banner.md)]
 
-Lorsque vous exécutez la planification dans l’optimisation de la planification, il est important que vous compreniez sa sortie, comment l’offre existante couvre la demande et pourquoi une offre spécifique a été générée. Vous pouvez utiliser la page **Besoins nets** pour mieux comprendre les besoins calculés générés par la planification générale.
+Quand vous exécutez la planification dans la planification intégrée, il est important que vous compreniez sa sortie, comment l’offre existante couvre la demande et pourquoi une offre spécifique a été générée. Vous pouvez utiliser la page **Besoins nets** pour mieux comprendre les besoins calculés générés par la planification générale.
 
-La page **Besoins nets** affiche les besoins nets que l’optimisation de la planification a calculés pour le produit. Elle affiche également les paramètres de couverture qui ont été appliqués lors de l’exécution de la planification, une ventilation des totaux des besoins par type de transaction et des informations sur l’origine des besoins.
+La page **Besoins nets** affiche les besoins nets que la planification générale a calculés pour le produit. Elle affiche également les paramètres de couverture qui ont été appliqués lors de l’exécution de la planification, une ventilation des totaux des besoins par type de transaction et des informations sur l’origine des besoins.
 
 ## <a name="open-the-net-requirements-page"></a>Ouvrir la page des besoins nets
 
@@ -64,8 +64,8 @@ La partie inférieure de la page contient les onglets suivants :
 Les commandes suivantes sont disponibles dans le volet Actions :
 
 - **Mettre à jour \> Plan directeur** – Exécuter la planification directement depuis la page **Besoins nets**.
-- **Mettre à jour \> Planification prévisionnelles** – Exécuter la planification prévisionnelle directement depuis la page **Besoins nets**. L’optimisation de la planification ne prend pas encore en charge cette opération.
-- **Mettre à jour \> Planification de la continuité** – Exécutez la planification de la continuité directement à partir de la page **Besoins nets**. L’optimisation de la planification ne prend pas encore en charge cette opération.
+- **Mettre à jour \> Planification prévisionnelles** – Exécuter la planification prévisionnelle directement depuis la page **Besoins nets**. L’optimisation de la planification ne prend pas en charge cette opération.
+- **Mettre à jour \> Planification de la continuité** – Exécutez la planification de la continuité directement à partir de la page **Besoins nets**. L’optimisation de la planification ne prend pas en charge cette opération.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
@@ -133,8 +133,6 @@ Ensuite, vous ouvrirez la page **Besoins nets** pour le produit *1000* pour exam
     ![Informations sur l’origine des besoins pour la commande client](media/pegging-planned-purchase-order.png "Informations sur l’origine des besoins pour la commande client")
 
 > [!NOTE]
-> Étant donné que l’optimisation de la planification ne prend pas encore en charge certaines fonctionnalités, les types de besoins *Stock de Sécurité* et *Lot expiré* ne sont pas inclus dans la page **Besoins nets**. Pour plus d’informations, voir [Analyse de concordance d’Optimisation de la planification](planning-optimization-fit-analysis.md).
->
-> Si vous utilisez le moteur de planification intégré, les produits contrôlés par lots sont pris en charge. Pour les produits contrôlés par lots, le stock disponible expiré est indiqué sur la page **Besoins nets**, mais elle n’est pas liée aux besoins de la demande. Les lignes en stock expirées de ce type sont indiquées comme lignes de besoins *Lot expiré* sur la page **Besoins nets**.
+> Le besoin *Stock de Sécurité* n’est pas inclus sur la page **Besoins nets**.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

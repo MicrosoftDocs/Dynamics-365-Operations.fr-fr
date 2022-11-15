@@ -1,6 +1,6 @@
 ---
 title: Méthodes de réapprovisionnement et modification des quantités
-description: Cet article fournit des informations sur les méthodes de réapprovisionnement dans l’optimisation de la planification. Elle explique également comment la quantité de commandes multiples pour un produit affecte le résultat.
+description: Cet article fournit des informations sur les méthodes de réapprovisionnement. Elle explique également comment la quantité de commandes multiples pour un produit affecte le résultat.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873693"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739754"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Méthodes de réapprovisionnement et modification des quantités
 
 [!include [banner](../../includes/banner.md)]
 
-Cet article fournit des informations sur les méthodes de réapprovisionnement dans l’optimisation de la planification. Elle explique également comment la quantité de commandes multiples pour un produit affecte le résultat.
+Cet article fournit des informations sur les méthodes de réapprovisionnement. Elle explique également comment la quantité de commandes multiples pour un produit affecte le résultat.
 
 Les méthodes de réapprovisionnement sont également appelées méthodes de couverture et méthodes de calibrage.
 
 ## <a name="coverage-codes"></a>Codes de couverture
 
-L’optimisation de la planification peut être configurée pour utiliser plusieurs méthodes de réapprovisionnement. Les méthodes de réapprovisionnement sont les techniques utilisées par le système pour calculer les besoins d’un produit. Les méthodes de réapprovisionnement sont définies par des codes de couverture que vous pouvez paramétrer sur le groupe de couverture ou sur le produit.
+La planification générique peut être configurée pour utiliser plusieurs méthodes de réapprovisionnement. Les méthodes de réapprovisionnement sont les techniques utilisées par le système pour calculer les besoins d’un produit. Les méthodes de réapprovisionnement sont définies par des codes de couverture que vous pouvez paramétrer sur le groupe de couverture ou sur le produit.
 
-Les codes de couverture suivants peuvent être utilisés dans l’optimisation de la planification :
+Les codes de couverture suivants peuvent être utilisés :
 
 - **Période** : méthode de réapprovisionnement qui associe toutes les demandes pour une période en une commande du produit. La commande sera planifiée pour le premier jour de la période et sa quantité répondra aux besoins nets pendant la période définie. La période commence avec la première demande du produit et couvre la plage de temps définie. La période suivante commencera avec les prochains besoins du produit. Le code de couverture *Période* est souvent utilisé pour les épuisements de stock non prévisibles, les produits influencés par la saison ou les produits à coût élevé. L’illustration suivante présente un exemple.
 
@@ -64,13 +64,13 @@ Sur la page **Paramètre de commande par défaut** pour un produit lancé, vous 
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Exemples de réapprovisionnement utilisant le code de couverture Min./Max.
 
-Si vous ne spécifiez pas de valeur dans le champ **Multiple** d’un produit sur la page **Paramètre de commande par défaut**, et si vous utilisez la méthode de réapprovisionnement *Min./Max.* l’optimisation de la planification réapprovisionnera le stock jusqu’à un niveau spécifique lorsque le niveau de stock disponible prévu est inférieur à un seuil spécifique.
+Si vous ne spécifiez pas de valeur dans le champ **Multiple** d’un produit sur la page **Paramètre de commande par défaut**, et si vous utilisez la méthode de réapprovisionnement *Min./Max.* la planification générale réapprovisionnera le stock jusqu’à un niveau spécifique lorsque le niveau de stock disponible prévu est inférieur à un seuil spécifique.
 
 Si vous définissez une quantité multiple pour un produit, la méthode de réapprovisionnement *Min./Max.* modifiera son comportement et prendra en compte la valeur **Multiple**.
 
-En d’autres termes, l’optimisation de la planification réapprovisionnera toujours le stock jusqu’au niveau maximum défini lorsque le niveau de stock prévu est inférieur au niveau minimum défini. Cependant, la quantité de réapprovisionnement doit être un multiple de la valeur **Multiple**.
+En d’autres termes, la planification générale réapprovisionnera toujours le stock jusqu’au niveau maximum défini lorsque le niveau de stock prévu est inférieur au niveau minimum défini. Cependant, la quantité de réapprovisionnement doit être un multiple de la valeur **Multiple**.
 
-Si la quantité de réapprovisionnement (la différence entre le niveau maximum et le niveau de stock prévu) n’est pas un multiple de la quantité multiple définie, l’optimisation de la planification utilisera la première valeur possible qui, avec le niveau de stock prévu, sera inférieure au niveau maximal. Si la somme est inférieure au niveau minimum, l’optimisation de la planification utilisera la première valeur qui, avec le stock prévu, sera supérieure au niveau maximum.
+Si la quantité de réapprovisionnement (la différence entre le niveau maximum et le niveau de stock prévu) n’est pas un multiple de la quantité multiple définie, la planification générale utilisera la première valeur possible qui, avec le niveau de stock prévu, sera inférieure au niveau maximal. Si la somme est inférieure au niveau minimum, la planification générale utilisera la première valeur qui, avec le stock prévu, sera supérieure au niveau maximum.
 
 Les sous-sections suivantes fournissent quelques exemples qui montrent comment la quantité de commande multiple d’un produit affecte le résultat *Min./Max.* .
 

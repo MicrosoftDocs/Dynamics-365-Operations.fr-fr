@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335403"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739896"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Planification avec sélection des ressources en fonction des capacités
 
@@ -43,7 +43,7 @@ Pour affecter des capacités à une ressource d’opération, utilisez le raccou
 - **Efficace** : spécifiez la première date à laquelle s’applique l’affectation de la ressource ou de la capacité. Lors de la planification, le système n’utilisera pas une ressource ou une capacité dont l’affectation de capacité a expiré, même si cette ressource répond par ailleurs aux exigences.
 - **Expiration** : spécifiez la dernière date à laquelle s’applique l’affectation de la ressource ou de la capacité. Lors de la planification, le système n’utilisera pas une ressource ou une capacité dont l’affectation de capacité a expiré, même si cette ressource répond par ailleurs aux exigences.
 - **Niveau** : spécifiez le niveau de compétence que la ressource doit avoir pour la capacité. Ensuite, si vous spécifiez une valeur **Niveau minimum requis** pour le besoin de ressource ou de capacité, le moteur de planification tient compte du niveau de compétence lors de la sélection de la ressource. Le système sélectionne ensuite uniquement les ressources dotées de la capacité requise à un niveau qui est égal à ou supérieur au niveau minimal spécifié dans la demande source.
-- **Priorité** : ce champ n’est pas encore pris en charge par l’optimisation de la planification. Cependant, si vous utilisez le moteur de planification intégré, vous pouvez utiliser le champ **Priorité** dans l’affectation de ressource ou de capacité pour définir la priorité de la ressource. Puis, si l’option *Priorité* est sélectionnée dans le champ **Sélection de ressource primaire** de la page **Paramètres de planification**, le système sélectionne tout d’abord la ressource dotée de la priorité la plus élevée (soit la valeur numérique la plus faible dans le champ **Priorité**) lors de la planification.
+- **Priorité** : ce champ n’est pas encore pris en charge par l’optimisation de la planification. Cependant, si vous utilisez le moteur de planification générale déprécié, vous pouvez utiliser le champ **Priorité** dans l’affectation de ressource ou de capacité pour définir la priorité de la ressource. Puis, si l’option *Priorité* est sélectionnée dans le champ **Sélection de ressource primaire** de la page **Paramètres de planification**, le système sélectionne tout d’abord la ressource dotée de la priorité la plus élevée (soit la valeur numérique la plus faible dans le champ **Priorité**) lors de la planification.
 
 ## <a name="example"></a>Exemple
 

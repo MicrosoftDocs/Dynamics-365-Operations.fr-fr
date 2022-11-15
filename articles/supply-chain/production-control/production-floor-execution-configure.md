@@ -2,7 +2,7 @@
 title: Configurer l’interface d’exécution de l’atelier de production
 description: Cet article décrit comment créer une ou plusieurs configurations pour l’interface d’exécution de l’atelier de production. Quand vous ouvrez l’interface d’exécution de l’atelier de production, elle charge automatiquement une configuration sélectionnée et un filtre de tâches spécifiques au navigateur et à l’appareil. Dans la configuration, vous définissez les stratégies qui doivent être applicables pour une utilisation spécifique.
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708723"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748684"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -85,17 +85,19 @@ Cette fonctionnalité offre une expérience améliorée pour l’affichage des l
 
 Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Afficher les numéros de série, de lots et de plaques d'immatriculation complets dans l’interface d’exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-
 À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Afficher les numéros de série, de traitements par lots et de contenants complets dans l’interface d’exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="register-material-consumption"></a>Enregistrer la consommation de matières
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 Cette fonctionnalité permet aux travailleurs d’utiliser l’interface d’exécution de l’atelier de production pour enregistrer la consommation de matériaux, les numéros de lot et les numéros de série. Certains fabricants, en particulier ceux des industries de transformation, doivent enregistrer explicitement la quantité de matière consommée pour chaque lot ou ordre de fabrication. Par exemple, les travailleurs peuvent utiliser une balance pour peser la quantité de matière consommée pendant qu’ils travaillent. Pour assurer une traçabilité totale des matériaux, ces organisations doivent également enregistrer les numéros de lots consommés au moment de la fabrication de chaque produit.
 
 Il existe deux versions de cette fonctionnalité. L’une prend en charge les articles qui ne *sont pas* activés pour utiliser les processus de gestion des entrepôts. L’autre prend en charge les éléments qui *sont* activés pour utiliser WMS. Pour utiliser cette fonctionnalité, activez une ou les deux fonctionnalités suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (dans cet ordre), selon que vous avez ou non des éléments activés pour WMS :
 
 - *Enregistrer la consommation des matériaux sur l’interface d’exécution de l’atelier de production (autre que WMS)*
-- *Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)*
+- *(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)*
 
 > [!IMPORTANT]
 > Vous pouvez utiliser la fonctionnalité non-WMS seule. Cependant, si vous utilisez WMS, vous devez activer les deux fonctionnalités.
@@ -138,6 +140,25 @@ Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [
 
 - *Configuration supplémentaire sur l’interface d’exécution de l’atelier de production*
 
+### <a name="enable-the-my-jobs-tab"></a>Activer l’onglet Mes tâches
+
+L’onglet **Mes tâches** permettent aux collaborateurs de visualiser facilement toutes les tâches non démarrées et inachevées qui leur sont spécifiquement affectées. C’est utile dans les entreprises où les tâches sont parfois ou toujours attribuées à des collaborateurs spécifiques (ressources humaines) au lieu d’autres types de ressources (comme les machines).
+
+Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+
+- *Onglet Mes tâches sur l’interface d’exécution de l’atelier de production*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>Activer l’utilisation d’un pavé numérique sur la page de connexion
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Cette fonction permet aux administrateurs d’ajouter un contrôle de pavé numérique à la page de connexion pour l’interface d’exécution de l’atelier de production. Les travailleurs peuvent ensuite se connecter en utilisant le pavé numérique pour saisir leur ID de badge ou leur matricule.
+
+Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+
+- *Activer l’utilisation d’un pavé numérique sur la page de connexion*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Utiliser les configurations de l’exécution de l’atelier de production
 
 Pour créer et gérer des configurations de l’exécution de l’atelier de production, accédez à **Contrôle de la production \> Configuration \> Contrôle et suivi de la production \> Configurer l’exécution de l’atelier de production**. La page **Configurer l’exécution de l’atelier de production** affiche une liste des configurations existantes. Sur cette page, vous pouvez effectuer l’une des actions suivantes :
@@ -161,6 +182,7 @@ Les paramètres suivants sont disponibles dans le raccourci **Général** :
 - **Verrouiller l’employé** – Quand cette option est définie sur *Non*, les travailleurs seront déconnectés immédiatement après avoir effectué un enregistrement (comme un nouveau travail). L’interface retournera ensuite à la page de connexion. Quand cette option est définie sur *Oui*, les collaborateurs resteront connectés à l’interface d’exécution de l’atelier de production. Cependant, un collaborateur peut se déconnecter manuellement afin qu’un autre collaborateur puisse se connecter pendant que l’interface d’exécution de l’atelier de production continue de s’exécuter sous le même compte d’utilisateur système. Pour plus d’informations sur ces types de compte, voir [Utilisateurs affectés](config-job-card-device.md#assigned-users).
 - **Utiliser l’heure réelle d’enregistrement** – Définissez cette option sur *Oui* pour définir l’heure de chaque nouvel enregistrement sur l’heure exacte à laquelle le collaborateur a soumis l’enregistrement. Quand cette option est définie sur *Non*, l’heure de connexion est utilisée à la place. Vous souhaiterez généralement définir cette option sur *Oui* si vous avez défini les options **Verrouiller le collaborateur** et/ou **Collaborateur unique** sur *Oui* dans les cas où les collaborateurs restent souvent connectés pendant de longues périodes.
 - **Collaborateur unique** – Définissez cette option sur *Oui* si un seul collaborateur utilise chaque interface d’exécution de l’atelier de production sur laquelle cette configuration est active. Quand cette option est définie sur *Oui*, l’option **Verrouiller le collaborateur** est automatiquement définie sur *Oui*. De plus, ce paramètre supprime le besoin (et la capacité) pour le collaborateur de se connecter à l’aide d’un ID badge (ou autre ID similaire). Au lieu de cela, le collaborateur se connecte à Microsoft Dynamics 365 Supply Chain Management à l’aide d’un compte utilisateur système lié à un collaborateur *à temps enregistré* (issu de la table *collaborateurs*) et se connecte à l’interface d’exécution de l’atelier de production en tant que collaborateur en même temps.
+- **Activer le pavé numérique** : définissez cette option sur *Oui* pour ajouter un pavé numérique à l’écran de connexion, ce qui permet aux travailleurs de saisir leur ID de badge ou leur matricule en utilisant un pavé numérique tactile. Définissez cette option sur *Non* pour masquer le pavé numérique.
 - **Autoriser le verrouillage de l’écran tactile** – Définissez cette option sur *Oui* pour permettre aux collaborateurs de verrouiller l’écran tactile de l’interface d’exécution de l’atelier de production afin de pouvoir le désinfecter. Quand cette option est définie sur *Oui*, un bouton **Verrouiller l’écran pour la désinfection** est ajouté à la page de connexion. Quand un collaborateur sélectionne ce bouton, l’écran tactile est verrouillé temporairement pour empêcher toute entrée involontaire. Un compte à rebours est également affiché. Le collaborateur peut ensuite nettoyer en toute sécurité l’appareil et l’écran. Une fois le compte à rebours terminé, l’écran tactile est déverrouillé automatiquement.
 - **Durée de verrouillage de l’écran** – Quand l’option **Autoriser le verrouillage de l’écran tactile** est définie sur *Oui*, utilisez cette option pour spécifier le nombre de secondes pendant lesquelles l’écran tactile doit être verrouillé pour la désinfection. La durée doit être un nombre compris entre 5 et 120 secondes.
 - **Générer un contenant** – Définissez cette option sur *Oui* pour générer un nouveau contenant chaque fois qu’un collaborateur utilise l’interface d’exécution de l’atelier de fabrication pour effectuer une déclaration de fin. Le numéro du contenant est généré à partir d’une séquence de numéros configurée sur la page **Paramètres de gestion de l’entrepôt**. Quand cette option est définie sur *Non*, les collaborateurs doivent spécifier un contenant existant quand  ils font une déclaration de fin.

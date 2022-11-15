@@ -2,7 +2,7 @@
 title: Vue d’ensemble des paiements omnicanaux
 description: Cet article fournit une vue d’ensemble des paiements omnicanaux dans Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881707"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746123"
 ---
 # <a name="omni-channel-payments-overview"></a>Vue d’ensemble des paiements omnicanaux
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Cet article fournit une vue d’ensemble des paiements omnicanaux dans Dynamics 365 Commerce. Elle inclut une liste complète des scénarios, des informations sur la fonctionnalité, du paramétrage, et de la résolution des problèmes pris en charge, et des descriptions de certains problèmes habituels.
 
@@ -169,9 +170,9 @@ Procédez comme suit pour exécuter le scénario.
 6. Dans la barre de recherche, entrez **Seattle**, puis sélectionnez le magasin de **Seattle** pour le prélèvement. 
 7. Sélectionnez **OK** pour accepter la date actuelle comme date de prélèvement.
 9. Sélectionner **Carte de paiement** pour initier le paiement.
-10. Entrez le paiement par carte pour le montant dû pour l’acompte. 
+10. Entrez le paiement par carte pour le montant dû pour l’acompte.
 11. Terminez le paiement de l’acompte sur le terminal de paiement. 
-12. Une fois l’acompte payé, sélectionnez l’option pour utiliser la même carte pour l’exécution, et attendez que la commande soit terminée. 
+12. Une fois l’acompte payé, sélectionnez l’option pour utiliser la même carte pour l’exécution, et attendez que la commande soit terminée. Si 100 % de l’acompte est payé (dans l’étape 10 ci-dessus), les fonds sont capturés immédiatement sur la carte et un jeton d’autorisation ne sera pas disponible à la facturation car les fonds ont déjà été capturés et suivis comme payés.
 13. Démarrez le POS pour le magasin de Seattle.
 14. Dans le PDV, sur la page d’accueil, sélectionnez l’opération **Commandes à prélever** pour afficher les commandes à prélever en magasin. 
 15. Sélectionnez une ou plusieurs lignes de la commande créé dans la vitrine de référence, puis sélectionnez **Prélever**.
@@ -198,7 +199,7 @@ Procédez comme suit pour exécuter le scénario.
 8. Sélectionner **Carte de paiement** pour initier le paiement.
 9. Entrez le paiement par carte pour le montant dû pour l’acompte. 
 10. Terminez le paiement de l’acompte sur le terminal de paiement. 
-11. Une fois l’acompte payé, sélectionnez l’option pour utiliser la même carte pour l’exécution, et attendez que la commande soit terminée.
+11. Une fois l’acompte payé, sélectionnez l’option pour utiliser la même carte pour l’exécution, et attendez que la commande soit terminée. Si 100 % de l’acompte est payé (dans l’étape 9 ci-dessus), les fonds sont prélevés immédiatement sur la carte et un jeton d’autorisation ne sera pas disponible à la facturation car les fonds ont déjà été prélevés et suivis comme payés.
 
 Lorsque la commande est prélevée, emballée et facturée dans le back-office, les détails de paiement fournis dans le système POS sont utilisés pour capturer les fonds pour les marchandises expédiées au client. 
 
@@ -225,7 +226,7 @@ Un client qui vient au magasin pour prélever une commande a la possibilité d�
 
 ### <a name="invalid-authorizations"></a>Autorisations non valides
 
-Si la carte utilisée pour créer une commande n’est plus valide, lorsque des produits sont sélectionnés pour un prélèvement, la demande de capture de paiement échoue. Le connecteur de paiement POS essaie ensuite de créer une autorisation et de capturer à l’aide des mêmes informations de carte. Si la nouvelle autorisation ou capture échoue, le caissier est informé que le paiement ne peut pas être traité. Le caissier doit alors obtenir un nouveau paiement du client. 
+Si la carte utilisée pour créer une commande n’est plus valide, lorsque des produits sont sélectionnés pour un prélèvement, la demande de capture de paiement échoue. Le connecteur de paiement POS essaie ensuite de créer une autorisation et de capturer à l’aide des mêmes informations de carte. Si la nouvelle autorisation ou capture échoue, le caissier est informé que le paiement n’a pas pu être traité. Le caissier doit alors obtenir un nouveau paiement du client. 
 
 ### <a name="multiple-available-payments"></a>Plusieurs paiements disponibles
 
