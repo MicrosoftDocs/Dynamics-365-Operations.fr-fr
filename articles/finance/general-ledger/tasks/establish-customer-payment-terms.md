@@ -2,7 +2,7 @@
 title: Établir les conditions de paiement client
 description: Cette procédure définit un escompte de règlement et une date d’échéance.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065706"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752774"
 ---
 # <a name="establish-customer-payment-terms"></a>Établir les conditions de paiement client
 
@@ -34,7 +34,11 @@ Cette procédure définit un escompte de règlement et une date d’échéance. 
 6. Entrez une date dans le champ **Jour du mois**. La date doit être entrée sous forme de numéro, par exemple « 10 » et non en tant que « 10ème ». 
 7. Cliquez sur **Enregistrer**.
 8. Fermez la page.
-9. Accédez à **Volet de navigation > Modules > Comptabilité client > Paramétrage des paiements > Conditions de paiement**.
+9. Accédez à **Volet de navigation > Modules > Comptabilité client > Paramétrage des paiements > Conditions de paiement**. 
+
+>[!NOTE] 
+>Si les **Conditions de paiement** sont définies sur **Espèces**, le champ **Paiement en espèces** de la page **Conditions de paiement** doit être défini sur **Non**.
+
 10. Cliquez sur **Nouveau**. Les **conditions de paiement** sont utilisées pour définir la manière dont les dates d’échéance sont calculées. Le paramétrage de date d’escompte de règlement est défini dans une page indépendante. 
 11. Entrez un ID dans le champ **Conditions de paiement**.
 12. Entrez une description dans le champ **Description**.

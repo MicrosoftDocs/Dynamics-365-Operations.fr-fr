@@ -1,6 +1,6 @@
 ---
 title: Planification avec des quantités disponibles négatives
-description: Cet article explique comment une quantité disponible négative est gérée quand vous utilisez la fonctionnalité d’optimisation de la planification.
+description: Cet article explique comment les quantités disponibles négatives sont gérées.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856133"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741120"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planification avec des quantités disponibles négatives
 
@@ -29,7 +29,7 @@ ms.locfileid: "8856133"
 
 Si le système affiche une quantité globale disponible négative, le moteur de planification traite la quantité comme étant égale à 0 (zéro) pour éviter tout approvisionnement excessif. Voici comment fonctionne cette fonctionnalité :
 
-1. La fonctionnalité d’optimisation de la planification regroupe les quantités disponibles au niveau le plus bas des dimensions de couverture. (Par exemple, si *emplacement* n’est pas une dimension de couverture, la fonctionnalité d’optimisation de la planification regroupe les quantités disponibles au niveau *entrepôt*.)
+1. La planification générale regroupe les quantités disponibles au niveau le plus bas des dimensions de couverture. (Par exemple, si *emplacement* n’est pas une dimension de couverture, la planification générale regroupe les quantités disponibles au niveau *entrepôt*.)
 1. Si la quantité globale disponible au niveau le plus bas des dimensions de couverture est négative, le système suppose que la quantité disponible est vraiment égale à 0 (zéro).
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ Le système est configuré de la manière suivante :
 - Une commande client existe pour une quantité de *10* unités. de produit *FG*.
 - La quantité de la commande client est physiquement réservée par rapport au stock disponible existant.
 
-Vous ajustez ensuite la quantité de produit *FG* de sorte que le stock disponible devienne 5. Étant donné que le stock de produits en stock est de 5, la quantité de la commande client est désormais réservée par rapport à la quantité qui n’est pas disponible en stock (ce serait similaire si le stock était de 0, auquel cas la commande client serait réservée par rapport au stock négatif ). Si vous exécutez la planification principale maintenant, un ordre planifié d’une quantit de 5 pour *FG* sera créé pour fournir la commande client, car l’optimisation de la planification utilisera toujours l’approvisionnement existant ou créera une commande planifiée pour fournir la réservation physique.
-
-## <a name="related-resources"></a>Ressources associées
-
-- [Vue d’ensemble de l’optimisation de la planification](planning-optimization-overview.md)
-- [Mise en route de l’optimisation de la planification](get-started.md)
-- [Analyse de concordance d’optimisation de la planification](planning-optimization-fit-analysis.md)
-- [Afficher l’historique du plan et les journaux de planification](plan-history-logs.md)
-- [Annuler une tâche de planification](cancel-planning-job.md)
+Vous ajustez ensuite la quantité de produit *FG* de sorte que le stock disponible devienne 5. Étant donné que le stock de produits en stock est de 5, la quantité de la commande client est désormais réservée par rapport à la quantité qui n’est pas disponible en stock (ce serait similaire si le stock était de 0, auquel cas la commande client serait réservée par rapport au stock négatif ). Si vous exécutez la planification générale maintenant, un ordre planifié d’une quantité de 5 pour *FG* sera créé pour fournir la commande client, car la planification générale utilisera toujours l’approvisionnement existant ou créera une commande planifiée pour fournir la réservation physique.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

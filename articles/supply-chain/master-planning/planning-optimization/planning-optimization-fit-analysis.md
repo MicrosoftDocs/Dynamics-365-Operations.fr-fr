@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689992"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750705"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
 [!include [banner](../../includes/banner.md)]
 
-Vous devez analyser le résultat de l’analyse d’ajustement de l’optimisation de la planification dans le cadre du processus de migration. Notez que la portée de l’optimisation de la planification n’est pas identique à celle de la fonctionnalité de planification générale intégrée actuelle. Nous vous recommandons de collaborer avec votre partenaire et de lire la documentation pour préparer votre migration. 
+Vous devez analyser le résultat de l’analyse d’ajustement de l’optimisation de la planification dans le cadre du processus de migration. Notez que la portée de l’optimisation de la planification n’est pas identique à celle de la fonctionnalité du moteur de planification générale déprécié. Nous vous recommandons de collaborer avec votre partenaire et de lire la documentation pour préparer votre migration.
 
-L’analyse d’ajustement de l’optimisation de la planification vous aide à identifier les différences de résultats entre le moteur de planification générale intégré et l’optimisation de la planification. Cette analyse est effectuée en fonction de votre configuration et de vos données actuelles. 
+L’analyse d’ajustement de l’optimisation de la planification vous aide à identifier les différences de résultats entre le moteur de planification générale déprécié et l’optimisation de la planification. Cette analyse est effectuée en fonction de votre configuration et de vos données actuelles. 
 
 Pour voir le résultat de l’analyse d’ajustement de l’optimisation de la planification, accédez à **Planification générale** \> **Configuration** \> **Analyse de l’ajustement de l’optimisation de la planification**, puis sélectionnez **Lancer l’analyse**. Si l’analyse permet de trouver des incohérences, elles sont répertoriées sur la même page. (L’exécution de l’analyse peut prendre quelques minutes.)
 
@@ -64,7 +64,6 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Calendriers de base | Calendriers utilisant le calendrier de base : *\#* | Cette fonctionnalité est désormais prise en charge. | Prise en charge | 
 | Codes disposition de lot | Données principales de disposition de lot qui ne sont pas disponibles à la vente : *\#* | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, voir [Utiliser des codes de disposition de lot pour marquer les lots comme disponibles ou non disponibles](../../inventory/batch-disposition-codes.md) | Prise en charge |
 | Capable to promise (CTP) | Paramètres de commande par défaut avec le contrôle de date de livraison défini sur CTP : *\#* | Dans Supply Chain Management 10.0.28 et versions ultérieures, un processus appelé *CTP pour l’optimisation de la planification* met à disposition les dates d’expédition et de réception confirmées après l’exécution du plan dynamique. Pour les anciennes versions de Supply Chain Management, le paramètre CTP hérité est ignoré lorsque l’optimisation de la planification est activée. | Prise en charge |
-| Copie du plan statique vers le plan dynamique | La fonctionnalité Copie du plan statique vers le plan dynamique est activée dans les paramètres de planification. | L’Optimisation de la planification ne copie pas le plan statique dans le plan dynamique, quel que soit ce paramètre. En général, ce concept est moins pertinent en raison de la vitesse et de la régénération complète fournies par l’Optimisation de la planification. Si deux plans ou plus sont utilisés, la planification principale doit être déclenchée pour chaque plan. | S/O |
 | Confirmation | Groupes de couverture avec la plage de gestion de la confirmation automatique définie : *\#* | Dans la version 10.0.7 et les versions ultérieures, la confirmation est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité *Confirmation automatique pour l’Optimisation de la planification* ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l’Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. | Prise en charge |
 | Confirmation | Enregistrements de couverture d’article avec la confirmation automatique définie : *\#* | Dans la version 10.0.7 et les versions ultérieures, la confirmation automatique est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité *Confirmation automatique pour l’Optimisation de la planification* ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l’Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. | Prise en charge |
 | Confirmation | Plans généraux avec la confirmation automatique définie : *\#* | Dans la version 10.0.7 et les versions ultérieures, la confirmation automatique est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité *Confirmation automatique pour l’Optimisation de la planification* ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l’Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. | Prise en charge |
@@ -93,34 +92,27 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Production | Versions de formule avec des co-produits ou des sous-produits : *\#* | Cette fonctionnalité est en attente. Actuellement, les co-produits et sous-produits associés à la version de formule sont ignorés quand l’Optimisation de la planification est activée. | 2022 vague de lancement 2 |
 | Production | Versions de formule avec rendement : *\#* | Cette fonctionnalité est en attente. Actuellement, le rendement associé à la version de formule est ignoré quand l’Optimisation de la planification est activée. | 2022 vague de lancement 2 |
 | Production | Plans incluant le classement : *\#* | Cette fonctionnalité est en attente. Actuellement, le classement est ignoré quand l’Optimisation de la planification est activée, quel que soit ce paramètre. | 2022 vague de lancement 2 |
-| Production | Ordres de fabrication lancés qui n’ont pas commencé, quand la date de début planifiée est antérieure à aujourd’hui : *\#* | Cette fonctionnalité est en attente. Actuellement, si un ordre de fabrication est retardé, la planification générale supposera qu’il sera terminé aujourd’hui. Ceci est pertinent pour les ordres de fabrication lancés dont la date de livraison est dans le passé, mais qui ne sont pas encore terminés. | Vague future |
+| Production | Ordres de fabrication lancés qui n’ont pas commencé, quand la date de début planifiée est antérieure à aujourd’hui : *\#* | Cette fonctionnalité est en attente. Actuellement, si un ordre de fabrication est retardé, la planification générale supposera qu’il sera terminé aujourd’hui. Ceci est pertinent pour les ordres de fabrication lancés dont la date de livraison est dans le passé, mais qui ne sont pas encore terminés. | 2022 vague de lancement 2 |
 | Production | Ressources planifiées avec une capacité finie : *\#* | Cette fonctionnalité est désormais prise en charge.| Prise en charge |
 | Production | Gammes utilisées au moment de la planification : *\#* | Cette fonctionnalité est prise en charge. | Prise en charge |
-| Production | Réservation de ligne de vente avec éclatement : *\#* | La réservation de ligne de vente qui utilise un éclatement n’est pas prise en charge quand l’Optimisation de la planification est activée. | Vague future |
-| Production | Planification avec éclatement des ordres de fabrication : *\#* | La planification qui utilise un éclatement des ordres de fabrication n’est pas prise en charge quand l’Optimisation de la planification est activée. Les ordres de fabrication peuvent être planifiés individuellement. | Vague future |
+| Production | Réservation de ligne de vente avec éclatement : *\#* | La réservation de ligne de vente qui utilise un éclatement n’est pas prise en charge quand l’Optimisation de la planification est activée. | 2022 vague de lancement 2 |
+| Production | Planification avec éclatement des ordres de fabrication : *\#* | La planification qui utilise un éclatement des ordres de fabrication n’est pas prise en charge quand l’Optimisation de la planification est activée. Les ordres de fabrication peuvent être planifiés individuellement. | 2022 vague de lancement 2 |
 | Appel d’offre | Plans généraux avec les appels d’offre activés : *\#* | Cette fonctionnalité est en attente. Actuellement, les appels d’offre ne sont pas considérés comme une demande quand l’Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | 2022 vague de lancement 2 |
 | Demandes d’achat | Plans généraux avec les demandes d’achat activées : *\#* | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, voir [Demandes d’achat](purchase-requisitions.md) | Prise en charge |
 | Marges de sécurité | Groupes de couverture avec la marge de sécurité : *\#* | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, consultez [Marges de sécurité](safety-margins.md) | Prise en charge |
 | Marges de sécurité | Plans généraux avec la marge de sécurité : *\#* | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, consultez [Marges de sécurité](safety-margins.md) |  Prise en charge |
-| Traitement du stock de sécurité | Enregistrements de la couverture des articles avec « Exécuter le minimum » différent de « Date du jour + heure d’achat » : *\#* | L’Optimisation de la planification utilise toujours *Date du jour + heure d’achat*. Cette modification est effectuée pour préparer une configuration de planification simplifiée à l’avenir et pour fournir un résultat exploitable. Si le délai d’approvisionnement n’est pas inclus pour le stock de sécurité, les commandes planifiées qui sont créées pour le stock disponible actuellement bas seront toujours retardées en raison du délai de livraison. Ce comportement peut provoquer des perturbations importantes et des ordres prévisionnels indésirables. La meilleure pratique consiste à modifier le paramètre afin que *Date du jour + heure d’achat* soit utilisé. Mettez à jour les données principales pour éviter les avertissements. | S.o. |
-| Devis de vente | Plans généraux avec les devis de vente activés : *\#* | Cette fonctionnalité est en attente. Actuellement, les devis ne sont pas considérées quand l’Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | 2022 vague de lancement 2 ou ultérieure |
-| Date d'expiration  | Plans généraux avec la date d'expiration activée : *\#* | Cette fonctionnalité est en attente. | 2022 vague de lancement 2 |
+| Devis de vente | Plans généraux avec les devis de vente activés : *\#* | Cette fonctionnalité est en attente. Actuellement, les devis ne sont pas considérées quand l’Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | 2022 vague de lancement 2 |
+| Date d'expiration  | Plans généraux avec la date d'expiration activée : *\#* | Cette fonctionnalité est désormais prise en charge. | Prise en charge |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble de l’optimisation de la planification](planning-optimization-overview.md)
-
-[Mise en route de l’optimisation de la planification](get-started.md)
-
-[Différences entre la planification générale classique et l’optimisation de la planification](planning-optimization-differences-with-built-in.md)
-
-[Paramètres non utilisés par l’optimisation de la planification](not-used-parameters.md)
-
-[Afficher l’historique du plan et les journaux de planification](plan-history-logs.md)
-
-[Appliquer les filtres à un plan](plan-filters.md)
-
-[Annuler une tâche de planification](cancel-planning-job.md)
+- [Architecture du système de planification générale](../master-planning-architecture.md)
+- [Démarrer avec la planification générale](get-started.md)
+- [Différences entre la planification générale classique et l’optimisation de la planification](planning-optimization-differences-with-built-in.md)
+- [Paramètres non utilisés par l’optimisation de la planification](not-used-parameters.md)
+- [Afficher l’historique du plan et les journaux de planification](plan-history-logs.md)
+- [Exécuter la planification pour un sous-ensemble d’articles](plan-filters.md)
+- [Annuler une tâche de planification](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

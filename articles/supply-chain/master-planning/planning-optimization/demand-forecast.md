@@ -1,6 +1,6 @@
 ---
 title: Planification avec prévisions de la demande
-description: Cet article explique comment inclure des prévisions de demande lors de la planification avec l’Optimisation de la planification.
+description: Cet article explique comment inclure des prévisions de la demande lors de la planification générale.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878988"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739781"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planification avec prévisions de la demande
 
 [!include [banner](../../includes/banner.md)]
 
-Vous pouvez utiliser une prévision de la demande avec l’Optimisation de la planification pour tenir compte de la demande prévue dans votre planification. Vous pouvez créer manuellement une prévision de la demande, l’importer ou la générer à l’aide de la fonctionnalité de prévision de la demande de Microsoft Dynamics 365 Supply Chain Management. Pour plus d’informations sur la prévision de la demande, voir [Présentation de la prévision de la demande](../introduction-demand-forecasting.md).
+Vous pouvez utiliser une prévision de la demande pour tenir compte de la demande prévue dans votre planification générale. Vous pouvez créer manuellement une prévision de la demande, l’importer ou la générer à l’aide de la fonctionnalité de prévision de la demande de Microsoft Dynamics 365 Supply Chain Management. Pour plus d’informations sur la prévision de la demande, voir [Présentation de la prévision de la demande](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > La planification des prévisions distincte n’est pas prise en charge avec l’Optimisation de la planification. Par conséquent, le paramètre **Planification prévisionnelle actuelle** sur la page **Paramètres de planification** n’a aucun effet lorsque vous utilisez l’Optimisation de la planification.
@@ -47,7 +47,7 @@ Pour configurer un plan directeur afin qu’il inclue une prévision de la deman
 1. Sur le raccourci **Plage de temps en jours**, vous pouvez définir les champs suivants pour spécifier la période pendant laquelle la prévision de la demande est incluse :
 
     - **Plan prévisionnel** – Réglez cette option sur *Oui* pour remplacer la plage de temps du plan prévisionnel qui provient des groupes de couverture individuels. Réglez-le sur *Non* pour utiliser les valeurs des groupes de couverture individuels pour le plan directeur actuel.
-    - **Période de prévision** – Si vous définissez l’option **Plan prévisionnel** sur *Oui*, spécifiez le nombre de jours (à partir de la date d’aujourd’hui) pendant lesquels la prévision de la demande doit être appliquée.
+    - **Période de prévision** – Si vous définissez l’option **Plan prévisionnel** sur *Oui*, spécifiez le nombre de jours (à partir de la date d’aujourd’hui) pendant lesquels la prévision de la demande doit être appliquée.
 
     > [!IMPORTANT]
     > Le paramètre **Plan prévisionnel** n’est pas pris en charge avec l’Optimisation de la planification.

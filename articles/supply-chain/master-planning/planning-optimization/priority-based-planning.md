@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335283"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740590"
 ---
 # <a name="priority-based-planning"></a>Planification basée sur la priorité
 
 [!include [banner](../../includes/banner.md)]
 
-Cet article décrit la fonctionnalité de planification basée sur la priorité de Microsoft Dynamics 365 Supply Chain Management. La fonctionnalité ajoute la prise en charge de la planification pilotée par la demande, qui est une étape de la [Planification des besoins en matières basée sur la demande](ddmrp-overview.md). La planification basée sur les priorités permet à l’optimisation de la planification de générer des ordres planifiés basés sur les priorités de planification plutôt que sur les dates des besoins.
+Cet article décrit la fonctionnalité de planification basée sur la priorité de Microsoft Dynamics 365 Supply Chain Management. La fonctionnalité ajoute la prise en charge de la planification pilotée par la demande, qui est une étape de la [Planification des besoins en matières basée sur la demande](ddmrp-overview.md). La planification basée sur les priorités permet au système de générer des ordres planifiés basés sur les priorités de planification plutôt que sur les dates des besoins.
 
 La planification basée sur les priorités vous permet de hiérarchiser les ordres de réapprovisionnement pour vous assurer que la demande urgente est prioritaire par rapport à la demande moins importante. Par exemple, un ordre de réapprovisionnement de stock insuffisant sera prioritaire par rapport à un ordre de réapprovisionnement standard. Le système peut diviser automatiquement les commandes plus importantes en commandes plus petites séparées où les lignes de commande sont regroupées par priorité. Il peut alors traiter en premier toutes les commandes prioritaires.
 
@@ -37,11 +37,11 @@ Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le syst
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Où et comment les priorités de planification sont-elles attribuées
 
-Les informations de *Priorité de planification* sur l’offre et la demande sont le socle de la planification fondée sur les priorités. La priorité de planification définit l’importance d’une demande ou d’une ligne d’approvisionnement. L’optimisation de la planification l’utilise lorsque le champ **Code de couverture** est défini sur *Priorité*.
+Les informations de *Priorité de planification* sur l’offre et la demande sont le socle de la planification fondée sur les priorités. La priorité de planification définit l’importance d’une demande ou d’une ligne d’approvisionnement. La planification générale l’utilise lorsque le champ **Code de couverture** est défini sur *Priorité*.
 
 La priorité de planification est généralement un nombre compris entre 0 (zéro) et 100, où 0 représente l’importance la plus élevée. Il est affiché et défini dans le champ **Priorité de planification**. Vous pouvez trouver ce champ sur les pages suivantes : **Lignes de prévision de la demande**, **Détails de la commande client**, **Détails de la commande fournisseur**, **Détails de l’ordre de transfert** et **Détails de la commande planifiée**.
 
-Quand le champ **Code de couverture** de l’article ou du groupe de couverture concerné est défini sur *Priorité*, l’optimisation de la planification équilibre l’offre et la demande en utilisant une approche axée sur la demande lorsqu’elle calcule la priorité de planification et, pour chaque produit lancé, prend en compte les valeurs définies pour les champs **Minimum**, **Point de réapprovisionnement** et **Maximum** sur la page **Articles couverts**.
+Quand le champ **Code de couverture** de l’article ou du groupe de couverture concerné est défini sur *Priorité*, la planification générale équilibre l’offre et la demande en utilisant une approche axée sur la demande lorsqu’elle calcule la priorité de planification et, pour chaque produit lancé, prend en compte les valeurs définies pour les champs **Minimum**, **Point de réapprovisionnement** et **Maximum** sur la page **Articles couverts**.
 
 > [!NOTE]
 > La valeur *Priorité* est disponible pour le champ **Code de couverture** uniquement lorsque l’optimisation de la planification est activée.

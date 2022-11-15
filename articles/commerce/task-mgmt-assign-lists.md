@@ -2,23 +2,23 @@
 title: Affecter des listes de tâches aux magasins ou aux employés
 description: Cet article décrit comment affecter des listes de tâches à des magasins ou des employés dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 8aa1d61e235244ee9400419e51da638c059892e5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: faff772051738f624b86fd23fb6bf29173e909ea
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284655"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746192"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Affecter des listes de tâches aux magasins ou aux employés
 
@@ -30,7 +30,7 @@ La gestion des tâches dans Dynamics 365 Commerce vous permet d’affecter une l
 
 ## <a name="start-the-task-list-assignment-process"></a>Démarrer le processus d’affectation de la liste de tâches
 
-Pour démarrer le processus d’affectation d’une liste de tâches, procédez comme suit.
+Avant de commencer le processus d’affectation de tâches, assurez-vous d’avoir créé une liste de tâches en suivant les étapes décrites dans l’article [Créer des listes de tâches et ajouter des tâches](task-mgmt-create-lists.md). Pour démarrer le processus d’affectation d’une liste de tâches, procédez comme suit.
 
 1. Accédez à **Commerce et vente au détail \> Gestion des tâches \> Administration de la gestion des tâches**.
 1. Sélectionnez la liste de tâches à affecter.

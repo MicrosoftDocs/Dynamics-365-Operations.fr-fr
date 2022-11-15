@@ -1,6 +1,6 @@
 ---
 title: Plages de gestion de la couverture
-description: Cet article décrit comment configurer des plages de gestion de la couverture lorsque vous utilisez le complément Optimisation de la planification. Une plage de gestion de la couverture indique votre horizon de planification et votre limite.
+description: Cet article décrit comment configurer les plages de gestion de la couverture. Une plage de gestion de la couverture indique votre horizon de planification et votre limite.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 987dea4c1b693fc1bb687f97d51288d5e51e7d4c
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847931"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740111"
 ---
 # <a name="coverage-time-fences"></a>Plages de gestion de la couverture
 
 [!include [banner](../../includes/banner.md)]
 
-Cet article décrit comment configurer des *plages de gestion de la couverture* lorsque vous utilisez le complément Optimisation de la planification. Les planificateurs peuvent définir l’horizon de planification (la période de couverture en jours) et exclure l’offre et la demande qui se situent au-delà de cet horizon. Par conséquent, les délais de couverture aident à prévenir le « bruit » causé par des suggestions d’approvisionnement auxquelles vous n’avez pas à réagir depuis des mois. Les exemples incluent les prévisions de l’année prochaine et les commandes des clients qui sont passées bien au-delà du délai normal.
+Cet article décrit comment configurer les *plages de gestion de la couverture*. Les planificateurs peuvent définir l’horizon de planification (la période de couverture en jours) et exclure l’offre et la demande qui se situent au-delà de cet horizon. Par conséquent, les délais de couverture aident à prévenir le « bruit » causé par des suggestions d’approvisionnement auxquelles vous n’avez pas à réagir depuis des mois. Les exemples incluent les prévisions de l’année prochaine et les commandes des clients qui sont passées bien au-delà du délai normal.
 
 Une plage de gestion de la couverture correspond au nombre de jours après la date du jour (ou, plus précisément, la date à laquelle vous effectuez la planification) pendant lesquels l’offre et la demande sont exclues. Pour éviter les retards, vous devez vous assurer que la plage de gestion de la couverture est plus longue que le délai total. La valeur système par défaut est de 100 jours.
 
@@ -82,9 +82,9 @@ Lorsque vous configurez des plages de gestion de la couverture, tenez compte des
 - Les transactions obligatoires ne seront pas générées pour toute offre et demande hors de la période de gestion de la couverture.
 - Si une offre et une demande approuvées sortent de la plage de gestion de la couverture, elles ne seront pas chargées dans le moteur. Par conséquent, cela ne déclenchera aucun réapprovisionnement et les retards ne seront pas calculés. Néanmoins, cette offre et cette demande ne doivent pas être effacées du système.
 - Les variations des quantités de stock de sécurité (par rapport aux clés minimales) seront ignorées si elles sortent de la plage de gestion de la couverture.
-- La demande intersociétés sera ignorée si la date d’expédition demandée qui est calculée n’est pas comprise dans la plage de gestion de la couverture. Notez que, pour la planification générale intégrée, la demande intersociétés n’est pas limitée par la plage de gestion de la couverture.
-- Les prévisions de la demande seront ignorées si la date du budget n’est pas comprise dans la plage de gestion de la couverture. Notez que, pour la planification générale intégrée, les demandes intersociétés ne sont pas limitées par la plage de gestion de la couverture.
-- Le complément Optimisation de la planification tient compte du fuseau horaire. Elle tient compte du fuseau horaire sur les sites d’approvisionnement et de demande, ainsi que de l’heure de l’exécution de la planification. Par exemple, la planification principale est déclenchée à 11 heures le 15 octobre à partir d’un site au Danemark (fuseau horaire GMT + 1) et une plage de gestion de la couverture de dix jours est utilisée. Dans ce cas, l’offre et la demande d’un site à Seattle (fuseau horaire GMT-8) sont incluses jusqu’à 2 heures du matin le 25 octobre (= dix jours de 24 heures après le déclenchement du plan général, moins la différence de fuseau horaire de neuf heures). Notez que le moteur de planification générale intégré ne tient pas compte de la date de la plage horaire. Par conséquent, le résultat peut différer.
+- La demande intersociétés sera ignorée si la date d’expédition demandée qui est calculée n’est pas comprise dans la plage de gestion de la couverture. Notez que, pour le moteur de planification générale déprécié, la demande intersociétés n’est pas limitée par la plage de gestion de la couverture.
+- Les prévisions de la demande seront ignorées si la date du budget n’est pas comprise dans la plage de gestion de la couverture. Notez que, pour le moteur de planification générale déprécié, les prévisions de la demande ne sont pas limitées par la plage de gestion de la couverture.
+- Le complément Optimisation de la planification tient compte du fuseau horaire. Elle tient compte du fuseau horaire sur les sites d’approvisionnement et de demande, ainsi que de l’heure de l’exécution de la planification. Par exemple, la planification principale est déclenchée à 11 heures le 15 octobre à partir d’un site au Danemark (fuseau horaire GMT + 1) et une plage de gestion de la couverture de dix jours est utilisée. Dans ce cas, l’offre et la demande d’un site à Seattle (fuseau horaire GMT-8) sont incluses jusqu’à 2 heures du matin le 25 octobre (= dix jours de 24 heures après le déclenchement du plan général, moins la différence de fuseau horaire de neuf heures). Notez que le moteur de planification générale déprécié ne tient pas compte de la date de la plage horaire. Par conséquent, le résultat peut différer.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

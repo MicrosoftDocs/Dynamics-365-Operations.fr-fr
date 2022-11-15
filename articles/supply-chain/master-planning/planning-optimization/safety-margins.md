@@ -1,6 +1,6 @@
 ---
 title: Marges de sécurité
-description: Cet article décrit comment les marges de sécurité peuvent être utilisées avec le complément d’Optimisation de la planification pour Microsoft Dynamics 365 Supply Chain Management.
+description: Cet article décrit le fonctionnement des marges de sécurité pendant la planification générale.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335193"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740439"
 ---
 # <a name="safety-margins"></a>Marges de sécurité
 
 [!include [banner](../../includes/banner.md)]
 
-Cet article décrit comment les marges de sécurité peuvent être utilisées avec le complément d’Optimisation de la planification pour Microsoft Dynamics 365 Supply Chain Management.
+Cet article décrit le fonctionnement des marges de sécurité pendant la planification générale.
 
 ## <a name="safety-margins-overview"></a>Aperçu des marges de sécurité
 
@@ -165,12 +165,5 @@ Les trois types de marges de sécurité sont inclus lorsque le système détermi
 Par exemple, un article a un délai d’un jour et une marge de réception de trois jours. Une commande client pour cet article est définie comme requise aujourd’hui. Dans ce cas, le retard est calculé comme suit *délai* + *marge de réception* = quatre jours. Par conséquent, si aujourd’hui est le 14 août, les quatre jours de retard produisent une livraison le 18 août. L’illustration suivante présente cet exemple.
 
 ![Exemple de calcul de retard.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Ressources supplémentaires
-
-[Mise en route de l’optimisation de la planification](get-started.md)
-
-[Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

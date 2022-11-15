@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f078fda02a11eb2073738d59b45f81698b707653
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37c38ab9cec8ae3c9d4decf8043b43ea2251083e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889517"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739727"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Résoudre les problèmes d’optimisation de la planification 
 
@@ -37,13 +37,13 @@ L’Optimisation de la planification nécessite que Lifecycle Services (LCS) soi
 
 ## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a>La planification des travaux par lots échoue lorsque l’optimisation de la planification est activée.
 
-Lorsque vous activez l’optimisation de la planification, le moteur de planification principal intégré est automatiquement désactivé. Les traitements par lots de planification créés pour le moteur de planification intégré de Supply Chain Management vont échouer s’ils sont déclenchés tandis que l’optimisation de la planification est activée. Vous risquez de recevoir un message d’erreur tel que *Cette opération a déclenché la planification principale qui n’est pas prise en charge lorsque l’optimisation de la planification est activée*.
+Lorsque vous activez l’optimisation de la planification, le moteur de planification générale déprécié est automatiquement désactivé. Les traitements par lots de planification générale créés pour le moteur de planification générale déprécié vont échouer s’ils sont déclenchés tandis que l’optimisation de la planification est activée. Vous risquez de recevoir un message d’erreur tel que *Cette opération a déclenché la planification principale qui n’est pas prise en charge lorsque l’optimisation de la planification est activée*.
 
-**Correction** : Annulez tous les travaux par lots de planification principale créés pour le moteur de planification intégré de Supply Chain Management.
+**Correction** : annulez tous les traitements par lots de planification générale créés pour le moteur de planification générale déprécié.
 
 ## <a name="planning-optimization-results-are-different-from-earlier-results"></a>Les résultats de l’optimisation de la planification sont différents des résultats précédents
 
-L’optimisation de la planification diffère de la conception de planification principale intégrée dans certains domaines. Cela peut également être dû à des fonctionnalités en attente.
+L’optimisation de la planification diffère de la conception du moteur de planification générale déprécié dans certains domaines. Cela peut également être dû à des fonctionnalités en attente.
 
 **Correction** : Exécutez l’analyse d’ajustement de l’optimisation de la planification, puis analysez les résultats tout en vous référant à la documentation associée pour comprendre l’impact. Pour plus d’informations, voir [Analyse de concordance d’Optimisation de la planification](planning-optimization-fit-analysis.md).
 
@@ -63,9 +63,8 @@ Ceci est lié à une fonctionnalité en attente qui est prévue dans le cadre de
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Mise en route de l’optimisation de la planification](get-started.md)
-
-[Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)
+- [Démarrer avec la planification générale](get-started.md)
+- [Analyse de concordance pour l'optimisation de la planification](planning-optimization-fit-analysis.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

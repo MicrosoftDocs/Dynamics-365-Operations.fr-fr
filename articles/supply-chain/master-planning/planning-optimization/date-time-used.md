@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885897"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740902"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Paramètres de date et d’heure utilisés par l’optimisation de la planification
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885897"
 
 Cet article fournit des informations sur les paramètres de date et d’heure que l’optimisation de la planification utilise pendant son fonctionnement.
 
-Alors que le moteur de planification principal intégré utilise des dates de transaction dans tous les calculs, l’optimisation de la planification fonctionne avec des valeurs de date et d’heure qui sont converties en dates. Cette différence de comportement peut conduire à des situations dans lesquelles, par exemple, les transactions de prévision créées à minuit le jour de l’exécution de la planification principale ne sont pas incluses, car l’optimisation de la planification considère qu’elles ont été créées avant la date actuelle.
+Alors que le moteur de planification générale déprécié utilise des dates de transaction dans tous les calculs, l’optimisation de la planification fonctionne avec des valeurs de date et d’heure qui sont converties en dates. Cette différence de comportement peut conduire à des situations dans lesquelles, par exemple, les transactions de prévision créées à minuit le jour de l’exécution de la planification principale ne sont pas incluses, car l’optimisation de la planification considère qu’elles ont été créées avant la date actuelle.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Paramètres pour les transactions de sortie et de demande
 

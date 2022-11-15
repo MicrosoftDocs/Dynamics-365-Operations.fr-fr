@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287509"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751914"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Configurer et gérer les images pour Modern POS (MPOS)
 
@@ -160,7 +160,7 @@ Pour toutes les entités à l’exception des Produits, vous pouvez remplacer l�
     [![Page de galerie Images de catalogue.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Actuellement, la galerie n’affiche pas les aperçus d’image pour les URL d’image de modèle de média. Pour les entités Catalogue, Collaborateur, Client et Catégorie, si l’utilisateur fournit explicitement une URL via cette page, nous vous conseillons d’indiquer l’image par défaut car les clients de l’unité d’échelle commerciale affichent une seule image par Catalogue, Client, Collaborateur et Catégorie. Si l’utilisateur ne précise pas une image par défaut, le système définit l’image par défaut et l’envoie à l’appelant du service Commerce (MPOS ou commerce électronique).
+> Seules les images accessibles de manière publique et anonyme s’afficheront dans le PDV. Le PDV prend en charge l’affichage des images hébergées en externe, avec l’exigence que les images soient renvoyées sous forme de flux d’octets en ligne pour les demandes GET sans en-têtes. Avec la stratégie d’accès anonyme, spécifiquement pour les images hébergées dans SharePoint qui nécessitent que les en-têtes de demande contiennent à la fois les en-têtes de l’hôte et de l’agent utilisateur, une réponse « Interdit » sera renvoyée. Par conséquent, la gestion des images en utilisant SharePoint comme hôte n’est pas actuellement prise en charge par défaut. La page de la galerie **Images du catalogue** n’affiche pas les aperçus d’image pour les URL d’image de modèle multimédia. Comme les clients Commerce Scale Unit (CSU) n’affichent qu’une image par entité Catalogue, Client, Collaborateur et Catégorie, si vous fournissez explicitement une URL via cette page pour les entités Catalogue, Collaborateur, Client et Catégorie, nous vous recommandons d’indiquer l’image par défaut. Si vous ne spécifiez pas une image par défaut, le système détermine l’image par défaut et l’envoie à l’appelant du service Commerce (MPOS ou commerce électronique).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Remplacer l’URL d’image pour les images de produits du catalogue à partir de la page Aperçu
 

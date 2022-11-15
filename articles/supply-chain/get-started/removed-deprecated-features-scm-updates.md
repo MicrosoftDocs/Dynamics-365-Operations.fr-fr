@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218800"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739868"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Supply Chain Management
 
@@ -89,7 +89,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
 | **Zones de produit affectées**         | Supply Chain Management - Planification |
 | **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n’est pas pris en charge avec les déploiements locaux. |
-| **État**                         | Obsolète. À partir du 1er avril 2022, les scénarios de fabrication ne seront plus pris en charge avec le moteur de planification Supply Chain Management intégré. À partir de cette date, Microsoft arrêtera tout développement actif sur les scénarios de fabrication pour le moteur de planification intégré, ne publiera aucune nouvelle fonctionnalité et ne publiera que des correctifs de bogues critiques. Après cette date, toutes les entreprises nécessitant une prise en charge des scénarios de fabrication doivent utiliser l’optimisation de la planification pour leurs calculs de planification générale. L’optimisation de la planification devrait prendre pleinement en charge les scénarios de fabrication d’ici octobre 2022. Pour plus d’informations, voir la [Documentation relative à Optimisation de la planification](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Les entreprises avec des déploiements locaux de Supply Chain Management peuvent continuer à utiliser le moteur de planification intégré pour les scénarios de fabrication après avril 2022. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
+| **État**                         | Obsolète. À partir du 1er avril 2022, les scénarios de fabrication ne seront plus pris en charge avec le moteur de planification Supply Chain Management intégré. À partir de cette date, Microsoft arrêtera tout développement actif sur les scénarios de fabrication pour le moteur de planification intégré, ne publiera aucune nouvelle fonctionnalité et ne publiera que des correctifs de bogues critiques. Après cette date, toutes les entreprises nécessitant une prise en charge des scénarios de fabrication doivent utiliser l’optimisation de la planification pour leurs calculs de planification générale. L’optimisation de la planification devrait prendre pleinement en charge les scénarios de fabrication d’ici octobre 2022. Pour plus d’informations, consultez [Présentation de la planification générale déprécié](../master-planning/deprecated-master-planning-overview.md).<br><br>Les entreprises avec des déploiements locaux de Supply Chain Management peuvent continuer à utiliser le moteur de planification intégré pour les scénarios de fabrication après avril 2022. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.11
 
@@ -101,7 +101,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
 | **Zones de produit affectées**         | Supply Chain Management - Planification |
 | **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n’est pas pris en charge avec les déploiements locaux. |
-| **État**                         | Obsolète. À partir du 1er avril 2021, les scénarios de distribution ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de distribution, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, voir [Documentation relative à Optimisation de la planification](../master-planning/planning-optimization/planning-optimization-overview.md). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de distribution après avril 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
+| **État**                         | Obsolète. À partir du 1er avril 2021, les scénarios de distribution ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de distribution, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, consultez [Présentation de la planification générale déprécié](../master-planning/deprecated-master-planning-overview.md). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de distribution après avril 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annonces précédentes sur les fonctions supprimées ou obsolètes
 

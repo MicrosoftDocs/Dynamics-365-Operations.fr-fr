@@ -2,19 +2,19 @@
 title: Domaines dans Dynamics 365 Commerce
 description: Cet article décrit comment les domaines sont gérés dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465191"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750678"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domaines dans Dynamics 365 Commerce
 
@@ -44,7 +44,7 @@ Vous pouvez créer une demande de service pour ajouter des domaines supplémenta
 
 Lors de l’approvisionnement d’un environnement d’e-commerce Dynamics 365 Commerce, Commerce génère une URL qui sera l’adresse de travail de l’environnement. Cette URL est référencée dans le lien du site d’e-commerce affiché dans LCS après l’approvisionnement de l’environnement. Une URL générée par Commerce est au format `https://<e-commerce tenant name>.dynamics365commerce.ms`, où le nom du client e-commerce est le nom entré dans LCS pour l’environnement Commerce.
 
-Vous pouvez également utiliser des noms d’hôte de site de production dans un environnement bac à sable. Cette option est idéale lorsque vous copiez un site d’un environnement bac à sable vers la production.
+Vous pouvez également utiliser des noms d’hôte de site de production dans un environnement bac à sable. Cette option est idéale lorsque vous copiez un site d’un environnement de bac à sable vers un environnement de production.
 
 ## <a name="site-setup"></a>Paramétrage de site
 
@@ -95,6 +95,12 @@ Par exemple, l’environnement « xyz » a été approvisionné et deux sites 
 
 Lorsqu’une chaîne de requête de domaine n’est pas donnée dans un environnement avec plusieurs domaines fournis, Commerce utilise le premier domaine que vous avez fourni. Par exemple, si le chemin d’accès « fabrikam » a été fourni en premier lors de la configuration du site, l’URL `https://xyz.dynamics365commerce.ms` pourrait être utilisée pour accéder au site de contenu du site publié pour `www.fabrikam.com`.
 
+Vous pouvez également ajouter des domaines personnalisés. Pour ce faire, sur la page de gestion Commerce de l’environnement pour le projet, sous le sous-titre **Commerce électronique**, sélectionnez **+ Ajouter un domaine personnalisé**. Le curseur affiche les domaines personnalisés existants et offre la possibilité d’ajouter un nouveau domaine personnalisé.
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>Mettre à jour l’instance Commerce Scale Unit utilisée
+
+L’instance Commerce Scale Unit (CSU) utilisée par Commerce est généralement sélectionnée lors de la création initiale d’un environnement. Commerce vous permet de modifier l’instance CSU utilisée par votre environnement, ce qui vous permet de mieux gérer votre architecture via une fonctionnalité en libre-service et de réduire la nécessité de contacter le support. Pour mettre à jour votre instance CSU, accédez à la page de gestion Commerce de votre environnement pour le projet, puis sélectionnez **Mettre à jour Scale Unit**. Utilisez le curseur **Nouvelle Commerce Scale Unit** pour sélectionner une nouvelle instance CSU dans la liste des CSU disponibles pour votre environnement.
+
 ## <a name="traffic-forwarding-in-production"></a>Transfert de trafic en production
 
 Vous pouvez simuler plusieurs domaines à l’aide des paramètres de chaîne de requête de domaine sur le point de terminaison commerce.dynamics.com lui-même. Mais lorsque vous devez passer en production, vous devez transférer le trafic de votre domaine personnalisé vers le point de terminaison `<e-commerce tenant name>.dynamics365commerce.ms`.
@@ -103,9 +109,9 @@ Le point de terminaison `<e-commerce tenant name>.dynamics365commerce.ms` ne pre
 
 Pour configurer des domaines personnalisés à l’aide d’un front door service ou d’un CDN, vous avez deux options :
 
-- Configurez un front door service comme Azure Front Door pour gérer le trafic frontal et connectez-vous à votre environnement Commerce. Cela offre un meilleur contrôle sur la gestion des domaines et des certificats et des stratégies de sécurité plus granulaires.
+- Configurez un front door service tel qu’Azure Front Door pour gérer le trafic frontal et vous connecter à votre environnement Commerce, ce qui offre un meilleur contrôle sur la gestion des domaines et des certificats et des stratégies de sécurité plus granulaires.
 
-- Utilisez l’instance d’Azure Front Door fournie par Commerce. Cela nécessite une action coordonnée avec l’équipe Dynamics 365 Commerce pour la vérification du domaine et l’obtention de certificats SSL pour votre domaine de production.
+- Utilisez l’instance Azure Front Door fournie par Commerce, qui nécessite une action de coordination avec l’équipe Dynamics 365 Commerce pour la vérification du domaine et l’obtention de certificats SSL pour votre domaine de production.
 
 > [!NOTE]
 > Si vous utilisez un CDN externe ou un service instance Front Door, assurez-vous que la demande atterrit sur la plate-forme Commerce avec le nom d’hôte fourni par Commerce, mais avec l’en-tête X-Forwarded-Host (XFH) \<custom-domain\>. Par exemple, si votre point de terminaison Commerce est `xyz.dynamics365commerce.ms` et le domaine personnalisé est `www.fabrikam.com`, l’en-tête d’hôte de la requête transférée doit être `xyz.dynamics365commerce.ms` et l’en-tête XFH doit être `www.fabrikam.com`.
@@ -115,7 +121,7 @@ Pour plus d’informations sur la configuration directe d’un service CDN, cons
 Pour utiliser l’instance d’Azure Front Door fournie par Commerce, vous devez créer une demande de service de support pour la configuration CDN auprès de l’équipe d’intégration Commerce. 
 
 - Vous devrez fournir le nom de votre entreprise, le domaine de production, l’ID d’environnement et le nom du client d’e-commerce de production. 
-- Vous devrez confirmer s’il s’agit d’un domaine existant (utilisé pour un site actuellement actif) ou d’un nouveau domaine. 
+- Vous devrez confirmer si cette demande de service concerne un domaine existant (utilisé pour un site actuellement actif) ou un nouveau domaine. 
 - Pour un nouveau domaine, la vérification du domaine et le certificat SSL peuvent être réalisés en une seule étape. 
 - Pour un domaine desservant un site web existant, un processus en plusieurs étapes est requis pour établir la vérification du domaine et le certificat SSL. Ce processus comporte un contrat de niveau de service (SLA) de 7 jours ouvrables pour qu’un domaine soit mis en service, car il comprend plusieurs étapes séquentielles.
 

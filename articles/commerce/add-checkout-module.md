@@ -2,7 +2,7 @@
 title: Module Validation
 description: Cet article décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280472"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746223"
 ---
 # <a name="checkout-module"></a>Module Validation
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cet article décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
 
@@ -105,11 +106,13 @@ Pour ajouter un module de caisse à une nouvelle page et définir les propriét�
 1. Créez un modèle qui utilise le nouveau fragment de caisse.
 1. Créez une page de caisse qui utilise le nouveau modèle.
 
+> [REMARQUE] Lorsque vous utilisez une autorisation de paiement unique comme décrit dans [Paiements améliorés lors du paiement en magasin](./dev-itpro/enhanced-sca.md), dans la section **Informations de paiement** de la page de paiement, confirmez que le conteneur de section de paiement est positionné en dernier. Cela garantit que toutes les informations requises sont collectées par la page de paiement avant la validation finale du paiement et les actions de finalisation de la commande. 
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Module Panier](add-cart-module.md)
+[Module de panier](add-cart-module.md)
 
-[Module Icône de panier](cart-icon-module.md)
+[Module icône de panier](cart-icon-module.md)
 
 [Module Paiement](payment-module.md)
 

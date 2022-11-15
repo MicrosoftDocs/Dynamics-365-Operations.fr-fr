@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220553"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740192"
 ---
 # <a name="make-to-order-supply-automation"></a>Automatisation de l’approvisionnement sur commande
 
@@ -32,12 +32,6 @@ La fonctionnalité *Automatisation de l’approvisionnement sur commande* ajoute
 - Améliorez le flux d'informations intersociétés Les bons de commande sont mis à jour afin d’inclure des champs pour le mode de livraison, les conditions de livraison et le numéro d’article externe. Cette modification garantit que des informations détaillées sur la demande peuvent être transmises à l’entreprise fournisseur.
 
 Cet article explique comment configurer et utiliser chaque amélioration.
-
-> [!NOTE]
-> Toutes les améliorations décrites dans cet article s’appliquent aux systèmes qui utilisent la planification générale intégrée. Les deux améliorations suivantes sont également prises en charge par le complément d'optimisation de la planification pour Microsoft Dynamics 365 Supply Chain Management :
->
-> - Tolérance de retard sur les schémas directeurs
-> - Contrôle de la séquence d'origine des besoins utilisée lors de la planification générale
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Activez la fonction d’automatisation de l’approvisionnement sur commande
 
@@ -73,7 +67,7 @@ Le *Marquage* est utilisé pour relier l’offre et la demande. Il ressemble à 
 
 Ces options sont également disponibles dans le champ **Mettre à jour le marquage** sur l'onglet **Mise à jour standard** de la page **Paramètres de planification générale**, où vous définissez la sélection par défaut pour la boite de dialogue **Confirmation**.
 
-Pour plus d’informations, voir [Marquage de stock avec optimisation de planification](planning-optimization/marking.md).
+Pour plus d’informations, consultez [Marquage du stock](planning-optimization/marking.md).
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>Définir la tolérance de retard (jours négatifs) au niveau du plan directeur
 
