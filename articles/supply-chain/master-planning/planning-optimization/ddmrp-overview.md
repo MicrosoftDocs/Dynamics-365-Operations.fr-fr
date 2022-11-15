@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689486"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740848"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Vue d’ensemble de la planification des besoins en matériaux basée sur la demande (DDMRP)
 
@@ -44,6 +44,6 @@ Le DDMRP est généralement utilisé par les fabricants qui ont une nomenclature
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP dans Dynamics 365 Supply Chain Management
 
-DDMRP est inclus avec Microsoft Dynamics 365 Supply Chain Management et ne nécessite pas de frais de licence supplémentaire. Dans Supply Chain Management, la fonctionnalité DDMRP a été ajoutée au modèle **Planification générale**. Cependant, cela nécessite que vous utilisiez le complément Optimisation de la planification. 
+DDMRP est inclus avec Microsoft Dynamics 365 Supply Chain Management et ne nécessite pas de frais de licence supplémentaire. Dans Supply Chain Management, la fonctionnalité DDMRP a été ajoutée au modèle **Planification générale**. Cependant, cela nécessite que vous utilisiez le complément Optimisation de la planification.
 
 DDMRP est intégré aux configurations de planification existantes dans Supply Chain Management et est utilisé avec ces configurations pour arriver à la configuration de planification appropriée pour votre entreprise. Il est contrôlé par un nouveau code de couverture qui est complètement différent de la période, du min/max, de l’exigence, etc. Ce n’est pas un nouveau module et il ne remplace pas la fonctionnalité de planification existante. Cependant, cela vous donne plus de fonctionnalités à utiliser.

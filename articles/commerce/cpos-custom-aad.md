@@ -2,22 +2,19 @@
 title: Configurez CPOS pour utiliser une application Azure AD personnalisée
 description: Cet article explique comment configurer Cloud POS (CPOS) pour utiliser une application Azure Active Directory (Azure AD).
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9222967"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746258"
 ---
 # <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>Configurez CPOS pour utiliser une application Azure AD personnalisée
 
@@ -52,6 +49,9 @@ Pour créer et configurer une application Retail Server personnalisée dans Azur
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Configurez une application CPOS personnalisée dans Azure AD
 
+> [!IMPORTANT]
+> Si vous mettez à niveau une application CPOS Azure AD personnalisée existante qui a été créée avant la version 10.0.21 de Commerce, suivez les étapes décrites dans [Mettre à niveau une application CPOS Azure AD personnalisée existante avant la version 10.0.21 de Commerce](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021).
+
 Pour créer et configurer une application CPOS personnalisée dans Azure AD, procédez comme suit.
 
 1. Connectez-vous au centre d’administration [Azure Active Directory](https://aad.portal.azure.com) à l’aide du compte utilisateur Azure AD correspondant. Le compte d’utilisateur n’a pas besoin d’autorisations d’administrateur.
@@ -68,12 +68,25 @@ Pour créer et configurer une application CPOS personnalisée dans Azure AD, pro
 1. Dans la section **Manifeste**, définissez les paramètres **oauth2AllowIdTokenImplicitFlow** et **oauth2AllowImplicitFlow** sur **true**, puis sélectionnez **Enregistrer**.
 1. Dans la section **Configuration du jeton**, suivez ces étapes pour ajouter deux revendications :
 
-    - Sélectionnez **Ajouter une revendication en option**. Définissez le champ **Type de jeton** sur **ID**, puis sélectionnez la revendication **sid**. Sélectionnez **Ajouter**.
-    - Sélectionnez **Ajouter une revendication en option**. Définissez le champ **Type de jeton** sur **Accès**, puis sélectionnez la revendication **sid**. Sélectionnez **Ajouter**.
+    1. Sélectionnez **Ajouter une revendication en option**. Définissez le champ **Type de jeton** sur **ID**, puis sélectionnez la revendication **sid**. Sélectionnez **Ajouter**.
+    1. Sélectionnez **Ajouter une revendication en option**. Définissez le champ **Type de jeton** sur **Accès**, puis sélectionnez la revendication **sid**. Sélectionnez **Ajouter**.
 
 1. Dans la section **Autorisations API**, sélectionnez **Ajouter une autorisation**.
 1. Dans l’onglet **API utilisées par mon organisation**, recherchez l’application Retail Server que vous avez créée dans la section [Configurer une application Retail Server personnalisée dans Azure AD](#set-up-a-custom-retail-server-app-in-azure-ad). Sélectionnez ensuite **Ajouter des autorisations**.
 1. Dans la section **Aperçu**, notez la valeur dans le champ **ID de l’application (client)**.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Mettre à niveau une application CPOS Azure AD personnalisée existante créée avant la version 10.0.21 de Commerce
+
+Pour mettre à niveau une application CPOS Azure AD personnalisée existante créée avant la version 10.0.21 de Commerce, procédez comme suit. 
+
+1. Ouvrez votre application CPOS Azure AD personnalisée dans le portail Azure.
+1. Sélectionnez l’onglet **Authentification**.
+1. Copiez et enregistrez l’URI de redirection d’origine du type **Web** pour une utilisation ultérieure, puis supprimez-le.
+1. Sélectionnez **Ajouter une plateforme**, puis sélectionnez **Application monopage (SPA)**.
+1. Ajoutez l’URI de redirection Web d’origine copié ci-dessus à la plateforme SPA.
+1. Dans la section **Configuration du jeton**, suivez ces étapes pour ajouter deux revendications :
+    1. Sélectionnez **Ajouter une revendication en option**. Définissez le champ **Type de jeton** sur **ID**, puis sélectionnez la revendication **sid**. Sélectionnez **Ajouter**.
+    1. Sélectionnez **Ajouter une revendication en option**. Définissez le champ **Type de jeton** sur **Accès**, puis sélectionnez la revendication **sid**. Sélectionnez **Ajouter**.
 
 ## <a name="update-the-cpos-configuration-file"></a>Mettez à jour le fichier de configuration CPOS
 
