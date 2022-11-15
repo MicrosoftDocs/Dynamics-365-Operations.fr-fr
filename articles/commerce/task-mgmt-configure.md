@@ -2,23 +2,23 @@
 title: Configurer la gestion des tâches
 description: Cet article décrit comment configurer les fonctionnalités de gestion des tâches dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282759"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746060"
 ---
 # <a name="configure-task-management"></a>Configurer la gestion des tâches
 
@@ -80,7 +80,11 @@ L’illustration suivante présente l’opération **Gestion des tâches** sur l
 
 ![Opération de gestion des tâches sur la page Opérations PDV.](media/HQ-POS-Tasks-Notifications.png)
 
-Pour plus d’informations sur la configuration des notifications PDV, consultez [Afficher les notifications de commande dans le point de vente (PDV)](notifications-pos.md).
+Pour plus d’informations sur la configuration des notifications du PDV, reportez-vous à l’article [Afficher les notifications de commande dans le point de vente (PDV)](notifications-pos.md).
+
+> [!NOTE]
+> Lorque vous enregistrez vos modifications, le message d’avertissement suivant s’affiche : **Le paramètre d’opération ne sera pas activé dans le concepteur de groupe de boutons pour les ID d'opération égaux ou inférieurs à 4000. Si vous créez une opération personnalisée et souhaitez transférer le paramètre à partir du concepteur de groupe de boutons, vous devez alors utiliser un ID d’opération supérieur à 4000.** Sélectionnez **Fermer** pour fermer la boîte de dialogue.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>Configurer la vignette Tâches sur la page d’accueil d’une application PDV
 

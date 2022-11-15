@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689774"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740821"
 ---
 # <a name="visual-and-collaborative-execution"></a>Exécution visuelle et collaborative
 
@@ -34,7 +34,7 @@ Dans Microsoft Dynamics 365 Supply Chain Management, vous pouvez suivre visuelle
 1. Sélectionnez un poste validé configuré comme point de découplage. (Pour plus d’informations, voir [Positionnement du stock](ddmrp-inventory-positioning.md).)
 1. Dans le volet Actions, sur l’onglet **Plan**, sélectionnez **Couverture de l’article**.
 1. Sur la page **Couverture de l’article**, sélectionnez un enregistrement de couverture d’article qui crée un point de découplage. (Cet enregistrement affichera le nom d’un groupe de couverture configuré pour créer des points de découplage.)
-1. Sélectionnez l’onglet **Disponible**. Cet onglet comprend un graphique qui montre comment les quantités en stock ont évolué au fil du temps, ainsi que la valeur du niveau en stock qui a été enregistrée pour une période spécifique chaque fois que l’optimisation de la planification est exécutée. L’onglet comprend également un tableau qui indique à laquelle des catégories suivantes appartient chaque niveau disponible enregistré :
+1. Sélectionnez l’onglet **Disponible**. Cet onglet comprend un graphique qui montre comment les quantités en stock ont évolué au fil du temps, ainsi que la valeur du niveau en stock qui a été enregistrée pour une période spécifique chaque fois que la planification générale est exécutée. L’onglet comprend également un tableau qui indique à laquelle des catégories suivantes appartient chaque niveau disponible enregistré :
 
     - **Extrêmement faible** : inférieur à la moitié du minimum pour la période.
     - **Faible** : entre la moitié du minimum et le minimum.

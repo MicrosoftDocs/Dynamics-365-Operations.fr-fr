@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335373"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740466"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolérance de retard (jours négatifs)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ Le système lie le calcul de la tolérance de retard à la *date de réapprovisi
 Cette formule garantit que la planification générale ne crée pas de nouvelles commandes d’approvisionnement lorsqu’il existe suffisamment d’approvisionnement pendant le délai d’approvisionnement du produit.
 
 > [!NOTE]
-> Le calcul de la tolérance de retard dans l’optimisation de la planification utilise toujours le calcul dynamique des jours négatifs provenant de la planification générale intégrée. Le paramètre **Utiliser des jours négatifs dynamiques** de la page **Paramètres de la planification générale** n’a aucun effet sur ce comportement.
+> Le calcul de la tolérance de retard dans l’optimisation de la planification utilise toujours le calcul dynamique des jours négatifs du moteur de planification générale déprécié. Le paramètre **Utiliser des jours négatifs dynamiques** de la page **Paramètres de la planification générale** n’a aucun effet sur ce comportement.
 
 Si l’approvisionnement existant implique un retard de demande inférieur ou égal à la tolérance de retard calculée, l’optimisation de la planification rattache l’approvisionnement existant à la demande. Dans certains cas, il vaut mieux retarder la demande que de se retrouver avec une offre excédentaire.
 
