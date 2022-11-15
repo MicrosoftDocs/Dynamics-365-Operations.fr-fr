@@ -1,6 +1,6 @@
 ---
 title: Demandes d’achat
-description: Cet article décrit comment les demandes d’achat sont prises en charge dans Optimisation de la planification.
+description: Cet article décrit les demandes d’achat.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867896"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740682"
 ---
 # <a name="purchase-requisitions"></a>Demandes d’achat
 
@@ -59,7 +59,7 @@ Lorsque vous définissez une plage de gestion des demandes approuvées pour un p
 1. Répétez les étapes 2 et 3 pour chaque plan général supplémentaire dans lequel vous souhaitez définir une plage de gestion des demandes approuvées.
 
 > [!IMPORTANT]
-> **Prochainement :** les plages de gestion des demandes approuvées ne sont pas encore prises en charge pour l’optimisation de la planification. Jusqu’à ce qu’elles soient prises en charge, toutes les valeurs que vous entrez dans le champ **Plage de gestion des demandes approuvées (jours)** seront ignorées.
+> Les plages de gestion des demandes approuvées ne sont pas prises en charge pour l’optimisation de la planification. Jusqu’à ce qu’elles soient prises en charge, toutes les valeurs que vous entrez dans le champ **Plage de gestion des demandes approuvées (jours)** seront ignorées.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Approvisionnement indépendant, indépendamment du code de couverture
 

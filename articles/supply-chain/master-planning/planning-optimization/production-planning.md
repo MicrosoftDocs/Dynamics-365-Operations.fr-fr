@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335253"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740547"
 ---
 # <a name="production-planning"></a>Planification de la production
 
 [!include [banner](../../includes/banner.md)]
-
-L’optimisation de la planification prend en charge plusieurs scénarios de production. Si vous effectuez une migration depuis le moteur de planification générale intégré existant, il est important de connaître certains changements de comportement.
 
 La vidéo suivante donne une brève introduction à certains des concepts abordés dans cet article : [Dynamics 365 Supply Chain Management : Améliorations de l’optimisation de la planification](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ Les ordres de fabrication prévisionnels incluent l’ID de gamme qui est néces
 
 - **Ordre de fabrication prévisionnel** : le délai est basé sur le délai statique du produit lancé.
 - **Ordre de fabrication confirmé** : le délai est basé sur la planification qui utilise les informations de gamme et les contraintes de ressources associées.
-
-Pour plus d’informations sur la disponibilité attendue des fonctionnalités, voir [Analyse de l’ajustement de l’optimisation de la planification](planning-optimization-fit-analysis.md).
-
-Si vous dépendez d’une fonctionnalité de production qui n’est pas encore disponible pour l’optimisation de la planification, vous pouvez continuer à utiliser le moteur de planification générale intégré. Aucune exception n’est nécessaire.
 
 ## <a name="delays"></a>Retards
 
@@ -76,15 +70,15 @@ Vous pouvez utiliser la page **Explosion** pour analyser la demande nécessaire 
 
 ## <a name="filters"></a><a name="filters"></a>Filtres
 
-Pour vous assurer que l’optimisation de la planification dispose des informations nécessaires pour calculer le résultat correct, vous devez inclure tous les produits en relation avec des produits dans l’ensemble de la structure de nomenclature de l’ordre prévisionnel. Pour les scénarios de planification incluant la production, nous vous recommandons donc d’éviter d’exécuter la planification générale avec des filtres.
+Pour vous assurer que la planification générale dispose des informations nécessaires pour calculer le résultat correct, vous devez inclure tous les produits en relation avec des produits dans l’ensemble de la structure de nomenclature de l’ordre prévisionnel. Pour les scénarios de planification incluant la production, nous vous recommandons donc d’éviter d’exécuter la planification générale avec des filtres.
 
-Bien que les articles enfants dépendants soient automatiquement détectés et inclus dans les exécutions de la planification générale lorsque le moteur de planification générale intégré est utilisé, l’optimisation de la planification n’exécute actuellement pas cette action.
+Bien que les articles enfants dépendants soient automatiquement détectés et inclus dans les exécutions de la planification générale lorsque le moteur de planification générale déprécié est utilisé, l’optimisation de la planification n’exécute actuellement pas cette action.
 
 Par exemple, si un seul boulon de la structure de nomenclature du produit A est également utilisé pour produire le produit B, tous les produits de la structure de nomenclature des produits A et B doivent être inclus dans le filtre. Comme il peut être complexe de s’assurer que tous les produits font partie du filtre, nous vous recommandons d’éviter les exécutions filtrées de la planification générale lorsque des ordres de fabrication sont impliqués. Sinon, la planification générale donnera des résultats indésirables.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Raisons d’éviter d’exécuter la planification générale avec des filtres
 
-Lorsque vous exécutez une planification générale filtrée pour un produit, l’optimisation de la planification (contrairement au moteur de planification générale intégré) ne détecte pas tous les sous-produits et matières premières dans la structure de nomenclature de ce produit, et ne les inclut donc pas dans la base de données au cours de l’exécution de la planification. Même si l’optimisation de la planification identifie le premier niveau dans la structure de nomenclature du produit, il ne charge aucun paramètre de produit (comme le type de commande par défaut ou la couverture d’article) à partir de la base de données.
+Lorsque vous exécutez une planification générale filtrée pour un produit, l’optimisation de la planification (contrairement au moteur de planification générale déprécié) ne détecte pas tous les sous-produits et matières premières dans la structure de nomenclature de ce produit, et ne les inclut donc pas dans la base de données au cours de l’exécution de la planification générale. Même si l’optimisation de la planification identifie le premier niveau dans la structure de nomenclature du produit, il ne charge aucun paramètre de produit (comme le type de commande par défaut ou la couverture d’article) à partir de la base de données.
 
 Dans l’optimisation de la planification, les données de l’exécution sont chargées au préalable et appliquent les filtres. Cela signifie que si un sous-produit ou une matière première inclus dans un produit spécifique ne fait pas partie du filtre, les informations le concernant ne seront pas capturées pour l’exécution. De plus, si le sous-produit ou la matière première est également inclus dans un autre produit, une exécution filtrée qui inclut uniquement le produit d’origine et ses composants supprimerait la demande planifiée existante qui a été créée pour cet autre produit.
 

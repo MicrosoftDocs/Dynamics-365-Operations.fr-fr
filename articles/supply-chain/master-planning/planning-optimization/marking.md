@@ -1,6 +1,6 @@
 ---
-title: Marquage du stock avec Optimisation de planification
-description: Cet article fournit des informations sur les options disponibles pour marquer le stock dans les commandes confirmées lorsque vous utilisez l’optimisation de la planification.
+title: Marquage du stock
+description: Cet article fournit des informations sur les options disponibles pour marquer le stock dans les commandes confirmées.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219935"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740574"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Marquage du stock avec Optimisation de planification
+# <a name="inventory-marking"></a>Marquage du stock
 
 [!include [banner](../../includes/banner.md)]
 
-Cet article fournit des informations sur les options disponibles pour marquer le stock dans les commandes confirmées lorsque vous utilisez l’optimisation de la planification.
+Cet article fournit des informations sur les options disponibles pour marquer le stock dans les commandes confirmées.
 
-Le *Marquage* est utilisé pour lier l’offre et la demande. Il ressemble à l’ *origine des besoins*, qui indique comment la planification générale prévoit de couvrir la demande. Du point de vue de la planification, la principale différence est que le marquage est plus permanent que l’origine des besoins.
+Le *Marquage* est utilisé pour relier l’offre et la demande. Il ressemble à l’*origine des besoins*, qui indique comment la planification prévoit de couvrir la demande. Du point de vue de la planification, la principale différence est que le marquage est plus permanent que l’origine des besoins.
 
 Le marquage a été introduit pour prendre en charge des scénarios de coûts spéciaux pour le premier entré, premier sorti (FIFO) et le dernier entré, premier sorti (LIFO). Cependant, il est maintenant également utilisé pour certains scénarios sans coût. Le marquage entre l’offre et la demande est facultatif et presque permanent. Le marquage peut être supprimé manuellement par un utilisateur, ou il peut être supprimé en exécutant une explosion de ligne de commande client où l’option **Supprimer le marquage** est sélectionnée.
 

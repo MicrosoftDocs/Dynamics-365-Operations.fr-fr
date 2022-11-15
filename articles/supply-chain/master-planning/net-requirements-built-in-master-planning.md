@@ -1,6 +1,6 @@
 ---
-title: Exigences nettes et informations d’origine des besoins avec la planification générale intégrée
-description: Cet article fournit des informations sur les besoins nets calculés et les informations d’origine des besoins dans la planification intégrée.
+title: Exigences nettes et informations d’origine des besoins avec le moteur de planification générale déprécié
+description: Cet article fournit des informations sur les besoins nets calculés et les informations d’origine des besoins dans le moteur de planification générale déprécié.
 author: t-benebo
 ms.date: 04/20/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 08a25af0d7ea15b4bc426dfc54b9b960762e11f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dd11cf039704afc520cfa24185aa2e7842af9a00
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846067"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740273"
 ---
-# <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>Exigences nettes et informations d’origine des besoins avec la planification intégrée
+# <a name="net-requirements-and-pegging-information-with-the-deprecated-master-planning-engine"></a>Exigences nettes et informations d’origine des besoins avec le moteur de planification générale déprécié
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,8 +26,8 @@ Quand vous exécutez la planification dans la planification intégrée, il est i
 
 La page **Besoins nets** affiche les besoins nets calculés pour le produit pendant la planification. Elle affiche également les paramètres de couverture qui ont été appliqués au moment de l’exécution de la planification, une ventilation des totaux de besoin par type de transaction et des informations sur l’origine des besoins.
 
-La page **Besoins nets** se comporte légèrement différemment selon vous utilisez l’optimisation de la planification ou le moteur de planification principal intégré. Pour plus d’informations sur cette différence, consultez [Différences entre la planification générale intégrée et l’optimisation de la planification](planning-optimization/planning-optimization-differences-with-built-in.md)
+La page **Besoins nets** se comporte légèrement différemment selon vous utilisez l’optimisation de la planification ou le moteur de planification générale déprécié. Pour plus d’informations sur cette différence, consultez [Différences entre l’optimisation de la planification et le moteur de planification générale déprécié](planning-optimization/planning-optimization-differences-with-built-in.md)
 
-Pour plus d’informations sur l’utilisation de cette page, consultez [Besoins nets et informations sur l’origine des besoins avec l’optimisation de la planification](planning-optimization/net-requirements.md).
+Pour plus d’informations sur l’utilisation de cette page, consultez [Besoins nets et informations sur l’origine des besoins](planning-optimization/net-requirements.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
