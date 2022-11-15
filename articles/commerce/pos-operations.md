@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: eb21dc5ca474a87fcabe2dda2a06dda7aa42ebc2
+ms.sourcegitcommit: 719600437fc0895efac374f954a895e4c951da6e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728274"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9736879"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -42,6 +42,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 
 > [!NOTE]
 > Les opérations répertoriées ci-dessous s’appliquent à la version la plus récente de Commerce. Certaines opérations peuvent avoir été modifiées ou ne pas être disponibles dans les versions précédentes.
+> Pour plus de détails concernant les fonctionnalités et la configuration hors connexion, reportez-vous à l’article [Mise en œuvre et résolution des problèmes hors connexion de Commerce](dev-itpro/implementation-considerations-offline.md).
 
 | lD   | Opération                                         | Description                                                                                                                                                                                                    | Opérations d’utilisateur    | Écran de transaction | Écran de bienvenue | Hors connexion disponible ? | Spécifique aux paramètres locaux |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
