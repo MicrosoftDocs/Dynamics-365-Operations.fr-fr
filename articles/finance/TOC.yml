@@ -1188,9 +1188,11 @@
                   href: general-ledger/ledger-settlements.md
                 - name: Reconnaissance entre un lettrage comptable et la clôture de fin d’exercice
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Automatiser les lettrages comptables
+                  href: general-ledger/auto-settle.md
                 - name: Réévaluation des comptes en devises dans la Comptabilité
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Soldes de la comptabilité
+                - name: Soldes du compte général
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Traitement du journal de répartition comptable
                   href: general-ledger/tasks/process-ledger-allocation-journal.md

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878510"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764177"
 ---
 # <a name="distributed-order-management-dom"></a>Gestion des commandes distribuées (DOM)
 
@@ -68,9 +68,9 @@ L’illustration suivante présente le cycle de vie d’une commande client dans
         > [!NOTE]
         > Le solveur simplifié est fourni pour que les détaillants puissent essayer la fonctionnalité DOM sans avoir à déployer une licence spéciale. Les organisations ne doivent pas utiliser le solveur simplifié dans les environnements de production.
         >
-        > Le solveur de production améliore les performances (telles que le nombre de commandes et de lignes de commande pouvant être traitées simultanément) et une convergence des résultats (un lot de commandes ne va pas forcément produire les meilleurs résultats dans certains scénarios). Certaines règles comme **Commandes partielles** et **Nombre maximal de commandes** nécessitent le solveur de production.
+        > Le solveur de production améliore les performances (telles que le nombre de commandes et de lignes de commande pouvant être traitées simultanément) et une convergence des résultats (un lot de commandes ne va pas forcément produire les meilleurs résultats dans certains scénarios). La règle **Commandes partielles** nécessite le solveur de production.
 
-6. Revenez à **Retail et Commerce \> Gestion des commandes distribuées \> Paramétrage \> Paramètres DOM**.
+6. Revenez à **Vente au détail et Commerce \> Gestion des commandes distribuées \> Paramétrage \> Paramètres DOM**.
 7. Dans l’onglet **Souches de numéros**, affectez les souches de numéros nécessaires à différentes entités DOM.
 
     > [!NOTE]

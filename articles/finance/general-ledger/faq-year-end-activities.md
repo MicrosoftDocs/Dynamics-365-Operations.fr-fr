@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751929"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752746"
 ---
 # <a name="year-end-activities-faq"></a>FAQ sur les activités de fin d’exercice 
 
@@ -95,7 +95,24 @@ Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le syst
 - Module : Comptabilité
 - Nom de la fonctionnalité : Améliorations des performances pour la reconstruction des ensembles de dimensions financières
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Comptabilité fournisseur : Quels changements ont été apportés pour prendre en charge la génération d’états de fin d’exercice pour le formulaire 1099 pour 2021 ?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Comptabilité fournisseur : quels changements ont été apportés pour prendre en charge les rapports de fin d’exercice 1099 pour 2022 ?
+
+#### <a name="update-to-all-1099-forms"></a>Mise à jour de tous les formulaires 1099
+Les changements suivants ont été apportés à tous les formulaires 1099 pour l’année fiscale 2022 :
+
+  - En 2021, l’année était fixe sur les formulaires 1099. À partir de 2022, l’année est remplie par le rapport. 
+
+#### <a name="1099-misc"></a>1099-MISC
+Les mises à jour suivantes ont été apportées au formulaire 1099-MISC pour l’année fiscale 2022 :
+
+ - Case 13 : indique maintenant les conditions de déclaration de la FATCA (Foreign Account Tax Compliance Act). 
+ - Case 14 : maintenant utilisée pour déclarer les paiements excessifs de parachute doré. 
+ - Case 15 : maintenant utilisée pour déclarer le paiement dans le cadre des régimes de rémunération différée non qualifiée (NQDC). 
+ - Case 16 : maintenant utilisée pour déclarer les impôts d’État retenus.
+ - Case17 : maintenant utilisée pour déclarer le numéro d’État du contribuable.
+ - Case 18 : maintenant utilisée pour déclarer les revenus d’État. 
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Comptabilité fournisseur : quels changements ont été apportés pour prendre en charge les rapports de fin d’exercice 1099 pour 2021 ?
 
 En 2021, les formulaires DIV, NEC et MISC ont été légèrement modifiés et quelques cases supplémentaires sont apparues.
 
