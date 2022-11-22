@@ -2,23 +2,23 @@
 title: Importer des données d’une filiale à partir de fichiers
 description: Cet article explique comment préparer les données de systèmes externes afin qu’elles puissent être importées dans Microsoft Dynamics 365 Finance.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 10/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 494f6396d5e6fab6fef9404ad473566b02b1b9ab
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846768"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780094"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importer des données d’une filiale à partir de fichiers
 
@@ -32,27 +32,27 @@ Cet article explique comment préparer les données de systèmes externes afin q
 3. Exportez les données dans un fichier en suivant les étapes du « Processus d’importation et d’exportation de données » dans [Vue d’ensemble de tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Vous pouvez utiliser ce processus pour consolider les données à partir d’une autre instance de Dynamics 365 Finance ou à partir de Dynamics 365 Business Central. Si vous importez des données à partir de systèmes externes, elles doivent être au format décrit dans [Exportation des données d’une filiale dans des fichiers](export-subsidiary-data-to-file.md).
 4. Allez dans **Consolidations \> Consolider avec importation**. Sur la page **Consolider avec importation**, sur l’onglet **Critères**, spécifiez les détails de l’état et/ou de l’importation en définissant les champs suivants.
 
-    | Champ                                 | Valeur de l’état | Valeur de l’importation |
-    |---------------------------------------|----------------------|----------------------|
-    | Description                           | Non applicable | Entrez une description afin d’identifier l’importation. |
-    | Compte principal                          | Définissez la plage de comptes que le rapport doit inclure. Si vous ne définissez pas de plage, tous les comptes seront inclus. | Définissez la plage de comptes que l’importation doit inclure. Si vous ne définissez pas de plage, tous les comptes seront inclus. |
-    | Période de consolidation                  | Définissez la plage de dates à consolider. | Définissez la plage de dates à consolider. |
-    | Inclure les montants réels                | Définissez cette option sur **Oui** pour inclure les chiffres réels. | Définissez cette option sur **Oui** pour inclure les chiffres réels. |
-    | Inclure les montants du budget                | Définissez cette option sur **Oui** pour inclure les montants budgétaires dans les consolidations. | Définissez cette option sur **Oui** pour inclure les montants budgétaires dans les consolidations. |
-    | Regénérer les soldes lors du processus de consolidation | Définissez cette option sur **Oui** si le processus de régénération doit effacer complètement le solde et les nouveaux enregistrements, et recréer le solde depuis le début. | Définissez cette option sur **Oui** si le processus de régénération doit effacer complètement le solde et les nouveaux enregistrements, et recréer le solde depuis le début. |
-    | Modèles de budget                         | Non applicable | Si vous avez choisi d’importer les montants budgétaires, entrez les modèles à consolider. |
-    | Type de taux du budget                      | Non applicable | Entrez le type de taux de change du budget. |
+| Champ                                 | Valeur de l’état | Valeur de l’importation |
+|---------------------------------------|----------------------|----------------------|
+| **Description**                      | Non applicable | Entrez une description afin d’identifier l’importation. |
+| **Compte principal**    | Définissez la plage de comptes que le rapport doit inclure. Si vous ne définissez pas de plage, tous les comptes seront inclus. | Définissez la plage de comptes que l’importation doit inclure. Si vous ne définissez pas de plage, tous les comptes seront inclus. |
+    | **Période de consolidation**                  | Définissez la plage de dates à consolider. | Définissez la plage de dates à consolider. |
+    | **Inclure les montants réels**                | Définissez cette option sur **Oui** pour inclure les chiffres réels. | Définissez cette option sur **Oui** pour inclure les chiffres réels. |
+| **Inclure les montants du budget** | Définissez cette option sur **Oui** pour inclure les montants budgétaires dans les consolidations. | Définissez cette option sur **Oui** pour inclure les montants budgétaires dans les consolidations. |
+| **Regénérer les soldes lors du processus de consolidation** | Définissez cette option sur **Oui** si le processus de régénération doit effacer complètement le solde et les nouveaux enregistrements, et recréer le solde depuis le début. | Définissez cette option sur **Oui** si le processus de régénération doit effacer complètement le solde et les nouveaux enregistrements, et recréer le solde depuis le début. |
+| **Modèles de budget**                         | Non applicable | Si vous avez choisi d’importer les montants budgétaires, entrez les modèles à consolider. |
+    | **Type de taux du budget**                      | Non applicable | Entrez le type de taux de change du budget. |
 
 6. Si vous avez des devises comptables différentes, utilisez les champs de l’onglet **Conversion de devises** pour configurer la traduction effectuée lors de la consolidation.
 
     | Champ                      | Description |
     |----------------------------|-------------|
-    | Entité juridique source        | Sélectionnez l’entité juridique à partir de laquelle vous importez. |
-    | Devise comptable source | Cette devise par défaut est la devise associée à l’entité juridique source que vous avez sélectionnée dans le champ **Entité juridique source**. |
-    | Comptes De et À       | Définissez la plage de comptes à importer à partir de l’entité juridique source. |
-    | Type de taux de change         | Sélectionnez le type de taux de change. Les types de taux de change sont attribués lorsque vous créez un compte principal. Pour plus d’informations, voir [Créer un compte principal](tasks/create-main-account.md). |
-    | Appliquer le taux de change de   | Saisissez une date pour appliquer le taux de change en vigueur à cette date. Vous pouvez également saisir la valeur à utiliser comme taux de change. |
-    | Taux de change              | La valeur par défaut dépend du type de taux de change sélectionné dans le champ **Type de taux de change**. Si vous avez entré un taux de change défini par l’utilisateur, vous pouvez définir un taux. |
+ | **Entité juridique source**        | Sélectionnez l’entité juridique à partir de laquelle vous importez. |
+ | **Devise comptable source** | Cette devise par défaut est la devise associée à l’entité juridique source que vous avez sélectionnée dans le champ **Entité juridique source**. |
+ | **Compte d’origine** et **Compte de destination**       | Définissez la plage de comptes à importer à partir de l’entité juridique source. |
+    | **Type de taux de change**         | Sélectionnez le type de taux de change. Les types de taux de change sont attribués lorsque vous créez un compte principal. Pour plus d’informations, voir [Créer un compte principal](tasks/create-main-account.md). |
+| **Appliquer le taux de change de**   | entrez une date pour appliquer le taux de change en vigueur à cette date. Vous pouvez également entrer la valeur à utiliser comme taux de change. |
+| **Taux de change**  | La valeur par défaut dépend du type de taux de change sélectionné dans le champ **Type de taux de change**. Si vous avez entré un taux de change défini par l’utilisateur, vous pouvez définir un taux. |
 
 7. Définissez l’option **Exécuter en arrière-plan** sur **Oui** pour permettre au processus d’importation de s’exécuter en arrière-plan.
 8. Définissez l’option **Traitement par lots** sur **Oui** pour exécuter la consolidation comme un traitement par lots à un moment précis. Pour exécuter la consolidation immédiatement, sélectionnez **OK**. 

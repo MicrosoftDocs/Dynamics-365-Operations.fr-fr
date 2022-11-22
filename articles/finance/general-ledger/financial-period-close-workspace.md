@@ -2,25 +2,25 @@
 title: Espace de travail de clôture de période comptable
 description: Cet article fournit une vue d’ensemble de l’espace de travail de clôture de période comptable et la configuration associée.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865710"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780040"
 ---
 # <a name="financial-period-close-workspace"></a>Espace de travail de clôture de période comptable
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865710"
 
 Cet article fournit une vue d’ensemble de l’espace de travail de **clôture de période comptable** et la configuration associée.
 
-Espace de travail de clôture de période comptable
+## <a name="financial-period-close-workspace"></a>Espace de travail de clôture de période comptable
 
 L’espace de travail **Clôture de période comptable** permet de suivre les processus de clôture de période comptable sur plusieurs sociétés, secteurs et personnes. Selon votre affichage de l’espace de travail **Clôture de période comptable**, vous verrez l’ensemble des tâches et statuts d’un programme de clôture, ou seulement les tâches qui vous sont affectées. 
 
@@ -101,7 +101,7 @@ Affectez le calendrier approprié pour le programme de clôture, pour indiquer l
 
 Vous devez également définir les sociétés qui seront associées au programme de clôture. Si des tâches de modèle sont affectées à plusieurs sociétés, des tâches distinctes seront créées pour chaque société du programme de clôture assignée à la tâche du modèle. 
 
-Une fois qu’un programme de clôture est terminé, sélectionnez l’option **Clôturé** pour ce programme. L’historique des tâches sera toujours disponible dans la page de liste **Toutes les tâches de clôture de période comptable**, mais le programme de clôture sera supprimé de l’espace de travail. Une fois qu’un programme de clôture a été marqué comme **Clôturé**, vous ne pourrez pas lui ajouter de tâches, modifier des tâches ou lui supprimer des tâches.
+Après avoir terminé le programme de clôture, sélectionnez l’option **Clôturé**. L’historique des tâches sera toujours disponible dans la page de liste **Toutes les tâches de clôture de période comptable**, mais le programme de clôture sera supprimé de l’espace de travail. Une fois qu’un programme de clôture a été marqué comme **Clôturé**, vous ne pourrez pas lui ajouter de tâches, modifier des tâches ou lui supprimer des tâches.
 
 
 

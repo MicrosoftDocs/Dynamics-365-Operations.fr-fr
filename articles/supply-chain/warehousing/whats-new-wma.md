@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702193"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764237"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications de l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Cet article répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>Version 2.0.37.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+- Ajout d’un paramètre utilisateur qui permet aux travailleurs de choisir où l’application affiche les photos de produits (dans les cartes et les en-têtes d’étape, uniquement dans les en-têtes d’étape ou pas du tout). 
+- Amélioration de la disposition de l’écran de la carte de détails en réduisant la taille de la bannière d’étape et du spinner d’entrée de quantité, ce qui laisse plus de place pour d’autres contenus. 
+- Amélioration de l’interface utilisateur lors de l’exécution sur un appareil Honeywell Thor. 
+- Mode plein écran amélioré (s’applique uniquement aux périphériques avec un clavier matériel). 
+- Amélioration des résultats lors du tri des cartes de détails et des pages personnalisées par priorité ou sous-priorité (DataPriority ou DisplaySubPriority). 
+- Ajout du support pour plus de langues. 
+- Stabilité améliorée. 
+- Amélioration de plusieurs images et icônes. 
 
 ## <a name="version-20350"></a>Version 2.0.35.0
 
@@ -90,16 +102,16 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 
 Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
 
-- Pages du scanner améliorées pour activer l'option de numérisation sur les pages **Détails**.
-- Gestes améliorés, tels que l'écran tactile.
+- Pages du scanner améliorées pour activer l’option de numérisation sur les pages **Détails**.
+- Gestes améliorés, tels que l’écran tactile.
 - Amélioration des problèmes de performances pour Android.
-- Correction du placement de plusieurs en-têtes pour permettre à plus de cartes de s'afficher sur la page **Recherche**.
+- Correction du placement de plusieurs en-têtes pour permettre à plus de cartes de s’afficher sur la page **Recherche**.
 - Défilement amélioré, donc moins de distance pour le défilement de la pagination est activée.
-- Ajout d'un appui long pour afficher du texte supplémentaire sur la page **Demande**.
-- Résolution du manque d'informations sur l’ID de périphérique pour Android.
+- Ajout d’un appui long pour afficher du texte supplémentaire sur la page **Demande**.
+- Résolution du manque d’informations sur l’ID de périphérique pour Android.
 - Stabilité accrue.
 - Optimisation de la disposition de connexion.
-- Ajout d'un geste de balayage vers la droite pour fermer les pages contextuelles de la boîte de dialogue sur le pavé numérique, la page **Détails** et les pages de saisie.
+- Ajout d’un geste de balayage vers la droite pour fermer les pages contextuelles de la boîte de dialogue sur le pavé numérique, la page **Détails** et les pages de saisie.
 
 ## <a name="version-20220"></a>Version 2.0.22.0
 

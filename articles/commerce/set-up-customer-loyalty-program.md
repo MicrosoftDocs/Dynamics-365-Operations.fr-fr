@@ -2,26 +2,22 @@
 title: Vue d’ensemble de la fidélité
 description: Cet article décrit les fonctionnalités de fidélité dans Dynamics 365 Commerce et les étapes de configuration correspondantes permettant au détaillant de démarrer facilement leurs programmes de fidélité.
 author: josaw1
-ms.date: 07/21/2020
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.region: global
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.custom: 16201,  ""intro-internal
+ms.custom: 16201, "intro-internal"
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
-ms.search.industry: Retail
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
-ms.openlocfilehash: e1b2a5ec6d1a2b925ccae07b5217fbb24a2e6a10
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 17742bb5c0091804fc6f43bb2aabb7af73229890
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277986"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9784962"
 ---
 # <a name="loyalty-overview"></a>Vue d’ensemble de la fidélité
 
@@ -36,6 +32,11 @@ Vous pouvez paramétrer votre programme de fidélité de manière à ce qu’il 
 - Définition des règles de bénéfices qui identifient les activités qu’un client doit réaliser pour obtenir des récompenses. Vous pouvez également définir des règles de remboursement qui identifient quand et comment un client peut rembourser des récompenses.
 - Émettez des cartes de fidélité à partir de tout canal qui participe aux programmes de fidélité, et liez ces cartes à un ou plusieurs programmes de fidélité auxquels le client peut participer. Vous pouvez également lier un enregistrement client à une carte de fidélité, afin que le client puisse cumuler et valider des points de fidélité à partir de plusieurs cartes.
 - Ajustement manuel des cartes de fidélité ou transfert du solde de récompenses de fidélité d’une carte à une autre pour rendre service ou rembourser un client.
+
+La vidéo suivante donne un aperçu et une démonstration des capacités de fidélisation dans Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wW]
 
 ## <a name="setting-up-loyalty-programs"></a>Paramétrage des programmes de fidélité
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: bfc1c2021387ed35e6ccb513167e896eddef2eaf
+ms.sourcegitcommit: ea79bf014bbf495ac8e28db29502c8bd85a75f32
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752718"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9759598"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Configurer l’importation avancée des rapprochements bancaires à l’aide de la génération d’états électroniques
 
@@ -34,9 +34,12 @@ La fonctionnalité de rapprochement bancaire avancé permet d’importer des rel
 2. Sur la vignette du fournisseur de configuration **Microsoft**, sélectionnez **Référentiels**.
 3. Sélectionnez **Global**, puis sélectionnez **Ouvrir**.
 4. Si une connexion au référentiel doit être établie, sélectionnez le lien bleu dans la boîte de dialogue.
-5. Dans la liste de configurations, recherchez **Modèle de relevé de rapprochement bancaire avancé \> Format ABR BAI2**.
+5. Dans la liste de configurations, recherchez **Modèle de relevé de rapprochement bancaire avancé \> Format ABR BAI2**.
 6. Sélectionnez le format **BAI2**.
 7. Dans l’organisateur **Versions**, sélectionnez la version la plus récente, puis sélectionnez **Importer**.
+
+>[!NOTE]
+>Le **Modèle de relevé bancaire de BAI2** sera obsolète à une date ultérieure. 
 
 ## <a name="set-up-the-bank-statement-format"></a>Configurer le format de relevé bancaire
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908152"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778674"
 ---
 # <a name="process-collection-letters-example"></a>Exemple Traiter les lettres de relance
 
@@ -32,11 +32,11 @@ Lorsque vous avez terminé, vous devez suivre les étapes suivantes.
 
 1. Accédez à **Crédit et relances \> Lettre de relance \> Paramétrer la série de lettres de relance** et paramétrez la série de lettres de relance comme indiqué dans le tableau suivant affecté au profil de validation client.
 
-|     Code lettre de relance      |     Description                           |     Devise      |     Compte principal        |     Frais en devise     |     Minimum au-dessus        |     Bloc de jours      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     Lettre de relance 1         |     Deuxième notification avec frais        |     USD           |                           |     0,00                  |     0,00                  |     2                 |
-|     Lettre de relance 2         |     Deuxième notification avec frais        |     USC           |     403150                |     20.00                 |     10.00                 |     3                 |
-|     Relance                    |     Notification finale avec frais         |     USD           |     403150                |     50.00                 |     100.00                |     15                |
+|   Code lettre de relance      |     Description       |     Devise      |     Compte principal        |     Frais en devise       |   Minimum au-dessus  |   Bloc de jours        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  Lettre de relance 1          |     Première notification |     EUR          |                   |     0.00              |     0.00                  |     2                 |
+|  Lettre de relance 2          |     Deuxième notification avec frais      |     EUR      |     403150         |     20.00         |     10.00     |     3                 |
+|  Relance                   |     Dernière notification avec frais       |     USD           |     403150    |     50.00         |     100.00                |     15            |
 
 L’illustration suivante montre les informations contenues dans le tableau telles qu’elles apparaissent sur la page **Lettres de relance**. 
 
@@ -60,7 +60,7 @@ L’illustration suivante montre les informations contenues dans le tableau tell
     5. Dans le champ **Prix unitaire**, entrez **500.00**.
     6. Sélectionnez **Valider**.
 
-    Vous devez maintenant saisir deux avoirs pour le client.
+    Vous devez maintenant entrer deux avoirs pour le client.
 
 4. Sélectionnez **Nouveau**, puis procédez comme suit :
 
@@ -84,7 +84,7 @@ L’illustration suivante montre les informations contenues dans le tableau tell
 
         Par défaut, le champ **Lettre de relance** doit être défini sur **Lettre de relance par client**.
 
-    2. Dans le champ **Date de la lettre de relance**, saisissez **19/01/2021**.
+    2. Dans le champ **Date de la lettre de relance**, entrez **19/01/2021**.
     3. Sur le raccourci **Enregistrements à inclure**, sélectionnez **Filtre**, puis, dans le champ **Compte client**, ajoutez le client **US-045**.
     4. Cliquez sur **OK**.
     5. Sélectionnez **OK** pour créer des lettres de relance.
@@ -106,7 +106,7 @@ L’illustration suivante montre les informations contenues dans le tableau tell
 
         Par défaut, le champ **Lettre de relance** doit être défini sur **Lettre de relance par client**.
 
-    2. Dans le champ **Date de la lettre de relance**, saisissez **23/01/2021**.
+    2. Dans le champ **Date de la lettre de relance**, entrez **23/01/2021**.
     3. Sur le raccourci **Enregistrements à inclure**, sélectionnez **Filtre**, puis, dans le champ **Compte client**, ajoutez le client **US-045**.
     4. Cliquez sur **OK**.
     5. Sélectionnez **OK** pour créer des lettres de relance.
@@ -133,7 +133,7 @@ L’illustration suivante montre les informations contenues dans le tableau tell
 
         Par défaut, le champ **Lettre de relance** doit être défini sur **Lettre de relance par client**.
 
-    2. Dans le champ **Date de la lettre de relance**, saisissez **23/01/2021**.
+    2. Dans le champ **Date de la lettre de relance**, entrez **23/01/2021**.
     3. Sur le raccourci **Enregistrements à inclure**, sélectionnez **Filtre**, puis, dans le champ **Compte client**, ajoutez le client **US-045**.
     4. Cliquez sur **OK**.
     5. Sélectionnez **OK** pour créer des lettres de relance.

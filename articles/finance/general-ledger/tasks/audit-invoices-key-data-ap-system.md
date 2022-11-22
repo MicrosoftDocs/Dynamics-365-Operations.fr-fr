@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c45133091a86da773d7f63addd460abd92aae7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4525534f906322c7fe4c232f0f6da5b308829087
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868342"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775213"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Auditer les factures et indexer les données dans la comptabilité fournisseur
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868342"
 
 Lorsque vous recevez une facture d’un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement. Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée. 
 
-Dans la page **Comptabilité fournisseur**, vérifiez que l’option Activer le contrôle de rapprochement de factures est sélectionnée, que le champ **Valider la facture avec les non-correspondances** est bien défini sur **Demander une approbation**, et que le champ **Stratégie de rapprochement des lignes** est défini sur **Rapprochement à trois facteurs**.
+Dans la page **Comptabilité fournisseur**, vérifiez que l’option **Activer le contrôle de rapprochement de factures** est sélectionnée, que le champ **Valider la facture avec les non-correspondances** est bien défini sur **Demander une approbation**, et que le champ **Stratégie de rapprochement des lignes** est défini sur **Rapprochement à trois facteurs**.
 
 La société fictive USMF sert d’exemple dans cette procédure. Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d12932f35b3b451577d38948f60bc3a73c10e2a0
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 8f6ba18096cffe907c339ad525c99535bc5ee568
+ms.sourcegitcommit: 7745c4bd3ab3aace4b4cb814eaf0cfdbae4a0cbd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714831"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9784689"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.29 (octobre 2022)
 
@@ -33,7 +33,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 
 | Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
-| Inventaire et logistique | [Allouer et réserver des articles WMS dans la visibilité des stocks](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Prochainement | Activé par défaut |
+| Inventaire et logistique | [Allouer et réserver des articles WMS dans la visibilité des stocks](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | [Prise en charge de la Inventory Visibility pour les articles WMS](../inventory/inventory-visibility-whs-support.md) | Activé par défaut |
 | Inventaire et logistique | [Précharger des listes d’inventaire disponibles simplifiées](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Utiliser l’application Inventory Visibility](../inventory/inventory-visibility-power-platform.md) | Activé par la configuration du service |
 | Automatisation de l’approvisionnement sur commande | [Automatisation de l’approvisionnement sur commande](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Automatisation de l’approvisionnement sur commande](../master-planning/make-to-order-supply-automation.md) | Gestion des fonctions :<br>*Automatisation de l’approvisionnement sur commande* |
 | Planification | [Afficher et appliquer des aperçus détaillés pour DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Vue d’ensemble de la planification des besoins en matériaux basée sur la demande (DDMRP)](../master-planning/planning-optimization/ddmrp-overview.md) | Gestion des fonctions :<br>*(Version préliminaire) DDMRP pour Optimisation de la planification* |
@@ -51,13 +51,13 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 | Gestion des coûts | Optimisation du calcul des prix en attente du co-produit | Cette fonctionnalité résout un conflit qui peut parfois se produire lorsque les prix des co-produits sont calculés à l’aide de fils multiples. Cela amène le système à s’assurer que le prix de chaque co-produit n’est calculé qu’une seule fois. Le résultat de ce calcul est ensuite utilisé comme entrée pour tous les autres calculs. Si un prix en attente existe déjà, ce prix est utilisé. |
 | Planification générale | Regrouper les transactions dans l’optimisation de la planification | Cette fonctionnalité peut aider à réduire le nombre d’ordres planifiés générés pour fournir une seule ligne de commande client lorsque vous utilisez l’optimisation de la planification. Lorsque cette fonctionnalité est activée, l’optimisation de la planification regroupe toutes les transactions de stock pour une ligne de commande en un seul besoin pour la quantité totale. (Ce comportement correspond au comportement du moteur de planification intégré.) L’offre et la demande sont regroupées séparément. Par conséquent, la fonctionnalité permet de réduire le volume de transactions lorsque vous avez des transactions fractionnées et lorsque vous utilisez des dimensions (telles que des numéros de lot ou des numéros de série) qui ne sont pas des dimensions de couverture. |
 | Approvisionnements | Mettre le fournisseur en attente pour les commandes fournisseur | Cette fonctionnalité vous permet de mettre un fournisseur en attente pour les bons de commande. Elle ajoute un nouveau type de blocage *Commande fournisseur* qui marque un fournisseur comme étant en attente pour les commandes fournisseur. Vous ne pourrez pas créer de nouvelles commandes fournisseur pour les fournisseurs qui sont en attente de commandes fournisseur, mais vous pourrez toujours traiter les factures ou les paiements en cours pour ces fournisseurs. |
-| Ventes et marketing | Calculer le montant net de la ligne lors de l’importation | Cette fonction vous permet de contrôler si le système doit recalculer les totaux des lignes lorsque vous importez des données via l'entité *Lignes de commande client*, *Lignes de devis de vente*, ou *Lignes de commande de retour* en utilisant OData ou double écriture. Cela n’a d’effet que lorsque vous avez également des politiques d’évaluation des accords commerciaux en place qui limitent les changements au champ **Montant net** pour les lignes de commande client, de devis de vente, et/ou de commande de retour. Il ajoute un paramètre appelé **Calculer le montant net de la ligne** à la page **Comptabilité client> de configuration > paramètres de comptabilité client**. Lorsque ce paramètre est réglé sur *Oui*, le système recalculera toujours les montants de la ligne si nécessaire (ignorant ainsi toute politique d’évaluation d’accord commercial pour le montant net de la ligne). Lorsque le paramètre est réglé sur *Non*, le système ne calculera jamais automatiquement le montant net de la ligne, même si des modifications entrantes du prix de la ligne, de la quantité et/ou de la remise impliquent que le montant net de la ligne doit être recalculé. Cette fonctionnalité est activée par défaut et définit initialement **Calculer le montant net de la ligne** à *Oui*. Le paramètre *Non* correspond au comportement du système avant la version 10.0.23 et est fourni principalement pour prendre en charge les scénarios hérités d’intégration.<br><br>Pour plus d'informations, voir [Recalculer les montants nets des lignes lors de l'importation des commandes client, des devis, et des retours](../sales-marketing/calc-line-net-amounts-import.md). |
+| Ventes et marketing | Calculer le montant net de la ligne lors de l’importation | Cette fonction vous permet de contrôler si le système doit recalculer les totaux des lignes lorsque vous importez des données via l’entité *Lignes de commande client*, *Lignes de devis de vente*, ou *Lignes de commande de retour* en utilisant OData ou double écriture. Cela n’a d’effet que lorsque vous avez également des politiques d’évaluation des accords commerciaux en place qui limitent les changements au champ **Montant net** pour les lignes de commande client, de devis de vente, et/ou de commande de retour. Il ajoute un paramètre appelé **Calculer le montant net de la ligne** à la page **Comptabilité client> de configuration > paramètres de comptabilité client**. Lorsque ce paramètre est réglé sur *Oui*, le système recalculera toujours les montants de la ligne si nécessaire (ignorant ainsi toute politique d’évaluation d’accord commercial pour le montant net de la ligne). Lorsque le paramètre est réglé sur *Non*, le système ne calculera jamais automatiquement le montant net de la ligne, même si des modifications entrantes du prix de la ligne, de la quantité et/ou de la remise impliquent que le montant net de la ligne doit être recalculé. Cette fonctionnalité est activée par défaut et définit initialement **Calculer le montant net de la ligne** à *Oui*. Le paramètre *Non* correspond au comportement du système avant la version 10.0.23 et est fourni principalement pour prendre en charge les scénarios hérités d’intégration.<br><br>Pour plus d’informations, voir [Recalculer les montants nets des lignes lors de l’importation des commandes client, des devis, et des retours](../sales-marketing/calc-line-net-amounts-import.md). |
 | Ventes et marketing | Calculer les totaux de vente à l’aide de threads multiples | Cette fonction permet d’améliorer les performances en permettant au système d’utiliser le traitement parallèle lorsqu’il calcule les totaux des ventes dans un lot. La fonctionnalité ajoute un nouveau champ **Nombre de fils** à la boite de dialogue **Calculer le total des ventes**. Si vous choisissez d’exécuter le calcul dans un lot, vous pouvez utiliser ce champ pour définir le nombre maximal de threads. Si vous définissez la valeur sur *0* (zéro) ou *1*, un seul fil sera utilisé. Les valeurs supérieures à 1 activent le traitement multifilière. |
 | Ventes et marketing | Mettre à jour les prix et les remises entrés manuellement pour les commandes intersociétés | Cette fonctionnalité ajoute le support pour les politiques de modification manuelle pour les commandes intersociétés. Elle inclut le support pour le transfert des politiques de modification manuelle entre les ventes intersociétés et les commandes fournisseurs. Auparavant, les politiques de modification manuelle n’étaient prises en charge que pour les commandes non intersociétés. Lorsque cette fonctionnalité est activée, le système vous offrira la possibilité de mettre à jour les prix et les remises après que vous ayez enregistré les modifications apportées à une commande intersociétés. Cette option vous permet de choisir si vous souhaitez appliquer les nouveaux prix et détails des remises à la commande intersociétés ou laisser la commande inchangée. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 
-Nous avons récemment ajouté ou mis à jour de manière significative les articles d'aide suivants. Ces articles ne sont pas nécessairement liés aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans les sections précédentes. Cependant, elles peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
+Nous avons récemment ajouté ou mis à jour de manière significative les articles d’aide suivants. Ces articles ne sont pas nécessairement liés aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans les sections précédentes. Cependant, elles peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
 
 | Fonctionnalités | Articles nouveaux ou mis à jour |
 |---|---|
@@ -98,7 +98,7 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Gestion des entrepôts et des stocks | Utilisation de l’unité de mesure et de la quantité d’unités dans les journaux de stock | Obligatoire |
 | Gestion des entrepôts et des stocks | Déverrouiller le journal de stock | Obligatoire |
 | Fabrication | [Prélèvement automatique des matières activées pour les entrepôts pour les prélèvements automatiquement validés](whats-new-scm-10-0-23.md) | Disponibilité générale |
-| Fabrication | Activer l'affichage des dimensions de stock dans la liste des matières pour les opérations de gamme de production | Obligatoire |
+| Fabrication | Activer l’affichage des dimensions de stock dans la liste des matières pour les opérations de gamme de production | Obligatoire |
 | Fabrication | [Ce bouton permet d’entrer des numéros de lot et de série lors de la déclaration de fin à partir du périphérique de bons de travail](../production-control/report-finished-job-device.md) | Activé par défaut |
 | Fabrication | Prélèvement de la quantité en poids variable de production amélioré | Activé par défaut |
 | Fabrication | [Recherche de tâche pour l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-configure.md) | Obligatoire |
@@ -160,13 +160,13 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Gestion du transport | [Certification USMCA du document d’origine](../transportation/usmca-certification-of-origin.md) | Activé par défaut |
 | Gestion des entrepôts | [Zone d’emplacement supplémentaire](../warehousing/additional-location-zones.md) | Obligatoire |
 | Gestion des entrepôts | [Annuler le travail](../warehousing/cancel-warehouse-work.md) | Obligatoire |
-| Gestion des entrepôts | [Consolider l'expédition](../warehousing/configure-shipment-consolidation-policies.md) | Obligatoire |
+| Gestion des entrepôts | [Consolider l’expédition](../warehousing/configure-shipment-consolidation-policies.md) | Obligatoire |
 | Gestion des entrepôts | [Créer et traiter les ordres de transfert à partir de l’application d’entrepôt](../warehousing/create-transfer-order-from-warehouse-app.md) | Obligatoire |
 | Gestion des entrepôts | Modèles de cross-docking avec instructions d’emplacement | Activé par défaut |
 | Gestion des entrepôts | [Découpler le travail de rangement des APE](whats-new-scm-10-0-21.md) | Obligatoire |
 | Gestion des entrepôts | [Opérations put différées](../warehousing/deferred-processing-manual-inventory-movement.md) | Obligatoire |
 | Gestion des entrepôts | Placement différé - conteneur | Activé par défaut |
-| Gestion des entrepôts | Traitement du placement différé : activez-le pour la fonction de modèle d'audit lorsque l'événement de déclenchement est défini sur Antérieur | Obligatoire |
+| Gestion des entrepôts | Traitement du placement différé : activez-le pour la fonction de modèle d’audit lorsque l’événement de déclenchement est défini sur Antérieur | Obligatoire |
 | Gestion des entrepôts | [Désactiver les réceptions prévues à partir d’ordres de qualité qui échantillonnent le stock bloqué](../inventory/inventory-blocking.md) | Activé par défaut |
 | Gestion des entrepôts | Activer le contrôle rapide pour les appareils mobiles d’entrepôt | Obligatoire |
 | Gestion des entrepôts | [Analyseur amélioré pour les codes-barres GS1](../warehousing/gs1-barcodes.md) | Disponibilité générale |
@@ -174,7 +174,7 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Gestion des entrepôts | [Réservation de dimension de niveau entrepôt flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Obligatoire |
 | Gestion des entrepôts | [Utilisation de l’emplacement de consolidation des articles](../warehousing/item-consolidation-location-utilization.md) | Activé par défaut |
 | Gestion des entrepôts | Historique de réception de contenant | Activé par défaut |
-| Gestion des entrepôts | [Consolidation d'expédition manuelle](../warehousing/consolidate-shipments-manual-workbench.md) | Activé par défaut |
+| Gestion des entrepôts | [Consolidation d’expédition manuelle](../warehousing/consolidate-shipments-manual-workbench.md) | Activé par défaut |
 | Gestion des entrepôts | [Service de prélèvement de ligne de transfert manuel pour les administrateurs ou les utilisateurs approuvés similaires](whats-new-scm-10-0-28.md) | Disponibilité générale |
 | Gestion des entrepôts | [Interface de l’équipement de manutention du matériel](../warehousing/mhax.md) | Obligatoire |
 | Gestion des entrepôts | [Nouvelles pages de l’atelier de planification des chargements](whats-new-scm-10-0-24.md) | Disponibilité générale |
@@ -195,7 +195,7 @@ Le tableau répertorie également les fonctionnalités qui étaient auparavant e
 | Gestion des entrepôts | [Valider les modèles sélectionnés pour les tâches de réapprovisionnement](whats-new-scm-10-0-20.md) | Activé par défaut |
 | Gestion des entrepôts | [Champs promus de l’application Warehouse](../warehousing/warehouse-app-promoted-fields.md) | Obligatoire |
 | Gestion des entrepôts | [Instructions d’étape de l’application d’entrepôt](../warehousing/mobile-app-titles-instructions.md) | Obligatoire |
-| Gestion des entrepôts | [Statut de l'emplacement de l'entrepôt](../warehousing/warehouse-location-status.md) | Obligatoire |
+| Gestion des entrepôts | [Statut de l’emplacement de l’entrepôt](../warehousing/warehouse-location-status.md) | Obligatoire |
 | Gestion des entrepôts | [Détours de l’application Warehouse Management](../warehousing/warehouse-app-detours.md) | Activé par défaut |
 | Gestion des entrepôts | [Détails du traitement par lots des vagues](../warehousing/wave-processing.md) | Obligatoire |
 | Gestion des entrepôts | [Notifications d’exécution de vague](../warehousing/wave-execution-notifications.md) | Obligatoire |
@@ -218,12 +218,12 @@ Consultez [Dynamics 365 et les clouds du secteur : plan de la 2e vague de lanc
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 
-L'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
+L’article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans l'article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
+Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans l’article [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
 

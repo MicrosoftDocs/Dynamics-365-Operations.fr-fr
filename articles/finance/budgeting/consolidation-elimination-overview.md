@@ -2,13 +2,13 @@
 title: Vue d’ensemble de la consolidation et de l’élimination
 description: Cet article fournit des informations générales sur le processus de consolidation et d’élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment.
 author: panolte
-ms.date: 01/11/2018
+ms.date: 11/11/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom:
 - "13151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 757c7634fc929ead018d1ddcca4cc223c1a95638
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871389"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779905"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Vue d’ensemble de la consolidation et de l’élimination
 
@@ -46,49 +46,38 @@ Les éliminations peuvent être déclarées de plusieurs manières :
 Il existe plusieurs scénarios de consolidation, et chaque méthode permet de gérer les scénarios de différentes manières.
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
-1. Je préfère valider les éliminations dans une base de données. Quelles sont les options disponibles ?
+Je préfère valider les éliminations dans une base de données. Quelles sont les options disponibles ?
+ - Vous avez le choix entre plusieurs options. Vous pouvez utiliser l’option **Consolidation en ligne**, et inclure les éliminations lors du processus ou comme proposition. Les transactions seront validées dans la société de consolidation. Sinon, vous pouvez avoir une société séparée dans laquelle vous créez manuellement les éliminations. Vous l’utilisez ensuite dans les états financiers ou dans le processus de consolidation.
 
-Vous avez le choix entre plusieurs options. Vous pouvez utiliser l’option **Consolidation en ligne**, et inclure les éliminations lors du processus ou comme proposition. Les transactions seront validées dans la société de consolidation. Sinon, vous pouvez avoir une société séparée dans laquelle vous créez manuellement les éliminations. Vous l’utilisez ensuite dans les états financiers ou dans le processus de consolidation.
+Nous avons besoin de disposer de nos résultats consolidés dans plusieurs devises de déclaration.
+ - L’option **États financiers** propose un nombre illimité de devises de déclaration. Les données sont converties lors de la génération des états, selon le type de taux de change et la méthode de conversion de devise définis pour le compte principal. Toutefois, étant donné que l’option **Consolidation en ligne** ne dispose que d’une seule devise de déclaration, une société consolidée est requise pour chaque devise de déclaration si vous utilisez cette option. L’option **États financiers** est la méthode recommandée.
 
-2.  Nous avons besoin de disposer de nos résultats consolidés dans plusieurs devises de déclaration.
+Je souhaite afficher les détails de transaction pour chaque société.
+ - L’option **États financiers** constitue la solution, car les détails de transaction peuvent être affichés pour autant de sociétés que celles incluses dans la définition d’arborescence de génération d’états.
 
-L’option **États financiers** propose un nombre illimité de devises de déclaration. Les données sont converties lors de la génération des états, selon le type de taux de change et la méthode de conversion de devise définis pour le compte principal. Toutefois, étant donné que l’option **Consolidation en ligne** ne dispose que d’une seule devise de déclaration, une société consolidée est requise pour chaque devise de déclaration si vous utilisez cette option. L’option **États financiers** est la méthode recommandée.
+Nous utilisons la planification ou le contrôle budgétaire, et il doit être consolidé.
+ - L’option **États financiers** constitue la solution pour consolider les données de planification budgétaire ou de contrôle budgétaire.
 
-3. Je souhaite afficher les détails de transaction pour chaque société.
+Nos filiales sont réparties à travers le monde, et nous avons plusieurs plans de comptes. Quelle est la meilleure méthode pour consolider nos données ?
+- Plusieurs options s’offrent à vous lorsque vous devez traiter plusieurs plans de comptes. Vous pouvez utiliser l’option **Consolidation en ligne**, puis choisir d’utiliser le compte de consolidation défini dans le compte principal ou un groupe de comptes de consolidation. Vous pouvez également utiliser l’option **États financiers**, inclure plusieurs liens vers les dimensions financières dans la définition de ligne, et faire correspondre les comptes.
 
-L’option **États financiers** constitue la solution, car les détails de transaction peuvent être affichés pour autant de sociétés que celles incluses dans la définition d’arborescence de génération d’états.
+Nous exigeons plusieurs niveaux de consolidation. Autrement dit, nous commençons par consolider toutes nos filiales européennes avec la devise Livre sterling (GBP). Nous consolidons ensuite ces données et convertissons le montant consolidé en dollars US. De quelle manière devons-nous procéder ?
+- Lorsque plusieurs niveaux de consolidation sont requis, et que différentes devises sont utilisées à chaque niveau, vous devez utiliser l’option **Consolidation en ligne**. Il convient de créer plusieurs sociétés de consolidation dont la comptabilité et les devises de déclaration sont différentes. La consolidation doit être exécutée plusieurs fois. L’option **États financiers** convertit toujours de la devise comptable de la société source vers la devise sélectionnée.
 
-4. Nous utilisons la planification ou le contrôle budgétaire, et il doit être consolidé.
+Certaines de nos filiales utilisent un système différent. Comment pouvons-nous les consolider ?
+- Utilisez l’option **Consolider avec importation** pour importer les soldes dans une société de consolidation.
 
-L’option **États financiers** constitue la solution pour consolider les données de planification budgétaire ou de contrôle budgétaire.
+Certaines de nos filiales ne sont pas détenues à 100 %. Quelle est la meilleure méthode pour les consolider ?
+- Plusieurs options s’offrent à vous pour les filiales qui ne sont pas détenues à 100 %. L’option **États financiers** vous permet de définir une définition d’arborescence de génération d’états et la propriété. Vous pouvez également utiliser une ligne ou une colonne calculée pour représenter le montant que vous possédez partiellement. Vous pouvez même indiquer la participation minoritaire sur sa propre ligne dans un état. Vous pouvez également utiliser l’option **Consolidation en ligne**. L’onglet **Entités juridiques** comporte une colonne **Propriété** dans laquelle vous pouvez définir le pourcentage détenu par la société mère.
 
-5. Nos filiales sont réparties à travers le monde, et nous avons plusieurs plans de comptes. Quelle est la meilleure méthode pour consolider nos données ?
+Notre organisation doit présenter les consolidations par unité commerciale ou souhaite utiliser les hiérarchies d’organisation.
+- L’option **États financiers** constitue la solution. Les hiérarchies d’organisation qui comportent des entités juridiques ou des dimensions financières peuvent être reportées dans les états financiers. Vous pouvez également créer vos propres hiérarchies à plusieurs niveaux à l’aide d’une définition d’arborescence de génération d’états ayant une combinaison d’entités juridiques et de valeurs de dimension.
 
-Plusieurs options s’offrent à vous lorsque vous devez traiter plusieurs plans de comptes. Vous pouvez utiliser l’option **Consolidation en ligne**, puis choisir d’utiliser le compte de consolidation défini dans le compte principal ou un groupe de comptes de consolidation. Vous pouvez également utiliser l’option **États financiers**, inclure plusieurs liens vers les dimensions financières dans la définition de ligne, et faire correspondre les comptes.
+Nous avons plusieurs instances du système.
+- Vous pouvez consolider les données à l’aide de l’option **Exporter soldes de la société** pour exporter à partir d’une instance, puis l’option **Consolider avec importation** sur l’autre instance.
 
-6. Nous exigeons plusieurs niveaux de consolidation. Autrement dit, nous commençons par consolider toutes nos filiales européennes avec la devise Livre sterling (GBP). Nous consolidons ensuite ces données et convertissons le montant consolidé en dollars US. De quelle manière devons-nous procéder ?
-
-Lorsque plusieurs niveaux de consolidation sont requis, et que différentes devises sont utilisées à chaque niveau, vous devez utiliser l’option **Consolidation en ligne**. Il convient de créer plusieurs sociétés de consolidation dont la comptabilité et les devises de déclaration sont différentes. La consolidation doit être exécutée plusieurs fois. L’option **États financiers** convertit toujours de la devise comptable de la société source vers la devise sélectionnée.
-
-7. Certaines de nos filiales utilisent un système différent. Comment pouvons-nous les consolider ?
-
-Utilisez l’option **Consolider avec importation** pour importer les soldes dans une société de consolidation.
-
-8. Certaines de nos filiales ne sont pas détenues à 100 %. Quelle est la meilleure méthode pour les consolider ?
-
-Plusieurs options s’offrent à vous pour les filiales qui ne sont pas détenues à 100 %. L’option **États financiers** vous permet de définir une définition d’arborescence de génération d’états et la propriété. Vous pouvez également utiliser une ligne ou une colonne calculée pour représenter le montant que vous possédez partiellement. Vous pouvez même indiquer la participation minoritaire sur sa propre ligne dans un état. Vous pouvez également utiliser l’option **Consolidation en ligne**. L’onglet **Entités juridiques** comporte une colonne **Propriété** dans laquelle vous pouvez définir le pourcentage détenu par la société mère.
-
-9. Notre organisation doit présenter les consolidations par unité commerciale ou souhaite utiliser les hiérarchies d’organisation.
-
-L’option **États financiers** constitue la solution. Les hiérarchies d’organisation qui comportent des entités juridiques ou des dimensions financières peuvent être reportées dans les états financiers. Vous pouvez également créer vos propres hiérarchies à plusieurs niveaux à l’aide d’une définition d’arborescence de génération d’états ayant une combinaison d’entités juridiques et de valeurs de dimension.
-
-10. Nous avons plusieurs instances du système.
-
-Vous pouvez consolider les données à l’aide de l’option **Exporter soldes de la société** pour exporter à partir d’une instance, puis l’option **Consolider avec importation** sur l’autre instance.
-
-11. Puis-je consolider mon budget si son statut est **BROUILLON** ? 
-            
-Vous ne pourrez pas traiter ou compléter vos budgets dans la société de consolidation. Nous avons recommandé d’utiliser Financial Reporting pour consolider les projets de budget.
+Puis-je consolider mon budget si son statut est **BROUILLON** ? 
+- Vous ne pourrez pas traiter ou compléter vos budgets dans la société de consolidation. Nous avons recommandé d’utiliser Financial Reporting pour consolider les projets de budget.
 
 Pour plus d’informations, voir [Réévaluation de devise dans une société de consolidation](../general-ledger/currency-revaluation-consolidation-company.md)
 

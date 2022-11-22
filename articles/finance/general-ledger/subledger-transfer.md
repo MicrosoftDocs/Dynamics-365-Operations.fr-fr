@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 7ef93b81ce37128f7ff400eb4034ffea01756038
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068988"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779851"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transfert de la comptabilité auxiliaire vers la comptabilité
 
@@ -35,7 +35,7 @@ Les options suivantes sont disponibles pour le transfert par lots de la comptabi
 - **Asynchrone** : le transfert des écritures de la comptabilité auxiliaire vers la comptabilité est programmé immédiatement. Le N° document de comptabilité est enregistré dès que des ressources sont disponibles pour traiter cette demande sur le serveur.
 - **Traitement par lots planifié** : les écritures de la comptabilité auxiliaire qui doivent être transférées sont ajoutées à la file d’attente de traitement de la comptabilité. Les écritures dans la file d’attente seront traitées dans l’ordre dans lequel elles sont reçues. Chaque n° document de comptabilité actualise les comptes au moment programmé si des ressources sont disponibles pour réaliser ce traitement par lots sur le serveur.
 
-Dans la version 10.0.8, des améliorations ont été apportées pour améliorer les performances de l’option **Asynchrone**. Cette fonctionnalité est activée sous le nom **Optimisation des performances du transfert de la comptabilité auxiliaire vers la comptabilité**.
+Des améliorations ont été apportées pour améliorer les performances de l’option **Asynchrone**. Cette fonctionnalité est activée sous le nom **Optimisation des performances du transfert de la comptabilité auxiliaire vers la comptabilité**.
 
 La fonctionnalité de transfert asynchrone des traitements par lots de la comptabilité auxiliaire permet d’améliorer le transfert des données de la comptabilité auxiliaire vers la comptabilité. En regroupant des ensembles de transactions plus petites et en transférant les transactions en groupes, la fonctionnalité traite les transactions plus efficacement. Lorsque les transactions sont regroupées, les ressources du serveur de traitement par lots sont utilisées plus efficacement.
 

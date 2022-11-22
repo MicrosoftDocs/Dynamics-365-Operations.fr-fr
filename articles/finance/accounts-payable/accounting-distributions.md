@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
-ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
+ms.openlocfilehash: 4330c86ee9ae35ce0f2c7bb85db533a39eafac46
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9588951"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779579"
 ---
 # <a name="accounting-distributions"></a>Répartitions comptables
 
@@ -51,7 +51,7 @@ Les fonctionnalités de répartition comptable générique fournissent les optio
     -   Vous pouvez afficher le statut comptable du document actuel dans **Référence**. Le statut concerne le document entier, et indique si le document est en cours de traitement ou terminé.
 -   **Afficher les distributions** : permet d’afficher les répartitions comptables pour toutes les lignes et tous les montants en devises du document. Vous ne pouvez pas modifier les répartitions comptables de cette vue.
 
-Dans la version 10.0.13, une fonctionnalité a été ajoutée qui valide la table de répartition comptable pour garantir que les nouveaux champs sont correctement configurés. Cette fonctionnalité est appelée **Permettre la validation supplémentaire des données des documents à l’aide de la structure comptable du document source**. Cette fonctionnalité sera activée par défaut dans la version 10.0.29. 
+Une fonctionnalité a été ajoutée qui valide la table de répartition comptable pour garantir que les nouveaux champs sont correctement configurés. Cette fonctionnalité est appelée **Permettre la validation supplémentaire des données des documents à l’aide de la structure comptable du document source**. Cette fonctionnalité a été activée par défaut dans la version 10.0.29. 
 
 Pour plus d’informations, voir [Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

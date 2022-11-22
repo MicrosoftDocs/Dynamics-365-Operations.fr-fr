@@ -2,25 +2,25 @@
 title: Utiliser un paiement pour régler les factures qui couvrent plusieurs périodes de remise
 description: Cet article montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué.
 author: ShivamPandey-msft
-ms.date: 10/26/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6bf321a5b0511295f2500f10cdffa9ff6f043bff
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872642"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780546"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Utiliser un paiement pour régler les factures qui couvrent plusieurs périodes de remise
 
@@ -44,11 +44,11 @@ Si Arnie crée un journal des paiements afin de régler l’intégralité de ces
 -   Le paiement pour la facture FTI-10041 est de 990,00. Un escompte de règlement de 1 %, soit 10,00, est prélevé.
 -   Le paiement pour la facture FTI-10042 est de 980,00. Un escompte de règlement de 2 %, soit 20,00, est prélevé.
 
-| Marquer                     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Devise | Montant à régler |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Sélectionné                 | Standard            | FTI-10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1 000,00                             |                                       | USD      | 1 000,00         |
-| Activé                 | Standard            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1 000,00                             |                                       | USD      | 990,00           |
-| Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1 000,00                             |                                       | USD      | 980,00           |
+| Marquer | Utiliser un escompte de règlement | N° document   | Compte | Date   | Date d’échéance  | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Devise | Montant à régler |
+|------|----------|-----------|---------|-----------|-----------|---------|---------------------|---------------------|----------|------------------|
+| Sélectionné     | Standard      | FTI-10040 | 4032    | 15/05/2020 | 15/06/2020 | 10040   | 1,000.00  |                    | EUR      | 1,000.00         |
+| Sélectionné     | Standard      | FTI-10041 | 4032    | 25/06/2020 | 25/07/2020 | 10041   | 1,000.00  |                    | EUR      | 990.00           |
+| Sélectionné et mis en surbrillance | Standard      | FTI-10042 | 4032    | 25/06/2020 | 25/07/2020 | 10042   | 1,000.00    |              | EUR      | 980.00           |
 
 Une fois le paiement validé, le solde client est de 0,00.
 
@@ -60,21 +60,21 @@ Si Arnie crée un journal des paiements afin de régler l’intégralité de ces
 -   Le paiement pour la facture FTI-10042 est de 990,00. Un escompte de règlement de 1 %, soit 10,00, est prélevé. Bien que le 1er juillet soit après la période de 2 % de remise, il se situe toujours dans la période de 1 % de remise.
 
 | Marquer                     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Devise | Montant à régler |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Sélectionné                 | Standard            | FTI-10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1 000,00                             |                                       | USD      | 1 000,00         |
-| Activé                 | Standard            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1 000,00                             |                                       | USD      | 990,00           |
-| Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1 000,00                             |                                       | USD      | 990,00           |
+|----------|---------|-----------|---------|-----------|-----------|---------|--------------------|------------------|----------|------------------|
+| Sélectionné         | Standard            | FTI-10040 | 4032    | 15/05/2020 | 15/06/2020 | 10040   | 1,000.00         |                | EUR      | 1,000.00         |
+| Sélectionné                 | Standard            | FTI-10041 | 4032    | 25/06/2020 | 25/07/2020 | 10041   | 1,000.00  |               | EUR      | 990.00           |
+| Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 25/06/2020 | 25/07/2020 | 10042   | 1,000.00  |             | EUR      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Règlement partiel le 29 juin
 Le client 4032 peut effectuer un payement partiel, de la moitié de chaque facture. Arnie crée un paiement pour le client 4032, puis ouvre la page **Régler les transactions**. Sur la page **Régler les transactions**, Arnie marque les trois lignes de facture pour règlement. Sur chaque ligne, Arnie entre le montant à régler, selon les instructions que le client a fournies. Lorsqu’Arnie sélectionne une ligne, Arnie peut consulter le montant de la remise pour cette ligne et le montant de l’escompte de règlement qui est extrait. Étant donné que le client paie la moitié de la facture, Arnie constate que la valeur du champ **Montant de l’escompte de règlement** pour la facture FTI-10042 est de **20,00**, mais la valeur du champ **Escompte de règlement appliqué** est de **10,00**. Le montant du paiement est 1 485,00.
 
-| Marquer                     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Devise | Montant à régler |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Sélectionné                 | Standard            | FTI-10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1 000,00                             |                                       | USD      | 500,00           |
-| Activé                 | Standard            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1 000,00                             |                                       | USD      | 495,00           |
-| Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1 000,00                             |                                       | USD      | 490,00           |
+| Marquer   | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Devise | Montant à régler |
+|-------------|-------------------|-----------|---------|-----------|-----------|---------|-----------|------------------|----------|------------------|
+| Sélectionné   | Standard       | FTI-10040 | 4032    | 15/05/2020 | 15/06/2020 | 10040   | 1,000.00        |               | EUR      | 500.00           |
+| Sélectionné                 | Standard            | FTI-10041 | 4032    | 25/06/2020 | 25/07/2020 | 10041   | 1,000.00     |     | EUR      | 495,00           |
+| Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 25/06/2020 | 25/07/2020 | 10042   | 1,000.00     |         | EUR      | 490,00           |
 
-Arnie peut également saisir manuellement le montant du paiement de 1 485,00 avant l’ouverture de la page **Régler les transactions**. Si Arnie saisit manuellement le montant du paiement, puis marque les trois transactions, mais n’ajuste pas la valeur du champ **Montant à régler** pour chaque transaction, Arnie reçoit le message suivant lorsque la page se ferme :
+Arnie peut également entrer manuellement le montant du paiement de 1 485,00 avant l’ouverture de la page **Régler les transactions**. Si Arnie saisit manuellement le montant du paiement, puis marque les trois transactions, mais n’ajuste pas la valeur du champ **Montant à régler** pour chaque transaction, Arnie reçoit le message suivant lorsque la page se ferme :
 
 > Le montant total des transactions marquées est différent du montant du journal. Modifier le montant du journal ?
 
@@ -88,11 +88,11 @@ Arnie visualise les informations sur la page **Transactions client**.
 
 | N° document    | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde  | Devise |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10040  | Facture          | 5/15/2015 | 10040   | 1 000,00                             |                                       | 0,00     | USD      |
-| FTI-10041  | Facture          | 6/25/2015 | 10041   | 1 000,00                             |                                       | 1 000,00 | USD      |
-| FTI-10042  | Facture          | 6/25/2015 | 10042   | 1 000,00                             |                                       | 505,10   | USD      |
-| ARP-10040  | Paiement          | 6/29/2015 |         |                                      | 1 485,00                              | 0,00     | USD      |
-| DISC-10040 | Escompte de règlement    | 6/29/2015 |         |                                      | 9,90                                  | 0,00     | USD      |
+| FTI-10040  | Facture          | 15/05/2020 | 10040   | 1,000.00                             |                                       | 0.00     | EUR      |
+| FTI-10041  | Facture          | 25/06/2020 | 10041   | 1,000.00                             |                                       | 1,000.00 | EUR      |
+| FTI-10042  | Facture          | 25/06/2020 | 10042   | 1,000.00                             |                                       | 505,10   | EUR      |
+| ARP-10040  | Paiement          | 29/06/2020 |         |                                      | 1 485,00                              | 0.00     | EUR      |
+| DISC-10040 | Escompte de règlement    | 29/06/2020 |         |                                      | 9,90                                  | 0.00     | EUR      |
 
 
 

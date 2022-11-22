@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733444"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760360"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Migration par le client de Dynamics 365 Human Resources
 
@@ -38,13 +38,12 @@ La migration client est une migration « lift-and-shift » (déplacement) d’
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Sauvegarde d’un environnement Dataverse (bac à sable)
 
-1. Facultatif mais recommandé : actualisez l’environnement bac à sable Human Resources existant à l’aide d’une copie de l’environnement de production Human Resources.
-2. [Créez un nouvel environnement Dataverse](/power-platform/admin/create-environment#create-an-environment-with-a-database) à l’aide du centre d’administration Power Platform.
+ - Facultatif mais recommandé : actualisez l’environnement bac à sable Human Resources existant à l’aide d’une copie de l’environnement de production Human Resources.
+ - Créez un nouvel environnement Dataverse à l’aide du centre d’administration Power Platform.
+ - Copiez l’environnement Dataverse existant, qui est lié à l’application autonome Human Resources, vers l’environnement que vous avez créé à l’étape précédente.
 
-    > [!NOTE]
-    > Lorsque vous ajoutez une base de données, assurez-vous que l’option **Activer les applications Dynamics 365** est définie sur **Oui**.
-
-3. [Copiez l’environnement Dataverse existant](/power-platform/admin/copy-environment), qui est lié à l’application autonome Human Resources, vers l’environnement que vous avez créé à l’étape précédente.
+> [!NOTE]
+> Lorsque vous ajoutez une base de données, assurez-vous que l’option **Activer les applications Dynamics 365** est définie sur **Oui**. Pour des informations détaillées, voir [Préparer un environnement Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Capacité Dataverse
 
@@ -89,9 +88,9 @@ Une fois qu’un nouveau projet Lifecycle Services a été créé et que le proc
 #### <a name="prepare-a-power-platform-environment"></a>Préparation d’un environnement Power Platform
 
 > [!NOTE]
-> Cette étape ne s’applique qu’à la migration des environnements bac à sable. Lorsque vous migrez l’environnement de production, l’environnement du centre d’administration Power Platform existant qui est attaché à l’environnement de production sera transféré.
+> Cette étape ne s’applique qu’à la migration des environnements bac à sable. Lorsque vous migrez l’environnement de production, l’environnement du centre d’administration Power Platform existant qui est attaché à l’environnement de production sera transféré. Lorsque vous ajoutez une base de données, vérifiez que le bouton **Activer les applications Dynamics 365** est défini sur **Oui**. 
 
-- Dans le centre d’administration Power Platform, [créez un environnement Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) à utiliser pour la migration de l’environnement bac à sable ou sélectionnez un environnement existant.
+- Dans le centre d’administration Power Platform, [créez un environnement avec une base de données](/power-platform/admin/create-environment#create-an-environment-with-a-database) à utiliser pour la migration de bac à sable ou sélectionnez un environnement existant.
 - [Copiez un environnement](/power-platform/admin/copy-environment) pour actualiser l’environnement Power Platform utilisé pour le mappage.
 
 #### <a name="migrate-the-sandbox-environment"></a>Migration de l’environnement bac à sable

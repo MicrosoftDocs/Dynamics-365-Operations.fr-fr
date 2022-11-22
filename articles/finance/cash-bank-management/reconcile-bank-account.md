@@ -2,24 +2,24 @@
 title: Rapprocher un compte bancaire
 description: Cet article décrit la procédure de rapprochement d’un compte bancaire.
 author: angelad116
-ms.date: 07/01/2019
+ms.date: 11/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d36ff753d368bbbe6944aa5ae5010541ee92156d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151249"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779525"
 ---
 # <a name="reconcile-a-bank-account"></a>Rapprocher un compte bancaire
 
@@ -29,27 +29,27 @@ Lorsque vous recevez un relevé bancaire, vous devez périodiquement rapprocher 
 
 Vous ne pouvez pas rapprocher un relevé bancaire avec un compte bancaire si des chèques ou des paiements de bordereau de remise répertoriés sur le relevé présentent le statut **Annulation en attente**. Lorsqu’un préposé valide ou rejette une contrepassation de chèque ou l’annulation d’un paiement de bordereau de remise, le statut n’est plus **Annulation en attente** et vous pouvez rapprocher le compte bancaire.
 
-1.  Accédez à **Gestion de la trésorerie et de la banque** \> **Comptes bancaires** \> **Comptes bancaires**. Sélectionnez le compte bancaire à rapprocher avec le relevé bancaire et sélectionnez **Rapprocher** > **Rapprochement de compte**.
+1. Accédez à **Gestion de la trésorerie et de la banque** \> **Comptes bancaires** \> **Comptes bancaires**. Sélectionnez le compte bancaire à rapprocher avec le relevé bancaire et sélectionnez **Rapprocher** > **Rapprochement de compte**.
 
-2.  Entrez des informations dans les champs **Date de relevé bancaire** et **Relevé bancaire**. Dans le champ **Solde de fin**, vous pouvez entrer le solde du compte bancaire tel qu’il apparaît sur le relevé bancaire.
+2. Entrez des informations dans les champs **Date de relevé bancaire** et **Relevé bancaire**. Dans le champ **Solde de fin**, vous pouvez entrer le solde du compte bancaire tel qu’il apparaît sur le relevé bancaire.
 
-3.  Sélectionnez **Transactions** pour ouvrir la page **Rapprochement de compte**.
+3. Sélectionnez **Transactions** pour ouvrir la page **Rapprochement de compte**.
 
-4.  Pour chaque transaction incluse dans le relevé bancaire, activez la case à cocher **Compensé** si le montant dans Dynamics 365 Finance correspond au montant du relevé bancaire. Vous pouvez également entrer ou modifier la valeur du champ **Type de transaction bancaire**. Cette valeur de champ est importante pour vos statistiques de transactions bancaires et pour certains états.
+4. Pour chaque transaction incluse dans le relevé bancaire, activez la case à cocher **Compensé** si le montant dans Dynamics 365 Finance correspond au montant du relevé bancaire. Vous pouvez également entrer ou modifier la valeur du champ **Type de transaction bancaire**. Cette valeur de champ est importante pour vos statistiques de transactions bancaires et pour certains états.
     
 
-    > [!NOTE]
-    > <P>N’activez pas la case à cocher <STRONG>Compensé</STRONG> pour les transactions qui ne sont pas incluses dans le relevé bancaire. Ces transactions continueront de figurer dans cette page jusqu’à ce qu’elles soient rapprochées avec un prochain relevé bancaire.</P>
-    > <P>La case à cocher <STRONG>Compensé</STRONG> n’est pas disponible si la transaction présente le statut <STRONG>Annulation en attente</STRONG>. Les transactions peuvent présenter ce statut si Finance est paramétré de sorte à exiger que les contrepassations ou les annulations soient envoyées pour vérification avant d’être validées. Lorsqu’un réviseur valide ou rejette la contrepassation ou l’annulation, le statut n’est plus <STRONG>Annulation en attente</STRONG> et vous pouvez rapprocher le compte bancaire avec le relevé bancaire.</P>
+>[!NOTE]
+>N’activez pas la case à cocher **Compensé** pour les transactions qui ne sont pas incluses dans le relevé bancaire. Ces transactions continueront de figurer dans cette page jusqu’à ce qu’elles soient rapprochées avec un prochain relevé bancaire.
+>La case à cocher **Compensé** n’est pas disponible si la transaction présente le statut **Annulation en attente**. Les transactions peuvent présenter ce statut si Finance est paramétré de sorte à exiger que les contrepassations ou les annulations soient envoyées pour vérification avant d’être validées. Lorsqu’un réviseur valide ou rejette la contrepassation ou l’annulation, le statut n’est plus **Annulation en attente** et vous pouvez rapprocher le compte bancaire avec le relevé bancaire.
 
-    
-    Pour activer la case à cocher **Compensé** pour un intervalle de chèques entièrement affichés sur le relevé bancaire, sélectionnez **Marquer l’intervalle de chèques**, puis indiquez l’intervalle.
+
+Pour activer la case à cocher **Compensé** pour un intervalle de chèques entièrement affichés sur le relevé bancaire, sélectionnez **Marquer l’intervalle de chèques**, puis indiquez l’intervalle.
 
 5.  Si le montant d’une transaction de compte bancaire ne correspond pas au montant de la transaction sur le relevé bancaire, entrez le montant de la correction dans le champ **Montant de la correction**.
     
 
-    > [!NOTE]
-    > <P>Si la période fiscale de la transaction à corriger est clôturée, le champ <STRONG>Montant de la correction</STRONG> ne peut pas être utilisé. Créez à la place une ligne qui a une date de transaction dans une période fiscale en cours pour la correction. Dans ce cas, vous devez ajouter les dimensions financières qui étaient utilisées sur la transaction d’origine, de même que le compte principal.</P>
+> [!NOTE]
+> Si la période fiscale de la transaction à corriger est clôturée, le champ **Montant de la correction** ne peut pas être utilisé. Créez à la place une ligne qui a une date de transaction dans une période fiscale en cours pour la correction. Dans ce cas, vous devez ajouter les dimensions financières qui étaient utilisées sur la transaction d’origine, de même que le compte principal.
 
 
 

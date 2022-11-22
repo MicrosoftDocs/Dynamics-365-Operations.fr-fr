@@ -1,35 +1,37 @@
 ---
 title: Exécution des commandes en magasin
-description: Cet article fournit une vue d’ensemble de l’exécution des commandes en magasin.
+description: Cet article fournit une vue d’ensemble de l’exécution des commandes en magasin dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854976"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785070"
 ---
 # <a name="store-order-fulfillment"></a>Exécution des commandes en magasin
 
 [!include [banner](includes/banner.md)]
+
+Cet article fournit une vue d’ensemble de l’exécution des commandes en magasin dans Microsoft Dynamics 365 Commerce.
 
 De nombreuses détaillants souhaitent optimiser l’exécution des commandes en autorisant les magasins à exécuter les commandes. L’exécution des commandes au niveau du magasin permet de faciliter les scénarios de surstock pour un magasin spécifique, ou peut être nécessaire d’un point de vue logistique dans les cas où un magasin a des capacités supplémentaires ou est situé à une distance d’expédition proche du client. Pour répondre à ce besoin, une opération d’exécution de commandes unifiée est disponible dans le point de vente.
 
 Pour les commandes à exécuter dans un magasin spécifique, l’entrepôt du magasin est indiqué sur l’en-tête ou les lignes de la commande.
 
 L’opération d’exécution des commandes dans le point de vente fournit une zone de travail unique dans le point de vente qui peut être utilisée pour traiter les commandes. Cela va de l’acceptation de la commande à son marquage comme expédiée en passant par l’activation du prélèvement en magasin.
+
+La vidéo suivante donne un aperçu et une démonstration des capacités d’exécution des commandes dans Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Accéder à l’opération d’exécution de commandes unifiée dans le point de vente
 
@@ -104,7 +106,7 @@ Si des lignes sont sélectionnées et une liste de prélèvements est imprimée 
 
 Une fois que le processus de prélèvement physique a été exécuté, les lignes peuvent être marquées comme **Prélevées**. Lorsque vous sélectionnez une ligne et la marquez comme **Prélevée**, un appel en temps réel est effectué pour mettre à jour la ligne de commande. Une fois que la ligne a été marquée comme **Prélevée** dans le point de vente, le statut dans l’arrière-guichet est également mis à jour sur **Prélevé** et les transactions de stock reflètent que la quantité spécifiée a été décrémentée.
 
-Lorsque les commandes sont traitées dans le temps, des quantités partielles peuvent être traitées pour une ligne spécifique. Si une ligne est sélectionnée et l’action **Marquer comme prélevé** est exécutée et la quantité est supérieure à un, l’utilisateur est invité à saisir la quantité. La quantité restante à prélever est remplie automatiquement. Si une quantité inférieure à la quantité restante est spécifiée, le statut de la ligne devient **Partiellement prélevé**. Lorsque la ligne de commande est mise à jour dans l’arrière-guichet, elle reflète également le statut partiellement prélevé et la quantité saisie par l’utilisateur est utilisée pour la mise à jour du stock.
+Lorsque les commandes sont traitées dans le temps, des quantités partielles peuvent être traitées pour une ligne spécifique. Si une ligne est sélectionnée et l’action **Marquer comme prélevé** est exécutée et la quantité est supérieure à un, l’utilisateur est invité à entrer la quantité. La quantité restante à prélever est remplie automatiquement. Si une quantité inférieure à la quantité restante est spécifiée, le statut de la ligne devient **Partiellement prélevé**. Lorsque la ligne de commande est mise à jour dans l’arrière-guichet, elle reflète également le statut partiellement prélevé et la quantité saisie par l’utilisateur est utilisée pour la mise à jour du stock.
 
 Si une ligne de commande est prélevée par erreur, le processus d’annulation du prélèvement doit être exécuté sur la ligne de commande dans l’arrière-guichet. Aucune action d’annulation du prélèvement n’est actuellement prise en charge dans le point de vente.
 

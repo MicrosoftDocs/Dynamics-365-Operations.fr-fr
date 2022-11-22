@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262296"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785097"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de la plateforme supprimées ou déconseillées
 
@@ -36,7 +36,7 @@ Des informations détaillées sur les objets dans les applications de finances e
 
 ### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Fonctionnalités Lifecycle Services (LCS) obsolètes en août 2022
 
-Dans le cadre de l'effort de travail [One Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform), les fonctionnalités LCS suivantes sont obsolètes.
+Dans le cadre de l’effort de travail [One Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform), les fonctionnalités LCS suivantes sont obsolètes.
 
 | Nom de la fonction | Utilisé avec AX 2012 ? | Utilisé avec les applications de finances et d’opérations ? | Remplacé par une autre fonctionnalité ? |
 |--------------|--------------------|----------------------------------------|------------------------------|
@@ -46,20 +46,20 @@ Dans le cadre de l'effort de travail [One Dynamics One Platform](/dynamics365-re
 | Commentaires et bogues | Oui | Oui | N° |
 | Mon abonnement | Oui | Oui | N° |
 | Office 365 | Oui | Oui | Oui : Azure Active Directory ou Portail d’administration Microsoft. |
-| Analyse d'impact | N° | Oui | N° |
-| Estimateur de l'impact économique total | N° | Oui | N° |
+| Analyse d’impact | N° | Oui | N° |
+| Estimateur de l’impact économique total | N° | Oui | N° |
 | Demandes de service | N° | Oui | Oui : [Déploiements en libre service](../deployment/infrastructure-stack.md) |
 | Intégration de SharePoint | Oui | Oui | N° |
 | Gestionnaire de configuration et de données | N° | Oui | N° |
-| Packages de données de processus | N° | Oui | Oui : Cadre d’importation et d’exportation de données (DIXF) |
-| Mise à jour de l'environnement | N° | Oui | Oui : [Les mises à jour du service One Version](../lifecycle-services/oneversion-overview.md) sont disponibles. |
-| Outil de sizing d'infrastructure | Oui | N° | N° |
+| Packages de données de processus | N° | Oui | Oui : [Cadre d’importation et d’exportation de données (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
+| Mise à jour de l’environnement | N° | Oui | Oui : [Les mises à jour du service One Version](../lifecycle-services/oneversion-overview.md) sont disponibles. |
+| Outil de sizing d’infrastructure | Oui | N° | N° |
 | Dimensionnement de la licence | Oui | N° | N° |
 | Analyseur de charge | Oui | N° | N° |
 | Analyse de la personnalisation | Oui | N° | N° |
 | Monitoring | Oui | Oui | N° |
 | Modélisation de processus métier Gestion Visio | Oui | Oui | N° |
-| AX 2012 gestion de l'environnement cloud | Oui | N° | N° |
+| AX 2012 gestion de l’environnement cloud | Oui | N° | N° |
 | Connecteurs Azure RDFE | Oui | Oui | N° |
 | Versions AX 2012 | Oui | N° | N° |
 | Articles de travail stockés dans le stockage LCS | Oui | Oui | N° |
@@ -71,10 +71,10 @@ Dans le cadre de l'effort de travail [One Dynamics One Platform](/dynamics365-re
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Nous supprimons la liste suivante de suites de chiffrement pour nous conformer à nos protocoles de sécurité actuels.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Remplacé par une autre fonctionnalité ?**   | À compter du 30 novembre 2022, les clients ne pourront utiliser que nos [suites de chiffrement standard](/power-platform/admin/server-cipher-tls-requirements). Ce changement a un impact sur vos clients et serveurs qui communiquent avec nos serveurs, par exemple, il peut avoir un impact sur vos intégrations tierces qui ne respectent pas nos suites de chiffrement standard. |
+| **Remplacé par une autre fonctionnalité ?**   | À compter du 31 janvier 2023, les clients ne pourront utiliser que nos [suites de chiffrement standard](/power-platform/admin/server-cipher-tls-requirements). Ce changement a un impact sur vos clients et serveurs qui communiquent avec nos serveurs, par exemple, il peut avoir un impact sur vos intégrations tierces qui ne respectent pas nos suites de chiffrement standard. |
 | **Zones de produit affectées**         | Applications de finances et d’opérations |
 | **Option de déploiement**              | Déploiements cloud |
-| **Status**                         | Obsolète. Les clients doivent mettre à jour leurs serveurs avant le 30 novembre 2022. Pour plus d’informations sur la configuration de l’ordre de la Suite de chiffrement TLS, consultez [Gérer la sécurité de la couche de transport (TLS)](/windows-server/security/tls/manage-tls).  |
+| **Status**                         | Obsolète. Les clients doivent mettre à jour leurs serveurs avant le 31 janvier 2023. Pour plus d’informations sur la configuration de l’ordre de la Suite de chiffrement TLS, consultez [Gérer la sécurité de la couche de transport (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Notification d’abandon de fonctionnalités à compter de juin 2022
@@ -85,7 +85,7 @@ Dans le cadre de l'effort de travail [One Dynamics One Platform](/dynamics365-re
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Nous abandonnons l’application et la plateforme mobiles des applications de finances et d’opérations (Dynamics 365) pour les consolider en une plateforme mobile unique, qui est Power Apps. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui, des expériences mobiles sur les données de l’application de finances et d’opérations peuvent être créées avec l’intégration de Power Platform. Consultez le [billet de blog](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) et [Créer des expériences mobiles](../power-platform/build-mobile-experiences.md) pour plus d’informations. |
-| **Zones de produit affectées**         | Applications de finances et d'opérations |
+| **Zones de produit affectées**         | Applications de finances et d’opérations |
 | **Option de déploiement**              | Tout |
 | **Status**                         | Obsolète. La date de fin du support est prévue pour octobre 2024. |
 
@@ -111,7 +111,7 @@ Dans le cadre de l'effort de travail [One Dynamics One Platform](/dynamics365-re
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Nous supprimons la prise en charge de la résolution d’URL XML car cela a été identifié comme une vulnérabilité de sécurité potentielle. Cela signifie que les ressources externes associées aux fichiers XML ne seront plus résolues.  |
 | **Remplacé par une autre fonctionnalité ?**   | Non |
-| **Zones de produit affectées**         | Applications de finances et d'opérations |
+| **Zones de produit affectées**         | Applications de finances et d’opérations |
 | **Option de déploiement**              | Tout |
 | **Status**                         | Obsolète. |
 
@@ -123,7 +123,7 @@ Dans le cadre de l'effort de travail [One Dynamics One Platform](/dynamics365-re
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La prise en charge des scripts XSLT dans Gestion des données est obsolète pour améliorer la sécurité et la protection des données dans les applications de finances et d’opérations.  |
 | **Remplacé par une autre fonctionnalité ?**   | Non Les clients et les éditeurs de logiciels indépendants doivent envisager de réimplémenter leurs solutions selon le langage X++, à la place des scripts XSLT. |
-| **Zones de produit affectées**         | Applications de finances et d'opérations |
+| **Zones de produit affectées**         | Applications de finances et d’opérations |
 | **Option de déploiement**              | Tout |
 | **Status**                         | Désapprouvé <br><br>**Exception :** les clients qui utilisent actuellement les scripts XLST. Ils peuvent continuer à l’utiliser jusqu’à la mise à jour vers la version 10.0.30 ou ultérieure. Pour les versions antérieures, l’exception expirera le 31 janvier 2023. Les clients avec cette exception ont reçu une notification dans le centre de messages disponible dans le centre d’administration Microsoft 365. |
 
@@ -240,7 +240,7 @@ Dans le cadre de l'effort de travail [One Dynamics One Platform](/dynamics365-re
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Afin de réduire les frais généraux d’exploitation, de surveillance et de maintenance de la gestion des index par les clients, cette fonctionnalité a été supprimée. |
 | **Remplacé par une autre fonctionnalité ?**   | À l’avenir, la maintenance de l’index sera effectuée par les services Microsoft. Elle se produira de manière continue sans affecter les charges de travail des utilisateurs. |
-| **Zones de produit affectées**         | Applications de finances et d'opérations|
+| **Zones de produit affectées**         | Applications de finances et d’opérations|
 | **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
 | **Statut**                         | Cette fonctionnalité est supprimée. |
 

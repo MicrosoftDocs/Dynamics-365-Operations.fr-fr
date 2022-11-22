@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: debf8ca47666252633e67e2592acd5a4e4122403
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109916"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778689"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Enregistrer la facture fournisseur et la mettre en correspondance avec la quantité reçue
 
@@ -32,7 +32,7 @@ La société fictive USMF sert d’exemple dans cette procédure. Les différent
 
 
 ## <a name="create-a-purchase-order"></a>Créer une commande fournisseur
-1. Allez dans Toutes les commandes fournisseur.
+1. Accédez à **Toutes les commandes fournisseur**.
 2. Cliquez sur **Nouveau**.
 3. Dans le champ **Compte fournisseur**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Dans le champ **Compte fournisseur**, tapez une valeur.

@@ -2,25 +2,25 @@
 title: Réévaluation des comptes en devises dans la Comptabilité
 description: 'Cet article fournit une vue d’ensemble des fonctionnalités du processus de réévaluation des comptes en devises de la comptabilité : paramétrage, exécution du processus, calcul du processus, et contrepassation des transactions de réévaluation, si nécessaire.'
 author: kweekley
-ms.date: 06/20/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 62153
 ms.assetid: 842e8561-560f-4cc6-8668-70cca60b1ba3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 96ae50e339c63687a4c8114d3c965123fd5e37ab
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752801"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779986"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Réévaluation des comptes en devises dans la Comptabilité
 
@@ -38,27 +38,27 @@ Lorsque vous exécutez le processus de réévaluation, le solde de chaque compte
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Préparer le traitement de la réévaluation des comptes en devises
 Avant d’exécuter le processus de réévaluation, le paramétrage suivant est nécessaire.
 
--   Sur la page **Compte principal** :
--   Si le compte principal doit être réévalué dans la comptabilité, sélectionnez **Réévaluation des comptes en devises**. Si le compte principal ne doit pas être réévalué (par exemple pour la Comptabilité client et la Comptabilité fournisseur si elles sont réévaluées dans les comptabilités auxiliaires), désactivez cette option.
--   Si le compte principal est marqué pour la réévaluation, entrez le **Type de taux de change**. Ce type de taux de change sera utilisé pour réévaluer le compte principal. Un champ distinct, **Type de taux de change des états financiers**, est disponible pour les états financiers. Ces deux champs ne sont pas synchronisés, ce qui permet d’utiliser différents types de taux de change pour la réévaluation et les états financiers.
+Sur la page **Compte principal** :
+ - Si le compte principal doit être réévalué dans la comptabilité, sélectionnez **Réévaluation des comptes en devises**. Si le compte principal ne doit pas être réévalué (par exemple pour la Comptabilité client et la Comptabilité fournisseur si elles sont réévaluées dans les comptabilités auxiliaires), désactivez cette option.
+ - Si le compte principal est marqué pour la réévaluation, entrez le **Type de taux de change**. Ce type de taux de change sera utilisé pour réévaluer le compte principal. Un champ distinct, **Type de taux de change des états financiers**, est disponible pour les états financiers. Ces deux champs ne sont pas synchronisés, ce qui permet d’utiliser différents types de taux de change pour la réévaluation et les états financiers.
 
--   Sur la page **Comptabilité** :
--   Spécifiez **Type de taux de change**. Si le type de taux de change n’est pas défini sur le compte principal, ce type de taux de change sera utilisé au cours de la réévaluation des comptes en devises.
--   Précisez les comptes de profit réalisé, de perte réalisée, de profit non réalisé et de perte non réalisée pour la réévaluation en devises. Les comptes de profit réalisé et de perte réalisée sont utilisés lors du règlement des transactions de la Comptabiité client et de la Comptabiité fournisseur. Tandis que les comptes de profit non réalisé et de perte non réalisée sont utilisés pour réévaluer les transactions en cours et les comptes principaux de la comptabilité.
+Sur la page **Comptabilité** :
+ - Spécifiez **Type de taux de change**. Si le type de taux de change n’est pas défini sur le compte principal, ce type de taux de change sera utilisé au cours de la réévaluation des comptes en devises.
+ - Précisez les comptes de profit réalisé, de perte réalisée, de profit non réalisé et de perte non réalisée pour la réévaluation en devises. Les comptes de profit réalisé et de perte réalisée sont utilisés lors du règlement des transactions de la Comptabiité client et de la Comptabiité fournisseur. Tandis que les comptes de profit non réalisé et de perte non réalisée sont utilisés pour réévaluer les transactions en cours et les comptes principaux de la comptabilité.
 
--   Sur la page **Comptes de réévaluation de devise** :
--   Sélectionnez différents comptes de réévaluation de devise pour chaque devise et chaque société. Si aucun compte n’est défini, les comptes de la page **Comptabilité** sont utilisés.
+Sur la page **Comptes de réévaluation de devise** :
+ - Sélectionnez différents comptes de réévaluation de devise pour chaque devise et chaque société. Si aucun compte n’est défini, les comptes de la page **Comptabilité** sont utilisés.
 
 ## <a name="process-foreign-currency-revaluation"></a>Réévaluer des comptes en devises
 Après le paramétrage, utilisez la page **Réévaluation des comptes en devises** pour réévaluer les soldes des comptes principaux. Vous pouvez exécuter le processus en temps réel ou le replanifier à l’aide d’un traitement par lots. 
 
 La page **Réévaluation des comptes en devises** affiche l’historique de chaque réévaluation, notamment le moment où le processus a été exécuté, les critères qui ont été définis, un lien vers le document créé pour la réévaluation, et un enregistrement si une réévaluation précédente a été contrepassée. Pour exécuter le processus de réévaluation, sélectionnez le bouton **Réévaluation des comptes en devises**. 
 
-Les valeurs **Date de début** et **Date de fin** définissent l’intervalle de dates du calcul du solde en devise étrangère qui est réévalué. Lorsque vous réévaluez les comptes de résultat, la somme de toutes les transactions survenant dans l’intervalle de dates est réévaluée. Lorsque vous réévaluez des comptes de bilan, la date de début est ignorée. Au lieu de cela, le solde à réévaluer est déterminé depuis le début de l’exercice jusqu’à la date de fin. 
+Les valeurs **Date de début** et **Date de fin** définissent l’intervalle de dates du calcul du solde en devise étrangère qui est réévalué. Lorsque vous réévaluez les comptes de résultat, la somme de toutes les transactions survenant dans l’intervalle de dates est réévaluée. Lorsque vous réévaluez des comptes de bilan, la **date de début** est ignorée. Au lieu de cela, le solde à réévaluer est déterminé depuis le début de l’exercice jusqu’à la **date de fin**. 
 
 **Date du taux** permet de définir la date à laquelle le taux de change doit se transférer. Par exemple, vous pouvez réévaluer les soldes entre la plage de dates du 1er janvier au 31 janvier, mais utiliser le taux de change défini pour le 1er février. 
 
-Sélectionnez les comptes principaux à réévaluer : Tous, Bilan, ou Compte de résultat. Seuls les comptes principaux marqués pour la réévaluation (sur la page Compte principal) sont réévalués. Pour restreindre davantage la plage des comptes principaux, utilisez l’onglet Enregistrements à **inclure** pour définir une plage de comptes principaux, ou des comptes principaux individuels. 
+Sélectionnez les comptes principaux à réévaluer : Tous, Bilan, ou Compte de résultat. Seuls les comptes principaux marqués pour la réévaluation (sur la page **Compte principal**) sont réévalués. Pour restreindre davantage la plage des comptes principaux, utilisez l’onglet **Enregistrements à inclure** pour définir une plage de comptes principaux, ou des comptes principaux individuels. 
 
 Le processus de réévaluation peut être exécuté pour une ou plusieurs entités juridiques. La recherche affiche uniquement les entités juridiques auxquelles vous avez accès. Sélectionnez les entités juridiques pour lesquelles vous voulez exécuter le processus de réévaluation. 
 
@@ -68,7 +68,7 @@ Définissez **Aperçu avant validation** sur **Oui** si vous souhaitez consulter
 
 Si vous souhaitez exclure des ajustements validés en utilisant le **Journal des ajustements de la devise de déclaration** du processus de réévaluation, définissez **Exclure les ajustements de la devise de déclaration** sur **Oui**. Par défaut, les ajustements de la devise de déclaration sont inclus dans la réévaluation. 
 
-Une fois le processus de réévaluation des comptes en devises terminé, un enregistrement est créé pour effectuer le suivi de l’historique de chaque exécution.  Un enregistrement distinct est créé pour chaque entité juridique et couche de validation.
+Une fois le processus de réévaluation des comptes en devises terminé, un enregistrement est créé pour effectuer le suivi de l’historique de chaque exécution. Un enregistrement distinct est créé pour chaque entité juridique et couche de validation.
 
 ## <a name="calculate-unrealized-gainloss"></a>Calculer les profits non réalisés/pertes
 Les transactions de profits non réalisés/pertes sont créées différemment entre le processus de réévaluation de la comptabilité et le processus de réévaluation de la Comptabilité client et de la Comptabilité fournisseur. Dans la Comptabilité client et la Comptabilité fournisseur, la réévaluation précédente est totalement contrepassée (en considérant que la transaction n’est pas encore réglée) et une transaction de réévaluation est créée pour les profits non réalisés/pertes sur la base du nouveau taux de change. Cela est dû au fait que nous réévaluons chaque transaction individuelle dans la Comptabilité client et la Comptabilité fournisseur. Dans la comptabilité, la réévaluation précédente n’est pas contrepassée. Au lieu de cela, une transaction est créée pour le delta entre le solde du compte principal, notamment les montants de réévaluation précédents, et la nouvelle valeur basée sur le taux de change de la Date du taux. 
@@ -82,8 +82,8 @@ Les transactions de profits non réalisés/pertes sont créées différemment en
 Le compte principal est réévalué le 31 janvier.  Le profit non réalisé/perte est calculé comme suit.
 
 | Solde actuel dans la devise de transaction | Solde actuel en devise comptable | Taux de change au moment de la réévaluation | Nouveau montant en devise comptable | Profit non réalisé/perte    |
-|---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 1 000 USD                                   | 166.6667                         | 833,33 USD (500 x 1,666667)        | Perte de 166,67 (833,33 – 1 000) |
+|--------------------|---------------------------|----------------------------------|------------------------------------|-----------------------------|
+| 500 EUR            | 1 000 USD                  | 166.6667                         | 833,33 USD (500 x 1,666667)        | Perte de 166,67 (833,33 – 1 000) |
 
 L’écriture comptable suivante est créée.
 
@@ -95,8 +95,8 @@ L’écriture comptable suivante est créée.
 Aucune nouvelle transaction n’est validée pour le mois de février.  Le compte principal est réévalué le 28 février.
 
 | Solde actuel dans la devise de transaction | Solde actuel en devise comptable | Taux de change au moment de la réévaluation | Nouveau montant en devise comptable | Profit non réalisé/perte    |
-|---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 833,33 USD (1 000 – 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | Profit de 416,67 (1 250 – 833,33) |
+|---------------------------------------|-----------------------------------|-------------------------------|--------------------|-----------------------------|
+| 500 EUR                 | 833,33 USD (1 000 – 166,67)       | 250.0000              | 1250 USD (500 x 2,5)               | Profit de 416,67 (1 250 – 833,33) |
 
 L’écriture comptable suivante est créée.
 

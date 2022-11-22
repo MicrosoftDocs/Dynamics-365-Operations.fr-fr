@@ -2,7 +2,7 @@
 title: Configurer Inventory Visibility
 description: Cet article décrit comment configurer la visibilité des stocks.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542284"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9765707"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
-
-Cet article décrit comment configurer la visibilité des stocks à l’aide de l’application Visibilité des stocks dans Power Apps.
+Cet article décrit comment configurer la visibilité des stocks à l’aide de l’application Inventory Visibility dans Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Introduction
 
@@ -39,9 +38,9 @@ Avant de commencer à travailler avec la visibilité des stocks, vous devez effe
 
 Avant de commencer, installez et configurez le complément de visibilité des stocks comme décrit dans [Installer et configurer la visibilité des stocks](inventory-visibility-setup.md).
 
-## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La page Configuration de l’application Visibilité des stocks
+## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La page Configuration de l’application Inventory Visibility
 
-Dans Power Apps, la page **Configuration** de [l’application Visibilité des stocks](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de cet article expliquent comment utiliser chaque partie de la page **Configuration**.
+Dans Power Apps, la page **Configuration** de [l’application Inventory Visibility](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de cet article expliquent comment utiliser chaque partie de la page **Configuration**.
 
 Une fois la configuration terminée, veillez à sélectionner **Mettre à jour la configuration** dans l’application.
 
@@ -51,29 +50,34 @@ Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnali
 
 | Nom dans la Gestion des fonctionnalités | Description |
 |---|---|
-| *OnHandReservation* | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Visibilité des stocks. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
+| *OnHandReservation* | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Inventory Visibility. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Cette fonctionnalité fournit un récapitulatif du stock pour les produits, avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. La fréquence de synchronisation par défaut est d’une fois toutes les 15 minutes et peut être réglée jusqu’à une fois toutes les 5 minutes. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Cette fonctionnalité permet de précharger les requêtes disponibles pour la visibilité des stocks pour assembler des listes de disponibilité avec des dimensions présélectionnées. La fréquence de synchronisation par défaut est une fois toutes les 15 minutes. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
-| *OnhandChangeSchedule* | Cette fonctionnalité facultative active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV). Pour plus d’informations, voir [Planning de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md). |
-| *Allocation* | Cette fonctionnalité facultative permet à Inventory Visibility d'avoir la possibilité de protéger les stocks (ringfencing) et de contrôler la survente. Pour plus d’informations, voir [Répartition de stock pour Visibilité des stocks](inventory-visibility-allocation.md). |
-| *Activer les articles d’entrepôt dans Visibilité des stocks* | Cette fonctionnalité facultative permet à la Visibilité des stocks de prendre en charge les articles activés pour les processus de gestion des entrepôts (articles WMS). Pour plus d’informations, voir [Prise en charge de la Visibilité des stocks pour les articles WMS](inventory-visibility-whs-support.md). |
+| *onHandIndexQueryPreloadBackgroundService* | Cette fonctionnalité permet de précharger les requêtes disponibles pour la visibilité des stocks pour assembler des listes de disponibilité avec des dimensions présélectionnées. La fréquence de synchronisation par défaut est une fois toutes les 15 minutes. Pour plus d’informations, voir [Précharger une requête de stock disponible simplifiée](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
+| *OnhandChangeSchedule* | Cette fonctionnalité facultative active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV). Pour plus d’informations, voir [Planning de changement du stock disponible et disponibilité à la vente de la Inventory Visibility](inventory-visibility-available-to-promise.md). |
+| *Allocation* | Cette fonctionnalité facultative permet à Inventory Visibility d’avoir la possibilité de protéger les stocks (réservation) et de contrôler la survente. Pour plus d’informations, voir [Répartition de stock pour Inventory Visibility](inventory-visibility-allocation.md). |
+| *Activer les articles d’entrepôt dans Inventory Visibility* | Cette fonctionnalité facultative permet à la Inventory Visibility de prendre en charge les articles activés pour les processus de gestion des entrepôts (articles WMS). Pour plus d’informations, voir [Prise en charge de la Inventory Visibility pour les articles WMS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Rechercher le point de terminaison de service
 
-Si vous ne connaissez pas le bon point de terminaison de service de visibilité des stocks, ouvrez la page **Configuration** dans Power Apps, puis sélectionnez **Afficher le point de terminaison de service** dans le coin supérieur droit. La page affichera le bon point de terminaison de service.
+Si vous ignorez le point de terminaison correct du service Inventory Visibility, ouvrez la page **Configuration** dans Power Apps, puis sélectionnez **Afficher les détails du service** dans le coin supérieur droit. La page affichera le bon point de terminaison de service. Vous pouvez également trouver le point de terminaison dans Microsoft Dynamics Lifecycle Services, comme décrit dans [Rechercher le point de terminaison en fonction de votre environnement Lifecycle Services](inventory-visibility-api.md#endpoint-lcs).
+
+> [!NOTE]
+> L’utilisation d’un point de terminaison incorrect peut entraîner l’échec de l’installation d’Inventory Visibility et des erreurs lorsque Supply Chain Management est synchronisé avec Inventory Visibility. Si vous ne savez pas quel est votre point de terminaison, contactez votre administrateur système. Les URL de point de terminaison sont au format suivant : 
+>
+> `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configuration de la source de données
 
-Chaque source de données représente un système d’où proviennent vos données. Les exemples de noms de source de données incluent `fno` (qui signifie « applications de finances et d’opérations de Dynamics 365 ») et `pos` (qui signifie « point de vente »). Par défaut, Supply Chain Management est configuré comme source de données par défaut (`fno`) dans la visibilité des stocks.
+Chaque source de données représente un système d’où proviennent vos données. Les exemples de noms de source de données incluent `fno` (qui correspond à Supply Chain Management) et `pos` (qui signifie « point de vente »). Par défaut, Supply Chain Management est configuré comme source de données par défaut (`fno`) dans la visibilité des stocks.
 
 > [!NOTE]
-> La source de données `fno` est réservée pour Supply Chain Management. Si votre complément de visibilité d’inventaire est intégré à un environnement Supply Chain Management, nous vous recommandons de ne pas supprimer les configurations liées à `fno` dans la source de données.
+> La source de données `fno` est réservée pour Supply Chain Management. Si le complément Inventory Visibility est intégré dans un environnement Supply Chain Management, nous vous recommandons de ne pas supprimer les configurations liées à `fno` dans la source de données.
 
 Pour ajouter une source de données, procédez comme suit.
 
-1. Connectez-vous à votre environnement Power Apps et ouvrez **Visibilité des stocks**.
+1. Connectez-vous à votre environnement Power Apps et ouvrez **Inventory Visibility**.
 1. Ouvrez la page **Configuration**.
-1. Dans l’onglet **Source de données**, sélectionnez **Nouvelle source de données** pour ajouter une source de données.
+1. Dans l’onglet **Source de données**, sélectionnez **Nouvelle source de données** pour ajouter une source de données (par exemple, `ecommerce` ou un autre ID de source de données significatif).
 
 > [!NOTE]
 > Lorsque vous ajoutez une source de données, assurez-vous de valider le nom de votre source de données, les mesures physiques et les mappages de dimensions avant de mettre à jour la configuration pour le service de visibilité des stocks. Vous ne pourrez plus modifier ces paramètres après avoir sélectionné **Mettre à jour la configuration**.
@@ -88,11 +92,11 @@ La configuration de la source de données comprend les éléments suivants :
 
 Le but de la configuration des dimensions est de standardiser l’intégration multi-système pour les événements et requêtes de publication, en fonction de combinaisons de dimensions. La visibilité des stocks fournit une liste de dimensions de base qui peuvent être mappées à partir des dimensions de votre source de données. Trente-trois dimensions sont disponibles pour le mappage.
 
-- Par défaut, si vous utilisez Supply Chain Management comme l’une de vos sources de données, 13 dimensions sont mappées aux dimensions standard de Supply Chain Management. Douze autres dimensions (`inventDimension1` à `inventDimension12`) sont mappées à des dimensions personnalisées dans Supply Chain Management. Les huit dimensions restantes sont des dimensions étendues que vous pouvez mapper à des sources de données externes.
+- Si vous utilisez Supply Chain Management comme l’une de vos sources de données, 13 dimensions sont déjà mappées aux dimensions standard de Supply Chain Management par défaut. Les douze autres dimensions (de `inventDimension1` à `inventDimension12`) sont également mappées à des dimensions personnalisées dans Supply Chain Management. Les huit dimensions restantes (de `ExtendedDimension1` à `ExtendedDimension8`) sont des dimensions étendues que vous pouvez mapper à des sources de données externes.
 - Si vous n’utilisez pas Supply Chain Management comme l’une de vos sources de données, vous pouvez librement mapper les dimensions. Le tableau suivant présente la liste complète des dimensions disponibles.
 
 > [!NOTE]
-> Si votre dimension ne figure pas dans la liste des dimensions par défaut et que vous utilisez une source de données externe, nous vous recommandons d’utiliser `ExtendedDimension1` à `ExtendedDimension8` pour effectuer le mappage.
+> Si vous utilisez Supply Chain Management et modifiez les mappages de dimension par défaut entre Supply Chain Management et Inventory Visibility, la dimension modifiée ne synchronise pas les données. Ainsi, si votre dimension ne figure pas dans la liste des dimensions par défaut et que vous utilisez une source de données externe, nous vous recommandons d’utiliser `ExtendedDimension1` à `ExtendedDimension8` pour effectuer le mappage.
 
 | Type de dimension | Dimension de base |
 |---|---|
@@ -114,11 +118,11 @@ Le but de la configuration des dimensions est de standardiser l’intégration m
 | Système | `Empty` |
 
 > [!NOTE]
-> Les types de dimensions répertoriés dans le tableau précédent sont à titre indicatif uniquement. Vous n’avez pas besoin de les définir dans la visibilité des stocks.
+> Les types de dimension répertoriés dans le tableau précédent sont donnés à titre indicatif uniquement. Vous n’avez pas besoin de les définir dans la visibilité des stocks.
 >
-> Les dimensions de stock (personnalisées) peuvent être réservées pour Supply Chain Management. Dans ce cas, vous pouvez utiliser les dimensions étendues à la place.
+> Les dimensions de stock (personnalisées) peuvent être réservées pour Supply Chain Management. Dans ce cas, utilisez les dimensions étendues à la place.
 
-Les systèmes externes peuvent accéder à la visibilité des stocks via ses API RESTful. Pour l’intégration, la visibilité des stocks vous permet de configurer la _source de données externe_ et le mappage des _dimensions externes_ aux _dimensions de base_. Voici un exemple d’une table de mappage des dimensions.
+Les systèmes externes peuvent accéder à la visibilité des stocks via ses API RESTful. Pour l’intégration, la visibilité des stocks vous permet de configurer la *source de données externe* et le mappage des *dimensions externes* aux *dimensions de base*. Voici un exemple d’une table de mappage des dimensions.
 
 | Dimension externe | Dimension de base |
 |---|---|
@@ -132,22 +136,23 @@ En configurant un mappage de dimensions, vous pouvez envoyer les dimensions exte
 
 Pour ajouter des mappages de dimensions, procédez comme suit.
 
-1. Connectez-vous à votre environnement Power Apps et ouvrez **Visibilité des stocks**.
+1. Connectez-vous à votre environnement Power Apps et ouvrez **Inventory Visibility**.
 1. Ouvrez la page **Configuration**.
-1. Sur l’onglet **Source de données**, dans la section **Mappages de dimensions**, sélectionnez **Ajouter** pour ajouter des mappages de dimensions.
+1. Dans l’onglet **Source de données**, sélectionnez la source de données dans laquelle vous souhaitez effectuer le mappage des dimensions. Ensuite, dans la section **Mises en correspondance de dimensions**, sélectionnez **Ajouter** pour ajouter les mises en correspondance de dimensions.
+
     ![Ajout des mappages de dimensions](media/inventory-visibility-dimension-mapping.png "Ajout des mappages de dimensions")
 
 1. Dans le champ **Nom de la dimension**, spécifiez la dimension source.
 1. Dans le champ **Vers dimension de base**, sélectionnez la dimension dans la visibilité des stocks que vous souhaitez mapper.
-1. Sélectionnez **Enregistrer**.
+1. Cliquez sur **Enregistrer**.
 
-Par exemple, si votre source de données inclut une dimension de couleur de produit, vous pouvez la mapper à la dimension de base `ColorId` pour ajouter une dimension personnalisée `ProductColor` dans la source de données `exterchannel`. Elle sera ensuite mappée à la dimension de base `ColorId`.
+Par exemple, vous avez déjà créé une source de données appelée `ecommerce` qui inclut une dimension de couleur du produit. Dans ce cas, pour faire la mise en correspondance, vous pouvez d’abord ajouter `ProductColor` au champ **Nom de la dimension** dans la source de données `ecommerce`, puis sélectionnez `ColorId` dans le champ **Vers dimension de base**.
 
 ### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Mesures physiques
 
-Lorsqu’une source de données valide une modification de stock dans la visibilité des stocks, cette modification est validée en utilisant les *mesures physiques*. Les mesures physiques modifient la quantité et reflètent le statut des stocks. Vous pouvez définir vos propres mesures physiques en fonction de vos besoins. Les requêtes peuvent être basées sur les mesures physiques.
+Lorsqu’une source de données valide une modification de stock dans la visibilité des stocks, cette modification est validée en utilisant les *mesures physiques*. Les mesures physiques modifient la quantité et reflètent le statut des stocks. Vous pouvez définir vos propres mesures physiques selon vos besoins. Les requêtes peuvent être basées sur les mesures physiques.
 
-La visibilité des stocks fournit une liste de mesures physiques par défaut qui sont liées à Supply Chain Management (la source de données `fno`). Ces mesures physiques par défaut sont extraites des statuts des transactions de stock sur la page **Liste stocks disponibles** dans Supply Chain Management (**Gestion des stocks \> Recherches et états \> Liste stocks disponibles**). Le tableau suivant fournit un exemple de mesures physiques.
+Inventory Visibility fournit une liste de mesures physiques par défaut qui sont mappées à Supply Chain Management (la source de données `fno`). Ces mesures physiques par défaut sont extraites des statuts des transactions de stock sur la page **Liste stocks disponibles** dans Supply Chain Management (**Gestion des stocks \> Recherches et états \> Liste stocks disponibles**). Le tableau suivant fournit un exemple de mesures physiques.
 
 | Nom de la mesure physique | Description |
 |---|---|
@@ -163,16 +168,16 @@ La visibilité des stocks fournit une liste de mesures physiques par défaut qui
 | `PostedQty` | Quantité validée |
 | `QuotationIssue` | Sortie de devis |
 | `QuotationReceipt` | Réception de devis |
-| `Received` | Réceptions |
+| `Received` | Reçue |
 | `Registered` | Enregistré |
 | `ReservOrdered` | Commandé réservé |
 | `ReservPhysical` | Physique réservé |
 
-Si la source de données est Supply Chain Management, vous n’avez pas besoin de recréer les mesures physiques par défaut. Cependant, pour les sources de données externes, vous pouvez créer de nouvelles mesures physiques en suivant ces étapes.
+Si votre source de données est Supply Chain Management, inutile de recréer les mesures physiques par défaut. Cependant, pour les sources de données externes, vous pouvez créer de nouvelles mesures physiques en suivant ces étapes.
 
-1. Connectez-vous à votre environnement Power Apps et ouvrez **Visibilité des stocks**.
+1. Connectez-vous à votre environnement Power Apps et ouvrez **Inventory Visibility**.
 1. Ouvrez la page **Configuration**.
-1. Sur l’onglet **Source de données**, dans la section **Mesures physiques**, sélectionnez **Ajouter**, spécifiez un nom de mesure source et enregistrez vos modifications.
+1. Dans l’onglet **Source de données**, sélectionnez la source de données à laquelle ajouter des mesures physiques (par exemple, la source de données `ecommerce`). Puis, dans la section **Mesures physiques**, sélectionnez **Ajouter** et spécifiez le nom de la mesure (par exemple, `Returned` pour enregistrer les quantités retournées dans cette source de données dans Inventory Visibility). Enregistrez vos modifications.
 
 ### <a name="calculated-measures"></a>Mesures calculées
 
@@ -181,17 +186,17 @@ Vous pouvez utiliser la visibilité des stocks pour interroger à la fois les me
 > [!IMPORTANT]
 > Une mesure calculée est une composition de mesures physiques. Sa formule ne peut inclure que des mesures physiques sans doublons, et non des mesures calculées.
 
-La configuration vous permet de définir un ensemble de modificateurs qui sont ajoutés ou soustraits pour obtenir la quantité de sortie agrégée totale.
+La configuration permet de définir un ensemble de formules de mesure calculée qui inclut les modificateurs d’ajout ou de soustraction pour obtenir la quantité de sortie agrégée totale.
 
 Pour configurer une mesure calculée personnalisée, procédez comme suit.
 
-1. Connectez-vous à votre environnement Power Apps et ouvrez **Visibilité des stocks**.
+1. Connectez-vous à votre environnement Power Apps et ouvrez **Inventory Visibility**.
 1. Ouvrez la page **Configuration**.
 1. Dans l’onglet **Mesure calculée**, sélectionnez **Nouvelle mesure de calcul** pour ajouter une mesure calculée.
 1. Définissez les champs suivants pour la nouvelle mesure calculée :
 
     - **Nom de la nouvelle mesure calculée** – Entrez le nom de la mesure calculée.
-    - **Source de données** – Sélectionnez la source de données associée au nouveau modificateur. Le système d’interrogation est une source de données.
+    - **Source de données** : sélectionnez la source de données pour inclure la nouvelle mesure calculée. Le système d’interrogation est une source de données.
 
 1. Sélectionnez **Ajouter** pour ajouter un modificateur à la nouvelle mesure calculée.
 1. Définissez les champs suivants pour le nouveau modificateur :
@@ -200,15 +205,21 @@ Pour configurer une mesure calculée personnalisée, procédez comme suit.
     - **Source de données** – Sélectionnez la source de données dans laquelle la mesure qui fournit la valeur du modificateur doit être trouvée.
     - **Mesure** – Sélectionnez le nom de la mesure (à partir de la source de données sélectionnée) qui fournit la valeur du modificateur.
 
-1. Répétez les étapes 5 à 6 jusqu’à ce que vous ayez ajouté tous les modificateurs requis.
+1. Répétez les étapes 5 à 6 jusqu’à ce que vous ayez ajouté tous les modificateurs requis et terminé la formule de votre mesure calculée.
 1. Cliquez sur **Enregistrer**.
 
-Par exemple, vous pouvez obtenir le résultat de requête suivant.
+Par exemple, une entreprise de mode opère à travers trois sources de données :
+
+- `pos` : correspond au canal du magasin.
+- `fno` : correspond à Supply Chain Management.
+- `ecommerce` : correspond à votre canal web.
+
+Sans mesures calculées, lorsque vous recherchez le produit D0002 (Armoire) sous le site 1, entrepôt 11 et une valeur de dimension `ColorID` définie sur `Red`, vous pouvez obtenir le résultat de requête suivant, qui affiche les quantités de stock sous chaque mesure physique préconfigurée. Cependant, vous n’avez pas de visibilité sur le total disponible pour les quantités de réservation sur l’ensemble de vos sources de données.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -224,7 +235,7 @@ Par exemple, vous pouvez obtenir le résultat de requête suivant.
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
@@ -239,22 +250,22 @@ Vous configurez ensuite une mesure calculée nommée `MyCustomAvailableforReserv
 
 | Système de consommation | Mesure calculée | Source de données | Mesure physique | Type de calcul |
 |---|---|---|---|---|
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `received` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `scheduled` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `issued` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `reserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `received` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `scheduled` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `issued` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `reserved` | `Subtraction` |
 
 Lorsque cette formule de calcul sera utilisée, le nouveau résultat de requête inclura la mesure personnalisée.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -270,13 +281,13 @@ Lorsque cette formule de calcul sera utilisée, le nouveau résultat de requête
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
                 "reserved": 40.0
             },
-            "CustomChannel": {
+            "CrossChannel": {
                 "MyCustomAvailableforReservation": 220.0
             }
         }
@@ -288,7 +299,7 @@ Le résultat `MyCustomAvailableforReservation`, basé sur la configuration du ca
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Configuration de la partition
 
-Actuellement, la configuration de la partition se compose de deux dimensions de base (`SiteId` et `LocationId`) qui indiquent comment les données sont distribuées. Les opérations sous la même partition peuvent offrir des performances supérieures à moindre coût. Le tableau suivant affiche la configuration de partition par défaut fournie par le complément Visibilité des stocks.
+Actuellement, la configuration de la partition se compose de deux dimensions de base (`SiteId` et `LocationId`) qui indiquent comment les données sont distribuées. Les opérations sous la même partition peuvent offrir des performances supérieures à moindre coût. Le tableau suivant affiche la configuration de partition par défaut fournie par le complément Inventory Visibility.
 
 | Dimension de base | Hiérarchie |
 |---|---|
@@ -304,7 +315,7 @@ La solution inclut cette configuration de partition par défaut. Par conséquent
 
 La plupart du temps, la requête de stock disponible ne sera pas seulement au niveau « total » le plus élevé. Au lieu de cela, vous souhaiterez peut-être également voir les résultats agrégés en fonction des dimensions de stock.
 
-Inventory Visibility offre de la flexibilité en vous permettant de configurer _index_ pour améliorer les performances de vos requêtes. Ces index sont basés sur une dimension ou une combinaison de dimensions. Un index se compose d’un *numéro d’ensemble*, d’une *dimension* et d’une *hiérarchie*, tel que défini dans le tableau suivant.
+Inventory Visibility offre de la flexibilité en vous permettant de configurer *index* pour améliorer les performances de vos requêtes. Ces index sont basés sur une dimension ou une combinaison de dimensions. Un index se compose d’un *numéro d’ensemble*, d’une *dimension* et d’une *hiérarchie*, tel que défini dans le tableau suivant.
 
 | Nom | Description |
 |---|---|
@@ -314,7 +325,7 @@ Inventory Visibility offre de la flexibilité en vous permettant de configurer _
 
 Pour paramétrer votre index de hiérarchie des produits, procédez comme suit.
 
-1. Connectez-vous à votre environnement Power Apps et ouvrez **Visibilité des stocks**.
+1. Connectez-vous à votre environnement Power Apps et ouvrez **Inventory Visibility**.
 1. Ouvrez la page **Configuration**.
 1. Sur l’onglet **Index de hiérarchie des produits**, dans la section **Mappages des dimensions**, sélectionnez **Ajouter** pour ajouter des mappages de dimensions.
 1. Par défaut, une liste d’index est fournie. Pour modifier un index existant, sélectionnez **Modifier** ou **Ajouter** dans la section de l’index approprié. Pour créer un ensemble d’index, sélectionnez **Nouvel ensemble d’index**. Pour chaque ligne de chaque ensemble d’index, dans le champ **Dimension**, faites votre sélection dans la liste des dimensions de base. Les valeurs des champs suivants sont générées automatiquement :
@@ -323,9 +334,9 @@ Pour paramétrer votre index de hiérarchie des produits, procédez comme suit.
     - **Hiérarchie** : La hiérarchie vous permet d’augmenter les performances de combinaisons spécifiques de dimensions lorsqu’elles sont utilisées dans des paramètres de requête de filtrage et de regroupement.
 
 > [!TIP]
-> Voici quelques conseils à garder à l'esprit lors de la configuration de votre hiérarchie d'index :
+> Voici quelques conseils à garder à l’esprit lors de la configuration de votre hiérarchie d’index :
 >
-> - Les dimensions de base définies dans la configuration de la partition ne doivent pas être définies dans les configurations d’index. Si une dimension de base est à nouveau définie dans la configuration de l'index, vous ne pourrez pas interroger par cet index.
+> - Les dimensions de base définies dans la configuration de la partition ne doivent pas être définies dans les configurations d’index. Si une dimension de base est à nouveau définie dans la configuration de l’index, vous ne pourrez pas interroger par cet index.
 > - Si vous devez interroger uniquement le stock qui est agrégé par toutes les combinaisons de dimensions, vous pouvez configurer un index unique qui contient la dimension de base `Empty`.
 
 ### <a name="example"></a>Exemple
@@ -334,15 +345,15 @@ Cette section fournit un exemple qui montre comment fonctionne la hiérarchie.
 
 Le tableau suivant fournit une liste des stocks disponibles pour cet exemple.
 
-| Article | ColorId | SizeId | StyleId | Quantité |
+| Article | ColorId | SizeId | StyleId | Quantity |
 |---|---|---|---|---|
-| T-shirt | Noir | Petite | Paysage | 1 |
-| T-shirt | Noir | Petite | Régulier | 2 |
-| T-shirt | Noir | Etendu | Paysage | 3 |
-| T-shirt | Noir | Etendu | Régulier | 4 |
-| T-shirt | Rouge | Petite | Paysage | 5 |
-| T-shirt | Rouge | Petite | Régulier | 6 |
-| T-shirt | Rouge | Etendu | Régulier | 7 |
+| D0002 | Noir | Petit | Paysage | 1 |
+| D0002 | Noir | Petit | Régulier | 2 |
+| D0002 | Noir | Grand | Paysage | 3 |
+| D0002 | Noir | Grand | Régulier | 4 |
+| D0002 | Rouge | Petit | Paysage | 5 |
+| D0002 | Rouge | Petit | Régulier | 6 |
+| D0002 | Rouge | Grand | Régulier | 7 |
 
 Le tableau suivant montre comment la hiérarchie d’index est configurée.
 
@@ -356,29 +367,29 @@ L’index vous permet d’interroger le stock disponible des manières suivantes
 
 - `()` – Groupé par tous
 
-    - T-shirt, 28
+    - D0002, 28
 
 - `(ColorId)` – Groupé par `ColorId`
 
-    - T-shirt, Noir, 10
-    - T-shirt, Rouge, 18
+    - D0002, Noir, 10
+    - D0002, Rouge, 18
 
 - `(ColorId, SizeId)` – Groupé par la combinaison de `ColorId` et `SizeId`
 
-    - T-shirt, Noir, Petit, 3
-    - T-shirt, Noir, Grand, 7
-    - T-shirt, Rouge, Petit, 11
-    - T-shirt, Rouge, Grand, 7
+    - D0002, Noir, Petit modèle, 3
+    - D0002, Noir, Grand modèle, 7
+    - D0002, Rouge, Petit modèle, 11
+    - D0002, Rouge, Grand modèle, 7
 
 - `(ColorId, SizeId, StyleId)` – Groupé par combinaison de `ColorId`, `SizeId` et `StyleId`
 
-    - T-shirt, Noir, Petit, Ample, 1
-    - T-shirt, Noir, Petit, Normal, 2
-    - T-shirt, Noir, Grand, Ample, 3
-    - T-shirt, Noir, Grand, Normal, 4
-    - T-shirt, Rouge, Petit, Ample, 5
-    - T-shirt, Rouge, Petit, Normal, 6
-    - T-shirt, Rouge, Grand, Normal, 7
+    - D0002, Noir, Petit modèle, Large, 1
+    - D0002, Noir, Petit modèle, Normal, 2
+    - D0002, Noir, Grand modèle, Large, 3
+    - D0002, Noir, Grand modèle, Normal, 4
+    - D0002, Rouge, Petit modèle, Large, 5
+    - D0002, Rouge, Petit modèle, Normal, 6
+    - D0002, Rouge, Grand modèle, Normal, 7
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuration de la réservation (facultatif)
 
@@ -397,35 +408,35 @@ Avant de configurer ce mappage, les mesures physiques, les mesures calculées et
 
 Pour définir le mappage de réservation provisoire, procédez comme suit.
 
-1. Définissez la mesure physique qui sert de mesure de réservation provisoire (par exemple, `SoftReservOrdered`).
-1. Dans l’onglet **Mesure calculée** de la page **Configuration**, définissez la mesure calculée *disponible à la réservation* (AFR) qui contient la formule de calcul AFR que vous souhaitez mapper à la mesure physique. Par exemple, vous pouvez configurer `AvailableToReserve` (disponible à la réservation) afin qu’il soit mappé sur la mesure physique `SoftReservOrdered` précédemment définie. De cette façon, vous pouvez rechercher quelles quantités ayant le statut de stock `SoftReservOrdered` seront disponibles à la réservation. Le tableau suivant présente la formule de calcul AFR.
+1. Définissez la mesure physique qui sert de mesure de réservation provisoire (par exemple, `SoftReservPhysical`).
+1. Dans l’onglet **Mesure calculée** de la page **Configuration**, définissez la mesure calculée *disponible à la réservation* (AFR) qui contient la formule de calcul AFR que vous souhaitez mapper à la mesure physique. Par exemple, vous pouvez configurer `AvailableToReserve` (disponible à la réservation) afin qu’il soit mappé sur la mesure physique `SoftReservPhysical` précédemment définie. De cette façon, vous pouvez rechercher quelles quantités ayant le statut de stock `SoftReservPhysical` seront disponibles à la réservation. Le tableau suivant présente la formule de calcul AFR.
 
     | Type de calcul | Source de données | Mesure physique |
     |---|---|---|
     | Ajout | `fno` | `AvailPhysical` |
     | Ajout | `pos` | `Inbound` |
     | Soustraction | `pos` | `Outbound` |
-    | Soustraction | `iv` | `SoftReservOrdered` |
+    | Soustraction | `iv` | `SoftReservPhysical` |
 
-    Nous vous recommandons de configurer la mesure calculée de sorte qu’elle contienne la mesure physique sur laquelle la mesure de la réservation est basée. De cette manière, la quantité de mesure calculée sera affectée par la quantité de mesure de la réservation. Par conséquent, dans cet exemple, la mesure calculée `AvailableToReserve` de la source de données `iv` doit contenir la mesure physique `SoftReservOrdered` issue de `iv` en tant que composant.
+    Nous vous recommandons de configurer la mesure calculée de sorte qu’elle contienne la mesure physique sur laquelle la mesure de la réservation est basée. De cette manière, la quantité de mesure calculée sera affectée par la quantité de mesure de la réservation. Par conséquent, dans cet exemple, la mesure calculée `AvailableToReserve` de la source de données `iv` doit contenir la mesure physique `SoftReservPhysical` issue de `iv` en tant que composant.
 
 1. Ouvrez la page **Configuration**.
-1. Dans l’onglet **Mappage de réservation provisoire**, configurez le mappage de la mesure physique à la mesure calculée. Pour l’exemple précédent, vous pouvez utiliser les paramètres suivants pour mapper `AvailableToReserve` à la mesure physique `SoftReservOrdered` précédemment définie.
+1. Dans l’onglet **Mappage de réservation provisoire**, configurez le mappage de la mesure physique à la mesure calculée. Pour l’exemple précédent, vous pouvez utiliser les paramètres suivants pour mapper `AvailableToReserve` à la mesure physique `SoftReservPhysical` précédemment définie.
 
     | Source de données Mesure physique | Mesure physique | Source de données Disponible à la réservation | Mesure calculée Disponible à la réservation |
     |---|---|---|---|
-    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+    | `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
     > [!NOTE]
     > Si vous ne pouvez pas modifier l’onglet **Mappage de réservation provisoire**, vous devez peut-être activer la fonctionnalité *OnHandReservation* sur l’onglet **Gestion des fonctionnalités**.
 
-Maintenant, lorsque vous réserverez sur `SoftReservOrdered`, la visibilité des stocks trouvera automatiquement `AvailableToReserve` et sa formule de calcul associée pour effectuer la validation de la réservation.
+Maintenant, lorsque vous réserverez sur `SoftReservPhysical`, la visibilité des stocks trouvera automatiquement `AvailableToReserve` et sa formule de calcul associée pour effectuer la validation de la réservation.
 
 Par exemple, vous disposez du stock disponible suivant dans la visibilité des stocks.
 
 ```json
 {
-    "productId": "T-shirt",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
@@ -433,7 +444,7 @@ Par exemple, vous disposez du stock disponible suivant dans la visibilité des s
     },
     "quantities": {
         "iv": {
-            "SoftReservOrdered": 90
+            "SoftReservPhysical": 90
         },
         "fno": {
             "availphysical": 70.0,
@@ -448,14 +459,14 @@ Par exemple, vous disposez du stock disponible suivant dans la visibilité des s
 
 Dans ce cas, le calcul suivant s’applique :
 
-`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservOrdered`  
+`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservPhysical`  
 = 70 + 50 – 20 – 90  
 = 10
 
-Par conséquent, si vous essayez de faire des réservations sur `iv.SoftReservOrdered` et que la quantité est inférieure ou égale à `AvailableToReserve` (10), vous pouvez faire la réservation.
+Par conséquent, si vous essayez de faire des réservations sur `iv.SoftReservPhysical` et que la quantité est inférieure ou égale à `AvailableToReserve` (10), la requête de réservation provisoire est réussie.
 
 > [!NOTE]
-> Lorsque vous appelez l’API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu’une valeur `False` signifie que la validation n’est pas requise. La valeur par défaut est `True`.
+> Lorsque vous appelez l’API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu’une valeur `False` signifie que la validation n’est pas requise (bien que vous puissiez vous retrouver avec une quantité `AvailableToReserve` négative, le système vous autorise toujours à effectuer une réservation provisoire). La valeur par défaut est `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Hiérarchie de réservation provisoire
 
@@ -484,22 +495,25 @@ Une séquence de dimensions valide doit suivre strictement la hiérarchie de ré
 
 ## <a name="available-to-promise-configuration-optional"></a>Configuration de la quantité disponible à la vente (facultatif)
 
-Vous pouvez configurer la Visibilité des stocks pour vous permettre de planifier les futurs changements de stock et de calculer les quantités disponibles à la vente (DAV). Le DAV correspond à la quantité d’un article qui est disponible et peut être promise à un client dans le courant d’une période à venir. L’utilisation de ce calcul peut augmenter considérablement votre capacité de traitement des commandes. Pour utiliser cette fonction, vous devez l’activer sur l’onglet **Gestion des fonctionnalités**, puis la configurer sur l’onglet **Paramètres DAV**. Pour plus d’informations, voir [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md).
+Vous pouvez configurer la Inventory Visibility pour vous permettre de planifier les futurs changements de stock et de calculer les quantités disponibles à la vente (DAV). Le DAV correspond à la quantité d’un article qui est disponible et peut être promise à un client dans le courant d’une période à venir. L’utilisation de ce calcul peut augmenter considérablement votre capacité de traitement des commandes. Pour utiliser cette fonction, vous devez l’activer sur l’onglet **Gestion des fonctionnalités**, puis la configurer sur l’onglet **Paramètres DAV**. Pour plus d’informations, voir [Plannings de changement du stock disponible et disponibilité à la vente de la Inventory Visibility](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Terminer et mettre à jour la configuration
 
-Une fois la configuration terminée, vous devez valider toutes les modifications apportées à la visibilité des stocks. Pour valider les modifications, sélectionnez **Mettre à jour la configuration** dans le coin supérieur droit de la page **Configuration** dans Power Apps.
+Une fois la configuration terminée, vous devez valider toutes les modifications apportées à la visibilité des stocks. Pour valider vos modifications, procédez comme suit.
 
-La première fois que vous sélectionnez **Mettre à jour la configuration**, le système demande vos informations d’identification.
+1. Dans Power Apps, sur la page **Configuration**, sélectionnez **Mettre à jour la configuration** dans le coin supérieur droit. 
+1. Le système demande des identifiants de connexion. Entrez les valeurs suivantes :
 
-- **Identité du client** : ID d’application Azure que vous avez créé pour la visibilité des stocks.
-- **ID de locataire** : ID de locataire Azure.
-- **Clé secrète client** : clé secrète d’application Azure que vous avez créée pour la visibilité des stocks.
+    - **Identité du client** : ID d’application Azure que vous avez créé pour la visibilité des stocks.
+    - **ID de locataire** : ID de locataire Azure.
+    - **Clé secrète client** : clé secrète d’application Azure que vous avez créée pour la visibilité des stocks.
 
-Une fois que vous êtes connecté, la configuration est mise à jour dans le service de visibilité des stocks.
+    Pour plus d’informations sur ces informations d’identification et comment les trouver, voir [Installer et configurer Inventory Visibility](inventory-visibility-setup.md).
 
-> [!NOTE]
-> Assurez-vous de valider le nom de votre source de données, les mesures physiques et les mappages de dimensions avant de mettre à jour la configuration pour le service de visibilité des stocks. Vous ne pourrez plus modifier ces paramètres après avoir sélectionné **Mettre à jour la configuration**.
+    > [!IMPORTANT]
+    > Assurez-vous de valider le nom de votre source de données, les mesures physiques et les mappages de dimensions avant de mettre à jour la configuration. Vous ne pouvez plus modifier ces paramètres après les avoir mis à jour.
+
+1. Une fois connecté, sélectionnez de nouveau **Mettre à jour la configuration**. Le système applique vos paramètres et affiche les modifications.
 
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Exemple de configuration par défaut
 
@@ -694,13 +708,19 @@ Les mappages de dimensions répertoriés dans le tableau suivant sont configuré
 
 Les mesures physiques suivantes sont configurées pour la source de données `fno` :
 
-- `Ordered`
 - `Arrived`
-- `AvailPhysical`
 - `PhysicalInvent`
 - `ReservPhysical`
+- `onorder`
+- `notspecified`
+- `availordered`
+- `availphysical`
+- `picked`
+- `postedqty`
+- `quotationreceipt`
+- `received`
+- `ordered`
 - `ReservOrdered`
-- `OnOrder`
 
 #### <a name="configuration-of-the-pos-data-source"></a>Configuration de la source de données "pos"
 
@@ -766,47 +786,17 @@ Le tableau suivant montre le mappage de réservations par défaut.
 
 | Source de données Mesure physique | Mesure physique | Source de données Disponible à la réservation | Mesure calculée Disponible à la réservation |
 |---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+| `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
 #### <a name="reservation-hierarchy"></a>Hiérarchie de réservation
 
 Le tableau suivant montre la hiérarchie de réservation par défaut.
 
-| Dimension de base | Hiérarchie |
+| Dimension de base | Hiérarchie  |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 | `ColorId` | 3 |
 | `SizeId` | 4 |
-| `StyleId` | 5 |
-| `BatchId` | 6 |
-| `SerialId` | 7 |
-| `StatusId` | 8 |
-| `LicensePlateId` | 9 |
-| `WMSLocationId` | 10 |
-| `WMSPalletId` | 11 |
-| `ConfigId` | 12 |
-| `VersionId` | 13 |
-| `CustomDimension1` | 14 |
-| `CustomDimension2` | 15 |
-| `CustomDimension3` | 16 |
-| `CustomDimension4` | 17 |
-| `CustomDimension5` | 18 |
-| `CustomDimension6` | 19 |
-| `CustomDimension7` | 20 |
-| `CustomDimension8` | 21 |
-| `CustomDimension9` | 22 |
-| `CustomDimension10` | 23 |
-| `CustomDimension11` | 24 |
-| `CustomDimension12` | 25 |
-| `ExtendedDimension1` | 26 |
-| `ExtendedDimension2` | 27 |
-| `ExtendedDimension3` | 28 |
-| `ExtendedDimension4` | 29 |
-| `ExtendedDimension5` | 30 |
-| `ExtendedDimension6` | 31 |
-| `ExtendedDimension7` | 32 |
-| `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

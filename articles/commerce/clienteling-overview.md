@@ -2,28 +2,23 @@
 title: Vue d’ensemble de la gestion des clients
 description: Cet article fournit une vue d’ensemble des nouvelles fonctionnalités de gestion des clients qui sont disponibles dans l’application.
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885609"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785043"
 ---
 # <a name="clienteling-overview"></a>Vue d’ensemble de la gestion des clients
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885609"
 
 
 De nombreux détaillants, notamment les détaillants spécialisés haut de gamme, souhaitent que leurs associés commerciaux forment les relations à long terme avec leurs clients clés. Les associés sont tenus de connaître les goûts de ces clients, l’historique d’achat, les préférences de produit et les dates importantes comme les anniversaires. Les associés ont besoin d’un endroit où ils peuvent capturer ces informations et les trouver facilement, le cas échéant. Si ces informations sont disponibles dans une seule vue, les associés peuvent facilement cibler les clients qui répondent aux critères spécifiques. Par exemple, ils peuvent trouver tous les clients qui préfèrent acheter des sacs à main, ou les clients qui ont un évènement important à venir, comme un anniversaire.
+
+La vidéo suivante présente un exemple de scénario de gestion des clients dans Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>Registre clients
 
@@ -115,7 +115,7 @@ Procédez comme suit pour configurer l’intégration.
 4. Enregistrez le secret (dans cet exemple, « CI_Access_Secret ») dans le coffre-fort. Lorsque ce secret est stocké dans le coffre-fort, il reçoit un nom. Notez le nom du secret (dans cet exemple, « SecretName »).
 5. Pour accéder au secret depuis Azure Key Vault, vous devez créer une autre application avec un ID d’application et un secret (dans cet exemple, « KeyVault_Access_AppID » et « KeyVault_Access_Secret »). Notez bien le secret, car il ne sera plus affiché.
 6. Ensuite, vous devez accorder des autorisations à l’application pour accéder au Key Vault à partir de Commerce à l’aide d’API. Accédez à la page de l’application dans le portail Azure. Sous la section **Gérer**, sélectionnez **Autorisations API**. Ajoutez l’autorisation d’accès à **Azure Key Vault**. Pour cette autorisation, sélectionnez **Stratégie d’accès**. Sélectionnez le modèle **Gestion du secret**, et sélectionnez les options **Obtenir**, **Liste**, **Décrypter**, et **Crypter**. 
-5. Dans Commerce Headquarters, accédez à **Administration du système \> Paramétrage \> Paramètres Key Vault**, puis entrez les informations requises pour le coffre de clés. Puis, dans le champ **Client du coffre de clés**, saisissez l’ID d’application que vous avez utilisé à l’étape 4, afin que Commerce puisse accéder aux secrets dans le coffre de clés.
+5. Dans Commerce Headquarters, accédez à **Administration du système \> Paramétrage \> Paramètres Key Vault**, puis entrez les informations requises pour le coffre de clés. Puis, dans le champ **Client du coffre de clés**, entrez l’ID d’application que vous avez utilisé à l’étape 4, afin que Commerce puisse accéder aux secrets dans le coffre de clés.
 6. Pour ajouter l’application créée à l’étape 1 à la liste des applications sûres (parfois désignées sous le nom de Liste sécurisée), accédez à Customer Insights, et sélectionnez l’accès  **Affichage** à l’application. Pour les instructions, voir [Autorisations](/dynamics365/ai/customer-insights/pm-permissions).
 7. Sur la page **Administration système > Paramétrage > Paramètres Key Vault** dans Commerce HQ, mettez à jour les champs comme décrit ci-dessous : 
 
@@ -131,7 +131,7 @@ Après avoir mis à jour les champs, sélectionnez **Valider** pour vous assurer
 
 8. Dans Commerce, sur la page **Paramètres Commerce**, sur l’onglet **Gestion de la relation client**, sur le raccourci **Dynamics 365 Customer Insights**, définissez l’**ID d’application** sur « CI_Access_AppID » (à partir de l’étape 1 ci-dessus). Pour **Nom secret**, sélectionnez le nom du secret saisi à l’étape 7 ci-dessus (« CISecret »). Définissez l’option **Activer Customer Insights** sur **Oui**. Si le paramétrage est infructueux pour une raison quelconque, vous recevrez un message d’erreur, et cette option sera définie sur **Non**. 
 
-Vous pouvez avoir plusieurs environnements dans Customer Insights, tels que les environnements de production et de test. Dans le champ **ID d’instance de l’environnement**, saisissez l’environnement approprié. Dans le champ **Autre ID client**, entrez la propriété dans Customer Insights qui est mise en correspondance avec le numéro de compte client. (Dans Commerce, le numéro de compte client est l’ID client.) Les trois autres propriétés sont les mesures qui seront affichées sur la fiche client dans le registre de clients. Vous pouvez sélectionner jusqu’à trois mesures à afficher sur la fiche client. Cependant, vous n’êtes pas obligé de sélectionner des mesures. Comme mentionné précédemment, le système affiche d’abord ces valeurs, puis les valeurs du groupe d’attributs du registre de clients.
+Vous pouvez avoir plusieurs environnements dans Customer Insights, tels que les environnements de production et de test. Dans le champ **ID d’instance de l’environnement**, entrez l’environnement approprié. Dans le champ **Autre ID client**, entrez la propriété dans Customer Insights qui est mise en correspondance avec le numéro de compte client. (Dans Commerce, le numéro de compte client est l’ID client.) Les trois autres propriétés sont les mesures qui seront affichées sur la fiche client dans le registre de clients. Vous pouvez sélectionner jusqu’à trois mesures à afficher sur la fiche client. Cependant, vous n’êtes pas obligé de sélectionner des mesures. Comme mentionné précédemment, le système affiche d’abord ces valeurs, puis les valeurs du groupe d’attributs du registre de clients.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,25 @@
 title: Clôture de fin d’exercice
 description: Cet article décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d’exercice dans la comptabilité.
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883211"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779741"
 ---
 # <a name="year-end-close"></a>Clôture de fin d’exercice
 
@@ -54,7 +54,7 @@ Dans la page **Calendrier fiscal** :
 
 Sur la page **Calendrier comptable** :
 
-- facultatif : chaque période fiscale pour l’exercice en cours de clôture peut être définie sur **En attente** pour empêcher de saisir de nouvelles transactions. Lorsque des entrées d’ajustement sont identifiées, les périodes en attente peut être rouvertes afin de valider les entrées d’ajustement, même si le processus de clôture de fin d’exercice a déjà été exécuté.
+- facultatif : chaque période fiscale pour l’exercice en cours de clôture peut être définie sur **En attente** pour empêcher de entrer de nouvelles transactions. Lorsque des entrées d’ajustement sont identifiées, les périodes en attente peut être rouvertes afin de valider les entrées d’ajustement, même si le processus de clôture de fin d’exercice a déjà été exécuté.
 
 Sur la page **Configuration du modèle de clôture de fin d’exercice** :
 
@@ -62,7 +62,7 @@ Sur la page **Configuration du modèle de clôture de fin d’exercice** :
 
 ## <a name="define-year-end-close-templates"></a>Définir des modèles de clôture de fin d’exercice
 
-Une fois le système configuré, le processus de clôture de fin d’exercice peut être exécuté. Dans la page **Configuration du modèle de clôture de fin d’exercice**, il est possible de définir un modèle pour le groupe d’entités juridiques pour lesquelles le processus de clôture de fin d’exercice doit être exécuté. Le modèle sera réutilisé à chaque clôture de fin d’exercice, mais il peut être modifié si votre organisation change.
+Une fois la configuration configurée, le processus de clôture de fin d’exercice peut être exécuté. Dans la page **Configuration du modèle de clôture de fin d’exercice**, il est possible de définir un modèle pour le groupe d’entités juridiques pour lesquelles le processus de clôture de fin d’exercice doit être exécuté. Le modèle sera réutilisé à chaque clôture de fin d’exercice, mais il peut être modifié si votre organisation change.
 
 Tout d’abord, définissez le champ **Nom du groupe** pour le modèle et sélectionnez le calendrier fiscal. Le nom du groupe doit identifier le groupe des entités juridiques incluses. Lorsque vous déterminez les groupes d’entités juridiques, n’oubliez pas que les entités juridiques peuvent être incluses dans le même groupe uniquement si le même calendrier fiscal est sélectionné pour elles. Par exemple, les modèles peuvent être configurés selon des critères géographiques, et des groupes distincts peuvent être créés pour les entités juridiques d’Amérique du Nord, de la zone EMEA (Europe-Moyen-Orient-Afrique) et de la zone APAC (Asie-Pacifique).
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129510"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780508"
 ---
 # <a name="create-a-customer-invoice"></a>Création d’une facture client
 
@@ -31,11 +31,10 @@ Une **facture client pour une commande client** est une facture associée à une
 Une **facture financière** n’est pas liée à une commande client. Elle contient des lignes de commande comprenant des comptes généraux, des descriptions en texte libre ainsi qu’une valeur de vente que vous entrez. Vous ne pouvez pas entrer de numéro d’article sur ce type de facture. Vous devez entrer les informations de taxe appropriées. Un compte principal associé à la vente figure sur chaque ligne de facture, que vous pouvez répartir entre plusieurs comptes généraux en cliquant sur **Répartir les montants** sur la page **Facture financière**. En outre, le solde du client est validé dans le compte collectif en fonction du profil de validation utilisé pour la facture financière.
 
 Pour plus d’informations, voir :
-
-[Créer des factures financières](../accounts-receivable/create-free-text-invoice-new.md)
-[Créer un modèle de facture financière](../accounts-receivable/create-free-text-invoice-template-new.md)
-[Attribuer un modèle de facture financière à un client](tasks/assign-free-text-invoice-template-customer.md)
-[Générer et publier des factures textuelles récurrentes](tasks/post-recurring-free-text-invoices.md)
+ - [Créer des factures financières](../accounts-receivable/create-free-text-invoice-new.md)
+ - [Créer un modèle de facture financière](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [Affecter un modèle de facture financière à un client](tasks/assign-free-text-invoice-template-customer.md)
+ - [Générer et valider les factures financières récurrentes](tasks/post-recurring-free-text-invoices.md)
 
 
 Une **facture proforma** est une facture préparée comme une estimation des montants de facture réels avant la validation de la facture. Vous pouvez imprimer une **facture proforma** pour une facture client associée à une commande client ou pour une facture financière. 
@@ -89,7 +88,13 @@ Vous pouvez paramétrer le fractionnement des factures clients des commandes cli
  - Sélectionnez l’option **Fractionner en fonction des informations de livraison de la facture** pour créer une facture par adresse de livraison de ligne de commande client lors de la validation. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Valider sur le compte Produit pour les lignes de commande client sans prix et de coût nul
-Vous aurez la possibilité de mettre à jour le compte **Revenu** en **Comptabilité** pour les lignes de commande client sans prix et de coût nul. Pour configurer ou afficher ces informations, accédez au paramètre **Valider sur le compte Produit pour les lignes de facture de commande client sans prix et de coût nul** sur l’onglet **Comptabilité et taxe** de la page **Paramètres de la comptabilité client**. (**Comptabilité client > Comptabilité client > Paramètres de la comptabilité client**). Sélectionnez **Oui** pour mettre à jour le compte **Revenu** pour les lignes de facture de commande client qui n’ont pas de prix et de coût nul. Si cette option est sélectionnée, le justificatif contiendra 0,00 entrées pour les types de validations **Client - Solde** et **Produit**. Un compte de produit est défini sur la page du paramètre **Validation de l’inventaire**, sur l’onglet de définition du compte **Commande client**. Si cette option n’est pas sélectionnée, les lignes qui n’ont pas d’informations sur les prix et les coûts ne seront pas validées vers le compte **Revenu**. Au lieu de cela, le justificatif contiendra une entrée de 0,00 pour le type de validation **Client – Solde**.
+Vous aurez la possibilité de mettre à jour le compte **Revenu** en **Comptabilité** pour les lignes de commande client sans prix et de coût nul. 
+
+Pour configurer ou afficher ces informations :
+1. Accédez au paramètre **Valider sur le compte Produit pour les lignes de facture de commande client sans prix et de coût nul** dans l’onglet **Comptabilité et taxe** de la page **Paramètres de la comptabilité client**. (**Comptabilité client > Comptabilité client > Paramètres de la comptabilité client**). 
+2. Sélectionnez **Oui** pour mettre à jour le compte **Revenu** pour les lignes de facture de commande client qui n’ont pas de prix et de coût nul. 
+ - Si cette option est sélectionnée, le justificatif contiendra 0,00 entrées pour les types de validations **Client - Solde** et **Produit**. Un compte de produit est défini sur la page Paramètres de **Comptabilisation de l’inventaire**, sur l’onglet de définition du compte **Bon de commande**. 
+ - Si cette option n’est pas sélectionnée, les lignes sans informations de prix ou de coût ne sont pas publiées sur le compte **Produit**. Au lieu de cela, le justificatif contiendra une entrée de 0,00 pour le type de validation **Client – Solde**.
 
 ## <a name="line-creation-sequence-number-information"></a>Informations sur le numéro de séquence de création de ligne
 Lorsque vous validez des lignes de facture client, vous avez la possibilité de créer des numéros de séquence de création de ligne séquentiels. Les numéros de séquence de création de ligne sont attribués lors du processus de validation. En autorisant la numérotation non séquentielle, vous pouvez contribuer à améliorer les performances de la validation des factures client. Les numéros de séquence de création de ligne peuvent être utilisés par des intégrations tierces qui attendent un ordre séquentiel. Consultez votre service informatique au sujet des extensions qui pourraient s’intégrer aux numéros de séquence de création de ligne.

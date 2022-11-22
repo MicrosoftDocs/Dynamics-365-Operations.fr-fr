@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b3cc07a1f0ba444250eddcf892681e2ca63e9c1a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715495"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780522"
 ---
 # <a name="correct-a-free-text-invoice"></a>Correction d’une facture financière
 
@@ -28,7 +28,11 @@ ms.locfileid: "9715495"
 
 Cet article explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
 
-Pour corriger une facture financière qui a déjà été validée, ouvrez la facture financière validée. Sur la page **Facture**, sélectionnez **Annuler**, puis **Corriger la facture**. Sélectionnez un code motif, ajoutez des commentaires, puis sélectionnez la date de la nouvelle facture corrigée. Vous pouvez modifier la facture corrigée, puis la valider. 
+Pour corriger une facture financière déjà validée : 
+1. Ouvrez la facture financière validée. 
+2. Sur la page **Facture**, sélectionnez **Annuler**, puis **Corriger la facture**. 
+3. Sélectionnez un code motif, ajoutez des commentaires, puis sélectionnez la date de la nouvelle facture corrigée.
+4. Vous pouvez modifier la facture corrigée, puis la valider. 
 
 Lorsque vous validez la facture corrigée, une facture d’annulation est créée pour un montant de crédit qui est égal au montant de la facture d’origine. Par conséquent, le solde combiné de la factures d’origine et de la facture d’annulation est 0 (zéro). La facture d’annulation est réglée par rapport à la facture d’origine. 
 

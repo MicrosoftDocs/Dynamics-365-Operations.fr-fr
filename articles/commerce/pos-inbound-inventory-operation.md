@@ -2,26 +2,19 @@
 title: Opération de stock entrant dans le PDV
 description: Cet article décrit les fonctionnalités de l’opération de stock entrant dans le point de vente (PDV).
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288350"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785016"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -31,6 +24,11 @@ Dans Microsoft Dynamics 365 Commerce version 10.0.10 et les versions ultérieure
 
 > [!NOTE]
 > Dans Commerce version 10.0.10 et les versions ultérieures, les nouvelles fonctionnalités de l’application PDV associées à la réception du stock en magasin pour les commandes fournisseur et les ordres de transfert seront ajoutées à l’opération PDV **Opération entrante**. Si vous utilisez actuellement l’opération de prélèvement et de réception dans le PDV, nous vous recommandons de développer une stratégie pour passer de cette opération aux nouvelles opérations entrantes et sortantes. Bien que l’opération de prélèvement et de réception ne soit pas supprimée du produit, il n’y aura aucun investissement supplémentaire, du point de vue fonctionnel ou des performances, après la version 10.0.9.
+
+La vidéo suivante donne un aperçu des capacités et des processus d’entreprise du stock de magasin dans Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Condition préalable : configurer un cadre de document asynchrone
 
@@ -121,9 +119,9 @@ Un utilisateur reçoit une commande fournisseur contenant 10 unités du code-ba
 
 Sinon, dans un scénario où la quantité d’articles est importante, l’utilisateur préfère peut-être entrer manuellement la quantité au lieu de lire le code-barres pour chaque article reçu. Dans ce cas, l’utilisateur peut lire le code-barres une fois pour ajouter l’article à la liste **Recevoir maintenant**. L’utilisateur peut ensuite sélectionner la ligne associée dans la vue **Recevoir maintenant**, puis, dans le volet **Détails** qui s’affiche à droite de la page, mettre à jour le champ **Quantité de réception** pour l’article.
 
-Bien que la vue **Recevoir maintenant** soit optimisée pour la lecture de codes-barres, les utilisateurs peuvent également sélectionner **Recevoir le produit** sur la barre d’application, puis saisir l’ID article ou les données du code-barres via une boîte de dialogue. Une fois que l’article saisi est validé, l’utilisateur est invité à saisir la quantité de l’accusé de réception.
+Bien que la vue **Recevoir maintenant** soit optimisée pour la lecture de codes-barres, les utilisateurs peuvent également sélectionner **Recevoir le produit** sur la barre d’application, puis entrer l’ID article ou les données du code-barres via une boîte de dialogue. Une fois que l’article saisi est validé, l’utilisateur est invité à entrer la quantité de l’accusé de réception.
 
-La vue **Recevoir maintenant** permet aux utilisateurs de voir les produits qu’ils reçoivent. Sinon, la vue **Liste complète des commandes** peut être utilisée. Cette vue affiche la liste complète des lignes de document pour le document de commande fournisseur ou d’ordre de transfert sélectionné. Les utilisateurs peuvent sélectionner manuellement des lignes dans la liste puis, dans le volet **Détails**, mettre à jour le champ **Quantité de réception** pour la ligne sélectionnée. Dans la vue **Liste complète des commandes**, les utilisateurs peuvent lire les codes-barres, ou ils peuvent utiliser la fonction **Recevoir le produit** pour saisir l’ID article ou le code-barres et les données sur la quantité reçue, sans avoir à sélectionner au préalable la ligne d’article correspondante dans la liste.
+La vue **Recevoir maintenant** permet aux utilisateurs de voir les produits qu’ils reçoivent. Sinon, la vue **Liste complète des commandes** peut être utilisée. Cette vue affiche la liste complète des lignes de document pour le document de commande fournisseur ou d’ordre de transfert sélectionné. Les utilisateurs peuvent sélectionner manuellement des lignes dans la liste puis, dans le volet **Détails**, mettre à jour le champ **Quantité de réception** pour la ligne sélectionnée. Dans la vue **Liste complète des commandes**, les utilisateurs peuvent lire les codes-barres, ou ils peuvent utiliser la fonction **Recevoir le produit** pour entrer l’ID article ou le code-barres et les données sur la quantité reçue, sans avoir à sélectionner au préalable la ligne d’article correspondante dans la liste.
 
 ### <a name="over-receiving-validations"></a>Validations pour réception excessive
 
@@ -141,7 +139,7 @@ Les pourcentages de tolérance de livraison incomplète pour une ligne de comman
 
 Une fois qu’une organisation a terminé les configurations de livraison incomplète des commandes fournisseur, les utilisateurs du PDV voient une nouvelle option **Clôturer la quantité restante** dans le volet **Détails** lorsqu’ils sélectionnent une ligne de commande fournisseur entrant dans l’**Opération de stock entrant**. Si l’utilisateur clôture la quantité restante, le PDV effectue une validation pour vérifier que la quantité qui est fermée se situe dans la tolérance de pourcentage de livraison incomplète définie sur la ligne de commande fournisseur. En cas de dépassement de la tolérance de livraison incomplète, un message d’erreur s’affiche et l’utilisateur ne peut pas fermer la quantité restante tant que la quantité précédemment reçue plus la quantité **Recevoir maintenant** atteint ou dépasse la quantité minimale qui doit être reçue en fonction du pourcentage de tolérance de livraison incomplète. 
 
-Avec l'option **Clôturer la quantité restante** activée pour une ligne de commande fournisseur, lorsque l’utilisateur achève la réception à l’aide de l’action **Terminer la réception**, une demande de clôture est également envoyée au Commerce headquarters, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
+Avec l’option **Clôturer la quantité restante** activée pour une ligne de commande fournisseur, lorsque l’utilisateur achève la réception à l’aide de l’action **Terminer la réception**, une demande de clôture est également envoyée au Commerce headquarters, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
 
 ### <a name="receiving-location-controlled-items"></a>Articles contrôlés par l’emplacement de réception
 
@@ -161,7 +159,7 @@ Les utilisateurs ne peuvent pas ajouter de nouveaux produits à la commande four
 
 La fonctionnalité qui permet d’ajouter des lignes ne peut pas être utilisée comme solution pour recevoir des quantités supplémentaires de produits déjà sur la commande fournisseur. La sur-réception est gérée par les paramètres de [sur-réception](#over-receiving-validations) standard de la ligne de produits sur la commande fournisseur.
 
-Lorsqu’un utilisateur reçoit avec l' **Opération entrante** dans le PDV, si l’utilisateur scanne ou saisit un code-barres de produit ou un numéro de produit qui est reconnu comme un article valide mais n'est pas reconnu comme un article de la commande fournisseur en cours, l’utilisateur reçoit un message l'invitant à ajouter l’article à la commande fournisseur. Si l’utilisateur ajoute l’article à la commande fournisseur, la quantité saisie dans **Recevoir maintenant** est considérée comme la quantité commandée pour la ligne de commande fournisseur.
+Lorsqu’un utilisateur reçoit avec l’ **Opération entrante** dans le PDV, si l’utilisateur scanne ou saisit un code-barres de produit ou un numéro de produit qui est reconnu comme un article valide mais n’est pas reconnu comme un article de la commande fournisseur en cours, l’utilisateur reçoit un message l’invitant à ajouter l’article à la commande fournisseur. Si l’utilisateur ajoute l’article à la commande fournisseur, la quantité saisie dans **Recevoir maintenant** est considérée comme la quantité commandée pour la ligne de commande fournisseur.
 
 Lorsque la réception de la commande fournisseur est terminée et soumise au siège pour traitement, les lignes ajoutées sont créées sur le document principal de la commande fournisseur. Sur la ligne de la commande fournisseur au siège, il y aura un indicateur **Ajouté par le PDV** sur l’onglet **Général** de la de la ligne de la commande fournisseur. L’indicateur **Ajouté par le PDV** indique que la ligne de la commande fournisseur a été ajoutée par le processus de réception du PDV et n’était pas une ligne qui figurait sur la commande fournisseur avant la réception.
 
@@ -191,9 +189,9 @@ Définissez le paramètre **Activer la validation automatique** sur **Oui** dans
 
 ### <a name="finish-receiving"></a>Terminer la réception
 
-Lorsque vous avez terminé de saisir toutes les quantités **Recevoir maintenant** pour les produits, vous devez sélectionner **Terminer la réception** sur la barre d’application pour traiter la réception.
+Lorsque vous avez terminé de entrer toutes les quantités **Recevoir maintenant** pour les produits, vous devez sélectionner **Terminer la réception** sur la barre d’application pour traiter la réception.
 
-Lorsque les utilisateurs finalisent un accusé de réception de commande fournisseur, ils sont invités à saisir une valeur dans le champ **Numéro d’accusé de réception**, si cette fonctionnalité est configurée. Généralement, cette valeur est équivalente à l’identificateur du bon de livraison fournisseur. Les données **Numéro d’accusé de réception** seront stockées dans le journal des accusés de réception de produit dans Commerce Headquarters. Les numéros d’accusé de réception ne sont pas capturés pour les ordres de transfert.
+Lorsque les utilisateurs finalisent un accusé de réception de commande fournisseur, ils sont invités à entrer une valeur dans le champ **Numéro d’accusé de réception**, si cette fonctionnalité est configurée. Généralement, cette valeur est équivalente à l’identificateur du bon de livraison fournisseur. Les données **Numéro d’accusé de réception** seront stockées dans le journal des accusés de réception de produit dans Commerce Headquarters. Les numéros d’accusé de réception ne sont pas capturés pour les ordres de transfert.
 
 Lorsque le traitement de document asynchrone est utilisé, l’accusé de réception est envoyé via une structure de document asynchrone. Le temps de validation du document dépend de la taille du document (le nombre de lignes) et du trafic de traitement général sur le serveur. Généralement, ce processus se produit en quelques secondes. Si la validation du document échoue, l’utilisateur en est informé via la liste de documents **Opération entrante**, où le statut du document sera mis à jour sur **Échec du traitement**. L’utilisateur peut ensuite sélectionner le document ayant échoué dans le PDV pour afficher les messages d’erreur et la raison de l’échec dans le volet **Détails**. Un document ayant échoué reste non validé et nécessite que l’utilisateur retourne aux lignes de document en sélectionnant **Détails de la commande** dans le PDV. L’utilisateur doit ensuite mettre à jour le document avec les corrections, en fonction des erreurs. Une fois un document corrigé, l’utilisateur peut réessayer de le traiter en sélectionnant **Terminer l’exécution** sur la barre d’application.
 
@@ -201,7 +199,7 @@ Lorsque le traitement de document asynchrone est utilisé, l’accusé de récep
 
 Dans le PDV, les utilisateurs peuvent créer des documents d’ordre de transfert. Pour commencer le processus, sélectionnez **Nouveau** sur la barre d’application lorsque vous êtes dans la liste de documents **Opération entrante** principale. Vous êtes ensuite invité à sélectionner un entrepôt ou un magasin **Transférer depuis** qui fournira le stock dans l’emplacement de votre magasin. Les valeurs sont limitées à la sélection définie dans la configuration du groupe d’exécution du magasin. Dans une demande de transfert entrante, votre magasin actuel sera toujours l’entrepôt **Transférer à** pour l’ordre de transfert. Les valeurs ne peuvent pas être modifiées.
 
-Vous pouvez saisir des valeurs dans les champs **Date d’expédition**, **Date de réception** et **Mode de livraison** selon vos besoins. Vous pouvez également ajouter une note qui sera stockée avec l’en-tête de l’ordre de transfert, en tant que pièce jointe au document dans Commerce Headquarters.
+Vous pouvez entrer des valeurs dans les champs **Date d’expédition**, **Date de réception** et **Mode de livraison** selon vos besoins. Vous pouvez également ajouter une note qui sera stockée avec l’en-tête de l’ordre de transfert, en tant que pièce jointe au document dans Commerce Headquarters.
 
 Une fois les informations d’en-tête créées, vous pouvez ajouter des produits à l’ordre de transfert. Pour démarrer le processus d’ajout des articles et des quantités demandées, sélectionnez **Ajouter un produit**. Dans le volet **Détails**, vous pouvez également ajouter une note spécifique à la ligne aux lignes du journal. Ces notes seront stockées sous forme de pièce jointe à la ligne.
 

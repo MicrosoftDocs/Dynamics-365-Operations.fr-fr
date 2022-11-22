@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405435"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757165"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -50,7 +50,7 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Fermer un onglet du volet Actions ou un menu        | Échap                              |
 | Simuler un clic droit                          | Maj+F10                        |
 | Ouvrir le menu contextuel    | Ctrl+F10                         |
-| Exécuter le bouton par défaut dans un écran ou une boîte de dialogue | Alt+Entrée                        |
+| Exécuter le bouton par défaut sur une page/boîte de dialogue | Alt+Entrée                        |
 | Cliquer sur un bouton ou une vignette                          | Entrée ou Espace                   |
 | Afficher les informations actualisées pour une vignette de comptage       | Alt + Flèche Haut                     |
 | Afficher les raccourcis actuellement disponibles              | Alt+Maj+ K                      |
@@ -85,22 +85,22 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Ouvrir le filtrage de grille pour la colonne active                                                                          | Ctrl+G                   |
 | Fermer le filtrage de grille pour la colonne active                                                                         | Échap                      |
-| Ouvrir le volet de filtre (ou permuter le focus entre le volet de filtre et l’écran principal si le volet de filtre est déjà ouvert) | Alt+M, F ou Ctrl+F3       |
+| Ouvrir le volet de filtre (ou permuter le focus entre le volet de filtre et la page principale si le volet de filtre est déjà ouvert) | Alt+M, F ou Ctrl+F3       |
 | Fermer le volet de filtre (avec le focus sur le volet de filtre)                                                               | Échap                      |
 | Ouvrir le filtrage ou le tri avancé                                                                                        | Ctrl+Maj+F3            |
 | Appliquer le filtre rapide (lorsque le focus est dans le filtre rapide)                                                              | Entrer                    |
 | Appliquer le filtre de grille (lorsque le focus est dans le champ de filtre de l’en-tête de colonne)                                             | Entrer                    |
 
-## <a name="form-shortcuts"></a>Raccourcis d’écran
+## <a name="page-shortcuts"></a>Raccourcis de page
 
-| Opération                                    | Appuyer sur             |
+| Opération                                    | Appuyer sur              |
 |-----------------------------------------------|-------------------|
 | Créer un enregistrement                           | Alt+N             |
 | Supprimer un enregistrement                               | Alt+Suppr ou Alt+F9 |
 | Sauvegarder un enregistrement                                   | Alt+S ou Ctrl+S   |
 | Rétablir (restaurer)                              | Ctrl+Maj+F5     |
 | Actualisation des données                                  | Maj+F5          |
-| Accéder au premier champ visible dans l’écran   | Alt+Maj+F       |
+| Accéder au premier champ visible dans la page   | Alt+Maj+F       |
 | Activer ou désactiver le mode d’édition                              | F2                |
 | Joindre un document                             | Ctrl+Maj+A      |
 | Exporter vers Excel                               | Ctrl+Maj+E      |
@@ -108,13 +108,13 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Accéder à l’enregistrement suivant (en dehors d’une grille)      | Ctrl+Flèche Bas   |
 | Accéder au premier enregistrement (en dehors d’une grille)     | Ctrl + Début         |
 | Accéder au dernier enregistrement (en dehors d’une grille)      | Ctrl + Fin          |
-| Fermer l’écran (cliquer sur Précédent)                   | Échap               |
-| Fermer l’écran avec la sauvegarde explicite             | Maj+Échap         |
-| Fermer l’écran en ignorant les modifications non enregistrées | Alt+Maj+Q       |
+| Fermer la page (sélectionner le bouton Retour)<br><br>**Remarque :** en présence d’une une fenêtre contextuelle (info-bulle, sélecteur de date, liste déroulante, etc.) ouverte, la première utilisation du bouton Échap entraine la fermeture de la fenêtre contextuelle.       | Échap               |
+| Fermer la page avec la sauvegarde explicite             | Maj+Échap         |
+| Fermer la page en annulant les modifications non enregistrées | Alt+Maj+Q       |
 
-## <a name="form-navigation-shortcuts"></a>Raccourcis de navigation dans les écrans
+## <a name="page-navigation-shortcuts"></a>Raccourcis de navigation dans les pages
 
-| Opération                                          | Raccourci                                        |
+| Opération                                          | Appuyer sur                                         |
 |-----------------------------------------------------|----------------------------------------------|
 | Accéder au champ suivant/précédent                     | Tab/Maj+Tab                              |
 | Accéder à l’onglet suivant/précédent                       | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
@@ -192,13 +192,13 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Ouvrir la fenêtre d’aide                                                            | Ctrl+?                     |
 | Ouvrir l’analyseur de suivi                                                         | Alt+Shift+T                |
 | Effectuer un déplacement vers le volet de navigation                                                   | Alt + F1                     |
-| Ajouter/supprimer l’écran comme favori (avec le focus sur un écran dans le volet de navigation)   | Shift+F                    |
+| Ajouter/supprimer la page comme favori (avec le focus sur une page dans le volet de navigation)   | Shift+F                    |
 | Effectuer un déplacement vers le volet Actions standard                                              | Alt+M, A ou Ctrl+F6         |
 | Effectuer un déplacement vers le volet de filtre (qui peut permettre de l’ouvrir)                        | Alt+M, F ou Ctrl+F3         |
 | Permet de déplacer le contenu de page (avec la vue dans le volet de filtre)                | Alt+M, M ou Ctrl+F3         |
-| Effectuer un déplacement vers la liste de navigation de l’écran Détails (qui peut permettre de l’ouvrir)    | Alt+M, S ou Ctrl+F8         |
+| Effectuer un déplacement vers la liste de navigation (qui peut permettre de l’ouvrir)    | Alt+M, S ou Ctrl+F8         |
 | Permet de déplacer le contenu de page (avec la vue dans la liste de navigation)            | Alt+M, M ou Ctrl+F8         |
-| Fermer la liste de navigation dans l’écran de détails (avec le focus sur la liste de navigation) | Échap                        |
+| Fermer la liste de navigation (avec le focus sur la liste de navigation) | Échap                        |
 | Effectuer un déplacement vers le contenu de la page principale (avec la vue dans un autre volet)                    | Alt+M,M                    |
 | Effectuer un déplacement vers le volet Récapitulatif (qui peut permettre de l’ouvrir)                       | Alt+M, B ou Ctrl+F2         |
 | Passer à la légende de fonction suivante                                              | Alt+M,C                    |

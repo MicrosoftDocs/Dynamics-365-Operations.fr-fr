@@ -2,7 +2,7 @@
 title: FAQ sur la fusion d’infrastructure de Dynamics 365 Human Resources
 description: Cet article répond aux questions fréquemment posées sur la fusion d’infrastructure pour Microsoft Dynamics 365 Human Resources et les applications de finances et d’opérations.
 author: twheeloc
-ms.date: 09/13/2021
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32698d887b4d228ded588984b09068e3e2fef9a4
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 7325231718d7387450391b16b2866f9a2c05bdc4
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702065"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779633"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>FAQ sur la fusion d’infrastructure de Dynamics 365 Human Resources
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="what-is-dynamics-365-human-resources"></a>Qu'est-ce que Dynamics 365 Human Resources ?
+## <a name="what-is-dynamics-365-human-resources"></a>Qu’est-ce que Dynamics 365 Human Resources ?
 
 Microsoft Dynamics 365 Human Resources fournit des outils qui aident les équipes RH à accroître l’agilité organisationnelle, à transformer l’expérience des employés et à optimiser les programmes RH pour créer un lieu de travail où les personnes et l’entreprise peuvent prospérer. Pour en savoir plus sur Dynamics 365 Human Resources, voir [Dynamics 365 Human Resources](https://dynamics.microsoft.com/human-resources/overview/).
 

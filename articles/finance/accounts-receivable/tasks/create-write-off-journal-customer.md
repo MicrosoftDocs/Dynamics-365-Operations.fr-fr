@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713669"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775297"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Créer un journal d’annulation pour un client
 
@@ -48,9 +48,9 @@ Ce guide de tâche vous indique comment définir les paramètres pour les annula
 7. Allez dans le **Volet de navigation > Modules > Comptabilité > Entrées de journal > Journaux des opérations diverses**.
 8. Sélectionnez le numéro de lot du journal pour le journal contenant votre annulation. Une ligne est créée pour contrepasser le solde du client. Une ou plusieurs lignes sont créées pour valider l’annulation du compte d’annulation.  
 9. Fermez la page.
-10. Fermez la page.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Annuler des transactions à partir de l’écran de recouvrement.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Annuler des transactions à partir de la page des recouvrements
 1. Accédez à **Crédit et relances > Collections > Soldes chronologiques**.
 2. Sélectionnez le nom du client ayant les transactions que vous souhaitez annuler. Sélectionnez par exemple Cave Wholesales (US-004).
 3. Marquez la ligne de la première transaction.
@@ -63,7 +63,7 @@ Ce guide de tâche vous indique comment définir les paramètres pour les annula
 10. Accédez à **Comptabilité > Entrées de journal > Journaux des opérations diverses.**.
 11. Sélectionnez le numéro de lot du journal pour le journal contenant votre annulation. Une ligne est créée pour contrepasser le solde du client. Une ou plusieurs lignes sont créées pour valider l’annulation du compte d’annulation.  
 12. Fermez la page.
-13. Fermez la page.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Annuler une facture à partir de la page Ouvrir les factures des clients
 1. Accédez à **Volet de navigation > Modules > Comptabilité client > Factures > Factures client en cours**.

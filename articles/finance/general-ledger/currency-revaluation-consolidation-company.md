@@ -2,7 +2,7 @@
 title: Réévaluer une devise dans une société de consolidation
 description: Cet article décrit la procédure de réévaluation de la devise dans une société de consolidation.
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889002"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779660"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Réévaluer une devise dans une société de consolidation
 
@@ -41,18 +41,18 @@ Lorsque vous consolidez des données d’une devise comptable vers une autre, vo
 
 | Date       | Compte général               | Devise | Montant |
 |------------|------------------------------|----------|--------|
-| 10/11/2015 | 110110 – Disponibilités                | USD      | 500    |
-| 10/11/2015 | 130100 – Comptabilité client | USD      | -500   |
+| 11/10/2020 | 110110 – Disponibilités                | EUR      | 500    |
+| 11/10/2020 | 130100 – Comptabilité client | EUR      | -500   |
 
 ## <a name="exchange-rates"></a>Taux de change
 
 | Devise de départ | Devise d’arrivée | Date de début | Taux de change |
 |---------------|-------------|------------|---------------|
-| EUR           | USD         | 10/1/2015  | 200           |
-| EUR           | USD         | 11/1/2015  | 150           |
-| EUR           | USD         | 12/1/2012  | 100           |
+| EUR           | EUR         | 01/10/2020  | 200           |
+| EUR           | EUR         | 01/11/2020  | 150           |
+| EUR           | EUR         | 01/12/2017  | 100           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>Effectuer la consolidation pour octobre 2015
+## <a name="perform-the-consolidation-for-october-2020"></a>Effectuer la consolidation pour octobre 2020
 ### <a name="balances-in-the-consolidation-company"></a>Soldes dans la société de consolidation
 
 | Compte général | Devise | Montant | Calcul    |
@@ -60,7 +60,7 @@ Lorsque vous consolidez des données d’une devise comptable vers une autre, vo
 | 110110         | EUR      | 250    | 500 USD × 50 %  |
 | 130100         | EUR      | -250   | -500 USD × 50 % |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>Effectuer la réévaluation de devise des comptes à partir du 1er octobre 2015, jusqu’au 30 novembre 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>Effectuer la réévaluation des devises pour les comptes du 1er octobre 2020 au 30 novembre 2020
 ### <a name="balances-in-the-consolidation-company"></a>Soldes dans la société de consolidation
 
 | Compte général | Devise | Montant  | Calcul                        |
@@ -72,7 +72,7 @@ Lorsque vous consolidez des données d’une devise comptable vers une autre, vo
 
 Vous verrez des transactions supplémentaires pour les montants de devise de déclaration.
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>Effectuer la réévaluation de devise des comptes à partir du 1er octobre 2015, jusqu’au 31 décembre 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>Effectuer la réévaluation des devises pour les comptes du 1er octobre 2020 au 31 décembre 2020
 ### <a name="balances-in-the-consolidation-company"></a>Soldes dans la société de consolidation
 
 | Compte général | Devise | Montant  | Calcul                                          |

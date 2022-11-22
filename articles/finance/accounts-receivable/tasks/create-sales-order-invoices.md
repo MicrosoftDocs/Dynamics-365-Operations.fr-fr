@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ff76eac54da6621d999d9b629fac920ba8de294
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910256"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778382"
 ---
 # <a name="create-sales-order-invoices"></a>Créer des factures de commande client
 
@@ -32,12 +32,12 @@ Cet article décrit comment facturer une commande client, notamment la fusion de
 2. Sélectionnez une commande client dans la liste. 
 3. Dans le **volet Actions**, cliquez sur **Facture > Générer > Facture**. Notez que cette commande client a plusieurs bons de livraison associés. Elle indique uniquement le mot *multiple* au lieu du numéro de bon de livraison.  
 4. Développez la section **Paramètres**.
-    - La validation doit être définie sur Oui pour valider la facture. Vous pouvez également désactiver la validation et simplement imprimer la facture. Toutefois, vous pouvez obtenir le même résultat en créant une facture pro forma au lieu d’une facture.  
+    - La validation doit être définie sur **Oui** pour valider la facture. Vous pouvez également désactiver la validation et simplement imprimer la facture. Toutefois, vous pouvez obtenir le même résultat en créant une facture pro forma au lieu d’une facture.  
     - Cette option est utilisée pour les traitements par lots. La requête est exécutée lorsque le traitement par lots est exécuté.
-5. Sélectionnez Après dans le champ **Imprimer**.
-6. Sélectionnez **Oui** en regard de **Imprimer la facture**. La gestion de l’impression peut imprimer plusieurs copies de la facture et soumettre la facture par e-mail sous forme de fichier PDF.  
-7. Sélectionnez Résumer dans le champ **Imprimer les frais**.
-8. Dans le champ **Vérifier la limite de crédit**, sélectionnez Solde.
+5. Sélectionnez **Après** dans le champ **Imprimer**.
+6. Sélectionnez **Oui** en regard de **Imprimer la facture**. La gestion de l’impression peut imprimer plusieurs copies de la facture et envoyer aussi la facture par e-mail au format PDF.  
+7. Sélectionnez **Résumer** dans le champ **Imprimer les frais**.
+8. Dans le champ **Vérifier la limite de crédit**, sélectionnez **Solde**.
 9. Cliquez sur **Annuler**.
 
 ## <a name="combine-orders-into-a-single-invoice"></a>Combiner les commandes en une seule facture
@@ -46,8 +46,8 @@ Cet article décrit comment facturer une commande client, notamment la fusion de
 3. Sélectionnez plusieurs commandes client en cours du même client.
 4. Dans le **volet Actions**, cliquez sur **Facture > Générer > Facture**.
 5. Développez la section **Paramètres**.
-6. Dans le champ **Quantité**, sélectionnez ’Tout’. Notez qu’il existe deux factures répertoriées dans la vue d’ensemble. À présent, nous allons les fusionner dans une seule facture.  
-7. Sélectionnez Compte de facturation dans le champ **Mise à jour récapitulative pour** .
+6. Sélectionnez **Tout** dans le champ **Quantité**. Notez qu’il existe deux factures répertoriées dans la vue d’ensemble. À présent, nous allons les fusionner dans une seule facture.  
+7. Sélectionnez **Compte de facturation** dans le champ **Mise à jour récapitulative pour**.
 8. Cliquez sur **Organiser** pour fusionner les commandes client dans une seule facture. Les deux commandes client sont désormais fusionnées dans une seule facture.   
 9. Cliquez sur **Annuler**.
 10. Cliquez sur **Oui**.

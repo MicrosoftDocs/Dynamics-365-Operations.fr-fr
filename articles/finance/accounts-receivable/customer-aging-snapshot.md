@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: e4ccc8ac9b5374ca0713167a17b8704727c687fd
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643683"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775234"
 ---
 # <a name="customer-aging-snapshots"></a>Instantanés de balance âgée des clients
 
@@ -31,11 +31,12 @@ Les informations relatives aux instantanés de balance âgée s’affichent sur 
 L’espace de travail **Crédits et relances client** affiche également le vieillissement du client. Pour plus d’informations, consultez [Contenu Power BI sur la gestion des crédits et des relances](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Pour réduire le temps nécessaire à la création d’un instantané de balance âgée, activez les fonctionnalités suivantes dans l’espace de travail **Gestion des fonctionnalités** : **Amélioration des performances de la balance âgée des clients** 
-> **Amélioration des performances de balance âgée avec regroupements de clients**  
-> Avec les deux fonctionnalités activées, **Groupes de clients** peut être utilisé pendant la création de l’instantané de balance âgée. 
+> Pour réduire le temps nécessaire à la création d’un instantané de balance âgée, activez la fonctionnalité suivante dans l’espace de travail **Gestion des fonctionnalités** : 
+> - **Amélioration des performances de la balance âgée des clients** 
+> - **Amélioration des performances de balance âgée avec regroupements de clients**  
+>Avec les deux fonctionnalités activées, **Groupes de clients** peut être utilisé pendant la création de l’instantané de balance âgée. 
 
-Lorsque vous créez un instantané de vieillissement client, utilisez les champs suivants pour saisir des informations à son sujet :
+Lorsque vous créez un instantané de vieillissement client, utilisez les champs suivants pour entrer des informations à son sujet :
 
 - **Définition de la plage âgée** – Sélectionnez la définition de plage âgée pour l’instantané de balance âgée. Vous pouvez avoir un instantané de balance âgée pour chaque définition de plage âgée. L’instantané de balance âgée et la définition de la période de vieillissement doivent être créés séparément.
 - **ID de regroupement** – Ce champ est facultatif. Vous pouvez utiliser un pool pour définir l’ensemble de clients à traiter dans l’instantané de balance âgée. Si vous sélectionnez un regroupement de clients dans ce champ, un instantané de balance âgée est créé pour les comptes client faisant partie de ce regroupement de clients. Le regroupement de clients sélectionné doit être de type **Instantané de balance âgée**. Si vous laissez ce champ vide, un instantané de balance âgée est créé pour tous les comptes clients.
@@ -62,5 +63,5 @@ Lorsque vous créez un instantané de vieillissement client, utilisez les champs
 Nous vous recommandons de planifier ce processus pour qu’il s’exécute dans un lot.
 
 > [!NOTE]
-> Pour améliorer les performances des lots lors de la création d’instantanés vieillissants, saisissez un nombre dans le champ **Nombre maximum de tâches par lots** dans le raccourci **Valeurs par défaut des collections** au sein de l’onglet **Collections** sur la page **Paramètres de la comptabilité client**. Dans le champ **Soldes client échus**, nous vous recommandons de commencer par une valeur entre **12** et **20**, puis ajustez la valeur pour optimiser le traitement en fonction de votre situation. Nous vous déconseillons de définir cette valeur supérieure sur **30**, car cela aura un impact sur les performances. 
+> Pour améliorer les performances des lots lors de la création d’instantanés vieillissants, entrez un nombre dans le champ **Nombre maximum de tâches par lots** dans le raccourci **Valeurs par défaut des collections** au sein de l’onglet **Collections** sur la page **Paramètres de la comptabilité client**. Dans le champ **Soldes client échus**, nous vous recommandons de commencer par une valeur entre **12** et **20**, puis ajustez la valeur pour optimiser le traitement en fonction de votre situation. Nous vous déconseillons de définir cette valeur supérieure sur **30**, car cela aura un impact sur les performances. 
 

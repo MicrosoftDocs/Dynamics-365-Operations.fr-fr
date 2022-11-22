@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59ad9b9e7e75027fc46658c901da7a70520a1332
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 828c82d88bef1d942af1219505af591d27043fa5
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715751"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780535"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Régler un paiement partiel avant la date de remise et règlement final après la date de remise
 
@@ -35,20 +35,20 @@ Le 25 juin, April entre et valide une facture de 1 000,00 pour le fournisseur 30
 
 | N° document   | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde   | Devise |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
-| Inv-10020 | Facture          | 6/25/2015 | 10020   |                                      | 1 000,00                              | -1 000,00 | USD      |
+| Inv-10020 | Facture          | 25/06/2020 | 10020   |                                      | 1,000.00                              | -1 000,00 | EUR      |
 
 ## <a name="partial-payment-on-july-2"></a>Paiement partiel le 2 juillet
 Le 2 juillet, April souhaite régler 300,00 de cette facture. Le paiement peut prétendre à une remise, car Fabrikam prend des remises pour les paiements partiels. Par conséquent, April paie 297,00 et bénéficie d’une remise de 3,00. Elle crée un journal de paiement et entre une ligne pour le fournisseur 3057. Elle ouvre ensuite la page **Régler les transactions**, afin de pouvoir marquer la facture pour règlement.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Sélectionné | Standard            | Inv-10020 | 3057    | 6/25/2015 | 7/25/2015 | 10020   | -1 000,00                      | USD      | -297,00          |
+| Sélectionné | Standard            | Inv-10020 | 3057    | 25/06/2020 | 25/07/2020 | 10020   | -1 000,00                      | EUR      | -297,00          |
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**.
 
-| Champ                        | Valeur     |
+| Champ                        | Valeur      |
 |------------------------------|-----------|
-| Date d’escompte de règlement           | 7/09/2015 |
+| Date d’escompte de règlement           | 09/07/2020 |
 | Montant de l’escompte de règlement         | -10,00    |
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
@@ -58,23 +58,23 @@ April valide ensuite le paiement. Le solde de la facture est maintenant de 700,0
 
 | N° document    | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde | Devise |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10020  | Facture          | 6/25/2015 | 10020   |                                      | 1 000,00                              | -700,00 | USD      |
-| APP-10020  | Paiement          | 7/1/2015  |         | 297,00                               |                                       | 0,00    | USD      |
-| DISC-10020 | Escompte de règlement    | 7/1/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
+| Inv-10020  | Facture          | 25/06/2020 | 10020   |                                      | 1,000.00                              | -700,00 | EUR      |
+| APP-10020  | Paiement          | 01/07/2020  |         | 297,00                               |                                       | 0.00    | EUR      |
+| DISC-10020 | Escompte de règlement    | 01/07/2020  |         | 3.00                                 |                                       | 0.00    | EUR      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--normal"></a>Paiement restant le 15 juillet, Utiliser un escompte de règlement = Normal
 April paie le reste de la facture le 15 juillet, soit après la période de remise. Sur la page **Régler les transactions en cours**, aucun montant de remise n’est affiché dans le champ **Escompte de règlement estimé**, et la valeur du champ **Montant de l’escompte de règlement** est **0,00**. Lorsqu’elle paie le restant dû de 700,00, aucune remise supplémentaire n’est appliquée.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Sélectionné | Standard            | Inv-10020 | 3057    | 6/25/2015 | 7/25/2015 | 10020   | -700,00                        | USD      | -700,00          |
+| Sélectionné | Standard            | Inv-10020 | 3057    | 25/06/2020 | 25/07/2020 | 10020   | -700,00                        | EUR      | -700,00          |
 
 Les informations de remise s’affichent au bas de la page **Règlement des transactions**. April peut voir qu’elle a déjà bénéficié d’une remise de 3,00.
 
-| Champ                        | Valeur     |
+| Champ                        | Valeur      |
 |------------------------------|-----------|
-| Date d’escompte de règlement           | 7/09/2015 |
-| Montant de l’escompte de règlement         | 0,00      |
+| Date d’escompte de règlement           | 09/07/2020 |
+| Montant de l’escompte de règlement         | 0.00      |
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | -3,00.     |
 | Montant de l’escompte de règlement à accepter | 0,00      |
@@ -83,23 +83,23 @@ Elle valide ensuite le paiement. Lorsqu’elle ouvre la page **Transactions four
 
 | N° document    | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde | Devise |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10020  | Facture          | 6/25/2015 | 10020   |                                      | 1 000,00                              | 0,00    | USD      |
-| APP-10020  | Paiement          | 7/1/2015  |         | 297,00                               |                                       | 0,00    | USD      |
-| DISC-10020 | Escompte de règlement    | 7/1/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
-| APP-10021  | Paiement          | 7/15/2015 |         | 700,00                               |                                       | 0,00    | USD      |
+| Inv-10020  | Facture          | 25/06/2020 | 10020   |                                      | 1,000.00                              | 0.00    | EUR      |
+| APP-10020  | Paiement          | 01/07/2020  |         | 297,00                               |                                       | 0.00    | EUR      |
+| DISC-10020 | Escompte de règlement    | 01/07/2020  |         | 3.00                                 |                                       | 0.00    | EUR      |
+| APP-10021  | Paiement          | 15/07/2020 |         | 700.00                               |                                       | 0.00    | EUR      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Paiement restant le 15 juillet, Utiliser un escompte de règlement = Toujours
 Si le fournisseur accorde à April une remise même si elle paie après la date de remise, elle peut modifier la valeur du champ **Utiliser un escompte de règlement** en **Toujours**. Le paramètre **Calculer les escomptes de règlement pour les paiements partiels** est remplacé et la remise est prise en compte. Le montant du paiement est de 693,00, et la remise est de 7,00, soit le montant restant.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Devise | Montant à régler |
-|----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Sélectionné | Toujours            | Inv-10020 | 3057    | 6/25/2015 | 7/25/2015 | 10020   | 700,00                               |                                       | USD      | -693,00          |
+|----------|----------|------|------|-----------|-----------|---------|-----------------------|---------------------------------------|----------|------------------|
+| Sélectionné | Toujours            | Inv-10020 | 3057    | 25/06/2020 | 25/07/2020 | 10020   | 700.00                   |                   | EUR      | -693,00          |
 
 Les informations de remise s’affichent au bas de la page **Règlement des transactions**.
 
-| Champ                        | Valeur     |
+| Champ                        | Valeur      |
 |------------------------------|-----------|
-| Date d’escompte de règlement           | 7/09/2015 |
+| Date d’escompte de règlement           | 09/07/2020 |
 | Montant de l’escompte de règlement         | 7.00      |
 | Utiliser un escompte de règlement            | Toujours    |
 | Escompte de règlement appliqué          | -3,00.     |
@@ -109,11 +109,11 @@ Elle valide ensuite le paiement. Lorsqu’elle ouvre la page **Transactions four
 
 | N° document    | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde | Devise |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10020  | Facture          | 6/25/2015 | 10020   |                                      | 1 000,00                              | 0,00    | USD      |
-| APP-10020  | Paiement          | 7/1/2015  |         | 297,00                               |                                       | 0,00    | USD      |
-| DISC-10020 | Escompte de règlement    | 7/1/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
-| APP-10021  | Paiement          | 7/15/2015 |         | 693,00                               |                                       | 0,00    | USD      |
-| DISC-10021 | Escompte de règlement    | 7/15/2015 |         | 7,00                                 |                                       | 0,00    | USD      |
+| Inv-10020  | Facture          | 25/06/2020 | 10020   |                                      | 1,000.00                              | 0.00    | EUR      |
+| APP-10020  | Paiement          | 01/07/2020  |         | 297,00                               |                                       | 0.00    | EUR      |
+| DISC-10020 | Escompte de règlement    | 01/07/2020  |         | 3.00                                 |                                       | 0.00    | EUR      |
+| APP-10021  | Paiement          | 15/07/2020 |         | 693,00                               |                                       | 0.00    | EUR      |
+| DISC-10021 | Escompte de règlement    | 15/07/2020 |         | 7.00                                 |                                       | 0.00    | EUR      |
 
 
 

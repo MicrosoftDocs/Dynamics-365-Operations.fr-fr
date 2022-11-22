@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1abf6722348b57594509e90ca0defc07783a112b
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 26b1eb5e542acf7496d1a0cf7196716a5de75e4e
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715881"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780534"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Prélever un escompte de règlement en dehors de la période d’escompte de règlement
 
@@ -37,13 +37,13 @@ April marque la facture pour paiement. Aucune escompte de règlement n’est app
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date d’escompte de règlement | Date d’échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Sélectionné | Toujours            | Inv-10030 | 3052    | 6/28/2015          | 7/12/2015 | 10030   | -2 000,00                      | USD      | -1 980,00        |
+| Sélectionné | Toujours            | Inv-10030 | 3052    | 28/06/2020          | 12/07/2020 | 10030   | -2 000,00                      | EUR      | -1 980,00        |
 
 Les informations de remise s’affichent au bas de la page **Règlement des transactions**.
 
-| Champ                        | Valeur     |
+| Champ                        | Valeur      |
 |------------------------------|-----------|
-| Date d’escompte de règlement           | 7/12/2015 |
+| Date d’escompte de règlement           | 12/07/2020 |
 | Montant de l’escompte de règlement         | -20,00    |
 | Utiliser un escompte de règlement            | Toujours    |
 | Escompte de règlement appliqué          | 0,00      |
@@ -52,16 +52,16 @@ Les informations de remise s’affichent au bas de la page **Règlement des tran
 ## <a name="date-to-use-for-calculating-discounts--selected-date"></a>Date à utiliser pour calculer les remises : Date sélectionnée
 Si la facture et le paiement ont été validés, l’escompte de règlement peut toujours être prélevé lorsque les transactions sont réglées sur la page **Régler les transactions**. April modifie la valeur du champ **Date à utiliser pour calculer les remises** sur **Date sélectionnée**. Elle entre ensuite la date du 28 juin, qui est comprise dans la période de l’escompte de règlement de la facture. Cette date est utilisée pour calculer un escompte de règlement pour la transaction. Sur la page **Régler les transactions en cours**, April constate que, par défaut, la remise totale de 20,00 s’affiche. La ligne de facture indique que le montant à régler est de 1 980,00.
 
-| Marquer                     | Utiliser un escompte de règlement | N° document   | Compte | Date d’escompte de règlement | Date d’échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
-|--------------------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Sélectionné et mis en surbrillance | Standard            | Inv-10030 | 3052    | 6/28/2015          | 7/12/2015 | 10030   | -2 000,00                      | USD      | -1 980,00        |
-| Activé                 | Standard            | APP-10030 | 3052    | 7/15/2015          | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
+| Marquer          | Utiliser un escompte de règlement | N° document   | Compte | Date d’escompte de règlement | Date d’échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
+|--------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Sélectionné et mis en surbrillance | Standard    | Inv-10030 | 3052    | 28/06/2020         | 12/07/2020 | 10030   | -2 000,00                      | EUR      | -1 980,00        |
+| Sélectionné                 | Standard    | APP-10030 | 3052    | 15/07/2020          | 15/07/2020 |         | 500.00                         | EUR      | 500.00           |
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**. Le montant de la remise à prélever est de 20,00, étant donné que le montant à régler pour la facture est le montant par défaut, soit 1 980,00.
 
-| Champ                        | Valeur     |
+| Champ                        | Valeur      |
 |------------------------------|-----------|
-| Date d’escompte de règlement           | 7/12/2015 |
+| Date d’escompte de règlement           | 12/07/2020 |
 | Montant de l’escompte de règlement         | -20,00    |
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
@@ -71,14 +71,14 @@ April met à jour la valeur du champ **Montant à régler** sur **500,00**. La v
 
 | Marquer                     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Sélectionné et mis en surbrillance | Standard            | Inv-10030 | 3052    | 6/28/2015 | 7/12/2015 | 10030   | 2 000,00                       | USD      | -500,00          |
-| Activé                 | Standard            | APP-10030 | 3052    | 7/15/2015 | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
+| Sélectionné et mis en surbrillance | Standard            | Inv-10030 | 3052    | 28/06/2020 | 12/07/2020 | 10030   | 2,000.00                       | EUR      | -500,00          |
+| Sélectionné                 | Standard            | APP-10030 | 3052    | 15/07/2020 | 15/07/2020 |         | 500.00                         | EUR      | 500.00           |
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**. La valeur du champ **Montant de l’escompte de règlement à accepter** est **5,05**, car le montant à régler pour la facture a été remplacé par le montant du paiement, soit 500,00.
 
-| Champ                        | Valeur     |
+| Champ                        | Valeur      |
 |------------------------------|-----------|
-| Date d’escompte de règlement           | 7/12/2015 |
+| Date d’escompte de règlement           | 12/07/2020 |
 | Montant de l’escompte de règlement         | -20,00    |
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
