@@ -2,7 +2,7 @@
 title: Valider des journaux périodiques
 description: Les journaux périodiques sont parfois appelés journaux récurrents car le montant, le texte, ainsi que d’autres informations sont répétés à chaque extraction du journal périodique.
 author: aprilolson
-ms.date: 06/26/2019
+ms.date: 11/21/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 412098c2027344bfc5309d814ee70d6ee98ca765
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: bdc1d9f67a515e3cdc45e173b88982feceb0ebfd
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716913"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799384"
 ---
 # <a name="post-periodic-journals"></a>Valider des journaux périodiques
 
@@ -32,14 +32,14 @@ Les journaux périodiques sont parfois appelés journaux récurrents car le mont
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 5. Tapez une valeur dans le champ **Description**. La description contiendra par la suite le nom du journal périodique, veillez donc à lui attribuer un nom pertinent.
 6. Dans le **Volet Actions**, cliquez sur **Lignes**. Un journal périodique inclut généralement plusieurs lignes de journal. Ce guide de tâche ajoutera toutefois une seule ligne.
-7. Entrez une date dans le champ **Date**. Le champ **Date** contient la date de validation pour le transfert suivant dans le journal d’opérations diverses. Pour les journaux qui sont extraits chaque mois, il est recommandé d’utiliser la date du mois de validation, généralement la première ou la dernière date de la période. Il est possible de laisser le champ Date vide et de donner une date lorsque le journal est récupéré, à l’aide du champ Date vide. Le champ est automatiquement mis à jour avec la date récurrente suivante lorsque des transactions sont extraites. 
+7. Entrez une date dans le champ **Date**. Le champ **Date** contient la date de validation pour le transfert suivant dans le journal d’opérations diverses. Pour les journaux qui sont extraits chaque mois, il est recommandé d’utiliser la date du mois de validation. Il s’agit généralement de la première ou de la dernière date de la période. À l’aide du champ **Date vide**, il est possible de laisser le champ **Date** vide lors de la récupération du journal. Le champ sera mis à jour avec la date récurrente suivante lorsque des transactions seront extraites. 
 8. Dans le champ **Compte**, spécifiez les valeurs souhaitées.
 9. Dans le champ **Description**, saisissez ou sélectionnez une valeur.
 10. Fermez la page.
 11. Dans le champ **Débit**, saisissez un nombre.
 12. Dans le champ **Compte de contrepartie**, spécifiez les valeurs souhaitées.
-13. Dans le champ **Unité**, sélectionnez ’Mois’.
-14. Dans le champ **Nombre d’unités**, saisissez ’1’.
+13. Dans le champ **Unité**, sélectionnez **Mois**.
+14. Dans le champ **Nombre d’unités**, entrez **1**.
 15. Dans le champ **Dernière date**, saisissez une date. Le fait d’entrer le dernier jour dans la période précédente empêche de créer le journal récurrent par erreur dans la période de début incorrecte. La dernière date sera mise à jour ultérieurement à chaque extraction du journal périodique. 
 16. Cliquez sur **Enregistrer**.
 17. Allez dans le **Volet de navigation > Modules > Comptabilité > Entrées de journal > Journaux des opérations diverses**.
@@ -51,7 +51,7 @@ Les journaux périodiques sont parfois appelés journaux récurrents car le mont
 23. Dans le **Volet Actions**, cliquez sur **Lignes**.
 24. Dans le **volet Actions**, cliquez sur **Journal périodique**.
 25. Cliquez sur **Extraire le journal**.
-26. Entrez une date dans le champ **Date de fin**. La **Date de fin** sert de date limite aux lignes de document périodiques. Selon le paramètre de récurrence, il est possible d’inclure la dernière date et la date de fin sur la même ligne plusieurs fois dans le journal obtenu. La date de fin est automatiquement mise à jour en fonction de la date de session du dernier transfert de la ligne périodique dans un journal. 
+26. Entrez une date dans le champ **Date de fin**. La **Date de fin** sert de date limite aux lignes de document périodiques. Selon le paramètre de récurrence, la **Dernière date** et la **Date de fin**, la même ligne peut être incluse plusieurs fois dans le journal obtenu. La **Date de fin** est mise à jour automatiquement en fonction de la date de session du dernier transfert de la ligne périodique dans un journal. 
 27. Saisissez ou sélectionnez une valeur dans le champ **Numéro de journal périodique**.
 28. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 29. Cliquez sur **OK**. Le journal périodique peut désormais être révisé, approuvé ou validé selon les besoins et le paramétrage.   

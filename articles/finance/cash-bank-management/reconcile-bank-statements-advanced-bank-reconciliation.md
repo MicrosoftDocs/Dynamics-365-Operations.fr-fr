@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151342"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803908"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Rapprochement de relevés bancaires à l’aide du rapprochement bancaire avancé
 
@@ -37,7 +37,10 @@ Vous pouvez télécharger un relevé bancaire qui contient des informations pour
 -   Pour importer un fichier de relevé bancaire unique pour un seul compte, définissez l’option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Non** et sélectionnez le compte bancaire associé au relevé. Cliquez sur **Parcourir** pour sélectionner le fichier de relevé bancaire associé, puis cliquez sur **Télécharger**.
 -   Pour importer un fichier de relevé bancaire unique pour plusieurs comptes, définissez l’option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Oui**. Cliquez sur **Parcourir** pour sélectionner le fichier de relevé bancaire associé, puis cliquez sur **Télécharger**.
 
-Si des relevés du fichier électronique ne peuvent pas être associés à un compte bancaire ou s’ils sont associés à plusieurs comptes bancaires l’aide des champs d’identification, ils ne seront pas importés. Toutefois, les autres relevés du fichier peuvent encore être importés. L’utilisateur reçoit un message indiquant que l’importation des relevés bancaires était un échec pour des comptes bancaires spécifiques. Notez que l’utilisateur qui importe le fichier de relevé bancaire doit avoir accès à une entité juridique pour importer les relevés des comptes bancaires de cette entité juridique. 
+Si des relevés du fichier électronique ne peuvent pas être associés à un compte bancaire ou s’ils sont associés à plusieurs comptes bancaires l’aide des champs d’identification, ils ne seront pas importés. Toutefois, les autres relevés du fichier peuvent encore être importés. L’utilisateur reçoit un message indiquant que l’importation des relevés bancaires était un échec pour des comptes bancaires spécifiques. 
+
+>[!Note] 
+>L’utilisateur qui importe le fichier de relevé bancaire doit avoir accès à une entité juridique pour importer les relevés des comptes bancaires de cette entité juridique. 
 
 Vous pouvez utiliser un fichier compressé pour télécharger plusieurs fichiers de relevé dans Finance en un seul processus. Pour importer plusieurs fichiers de relevé bancaire pour plusieurs comptes, combinez tous les fichiers de relevé bancaire en un seul fichier zip. Dans la boîte de dialogue **Importez les relevés bancaires**, définissez l’option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Oui**. Cliquez sur **Parcourir** pour sélectionner le fichier zip contenant les fichiers de relevé bancaire, puis cliquez sur **Télécharger**. Le processus d’importation identifiera le fichier compressé et téléchargera chaque relevé inclus dans celui-ci, indépendamment de l’entité juridique du compte bancaire.
 

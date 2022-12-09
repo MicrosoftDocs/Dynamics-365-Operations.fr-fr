@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-10-01
 ms.dyn365.ops.version: 10.0.31
-ms.openlocfilehash: 05ccd9794ffeba6a09d6fec0a57ffad2b59707ad
-ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
+ms.openlocfilehash: ed4325095163415d05a56128cb1f0334440fe0e5
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "9709857"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787524"
 ---
 # <a name="preview-of-dynamics-365-commerce-10031-february-2023"></a>Version préliminaire de Dynamics 365 Commerce 10.0.31 (février 2023)
 
@@ -38,6 +38,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 | Paiements | [Activer Apple Pay avec le connecteur de paiement Dynamics 365 pour Adyen](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-apple-pay-dynamics-365-payment-connector-adyen)  | Les clients du commerce électronique peuvent utiliser Apple Pay sur les pages de panier et de paiement lorsqu’ils utilisent des appareils ou des navigateurs pris en charge. | Acceptation des développeurs |
 | Paiements  |  Commerce a ajouté la possibilité de limiter la façon dont les utilisateurs interagissent avec les jetons de paiement récurrents dans l’interface utilisateur de Commerce headquarters. Les formulaires de paiement, tels que la page **Commande client du centre d’appels**, n’affichent plus le jeton de paiement récurrent précédemment utilisé par un client pour une utilisation dans une nouvelle transaction. Seule une « carte enregistrée » déterminée entrée dans l’écran **Paiements des clients** de Commerce, ou avec l’accord d’un client lors du paiement via une commande client, sera présentée aux utilisateurs du centre d’appels ou de Commerce headquarters lors du traitement d’un paiement pour une nouvelle transaction. | [Limiter l’utilisation des jetons de paiement](../dev-itpro/limit-token-usage.md)  |  Gestion des fonctions<p>*Restreindre l’utilisation du jeton de paiement au contexte de la commande*  |
 | PDV | [Créer des commandes fournisseur à partir d’un PDV](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/create-purchase-orders-pos)  |  Amélioration de l’opération de stock entrant dans l’application PDV pour permettre aux utilisateurs de créer, de modifier et de confirmer des demandes de commande fournisseur. |  Gestion des fonctions<p>*Possibilité de créer une demande de commande fournisseur dans le PDV*   |
+| Langues supplémentaires disponibles | Quatre langues supplémentaires sont disponibles | Quatre nouvelles langues peuvent être sélectionnées par l’utilisateur dans la liste des langues préférées : coréen, portugais (Portugal), vietnamien et chinois (traditionnel). Pour sélectionner cette option, accédez à **Options utilisateur \> Préférences \> Préférences de langue et de pays/région**. | Préférences localisées |  
 
 
 

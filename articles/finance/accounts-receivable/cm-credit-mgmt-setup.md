@@ -2,7 +2,7 @@
 title: Paramétrage de la gestion du crédit
 description: Cet article décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise.
 author: JodiChristiansen
-ms.date: 12/10/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ac5e0ba8c9279fc5f04a80d4444b11850e72d3c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8955518e7b5c0200d3827c1c22b7d150a09be244
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876352"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799543"
 ---
 # <a name="credit-management-parameters-setup"></a>Paramétrage de la gestion du crédit
 
@@ -73,7 +73,7 @@ Plusieurs statistiques de gestion du crédit sont incluses dans le récapitulati
 
 - Dans la gestion des crédits, la limite de crédit client est affichée dans la devise du client. Vous devez définir le type de taux de change pour la limite de crédit dans la devise du client. Dans le champ **Type de taux de change limite de crédit**, sélectionnez le type de taux de change à utiliser pour convertir la limite de crédit principale en limite de crédit du client.
 - Paramétrez l’option **Autoriser la modification manuelle des limites de crédit** sur **Non** pour empêcher les utilisateurs de modifier les limites de crédit sur la page **Client**. Si cette option est définie sur **Non**, les modifications de la limite de crédit d’un client ne peuvent être effectuées qu’en enregistrant des transactions d’ajustement de limite de crédit.
-- Met l’option **Contourner les réservations de stock** sur **Oui** pour ignorer les réservations de stock à la vérification des règles de blocage de la gestion des crédits. Dans ce cas, le système vérifie les quantités de ligne complètes et active les périodes de grâce des points de contrôle, quelle que soit la quantité de réservation de stock.
+- Met l’option **Contourner les réservations de stock** sur **Oui** pour ignorer les réservations de stock à la vérification des règles de blocage de la gestion des crédits. Dans ce cas, les quantités sont vérifiées et les périodes de grâce des points de contrôle sont activées, quelle que soit la quantité de réservation de stock.
 - Lorsque la gestion des crédits est activée, le réglage du champ **Message en cas de dépassement de limite de crédit** est utilisé pour traiter uniquement les factures financières. Bien que des messages soient toujours ajoutés aux commandes client lorsque les clients ont dépassé leur limite de crédit, la présence de ces messages ne bloquera pas la confirmation, l’impression des listes de prélèvement et des bons de livraison, ou l’affichage des factures.
 
     La gestion des crédits est activée par défaut, mais vous pouvez la désactiver. S’il est activé, vous utilisez les règles de blocage de la gestion du crédit et les points de contrôle pour identifier quand les clients ont dépassé leur limite de crédit. S’il est désactivé, les messages ajoutés aux commandes client en fonction du paramétrage du champ **Message en cas de dépassement de limite de crédit** peut vous aider à identifier quand les clients ont dépassé leur limite de crédit.

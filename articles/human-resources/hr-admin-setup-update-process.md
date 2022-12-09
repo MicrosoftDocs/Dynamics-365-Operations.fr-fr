@@ -2,7 +2,7 @@
 title: Processus de mise à jour
 description: Microsoft Dynamics 365 Human Resources est un véritable logiciel en tant que service (SaaS) qui fournit des mises à jour de service continues et sans contact pour les modifications de l’application et de la plateforme.
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520808"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819294"
 ---
 # <a name="update-process"></a>Processus de mise à jour
 
@@ -41,7 +41,7 @@ Les mises à jour sont publiées régulièrement pour tous les environnements. H
 
 Les mises à jour de Human Resources sont appliquées à tous les environnements automatiquement. Human Resources propose deux types de versions :
 
-- **Mises à jour de service** : les mises à jour surviennent toutes les deux semaines ; elles incluent des corrections de bugs et de nouvelles fonctionnalités. Les mises à jour de service incluent également les mises à jour de plateforme applicables lors de leur publication. Pour plus d'informations sur les mises à jour de plateformes, voir [Nouveautés ou changements dans les mises à jour de plateformes](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Les mises à jour ont un déploiement mondial par étapes dans les régions. Pour plus d’informations sur les mises à jour, voir [Nouveautés ou changements dans Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Mises à jour de service** : les mises à jour de service incluent également les mises à jour de plateforme applicables lors de leur publication. Outre les mises à jour basées sur les exceptions, des mises à jour de service régulières se produisent après la disponibilité générale (GA) des mises à jour de la plateforme Dynamics 365 Finance. Pour plus d'informations sur les mises à jour de plateformes, voir [Nouveautés ou changements dans les mises à jour de plateformes](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Les mises à jour ont un déploiement mondial par étapes dans les régions. Pour plus d’informations sur les mises à jour, voir [Nouveautés ou changements dans Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Mises à jour de la solution Dataverse** : ces mises à jour ont lieu environ toutes les six semaines, selon les besoins. Elles incluent les nouvelles entités et les modifications apportées aux entités existantes dans Dataverse. Ces mises à jour sont publiées dans les mêmes régions que les mises à jour bihebdomadaires et leur réplication dans tous les centres de données prend environ six semaines. Les mises à jour de la solution peuvent ou non correspondre aux mises à jour bihebdomadaires du service.
 
@@ -55,15 +55,6 @@ Au besoin, Human Resources fournit les types de correctifs suivants :
 - **Correctif d’urgence** : correctifs proactifs et réactifs qui sont autonomes par nature, peuvent inclure des modifications de configuration uniquement ou de code pour résoudre les problèmes de site en direct, et peuvent se produire en dehors d’une version de mise à jour de service bihebdomadaire
 
 Les versions sont examinées, testées et validées sur un environnement interne. Une fois les versions approuvées, elles sont ensuite déployées en production.
-
-## <a name="release-cadence-exceptions-in-2021"></a>Exceptions des cadences de versions en 2021
-
-Pour tenir compte des jours fériés, le calendrier des lancements pour novembre et décembre 2021 est le suivant :
-
-- Lancement de novembre : 1 novembre au 14 novembre
-- Lancement de décembre : 29 novembre au 12 décembre
- 
-La cadence de sortie de deux semaines reprendra comme d’habitude le 10 janvier 2022.
 
 ## <a name="communications"></a>Communications
 

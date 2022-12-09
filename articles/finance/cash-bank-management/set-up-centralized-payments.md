@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 16548572cd70129efcc7dacf0236f3eb4b252d88
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715638"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804045"
 ---
 # <a name="set-up-centralized-payments"></a>Paramétrage de paiements centralisés
 
@@ -34,7 +34,10 @@ Cette procédure permet de préparer le traitement des paiements dans une entit�
 -   Paramétrez la comptabilité intersociétés.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Paramétrage d’une hiérarchie d’organisation pour les paiements centralisés
-Vous devez paramétrer une hiérarchie d’organisation pour les paiements centralisés. La même hiérarchie d’organisation permet de traiter les paiements fournisseur centralisés et les paiements client centralisés. **Remarque :** En ce qui concerne les paiements centralisés, la structure de la hiérarchie n’a pas d’importance. Les entités juridiques de la hiérarchie pourront traiter les paiements au nom des autres entités juridiques de la hiérarchie. Sur la page **Hiérarchies de l’organisation**, vous pouvez créer une hiérarchie d’organisation. Dans le champ **Objectif**, vous devez sélectionner **Paiements centralisés**. 
+Vous devez paramétrer une hiérarchie d’organisation pour les paiements centralisés. La même hiérarchie d’organisation permet de traiter les paiements fournisseur centralisés et les paiements client centralisés. 
+
+>[!Note] 
+>En ce qui concerne les paiements centralisés, la structure de la hiérarchie n’a pas d’importance. Les entités juridiques de la hiérarchie pourront traiter les paiements au nom des autres entités juridiques de la hiérarchie. Sur la page **Hiérarchies de l’organisation**, vous pouvez créer une hiérarchie d’organisation. Dans le champ **Objectif**, vous devez sélectionner **Paiements centralisés**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Paramétrage d’un compte intersociétés pour les paiements centralisés
 Lorsque des transactions de paiement de l’entité juridique actuelle sont réglées avec des factures dans d’autres entités juridiques, les transactions d’échéance appropriées sont créées pour chaque entité juridique. Vous devez spécifier l’entité juridique lorsque des montants d’escompte de règlement applicables et des montants de profit réalisé ou de perte réalisée sont validés. Avant de commencer, choisissez l’entité juridique que vous allez utiliser pour traiter les paiements client et fournisseur. Si une entité juridique traite les paiements fournisseur, mais si une autre entité juridique traite les paiements client, vous devrez passer d’une entité à l’autre. Dans la page **Comptabilité intersociétés**, sélectionnez un enregistrement de relation intersociétés pour une entité juridique au nom de laquelle vous traiterez les paiements. 

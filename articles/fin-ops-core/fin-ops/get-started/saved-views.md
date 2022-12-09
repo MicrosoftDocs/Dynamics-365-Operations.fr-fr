@@ -2,7 +2,7 @@
 title: Vues enregistrées
 description: Cet article décrit l’utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
-ms.date: 07/26/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
-ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.openlocfilehash: 571a4f403da0d20256f788c791cab273827c91b5
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9757219"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799489"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -55,7 +55,7 @@ Il existe deux variantes de taille pour le sélecteur de vue :
  
 Si vous sélectionnez le nom de la vue, le sélecteur de vue est ouvert et indique la liste des vues disponibles pour la page.
 
-**Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue affiche les vues disponibles dans deux sections. La première section affiche toutes les vues spécifiques à l’entité juridique actuelle, tandis que la seconde affiche les vues disponibles pour toutes les entités juridiques. La première section n’est visible que s’il existe des vues spécifiques à l’entité juridique pour la page.
+Si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue affiche les vues disponibles dans deux sections. La première section affiche toutes les vues spécifiques à l’entité juridique actuelle, tandis que la seconde affiche les vues disponibles pour toutes les entités juridiques. La première section n’est visible que s’il existe des vues spécifiques à l’entité juridique pour la page.
 
 - **Vue standard** – La vue **Standard** est la vue prédéfinie de la page, où aucune personnalisation explicite n’est appliquée.
 - **Vues personnelles** – Les vues sans verrou représentent vos vues personnelles. Ce sont des vues que vous avez créées ou qu’un administrateur vous a données.
@@ -81,7 +81,7 @@ Si vous souhaitez enregistrer ces modifications, procédez comme suit.
     1. Sélectionnez **Enregistrer sous**. 
     2. Dans le volet **Enregistrer la vue sous**, entrez un nom et, éventuellement, une description pour la vue.
     3. Si vous souhaitez que cette vue soit votre vue par défaut, sélectionnez **Épingler par défaut**. Pour plus d’informations sur les vues par défaut, consultez la section suivante [Modification de la vue par défaut](#changing-the-default-view). 
-    4. **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, vous pouvez choisir si vous souhaitez que cette vue soit disponible pour toutes les entités juridiques ou uniquement pour un sous-ensemble d’entre elles.
+    4. Si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, vous pouvez choisir si vous souhaitez que cette vue soit disponible pour toutes les entités juridiques ou uniquement pour un sous-ensemble d’entre elles.
     5. Sélectionnez **Enregistrer**.
 
 ## <a name="changing-the-default-view"></a>Modification de la vue par défaut
@@ -90,7 +90,7 @@ La vue par défaut est la vue que le système essaie d’ouvrir quand vous ouvre
 
 > [!NOTE]
 > - Dans la fonctionnalité de base **Vues enregistrées**, il existe une vue par défaut unique et globale pour toutes les entités juridiques. Si vous modifiez la vue par défaut, cette vue sera ouverte par défaut, quelle que soit l’entité juridique dans laquelle vous vous trouvez actuellement.
-> - **Version 10.0.21 ou ultérieure :** quand la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, chaque entité juridique peut avoir sa propre vue par défaut par page.
+> - Lorsque la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, chaque entité juridique peut avoir sa propre vue par défaut par page.
 
 Pour modifier la vue par défaut d’une page, procédez comme suit :
 
@@ -101,7 +101,7 @@ Pour modifier la vue par défaut d’une page, procédez comme suit :
 Sinon, quand vous créez une vue (à l’aide l’action **Enregistrer sous**), vous pouvez faire de cette nouvelle vue la vue par défaut en définissant l’option **Épingler par défaut** avant d’enregistrer la vue.
 
 > [!WARNING]
-> Dans certains cas, la requête associée à la vue par défaut n’est pas exécutée quand vous ouvrez pour la première fois une page. Par exemple, si vous ouvrez la page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous ouvrez une page avec une vue **standard** ayant déjà une requête définie, la requête initiale sera exécutée à la place de la requête de la vue par défaut. Dans ce cas, vous recevrez un message d’information quand la vue sera chargée. Si vous changez de vue après le chargement de la page, la requête de vue doit pouvoir être exécutée comme prévu. Dans la version 10.0.10 et les versions ultérieures, le message d’information que vous recevez aura une action intégrée vous permettant de charger directement la requête de la vue par défaut.
+> Dans certains cas, la requête associée à la vue par défaut n’est pas exécutée quand vous ouvrez pour la première fois une page. Par exemple, si vous ouvrez la page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous ouvrez une page avec une vue **standard** ayant déjà une requête définie, la requête initiale sera exécutée à la place de la requête de la vue par défaut. Le cas échéant, vous recevrez un message d’information lorsque la vue sera chargée avec une action intégrée qui vous permet de charger directement la requête de la vue par défaut. Si vous changez de vue après le chargement de la page, la requête de vue doit pouvoir être exécutée comme prévu. 
 
 ## <a name="managing-personal-views"></a>Gestion des vues personnelles
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780509"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788538"
 ---
 # <a name="create-a-free-text-invoice"></a>Créer une facture financière
 
@@ -69,6 +69,8 @@ Cet article explique comment créer des factures financières. Pour la procédur
     * Vous pouvez modifier l’échéance d’impression de la facture. Sélectionnez **Actuel** pour imprimer chaque facture dès qu’elle est mise à jour. Sélectionnez **Après** pour imprimer toutes les factures une fois qu’elles ont été mises à jour.
     * Pour modifier la façon dont la limite de crédit du client est vérifiée avant la validation de la facture, modifiez la valeur dans le champ **Type de limite de crédit**.
     * Vous pouvez choisir d’arrêter la validation de la facture financière lorsqu’une erreur se produit sur l’onglet **Mises à jour** sur la page **Paramètres de la comptabilité client** (**Comptabilité client > Paramétrage > Paramètres de la comptabilité client**). Sélectionnez **Oui** pour le paramètre **Arrêter la validation des factures financière dès la première erreur** pour arrêter la validation des factures financières lorsqu’une erreur survient. Si vous validez dans un lot, une erreur arrêtera le processus de validation et le statut du lot sera défini sur **Erreur**. Si cette option n’est pas sélectionnée, le processus de validation ignorera une facture avec une erreur de validation et continuera à valider des factures supplémentaires. Si vous validez dans un lot, une erreur de validation n’empêchera pas la validation d’autres factures. L’état du lot sera **Terminé**. Un rapport détaillé du processus de validation sera disponible pour examen dans l’historique des tâches par lots.
+    * Dans Microsoft Dynamics 365 Finance 10.0.30, la fonctionnalité **Amélioration de la validation des factures en texte libre pour le calcul des totaux** améliore les performances de validation en renforçant l’efficacité d’exécution de cette étape. Lorsque cette fonctionnalité est activée, la validation enregistre les totaux calculés au lieu de recalculer les totaux plusieurs fois au cours du processus de validation. 
+    * Dans Microsoft Dynamics 365 Finance 10.0.31, la fonctionnalité **Amélioration du processus de validation par lots des factures en texte libre pour le calcul des totaux** améliore les performances de validation en renforçant l’efficacité d’exécution de cette étape. Lorsque cette fonctionnalité est activée, la validation utilise un modèle qui gère automatiquement la charge de travail de publication par lots sur un nombre fixe de threads au lieu d’attribuer un nombre fixe de documents sur un nombre illimité de threads.
     * Pour imprimer la facture, définissez l’option sur **Oui**.
     * Pour valider la facture, définissez l’option sur **Oui**. Vous pouvez imprimer la facture sans la valider.
 

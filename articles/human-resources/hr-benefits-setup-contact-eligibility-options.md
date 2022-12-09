@@ -2,7 +2,7 @@
 title: Configurer les options d’éligibilité des contacts personnels
 description: Cet article explique comment configurer les options d’éligibilité pour les contacts personnels dans Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 251a12b0da364744f1d8c84324099708a2f816a1
-ms.sourcegitcommit: 1717ff6af1879c6f3a8360936c42ecf55f86acd0
+ms.openlocfilehash: e3e393002901f31c035a54bd8036ed20ecdf9e00
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "9749280"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803882"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Configurer les options d’éligibilité des contacts personnels
 
@@ -43,9 +43,10 @@ Cet article explique comment configurer les types de contacts personnels pouvant
    | **Code d’éligibilité du contact** | Code système qui décrit le mieux l’option d’éligibilité personnelle. Vous pouvez sélectionner l’une des valeurs suivantes : <ul><li>Relation</li><li>Étudiant</li><li>Couverture des personnes à charge</li><li>Personne à charge présentant un handicap et dépassant l’âge requis</li></ul> |
    | **État** | Statut de l’option d’éligibilité. Si le statut d’une option d’éligibilité est défini sur inactif, vous ne pouvez pas sélectionner cette option d’éligibilité pour les contacts personnels. |
    | **Relation** | Spécifie la relation entre le contact personnel et l’employé. Ce champ n’est actif que si le code d’éligibilité du contact est défini sur Relation. |
-   | **Âge** | Âge minimum d’un contact personnel éligible pour le plan d’avantages. Ce champ n’est actif que si vous sélectionnez une relation. Cet âge est comparé à l’âge calculé du contact personnel. L’âge calculé est le suivant : (date de couverture – date de naissance du contact personnel / 365). Ce nombre est toujours un entier. |
+   | **Âge** |Spécifie l’âge maximum d’un contact personnel éligible pour le plan d’avantages. Ce champ n’est actif que si vous sélectionnez une relation. Cet âge est comparé à l’âge calculé du contact personnel. L’âge calculé est le suivant : (date de couverture – date de naissance du contact personnel / 365). Ce nombre est toujours un entier.
+Pour l’option d’éligibilité des contacts dans le cadre de la **Couverture des personnes à charge**, l’âge indiqué dans ce champ est l’âge minimum. Par exemple : si l’âge est défini sur 18 ans pour l’option  **Couverture des personnes à charge**, les personnes à charge qui sont marquées comme étant à charge et qui ont 18 ans ou plus seront couvertes par l’option d’éligibilité.  |
 
-4. Sélectionnez **Enregistrer**. 
+4. Cliquez sur **Enregistrer**. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

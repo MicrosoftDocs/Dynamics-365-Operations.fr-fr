@@ -2,7 +2,7 @@
 title: Lettrages comptables
 description: Cet article explique comment utiliser la page Règlements comptables pour régler des écritures comptables et contrepasser des règlements.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6357629f83873437eb62a4839fafd8efd98fffc1
+ms.sourcegitcommit: 9041fa6e00ecbdf1a1880659d9bdfff4d888f20e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902485"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9800629"
 ---
 # <a name="ledger-settlements"></a>Lettrages comptables
 
@@ -90,7 +90,12 @@ Vous pouvez contrepasser un règlement effectué par erreur.
     > [!IMPORTANT]
     > Toutes les transactions qui ont le même ID de règlement seront contrepassées, même si elles ne sont pas marquées. Par exemple, quatre lignes ont été marquées et réglées. Les quatre lignes ont le même identifiant de règlement. Si vous marquez l’une de ces quatre lignes, puis sélectionnez **Contrepasser les transactions marquées**, les quatre lignes seront contrepassées.
 
+## <a name="unmark-for-selected-users"></a>Supprimer les marques pour les utilisateurs sélectionnés
+Sélectionnez **Supprimer le marquage pour les utilisateurs sélectionnés** afin de supprimer le marquage des transactions réglées dans la comptabilité pour toutes les entités juridiques par ID utilisateur. Par exemple, cela permettra à un responsable comptable de supprimer le marquage des transactions d’un utilisateur parti en vacances avant de terminer le règlement ou d’un utilisateur qui a quitté l’organisation. L’action permettra à ces transactions d’être marquées pour le règlement par un autre utilisateur.
 
+
+## <a name="unmark-all-transactions"></a>Supprimer le marquage de toutes les transactions
+Sélectionnez **Supprimer le marquage de toutes les transactions** afin de supprimer le marquage de toutes les transactions réglées dans la comptabilité pour tous les utilisateurs et toutes les entités juridiques. Cette action est disponible pour le rôle d’administrateur.
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f55fe1a23735d8631a5918fa49e08f74eee4d37
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898825"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802767"
 ---
 # <a name="generate-financial-reports"></a>Générer les états financiers
 
@@ -32,7 +32,7 @@ Pour générer un état, ouvrez la définition d’état, puis dans la barre d�
 
 Au fur et à mesure que la génération du rapport progresse, les indicateurs d’état de la file d’attente de rapports suivants peuvent être visibles sur la page **Signaler l’état de la file d’attente**.
 
-| Statut          | Région | Description|
+| Statut          | État | Description|
 |-----------------|--------|--------------------|
 | Mise en file d’attente        | Provisoire |La définition du rapport est validée avant que le rapport ne soit placé dans la file d’attente de génération.                    |
 | Mis en file d’attente          | Provisoire | Le rapport entre dans la file d’attente de génération de rapports et attend d’être traité.                      |
@@ -67,7 +67,7 @@ Pour générer un état à l’aide du **Concepteurs d’états**, ouvrez la dé
 
 Les groupes d’états constituent un moyen efficace de générer plusieurs états en même temps. Par exemple, supposons que vous sachiez qu’à la fin du mois, vos utilisateurs génèrent huit états par mois. Créez un groupe d’états et plutôt que de sélectionner **Générer** pour chacun des huit états du groupe, vous pouvez sélectionner **Générer** pour le groupe d’états et les huit états seront générés en une seule étape. Lorsque les états du groupe d’états sélectionné ont été générés, vous pouvez accéder à **États financiers** (**Comptabilité > Recherches et états > États financiers**) pour afficher les états individuels. Procédez comme suit pour paramétrer un groupe d’états.
 
-1. Dans le Concepteur d’états, sélectionnez **Groupes d’états**. 
+1. Dans **Report designer**, sélectionnez **Groupes d’états**. 
 2. Sélectionnez les définitions d’état existantes à inclure dans votre groupe d’états. 
 3. Sélectionnez les paramètres de remplacement de la société, des détails et de la date dans chacun des états qui seront inclus dans le groupe.
    Nous vous recommandons de paramétrer les informations **Société**, **Période**, **Année** et **Niveau de détail** pour chaque état. 
@@ -76,33 +76,33 @@ Les groupes d’états constituent un moyen efficace de générer plusieurs éta
 ## <a name="schedule-report-generation"></a>Programme de génération des rapports
 De nombreuses sociétés disposent d’un ensemble principal de rapports qui sont exécutés à intervalles planifiés correspondant à leurs processus métiers. Vous pouvez programmer la génération régulière d’un état, par exemple chaque jour, chaque semaine, chaque mois ou chaque année. Il peut s’agir d’un seul rapport ou d’un groupe de rapports incluant plusieurs sociétés. Vous devez entrer vos informations d’identification pour chaque société spécifiée, par exemple, chaque société de la définition d’organigramme d’entreprise. Si les informations d’identification ne sont pas valides, l’état affiche uniquement les informations auxquelles vous êtes autorisé à accéder, comme la société à laquelle vous êtes connecté. Les informations de sortie sont lues d’abord à partir du groupe d’état, puis à partir des états individuels.
 
-À mesure que les programmations d’états sont créées et enregistrées, elles sont affichées dans le volet de navigation sous Programmations d’états. Vous pouvez créer des dossiers pour organiser les rapports. Même si l’un des rapports du programme n’est pas exécuté, les autres rapports continuent à être exécutés.
+À mesure que les programmations d’états sont créées et enregistrées, elles sont affichées dans le volet de navigation sous **Programmations d’états**. Vous pouvez créer des dossiers pour organiser les rapports. Même si l’un des rapports du programme n’est pas exécuté, les autres rapports continuent à être exécutés.
 
 > [!IMPORTANT]
 > Pour créer, modifier et supprimer les programmes des rapports, vous devez avoir le rôle Administrateur ou Concepteur. Lorsqu’un état est exécuté, les informations d’identification de l’utilisateur ayant créé le programme sont utilisées pour générer l’état.
 
 ### <a name="create-a-report-schedule"></a>Créer une programmation d’état
 
-1. Dans le Concepteurs d’états, dans le menu **Fichier**, sélectionnez **Nouveau**, puis sélectionnez **Programmation d’état**. La boîte de dialogue **Nouvelle programmation d’état** s’ouvre.
+1. Dans **Report Designer**, dans le menu **Fichier**, sélectionnez **Nouveau**, puis sélectionnez **Programmation d’état**. La boîte de dialogue **Nouvelle programmation d’état** s’ouvre.
 2. Sous **Paramètres**, sélectionnez un état individuel ou un groupe d’états à planifier. Seuls sont disponibles les rapports ou groupes de rapports de la société ou du bloc élémentaire auquel vous êtes connecté.
 3. Activez la case à cocher **Actif** pour activer la programmation d’état. Seul le créateur du rapport ou un administrateur peut activer ou désactiver un programme des rapports.
 4. Sélectionnez le bouton **Autorisations** pour entrer les informations d’identification de la société. Par défaut, vos informations de connexion sont utilisées pour la société à laquelle vous êtes connecté. Si d’autres sociétés sont incluses, comme dans les définitions de l’arborescence des états, sélectionnez **Utiliser d’autres informations d’identification**, puis entrez les informations d’identification des autres sociétés incluses dans la programmation d’état. Vous pouvez sélectionner **Authentification Windows** ou taper un nom d’utilisateur et un mot de passe pour chaque société. Activez la case à cocher **Enregistrer les informations d’identification** pour enregistrer les informations d’identification pour ces sociétés, puis sélectionnez **OK** pour fermer la boîte de dialogue.
 5. Sous **Fréquence**, dans le champ **Début de la périodicité**, sélectionnez la date à laquelle le programme doit commencer. Par défaut, la date système actuelle de l’ordinateur client est sélectionnée.
 6. Dans le champ **Exécuter l’état**, sélectionnez l’heure à laquelle l’état doit s’exécuter. Si vous entrez une heure située avant l’heure système actuelle, le rapport est exécuté à la prochaine date programmée.
-7. Dans la zone **Périodicité**, spécifiez la fréquence à laquelle l’état est exécuté. Par défaut, **Quotidien** est sélectionné avec une valeur d’intervalle (en jours) de 1. Les autres options disponibles sont Hebdomadaire, Mensuel et Annuel.
-8. Dans la zone Plage de périodicité, sélectionnez le moment auquel la génération du rapport doit être interrompue.
+7. Dans la zone **Périodicité**, spécifiez la fréquence à laquelle l’état est exécuté. Par défaut, **Quotidien** est sélectionné avec une valeur d’**intervalle (en jours)** de **1**. Les autres options disponibles sont **Hebdomadaire**, **Mensuel** et **Annuel**.
+8. Dans la zone **Plage de répétitions**, sélectionnez à quel moment arrêter de générer l’état.
 
     - **Pas de date de fin** – La programmation d’état fonctionne indéfiniment.
     - **Nombre défini d’occurrences** – La programmation d’état est exécutée le nombre de fois spécifié, puis elle est désactivée.
     - **Fin le** – La programmation d’état se termine à la date spécifiée.
 
-9. Sélectionnez **Enregistrer**. Dans la boîte de dialogue **Enregistrer sous**, spécifiez un nom unique et une description pour la programmation d’état.
+9. Cliquez sur **Enregistrer**. Dans la boîte de dialogue **Enregistrer sous**, spécifiez un nom unique et une description pour la programmation d’état.
 
 Pour copier une programmation d’état, vous devez avoir le rôle de concepteur ou d’administrateur. Même si un administrateur modifie la programmation d’état, l’état contient toujours les informations d’identification de l’utilisateur qui l’a créé.
 
 ### <a name="copy-a-report-schedule"></a>Copier une programmation d’état
 
-1. Dans le Concepteurs d’états, sélectionnez **Programmations d’états** dans le volet de navigation, puis ouvrez une programmation d’état à copier.
+1. Dans le Report Designer, sélectionnez **Programmations d’états** dans le volet de navigation, puis ouvrez une programmation d’état à copier.
 2. Dans le menu **Fichier**, sélectionnez **Enregistrer sous**, puis entrez un nouveau nom et une description pour la programmation dans la boîte de dialogue **Enregistrer sous**. Sélectionnez **OK**, et la nouvelle programmation s’affiche dans le volet de navigation.
 3. Dans la nouvelle programmation, modifiez les champs et les informations si nécessaire, puis sélectionnez **Enregistrer** dans la barre d’outils, ou sélectionnez **Enregistrer** dans le menu **Fichier**.
 
@@ -110,13 +110,13 @@ Pour supprimer une programmation d’état, vous devez en être le propriétaire
 
 ### <a name="delete-a-report-schedule"></a>Supprimer une programmation d’état
 
-1. Dans le Concepteurs d’états, sélectionnez **Programmations d’état** dans le volet de navigation.
+1. Dans le Report Designer, sélectionnez **Programmations d’état** dans le volet de navigation.
 2. Sélectionnez la programmation d’état à supprimer, puis sélectionnez **Supprimer** ou appuyez sur la touche **Supprimer**.
 3. Dans la boîte de dialogue de vérification de suppression, sélectionnez **Oui** pour supprimer définitivement la programmation d’état. Si vous n’avez pas l’autorisation de supprimer la programmation, un message s’affiche et l’état n’est pas supprimé.
 
 ### <a name="credentials-and-report-schedules"></a>Informations d’identification et programmes des rapports
 
-Si vous n’entrez pas les informations d’identification requises pour toutes les sociétés incluses dans les états, vous recevez le message suivant lorsque vous enregistrez la programmation d’état : « Vous devez entrer vos informations d’identification pour les sociétés contenues dans cette programmation d’état. Cliquez sur le bouton Autorisations pour entrer vos informations d’identification ».
+Si vous n’entrez pas les informations d’identification requises pour toutes les sociétés incluses dans les états, vous recevez le message suivant lorsque vous enregistrez la programmation d’état : « Vous devez entrer vos informations d’identification pour les sociétés contenues dans cette programmation d’état. Cliquez sur le bouton **Autorisations** pour entrer vos informations d’identification ».
 
 Par exemple, un utilisateur se connecte à la Société A à l’aide d’un identifiant et d’un mot de passe. Il crée une programmation pour un état qui utilise une définition d’arborescence de génération d’états pour collecter les données de plusieurs sociétés. Lors de l’enregistrement de ce rapport, l’utilisateur est invité à entrer les informations d’identification des autres sociétés spécifiées dans la définition d’organigramme d’entreprise. Si vos informations d’identification arrivent à expiration, les états affectés dans la programmation d’état ne sont pas générés jusqu’à ce que les informations d’identification soient mises à jour. Un message s’affiche dans la file d’attente d’états pour indiquer que les autorisations doivent être mises à jour. La programmation d’état échoue si l’un des scénarios suivants se produit (car des informations d’identification sont requises) :
 
@@ -141,7 +141,7 @@ Les états qui ont des plages des valeurs sont moins susceptibles d’avoir des 
 
 ### <a name="run-missing-account-analysis"></a>Exécuter une analyse de compte manquante
 
-1. Dans le Concepteurs d’états, sélectionnez **Outils**, puis **Analyse de compte manquante**.
+1. Dans Report Designer, sélectionnez **Outils**, puis **Analyse de compte manquante**.
 2. Dans le champ **Filtre de société**, sélectionnez une société pour laquelle filtrer les résultats ou sélectionnez **Tout (aucun filtre)** pour afficher les résultats à partir de toutes les sociétés disponibles.
 3. Dans le champ **Filtre de dimension**, sélectionnez une dimension pour laquelle filtrer les résultats ou sélectionnez **Tout (aucun filtre)** pour afficher toutes les informations de dimension pour toutes les dimensions disponibles.
 4. Dans le champ **Grouper par**, sélectionnez une option pour trier les résultats. Vous pouvez trier les résultats en fonction du bloc élémentaire affecté, ou par ensembles de dimension et de valeur.
@@ -151,7 +151,7 @@ Les états qui ont des plages des valeurs sont moins susceptibles d’avoir des 
 8. Sélectionnez **Actualiser** pour actualiser les exceptions que vous avez résolues. Sélectionnez **Oui** pour effectuer une actualisation complète de tous les résultats, ou sélectionnez **Non** pour effectuer une actualisation partielle des blocs résolus.
 
     > [!NOTE]
-    > Le formulaire est actualisé automatiquement lors de son ouverture, sauf s’il a été ouvert au cours des 15 dernières minutes.
+    > Le formulaire est actualisé automatiquement lors de son ouverture, sauf si la page a été ouverte au cours des 15 dernières minutes.
 
 9. Lorsque les problèmes sont résolus, sélectionnez **OK** pour fermer la boîte de dialogue.
 

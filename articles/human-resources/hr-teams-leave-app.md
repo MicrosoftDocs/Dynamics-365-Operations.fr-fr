@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cdfd8db68647623e2b5f1b9eca93b57776e1bfe9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 84f1190301e67b49535530f85784561b2e51a2df
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067029"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812157"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congés dans Teams
 
@@ -158,7 +158,7 @@ L’application Dynamics 365 Human Resources dans Teams prend en charge les lang
 | it-IT | Italien (Italie) |
 | nl-NL | Néerlandais (Pays-Bas) |
 | pt-BR | Portugais (Brésil) |
-| tr-TR | Turc (Turquie) |
+| tr-TR | Turc (Türkiye) |
 | zh-CN | Chinois (simplifié) |
 
 ## <a name="troubleshooting"></a>Résolution des problèmes

@@ -2,7 +2,7 @@
 title: Afficher les états financiers
 description: Cet article décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 Finance. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907890"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802389"
 ---
 # <a name="view-financial-reports"></a>Afficher les états financiers
 
@@ -31,7 +31,7 @@ Cet article décrit comment afficher et explorer des états financiers. Il inclu
 ## <a name="financial-reporting-overview"></a>Présentation des états financiers
 
 ## <a name="open-a-financial-report"></a>Ouvrir un état financier
-Pour ouvrir un état, sélectionnez le nom de l’état. La première fois que l’état est ouvert, il est automatiquement généré pour le mois précédent. Par exemple, si vous ouvrez un état pour la première fois en août 2015, l’état est généré pour le 31 juillet 2015. Après l’ouverture d’un état, vous pouvez démarrer l’exploration en accédant à des ensembles de données spécifiques et en modifiant les options d’état.
+Pour ouvrir un état, sélectionnez le nom de l’état. La première fois que l’état est ouvert, il est automatiquement généré pour le mois précédent. Par exemple, si vous ouvrez un état pour la première fois en août 2020, l’état est généré pour le 31 juillet 2020. Après l’ouverture d’un état, vous pouvez démarrer l’exploration en accédant à des ensembles de données spécifiques et en modifiant les options d’état.
 
 ## <a name="drill-down-on-a-financial-report"></a>Exploration d’un état financier
 Les états financiers peuvent inclure plusieurs niveaux de détail. Le niveau financier est le premier niveau proposé lorsque vous ouvrez un état financier. Pour accéder au niveau des comptes, sélectionnez les données à explorer. Par exemple, pour afficher les détails de compte pour les ventes, sélectionnez les données de vente que vous souhaitez explorer. à partir du niveau du compte, vous pouvez faire un zoom avant pour afficher les transactions qui constituent le solde de compte. Il existe deux manières d’afficher les transactions : transactions d’état et pièces comptables.
@@ -46,12 +46,12 @@ Vous pouvez appliquer des filtres d’attribut et de dimension, ou modifier le s
 
 -   Pour appliquer des filtres d’attributs à un état, sélectionnez **Ajoutez un filtre d’attribut**. Sélectionnez l’attribut, entrez la valeur d’attribut, puis cliquez sur **OK**. Par exemple, si vous sélectionnez l’attribut **Catégorie de compte**, entrez **VENTES** comme valeur de l’attribut. Pour supprimer un filtre d’attributs, cliquez sur **Effacer**.
 -   Pour appliquer des filtres de dimension à un état, sélectionnez **Ajouter un filtre de dimension**. Sélectionnez la dimension, puis entrez l’ID de dimension ou sélectionnez la dimension dans la liste. Pour supprimer un filtre de dimension, cliquez sur **Effacer**.
--   Pour modifier le scénario dans un état **Réel versus budget**, sélectionnez un nouveau scénario, puis cliquez sur **OK**. Si le scénario sélectionné concerne un autre exercice, aucun résultat ne sera retourné. Par exemple, si un rapport est généré pour l’exercice 2015, que le scénario actuel est pour l’exercice 2015 et que le nouveau scénario sélectionné est pour l’exercice 2016, aucun résultat ne sera retourné. Si un nouveau scénario pour un exercice autre est nécessaire, générez une nouvelle version de l’état pour l’exercice lié au scénario.
+-   Pour modifier le scénario dans un état **Réel versus budget**, sélectionnez un nouveau scénario, puis cliquez sur **OK**. Si le scénario sélectionné concerne un autre exercice, aucun résultat ne sera retourné. Par exemple, si un rapport est généré pour l’exercice 2015, que le scénario actuel est pour l’exercice 2020 et que le nouveau scénario sélectionné est pour l’exercice 2016, aucun résultat ne sera retourné. Si un nouveau scénario pour un exercice autre est nécessaire, générez une nouvelle version de l’état pour l’exercice lié au scénario.
 
 Lorsque vous cliquez sur **OK**, toutes les options sélectionnées sont appliquées à l’état. Si vous décidez que vous ne souhaitez pas appliquer les options sélectionnées, cliquez sur **Annuler**.
 
 ## <a name="update-a-financial-report"></a>Mettre à jour un état financier
-Vous pouvez actualiser (mettre à jour) un état financier afin qu’il affiche les données les plus récentes pour la période et l’exercice pour lequel l’état a été généré. Par exemple, si vous mettez à jour un état un état financier qui a été généré pour octobre 2015, l’état reflète toutes les nouvelles transactions validées pour octobre 2015. Pour mettre à jour un état financier, dans le Volet Actions, cliquez sur **Actualiser**. Un état mis à jour est disponible uniquement pour la personne qui l’a mis à jour. Pour que d’autres personnes puissent voir les mêmes données, l’état doit être publié.
+Vous pouvez actualiser (mettre à jour) un état financier afin qu’il affiche les données les plus récentes pour la période et l’exercice pour lequel l’état a été généré. Par exemple, si vous mettez à jour un état un état financier qui a été généré pour octobre 2020, l’état reflète toutes les nouvelles transactions validées pour octobre 2020. Pour mettre à jour un état financier, dans le Volet Actions, cliquez sur **Actualiser**. Un état mis à jour est disponible uniquement pour la personne qui l’a mis à jour. Pour que d’autres personnes puissent voir les mêmes données, l’état doit être publié.
 
 ## <a name="publish-a-financial-report"></a>Publier un état financier
 Après avoir mis un état financier à jour, vous pouvez le publier. D’autres personnes de l’organisation peuvent ensuite l’afficher. Pour publier un état, dans le Volet Action, cliquez sur **Publier**.

@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
-ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "9775403"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805312"
 ---
 # <a name="proactive-quality-updates"></a>Mises à jour proactives de la qualité
 
@@ -105,19 +105,19 @@ Pour plus d’informations sur les heures sombres pour chaque région, voir [Que
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Version mise à jour de qualité proactive : 10.0.29.
 **Version de l’application : 10.0.1326.70**  
-**Dernier article de la base de connaissances correspondant : 748926**
+**Dernier article de la base de connaissances correspondant : 750332**
 
 | Station | Régions | Programme terminé | Calendrier bac à sable à venir|
 |---|---|---|---|
-| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 14 octobre au 17 octobre 2022, du 2 novembre au 5 novembre 2022 | Du 13 novembre au 16 novembre 2022 |
-| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 15 octobre au 18 octobre 2022, du 2 novembre au 5 novembre 2022 | Du 13 novembre au 16 novembre 2022 |
-| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 16 octobre au 19 octobre 2022, du 2 novembre au 5 novembre 2022 | Du 13 novembre au 16 novembre 2022 |
-| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 17 octobre au 20 octobre 2022, du 2 novembre au 5 novembre 2022 | Du 15 novembre au 18 novembre 2022 |
+| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 14 octobre au 17 octobre 2022, du 2 novembre au 5 novembre 2022, du 13 novembre au 16 novembre 2022 | Du 5 décembre au 8 décembre|
+| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 15 octobre au 18 octobre 2022, du 2 novembre au 5 novembre 2022, du 13 novembre au 16 novembre 2022 | Du 5 décembre au 8 décembre|
+| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 16 octobre au 19 octobre 2022, du 2 novembre au 5 novembre 2022, du 13 novembre au 16 novembre 2022 | Du 5 décembre au 8 décembre|
+| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 17 octobre au 20 octobre 2022, du 2 novembre au 5 novembre 2022, du 15 novembre au 18 novembre 2022 | Du 5 décembre au 8 décembre|
 | Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié | Non planifié |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Version mise à jour de qualité proactive : 10.0.30.
-**Version de l’application : À définir**
-**Dernier article de la base de connaissances correspondant : À définir**
+**Version de l’application : 10.0.1362.77**
+**Dernier article de base de connaissances correspondant : 767597**
 
 | Station | Régions | Calendrier bac à sable à venir |
 |---|---|---|
@@ -147,14 +147,14 @@ Microsoft s’efforce de maintenir le pipeline de publication suffisamment effic
 Non L’objectif principal des mises à jour de qualité est de garantir que les fondamentaux tels que la sécurité, la confidentialité, la fiabilité, la disponibilité et les performances s’améliorent en permanence pour nos clients. En retardant ou en suspendant une mise à jour, la sécurité, la disponibilité et la fiabilité seront menacées.
 
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Comment savoir quel ensemble de modifications a été apporté à une charge utile de mise à jour de qualité ?
-Les étapes suivantes sont une solution temporaire alors que nous continuons à travailler pour fournir une meilleure solution pour identifier la liste des modifications qui entrent dans une charge utile de mise à jour de qualité. 
+Suivez les étapes ci-dessous pour identifier la liste des modifications qui entrent dans une charge utile de mise à jour de qualité. 
 
-Utilisez la base de connaissances n° 745340 pour le train de mise à jour de qualité 10.0.28 et la version de l’application associée 10.0.1265.89.
+Utilisez le train de mise à jour de qualité 10.0.28 et la version de l’application associée 10.0.1265.89.
 
 1. Dans Lifecycle Services, ouvrez la page **Détails de l’environnement** pour votre bac à sable. 
 2. Dans la section **Mises à jour disponibles**, sélectionnez **Afficher la mise à jour** pour la dernière version de la mise à jour de qualité. 
 3. Exportez la build dans un fichier CSV ou Microsoft Excel.
-4. Dans le fichier exporté, triez les informations en fonction de l’heure (la plus ancienne en premier), puis recherchez la base de connaissances n° 745340 dans la colonne **ID de mise à jour**. Vous devriez à présent pouvoir voir la liste delta des bases de connaissance.
+4. Dans le fichier exporté, filtrez et sélectionnez la **Version de build** qui est inférieure ou égale au numéro de build 10.0.1265.89. Vous devriez à présent pouvoir voir la charge utile delta.
  
 > [!NOTE]
 > L’exportation vers un fichier CSV ou Excel doit avoir lieu avant la mise à jour de l’environnement. Sinon, vous pouvez utiliser un environnement avec une configuration similaire sur laquelle la mise à jour n’est pas installée et suivez les étapes ci-dessus.
@@ -185,8 +185,8 @@ En cas de conflit avec une action pré-programmée, par exemple une restauration
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Un environnement peut-il être ramené à son état précédent s’il y a des problèmes après l’application d’une mise à jour de qualité ?
 Après l’application d’une mise à jour de qualité, il n’y a aucune restauration en aucune circonstance. Il n’y a que des options de transfert de correctifs disponibles pour atténuer les problèmes.
 
-## <a name="what-about-fda-regulation-and-gpx"></a>Qu’en est-il de la réglementation FDA et du GPX ?
-Le plan pour les clients soumis à la validation et à la réglementation de la FDA est toujours en évolution. Attendez-vous à plus de mises à jour dans cet espace bientôt. Pour l’instant, tous ces clients sont exemptés des mises à jour de qualité. Pour vous assurer qu’un client relève des réglementations de la FDA, visitez [Offre GPX Microsoft Azure](/azure/compliance/offerings/offering-gxp).
+## <a name="what-about-fda-regulation-and-gxp"></a>Qu’en est-il de la réglementation FDA et du GxP ?
+Le plan pour les clients soumis à la validation et à la réglementation de la FDA est toujours en évolution. Attendez-vous à plus de mises à jour dans cet espace bientôt. Pour l’instant, tous ces clients sont exemptés des mises à jour de qualité. Pour vous assurer qu’un client relève des réglementations de la FDA, visitez [Offre GxP Microsoft Azure](/azure/compliance/offerings/offering-gxp).
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Quelles versions des mises à jour de service sont prises en charge pour ces mises à jour de qualité ?
 Les clients de toutes les mises à jour de service prises en charge sont admissibles aux mises à jour de qualité. 

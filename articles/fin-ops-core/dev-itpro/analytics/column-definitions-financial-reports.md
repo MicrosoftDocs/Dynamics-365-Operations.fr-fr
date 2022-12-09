@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 97f6c869e8d05e37ec3001d5de262ab8927d735a
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291886"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802794"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
@@ -34,24 +34,24 @@ Une définition de colonne peut contenir jusqu’à 255 colonnes.
 
 ### <a name="create-a-column-definition"></a>Créer une définition de colonne
 
-1. Dans le générateur d’état, dans le volet de navigation, cliquez sur **Définitions de colonne**.
+1. Dans le Report Designer, dans le volet de navigation, cliquez sur **Définitions de colonne**.
 2. Dans le menu **Fichier**, cliquez sur **Nouveau**, puis cliquez sur **Définition de colonne**.
 3. Ajoutez le contenu de la définition de colonne.
 
 ### <a name="open-a-column-definition"></a>Ouvrir une définition de colonne
 
-1. Dans le générateur d’état, dans le volet de navigation, cliquez sur **Définitions de colonne**.
+1. Dans le Report Designer, dans le volet de navigation, cliquez sur **Définitions de colonne**.
 2. Double-cliquez sur une définition de colonne pour l’ouvrir.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Ajout d’une colonne à une définition de colonne
 
-1. Dans le générateur d’état, cliquez sur **Définitions de colonne**, puis ouvrez ensuite la définition de colonne à modifier.
+1. Dans le Report Designer, cliquez sur **Définitions de colonne**, puis ouvrez ensuite la définition de colonne à modifier.
 2. Sélectionnez la colonne dans laquelle une colonne doit être insérée.
 3. Dans le menu **Édition**, cliquez sur **Insérer une colonne**. La nouvelle colonne s’affiche à gauche de la colonne que vous avez sélectionnée.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Suppression d’une colonne dans une définition de colonne
 
-1. Dans le Concepteur de rapports, cliquez sur **Définitions de colonne** puis ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, cliquez sur **Définitions de colonne**, puis ouvrez ensuite la définition de colonne à modifier.
 2. Sélectionnez la colonne à supprimer.
 3. Dans le menu **Edition**, cliquez sur **Supprimer la colonne**.
 
@@ -72,19 +72,19 @@ Ces informations s’affichent dans les zones suivantes de la définition de col
 
 - Les lignes de détail de colonne sont les lignes sous les lignes d’en-tête dans la définition de colonne. Les lignes de détail de colonne définissent les informations incluses dans l’état. Le tableau suivant répertorie et décrit les lignes de détail de colonne.
 
-    | Nom de la ligne de détail de colonne                                                | Description                                                                                            |
-    |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-    | Type de colonne                                                           | (Obligatoire) Spécifie le type des données dans la colonne.                                                     |
-    | Code registre/Catégorie d’attribut                                          | Spécifie les informations des données financières pour les colonnes des types **FD** et **ATTR**.                       |
-    | Exercice Période Périodes couvertes                                    | Spécifie les informations des données financières pour les colonnes des types **FD**.                                     |
-    | Formule                                                               | Spécifie une formule de calcul pour les colonnes du type **CALC**.                                        |
-    | Largeur de colonne Espaces supplémentaires avant la colonne Remplacement de format Contrôle d’impression | Spécifie les options spéciales de format.                                                                        |
-    | Restrictions de colonne                                                   | Permet de limiter les données.                                                                                         |
-    | Unité organisationnelle                                                        | Permet de restreindre la colonne de sorte qu’elle ne présente que les données de l’unité organisationnelle spécifiée.                      |
-    | Afficher la devise Filtre de devise                                      | Devise de format.                                                                                       |
-    | Filtre de dimension                                                      | Spécifie un filtre pour limiter les données à certaines unités organisationnelles de données financières.                           |
-    | Filtre d’attribut                                                      | Spécifie un filtre pour restreindre les données financières.                                                       |
-    | Date de début Date de fin                                                   | Restreint les données financières à des dates spécifiques.                                                         |
+    | Nom de la ligne de détail de colonne                                                | Description                                                    |
+    |-----------------------------------------------------------------------|-------------------------------------------------------------------------|
+    | Type de colonne                                                           | (Obligatoire) Spécifie le type des données dans la colonne.                                      |
+    | Code registre/Catégorie d’attribut                                          | Spécifie les informations des données financières pour les colonnes des types **FD** et **ATTR**.     |
+    | Exercice Période Périodes couvertes                                    | Spécifie les informations des données financières pour les colonnes des types **FD**.              |
+    | Formule                                                               | Spécifie une formule de calcul pour les colonnes du type **CALC**.                  |
+    | Largeur de colonne Espaces supplémentaires avant la colonne Remplacement de format Contrôle d’impression | Spécifie les options spéciales de format.                                               |
+    | Restrictions de colonne                                                   | Permet de limiter les données.                                                                        |
+    | Unité organisationnelle                                                        | Permet de restreindre la colonne de sorte qu’elle ne présente que les données de l’unité organisationnelle spécifiée.      |
+    | Afficher la devise Filtre de devise                                      | Devise de format.                                                                      |
+    | Filtre de dimension                                                      | Spécifie un filtre pour limiter les données à certaines unités organisationnelles de données financières.           |
+    | Filtre d’attribut                                                      | Spécifie un filtre pour restreindre les données financières.                                      |
+    | Date de début Date de fin                                                   | Restreint les données financières à des dates spécifiques.                                    |
     | Justification                                                         | Alignement à gauche, centrage ou alignement à droite du texte de description spécifié dans la définition de ligne. |
 
 ## <a name="column-restrictions-in-a-column-definition"></a>Restrictions de colonne dans une définition de colonne
@@ -99,7 +99,7 @@ La cellule **Restrictions de colonne** peut inclure des codes qui limitent ou su
 
 #### <a name="add-a-column-restriction-in-a-column-definition"></a>Ajoute une restriction de colonne dans une définition de colonne
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Restrictions de colonne** de la colonne à limiter.
 3. Dans la boîte de dialogue **Restrictions de colonne**, sélectionnez un ou plusieurs codes dans la liste, puis cliquez sur **OK**.
 
@@ -121,7 +121,7 @@ Le tableau suivant décrit les codes de restriction de colonne.
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restreindre une colonne à une unité organisationnelle
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Unité organisationnelle** de la colonne à limiter.
 3. Dans la boîte de dialogue **Sélectionner une unité organisationnelle**, dans la liste **Arborescence de génération d’états**, sélectionnez une arborescence.
 4. Développez ou réduisez la liste des unités, sélectionnez une unité organisationnelle, puis cliquez sur **OK**.
@@ -142,7 +142,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 ### <a name="create-a-column-header"></a>Créer un en-tête de colonne
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez dans une cellule d’en-tête.
 3. Dans la boîte de dialogue **En-tête de colonne**, entrez le texte d’en-tête de colonne. Sinon, cliquez sur **Insertion texte auto**, puis sélectionnez une option.
 4. Dans le champ **Options de mise en forme**, sélectionnez un format pour l’en-tête.
@@ -152,7 +152,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 ### <a name="add-a-column-header-row"></a>Ajoutez une ligne d’en-tête de colonne
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Sélectionnez une cellule dans la ligne d’en-tête.
 3. Dans le menu **Édition**, cliquez sur **Insérer une ligne**. La nouvelle ligne est insérée au-dessus de la ligne sélectionnée à l’étape 2.
 
@@ -161,7 +161,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 ### <a name="delete-a-column-header-row"></a>Supprimer une ligne d’en-tête de colonne
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Dans la ligne d’en-tête, sélectionnez la cellule à supprimer.
 3. Dans le menu **Édition**, cliquez sur **Supprimer une ligne**.
 
@@ -199,7 +199,7 @@ Les en-têtes à étendue conditionnelle peuvent couvrir plusieurs colonnes bas�
 
 #### <a name="create-a-conditional-spanning-header"></a>Créer un en-tête à étendue conditionnelle
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez dans une cellule d’en-tête.
 3. Dans la boîte de dialogue **En-tête de colonne**, entrez le texte d’en-tête de colonne. Sinon, cliquez sur **Insertion texte auto**, puis sélectionnez une option.
 4. Dans le champ **Options de mise en forme**, sélectionnez un style de mise en forme pour l’en-tête.
@@ -211,18 +211,18 @@ Les en-têtes à étendue conditionnelle peuvent couvrir plusieurs colonnes bas�
 
 Un utilisateur crée un état pour une prévision dynamique de six mois. Il veut que le mot « Réel » soit imprimé sur les colonnes contenant des données réelles, et le mot « Budget » sur les colonnes qui contiennent les prévisions du budget. Chaque mois que l’état est exécuté, il contient une colonne « Réel » de plus et une colonne « Budget » de moins. Bien que l’utilisateur puisse modifier la définition de colonne manuellement à chaque fois que l’état est généré pour ajuster les en-têtes, pour s’épargner du temps et des efforts, il décide de créer des en-têtes à étendue conditionnelle qui créeront automatiquement les en-têtes sur les colonnes appropriées chaque exécution de l’état. L’utilisateur ouvre le générateur d’état, clique sur **Définition de colonne** dans le volet de navigation, et ouvre la définition de colonne de l’état. L’utilisateur entre alors les informations suivantes : la période de base dans la définition d’état est 4.
 
-|      Format         |  A   | o             | C             | D             | E             | V             | V             | H             | I             | J             | k             | L             | F             |
-|---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| En-tête 1            |      | Réel        | Budget        |               |               |               |               |               |               |               |               |               |               |
-| En-tête 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
-| En-tête 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Type de colonne         | DESC | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | FD            | FD            |
+|  Format   |  A   | o     | C      | D       | E        | V       | V       | H      | I             | J             | k             | L             | F             |
+|-----------|------|-------|--------|---------|----------|---------|---------|---------|-------------|---------------|---------------|---------------|---------------|
+| En-tête 1   |    | Réel    | Budget        |         |         |        |       |          |        |               |               |               |               |
+| En-tête 2   |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
+| En-tête 3    |      |       |        |        |        |         |        |          |               |               |               |               |               |
+| Type de colonne  | DESC | DF   | DF     | DF    | DF   | DF    | DF      | DF            | DF            | DF            | DF            | FD            | FD            |
 | Code registre/Attribut |      | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    |
-| Année fiscale         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
-| Période              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Année fiscale |  | BASE   | BASE   | BASE   | BASE   | BASE    | BASE    | BASE     | BASE          | BASE          | BASE          | BASE          | BASE          |
+| Période  |     | 1      | 1       | 2      | 2      | 3       | 3       | 4        | 4             | 5             | 5             | 6             | 6             |
 | Périodes couvertes     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
-| Largeur de colonne        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
-| Contrôle d’impression       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
+| Largeur de colonne   | 30   | 10    | 10     | 10     | 10    | 10    | 10    | 10     | 10            | 10            | 10            | 10            | 10            |
+| Contrôle d’impression  |    | P&lt;=B    | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B   | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B       | P&gt;B        |
 
 L’utilisateur double-clique ensuite sur une cellule d’en-tête de la colonne B pour ouvrir la boîte de dialogue **En-tête de colonne** et entre les informations suivantes.
 
@@ -251,7 +251,7 @@ Après avoir saisi les informations, l’utilisateur clique sur **OK**. L’util
 ## <a name="apply-column-justification"></a>Appliquer la justification de colonne
 La cellule **Justification** est utilisée pour appliquer la mise en forme de justification à une colonne de description dans un état. Cette option n’affecte que les descriptions de colonne, pas les valeurs actuelles.
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Justification**.
 3. Sélectionnez l’une des valeurs suivantes dans la liste :
 
@@ -274,8 +274,8 @@ La cellule **Largeur de colonne** spécifie le nombre de caractères à utiliser
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Spécifier la largeur d’une colonne dans un état
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
-2. Dans la cellule **Largeur de colonne**, entrez le nombre d’espaces pour la largeur de la colonne. La largeur maximale de n’importe quelle colonne est 255 caractères (ce nombre inclut les centimes, les virgules et les parenthèses). Sinon, pour autoriser le générateur d’états à sélectionner la largeur appropriée pour la colonne, selon le contenu des cellules, double-cliquez sur la cellule **Largeur de colonne**, puis cliquez sur **AutoFit**.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
+2. Dans la cellule **Largeur de colonne**, entrez le nombre d’espaces pour la largeur de la colonne. La largeur maximale de n’importe quelle colonne est 255 caractères (ce nombre inclut les centimes, les virgules et les parenthèses). Sinon, pour autoriser Report Designer à sélectionner la largeur appropriée pour la colonne, selon le contenu des cellules, double-cliquez sur la cellule **Largeur de colonne**, puis cliquez sur **AutoFit**.
 
 ### <a name="add-space-between-columns"></a>Ajouter de l’espace entre les colonnes
 
@@ -283,7 +283,7 @@ La cellule **Espaces supplémentaires avant la colonne** spécifie la largeur du
 
 #### <a name="specify-the-space-between-columns"></a>Spécifiez l’espace entre les colonnes
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Dans la cellule **Espaces supplémentaires avant la colonne**, entrez le nombre d’espaces à insérer entre les colonnes.
 
 ### <a name="specify-a-format-currency-override"></a>Spécifier un remplacement de devise/format
@@ -292,7 +292,7 @@ La cellule **Remplacement de format/devise** spécifie la mise en forme de la d�
 
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Application d’une substitution de format/devise à une colonne de rapport
 
-1. Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez dans une cellule **Substitution de format/devise** d’une colonne de montant.
 3. Dans la boîte de dialogue **Remplacement de format**, sélectionnez les options de mise en forme.
 
@@ -306,7 +306,7 @@ La cellule **Contrôle d’impression** peut contenir des codes qui règlent les
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Non imprimable                                     | Exclut les montants de cette colonne de l’état imprimé et des calculs. Pour inclure une colonne non imprimable dans un calcul, consultez la colonne directement dans la formule de calcul. Par exemple, la colonne C non imprimable est incluse dans le calcul suivant : **B+C+D**. Cependant, la colonne C non imprimable n’est pas incluse dans le calcul suivant : **B:D**. |
 | XCR                | Modifie le signe si le solde typique de la ligne est un crédit | Crée un budget ou un état comparatif où tout écart défavorable (tel qu’un déficit de produit ou un dépassement de dépense) est toujours négatif. Appliquez ce code à une colonne **CALC** pour inverser le signe du montant de la colonne si le solde typique d’une ligne donnée est un crédit (comme identifié par un **C** dans la colonne **Solde normal** de la définition de ligne).<p><strong>Remarque :</strong> pour les lignes <strong>TOT</strong> et </strong>CAL</strong> qui comportent généralement un solde, veillez à entrer un <strong>C</strong> dans la colonne <strong>Solde normal</strong> dans la définition de ligne.</p> |
-| X0                 | Supprime la colonne si elle ne contient que des zéros ou des espaces          | Permet d’exclure une colonne **FD** de l’état si toutes les cellules dans cette colonne sont vides ou contiennent des zéros. |
+| X0            | Supprime la colonne si elle ne contient que des zéros ou des espaces   | Permet d’exclure une colonne **FD** de l’état si toutes les cellules dans cette colonne sont vides ou contiennent des zéros. |
 | SR                 | Permet de supprimer l’arrondi                               | Permet d’empêcher les montants de cette colonne d’être arrondis. |
 | XR                 | Permet de supprimer le cumul                                 | Permet de supprimer le cumul Si l’état utilise une arborescence de génération d’états, les montants de cette colonne ne sont pas cumulés dans les nœuds parent suivants. |
 | RP                 | Répéter la colonne dans chaque page                      | Répète une colonne spécifiée dans chaque page d’un état. Par exemple, vous pouvez utiliser le code de contrôle d’impression **RP** pour inclure une colonne du type **ROW** qui ajoute des codes de ligne dans chaque page. |
@@ -325,7 +325,7 @@ La cellule **Contrôle d’impression** peut contenir des codes qui règlent les
 
 #### <a name="add-print-control-codes-to-a-report-column"></a>Ajouter des codes de contrôle d’impression à une colonne d’état
 
-1. Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Contrôle d’impression**.
 3. Dans la boîte de dialogue **Contrôle d’impression**, sélectionnez un code dans la liste **Sélectionner des options de contrôle d’impression**. Pour sélectionner plusieurs codes, maintenez la touche CTRL enfoncée tout en sélectionnant les codes souhaités.
 4. Sélectionnez une option dans le champ **Options d’impression conditionnelle**. Par défaut, **(aucun)** est sélectionné. Vous ne pouvez sélectionner qu’un code d’impression conditionnelle à la fois.
@@ -342,7 +342,7 @@ Le type d’informations que chaque colonne comporte dans un état est spécifi�
 
 ### <a name="specify-a-column-type"></a>Spécifier un type de colonne
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Dans la colonne appropriée, double-cliquez sur une cellule dans la ligne **Type de colonne**.
 3. Dans la liste, sélectionnez un type de colonne. Le tableau suivant décrit les différents types de colonne :
 
@@ -436,7 +436,7 @@ Vous pouvez dépasser les limites de l’exercice dans toutes les spécification
 
 ### <a name="specify-the-periods-for-an-fd-column"></a>Spécification des périodes d’une colonne DF
 
-1. Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Dans une colonne **FD**, double-cliquez sur la cellule dans la ligne **Période**, puis sélectionnez une option dans la liste.
 3. Dans la barre de formule au-dessus du volet de navigation, ou dans la cellule **Période**, remplissez la formule. Remplacez tout symbole de chiffre (\#) par la valeur appropriée.
 
@@ -453,19 +453,19 @@ La cellule **Périodes couvertes** identifie le montant que la colonne doit affi
 
 ### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>Spécifier les périodes couvertes pour une colonne FD
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Dans une colonne **FD**, double-cliquez sur la cellule dans la ligne **Périodes couvertes**, puis sélectionnez une option dans la liste.
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Attribuer un filtre dans une définition de colonne
 
-Les attributs sont des valeurs de données financières qui définissent de manière plus approfondie un compte ou une transaction. Les attributs de compte possibles sont **Actif**, **Passif**, **Produit** et **Dépense**. Les attributs de transaction sont **Description de transaction** et **Date d’effet de la transaction**. La prise en charge des attributs peut différer entre les systèmes ERP Microsoft Dynamics. La cellule **Filtre d’attribut** restreint les données dans les colonnes **FD** aux valeurs spécifiques ou aux plages des catégories d’attribut. Bien que cette fonctionnalité puisse être utilisée avec une colonne **ATTR**, la colonne **ATTR** n’est pas nécessaire. Dans une colonne **FD** , il existe une limite aux comptes ou aux transactions que l’état inclura en fonction du filtre d’attributs.
+Les attributs sont des valeurs de données financières qui définissent de manière plus approfondie un compte ou une transaction. Les attributs de compte possibles sont **Actif**, **Passif**, **Produit** et **Dépense**. Les attributs de transaction sont **Description de transaction** et **Date d’effet de la transaction**. La prise en charge des attributs peut différer entre Microsoft Dynamics 365 Finance. La cellule **Filtre d’attribut** restreint les données dans les colonnes **FD** aux valeurs spécifiques ou aux plages des catégories d’attribut. Bien que cette fonctionnalité puisse être utilisée avec une colonne **ATTR**, la colonne **ATTR** n’est pas nécessaire. Dans une colonne **FD** , il existe une limite aux comptes ou aux transactions que l’état inclura en fonction du filtre d’attributs.
 
 > [!NOTE]
 > Pour savoir quels attributs sont pris en charge par votre système ERP, voir le guide d’intégration de votre système.
 
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Appliquer un filtre d’attributs pour une colonne FD d’un état
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Filtre d’attribut** d’une colonne **DF**.
 3. Dans la boîte de dialogue **Filtre d’attribut**, double-cliquez sur une cellule dans la colonne **Attribut**, puis sélectionnez le type de filtre.
 4. Pour limiter davantage les résultats, entrez une plage dans les colonnes **À partir de** et **Jusqu’à**. La cellule **À partir de** doit contenir une valeur.
@@ -498,7 +498,7 @@ Vous pouvez également utiliser n’importe quelle combinaison de caractères al
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Appliquer un filtre de dimension à une colonne dans un état
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Filtre de dimension** pour une colonne **FD**.
 3. Dans la boîte de dialogue **Dimensions**, entrez les filtres à appliquer.
 4. Cliquez sur **OK**.
@@ -510,16 +510,16 @@ Un état à plusieurs devises peut afficher des montants dans la devise comptabl
 - **Affichage de devise** – Permet de spécifier le type de devise (comptabilité, déclaration, transaction ou déclaration convertie) dans lequel les transactions sont affichées. La conversion en une fonctionnalité de devise de déclaration est parfois appelée conversion de devise. La conversion de devise désigne la capacité de déclarer les montants de la comptabilité dans une devise qui n’est pas forcément la devise fonctionnelle ou de déclaration de la société ou la devise dans laquelle la transaction a été saisie.
 - **Filtre de devise** – Spécifie un filtre de devise. Seules les transactions qui sont entrées dans la devise sélectionnée sont affichées dans l’état.
 
-> 
+
 Pour déterminer la devise comptable d’une société, procédez comme suit.
 
-1. Dans le Concepteur de rapports, dans le menu **Société**, cliquez sur **Sociétés**.
+1. Dans Report Designer, dans le menu **Société**, cliquez sur **Sociétés**.
 2. Dans la boîte de dialogue **Sociétés**, sélectionnez une société, puis cliquez sur **Afficher**.
 3. Dans la boîte de dialogue **Afficher la société**, sous **Options régionales**, vous pouvez afficher la devise définie pour la société sélectionnée.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Spécifier la devise dans un état à plusieurs devises
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Affichage de devise** dans la colonne **FD** appropriée, puis sélectionnez l’option d’affichage des informations de devise : **Devise comptable**, **Déclaration de comptabilité**, la devise de conversion ou sélectionnez pour convertir en une autre devise de déclaration.
 3. Double-cliquez sur la cellule **Filtre de devise** dans la colonne **FD** appropriée, puis sélectionnez le code devise approprié dans la liste. Seules les transactions qui sont entrées dans cette devise sont affichées dans l’état.
 
@@ -528,7 +528,7 @@ Pour déterminer la devise comptable d’une société, procédez comme suit.
 
 Un utilisateur a effectué les sélections de devise suivantes dans sa définition de colonne :
 
-- **Filtre de devise :** Yen
+- **Filtre de devise :** Yen
 - **Affichage de devise :** devise comptable de la comptabilité (dollars américains)
 
 En raison du filtre de devise sélectionné, l’état inclut seulement les transactions qui ont été entrées en Yens japonais (JPY). En raison de l’affichage de devise sélectionné, l’état affiche ces transactions dans la devise comptable, à savoir le dollar américain (USD).
@@ -566,7 +566,7 @@ Pour ajouter, soustraire, multiplier ou diviser des colonnes, entrez les lettres
 
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Utiliser une formule de calcul dans une définition de colonne
 
-1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
+1. Dans le Report Designer, ouvrez la définition de colonne à modifier.
 2. Dans la colonne **CALC** appropriée, entrez une formule dans la cellule **Formule**.
 
 #### <a name="complex-calculations"></a>Calculs complexes

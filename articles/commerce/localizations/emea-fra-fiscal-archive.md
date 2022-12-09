@@ -2,7 +2,7 @@
 title: Archives fiscales pour la France
 description: Cet article fournit des informations sur les archives fiscales et l’outil de vérification de l’intégrité des archives fiscales qui sont disponibles dans la localisation de Microsoft Dynamics 365 Commerce pour la France.
 author: EvgenyPopovMBS
-ms.date: 09/21/2022
+ms.date: 11/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 10.0.17
 ms.search.industry: Retail
 ms.search.form: RetailGrandTotalJournalTable
 manager: annbe
-ms.openlocfilehash: ef4501167aac039f0309cc098060ca7ac69b563a
-ms.sourcegitcommit: 4f28f262cfb8f047cb5c0070261aa0748835e74b
+ms.openlocfilehash: ffbc8c0aa1295519530e650a6e3ef28b9f53fcf7
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2022
-ms.locfileid: "9558415"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799056"
 ---
 # <a name="fiscal-archive-for-france"></a>Archives fiscales pour la France
 
@@ -218,7 +218,7 @@ Pour obtenir l’outil de vérification de l’intégrité des archives fiscales
 1. Téléchargez l’outil à partir du SDK Commerce :
 
     1. Ouvrez le référentiel [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. Ouvrez la dernière branche de version disponible (par exemple, **[version/9.30](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.30)**).
+    1. Ouvrez la dernière branche de version disponible.
     1. Ouvrez **src \> FiscalIntegration \> SequentialSignatureFrance \> FiscalArchiveIntegrityVerificationTool**.
     1. Consultez les termes de la licence de l’outil.
     1. Téléchargez le contenu du dossier sur votre ordinateur local.

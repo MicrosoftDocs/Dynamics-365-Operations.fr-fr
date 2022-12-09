@@ -2,7 +2,7 @@
 title: Définitions d’états dans le générateur d’états financiers
 description: Cet article fournit des informations sur les définitions d’état.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.form: FinancialReports
-ms.openlocfilehash: e1095502e6dafbe217f51658ac65292c422a0002
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2ffef335c694af56486ccd7738818c4edda49b9e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291796"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802530"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Définitions d’états dans le générateur d’états financiers
 
@@ -37,7 +37,7 @@ Une définition d’état est un composant d’état (ou bloc élémentaire) qui
 Toutefois, en fonction de la manière dont les données sont stockées dans le système Microsoft Dynamics ERP, il se peut que les détails de la transaction ne soient pas disponibles dans les rapports.
 
 ## <a name="create-a-report-definition"></a>Créer une définition d’état
-1. Dans le générateur d’état, dans le menu **Fichier**, cliquez sur **Nouveau**, puis sélectionnez **Définition d’état**.
+1. Dans le Report Designer, dans le menu **Fichier**, cliquez sur **Nouveau**, puis sélectionnez **Définition d’état**.
 2. Spécifiez les informations appropriées dans les onglets **État**, **Sortie et distribution**, **En-têtes et pieds de page** et **Paramètres**.
 
 ## <a name="contents-of-a-report-definition"></a>Contenu d’une définition d’état

@@ -2,21 +2,21 @@
 title: États de valeur de stock
 description: Cet article décrit comment paramétrer, générer et utiliser le rapport sur la valeur du stock. Ces rapports fournissent des détails sur les quantités et les montants physiques et financiers de votre stock.
 author: JennySong-SH
-ms.date: 08/05/2022
+ms.date: 11/28/2022
 ms.topic: article
-ms.search.form: InventValueProcess, InventValueReportSetup
+ms.search.form: InventValueProcess, InventValueReportSetup, InventValueExecutionHistory, DataManagementWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6b21f6a7856526863914aac73d50e5c3a70605e8
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334923"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806404"
 ---
 # <a name="inventory-value-reports"></a>États de valeur de stock
 
@@ -55,11 +55,11 @@ L’état **Stockage de rapport de la valeur de stock** est utile lorsque la sor
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité de stockage de rapport de valeur de stock
 
-Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Stockage de l'état de la valeur d'inventaire* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour pouvoir utiliser cette fonctionnalité, il doit être activé pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.29 de Supply Chain Management, la fonctionnalité est obligatoire et ne peut pas être désactivée. Si vous exécutez une version antérieure à 10.0.29, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Stockage de l’état de la valeur d’inventaire* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Définir les configurations de rapport de valeur de stock
 
-Utilisez la page **Rapports de valeur de stock** pour configurer le contenu qui est inclus dans les différents types de rapport de valeur de stock. Vous pouvez définir un nombre illimité de types de rapports. Chaque fois que vous générez l’un ou l’autre type de rapport de valeur de stock, vous sélectionnerez un type de rapport.
+Utilisez la page **Rapports de valeur de stock** pour configurer le contenu qui est inclus dans les différents types de rapport de valeur de stock. Vous pouvez définir un nombre illimité de types de rapports. Chaque fois que vous générerez l’un ou l’autre type d’état de valeur de stock, vous sélectionnerez un type d’état.
 
 1. Accédez à **Cost Management \> Paramétrage des stratégies comptables de stock \> Rapports de valeur de stock**.
 1. Utilisez l’une des procédures suivantes :
@@ -129,7 +129,7 @@ Utilisez la page **Rapports de valeur de stock** pour configurer le contenu qui 
     - **Externalisation directe** – Définissez cette option sur *Oui* pour afficher les coûts d’Externalisation directe des travaux en cours. Ces informations sont utiles à la sous-traitance.
     - **Niveau de détail** – Sélectionnez une option d’affichage pour le rapport :
 
-        - *Transactions* – Afficher toutes les transactions pertinentes sur le rapport. Notez que vous pouvez rencontrer des problèmes de performances lorsque vous affichez des rapports qui incluent un grand volume de transactions. Par conséquent, si vous souhaitez utiliser cette option d’affichage, nous vous recommandons d’utiliser le rapport **Stockage du rapport de valeur de stock**.
+        - *Transactions* – Afficher toutes les transactions pertinentes sur le rapport. Vous pouvez rencontrer des problèmes de performances lorsque vous affichez des rapports qui incluent un grand volume de transactions. Par conséquent, si vous souhaitez utiliser cette option d’affichage, nous vous recommandons d’utiliser le rapport **Stockage du rapport de valeur de stock**.
         - *Totaux* – Voir le résultat total.
 
     - **Inclure le solde d’ouverture** – Définissez cette option sur *Oui* pour afficher le solde d’ouverture. Cette option est la seule disponible lorsque le champ **Niveau de détail** est défini sur *Transactions*.
@@ -172,7 +172,7 @@ Après avoir généré un rapport, vous pouvez l’afficher et l’explorer à t
     - Utilisez le champ **Filtre** pour filtrer le rapport selon n’importe quelle valeur dans l’une des colonnes disponibles.
     - Utilisez le menu d’affichage (au-dessus du champ **Filtre**) pour enregistrer et charger vos combinaisons préférées d’options de tri et de filtrage.
 
-## <a name="export-an-inventory-value-report-storage-report"></a>Exporter un état de stockage de rapport de valeur de stock
+## <a name="export-an-inventory-value-report-storage-report"></a><a name="export-stored-report"></a>Exporter un état de stockage de rapport de valeur de stock
 
 Chaque rapport que vous générez est stocké dans l’entité de données **Valeur de stock**. Vous pouvez utiliser les fonctionnalités de gestion des données standard de Supply Chain Management pour exporter les données de cette entité dans un format de données pris en charge, comme CSV ou Excel.
 
@@ -188,7 +188,7 @@ L’exemple suivant montre comment exporter un état **Stockage de rapport sur l
     - **Format de données cible** - Sélectionnez le format vers lequel exporter les données.
 
 1. Sélectionnez **Ajouter** pour ajouter la nouvelle ligne, puis sélectionnez **Fermer** pour fermer la boîte de dialogue.
-1. Généralement, vous exporterez un état à la fois. Pour exporter un seul rapport, configurez un filtre pour la ligne que vous venez d’ajouter à la boite de dialogue **Recherche**. De cette façon, vous pouvez définir quel rapport de l’entité **Valeur de stock** est incluse dans votre exportation. Procédez comme suit pour définir les options de filtre suivantes pour exporter un rapport :
+1. Généralement, vous exporterez un rapport à la fois. Pour exporter un seul rapport, configurez un filtre pour la ligne que vous venez d’ajouter à la boite de dialogue **Recherche**. De cette façon, vous pouvez définir quel rapport de l’entité **Valeur de stock** est incluse dans votre exportation. Procédez comme suit pour définir les options de filtre suivantes pour exporter un rapport :
 
     1. Sous l’onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne.
     2. Définissez le champ **Table** sur *Valeur de stock*.
@@ -203,6 +203,34 @@ L’exemple suivant montre comment exporter un état **Stockage de rapport sur l
 1. Sur la page **Résumé de l’exécution** qui s’ouvre, vous pouvez afficher le statut de votre tâche d’exportation et la liste des entités exportées. Dans la section **Statut de traitement de l’entité**, sélectionnez l’entité **Valeur de stock**, puis sélectionnez **Télécharger le fichier** pour télécharger les données exportées depuis cette entité.
 
 Pour plus d’informations sur l’utilisation de la gestion des données pour exporter des données, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+## <a name="delete-stored-inventory-value-reports"></a>Supprimer les états de valeur de stock sélectionné
+
+À mesure que le nombre de rapports de valeur de valeur de stock augmente, ils peuvent finir par occuper trop d’espace dans votre base de données. Cette situation peut affecter les performances du système et entraîner des coûts de stockage de données plus élevés. Par conséquent, vous devrez probablement nettoyer les états de temps à autre en supprimant les états les plus anciens.
+
+> [!IMPORTANT]
+> Avant de supprimer l’un de vos états sur la valeur de stock générés précédemment, nous vous recommandons vivement d’[exporter les états](#export-stored-report) et de les stocker en externe, car vous ne pourrez peut-être pas les régénérer à nouveau plus tard. Cette limitation existe parce que lorsque vous générez un état de valeur de stock, le système fonctionne à rebours à partir d’aujourd’hui et traite chaque enregistrement de transaction de stock dans l’ordre inverse au fur et à mesure. Si vous essayez de remonter trop loin en arrière lorsque vous générez un état, le volume de transactions à traiter peut éventuellement devenir si important que le système expirera avant de pouvoir terminer la génération de l’état. La période passée pour laquelle vous pouvez générer de nouveaux états dépend du nombre de transactions de stock que vous avez dans votre système pour la période concernée.
+
+### <a name="delete-one-report-at-a-time"></a>Supprimer un état à la fois
+
+Suivez ces étapes pour supprimer un état stocké à la fois.
+
+1. [Exportez l’état](#export-stored-report) que vous prévoyez de supprimer et stockez-le dans un emplacement externe pour référence ultérieure.
+1. Accédez à **Gestion des coûts \> Recherches et états \> Stockage des états de valeur de stock**.
+1. Dans le volet de liste, sélectionnez l’état à supprimer.
+1. Dans le volet Actions, sélectionnez **Supprimer**.
+1. Un message d’avertissement vous rappelle de sauvegarder les états générés. Sélectionnez **Oui** si vous êtes prêt à poursuivre avec la suppression.
+
+### <a name="delete-several-reports-at-the-same-time"></a>Supprimer plusieurs états simultanément
+
+Suivez ces étapes pour supprimer plusieurs états stockés à la fois.
+
+1. [Exportez tous les états](#export-stored-report) que vous prévoyez de supprimer et stockez-les dans un emplacement externe pour référence ultérieure.
+1. Accédez à **Gestion des coûts \> Comptabilité des stocks \> Nettoyer \> Nettoyage des données des états de valeur de stock**.
+1. Dans la boîte de dialogue **Nettoyage des données d’état de valeur de stock**, dans le champ **Supprimer l’état de valeur de stock exécuté auparavant**, sélectionnez la date avant laquelle tous les états de valeur de stock doivent être supprimés.
+1. Sur le raccourci **Enregistrements à inclure**, vous pouvez configurer des conditions de filtre supplémentaires afin de limiter l’ensemble des états qui seront supprimés. Sélectionnez **Filtrer** pour ouvrir une boîte de dialogue d’Éditeur de requête standard, dans laquelle vous pouvez définir les propriétés des états à supprimer.
+1. Sur le raccourci **Exécuter en arrière-plan**, vous pouvez spécifier comment, quand et à quelle fréquence les états doivent être supprimés. Les champs fonctionnent comme pour d’autres types de [travaux d’arrière-plan](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) dans Supply Chain Management. Cependant, vous exécuterez généralement cette tâche manuellement chaque fois que cela sera nécessaire.
+1. Cliquez sur **OK** pour supprimer les états spécifiés.
 
 ## <a name="generate-a-standard-inventory-value-report"></a>Générer un rapport de valeur de stock standard
 
@@ -245,6 +273,6 @@ En règle générale, vous utiliserez un rapport de valeur de stock pour affiche
 - Vérifiez les groupes de stock d’article et de dimension de suivi. Seules les dimensions où l’option **Stock financier** est activée peuvent s’afficher sur le rapport.
 - Accédez à **Cost Management \> Configuration des stratégies de comptabilité de stock \> Rapports de valeur de stock**, sélectionnez la configuration de rapport que vous avez utilisée pour générer le rapport et assurez-vous que les dimensions de stock requises sont sélectionnées dans la colonne **Vue**.
 
-Par exemple, vous avez un article qui a le numéro d’article *A0001*. Dans le groupe de dimensions de stockage, seul le site est activé pour le stock financier. Le site et l’entrepôt sont tous deux activés pour le stock physique. Dans le groupe de dimensions de suivi, le numéro de lot est activé pour le stock physique mais pas pour le stock financier. Vous utilisez ensuite une configuration de rapport où le site, l’entrepôt et le numéro de lot sont tous sélectionnés. Lorsque vous affichez le rapport, vous voyez une valeur uniquement pour le site. Les colonnes pour l’entrepôt et le numéro de lot sont vides. Comme le montre cet exemple, les rapports sur la valeur de stock peuvent afficher uniquement la dimension de stock qui est activée pour le stock financier.
+Par exemple, vous avez un article qui a le numéro d’article *A0001*. Dans le groupe de dimensions de stockage, seul le site est activé pour le stock financier. Le site et l’entrepôt sont tous deux activés pour le stock physique. Dans le groupe de dimensions de suivi, le numéro de lot est activé pour le stock physique mais pas pour le stock financier. Vous utilisez ensuite une configuration de rapport où le site, l’entrepôt et le numéro de lot sont tous sélectionnés. Lorsque vous affichez le rapport, vous voyez une valeur uniquement pour le site. Les colonnes pour l’entrepôt et le numéro de lot sont vides. Comme le montre cet exemple, les rapports sur la valeur de stock peuvent afficher uniquement les dimensions de stock qui sont activées pour le stock financier.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

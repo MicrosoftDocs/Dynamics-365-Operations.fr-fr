@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07748c2dc41f6411add1d54589652baa7fc3fbb
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 95a79b3c391c15099aee0a8d34419e1cf48fafbc
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779436"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803989"
 ---
 # <a name="import-letter-of-credit"></a>Importer une lettre de crédit
 
@@ -42,7 +42,10 @@ La société fictive USMF sert d’exemple dans cette procédure.
 10. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 11. Dans le champ **Date comptable**, entrez une date.
 12. Dans le champ **Date de livraison**, entrez une date.
-    * Remarque : le champ **Type de document bancaire** doit être **Lettre de crédit**.  
+
+>[!Note] 
+>Le champ **Type de document bancaire** doit être **Lettre de crédit**.  
+
 13. Cliquez sur **OK**.
 14. Entrez ou sélectionnez une valeur dans le champ **Numéro d’article**.
 15. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
@@ -97,7 +100,7 @@ La société fictive USMF sert d’exemple dans cette procédure.
 1. Dans le volet Action, cliquez sur **Recevoir**.
 2. Cliquez sur **Accusé de réception de marchandises**.
 3. Dans le champ **PurchParmTable_Num**, tapez une valeur.
-    * Sélectionnez le numéro d’expédition créé en référence à la lettre de crédit.  
+    * Sélectionnez le **Numéro d’expédition** créé en référence à la lettre de crédit.  
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 5. Dans le champ **Date de l’accusé de réception de marchandises**, entrez une date.
 6. Cliquez sur **OK**.
@@ -108,7 +111,7 @@ La société fictive USMF sert d’exemple dans cette procédure.
 1. Accédez à **Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d’importation/relance d’importation**.
 2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Vérifiez le statut de la lettre de crédit d’importation.     
+    * Vérifiez le **Statut de la lettre de crédit d’importation**.     
 4. Fermez la page.
 5. Fermez la page.
 
@@ -152,7 +155,7 @@ La société fictive USMF sert d’exemple dans cette procédure.
 6. Entrez une date dans le champ **Date**.
 7. Dans le champ **Compte**, spécifiez les valeurs souhaitées.
 8. Cliquez sur **Régler les transactions**.
-9. Développez la section Totaux.
+9. Développez la section **Totaux**.
 10. Dans le champ **Afficher**, sélectionnez une option.
     * Vérifiez que les champs **Numéro de document bancaire** et **Numéro d’expédition** sont mis à jour.  
 11. Activez la case à cocher **Marquer**.
@@ -167,12 +170,12 @@ La société fictive USMF sert d’exemple dans cette procédure.
 1. Accédez à **Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d’importation/relance d’importation**.
 2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Vérifiez le statut de la lettre de crédit d’importation.   
+    * Vérifiez le **Statut de la lettre de crédit d’importation**.   
 4. Fermez la page.
 
 ## <a name="verify-the-bank-facility-limit-and-utilization-report"></a>Vérifier l’état de la limite des services de l’établissement bancaire et l’utilisation
 1. Accédez à **Gestion de la trésorerie et de la banque > Recherches et états > Lettres de crédit ou garantie > État des moyens bancaires et utilisation**.
-2. Développez les enregistrements pour inclure la section.
+2. Développez la section **Enregistrements à inclure**.
 3. Cliquez sur **Filtre**.
     * Définissez le champ **Critères** avec le compte bancaire requis.  
 4. Dans le champ **Critères**, entrez ou sélectionnez une valeur.

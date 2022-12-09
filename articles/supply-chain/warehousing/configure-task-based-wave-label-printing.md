@@ -2,7 +2,7 @@
 title: Programmer l’impression d’étiquettes pendant la vague
 description: Cet article décrit comment configurer et utiliser la fonctionnalité d’impression d’étiquettes de vague basée sur les tâches.
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889455"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822360"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Programmer l’impression d’étiquettes pendant la vague
 
@@ -32,7 +32,6 @@ Lorsque vous utilisez la fonctionnalité *Impression d’étiquettes de vague ba
 
 Pour utiliser les fonctionnalités décrites dans cet article, elles doivent être activées pour votre système. Utilisez l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités dans l’ordre suivant :
 
-1. *Impression d’étiquettes de vague* : cette fonction est requise pour activer la méthode de traitement par vague pour l’impression d’étiquettes de vague.
 1. *Blocage des tâches à l’échelle de l’organisation* : cette fonction est requise pour la configuration manuelle et automatique de la création de travail planifiée. (À partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
 1. *Impression d’étiquettes de vague basée sur les tâches* : cette fonction est requise pour séparer l’impression d’étiquettes de vague en une portée de transaction distincte.
 

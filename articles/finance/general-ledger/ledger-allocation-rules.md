@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901282"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787551"
 ---
 # <a name="ledger-allocation-rules"></a>Règles d’affectation comptable
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901282"
 
 Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
 
-Les règles de répartition comptable permettent de calculer et de générer automatiquement les journaux de répartition et les écritures de compte pour la répartition des soldes comptables ou des montants fixes. Les modes de répartition peuvent être variables ou fixes. Les modes de répartition suivants peuvent être utilisés pour les règles de répartition comptable :
+Les règles de répartition comptable permettent de calculer et de générer automatiquement les journaux de répartition et les écritures de compte pour la répartition des soldes comptables ou des montants fixes. Les modes de répartition peuvent être variables ou fixes. L’allocation est basée sur la valeur de la devise de transaction. Par exemple, des écritures comptables de gain/perte de change sont validées pour ajuster les montants en devise comptable et de déclaration. Ces écritures ne sont pas soumises aux règles d’allocation car leur valeur en devise de transaction est de 0,00. Les modes de répartition suivants peuvent être utilisés pour les règles de répartition comptable :
 
 -   **Base** – Cette méthode variable est utilisée lorsque la répartition dépend du solde comptable réel, basé sur des critères de filtre. Par exemple, les dépenses publicitaires peuvent être réparties sur la base des ventes de chaque département par rapport aux ventes totales du département.
 -   **Pourcentage fixe** et **Poids fixe** – Pour ces méthodes, le pourcentage ou le poids de répartition est défini directement pour la règle. Par exemple, les dépenses publicitaires peuvent être réparties de telle sorte que le département A reçoit 70 % des dépenses publicitaires et le département B 30 %.

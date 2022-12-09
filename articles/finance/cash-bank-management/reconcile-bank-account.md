@@ -14,12 +14,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 12de50f26127c54c2f82ace43487de10e7125aea
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779525"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804208"
 ---
 # <a name="reconcile-a-bank-account"></a>Rapprocher un compte bancaire
 
@@ -63,7 +63,7 @@ Pour activer la case à cocher **Compensé** pour un intervalle de chèques enti
 
 ## <a name="cancel-bank-statement-reconciliation"></a>Annuler le rapprochement de relevé bancaire 
 
-La fonctionnalité Annuler le rapprochement de relevé de bancaire vous permet d’annuler le rapprochement de relevé bancaire. Pour utiliser cette fonctionnalité, activez la fonctionnalité **Annuler le rapprochement de relevé bancaire** dans l’espace de travail **Gestion des fonctions**. Vous devez également activer le paramètre **Autoriser la modification du relevé bancaire**. Pour ce faire, accédez à **Gestion de la trésorerie et de la banque > Paramétrage > Paramètres de gestion de la trésorerie et de la banque > Rapprochement bancaire**.
+La fonctionnalité **Annuler le rapprochement de relevé de bancaire** vous permet d’annuler le rapprochement de relevé bancaire. Pour utiliser cette fonctionnalité, activez la fonctionnalité **Annuler le rapprochement de relevé bancaire** dans l’espace de travail **Gestion des fonctions**. Vous devez également activer le paramètre **Autoriser la modification du relevé bancaire**. Pour ce faire, accédez à **Gestion de la trésorerie et de la banque > Paramétrage > Paramètres de gestion de la trésorerie et de la banque > Rapprochement bancaire**.
  
 Les rapprochements de relevé bancaire ne peuvent être annulés que dans l’ordre chronologique dans lequel ils ont été entrés. Lorsqu’un rapprochement de relevé bancaire est annulé, de nouvelles transactions et corrections seront contrepassées et toutes les autres transactions seront marquées comme non rapprochées.
  

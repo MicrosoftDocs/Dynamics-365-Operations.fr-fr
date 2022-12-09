@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276714"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819267"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Configurer la taxe de vente pour les commandes en ligne
 
@@ -33,6 +33,8 @@ Vous pouvez souhaiter que votre canal de commerce électronique puisse prendre e
 ## <a name="destination-based-taxes-for-online-orders"></a>Taxes basées sur la destination pour les commandes en ligne
 
 En général, les taxes pour les commandes en ligne expédiées aux adresses des clients sont définies par la destination. Chaque groupe de taxes a une configuration de taxe basée sur la destination de vente au détail dans laquelle votre entreprise peut définir des détails de destination, tels que le pays ou la région, l’état, le département et la ville, sous une forme hiérarchique.
+
+La configuration de la **Taxe basée sur la destination de vente au détail** se trouve dans la section **module Taxe > Taxes indirectes > Taxe de vente > Groupes de taxes de vente**.
 
 ### <a name="orders-delivered-to-customer-address"></a>Commandes livrées à une adresse client
 

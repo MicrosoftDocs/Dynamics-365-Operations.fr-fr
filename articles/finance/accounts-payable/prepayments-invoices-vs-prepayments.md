@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 1d123a341a471dd37fcc33e0025ce5e98235a27f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715827"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804261"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Factures d’acompte et acomptes
 
@@ -65,12 +65,13 @@ Un compte d’acompte doit être défini sur l’onglet **Commande fournisseur**
 
 Le compte de synthèse de contrepartie de la comptabilité fournisseur est défini sur le profil **Validation fournisseur**. Pour définir le profil de validation par défaut, cliquez sur **Comptabilité fournisseur \> Paramétrage \> Paramètres de la comptabilité fournisseur \> Onglet Comptabilité et taxe \> Profil de validation avec facture d’acompte fournisseur**.
 
-La **Stratégie d’application des acomptes** indique si le système appliquera automatiquement les factures d’acompte réglées à la facture finale qui a été créée manuellement. Les factures créées à l’aide d’une entité de données ne font pas référence à la **Stratégie d’application des acomptes**. Vous devrez appliquer manuellement les factures d’acompte réglées aux factures créées à l’aide d’une entité de données. Pour définir la stratégie, accédez à **Comptabilité fournisseur \> Paramétrage \> Paramètres de la comptabilité fournisseur \> Onglet Comptabilité et taxe \> Stratégie d’application des acomptes**. Si le champ **Stratégie d’application des acomptes** est défini sur **Automatique**, la facture d’acompte sera automatiquement marquée pour règlement avec la facture finale. Si le champ est défini sur **Notification**, une indication visuelle qu’une facture d’acompte est disponible pour l’application s’affichera lors de la création de la facture finale.
+La **Stratégie d’application des acomptes** indique si les factures d’acompte réglées seront appliquées automatiquement à la facture finale qui a été créée manuellement. Les factures créées à l’aide d’une entité de données ne font pas référence à la **Stratégie d’application des acomptes**. Vous devrez appliquer manuellement les factures d’acompte réglées aux factures créées à l’aide d’une entité de données. Pour définir la stratégie, accédez à **Comptabilité fournisseur \> Paramétrage \> Paramètres de la comptabilité fournisseur \> Onglet Comptabilité et taxe \> Stratégie d’application des acomptes**. Si le champ **Stratégie d’application des acomptes** est défini sur **Automatique**, la facture d’acompte sera automatiquement marquée pour règlement avec la facture finale. Si le champ est défini sur **Notification**, une indication visuelle qu’une facture d’acompte est disponible pour l’application s’affichera lors de la création de la facture finale.
 
 ## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Créer une commande fournisseur contenant des informations sur la facture d’acompte
 Lorsqu’un fournisseur vous dit qu’il a besoin d’un acompte pour les biens et services contenus dans une commande fournisseur, vous devez définir la valeur d’acompte pour la commande fournisseur concernée. Accédez à **Comptabilité fournisseur \> Commun \> Commandes fournisseur \> Toutes les commandes fournisseur** et recherchez la commande fournisseur du fournisseur. Dans le volet Actions, sélectionnez l’onglet **Achat**, puis sélectionnez **Acompte**. Entrez les informations relatives à l’acompte, notamment une description, la valeur de l’acompte, si l’acompte est un montant fixe ou un pourcentage, et un ID de catégorie d’acompte. 
 
-Notez qu’il n’est pas possible de mettre plusieurs définitions d’acompte sur une commande fournisseur. Si vous devez autoriser plusieurs acomptes sur une commande fournisseur, validez les paiements à l’aide du journal des paiements au lieu d’une facture d’acompte.
+> [!Note] 
+> Il n’est pas possible de mettre plusieurs définitions d’acompte sur une commande fournisseur. Si vous devez autoriser plusieurs acomptes sur une commande fournisseur, validez les paiements à l’aide du journal des paiements au lieu d’une facture d’acompte.
 
 L’acompte peut être supprimé de la commande fournisseur, sauf si vous avez déjà réglé un paiement sur la facture d’acompte validée ou validé la facture standard. Pour supprimer une information d’acompte de la commande fournisseur, sélectionnez **Comptabilité fournisseur \> Commun \> Commandes fournisseur \> Toutes les commandes fournisseur** et recherchez la commande fournisseur du fournisseur. Dans le volet Actions, sélectionnez l’onglet **Achat**, puis sélectionnez **Supprimer l’acompte**.
 

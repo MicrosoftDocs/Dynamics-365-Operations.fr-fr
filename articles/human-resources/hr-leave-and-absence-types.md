@@ -2,7 +2,7 @@
 title: Configuration des types de congé et d’absence
 description: Configurez les types de congés que les employés peuvent prendre dans Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,14 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: e35c5fed886ebf9a453c22b3e04ca9ffe50b6d70
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9323956"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805202"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configuration des types de congé et d’absence
+
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,20 +42,26 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 
 1. Dans l'espace de travail **Plans de congé et d’absence**, sélectionnez l’onglet **Liens**.
 2. Sous **Configuration**, sélectionnez **Types de congé et d’absence**.
-3. Sélectionnez **Nouveau**.
-4. Entrez un nom pour le type de congé sous **Type**, sélectionnez un workflow dans **ID workflow** et entrez une description sous **Description**.
+3. Cliquez sur **Nouveau**.
+4. Entrez un nom pour le type de congé sous **Type**, entrez une description sous **Description**, puis sélectionnez un flux de travail dans le champ **ID du flux de travail**. En fonction du type de congé, sélectionnez un type de demande dans le champ **Type de demande**. Par exemple, sélectionnez **Absence** ou **Congé**.
 5. Dans **Général**, sélectionnez **Aucun**, **Planifié**, ou **non planifié** dans me menu déroulant **Catégorie**.
 6. Sélectionnez un code de rémunération dans le menu déroulant **Code de rémunération**.
-7. Sous **Code motif obligatoire**, choisissez si vous souhaitez exiger un code de motif. Si vous souhaitez exiger des codes de motif, vous devrez peut-être les ajouter. Sous **Codes motif**, sélectionnez **Ajouter**, sélectionnez un code de motif, puis cochez la case **Activé** à côté.
-8. Sous **Restreindre l’accès aux rôles sélectionnés**, choisissez si vous souhaitez restreindre l’accès. Sélectionnez ensuite les rôles de sécurité sous **Rôles de sécurité pour ce type de congé**. Les rôles de sécurité sont définis dans le workflow que vous avez sélectionné sous **ID workflow** plus tôt dans cette procédure.
-9. Sous **Couleur du calendrier**, choisissez la couleur à afficher sur les calendriers de congé et d’absence pour ce type de congé. 
-10. En dessous de **Relations de suspension**, choisissez si vous souhaitez que ce type de congé suspende un autre type de congé ou soit suspendu par un autre type de congé. Lorsqu’une demande de congé est soumise pour le type de congé suspendu, une suspension de congé est automatiquement créée pour le type de congé suspendu. 
-11. Cliquez sur **Enregistrer**.
+7. Sous **Code motif obligatoire**, sélectionnez si vous souhaitez exiger un code de motif. Si vous souhaitez exiger des codes de motif, vous devrez peut-être les ajouter. Sous **Codes motif**, sélectionnez **Ajouter**, sélectionnez un code de motif, puis cochez la case **Activé** à côté.
+8. Si le type de demande est **Congé**, procédez comme suit :
+
+      1. Sous **Durée indéterminée**, indiquez si les utilisateurs doivent pouvoir créer des congés à durée indéterminée.
+      2. Si l’option **Durée indéterminée** est activée, vous pouvez sélectionner si les employés doivent soumettre un avis de retour au travail lorsqu’ils reviennent d’un congé.
+      3. Si les employés doivent soumettre un avis de retour au travail, vous pouvez activer **Activer l’avis de retour au travail**. Si **Activer l’avis de retour au travail** est activé, l’option **Pièce jointe requise** est automatiquement activée et ne peut pas être désactivée.
+
+9. Si les utilisateurs doivent télécharger des documents lorsqu’ils créent ou mettent à jour des demandes de congé, vous pouvez activer **Pièce jointe obligatoire**.
+10. Sous **Restreindre l’accès aux rôles sélectionnés**, sélectionnez si vous souhaitez restreindre l’accès. Sélectionnez ensuite les rôles de sécurité sous **Rôles de sécurité pour ce type de congé**. Les rôles de sécurité sont définis dans le workflow que vous avez sélectionné sous **ID du flux de travail** plus tôt dans cette procédure.
+11. Sous **Couleur du calendrier**, sélectionnez la couleur à afficher sur les calendriers de congé et d’absence pour ce type de congé.
+11. Sous **Relations de suspension**, sélectionnez si vous souhaitez que ce type de congé suspende un autre type de congé ou soit suspendu par un autre type de congé. Lorsqu’une demande de congé est soumise pour le type de congé suspendu, une suspension de congé est automatiquement créée pour le type de congé suspendu.
+12. Cliquez sur **Enregistrer**.
 
 ## <a name="configure-leave-type-rules"></a>Configurer les règles de type de congé
 
 1. Définissez les options d’arrondi pour le type de **Plan de congé et d'absence**. Les options incluent **Aucun**, **Haut**, **Bas** et **Le plus proche**. Vous pouvez également définir la précision d’arrondi pour le type de congé.
-
 2. Définissez **Correction des congés** pour le type de congés. Lorsque vous sélectionnez cette option, le nombre de congés qui tombent un jour ouvrable est utilisé pour déterminer comment cumuler des congés pour le type de congé. Par exemple, si le jour de Noël tombe un lundi, Human Resources soustraira un jour du type de congé lors du traitement des régularisations.
 
    Vous définissez des congés dans le calendrier du temps de travail. Pour plus d’informations, voir [Création d’un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md).
@@ -69,7 +77,7 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 
 1. Sur la page **Congés et absences**, sur l’onglet **Liens**, sous **Paramétrage**, sélectionnez **Types de congés et d’absences**.
 
-2. Sélectionnez un type de congé et d’absence dans la liste. Ensuite, dans la section **Général**, utilisez le champ **Pièce jointe requise** pour spécifier si une pièce jointe doit être chargée lorsqu’un employé soumet une nouvelle demande de congé pour le type de congé sélectionné. 
+2. Sélectionnez un **Type de congé et d’absence** dans la liste. Dans la section **Général**, utilisez le champ **Pièce jointe obligatoire** pour spécifier si une pièce jointe doit être chargée lorsqu’un employé soumet une nouvelle demande de congé pour le type de congé sélectionné. 
 
 Les employés devront charger une pièce jointe lorsqu’ils soumettront une nouvelle demande de congé d’un type où le champ **Pièce jointe requise** est activé. Pour afficher la pièce jointe qui a été chargée dans le cadre d’une demande de congé, les approbateurs de la demande de congé peuvent utiliser l’option **Pièces jointes** pour les éléments de travail qui leur sont affectés. Si une demande de congé est consultée à l’aide de l’application Human Resources dans Microsoft Teams, l’option **Afficher les détails** de la demande de congé peut être utilisée pour afficher ses détails et ses éventuelles pièces jointes.
 

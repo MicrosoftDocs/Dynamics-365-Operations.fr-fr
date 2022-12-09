@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30e21c11b067f6def127f3eab026d7255ab1ca29
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 786aecf69bae3d07ac80a55b4dc835dd8129bd59
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779932"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803962"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transaction de lettre de garantie
 
@@ -43,7 +43,7 @@ La société fictive USMF sert d’exemple dans cette procédure.
 1. Accédez à **Comptabilité client > Commandes > Toutes les commandes client**.
 2. Cliquez sur **Nouveau**.
 3. Entrez ou sélectionnez une valeur dans le champ **Compte client**.
-4. Développez la section Général.
+4. Développez la section **Général**.
 5. Entrez ou sélectionnez une valeur dans le champ **Site**.
 6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 7. Entrez ou sélectionnez une valeur dans le champ **Entrepôt**.
@@ -52,9 +52,12 @@ La société fictive USMF sert d’exemple dans cette procédure.
 10. Cliquez sur **OK**.
 11. Entrez ou sélectionnez une valeur dans le champ **Numéro d’article**.
 12. Entrez un nombre dans le champ **Prix unitaire**.
-13. Développez la section Détails de ligne.
-14. Cliquez sur l’onglet Livraison.
-    * Remarque : Sélectionnez Vérification de la date de livraison = Aucun(e).  
+13. Développez la section **Détails de ligne**.
+14. Cliquez sur l’onglet **Livraison**.
+
+>[!Note] 
+>Sélectionnez **Vérification de la date de livraison** = **Aucun(e)**  
+
 15. Dans le champ **Date d’expédition demandée**, entrez une date.
 16. Dans le champ **Date d’expédition confirmée**, entrez une date.
 
@@ -83,7 +86,7 @@ La société fictive USMF sert d’exemple dans cette procédure.
 2. Dans le champ **Numéro de banque**, tapez une valeur.
     * Vérifiez les valeurs dans les champs calculés **Marge** et **Dépense**.  
 3. Cliquez sur **OK**.
-4. Développez la section Actions.
+4. Développez la section **Actions**.
     * Vérifiez l’enregistrement « Recevoir de la banque ».  
 5. Cliquez pour suivre le lien dans le champ **Numéro de lot du journal**.
 6. Cliquez sur **Lignes**.
@@ -102,7 +105,7 @@ La société fictive USMF sert d’exemple dans cette procédure.
 9. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 10. Cliquez sur **Remettre au bénéficiaire** pour ouvrir la boîte de dialogue.
 11. Cliquez sur **OK**.
-12. Développez la section Actions.
+12. Développez la section **Actions**.
     * Validez l’enregistrement « Remettre au bénéficiaire ».  
 
 ## <a name="process-letter-of-guarantee_increase-value"></a>Traiter la lettre de garantie_Augmenter la valeur
@@ -118,7 +121,7 @@ La société fictive USMF sert d’exemple dans cette procédure.
 10. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 11. Cliquer sur **Augmenter la valeur** pour ouvrir la boîte de dialogue.
 12. Cliquez sur **OK**.
-13. Développez la section Actions.
+13. Développez la section **Actions**.
     * Vérifiez l’enregistrement « Augmenter la valeur ».  
 14. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 15. Cliquez pour suivre le lien dans le champ **Numéro de lot du journal**.
@@ -137,7 +140,7 @@ La société fictive USMF sert d’exemple dans cette procédure.
 9. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 10. Cliquer sur **Liquider** pour ouvrir la boîte de dialogue.
 11. Cliquez sur **OK**.
-12. Développez la section Actions.
+12. Développez la section **Actions**.
     * Vérifiez l’enregistrement « Liquider ».  
 13. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 14. Cliquez pour suivre le lien dans le champ **Numéro de lot du journal**.

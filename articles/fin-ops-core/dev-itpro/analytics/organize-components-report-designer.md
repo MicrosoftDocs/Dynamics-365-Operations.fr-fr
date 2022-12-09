@@ -2,7 +2,7 @@
 title: Organiser les composants d’état dans le concepteur d’état
 description: Cet article explique comment organiser les états, les blocs élémentaires et les objets existants dans le générateur d’états.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6abad01232d05e94321d0d568d2e801d92875ae
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: a94a88114072792243026e441e6c5a62ee80fc56
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135877"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802686"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organiser les composants d’état dans le concepteur d’état
 
@@ -28,16 +28,16 @@ ms.locfileid: "9135877"
 
 Après la création des blocs élémentaires et des états générés, il est utile d’organiser ces objets afin qu’ils soient plus faciles à localiser. Cet article explique comment organiser les états, les blocs élémentaires et les objets existants dans le générateur d’états.
 
-Vous pouvez renommer des dossiers, des états, des blocs élémentaires, ainsi que d’autres objets dans le concepteur d’état pour aider à organiser vos fichiers. Selon le type d’objet que vous renommez, vous devrez peut-être mettre à jour des associations avec cet objet.
+Vous pouvez renommer des dossiers, des états, des blocs élémentaires, ainsi que d’autres objets dans Report Designer pour aider à organiser vos fichiers. Selon le type d’objet que vous renommez, vous devrez peut-être mettre à jour des associations avec cet objet.
 
-## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Renommer un dossier ou un bloc élémentaire dans Report Designer
-Dans le Concepteur de rapports, vous pouvez renommer des dossiers, des définitions de rapport, des définitions de ligne, des définitions de colonne et des définitions d’organigramme d’entreprise.
+## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Attribution d’un nouveau nom à un dossier ou à un bloc élémentaire dans le Report Designer
+Dans Report Designer, vous pouvez renommer des dossiers, des définitions de rapport, des définitions de ligne, des définitions de colonne et des définitions d’organigramme d’entreprise.
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Attribution d’un nouveau nom à un dossier ou à un bloc élémentaire dans le Concepteur de rapports
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Attribution d’un nouveau nom à un dossier ou à un bloc élémentaire dans le Report Designer
 
-1. Dans le Concepteur de rapports, utilisez le volet de navigation pour localiser le dossier ou l’objet à renommer.
+1. Dans Report Designer, utilisez le volet de navigation pour localiser le dossier ou l’objet à renommer.
 2. Cliquez avec le bouton droit sur le dossier ou l’objet, puis cliquez sur **Renommer**. Le champ **Nom** dans le volet de navigation devient disponible.
-3. Entrez un nouveau nom, puis appuyez sur Entrer.
+3. Entrez un nouveau nom, puis appuyez sur **Entrer**.
 4. Si le bloc élémentaire est une définition de ligne, une définition de colonne, ou une définition d’arborescence de génération d’états, vous devez mettre à jour d’autres blocs élémentaires associés à lui. Cliquez avec le bouton droit sur le bloc élémentaire que vous avez renommé à l’étape 3, sélectionnez **Associations**, puis sélectionnez un article dans la liste pour le mettre à jour.
 5. Répétez l’étape 4 jusqu’à ce que tous les articles associés soient mis à jour.
 
@@ -46,7 +46,7 @@ Vous pouvez regrouper les définitions d’état pour générer plusieurs états
 
 ### <a name="create-a-report-group"></a>Créer un groupe d’états
 
-1. Dans le générateur d’états, dans le volet de navigation, cliquez sur **Groupes d’états** dans le volet de navigation.
+1. Dans Report Designer, dans le volet de navigation, cliquez sur **Groupes d’états**.
 2. Dans le menu **Fichier**, cliquez sur **Nouveau** &gt; **Définition de groupe d’état** pour ouvrir un nouveau groupe d’état dans la fenêtre du visualiseur. Sinon, cliquez sur le bouton **Groupe d’états** ![Groupe d’états](media/report-group.gif "Groupe de rapports") sur la barre d’outils.
 3. Cliquez sur l’onglet **Groupe de rapports**. Pour remplacer les informations sur les différentes définitions d’état pour la génération de cet état, activez la case à cocher **Remplacer les paramètres de la société, des détails et de date à partir des définitions d’état**. Les informations sur le nom de la société, le niveau de détail, les paramètres provisionnels et la date sont fournis automatiquement mais vous pouvez toujours effectuer des mises à jour.
 4. Pour générer plusieurs états affichant les devises de déclaration, activez la case à cocher **Inclure toutes les devises de déclaration**. Vous pouvez ensuite accéder à plusieurs en cliquant sur le bouton **Devise** dans la visionneuse Web lorsque vous afficherez l’état.
@@ -55,22 +55,22 @@ Vous pouvez regrouper les définitions d’état pour générer plusieurs états
 
 ### <a name="modify-a-report-group"></a>Modifier un groupe d’états
 
-1. Dans le générateur d’états, dans le volet de navigation, cliquez sur **Groupes d’états** dans le volet de navigation.
+1. Dans Report Designer, dans le volet de navigation, cliquez sur **Groupes d’états**.
 2. Double-cliquez sur le groupe d’états à modifier.
 3. Sur l’onglet **Groupe d’états**, apportez les modifications que vous souhaitez.
-4. Dans le menu **Fichier**, cliquez sur **Enregistrer** pour enregistrer le groupe d’états modifié ou sur le bouton **Enregistrer** ![Enregistrer](media/save.gif "Enregistrer") dans la barre d’outils.
+4. Dans le menu **Fichier**, cliquez sur **Enregistrer** pour enregistrer le groupe d’états modifié ou sur le bouton **Enregistrer** ![Enregistrer](media/save.gif "Enregistrer") sur la barre d’outils.
 
-> [REMARQUE] Si vous avez planifié des états à générer à intervalles définis, vous pouvez remplacer ces paramètres et déclarer un état immédiatement.
+> [NOTE] Si vous avez planifié des états à générer à intervalles définis, vous pouvez remplacer ces paramètres et déclarer un état immédiatement.
 
 ### <a name="generate-a-report-group-report"></a>Générer un état du groupe d’états
 
-1. Dans le générateur d’états, dans le volet de navigation, cliquez sur **Groupes d’états** dans le volet de navigation.
+1. Dans Report Designer, dans le volet de navigation, cliquez sur **Groupes d’états**.
 2. Ouvrez le groupe d’états à générer.
-3. Cliquez sur le bouton **Générer un état** ![Générer un état](media/generate-report.gif "Générer un état") pour générer des états.
+3. Cliquez sur le bouton **Générer un état** ![Générer un état](media/generate-report.gif "Générer un rapport") pour générer des états.
 
 ### <a name="delete-a-report-group"></a>Supprimer un groupe d’états
 
-1. Dans le générateur d’états, dans le volet de navigation, cliquez sur **Groupes d’états** dans le volet de navigation.
+1. Dans Report Designer, dans le volet de navigation, cliquez sur **Groupes d’états**.
 2. Cliquez avec le bouton droit sur le groupe d’états à supprimer, puis sélectionnez **Supprimer**.
 3. Lorsqu’un message de confirmation apparaît, cliquez sur **Oui**.
 
@@ -80,7 +80,7 @@ Le tableau suivant décrit les contrôles l’onglet **Groupe d’états**.
 <table>
 <thead>
 <tr>
-<th>Contrôle</th>
+<th>Contrôler</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -113,7 +113,7 @@ Le tableau suivant décrit les contrôles l’onglet **Groupe d’états**.
 </tr>
 <tr>
 <td>Inclure toutes les devises de déclaration</td>
-<td>Toutes les devises de déclaration supplémentaires configurées dans votre système Microsoft Dynamics ERP sont indiquées ici. Activez cette case à cocher pour générer des états supplémentaires dans les devises indiquées. Pour afficher ces rapports dans la visionneuse Web, cliquez sur le bouton <strong>Devise</strong> et sélectionnez une devise.</td>
+<td>Toutes les devises de déclaration supplémentaires configurées dans votre système Microsoft Dynamics 365 Finance sont indiquées ici. Activez cette case à cocher pour générer des états supplémentaires dans les devises indiquées. Pour afficher ces rapports dans la visionneuse Web, cliquez sur le bouton <strong>Devise</strong> et sélectionnez une devise.</td>
 </tr>
 <tr>
 <td>Informations de date non enregistrées avec la définition d’état</td>

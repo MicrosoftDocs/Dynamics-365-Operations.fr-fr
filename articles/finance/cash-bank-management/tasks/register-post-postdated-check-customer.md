@@ -12,18 +12,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f89adfc3055da346cfe9b6951076094b133c842
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 06846141aff993dbcc9654d81a3e267343e925c0
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779714"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803854"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Enregistrer et valider un chèque postdaté pour un client
 
 [!include [banner](../../includes/banner.md)]
 
-Vous pouvez enregistrer les informations relatives à un chèque postdaté reçu d’un client. Vous pouvez également valider le chèque postdaté et générer des transactions financières. Terminez les tâches suivantes avant d’enregistrer et de valider un chèque postdaté reçu d’un client :  * Configurer les chèques postdatés dans la page Gestion de la trésorerie et de la banque * Configurer un mode de paiement pour les chèques postdatés    Le rôle pour cette procédure est Trésorier. La société fictive USMF sert d’exemple dans cette procédure.
+Vous pouvez enregistrer les informations relatives à un chèque postdaté reçu d’un client. Vous pouvez également valider le chèque postdaté et générer des transactions financières. Procédez comme suit avant d’enregistrer et de valider un chèque postdaté reçu d’un client :  
+ - Configurer un chèque postdaté dans la page **Gestion de la trésorerie et de la banque** 
+ - Paramétrage d’un mode de paiement pour les chèques postdatés   
+  
+ Le rôle pour cette procédure Trésorier. La société fictive USMF sert d’exemple dans cette procédure.
 
 1. Accédez à **Comptabilité client > Paiements > Journal des paiements**.
 2. Cliquez sur **Nouveau**.

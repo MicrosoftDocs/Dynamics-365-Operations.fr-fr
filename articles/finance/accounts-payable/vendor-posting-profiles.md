@@ -2,7 +2,7 @@
 title: Profils de validation fournisseur
 description: Les profils de validation fournisseur contrôlent la validation des transactions fournisseur pour la comptabilité.
 author: abruer
-ms.date: 06/12/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.form: VendPosting
-ms.openlocfilehash: 922612e536164c7985f0be107f67ad8bbaef7898
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 09f27ef510f38c10fc265b682a492ba5872b6d3e
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272976"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799597"
 ---
 # <a name="vendor-posting-profiles"></a>Profils de validation fournisseur
 
@@ -94,7 +94,7 @@ Si vous souhaitez que toutes les transactions fournisseur aient le même profil 
 </tr>
 <tr class="even">
 <td><strong>Arrivée</strong></td>
-<td>Permet de sélectionner le compte général sur lequel les informations relatives aux factures fournisseur non approuvées sont validées. Les informations sont entrées dans le journal du registre des factures. Par exemple, un utilisateur entre des informations très élémentaires sur des factures fournisseur lors de leur réception dans le registre des factures. Lors de la validation du registre des factures, les transactions sont validées sur le compte entré ici et dans le champ <strong>Compte de contrepartie</strong>. Lors de l’approbation des factures, la dette est transférée du compte Arrivée vers le compte collectif fournisseur.</td>
+<td>Permet de sélectionner le compte général sur lequel les informations relatives aux factures fournisseur non approuvées sont validées. Les informations sont entrées dans le <strong>journal du registre des factures</strong>. Par exemple, un utilisateur entre des informations très élémentaires sur des factures fournisseur lors de leur réception dans le registre des factures. Lors de la validation du registre des factures, les transactions sont validées sur le compte entré ici et dans le champ <strong>Compte de contrepartie</strong>. Lors de l’approbation des factures, la dette est transférée du compte Arrivée vers le compte collectif fournisseur.</td>
 </tr>
 <tr class="odd">
 <td><strong>Compte de contrepartie</strong></td>
@@ -110,10 +110,10 @@ Pour les transactions dont le profil de validation est sélectionné, spécifiez
 
 Spécifier les valeurs suivantes pour paramétrer votre profil de validation
 
-| Champ          | Description                                                                                                                                                                                                    |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Champ          | Description             |
+|----------------|--------------------------------------------------------------------------|
 | **Lettrage** | Sélectionnez cette option pour activer le règlement automatique des transactions bénéficiant de ce profil de validation. Si cette option est désactivée, vous devez régler manuellement les transactions à l’aide de la page **Régler les transactions en cours**. |
-| **Annuler**     | Sélectionnez cette option pour pouvoir annuler les transactions associées à ce profil de validation.                                                                                                               |
+| **Annuler**     | Sélectionnez cette option pour pouvoir annuler les transactions associées à ce profil de validation.                              |
 | **Clôture**      | Permet de sélectionner un autre profil de validation à utiliser lors de la clôture des transactions présentant ce profil de validation. Une transaction est considérée comme clôturée si elle a été totalement réglée.                                       |
 
 

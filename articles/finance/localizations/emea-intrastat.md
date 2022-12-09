@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble de déclaration d’échanges de biens
 description: Cet article fournit des informations sur la génération d’états de déclaration d’échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l’Union européenne (UE).
-author: EvgenyPopovMBS
-ms.date: 01/13/2021
+author: mrolecki
+ms.date: 11/30/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom:
 - "28581"
 - intro-internal
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: epopov
+ms.author: mrolecki
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 762de8a098c61bc0d717c038d6ca0ff6d649bff3
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894778"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815709"
 ---
 # <a name="intrastat-overview"></a>Vue d’ensemble de déclaration d’échanges de biens
 
@@ -387,6 +387,28 @@ Dans cet exemple, une entreprise en Allemagne doit acheter 10 unités de marcha
 5. Examinez l’onglet **Général** pour la commande fournisseur. Remarquez que les champs **Quantité d’unités supplémentaires** et **Unité supplémentaire** de la section **Unité** sont automatiquement définis.
 
    ![Détails de la commande fournisseur sur l’onglet Général de la page de déclaration d’échanges de biens](media/intrastat_overview_6.png)
+   
+## <a name="list-of-countryregion-specific-articles"></a>Liste des articles spécifiques à chaque pays/région
+Le tableau suivant répertorie les articles Intrastat spécifiques aux pays/régions disponibles.
+
+| Pays          | Lien      |
+|------------------|-----------|
+| Autriche          |[Déclaration d’échanges de biens (Autriche)](emea-aut-intrastat.md)| 
+| Belgique          |[Déclaration d’échanges de biens, Belgique](emea-bel-intrastat.md)|
+| République tchèque   |[Déclaration d’échanges de biens (République tchèque)](emea-cze-intrastat.md)|
+| Danemark          |[Déclaration d’échanges de biens (Danemark)](emea-dnk-intrastat.md)|
+| Estonie          |[Déclaration d’échanges de biens (Estonie)](emea-est-intrastat.md)|
+| Finlande          |[Déclaration d’échanges de biens finlandaise](emea-fin-intrastat.md)|
+| France           |[Déclaration d’échanges de biens française](emea-fra-intrastat.md)|
+| Allemagne          |[Déclaration d’échanges de biens (Allemagne)](emea-deu-intrastat.md)|
+| Hongrie          |[Déclaration d’échanges de biens (Hongrie)](emea-hun-intrastat.md)|
+| Italie            |[Déclaration d’échanges de biens (italien)](emea-ita-intrastat.md)|
+| Lettonie           |[Déclaration d’échanges de biens (Lettonie)](emea-lva-intrastat.md)|
+| Lituanie        |[Déclaration d’échanges de biens lituanienne](emea-ltu-intrastat.md)|
+| Pays-Bas      |[Déclaration d’échanges de biens (Pays-Bas)](emea-nl-intrastat.md)|
+| Pologne           |[Déclaration d’échanges de biens (Pologne)](emea-pol-intrastat.md)|
+| Espagne            |[Déclaration d’échanges de biens (Espagne)](emea-esp-intrastat.md)|
+| Suède           |[Déclaration d’échanges de biens (Suède)](emea-swe-intrastat.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

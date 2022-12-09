@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51c6cb7c5706bb4bd7080c7f7d679e49771443d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e6c98246e94670dd5f882fcbbd1f269e57f66faf
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869834"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805285"
 ---
 # <a name="request-a-leave-of-absence"></a>Demander un congé
 
@@ -51,6 +51,22 @@ Vous pouvez soumettre une demande de congé et voir l’état de vos demandes de
 1. Dans l’espace de travail **Libre service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
 
 2. Pour visualiser vos demandes de congé, sélectionnez **Afficher les congés**.
+
+## <a name="update-a-leave-of-absence-request"></a>Mettre à jour une demande de congé
+
+1. Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Congé**.
+2. Sélectionnez la demande de congé à mettre à jour, puis sélectionnez **Mettre à jour le congé**.
+3. Dans le champ **Date de fin**, mettez à jour la valeur appropriée pour prolonger ou raccourcir le congé.
+4. Si la date de fin est confirmée, définissez l’option **Confirmer la date de fin** sur **Oui**.
+5. Une fois que l’option **Confirmer la date de fin** est définie sur **Oui**, vous pouvez télécharger un avis de retour au travail. Cochez ensuite la case pour confirmer qu’un avis de retour au travail a été téléchargé.
+6. Sélectionnez **Soumettre** pour mettre à jour la demande de congé.
+
+## <a name="cancel-a-leave-of-absence-request"></a>Annuler une demande de congé
+
+1. Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Congé**.
+2. Sélectionnez la demande de congé à annuler, puis sélectionnez **Mettre à jour le congé**.
+3. Définissez l’option **Annuler le congé** sur **Oui**.
+4. Sélectionnez **Soumettre** pour annuler la demande de congé.
 
 ## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Importation de demandes de congé depuis d’autres systèmes ou des systèmes plus anciens
 

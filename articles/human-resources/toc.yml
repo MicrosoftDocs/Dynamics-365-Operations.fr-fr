@@ -568,8 +568,10 @@
               href: hr-leave-and-absence-accrue.md
             - name: Suspendre les congés
               href: hr-leave-and-absence-suspend-leave.md
-            - name: Demande d’absence
+            - name: Demande de congé
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Créer une demande de congé en cours
+              href: hr-create-open-leave-absence.md
             - name: Gérer les congés des employés
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Afficher l’analyse des congés et des absences

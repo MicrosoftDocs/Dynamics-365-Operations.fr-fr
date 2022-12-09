@@ -1,8 +1,8 @@
 ---
-title: Suspendre les congés
-description: Vous pouvez suspendre les congés d’un employé dans Dynamics 365 Human Resources.
+title: Interrompre un congé
+description: Vous pouvez interrompre le congé d’un employé dans Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93b530aeef6fd14b56ac846e3bb0ad4080d67587
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c8262fb34175f6f9326d6be82c922b2170fc5a7
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895900"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805258"
 ---
 # <a name="suspend-leave"></a>Suspendre les congés
 
 >[!Important]
 >La fonctionnalité indiquée dans cet article est actuellement disponible pour les clients sur Dynamics 365 Human Resources autonome. Certaines ou toutes les fonctionnalités seront disponibles dans le cadre d’une future version de l’infrastructure Finance après la version 10.0.26 de Finance.
 
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vous pouvez suspendre les congés d’un employé pour interrompre le traitement des régularisations de congés pour les types de congés sélectionnés. 
+Vous pouvez interrompre le congé d’un employé pour arrêter le traitement des régularisations de congés pour les types de congés sélectionnés.
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>Suspendre les congés et les absences pour un employé
 
@@ -44,6 +43,9 @@ Vous pouvez suspendre les congés d’un employé pour interrompre le traitement
 5. Vous pouvez éventuellement ajouter un **Commentaire** pour la suspension. 
 
 Si les régularisations sont traitées alors que le congé de l’employé est suspendu, aucune régularisation ne sera effectuée pour le congé de type suspendu.
+
+> [!NOTE]
+> Les demandes de congé interrompent les demandes d’absence, mais les demandes d’absence ne suspendent pas les demandes de congé.
 
 ## <a name="see-also"></a>Voir également :
 

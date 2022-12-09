@@ -2,7 +2,7 @@
 title: Profils de validation client
 description: Cet article décrit les profils de validation client qui contrôlent la validation des transactions client dans la comptabilité.
 author: JodiChristiansen
-ms.date: 12/22/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04cf5b8656bccde974fb1adfdf830080e2f52436
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891693"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799570"
 ---
 # <a name="customer-posting-profiles"></a>Profils de validation client
 
@@ -58,15 +58,15 @@ Si vous souhaitez que toutes les transactions client aient le même profil de va
 </thead>
 <tbody>
 <tr>
-<td>Profil de validation</td>
+<td><strong>Profil de validation</strong></td>
 <td>Permet d’entrer un code pour le profil de validation. Par exemple, vous pouvez créer deux profils de validation afin d’obtenir un compte pour les soldes client dans la devise nationale et un autre dans une devise étrangère. Vous pouvez appeler un compte National et l’autre Étranger.</td>
 </tr>
 <tr>
-<td>Description</td>
+<td><strong>Description</strong></td>
 <td>Permet d’entrer la description du profil de validation. Cela est uniquement utilisé pour mieux identifier le profil de validation lorsque vous l’affichez sur cette page.</td>
 </tr>
 <tr>
-<td>Code de compte</td>
+<td><strong>Code de compte</strong></td>
 <td>Permet de spécifier si le profil de validation s’applique à un seul client, à un groupe de clients ou à tous les clients :
 <ul>
 <li><b>Table</b> – Le profil de validation s’applique à un seul client. Sélectionnez le compte client dans le champ <b>Numéro de compte/groupe</b>.</li>
@@ -76,33 +76,33 @@ Si vous souhaitez que toutes les transactions client aient le même profil de va
 </td>
 </tr>
 <tr>
-<td>Numéro de compte/groupe</td>
+<td><strong>Numéro de compte/groupe</strong></td>
 <td>Si l’option <b>Table</b> est sélectionnée dans le champ <b>Code de compte</b>, sélectionnez le numéro de compte du client associé au profil de validation. Si l’option <b>Groupe</b> est sélectionnée, sélectionnez le groupe de clients. Si l’option <b>Tous</b> est sélectionnée, laissez ce champ vide.</td>
 </tr>
 <tr>
-<td>Compte collectif</td>
+<td><strong>Compte collectif</strong></td>
 <td>Permet de sélectionner le compte principal qui sera utilisé comme compte de transactions Comptabilité client pour les clients associés au profil de validation. Ce compte est le compte du type de validation <b>Solde client</b>.</td>
 </tr>
 <tr>
-<td>Compte de liquidités pour les paiements</td>
-<td>Permet de sélectionner le compte général de liquidités utilisé pour les prévisions de flux de trésorerie. Ce champ s’affiche uniquement si les prévisions de flux de trésorerie sont activées.</td>
+<td><strong>Compte de liquidités pour les paiements</strong></td>
+<td>Sélectionnez le <strong>Compte général de liquidités</strong> utilisé pour les prévisions de flux de trésorerie. Ce champ s’affiche uniquement si les prévisions de flux de trésorerie sont activées.</td>
 </tr>
 <tr>
-<td>Acomptes de taxe</td>
+<td><strong>Acomptes de taxe</strong></td>
 <td><p>Permet de sélectionner le compte pour les paiements en avance des taxes.</p>
 <p><strong>Remarque :</strong> Utilisez la page <b>Paramètres de la comptabilité client</b> permet de spécifier le profil de validation utilisé lorsqu’un paiement est marqué comme acompte.</p>
 </td>
 </tr>
 <tr>
-<td>Compte d’engagements de remise</td>
+<td><strong>Compte d’engagements de remise</strong></td>
 <td>Permet de sélectionner le compte général des engagements de remise.</td>
 </tr>
 <tr>
-<td>Série de lettres de relance</td>
+<td><strong>Série de lettres de relance</strong></td>
 <td>Permet de sélectionner l’identificateur de la série de lettres de relance à utiliser pour les clients auxquels le profil de validation est affecté.</td>
 </tr>
 <tr>
-<td>Code intérêt</td>
+<td><strong>Code intérêt</strong></td>
 <td>Permet de sélectionner le code intérêt à utiliser pour le calcul des intérêts des clients auxquels le profil de validation est affecté.</td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ Si vous souhaitez que toutes les transactions client aient le même profil de va
 
 ## <a name="posting-examples"></a>Exemples de validation
 
-Le tableau suivant montre des exemples de types de comptabilisation par défaut avec des exemples de comptes principaux et des descriptions. La colonne **Débit/Crédit** indique si la transaction est généralement débitée ou créditée ou, dans certains cas, peut être enregistrée. La colonne **Compte de compensation** indique que le type de comptabilisation est un compte de compensation. Cela signifie que le montant enregistré sur ce compte est automatiquement annulé lorsqu’une transaction ultérieure est enregistrée. 
+Le tableau suivant montre des exemples de types de comptabilisation par défaut avec des exemples de comptes principaux et des descriptions. La colonne **Débit/Crédit** indique si la transaction est généralement débitée ou créditée ou, dans certains cas, peut être validée. La colonne **Compte de compensation** indique que le type de comptabilisation est un compte de compensation. Cela signifie que le montant enregistré sur ce compte est automatiquement annulé lorsqu’une transaction ultérieure est enregistrée. 
 
 | Type de validation | Exemple de compte principal | Exemple de nom de compte principal | Type de compte | Débit/crédit | Compte de compensation | Description |
 |--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|

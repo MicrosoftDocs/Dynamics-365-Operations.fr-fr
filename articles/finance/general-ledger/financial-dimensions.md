@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680356"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799624"
 ---
 # <a name="financial-dimensions"></a>Dimensions financières
 
@@ -136,6 +136,12 @@ Vous pouvez paramétrer les segments et les valeurs des dimensions dérivées à
 - L’entité Valeur de dimensions dérivées permet d’importer les valeurs qui doivent être dérivées pour chaque dimension pilote.
 
 Quand vous utilisez une entité pour importer des données, si cette entité importe des dimensions, les règles des dimensions dérivées sont appliquées pendant l’importation sauf si l’entité remplace spécifiquement ces dimensions.
+
+## <a name="financial-dimension-service"></a>Service de dimensions financières
+
+Le complément de service de dimension financière est disponible dans votre environnement Microsoft Dynamics Lifecycle Services. Il améliore les performances lorsque vous utilisez l’infrastructure de gestion des données pour importer un journal comportant un grand nombre de lignes. Pour utiliser le service, vous devez l’activer sur la page **Paramètres du service de dimension financière**. Actuellement, le service ne fonctionne que sur les journaux importés comptant 500 lignes ou plus. De plus, à ce stade, il ne peut traiter que les journaux généraux où le type de compte **Comptabilité** est défini sur les lignes de journal. Les autres types de compte sur les lignes de journal, tels que **Client**, **Fournisseur** et **Banque** ne sont pas pris en charge actuellement. Ce service ne sera pas appelé lorsque les dimensions dérivées seront configurées dans le système.
+
+Le service de dimension financière offre des performances améliorées lors de l’importation des journaux en utilisant un nouveau service exécuté parallèlement à l’importation des données. Il est exécuté uniquement sur les données de compte principal et de dimension financière dans le journal, et il génère les combinaisons de dimensions qui sont spécifiées dans le champ de chaîne de compte général sur les lignes de journal. Le traitement convertit cette chaîne en stockage de données structurées que l’infrastructure de la dimension financière utilise dans le reste du produit pour la validation, les rapports récapitulatifs et les requêtes. Pour plus d’informations sur les rapports récapitulatifs des données de dimension financière, voir [Ensembles de dimensions financières](financial-dimension-sets.md).
 
 Pour plus d’informations, voir les rubriques suivantes :
 

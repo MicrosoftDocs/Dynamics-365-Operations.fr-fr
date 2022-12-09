@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 6283e07b87dc169d3cbaa71a371839ab9b2d6150
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9785097"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799034"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de la plateforme supprimées ou déconseillées
 
@@ -71,10 +71,10 @@ Dans le cadre de l’effort de travail [One Dynamics One Platform](/dynamics365-
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Nous supprimons la liste suivante de suites de chiffrement pour nous conformer à nos protocoles de sécurité actuels.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Remplacé par une autre fonctionnalité ?**   | À compter du 31 janvier 2023, les clients ne pourront utiliser que nos [suites de chiffrement standard](/power-platform/admin/server-cipher-tls-requirements). Ce changement a un impact sur vos clients et serveurs qui communiquent avec nos serveurs, par exemple, il peut avoir un impact sur vos intégrations tierces qui ne respectent pas nos suites de chiffrement standard. |
+| **Remplacé par une autre fonctionnalité ?**   | À compter de janvier 2023, les clients ne pourront utiliser que nos [suites de chiffrement standard](/power-platform/admin/server-cipher-tls-requirements). Ce changement a un impact sur vos clients et serveurs qui communiquent avec nos serveurs, par exemple, il peut avoir un impact sur vos intégrations tierces qui ne respectent pas nos suites de chiffrement standard. |
 | **Zones de produit affectées**         | Applications de finances et d’opérations |
 | **Option de déploiement**              | Déploiements cloud |
-| **Status**                         | Obsolète. Les clients doivent mettre à jour leurs serveurs avant le 31 janvier 2023. Pour plus d’informations sur la configuration de l’ordre de la Suite de chiffrement TLS, consultez [Gérer la sécurité de la couche de transport (TLS)](/windows-server/security/tls/manage-tls).  |
+| **Status**                         | Obsolète. Les clients doivent mettre à jour leurs serveurs avant janvier 2023. Pour plus d’informations sur la configuration de l’ordre de la Suite de chiffrement TLS, consultez [Gérer la sécurité de la couche de transport (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Notification d’abandon de fonctionnalités à compter de juin 2022

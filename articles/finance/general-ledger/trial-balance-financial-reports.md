@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a202dac3880717e9498212ca34570101188f48ce
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b26d2ec261720499fc309a5fb850de2cb796bd8b
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725203"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802605"
 ---
 # <a name="trial-balance-financial-reports"></a>États financiers de balance comptable
 
@@ -32,8 +32,8 @@ Cet article décrit les états par défaut des balances comptables. Il décrit �
 
 Trois états de balance comptable sont disponibles dans les états financiers.
 
-| Rapport par défaut                                 | Fonction                                                                                                                                                                                        |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Rapport par défaut                                 | Fonction                                                                            |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
 | Balance comptable détaillée – Par défaut               | Fournit les informations de solde pour tous les comptes, et comprend les soldes de débit et de crédit, et le net de ces soldes, avec la date de la transaction, le N° document et la description de journal.                  |
 | Synthèse de balance comptable– Par défaut                | Fournit les informations du solde pour tous les comptes et comprend les soldes d’ouverture et de clôture, et les soldes de débit et de crédit avec leur différence nette.                                        |
 | Synthèse de balance comptable d’une année à l’autre – Par défaut | Fournit les informations du solde pour tous les comptes, et comprend des soldes d’ouverture et de clôture, et les soldes de débit et de crédit avec leur différence nette pour l’année en cours et l’année passée. |

@@ -2,7 +2,7 @@
 title: Définitions de ligne dans le générateur d’états financiers
 description: Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274691"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802443"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Définitions de ligne dans le générateur d’états financiers
 
@@ -30,11 +30,11 @@ Une définition de ligne est un composant de l’état, ou un bloc élémentaire
 
 ## <a name="create-a-row-definition"></a>Création d’une définition de ligne
 
-1. Dans le générateur d’état, dans le volet de navigation, cliquez sur **Définitions de ligne**.
+1. Dans Report Designer, dans le volet de navigation, cliquez sur **Définitions de ligne**.
 2. Dans le menu **Fichier**, cliquez sur **Nouveau**, puis cliquez sur **Définition de ligne**. Pour plus d’informations sur le contenu de chaque cellule, voir [Modifier les cellules de définition de ligne](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="open-a-row-definition"></a>Ouvrir une définition de ligne
-1. Dans le générateur d’état, dans le volet de navigation, cliquez sur **Définitions de ligne**.
+1. Dans Report Designer, dans le volet de navigation, cliquez sur **Définitions de ligne**.
 2. Double-cliquez sur le nom de la définition de ligne à ouvrir.
 3. Pour afficher tous blocs élémentaires associés à la définition de ligne, cliquez avec le bouton droit sur la définition de ligne, puis sélectionnez **Associations**.
 
@@ -71,7 +71,7 @@ Une dimension est une intersection de données et de valeurs. Vous pouvez regrou
 
 Pour ajouter des dimensions à une définition de ligne, procédez comme suit.
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Dans le menu **Édition**, cliquez sur **Insérer des lignes à partir des dimensions**.
 3. Dans la boîte de dialogue **Insérer des lignes à partir de dimensions**, dans la ligne **Dimensions**, sélectionnez la cellule pour que la dimension soit transférée vers la définition de ligne, puis cliquez sur **Tout &&&**.
 4. Pour limiter la définition de ligne à une plage spécifique de valeurs de dimension, saisissez la valeur de dimension de début dans la cellule **Début de la plage de dimensions**, puis saisissez la valeur de dimension de fin dans la cellule **Fin de la plage de dimensions**. Pour inclure toutes les valeurs pour la dimension sélectionnée, laissez ces cellules vides.
@@ -94,7 +94,7 @@ Si vous avez un bilan dans lequel les montants sont arrondis, les totaux peuvent
 
 Pour ajuster l’arrondi dans un bilan, procédez comme suit.
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Dans le menu **Edition**, cliquez sur **Ajustement d’arrondi**.
 3. Dans la boîte de dialogue **Ajustements d’arrondi**, saisissez les valeurs suivantes :
 
@@ -124,7 +124,7 @@ Vous pouvez créer et modifier des styles de police pour l’état. Vous pouvez 
 <td><strong>Créer un style de police</strong></td>
 <td>
 <ol>
-<li>Dans le Concepteur de rapports, dans le menu <strong>Format</strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
+<li>Dans Report Designer, dans le menu <strong>Format</strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
 <li>Cliquez sur <strong>Nouveau</strong> dans la boîte de dialogue <strong>Styles et mise en forme</strong>, puis entrez un nom unique pour le nouveau style.</li>
 <li>Sélectionnez vos polices, puis cliquez sur <strong>OK</strong>.</li>
 </ol>
@@ -134,7 +134,7 @@ Vous pouvez créer et modifier des styles de police pour l’état. Vous pouvez 
 <td><strong>Modification d’un style de police</strong></td>
 <td>
 <ol>
-<li>Dans le Concepteur de rapports, dans le menu <strong>Format</strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
+<li>Dans Report Designer, dans le menu <strong>Format</strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
 <li>Dans la boîte de dialogue <strong>Styles et mise en forme</strong>, sélectionnez un style à modifier puis cliquez sur <strong>Modifier</strong>.</li>
 <li>Sélectionnez vos polices, puis cliquez sur <strong>OK</strong>.</li>
 </ol>
@@ -144,7 +144,7 @@ Vous pouvez créer et modifier des styles de police pour l’état. Vous pouvez 
 <td><strong>Application d’un style de police</strong></td>
 <td>
 <ol>
-<li>Dans le générateur d’états, dans une définition ou une définition de colonne, ou dans les en-têtes et les pieds de page, sélectionnez une ou plusieurs cellules.</li>
+<li>Dans le Report Designer, dans une définition ou une définition de colonne, ou dans les en-têtes et les pieds de page, sélectionnez une ou plusieurs cellules.</li>
 <li>Dans la liste <strong>Style</strong> de la barre d’outils, sélectionnez un style de police.</li>
 </ol>
 </td>
@@ -156,9 +156,9 @@ Vous pouvez créer et modifier des styles de police pour l’état. Vous pouvez 
 
 Cette mise en forme spécifiée dans la définition de colonne remplace la mise en forme spécifiée dans la définition de colonne et la définition d’état. Vous pouvez modifier le format du texte à l’aide des contrôles de la barre d’outils Mise en forme. Ces commandes sont des commandes Microsoft Windows standard.
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne à modifier.
 2. Sélectionnez les cellules à mettre en forme. Pour sélectionner plusieurs cellules, maintenez la touche CTRL enfoncée tout en sélectionnant les cellules souhaitées.
-3. Cliquez sur le bouton de format à appliquer. Par exemple, pour mettre en retrait une ligne, sélectionnez la ligne, puis cliquez sur **Augmenter le retrait** ![Augmenter le retrait](media/indent.gif "Augmenter le retrait") dans la barre d’outils.
+3. Cliquez sur le bouton de format à appliquer. Par exemple, pour mettre en retrait une ligne, sélectionnez la ligne, puis cliquez sur **Augmenter le retrait** ![Augmenter le retrait](media/indent.gif "Augmenter le retrait") sur la barre d’outils.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Ajustement des colonnes durant la création des rapports
 
@@ -166,19 +166,19 @@ Pour faciliter l’affichage des colonnes sur lesquelles vous travaillez dans la
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Modifier la largeur d’une colonne dans le volet d’affichage
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne à modifier.
 2. Dans le menu **Format**, sélectionnez **Largeur de colonne**.
 3. Dans la boîte de dialogue **Largeur de colonne**, entrez une valeur, puis cliquez sur **OK**. Sinon, vous pouvez faire glisser la limite droite d’une cellule d’en-tête de colonne pour modifier la largeur de la colonne.
 
 ### <a name="hide-columns-in-the-view-pane"></a>Masquer les colonnes dans le volet d’affichage
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne à modifier.
 2. Sélectionnez les colonnes à réduire.
 3. Cliquez avec le bouton droit, puis cliquez sur **Masquer**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Permet d’afficher toutes les colonnes masquées dans le volet d’affichage
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne à modifier.
 2. Cliquez avec le bouton droit sur la colonne réduite à afficher, puis cliquez sur **Afficher**.
 
 

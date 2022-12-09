@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872266"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806373"
 ---
 # <a name="recruiting-request"></a>Demande de recrutement
 
@@ -68,7 +68,7 @@ Décrit une demande de recrutement pour un emploi.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Décrit une demande de recrutement pour un emploi.
 | **État**<br>mshr_status<br>Jeu d’options *RecruitingRequestStatus* | Lecture/écriture<br>Requis<br> | Indique le statut de la demande de recrutement. |
 | **Description**<br>mshr_description<br>*Chaîne* | Lecture/écriture<br>Requis | Décrit la demande. |
 | **ID emplacement de la demande de recrutement**<br>mshr_recruitingrequestlocationid<br>*Chaîne* | Lecture/écriture<br>Facultatif | Identificateur unique lisible par l’utilisateur de l’emplacement de la tâche associée à cette demande. |
-| **Valeur de l’ID de l’emplacement de recrutement**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Lecture seule<br>Facultatif<br>Clé étrangère : mshr_hcmrecruitingrequestlocationentityid de l’entité mshr_hcmrecruitingrequestlocationentity | Valeur GUID générée par le système pour identifier l’emplacement de la demande de recrutement sélectionné pour la demande. |
+| **Valeur de l’ID de l’emplacement de recrutement**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Lecture seule<br>Facultatif<br>Clé étrangère : mshr_hcmrecruitingrequestlocationentityid de l’entité mshr_hcmrecruitingrequestlocationentity | Valeur GUID générée par le système pour identifier l’emplacement de la demande de recrutement sélectionné pour la demande. |
 | **Commentaires**<br>mshr_comments<br>*Chaîne* | Lecture/écriture<br>Facultatif | Commentaires sur la demande à utiliser par les responsables du recrutement et les recruteurs. |
 | **ID tâche**<br>mshr_jobid<br>*Chaîne* | Écriture unique<br>Requis |   Identificateur unique lisible par l’utilisateur de la tâche partagée par tous les postes associés à cette demande. |
 | **Valeur de l’ID de tâche**<br>_mshr_fk_job_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_hcmjobentityid de l’entité mshr_hcmjobentity | Identifiant unique généré par le système de la tâche partagée par tous les postes associés à la demande de recrutement. |

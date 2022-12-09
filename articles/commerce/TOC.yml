@@ -1010,8 +1010,24 @@
                   href: manage-robots-txt-files.md
                 - name: Importer des redirections d’URL en bloc
                   href: upload-bulk-redirects.md
-                - name: Configurer un client B2C dans Commerce
-                  href: set-up-B2C-tenant.md
+                - name: Configurer un locataire B2C dans Commerce
+                  items:
+                    - name: Configurer un locataire B2C
+                      href: set-up-B2C-tenant.md
+                    - name: Créer ou lier un locataire Azure AD B2C existant
+                      href: create-link-aad-b2c-tenant.md
+                    - name: Créer une application B2C
+                      href: create-b2c-app.md
+                    - name: Créer des stratégies de flux d’utilisateur
+                      href: create-user-flow-policies.md
+                    - name: Ajouter des fournisseurs d’identité sociale
+                      href: add-social-identity-providers.md
+                    - name: Mettre à jour Commerce headquarters avec les informations Azure AD B2C
+                      href: update-hq-aad-b2c-info.md
+                    - name: Configurer votre locataire B2C dans le générateur de site
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Informations B2C supplémentaires
+                      href: additional-b2c-info.md
                 - name: Paramétrer des pages personnalisées pour les connexions utilisateur
                   href: custom-pages-user-logins.md
                 - name: Activer la liaison automatique des enregistrements d’identité avec les comptes client
@@ -1570,6 +1586,8 @@
               items:
                 - name: Générer des codes QR et les imprimer sur les reçus pour l’Arabie Saoudite
                   href: localizations/emea-sau-qr-code.md
+                - name: Générer et soumettre des factures électroniques simplifiées pour l’Arabie saoudite
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Suède
               items:
                 - name: Fonctionnalité de la caisse enregistreuse
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Les taxes sur les commandes en ligne ne sont pas correctement calculées
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Erreur de synchronisation de commande associée au service de paiement par défaut
+                - name: Problèmes de synchronisation des commandes asynchrones
                   href: troubleshoot/synchronization-error.md
             - name: Traitement des paiements
               items:

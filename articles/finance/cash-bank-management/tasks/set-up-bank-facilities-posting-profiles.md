@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 0987ae1e9cfbb1e2d2a957a5fd1ad82257292c0a
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779878"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804099"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Paramétrer les établissements bancaires et les profils de validation pour les lettres de garantie
 
@@ -58,7 +58,7 @@ La société fictive USMF est citée en exemple dans cette tâche.
 10. Dans le champ **Groupe d’établissements**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 11. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 12. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-13. Dans le champ **Nature de l’établissement, sélectionnez une option.
+13. Dans le champ **Nature de l’établissement**, sélectionnez une option.
 14. Cliquez sur **Enregistrer**.
 15. Fermez la page.
 

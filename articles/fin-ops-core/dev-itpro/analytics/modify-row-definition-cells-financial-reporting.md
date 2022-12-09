@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c3e9323c2011f7ca6ceb9926575d661c5269e22
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: 1c125369a5b2134759bf3650175276acf42b69e0
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135537"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802821"
 ---
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
@@ -51,12 +51,12 @@ Les exemples suivants sont des codes de ligne valides :
 
 ### <a name="change-a-row-code-in-a-row-definition"></a>Modifier un code de ligne dans une définition de ligne
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Dans la ligne appropriée, entrez la nouvelle valeur dans la cellule dans la colonne **Code de ligne**.
 
 ### <a name="reset-numeric-row-codes"></a>Réinitialiser des codes de ligne numériques
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Dans le menu **Édition**, cliquez sur **Renuméroter les lignes**.
 3. Dans la boîte de dialogue **Renuméroter les lignes**, spécifiez les nouvelles valeurs pour le code de ligne de départ et son incrément. Vous pouvez réinitialiser les codes de ligne numériques à des valeurs équidistantes. Toutefois, le générateur d’états ne renumérote que les codes de ligne qui commencent par des chiffres (par exemple, 130 ou 246). Il ne renumérote pas les codes de ligne qui commencent par des lettres (par exemple, INCOME\_93 ou TP0693).
 
@@ -71,19 +71,19 @@ La cellule de description fournit la description des données financières conte
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Ajouter la description pour une ligne d’un état
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Sélectionnez la cellule **Description**, puis entrez le nom de la ligne de l’état.
 3. Appliquez la mise en forme.
 
 ### <a name="add-additional-text-from-a-reporting-tree-in-the-description"></a>Ajouter du texte supplémentaire à partir d’une arborescence de génération d’états dans la description
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Entrez le code de texte supplémentaire et tout autre texte dans la cellule **Description** appropriée.
 3. Appliquez la mise en forme.
 
 ### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>Limiter le texte supplémentaire à une unité organisationnelle spécifique
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Déterminez la ligne à laquelle le texte supplémentaire doit être créé, puis double-cliquez sur la cellule dans la colonne **Formules/lignes/unités associées**.
 3. Dans la boîte de dialogue **Sélectionner une unité organisationnelle**, dans le champ **Arborescence de génération d’états**, sélectionnez une arborescence de génération d’états.
 4. Dans le champ **Sélectionner une unité organisationnelle pour la restriction**, développez ou réduisez l’arborescence de génération d’états, puis sélectionnez une unité organisationnelle.
@@ -96,7 +96,7 @@ La cellule **Code de format** offre une sélection de mises en forme prédéfini
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Ajouter un code de format à une ligne d’état
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis sélectionnez une définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis sélectionnez une définition de ligne à modifier.
 2. Double-cliquez sur la cellule **Code de format**.
 3. Sélectionnez un code de format dans la liste. Le tableau suivant décrit les codes de format et leurs actions.
 
@@ -149,7 +149,7 @@ Lorsque vous créez une formule de total de ligne, vous devez utiliser des codes
 
 ### <a name="create-a-row-total"></a>Créer un total de ligne
 
-1. Dans le Concepteur de rapports, cliquez sur **Définitions de ligne** puis ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Double-cliquez sur la cellule **Code de format** dans la définition de ligne, et sélectionnez **TOT**.
 3. Dans la cellule **Formules/Lignes/Unités associées**, entrez la formule du total.
 
@@ -162,7 +162,7 @@ Dans la colonne **Code de format** dans une définition de ligne, les codes de f
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relier une ligne de format à une ligne de montant
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis sélectionnez une définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis sélectionnez une définition de ligne à modifier.
 2. Dans la ligne de mise en forme, dans la cellule **Formules/Lignes/Unités associées**, entrez le code de ligne de la ligne de montant à supprimer.
 
     > [!NOTE]
@@ -192,13 +192,13 @@ Dans une définition de colonne, le type de colonne **CALC** indique une colonne
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Sélectionner la ligne de base dans une définition de ligne pour un calcul de colonne
 
-1. Dans le générateur d’état, cliquez sur **Définitions de colonne**, puis ouvrez ensuite la définition de colonne pour une déclaration des revenus.
+1. Dans Report Designer, cliquez sur **Définitions de colonne**, puis ouvrez ensuite la définition de colonne pour une déclaration des revenus.
 2. Ajoutez une colonne à la définition de colonne, puis définissez le type de colonne sur **CALC**.
 3. Dans la cellule **Formule** de la nouvelle colonne, entrez la formule **X/BASEROW**, où **X** est le type de la colonne **FD** pour afficher un pourcentage.
 4. Double-cliquez sur la cellule **Remplacement de format/devise**.
 5. Dans la boîte de dialogue **Remplacement de format**, dans la liste **Catégorie de format**, sélectionnez **Pourcentage**, puis cliquez sur **OK**.
 6. Dans le menu **Fichier**, cliquez sur **Enregistrer sous** pour enregistrer la définition de colonne sous un nouveau nom. Ajoutez **CBR** au nom de fichier actuel (par exemple, **CUR\_YTD\_CBR**). Cette définition de colonne est votre définition de colonne de base.
-7. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne pour la modifier en utilisant le calcul de ligne de base.
+7. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne pour la modifier en utilisant le calcul de ligne de base.
 8. Insérez une nouvelle ligne au-dessus de la ligne où le calcul de ligne de base doit commencer.
 9. Double-cliquez sur la cellule **Code de format** de la définition de ligne, puis sélectionnez **CBR**.
 10. Dans la cellule **Formules/Lignes/Unités associées**, entrez le numéro du code de ligne pour la ligne de base.
@@ -227,7 +227,7 @@ Les codes de tri permettent de trier les comptes ou les valeurs, de trier un ét
 
 ### <a name="select-a-sorting-code"></a>Sélectionner un code de tri
 
-1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1. Dans Report Designer, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Double-cliquez sur la cellule **Code de format**, puis sélectionnez un code de tri.
 3. Dans la cellule **Formules/Lignes/Unités associées**, spécifiez la plage de codes de ligne à trier. Pour spécifier une plage, entrez le premier code de ligne, deux-points (:), puis le dernier code de ligne. Par exemple, entrez **160:490** pour indiquer que la plage va de la ligne 160 à la ligne 490.
 4. Dans la cellule **Restriction de colonne**, entrez la lettre de la colonne d’état à utiliser pour le tri.
@@ -239,21 +239,21 @@ Les codes de tri permettent de trier les comptes ou les valeurs, de trier un ét
 
 Dans l’exemple suivant, les valeurs de la colonne D de l’état seront triées dans l’ordre croissant pour les lignes 160 à 490. En outre, les valeurs absolues de la colonne G de l’état seront triées dans ’ordre décroissant pour les lignes 610 à 940.
 
-| Code de ligne | Description                                         | Code de format | Formules/lignes/unités associées | Solde normal | Restriction de colonne | Lien vers les dimensions financières |
-|----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
-| 100      | Trié par écart mensuel dans l’ordre croissant       | DES         |                             |                |                    |                              |
-| 130      |                                                     | TRI        | 160:490                     |                | D                  |                              |
-| 160      | Ventes                                               |             |                             | C              |                    | 4100                         |
-| 190      | Retours sur vente                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Revenu des intérêts                                     |             |                             | C              |                    | 7000                         |
-| 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | Tri, par ordre décroissant, selon l’écart absolu cumulé à ce jour | DES         |                             |                |                    |                              |
-| 580      |                                                     | TRIDECVA   | 610:940                     |                | G                  |                              |
-| 610      | Vente                                               |             |                             | C              |                    | 4100                         |
-| 640      | Retours sur vente                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Revenu des intérêts                                     |             |                             | C              |                    | 7000                         |
+| Code de ligne | Description                             | Code de format | Formules/lignes/unités associées | Solde normal | Restriction de colonne | Lier aux dimensions financières |
+|----------|-----------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
+| 100      | Trié par écart mensuel dans l’ordre croissant       | DES         |                |                |                    |                              |
+| 130      |                                        | TRI        | 160:490                     |                | D                  |                              |
+| 160      | Ventes                                   |             |                             | C              |                    | 4100                         |
+| 190      | Retours sur vente                        |             |                             |                |                    | 4110                         |
+|          | ...                             |             |                             |                |                    |                              |
+| 490      | Revenu des intérêts              |             |                             | C              |                    | 7000                         |
+| 520      |                                     | DES         |                             |                |                    |                              |
+| 550      | Tri, par ordre décroissant, selon l’écart absolu cumulé à ce jour | DES         |             |                |                    |                              |
+| 580      |                              | TRIDECVA   | 610:940                     |                | G                  |                              |
+| 610      | Vente                     |             |                             | C              |                    | 4100                         |
+| 640      | Retours sur vente                |             |                             |                |                    | 4110                         |
+|          | ...                       |             |                             |                |                    |                              |
+| 940      | Revenu des intérêts               |             |                             | C              |                    | 7000                         |
 
 
 ## <a name="specify-a-format-override-cell"></a>Spécifier une cellule de remplacement de format
@@ -266,7 +266,7 @@ La cellule **Remplacement de format** spécifie la mise en forme utilisée pour 
 
 ### <a name="override-cell-formatting"></a>Remplacer la mise en forme de la cellule
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne à modifier.
 2. Dans la ligne pour laquelle remplacer le format, double-cliquez sur la cellule dans la colonne **Remplacement de format**.
 3. Dans la boîte de dialogue **Remplacement de format**, sélectionnez les options de mise en forme à utiliser pour cette ligne dans l’état.
 4. Cliquez sur **OK**.
@@ -327,7 +327,7 @@ Le type doit représenter la valeur positive, puis la valeur négative. En gén�
 | 0.00%;(0.00%)                  | 123456,00 % | (123456,00 %) | 0,00 %   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Spécifier une cellule de solde normal
-La cellule **Solde normal** dans une définition de ligne contrôle du signe des montants dans une ligne. Pour inverser le signe d’une ligne, ou si le solde normal d’un compte est un crédit, entrez un **C** dans la cellule **Solde normal** pour cette ligne. Le générateur d’états inverse le signe de tous les comptes de bilan dans cette ligne. Lorsque le générateur d’états convertit ces comptes, il supprime la caractéristique débit/crédit de tous les montants et rend la totalisation immédiate. Par exemple, pour calculer le bénéfice, vous soustrayez les dépenses du revenu. Généralement, les lignes calculées et totalisées ne sont pas affectées par le code **C**. Toutefois, le contrôle d’impression **XCR** dans la définition de colonne inverse le signe de toute ligne contenant un **C** dans la colonne **Solde normal**. Cette mise en forme est particulièrement importante lorsque vous souhaitez afficher tous les écarts défavorables comme des montants négatifs. Si un nombre calculé ou totalisé a un signe erroné, entrez un **C** dans la cellule **Solde normal** pour la ligne pour inverser le signe.
+La cellule **Solde normal** dans une définition de ligne contrôle du signe des montants dans une ligne. Pour inverser le signe d’une ligne, ou si le solde normal d’un compte est un crédit, entrez un **C** dans la cellule **Solde normal** pour cette ligne. Le générateur d’états inverse le signe de tous les comptes de bilan dans cette ligne. Lorsque Report Designer convertit ces comptes, il supprime la caractéristique débit/crédit de tous les montants et rend la totalisation immédiate. Par exemple, pour calculer le bénéfice, vous soustrayez les dépenses du revenu. Généralement, les lignes calculées et totalisées ne sont pas affectées par le code **C**. Toutefois, le contrôle d’impression **XCR** dans la définition de colonne inverse le signe de toute ligne contenant un **C** dans la colonne **Solde normal**. Cette mise en forme est particulièrement importante lorsque vous souhaitez afficher tous les écarts défavorables comme des montants négatifs. Si un nombre calculé ou totalisé a un signe erroné, entrez un **C** dans la cellule **Solde normal** pour la ligne pour inverser le signe.
 
 ## <a name="specify-a-row-modifier-cell"></a>Spécifier une cellule de modificateur de ligne
 Le contenu de la cellule **Modificateur de ligne** dans une définition de ligne remplace les exercices, les périodes, ainsi que d’autres informations spécifiées dans la définition de colonne pour cette ligne. Le modificateur sélectionné s’applique à chaque compte de la ligne. Vous pouvez modifier chaque ligne à l’aide d’un ou plusieurs des types de modificateurs suivants :
@@ -338,7 +338,7 @@ Le contenu de la cellule **Modificateur de ligne** dans une définition de ligne
 
 ### <a name="override-a-column-definition"></a>Remplacer une définition de colonne
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne à modifier.
 2. Dans la ligne dans laquelle vous souhaitez remplacer la définition de colonne, double-cliquez sur la cellule **Modificateur de ligne**.
 3. Dans la boîte de dialogue **Modificateur de ligne**, sélectionnez une option dans le champ **Modificateur de compte**. Pour obtenir une description des options, consultez la section « Modificateurs de compte ».
 4. Dans le champ **Modificateur de code registre**, sélectionnez le code registre à utiliser pour la ligne.
@@ -386,7 +386,7 @@ Certains systèmes comptables prennent en charge les attributs de compte et de t
 La cellule **Lier aux dimensions financières** contient des liens vers des données financières qui doivent être incluses dans chaque ligne d’un état. Cette cellule contient les valeurs de dimension. Pour ouvrir la boîte de dialogue **Dimensions**, double-cliquez sur la cellule **Lier aux dimensions financières**.
 
 > [!NOTE]
-> Le générateur d’état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Pour spécifier des informations pour une ligne figurant déjà dans la définition de ligne, ajoutez les informations dans la cellule **Lien vers les dimensions financières**. Pour ajouter de nouvelles lignes liées aux données financières, utilisez la boîte de dialogue **Insérer des lignes à partir de** pour créer des lignes dans la définition d’état. L’en-tête de colonne change, selon la configuration de la colonne, comme indiqué dans le tableau suivant.
+> Cependant, Report Designer ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système Microsoft Dynamics 365 Finance comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Pour spécifier des informations pour une ligne figurant déjà dans la définition de ligne, ajoutez les informations dans la cellule **Lien vers les dimensions financières**. Pour ajouter de nouvelles lignes liées aux données financières, utilisez la boîte de dialogue **Insérer des lignes à partir de** pour créer des lignes dans la définition d’état. L’en-tête de colonne change, selon la configuration de la colonne, comme indiqué dans le tableau suivant.
 
 | Type de lien sélectionné       | La description de la colonne Lier change comme suit |
 |----------------------------------|----------------------------------------------------|
@@ -395,7 +395,7 @@ La cellule **Lier aux dimensions financières** contient des liens vers des donn
 
 ### <a name="specify-a-dimension-or-range"></a>Spécifier une dimension ou une plage
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne à modifier.
 2. Double-cliquez sur une cellule dans la colonne **Lien vers les dimensions financières**.
 3. Dans la boîte de dialogue **Dimensions**, double-cliquez sur une cellule sous le nom de dimension.
 4. Dans la boîte de dialogue pour la dimension, sélectionnez **Individuelle ou plage**.
@@ -408,7 +408,7 @@ Par défaut, le générateur d’états n’imprime aucune ligne n’ayant pas d
 
 ### <a name="modify-zero-balance-settings"></a>Modifier les paramètres de solde nul
 
-1. Dans le générateur d’état, ouvrez la définition d’état à modifier.
+1. Dans Report Designer, ouvrez la définition d’état à modifier.
 2. Sous l’onglet **Paramètres**, sous **Autre mise en forme**, sélectionnez les options pour la définition de ligne utilisée dans la définition d’état.
 3. Dans le menu **Fichier**, cliquez sur **Enregistrer** pour enregistrer vos modifications.
 
@@ -423,32 +423,32 @@ Quand vous entrez une valeur de segment naturel dans la boîte de dialogue **Dim
 Vous pouvez spécifier une plage de valeurs de segment ou de valeurs de dimension. L’avantage de spécifier une plage est que vous n’avez pas besoin mettre la définition de ligne à jour à chaque fois qu’une nouvelle valeur de segment ou de dimension est ajoutée aux données financières. Par exemple, la plage **+Compte=\[6100:6900\]** extrait les valeurs des comptes 6100 à 6900 dans le montant de ligne. Lorsqu’une plage inclut un caractère générique (?), le générateur d’états n’évalue pas la plage caractère par caractères. Au lieu de cela, on détermine le haut et le bas de la plage, puis les valeurs extrêmes dans cette plage et toutes les valeurs entre elles.
 
 > [!NOTE]
-> Le générateur d’état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l’aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
+> Cependant, Report Designer ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système Microsoft Dynamics 365 Finance comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l’aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Plages de plusieurs segment ou de plusieurs dimensions
 
 Lorsque vous entrez une plage à l’aide de combinaisons de plusieurs valeurs de dimension, la comparaison de plages est effectuée sur la base de ..\\dimensions financières\\dimension par dimension. La comparaison de plage ne peut pas être effectuée caractère par caractère ou sur la base d’un segment partiel. Par exemple, l’intervalle **+Compte=\[5000:6000\], Département=\[1000:2000\], Centre de coût=\[00\]** inclut uniquement les comptes correspondant à chaque segment. Dans ce cas, la première dimension doit se situer dans la plage de 5000 à 6000, la deuxième dimension doit se situer dans la plage de 1000 à 2000, et la dernière dimension doit être 00. Par exemple, **+Compte=\[5100\], Département=\[1100\], Centre de coût=\[01\]** n’est pas inclus dans l’état, car le dernier segment est hors de la plage spécifiée. Si une valeur de segment inclut des espaces, entourez cette valeur par des crochets (\[ \]). Les valeurs suivantes sont valides pour un segment à quatre caractères : **\[ 234\], \[123 \], \[1 34\]**. Les valeurs de dimension doivent être entourées de crochets (\[ \]), et le générateur d’états ajoute ces crochets pour vous. Quand une plage de plusieurs segment ou de plusieurs dimensions inclut des caractères génériques (? ou \*), les extrémités haute et basse de la plage entière de plusieurs segments ou de plusieurs dimensions sont déterminées, puis les valeurs de fin et toutes les valeurs entre elles sont incluses. Si vous avez une plage étendue, comme toute la plage de comptes de 40000 à 99999, vous devez spécifier un compte de début et un compte de fin valides à chaque fois que c’est possible.
 
 > [!NOTE] 
-> Le générateur d’état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l’aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
+> Cependant, Report Designer ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système Microsoft Dynamics 365 Finance comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l’aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Ajouter ou soustraire d’autres comptes dans une définition de ligne
 Pour ajouter ou soustraire des montants en devises dans un compte des montants en devises dans un autre compte, vous pouvez utiliser le signe plus (+) et le signe moins (-) dans la cellule **Lier aux dimensions financières**. Le tableau suivant présente les formats acceptables pour ajouter et soustraire des liens aux données financières.
 
-| Opération                                                                               | Utiliser ce format                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Additionner deux comptes pleinement qualifiés.                                                       | +Division=\[000\], Compte=\[1205\], Département=\[00\]+Division=\[100\], Compte=\[1205\], Département=\[00\] |
-| Additionner deux valeurs de segment.                                                                 | +Compte=\[1205\]+Compte=\[1210\]                                                                           |
-| Additionner des valeurs de segment qui incluent des caractères génériques.                                    | +Compte=\[120?+Compte=\[11??\]                                                                             |
-| Additionner une plage de comptes pleinement qualifiés.                                                | +Division=\[000:100\], Compte=\[1205\], Département=\[00\]                                                   |
-| Additionner une plage de valeurs de segment.                                                          | +Account=\[1200:1205\]                                                                                       |
-| Additionner une plage de valeurs de segment qui incluent des caractères génériques.                         | +Compte=\[120?:130?\]                                                                                       |
+| Opération                                            | Utiliser ce format                                                                                              |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Additionner deux comptes pleinement qualifiés.      | +Division=\[000\], Compte=\[1205\], Département=\[00\]+Division=\[100\], Compte=\[1205\], Département=\[00\] |
+| Additionner deux valeurs de segment.                    | +Compte=\[1205\]+Compte=\[1210\]                                                                           |
+| Additionner des valeurs de segment qui incluent des caractères génériques.  | +Compte=\[120?+Compte=\[11??\]                                                                     |
+| Additionner une plage de comptes pleinement qualifiés.              | +Division=\[000:100\], Compte=\[1205\], Département=\[00\]                                           |
+| Additionner une plage de valeurs de segment.                | +Account=\[1200:1205\]                                                                                       |
+| Additionner une plage de valeurs de segment qui incluent des caractères génériques.         | +Compte=\[120?:130?\]                                                           |
 | Soustraire un compte pleinement qualifié d’un autre compte pleinement qualifié.              | +Division=\[000\], Compte=\[1205\], Département=\[00\]-Division=\[100\], Compte=\[1205\], Département=\[00\] |
-| Soustraire une valeur de segment d’une autre valeur de segment.                                  | +Compte=\[1205\]-Compte=\[1210\]                                                                           |
-| Soustraire une valeur de segment qui inclut un caractère générique d’une autre valeur de segment. | +Compte=\[1200\]-Compte=\[11??\]                                                                           |
-| Soustraire une plage de comptes pleinement qualifiés.                                           | -Division=\[000:100\], Compte=\[1200:1205\], Département=\[00:01\]                                           |
-| Soustraire une plage de valeurs de segment.                                                     | -Compte=\[1200:1205\]                                                                                       |
-| Soustraire une plage de valeurs de segment qui incluent des caractères génériques.                    | -Compte=\[120?:130?\]                                                                                       |
+| Soustraire une valeur de segment d’une autre valeur de segment.          | +Compte=\[1205\]-Compte=\[1210\]                                                               |
+| Soustraire une valeur de segment qui inclut un caractère générique d’une autre valeur de segment. | +Compte=\[1200\]-Compte=\[11??\]                                        |
+| Soustraire une plage de comptes pleinement qualifiés.                               | -Division=\[000:100\], Compte=\[1200:1205\], Département=\[00:01\]                   |
+| Soustraire une plage de valeurs de segment.                   | -Compte=\[1200:1205\]                                                                                       |
+| Soustraire une plage de valeurs de segment qui incluent des caractères génériques.                    | -Compte=\[120?:130?\]                                               |
 
 Bien que vous puissiez modifier les comptes directement, vous pouvez également utiliser la boîte de dialogue **Dimensions** pour appliquer la mise en forme correcte à vos liaisons aux données financières. Toutes ces valeurs peuvent comporter des caractères génériques (? ou \*). Cependant, le générateur d’état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }.
 
@@ -457,7 +457,7 @@ Bien que vous puissiez modifier les comptes directement, vous pouvez également 
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Ajouter ou soustraire des comptes d’autres comptes
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne à modifier.
 2. Dans la ligne appropriée, double-cliquez sur la cellule dans la colonne **Lier aux dimensions financières**.
 3. Dans la première ligne de la boîte de dialogue **Dimensions**, procédez comme suit :
 
@@ -485,7 +485,7 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 
 ### <a name="create-a-set-of-dimension-values"></a>Créer un ensemble de valeurs de dimension
 
-1. Dans le générateur d’état, ouvrez la définition de ligne, de colonne ou d’arborescence à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne, de colonne ou d’arborescence à modifier.
 2. Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
 3. Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de l’ensemble de valeurs de dimension à créer, puis cliquez sur **Nouveau**.
 4. Dans la boîte de dialogue **Nouveau**, entrez un nom et une description pour l’ensemble.
@@ -497,7 +497,7 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 
 ### <a name="update-a-set-of-dimension-values"></a>Mise à jour d’un ensemble de valeurs de dimension
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne, de colonne ou d’organigramme à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne, de colonne ou d’arborescence à modifier.
 2. Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
 3. Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de dimension.
 4. Dans la liste, sélectionnez l’ensemble de valeurs de dimension à définir, puis cliquez sur **Modifier**.
@@ -511,7 +511,7 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 
 ### <a name="copy-a-dimension-set"></a>Copier un ensemble de dimensions
 
-1. Dans le générateur d’état, ouvrez la définition de ligne, de colonne ou d’arborescence à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne, de colonne ou d’arborescence à modifier.
 2. Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
 3. Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de dimension.
 4. Dans la liste, sélectionnez l’ensemble à copier, puis cliquez sur **Enregistrer sous**.
@@ -519,7 +519,7 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 
 ### <a name="delete-a-dimension-set"></a>Suppression d’un ensemble de dimensions
 
-1. Dans le Concepteur de rapports, ouvrez la définition de ligne, de colonne ou d’organigramme à modifier.
+1. Dans Report Designer, ouvrez la définition de ligne, de colonne ou d’arborescence à modifier.
 2. Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
 3. Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de dimension.
 4. Sélectionnez l’ensemble à supprimer, puis cliquez sur **Supprimer**. Cliquez sur **Oui** pour supprimer l’ensemble de valeurs de dimension de façon permanente.

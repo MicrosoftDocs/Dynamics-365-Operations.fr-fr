@@ -2,7 +2,7 @@
 title: Vue d’ensemble des règlements des paiements centralisés
 description: Cet article décrit le règlement pour les paiements centralisés pour Microsoft Dynamics 365 Finance.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151160"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804224"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Vue d’ensemble des règlements des paiements centralisés
 
@@ -84,11 +84,11 @@ Les escomptes de règlement générés pendant le processus de règlement de soc
 
 Les tolérances concernant les trop-perçus, les moins-perçus et les différences minimes sont déterminées en fonction de l’entité juridique de paiement des trop-perçus et de celle des moins-perçus. Le compte de validation utilisé est déterminé par le paramètre du champ **Administration d’escompte de règlement** de la page **Paramètres de la Comptabilité client** pour les clients, et le champ **Administration d’escompte de règlement** de la page **Paramètres de la Comptabilité fournisseur** pour les fournisseurs.
 
--   Si le paramètre d’administration d’escompte de règlement est Spécifique ou Non spécifique et que l’escompte de règlement applicable est validé dans une autre entité juridique que celle du trop-perçu, le compte automatique pour Client – Escompte de règlement, Fournisseur – Escompte de règlement ou Différence minime dans la devise comptable est utilisé. Vous pouvez spécifier ces comptes sur la page **Comptes pour transactions automatiques**.
--   Si le paramètre d’administration d’escompte de règlement est Non spécifique et que l’escompte de règlement est validé dans la même entité juridique que celle du trop-perçu (l’entité juridique de paiement et l’entité juridique de la facture sont identiques), le compte d’escompte de règlement est ajusté. Par exemple, si une facture de 100,00 avec un escompte de règlement disponible de 3,00 est réglée avec un paiement pour 98,00, le compte d’escompte de règlement est ajusté pour 1,00. Le montant net de l’escompte est 2,00.
--   Si le paramètre d’administration d’escompte de règlement est Non spécifique, l’escompte de règlement est validé dans la même entité juridique que celle du trop-perçu, le trop-perçu ou le moins-perçu est réglé avec plusieurs factures comportant des escomptes de règlement et le compte d’escompte de règlement de la dernière facture est ajusté.
+-   Si le paramètre d’administration d’escompte de règlement est **Spécifique** ou **Non spécifique** et que l’escompte de règlement applicable est validé dans une autre entité juridique que celle du trop-perçu, le compte automatique pour Client – Escompte de règlement, Fournisseur – Escompte de règlement ou Différence minime dans la devise comptable est utilisé. Vous pouvez spécifier ces comptes sur la page **Comptes pour transactions automatiques**.
+-   Si le paramètre d’administration d’escompte de règlement est **Non spécifique** et que l’escompte de règlement est validé dans la même entité juridique que celle du trop-perçu (l’entité juridique de paiement et l’entité juridique de la facture sont identiques), le compte d’escompte de règlement est ajusté. Par exemple, si une facture de 100,00 avec un escompte de règlement disponible de 3,00 est réglée avec un paiement pour 98,00, le compte d’escompte de règlement est ajusté pour 1,00. Le montant net de l’escompte est 2,00.
+-   Si le paramètre d’administration d’escompte de règlement est **Non spécifique**, l’escompte de règlement est validé dans la même entité juridique que celle du trop-perçu, le trop-perçu ou le moins-perçu est réglé avec plusieurs factures comportant des escomptes de règlement et le compte d’escompte de règlement de la dernière facture est ajusté.
 
-Si la sélection d’administration d’escompte de règlement est Non spécifique, les règles du règlement de paiement non spécifique s’appliquent uniquement dans les cas suivants :
+Si la sélection d’administration d’escompte de règlement est **Non spécifique**, les règles du règlement de paiement non spécifique s’appliquent uniquement dans les cas suivants :
 -   existence d’un trop-perçu ;
 -   trop-perçu réglé avec une ou plusieurs factures comportant un escompte de règlement ;
 -   escompte de règlement validé dans la même entité juridique que celle du trop-perçu.

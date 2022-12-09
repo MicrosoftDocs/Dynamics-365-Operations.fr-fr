@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715522"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804153"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Escomptes de règlement pour les trop-perçus
 
@@ -53,7 +53,9 @@ Le client envoie un paiement de 95,00 pendant la période d’escompte de règle
 | Paiement       | -95,00 | 0,00    |
 | Escompte de règlement | -10,50 | 0,00    |
 
-Les écritures comptables suivantes sont générées pour le paiement et le règlement. **Paiement**
+Les écritures comptables suivantes sont générées pour le paiement et le règlement.
+
+**Paiement**
 
 | Compte             | Montant de débit | Montant de crédit |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ Le client envoie un paiement de 95,00 pendant la période d’escompte de règle
 | Paiement       | -95,00 | -0,50   |
 | Escompte de règlement | -10,50 | 0,00    |
 
-Le montant de trop-perçu de 0,50 restera comme solde en cours sur le paiement et peut être réglé avec une autre facture. Les écritures comptables suivantes sont générées pour le paiement et le règlement. **Paiement**
+Le montant de trop-perçu de 0,50 restera comme solde en cours sur le paiement et peut être réglé avec une autre facture. Les écritures comptables suivantes sont générées pour le paiement et le règlement. 
+
+**Paiement**
 
 | Compte             | Montant de débit | Montant de crédit |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ Le client envoie un paiement de 95,00 pendant la période d’escompte de règle
 | Paiement       | -95,00 | -0,00   |
 | Escompte de règlement | -10,00 | 0,00    |
 
-Le montant de l’escompte de règlement est réduit de 10,50 à 10,00. Le paiement et la facture sont considérés comme réglés. **Paiement**
+Le montant de l’escompte de règlement est réduit de 10,50 à 10,00. Le paiement et la facture sont considérés comme réglés. 
+
+**Paiement**
 
 | Compte             | Montant de débit | Montant de crédit |
 |---------------------|--------------|---------------|
