@@ -1166,8 +1166,10 @@
                   href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Relevé comptable par compte principal
                   href: general-ledger/general-ledger-statement-by-main-account.md
-                - name: Fichier d’audit standard pour l’état électronique de la taxe (SAF-T)
+                - name: État électronique Fichier d’audit standard pour la taxe (SAF-T)
                   href: general-ledger/standard-audit-file.md
+                - name: Recherche de règlement comptable
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: Clôture de fin de période
               items:
                 - name: Clôture de la comptabilité en fin de période
@@ -1184,13 +1186,25 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: FAQ sur les activités de fin d’exercice
                   href: general-ledger/faq-year-end-activities.md
-                - name: Lettrages comptables
+                - name: Règlements comptables
                   href: general-ledger/ledger-settlements.md
-                - name: Reconnaissance entre un lettrage comptable et la clôture de fin d’exercice
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: Automatiser les lettrages comptables
+                - name: Reconnaissance entre un règlement comptable et la clôture de fin d’exercice
+                  items:
+                    - name: Reconnaissance entre un règlement comptable et la clôture de fin d’exercice
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Préparation de la reconnaissance d’un règlement comptable avant la clôture de fin d’exercice
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Préparation de la reconnaissance d’un règlement comptable après la clôture de fin d’exercice
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: La reconnaissance entre la fonctionnalité de règlement comptable et la devise de déclaration est déséquilibrée
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: Reconnaissance de la fonctionnalité de règlement comptable avant la clôture de fin d’exercice à l’aide de la fenêtre de recherche
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: Reconnaissance de la fonctionnalité de règlement comptable après la clôture de fin d’exercice à l’aide de la fenêtre de recherche
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
+                - name: Automatiser les règlements comptables
                   href: general-ledger/auto-settle.md
-                - name: Réévaluation des comptes en devises dans la Comptabilité
+                - name: Réévaluation des comptes en devises dans Comptabilité
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Soldes du compte général
                   href: general-ledger/general-ledger-account-balances.md
@@ -1786,7 +1800,7 @@
                       href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                     - name: Relevé comptable par compte principal avec rapport de spécification de taxe
                       href: general-ledger/general-ledger-statement-by-main-account.md
-                    - name: Fichier d’audit standard pour l’état électronique de la taxe (SAF-T)
+                    - name: État électronique Fichier d’audit standard pour la taxe (SAF-T)
                       href: general-ledger/standard-audit-file.md
                     - name: Paramétrer des périodes de règlement fiscal
                       href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md

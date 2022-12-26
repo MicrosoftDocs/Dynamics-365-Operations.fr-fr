@@ -1809,9 +1809,11 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Planification de la production
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Planification générale pour les produits à durée de conservation limitée
+                - name: Paramétrer le rebut pour calculer les besoins en matières premières
+                  href: master-planning/scrap-calculations.md
+                - name: Planification pour les produits à durée de conservation limitée
                   href: master-planning/planning-optimization/shelf-life.md
-                - name: Programmation avec une capacité infinie
+                - name: Planification avec une capacité infinie
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Planification et programmation de la capacité finie
                   href: master-planning/planning-optimization/finite-capacity.md
@@ -2355,7 +2357,7 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Créer un produit lancé pour une seule société
                   href: pim/tasks/create-released-product-single-company.md
-                - name: Utiliser des entités de données
+                - name: Entités de données de produit
                   href: pim/data-entities.md
                 - name: État du cycle de vie des produits
                   items:

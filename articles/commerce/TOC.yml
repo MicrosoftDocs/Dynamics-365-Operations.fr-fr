@@ -1420,8 +1420,10 @@
               href: store-performance-information.md
             - name: 'Paramétrer l’analyse RFM (récence, fréquence et valeur monétaire)'
               href: set-up-rfm-analysis.md
-            - name: "Configurer Microsoft Clarity dans Dynamics 365\_Commerce"
+            - name: "Paramétrer Microsoft Clarity dans Dynamics\_365 Commerce"
               href: set-up-clarity.md
+            - name: Paramétrer Operational Insights
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: Vue d’ensemble de Globalization Studio
@@ -3054,8 +3056,14 @@
                   href: troubleshoot/email-not-sent-when-new-customer-created.md
             - name: Résolution des problèmes avec le kit de développement logiciel (SDK)
               items:
-                - name: "Configurer un environnement de développement d’e-commerce pour le débogage sur une machine virtuelle Retail Server de niveau\_1"
+                - name: "Paramétrer un environnement de développement d’e-commerce pour le débogage sur une machine virtuelle Retail Server de niveau\_1"
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: Finances du magasin
+              items:
+                - name: Problèmes relatif au rapprochement des données d’un Z de caisse
+                  href: troubleshoot/z-report-issues.md
+                - name: Erreurs de validation de relevé en raison d’un stock non disponible ou de conflits de mise à jour
+                  href: troubleshoot/inventory-errors-posting.md
     - name: Développement et administration des applications de finances et d’opérations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
