@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714760"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838470"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installer et connecter l’application mobile Warehouse Management
 
@@ -38,7 +38,7 @@ L’application mobile Gestion des entrepôts est disponible pour les systèmes 
 
 ## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Activer ou désactiver les fonctionnalités de l’application mobile Warehouse Management dans Supply Chain Management
 
-Pour utiliser l’application mobile Warehouse Management, les *Paramètres d'utilisateur, les icônes, et les titres d’étape pour la nouvelle application warehouse* la fonctionnalité doit être activée sur votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer les expéditions sortantes à partir des tâches par lots* dans l’espace de travail [Paramètres utilisateur, icônes et titres des étapes pour la nouvelle application d’entrepôt](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour utiliser l’application mobile Warehouse Management, les *Paramètres d’utilisateur, les icônes, et les titres d’étape pour la nouvelle application warehouse* la fonctionnalité doit être activée sur votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer les expéditions sortantes à partir des tâches par lots* dans l’espace de travail [Paramètres utilisateur, icônes et titres des étapes pour la nouvelle application d’entrepôt](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Obtenir l’application mobile Gestion des entrepôts
 
@@ -58,10 +58,10 @@ Le moyen le plus simple d’installer l’application sur un seul appareil est d
 
 Au lieu d’installer à partir d’un App Store, vous pouvez à la place télécharger l’application à partir du Microsoft App Center. L’App Center fournit des packages installables que vous pouvez charger de manière indépendante. En plus de la version actuelle, l’App Center vous permet également de télécharger des versions précédentes et peut fournir des versions préliminaires avec des fonctionnalités à venir que vous pouvez essayer. Pour télécharger les versions actuelles, précédentes ou en préversion de l’application mobile Gestion des entrepôts à partir de Microsoft App Center, utilisez l’un des liens suivants :
 
-- **Windows (UWP) :** [Gestion des entrepôts (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP) :** [Gestion des entrepôts (Windows)](https://aka.ms/wma-windows-official-release)  
     Pour savoir comment installer un package téléchargé sur un appareil Windows, puis configurer les certificats requis, voir [Installer une version depuis App Center](/appcenter/distribution/installation).
 
-- **Android :** [Gestion des entrepôts (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android :** [Gestion des entrepôts (Android)](https://aka.ms/wma-android-official-release)  
     Si vous téléchargez une version préliminaire, quelques étapes supplémentaires sont nécessaires pour l’installer. Pour plus d’informations, voir [Tester des applications Android](/appcenter/distribution/testers/testing-android).
 
 Pour plus d’informations sur l’installation d’une version téléchargée à partir de l’App Center, voir [ Installer une version](/appcenter/distribution/installation).

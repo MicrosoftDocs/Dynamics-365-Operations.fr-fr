@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 2a368535c9644e174d1a2460ac0891c9dc1b1b3f
+ms.sourcegitcommit: 44f0b4ef8d74c86b5c5040be37981e32eb43e1a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9765707"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "9850021"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer Inventory Visibility
 
@@ -32,15 +32,16 @@ Avant de commencer à travailler avec la visibilité des stocks, vous devez effe
 - [Configuration de la partition](#partition-configuration)
 - [Configuration de la hiérarchie d’index des produits](#index-configuration)
 - [Configuration de la réservation (facultatif)](#reservation-configuration)
+- [Configuration du préchargement de requête (facultatif)](#query-preload-configuration)
 - [Exemple de configuration par défaut](#default-configuration-sample)
 
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Logiciels requis
 
 Avant de commencer, installez et configurez le complément de visibilité des stocks comme décrit dans [Installer et configurer la visibilité des stocks](inventory-visibility-setup.md).
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La page Configuration de l’application Inventory Visibility
 
-Dans Power Apps, la page **Configuration** de [l’application Inventory Visibility](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de cet article expliquent comment utiliser chaque partie de la page **Configuration**.
+Dans Power Apps, la page **Configuration** de [l’application Inventory Visibility](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de l’article expliquent comment utiliser chaque partie de la page **Configuration**.
 
 Une fois la configuration terminée, veillez à sélectionner **Mettre à jour la configuration** dans l’application.
 
@@ -52,17 +53,20 @@ Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnali
 |---|---|
 | *OnHandReservation* | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Inventory Visibility. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Cette fonctionnalité fournit un récapitulatif du stock pour les produits, avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. La fréquence de synchronisation par défaut est d’une fois toutes les 15 minutes et peut être réglée jusqu’à une fois toutes les 5 minutes. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Cette fonctionnalité permet de précharger les requêtes disponibles pour la visibilité des stocks pour assembler des listes de disponibilité avec des dimensions présélectionnées. La fréquence de synchronisation par défaut est une fois toutes les 15 minutes. Pour plus d’informations, voir [Précharger une requête de stock disponible simplifiée](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
+| *OnHandIndexQueryPreloadBackgroundService* | Cette fonctionnalité récupère et stocke périodiquement un jeu de données récapitulatives du stock disponible en fonction de vos dimensions préconfigurées. Il fournit un récapitulatif de stock qui n’inclut que les dimensions pertinentes pour votre activité quotidienne et qui est compatible avec les articles activés pour les processus de gestion d’entrepôt (WMS). Pour plus d’informations, voir [Activer et configurer des requêtes disponibles préchargées](#query-preload-configuration) et [Précharger une requête disponible simplifiée](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | Cette fonctionnalité facultative active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV). Pour plus d’informations, voir [Planning de changement du stock disponible et disponibilité à la vente de la Inventory Visibility](inventory-visibility-available-to-promise.md). |
 | *Allocation* | Cette fonctionnalité facultative permet à Inventory Visibility d’avoir la possibilité de protéger les stocks (réservation) et de contrôler la survente. Pour plus d’informations, voir [Répartition de stock pour Inventory Visibility](inventory-visibility-allocation.md). |
 | *Activer les articles d’entrepôt dans Inventory Visibility* | Cette fonctionnalité facultative permet à la Inventory Visibility de prendre en charge les articles activés pour les processus de gestion des entrepôts (articles WMS). Pour plus d’informations, voir [Prise en charge de la Inventory Visibility pour les articles WMS](inventory-visibility-whs-support.md). |
+
+> [!IMPORTANT]
+> Nous vous recommandons d’utiliser la fonctionnalité *OnHandIndexQueryPreloadBackgroundService* ou la fonctionnalité *OnHandMostSpecificBackgroundService*, pas les deux. L’activation des deux fonctionnalités aura un impact sur les performances.
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Rechercher le point de terminaison de service
 
 Si vous ignorez le point de terminaison correct du service Inventory Visibility, ouvrez la page **Configuration** dans Power Apps, puis sélectionnez **Afficher les détails du service** dans le coin supérieur droit. La page affichera le bon point de terminaison de service. Vous pouvez également trouver le point de terminaison dans Microsoft Dynamics Lifecycle Services, comme décrit dans [Rechercher le point de terminaison en fonction de votre environnement Lifecycle Services](inventory-visibility-api.md#endpoint-lcs).
 
 > [!NOTE]
-> L’utilisation d’un point de terminaison incorrect peut entraîner l’échec de l’installation d’Inventory Visibility et des erreurs lorsque Supply Chain Management est synchronisé avec Inventory Visibility. Si vous ne savez pas quel est votre point de terminaison, contactez votre administrateur système. Les URL de point de terminaison sont au format suivant : 
+> L’utilisation d’un point de terminaison incorrect peut entraîner l’échec de l’installation d’Inventory Visibility et des erreurs lorsque Supply Chain Management est synchronisé avec Inventory Visibility. Si vous ne savez pas quel est votre point de terminaison, contactez votre administrateur système. Les URL de point de terminaison sont au format suivant :
 >
 > `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
@@ -178,6 +182,15 @@ Si votre source de données est Supply Chain Management, inutile de recréer les
 1. Connectez-vous à votre environnement Power Apps et ouvrez **Inventory Visibility**.
 1. Ouvrez la page **Configuration**.
 1. Dans l’onglet **Source de données**, sélectionnez la source de données à laquelle ajouter des mesures physiques (par exemple, la source de données `ecommerce`). Puis, dans la section **Mesures physiques**, sélectionnez **Ajouter** et spécifiez le nom de la mesure (par exemple, `Returned` pour enregistrer les quantités retournées dans cette source de données dans Inventory Visibility). Enregistrez vos modifications.
+
+### <a name="extended-dimensions"></a>Dimensions étendues
+
+Les clients qui souhaitent utiliser des sources de données externes dans la source de données peuvent tirer parti de l’extensibilité offerte par Dynamics 365 en créant des [extensions de classe](../../fin-ops-core/dev-itpro/extensibility/class-extensions.md) pour les classes `InventOnHandChangeEventDimensionSet` et `InventInventoryDataServiceBatchJobTask`.
+
+Assurez-vous de vous synchroniser avec la base de données après avoir créé les extensions afin que les champs personnalisés soient ajoutés dans la table `InventSum`. Vous pouvez ensuite vous référer à la section Dimensions plus haut dans cet article, pour mapper vos dimensions personnalisées à l’une des huit dimensions étendues dans `BaseDimensions` dans le stock.
+
+> [!NOTE] 
+> Pour plus de détails sur la création d’extensions, consultez [la page d’accueil de l’extensibilité](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
 ### <a name="calculated-measures"></a>Mesures calculées
 
@@ -321,7 +334,7 @@ Inventory Visibility offre de la flexibilité en vous permettant de configurer *
 |---|---|
 | Numéro d’ensemble | Les dimensions appartenant au même ensemble (index) seront regroupées et le même numéro d’ensemble leur sera attribué. |
 | Dimension | Dimensions de base sur lesquelles le résultat de requête est agrégé. |
-| Hiérarchie  | La hiérarchie vous permet d’augmenter les performances de combinaisons spécifiques de dimensions lorsqu’elles sont utilisées dans des paramètres de requête de filtrage et de regroupement. Par exemple, si vous configurez un ensemble de dimensions avec une séquence hiérarchique de `(ColorId, SizeId, StyleId)`, le système peut alors traiter plus rapidement les requêtes liées aux combinaisons à quatre dimensions. La première combinaison est vide, la seconde est `(ColorId)`, la troisième est `(ColorId, SizeId)` et la quatrième est `(ColorId, SizeId, StyleId)`. Les autres combinaisons ne seront pas accélérées. Les filtres ne sont pas limités par l’ordre, mais doivent être à l’intérieur de ces dimensions si vous souhaitez améliorer leurs performances. Pour plus d’informations, voir les exemples suivants. |
+| Hiérarchie | La hiérarchie vous permet d’augmenter les performances de combinaisons spécifiques de dimensions lorsqu’elles sont utilisées dans des paramètres de requête de filtrage et de regroupement. Par exemple, si vous configurez un ensemble de dimensions avec une séquence hiérarchique de `(ColorId, SizeId, StyleId)`, le système peut alors traiter plus rapidement les requêtes liées aux combinaisons à quatre dimensions. La première combinaison est vide, la seconde est `(ColorId)`, la troisième est `(ColorId, SizeId)` et la quatrième est `(ColorId, SizeId, StyleId)`. Les autres combinaisons ne seront pas accélérées. Les filtres ne sont pas limités par l’ordre, mais doivent être à l’intérieur de ces dimensions si vous souhaitez améliorer leurs performances. Pour plus d’informations, voir les exemples suivants. |
 
 Pour paramétrer votre index de hiérarchie des produits, procédez comme suit.
 
@@ -496,6 +509,30 @@ Une séquence de dimensions valide doit suivre strictement la hiérarchie de ré
 ## <a name="available-to-promise-configuration-optional"></a>Configuration de la quantité disponible à la vente (facultatif)
 
 Vous pouvez configurer la Inventory Visibility pour vous permettre de planifier les futurs changements de stock et de calculer les quantités disponibles à la vente (DAV). Le DAV correspond à la quantité d’un article qui est disponible et peut être promise à un client dans le courant d’une période à venir. L’utilisation de ce calcul peut augmenter considérablement votre capacité de traitement des commandes. Pour utiliser cette fonction, vous devez l’activer sur l’onglet **Gestion des fonctionnalités**, puis la configurer sur l’onglet **Paramètres DAV**. Pour plus d’informations, voir [Plannings de changement du stock disponible et disponibilité à la vente de la Inventory Visibility](inventory-visibility-available-to-promise.md).
+
+## <a name="turn-on-and-configure-preloaded-on-hand-queries-optional"></a><a name="query-preload-configuration"></a>Activer et configurer les requêtes disponibles préchargées (facultatif)
+
+La visibilité des stocks peut récupérer et stocker périodiquement un jeu de données récapitulatives du stock disponible en fonction de vos dimensions préconfigurées. Cela fournit les avantages suivants :
+
+- Une vue plus claire qui stocke un récapitulatif de l’inventaire qui n’inclut que les dimensions pertinentes pour votre activité quotidienne.
+- Un récapitulatif d’inventaire compatible avec les articles activés pour les processus de gestion d’entrepôt (WMS).
+
+Voir [Précharger une requête disponible simplifiée](inventory-visibility-power-platform.md#preload-streamlined-onhand-query) pour plus d’informations sur l’utilisation de cette fonctionnalité après l’avoir configurée.
+
+> [!IMPORTANT]
+> Nous vous recommandons d’utiliser la fonctionnalité *OnHandIndexQueryPreloadBackgroundService* ou la fonctionnalité *OnHandMostSpecificBackgroundService*, pas les deux. L’activation des deux fonctionnalités aura un impact sur les performances.
+
+Procédez comme suit pour configurer la fonctionnalité :
+
+1. Connectez-vous à l’application Power App Visibilité du stock.
+1. Accédez à **Configuration \> Gestion des fonctionnalités et Paramètres**.
+1. Si la fonctionnalité *OnHandIndexQueryPreloadBackgroundService* est déjà activée, nous vous recommandons de la désactiver pour le moment, car le processus de nettoyage peut prendre très longtemps. Vous le réactiverez ultérieurement dans cette procédure.
+1. Ouvrez l’onglet **Paramètre de préchargement**.
+1. Dans la section **Étape 1 : Nettoyer le stockage de préchargement**, sélectionnez **Nettoyer** pour nettoyer la base de données et la préparer pour accepter vos nouveaux paramètres de regroupement.
+1. Dans la section **Étape 2 : Configurer les valeurs de regroupement**, dans le champ **Regrouper le résultat par**, saisissez une liste séparée des virgules des noms de champs par lesquels regrouper les résultats de votre requête. Une fois que vous avez des données dans la base de données de stockage de préchargement, vous ne pourrez plus modifier ce paramètre tant que vous n’aurez pas nettoyé la base de données, comme décrit à l’étape précédente.
+1. Accédez à **Configuration \> Gestion des fonctionnalités et Paramètres**.
+1. Activez la fonctionnalité *onHandIndexQueryPreloadBackgroundService*
+1. Sélectionnez **Mettre à jour la configuration** dans le coin supérieur droit de la page **Configuration** dans pour valider les modifications.
 
 ## <a name="complete-and-update-the-configuration"></a>Terminer et mettre à jour la configuration
 
@@ -792,7 +829,7 @@ Le tableau suivant montre le mappage de réservations par défaut.
 
 Le tableau suivant montre la hiérarchie de réservation par défaut.
 
-| Dimension de base | Hiérarchie  |
+| Dimension de base | Hiérarchie |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |

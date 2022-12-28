@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
-ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.openlocfilehash: 0a4e436cc1af6b71049f75fb66bdfb89ca38df9f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9762698"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831772"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Utiliser l’application Inventory Visibility
 
@@ -106,7 +106,7 @@ Pour activer la page de **récapitulatif d’inventaire** et définir la fréque
 
 1. Ouvrez la page **Configuration**.
 1. Ouvrez l’onglet **Gestion des fonctionnalités et Paramètres**.
-1. Réglez l’interrupteur à bascule pour la fonctionnalité **OnHandMostSpecificBackgroundService** sur *Oui*.
+1. Réglez l’interrupteur à bascule pour la fonctionnalité *OnHandMostSpecificBackgroundService* sur *Oui*.
 1. Lorsque la fonction est activée, la section de **Paramétrage des services** devient disponible et comprend une ligne pour configurer la fonctionnalité **OnHandMostSpecificBackgroundService**. Ce paramètre vous permet de choisir la fréquence à laquelle les données récapitulatives de l’inventaire sont synchronisées. Utilisez les boutons **Haut** et **Bas** dans la collone **Valeur** pour modifier le temps entre les synchronisations (qui peut être aussi bas que 5 minutes). Sélectionnez ensuite **Enregistrer**.
 
     ![Paramètre OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.png "Paramètre OnHandMostSpecificBackgroundService")
@@ -125,10 +125,10 @@ Supply Chain Management stocke une grande quantité d’informations sur votre s
 
 La page **Précharger le récapitulatif de visibilité des stocks** fournit une vue pour l’entité *Résultats de préchargement de requête d’index disponibles*. Contrairement à l’entité *Récapitulatif des stocks*, l’entité *Résultats de préchargement de requête d’index disponibles* fournit une liste des stocks disponibles pour les produits avec les dimensions sélectionnées. La Inventory Visibility synchronise les données récapitulatives préchargées toutes les 15 minutes.
 
-Pour voir les données sur l’onglet **Précharger le récapitulatif de la visibilité des stocks**, vous devez activer la fonctionnalité *OnHandIndexQueryPreloadBackgroundService* sur l’onglet **Gestion des fonctionnalités** de la page **Configuration**, puis sélectionnez **Mettre à jour la configuration** (voir également [Configurer la visibilité des stocks](inventory-visibility-configuration.md)).
+Pour afficher les données sur l’onglet **Précharger le récapitulatif de visibilité des stocks**, vous devez activer et configurer la fonctionnalité *OnHandIndexQueryPreloadBackgroundService*. Voir [Activer et configurer les requêtes disponibles préchargées](inventory-visibility-configuration.md#query-preload-configuration) pour plus d’instructions.
 
 > [!NOTE]
-> Comme avec la fonctionnalité *OnhandMostSpecificBackgroudService*, la fonctionnalité *OnHandIndexQueryPreloadBackgroundService* suit uniquement les modifications de stock disponibles qui se sont produites après l’activation de la fonctionnalité. Les données des produits qui n’ont pas changé depuis que vous avez activé la fonctionnalité ne seront pas synchronisées du cache du service d’inventaire vers l’environnement Dataverse. Si votre page **Récapitulatif du stock** n’affiche pas toutes les informations disponibles que vous attendez, accédez à **Gestion des stocks > Tâches périodiques > Intégration de la visibilité des stocks**, désactivez le traitement par lots et réactivez-le. Cela fera la poussée initiale, et toutes les données seront synchronisées avec l’entité *Résultats du préchargement de requête d’index disponibles* dans les 15 prochaines minutes. Si vous souhaitez utiliser cette fonctionnalité, nous vous recommandons de l’activer avant de créer des modifications en cours et d’activer le traitement par lots **Intégration de la Inventory Visibility**.
+> Comme avec la fonctionnalité *OnHandMostSpecificBackgroundService*, la fonctionnalité *OnHandIndexQueryPreloadBackgroundService* suit uniquement les modifications de stock disponibles qui se sont produites après l’activation de la fonctionnalité. Les données des produits qui n’ont pas changé depuis que vous avez activé la fonctionnalité ne seront pas synchronisées du cache du service d’inventaire vers l’environnement Dataverse. Si votre page **Récapitulatif du stock** n’affiche pas toutes les informations disponibles que vous attendez, accédez à **Gestion des stocks > Tâches périodiques > Intégration de la visibilité des stocks**, désactivez le traitement par lots et réactivez-le. Cela fera la poussée initiale, et toutes les données seront synchronisées avec l’entité *Résultats du préchargement de requête d’index disponibles* dans les 15 prochaines minutes. Si vous souhaitez utiliser cette fonctionnalité, nous vous recommandons de l’activer avant de créer des modifications en cours et d’activer le traitement par lots **Intégration de la Inventory Visibility**.
 
 ## <a name="filter-and-browse-the-inventory-summaries"></a><a name="additional-tip-for-viewing-data"></a>Filtrer et parcourir les récapitulatifs de stocks
 

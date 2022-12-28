@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c3f049946c66fcd8560f7c08a4cb2beab0dcd5b2
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: cdf950fc7b3720543d93e108d4e3c3c2ab254e09
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9115028"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838389"
 ---
 # <a name="configure-google-pay-with-adyen"></a>Configurer Google Pay avec Adyen
 
@@ -79,22 +79,17 @@ Pour configurer une boutique en ligne Commerce pour utiliser Google Pay, procéd
 
     | Champ                  | Description | Requis | Définir automatiquement | Exemple de valeur |
     | ---------------------- | ----------- | -------- | ----------------- | ------------ |
-    | Nom de l'assembly          | Nom de l’assembly pour le connecteur Dynamics 365 Payment Connector pour GooglePay. | Oui | Oui | *Nom binaire* |
+    | Nom de l’assembly          | Nom de l’assembly pour le connecteur Dynamics 365 Payment Connector pour GooglePay. | Oui | Oui | *Nom binaire* |
     | ID compte de service     | L’identifiant unique pour la configuration des propriétés du marchand. Cet identifiant est apposé sur les transactions de paiement et identifie les propriétés du marchand que les processus en aval (comme la facturation) doivent utiliser. | Oui | Oui | *GUID* |
     | ID marchand Google     | Saisissez l’identifiant de marchand Google attribué à votre compte marchand Google. Cette propriété est obligatoire pour les environnements de production, mais facultative pour les environnements de test. Pour plus d’informations, rendez-vous sur <https://pay.google.com/>. | Oui | N° | *Identifiant numérique* |
     | ID compte de marchand    | Entrez un identificateur unique pour le marchand Adyen. Cette valeur est fournie lorsque vous vous inscrivez auprès d’Adyen, comme décrit dans [S’inscrire à Adyen](adyen-connector-setup.md#sign-up-with-adyen). | Oui | N° | *Identificateur du marchand* |
-    | Clé d'API de cloud          | Entrez la clé d’API cloud Adyen. Pour obtenir cette clé, suivez les instructions dans [Comment obtenir la clé API](https://docs.adyen.com/developers/user-management/how-to-get-the-api-key). | Oui | N° | "abcdefg" |
+    | Clé d’API de cloud          | Entrez la clé d’API cloud Adyen. Pour obtenir cette clé, suivez les instructions dans [Comment obtenir la clé API](https://docs.adyen.com/developers/user-management/how-to-get-the-api-key). | Oui | N° | "abcdefg" |
     | Environnement de la passerelle    | L’environnement de la passerelle Adyen à mapper. Les valeurs possibles sont **Test** et **Live**. Vous devez définir ce champ sur **Live** uniquement pour les appareils de production et les transactions. | Oui | Oui | « Live » |
     | Devises prises en charge   | Les devises que le connecteur doit traiter. Dans les scénarios de présence de carte, Adyen peut prendre en charge des devises supplémentaires via [Conversion dynamique des devises](https://www.adyen.com/pos-payments/dynamic-currency-conversion) après l’envoi de la demande de transaction au terminal de paiement. Contactez le support Adyen pour obtenir une liste des devises prises en charge. | Oui | Oui | « USD;EUR » |
     | Types de mode de paiement pris en charge | Les types de mode de paiement que le connecteur doit traiter. | Oui | Oui | « Google Pay » |
 
 1. Une fois que vous avez terminé de définir les propriétés du connecteur, exécutez la tâche de planification de la distribution **1070 (Configuration du canal**).
 
-## <a name="configure-commerce-pos-for-google-pay"></a>Configurer le PDV Commerce pour Google Pay
-
-La configuration du PDV utilise le paramètre du champ **Service TEF** du profil de matériel pour le connecteur Dynamics 365 Payment Connector pour Adyen. Pour plus d’informations sur la configuration du service de transfert électronique de fonds (TEF) pour le connecteur Dynamics 365 Payment Connector pour Adyen dans Commerce headquarters, voir [Configurer une section de profil de matériel de PDV Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-Le mappage du processeur pour le connecteur Adyen capture les types de carte de portefeuille que Google Pay utilise sur le terminal de point de vente.
 
 ### <a name="use-the-payment-express-module-with-google-pay"></a>Utiliser le module de paiement express avec Google Pay
 
@@ -223,6 +218,12 @@ L’ordre dans lequel les modes de livraison sont affichés dans le module de pa
 Le module de paiement utilise également le module d’options de livraison lorsque les modes de livraison sont rendus lors du paiement. Pour plus d’informations, voir [Module Options de livraison](../delivery-options-module.md).
 
 Les modes de livraison sont affichés au fur et à mesure qu’ils sont ajoutés à la liste **Modes de livraison** dans le magasin en ligne.
+
+## <a name="configure-commerce-pos-for-google-pay"></a>Configurer le PDV Commerce pour Google Pay
+
+La configuration du PDV utilise le paramètre du champ **Service TEF** du profil de matériel pour le connecteur Dynamics 365 Payment Connector pour Adyen. Pour plus d’informations sur la configuration du service de transfert électronique de fonds (TEF) pour le connecteur Dynamics 365 Payment Connector pour Adyen dans Commerce headquarters, voir [Configurer un profil de matériel de PDV Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+Le mappage du processeur pour le connecteur Adyen capture les types de carte de portefeuille que Google Pay utilise sur le terminal de point de vente.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

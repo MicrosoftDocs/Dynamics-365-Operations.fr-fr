@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
-ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
+ms.openlocfilehash: 7d8de017c54a13a9935d74d33a57813922c9f823
+ms.sourcegitcommit: 8aee31d6dffabe13969dd5b9de4e0bf95f53e67e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2022
-ms.locfileid: "9805312"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887128"
 ---
 # <a name="proactive-quality-updates"></a>Mises à jour proactives de la qualité
 
@@ -28,16 +28,24 @@ Cette prémisse est confirmée par les résultats : un nombre d’incidents plu
 
 ## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
 
-- Les mises à jour de qualité proactives sont appliquées chaque mois.
-- Microsoft appliquera les mises à jour de qualité proactives à tous les environnements de bac à sable qui exécutent une mise à jour de service qui était [en service](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) au moment de la création des mises à jour de qualité proactives.
-- Des exceptions pour les mises à jour de qualité proactives seront autorisées pour les clients réglementés par la Food and Drug Administration (FDA) aux États-Unis.
+- Les mises à jour de qualité proactives (PQU) sont appliquées chaque mois.
+- Des exceptions pour les mises à jour de qualité proactives sont autorisées pour les clients réglementés par la Food and Drug Administration (FDA) aux États-Unis uniquement.
+- Les mises à jour de qualité proactives ne rétrograderont jamais l’environnement ou ne passeront jamais automatiquement d’une version de mise à jour de service à une autre. 
 - Microsoft détermine comment les mises à jour de qualité proactives seront gérées pour les environnements réglementés et pour les clients cloud souverains et gouvernementaux.
-- Les notifications liées aux mises à jour de qualité proactives sont publiées dans le [centre de messages de Microsoft 365](https://admin.microsoft.com/AdminPortal/) et sur une bannière du projet Microsoft Dynamics Lifecycle Services du client.
+- Les notifications liées aux mises à jour proactives de la qualité sont publiées dans le [centre de messages Microsoft 365](https://admin.microsoft.com/AdminPortal/).
 - Cinq jours avant qu’une mise à jour de qualité proactive ne soit appliquée à un environnement, les clients sont informés de la mise à jour.
 - Les clients ne peuvent pas annuler ou reporter les mises à jour de qualité proactives.
 - Les mises à jour de qualité proactives sont installées pendant les [fenêtres de maintenance planifiées](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) spécifiques à la région.
 - Les mises à jour de qualité sont conçues pour avoir un faible risque de problèmes ou de régressions, et cela est pris en charge par les données Microsoft.
 - Microsoft recommande des tests ciblés pour des problèmes spécifiques ou des correctifs spécifiques liés à une mise à jour de qualité proactive.
+- TOUS les bacs à sable, à l’exception de ceux qui ont une exception limitée dans le temps pour des raisons réglementaires, seront intégrés d’ici le 7 janvier 2023.
+- L’intégration de la production pour les mises à jour de qualité proactive commencera à partir du 21 janvier 2023. 
+- L’intégration de la production ne commencera que pour les projets Lifecycle Services qui ont intégré des bacs à sable et qui reçoivent jusqu’à présent des mises à jour proactives de qualité à une cadence régulière pour toutes les versions de mise à jour de service prises en charge. Ceci s’applique uniquement aux environnements client qui n’ont pas reçu d’exceptions pour des raisons réglementaires ou autres raisons légales.
+- Pour un calendrier complet des mises à jour de qualité proactives pour les environnements de bac à sable et de production au cours de 2023, voir ci-dessous.
+- Chaque mise à jour de service a au moins un train de versions PQU en cours ou sur le point de commencer. Une fois que vos environnements sont intégrés au processus PQU, vous pouvez recevoir une mise à jour de qualité proactive préprogrammée sur chacun d’eux lorsque vous passez à une mise à jour de service de version plus récente. Vérifiez le calendrier pour déterminer quand un PQU pour une mise à jour de service est prévu si vous prévoyez de mettre à niveau vers une mise à jour de service de version plus récente. 
+
+> [!Note]
+> Les environnements de test de performance standard (niveau 4), de test de performance Premium (niveau 5) et les environnements de production recevront des PQU le week-end. 
 
 ## <a name="focus-on-quality-updates"></a>Focus sur les mises à jour de qualité
 
@@ -75,33 +83,22 @@ Un ensemble de modifications de processus est en cours de mise en œuvre avant l
     > L’équipe Microsoft Communications enquête sur une dégradation continue des outils de messagerie qui empêche la livraison des notifications par e-mail. Veuillez continuer à surveiller le centre de messagerie Microsoft 365 pour les messages d’intégration et de notification.
 
 - **Mode sans échec via la version d’évaluation** : la version d’évaluation sera utilisée pour protéger les modifications de code, le cas échéant, dans un correctif de bogue de la mise à jour qualité ou utiliser la version d’évaluation de la fonctionnalité existante pertinente pour le correctif. Si une solution de secours ou la désactivation d’une modification est nécessaire après un déploiement proactif, cela peut être effectué via le système de versions d’évaluation pour éviter d’autres échecs.
-- **Désignation de la synchronisation bac à sable** – Moins de 20 % des clients disposent aujourd’hui de plusieurs bacs à sable et conservent un bac à sable déployé là où la version correspond à la production, pour faciliter la résolution des problèmes. Si un client utilise un bac à sable pour tester une version plus récente que leur version en production, ce bac à sable recevra des mises à jour de qualité vers la version la plus récente.
+- **Désignation de synchronisation de bac à sable** – La mise à jour échelonnée vers un bac à sable isolé de choix avec la production n’est pas prise en charge pour le moment. Tous les bacs à sable de niveau 2 et de niveau 3 recevront des mises à jour proactives au moins 7 jours avant l’environnement de production dans un projet Lifecycle Services. Ceci s’applique uniquement aux environnements client qui n’ont pas reçu d’exceptions pour des raisons réglementaires ou autres raisons légales.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Quelle est la feuille de route de déploiement des mises à jour de qualité ?
 
-La distribution de mises à jour de qualité proactives pour les environnements bac à sable devrait commencer fin septembre ou octobre 2022 pour les clients du cloud public Azure. Les environnements d’essai commenceront également à recevoir un déploiement de mise à jour proactive à ce moment-là. En septembre, une notification sera envoyée à chaque client pour les informer du calendrier prévu pour leurs environnements. Les exceptions au processus de distribution proactif des mises à jour ne seront autorisées que pour les clients réglementés par la FDA. Nous travaillons toujours sur la manière dont les environnements réglementés et les clients cloud souverains et gouvernementaux seront gérés.
+La distribution de mises à jour de qualité proactives pour les environnements bac à sable a commencé fin septembre 2022 pour les clients du cloud public Azure. D’ici le 1er janvier 2023, nous aurons terminé l’intégration de 99 % des bacs à sable aux mises à jour de qualité proactives.
 
-Au cours des six prochains mois, nous augmenterons progressivement le pourcentage d’environnements bac à sable qui reçoivent des mises à jour proactives, jusqu’à ce que tous les environnements désignés soient inclus et progressent vers la mise à jour des environnements de production. Tout au long de la période, nous surveillerons pour nous assurer que le processus de déploiement est transparent et que nous atteignons notre objectif de charges utiles non perturbatrices.
+Les exceptions au processus de distribution proactif des mises à jour ne sont autorisées que pour les clients réglementés par la FDA. Nous travaillons toujours sur la manière dont les environnements réglementés et les clients cloud souverains et gouvernementaux seront gérés. 
 
-Étant donné que les clients recevront régulièrement des charges utiles plus petites, nous nous attendons à ce que le processus de mise à jour devienne plus simple. Nous ajusterons la fréquence de déploiement des mises à jour à mesure que nous démontrerons la capacité d’exécuter le processus sans interruption. Ce processus fonctionne déjà efficacement pour notre plate-forme et les applications Dataverse, et fournit les améliorations attendues de la qualité de service. Nous sommes impatients de faire le même pas en avant pour les applications financières et d’exploitation.
+Étant donné que les clients recevront régulièrement des charges utiles plus petites, nous nous attendons à ce que le processus de mise à jour devienne plus simple. Nous ajusterons la fréquence de déploiement des mises à jour à mesure que nous démontrerons la capacité d’exécuter le processus sans interruption. Ce processus fonctionne déjà efficacement pour notre plate-forme et les applications Dataverse, et fournit les améliorations attendues de la qualité de service. Nous faisons le même pas en avant pour les applications financières et d’exploitation.
+
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Quand les mises à jour de qualité commenceront-elles pour les environnements de production ?
-Pour le moment, les mises à jour de qualité ne ciblent que les bacs à sable. Nous mettrons à jour cet espace avec une date de début pour les environnements de production lorsque nous aurons des données et des mesures plus concrètes des mises à jour proactives pour les bacs à sable pour évaluer la préparation pour la production.
+Au cours des premiers mois de 2023, à compter du 15 janvier, nous commencerons à intégrer les environnements de production aux mises à jour proactives et augmenterons progressivement le pourcentage d’environnements de production qui reçoivent des mises à jour proactives. Nous ne ciblerons qu’un environnement de production dans un projet Lifecycle Services dans lequel les environnements de bac à sable sont déjà intégrés pour recevoir des mises à jour proactives. Avant une mise à jour, les clients dont les environnements de production sont intégrés seront informés via le centre de message ou la bannière Lifecycle Services. Pour un calendrier complet des mises à jour de qualité proactives pour les environnements de bac à sable et de production au cours de 2023, voir ci-dessous.
 
 ## <a name="what-is-the-schedule-for-sandbox-proactive-quality-updates"></a>Quelle est le calendrier des mises à jour de qualité proactives pour le bac à sable ?
 Pour plus d’informations sur les heures sombres pour chaque région, voir [Quelles sont les fenêtre de maintenance planifiées par région ?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
-
-### <a name="proactive-quality-update-release-10028"></a>Version mise à jour de qualité proactive : 10.0.28.
-**Version de l’application : 10.0.1265.89**  
-**Dernier article de la base de connaissances correspondant : 745340**
-
-| Station | Régions | Programme terminé| Calendrier bac à sable à venir
-|---|---|---|---|
-| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 15 septembre au 18 septembre 2022, du 19 septembre au 22 septembre 2022 et du 7 octobre au 10 octobre 2022 | Du 25 octobre au 28 octobre 2022 |
-| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 25 septembre au 28 septembre 2022 et du 7 octobre au 10 octobre 2022 | Du 25 octobre au 28 octobre 2022 |
-| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 26 septembre au 29 septembre 2022 et du 7 octobre au 10 octobre 2022 | Du 25 octobre au 28 octobre 2022 |
-| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 28 septembre au 1er octobre 2022 et du 7 octobre au 10 octobre 2022 | Du 25 octobre au 28 octobre 2022 |
-| Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié | Non planifié |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Version mise à jour de qualité proactive : 10.0.29.
 **Version de l’application : 10.0.1326.70**  
@@ -109,23 +106,83 @@ Pour plus d’informations sur les heures sombres pour chaque région, voir [Que
 
 | Station | Régions | Programme terminé | Calendrier bac à sable à venir|
 |---|---|---|---|
-| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 14 octobre au 17 octobre 2022, du 2 novembre au 5 novembre 2022, du 13 novembre au 16 novembre 2022 | Du 5 décembre au 8 décembre|
-| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 15 octobre au 18 octobre 2022, du 2 novembre au 5 novembre 2022, du 13 novembre au 16 novembre 2022 | Du 5 décembre au 8 décembre|
-| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | Du 16 octobre au 19 octobre 2022, du 2 novembre au 5 novembre 2022, du 13 novembre au 16 novembre 2022 | Du 5 décembre au 8 décembre|
-| Station 4 | Europe Nord, USA Centre, USA Ouest | Du 17 octobre au 20 octobre 2022, du 2 novembre au 5 novembre 2022, du 15 novembre au 18 novembre 2022 | Du 5 décembre au 8 décembre|
+| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | 14 octobre au 17 octobre 2022, 2 novembre au 5 novembre 2022, 13 novembre au 16 novembre 2022, 5 décembre au 8 décembre 2022 | 2 au 5 janvier 2023 |
+| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | 15 octobre au 18 octobre 2022, 2 novembre au 5 novembre 2022, 13 novembre au 16 novembre 2022, 5 décembre au 8 décembre 2022 | 2 au 5 janvier 2023 |
+| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Ouest, USA Est, Émirats arabes unis Centre | 16 octobre au 19 octobre 2022, 2 novembre au 5 novembre 2022, 13 novembre au 16 novembre 2022, 5 décembre au 8 décembre 2022 | 2 au 5 janvier 2023 |
+| Station 4 | Europe Nord, USA Centre, USA Ouest | 17 octobre au 20 octobre 2022, 2 novembre au 5 novembre 2022, 15 novembre au 18 novembre 2022, 5 décembre au 8 décembre 2022 | 2 au 5 janvier 2023 |
 | Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié | Non planifié |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Version mise à jour de qualité proactive : 10.0.30.
 **Version de l’application : 10.0.1362.77**
 **Dernier article de base de connaissances correspondant : 767597**
 
-| Station | Régions | Calendrier bac à sable à venir |
+| Station | Régions | Programme terminé | Calendrier bac à sable à venir |
+|---|---|---|---|
+| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 1 décembre au 4 décembre 2022 |  Du 13 décembre au 16 décembre 2022 | 
+| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 2 décembre au 5 décembre 2022 |  Du 13 décembre au 16 décembre 2022 | 
+| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Nord, USA Est, Émirats arabes unis Centre | Du 3 décembre au 6 décembre 2022 |  Du 13 décembre au 16 décembre 2022 | 
+| Station 4 | Europe Ouest, USA Centre, USA Ouest | Du 4 décembre au 7 décembre 2022 |  Du 13 décembre au 16 décembre 2022 | 
+| Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié | Non planifié |
+
+### <a name="proactive-quality-update-calendar-year-2023-schedule"></a><a name="schedule"></a> Mise à jour proactive de la qualité Calendrier de l’année civile 2023
+
+#### <a name="stations-to-region-mapping"></a><a name="Stations-Regions"></a> Cartographie des stations à la région
+
+| Gares | Régions |
+|---|---|
+| Station 1 | À CALCULER |
+| Station 2 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest |
+| Station 3 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est |
+| Station 4 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Nord, USA Est, Émirats arabes unis Centre |
+| Station 5 | Europe Ouest, USA Centre, USA Ouest |
+| Station 6 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine |
+
+
+> [!IMPORTANT]
+> Il s’agit d’un calendrier de haut niveau pour l’année 2023. Pour un calendrier plus concret, consultez l’exemple ci-dessous pour la version 2 du 10.0.30 de janvier. L’horaire exact et la version de l’application seront mis à jour 7 jours avant le début d’un train de mise à jour de la qualité.
+
+> [!Note]
+> Seuls les environnements de production intégrés recevront la mise à jour pour le train 10.0.30 Version 2, les environnements intégrés recevront une communication explicite.
+
+| Train de mises à jour qualité | Autoriser | Durée du train des mises à jour |
 |---|---|---|
-| Station 1 | Canada Centre, Canada Est, France Centre, Inde Centre, Norvège Est, Suisse Ouest | Du 1 décembre au 4 décembre 2022 |
-| Station 2 | France Sud, Inde Sud, Norvège Ouest, Suisse Nord, Afrique du Sud Nord, Australie Est, Royaume-Uni Sud, Émirats Arabes Unis Nord, Japon Est, Australie Sud-Est, Asie Sud-Est | Du 2 décembre au 5 décembre 2022 |
-| Station 3 | Asie Est, Royaume-Uni Ouest, Japon Ouest, Brésil Sud, Europe Nord, USA Est, Émirats arabes unis Centre | Du 3 décembre au 6 décembre 2022 |
-| Station 4 | Europe Ouest, USA Centre, USA Ouest | Du 4 décembre au 7 décembre 2022 |
-| Station 5 | DoD, Cloud de la communauté du secteur public aux États Unis, Chine | Non planifié |
+| 10.0.30 version 2 | 16 décembre 2022 | 2 au 29 janvier 2023 |
+| 10.0.30 version 3 | 13 janvier 2023 | 30 janvier au 25 février 2023 |
+| 10.0.30 version 4 | 24 février 2023 | 6 mars au 8 avril 2023 |
+| 10.0.31 version 1 | 3 février 2023 | 13 février 2023 au 18 mars 2023|
+| 10.0.31 version 2 | 3 mars 2023 | 13 mars au 15 avril 2023|
+| 10.0.31 version 3 | 14 avril 2023 | 24 avril 2023 au 27 mai 2023|
+| 10.0.32 version 1 | 31 mars 2023 | 10 avril 2023 au 13 mai 2023|
+| 10.0.32 version 2 | 28 avril 2023 | 8 mai 2023 au 10 juin 2023|
+| 10.0.32 version 3 | 26 mai 2023 | 5 juin 2023 au 8 juillet 2023|
+| 10.0.33 version 1 | 28 avril 2023 | 8 mai 2023 au 10 juin 2023|
+| 10.0.33 version 2 | 26 mai 2023 | 5 juin 2023 au 8 juillet 2023|
+| 10.0.33 version 3 | 14 juillet 2023 | 24 juillet 2023 au 26 août 2023|
+| 10.0.34 version 1 | 23 juin 2023 | 3 juillet 2023 au 5 août 2023|
+| 10.0.34 version 2 | 21 juillet 2023 | 31 juillet au 2 septembre 2023|
+| 10.0.34 version 3 | 1 septembre 2023 | 11 septembre au 14 octobre 2023|
+| 10.0.35 version 1 | 28 juillet 2023 | 7 août au 9 septembre 2023|
+| 10.0.35 version 2 | 25 août 2023 | 4 septembre au 7 octobre 2023|
+| 10.0.35 version 3 | 20 octobre 2023 | 30 octobre au 16 décembre 2023|
+| 10.0.36 version 1 | 29 septembre 2023 | 9 octobre au 11 novembre 2023|
+| 10.0.36 version 2 | 27 octobre 2023 | 6 novembre au 16 décembre 2023|
+| 10.0.36 version 3 | 12 janvier 2024 | 22 janvier 2023 au 24 février 2024|
+| 10.0.37 version 1 | 3 novembre 2023 | 13 novembre 2023 au 6 janvier 2024|
+| 10.0.37 version 2 | 30 décembre 2023 | 8 janvier au 10 février 2024|
+| 10.0.37 version 3 | 27 janvier 2024 | 5 février 2024 au 9 mars 2024|
+| 10.0.37 version 4 | 23 février 2024 | 4 mars au 6 avril 2024|
+
+### <a name="proactive-quality-update-upcoming-10030-release-2-train-schedule"></a><a name="schedule"></a> Mise à jour proactive de la qualité à venir 10.0.30 version 2 horaire des trains
+**Version de l’application : 10.0.1362.99**
+
+| Gares | Calendrier bac à sable à venir | Planification de la production à venir |
+|---|---|---|
+| Station 1 | NA | NA |
+| Station 2 | 2 au 5 janvier 2023 | 21 au 22 janvier 2023 |
+| Station 3 | 3 au 6 janvier 2023 | 28 au 29 janvier 2023 |
+| Station 4 | 9 au 12 janvier 2023 | NA |
+| Station 5 | 16 au 19 janvier 2023 | NA |
+| Station 6 | NA | NA |
 
 > [!IMPORTANT] 
 > Cinq jours à l’avance, Microsoft mettra à jour le programme précédent et enverra une notification pour l’ensemble des environnements programmés pour recevoir ces mises à jour de qualité. Le programme précédent s’applique uniquement aux environnements qui ont été informés d’une mise à jour à venir. Pour plus d’informations sur les heures sombres pour chaque région, voir [Quelles sont les fenêtre de maintenance planifiées par région ?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

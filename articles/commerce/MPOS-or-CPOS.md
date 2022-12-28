@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e1092c0c5c49c6a99dd441c75f545fc831c0b03
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276452"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831555"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Choisir entre Store Commerce et Cloud POS
 
@@ -70,9 +70,9 @@ Outre une plateforme et un facteur de forme, les détaillants doivent également
 | Application PDV            | Commerce Scale Unit | Disponible hors connexion | Support local HWS |
 |----------------------------|---------------------|-------------------|-------------------|
 | Store Commerce pour Windows | Cloud ou RSSU       | Oui               | Oui               |
-| Store Commerce pour Android | Cloud ou RSSU       | Non                | Oui               |
-| Store Commerce pour iOS     | Cloud ou RSSU       | Non                | Non                |
-| PDV Cloud                  | Cloud ou RSSU       | Non                | Non                |
+| Store Commerce pour Android | Cloud ou RSSU       | N°                | Oui               |
+| Store Commerce pour iOS     | Cloud ou RSSU       | N°                | Oui               |
+| PDV Cloud                  | Cloud ou RSSU       | N°                | N°                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
 
@@ -89,9 +89,9 @@ Les détaillants doivent également prendre en compte la manière dont le PDV ac
 | Application PDV            | OPOS HWS local | Périphériques réseau | Support HWS partagé |
 |----------------------------|----------------|---------------------|--------------------|
 | Store Commerce pour Windows | Oui            | Oui                 | Oui                |
-| Store Commerce pour Android | Non             | Oui                 | Oui                |
-| Store Commerce pour iOS     | Non             | Non                  | Oui                |
-| PDV Cloud                  | Non             | Non                  | Oui                |
+| Store Commerce pour Android | N°             | Oui                 | Oui                |
+| Store Commerce pour iOS     | N°             | Oui                 | Oui                |
+| PDV Cloud                  | N°             | N°                  | Oui                |
 
 Pour plus d’informations sur les stations matérielles, voir [Configurer et installer la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md).
 

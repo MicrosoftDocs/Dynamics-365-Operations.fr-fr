@@ -2,19 +2,19 @@
 title: Vue d’ensemble de l’intégration fiscale pour les canaux Commerce
 description: Cet article fournit une vue d’ensemble des capacités d’intégration fiscale disponibles dans Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 10/04/2022
+ms.date: 12/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
-ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
+ms.openlocfilehash: 3f1b555a016a56cc41ab397e3708f20482f25f09
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "9631234"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831856"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Vue d’ensemble de l’intégration fiscale pour les canaux Commerce
 
@@ -172,19 +172,17 @@ Des exemples d’intégration fiscale sont actuellement disponibles dans le SDK 
 - [Exemple d’intégration de l’unité de contrôle pour la Suède](./emea-swe-fi-sample.md)
 - [Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne](./emea-deu-fi-sample.md)
 - [Exemple d’intégration de l’imprimante fiscale pour la Russie](./rus-fpi-sample.md)
+- [Exemple de signature numérique pour la Norvège](./emea-nor-cash-registers.md)
 
 La fonctionnalité d’intégration fiscale suivante est également implémentée à l’aide du cadre d’intégration fiscale, mais elle est prête à l’emploi et n’est pas incluse dans le SDK Commerce :
 
 - [Enregistrement fiscal pour le Brésil](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
 - [Signature numérique pour la France](./emea-fra-cash-registers.md)
 
-La fonctionnalité d’intégration fiscale suivante est également disponible dans le SDK Commerce, mais ne bénéficie pas actuellement du cadre de l’intégration fiscale. La migration de cette fonctionnalité vers le cadre de l’intégration fiscale est prévue pour des mises à jour ultérieures.
-
-- [Signature numérique pour la Norvège](./emea-nor-cash-registers.md)
-
 La fonctionnalité d’intégration fiscale héritée suivante, disponible dans le Kit de développement logiciel (SDK) Commerce, n’utilise pas l’infrastructure d’intégration fiscale et sera rendue obsolète dans les mises à jour ultérieures :
 
 - [Exemple d’intégration de l’unité de contrôle pour la Suède (hérité)](./retail-sdk-control-unit-sample.md)
 - [Signature numérique pour la France (héritée)](./emea-fra-deployment.md)
+- [Signature numérique pour la Norvège (hérité)](./emea-nor-loc-deployment-guidelines.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

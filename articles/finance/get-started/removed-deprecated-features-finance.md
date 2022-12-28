@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 25d13aa26565e5753b87c843b43cf46f8276b642
+ms.sourcegitcommit: 6c05bcd27e6ee72f01cb66e2cfd1e929e0365830
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643792"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9854077"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou déconseillées dans Dynamics 365 Finance
 
@@ -124,21 +124,20 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Option de déploiement**              | Tout |
 | **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format ER de **déclaration de TVA (AT)** sous **Modèle de déclaration de TVA**. De nouveaux formats de **déclaration de TVA XML (AT)** et de **déclaration de TVA Excel (AT)** sont introduits sous le modèle **Déclaration de taxe**. |
 
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Déclaration ELSTER pour l’Allemagne (conception basée sur les codes de déclaration)
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes-electronic-tax-declaration-log-menu-item-and-page-electronic-tax-declaration-setup-menu-item-and-page-german-report-layout-taxreport_de-ssrs-format"></a>Déclaration ELSTER pour l’Allemagne (conception basée sur les codes de déclaration), \"Journal de déclaration de taxe électronique\" élément de menu et page, \"Paramétrage de la déclaration de taxe électronique\" élément de menu et page, format SSRS (TaxReport_DE) de disposition de rapport allemande
 
 [Déclaration de TVA](../localizations/emea-de-vat-declaration.md)</br>
 [Configurer une déclaration de taxe électronique pour l’Allemagne](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[Transmission électronique de la déclaration de TVA (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour l’Allemagne](../localizations/emea-deu-vat-declaration-germany.md) |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Demande |
-| **Option de déploiement**              | Tout |
-| **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge les formats ER **Elster (DE)** et **Modèle Elster**. De nouveaux formats de **Déclaration de TVA XML (DE)** et de **Déclaration de TVA Excel (DE)** sont introduits sous le modèle **Déclaration de taxe**. |
+| **Option de déploiement**              | Tous |
+| **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge les format d’états électroniques (ER) **Elster (DE)** et le **modèle Elster**. De nouveaux formats ER de **Déclaration de TVA XML (DE)** et de **Déclaration de TVA Excel (DE)** sont introduits sous le modèle **Déclaration de taxe**. Nous ne prendrons plus non plus en charge l’élément de menu et la page **Taxe** \> **Déclarations** \> **Taxe de vente** \> **Journal de déclaration fiscale électronique**, l’élément de menu et la page **Taxe** \> **Configuration** \> **Taxe de vente** \> **Configuration de la déclaration de taxe électronique**, l’élément de menu et la page **Taxe** \> **Configuration** \> **Taxe de vente** \> **Certificats fiscaux électroniques** et la disposition du rapport allemand (TaxReport\_DE) au format SQL Server Reporting Services (SSRS). Le processus de déclaration de TVA en Allemagne est pris en charge dans la fonctionnalité de [messagerie électronique](../general-ledger/electronic-messaging.md). Pour plus d’informations, voir [Déclaration de TVA pour l’Allemagne](../localizations/emea-deu-vat-declaration-germany.md). |
 
-### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Déclaration OB pour les Pays-Bas (conception basée sur les codes de déclaration)
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes-electronic-ob-declaration-menu-item-and-page-dutch-report-layout-taxreport_nl-ssrs-format"></a>Déclaration OB pour les Pays-Bas (conception basée sur les codes de déclaration), l’élément de menu et la page \"Déclaration OB électronique\", disposition du rapport néerlandais (TaxReport_NL) au format SSRS
 
 [Déclaration OB](../localizations/emea-nl-vat-declaration.md)
 
@@ -147,8 +146,8 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour les Pays-Bas](../localizations/emea-nl-vat-declaration-netherlands.md) |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Demande |
-| **Option de déploiement**              | Tout |
-| **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format ER de **Déclaration OB (P.-B.)** et **Modèle de déclaration OB**. De nouveaux formats de **Déclaration de TVA XML (NL)** et de **Déclaration de TVA Excel (NL)** sont introduits sous le modèle **Déclaration de taxe**. |
+| **Option de déploiement**              | Tous |
+| **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format d’états électroniques (ER) de **Déclaration OB (P.-B.)** et le **Modèle de déclaration OB**. De nouveaux formats d’états électroniques (ER) de **Déclaration de TVA XML (NL)** et de **Déclaration de TVA Excel (NL)** sont introduits sous le modèle **Déclaration de taxe**. Nous ne prendrons plus non plus en charge l’élément de menu et la page **Taxe** \> **Déclarations** \> **Taxe de vente** \> **Déclaration OB électronique**, et le format SSRS de la disposition du rapport néerlandais (TaxReport_NL). Le processus de déclaration de TVA aux Pays-Bas est pris en charge dans la fonctionnalité de [messagerie électronique](../general-ledger/electronic-messaging.md). Pour plus d’informations, voir [Déclaration de TVA pour les Pays-Bas](../localizations/emea-nl-vat-declaration-netherlands.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.20
 

@@ -2,23 +2,23 @@
 title: Réévaluation des comptes en devises bancaires
 description: Cet article fournit une vue d’ensemble du processus de réévaluation des comptes en devises bancaires. Elle inclut des informations sur le paramétrage, l’exécution du processus, les calculs pour le processus, et la contrepassation des transactions de réévaluation.
 author: angelad116
-ms.date: 05/16/2019
+ms.date: 12/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 2d5e8a36d3b4d44c9ad0454db94164adebf80997
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151429"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887257"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Réévaluation des comptes en devises bancaires
 
@@ -39,17 +39,8 @@ Avant d’exécuter le processus de réévaluation, le paramétrage suivant est 
 - Sur la page **Comptabilité**, spécifiez le type de taux de change. Si un type de taux de change n’est pas défini sur le compte principal, ce type de taux de change est utilisé au cours de la réévaluation des comptes en devises.
 - Sur la page **Comptabilité**, précisez les comptes de profit réalisé, de perte réalisée, de profit non réalisé et de perte non réalisée pour la réévaluation en devises. Les comptes de profits et pertes réalisés sont utilisés lors du règlement de transactions de la comptabilité client et de la comptabilité fournisseur. Les comptes des profits et pertes non réalisés sont utilisés pour réévaluer les transactions en cours et la comptabilité des comptes principaux.
 - Sur la page **Comptes de réévaluation de la devise**, sélectionnez la réévaluation des différents comptes de réévaluation en devises pour chaque devise et société. Si aucun compte n’est défini, les comptes de la page **Comptabilité** sont utilisés.
+- Sur la page **Paramètres de gestion de la trésorerie et de la banque**, sous l’onglet **Souches de numéros**, ajoutez une souche de numéros pour des fichiers de paiement positif.
 
-## <a name="enable-foreign-currency-revaluation"></a>Activer la réévaluation des comptes en devises
-
-Vous devez activer la fonction de réévaluation des comptes en devises bancaires avant de traiter les réévaluations des comptes en devises.
-
-1. Accédez à **Gestion de la trésorerie et de la banque \> Paramétrage \> Paramètres de gestion de la trésorerie et de la banque**.
-2. Dans l’onglet **Général**, sous **Réévaluation des comptes en devises**, définissez l’option **Activer la réévaluation bancaire** sur **Activé** pour activer la fonction pour l’entité juridique actuelle. 
-3. Dans l’onglet **Souches de numéros**, ajoutez une souche de numéros pour la réévaluation des comptes en devises.
-4. Actualisez le navigateur pour voir **Réévaluation des comptes en devises** dans la section **Tâches périodiques** de la page de zone.
-
-Vous devez activer la fonction pour chaque entité juridique qui utilise la réévaluation des comptes en devises. Si vous le rôle d’Administrateur système ou le rôle de Gestionnaire de fonctionnalités vous est attribué, vous pouvez supprimer cette étape en activant la fonctionnalité nommée **Activer la réévaluation bancaire sans paramètre** dans l’espace de travail **Gestion des fonctionnalités**.
 
 > [!NOTE]
 > Si votre entité juridique utilise un code de pays/région russe, polonais ou hongrois, vous pouvez déjà effectuer la réévaluation des comptes en devises bancaires. Vous ne pourrez pas utiliser la réévaluation des comptes en devises utilisées par d’autres pays ou régions.

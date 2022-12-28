@@ -2,7 +2,7 @@
 title: Configurer les destinations pour la gestion des états électroniques dépendant de l’action
 description: Cet article explique comment configurer des destinations dépendant d’une action pour un format de gestion des états électroniques configuré pour générer des documents sortants.
 author: kfend
-ms.date: 02/09/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 10.0.17
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
-ms.openlocfilehash: babd123e4c8007e3adc545bb92a2dc83bab93f4e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 80a432a431891c02e4bf5c71cfe2bd9642c41c75
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286245"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843795"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurer les destinations pour la gestion des états électroniques dépendant de l’action
 
@@ -32,7 +32,7 @@ Dans Microsoft Dynamics 365 Finance **version 10.0.17 et ultérieure**, un forma
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Rendre les destinations pour la gestion des états électroniques dépendant de l’action disponibles
 
-Pour configurer les destinations de gestion des états électroniques dépendant d’une action dans l’instance Finance actuelle et activer la [nouvelle](er-apis-app10-0-17.md) API de gestion des états électroniques, ouvrez l’espace de travail [Gestion des fonctionnalités](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) et activez la fonctionnalité **Configurer les destinations de gestion des états électroniques spécifiques à utiliser pour différentes actions PM**. Pour utiliser les destinations de gestion des états électroniques configurées pour les états [spécifiques](#reports-list-wave1) à l’exécution, activez la fonctionnalité, **Acheminer la sortie des états PM selon les destinations de gestion des états électroniques spécifiques à une action d’utilisateur (vague 1)**.
+Pour configurer les destinations de gestion des états électroniques dépendant d’une action dans l’instance Finance actuelle et activer la [nouvelle](er-apis-app10-0-17.md) API de gestion des états électroniques, ouvrez l’espace de travail [Gestion des fonctionnalités](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) et activez la fonctionnalité **Configurer les destinations de gestion des états électroniques spécifiques à utiliser pour différentes actions PM**. Pour utiliser les destinations de gestion des états électroniques configurées pour les états spécifiques à l’exécution, activez la fonctionnalité, **Acheminer la sortie des états PM selon les destinations de gestion des états électroniques spécifiques à une action d’utilisateur (vague 1)**.
 
 ## <a name="configure-action-dependent-er-destinations"></a>Configurer les destinations pour la gestion des états électroniques dépendant de l’action
 
@@ -89,6 +89,51 @@ L’illustration suivante montre un exemple de **Destinations au format de gesti
 > [!NOTE]
 > Si vous avez configuré des destinations de gestion des états électroniques pour plusieurs composants du format de gestion des états électroniques en cours d’exécution, une option sera proposée séparément pour chaque composant configuré du format de gestion des états électroniques.
 
+Si plusieurs formats ER sont applicables en tant que modèles de rapport pour le document sélectionné, toutes les destinations ER pour tous les modèles de rapport ER applicables sont affichées dans la boîte de dialogue et disponibles pour un ajustement manuel au moment de l’exécution.
+
+Si aucun modèle de rapport [SQL Server Reporting Services (SSRS)](SSRS-report.md) n’est applicable au document sélectionné, la sélection standard des destinations de gestion de l’impression est masquée dynamiquement.
+
+À partir de la version Finance **10.0.31**, vous pouvez modifier manuellement les destinations ER affectées au moment de l’exécution pour les documents commerciaux suivants :
+
+- Relevé de compte client
+- Note d’intérêt
+- Note de lettre de relance
+- Conseil de paiement client
+- Conseil de paiement fournisseur
+
+Pour activer la capacité de changer les destinations ER au runtime, activez la fonctionnalité **Autoriser l’ajustement des destinations ER au runtime** dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace).
+
+> [!IMPORTANT]
+> Pour les rapports **Conseil de paiement client** et **Conseil de paiement fournisseur**, la possibilité de modifier manuellement les destinations ER n’est disponible que si le déploiement en mode Flighting **ForcePrintJobSettings** est activé.
+
+[![Réglage des destinations ER au runtime.](./media/ERdestinaiotnChangeUI.jpg)](./media/ERdestinaiotnChangeUI.jpg)
+
+> [!NOTE]
+> Quand l’option **Utiliser la destination de gestion d’impression** est définie sur **Oui**, le système utilise les destinations ER par défaut qui sont configurées pour des rapports d’urgence spécifiques. Toutes les modifications manuelles apportées dans la boîte de dialogue sont ignorées. Définissez l’option **Utiliser la destination de gestion d’impression** sur **Non** pour traiter les documents vers les destinations ER définies dans la boîte de dialogue immédiatement avant d’exécuter les rapports.
+
+Les documents commerciaux suivants ne supposent pas la sélection explicite d’une action par l’utilisateur quand ils sont exécutés :
+
+- Relevé de compte client
+- Note d’intérêt
+- Note de lettre de relance
+- Conseil de paiement client
+- Conseil de paiement fournisseur
+
+La logique suivante est utilisée pour déterminer quelle action est utilisée pendant le traitement des rapports précédents :
+
+- Si le déploiement en mode Flighting **ForcePrintJobSettings** est activé :
+
+    - Si l’option **Utiliser la destination de gestion d’impression** est définie sur **Oui**, l’action **Imprimer** est utilisée.
+    - Si l’option **Utiliser la destination de gestion d’impression** est définie sur **Non**, l’action **Afficher** est utilisée.
+
+- Si le déploiement en mode Flighting **ForcePrintJobSettings** n’est pas activé :
+
+    - Si l’option **Utiliser la destination de gestion d’impression** est définie sur **Oui**, l’action **Imprimer** est utilisée pour les rapports **Conseil de paiement client** et **Conseil de paiement fournisseur**.
+    - Si l’option **Utiliser la destination de gestion d’impression** est définie sur **Non**, le modèle de rapport SSRS par défaut est toujours utilisé pour le Rapports **Conseil de paiement client** et **Conseil de paiement fournisseur**, quels que soient les paramètres ER configurés.
+    - L’action **Imprimer** est toujours utilisée pour les rapports **Relevé de compte client**, **Note d’intérêt** et **Note de lettre de relance**.
+
+Pour la logique précédente, les actions **Imprimer** ou **Afficher** peuvent être utilisées pour configurer des destinations de rapport ER dépendantes de l’action. Au moment de l’exécution, seules les destinations ER configurées pour une action spécifique sont filtrées dans la boîte de dialogue.
+
 ## <a name="verify-the-provided-user-action"></a>Vérifier l’action utilisateur fournie
 
 Vous pouvez vérifier quelle action utilisateur, le cas échéant, est fournie pour le format de gestion des états électroniques en cours d’exécution lorsque vous effectuez une action utilisateur spécifique. Cette vérification est importante lorsque vous devez configurer des destinations de gestion des états électroniques dépendant de l’action, mais que vous ne savez pas quel code d’action utilisateur, le cas échéant, est fourni. Par exemple, lorsque vous commencez à publier une facture financière et que vous définissez l’option **Facture financière** sur **Oui** dans la boîte de dialogue **Publier une facture financière**, vous pouvez définir l’option **Utiliser la destination de gestion de l’impression** sur **Oui** ou **Non**.
@@ -105,23 +150,9 @@ Suivez ces étapes pour vérifier le code d’action utilisateur fourni.
 
     ![Page des journaux d’exécution de rapports électroniques qui contient des informations sur le code d’action de l’utilisateur qui a été fourni pour l’exécution filtrée d’un format de gestion des états électroniques.](./media/er-destination-action-dependent-03.png)
 
-## <a name=""></a><a name="reports-list-wave1">Liste des documents commerciaux (vague 1)</a>
-
-La liste suivante de documents commerciaux est contrôlée par la fonctionnalité, **Acheminer la sortie des états PM selon les destinations de gestion des états électroniques spécifiques à une action d’utilisateur (vague 1)**  :
-
-- Facture client (facture financière)
-- Facture client (facture de vente)
-- Commande fournisseur
-- Demande de renseignements sur les achats liée à une commande fournisseur
-- Confirmation de commande client
-- Note de lettre de relances
-- Note d’intérêt
-- Conseil de paiement fournisseur
-- Appel d’offre
-
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
 
 [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 

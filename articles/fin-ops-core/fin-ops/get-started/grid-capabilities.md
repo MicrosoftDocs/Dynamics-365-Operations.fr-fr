@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 6d14bba13dbf701a8c27c10ac2d318b071092bc1
+ms.sourcegitcommit: 77ffeccffff28fbb6ff576864d7abddd412cdab6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405463"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9852371"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -71,7 +71,7 @@ Il existe deux façons de configurer une colonne pour afficher une valeur calcul
 
 - Une fois le pied de page visible, sélectionnez **Afficher le total** (ou **Sélectionnez la valeur calculée** si la **Capacités d’agrégation de grille étendues** est activée) dans la zone de pied de page au bas de la colonne pour laquelle vous souhaitez afficher une valeur calculée. S’il n’y a pas de colonnes configurées, ce bouton sera disponible dans le pied de page dans toutes les colonnes numériques.
 
-    Une fois qu’au moins une colonne est configurée pour afficher une valeur calculée, la **Afficher le total** (ou **Sélectionnez la valeur calculée**) ne sera disponible que lors du survol ou de la mise au point. L’action de sélection du bouton enregistre simplement votre préférence d’affichage d'une valeur calculée dans la colonne, afin que la préférence soit appliquée au moment des visites futures sur cette page. Dans le pied de page, cet état est indiqué par un tiret qui s’affiche dans la colonne. (Notez que la valeur calculée apparaîtra immédiatement si l’ensemble de données est suffisamment petit.)
+    Une fois qu’au moins une colonne est configurée pour afficher une valeur calculée, la **Afficher le total** (ou **Sélectionnez la valeur calculée**) ne sera disponible que lors du survol ou de la mise au point. L’action de sélection du bouton enregistre simplement votre préférence d’affichage d’une valeur calculée dans la colonne, afin que la préférence soit appliquée au moment des visites futures sur cette page. Dans le pied de page, cet état est indiqué par un tiret qui s’affiche dans la colonne. (Notez que la valeur calculée apparaîtra immédiatement si l’ensemble de données est suffisamment petit.)
 
 Si vous faites une erreur et que vous ne souhaitez plus afficher une valeur calculée dans une colonne spécifique, sélectionnez et maintenez (ou cliquez avec le bouton droit) dans la colonne, puis sélectionnez **Masquer le total** (ou **Afficher les totaux des colonnes \> Aucun** si la **Capacités d’agrégation de grille étendues** fonction est activée). Sinon, sélectionnez **Masquer le total** (ou **Masquer la valeur calculée**) dans le pied de page de cette colonne. Cette préférence sera également enregistrée pour les futures visites de la page. 
 
@@ -81,7 +81,7 @@ Lorsque vous accédez à une page où le pied de page est visible et que les col
 Si le calcul prend trop de temps, vous pouvez annuler l’opération à tout moment en sélectionnant le bouton **Annuler**. Parfois, le jeu de données sera trop volumineux pour calculer des valeurs agrégées (une limite imposée par votre organisation). Dans ce cas, vous serez plutôt averti de filtrer davantage vos données.
 
 > [!NOTE]
-> Les administrateurs de système peuvent modifier la limite du nombre d’enregistrements qui sont disponibles pour le calcul des agrégats en ajustant le paramètre **Nombre maximal d’enregistrements locaux pour chaque grille** sur la page **Options de performances des clients** . La valeur par défaut est 25 000 enregistrements. Les administrateurs doivent être prudents lorsqu'ils ajustent cette valeur, car une valeur trop élevée peut épuiser la mémoire disponible sur la machine de l’utilisateur. Nous recommandons que la valeur ne doit pas dépasser 50 000 enregistrements.
+> Les administrateurs de système peuvent modifier la limite du nombre d’enregistrements qui sont disponibles pour le calcul des agrégats en ajustant le paramètre **Nombre maximal d’enregistrements locaux pour chaque grille** sur la page **Options de performances des clients** . La valeur par défaut est 25 000 enregistrements. Les administrateurs doivent être prudents lorsqu’ils ajustent cette valeur, car une valeur trop élevée peut épuiser la mémoire disponible sur la machine de l’utilisateur. Nous recommandons que la valeur ne doit pas dépasser 50 000 enregistrements.
 
 Les valeurs calculées seront mises à jour automatiquement quand vous mettez à jour, supprimez ou créez des lignes dans le jeu de données.
 
@@ -210,9 +210,9 @@ Pour désactiver une grille individuelle de la validation de ligne asynchrone, a
 Si un développeur définit la propriété **WidthMode** sur **Ajuster à disponible** pour les colonnes à l’intérieur de la nouvelle grille, ces colonnes ont initialement la même largeur qu’elles auraient si la propriété était définie sur **Ajuster à disponible**. Cependant, elles s’étirent pour utiliser toute largeur supplémentaire disponible à l’intérieur de la grille. Si la propriété est définie sur **Ajuster à disponible** pour plusieurs colonnes, toutes ces colonnes partagent la largeur supplémentaire disponible à l’intérieur de la grille. Cependant, si un utilisateur redimensionne manuellement l’une de ces colonnes, la colonne devient statique. Elle restera à cette largeur et ne s’étirera plus pour prendre la largeur de grille supplémentaire disponible.
 
 ### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Développeur] Consultez la colonne qui reçoit le focus initial lorsque de nouvelles lignes sont créées à l’aide de la touche fléchée vers le bas
-Comme cela a été discuté dans la section [Différences lors de la saisie de données en amont du système](#differences-when-entering-data-ahead-of-the-system) , si la fonctionnalité « Saisir en amont du système » est activée et qu’un utilisateur crée une nouvelle ligne à l’aide de la touche **Flèche vers le bas**, le comportement par défaut consiste à mettre l'accent sur la première colonne de la nouvelle ligne. Cette expérience peut différer de l’expérience de la grille héritée ou lorsqu’un **Nouveau** bouton est sélectionné.
+Comme cela a été discuté dans la section [Différences lors de la saisie de données en amont du système](#differences-when-entering-data-ahead-of-the-system) , si la fonctionnalité « Saisir en amont du système » est activée et qu’un utilisateur crée une nouvelle ligne à l’aide de la touche **Flèche vers le bas**, le comportement par défaut consiste à mettre l’accent sur la première colonne de la nouvelle ligne. Cette expérience peut différer de l’expérience de la grille héritée ou lorsqu’un **Nouveau** bouton est sélectionné.
 
-Les utilisateurs et les organisations peuvent créer des vues enregistrées optimisées pour la saisie de données. (Par exemple, vous pouvez réorganiser les colonnes afin que la première colonne soit celle dans laquelle vous souhaitez commencer à saisir des données.) De plus, à partir de la version 10.0.29, les organisations peuvent ajuster ce comportement en utilisant le **selectedControlOnCreate()** méthode. Cette méthode permet à un développeur de spécifier la colonne qui doit recevoir le focus initial lorsqu'une nouvelle ligne est créée à l’aide de la touche **Fléchée vers le bas** . En entrée, cette API prend l’ID de contrôle qui correspond à la colonne qui doit recevoir le focus initial.
+Les utilisateurs et les organisations peuvent créer des vues enregistrées optimisées pour la saisie de données. (Par exemple, vous pouvez réorganiser les colonnes afin que la première colonne soit celle dans laquelle vous souhaitez commencer à saisir des données.) De plus, à partir de la version 10.0.29, les organisations peuvent ajuster ce comportement en utilisant le **selectedControlOnCreate()** méthode. Cette méthode permet à un développeur de spécifier la colonne qui doit recevoir le focus initial lorsqu’une nouvelle ligne est créée à l’aide de la touche **Fléchée vers le bas** . En entrée, cette API prend l’ID de contrôle qui correspond à la colonne qui doit recevoir le focus initial.
 
 ### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Développeur] Gestion des grilles avec des contrôles extensibles non React
 Lors du chargement d’une grille, si le système rencontre un contrôle extensible qui n’est pas basé sur React, le système forcera le rendu de la grille héritée à la place. Quand un utilisateur rencontre pour la première fois cette situation, un message concernant l’actualisation de la page s’affiche. Ensuite, cette page chargera automatiquement l’ancienne grille sans aucune autre notification aux utilisateurs jusqu’à la prochaine mise à jour du système. 
@@ -225,6 +225,7 @@ Cette section maintient une liste des problèmes connus pour le nouveau contrôl
 ### <a name="open-issues"></a>Questions ouvertes
 - Après avoir activé la fonctionnalité **Nouveau contrôle de grille**, certaines pages vont continuer à utiliser le contrôle de grille existant. Cela se produit dans les scénarios suivants :
  
+    - [Résolu] Problème 762533 : erreur client inattendue lors de la sélection d’une ligne dans une liste de cartes.
     - [Résolu] Il existe une liste de cartes sur la page qui est affichée dans plusieurs colonnes.
         - Ce type de liste de cartes est pris en charge par le **Nouveau contrôle de grille** à partir de la version 10.0.30. Toute utilisation de forceLegacyGrid() à cette fin peut être supprimée. 
     - [Résolu] Il existe une liste de cartes groupée sur la page.

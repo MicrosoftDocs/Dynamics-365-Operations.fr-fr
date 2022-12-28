@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: 0949b9d7a4b181605d43956932b4fc095940bd64
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 896847cee696e221b2114f7f28a0b56e73fc911b
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780374"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838227"
 ---
 # <a name="set-up-apple-pay-with-adyen-in-dynamics-365-commerce"></a>Configurez Apple Pay avec Adyen dans Dynamics 365 Commerce
 
@@ -102,13 +102,6 @@ Pour configurer une boutique en ligne Commerce pour Apple Pay, procédez comme 
 
 1. Une fois les informations du marchand entrées, exécutez la tâche du programme de distribution de configuration du canal **1070**.
 
-## <a name="configure-commerce-pos-for-apple-pay"></a>Configurer le PDV Commerce pour Apple Pay
-
-La configuration du PDV utilise la configuration du champ **Service TEF** du profil de matériel pour le connecteur Dynamics 365 Payment Connector pour Adyen. Dans Commerce Headquarters, configurez le service TEF pour le connecteur Dynamics 365 Payment Connector pour Adyen comme décrit dans [Configurer une section de profil de matériel de PDV Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-Vérifiez que vous ajoutez **ApplePay** à la liste des types de mode de paiement dans le champ **Types de mode de paiement pris en charge**. Utilisez des points-virgules (;) pour séparer les types de mode de paiement dans la liste.
-
-Le mappage du processeur pour le connecteur Adyen va capturer les types de carte de portefeuille utilisés par Apple Pay sur le terminal de PDV.
 
 ### <a name="configure-content-security-policies-in-site-builder"></a>Configurer les stratégies de sécurité du contenu dans le générateur de site
 
@@ -138,6 +131,14 @@ Les paramètres du module **Apple Pay** sont intégrés au module et se connect
 Le bouton de paiement **Apple Pay** s’affiche uniquement sur les périphériques Apple Pay pris en charge (iPhones, iPads et navigateurs Safari prenant en charge Apple Pay). Si un utilisateur n’utilise pas l’un de ces périphériques, le bouton de paiement **Apple Pay** est masqué.
 
 Lorsqu’un utilisateur sélectionne le bouton de paiement **Apple Pay**, une boîte de dialogue **Apple Pay** s’affiche. Elle permet à l’utilisateur de s’authentifier auprès de son périphérique Apple Pay ou de son navigateur. La boîte de dialogue **Apple Pay** affiche une synthèse du montant de la commande et du mode de paiement que l’utilisateur a configuré sur son Apple Wallet. Il peut consulter ces détails, puis cliquer sur **Payer** pour confirmer le paiement. Une fois le paiement effectué, l’utilisateur est dirigé vers la page de site **Commande terminée** qui affiche un résumé de commande détaillé pour la transaction terminée.
+
+## <a name="configure-commerce-pos-for-apple-pay"></a>Configurer le PDV Commerce pour Apple Pay
+
+La configuration du PDV utilise la configuration du champ **Service TEF** du profil de matériel pour le connecteur Dynamics 365 Payment Connector pour Adyen. Dans Commerce Headquarters, configurez le service TEF pour le connecteur Dynamics 365 Payment Connector pour Adyen comme décrit dans [Configurer un profil de matériel de PDV Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+Vérifiez que vous ajoutez **ApplePay** à la liste des types de mode de paiement dans le champ **Types de mode de paiement pris en charge**. Utilisez des points-virgules (;) pour séparer les types de mode de paiement dans la liste.
+
+Le mappage du processeur pour le connecteur Adyen va capturer les types de carte de portefeuille utilisés par Apple Pay sur le terminal de PDV.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

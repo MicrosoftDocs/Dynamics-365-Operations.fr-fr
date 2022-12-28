@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 61d3ebc85d3c3d20bb17acd7364adc04cd2f3f94
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764237"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843678"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications de l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Cet article répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20390"></a>Version 2.0.39.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+- Stabilité accrue. 
+- Les champs de la page **Personnalisée** ne sont plus triés automatiquement en fonction de leurs paramètres de priorité et de sous-priorité.  
+- L’application utilise désormais les paramètres de priorité et de sous-priorité de chaque champ pour identifier le champ principal d’une page. Le champ principal est affiché dans l’en-tête de l’étape. 
+- Correction d’un problème où le clavier logiciel ne se cachait pas sur Android.
+- Correction d’un problème où le compteur de quantité affichait une valeur correcte incorrecte à l’ouverture dans le flux de *mouvement*. 
+- Correction d’un problème où la valeur du compteur de quantité en lecture seule n’était pas correctement centrée. 
+- Correction d’un problème où les pages Web ne s’ouvraient pas à partir de la page **À propos**. 
+- Le thème de couleur *Automatique* prend désormais son apparence par défaut (clair ou foncé) en fonction du thème global défini dans le système d’exploitation de l’appareil mobile.
 
 ## <a name="version-20370"></a>Version 2.0.37.0
 
@@ -166,7 +178,7 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 - Pour les flux qui en ont besoin, la toupie de quantité inclut désormais une position qui permet aux utilisateurs de soumettre une valeur numérique vide.
 - Correction de problèmes avec l’orientation de la toupie de quantité.
 - Correction d’un problème où la toupie de quantité afficherait la mauvaise valeur.
-- Correction d’un problème où l’entrée à la page principale était perdue quand  elle était complétée depuis la page des détails.
+- Correction d’un problème où l’entrée à la page principale était perdue quand elle était complétée depuis la page des détails.
 - Correction d’un problème où le texte de l’espace réservé était traité comme la valeur initialement sélectionnée dans les listes de sélection.
 - Le bouton « Envoyer » sur les étapes de confirmation est maintenant automatiquement activé s’il y a des valeurs présélectionnées.
 - Correction de la carte de détails pour afficher autant de lignes que possible pour les champs de texte comportant plusieurs lignes.
@@ -190,7 +202,7 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
 
 - Amélioration des performances en corrigeant un problème de fuite de mémoire.
-- Correction d’un problème où certaines valeurs de champ ne se mettaient pas à jour correctement quand  elles étaient sélectionnées sur la page de détails.
+- Correction d’un problème où certaines valeurs de champ ne se mettaient pas à jour correctement quand elles étaient sélectionnées sur la page de détails.
 
 ## <a name="version-20140"></a>Version 2.0.14.0
 

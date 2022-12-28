@@ -10,32 +10,32 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c173057b8e1357790e780469c5806afb857be62a
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893263"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838315"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>Codes National Motor Freight Classification (NMFC)
 
 [!include [banner](../includes/banner.md)]
 
-Les codes NMFC (National Motor Freight Classification) vous aident à classer les articles qui peuvent être expédiés. Le code NMFC est une désignation utilisée pour regrouper les produits. Il permet aux entreprises de transport d'évaluer les marchandises à expédier en classant les articles en fonction de considérations telles que la capacité du camion, les problèmes de chargement, les problèmes de manutention et la périssabilité. Les produits sont regroupés dans l'une des 18 classes de fret en utilisant une plage de nombres de 50 à 500. La classe dans laquelle une marchandise est regroupée est basée sur une évaluation de quatre caractéristiques de transport : densité, capacité de rangement, manutention et responsabilité. Ces caractéristiques désignent ensemble la transportabilité de la marchandise.
+Les codes NMFC (National Motor Freight Classification) vous aident à classer les articles qui peuvent être expédiés. Le code NMFC est une désignation utilisée pour regrouper les produits. Il permet aux entreprises de transport d’évaluer les marchandises à expédier en classant les articles en fonction de considérations telles que la capacité du camion, les problèmes de chargement, les problèmes de manutention et la périssabilité. Les produits sont regroupés dans l’une des 18 classes de fret en utilisant une plage de nombres de 50 à 500. La classe dans laquelle une marchandise est regroupée est basée sur une évaluation de quatre caractéristiques de transport : densité, capacité de rangement, manutention et responsabilité. Ces caractéristiques désignent ensemble la transportabilité de la marchandise.
 
-Un code NMFC est associé à chaque article d'expédition à chargement partiel (LTL). Par exemple, un ordinateur portable peut se voir attribuer un NMFC classé à 2,5, tandis que des fils électriques peuvent se voir attribuer un NMFC classé à 65.
+Un code NMFC est associé à chaque article d’expédition à chargement partiel (LTL). Par exemple, un ordinateur portable peut se voir attribuer un NMFC classé à 2,5, tandis que des fils électriques peuvent se voir attribuer un NMFC classé à 65.
 
-Cette fonctionnalité peut aider les collaborateurs à utiliser les codes NMFC pour classer les articles d'expédition LTL. Voici quelques exemples :
+Cette fonctionnalité peut aider les collaborateurs à utiliser les codes NMFC pour classer les articles d’expédition LTL. Voici quelques exemples :
 
-- Si votre entreprise inclut une description du fret sur la feuille de chargement (BOL), le transporteur aura une idée de sa composition. Le fret est une classification importante, car de nombreuses entreprises de transport fondent leur modèle commercial global sur les types de fret qu'elles expédient.
-- Cette classification peut être essentielle pour votre entreprise car elle sert à déterminer le coût d'une charge donnée.
-- Votre entreprise peut identifier la rentabilité d'une entreprise de logistique et de transport LTL.
+- Si votre entreprise inclut une description du fret sur la feuille de chargement (BOL), le transporteur aura une idée de sa composition. Le fret est une classification importante, car de nombreuses entreprises de transport fondent leur modèle commercial global sur les types de fret qu’elles expédient.
+- Cette classification peut être essentielle pour votre entreprise car elle sert à déterminer le coût d’une charge donnée.
+- Votre entreprise peut identifier la rentabilité d’une entreprise de logistique et de transport LTL.
 
 Cet article décrit comment utiliser des codes NMFC dans Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant de pouvoir créer des codes NMFC, vous devez configurer toutes les classes de fret LTL qui doivent y être mappées. Les classes de fret LTL représentent des catégories d'articles, tandis que les codes NMFC sont liés à des produits spécifiques dans chacune des 18 classes de fret. Pour plus d'informations sur l'utilisation des classes LTL, consultez [Classes de chargement partiel d'un camion (Less than truckload, LTL)](ltl-class.md).
+Avant de pouvoir créer des codes NMFC, vous devez configurer toutes les classes de fret LTL qui doivent y être mappées. Les classes de fret LTL représentent des catégories d’articles, tandis que les codes NMFC sont liés à des produits spécifiques dans chacune des 18 classes de fret. Pour plus d’informations sur l’utilisation des classes LTL, consultez [Classes de chargement partiel d’un camion (Less than truckload, LTL)](ltl-class.md).
 
 ## <a name="create-an-nmfc-code"></a>Créer un code NMFC
 
@@ -51,13 +51,13 @@ Pour créer un code NMFC, procédez comme suit :
     - **Code NMFC** – Entrez le code NMFC du type de marchandise.
     - **Nom** – Entrez un nom pour le code NMFC.
     - **Classe LTL** - Sélectionnez la classe LTL associée au code NMFC.
-    - **Unité de manutention BOL** - Définissez le type de manutention par défaut pour l'expédition.
+    - **Unité de manutention BOL** - Définissez le type de manutention par défaut pour l’expédition.
 
 ## <a name="example-set-up-nmfc-codes"></a>Exemple : Paramétrer les codes NMFC
 
-L'exemple suivant montre comment configurer deux codes NMFC différents que vous pouvez utiliser avec différents types de produits.
+L’exemple suivant montre comment configurer deux codes NMFC différents que vous pouvez utiliser avec différents types de produits.
 
-1. Accédez à **Gestion des entrepôts \> Paramétrage \> Stock \> Codes NMFC**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Stock \> Codes NMFC** ou **Gestion du transport \> Paramétrage \> Normes de transport \> Codes NMFC**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
@@ -79,7 +79,7 @@ L'exemple suivant montre comment configurer deux codes NMFC différents que vous
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Classes de chargement partiel d'un camion (Less than truckload, LTL)](ltl-class.md)
+- [Classes de chargement partiel d’un camion (Less than truckload, LTL)](ltl-class.md)
 - [Créer une feuille de chargement](create-bill-of-lading.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

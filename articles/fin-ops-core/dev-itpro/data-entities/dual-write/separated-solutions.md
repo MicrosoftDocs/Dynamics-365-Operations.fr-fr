@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7f2a9b9e52b80c0feae0ac0dcb1ddf0a5c0cd27c
+ms.sourcegitcommit: 8aba7d2f45ef03a14f33f4b430ce92a11c876e2e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111658"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9884114"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Package d’orchestration d’application à double écriture séparé
 
@@ -58,7 +58,7 @@ Le package Base d’application à double écriture permet aux utilisateurs d’
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications de finances et d'opérations     | Applications Customer Engagement                    |
+| Applications de finances et d’opérations     | Applications Customer Engagement                    |
 |---------------------------------|---------------------------------------------|
 | Unité opérationnelle                  | msdyn_internalorganizations                 |
 | Hiérarchie d’organisation          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ Le package Human Resources à double écriture contient les solutions et les car
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications de finances et d'opérations | Applications Customer Engagement         |
+| Applications de finances et d’opérations | Applications Customer Engagement         |
 |-----------------------------|----------------------------------|
 | Origines ethniques              | cdm_ethnicorigins                |
 | Fonction de tâche de rémunération   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Le package Supply Chain à double écriture contient les solutions et les cartes
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications de finances et d'opérations                 | Applications Customer Engagement                      |
+| Applications de finances et d’opérations                 | Applications Customer Engagement                      |
 |---------------------------------------------|-----------------------------------------------|
 | Unités                                       | UM                                          |
 | En-têtes de commande client CDS                     | salesorders                                   |
@@ -183,6 +183,7 @@ Le package Supply Chain à double écriture dépend des trois packages suivants.
 - Package de Base d’application à double écriture
 - Package de Finance à double écriture
 - Package de Human Resources en double écriture
+- Tables communes Dynamics 365 HR
 
 ## <a name="dual-write-finance"></a>Finance à double écriture
 
@@ -197,7 +198,7 @@ Le package Finance à double écriture contient les solutions et les cartes néc
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications de finances et d'opérations             | Applications Customer Engagement        |
+| Applications de finances et d’opérations             | Applications Customer Engagement        |
 |-----------------------------------------|---------------------------------|
 | Groupes de retenue à la source                  | msdyn_withholdingtaxgroups      |
 | CDS Contacts V2 (client)              | contacts                        |
@@ -274,7 +275,7 @@ Le package Gestion des actifs à double écriture contient les solutions et les 
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications de finances et d'opérations                           | Applications Customer Engagement                |
+| Applications de finances et d’opérations                           | Applications Customer Engagement                |
 |-------------------------------------------------------|-----------------------------------------|
 | Garantie de la gestion des actifs                             | msdyn_warranties                        |
 | Modèles de gestion des actifs                               | msdyn_models                            |

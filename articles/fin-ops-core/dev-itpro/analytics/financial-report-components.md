@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.form: FinancialReports
-ms.openlocfilehash: 66430f81bd3d1efe126dfb29fa9c6a093716f90e
-ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
+ms.openlocfilehash: 180b3c64b9eb506f162071a67b1fa9b728a569ce
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802713"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831608"
 ---
 # <a name="financial-report-components"></a>Composants de l’état financier
 
@@ -65,7 +65,7 @@ Pour déverrouiller un bloc élémentaire verrouillé, ouvrez le bloc élémenta
 
 ## <a name="building-block-groups"></a>Groupes de blocs élémentaires
 
-Les blocs élémentaires sont les définitions de ligne, de colonne, d’organigramme d’entreprise et de rapport que vous créez pour un rapport. Les groupes de blocs élémentaires sont des collections regroupant les définitions et ensembles de dimensions.
+Les blocs élémentaires sont les définitions de ligne, de colonne, d’organigramme d’entreprise et de rapport que vous créez pour un rapport. Les groupes de blocs élémentaires sont des collections regroupant les définitions et ensembles de valeurs de dimensions.
 
 ### <a name="view-a-building-block-group"></a>Affichage d’un groupe de blocs élémentaires
 
@@ -78,17 +78,17 @@ Vous pouvez afficher tous les blocs élémentaires affectés à un groupe de blo
 
 ### <a name="export-a-building-block-group"></a>Exportation d’un groupe de blocs élémentaires
 
-Vous pouvez également exporter un groupe de blocs élémentaires ou des blocs élémentaires de génération d’états spécifiques dans un groupe de blocs élémentaires. Vous pouvez utiliser le groupe de blocs élémentaires exporté comme fichier de sauvegarde. Vous pouvez également copier les données exportées entre les installations. Le concepteur d’états inclut les styles de police et ensembles de dimensions référencés avec le groupe de blocs élémentaires.
+Vous pouvez également exporter un groupe de blocs élémentaires ou des blocs élémentaires de génération d’états spécifiques dans un groupe de blocs élémentaires. Vous pouvez utiliser le groupe de blocs élémentaires exporté comme fichier de sauvegarde. Vous pouvez également copier les données exportées entre les installations. Report Designer inclut les styles de police et ensembles de valeurs de dimensions référencés avec le groupe de blocs élémentaires.
 
 1. Dans Report Designer, sur le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
 2. Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le groupe à exporter, puis cliquez sur **Exporter**.
 3. Dans la boîte de dialogue **Exporter**, sélectionnez les définitions de rapport à exporter :
 
     - Pour exporter toutes vos définitions de rapport et les blocs élémentaires associés, cliquez sur **Sélectionner tout**.
-    - Pour exporter des rapports, lignes, colonnes, organigrammes ou ensembles de dimensions spécifiques, cliquez sur l’onglet approprié et sélectionnez les éléments à exporter. Maintenez la touche CTRL enfoncée pour sélectionner plusieurs éléments dans un onglet.
+    - Pour exporter des rapports, lignes, colonnes, organigrammes ou ensembles de valeurs de dimensions spécifiques, cliquez sur l’onglet approprié et sélectionnez les éléments à exporter. Maintenez la touche CTRL enfoncée pour sélectionner plusieurs éléments dans un onglet.
 
     > [!NOTE]
-    > Lorsque vous sélectionnez des rapports à exporter, les lignes, les colonnes, les arborescences et les ensembles de dimensions associés sont sélectionnés.
+    > Lorsque vous sélectionnez des rapports à exporter, les lignes, les colonnes, les arborescences et les ensembles de valeurs de dimensions associés sont sélectionnés.
 
 4. Lorsque vous avez terminé de sélectionner les éléments à exporter, cliquez sur **Exporter**.
 5. Dans la boîte de dialogue **Enregistrer sous**, sélectionnez un emplacement où exporter le groupe de blocs élémentaires.
@@ -97,7 +97,7 @@ Vous pouvez également exporter un groupe de blocs élémentaires ou des blocs �
 
 ### <a name="import-a-building-block-group"></a>Importation d’un groupe de blocs élémentaires
 
-Vous pouvez importer un groupe de blocs élémentaires dans un groupe de blocs élémentaires existant. Tous les groupes de bloc élémentaires importés conservent leurs styles de police et les références de la société d’origine et incluent les ensembles de dimensions appropriés.
+Vous pouvez importer un groupe de blocs élémentaires dans un groupe de blocs élémentaires existant. Tous les groupes de bloc élémentaires importés conservent leurs styles de police et les références de la société d’origine et incluent les ensembles de valeurs de dimensions appropriés.
 
 1. Dans Report Designer, sur le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
 2. Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le bloc élémentaire dans lequel vous souhaitez importer un groupe de blocs élémentaires, puis cliquez sur **Importer**.
@@ -105,7 +105,7 @@ Vous pouvez importer un groupe de blocs élémentaires dans un groupe de blocs �
 4. Dans la boîte de dialogue **Importer**, sélectionnez les définitions de rapport à importer :
 
     - Pour importer toutes les définitions de rapport et les blocs élémentaires pris en charge, cliquez sur **Sélectionner tout**.
-    - Pour importer des rapports, lignes, colonnes, organigrammes ou ensembles de dimensions spécifiques, sélectionnez les rapports, lignes, colonnes, organigrammes ou ensembles de dimensions à importer.
+    - Pour importer des rapports, lignes, colonnes, organigrammes ou ensembles de valeurs de dimensions spécifiques, sélectionnez les rapports, lignes, colonnes, organigrammes ou ensembles de valeurs de dimensions à importer.
 
 5. Lorsque vous avez terminé de sélectionner les éléments à importer, cliquez sur **Importer**.
 

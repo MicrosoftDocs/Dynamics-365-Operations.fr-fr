@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e7f919b28f6d0c8cd830ecfab4608be50b684c8e
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: fd9877365977694ca29f4d9116bcae45360306d5
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135455"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843624"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Page d’accueil de la comptabilité globale des stocks
 
@@ -40,15 +40,21 @@ Une convention est un ensemble de politiques de comptabilité des stocks qui peu
 
 La comptabilité globale des stocks est actuellement disponible dans les régions géographiques Azure suivantes :
 
-- Etats-Unis
-- Europe
-- Royaume-Uni
 - Australie
 - Canada
+- Chine
+- Europe
+- France
+- Norvège
+- Afrique du Sud
+- Suisse
+- Émirats arabes unis
+- Royaume-Uni
+- Etats-Unis
 
 Si vous essayez d’installer le complément à partir d’une autre région géographique, Microsoft Dynamics Lifecycle Services (LCS) affichera un message indiquant que votre région géographique n’est pas prise en charge. La comptabilité globale des stocks ne prend pas en charge les déploiements sur site de Supply Chain Management.
 
-Si vous rencontrez des problèmes pour activer la comptabilité globale des stocks dans l'une des régions géographiques prises en charge répertoriées ici, veuillez envoyer un message électronique avec votre ID d'environnement à [Équipe de comptabilité des stocks mondiaux](mailto:GlobalInvAccount@microsoft.com) pour validation.
+Si vous rencontrez des problèmes pour activer la comptabilité globale des stocks dans l’une des régions géographiques prises en charge répertoriées ici, veuillez envoyer un message électronique avec votre ID d’environnement à [Équipe de comptabilité des stocks mondiaux](mailto:GlobalInvAccount@microsoft.com) pour validation.
 
 ## <a name="licensing"></a>Gestionnaire de licences
 

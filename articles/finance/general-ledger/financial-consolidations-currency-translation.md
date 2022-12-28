@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b2f5f56e757e89339c12fd41c59848b4c987a2f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846855"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831831"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Vue d’ensemble de consolidations financières et conversion de devises
 
@@ -64,7 +64,7 @@ Voici quelques-uns des scénarios de consolidation pris en charge par la fonctio
 - Consolidations impliquant plusieurs devises de déclaration
 
 ## <a name="legal-entity-setup"></a>Paramétrage de l’entité juridique
-Avant de traiter une consolidation, vous devez paramétrer l’entité juridique. Vous pouvez exécuter la consolidation autant de fois que nécessaire, et toutes les données seront converties de la devise comptable de la société source vers la devise définie pour la société de consolidation. Par conséquent, pour la structure organisationnelle suivante, si vous devez d’abord convertir toutes les sociétés nord-américaines en dollar américain (USD) puis en euro (EUR), la devise de la société parent, vous devez avoir au moins deux sociétés de consolidation.
+Avant de traiter une consolidation, vous devez paramétrer l’entité juridique. Vous pouvez exécuter la consolidation autant de fois que nécessaire, et toutes les données seront converties de la devise comptable de la société source ou la devise de déclaration vers la devise définie pour la société de consolidation. Par conséquent, pour la structure organisationnelle suivante, si vous devez d’abord convertir toutes les sociétés nord-américaines en dollar américain (USD) puis en euro (EUR), la devise de la société parent, vous devez avoir au moins deux sociétés de consolidation.
 
 ![Structure organisationnelle.](./media/organizational-structure.png "Structure organisationnelle")
 
